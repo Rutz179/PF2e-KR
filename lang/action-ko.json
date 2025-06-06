@@ -1,0 +1,1046 @@
+{
+  "PF2E": {
+    "Action": {
+      "ApplyEffect": "효과 적용",
+      "ExpandDescription": "설명 확장",
+      "Range": {
+        "IncrementN": "사거리 간격 {n} 피트",
+        "MaxN": "사거리 {n} 피트."
+      },
+      "Use": "사용"
+    },
+    "Actions": {
+      "AdministerFirstAid": {
+        "Description": "<p>당신은 빈사상태이거나 출혈 상태인 인접한 생물에게 응급처치를 시행합니다. 생물이 죽어가고 피를 흘리고 있다면, 주사위를 굴리기 전에 어떤 질병을 치료할지 선택합니다. 응급처치를 다시 시행하여 다른 효과를 치료할 수 있습니다.</p><ul><li><strong>안정화</strong> 체력이 0이고 죽어가는 상태인 생물에게 의학 체크를 시도합니다. DC는 5 + 해당 생물의 회복 굴림 DC(일반적으로 15 + 사망 수치)와 같습니다.</li><li><strong>지혈</strong> 지속적인 출혈 피해를 받고 있는 생물에게 의학 체크를 시도합니다. DC는 보통 출혈을 일으킨 효과의 DC입니다.</li></ul><p></strong>성공</strong> 안정화를 시도하는 경우, 대상은 빈사 상태를 잃습니다(하지만 @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious} 상태로 유지됩니다). 출혈을 멈추려던 중이었다면, 대상은 특히 적절한 도움을 받기 위해 DC를 낮춘 회복 보조 효과를 받습니다.</p><p><strong>대실패</strong> 안정시키려던 중이었다면 대상의 빈사 수치가 1 증가합니다. 출혈을 멈추려던 중이었다면, 대상은 즉시 지속 출혈 피해와 동일한 양의 피해를 받습니다.</p>",
+        "Stabilize": {
+          "Description": "<p>체력이 0이고 빈사 상태에 놓인 생물에게 의학 체크를 시도합니다. DC는 5 + 해당 생물의 회복 굴림 DC(일반적으로 15 + 빈사 수치)와 같습니다.</p><p><strong>성공</strong> 생명체는 빈사 상태를 잃습니다(하지만 의식을 잃지 않습니다).<br><strong>중대실패</strong> 생명체의 빈사 수치가 1 증가합니다.</p>",
+          "DifficultyClass": {
+            "Label": "응급 처치 DC 관리"
+          },
+          "Notes": {
+            "criticalFailure": "<strong>대실패</strong> 생물의 빈사 수치가 1 증가합니다.",
+            "success": "<strong>성공</strong> 생물이 빈사 상태를 벗어납니다(하지만 의식을 잃은 상태는 유지합니다)."
+          },
+          "Title": "안정화"
+        },
+        "StopBleeding": {
+          "Description": "<p>지속적인 출혈 피해를 받고 있는 생물에게 의학 체크를 시도합니다. DC는 일반적으로 출혈을 일으킨 효과의 DC입니다.</p><p><strong>성공</strong> 대상은 특히 적절한 경우 낮은 DC로 회복 보조 효과를 받습니다.<br><strong>대실패</strong> 대상은 즉시 지속적인 출혈 피해와 동일한 양의 피해를 받습니다.</p>",
+          "Notes": {
+            "criticalFailure": "<strong>대실패</strong> 생명체는 즉시 지속 출혈 피해에 해당하는 피해를 받습니다.",
+            "success": "<strong>성공</strong> 대상은 특히 적절한 도움을 받으면 낮은 DC로 회복 보조 효과를 받습니다."
+          },
+          "Title": "출혈 중지"
+        },
+        "Title": "응급 처치 실시",
+        "Warning": {
+          "TargetNotDying": "대상 생물이 죽지 않습니다.",
+          "UnknownVariant": "응급 처치 실시에 알 수 없는 {variant}이 사용되었으므로 {variant} 중 하나를 사용하세요."
+        }
+      },
+      "AffixATalisman": {
+        "Description": "<p><strong>Requirements</strong> You must use a @UUID[Compendium.pf2e.equipment-srd.Item.vLGDUFrg4yGzpTQX]{repair toolkit}.</p><hr><p>You spend 10 minutes affixing a talisman to an item, placing the item on a stable surface and using the repair toolkit with both hands. You can also use this activity to remove a talisman. Attaching more than one talisman to an item deactivates all the talismans. They must be removed and re-affixed before they can be used again.</p>",
+        "Title": "Affix a Talisman"
+      },
+      "Aid": {
+        "Description": "<p>당신은 아군의 작업을 도와주려고 합니다. 이 반응을 사용하려면 먼저 자신의 차례에 액션을 사용하여 도움을 줄 준비를 해야 합니다. 어떤 방식으로 아군을 도우려는지 GM에게 정확히 설명해야 하며, GM이 아군을 도울 수 있는지 여부를 결정합니다.</p><p>원조 반응을 사용할 때는 GM이 결정한 유형의 스킬 체크 또는 공격 굴림을 시도합니다. 일반적인 DC는 15이지만, GM은 특별히 어렵거나 쉬운 작업에 대해 이 DC를 조정할 수 있습니다. GM은 상황에 따라 준비 행동이나 원조 반응에 관련 특성을 추가할 수 있으며, 스킬 체크와 공격 굴림 이외의 원조 체크도 허용할 수 있습니다.</p><p><strong>대성공</strong> 발동하는 체크에 +2의 상황 보너스를 아군에게 부여합니다. 자신이 시도한 체크의 통달인 경우 보너스는 +3, 전설인 경우 +4입니다.</p><p><strong>성공</strong> 아군에게 발동하는 체크에 +1 상황 보너스를 부여합니다.</p><p><strong>결정적 실패</strong> 아군은 발동하는 체크에 -1 상황 패널티를 받습니다.</p>",
+        "Notes": {
+          "criticalFailure": "아군은 발동 체크에 -1의 상황 패널티를 받습니다.",
+          "criticalSuccess": "당신은 아군에게 발동하는 체크에 +2의 상황 보너스를 부여합니다. 자신이 시도한 체크에 통달인 경우 보너스는 +3, 전설인 경우 +4가 됩니다.",
+          "success": "아군에게 발동 체크에 +1 상황 보너스를 부여합니다."
+        },
+        "Title": "지원",
+        "Warning": {
+          "NoStatistic": "원조 활동은 다른 통계와 함께 사용할 수 있으며 지정된 통계가 없습니다."
+        }
+      },
+      "ArcaneSlam": {
+        "Modifier": {
+          "SizeDifference": "크기 차이"
+        },
+        "Notes": {
+          "NoTarget": "<strong>사이즈 차이</strong> 대상이 자신보다 한 사이즈 큰 경우 체크에 -2 상황 패널티를, 그보다 큰 경우 -4 상황 패널티를 받습니다. 대상이 나보다 한 사이즈 작으면 체크에 +2의 상황 보너스를 받고, 그보다 작으면 +4의 상황 보너스를 받습니다.",
+          "criticalFailure": "<strong>대실패</strong> 생물이 탈출하여 더 이상 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힘} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{제한된} 상태에 놓이지 않게 됩니다.",
+          "criticalSuccess": "<strong>대성공</strong> 적을 내리쳐서 마력의 기운이 적을 압도합니다. 대상은 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{기절}하고, 1라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{눈부심} 상태가 되며, [[/r 2d6 + @abilities.str.mod # 피해: 비전 강타]]{2d6 + 자신의 힘 증폭기}만큼 피해를 받습니다. 적이 더 이상 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힘} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속됨} 적이 되지 않습니다.",
+          "failure": "<strong>실패</strong> 생명체를 내리치는 데는 실패했지만, 생명체를 붙잡고 있는 상태는 유지됩니다.",
+          "success": "<strong>성공</strong> 적을 내리쳐 쓰러뜨립니다. 대상은 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{넘어지고} 자신의 [[/r @abilities.str.mod # 피해: 비전 격파]]{강도 증폭기}만큼 피해를 받습니다. 적이 더 이상 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힘} 적이 아니거나 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속됨} 적이 아닙니다."
+        },
+        "Title": "비전 강타"
+      },
+      "ArrestAFall": {
+        "Description": "<p>낙하 속도를 늦추기 위해 곡예 체크 또는 반사 내성을 시도합니다. DC는 일반적으로 15이지만, 기류나 다른 상황으로 인해 더 높을 수 있습니다.</p><p><strong>성공</strong> 낙하로 인한 피해를 입지 않습니다.</p>",
+        "Notes": {
+          "success": "<strong>성공</strong> 낙하로 인한 피해를 받지 않습니다."
+        },
+        "Title": "낙법"
+      },
+      "AvertGaze": {
+        "Description": "<p>메두사의 시선과 같은 위험으로부터 시선을 피합니다. 메두사의 무시무시한 시선과 같이 생명체나 물체를 바라봐야 하는 시각 능력에 대한 방어력 보너스가 +2가 됩니다. 시선 회피 효과는 다음 턴이 시작될 때까지 유지됩니다.</p>",
+        "Title": "시선 피하기"
+      },
+      "AvoidNotice": {
+        "Description": "<p>반 속도로 이동하는 동안 발각되지 않기 위해 은신 체크를 시도합니다. 민첩한 은신 특성이 있으면 절반 속도가 아닌 최고 속도로 이동할 수 있지만, 이동하는 동안에는 다른 탐험 액션을 사용할 수 없습니다. 전설 몰래 기술이 있다면, 전속력으로 이동하고 두 번째 탐험 액션을 사용할 수 있습니다. 전투가 시작될 때 주목 회피 상태인 경우, 일반적으로 지각 체크 대신 은신 체크를 굴려 자신의 주도권을 결정하고 적들이 자신을 알아챘는지 확인합니다(몰래의 경우와 마찬가지로 주도권 체크 결과와 관계없이 적의 지각 DC를 기준으로 함).</p>",
+        "Notes": {
+          "criticalSuccess": "<strong>대성공</strong> 이동 중 생물에게 탐지되지 않고 이동이 끝날 때까지 생물에게 탐지되지 않은 상태로 남아 있습니다.<br/><br/>자세한 내용은 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{언드텍트} 액션을 참고하세요.",
+          "success": "<strong>성공</strong> 이동하는 동안 생물에게 탐지되지 않았고, 이동이 끝날 때에도 생물에게 탐지되지 않은 상태입니다.<br/><br/>자세한 내용은 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{언디텍티드} 액션을 참조하세요."
+        },
+        "Title": "Avoid Notice"
+      },
+      "Balance": {
+        "Description": "<p>좁은 지면이나 고르지 않은 지면을 가로질러 이동하면서 균형감각에 대한 곡예 체크를 시도합니다. 좁은 표면이나 고르지 않은 지면에서 방심합니다.</p><p><strong>대성공</strong> 자신의 속도만큼 이동합니다.<br><strong>성공</strong> 어려운 지형으로 간주하여 자신의 속도만큼 이동합니다(5피트마다 10피트 이동 비용 발생).<br><strong>실패</strong> 균형을 유지하기 위해 정지하지 않으면 (동작이 낭비되고) 넘어집니다. 넘어지면 자신의 차례가 끝납니다.<br><strong>대실패</strong> 넘어지면 자신의 차례가 끝납니다.</p><section class=\"sample-tasks\"><h2>예시 균형 과제</h2><p><strong>비훈련</strong> 엉킨 뿌리, 고르지 않은 자갈</p><p><strong>훈련</strong> 나무 들보</p><p><strong>전문</strong> 깊은, 느슨한 자갈</p><p><p>강력>달인</p><p>, 줄타기, 매끄러운 얼음판</p><p><p>강력>전설</p><p>, 공중에 떨어지는 바닥 덩어리</p><p>/섹션>",
+        "Notes": {
+          "criticalFailure": "<strong>대실패</strong> 넘어지고 자신의 차례가 종료됩니다.",
+          "criticalSuccess": "<strong>대성공</strong> 자신의 속도로 이동합니다.",
+          "failure": "<strong>실패</strong> 균형을 유지하기 위해 움직이지 않으면 (동작을 낭비하며) 넘어집니다. 넘어지면 자신의 차례가 끝납니다.",
+          "success": "<strong>성공</strong> 자신의 속도만큼 이동하며, 이를 어려운 지형으로 간주합니다(5피트마다 10피트 이동 비용이 듭니다)."
+        },
+        "SampleTasks": {
+          "Untrained": "tangled roots, uneven cobblestones",
+          "Trained": "wooden beam",
+          "Expert": "deep, loose gravel",
+          "Master": "tightrope, smooth sheet of ice",
+          "Legendary": "razor's edge, chunks of floor falling in midair"
+        },
+        "Title": "Balance"
+      },
+      "BonMot": {
+        "Notes": {
+          "criticalFailure": "<strong>대실패</strong> 당신의 말장난은 끔찍합니다. 성공했을 때 적이 받는 패널티와 동일한 패널티를 받습니다. 이 효과는 1분 후 또는 다른 봉 모트를 발동하여 성공하면 종료됩니다. @UUID[Compendium.pf2e.feat-effects.Item.GoSls6SKCFmSoDxT]{효과 : 봉 모트}",
+          "criticalSuccess": "<strong>중요 성공</strong> 대상은 주의가 산만해지고 지각에 -3 상태 패널티를 받으며 1분 동안 의지가 저장됩니다. 대상은 본 모트에 대한 반격으로 효과를 조기에 종료할 수 있습니다. 반격은 집중 특성이 있는 단일 행동이거나 반격에 적합한 기술 행동 중 하나에 해당할 수 있습니다. 어떤 기술 행동이 적격인지는 GM이 결정하지만, 최소 1개 이상의 액션을 취해야 합니다. 일반적으로 반박은 언어 카리스마 기반 기술 액션을 사용해야 합니다. @UUID[Compendium.pf2e.feat-effects.Item.CtrZFI3RV0yPNzTv]{효과 : 봉 모트 (대성공)}",
+          "success": "<strong>성공</strong> 대상은 주의가 산만해지고 지각에 -2 상태 패널티를 받으며 1분 동안 의지가 저장됩니다. 대상은 본 모트에 대한 반격으로 효과를 조기에 종료할 수 있습니다. 반격은 집중 특성이 있는 단일 행동 또는 적절한 기술 행동으로 구성할 수 있습니다. 어떤 기술 행동이 적격인지는 GM이 결정하지만, 최소 1개 이상의 액션을 취해야 합니다. 일반적으로 반박은 언어 카리스마 기반 기술 액션을 사용해야 합니다. @UUID[Compendium.pf2e.feat-effects.Item.GoSls6SKCFmSoDxT]{효과 : 본 모트}"
+        },
+        "Title": "Bon Mot"
+      },
+      "Burrow": {
+        "Description": "<p>흙, 모래 또는 이와 비슷한 느슨한 물질을 자신의 굴 파기 속도에 해당하는 속도로 파고 들어갑니다. 흙보다 밀도가 높은 바위나 다른 물질을 뚫을 수 있는 능력이 없다면 굴을 뚫을 수 없습니다.</p>",
+        "Title": "Burrow"
+      },
+      "Climb": {
+        "Description": "<p><strong>Requirements</strong> You have two hands free.</p><hr><p>You attempt an Athletics check to move a maximum distance of 5 feet up, down, or across an incline. You're @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} while climbing unless you have a climb Speed. The GM determines the DC based on the nature of the incline and environmental circumstances; you might get an automatic critical success on an incline that's trivial to climb. If your land Speed is 40 feet or higher, increase the maximum distance by 5 feet for every 20 feet of Speed above 20 feet.</p><p><strong>Critical Success</strong> You move along the incline, increasing the maximum distance by 5 feet.<br><strong>Success</strong> You move along the incline.<br><strong>Critical Failure</strong> You fall. If you began the climb on stable ground, you fall and land @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p>",
+        "Modifier": {
+          "ClimbSpeed": "Climb Speed"
+        },
+        "Notes": {
+          "criticalFailure": "<strong>대실패</strong> 추락합니다. 안정된 지면에서 등반을 시작했다면, 추락하여 착지합니다 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{넘어짐}.",
+          "criticalSuccess": "<strong>대성공</strong> 자신의 지상 속도 20피트당 5피트(대부분의 PC에서는 총 10피트)를 더하여 5피트 동안 경사면을 오르거나 건너거나 안전하게 내려갑니다.",
+          "success": "<strong>성공</strong> 지상 속도 20피트당 5피트씩 경사를 오르거나 건너거나 안전하게 내려갑니다(대부분의 PC에서 총 5피트, 속도가 20피트 미만인 경우 최소 5피트)."
+        },
+        "SampleTasks": {
+          "Untrained": "ladder, steep slope, low-branched tree",
+          "Trained": "rigging, rope, typical tree",
+          "Expert": "wall with small handholds and footholds",
+          "Master": "ceiling with handholds and footholds, rock wall",
+          "Legendary": "smooth surface"
+        },
+        "Title": "Climb"
+      },
+      "Coerce": {
+        "Description": "<p>위협을 숨기거나 노골적으로 드러내어 생물을 괴롭혀 원하는 대로 하도록 합니다. 캐릭터가 볼 수 있고 캐릭터를 보거나 감지할 수 있는 생물과 최소 1분 동안 대화를 나누어야 합니다. 대화가 끝나면, GM이 판단하는 상황에 따라 수정된 대상의 의지 내성 DC에 대해 협박 체크를 시도합니다. 아래 효과에 언급된 태도는 태도 변경 사이드바에 요약되어 있으며, 조건 부록에 자세히 설명되어 있습니다.</p><p><strong>대성공</strong> 대상이 원하는 정보를 제공하거나, 어떤 식으로든 대상에게 해가 되지 않는 한 지시를 따르는 데 동의합니다. 대상은 GM이 정한 시간(1일을 초과하지 않는 범위 내에서) 동안 계속 지시를 따르며, 이 시점이 되면 대상은 비우호적이 됩니다(원래 비우호적이거나 적대적이지 않았다면). 하지만 대상은 적어도 단기적으로는 캐릭터를 너무 두려워하여 보복하지 못합니다.<br><strong>성공</strong> 대성공이지만, 대상이 비우호적이 되면 캐릭터를 당국에 신고하거나 적을 돕는 등 캐릭터에게 불리한 액션을 할 수 있습니다.<br><strong>실패</strong> 대상은 사용자의 말을 따르지 않으며, 원래 비우호적이거나 적대적이지 않았다면 비우호적이 됩니다.<br><strong>대실패</strong> 대상이 따르기를 거부하고, 원래 적대적이지 않았다면 적대적이 되며, 최소 1주일 동안 사용자가 강제로 강요할 수 없게 됩니다.</p>",
+        "Notes": {
+          "criticalFailure": "<strong>대실패</strong> 대상이 명령을 따르지 않고 적대적으로 변하며, 최소 1주일 동안 캐릭터가 강제로 명령을 내릴 수 없습니다.",
+          "criticalSuccess": "<strong>중요 성공</strong> 대상이 원하는 정보를 제공하거나, 어떤 식으로든 대상에게 해를 끼치지 않는 한 지시를 따르기로 동의합니다. 대상은 GM이 정한 시간(1일을 초과하지 않는 범위 내에서) 동안 계속 지시를 따르며, 이 시점이 되면 대상은 비우호적이 됩니다(원래 비우호적이거나 적대적이지 않았다면). 하지만 대상은 적어도 단기적으로는 보복하기에는 너무 무서워합니다.",
+          "failure": "<strong>실패</strong> 대상은 내가 말한 대로 행동하지 않으며, 원래 비우호적이거나 적대적이지 않았다면 비우호적이 됩니다.",
+          "success": "<strong>성공</strong> 대성공이지만, 목표가 비우호적이 되면 당국에 신고하거나 적을 돕는 등 불리한 액션을 할 수 있습니다."
+        },
+        "Title": "Coerce"
+      },
+      "CommandAnAnimal": {
+        "Description": "<p>동물에게 명령을 내립니다. 동물의 의지 DC에 대한 자연학 체크를 시도합니다. 동물이 캐릭터에게 좋은 태도를 보이거나, 캐릭터가 동물의 성향에 맞는 액션을 제안하거나, 간식을 제공하면 GM이 DC를 조정할 수 있습니다.</p><p>동물이 캐릭터에게 적대적이거나 비우호적일 경우 자동으로 실패합니다. 동물이 자신에게 도움이 된다면 성공 확률이 한 단계씩 올라갑니다. 탈것과 같은 기술을 사용하면 동물에게 더 쉽게 명령할 수 있습니다.</p><p>대부분의 동물은 엎드리기, 뛰어등반, 찾기, 서기, 보폭 넓히기, 치기 기본 동작을 알고 있습니다. 동물이 말의 질주와 같은 액션을 알고 있다면, 동물에게 해당 액션을 수행하도록 명령할 수 있지만, 동물에게 명령하기에는 해당 활동의 행동 수만큼의 액션을 소비해야 합니다. 예를 들어, 행동 3개를 사용하여 동물에게 명령하여 다음 턴에 해당 수의 기본 액션을 수행하도록 할 수도 있습니다(예: 행동 3개를 사용하여 동물에게 명령하여 보폭을 세 번 하거나 보폭을 두 번 한 다음 공격할 수 있습니다).</p><p><strong>성공</strong> 동물은 다음 턴에 명령대로 행동합니다.<br><strong>실패</strong> 동물은 주저하거나 저항하며 아무 행동도 하지 않습니다.<br><strong>중대실패</strong> 동물은 잘못 행동하거나 오해하며 GM이 결정한 다른 액션을 취합니다.</p>",
+        "Notes": {
+          "criticalFailure": "<strong>대실패</strong> 동물이 잘못 행동하거나 오해하여 GM이 결정한 다른 액션을 취합니다.",
+          "failure": "<strong>실패</strong> 동물은 주저하거나 저항하며 아무것도 하지 않습니다.",
+          "success": "<strong>성공</strong> 동물은 다음 턴에 명령대로 행동합니다."
+        },
+        "Title": "동물에게 명령하기"
+      },
+      "ConcealAnObject": {
+        "Description": "<p>당신은 몸에 작은 물체(예: 경량 무기)를 숨깁니다. 숨긴 물건을 눈치챌 수 있는 사람에게 몰래 숨기려고 하면, GM은 은신 확인을 굴려서 이 수동 관찰자의 지각 DC와 비교합니다. GM이 은신 확인을 통해 숨겨진 물체를 발견하면, 얼마나 많은 수동적 관찰자를 몰래 지나치려고 해도 동일한 결과가 적용됩니다. 어떤 생물이 특별히 캐릭터를 찾아다니는 경우, 캐릭터의 은신 DC에 대해 지각 체크를 시도할 수 있습니다(성공하면 물체를 찾습니다).</p><p>수풀 사이나 가구 안의 비밀 공간 등 캐릭터가 아닌 다른 곳에 물체를 숨길 수도 있습니다. 이 경우, 해당 지역에서 수색 중인 캐릭터는 자신의 지각 체크 결과를 은신 DC와 비교하여 물체를 찾을 수 있는지 판단합니다.</p><p><strong>성공</strong> 물체가 감지되지 않습니다.</p><p><strong>실패</strong> 수색자가 물체를 찾습니다.</p>",
+        "Notes": {
+          "failure": "<strong>실패</strong> 검색자가 개체를 찾았습니다.",
+          "success": "<strong>성공</strong> 개체가 감지되지 않은 상태로 유지됩니다."
+        },
+        "Title": "개체 숨기기"
+      },
+      "CoverTracks": {
+        "Description": "<p>@UUID[Compendium.pf2e.journals.JournalEntry.S55aqwWIzpQRFhcq.JournalEntryPage.YVLMgNxXTUQuDJgp]{이동 속도} 규칙에 따라 최대 이동 속도의 절반까지 이동하면서 흔적을 덮습니다. 흔적 은폐를 위해 생존 확인을 시도할 필요는 없지만, 나를 추적하는 모든 캐릭터는 생존 체크에서 생존 체크에 성공해야 하며, 생존 확인이 추적에 필요한 일반 생존 확인보다 높아야 합니다.</p><p> 경우에 따라서는 조우에서 흔적 은폐를 할 수도 있습니다. 이 경우, 흔적 은폐는 단일 행동이며 탐험 특성이 없습니다.</p>",
+        "Title": "흔적 덮기"
+      },
+      "Craft": {
+        "Details": {
+          "DaysForNoCost": "추가 비용 없이 사용할 수 있는 일수입니다:",
+          "Discount": "일일 할인:",
+          "LostMaterials": "재료 {cost} 손실",
+          "PayFull": "{cost} 지불 전체 비용 및 제작",
+          "PayMaterials": "{cost} 지불 재료 비용 및 제작",
+          "ReceiveItem": "아이템 받기"
+        },
+        "Error": {
+          "ItemReferenceMismatch": "제작에 사용할 수 있는 아이템은 도감이나 월드 아이템 디렉토리에 있는 실제 아이템만 사용할 수 있습니다."
+        },
+        "Information": {
+          "LoseMaterials": "{actorName}이 {cost}의 재료를 잃습니다.",
+          "PayAndReceive": "{actorName}이 {cost} 제작 비용을 지불하고 {quantity}x {itemName}을 받습니다.",
+          "ReceiveItem": "{actorName}은 {quantity}x {itemName}을 받습니다."
+        },
+        "Notes": {
+          "criticalFailure": "<strong>대실패</strong> 아이템을 완성하지 못했습니다. 공급한 원재료의 10%를 망쳤지만 나머지는 회수할 수 있습니다. 다시 시도하려면 처음부터 다시 시작해야 합니다.",
+          "criticalSuccess": "<strong>대성공</strong> 시도가 성공했습니다. 제작에 소비한 시간이 하루 더 늘어날 때마다 아이템을 완성하는 데 필요한 재료가 레벨 + 1과 제작 숙련도에 따라 일정량 감소합니다.",
+          "failure": "<strong>실패</strong> 아이템을 완성하지 못했습니다. 제공한 원재료는 전체 가치에 대해 회수할 수 있습니다. 다시 시도하려면 처음부터 다시 시작해야 합니다.",
+          "success": "<strong>성공</strong> 시도가 성공했습니다. 제작에 소비한 시간이 하루 더 늘어날 때마다 레벨과 숙련도에 따라 아이템을 완성하는 데 필요한 재료가 일정량 감소합니다."
+        },
+        "SelectItemDialog": {
+          "CancelButtonLabel": "취소",
+          "CraftButtonLabel": "공예",
+          "DropItemZoneLabel": "항목을 여기로 드래그...",
+          "Title": "제작할 아이템 선택"
+        },
+        "SelectSpellDialog": {
+          "CraftButtonLabel": "공예",
+          "Title": "주문 선택"
+        },
+        "Title": "공예",
+        "Warning": {
+          "CantAddItem": "항목을 추가할 수 없습니다",
+          "InsufficientCoins": "화폐 부족",
+          "MissingItem": "아이디 {uuid}로 알 수 없는 아이템을 제작할 수 없습니다.",
+          "NotPhysicalItem": "지정한 {item}이 물리적 아이템이 아닙니다."
+        }
+      },
+      "Crawl": {
+        "Description": "<p>기어서 5피트를 이동하고 계속 엎드린 자세를 유지합니다.</p>",
+        "Title": "기어가기"
+      },
+      "CreateADiversion": {
+        "Description": "<p>With a gesture, a trick, or some distracting words, you can create a diversion that draws creatures' attention elsewhere. If you use a gesture or trick, this action gains the manipulate trait. If you use distracting words, it gains the auditory and linguistic traits.</p><p>Attempt a single Deception check and compare it to the Perception DCs of the creatures whose attention you're trying to divert. Whether or not you succeed, creatures you attempt to divert gain a +4 circumstance bonus to their Perception DCs against your attempts to Create a Diversion for 1 minute.</p><p><strong>Success</strong> You become @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} to each creature whose Perception DC is less than or equal to your result. (The hidden condition allows you to @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Sneak} away.) This lasts until the end of your turn or until you do anything except @UUID[Compendium.pf2e.actionspf2e.Item.UHpkTuCtyaPqiCAB]{Step} or use the Stealth skill to @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Hide} or Sneak. If you @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Strike} a creature, the creature remains @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} against that attack, and you then become @UUID[Compendium.pf2e.conditionitems.Item.1wQY3JYyhMYeeV2G]{Observed}. If you do anything else, you become observed just before you act unless the GM determines otherwise.<br><strong>Failure</strong> You don't divert the attention of any creatures whose Perception DC exceeds your result, and those creatures are aware you were trying to trick them.</p>",
+        "DistractingWords": {
+          "Title": "주의 분산 - 산만한 단어 만들기"
+        },
+        "Gesture": {
+          "Title": "전환 만들기 - 제스처"
+        },
+        "Notes": {
+          "failure": "<strong>실패</strong> 당신은 지각 DC가 당신의 결과를 초과하는 생물의 주의를 돌리지 못했고, 그 생물은 당신이 그들을 속이려 했다는 것을 알고 있습니다.",
+          "success": "<strong>성공</strong> 당신은 지각 DC가 당신의 결과보다 낮거나 같은 각 생물에게 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨겨짐}이 됩니다. (숨겨짐 조건은 @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Sneak} 멀리 달아날 수 있게 해 줍니다.) 이 효과는 자신의 턴이 끝날 때까지, 또는 발걸음을 내딛거나 은신 스킬의 @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{숨기기} 또는 @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{은밀 이동} 액션을 제외한 모든 액션을 사용할 때까지 지속됩니다. 생물을 공격하면, 그 생물은 해당 공격에 대해 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{무방비} 상태를 유지하고, 당신은 @UUID[Compendium.pf2e.conditionitems.Item.1wQY3JYyhMYeeV2G]{관찰됨} 상태가 됩니다. 그 외 다른 액션을 하면, GM이 달리 결정하지 않는 한 행동하기 직전에 @UUID[Compendium.pf2e.conditionitems.Item.1wQY3JYyhMYeeV2G]{Observed}가 됩니다."
+        },
+        "Title": "전환 생성",
+        "Trick": {
+          "Title": "전환 생성 - 트릭"
+        },
+        "Warning": {
+          "UnknownVariant": "전환 생성에 사용할 수 없는 {variant}이 {variant} 중 하나를 사용합니다."
+        }
+      },
+      "CreateForgery": {
+        "Description": "<p>대개 하루 또는 일주일에 걸쳐 위조 문서를 만듭니다. 위조 문서를 만들려면 적절한 필기 재료가 있어야 합니다. 위조 문서를 만들 때, GM은 비밀 DC 20 사회학 체크를 굴립니다. 성공하면, 위조품의 품질이 충분히 좋아서 수동적인 관찰자가 위조품임을 알아차릴 수 없습니다. 문서를 주의 깊게 살펴보고 자신의 사회 DC에 대해 지각 또는 사회학 체크를 시도한 사람만 위조할 수 있습니다.</p><p>문서의 필체가 특정인을 지목할 필요가 없는 경우, 이전에 비슷한 문서를 본 적이 있기만 하면 되며, 체크뿐만 아니라 자신의 DC에도 최대 +4의 상황 보너스를 얻습니다(보너스는 GM이 결정합니다). 특정인의 필체를 위조하려면 그 사람의 필체 샘플이 필요합니다.</p><p>체크 결과가 20 미만인 경우, 위조품이 위조된 것이 분명하므로 GM은 아래의 성공 또는 실패 결과를 사용하여 각 수동적 관찰자의 인식 DC 또는 사회 DC 중 더 높은 수치와 결과를 비교합니다. GM이 문서에 대한 체크를 굴리면, 해당 문서를 얼마나 많은 생물이 수동적으로 관찰하든 상관없이 모든 수동 관찰자의 DC에 동일한 결과가 적용됩니다.</p><p>수동적으로 한 눈에 속은 관찰자는 원본 체크로 위조에 성공한 표면 요소 외에 다른 기술과 분석 방법을 사용하여 문서를 면밀히 조사하여 위조 여부를 확인할 수 있습니다. 이 경우 관찰자는 소사이어티 DC에 대해 인식 또는 소사이어티 체크를 시도할 수 있습니다(성공하면 문서가 위조임을 알 수 있습니다).</p><p><strong>성공</strong> 관찰자가 위조를 감지하지 못함.<br><strong>실패</strong> 관찰자가 문서가 위조임을 알았음.</p>",
+        "ForgedDocument": {
+          "Description": "<p>소극적으로 한눈에 속은 관찰자는 원본 체크로 위조에 성공한 표면적 요소 외에 다른 기술과 분석 방법을 사용하여 위조 여부를 확인하기 위해 문서를 면밀히 조사할 수 있습니다. 이 경우 관찰자는 소사이어티 DC에 대해 @Check[perception|dc:{societyDC}] 또는 @Check[society|dc:{societyDC}] 체크를 시도할 수 있습니다(성공하면 문서가 위조된 것임을 알 수 있습니다).</p>",
+          "FailureGmNote": "<p>위조 문서에는 위조라는 명백한 징후가 있으므로, GM은 아래의 성공 또는 실패 결과를 사용하여 {총계}의 결과를 각 수동 관찰자의 인식 DC 또는 사회 DC 중 더 높은 값과 비교합니다. 해당 문서를 수동적으로 관찰하는 생물의 수에 관계없이 모든 수동 관찰자의 DC에 대해 동일한 결과가 사용됩니다.</p>\n<p>{success}</p>\n<p>{failure}</p>",
+          "Name": "위조 문서",
+          "SuccessGmNote": "<p>위조 문서의 품질이 충분히 우수하여 수동적인 관찰자는 위조 여부를 알아차리지 못합니다. 문서를 주의 깊게 살펴보고 @Check[type:perception|dc:{societyDC}|showDC:gm] 또는 @Check[type:society|dc:{societyDC}|showDC:gm] 확인을 시도하는 사람만 소사이어티 DC에 대해 확인할 수 있습니다.</p>"
+        },
+        "ForgedDocumentCreatedNotification": "{name}의 인벤토리에 위조된 문서가 추가되었습니다.",
+        "Notes": {
+          "criticalFailure": "<strong>실패</strong> 관찰자는 귀하의 문서가 위조된 것임을 알고 있습니다.",
+          "criticalSuccess": "<strong>성공</strong> 관찰자가 위조를 감지하지 못했습니다.",
+          "failure": "<strong>실패</strong> 관찰자는 귀하의 문서가 위조된 것임을 알고 있습니다.",
+          "success": "<strong>성공</strong> 관찰자가 위조를 감지하지 못했습니다."
+        },
+        "Title": "위조 생성",
+        "UnspecificHandwriting": "특정되지 않은 손글씨"
+      },
+      "DecipherWriting": {
+        "Description": "<p>모호한 주제에 대한 복잡한 글이나 문헌을 해독하려고 시도합니다. 보통 텍스트 한 페이지당 1분 정도 걸리지만, 암호 해독 등의 경우 더 오래 걸릴 수도 있습니다(일반적으로 한 페이지당 1시간 정도 소요). 텍스트는 반드시 읽을 수 있는 언어로 작성되어야 하지만, GM이 익숙하지 않은 언어로 작성된 텍스트의 해독을 사회로 대신 시도하도록 허용할 수도 있습니다.</p><p>DC는 문서의 상태나 복잡성에 따라 GM이 결정합니다. GM은 짧은 텍스트에 대해 한 번만 체크하게 하거나 큰 텍스트의 각 섹션에 대해 한 번씩 체크하게 할 수 있습니다.</p><p><strong>중요 성공</strong> 텍스트의 진정한 의미를 이해했습니다.</p><p><strong>성공</strong> 텍스트의 진정한 의미를 이해했습니다. 암호화된 문서인 경우, 일반적인 의미는 알지만 단어 단위로 번역하지 못했을 수 있습니다.</p><p><strong>실패</strong> 텍스트를 이해하지 못하고 해독을 위한 추가 체크에 -2 상황 패널티를 받습니다.</p><p><strong>대실패</strong> 해당 페이지의 텍스트를 이해했다고 생각하지만 실제로는 메시지를 잘못 해석한 경우입니다.</p><section class=\"sample-tasks\"><h2>샘플 해독 작업</h2><p><strong>훈련</strong> 초급 철학 논문</p><p><strong>전문</strong> 암호와 같은 복잡한 코드</p><p><strong>스파이 마스터의 코드 또는 고급 연구 노트</p><p><strong>전설적인</strong> 고대 천사가 은유로 쓴 난해한 차원 텍스트</p></p></section>",
+        "Notes": {
+          "criticalFailure": "<strong>대실패</strong> 해당 페이지의 텍스트를 이해했다고 생각하지만 실제로는 해당 페이지의 메시지를 잘못 해석한 것입니다.",
+          "criticalSuccess": "<strong>대성공</strong> 텍스트의 진정한 의미를 이해합니다.",
+          "failure": "<strong>실패</strong> 텍스트를 이해할 수 없으며, 해독을 위한 추가 체크에서 -2 상황 패널티를 받습니다.",
+          "success": "<strong>성공</strong> 텍스트의 진정한 의미를 이해했습니다. 코딩된 문서인 경우 일반적인 의미는 알지만 단어 단위로 번역되지 않았을 수 있습니다."
+        },
+        "SampleTasks": {
+          "Trained": "entry-level philosophy treatise",
+          "Expert": "complex code, such as a cipher",
+          "Master": "spymaster's code or advanced research notes",
+          "Legendary": "esoteric planar text written in metaphor by an ancient celestial"
+        },
+        "Title": "쓰기 해독",
+        "Warning": {
+          "NoSkill": "쓰기 해독 행동은 다양한 스킬과 함께 사용할 수 있으며, 지정된 스킬은 없습니다. 글 해독에 사용되는 스킬과 주로 해독하는 텍스트 유형은 다음과 같습니다: 마법이나 과학에 관한 글은 비전, 신비와 철학에 관한 난해한 글은 초상학, 경전은 종교, 암호화된 메시지나 고대의 문서는 사회로 해독합니다."
+        }
+      },
+      "Delay": {
+        "Description": "<p>행동할 적절한 순간을 기다립니다. 나머지 자신의 차례는 아직 오지 않았습니다. 대신, 당신은 우선권 순서에서 제외됩니다. 다른 생물의 턴이 끝날 때 발동하는 자유행동으로 다시 주도권 순서로 돌아올 수 있습니다. 이렇게 하면 당신의 주도권이 새로운 위치로 영구적으로 변경됩니다. 주도권 순서로 돌아올 때까지는 반응을 사용할 수 없습니다. 주도권 순서로 돌아가지 않고 전체 라운드를 지연하는 경우, 지연한 턴의 행동은 사라지고, 주도권은 변경되지 않으며, 다음 턴은 원래의 주도권 순서에서 시작됩니다.</p><p>지연할 때, 일반적으로 자신의 턴 시작 또는 종료에 발생하는 지속 피해나 기타 부정적인 효과는 지연 액션을 사용하는 즉시 발생합니다. 내 턴 중 어느 시점에 종료되는 모든 이로운 효과도 종료됩니다. GM이 다른 효과도 지연을 사용할 때 종료하도록 결정할 수 있습니다. 기본적으로, 자신의 턴에 발생하는 부정적인 결과를 피하거나 자신의 턴에 종료되는 유익한 효과를 연장하기 위해 지연을 사용할 수 없습니다.</p>",
+        "Title": "지연"
+      },
+      "Demoralize": {
+        "Description": "<p>갑작스러운 외침, 적절한 타이밍의 도발, 또는 칼질로 적의 결의를 흔들 수 있습니다. 자신과 30피트 이내에 있는 생물 중 자신이 알고 있는 생물을 선택합니다. 그 대상의 의지 내성 DC에 대해 협박 체크를 시도합니다. 대상이 당신의 언어를 이해하지 못하거나, 당신이 언어를 사용하지 않거나, 당신의 말을 듣지 못하면, 당신은 체크에 -4의 상황 패널티를 받습니다. 체크 결과에 상관없이, 대상은 10분 동안 사기를 떨어뜨리려는 시도에 일시적으로 면역이 됩니다.</p><p><strong>대성공</strong> 대상은 겁에 질려 2.<br><strong>성공</strong> 대상은 겁에 질려 1.</p>",
+        "Notes": {
+          "criticalSuccess": "<strong>중요 성공</strong> 대상은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{두려움 2}가 됩니다.",
+          "success": "<strong>성공</strong> 대상은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{두려움 1}이 됩니다."
+        },
+        "Title": "사기 저하",
+        "Unintelligible": "이해할 수 없음"
+      },
+      "DisableDevice": {
+        "Description": "<p>이 동작을 사용하면 함정이나 다른 복잡한 장치를 해제할 수 있습니다. 장치의 구조와 복잡도에 따라 무력화하기까지 여러 번 성공해야 하는 경우가 많습니다. GM의 결정에 따라 도둑의 도구가 도움이 될 수도 있고, 때로는 장치를 무력화하기 위해 도둑질 숙련도가 더 높아야 하는 경우도 있습니다.</p><p>도둑질 체크 결과에 따라 진행 상황이 결정됩니다.</p><p><strong>대성공</strong> 장치를 무력화하거나 두 번 이상 성공해야 하는 장치를 무력화하기 위해 두 번의 성공을 달성한 경우입니다. 조작 흔적을 남기지 않으며, 해당 유형의 장치를 재장전할 수 있는 경우 나중에 장치를 재장전할 수 있습니다.</p><p><strong>성공</strong> 장치를 비활성화하거나 두 번 이상의 성공이 필요한 장치를 비활성화하는 데 한 번 성공합니다.</p><p><strong>대실패</strong> 장치를 작동시킵니다.</p>",
+        "Notes": {
+          "criticalFailure": "<strong>대실패</strong> 장치를 트리거합니다.",
+          "criticalSuccess": "<strong>대성공</strong> 장치를 무력화하거나, 두 번 이상 성공해야 하는 장치를 무력화하는 데 두 번 성공합니다. 조작의 흔적을 남기지 않으며, 나중에 해당 유형의 장치를 재장전할 수 있는 경우 장치를 재장전할 수 있습니다.",
+          "success": "<strong>성공</strong> 장치를 비활성화하거나 두 번 이상 성공해야 하는 장치를 비활성화하는 데 한 번 성공합니다."
+        },
+        "Title": "장치 비활성화"
+      },
+      "Disarm": {
+        "Description": "<p><strong>Requirements</strong> You have at least one hand free. The target can't be more than one size larger than you.</p><hr><p>You try to knock an item out of a creature's grasp. Attempt an Athletics check against the target's Reflex DC.</p><p><strong>Critical Success</strong> You knock the item out of the target's grasp. It falls to the ground in the target's space.<br><strong>Success</strong> You weaken your target's grasp on the item. Further attempts to Disarm the target of that item gain a +2 circumstance bonus, and the target takes a -2 circumstance penalty to attacks with the item or other checks requiring a firm grasp on the item. The creature can end the effect by Interacting to change its grip on the item; otherwise, it lasts as long as the creature holds the item.<br><strong>Critical Failure</strong> You lose your balance and become @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} until the start of your next turn.</p>",
+        "Notes": {
+          "criticalFailure": "<strong>대실패</strong> 균형을 잃고 다음 턴이 시작될 때까지 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{무방비}가 됩니다.",
+          "criticalSuccess": "<strong>대성공</strong> 상대의 손아귀에서 아이템을 밀어냅니다. 아이템이 상대방의 공간에서 땅에 떨어집니다.",
+          "success": "<strong>성공</strong> 대상의 아이템에 대한 장악력이 약화됩니다. 해당 아이템의 대상에게 무장해제를 추가로 시도하면 상황 +2 보너스를 얻고, 대상은 해당 아이템으로 공격하거나 아이템을 단단히 잡아야 하는 다른 체크에 -2 상황 패널티를 받습니다. 해당 생물은 상호작용을 통해 아이템에 대한 그립을 변경하여 효과를 종료할 수 있으며, 그렇지 않으면 해당 생물이 아이템을 들고 있는 동안 지속됩니다.<br>@UUID[Compendium.pf2e.other-effects.Item.PuDS0DEq0CnaSIFV]{효과 : 무장 해제 (성공)}"
+        },
+        "Title": "무장 해제"
+      },
+      "Dismiss": {
+        "Description": "<p>해제할 수 있다고 명시된 효과를 종료합니다. 달리 명시되지 않는 한 해제하면 전체 효과가 종료됩니다.</p>",
+        "Title": "해산"
+      },
+      "DropProne": {
+        "Description": "<p>당신은 넘어지기 쉽습니다.</p>",
+        "Title": "낙하하기 쉬운"
+      },
+      "EarnIncome": {
+        "Description": "<p>다운타임 동안 자신의 기술 중 하나를 사용하여 돈을 벌 수 있습니다. GM은 가장 수익성이 높은 작업을 나타내는 작업 레벨을 할당합니다. 여러분은 더 낮은 레벨의 작업을 검색할 수 있으며, GM이 해당 작업을 찾을지 여부를 결정합니다. 때때로 처음 제시된 일보다 더 좋은 일을 찾을 수 있지만, 시간이 걸리고 외교 스킬을 사용해 정보를 수집하거나 조사를 하거나 사교 액션을 해야 합니다. </p><p>일감을 맡으면 GM이 비밀리에 스킬 체크의 DC를 설정합니다. 일을 시작한 첫날이 지나면 주사위를 굴려 수입을 결정합니다. 결과, 작업의 레벨, 숙련도 순위(획득한 소득 표에 표시된 대로)에 따라 수입이 결정됩니다.</p><p>다음 날에도 다시 주사위를 굴릴 필요 없이 작업을 계속할 수 있습니다. 첫 번째 날 이후의 각 날에 대해 작업이 완료될 때까지 첫 번째 날과 동일한 금액을 벌 수 있습니다. 과제를 수행할 수 있는 기간은 GM이 결정합니다. 대부분의 작업은 1~2주 동안 진행되지만, 몇 달 또는 몇 년이 걸릴 수도 있습니다.</p><p><strong>대성공</strong> 뛰어난 작업을 수행했습니다. 과제 레벨 + 1에 해당하는 화폐와 숙련도 순위에 해당하는 화폐를 획득합니다.</p><p><strong>성공</strong> 유능한 작업을 수행합니다. 작업 레벨과 숙련도 순위에 표시된 화폐를 획득합니다.</p><p><strong>실패</strong> 조잡한 작업을 하고 시간 대비 최소한의 보수를 받습니다. 작업 레벨의 실패 열에 나열된 화폐를 획득합니다. GM이 과제를 계속할 수 있는 시간을 줄일 가능성이 높습니다.</p><p><strong>대실패</strong> 작업한 대가로 아무것도 얻지 못하고 즉시 해고됩니다. 작업을 계속할 수 없습니다. 평판이 나빠져 향후 해당 커뮤니티에서 보람 있는 일자리를 찾기가 어려워질 수 있습니다.</p><section class=\"sample-tasks\"><h2>수입 창출 작업 예시</h2><p>이 예시에서는 술집에서 일하기 위해 알코올 지식을 사용하거나 법률 업무를 수행하기 위해 법률 지식을 사용합니다.</p><p><strong>훈련</strong> 바텐더, 법률 조사</p><p>strong>전문</strong> 음료 선택 큐레이팅, 사소한 법정 사건 발표</p><p><strong>통달</strong> 대형 양조장 운영, 중요한 법정 사건 발표</p><p><strong>레전드</strong> 국제 양조 프랜차이즈 운영, 지옥의 법정에서 소송 발표</p></section>",
+        "Notes": {
+          "criticalFailure": "<strong>대실패</strong> 작업에 대한 수입이 전혀 없으며 즉시 해고됩니다. 해당 업무를 계속할 수 없습니다. 평판이 나빠져 향후 해당 커뮤니티에서 보람 있는 일자리를 찾기가 어려워질 수 있습니다.",
+          "criticalSuccess": "<strong>중요 성공</strong> 뛰어난 작업을 수행했습니다. 과제 레벨 + 1에 해당하는 화폐와 숙련도 등급을 획득합니다.",
+          "failure": "<strong>실패</strong> 조잡한 작업을 수행하고 최소한의 시간만 보상받습니다. 과제 레벨의 실패 열에 표시된 화폐를 획득합니다. GM은 과제를 계속할 수 있는 시간을 줄일 가능성이 높습니다.",
+          "success": "<strong>성공</strong> 유능한 작업을 수행했습니다. 작업 레벨과 숙련도 등급에 해당하는 화폐를 획득합니다."
+        },
+        "SampleTasks": {
+          "Caption": "These examples use Alcohol Lore to work in a bar or Legal Lore to perform legal work.",
+          "Trained": "bartend, do legal research",
+          "Expert": "curate drink selection, present minor court cases",
+          "Master": "run a large brewery, present important court cases",
+          "Legendary": "run an international brewing franchise, present a case in Hell's courts"
+        },
+        "Title": "수익 창출"
+      },
+      "EncouragingWords": {
+        "BadArgs": "이 작업은 정확히 한 명의 캐릭터 또는 NPC로 수행해야 합니다.",
+        "Cancel": "취소",
+        "ContentLabel1": "외교 DC:",
+        "ContentLabel2": "DC 수정:",
+        "ContentMain": "대상 DC를 선택합니다. 자신의 숙련도 이상으로 치유를 시도할 수 없다는 점을 기억하세요. 그렇게 시도하면 최대 치유력과 치유량이 하향 조정됩니다.",
+        "ContentOption1": "훈련 DC 15",
+        "ContentOption2": "전문 DC 20, 스태미나 +5",
+        "ContentOption3": "통달 DC 30, +15 스태미나",
+        "ContentOption4": "전설 DC 40, 스태미나 +25",
+        "CritFailure": "대실패",
+        "CritSuccess": "대성공",
+        "Damage": "피해",
+        "Failure": "실패",
+        "NotTrained": "{name}은 외교 훈련을 받지 않았으며 격려의 말을 사용하는 방법을 모릅니다.",
+        "Recovery": "체력 회복",
+        "StaminaNotEnabled": "스태미나 변형은 활성화되지 않습니다.",
+        "Success": "성공",
+        "Title": "격려의 말"
+      },
+      "EndCover": {
+        "TowerShield": {
+          "Description": "{actor}가 {weapon} 뒤에서 나옵니다.",
+          "Title": "엄폐 종료"
+        },
+        "ShortTitle": "엄폐 종료",
+        "Title": "엄폐 종료"
+      },
+      "Escape": {
+        "Description": "<p>@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힘}, @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{동원됨}, 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속됨}. 자신에게 해당 조건 중 하나를 부과하는 생물, 물체, 주문 효과, 위험, 또는 기타 장애물을 하나 선택합니다. 해당 효과에 대한 DC를 대상으로 자신의 비무장 공격 수정치를 계산하여 공격을 시도합니다. 이는 일반적으로 당신을 붙잡은 생물의 운동 DC, 당신을 묶은 생물의 도둑질 DC, 주문 효과의 주문 DC, 또는 @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{탈출}에 나열된 물체, 위험물 또는 기타 장애물의 DC입니다. 원하는 경우 공격 수식어를 사용하는 대신 곡예 또는 운동 체크를 시도할 수 있습니다(단, 이 행동은 여전히 공격 특성을 가집니다).</p><p><strong>대성공</strong> 자유로워지고 선택한 대상에게 걸린 붙잡힘, 고정, 구속 상태를 해제합니다. 이후 최대 5피트까지 보폭을 넓힐 수 있습니다.</p><p><strong>성공</strong> 자유로워지고 선택한 대상이 부여한 붙잡힘, 이동 불가, 구속 조건을 해제합니다.</p><p><strong>대실패</strong> 자유로워지지 않으며 다음 턴까지 다시 탈출을 시도할 수 없습니다.</p>",
+        "Notes": {
+          "criticalFailure": "<strong>대실패</strong> 당신은 자유로워지지 못하며, 다음 턴까지 탈출을 다시 시도할 수 없습니다.",
+          "criticalSuccess": "<strong>대성공</strong> 자유로워지고 선택한 대상에게 부여된 붙잡힘, 고정, 속박 상태를 해제합니다. 이제 최대 5피트까지 보폭을 넓힐 수 있습니다.",
+          "success": "<strong>성공</strong> 자유의 몸이 되어 선택한 대상에게 부여된 붙잡힘, 고정, 구속 조건을 해제합니다."
+        },
+        "Title": "탈출"
+      },
+      "Feint": {
+        "Description": "<p><strong>Requirements</strong> You are within melee reach of the target you attempt to Feint.</p><hr><p>With a misleading flourish, you leave an opponent unprepared for your real attack. Attempt a Deception check against your target's Perception DC.</p><p><strong>Critical Success</strong> You throw your enemy's defenses against you entirely off. The target is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} against melee attacks that you attempt against it until the end of your next turn.<br><strong>Success</strong> Your foe is fooled, but only momentarily. The target is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} against the next melee attack that you attempt against it before the end of your current turn.<br><strong>Critical Failure</strong> Your feint backfires. You are @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} against melee attacks the target attempts against you until the end of your next turn.</p>",
+        "Notes": {
+          "criticalFailure": "<strong>대실패</strong> 기습이 역효과를 냅니다. 당신은 다음 턴이 끝날 때까지 대상의 근접 공격에 대해 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{무방비}가 되어 자신을 향한 근접 공격을 시도하지 못합니다.",
+          "criticalSuccess": "<strong>대성공</strong> 자신을 향한 적의 방어를 완전히 해제합니다. 대상은 다음 턴이 끝날 때까지 자신이 시도하는 근접 공격에 대해 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{무방비}가 됩니다..",
+          "success": "<strong>성공</strong> 적이 속아 넘어갔지만 잠시뿐입니다. 대상은 현재 턴이 끝나기 전에 시도하는 다음 근접 공격에 대해 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{무방비}가 됩니다."
+        },
+        "Title": "Fine"
+      },
+      "Fly": {
+        "Description": "<p>공중을 비행 속도만큼 이동합니다. 위쪽으로 이동(직선 또는 대각선)할 때는 어려운 지형에서 이동하는 규칙을 사용합니다. 5피트 이동할 때마다 10피트씩 똑바로 아래로 이동할 수 있습니다. 지상으로 날아갈 때는 낙하 피해를 받지 않습니다. 0피트 비행 동작을 사용해 제자리에서 호버링할 수 있습니다. 자신의 턴이 끝날 때 공중에 떠 있는 상태에서 이번 라운드에 비행 액션을 사용하지 않았다면, 당신은 추락합니다.</p>",
+        "Title": "비행"
+      },
+      "ForceOpen": {
+        "Description": "<p>Using your body, a lever, or some other tool, you attempt to forcefully open a door, window, container or heavy gate. With a high enough result, you can even smash through walls. Without a crowbar, prying something open takes a -2 item penalty to the Athletics check to Force Open.</p><p><strong>Critical Success</strong> You open the door, window, container, or gate and can avoid damaging it in the process.<br><strong>Success</strong> You break the door, window, container, or gate open, and it gains the @UUID[Compendium.pf2e.conditionitems.Item.6dNUvdb1dhToNDj3]{Broken} condition. If it's especially sturdy, the GM might have it take damage but not be broken.<br><strong>Critical Failure</strong> Your attempt jams the door, window, container, or gate shut, imposing a –2 circumstance penalty on future attempts to Force it Open.</p>",
+        "NoCrowbarPenalty": "크로바에서",
+        "Notes": {
+          "criticalFailure": "<strong>대실패</strong> 이 시도로 문, 창문, 컨테이너 또는 게이트가 닫히고, 이후 강제로 열려고 시도할 때 -2 상황 패널티가 부과됩니다.",
+          "criticalSuccess": "<strong>대성공</strong> 문, 창문, 컨테이너 또는 게이트를 열면 그 과정에서 손상을 피할 수 있습니다.",
+          "success": "<strong>성공</strong> 문, 창문, 컨테이너, 성문을 부수고 열면 해당 문, 창문, 컨테이너, 성문은 @UUID[Compendium.pf2e.conditionitems.Item.6dNUvdb1dhToNDj3]{부러짐} 상태를 얻습니다. 특히 튼튼하다면 GM이 피해를 받지만 부서지지 않게 할 수도 있습니다."
+        },
+        "SampleTasks": {
+          "Untrained": "fabric, flimsy glass",
+          "Trained": "ice, sturdy glass",
+          "Expert": "flimsy wooden door, wooden portcullis",
+          "Master": "sturdy wooden door, iron portcullis, metal bar",
+          "Legendary": "stone or iron door"
+        },
+        "Title": "강제 개방"
+      },
+      "GatherInformation": {
+        "Description": "<p>You canvass local markets, taverns, and gathering places in an attempt to learn about a specific individual or topic. The GM determines the DC of the check and the amount of time it takes (typically 2 hours, but sometimes more), along with any benefit you might be able to gain by spending coin on bribes, drinks, or gifts.</p><p><strong>Success</strong> You collect information about the individual or topic. The GM determines the specifics.<br><strong>Critical Failure</strong> You collect incorrect information about the individual or topic.</p>",
+        "Notes": {
+          "criticalFailure": "<strong>대실패</strong> 개인 또는 주제에 대한 잘못된 정보를 수집합니다.",
+          "success": "<strong>성공</strong> 개인 또는 주제에 대한 정보를 수집합니다. 구체적인 내용은 GM이 결정합니다."
+        },
+        "SampleTasks": {
+          "Untrained": "talk of the town",
+          "Trained": "common rumor",
+          "Expert": "obscure rumor, poorly guarded secret",
+          "Master": "well-guarded or esoteric information",
+          "Legendary": "information known only to an incredibly select few, or only to extraordinary beings"
+        },
+        "Title": "정보 수집"
+      },
+      "GrabAnEdge": {
+        "Description": "<p>가장자리나 다른 손잡이에서 떨어지거나 지나칠 때, 손잡이를 잡으면 추락을 멈출 수 있습니다. 곡예 체크 또는 반사 내성 중 하나를 선택해 성공해야 하며, 보통 클라이밍 DC에서 성공해야 합니다. 가장자리나 손잡이를 잡으면 곡예를 사용해 올라갈 수 있습니다.</p><hr /><p><strong>대성공</strong> 한 손이 자유롭든 아니든, 일반적으로 적절한 잡는 물건(예: 난간에서 전투 도끼를 잡는 것)을 사용해 가장자리나 손잡이를 잡을 수 있습니다. 지금까지 떨어진 거리만큼 피해를 받지만, 30피트 더 짧게 떨어진 것으로 간주합니다.</p><p><strong>성공</strong> 한 손이라도 자유롭다면, 가장자리나 손잡이를 잡고 추락을 멈춥니다. 지금까지 떨어진 거리만큼 피해를 입지만, 20피트 더 짧게 떨어진 것으로 간주합니다. 양손이 자유롭지 않으면 체크에 실패한 것처럼 계속 넘어집니다.</p><p><strong>대실패</strong> 계속 넘어지고, 이 반응을 사용하기 전에 20피트 이상 넘어졌다면 넘어진 20피트마다 충격으로 @Damage[10[bludgeoning] 피해를 받습니다.</p>",
+        "Notes": {
+          "criticalFailure": "<strong>대실패</strong> 계속 넘어지고, 이 반응을 사용하기 전에 20피트 이상 넘어졌다면 넘어진 20피트당 충격으로 @Damage[10[bludgeoning]] 피해를 받습니다.",
+          "criticalSuccess": "<strong>대성공</strong> 손이 자유롭든 아니든, 일반적으로 적절한 잡는 물건(예: 난간에서 전투 도끼를 잡는 등)을 사용하여 가장자리나 손잡이를 잡습니다. 지금까지 떨어진 거리만큼 피해를 받지만, 떨어진 거리가 30피트 더 짧아진 것으로 간주합니다.",
+          "success": "<strong>성공</strong> 한 손이라도 자유롭다면, 가장자리나 손잡이를 잡고 추락을 멈춥니다. 지금까지 떨어진 거리만큼 피해를 입지만, 20피트 더 짧게 떨어진 것처럼 취급합니다. 양손이 자유롭지 않으면 체크에 실패한 것처럼 계속 추락합니다."
+        },
+        "Title": "가장자리 잡기"
+      },
+      "Grapple": {
+        "Description": "<p><strong>Requirements</strong> You have at least one free hand and your target is no more than one size larger than you.</p><hr><p>You attempt to grab a creature or object with your free hand. Attempt an Athletics check against the target's Fortitude DC. You can Grapple a target you already have grabbed or restrained without having a hand free.</p><p><strong>Critical Success</strong> Your target is @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} until the end of your next turn unless you move or your target @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escapes}.<br><strong>Success</strong> Your target is @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} until the end of your next turn unless you move or your target @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escapes}.<br><strong>Failure</strong> You fail to grab your target. If you already had the target @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} using a Grapple, those conditions on the target end.<br><strong>Critical Failure</strong> If you already had the target @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}, it breaks free. Your target can either grab you, as if it succeeded at using the Grapple action against you, or force you to fall and land @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p>",
+        "Notes": {
+          "criticalFailure": "<strong>대실패</strong> 상대가 이미 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힘} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}를 가지고 있다면, 해방됩니다. 대상은 @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{잡기} 행동에 성공한 것처럼 캐릭터를 붙잡거나, 캐릭터를 강제로 넘어뜨려 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{기댄 상태로 착지할 수 있습니다.}",
+          "criticalSuccess": "<strong>대성공</strong> 상대는 자신이 움직이지 않거나 상대가 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restained}가 아닌 한 다음 턴이 끝날 때까지 @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{탈출}가 되어 있어야 합니다.",
+          "failure": "<strong>실패</strong> 상대를 잡는 데 실패했습니다. 이미 상대가 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힘} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{감금된} 그래플링을 사용 중이었다면, 그 생물의 조건은 종료됩니다.",
+          "success": "<strong>성공</strong> 당신이 움직이거나 상대가 움직이지 않는 한, 상대는 다음 턴이 끝날 때까지 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힘}가 되어 있습니다."
+        },
+        "Title": "그래플"
+      },
+      "Hide": {
+        "Description": "<p>당신은 엄폐물 또는 그 이상의 엄폐물 뒤에 몸을 숨기거나 더 깊숙이 은신하여 관찰되지 않고 숨어버립니다. GM은 은신 체크를 비밀리에 굴려 그 결과를 캐릭터가 관찰되지만 캐릭터가 엄폐물 이상으로 은폐하거나 {숨어 있는} 각 생물의 지각 DC와 비교합니다. 표준 엄폐물이 있으면 체크에 +2의 상황 보너스를 받습니다(엄폐물이 더 크면 +4).</p><p><strong>성공</strong> 그 생물이 당신을 볼 수 있다면, 당신은 이제 관찰되는 대신 숨어 있는 것입니다. 생물에게 숨겨졌거나 발견되지 않았다면, 그 상태를 유지합니다.</p><p>생물에게 숨겨지는 데 성공했지만, 그 생물에 대한 엄폐물이 없거나 상급 엄폐물로부터 숨겨지지 않으면, 다시 관찰됩니다. 은신, 몰래, 발걸음을 제외한 다른 액션을 하면 은신이 중단됩니다. 당신이 생물에게 공격을 시도하면, 그 생물은 그 공격을 방어하지 못하고 당신은 관찰 대상이 됩니다. 그 외의 액션을 하면, GM이 달리 결정하지 않는 한 행동하기 직전에 관찰 대상이 됩니다. GM은 캐릭터가 특별히 눈에 띄지 않는 액션을 할 수 있도록 허용할 수 있으며, 이 경우 은신 확인을 다시 해야 할 수도 있습니다.</p><p>생물이 탐색을 사용해 캐릭터를 관찰하게 만든 경우, 캐릭터는 숨기기에 성공해야 다시 관찰되지 않게 됩니다.</p>",
+        "Notes": {
+          "success": "<strong>성공</strong> 생물이 캐릭터를 볼 수 있었다면, 이제 캐릭터는 관찰 대상이 아니라 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨겨짐}이 됩니다. 해당 생물로부터 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨겨짐}이거나 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{미감지}이었던 경우, 그 상태를 유지하게 됩니다."
+        },
+        "Title": "숨기"
+      },
+      "HighJump": {
+        "Description": "<p>You @UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{Stride}, then attempt a DC 30 Athletics check to jump vertically. If you didn't Stride at least 10 feet, you automatically fail. This DC might be increased or decreased due to the situation, as determined by the GM.</p><p><strong>Critical Success</strong> You @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Leap} up to 8 feet vertically and 10 feet horizontally.<br><strong>Success</strong> You @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Leap} up to 5 feet vertically and 5 feet horizontally.<br><strong>Failure</strong> You @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Leap} normally.<br><strong>Critical Failure</strong> You fall @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} in your space.</p>",
+        "Notes": {
+          "criticalFailure": "<strong>대실패</strong> 자신의 공간에서 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{넘어짐}으로 추락했습니다.",
+          "criticalSuccess": "<strong>중요 성공</strong> 당신 @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{도약} 수직으로 최대 8피트, 수평으로 최대 10피트까지 뛰어오를 수 있습니다.",
+          "failure": "<strong>실패</strong> 당신 @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Leap} 정상입니다.",
+          "success": "<strong>성공</strong> 당신 @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{도약} 수직으로 최대 5피트, 수평으로 5피트까지 뛰어오릅니다."
+        },
+        "Title": "높이뛰기"
+      },
+      "IdentifyAlchemy": {
+        "Description": "<p><strong>Requirements</strong> You are holding or wearing an alchemist's toolkit.</p><hr><p>You can identify the nature of an alchemical item with 10 minutes of testing using your alchemist's toolkit. If your attempt is interrupted in any way, you must start over.</p><p><strong>Success</strong> You identify the item and the means of activating it.</p><p><strong>Failure</strong> You fail to identify the item but can try again.</p><p><strong>Critical Failure</strong> You misidentify the item as another item of the GM's choice.</p>",
+        "Notes": {
+          "criticalFailure": "<strong>Critical Failure</strong> You misidentify the item as another item of the GM's choice.",
+          "failure": "<strong>Failure</strong> You fail to identify the item but can try again.",
+          "success": "<strong>Success</strong> You identify the item and the means of activating it."
+        },
+        "Title": "Identify Alchemy"
+      },
+      "IdentifyMagic": {
+        "Description": "<p>아이템, 장소 또는 진행 중인 효과가 마법인 것을 발견하면 10분 동안 해당 마법의 구체적인 내용을 알아내려고 시도할 수 있습니다. 시도가 중단되면 처음부터 다시 시작해야 합니다. GM이 체크에 필요한 DC를 설정합니다. 저주받은 마법이나 난해한 대상은 일반적으로 DC가 더 높거나 이 활동만으로는 식별이 불가능할 수도 있습니다. 주문을 강화한다고 해서 이를 식별하기 위한 DC가 높아지지는 않습니다.</p><p><strong>대성공</strong> 마법 이름(효과의 경우), 효과, 활성화 수단(아이템 또는 장소의 경우), 저주 여부 등 모든 속성을 학습합니다.</p><p><strong>성공</strong> 아이템 또는 장소의 경우, 효과가 무엇인지 파악하고 활성화 수단을 배웁니다. 지속 시간이 있는 주문과 같은 지속 효과의 경우, 효과의 이름과 효과를 학습합니다. 대성공을 기대하며 다시 시도할 수 없습니다.</p><p><strong>실패</strong> 마법 식별에 실패하여 1일 동안 다시 시도할 수 없습니다.</p><p><strong>대실패</strong> 해당 마법을 GM이 선택한 다른 마법으로 잘못 인식합니다.</p>",
+        "Notes": {
+          "criticalFailure": "<strong>대실패</strong> 마법을 GM이 선택한 다른 것으로 잘못 인식했습니다.",
+          "criticalSuccess": "<strong>대성공</strong> 마법 이름(효과의 경우), 효과, 활성화 수단(아이템 또는 장소의 경우), 저주 여부 등 마법의 모든 속성을 학습합니다.",
+          "failure": "<strong>실패</strong> 마법 식별에 실패하여 1일 동안 다시 시도할 수 없습니다.",
+          "success": "<strong>성공</strong> 아이템이나 장소의 경우, 그 아이템의 기능을 파악하고 활성화하는 방법을 배웁니다. 지속 효과(예: 지속 시간이 있는 주문)의 경우, 효과의 이름과 효과를 학습합니다. 치명타에 성공하기 위해 다시 시도할 수는 없습니다."
+        },
+        "Title": "마법 식별",
+        "Warning": {
+          "NoStatistic": "The Identify Magic action can be used with different statistics, and no statistic was specified."
+        }
+      },
+      "Impersonate": {
+        "Description": "<p>You create a disguise to pass yourself off as someone or something you are not. Assembling a convincing disguise takes 10 minutes and requires a @UUID[Compendium.pf2e.equipment-srd.Item.Jvp0x2Sc82WVpExT]{Disguise Kit}, but a simpler, quicker disguise might do the job if you're not trying to imitate a specific individual, at the GM's discretion.</p><p>In most cases, creatures have a chance to detect your deception only if they use the @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} action to attempt Perception checks against your Deception DC. If you attempt to directly interact with someone while disguised, the GM rolls a secret Deception check for you against that creature's Perception DC instead.</p><p>If you're disguised as a specific individual, the GM might give creatures you interact with a circumstance bonus based on how well they know the person you're imitating, or the GM might roll a secret Deception check even if you aren't directly interacting with others.</p><p><strong>Success</strong> You trick the creature into thinking you're the person you're disguised as. You might have to attempt a new check if your behavior changes.<br><strong>Failure</strong> The creature can tell you're not who you claim to be.<br><strong>Critical Failure</strong> The creature can tell you're not who you claim to be, and it recognizes you if it would know you without a disguise.</p>",
+        "Notes": {
+          "criticalFailure": "<strong>대실패</strong> 대상은 당신이 자신이 주장하는 사람이 아니라는 것을 알 수 있으며, 변장하지 않고도 당신을 알아볼 수 있을 정도로 당신을 알아챕니다.",
+          "failure": "<strong>실패</strong> 대상은 당신이 자신이 주장하는 사람이 아니라는 것을 알 수 있습니다.",
+          "success": "<strong>성공</strong> 생물이 자신을 변장한 사람이라고 생각하도록 속였습니다. 행동이 바뀌면 다시 확인을 시도해야 할 수도 있습니다."
+        },
+        "Title": "가장"
+      },
+      "Interact": {
+        "Description": "<p>손 또는 손을 사용하여 물체나 지형을 조작합니다. 방치되어 있거나 보관되어 있는 물체를 잡거나, 무기를 뽑거나, 들고 있는 아이템을 다른 아이템으로 바꾸거나, 문을 열거나, 비슷한 효과를 얻을 수 있습니다. 드물게 상호작용 동작이 성공했는지 확인하기 위해 스킬 체크를 시도해야 할 수도 있습니다.</p>",
+        "Draw": {
+          "Title": "Draw"
+        },
+        "Draw1H": {
+          "Description": "{actor}가 {weapon}를 뽑습니다.",
+          "Title": "뽑기 (1H)"
+        },
+        "Draw2H": {
+          "Description": "{actor}가 {weapon}를 뽑습니다.",
+          "Title": "뽑기 (2H)"
+        },
+        "Grip": {
+          "Description": "{actor}가 {weapon}를 두 손으로 잡습니다.",
+          "Title": "손 변경 (2H)"
+        },
+        "Modular": {
+          "Description": "{actor}가 {weapon}를 조정하여 {damageType}의 피해를 줍니다.",
+          "Title": "모듈형"
+        },
+        "Parenthetical": "상호작용 {목적}",
+        "PickUp1H": {
+          "Description": "{actor}가 땅에서 {weapon}를 집어 올립니다.",
+          "Title": "픽업 (1H)"
+        },
+        "PickUp2H": {
+          "Description": "{actor}가 땅에서 {weapon}를 집어 올립니다.",
+          "Title": "픽업 (2H)"
+        },
+        "Retrieve1H": {
+          "Description": "{actor}가 {weapon}를 회수합니다.",
+          "Title": "회수 (1H)"
+        },
+        "Retrieve2H": {
+          "Description": "{actor}가 {weapon}를 회수합니다.",
+          "Title": "회수 (1H)"
+        },
+        "Sheathe": {
+          "Description": "{actor}가 {weapon}를 감춥니다.",
+          "Title": "은닉"
+        },
+        "Title": "상호작용"
+      },
+      "Leap": {
+        "Description": "<p>수평 또는 수직으로 짧은 점프를 합니다. 더 먼 거리를 점프하려면 운동 기술을 사용해야 하며, @UUID[Compendium.pf2e.actionspf2e.Item.2HJ4yuEFY1Cast4h]{높이뛰기} 또는 @UUID[Compendium.pf2e.actionspf2e.Item.JUvAvruz7yRQXfz2]{멀리뛰기}.</p><ul><li><strong>수평</strong> 속도가 15피트 이상이면 최대 10피트까지, 속도가 30피트 이상이면 수평으로 15피트까지 점프할 수 있습니다. 도약이 끝나는 공간에 착지합니다(일반적으로 5피트, 속도가 30피트 이상이면 10피트 간격을 클리어할 수 있습니다). 속도가 15피트 미만이면 수평 도약이 불가능합니다. </li><li><strong>수직</strong> 높은 표면으로 수직으로 3피트, 수평으로 5피트까지 점프합니다.</li></ul>",
+        "Title": "도약"
+      },
+      "LearnASpell": {
+        "Description": "<p>새로운 전통 주문은 해당 주문을 알고 있는 사람이나 주문서나 두루마리 같은 마법 문자를 통해 배울 수 있습니다. 여러 전통의 주문을 시전할 수 있다면, 그 중 어느 전통의 주문이라도 배울 수 있지만, 해당 기술을 사용해야 합니다. 예를 들어, 바드 멀티 클래스 원형을 가진 클레릭라면 종교를 사용해 바드 주문 목록에 신비 주문을 추가할 수 없습니다.</p><p>주문을 배우려면 다음을 수행해야 합니다.</p><ul><li> 주문 레벨당 1시간을 소비하며, 이 시간 동안 주문을 아는 사람과 대화를 나누거나 마법의 글을 소지하고 있어야 합니다. </li><li> 주문 배우기 표에 가격이 표시된 재료를 준비합니다. </li><li> 자신의 전통에 해당하는 스킬에 대한 스킬 점검을 시도합니다(GM이 결정하며, 주문 배우기 표의 DC와 비슷한 경우가 많음). 흔하지 않거나 희귀한 주문은 DC가 더 높으며, GM에 대한 전체 지침은 GM 핵심 52페이지에 나와 있습니다.</p><p><strong>대성공</strong> 재료의 절반을 소비하고 주문을 배웁니다.</p><p><strong>성공</strong> 재료를 소비하고 주문을 배웁니다.</p><p><strong>실패</strong> 주문 학습에 실패했지만 레벨이 오른 후 다시 시도할 수 있습니다. 재료가 소모되지 않습니다.</p><p><strong>대실패</strong> 실패와 동일하지만, 재료의 절반을 소모합니다.</p>",
+        "Notes": {
+          "criticalFailure": "<strong>대실패</strong> 주문 학습에 실패했지만, 레벨이 오른 후 다시 시도할 수 있습니다. 재료의 절반을 소모합니다.",
+          "criticalSuccess": "<strong>대성공</strong> 재료의 절반을 소비하고 주문을 배웁니다.",
+          "failure": "<strong>실패</strong> 주문 학습에 실패했지만, 레벨이 올라간 후 다시 시도할 수 있습니다. 재료는 소모되지 않습니다.",
+          "success": "<strong>성공</strong> 재료를 소모하고 주문을 배웁니다."
+        },
+        "Title": "주문 배우기",
+        "Warning": {
+          "NoSkill": "The Learn a Spell action can be used with different skills, and no skill was specified. Each magical tradition has a corresponding skill: Arcana for the arcane tradition, Nature for the primal tradition, Occultism for the occult tradition, and Religion for the divine tradition."
+        }
+      },
+      "Lie": {
+        "Description": "<p>You try to fool someone with an untruth. Doing so takes at least 1 round, or longer if the lie is elaborate. You roll a single Deception check and compare it against the Perception DC of every creature you are trying to fool. The GM might give them a circumstance bonus based on the situation and the nature of the lie you are trying to tell. Elaborate or highly unbelievable lies are much harder to get a creature to believe than simpler and more believable lies, and some lies are so big that it's impossible to get anyone to believe them.</p><p>At the GM's discretion, if a creature initially believes your lie, it might attempt a Perception check later to @UUID[Compendium.pf2e.actionspf2e.Item.1xRFPTFtWtGJ9ELw]{Sense Motive} against your Deception DC to realize it's a lie. This usually happens if the creature discovers enough evidence to counter your statements.</p><p><strong>Success</strong> The target believes your lie.<br><strong>Failure</strong> The target doesn't believe your lie and gains a +4 circumstance bonus against your attempts to Lie for the duration of your conversation. The target is also more likely to be suspicious of you in the future.</p>",
+        "Notes": {
+          "failure": "<strong>실패</strong> 대상은 캐릭터의 거짓말을 믿지 않으며, 대화가 진행되는 동안 거짓말 시도에 대해 +4의 상황 보너스를 받습니다. 또한 대상은 앞으로 당신을 의심할 가능성이 높아집니다.",
+          "success": "<strong>성공</strong> 대상은 당신의 거짓말을 믿습니다."
+        },
+        "Title": "거짓말"
+      },
+      "LongJump": {
+        "Description": "<p>You @UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{Stride}, then attempt a DC 15 Athletics check to make a long jump in the direction you were Striding. If you didn't Stride at least 10 feet, you automatically fail your check. The GM might increase or decrease this DC depending on the situation.</p><p><strong>Success</strong> You @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Leap} up to a distance equal to your check result rounded down to the nearest 5 feet. You can't jump farther than your land Speed.<br><strong>Failure</strong> You make a normal horizontal @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Leap}.<br><strong>Critical Failure</strong> You make a normal horizontal @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Leap}, then fall and land @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p>",
+        "Notes": {
+          "criticalFailure": "<strong>대실패</strong> 정상적인 수평 도약 @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Leap}을 한 후 낙하하여 착지합니다 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{넘어짐}.",
+          "failure": "<strong>실패</strong> 일반 수평 @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Leap}을 만들었습니다.",
+          "success": "<strong>성공</strong> 당신은 @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{도약} 체크 결과와 같은 거리까지 반올림하여 가장 가까운 5피트까지 뛰어넘습니다. 자신의 지상 속도보다 더 멀리 점프할 수 없습니다."
+        },
+        "Title": "멀리뛰기"
+      },
+      "LowerShield": {
+        "Content": "{actor}가 {shield}을 낮춥니다.",
+        "ShortTitle": "Lower",
+        "Title": "하부 방패"
+      },
+      "MakeAnImpression": {
+        "Description": "<p>With at least 1 minute of conversation, during which you engage in charismatic overtures, flattery, and other acts of goodwill, you seek to make a good impression on someone to make them temporarily agreeable. At the end of the conversation, attempt a Diplomacy check against the Will DC of one target. You can instead choose up to five targets if you take a –2 penalty. The GM might add other bonuses or penalties based on the situation. Any impression you make lasts for only the current social interaction unless the GM decides otherwise.</p><strong>Critical Success</strong> The target's attitude toward you improves by two steps.<br><strong>Success</strong> The target's attitude toward you improves by one step.<br><p><strong>Critical Failure</strong> The target's attitude toward you decreases by one step.</p>",
+        "Notes": {
+          "criticalFailure": "<strong>대실패</strong> 자신에 대한 대상의 태도가 한 단계 감소합니다.",
+          "criticalSuccess": "<strong>대성공</strong> 자신을 향한 대상의 태도가 두 단계 향상됩니다.",
+          "success": "<strong>성공</strong> 자신을 대하는 대상의 태도가 한 단계 향상됩니다."
+        },
+        "Title": "깊은 인상을 남기세요"
+      },
+      "ManeuverInFlight": {
+        "Description": "<p>비행 중 고난이도 기동을 시도합니다. 곡예 점검을 시도합니다. GM이 가능한 기동을 결정하지만, 비행 속도보다 더 멀리 이동할 수 있는 경우는 거의 없습니다.</p><p><strong>성공</strong> 기동에 성공합니다.<br><strong>실패</strong> 기동에 실패합니다. GM은 캐릭터가 단순히 움직일 수 없는지, 아니면 다른 불리한 효과가 발생하는지를 선택합니다. 결과는 시도한 기동에 적합한 것이어야 합니다(예: 강풍에 맞서 비행하려던 경우 경로를 벗어나는 것).<br><strong>Critical Failure</strong> 실패와 같지만 결과는 더 끔찍합니다.</p><section class=\"sample-tasks\"><h2>비행 과제의 샘플 기동</h2><p><strong>훈련</strong> 가파른 상승 또는 하강</p><p><strong>전문</strong> 바람을 거슬러 비행, 공중 정지</p><p><strong>통달</strong> 역방향 비행</p><p><strong>전설적인</strong> 강풍 통과 비행</p></section>",
+        "Notes": {
+          "criticalFailure": "<strong>대실패</strong> 실패로 보이지만 그 결과는 더 끔찍합니다.",
+          "failure": "<strong>실패</strong> 기동이 실패했습니다. GM은 캐릭터가 단순히 움직일 수 없는지, 아니면 다른 불이익이 발생하는지를 선택합니다. 결과는 시도한 기동에 적합한 것이어야 합니다(예: 강풍에 맞서 비행하려던 경우 경로를 벗어나는 경우).",
+          "success": "<strong>성공</strong> 기동에 성공했습니다."
+        },
+        "SampleTasks": {
+          "Trained": "steep ascent or descent",
+          "Expert": "fly against the wind, hover midair",
+          "Master": "reverse direction",
+          "Legendary": "fly through gale force winds"
+        },
+        "Title": "비행 중 기동"
+      },
+      "Mount": {
+        "Description": "<p>생물 위로 이동하여 탈것에 올라탑니다. 이미 탈것에 올라타 있는 경우, 이 동작을 사용하여 탈것에서 내려 탈것에 인접한 공간으로 이동할 수 있습니다.</p>",
+        "Title": "마운트"
+      },
+      "PalmAnObject": {
+        "Description": "<p>주인이 없는 작은 물건을 집어 들고 눈에 띄지 않으려고 합니다. 현재 자신을 관찰하고 있는 모든 생물의 지각 DC에 대해 도둑질 주사위를 한 번 굴립니다. 일반적으로 무시할 수 있는 부피의 물건만 손바닥으로 쥘 수 있지만, 상황에 따라 GM이 다르게 결정할 수도 있습니다.</p><p><strong>성공</strong> 생물이 캐릭터가 물건을 손바닥으로 쥔 것을 알아채지 못합니다.</p><p><strong>실패</strong> 생물이 캐릭터가 물건을 손바닥으로 쥔 것을 알아챕니다.</p>",
+        "Notes": {
+          "failure": "<strong>실패</strong> 대상은 캐릭터가 물체를 손바닥으로 숨기는 것을 알아차리고, GM이 생물의 반응을 결정합니다.",
+          "success": "<strong>성공</strong> 대상은 당신이 물체를 손바닥으로 숨기는 것을 알아채지 못합니다."
+        },
+        "Title": "물건 숨기기"
+      },
+      "Parry": {
+        "ShortTitle": "Parry",
+        "Content": "{actor} begins to parry.",
+        "Title": "Parry"
+      },
+      "Perform": {
+        "Description": "<p>When making a brief performance - one song, a quick dance, or a few jokes - you use the Perform action. This action is most useful when you want to prove your capability or impress someone quickly. Performing rarely has an impact on its own, but it might influence the DCs of subsequent Diplomacy checks against the observers, or even change their attitudes if the GM sees fit.</p><p><strong>Critical Success</strong> Your performance impresses the observers, and they're likely to share stories of your ability.<br><strong>Success</strong> You prove yourself, and observers appreciate the quality of your performance.<br><strong>Failure</strong> Your performance falls flat.<br><strong>Critical Failure</strong> You demonstrate only incompetence.</p>",
+        "Notes": {
+          "criticalFailure": "<strong>대실패</strong> 당신은 무능함만 보여주었습니다.",
+          "criticalSuccess": "<strong>대성공</strong> 여러분의 성과는 관찰자들에게 깊은 인상을 남기며, 그들은 여러분의 능력에 대한 이야기를 공유할 가능성이 높습니다.",
+          "failure": "<strong>실패</strong> 실적이 저조합니다.",
+          "success": "<strong>성공</strong> 여러분은 자신을 증명하고, 관찰자들은 여러분의 공연의 질을 높이 평가합니다."
+        },
+        "SampleTasks": {
+          "Untrained": "audience of commoners",
+          "Trained": "audience of artisans",
+          "Expert": "audience of merchants or minor nobles",
+          "Master": "audience of high nobility or minor royalty",
+          "Legendary": "audience of major royalty or otherworldly beings"
+        },
+        "Acting": {
+          "Title": "수행 - 연기"
+        },
+        "Comedy": {
+          "Title": "공연 - 코미디"
+        },
+        "Dance": {
+          "Title": "공연 - 댄스"
+        },
+        "Keyboards": {
+          "Title": "연주 - 키보드 악기 연주"
+        },
+        "Oratory": {
+          "Title": "수행 - 웅변"
+        },
+        "Percussion": {
+          "Title": "연주 - 타악기 연주"
+        },
+        "Singing": {
+          "Title": "공연 - 노래"
+        },
+        "Strings": {
+          "Title": "연주 - 현악기 연주"
+        },
+        "Winds": {
+          "Title": "연주 - 관악기 연주"
+        },
+        "Title": "수행",
+        "Warning": {
+          "UnknownVariant": "알 수 없는 변형 '{variant}'이 연기, 코미디, 춤, 키보드, 웅변, 타악기, 노래, 현악기 또는 관악기 중 하나를 사용하여 수행에 사용되었습니다."
+        }
+      },
+      "PickALock": {
+        "Description": "<p>열쇠 없이 자물쇠를 여는 것은 장치 비활성화와 매우 유사하지만, 도둑질 체크의 DC는 따려고 하는 자물쇠의 복잡도와 구조에 따라 결정됩니다(자물쇠와 그 DC는 설명에서 확인할 수 있습니다). 높은 품질의 자물쇠는 여러 번 성공해야 잠금을 해제할 수 있는데, 그렇지 않으면 숙련되지 않은 도둑이라도 자연적으로 20이 나올 때까지 체크를 시도하여 쉽게 자물쇠를 열 수 있기 때문입니다. 적절한 도구가 부족한 경우, GM이 조잡한 도구로 취급되는 즉석에서 고른 물건을 사용하도록 허용할 수 있습니다</p><p><strong>중요 성공</strong> 자물쇠를 열거나 복잡한 자물쇠를 여는 데 두 번 성공합니다. 조작 흔적을 남기지 않습니다.</p><p><strong>성공</strong> 자물쇠를 열거나 복잡한 자물쇠를 여는 데 한 번 성공합니다.</p><p><strong>대실패</strong> 도구를 망가뜨립니다. 도구를 고치려면 제작을 사용해 @UUID[Compendium.pf2e.actionspf2e.Item.bT3skovyLUtP22ME]{수리}하거나, @UUID[Compendium.pf2e.equipment-srd.Item.Sw7MBLASN3xK4Y44]{교체 선택}으로 교체해야 합니다.</p>",
+        "Notes": {
+          "criticalFailure": "<strong>대실패</strong> 도구를 망가뜨립니다. 도구를 고치려면 제작을 사용해 @UUID[Compendium.pf2e.actionspf2e.Item.bT3skovyLUtP22ME]{수리}하거나, @UUID[Compendium.pf2e.equipment-srd.Item.Sw7MBLASN3xK4Y44]{교체 선택}으로 교체해야 합니다.",
+          "criticalSuccess": "<strong>대성공</strong> 자물쇠를 풀거나 복잡한 자물쇠를 여는 데 두 번 성공합니다. 조작의 흔적을 남기지 않습니다.",
+          "success": "<strong>성공</strong> 자물쇠를 열거나 복잡한 자물쇠를 여는 데 한 번 성공합니다."
+        },
+        "Title": "자물쇠 선택"
+      },
+      "PointOut": {
+        "Description": "<p>한 명 이상의 아군에게 보이는 생물을 가리키며 방향을 몸짓으로 가리키고 거리를 말로 설명합니다. 대상은 아군에게 감지되지 않고 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨겨짐}입니다. 이 효과는 캐릭터를 볼 수 있고 잠재적으로 대상을 감지할 수 있는 위치에 있는 아군에게만 적용됩니다. 아군이 당신의 말을 듣지 못하거나 알아듣지 못하면, 그 생물의 은신 DC에 대한 인식 체크에서 성공해야 하며, 그렇지 않으면 대상이 다른 위치에 있다고 오해합니다.</p>",
+        "Title": "포인트 아웃"
+      },
+      "RaiseAShield": {
+        "BadArgs": "이 작업은 정확히 한 명의 캐릭터 또는 NPC로 수행해야 합니다.",
+        "Content": "{actor}가 {shield}를 올립니다.",
+        "Description": "<p>방패를 들어 자신을 보호합니다. 방패를 들었을 때, 방패에 나열된 상황 보너스를 AC에 얻습니다. 방패는 다음 턴이 시작될 때까지 들어올린 상태로 유지됩니다.</p>",
+        "NoShieldEquipped": "{actor}는 보호막을 장착해야 합니다.",
+        "ReactionTitle": "방패 반응",
+        "ShieldIsBroken": "{actor}의 {shield}가 부러졌습니다.",
+        "ShieldIsDestroyed": "{actor}의 {shield}가 파괴되었습니다.",
+        "ShortTitle": "올리기",
+        "SingleActionTitle": "방패 들기",
+        "Title": "방패 들기"
+      },
+      "Ready": {
+        "Description": "<p>자신의 차례가 아닐 때 사용할 액션을 준비합니다. 사용할 수 있는 행동 하나 또는 자유 액션을 선택하고 트리거를 지정합니다. 그러면 자신의 차례가 끝납니다. 지정한 트리거가 다음 턴이 시작되기 전에 발생하면, 선택한 액션을 반응으로 사용할 수 있습니다(사용 요건을 충족하는 경우). 이미 트리거가 있는 프리 액션은 준비할 수 없습니다.</p><p>다중 공격 패널티가 있고 준비된 행동이 공격 행동인 경우, 준비된 공격은 준비를 사용할 당시의 다중 공격 패널티를 받습니다. 이것은 내 차례가 아닐 때 다중 공격 패널티가 적용되는 몇 안 되는 경우 중 하나입니다.</p>",
+        "Title": "준비"
+      },
+      "RecallKnowledge": {
+        "Description": "<p>You attempt a skill check to try to remember a bit of knowledge regarding a topic related to that skill. Suggest which skill you'd like to use and ask the GM one question. The GM determines the DC. You might need to collaborate with the GM to narrow down the question or skills, and you can decide not to Recall Knowledge before committing to the action if you don't like your options.</p><p><strong>Critical Success</strong> You recall the knowledge accurately. The GM answers your question truthfully and either tells you additional information or context, or answers one follow-up question.</p><p><strong>Success</strong> You recall the knowledge accurately. The GM answers your question truthfully.</p><p><strong>Critical Failure</strong> You recall incorrect information. The GM answers your question falsely (or decides to give you no information, as on a failure).</p>",
+        "Notes": {
+          "criticalFailure": "<strong>Critical Failure</strong> You recall incorrect information. The GM answers your question falsely (or decides to give you no information, as on a failure).",
+          "criticalSuccess": "<strong>Critical Success</strong> You recall the knowledge accurately. The GM answers your question truthfully and either tells you additional information or context, or answers one follow-up question.",
+          "success": "<strong>Success</strong> You recall the knowledge accurately. The GM answers your question truthfully."
+        },
+        "SampleTasks": {
+          "Caption": "The following examples use Society or Religion.",
+          "Untrained": "name of a ruler, head of state, key noble, or major deity",
+          "Trained": "line of succession for a major noble family, core doctrines of a major deity",
+          "Expert": "genealogy of a minor noble, teachings of an ancient priest",
+          "Master": "hierarchy of a genie noble court, major extraplanar temples of a deity",
+          "Legendary": "existence of a long-lost noble heir, secret doctrines of a religion"
+        },
+        "Title": "Recall Knowledge",
+        "Warning": {
+          "NoSkill": "The Recall Knowledge action can be used with different skills, and no skill was specified."
+        }
+      },
+      "Release": {
+        "Description": "<p>손이나 손에 들고 있는 물건을 놓습니다. 여기에는 물건을 떨어뜨리거나, 무기를 한 손에서 떼고 다른 손으로 계속 쥐고 있거나, 샹들리에에 매달린 밧줄을 놓거나, 비슷한 동작을 하는 것이 포함됩니다. 대부분의 조작 행동과 달리, 놓기는 조작 특성이 있는 행동으로 발동할 수 있는 반응(예: 반응성 타격)을 발동하지 않습니다.</p><p>자신의 차례가 아닐 때 놓기를 준비하려면 준비 액션을 사용하세요.</p>",
+        "Drop": {
+          "Description": "{actor}가 {weapon}를 바닥에 떨어뜨립니다.",
+          "Title": "드롭"
+        },
+        "Grip": {
+          "Description": "{actor}가 {weapon}에서 손을 놓습니다.",
+          "Title": "손 변경 (1H)"
+        },
+        "Title": "릴리스"
+      },
+      "Repair": {
+        "Chat": {
+          "ItemDamaged": "{itemName}이 {maximumHitPoints} 중 총 {afterDamageHitPoints}에 해당하는 {damageDealt}만큼 피해를 입었습니다.",
+          "ItemRepaired": "{itemName}이 {maximumHitPoints} 중 총 {afterDamageHitPoints}만큼 {repairedDamage}만큼의 피해를 수리했습니다."
+        },
+        "Error": {
+          "ItemReferenceMismatch": "액터로부터 수리할 수 있는 물리 아이템만 받습니다."
+        },
+        "Labels": {
+          "DamageMitigatedByHardness": "대실패한 수리 시도는 경도로 인해 아이템에 손상을 입히지 않았습니다.",
+          "DealItemDamage": "아이템에 {value} 피해 주기",
+          "Hardness": "경도",
+          "ItemLevelRepairDC": "아이템 레벨 {level} 수리 DC",
+          "RestoreItemHitPoints": "아이템에 {value} HP 복원",
+          "RollItemDamage": "{value} 피해 굴림"
+        },
+        "Notes": {
+          "criticalFailure": "<strong>대실패</strong> 아이템에 2d6만큼 피해를 줍니다. 이 피해에 아이템의 경도를 적용합니다.",
+          "criticalSuccess": "<strong>대성공</strong> 아이템의 체력이 10 회복되고, 제작 시 보유한 숙련도 등급당 체력이 10씩 추가로 회복됩니다(훈련된 경우 총 20 HP, 숙련된 경우 30 HP, 통달된 경우 40 HP, 전설적인 경우 50 HP).",
+          "success": "<strong>성공</strong> 아이템의 체력이 5 회복되고, 제작 숙련도에 따라 5가 추가됩니다(훈련된 경우 총 10 HP, 숙련된 경우 15 HP, 통달된 경우 20 HP, 전설적인 경우 25 HP)."
+        },
+        "SelectItemDialog": {
+          "CancelButtonLabel": "취소",
+          "DropItemZoneLabel": "항목을 여기로 드래그...",
+          "RepairButtonLabel": "수리",
+          "Title": "복구할 항목 선택"
+        },
+        "Title": "수리",
+        "Warning": {
+          "NotPhysicalItem": "지정한 {item}이 실제 아이템이 아닙니다."
+        }
+      },
+      "Reposition": {
+        "Description": "<p>생물이나 물체에 힘을 주어 움직입니다. 대상의 인내 DC에 대해 운동 스킬 체크를 시도합니다.</p><p><strong>대성공</strong> 생물을 최대 10피트까지 이동합니다. 이동하는 동안 대상은 당신의 손이 닿는 범위 내에 있어야 하며, 장애물 안이나 장애물을 통과하여 이동할 수 없습니다.<br><strong>성공</strong> 대상을 최대 5피트까지 이동시킵니다. 이동하는 동안 대상은 캐릭터의 손이 닿는 범위 내에 있어야 하며, 장애물 안이나 장애물을 통과해 이동할 수 없습니다.<br><strong>Critical Failure</strong> 대상은 캐릭터를 위치 변경에 성공한 것처럼 최대 5피트까지 이동할 수 있습니다.</p>",
+        "Notes": {
+          "criticalFailure": "<strong>대실패</strong> 대상은 자신을 위치 변경에 성공한 것처럼 최대 5피트까지 이동시킬 수 있습니다.",
+          "criticalSuccess": "<strong>대성공</strong> 생물을 최대 10피트까지 이동시킵니다. 이동하는 동안 생명체는 당신의 손이 닿는 범위 안에 있어야 하며, 장애물 안이나 장애물을 통과해 이동할 수 없습니다.",
+          "success": "<strong>성공</strong> 대상을 최대 5피트까지 이동합니다. 이동하는 동안 대상은 손이 닿는 곳에 있어야 하며, 장애물 안이나 장애물 사이로 이동할 수 없습니다."
+        },
+        "Title": "위치 변경"
+      },
+      "Request": {
+        "Description": "<p>You can make a request of a creature that's friendly or helpful to you. You must couch the request in terms that the target would accept given their current attitude toward you. The GM sets the DC based on the difficulty of the request. Some requests are unsavory or impossible, and even a helpful NPC would never agree to them.</p><p><strong>Critical Success</strong> The target agrees to your request without qualifications.<br><strong>Success</strong> The target agrees to your request, but they might demand added provisions or alterations to the request.<br><strong>Failure</strong> The target refuses the request, though they might propose an alternative that is less extreme.<br><strong>Critical Failure</strong> Not only does the target refuse the request, but their attitude toward you decreases by one step due to the temerity of the request.</p>",
+        "Notes": {
+          "criticalFailure": "<strong>대실패</strong> 상대방이 요청을 거절할 뿐만 아니라, 요청의 경솔함으로 인해 상대방에 대한 태도가 한 단계 감소합니다.",
+          "criticalSuccess": "<strong>대성공</strong> 대상은 자격 조건 없이 요청에 동의합니다.",
+          "failure": "<strong>실패</strong> 대상은 덜 극단적인 대안을 제안할 수 있지만 요청을 거부합니다.",
+          "success": "<strong>성공</strong> 대상은 요청에 동의하지만 요청에 추가 조항이나 변경을 요구할 수 있습니다."
+        },
+        "Title": "요청"
+      },
+      "Seek": {
+        "Description": "<p>당신은 생물이나 물체의 징후, 그리고 비밀 문이나 위험 요소 등을 찾아 해당 지역을 탐색합니다. 탐색할 지역을 선택하십시오. GM은 한 번의 @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{탐색} 행동으로 탐색할 수 있는 지역을 결정합니다. 거의 항상 30피트 이내의 범위입니다. GM은 당신이 멀리서 탐색하려 하거나 특히 혼잡한 지역을 탐색할 때 행동의 수를 조정하거나 패널티를 부여할 수 있습니다.</p><p>GM은 당신을 대신하여 비밀적인 인식(Perception) 판정을 수행하고, 그 결과를 해당 지역의 감지되지 않은(@UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨겨진}) 생물이나 물체를 탐지하기 위한 난이도(DC)와 비교합니다(감추어진 물체는 GM이나 물체를 감추려는 누군가에 의해 결정됨). 당신이 감지한 생물은 은밀하게 남아 있을 수 있으며, 불완전한 감각을 사용하거나 투명화와 같은 효과로 인해 관찰이 불가능한 경우도 있습니다.</p><p><strong>대성공</strong> 감지되지 않거나 숨겨진 생물을 감지하면 해당 생물이 당신에게 관찰됨 상태가 됩니다. 해당 지역의 물체의 위치를 파악합니다.</p><p><strong>성공</strong> 감지되지 않은 생물은 숨겨진 상태로 바뀌고, 숨겨진 생물은 당신에게 관찰됨 상태가 됩니다. GM이 결정한 바에 따라 물체의 위치를 파악하거나 단서가 제공됩니다.</p>",
+        "Notes": {
+          "criticalSuccess": "<strong>대성공</strong> 당신이 대성공한 감지되지 않은(@UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{미감지}) 또는 숨겨진(@UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨겨짐}) 생물은 당신에게 @UUID[Compendium.pf2e.conditionitems.Item.1wQY3JYyhMYeeV2G]{관찰됨} 상태가 됩니다. 해당 지역의 물체의 위치를 파악합니다.",
+          "success": "<strong>성공</strong> 감지되지 않은(@UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{미감지}) 생물은 숨겨진 상태(@UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨겨짐})로 변경되며, 숨겨진 생물은 당신에게 @UUID[Compendium.pf2e.conditionitems.Item.1wQY3JYyhMYeeV2G]{관찰됨} 상태가 됩니다. GM이 결정한 바에 따라 물체의 위치를 파악하거나 단서를 제공합니다."
+        },
+        "Title": "탐색"
+      },
+      "SenseDirection": {
+        "Description": "<p>별, 태양의 위치, 지형이나 동식물의 특징, 동물의 액션을 이용하면 야생에서 방향을 잃지 않고 생존할 수 있습니다. 일반적으로 생존 확인은 하루에 한 번만 시도하지만, 일부 환경이나 변화에 따라 더 자주 굴려야 할 수도 있습니다.  특이한 지역이나 익숙하지 않은 지역에서는 방향 감각에 최소 숙련도 등급이 필요할 수 있습니다. 나침반이 없으면 방향 감각 체크에 -2 아이템 패널티를 받습니다.</p><hr /><p><strong>중요 성공</strong> 현재 위치를 정확하게 파악할 수 있습니다. 기본 방향 감각이 있는 환경이라면 정확히 알고 있습니다.</p><p><strong>성공</strong> 절망적으로 길을 잃지 않을 만큼의 방향 감각을 얻습니다. 기본 방향이 있는 환경에 있다면, 당신은 그 방향에 대한 감각을 가지고 있습니다.<section class=\"sample-tasks\"><h2>방향 감각 과제</h2><p>><strong>비숙련자</strong> 태양을 이용해 기본 방향 결정하기</p><p><strong>숙련자</strong> 숲에서 무성하게 자란 길 찾기</p><p><p><strong>전문</strong> 울타리 미로 탐색하기</p><p><strong>고수</strong> 비잔틴 미로 또는 비교적 특징이 없는 사막 탐색하기</p><p><strong>전설적</strong> 끊임없이 변화하는 꿈의 영역 탐색하기변화하는 꿈의 영역</p></section>",
+        "Modifier": {
+          "NoCompass": "컴파스에서"
+        },
+        "Notes": {
+          "criticalSuccess": "<strong>대성공</strong> 당신은 자신이 어디에 있는지 잘 알고 있습니다. 기본 방향이 있는 환경이라면 정확히 알고 있습니다.",
+          "success": "<strong>성공</strong> 절망적으로 길을 잃지 않을 만큼의 방향 감각을 얻습니다. 기본 방향이 있는 환경에 있다면, 당신은 그 방향에 대한 감각이 있습니다."
+        },
+        "SampleTasks": {
+          "Untrained": "determine a cardinal direction using the sun",
+          "Trained": "find an overgrown path in a forest",
+          "Expert": "navigate a hedge maze",
+          "Master": "navigate a byzantine labyrinth or relatively featureless desert",
+          "Legendary": "navigate an ever-changing dream realm"
+        },
+        "Title": "방향 감지"
+      },
+      "SenseMotive": {
+        "Description": "<p>생물의 행동이 비정상적인지 알아내려고 합니다. 한 생물을 선택해 이상한 몸짓, 긴장한 기색, 기타 누군가를 속이려는 징후가 있는지 평가합니다. GM은 캐릭터를 위해 비밀 지각 체크를 한 번 시도하고, 그 결과를 해당 생물의 기만 DC, 생물의 정신 상태에 영향을 주는 주문의 DC, 또는 GM이 결정한 다른 적절한 DC와 비교합니다. 일반적으로 상황이 크게 변하기 전까지는 같은 생물의 동기 감지를 다시 시도할 수 없습니다.</p><p><strong>대성공</strong> 생물의 진정한 의도를 파악하고, 생물에게 영향을 미치는 정신 마법에 대한 확실한 아이디어를 얻습니다.</p><p><strong>성공</strong> 생물이 정상적으로 행동하는지는 알 수 있지만, 정확한 의도나 어떤 마법이 영향을 미치고 있는지는 알 수 없습니다.</p><p><strong>실패</strong> 기만적인 생물이 당신에게 무엇을 믿게 하려는지 알아챘습니다. 속임수를 쓰지 않는다면, 정상적으로 행동한다고 믿습니다.</p><p><strong>대실패</strong> 생물의 의도를 잘못 파악합니다.</p>",
+        "Notes": {
+          "criticalFailure": "<strong>대실패</strong> 생물의 의도를 잘못 파악합니다.",
+          "criticalSuccess": "<strong>대성공</strong> 생물의 진정한 의도를 파악하고, 생물에게 영향을 미치는 정신 마법을 확실하게 파악합니다.",
+          "failure": "<strong>실패</strong> 당신은 속임수를 쓰는 생물이 당신이 믿기를 원하는 것을 감지합니다. 속임수를 쓰지 않으면 정상적으로 행동한다고 믿습니다.",
+          "success": "<strong>성공</strong> 생물이 정상적으로 행동하는지는 알 수 있지만, 정확한 의도나 어떤 마법이 영향을 미쳤는지는 알 수 없습니다."
+        },
+        "Title": "동기 감지"
+      },
+      "ShieldBlock": {
+        "SelectAShield": "실드 선택"
+      },
+      "Shove": {
+        "Description": "<p><strong>Requirements</strong> You have at least one hand free. The target can't be more than one size larger than you.</p><hr><p>You push a creature away from you. Attempt an Athletics check against your target's Fortitude DC.</p><p><strong>Critical Success</strong> You push your target up to 10 feet away from you. You can @UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{Stride} after it, but you must move the same distance and in the same direction.<br><strong>Success</strong> You push your target back 5 feet. You can @UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]{Stride} after it, but you must move the same distance and in the same direction.<br><strong>Critical Failure</strong> You lose your balance, fall, and land @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p>",
+        "Notes": {
+          "criticalFailure": "<strong>대실패</strong> 균형을 잃고 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{넘어짐}이 됩니다.",
+          "criticalSuccess": "<strong>대성공</strong> 상대를 자신으로부터 최대 10피트까지 밀어냅니다. 상대를 따라 보폭을 넓힐 수 있지만, 같은 거리와 같은 방향으로 움직여야 합니다.",
+          "success": "<strong>성공</strong> 상대를 5피트 뒤로 밀칩니다. 그 뒤를 따라 보폭을 낼 수 있지만, 같은 거리와 같은 방향으로 움직여야 합니다."
+        },
+        "Title": "밀치기"
+      },
+      "Sneak": {
+        "Description": "<p>탐지되지 않은 상태에서 다른 장소로 이동을 시도합니다. 이동 속도는 자신의 속도 절반까지 증가합니다. (해당 이동 유형이 있다면 보폭 대신 땅굴파기, 기어등반, 날기, 또는 수영을 사용할 수 있으며, 반드시 그 절반의 속도로 이동해야 합니다.)</p><p>이동 종료 시, GM은 은신 체크를 몰래 굴리고 그 결과를 이동 시작 시 숨어 있거나 감지되지 않았던 각 생물의 지각 DC와 비교합니다. 보폭 내내 해당 생물로부터 엄폐물 또는 그 이상의 엄폐물을 얻었다면, 은신 체크에 엄폐물로 인한 상황 보너스 +2(또는 상급 엄폐물일 경우 +4)를 얻습니다. 이동 중이므로 엄폐로 인한 보너스 증가는 적용되지 않습니다. 이동이 끝났을 때, 자신이 생물에게 숨어 있지 않거나 엄폐물이 없거나 상급 엄폐물이 있는 경우에는 생물에게 구르기를 시도할 수 없습니다. 당신은 자동으로 해당 생물에게 관찰됩니다.</p><p><strong>성공</strong> 당신은 이동하는 동안 생물에게 탐지되지 않고 이동이 끝날 때까지 생물에게 탐지되지 않습니다.</p>당신은 숨기, 몰래, 발걸음 이외의 액션을 취하는 즉시 관찰됩니다. 당신이 생물에게 공격을 시도하면, 그 생물은 그 공격에 대한 방어를 해제하고 당신은 관찰 대상이 됩니다. 그 외의 액션을 하면, GM이 달리 결정하지 않는 한 행동하기 직전에 관찰 대상이 됩니다. GM은 캐릭터가 특별히 눈에 띄지 않는 액션을 할 수 있도록 허용할 수 있으며, 이 경우 은신 확인을 다시 해야 할 수도 있습니다. 말을 하거나 일부러 큰 소리를 내면, 캐릭터는 감지되지 않는 대신 숨겨집니다.</p><p>생물이 탐색을 사용했고 그 결과 캐릭터가 그 생물에게 숨겨졌다면, 다시 그 생물에게 감지되지 않으려면 은신해야 합니다.</p><p><strong>실패</strong> 소리나 다른 신호로 자신의 위치를 알릴 수 있지만, 여전히 보이지 않는 상태를 유지합니다. 이동하는 내내 생명체에게 보이지 않고 계속 숨어 있습니다.</p><p><strong>대실패</strong> 발각되었습니다! 이동하는 내내 생명체에게 관찰되고 그 상태를 유지합니다. 투명 상태가 되어 생명체에게 보이지 않는다면, 관찰되는 대신 이동하는 내내 숨어 있는 상태가 유지됩니다.</p>",
+        "Notes": {
+          "criticalFailure": "<strong>대실패</strong> 발각되었습니다! 이동하는 내내 생물에게 관찰당하고 그 상태를 유지합니다. 투명 상태가 되어 생명체에게 보이지 않는 상태라면, 관찰되는 대신 이동하는 내내 숨어 있는 상태가 유지됩니다.",
+          "failure": "<strong>실패</strong> 소리나 다른 신호로 자신의 위치를 알릴 수 있지만, 여전히 보이지 않습니다. 이동하는 내내 생명체에게 보이지 않으며, 그 상태를 유지합니다.",
+          "success": "<strong>성공</strong> 이동하는 동안 생명체에게 감지되지 않았고, 이동이 끝날 때까지 생명체에게 감지되지 않은 상태로 남아있습니다."
+        },
+        "Title": "은밀"
+      },
+      "Squeeze": {
+        "Description": "<p>몸을 비틀어 간신히 지나갈 수 있을 정도로 좁은 공간을 통과합니다. 이 동작은 매우 좁은 공간에 적용되며, 대부분의 좁은 공간은 체크 없이 더 빠르게 통과할 수 있는 어려운 지형입니다.</p><p><strong>대성공</strong> 10피트당 1분 안에 좁은 공간을 통과합니다.<br><strong>성공</strong> 5피트당 1분 안에 통과합니다.<br><strong>크리티컬 실패</strong> 좁은 공간에 갇히게 됩니다. 갇혀 있는 동안 1분 동안 같은 DC에서 곡예 체크를 한 번 더 시도할 수 있습니다. 이 체크에서 대실패 이외의 결과가 나오면 끼임이 해제됩니다.</p><section class=\"sample-tasks\"><h2>샘플 쥐어짜기 과제</h2><p><strong>수련자</strong> 어깨에 겨우 맞는 공간</p><p><strong>통달</strong> 머리에 겨우 맞먹는 공간</p></section>",
+        "Notes": {
+          "criticalFailure": "<strong>대실패</strong> 좁은 공간에 갇히게 됩니다. 갇혀 있는 동안 1분 동안 같은 DC에서 곡예 체크를 한 번 더 시도할 수 있습니다. 이 체크에서 대실패가 아닌 다른 결과가 나오면 갇힘이 해제됩니다.",
+          "criticalSuccess": "<strong>대성공</strong> 10피트당 1분 만에 좁은 공간을 통과합니다.",
+          "success": "<strong>성공</strong> 5피트당 1분 만에 통과합니다."
+        },
+        "SampleTasks": {
+          "Trained": "space barely fitting your shoulders",
+          "Master": "space barely fitting your head"
+        },
+        "Title": "비집고 들어가기"
+      },
+      "Stand": {
+        "Description": "<p>엎드려 있다가 일어납니다.</p>",
+        "Title": "스탠드"
+      },
+      "Steal": {
+        "Description": "<p>다른 생물에게 들키지 않고 작은 물건을 훔치려고 합니다. 일반적으로 무시할 수 있는 부피의 물건만 훔칠 수 있으며, 물건을 가진 생물이 전투 중이거나 경계 중이면 자동으로 실패합니다.</p><p>도둑질 체크를 시도하여 물건 훔치는 데 성공했는지 확인합니다. DC는 보통 그 물건을 착용한 생물의 지각 DC입니다. 착용하고 있지만 단단히 지키고 있지 않은 물건(예: 동전으로 가득 찬 느슨하게 메고 있는 주머니나 주머니 안에 있는 물건)을 훔치는 것이 가장 쉽습니다. 물건이 보호되어 있거나 물건의 특성상 훔치기 어려운 경우(예: 큰 가방 안에 아주 작은 물건이 들어 있거나 다른 문서와 섞여 있는 양피지 등) GM은 DC를 높일 수 있습니다. 예를 들어, 물건이 주머니에 있거나, 생물이 손에 쥐고 있거나, 이와 비슷하게 보호되어 있다면 일반적으로 DC가 5 더 높습니다.</p><p>또한, 도둑질 체크 결과를 물건을 든 사람 이외의 관찰자의 지각 DC와 비교해야 할 수도 있습니다. 주의를 산만하게 하는 관찰자의 DC에 상황 패널티를 부과할 수 있습니다.</p><p>p>성공</p><p>물건 소지자가 눈치채지 못한 채 아이템을 훔치거나, 관찰자가 아이템을 가져가거나 가져가려는 모습을 보지 못합니다.</p><p>p>실패</p><p>물건 소지자가 아이템을 가져가기 전에 당신의 시도를 알아채거나, 관찰자가 아이템을 가져가거나 가져가려는 모습을 목격합니다. 도난을 알아차린 생물의 반응은 GM이 결정합니다.</p>",
+        "Notes": {
+          "failure": "<strong>실패</strong> 당신이 물건을 가져가기 전에 물건의 소유자가 당신의 시도를 알아차리거나, 관찰자가 당신이 물건을 가져가거나 가져가려고 하는 것을 목격합니다. 도난을 눈치챈 생물의 반응은 GM이 결정합니다.",
+          "success": "<strong>성공</strong> 소지자가 눈치채지 못하게 아이템을 훔치거나, 관찰자가 아이템을 가져가거나 가져가려고 시도하는 것을 보지 못합니다."
+        },
+        "Pocketed": "주머니에 넣거나 보호하는 물건",
+        "Title": "훔치기"
+      },
+      "SteelYourResolve": {
+        "BadArgs": "이 작업은 정확히 한 명의 캐릭터 또는 NPC로 수행해야 합니다.",
+        "Content": "결심 포인트를 사용해 체력을 회복하고 싶으신가요?",
+        "NoStamina": "{name}이 피곤해서 잠자리에 들어야 합니다! 남은 해결 포인트가 없습니다.",
+        "RecoverStamina": "{name}은 {ratio}만큼의 SP를 소모하고 결심 포인트를 소모하여 최대 스태미나의 절반을 회복합니다.",
+        "StaminaNotEnabled": "스태미나 변형은 활성화되지 않습니다.",
+        "Title": "결심 굳히기"
+      },
+      "Step": {
+        "Description": "<p>5피트를 조심스럽게 이동합니다. 대부분의 이동 유형과 달리, 발걸음은 이동 행동으로 발동하거나 사각형을 벗어나거나 들어올 때 발동하는 반응 타격과 같은 반응이 발동하지 않습니다.</p><p>어려운 지형에서는 발걸음을 내딛을 수 없으며, 자신의 지상 속도 이외의 속도를 사용하여 발걸음을 내딛을 수 없습니다.</p>",
+        "Title": "단계"
+      },
+      "Stride": {
+        "Description": "<p>당신의 속도로 이동합니다.</p>",
+        "Title": "보폭"
+      },
+      "Strike": {
+        "Description": "<p>당신이 휘두르는 무기나 비무장 공격으로 공격하여, 당신의 손이 닿는 범위(근접 공격의 경우) 또는 범위(원거리 공격의 경우) 안에 있는 생물 한 마리를 대상으로 합니다. 사용하는 무기 또는 비무장 공격의 공격 굴림 수치를 사용하여 공격 굴림을 굴리고 그 결과를 대상 생물의 AC와 비교하여 효과를 결정합니다.</p><p><strong>대성공</strong> 무기 또는 비무장 공격에 따라 피해 주사위를 굴려 두 배의 피해를 줍니다.</p><p><strong>성공</strong> 무기 또는 비무장 공격에 따라 피해 주사위를 굴려서 피해를 줍니다.</p>",
+        "Notes": {
+          "criticalSuccess": "<strong>대성공</strong> 무기 또는 비무장 공격에 따라 피해를 굴려서 두 배의 피해를 줍니다.",
+          "success": "<strong>성공</strong> 무기 또는 비무장 공격에 따라 피해량을 굴려 피해를 줍니다."
+        },
+        "Title": "공격"
+      },
+      "Subsist": {
+        "AfterExplorationPenalty": "탐험 후",
+        "Description": "<p>자신은 물론 다른 사람에게도 생활 수준을 유지할 수 있는 식량과 거처를 제공하려고 노력합니다. 일반적으로 정착지에 있을 때는 사회, 야생에 있을 때는 생존을 사용합니다. GM은 생존을 시도하는 장소의 특성에 따라 DC를 결정합니다. 특히 낯선 환경에서 생존하려면 최소 숙련도 등급이 필요할 수 있습니다. 대부분의 다운타임 활동과 달리, 8시간 이하의 탐험 후에도 생존할 수 있지만, 그렇게 하면 -5의 패널티를 받습니다.</p><section class=\"sample-tasks\"><h2>샘플 생존 과제</h2><p><strong>비훈련자</strong> 날씨가 잔잔한 울창한 숲이나 자원이 풍부한 대도시</p><p><strong>훈련자</strong> 일반적인 언덕이나 마을</p><p><strong>전문</strong> 일반적인 산이나 외딴 섬 촌락</p><p><strong>주인</strong> 전형적인 사막 또는 포위된 도시</p><p><strong>전설</strong> 황량한 황무지 또는 언데드 도시</p></section><hr /><p><strong>중요 성공</strong> 자신과 추가 생물 한 마리에게 생계 수단을 제공해야 합니다, 아니면 자신의 의식주를 개선하여 편안한 생활을 영위할 수 있습니다.</p><p><strong>성공</strong> 비바람으로부터 기본적인 보호를 받을 수 있는 충분한 식량과 은신처를 찾아 생계를 유지합니다.</p><p><strong>실패</strong> 비바람에 노출되어 충분한 식량을 얻지 못하여 @UUID[Compendium]가 됩니다.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{피곤}이 되어 충분한 식량과 은신처를 확보할 때까지 지칩니다.</p><p><strong>대실패</strong> 문제를 일으키거나, 먹지 말아야 할 것을 먹거나, 기타 방식으로 상황을 악화시킵니다. 1주일 동안 생존 체크에 -2의 상황 패널티를 받습니다. 음식을 전혀 찾지 못하고, 저장한 음식이 없다면 계속 실패하면 굶주리거나 목마름으로 죽을 위험에 처합니다.</p>",
+        "Notes": {
+          "criticalFailure": "<strong>대실패</strong> 문제를 일으키거나, 먹지 말아야 할 것을 먹거나, 기타 방식으로 상황을 악화시켰습니다. 1주일 동안 생존 체크에 -2의 상황 패널티를 받습니다. 음식을 전혀 찾지 못했고, 저장해둔 음식이 없다면 계속 실패하면 굶주리거나 목마름으로 죽을 위험에 처합니다. @UUID[Compendium.pf2e.other-effects.Item.wHWWHkjDXmJl4Ia6]{효과 : 불리한 생존 상황}",
+          "criticalSuccess": "<strong>임계 성공</strong> 자신과 추가 생명체 한 마리의 생계를 책임지거나 자신의 식량과 은신처를 개선하여 편안한 생활을 누릴 수 있습니다.",
+          "failure": "<strong>실패</strong> 비바람에 노출되고 충분한 음식을 얻지 못해 충분한 음식과 쉼터를 얻을 때까지 피곤해집니다.",
+          "success": "<strong>성공</strong> 생계를 유지할 수 있을 만큼의 식량과 쉼터, 그리고 기본적인 보호 시설을 찾았습니다."
+        },
+        "SampleTasks": {
+          "Untrained": "a lush forest with calm weather or a large city with plentiful resources",
+          "Trained": "typical hillside or village",
+          "Expert": "typical mountains or insular hamlet",
+          "Master": "typical desert or city under siege",
+          "Legendary": "barren wasteland or city of undead"
+        },
+        "Title": "Subsist",
+        "Warning": {
+          "NoSkill": "생존 행동은 다양한 스킬과 함께 사용할 수 있으며, 지정된 스킬은 없습니다. 일반적으로 정착지에 있는 경우 사회, 야생에 있는 경우 생존을 사용합니다."
+        }
+      },
+      "Sustain": {
+        "Description": "<p>지속 지속시간이 있거나 지속 시 특별한 효과가 표시되는 효과 중 하나를 선택합니다. 이러한 효과는 대부분 주문이나 마법 아이템 활성화에서 발생합니다. 효과가 지속시간이 있는 경우, 지속시간은 자신의 다음 턴이 끝날 때까지 연장됩니다. (같은 턴에 두 번 이상 지속해도 지속시간이 다음 턴까지 연장되지 않습니다.) 지속할 수 있지만 지속 시간이 명시되지 않은 능력은 최대 10분까지 지속할 수 있습니다.</p><p>효과에 지속 시 발생하는 추가 혜택이 명시되어 있을 수 있으며, 지속 시간이 없는 효과에도 이러한 혜택이 나타날 수 있습니다. 효과에 특수 효과와 지속시간이 모두 있는 경우, 지속 액션을 사용하면 지속시간이 연장되고 특수 효과도 함께 적용됩니다.</p><p>지속 행동이 중단되면 능력은 종료됩니다.</p>",
+        "Title": "지속"
+      },
+      "Swim": {
+        "Description": "<p>You attempt an Athletics check to move a maximum distance of 10 feet through water. The GM determines the DC based on the turbulence or danger of the water; in most instances of calm water, you get an automatic critical success. If your land Speed is 40 feet or higher, increase the maximum possible distance by 5 feet for every 20 feet of Speed above 20 feet.</p><p>If you end your turn in water and haven't succeeded at a Swim action that turn, you sink 10 feet or get moved by the current, as determined by the GM. This doesn't apply if your last action on your turn was to enter the water.</p><p><strong>Critical Success</strong> You move through the water, increasing the maximum distance by 5 feet.<br><strong>Success</strong> You move through the water.<br><strong>Critical Failure</strong> You make no progress. If you're holding your breath, you lose 1 round of air.</p>",
+        "Modifier": {
+          "SwimSpeed": "Swim Speed"
+        },
+        "Notes": {
+          "criticalFailure": "<strong>대실패</strong> 진전이 없으며, 숨을 참는 동안 1라운드의 공기를 잃습니다.",
+          "criticalSuccess": "<strong>대성공</strong> 물 속을 10피트 이동하고, 지상 속도 20피트당 5피트(대부분의 PC에서는 총 15피트)를 더합니다.",
+          "success": "<strong>성공</strong> 물 속을 5피트 이동하고, 지상 속도 20피트당 5피트를 더합니다(대부분의 PC에서는 총 10피트)."
+        },
+        "SampleTasks": {
+          "Untrained": "lake or other still water",
+          "Trained": "flowing water, like a river",
+          "Expert": "swiftly flowing river",
+          "Master": "stormy sea",
+          "Legendary": "maelstrom, waterfall"
+        },
+        "Title": "수영"
+      },
+      "TakeCover": {
+        "Description": "<p>벽에 몸을 밀착하거나 장애물 뒤로 몸을 숨겨 엄폐물을 더 잘 활용할 수 있습니다. 표준 엄폐물이 있다면, 대신 상급 엄폐물 효과를 얻게 되어 AC에 +4의 상황 보너스가 적용되고, 반사 신경이 광역 효과에 대한 저항력을 높여주며, 은신 체크 시 은신, @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Sneak}, 또는 탐지되지 않도록 해 줍니다. 그렇지 않으면 표준 엄폐의 혜택을 받습니다(대신 상황 보너스 +2). 이 효과는 현재 공간에서 이동하거나, 공격 액션을 사용하거나, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{무의식}이 되거나, 프리 액션으로 이 효과를 종료할 때까지 지속됩니다.</p>",
+        "TowerShield": {
+          "Description": "{actor}가 {shield} 뒤에 숨습니다."
+        },
+        "ShortTitle": "엄폐하기",
+        "Title": "엄폐하기"
+      },
+      "Tamper": {
+        "Notes": {
+          "criticalFailure": "<strong>대실패</strong> 변조가 극적인 역효과를 일으켜 자신의 도구나 장비에서 작은 폭발을 일으킵니다. 캐릭터는 [[/r (@actor.level)[fire] #변조 역효과]]로 {레벨에 해당하는 화염 피해를 받습니다}.",
+          "criticalSuccess": "<strong>대성공</strong> 변조가 매우 효과적입니다. 무기를 조작했다면, 적은 해당 무기로 공격 굴림과 피해 굴림을 할 때 -2의 상황 패널티를 받습니다. 갑옷을 조작했다면, 갑옷이 적의 움직임을 방해하여 적을 방심하게 만들고 이동 속도에 -10피트 패널티를 줍니다. 이 효과는 어떤 갑옷을 사용했는지와 상관없이 적이 상호작용을 통해 갑옷을 제거할 때까지 지속됩니다. @UUID[Compendium.pf2e.feat-effects.Item.rzcpTJU9MvW1x1gz]{효과 : 변조된 갑옷 (대성공)} @UUID[Compendium.pf2e.feat-effects.Item.o7qm13OmaYOMwgib]{효과 : 변조된 무기 (대성공)}",
+          "success": "<strong>성공</strong> 당신의 조작이 일시적으로 효과를 발휘합니다. 대성공으로, 적이 상호작용을 통해 효과를 종료하지 않더라도 다음 턴이 시작될 때 효과가 종료됩니다. @UUID[Compendium.pf2e.feat-effects.Item.IfRkgjyh0JzGalIy]{효과 : 변조된 갑옷 (성공)} @UUID[Compendium.pf2e.feat-effects.Item.4QWayYR3JSL9bk2T]{효과 : 변조된 무기 (성공)}"
+        },
+        "Title": "조작"
+      },
+      "Track": {
+        "Description": "<p>최대 이동 속도의 절반으로 이동하며 @UUID[Compendium.pf2e.journals.JournalEntry.S55aqwWIzpQRFhcq.JournalEntryPage.YVLMgNxXTUQuDJgp]{이동 속도} 규칙을 사용하여 흔적을 따라갈 수 있습니다. 추적 체크에 성공하면 최대 1시간 동안 추가 체크를 시도하지 않고도 절반의 속도로 트랙을 계속 따라갈 수 있습니다.</p><p>어떤 경우에는 조우에서 추적할 수도 있습니다. 이 경우 추적은 단일 행동이며 탐험 특성이 없지만, 긴박한 상황이기 때문에 더 자주 굴러야 할 수도 있습니다. 생존 확인은 추적을 시작할 때, 1시간당 1번씩 추적을 계속할 때, 그리고 흔적에 중요한 변화가 있을 때마다 시도합니다. GM은 트레일의 신선도, 날씨, 지형 유형에 따라 생존 확인을 위한 DC를 결정합니다.</p><section class=\"sample-tasks\"><h2>샘플 트랙 작업</h2><p><strong>비훈련</strong> 대규모 군대가 길을 따라가는 경로</p><p><strong>훈련</strong> 비교적 신선한 곰이 평원을 지나는 흔적</p><p><strong>전문</strong> 민첩한 표범이 밀림을 통과하는 흔적, 강우로 가려진 흔적</p><p><strong>통달</strong> 겨울 눈에 의해 가려진 흔적 등이 있습니다, 쥐나 작은 동물의 발자국, 맨 바위처럼 발자국을 남길 수 없는 표면에 남겨진 발자국</p><p><strong>전설</strong> 바람이 부는 사막의 모래밭을 지나는 오래된 발자국, 큰 눈보라나 허리케인으로 가려진 발자국</p></section><p><strong>성공</strong> 발자국을 찾거나 이미 따라가고 있는 발자국을 계속 따라갈 수 있습니다.</p><p><strong>실패</strong> 트레일을 잃어버렸지만 1시간 후에 다시 시도할 수 있습니다.</p><p><strong>대실패</strong> 트레일을 잃어버렸고 24시간 동안 다시 시도할 수 없습니다.</p>",
+        "Notes": {
+          "criticalFailure": "<strong>대실패</strong> 흔적을 잃고 24시간 동안 다시 시도할 수 없습니다.",
+          "failure": "<strong>실패</strong> 트레일을 잃었지만 1시간 후에 다시 시도할 수 있습니다.",
+          "success": "<strong>성공</strong> 트레일을 찾거나 이미 따라가고 있는 트레일을 계속 따라갑니다."
+        },
+        "SampleTasks": {
+          "Untrained": "the path of a large army following a road",
+          "Trained": "relatively fresh tracks of a rampaging bear through the plains",
+          "Expert": "a nimble panther's tracks through a jungle, tracks obscured by rainfall",
+          "Master": "tracks obscured by winter snow, tracks of a mouse or smaller creature, tracks left on surfaces that can't hold prints like bare rock",
+          "Legendary": "old tracks through a windy desert's sands, tracks obscured by a major blizzard or hurricane"
+        },
+        "Title": "추적"
+      },
+      "TreatDisease": {
+        "Description": "<p>병에 걸린 생물을 돌보는 데 최소 8시간을 소비합니다. 질병의 DC에 대한 의학 체크를 시도합니다. 생물에게 질병 치료를 시도한 후에는 그 생물이 다음번 질병에 대한 구출을 시도할 때까지 다시 시도할 수 없습니다.</p><p><strong>대성공</strong> 당신은 그 생물이 다음번 질병에 대한 구출을 시도할 때 상황 보너스 +4를 부여합니다.<br><strong>성공</strong> 이 생물이 다음번 질병에 대한 구사일생에 +2 상황 보너스를 받습니다.<br><strong>중대실패</strong> 이 노력으로 인해 대상은 다음번 질병에 대한 구사일생에 -2 상황 패널티를 받습니다.</p>",
+        "Notes": {
+          "criticalFailure": "<strong>대실패</strong> 당신의 노력으로 인해 생물은 다음번 질병 치료 시 -2의 상황 패널티를 받습니다.<br/>@UUID[Compendium.pf2e.equipment-effects.Item.5oYKYXAexr0vhx84]{효과 : 질병 치료 (대실패)}",
+          "criticalSuccess": "<strong>대성공</strong> 이 생물에게 다음번 질병에 대한 구출 시도에 +4의 상황 보너스를 부여합니다.<br/>@UUID[Compendium.pf2e.equipment-effects.Item.id20P4pj7zDKeLmy]{효과 : 질병 치료(대성공)}",
+          "success": "<strong>성공</strong> 당신은 그 생물에게 다음번 질병에 대한 구출 시도에 +2의 상황 보너스를 부여합니다.<br/>@UUID[Compendium.pf2e.equipment-effects.Item.Ee2xfKX1yyqGIDZj]{효과 : 질병 치료 (성공)}"
+        },
+        "Title": "질병 치료"
+      },
+      "TreatPoison": {
+        "Description": "<p>독이 퍼지는 것을 막기 위해 환자를 치료합니다. 독의 DC에 대한 의학 체크를 시도합니다. 당신이 생물에 대해 독 치료를 시도한 후에는, 그 생물이 다음에 독에 대한 내성을 시도할 때까지 다시 시도할 수 없습니다.</p><p><strong>대성공</strong> 당신은 그 생물에게 다음번 독에 대한 내성을 시도할 때 +4의 상황 보너스를 부여합니다.<BR><STRONG>성공</STRONG> 그 생물이 다음번 독에 대한 구출 시도에 +2 상황 보너스를 받습니다.<br><STRONG>대실패</STRONG> 당신의 노력으로 그 생물은 다음번 독에 대한 구출 시도에 -2 상황 패널티를 받습니다.</p>",
+        "Notes": {
+          "criticalFailure": "<strong>대실패</strong> 당신의 노력으로 인해 생물은 독에 대한 다음 내성 굴림에서 -2의 상황 패널티를 받습니다.<br/>@UUID[Compendium.pf2e.equipment-effects.Item.ESuBosh3t1pXEcBj]{효과 : 독 치료 (대실패)}",
+          "criticalSuccess": "<strong>대성공</strong> 이 생물에게 다음번 독에 대한 구출 시도에 +4의 상황 보너스를 부여합니다.<br/>@UUID[Compendium.pf2e.equipment-effects.Item.XwCBalKJf3CiEiFa]{효과 : 독 치료 (대성공)}",
+          "success": "<strong>성공</strong> 당신은 그 생물에게 다음번 독에 대한 구출 시도에 +2의 상황 보너스를 부여합니다.<br/>@UUID[Compendium.pf2e.equipment-effects.Item.XWenziR7J3mwKV4W]{효과 : 독 치료 (성공)}"
+        },
+        "Title": "독 치료"
+      },
+      "TreatWounds": {
+        "Content": "대상 DC를 선택합니다. 자신의 숙련도 이상으로 치유를 시도할 수 없다는 점을 기억하세요. 그렇게 시도하면 최대 치유력과 치유량이 하향 조정됩니다.",
+        "DC": {
+          "Expert": "전문 DC 20, +10 치유",
+          "Legendary": "전설 DC 40, +50 치유",
+          "Master": "통달 DC 30, +30 치유",
+          "Mod": "DC 수정",
+          "Trained": "훈련된 DC 15"
+        },
+        "Error": "토큰 {name}에 약 기술이 없습니다",
+        "Feats": {
+          "MortalHealing": "필멸자 치유",
+          "RiskySurgery": "위험한 수술"
+        },
+        "Label": "상처 치료",
+        "Rolls": {
+          "RiskySurgery": "데미지 롤: 위험한 수술",
+          "TreatWounds": "치유 롤: 상처 치료",
+          "TreatWoundsCriticalFailure": "데미지 롤: 상처 치료"
+        },
+        "SkillSelect": "상처 치료 기술"
+      },
+      "Trip": {
+        "Description": "<p>생물을 바닥에 넘어뜨리려고 합니다. 대상의 반동 방어력에 대해 운동 스킬 체크를 시도합니다.</p><p><strong>대성공</strong> 대상은 넘어져 엎드려 1d6의 타격 피해를 받습니다.<br><strong>성공</strong> 대상은 넘어져 엎드립니다.<br><strong>비상 실패</strong> 자신이 중심을 잃고 넘어져 엎드립니다.</p>",
+        "Notes": {
+          "criticalFailure": "<strong>대실패</strong> 균형을 잃고 넘어져 착지합니다 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{넘어짐}.",
+          "criticalSuccess": "<strong>중요 성공</strong> 대상은 넘어져 착지하며 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{넘어짐} 피해를 받고 [[/r 1d6[bludgeoning # 타격 피해]]{1d6}의 타격 피해를 받습니다.",
+          "success": "<strong>성공</strong> 대상은 낙하하여 착지합니다 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{넘어짐}."
+        },
+        "Title": "넘어뜨리기"
+      },
+      "TumbleThrough": {
+        "Description": "<p>자신의 속도만큼 보폭을 넓힙니다. 이 이동 중에 적 한 명의 공간으로 이동을 시도할 수 있습니다. 적의 공간에 진입하는 즉시 적의 반사 피해에 대한 곡예 체크를 시도합니다. 적절한 환경에서는 보폭 대신 등반, 비행, 수영 또는 다른 동작을 사용해 공중제비를 통과할 수 있습니다.</p><p><strong>성공</strong> 적의 공간에 있는 사각형은 어려운 지형으로 간주하여 이동합니다(5피트마다 10피트의 이동 비용이 듭니다). 적의 공간을 끝까지 이동할 수 있는 속도가 충분하지 않으면 실패와 같은 효과를 받습니다.<br><strong>실패</strong> 이동이 종료되고, 처음 시작한 사각형 밖으로 이동한 것처럼 반응이 발동합니다.</p>",
+        "Notes": {
+          "failure": "<strong>실패</strong> 이동이 종료되고, 처음 시작했던 광장에서 벗어난 것처럼 반응이 발동합니다.",
+          "success": "<strong>성공</strong> 적의 공간에 있는 사각형을 어려운 지형으로 간주하여 이동합니다(5피트 이동할 때마다 10피트 이동 비용이 듭니다). 적의 공간까지 이동할 수 있는 속도가 충분하지 않으면 실패한 것과 같은 효과를 얻습니다."
+        },
+        "Title": "공중제비"
+      },
+      "WhirlingThrow": {
+        "Notes": {
+          "criticalFailure": "<strong>대실패</strong> 당신은 그 생물을 던지지 않았고, 그 생물은 더 이상 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힘} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속됨} 존재가 아니게 됩니다.",
+          "criticalSuccess": "<strong>대성공</strong> 원하는 거리만큼 생물을 던져 착지합니다 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{넘어짐}.",
+          "failure": "<strong>실패</strong> 당신은 생물을 던지지 않습니다.",
+          "success": "<strong>성공</strong> 원하는 거리까지 생물을 던졌습니다."
+        },
+        "Title": "소용돌이 던지기"
+      }
+    },
+    "ActionsCheck": {
+      "acrobatics": "곡예 체크",
+      "arcana": "주문학 체크",
+      "athletics": "운동 체크",
+      "crafting": "제작 체크",
+      "deception": "기만 체크",
+      "diplomacy": "외교 체크",
+      "fortitude": "Fortitude Saving Throw",
+      "intimidation": "협박 체크",
+      "medicine": "의학 체크",
+      "nature": "자연학 체크",
+      "occultism": "초상학 체크",
+      "perception": "지각 체크",
+      "performance": "공연 체크",
+      "reflex": "Reflex Saving Throw",
+      "religion": "종교학 체크",
+      "society": "사회학 체크",
+      "spell": "{type} 주문 공격",
+      "stealth": "은신 체크",
+      "survival": "생존 체크",
+      "thievery": "도둑질 체크",
+      "unarmed": "비무장 공격 굴림",
+      "will": "Will Saving Throw",
+      "x": "{type} 체크",
+      "x-attack-roll": "{type} 공격 굴림"
+    },
+    "ActionsSampleTasks": {
+      "Title": "Sample {action} Tasks"
+    },
+    "ActionsWarning": {
+      "NoActor": "굴리기 전에 토큰을 하나 이상 선택하거나 기본 캐릭터를 지정하세요.",
+      "NoStatistic": "액터 {name}({id})에 {statistic}에 대한 통계가 없습니다.",
+      "Variants": {
+        "None": "액션 '{action}'에는 이형 상품이 없지만 이형 상품 '{variant}'가 요청되었습니다.",
+        "Multiple": "액션 '{action}'에 여러 개의 변형이 있지만 요청된 변형이 없습니다.",
+        "Nonexistent": "Specified variant '{variant}' does not exist for action '{action}'"
+      }
+    }
+  }
+}

@@ -1,0 +1,73 @@
+{
+    "id": "PF2e-KR",
+    "title": "PF2e 한국어 번역",
+    "description": "Pathfinder 2e의 공식 및 확장 콘텐츠를 포함한 한국어 번역 모듈입니다.<br>This is a Korean translation module for Pathfinder 2e, including core and expansion content.",
+    "version": "1.0.1",
+    "compatibility": {
+    "minimum": "12",
+    "verified": "13"
+    },
+
+    "authors": [
+    {
+        "name": "Rutz (rutz179)"
+    }
+    ],
+
+    "esmodules": [
+        "babele.js"
+    ],
+    "relationships": {
+        "requires": [
+            {
+                "id": "babele",
+                "type": "module"
+            },
+            {
+                "id": "lib-wrapper",
+                "type": "module"
+            }
+        ]
+    },
+
+    "languages": [ 
+
+        {
+        "lang": "ko",
+        "name": "ko",
+        "path": "lang/ko.json",
+        "flags": {}
+        },
+
+        {
+        "lang": "ko",
+        "name": "re-ko",
+        "path": "lang/re-ko.json",
+        "flags": {}
+        },
+
+        {
+        "lang": "ko",
+        "name": "actions-ko",
+        "path": "lang/action-ko.json",
+        "flags": {}
+        },
+
+        {
+        "lang": "ko",
+        "name": "kingmaker-ko",
+        "path": "lang/kingmaker-ko.json",
+        "flags": {}
+        },
+
+        {
+        "lang": "ko",
+        "name": "PF2e Workbench-ko",
+        "path": "lang/pf2e-workbench-ko.json",
+        "flags": {}
+        }
+    ],
+    "url": "https://github.com/Rutz179/PF2e-KR",
+    "manifest": "ht",
+    "download": "ht"
+}
