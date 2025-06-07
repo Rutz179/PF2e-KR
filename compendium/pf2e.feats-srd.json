@@ -2424,7 +2424,7 @@
     },
     "Smoke Sight": {
       "name": "스모크 사이트",
-      "description": "<p><strong>접속</strong> 당신은 동운 홀드 또는 알켄스타 출신입니다.</p>\n<hr />\n<p>당신은 연기와 화염 속에 숨어 싸우는 데 익숙합니다. 해당 생물이 연기로만 은폐된 경우, 당신은 자동으로 DC 5 플랫 체크에 성공하여 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진} 생물을 목표로 삼습니다. 연기에 은폐되어 있거나 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨은}일 때, 자신을 대상으로 하는 평면 체크의 DC를 은폐되어 있으면 @Check[type:flat|dc:6]{6}, 숨겨진 경우 @Check[type:flat|dc:12]{12}로 증가시킵니다.</p>"
+      "description": "<p><strong>접속</strong> 당신은 동운 홀드 또는 알켄스타 출신입니다.</p>\n<hr />\n<p>당신은 연기와 화염 속에 숨어 싸우는 데 익숙합니다. 해당 생물이 연기로만 은폐된 경우, 당신은 자동으로 DC 5 플랫 체크에 성공하여 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진} 생물을 목표로 삼습니다. 연기에 은폐되어 있거나 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨은}일 때, 자신을 대상으로 하는 플랫 체크의 DC를 은폐되어 있으면 @Check[type:flat|dc:6]{6}, 숨겨진 경우 @Check[type:flat|dc:12]{12}로 증가시킵니다.</p>"
     },
     "Dead Reckoning": {
       "name": "데드 리코닝",
@@ -3080,7 +3080,7 @@
     },
     "Blood in the Air": {
       "name": "공기 중의 피",
-      "description": "<p><strong>요구 조건</strong> 마지막 순간에 원거리 무기로 피해를 준 적이 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진} 또는 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨은}이거나, 적으로부터 떨어져 있어야 합니다.</p>\n<hr />\n<p>일단 목표물을 조준하면 조준을 방해하는 요소는 거의 없습니다. 원거리 무기로 필요한 목표물을 타격합니다. 이 타격은 대상의 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진} 조건을 무시하고 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨은} 조건에 대한 평면 체크가 11에서 5로 감소합니다.</p>"
+      "description": "<p><strong>요구 조건</strong> 마지막 순간에 원거리 무기로 피해를 준 적이 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진} 또는 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨은}이거나, 적으로부터 떨어져 있어야 합니다.</p>\n<hr />\n<p>일단 목표물을 조준하면 조준을 방해하는 요소는 거의 없습니다. 원거리 무기로 필요한 목표물을 타격합니다. 이 타격은 대상의 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진} 조건을 무시하고 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨은} 조건에 대한 플랫 체크가 11에서 5로 감소합니다.</p>"
     },
     "Spirit Speaker": {
       "name": "스피릿 스피커",
@@ -3560,7 +3560,7 @@
     },
     "Uncanny Bombs": {
       "name": "언캐니 폭탄",
-      "description": "<p>장애물이나 거리에 상관없이 정확하게 폭탄을 투척합니다.</p>\n<p>폭탄 특성이 있는 연금술 아이템을 던지면 사거리 증가량이 60피트로 증가하고, 엄폐물에서 대상의 AC에 대한 모든 상황 보너스가 1 감소하며, @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진} 생물을 대상으로 하면 자동으로 평면 체크에 성공합니다.</p>"
+      "description": "<p>장애물이나 거리에 상관없이 정확하게 폭탄을 투척합니다.</p>\n<p>폭탄 특성이 있는 연금술 아이템을 던지면 사거리 증가량이 60피트로 증가하고, 엄폐물에서 대상의 AC에 대한 모든 상황 보너스가 1 감소하며, @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진} 생물을 대상으로 하면 자동으로 플랫 체크에 성공합니다.</p>"
     },
     "Consume Energy": {
       "name": "에너지 소비",
@@ -4848,7 +4848,7 @@
     },
     "Mist Child": {
       "name": "미스트 차일드",
-      "description": "<p>부자연스러운 미묘함이 섞여 있습니다. 자신이 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진} 또는 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨은}일 때, 자신을 대상으로 하는 평면 체크의 DC를 6으로 늘리거나 숨겨진 경우 12로 늘리세요.</p>"
+      "description": "<p>부자연스러운 미묘함이 섞여 있습니다. 자신이 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진} 또는 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨은}일 때, 자신을 대상으로 하는 플랫 체크의 DC를 6으로 늘리거나 숨겨진 경우 12로 늘리세요.</p>"
     },
     "Fiendish Form": {
       "name": "사악한 형태",
@@ -5984,7 +5984,7 @@
     },
     "Spiritual Disruption": {
       "name": "영적 혼란",
-      "description": "<p>적의 이단 마법과의 정신적 연결을 끊어버리는 파괴적인 힘을 발산합니다. 근접 공격을 가합니다. 공격이 적중하면 대상이 신성 또는 오컬트 주문을 시전할 때마다 @Check[type:평타|dc:5](치명타 시 @Check[type:평타|dc:7])에 성공하지 않으면 주문이 중단되며, 대상이 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미}이라면 두 평면 체크 중 더 어려운 것을 시도해야 합니다(둘 다는 안 함). 이 효과는 1분 동안 지속됩니다.</p>"
+      "description": "<p>적의 이단 마법과의 정신적 연결을 끊어버리는 파괴적인 힘을 발산합니다. 근접 공격을 가합니다. 공격이 적중하면 대상이 신성 또는 오컬트 주문을 시전할 때마다 @Check[type:평타|dc:5](치명타 시 @Check[type:평타|dc:7])에 성공하지 않으면 주문이 중단되며, 대상이 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미}이라면 두 플랫 체크 중 더 어려운 것을 시도해야 합니다(둘 다는 안 함). 이 효과는 1분 동안 지속됩니다.</p>"
     },
     "Summon Water Elemental": {
       "name": "물의 정령 소환",
@@ -7056,7 +7056,7 @@
     },
     "Revealing Stab": {
       "name": "드러내는 찌르기",
-      "description": "<p><strong>요구 조건</strong> 관통 피해를 줄 수 있는 근접 무기를 휘두르고 있습니다.</p>\n<hr />\n<p>관통 무기를 적의 눈에 띄지 않는 곳에 꽂아 그 위치를 아군에게 공개합니다. 관통 근접 무기로 공격을 가합니다. 대상이 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진}인 경우, 플랫 체크를 시도할 필요가 없으며, @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨은}인 경우, 대상에 대한 평면 체크의 DC는 5입니다. 적중하여 피해를 입히면 공격한 무기를 대상(물체형인 경우)에 밀어 넣어 현재 위치를 드러낼 수 있습니다. 무기를 놓으면 무기가 대상에 박힙니다. 대상이 은폐된 경우 대상에게 플랫 체크가 필요하지 않으며, 숨겨진 경우 대상에게 플랫 체크하는 DC는 5가 되며, 해당 생물이 감지되지 않습니다. 이러한 혜택은 대상에 내 무기가 꽂혀 있는 것을 관찰됨을 확인할 수 있는 관찰자에게만 적용됩니다. 대상이 @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{투명한}인 경우, 무기는 그 안에 박혀 있는 동안 계속 보입니다.</p>\n<p>이 혜택은 무기가 생물에게서 제거될 때까지 지속됩니다. 인접한 생물 또는 대상은 두 번의 상호작용 액션으로 무기를 제거할 수 있습니다.</p>"
+      "description": "<p><strong>요구 조건</strong> 관통 피해를 줄 수 있는 근접 무기를 휘두르고 있습니다.</p>\n<hr />\n<p>관통 무기를 적의 눈에 띄지 않는 곳에 꽂아 그 위치를 아군에게 공개합니다. 관통 근접 무기로 공격을 가합니다. 대상이 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진}인 경우, 플랫 체크를 시도할 필요가 없으며, @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨은}인 경우, 대상에 대한 플랫 체크의 DC는 5입니다. 적중하여 피해를 입히면 공격한 무기를 대상(물체형인 경우)에 밀어 넣어 현재 위치를 드러낼 수 있습니다. 무기를 놓으면 무기가 대상에 박힙니다. 대상이 은폐된 경우 대상에게 플랫 체크가 필요하지 않으며, 숨겨진 경우 대상에게 플랫 체크하는 DC는 5가 되며, 해당 생물이 감지되지 않습니다. 이러한 혜택은 대상에 내 무기가 꽂혀 있는 것을 관찰됨을 확인할 수 있는 관찰자에게만 적용됩니다. 대상이 @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{투명한}인 경우, 무기는 그 안에 박혀 있는 동안 계속 보입니다.</p>\n<p>이 혜택은 무기가 생물에게서 제거될 때까지 지속됩니다. 인접한 생물 또는 대상은 두 번의 상호작용 액션으로 무기를 제거할 수 있습니다.</p>"
     },
     "Mask of the 15th Step": {
       "name": "15번째 단계의 마스크",
@@ -10680,7 +10680,7 @@
     },
     "Signifer's Sight": {
       "name": "시그니퍼의 시력",
-      "description": "<p>기표 가면을 통해 흐르는 마법으로 어둠 속에서도 볼 수 있으며, 가면은 갑작스러운 밝은 빛의 번쩍임으로 인한 산만함을 줄여줍니다. 시그니퍼 마스크를 착용하면 암흑 시야를 확보할 수 있습니다. 또한, 기표의 가면을 착용한 상태에서 눈부신 상태로 대상만 은폐된 경우, 해당 생물을 대상으로 하는 평면 체크 DC가 5에서 3으로 감소합니다.</p>"
+      "description": "<p>기표 가면을 통해 흐르는 마법으로 어둠 속에서도 볼 수 있으며, 가면은 갑작스러운 밝은 빛의 번쩍임으로 인한 산만함을 줄여줍니다. 시그니퍼 마스크를 착용하면 암흑 시야를 확보할 수 있습니다. 또한, 기표의 가면을 착용한 상태에서 눈부신 상태로 대상만 은폐된 경우, 해당 생물을 대상으로 하는 플랫 체크 DC가 5에서 3으로 감소합니다.</p>"
     },
     "Decree of Banishment": {
       "name": "추방령",
@@ -11316,7 +11316,7 @@
     },
     "Deflecting Cloud": {
       "name": "클라우드 디플렉션",
-      "description": "<p><strong>빈도</strong> 10분에 한 번</p>\n<p><strong> 트리거</strong> 원거리 공격의 대상이 되었습니다.</p>\n<p><strong> 요구 조건</strong> 공격을 인지하고 있으며 현재 드래곤 날개를 활성화했습니다.</p>\n<hr />\n<p>고대 혈염의 용에게만 있는 방어 기술인 날개를 두드려 안개 구름을 만드는 기술을 마스터했습니다. 시각이 공격자의 유일한 정확한 감각인 경우, 트리거 공격으로부터 순간적으로 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨은} 상태가 됩니다. 일반적으로 공격자는 @Check[type:flat|dc:11|이름:숨겨진 평면 체크|특성:숨겨진|showDC:소유자] 체크에 성공해야만 당신을 목표로 삼을 수 있습니다. 또한 트리거 공격에 대해 AC에 +4의 상황 보너스를 받습니다.</p>"
+      "description": "<p><strong>빈도</strong> 10분에 한 번</p>\n<p><strong> 트리거</strong> 원거리 공격의 대상이 되었습니다.</p>\n<p><strong> 요구 조건</strong> 공격을 인지하고 있으며 현재 드래곤 날개를 활성화했습니다.</p>\n<hr />\n<p>고대 혈염의 용에게만 있는 방어 기술인 날개를 두드려 안개 구름을 만드는 기술을 마스터했습니다. 시각이 공격자의 유일한 정확한 감각인 경우, 트리거 공격으로부터 순간적으로 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨은} 상태가 됩니다. 일반적으로 공격자는 @Check[type:flat|dc:11|이름:숨겨진 플랫 체크|특성:숨겨진|showDC:소유자] 체크에 성공해야만 당신을 목표로 삼을 수 있습니다. 또한 트리거 공격에 대해 AC에 +4의 상황 보너스를 받습니다.</p>"
     },
     "Far Throw": {
       "name": "원거리 던지기",
@@ -16088,7 +16088,7 @@
     },
     "Eerie Flicker": {
       "name": "섬뜩한 깜박임",
-      "description": "<p><strong>트리거</strong> 적의 공격이 자신에게 적중했을 때 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진}, @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨은}, 또는 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{감지되지 않음} 적에게 포착됩니다.</p>\n<hr />\n<p>몸이 순간적으로 미묘한 차원으로 사라집니다. 1라운드 동안 은폐된 상태가 되며, 자신에게 적중했을 타격에 은폐 확인 평타가 적용됩니다. 플랫 체크에 실패하면 타격이 빗나갑니다.</p>\n<hr />\n<p><strong>각성</strong> 몸이 깜빡이면 순간적으로 무시무시한 모습으로 변합니다. 당신의 섬뜩한 깜빡임으로 은폐된 상태에서 평면 체크에 실패한 생물은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 1}이 되고, 이 효과를 얻은 같은 턴이 끝날 때 이 효과로 인한 겁먹은 상태가 감소하지 않습니다.</p>\n<hr />\n<p><strong>각성</strong> 깜빡이는 동작을 한 순간으로 압축하여 효과의 지속 시간이 짧아지는 대신 트리거 공격을 피할 확률을 높일 수 있습니다. 이 옵션을 선택하면 트리거 공격에 대한 은폐 체크가 @Check[type:flat|DC:9]로 증가하지만, 은폐는 트리거 공격에만 영향을 미칩니다.</p>"
+      "description": "<p><strong>트리거</strong> 적의 공격이 자신에게 적중했을 때 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진}, @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨은}, 또는 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{감지되지 않음} 적에게 포착됩니다.</p>\n<hr />\n<p>몸이 순간적으로 미묘한 차원으로 사라집니다. 1라운드 동안 은폐된 상태가 되며, 자신에게 적중했을 타격에 은폐 확인 평타가 적용됩니다. 플랫 체크에 실패하면 타격이 빗나갑니다.</p>\n<hr />\n<p><strong>각성</strong> 몸이 깜빡이면 순간적으로 무시무시한 모습으로 변합니다. 당신의 섬뜩한 깜빡임으로 은폐된 상태에서 플랫 체크에 실패한 생물은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 1}이 되고, 이 효과를 얻은 같은 턴이 끝날 때 이 효과로 인한 겁먹은 상태가 감소하지 않습니다.</p>\n<hr />\n<p><strong>각성</strong> 깜빡이는 동작을 한 순간으로 압축하여 효과의 지속 시간이 짧아지는 대신 트리거 공격을 피할 확률을 높일 수 있습니다. 이 옵션을 선택하면 트리거 공격에 대한 은폐 체크가 @Check[type:flat|DC:9]로 증가하지만, 은폐는 트리거 공격에만 영향을 미칩니다.</p>"
     },
     "Light of Revelation": {
       "name": "계시의 빛",
@@ -16692,7 +16692,7 @@
     },
     "Open the Blazing Eye": {
       "name": "타오르는 눈 열기",
-      "description": "<p><strong>주파수</strong> 하루에 한 번</p><hr /><p>신비와 오컬트 신비를 연구하는 당신의 부지런함 덕분에, 당신은 일시적으로 평범한 것을 넘어서는 지각에 도달하기 위해 집중할 수 있습니다. 이마 중앙에 빛이 없는 불꽃이 나타납니다. 1분 동안 @UUID[Compendium.pf2e.spells-srd.Item.jwK43yKsHTkJQvQ9]{보이지 않는 것을 본다} 주문의 효과를 얻습니다.</p> <p>또한, 이 시간 동안 신비주의 또는 종교를 사용해 지식을 불러올 수 있는 생물을 대상으로 공격을 시도할 때, 공격은 공격 굴림에 대한 상황 패널티와 대상이 @UUID[Compendium]이기 때문에 필요한 평면 체크를 무시합니다.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진} 또는 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨은}.</p>"
+      "description": "<p><strong>주파수</strong> 하루에 한 번</p><hr /><p>신비와 오컬트 신비를 연구하는 당신의 부지런함 덕분에, 당신은 일시적으로 평범한 것을 넘어서는 지각에 도달하기 위해 집중할 수 있습니다. 이마 중앙에 빛이 없는 불꽃이 나타납니다. 1분 동안 @UUID[Compendium.pf2e.spells-srd.Item.jwK43yKsHTkJQvQ9]{보이지 않는 것을 본다} 주문의 효과를 얻습니다.</p> <p>또한, 이 시간 동안 신비주의 또는 종교를 사용해 지식을 불러올 수 있는 생물을 대상으로 공격을 시도할 때, 공격은 공격 굴림에 대한 상황 패널티와 대상이 @UUID[Compendium]이기 때문에 필요한 플랫 체크를 무시합니다.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진} 또는 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨은}.</p>"
     },
     "Virtuosic Performer": {
       "name": "비르투오소 연주자",
