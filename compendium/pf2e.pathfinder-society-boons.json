@@ -76,7 +76,7 @@
     },
     "S1-02 - Cryptid Scholar": {
       "name": "S1-02 - 크립티드 학자",
-      "description": "<p><strong>[유형 없음][제한적 사용]</strong> □□□</p>\n<p>모기 마녀와의 경험을 통해 이상한 생물을 연구하게 되었어요. 희귀하거나 독특한 생물을 식별하기 위해 지식을 기억하면 다음과 같은 리액션을 사용할 수 있습니다.</p>\n<p><strong> 트리거</strong> 눈에 보이는 생물을 식별하기 위해 지식을 기억하려고 시도합니다.</p>\n<hr />\n<p><strong>효과</strong> (행운) 기술 체크를 두 번 굴려 더 좋은 결과를 사용합니다.</p>"
+      "description": "<p><strong>[type 없음][제한적 사용]</strong> □□□</p>\n<p>모기 마녀와의 경험을 통해 이상한 생물을 연구하게 되었어요. 희귀하거나 독특한 생물을 식별하기 위해 지식을 기억하면 다음과 같은 리액션을 사용할 수 있습니다.</p>\n<p><strong> 트리거</strong> 눈에 보이는 생물을 식별하기 위해 지식을 기억하려고 시도합니다.</p>\n<hr />\n<p><strong>효과</strong> (행운) 기술 체크를 두 번 굴려 더 좋은 결과를 사용합니다.</p>"
     },
     "S2-00 - Spark of Life (levels 7-8)": {
       "name": "S2-00 - 생명의 불꽃(레벨 7-8)",
@@ -384,7 +384,7 @@
     },
     "S1-Q01 - Sand Slide": {
       "name": "S1-Q01 - 모래 미끄럼틀",
-      "description": "<p><strong>[일반][제한적 사용]</strong> □□□</p>\n<p><strong> 액션</strong> 리액션</p>\n<p><strong> 트리거</strong> 함정의 효과를 피하기 위해 반사 세이브에 실패합니다(치명적인 실패는 아님).</p>\n<hr />\n<p><strong>효과</strong> 당신은 @UUID[전서.pf2e.actionspf2e.Item.UHpkTuCtyaPqiCAB]{단계}를 누른 후, 새로운 위치로 @UUID[전서.pf2e.actionspf2e.Item.HYNhdaPtF1QmQbR3]{눕힘}을 합니다. 트리거되는 반사 내성에 +2의 상황 보너스를 받습니다. 이 정도면 처음에 덫의 효과에 충분히 저항할 수 있었다면, 대신 저장에 성공합니다.</p>"
+      "description": "<p><strong>[일반][제한적 사용]</strong> □□□</p>\n<p><strong> 액션</strong> 리액션</p>\n<p><strong> 트리거</strong> 함정의 효과를 피하기 위해 반사 세이브에 실패합니다(치명적인 실패는 아님).</p>\n<hr />\n<p><strong>효과</strong> 당신은 @UUID[전서.pf2e.actionspf2e.Item.UHpkTuCtyaPqiCAB]{단계}를 누른 후, 새로운 위치로 @UUID[전서.pf2e.actionspf2e.Item.HYNhdaPtF1QmQbR3]{눕힘}을 합니다. 트리거되는 반사 내성에 +2의 상황 보너스를 받습니다. 이 정도면 처음에 덫의 효과에 충분히 저항할 수 있었다면, 대신 내성 굴림에 성공합니다.</p>"
     },
     "AoA #150: Boon B - Paragon of Promise": {
       "name": "AoA #150: 혜택 B - 약속의 파라곤",
@@ -472,7 +472,7 @@
     },
     "S1-11 - Devil's Keep": {
       "name": "S1-11 - 악마의 요새",
-      "description": "<p><strong>[고급]</strong></p>\n<hr />\n<p><strong>효과</strong> 당신은 디겐의 안식처로 알려진 지옥 요새의 정당한 마스터입니다. 모험당 한 번, 다음 리액션을 사용할 수 있습니다.</p>\n<p><span style=\"text-decoration: underline;\"> 지옥의 폭발</span></p>\n<p><strong>액션</strong> 리액션</p>\n<p><strong> 트리거</strong> 30피트 내에 있는 생물이 자신 또는 아군을 공격 대상으로 삼습니다.</p>\n<hr />\n<p><strong>효과</strong> 생물은 [[/r 1d6 + @액터.레벨]]{1d6 + 자신의 레벨}만큼 화염 피해를 받습니다(@체크[유형:반사|dc:해결(@액터.시스템.속성.classOrSpellDC.값)|기본:참]). 반사 내성의 DC는 주문 DC 또는 클래스 DC 중 더 높은 값과 같습니다.</p>"
+      "description": "<p><strong>[고급]</strong></p>\n<hr />\n<p><strong>효과</strong> 당신은 디겐의 안식처로 알려진 지옥 요새의 정당한 마스터입니다. 모험당 한 번, 다음 리액션을 사용할 수 있습니다.</p>\n<p><span style=\"text-decoration: underline;\"> 지옥의 폭발</span></p>\n<p><strong>액션</strong> 리액션</p>\n<p><strong> 트리거</strong> 30피트 내에 있는 생물이 자신 또는 아군을 공격 대상으로 삼습니다.</p>\n<hr />\n<p><strong>효과</strong> 생물은 [[/r 1d6 + @액터.레벨]]{1d6 + 자신의 레벨}만큼 화염 피해를 받습니다(@Check[type:반사|dc:해결(@액터.시스템.속성.classOrSpellDC.값)|기본:참]). 반사 내성의 DC는 주문 DC 또는 클래스 DC 중 더 높은 값과 같습니다.</p>"
     },
     "Envoy's Alliance Gear": {
       "name": "사절의 동맹 장비",

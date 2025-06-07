@@ -131,7 +131,7 @@
     },
     "Drink Blood": {
       "name": "흡혈",
-      "description": "<p><strong>요구 조건</strong> A @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.6 uEgoh53GbXuHpTF]{마비됨}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속됨}, @UUID[Compendium.pf2e.conditionitems.Item. fBnFDH2MTzgFijKf]{의식불명}, 또는 흡혈되고자 하는 의지가 있는 생물이 도달 범위 내에 있습니다</p>\n<hr />\n<p><strong>효과</strong> 당신은 해당 생물에게 송곳니를 들이밀고 그 피를 마십니다. 피해자가 잡힌 경우 피해자의 인내 DC에 대해 @Check[type:athletics|defense:fortitude] 체크가 필요하며, 다른 조건에 대해서는 자동으로 성공합니다. 성공하면, 생물은 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡혈됨1}이 되고, 10분 동안 지속되는 대상의 레벨만큼 일시적으로 HP를 얻습니다. 대상에게 추가로 사용해도 흡혈됨 상태가 증가하거나 일시적 HP를 더 얻지 않습니다.</p>"
+      "description": "<p><strong>요구 조건</strong> A @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.6 uEgoh53GbXuHpTF]{마비됨}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속됨}, @UUID[Compendium.pf2e.conditionitems.Item. fBnFDH2MTzgFijKf]{의식불명}, 또는 흡혈되고자 하는 의지가 있는 생물이 도달 범위 내에 있습니다</p>\n<hr />\n<p><strong>효과</strong> 당신은 해당 생물에게 송곳니를 들이밀고 그 피를 마십니다. 피해자가 잡힌 경우 피해자의 인내 DC에 대해 @Check[type:athletics|defense:fortitude] 체크가 필요하며, 다른 조건에 대해서는 자동으로 성공합니다. 성공하면, 생물은 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수됨 1}이 되고, 10분 동안 지속되는 대상의 레벨만큼 일시적으로 HP를 얻습니다. 대상에게 추가로 사용해도 흡혈됨 상태가 증가하거나 일시적 HP를 더 얻지 않습니다.</p>"
     },
     "Subsist": {
       "name": "서브시스트",
@@ -187,7 +187,7 @@
     },
     "Death Drone": {
       "name": "죽음의 드론",
-      "description": "<p>당신의 무리에 있는 매미들이 공포 반응을 자극하는 윙윙거리는 소리를 냅니다. 당신의 무리 공간에 있는 각 생물은 @Damage[6d4[mental]] 피해를 입으며, 당신의 클래스 DC 또는 주문 DC 중 높은 것을 기준으로 @Check[will|against:class-spell] 내성 굴림을 시도해야 합니다.</p><hr /><p><strong>Critical Success</strong> 생물은 영향을 받지 않습니다.</p>\n<p><strong>Success</strong> 생물은 피해를 절반만 받습니다.</p>\n<p><strong>Failure</strong> 생물은 전체 피해를 받고, @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{두려움 1} 상태가 되며, 청각을 필요로 하는 지각 체크에 –2 상황 패널티를 받습니다.</p>\n<p><strong>Critical Failure</strong> 생물은 두 배의 피해를 받고, @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{두려움 2} 상태가 되며, 다음 턴 시작까지 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{청각 상실} 상태가 됩니다.</p>"
+      "description": "<p>당신의 무리에 있는 매미들이 공포 반응을 자극하는 윙윙거리는 소리를 냅니다. 당신의 무리 공간에 있는 각 생물은 @Damage[6d4[mental]] 피해를 입으며, 당신의 클래스 DC 또는 주문 DC 중 높은 것을 기준으로 @Check[will|against:class-spell] 내성 굴림을 시도해야 합니다.</p><hr /><p><strong>Critical Success</strong> 생물은 영향을 받지 않습니다.</p>\n<p><strong>Success</strong> 생물은 피해를 절반만 받습니다.</p>\n<p><strong>Failure</strong> 생물은 전체 피해를 받고, @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{두려움 1} 상태가 되며, 청각을 필요로 하는 지각 체크에 –2 상황 패널티를 받습니다.</p>\n<p><strong>Critical Failure</strong> 생물은 두 배의 피해를 받고, @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{두려움 2} 상태가 되며, 다음 턴 시작까지 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{귀가 먼} 상태가 됩니다.</p>"
     },
     "Elemental Blast": {
       "name": "원소 폭발",
@@ -359,7 +359,7 @@
     },
     "Heavy is the Crown": {
       "name": "무거운 왕관",
-      "description": "<p>권위의 무게가 당신과 주변 생물들에게 무겁게 내려앉습니다. 60 피트 이내의 @Template[type:burst|distance:15]에 있는 모든 적들은 @Damage[(@actor.level)[spirit]|options:area-damage]{spirit damage damage equal to your level}의 피해를 받고, 당신의 직업 DC에 대한 @Check[will|against:exemplar|basic|options:area-effect] 내성 체크를 합니다. 내성에 실패한 모든 적들은 즉시 무릎을 꿇고 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}을 자유 행동으로 떨어뜨립니다.</p>"
+      "description": "<p>권위의 무게가 당신과 주변 생물들에게 무겁게 내려앉습니다. 60 피트 이내의 @Template[type:burst|distance:15]에 있는 모든 적들은 @Damage[(@actor.level)[spirit]|options:area-damage]{spirit damage damage equal to your level}의 피해를 받고, 당신의 직업 DC에 대한 @Check[will|against:exemplar|basic|options:area-effect] 내성 체크를 합니다. 내성에 실패한 모든 적들은 즉시 무릎을 꿇고 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드린}을 자유 행동으로 떨어뜨립니다.</p>"
     },
     "Reactive Falsehood": {
       "name": "즉각적 허위",
@@ -571,7 +571,7 @@
     },
     "Liberating Step": {
       "name": "해방의 발걸음",
-      "description": "<p><strong>트리거</strong> 적이 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡기}, 또는 @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{그래플} 아군에게 피해를 주고 둘 다 자신으로부터 15 피트 이내에 있는 경우.</p>\n<hr />\n<p>아군을 구속에서 해방시킵니다.</p>\n<p>트리거가 피해를 받는 아군이었다면, 아군은 2 + 자신의 레벨에 해당하는 모든 피해에 대한 저항력을 얻습니다.</p>\n<p>아군은 붙잡기, 구속, @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{고정됨} 또는 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비됨} 효과에서 벗어나려고 시도할 수 있습니다. 그들은 저항을 허용하는 효과에 대해 새로운 저항을 시도하거나 프리 액션으로 한 효과에서 @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{탈출}을 시도합니다.</p>\n<p>아군이 이동할 수 있다면 굳이 탈출하지 않아도 프리 액션으로 스텝을 밟을 수 있습니다.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.DawVHfoPKbPJsz4k]{Effect: 챔피언의 저항}</p>"
+      "description": "<p><strong>트리거</strong> 적이 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡기}, 또는 @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{그래플} 아군에게 피해를 주고 둘 다 자신으로부터 15 피트 이내에 있는 경우.</p>\n<hr />\n<p>아군을 구속에서 해방시킵니다.</p>\n<p>트리거가 피해를 받는 아군이었다면, 아군은 2 + 자신의 레벨에 해당하는 모든 피해에 대한 저항력을 얻습니다.</p>\n<p>아군은 붙잡기, 구속, @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{고정됨} 또는 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비} 효과에서 벗어나려고 시도할 수 있습니다. 그들은 저항을 허용하는 효과에 대해 새로운 저항을 시도하거나 프리 액션으로 한 효과에서 @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{탈출}을 시도합니다.</p>\n<p>아군이 이동할 수 있다면 굳이 탈출하지 않아도 프리 액션으로 스텝을 밟을 수 있습니다.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.DawVHfoPKbPJsz4k]{Effect: 챔피언의 저항}</p>"
     },
     "Manifest Realm": {
       "name": "창조 영역",
@@ -591,7 +591,7 @@
     },
     "Drain Life": {
       "name": "생명 흡수",
-      "description": "<p>당신의 에이돌론이 살아있는 생물을 공격하여 그 생물의 생명력을 일부 흡수하여 공유 링크에 공급합니다. 당신의 에이돌론이 살아있는 적을 공격합니다. 공격이 적중하여 피해를 입히면, 대상은 다음과 같은 효과와 함께 인내력 내성굴림을 시도해야 합니다. 대성공하면, 적은 굴린 것보다 한 단계 더 나쁜 결과를 얻습니다.</p>\n<p><strong>대성공</strong> 효과 없음.</p>\n<p><strong>성공</strong> 당신의 에이돌론이 소량의 생명력을 흡수합니다. 적이 자신의 레벨의 절반만큼 공허 피해를 추가로 받습니다.</p>\n<p><strong>실패</strong> 당신의 에이돌론이 스스로 만족할 만큼의 생명력을 소모합니다. 적이 자신의 레벨의 절반만큼 공허 피해를 추가로 받고 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 1}이 됩니다. 당신의 에이돌론이 적의 레벨만큼의 일시적인 명중 점수를 얻고, 이 효과는 1분 동안 지속됩니다.</p>\n<p><strong>대실패</strong> 당신의 에이돌론이 엄청난 양의 생명력을 소모하고 완전히 에너지가 고갈됩니다. 실패 시 적이 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 2}가 되며, 일시적으로 적의 공격력이 적 레벨의 두 배로 증가합니다.</p>"
+      "description": "<p>당신의 에이돌론이 살아있는 생물을 공격하여 그 생물의 생명력을 일부 흡수하여 공유 링크에 공급합니다. 당신의 에이돌론이 살아있는 적을 공격합니다. 공격이 적중하여 피해를 입히면, 대상은 다음과 같은 효과와 함께 인내력 내성굴림을 시도해야 합니다. 대성공하면, 적은 굴린 것보다 한 단계 더 나쁜 결과를 얻습니다.</p>\n<p><strong>대성공</strong> 효과 없음.</p>\n<p><strong>성공</strong> 당신의 에이돌론이 소량의 생명력을 흡수합니다. 적이 자신의 레벨의 절반만큼 공허 피해를 추가로 받습니다.</p>\n<p><strong>실패</strong> 당신의 에이돌론이 스스로 만족할 만큼의 생명력을 소모합니다. 적이 자신의 레벨의 절반만큼 공허 피해를 추가로 받고 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수됨 1}이 됩니다. 당신의 에이돌론이 적의 레벨만큼의 일시적인 명중 점수를 얻고, 이 효과는 1분 동안 지속됩니다.</p>\n<p><strong>대실패</strong> 당신의 에이돌론이 엄청난 양의 생명력을 소모하고 완전히 에너지가 고갈됩니다. 실패 시 적이 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수됨 2}가 되며, 일시적으로 적의 공격력이 적 레벨의 두 배로 증가합니다.</p>"
     },
     "Long Jump": {
       "name": "멀리뛰기",
@@ -715,7 +715,7 @@
     },
     "Break Them Down": {
       "name": "그들을 무너뜨려라",
-      "description": "<p>적들은 당신이 전설을 조각하고 쏠 수 있는 찌꺼기에 불과합니다. 같은 적을 상대로 근접 공격과 원거리 공격, 복합 무기를 사용한 원거리 공격을 모두 사용할 수 있으며, 모드를 변경할 필요는 없습니다. 근접 공격이 적중하면 원거리 공격으로 공격 주사위를 굴릴 때 상황 보너스 +1을 받습니다. 각 공격은 다발 공격 페널티에 포함되지만, 두 번의 공격을 모두 성공할 때까지는 다발 공격 페널티가 증가하지 않습니다. 일격이 모두 적중하면 적에게 추가 @피해[2d6[bleed]] 피해를 입히고, 이 지속적인 출혈 피해가 끝날 때까지 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{눈부신} 상태가 됩니다.</p>"
+      "description": "<p>적들은 당신이 전설을 조각하고 쏠 수 있는 찌꺼기에 불과합니다. 같은 적을 상대로 근접 공격과 원거리 공격, 복합 무기를 사용한 원거리 공격을 모두 사용할 수 있으며, 모드를 변경할 필요는 없습니다. 근접 공격이 적중하면 원거리 공격으로 공격 주사위를 굴릴 때 상황 보너스 +1을 받습니다. 각 공격은 다발 공격 페널티에 포함되지만, 두 번의 공격을 모두 성공할 때까지는 다발 공격 페널티가 증가하지 않습니다. 일격이 모두 적중하면 적에게 추가 @Damage[2d6[bleed]] 피해를 입히고, 이 지속적인 출혈 피해가 끝날 때까지 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{눈부신} 상태가 됩니다.</p>"
     },
     "Survive the Wilds": {
       "name": "야생에서 살아남기",
@@ -859,7 +859,7 @@
     },
     "Master Strike": {
       "name": "마스터 스트라이크",
-      "description": "<p><strong>트리거</strong> 당신의 공격이 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프-가드} 생물에 적중하여 피해를 입힙니다.</p>\n<hr />\n<p>대상은 당신의 클래스 DC에 대해 @Check[type:fortitude|dc:resolve(@actor.system.proficiencies.classDCs.rogue.dc)] 저항을 시도합니다. 그 후 1일 동안 마스터 스트라이크에 일시적으로 면역이 됩니다.</p>\n<hr />\n<p><strong>대성공</strong> 대상은 영향을 받지 않습니다.</p>\n<p><strong> 성공</strong> 대상은 다음 턴이 끝날 때까지 {약화됨 2}입니다.</p>\n<p><strong> 실패</strong> 대상은 4라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비됨} 입니다.</p>\n<p><strong> 대실패</strong> 대상이 4라운드 동안 마비되고, 2시간 동안 @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{무의식}에 빠지거나 (선택) 사망합니다.</p>"
+      "description": "<p><strong>트리거</strong> 당신의 공격이 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프-가드} 생물에 적중하여 피해를 입힙니다.</p>\n<hr />\n<p>대상은 당신의 클래스 DC에 대해 @Check[type:fortitude|dc:resolve(@actor.system.proficiencies.classDCs.rogue.dc)] 저항을 시도합니다. 그 후 1일 동안 마스터 스트라이크에 일시적으로 면역이 됩니다.</p>\n<hr />\n<p><strong>대성공</strong> 대상은 영향을 받지 않습니다.</p>\n<p><strong> 성공</strong> 대상은 다음 턴이 끝날 때까지 {약화됨 2}입니다.</p>\n<p><strong> 실패</strong> 대상은 4라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비} 입니다.</p>\n<p><strong> 대실패</strong> 대상이 4라운드 동안 마비되고, 2시간 동안 @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{무의식}에 빠지거나 (선택) 사망합니다.</p>"
     },
     "Toxic Touch": {
       "name": "맹독 터치",
@@ -1143,7 +1143,7 @@
     },
     "Blizzard Evasion": {
       "name": "눈보라 회피",
-      "description": "<p><strong>빈도</strong> 하루에 한 번</p>\n<p><strong>발동 효과</strong> 한 번의 공격으로 40 이상의 물리 피해를 받습니다</p>\n<hr />\n<p><strong>효과</strong> 최대 3라운드 동안 소용돌이치는 눈보라 속으로 사라집니다. 이 시간 동안 물리 피해에 대한 내성이 10, 포스 피해에 대한 약점이 10 증가합니다. 비행 속도가 40피트 증가하지만, 사용할 수 있는 행동은 @UUID[Compendium.pf2e.actionspf2e.Item.cS9nfDRGD83bNU1p]{비행}뿐입니다. 매 라운드, 당신이 통합된 상태에서 다른 생물의 공간에 처음 들어올 때 또는 생물이 당신의 공간에 처음 들어올 때, 그 생물은 @Damage[4d8[냉기]] 피해를 입으며 @Check[type:fortitude|dc:resolve(@actor.system.attributes.classOrSpellDC.value)]에 성공해야 합니다. 자신의 클래스 DC 또는 주문 DC 중 더 높은 값에 대한 내성 굴림에 성공하거나, 그렇지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{기절 1}이 됩니다. 자신의 턴이 시작될 때, 이 효과를 자유 행동으로 끝낼 수 있습니다.</p>"
+      "description": "<p><strong>빈도</strong> 하루에 한 번</p>\n<p><strong>발동 효과</strong> 한 번의 공격으로 40 이상의 물리 피해를 받습니다</p>\n<hr />\n<p><strong>효과</strong> 최대 3라운드 동안 소용돌이치는 눈보라 속으로 사라집니다. 이 시간 동안 물리 피해에 대한 내성이 10, 포스 피해에 대한 약점이 10 증가합니다. 비행 속도가 40피트 증가하지만, 사용할 수 있는 행동은 @UUID[Compendium.pf2e.actionspf2e.Item.cS9nfDRGD83bNU1p]{비행}뿐입니다. 매 라운드, 당신이 통합된 상태에서 다른 생물의 공간에 처음 들어올 때 또는 생물이 당신의 공간에 처음 들어올 때, 그 생물은 @Damage[4d8[cold]] 피해를 입으며 @Check[type:fortitude|dc:resolve(@actor.system.attributes.classOrSpellDC.value)]에 성공해야 합니다. 자신의 클래스 DC 또는 주문 DC 중 더 높은 값에 대한 내성 굴림에 성공하거나, 그렇지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{기절 1}이 됩니다. 자신의 턴이 시작될 때, 이 효과를 자유 행동으로 끝낼 수 있습니다.</p>"
     },
     "Quick-Tempered": {
       "name": "급작스러운 분노",
@@ -1179,7 +1179,7 @@
     },
     "Salt Wound": {
       "name": "상처에 소금",
-      "description": "<p><strong>빈도</strong> 하루에 한 번</p>\n<p><strong> 트리거</strong> 피를 가지고 있고 최대 HP아닌 생물이 근접 공격으로 자신을 공격합니다.</p>\n<hr />\n<p><strong>효과</strong> 당신의 피에서 나온 소금과 염수를 생물의 상처에 흘려보냅니다. 생물은 자신의 클래스 DC 또는 주문 DC 중 높은 수치로 @Check[type:fortitude|dc:resolve(@actor.attributes.classOrSpellDC.value)]을 시도해야 합니다. 실패하면, 생물은 @Damage[1d6[지속,산]] 피해를 받고 그 고통으로 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{아픈 1} 상태가 됩니다. 대실패 시에는 대신 @Damage[2d6[지속,산]] 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{아픈 2}가 됩니다.</p>"
+      "description": "<p><strong>빈도</strong> 하루에 한 번</p>\n<p><strong> 트리거</strong> 피를 가지고 있고 최대 HP아닌 생물이 근접 공격으로 자신을 공격합니다.</p>\n<hr />\n<p><strong>효과</strong> 당신의 피에서 나온 소금과 염수를 생물의 상처에 흘려보냅니다. 생물은 자신의 클래스 DC 또는 주문 DC 중 높은 수치로 @Check[type:fortitude|dc:resolve(@actor.attributes.classOrSpellDC.value)]을 시도해야 합니다. 실패하면, 생물은 @Damage[1d6[persistent,산]] 피해를 받고 그 고통으로 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{아픈 1} 상태가 됩니다. 대실패 시에는 대신 @Damage[2d6[persistent,산]] 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{아픈 2}가 됩니다.</p>"
     },
     "Pistolero's Retort": {
       "name": "피스톨레로의 레토르트",
@@ -1523,7 +1523,7 @@
     },
     "Ringing Challenge": {
       "name": "링잉 챌린지",
-      "description": "<p>당신은 아이콘을 무기, 방패 또는 땅에 부딪혀 충격파를 발산하여 @Damage[(max(1,(floor((@actor.level - 2)/2))))d4[spirit],(max(1,(floor((@actor.level - 2)/2))))d4[sonic]|options:area-damage]의 피해를 @Template[type:cone|distance:30] 또는 @Template[type:emanation|distance:15] (@Check[fortitude|against:exemplar|basic|options:area-effect] 내성)에 있는 모든 생물에게 입힙니다. 내성 굴림에 대실패한 생물은 1분 동안 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened} 상태가 됩니다. </p> <p>6레벨과 그 이후 2레벨마다 피해가 1d4 정신 피해와 1d4 음파 피해로 증가합니다. </p>"
+      "description": "<p>당신은 아이콘을 무기, 방패 또는 땅에 부딪혀 충격파를 발산하여 @Damage[(max(1,(floor((@actor.level - 2)/2))))d4[spirit],(max(1,(floor((@actor.level - 2)/2))))d4[sonic]|options:area-damage]의 피해를 @Template[type:cone|distance:30] 또는 @Template[type:emanation|distance:15] (@Check[fortitude|against:exemplar|basic|options:area-effect] 내성)에 있는 모든 생물에게 입힙니다. 내성 굴림에 대실패한 생물은 1분 동안 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{귀가 먼} 상태가 됩니다. </p> <p>6레벨과 그 이후 2레벨마다 피해가 1d4 정신 피해와 1d4 음파 피해로 증가합니다. </p>"
     },
     "Soaring Flight": {
       "name": "급상승 비행",
@@ -1775,7 +1775,7 @@
     },
     "Set Free": {
       "name": "해방",
-      "description": "<p><strong>빈도</strong> 1시간에 한 번</p>\n<p><strong> 트리거</strong> 효과를 제거하거나 상쇄하기 위해 체크 시도 @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{혼동}, @UUID[Compendium.pf2e.conditionitems.Item.9qGBRpbX9NEwtAAr]{컨트롤됨}, @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{매혹됨}, @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{동결됨}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비된}, 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{억제된} 조건</p>\n<hr />\n<p><strong>효과</strong> 두 번 굴려서 더 나은 결과를 사용합니다.</p>"
+      "description": "<p><strong>빈도</strong> 1시간에 한 번</p>\n<p><strong> 트리거</strong> 효과를 제거하거나 상쇄하기 위해 체크 시도 @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{혼동}, @UUID[Compendium.pf2e.conditionitems.Item.9qGBRpbX9NEwtAAr]{컨트롤됨}, @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{매혹됨}, @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{동결됨}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비}, 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{억제된} 조건</p>\n<hr />\n<p><strong>효과</strong> 두 번 굴려서 더 나은 결과를 사용합니다.</p>"
     },
     "Vital Shot": {
       "name": "바이탈 샷",

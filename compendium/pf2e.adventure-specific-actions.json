@@ -96,7 +96,7 @@
     },
     "Chained Charge": {
       "name": "연쇄 돌격",
-      "description": "<p>당신은 스트라이드를 한 다음, 이동이 끝날 때 엄니 공격을 합니다. 연쇄된 아군으로부터 15피트 이상 멀리 이동하면, 그 아군을 당신 뒤의 가장 가까운 15피트 떨어진 열린 공간으로 끌어당깁니다. 당신이 맞은 생물은 @Check[reflex|dc:35] 내성 체크에 성공하지 못하면 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}에 쓰러집니다.</p>"
+      "description": "<p>당신은 스트라이드를 한 다음, 이동이 끝날 때 엄니 공격을 합니다. 연쇄된 아군으로부터 15피트 이상 멀리 이동하면, 그 아군을 당신 뒤의 가장 가까운 15피트 떨어진 열린 공간으로 끌어당깁니다. 당신이 맞은 생물은 @Check[reflex|dc:35] 내성 체크에 성공하지 못하면 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드린}에 쓰러집니다.</p>"
     },
     "Forgive Foe": {
       "name": "적 용서",
@@ -180,7 +180,7 @@
     },
     "Wrestle": {
       "name": "레슬링",
-      "description": "<p>당신이 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} 또는 다른 방법으로 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} 상태에 있는 생물에게 클로 공격을 합니다. 타격에 성공하면 평소와 같이 피해를 주고, 그 생물은 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} 상태가 됩니다.</p>"
+      "description": "<p>당신이 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} 또는 다른 방법으로 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} 상태에 있는 생물에게 클로 공격을 합니다. 타격에 성공하면 평소와 같이 피해를 주고, 그 생물은 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드린} 상태가 됩니다.</p>"
     },
     "Scout the Facility": {
       "name": "시설 정찰",
@@ -296,7 +296,7 @@
     },
     "Prove Peace": {
       "name": "평화 증명",
-      "description": "<p><strong>요구 사항</strong> 특정 포위 조각을 생성한 분쟁을 알고 있으며, 해당 포위 조각은 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} 상태입니다.</p> <hr /> <p>당신은 포위 조각을 만지고 정신적 연결을 수립한 후 분쟁의 해결 사실을 전달합니다.</p> <p>공성 파편의 의지 DC를 사용하여 파편을 생성한 분쟁에 대해 @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{지식 회상} 체크를 시도합니다. 성공하면 분쟁이 끝난 것을 증명하고, 공성 파편은 평범한 돌로 돌아갑니다.대실패하면 과거의 갈등의 이미지가 당신을 압도하고, 다음 턴이 끝날 때까지 @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{혼란스러운} 상태가 됩니다.</p>"
+      "description": "<p><strong>요구 사항</strong> 특정 포위 조각을 생성한 분쟁을 알고 있으며, 해당 포위 조각은 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{고정된} 상태입니다.</p> <hr /> <p>당신은 포위 조각을 만지고 정신적 연결을 수립한 후 분쟁의 해결 사실을 전달합니다.</p> <p>공성 파편의 의지 DC를 사용하여 파편을 생성한 분쟁에 대해 @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{지식 회상} 체크를 시도합니다. 성공하면 분쟁이 끝난 것을 증명하고, 공성 파편은 평범한 돌로 돌아갑니다.대실패하면 과거의 갈등의 이미지가 당신을 압도하고, 다음 턴이 끝날 때까지 @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{혼란스러운} 상태가 됩니다.</p>"
     },
     "Administer": {
       "name": "행정관",
@@ -380,7 +380,7 @@
     },
     "Spite": {
       "name": "악의",
-      "description": "<p>생전에 친절했던 사람이라도, 죽은 자들은 산 자들을 원망할 이유가 많기 때문에, 죽은 자들의 잔인한 원한이 유령을 두려워하는 이유입니다. 이 포커스는 단순히 증오로만 이루어진 것은 아닙니다. 의로운 분노도 이러한 능력을 강화할 수 있지만, 가장 고결한 감정조차도 시간이 지남에 따라 왜곡될 수 있습니다. 악의는 저주의 형태로 나타나, 대상에게 다양한 신체적 질병을 가합니다. 30 피트 이내에서 볼 수 있는 대상을 가리키세요. 대상은 @Check[will|against:class-spell] 내성 굴림을 시도해야 하며, 그 후에는 이 능력에 면역이 됩니다. </p> <hr /> <p><strong>대성공</strong> 대상은 영향을 받지 않습니다. </p> <p><strong>성공</strong> 대상의 피부가 통제할 수 없을 정도로 가렵습니다. 대상자가 가려움을 긁기 위해 행동을 사용하지 않으면, 다음 턴이 시작될 때까지 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 됩니다. 이 효과는 1분 동안 지속됩니다. @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 2}, 그리고 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 2}가 24시간 동안 적용됩니다.</p> <p><strong>대실패</strong> 실패와 동일하지만, 대상은 지속 시간 동안 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{속도 저하 1} 상태가 됩니다.</p>"
+      "description": "<p>생전에 친절했던 사람이라도, 죽은 자들은 산 자들을 원망할 이유가 많기 때문에, 죽은 자들의 잔인한 원한이 유령을 두려워하는 이유입니다. 이 포커스는 단순히 증오로만 이루어진 것은 아닙니다. 의로운 분노도 이러한 능력을 강화할 수 있지만, 가장 고결한 감정조차도 시간이 지남에 따라 왜곡될 수 있습니다. 악의는 저주의 형태로 나타나, 대상에게 다양한 신체적 질병을 가합니다. 30 피트 이내에서 볼 수 있는 대상을 가리키세요. 대상은 @Check[will|against:class-spell] 내성 굴림을 시도해야 하며, 그 후에는 이 능력에 면역이 됩니다. </p> <hr /> <p><strong>대성공</strong> 대상은 영향을 받지 않습니다. </p> <p><strong>성공</strong> 대상의 피부가 통제할 수 없을 정도로 가렵습니다. 대상자가 가려움을 긁기 위해 행동을 사용하지 않으면, 다음 턴이 시작될 때까지 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 됩니다. 이 효과는 1분 동안 지속됩니다. @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 2}, 그리고 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수됨 2}가 24시간 동안 적용됩니다.</p> <p><strong>대실패</strong> 실패와 동일하지만, 대상은 지속 시간 동안 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{속도 저하 1} 상태가 됩니다.</p>"
     },
     "Seek the Hidden Forge": {
       "name": "숨겨진 대장간을 찾아라",
@@ -528,7 +528,7 @@
     },
     "Topple Crates": {
       "name": "상자를 넘어뜨리세요",
-      "description": "<p><strong>요건</strong> 당신은 상자 더미에 인접해 있습니다. @Check[운동|dc:22] 체크를 시도하세요. </p> <hr /> <p><strong>성공</strong> 상자 더미를 기둥에서 @Template[line|distance:15]{15피트 선} 이내의 목표물 쪽으로 쓰러뜨립니다. 떨어지는 상자는 @Damage[(3d10+6)[bludgeoning]]의 피해를 입히고, @Check[reflex|dc:26|basic] 내성을 체크합니다. 대실패한 생물은 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} 상태가 됩니다. 상자가 떨어진 모든 칸은 어려운 지형이 됩니다. </p> <p><strong>실패</strong> 상자를 쓰러뜨릴 수 없습니다. </p> <p><strong>대실패</strong> 상자가 대신 당신에게 쓰러져, 성공과 동일한 효과가 발생하지만 당신과 당신의 칸에만 영향을 미칩니다. </p>"
+      "description": "<p><strong>요건</strong> 당신은 상자 더미에 인접해 있습니다. @Check[운동|dc:22] 체크를 시도하세요. </p> <hr /> <p><strong>성공</strong> 상자 더미를 기둥에서 @Template[line|distance:15]{15피트 선} 이내의 목표물 쪽으로 쓰러뜨립니다. 떨어지는 상자는 @Damage[(3d10+6)[bludgeoning]]의 피해를 입히고, @Check[reflex|dc:26|basic] 내성을 체크합니다. 대실패한 생물은 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드린} 상태가 됩니다. 상자가 떨어진 모든 칸은 어려운 지형이 됩니다. </p> <p><strong>실패</strong> 상자를 쓰러뜨릴 수 없습니다. </p> <p><strong>대실패</strong> 상자가 대신 당신에게 쓰러져, 성공과 동일한 효과가 발생하지만 당신과 당신의 칸에만 영향을 미칩니다. </p>"
     },
     "Host Event": {
       "name": "호스트 이벤트",
@@ -628,7 +628,7 @@
     },
     "Set Traps": {
       "name": "함정 설치",
-      "description": "<p>주변 숲이나 좁은 골목에 빠르게 함정을 여러 개 설치하여, PC들은 공격자들의 이동을 방해하고 일부를 다치게 할 수도 있습니다. 함정을 설치하려면 생존 (훈련) 체크가 필요합니다. </p> <hr /> <p><strong>대성공 타츠포드 전투가 진행되는 동안 각 턴이 끝날 때마다, PC가 선택한 적군 1개 부대가 1의 수렁에 빠지고 1의 피해를 받습니다.</p> <p><strong>성공</strong> 타츠포드 전투가 진행되는 동안 각 턴이 끝날 때마다, PC가 선택한 적군 1개 부대가 1의 피해에 빠지거나 1의 피해를 입습니다. </p> <p><strong>대실패</strong> 함정을 설치하려는 시도가 실패할 뿐만 아니라, 함정 중 하나가 설치 중에 크게 오작동합니다. 가시로 덮인 목재를 조작하려는 시도가 실패하여 PC가 건물 벽에 부딪힙니다. 해당 PC는 @Damage[5d6[피어싱],5d6[타격]의 피해를 받습니다 (@Check[반사|dc:25|기본]).</p>"
+      "description": "<p>주변 숲이나 좁은 골목에 빠르게 함정을 여러 개 설치하여, PC들은 공격자들의 이동을 방해하고 일부를 다치게 할 수도 있습니다. 함정을 설치하려면 생존 (훈련) 체크가 필요합니다. </p> <hr /> <p><strong>대성공 타츠포드 전투가 진행되는 동안 각 턴이 끝날 때마다, PC가 선택한 적군 1개 부대가 1의 수렁에 빠지고 1의 피해를 받습니다.</p> <p><strong>성공</strong> 타츠포드 전투가 진행되는 동안 각 턴이 끝날 때마다, PC가 선택한 적군 1개 부대가 1의 피해에 빠지거나 1의 피해를 입습니다. </p> <p><strong>대실패</strong> 함정을 설치하려는 시도가 실패할 뿐만 아니라, 함정 중 하나가 설치 중에 크게 오작동합니다. 가시로 덮인 목재를 조작하려는 시도가 실패하여 PC가 건물 벽에 부딪힙니다. 해당 PC는 @Damage[5d6[피어싱],5d6[타격]의 피해를 받습니다 (@Check[reflex|dc:25|기본]).</p>"
     },
     "Cunning Disguise": {
       "name": "재치 있는 변장",

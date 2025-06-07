@@ -1692,7 +1692,7 @@
       "BasicWithSave": "기본 {save}",
       "DCWithName": "{name} DC",
       "DCAdjustment": "DC Adjustment",
-      "Invalid": "잘못된 @체크 표현식입니다: {message}",
+      "Invalid": "잘못된 @Check 표현식입니다: {message}",
       "Errors": {
         "AdjustmentLengthMismatch": "유형 수와 조정 매개변수 간의 불일치",
         "DCAndDefense": "DC 인수와 방어 인수를 모두 가질 수 없습니다.",
@@ -2936,7 +2936,7 @@
       "status": "상태",
       "untyped": "입력되지 않음"
     },
-    "ModifierTypeTitle": "[유형]",
+    "ModifierTypeTitle": "[type]",
     "ModifiersTitle": "수정치",
     "MultipleAttackPenalty": "다중 공격 페널티",
     "MysticStrikes": "신비의 일격",
@@ -6241,7 +6241,7 @@
       },
       "persistent-damage": {
         "name": "지속 피해",
-        "rules": "<p>지속 피해는 산성, 불에 탄 상태 또는 기타 여러 상황에서 발생합니다. 지속 피해는 \"[유형] 지속 피해 X\"로 표시되며, 여기서 \"X\"는 피해량이고 \"[유형]\"은 피해 유형입니다. 지속 피해를 즉시 받는 것이 아니라, 해당 조건이 있는 한 매 턴이 끝날 때마다 피해 주사위를 새로 굴려서 받습니다. 지속 피해를 @Check[type:flat|dc:15]|dc:15]를 굴려 지속 피해에서 회복되는지 확인합니다. 성공하면 조건이 종료됩니다.</p>",
+        "rules": "<p>지속 피해는 산성, 불에 탄 상태 또는 기타 여러 상황에서 발생합니다. 지속 피해는 \"[type] 지속 피해 X\"로 표시되며, 여기서 \"X\"는 피해량이고 \"[type]\"은 피해 유형입니다. 지속 피해를 즉시 받는 것이 아니라, 해당 조건이 있는 한 매 턴이 끝날 때마다 피해 주사위를 새로 굴려서 받습니다. 지속 피해를 @Check[type:flat|dc:15]|dc:15]를 굴려 지속 피해에서 회복되는지 확인합니다. 성공하면 조건이 종료됩니다.</p>",
         "summary": "매 라운드마다 계속 피해를 받습니다."
       },
       "petrified": {

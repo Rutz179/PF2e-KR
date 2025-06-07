@@ -48,7 +48,7 @@
     },
     "Effect: Darivan's Bloodline Magic": {
       "name": "효과: 다리반의 혈통 마법",
-      "description": "<p>다리반의 혈통 마법이 활성화되면 움직임이 초자연적으로 우아하고 산만해지며, 1라운드 동안 외교 체크에 +1 상태 보너스를 부여하거나 1라운드 동안 대상의 의지 저장에 -1 상태 페널티를 부과합니다.</p>"
+      "description": "<p>다리반의 혈통 마법이 활성화되면 움직임이 초자연적으로 우아하고 산만해지며, 1라운드 동안 외교 체크에 +1 상태 보너스를 부여하거나 1라운드 동안 대상의 의지 내성 굴림에 -1 상태 페널티를 부과합니다.</p>"
     },
     "Effect: Sacrifice Armor": {
       "name": "효과: 희생 갑옷",
@@ -208,7 +208,7 @@
     },
     "Effect: Flesh Mutation": {
       "name": "효과: 육체 변형",
-      "description": "<p>결과에 따라 효과의 영향을 받습니다. </p> <p><strong>1 스펀지 같은 살</strong> 생물체는 물리 피해에 대해 약점 5를 갖습니다. </p> <p><strong>2 부식성 피</strong> 생물체는 @Damage[2d4[지속, 산성]]의 피해를 받으며, 이 피해는 정상적으로 제거할 수 없지만, 돌연변이가 사라지면 종료됩니다.</p> <p><strong>3 눈이 돋아남</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{눈부심} 상태가 되지만, 측면 공격에 면역입니다.</p> <p><strong>4 변이된 정신</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{혼란 상태}가 됩니다. 상태에 명시된 대로 회복될 수는 있지만, 회복된 후에도 돌연변이가 끝날 때까지 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 유지됩니다.</p>"
+      "description": "<p>결과에 따라 효과의 영향을 받습니다. </p> <p><strong>1 스펀지 같은 살</strong> 생물체는 물리 피해에 대해 약점 5를 갖습니다. </p> <p><strong>2 부식성 피</strong> 생물체는 @Damage[2d4[persistent, 산성]]의 피해를 받으며, 이 피해는 정상적으로 제거할 수 없지만, 돌연변이가 사라지면 종료됩니다.</p> <p><strong>3 눈이 돋아남</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{눈부심} 상태가 되지만, 측면 공격에 면역입니다.</p> <p><strong>4 변이된 정신</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{혼란 상태}가 됩니다. 상태에 명시된 대로 회복될 수는 있지만, 회복된 후에도 돌연변이가 끝날 때까지 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 유지됩니다.</p>"
     },
     "Effect: Death Gasp (Etioling)": {
       "name": "효과: 죽음의 헐떡임(에티올링)",
@@ -240,11 +240,11 @@
     },
     "Effect: Powder Burst": {
       "name": "효과: 파우더 버스트",
-      "description": "<p>지각 체크 및 정신 효과에 대한 저장에 -2 상태 페널티가 적용됩니다.</p>"
+      "description": "<p>지각 체크 및 정신 효과에 대한 내성 굴림에 -2 상태 페널티가 적용됩니다.</p>"
     },
     "Effect: Distracting Giggle": {
       "name": "효과: 주의를 분산시키는 킥킥거리기",
-      "description": "<p>생물은 의지 저장에 -1 상태력 패널티를 받습니다.</p>"
+      "description": "<p>생물은 의지 내성 굴림에 -1 상태력 패널티를 받습니다.</p>"
     },
     "Effect: Destructive Vengeance": {
       "name": "효과: 파괴적인 복수",
@@ -280,7 +280,7 @@
     },
     "Effect: Volcanic Purge": {
       "name": "효과: 화산 퍼지",
-      "description": "<p>대상은 @피해[4d6[지속,화염]] 피해를 입으며, 이 지속 화염 피해를 받는 동안 이동 속도에 -10피트 상태이상의 피해를 받습니다.</p>"
+      "description": "<p>대상은 @Damage[4d6[persistent,화염]] 피해를 입으며, 이 지속 화염 피해를 받는 동안 이동 속도에 -10피트 상태이상의 피해를 받습니다.</p>"
     },
     "Effect: Viscous Breath": {
       "name": "효과: 점성 호흡",
@@ -320,7 +320,7 @@
     },
     "Effect: Black Cat Curse": {
       "name": "효과: 검은 고양이 저주",
-      "description": "<p><strong>효과</strong> 황혼의 여제가 자신이 볼 수 있는 30피트 내의 생물 한 마리에게 증오의 저주를 내뱉습니다. 대상이 @체크[유형:의지|DC:32] 구하기에 실패하면, 공격 굴림이나 구원 던지기를 시도할 때마다 두 번 굴려서 낮은 결과를 사용해야 합니다. 그러면 대상은 24시간 동안 일시적으로 면역 상태가 됩니다. 저주가 해제되거나 대상이 나중에 저주에 대한 내성 굴림에 성공할 때까지 저주는 지속됩니다. 피해자는 저주를 끝내기 위해 한 시간에 한 번씩 새로운 @Check[type:의지|DC:32] 저장을 시도할 수 있습니다.</p>"
+      "description": "<p><strong>효과</strong> 황혼의 여제가 자신이 볼 수 있는 30피트 내의 생물 한 마리에게 증오의 저주를 내뱉습니다. 대상이 @Check[type:의지|DC:32] 구하기에 실패하면, 공격 굴림이나 구원 던지기를 시도할 때마다 두 번 굴려서 낮은 결과를 사용해야 합니다. 그러면 대상은 24시간 동안 일시적으로 면역 상태가 됩니다. 저주가 해제되거나 대상이 나중에 저주에 대한 내성 굴림에 성공할 때까지 저주는 지속됩니다. 피해자는 저주를 끝내기 위해 한 시간에 한 번씩 새로운 @Check[type:의지|DC:32] 저장을 시도할 수 있습니다.</p>"
     },
     "Effect: Scent of Blood": {
       "name": "효과: 피의 냄새",
@@ -560,7 +560,7 @@
     },
     "Effect: Hallucinogenic Pollen (Failure)": {
       "name": "효과: 환각성 꽃가루(실패)",
-      "description": "<p>이 생물은 지각 체크와 정신 효과에 대한 저장에 -2 상태 패널티를 받습니다.</p>"
+      "description": "<p>이 생물은 지각 체크와 정신 효과에 대한 내성 굴림에 -2 상태 패널티를 받습니다.</p>"
     },
     "Effect: Fiery Form": {
       "name": "효과: 불타는 형태",
@@ -900,7 +900,7 @@
     },
     "Effect: Hallucinogenic Pollen (Critical Failure)": {
       "name": "효과: 환각성 꽃가루(대실패)",
-      "description": "<p>이 생물은 지각 체크와 정신 효과에 대한 저장에 -4 상태 불이익을 받습니다.</p>"
+      "description": "<p>이 생물은 지각 체크와 정신 효과에 대한 내성 굴림에 -4 상태 불이익을 받습니다.</p>"
     },
     "Effect: Rapid Evolution - Energy Gland": {
       "name": "효과: 빠른 진화 - 에너지 샘",
@@ -1144,7 +1144,7 @@
     },
     "Effect: Haywire": {
       "name": "효과: 헤이와이어",
-      "description": "<p>이 생물은 타격에 -1의 상황 패널티를 받지만, 추가 @피해[1d6[둔기]] 피해와 @UUID[괴물 도감.pf2e.bestiary-ability-glossary-srd.Item.BCLvAx4Pz4MLa2pu]{넉다운} 피해를 입힙니다.</p>"
+      "description": "<p>이 생물은 타격에 -1의 상황 패널티를 받지만, 추가 @Damage[1d6[둔기]] 피해와 @UUID[괴물 도감.pf2e.bestiary-ability-glossary-srd.Item.BCLvAx4Pz4MLa2pu]{넉다운} 피해를 입힙니다.</p>"
     },
     "Effect: You'll Pay for That": {
       "name": "효과: 그 대가를 치를 것이다",
@@ -1256,7 +1256,7 @@
     },
     "Effect: Goblin Song": {
       "name": "효과: 고블린 노래",
-      "description": "<p>이 생물은 지각 체크와 의지 저장에 -1 상태 패널티를 받습니다.</p>"
+      "description": "<p>이 생물은 지각 체크와 의지 내성 굴림에 -1 상태 패널티를 받습니다.</p>"
     },
     "Effect: Droning Wings": {
       "name": "효과: 드론 날개",
@@ -1324,7 +1324,7 @@
     },
     "Effect: Super Qi Blast": {
       "name": "효과: 슈퍼 기 폭발",
-      "description": "<p>그랜드 마스터의 몸이 팽창하며 헤아릴 수 없는 양의 기를 발산할 준비를 합니다. 그랜드 마스터의 다음 행동이 2액션 버전의 기 폭발을 시전하는 것이라면, 원뿔의 크기가 120피트로 증가하고 피해가 16d6로 증가합니다. 또한 그랜드 마스터는 다음 1분 동안 크기가 한 단계 커지며, 근접 공격으로 +9의 추가 피해를 입힙니다. 또한, 그랜드 마스터는 영구적으로 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 1} 상태가 됩니다. 이 흡수 상태는 누적됩니다.</p>"
+      "description": "<p>그랜드 마스터의 몸이 팽창하며 헤아릴 수 없는 양의 기를 발산할 준비를 합니다. 그랜드 마스터의 다음 행동이 2액션 버전의 기 폭발을 시전하는 것이라면, 원뿔의 크기가 120피트로 증가하고 피해가 16d6로 증가합니다. 또한 그랜드 마스터는 다음 1분 동안 크기가 한 단계 커지며, 근접 공격으로 +9의 추가 피해를 입힙니다. 또한, 그랜드 마스터는 영구적으로 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수됨 1} 상태가 됩니다. 이 흡수 상태는 누적됩니다.</p>"
     },
     "Effect: Elemental Field": {
       "name": "효과 : 원소 필드",
@@ -1360,7 +1360,7 @@
     },
     "Effect: Bully the Departed": {
       "name": "효과: 떠난 자 괴롭히기",
-      "description": "<p>이 생물은 생명력 재생 15(힘 또는 선으로 무력화)를 얻고, 공격 시 추가 @피해[1d8[정령]] 피해를 입힙니다.</p>"
+      "description": "<p>이 생물은 생명력 재생 15(힘 또는 선으로 무력화)를 얻고, 공격 시 추가 @Damage[1d8[정령]] 피해를 입힙니다.</p>"
     },
     "Effect: Pollution Infusion": {
       "name": "효과: 오염 주입",
@@ -1424,7 +1424,7 @@
     },
     "Effect: Nymph Queen's Inspiration": {
       "name": "효과: 님프 여왕의 영감",
-      "description": "<p>이 생물은 모든 제작 체크, 수행력 체크, 의지 저장에 +1 상태 보너스를 받습니다.</p>\n<p>음유시인은 추가 혜택을 받습니다:</p>\n<ul>\n<li><strong>수수께끼의 뮤즈:</strong> 모든 지식 체크에 +1 상태 보너스 <em>(포함되지 않음)</em></li>\n<li><strong>마에스트로 뮤즈:</strong> 작곡의 효과를 확인하기 위한 성능 체크에 +2 상태 보너스</li>\n<li><strong> 폴리매스 뮤즈:</strong> 훈련되지 않은 기술 체크에 +4 상태 보너스</li>\n<li><strong> 기타 뮤즈:</strong> 페이에 대한 의지 절약에 +2 상태 보너스 부여</li>\n</ul>"
+      "description": "<p>이 생물은 모든 제작 체크, 수행력 체크, 의지 내성 굴림에 +1 상태 보너스를 받습니다.</p>\n<p>음유시인은 추가 혜택을 받습니다:</p>\n<ul>\n<li><strong>수수께끼의 뮤즈:</strong> 모든 지식 체크에 +1 상태 보너스 <em>(포함되지 않음)</em></li>\n<li><strong>마에스트로 뮤즈:</strong> 작곡의 효과를 확인하기 위한 성능 체크에 +2 상태 보너스</li>\n<li><strong> 폴리매스 뮤즈:</strong> 훈련되지 않은 기술 체크에 +4 상태 보너스</li>\n<li><strong> 기타 뮤즈:</strong> 페이에 대한 의지 절약에 +2 상태 보너스 부여</li>\n</ul>"
     },
     "Effect: Viscous Trap": {
       "name": "효과: 점성 함정",
@@ -1488,7 +1488,7 @@
     },
     "Effect: Blasphemous Utterances": {
       "name": "효과: 불경한 발언",
-      "description": "<p>이 생물은 정신적 효과에 대한 저장에 -2의 상황 페널티를 받습니다.</p>\n<p>이 생물은 @Check[type:flat|dc:10] 체크에 성공하지 않으면 집중 특성이 있는 액션을 할 수 없습니다. 이 체크에 실패하면 액션이 낭비됩니다.</p>"
+      "description": "<p>이 생물은 정신적 효과에 대한 내성 굴림에 -2의 상황 페널티를 받습니다.</p>\n<p>이 생물은 @Check[type:flat|dc:10] 체크에 성공하지 않으면 집중 특성이 있는 액션을 할 수 없습니다. 이 체크에 실패하면 액션이 낭비됩니다.</p>"
     },
     "Effect: Transfer Protection": {
       "name": "효과: 전송 보호",
@@ -1512,7 +1512,7 @@
     },
     "Effect: Necrotic Field": {
       "name": "효과: 괴사 필드",
-      "description": "<p>오라 안에 있는 언데드는 자연 공격으로 추가 @피해[1d6[void]] 피해를 줍니다.</p>"
+      "description": "<p>오라 안에 있는 언데드는 자연 공격으로 추가 @Damage[1d6[void]] 피해를 줍니다.</p>"
     },
     "Effect: Impersonated Ability": {
       "name": "효과: 가장 능력",
@@ -1912,7 +1912,7 @@
     },
     "Effect: Aura of Good Cheer": {
       "name": "효과: 좋은 기운의 기운",
-      "description": "<p>아우라 안에 있는 아군은 감정 효과에 대한 의지 저장에 +1 상태 보너스를 받습니다.</p>"
+      "description": "<p>아우라 안에 있는 아군은 감정 효과에 대한 의지 내성 굴림에 +1 상태 보너스를 받습니다.</p>"
     },
     "Effect: Rotting Stench": {
       "name": "효과: 썩은 악취",
@@ -1980,7 +1980,7 @@
     },
     "Effect: Cat Sith's Mark": {
       "name": "효과: 캣 시스의 표식",
-      "description": "<p>저주받은 생물이 기술 체크 또는 내성 굴림에서 대성공을 굴릴 때마다 대신 성공을 얻습니다. 저주에 걸린 생물은 매일 저주를 깨기 위해 @체크[유형:평타|DC:10|특성:저주,불행|이름:캣시스의 표식 깨기] 체크를 시도할 수 있습니다.</p>"
+      "description": "<p>저주받은 생물이 기술 체크 또는 내성 굴림에서 대성공을 굴릴 때마다 대신 성공을 얻습니다. 저주에 걸린 생물은 매일 저주를 깨기 위해 @Check[type:평타|DC:10|특성:저주,불행|이름:캣시스의 표식 깨기] 체크를 시도할 수 있습니다.</p>"
     },
     "Effect: Sixfold Flurry": {
       "name": "효과: 여섯 배의 돌풍",
@@ -2000,7 +2000,7 @@
     },
     "Effect: Pilgrim's Ward": {
       "name": "효과: 순례자의 병동",
-      "description": "<p>모든 종교 체크와 의지 저장에 +1 상태 보너스를 받습니다.</p>"
+      "description": "<p>모든 종교 체크와 의지 내성 굴림에 +1 상태 보너스를 받습니다.</p>"
     },
     "Effect: Manipulate Luck (Bad)": {
       "name": "효과: 행운 조작 (나쁨)",

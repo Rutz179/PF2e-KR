@@ -88,7 +88,7 @@
     },
     "Wounded": {
       "name": "부상",
-      "description": "<p>중상을 입었습니다. 부상입은 상태에서 @UUID[Compendium.pf2e.conditionitems.Item.yZRUzMqrMmfLu0V1]{빈사} 조건을 잃고 아직 부상입은 조건을 가지고 있지 않은 경우, 부상 1이 됩니다. 사망 조건을 잃을 때 이미 부상입은 조건을 가지고 있다면, 부상입은 상태 값이 1만큼 증가합니다. 부상입은 상태에서 빈사 상태를 얻으면, 부상입은 값만큼 빈사 상태 값이 증가합니다.</p>\n<p>누군가 @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{부상 치료}를 사용하거나, 어떤 방법으로든 전체 체력을 회복하고 10분 동안 휴식을 취하면 부상입은 상태가 종료됩니다.</p>"
+      "description": "<p>중상을 입었습니다. 부상입은 상태에서 @UUID[Compendium.pf2e.conditionitems.Item.yZRUzMqrMmfLu0V1]{빈사} 조건을 잃고 아직 부상입은 조건을 가지고 있지 않은 경우, 부상 1이 됩니다. 사망 조건을 잃을 때 이미 부상입은 조건을 가지고 있다면, 부상입은 상태 값이 1만큼 증가합니다. 부상입은 상태에서 빈사 상태를 얻으면, 부상입은 값만큼 빈사 상태 값이 증가합니다.</p>\n<p>누군가 @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{상처 치료}를 사용하거나, 어떤 방법으로든 전체 체력을 회복하고 10분 동안 휴식을 취하면 부상입은 상태가 종료됩니다.</p>"
     },
     "Petrified": {
       "name": "석화",
@@ -124,7 +124,7 @@
     },
     "Hidden": {
       "name": "숨겨진",
-      "description": "<p>생명체에게 숨겨진 상태에서는 생명체는 플레이어가 있는 공간을 알 수 있지만 정확히 어디에 있는지는 알 수 없습니다. 일반적으로 @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Hide}로 은신을 사용하면 숨겨집니다. 부정확한 감각만 사용하여 생물을 @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{찾기}하면, @UUID[Compendium.pf2e.conditionitems.Item.1wQY3JYyhMYeeV2G]{감춰진 상태}가 아닌 숨겨져 있는 상태가 됩니다. 당신에게 숨겨진 생물은 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프-가드}이며, 공격, 주문 또는 다른 효과로 당신을 목표로 할 때 @체크[유형:평면|showDC:모두|dc:11]에 성공해야 하며 그렇지 않으면 당신에게 영향을 미치지 못합니다. 지역 효과는 이 평면 체크의 대상이 아닙니다.</p>\n<p>생물은 찾기 액션을 사용하여 플레이어를 관찰됨을 시도할 수 있습니다.</p>"
+      "description": "<p>생명체에게 숨겨진 상태에서는 생명체는 플레이어가 있는 공간을 알 수 있지만 정확히 어디에 있는지는 알 수 없습니다. 일반적으로 @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Hide}로 은신을 사용하면 숨겨집니다. 부정확한 감각만 사용하여 생물을 @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{찾기}하면, @UUID[Compendium.pf2e.conditionitems.Item.1wQY3JYyhMYeeV2G]{관찰됨} 상태가 아닌 숨겨져 있는 상태가 됩니다. 당신에게 숨겨진 생물은 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프-가드}이며, 공격, 주문 또는 다른 효과로 당신을 목표로 할 때 @Check[type:flat|showDC:모두|dc:11]에 성공해야 하며 그렇지 않으면 당신에게 영향을 미치지 못합니다. 지역 효과는 이 평면 체크의 대상이 아닙니다.</p>\n<p>생물은 찾기 액션을 사용하여 플레이어를 관찰됨을 시도할 수 있습니다.</p>"
     },
     "Prone": {
       "name": "엎드린",
@@ -136,7 +136,7 @@
     },
     "Persistent Damage": {
       "name": "지속 대미지",
-      "description": "<p>불이 붙는 등 지속적인 효과로 인해 피해를 받고 있습니다. 이는 \"X 지속 [유형] 피해\"로 표시되며, 여기서 \"X\"는 피해량이고 \"[유형]\"은 피해 유형입니다. 일반 피해와 마찬가지로 공격 주사위 또는 내성 굴림 결과에 따라 두 배 또는 절반으로 감소할 수 있습니다. 지속 대미지는 즉시 받는 것이 아니라, 조건이 유지되는 한 자신의 턴이 끝날 때마다 받는 것으로, 매번 피해 주사위를 새로 굴려서 받습니다. 지속 대미지를 받은 후에는 @Check[type:flat|showDC:all|dc:15]를 굴려 지속 대미지에서 회복되는지 확인합니다. 성공하면 조건이 종료됩니다.</p>"
+      "description": "<p>불이 붙는 등 지속적인 효과로 인해 피해를 받고 있습니다. 이는 \"X 지속 [type] 피해\"로 표시되며, 여기서 \"X\"는 피해량이고 \"[type]\"은 피해 유형입니다. 일반 피해와 마찬가지로 공격 주사위 또는 내성 굴림 결과에 따라 두 배 또는 절반으로 감소할 수 있습니다. 지속 대미지는 즉시 받는 것이 아니라, 조건이 유지되는 한 자신의 턴이 끝날 때마다 받는 것으로, 매번 피해 주사위를 새로 굴려서 받습니다. 지속 대미지를 받은 후에는 @Check[type:flat|showDC:all|dc:15]를 굴려 지속 대미지에서 회복되는지 확인합니다. 성공하면 조건이 종료됩니다.</p>"
     },
     "Quickened": {
       "name": "신속",
