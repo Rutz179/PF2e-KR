@@ -12,7 +12,7 @@
     },
     "Effect: Swarming Bites": {
       "name": "효과 : 군체 물기",
-      "description": "<p>군체 물림에 대한 내성 굴림에 실패한 생물은 1라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투름 1}이 됩니다. 생물이 영향을 받은 상태에서 집중 또는 조작 액션을 시도하는 경우, @Check[flat|dc:5]로 성공해야 하며, 그렇지 않으면 액션을 잃고, 액션을 사용한 후 효과가 적용되기 전에 점검을 굴립니다.</p>"
+      "description": "<p>군체 물림에 대한 내성 굴림에 실패한 생물은 1라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1}이 됩니다. 생물이 영향을 받은 상태에서 집중 또는 조작 액션을 시도하는 경우, @Check[flat|dc:5]로 성공해야 하며, 그렇지 않으면 액션을 잃고, 액션을 사용한 후 효과가 적용되기 전에 점검을 굴립니다.</p>"
     },
     "Effect: Consume Memories": {
       "name": "효과: 기억 소비",
@@ -208,7 +208,7 @@
     },
     "Effect: Flesh Mutation": {
       "name": "효과: 육체 변형",
-      "description": "<p>결과에 따라 효과의 영향을 받습니다. </p> <p><strong>1 스펀지 같은 살</strong> 생물체는 물리 피해에 대해 약점 5를 갖습니다. </p> <p><strong>2 부식성 피</strong> 생물체는 @Damage[2d4[persistent, 산성]]의 피해를 받으며, 이 피해는 정상적으로 제거할 수 없지만, 돌연변이가 사라지면 종료됩니다.</p> <p><strong>3 눈이 돋아남</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{눈부심} 상태가 되지만, 측면 공격에 면역입니다.</p> <p><strong>4 변이된 정신</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{혼란 상태}가 됩니다. 상태에 명시된 대로 회복될 수는 있지만, 회복된 후에도 돌연변이가 끝날 때까지 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 유지됩니다.</p>"
+      "description": "<p>결과에 따라 효과의 영향을 받습니다. </p> <p><strong>1 스펀지 같은 살</strong> 생물체는 물리 피해에 대해 약점 5를 갖습니다. </p> <p><strong>2 부식성 피</strong> 생물체는 @Damage[2d4[persistent, 산성]]의 피해를 받으며, 이 피해는 정상적으로 제거할 수 없지만, 돌연변이가 사라지면 종료됩니다.</p> <p><strong>3 눈이 돋아남</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{눈부신} 상태가 되지만, 측면 공격에 면역입니다.</p> <p><strong>4 변이된 정신</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{혼란 상태}가 됩니다. 상태에 명시된 대로 회복될 수는 있지만, 회복된 후에도 돌연변이가 끝날 때까지 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프-가드} 상태가 유지됩니다.</p>"
     },
     "Effect: Death Gasp (Etioling)": {
       "name": "효과: 죽음의 헐떡임(에티올링)",
@@ -1012,7 +1012,7 @@
     },
     "Effect: Stink Sap": {
       "name": "효과: 악취 수액",
-      "description": "<p>수액에 코팅된 생물과 장비는 끔찍한 냄새를 풍깁니다. 오라에 휩싸인 생물은 @Check[type:인내|dc:16] 저장을 시도해야 합니다. 실패하면 생물은 @UUID[전서.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병든 1}이 되고, 대실패하면 생물은 @UUID[전서.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{기절 1}이 됩니다. 오라에 있는 동안, 생물은 아픈 상태에서 회복하기 위해 세이브할 때 -2의 상황 패널티를 받습니다. 구하기에 성공한 생물은 1분 동안 악취 수액에 면역이 됩니다. 생물은 탐사 모드에서는 이 효과에 대해 절약하지 않으며 일시적으로 면역이 되지 않지만, 악취 수액이 묻은 생물은 인카운터 모드에서 우선권을 굴릴 때 자신의 오라에 맞서 굴려야 합니다. 수액은 10시간이 지나면 사라지며, 비누와 물로 10분 동안 수액을 씻어내면 지속 시간이 1시간 줄어듭니다.</p>"
+      "description": "<p>수액에 코팅된 생물과 장비는 끔찍한 냄새를 풍깁니다. 오라에 휩싸인 생물은 @Check[type:인내|dc:16] 저장을 시도해야 합니다. 실패하면 생물은 @UUID[전서.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1}이 되고, 대실패하면 생물은 @UUID[전서.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{기절 1}이 됩니다. 오라에 있는 동안, 생물은 아픈 상태에서 회복하기 위해 세이브할 때 -2의 상황 패널티를 받습니다. 구하기에 성공한 생물은 1분 동안 악취 수액에 면역이 됩니다. 생물은 탐사 모드에서는 이 효과에 대해 절약하지 않으며 일시적으로 면역이 되지 않지만, 악취 수액이 묻은 생물은 인카운터 모드에서 우선권을 굴릴 때 자신의 오라에 맞서 굴려야 합니다. 수액은 10시간이 지나면 사라지며, 비누와 물로 10분 동안 수액을 씻어내면 지속 시간이 1시간 줄어듭니다.</p>"
     },
     "Effect: No Quarter!": {
       "name": "효과: 분기 없음!",
@@ -1544,7 +1544,7 @@
     },
     "Effect: Dust Eternal": {
       "name": "효과: 영원한 먼지",
-      "description": "<p>아우라의 모든 것은 @UUID[전서.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{은폐된}입니다.</p>"
+      "description": "<p>아우라의 모든 것은 @UUID[전서.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진}입니다.</p>"
     },
     "Effect: Dueling Dance": {
       "name": "효과: 결투의 춤",
@@ -1884,7 +1884,7 @@
     },
     "Effect: Stench": {
       "name": "효과: 악취",
-      "description": "<p>이 생물은 -2의 상황 패널티를 받아 질병에 걸리지 않고 @UUID[전서.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병든} 상태에서 회복합니다.</p>"
+      "description": "<p>이 생물은 -2의 상황 패널티를 받아 질병에 걸리지 않고 @UUID[전서.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약} 상태에서 회복합니다.</p>"
     },
     "Effect: Scraping Clamor": {
       "name": "효과: 긁어내는 소란",
@@ -1920,7 +1920,7 @@
     },
     "Effect: Vamollaroth Stench": {
       "name": "효과: 바몰라로스 악취",
-      "description": "<p>생물은 독에 대한 내성과 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened} 상태에서 회복에 -2 상황 페널티를 받습니다.</p>"
+      "description": "<p>생물은 독에 대한 내성과 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약} 상태에서 회복에 -2 상황 페널티를 받습니다.</p>"
     },
     "Effect: Overtake Soul": {
       "name": "효과: 추월 영혼",
