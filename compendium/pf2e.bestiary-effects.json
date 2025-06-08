@@ -92,7 +92,7 @@
     },
     "Effect: Lantern of Hope": {
       "name": "효과: 희망의 등불",
-      "description": "<p>이 생물은 피해 굴림과 @UUID[전서.pf2e.주문-srd.Item.GaRQlC9Yw1BGKHfN]{절망의 물결}에 대한 내성 굴림에 +1 상태 보너스를 받습니다.</p>"
+      "description": "<p>이 생물은 피해 굴림과 @UUID[Compendium.pf2e.spells-srd.Item.GaRQlC9Yw1BGKHfN]{절망의 물결}에 대한 내성 굴림에 +1 상태 보너스를 받습니다.</p>"
     },
     "Effect: Near-Death Experience": {
       "name": "효과: 임사 체험",
@@ -416,7 +416,7 @@
     },
     "Effect: Curse of Boiling Blood": {
       "name": "효과: 끓는 피의 저주",
-      "description": "<p>이 생물은 사격에 20의 약점을 얻고 항상 @UUID[전서.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1}입니다.</p>"
+      "description": "<p>이 생물은 사격에 20의 약점을 얻고 항상 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1}입니다.</p>"
     },
     "Effect: Warshard Healing": {
       "name": "효과: 전쟁의 파편 치유",
@@ -428,7 +428,7 @@
     },
     "Effect: Inspirational Presence": {
       "name": "효과: 영감을 주는 존재감",
-      "description": "<p>오라에 있는 스승의 제자 중 누구라도 @UUID[전서.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{지식 소환}에 +1의 상황 보너스를 받습니다.</p>"
+      "description": "<p>오라에 있는 스승의 제자 중 누구라도 @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{지식 회상}에 +1의 상황 보너스를 받습니다.</p>"
     },
     "Effect: Gleaming Armor": {
       "name": "효과: 빛나는 갑옷",
@@ -676,7 +676,7 @@
     },
     "Effect: Furious Possession": {
       "name": "효과: 격노한 빙의",
-      "description": "<p>이 생물은 일시적으로 12 HP를 얻지만 빙의가 끝나면 잃습니다. 빙의하는 동안 생물은 분노의 맥박 오라를 발산합니다. 빙의된 생물이 근접 공격을 할 때마다, 영혼은 일시적인 발톱 공격 수정치, 피해량, 또는 둘 다를 생물 자신의 능력치 대신 사용할 수 있습니다.</p>\n<p>@UUID[전서.pf2e.bestiary-effects.Item.GC5441z8i7N8swk1]{Effect: 분노의 펄스}</p>"
+      "description": "<p>이 생물은 일시적으로 12 HP를 얻지만 빙의가 끝나면 잃습니다. 빙의하는 동안 생물은 분노의 맥박 오라를 발산합니다. 빙의된 생물이 근접 공격을 할 때마다, 영혼은 일시적인 발톱 공격 수정치, 피해량, 또는 둘 다를 생물 자신의 능력치 대신 사용할 수 있습니다.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.GC5441z8i7N8swk1]{Effect: 분노의 펄스}</p>"
     },
     "Effect: Challenge Foe": {
       "name": "효과: 적에게 도전",
@@ -776,7 +776,7 @@
     },
     "Effect: Remove Face": {
       "name": "효과: 얼굴 제거",
-      "description": "<p>이 생물은 카리스마 체크와 카리스마 기반 기술 체크에 영구적으로 -4의 상태 불이익을 받습니다. 이 페널티는 피해자가 얼굴을 회복하고 @UUID[전서.pf2e.spells-srd.Item.SnaLVgxZ9ryUFmUr]{복원} 주문을 시전한 경우에만 제거할 수 있습니다.</p>"
+      "description": "<p>이 생물은 카리스마 체크와 카리스마 기반 기술 체크에 영구적으로 -4의 상태 불이익을 받습니다. 이 페널티는 피해자가 얼굴을 회복하고 @UUID[Compendium.pf2e.spells-srd.Item.SnaLVgxZ9ryUFmUr]{복원} 주문을 시전한 경우에만 제거할 수 있습니다.</p>"
     },
     "Effect: Deceptive Heads": {
       "name": "효과 : 기만적인 머리",
@@ -1012,7 +1012,7 @@
     },
     "Effect: Stink Sap": {
       "name": "효과: 악취 수액",
-      "description": "<p>수액에 코팅된 생물과 장비는 끔찍한 냄새를 풍깁니다. 오라에 휩싸인 생물은 @Check[type:인내|dc:16] 저장을 시도해야 합니다. 실패하면 생물은 @UUID[전서.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1}이 되고, 대실패하면 생물은 @UUID[전서.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{기절 1}이 됩니다. 오라에 있는 동안, 생물은 아픈 상태에서 회복하기 위해 세이브할 때 -2의 상황 패널티를 받습니다. 구하기에 성공한 생물은 1분 동안 악취 수액에 면역이 됩니다. 생물은 탐사 모드에서는 이 효과에 대해 절약하지 않으며 일시적으로 면역이 되지 않지만, 악취 수액이 묻은 생물은 인카운터 모드에서 우선권을 굴릴 때 자신의 오라에 맞서 굴려야 합니다. 수액은 10시간이 지나면 사라지며, 비누와 물로 10분 동안 수액을 씻어내면 지속 시간이 1시간 줄어듭니다.</p>"
+      "description": "<p>수액에 코팅된 생물과 장비는 끔찍한 냄새를 풍깁니다. 오라에 휩싸인 생물은 @Check[type:인내|dc:16] 저장을 시도해야 합니다. 실패하면 생물은 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1}이 되고, 대실패하면 생물은 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{기절 1}이 됩니다. 오라에 있는 동안, 생물은 아픈 상태에서 회복하기 위해 세이브할 때 -2의 상황 패널티를 받습니다. 구하기에 성공한 생물은 1분 동안 악취 수액에 면역이 됩니다. 생물은 탐사 모드에서는 이 효과에 대해 절약하지 않으며 일시적으로 면역이 되지 않지만, 악취 수액이 묻은 생물은 인카운터 모드에서 우선권을 굴릴 때 자신의 오라에 맞서 굴려야 합니다. 수액은 10시간이 지나면 사라지며, 비누와 물로 10분 동안 수액을 씻어내면 지속 시간이 1시간 줄어듭니다.</p>"
     },
     "Effect: No Quarter!": {
       "name": "효과: 분기 없음!",
@@ -1172,7 +1172,7 @@
     },
     "Effect: Snake Form": {
       "name": "효과: 뱀 형태",
-      "description": "<p>번입의 꼬리 공격력 증가량이 10이 되고 @UUID[전서.pf2e.괴물 도감-능력-용어사전-srd.Item.Tkd8sH4pwFIPzqTr]{잡힌}이 되지만, 턱 공격의 지속 대미지가 사라집니다.</p>"
+      "description": "<p>번입의 꼬리 공격력 증가량이 10이 되고 @UUID[Compendium.pf2e.괴물 도감-능력-용어사전-srd.Item.Tkd8sH4pwFIPzqTr]{잡힌}이 되지만, 턱 공격의 지속 대미지가 사라집니다.</p>"
     },
     "Effect: Silent Aura": {
       "name": "효과: 침묵의 오라",
@@ -1392,7 +1392,7 @@
     },
     "Effect: Lantern of Hope (Gestalt)": {
       "name": "효과: 희망의 등불 (게슈탈트)",
-      "description": "<p>이 생물은 피해 굴림과 @UUID[전서.pf2e.주문-srd.Item.GaRQlC9Yw1BGKHfN]{절망의 물결}에 대한 내성 굴림에 +3 상태 보너스를 받습니다.</p>"
+      "description": "<p>이 생물은 피해 굴림과 @UUID[Compendium.pf2e.spells-srd.Item.GaRQlC9Yw1BGKHfN]{절망의 물결}에 대한 내성 굴림에 +3 상태 보너스를 받습니다.</p>"
     },
     "Effect: Wrath of Spurned Hospitality": {
       "name": "효과: 배척당한 환대의 분노",
@@ -1416,7 +1416,7 @@
     },
     "Effect: Commanding Aura (Quara)": {
       "name": "효과 지휘하는 오라(콰라)",
-      "description": "<p>부여받은 @UUID[전서.pf2e.abomination-vaults-bestiary.Actor.JrowrtDilEG8dN2s]{콰라 오르센디엘}</p>\n<p>콰라 주변의 드로우는 그녀의 존재에 마음이 따뜻해집니다. 오라에 휩싸인 아군 드루 아군은 공격 롤과 기술 체크에서 상태 보너스 +1을 받습니다.</p>"
+      "description": "<p>부여받은 @UUID[Compendium.pf2e.abomination-vaults-bestiary.Actor.JrowrtDilEG8dN2s]{콰라 오르센디엘}</p>\n<p>콰라 주변의 드로우는 그녀의 존재에 마음이 따뜻해집니다. 오라에 휩싸인 아군 드루 아군은 공격 롤과 기술 체크에서 상태 보너스 +1을 받습니다.</p>"
     },
     "Effect: Pray to the Rotting God": {
       "name": "효과: 썩어가는 신에게 기도하기",
@@ -1544,7 +1544,7 @@
     },
     "Effect: Dust Eternal": {
       "name": "효과: 영원한 먼지",
-      "description": "<p>아우라의 모든 것은 @UUID[전서.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진}입니다.</p>"
+      "description": "<p>아우라의 모든 것은 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진}입니다.</p>"
     },
     "Effect: Dueling Dance": {
       "name": "효과: 결투의 춤",
@@ -1624,7 +1624,7 @@
     },
     "Effect: Wolf Shape": {
       "name": "효과: 늑대 모양",
-      "description": "<p>가장 큰 것은 속도 40을 얻고 턱이 @UUID[전서.pf2e.괴물 도감-능력-용어사전-srd.Item.BCLvAx4Pz4MLa2pu]{넉다운}을 얻습니다.</p>"
+      "description": "<p>가장 큰 것은 속도 40을 얻고 턱이 @UUID[Compendium.pf2e.괴물 도감-능력-용어사전-srd.Item.BCLvAx4Pz4MLa2pu]{넉다운}을 얻습니다.</p>"
     },
     "Effect: Soul Crush (Healing)": {
       "name": "효과 소울 크러쉬 (치유)",
@@ -1824,7 +1824,7 @@
     },
     "Effect: Call to Blood": {
       "name": "효과: 피의 부름",
-      "description": "<p>이 생물은 @UUID[전서.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프-가드} 생물을 대상으로 하는 공격 굴림에 +2 상태 보너스를 받습니다.</p>"
+      "description": "<p>이 생물은 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프-가드} 생물을 대상으로 하는 공격 굴림에 +2 상태 보너스를 받습니다.</p>"
     },
     "Effect: Guard's Parry (Guard)": {
       "name": "효과: 경비병의 막기 (경비병)",
@@ -1884,7 +1884,7 @@
     },
     "Effect: Stench": {
       "name": "효과: 악취",
-      "description": "<p>이 생물은 -2의 상황 패널티를 받아 질병에 걸리지 않고 @UUID[전서.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약} 상태에서 회복합니다.</p>"
+      "description": "<p>이 생물은 -2의 상황 패널티를 받아 질병에 걸리지 않고 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약} 상태에서 회복합니다.</p>"
     },
     "Effect: Scraping Clamor": {
       "name": "효과: 긁어내는 소란",

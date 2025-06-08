@@ -58,8 +58,8 @@
       "description": "<p>어떤 생물의 행동이 비정상적인지 알아내려고 합니다. 한 생물을 선택하고 이상한 몸짓, 긴장한 흔적, 기타 누군가를 속이려는 징후가 있는지 평가합니다. GM은 비밀 <span data-pf2-action=\"senseMotive\" data-pf2-glyph=\"A\">지각</span> 체크를 한 번 시도하고 그 결과를 해당 생물의 기만 DC, 생물의 정신 상태에 영향을 미치는 주문의 DC, 또는 GM이 결정한 다른 적절한 DC와 비교합니다. 일반적으로 상황이 크게 변하기 전까지는 같은 생물의 동기를 감지하는 시도를 다시 할 수 없습니다.</p>\n<hr />\n<p><strong>대성공</strong> 생물의 진짜 의도를 파악하고 어떤 정신적 마법이 영향을 미치고 있는지 파악합니다.</p>\n<p><strong> 성공</strong> 생물이 정상적으로 행동하는지는 알 수 있지만, 정확한 의도나 어떤 마법이 영향을 미치고 있는지 알 수 없습니다.</p>\n<p><strong> 실패</strong> 기만적인 생물이 플레이어가 믿기를 바라는 것을 감지합니다. 속임수가 아니라면 정상적으로 행동하고 있다고 믿습니다.</p>\n<p><strong> 대실패</strong> 생물의 의도를 잘못 파악했습니다.</p>"
     },
     "Tumble Through": {
-      "name": "공중제비",
-      "description": "<p>자신의 속도만큼 보폭을 넓힙니다. 이 이동 중에 적 한 명의 공간으로 이동을 시도할 수 있습니다. 적의 공간에 진입하는 즉시 적의 반사 피해에 대해 <span data-pf2-action=\"tumbleThrough\" data-pf2-glyph=\"A\">곡예</span> 체크를 시도합니다. 적절한 환경에서 걷기 대신 오르기, 날기, 수영 또는 다른 액션을 사용하여 @UUID[Compendium.pf2e.actionspf2e.Item.21WIfSu7Xd7uKqV8]{공중제비}할 수 있습니다.</p>\n<p><strong> 성공</strong> 적의 공간 내 타일을 어려운 지형으로 간주하여 이동합니다(5피트마다 이동 비용이 10피트씩 듭니다). 적의 공간을 끝까지 이동할 수 있는 속도가 충분하지 않으면 실패와 동일한 효과를 얻습니다.</p>\n<p><strong> 실패</strong> 이동이 종료되고, 시작한 타일 밖으로 이동한 것과 같은 리액션이 트리거됩니다.</p>"
+      "name": "회피 돌파",
+      "description": "<p>자신의 속도만큼 보폭을 넓힙니다. 이 이동 중에 적 한 명의 공간으로 이동을 시도할 수 있습니다. 적의 공간에 진입하는 즉시 적의 반사 피해에 대해 <span data-pf2-action=\"tumbleThrough\" data-pf2-glyph=\"A\">곡예</span> 체크를 시도합니다. 적절한 환경에서 걷기 대신 오르기, 날기, 수영 또는 다른 액션을 사용하여 @UUID[Compendium.pf2e.actionspf2e.Item.21WIfSu7Xd7uKqV8]{회피 돌파}할 수 있습니다.</p>\n<p><strong> 성공</strong> 적의 공간 내 타일을 어려운 지형으로 간주하여 이동합니다(5피트마다 이동 비용이 10피트씩 듭니다). 적의 공간을 끝까지 이동할 수 있는 속도가 충분하지 않으면 실패와 동일한 효과를 얻습니다.</p>\n<p><strong> 실패</strong> 이동이 종료되고, 시작한 타일 밖으로 이동한 것과 같은 리액션이 트리거됩니다.</p>"
     },
     "Catharsis": {
       "name": "카타르시스",
@@ -403,7 +403,7 @@
     },
     "Disarm": {
       "name": "무장 해제",
-      "description": "<p><strong>요구 조건</strong> 한 손 이상이 자유롭습니다. 대상은 자신보다 한 사이즈 이상 클 수 없습니다.</p>\n<hr />\n<p>생물의 손아귀에서 아이템을 떨어뜨리려고 시도합니다. 대상의 반사 DC에 대해 <span data-pf2-action=\"disarm\" data-pf2-glyph=\"A\">운동</span> 체크를 시도합니다.</p>\n<hr />\n<p><strong>대성공</strong> 아이템을 대상의 손아귀에서 떨어뜨립니다. 아이템이 대상의 공간에 바닥에 떨어집니다.</p>\n<p><strong>성공</strong> 대상의 아이템에 대한 지배력을 약화시킵니다. 해당 아이템에 대한 추가 시도는 @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{무장 해}에 상황 보너스 +2를 얻고, 대상은 해당 아이템으로 공격하거나 아이템을 단단히 잡아야 하는 다른 체크에 -2 상황 페널티를 받습니다. 생물은 상호작용을 통해 아이템에 대한 그립을 변경하여 효과를 종료할 수 있으며, 그렇지 않으면 해당 생물이 아이템을 들고 있는 동안 지속됩니다.</p>\n<p><strong>대실패</strong> 당신은 균형을 잃고 다음 턴이 시작될 때까지 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프-가드}가 됩니다</p>"
+      "description": "<p><strong>요구 조건</strong> 한 손 이상이 자유롭습니다. 대상은 자신보다 한 사이즈 이상 클 수 없습니다.</p>\n<hr />\n<p>생물의 손아귀에서 아이템을 떨어뜨리려고 시도합니다. 대상의 반사 DC에 대해 <span data-pf2-action=\"disarm\" data-pf2-glyph=\"A\">운동</span> 체크를 시도합니다.</p>\n<hr />\n<p><strong>대성공</strong> 아이템을 대상의 손아귀에서 떨어뜨립니다. 아이템이 대상의 공간에 바닥에 떨어집니다.</p>\n<p><strong>성공</strong> 대상의 아이템에 대한 지배력을 약화시킵니다. 해당 아이템에 대한 추가 시도는 @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{무장 해제}에 상황 보너스 +2를 얻고, 대상은 해당 아이템으로 공격하거나 아이템을 단단히 잡아야 하는 다른 체크에 -2 상황 페널티를 받습니다. 생물은 상호작용을 통해 아이템에 대한 그립을 변경하여 효과를 종료할 수 있으며, 그렇지 않으면 해당 생물이 아이템을 들고 있는 동안 지속됩니다.</p>\n<p><strong>대실패</strong> 당신은 균형을 잃고 다음 턴이 시작될 때까지 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프-가드}가 됩니다</p>"
     },
     "Swarm Forth": {
       "name": "무리 퍼지기",
@@ -491,7 +491,7 @@
     },
     "Create a Diversion": {
       "name": "주의 분산",
-      "description": "<p><span data-pf2-action=\"createADiversion\" data-pf2-glyph=\"A\" data-pf2-variant=\"gesture\">제스처</span>, <span data-pf2-action=\"createADiversion\" data-pf2-glyph=\"A\" data-pf2-variant=\"trick\">트릭</span> 또는 <span data-pf2-action=\"createADiversion\" data-pf2-glyph=\"A\" data-pf2-variant=\"distracting-words\">주의를 분산시키는 단어</span>를 사용하면 생물의 주의를 다른 곳으로 돌리는 전환 효과를 생성할 수 있습니다. 제스처나 속임수를 사용하면 이 행동은 조작 특성을 얻습니다. 주의를 분산시키는 말을 사용하면 청각 및 언어 특성을 얻습니다.</p>\n<p>기만 체크를 한 번 시도하고 주의를 돌리려는 생물의 지각 DC와 비교합니다. 성공 여부와 상관없이, 주의를 돌리려는 생물은 1분 동안 자신의 주의를 돌리려는 시도에 대한 지각력 DC에 +4의 상황 보너스를 받습니다.</p>\n<hr />\n<p><strong>성공</strong> 당신은 자신의 지각력 DC보다 낮거나 같은 각 생물에게 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨은(히든)}이 되어줍니다. (숨겨짐 조건은 @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{숨기(스닉)}를 할 수 있게 해 줍니다.) 이 효과는 당신의 턴이 끝날 때까지 또는 당신이 발걸음을 내딛거나 은신 스킬을 사용하여 숨기거나 은신하는 것 이외의 행동을 할 때까지 지속됩니다. 당신이 생물을 공격하는 경우, 그 생물은 그 공격에 대해 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프-가드} 상태로 유지되고, 당신은 관찰 대상이 됩니다. 다른 행동을 할 경우, GM이 달리 결정하지 않는 한 행동하기 직전에 관찰 대상이 됩니다.</p>\n<p><strong>실패</strong> 당신은 지각 DC가 당신의 결과를 초과하는 생물의 주의를 돌리지 못하며, 해당 생물은 당신이 그들을 속이려 했다는 것을 알고 있습니다.</p>"
+      "description": "<p><span data-pf2-action=\"createADiversion\" data-pf2-glyph=\"A\" data-pf2-variant=\"gesture\">제스처</span>, <span data-pf2-action=\"createADiversion\" data-pf2-glyph=\"A\" data-pf2-variant=\"trick\">트릭</span> 또는 <span data-pf2-action=\"createADiversion\" data-pf2-glyph=\"A\" data-pf2-variant=\"distracting-words\">주의를 분산시키는 단어</span>를 사용하면 생물의 주의를 다른 곳으로 돌리는 전환 효과를 생성할 수 있습니다. 제스처나 속임수를 사용하면 이 행동은 조작 특성을 얻습니다. 주의를 분산시키는 말을 사용하면 청각 및 언어 특성을 얻습니다.</p>\n<p>기만 체크를 한 번 시도하고 주의를 돌리려는 생물의 지각 DC와 비교합니다. 성공 여부와 상관없이, 주의를 돌리려는 생물은 1분 동안 자신의 주의를 돌리려는 시도에 대한 지각력 DC에 +4의 상황 보너스를 받습니다.</p>\n<hr />\n<p><strong>성공</strong> 당신은 자신의 지각력 DC보다 낮거나 같은 각 생물에게 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨은(히든)}이 되어줍니다. (숨겨짐 조건은 @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{은밀 이동}를 할 수 있게 해 줍니다.) 이 효과는 당신의 턴이 끝날 때까지 또는 당신이 발걸음을 내딛거나 은신 스킬을 사용하여 숨기거나 은신하는 것 이외의 행동을 할 때까지 지속됩니다. 당신이 생물을 공격하는 경우, 그 생물은 그 공격에 대해 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프-가드} 상태로 유지되고, 당신은 관찰 대상이 됩니다. 다른 행동을 할 경우, GM이 달리 결정하지 않는 한 행동하기 직전에 관찰 대상이 됩니다.</p>\n<p><strong>실패</strong> 당신은 지각 DC가 당신의 결과를 초과하는 생물의 주의를 돌리지 못하며, 해당 생물은 당신이 그들을 속이려 했다는 것을 알고 있습니다.</p>"
     },
     "Spiritual Aid": {
       "name": "영적 지원",
@@ -863,7 +863,7 @@
     },
     "Toxic Touch": {
       "name": "맹독 터치",
-      "description": "<p><strong>빈도</strong> 하루에 한 번</p>\n<p><strong> 요구 조건</strong> 가장 최근 액션이 @UUID[Compendium.pf2e.actionspf2e.Item.21WIfSu7Xd7uKqV8]{공중제비}였고, 적의 공간을 성공적으로 통과했습니다.</p>\n<hr />\n<p><strong>효과</strong> 자신이 이동한 공간을 통과한 적에게 근접 비무장 공격을 가합니다. 적중 시 대상은 @Damage[1d6[persistent,poison]] 피해를 입으며 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1}(또는 대성공시 @Damage[1d6[persistent,poison]] 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 2}가 됩니다).</p>"
+      "description": "<p><strong>빈도</strong> 하루에 한 번</p>\n<p><strong> 요구 조건</strong> 가장 최근 액션이 @UUID[Compendium.pf2e.actionspf2e.Item.21WIfSu7Xd7uKqV8]{회피 돌파}였고, 적의 공간을 성공적으로 통과했습니다.</p>\n<hr />\n<p><strong>효과</strong> 자신이 이동한 공간을 통과한 적에게 근접 비무장 공격을 가합니다. 적중 시 대상은 @Damage[1d6[persistent,poison]] 피해를 입으며 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1}(또는 대성공시 @Damage[1d6[persistent,poison]] 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 2}가 됩니다).</p>"
     },
     "Lucky Break": {
       "name": "행운의 휴식",
@@ -986,7 +986,7 @@
       "description": "<p><strong>트리거</strong> 에이돌론이 사망 효과가 아닌 다른 효과로 인해 자신의 HP를 0으로 만드는 피해를 받습니다.</p>\n<hr />\n<p><strong>효과</strong> 에이돌론과의 연결 버퍼를 빠르게 닫아, 결합된 아군이 사라지기 전에 자신이 사라집니다. 에이돌론이 모습을 드러내지 않고 1분 동안 에이돌론을 발현할 수 없습니다. 대신 트리거 피해를 받지 않지만, 아이돌론은 여전히 피해와 함께 다른 부작용을 받습니다.</p>"
     },
     "Sneak": {
-      "name": "잠입",
+      "name": "은밀 이동",
       "description": "<p>발각되지 않은 상태에서 다른 장소로 이동을 시도합니다. 보폭이 자신의 이동 속도의 절반까지 줄어듭니다. (해당 이동 유형이 있는 경우 땅굴, 기어오르기, 비행, 수영 중에도 보폭 대신 은신을 사용할 수 있지만, 반드시 해당 이동 속도의 절반으로 이동해야 합니다.)</p>\n<p>이동이 끝나면 GM은 은신 체크를 비밀리에 굴린 후 그 결과를 이동 시작 시점에 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨은} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{감지되지 않은}이었던 각 생물의 인식 DC와 비교하여 계산합니다. 보폭 내내 해당 생물로부터 엄폐물 이상의 은폐를 받았다면, 은신 체크에 은폐로 인한 상황 보너스 +2(또는 엄폐로 인한 상황 보너스 +4)를 받습니다. 이동 중이므로 엄폐로 인한 보너스 증가는 적용되지 않습니다. 이동이 끝났을 때, 당신은 그 생물로부터 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진} 상태이거나 그 생물에 대해 엄폐 또는 그 이상의 엄폐가 없는 경우 그 생물에 대해 구르기를 할 수 없습니다. 이 생명체에게 자동으로 관찰됩니다.</p>\n<hr />\n<p><strong>성공</strong> 이동하는 동안 생물에게 들키지 않고 이동이 끝날 때까지 생물에게 들키지 않습니다.</p>\n<p>숨기, 몰래, 발걸음 이외의 행동을 하는 즉시 관찰 대상이 됩니다. 당신이 생물에게 공격을 시도하면, 그 생물은 그 공격에 대해 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프-가드} 상태로 남아 있고, 당신은 관찰 대상이 됩니다. 다른 행동을 하면 GM이 달리 결정하지 않는 한 행동 직전에 감시 대상이 됩니다. GM은 플레이어가 특별히 눈에 띄지 않는 액션을 수행하도록 허용할 수 있으며, 이 경우 스텔스 체크가 다시 필요할 수 있습니다. 말을 하거나 일부러 큰 소리를 내면, 발견되지 않는 대신 숨겨진 상태가 됩니다.</p>\n<p>어떤 생물이 @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{찾기}를 사용했고, 그 결과 그 생물에게 숨겨진 상태가 된 경우, 다시 발견되지 않으려면 반드시 감지되지 않음이어야 합니다.</p>\n<p><strong> 실패</strong> 소리나 다른 신호로 자신의 위치를 알리지만 여전히 보이지 않는 상태를 유지합니다. 이동하는 내내 생명체에게 숨겨진 채로 그대로 있습니다.</p>\n<p><strong> 대실패</strong> 발각되었습니다! 이동하는 내내 생명체에게 관찰되고 그 상태가 유지됩니다. 당신이 @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{투명한}이고 생물에게 숨겨져 있다면, 당신은 관찰되는 대신 이동하는 내내 숨겨져 있고 그 상태를 유지합니다.</p>"
     },
     "Spellsling": {
@@ -1015,7 +1015,7 @@
     },
     "Threatening Approach": {
       "name": "위협적 접근",
-      "description": "<p>이동해 적에게 다가가 @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{사기를 떨어뜨립니다}. 성공하면 적은 겁에 질린 1이 아니라 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 2}가 됩니다.</p>"
+      "description": "<p>이동해 적에게 다가가 @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{사기 저하}. 성공하면 적은 겁에 질린 1이 아니라 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 2}가 됩니다.</p>"
     },
     "Tell Me More": {
       "name": "더 자세한 정보",
@@ -1039,7 +1039,7 @@
     },
     "Hide": {
       "name": "숨기기",
-      "description": "<p>엄폐물 또는 그 이상의 엄폐물 뒤에 숨거나 더 깊숙이 은폐되어 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨은}이 아니라 @UUID[Compendium.pf2e.conditionitems.Item.1wQY3JYyhMYeeV2G]{관찰됨}으로 변합니다. GM은 은신 체크를 비밀리에 굴려 그 결과를 플레이어에게 관찰되었지만 플레이어가 엄폐 이상의 은폐를 가지고 있거나 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진} 각 생물의 지각 DC와 비교합니다. 표준 엄폐물이 있다면 체크에 +2의 상황 보너스를 받습니다(더 큰 엄폐물이라면 +4).</p>\n<hr />\n<p><strong>성공</strong> 괴물이 플레이어를 볼 수 있었다면, 이제 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨은}이 아니라 @UUID[Compendium.pf2e.conditionitems.Item.1wQY3JYyhMYeeV2G]{관찰됨}이 됩니다. 생물에게 숨겨졌거나 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{감지되지 않음}이었던 경우, 그 상태를 유지합니다.</p>\n<p>생물에게 성공적으로 숨겨졌으나 그 생물에 대해 엄폐 이상의 엄폐가 없어지거나 생물에게 은폐된 경우, 다시 관찰됩니다. 숨기기를 제외한 다른 행동을 하거나, @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{Sneak} 또는 @UUID[Compendium.pf2e.actionspf2e.Item.UHpkTuCtyaPqiCAB]{Step}을 사용하면 숨겨지는 것이 중단됩니다. 당신이 생물에게 공격을 시도하면, 그 생물은 그 공격에 대해 오프-가드 상태를 유지하고 당신은 관찰 대상이 됩니다. 다른 행동을 하면, GM이 달리 결정하지 않는 한 행동 직전에 관찰 대상이 됩니다. GM이 특별히 눈에 띄지 않는 액션을 수행하도록 허용할 수도 있으며, 이 경우 은신 체크를 다시 해야 할 수도 있습니다.</p>\n<p>생물이 @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{찾기}를 사용해 당신을 관찰하게 만들면, 당신은 숨기에 성공해야 다시 숨겨질 수 있습니다.</p>"
+      "description": "<p>엄폐물 또는 그 이상의 엄폐물 뒤에 숨거나 더 깊숙이 은폐되어 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨은}이 아니라 @UUID[Compendium.pf2e.conditionitems.Item.1wQY3JYyhMYeeV2G]{관찰됨}으로 변합니다. GM은 은신 체크를 비밀리에 굴려 그 결과를 플레이어에게 관찰되었지만 플레이어가 엄폐 이상의 은폐를 가지고 있거나 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진} 각 생물의 지각 DC와 비교합니다. 표준 엄폐물이 있다면 체크에 +2의 상황 보너스를 받습니다(더 큰 엄폐물이라면 +4).</p>\n<hr />\n<p><strong>성공</strong> 괴물이 플레이어를 볼 수 있었다면, 이제 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨은}이 아니라 @UUID[Compendium.pf2e.conditionitems.Item.1wQY3JYyhMYeeV2G]{관찰됨}이 됩니다. 생물에게 숨겨졌거나 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{감지되지 않음}이었던 경우, 그 상태를 유지합니다.</p>\n<p>생물에게 성공적으로 숨겨졌으나 그 생물에 대해 엄폐 이상의 엄폐가 없어지거나 생물에게 은폐된 경우, 다시 관찰됩니다. 숨기기를 제외한 다른 행동을 하거나, @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{은밀 이동} 또는 @UUID[Compendium.pf2e.actionspf2e.Item.UHpkTuCtyaPqiCAB]{Step}을 사용하면 숨겨지는 것이 중단됩니다. 당신이 생물에게 공격을 시도하면, 그 생물은 그 공격에 대해 오프-가드 상태를 유지하고 당신은 관찰 대상이 됩니다. 다른 행동을 하면, GM이 달리 결정하지 않는 한 행동 직전에 관찰 대상이 됩니다. GM이 특별히 눈에 띄지 않는 액션을 수행하도록 허용할 수도 있으며, 이 경우 은신 체크를 다시 해야 할 수도 있습니다.</p>\n<p>생물이 @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{찾기}를 사용해 당신을 관찰하게 만들면, 당신은 숨기에 성공해야 다시 숨겨질 수 있습니다.</p>"
     },
     "Indomitable Act": {
       "name": "불굴의 행동",
@@ -1367,7 +1367,7 @@
     },
     "Harvest Heartsliver": {
       "name": "하트실버 수확",
-      "description": "<p><strong>요구 조건</strong> 코토가즈의 몸 안에 있습니다.</p>\n<hr />\n<p>코토가즈의 심장 일부를 훔치려고 합니다. 공격 굴리기 또는 @Check[type:acrobatics|dc:40], @Check[type:athletics|dc:40]], @Check[type:medicine|dc:40], @Check[type:nature|dc:40], @Check[type:occultism|dc:40], 또는 @Check[type:religion|dc:40]체크에 도전합니다.</p>\n<hr />\n<p><strong>대성공</strong> 작은 부조화 하트실버를 훔쳐서 몸에 지니고 코토가즈의 몸에서 빠져나올 수 있습니다.</p>\n<p><strong> 성공</strong> 대성공과 같지만, 빠져나올 수 없습니다.</p>\n<p><strong>실패</strong> 코토가즈의 삼키기 전체 피해를 입습니다.</p>\n<p><strong> 대실패</strong> 코토가즈의 삼키기 전체 피해를 두 배로 받고 심장 박동으로 인해 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{귀가 먼} 상태가 됩니다.</p>"
+      "description": "<p><strong>요구 조건</strong> 코토가즈의 몸 안에 있습니다.</p>\n<hr />\n<p>코토가즈의 심장 일부를 훔치려고 합니다. 공격 굴리기 또는 @Check[acrobatics|dc:40], @Check[type:athletics|dc:40]], @Check[type:medicine|dc:40], @Check[type:nature|dc:40], @Check[type:occultism|dc:40], 또는 @Check[type:religion|dc:40]체크에 도전합니다.</p>\n<hr />\n<p><strong>대성공</strong> 작은 부조화 하트실버를 훔쳐서 몸에 지니고 코토가즈의 몸에서 빠져나올 수 있습니다.</p>\n<p><strong> 성공</strong> 대성공과 같지만, 빠져나올 수 없습니다.</p>\n<p><strong>실패</strong> 코토가즈의 삼키기 전체 피해를 입습니다.</p>\n<p><strong> 대실패</strong> 코토가즈의 삼키기 전체 피해를 두 배로 받고 심장 박동으로 인해 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{귀가 먼} 상태가 됩니다.</p>"
     },
     "Jinx": {
       "name": "징크스",
@@ -1607,7 +1607,7 @@
     },
     "Climb": {
       "name": "등반",
-      "description": "<p><strong>요건</strong> 양손이 자유롭습니다</p>\n<hr />\n<p>최대 5피트 거리를 위, 아래 또는 경사면을 가로질러 이동하는 <span data-pf2-action=\"climb\" data-pf2-glyph=\"A\">운동</span> 체크를 시도합니다. 등반 속도가 없는 경우 등반 중에는 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프-가드} 상태입니다. GM은 경사의 특성과 주변 환경에 따라 DC를 결정하므로, 오르기 쉬운 경사에서는 자동으로 크리티컬에 성공할 수 있습니다. 지상 속도가 40피트 이상인 경우, 속도가 20피트를 초과할 때마다 최대 거리가 5피트씩 증가합니다.</p>\n<hr />\n<p><strong>대성공</strong> 경사를 따라 이동하면서 최대 거리가 5피트씩 증가합니다.</p>\n<p><strong>성공</strong> 경사를 따라 이동합니다.</p>\n<p><strong>크리티컬 실패</strong> 낙하합니다. 안정된 지면에서 등반을 시작한 경우, 추락하여 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드린 자세}로 착지합니다. </p>\n<h2>등반 작업 예시</h2>\n<ul>\n<li><strong>훈련되지 않은</strong> 사다리, 가파른 경사, 낮은 가지가 있는 나무</li>\n<li><strong>훈련된</strong> 장비, 밧줄, 전형적인 나무</li>\n<li><strong>전문가</strong> 작은 잡을만한 곳 및 발판이 있는 벽</li>\n<li><strong>마스터</strong> 잡을한한 곳 및 발판이 있는 천장, 암벽</li>\n<li><strong>전설적인</strong> 매끄러운 표면</li>\n</ul>"
+      "description": "<p><strong>요건</strong> 양손이 자유롭습니다</p>\n<hr />\n<p>최대 5피트 거리를 위, 아래 또는 경사면을 가로질러 이동하는 <span data-pf2-action=\"climb\" data-pf2-glyph=\"A\">운동</span> 체크를 시도합니다. 등반 속도가 없는 경우 등반 중에는 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프-가드} 상태입니다. GM은 경사의 특성과 주변 환경에 따라 DC를 결정하므로, 오르기 쉬운 경사에서는 자동으로 크리티컬에 성공할 수 있습니다. 지상 속도가 40피트 이상인 경우, 속도가 20피트를 초과할 때마다 최대 거리가 5피트씩 증가합니다.</p>\n<hr />\n<p><strong>대성공</strong> 경사를 따라 이동하면서 최대 거리가 5피트씩 증가합니다.</p>\n<p><strong>성공</strong> 경사를 따라 이동합니다.</p>\n<p><strong>대성공</strong> 낙하합니다. 안정된 지면에서 등반을 시작한 경우, 추락하여 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드린 자세}로 착지합니다. </p>\n<h2>등반 작업 예시</h2>\n<ul>\n<li><strong>훈련되지 않은</strong> 사다리, 가파른 경사, 낮은 가지가 있는 나무</li>\n<li><strong>훈련된</strong> 장비, 밧줄, 전형적인 나무</li>\n<li><strong>전문가</strong> 작은 잡을만한 곳 및 발판이 있는 벽</li>\n<li><strong>마스터</strong> 잡을한한 곳 및 발판이 있는 천장, 암벽</li>\n<li><strong>전설적인</strong> 매끄러운 표면</li>\n</ul>"
     },
     "Interact": {
       "name": "상호 작용",
@@ -1767,7 +1767,7 @@
     },
     "Take Cover": {
       "name": "커버",
-      "description": "<p><strong>요구 조건</strong> 엄폐물의 혜택을 받고 있거나, 엄폐할 수 있는 지형지물 근처에 있거나, @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드린}상태 입니다.</p>\n<hr />\n<p>벽에 몸을 밀착하거나 장애물 뒤로 몸을 숨겨 엄폐물을 더 잘 활용할 수 있습니다. 표준 엄폐가 있다면, 대신 더 큰 엄폐를 통해 공격력에 +4의 상황 보너스를 부여하고, 반사 효과로 광역 효과로부터 보호하며, 은신에 @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{숨기다}, @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{잠입}으로 확인하거나 발각을 피할 수 있는 등의 혜택을 얻게 됩니다. 그렇지 않으면 표준 엄폐의 혜택을 받습니다(대신 상황 보너스 +2). 이 효과는 현재 위치에서 이동하거나, 공격 액션을 사용하거나, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{무의식}이 되거나, 프리 액션으로 이 효과를 종료할 때까지 지속됩니다.</p>"
+      "description": "<p><strong>요구 조건</strong> 엄폐물의 혜택을 받고 있거나, 엄폐할 수 있는 지형지물 근처에 있거나, @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드린}상태 입니다.</p>\n<hr />\n<p>벽에 몸을 밀착하거나 장애물 뒤로 몸을 숨겨 엄폐물을 더 잘 활용할 수 있습니다. 표준 엄폐가 있다면, 대신 더 큰 엄폐를 통해 공격력에 +4의 상황 보너스를 부여하고, 반사 효과로 광역 효과로부터 보호하며, 은신에 @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{숨기다}, @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{은밀 이동}으로 확인하거나 발각을 피할 수 있는 등의 혜택을 얻게 됩니다. 그렇지 않으면 표준 엄폐의 혜택을 받습니다(대신 상황 보너스 +2). 이 효과는 현재 위치에서 이동하거나, 공격 액션을 사용하거나, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{무의식}이 되거나, 프리 액션으로 이 효과를 종료할 때까지 지속됩니다.</p>"
     },
     "Drain Bonded Item": {
       "name": "결속 아이템 흡수",

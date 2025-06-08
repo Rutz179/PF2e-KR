@@ -572,8 +572,8 @@
           "success": "<strong>효과</strong> 폭탄은 또한 @Damage[4[bleed]] 및 @Damage[(3[splash])[피어싱]]{3 피어싱 방사 피해}를 입힙니다."
         },
         "Lesser": {
-          "criticalSuccess": "<strong>효과</strong> 폭탄은 또한 @Damage[(2*1)[bleed]] 및 @Damage[(1[방사])[관통]]{1 관통 방사 피해}를 입힙니다.",
-          "success": "<strong>효과</strong> 폭탄은 또한 @Damage[1[bleed]] 및 @Damage[(1[방사])[관통]]{1 관통 방사 피해}를 입힙니다."
+          "criticalSuccess": "<strong>효과</strong> 폭탄은 또한 @Damage[(2*1)[bleed]] 및 @Damage[(1[방사])[piercing]]{1 관통 방사 피해}를 입힙니다.",
+          "success": "<strong>효과</strong> 폭탄은 또한 @Damage[1[bleed]] 및 @Damage[(1[방사])[piercing]]{1 관통 방사 피해}를 입힙니다."
         },
         "Major": {
           "criticalSuccess": "<strong>효과</strong> 폭탄은 @Damage[(2*5)[bleed]] 및 @Damage[(4[splash])[피어싱]]{4 피어싱 방사 피해}의 피해를 추가로 입힙니다.",
@@ -1304,7 +1304,7 @@
           "NoHeadSelected": "대홍수가 등장할 때마다, 전투가 시작되면 GM이 이니셔티브 굴림으로 선택한 한 머리가 선두를 맡습니다. 선두에 있는 머리는 매 라운드 첫 번째 턴에 대홍수가 사용할 수 있는 다른 행동을 부여합니다(조정된 행동 참조).",
           "PeoplePleaser": "머리들은 목표할 생물을 논의하고 소리로 합의합니다. 다시 합의에 도달할 때까지, 그들의 공격은 해당 생물에게 20의 추가 정밀 피해를 입힙니다.",
           "Perfectionist": "완벽주의자 머리는 자신의 오라 내에 있는 생물을 비판합니다. 해당 생물은 @Check[will|dc:42] 내성 체크에 성공하지 못하면 @Damage[9d6[persistent,mental]]의 피해를 받습니다.",
-          "Playful": "유머러스한 머리는 생명의 일시성에 대해 시의적절하지 않은 농담을 합니다. 그들은 자신의 오라 내 모든 생물에게 @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Demoralize}를 시도합니다.",
+          "Playful": "유머러스한 머리는 생명의 일시성에 대해 시의적절하지 않은 농담을 합니다. 그들은 자신의 오라 내 모든 생물에게 @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{사기 저하}를 시도합니다.",
           "Secretive": "대홍수는 자신의 턴이 끝날 때까지 @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{투명한} 상태가 되며, 자신의 오라 내의 열린 공간으로 순간 이동합니다.",
           "Suspicious": "대홍수는 주변을 살핍니다. 이동할 때까지 자신의 오라 내의 환상을 꿰뚫어 보고, 턱의 범위가 25피트로 증가합니다."
         },
@@ -1640,8 +1640,8 @@
         "success": "*@Damage[2d10[persistent, 무효]]"
       },
       "Piercing2d8+8": {
-        "criticalSuccess": "@Damage[(2*2d8+16)[persistent, 관통]]",
-        "success": "@Damage[(2d8+8)[persistent, 관통]]"
+        "criticalSuccess": "@Damage[(2*2d8+16)[persistent, piercing]]",
+        "success": "@Damage[(2d8+8)[persistent, piercing]]"
       },
       "Poison1d12": {
         "criticalSuccess": "@Damage[(2*1d12)[persistent, poison]]",
@@ -2011,7 +2011,7 @@
     "SpecificRule": {
       "Acrobat": {
         "AcrobatDedication": {
-          "Note": "적의 공간을 넘어가는 곡예 체크에 크리티컬 성공을 할 때마다, 적의 공간을 어려운 지형으로 취급하지 않습니다."
+          "Note": "적의 공간을 넘어가는 곡예 체크에 대성공을 할 때마다, 적의 공간을 어려운 지형으로 취급하지 않습니다."
         },
         "Contortionist": {
           "Note": "곡예로 @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape}에 성공할 때마다, 당신이 탈출한 생물은 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프-가드} 상태가 됩니다. 가 됩니다."
@@ -2584,7 +2584,7 @@
           "Fervor": "주문을 시전할 때, 당신의 주문 공격 굴림에 맞거나 내성 굴림에 실패한 생물 중 하나를 선택합니다. 그 생물은 다음 턴이 끝날 때까지 당신에게 매료됩니다. 그 후 1시간 동안 이 열정 효과에 일시적으로 면역이 됩니다. 주문: @UUID[Compendium.pf2e.spells-srd.Item.0qaqksrGGDj74HXE]{Revealing Light}",
           "Focus": "@UUID[Compendium.pf2e.spells-srd.Item.zul5cBTfr7NXHBZf]{눈부신 섬광} (종교적 상징이 필요하지 않음)",
           "Label": "경외",
-          "Trigger": "당신이나 30피트 이내의 아군이 적의 AC에 대한 공격 롤에 크리티컬 성공하거나 적의 DC 중 하나에 대한 스킬 체크에 크리티컬 성공합니다."
+          "Trigger": "당신이나 30피트 이내의 아군이 적의 AC에 대한 공격 롤에 대성공하거나 적의 DC 중 하나에 대한 스킬 체크에 대성공합니다."
         },
         "Dedication": {
           "Activation": "당신의 감정 포커스는 레벨의 절반에 해당하는 임시 체력을 얻습니다. 이 임시 체력은 1분 동안 지속됩니다.",
@@ -3063,7 +3063,7 @@
         "Sickened": {
           "AllowEatOrDrink": "병에 걸린 상태에서도 음식과 음료를 섭취할 수 있습니다.",
           "Reduce": {
-            "criticalSuccess": "@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약} 값을 감소시키기 위해 체력 저항 저축에 크리티컬 성공하면, 이 값이 3 감소합니다.",
+            "criticalSuccess": "@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약} 값을 감소시키기 위해 체력 저항 저축에 대성공하면, 이 값이 3 감소합니다.",
             "success": "@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약} 값을 감소시키기 위해 체력 저항에 성공하면, 이 값이 2 감소합니다."
           }
         }
@@ -3472,8 +3472,8 @@
           "CoilingChainLabel": "구속하는 유성 - 감기는 사슬"
         },
         "CoyoteCloak": {
-          "GreaterNote": "생존 체크에 크리티컬 성공하면, 추가로 4배의 생물을 먹일 수 있습니다.",
-          "Note": "생존 체크에 크리티컬 성공하면, 추가로 2배의 생물을 먹일 수 있습니다."
+          "GreaterNote": "생존 체크에 대성공하면, 추가로 4배의 생물을 먹일 수 있습니다.",
+          "Note": "생존 체크에 대성공하면, 추가로 2배의 생물을 먹일 수 있습니다."
         },
         "DazzlingRosary": {
           "Note": "대상은 다음 턴이 시작될 때까지 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{눈부신} 상태가 됩니다."
@@ -3608,7 +3608,7 @@
           "TranscendentShot": "비명 지르는 피니언 — 초월의 사격"
         },
         "SerpentDagger": {
-          "Note": "<em>뱀 단검</em>으로 공격 굴림에 크리티컬 성공하면, 대상은 @Check[fortitude|dc:19] 내성에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1}이 됩니다."
+          "Note": "<em>뱀 단검</em>으로 공격 굴림에 대성공하면, 대상은 @Check[fortitude|dc:19] 내성에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1}이 됩니다."
         },
         "ShardOfSelfDestruction": {
           "Note": "또한 @Damage[1d6[bleed]]의 피해를 받습니다."
@@ -3698,7 +3698,7 @@
           },
           "Label": "별명",
           "OfVerseUnbroken": {
-            "CriticalSpecialization": "공격에 크리티컬 성공을 하면, 대상 주변에 잊혀지지 않는 멜로디가 흐르며, 대상은 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1} 상태가 됩니다. 단, 대상이 당신의 직업 DC에 대한 @Check[will|against:exemplar] 내성 체크에 성공한 경우는 예외입니다.",
+            "CriticalSpecialization": "공격에 대성공을 하면, 대상 주변에 잊혀지지 않는 멜로디가 흐르며, 대상은 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1} 상태가 됩니다. 단, 대상이 당신의 직업 DC에 대한 @Check[will|against:exemplar] 내성 체크에 성공한 경우는 예외입니다.",
             "Description": "당신이 Spark Transcendence를 사용할 때, 당신의 신성한 불꽃이 우아한 노래를 방출하여 동맹들과 조화를 이룹니다. 다음 턴이 시작될 때까지, 당신으로부터 30피트 이내에서 턴을 시작하는 동맹은 이 노래를 따라 부르는 것으로 자신의 지속 가능한 효과를 유지할 수 있습니다. 이것은 동맹의 턴이 시작될 때 트리거되는 무료 행동입니다. 당신의 노래는 끝나며, 해당 동맹은 10분 동안 이 능력의 혜택을 다시 받을 수 없습니다. 이 효과는 청각적 및 정신적 효과입니다."
           },
           "PeerlessUnderHeaven": {
@@ -3865,7 +3865,7 @@
       },
       "ExemplaryFinisher": {
         "Battledancer": "피니셔 후 즉시 무료 행동으로 '스텝'을 사용할 수 있습니다.",
-        "Braggart": "적군이 당신의 @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Demoralize}에 일시적으로 면역 상태였다면, 그 일시적 면역이 종료됩니다.",
+        "Braggart": "적군이 당신의 @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{사기 저하}에 일시적으로 면역 상태였다면, 그 일시적 면역이 종료됩니다.",
         "Fencer": "적은 당신의 다음 턴까지 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프-가드} 상태가 됩니다.",
         "Name": "모범적인 피니셔",
         "Rascal": "적의 속도가 다음 턴이 시작될 때까지 -10의 상황 페널티를 받습니다. @UUID[Compendium.pf2e.feat-effects.Item.fgz7lwg1xHsVW4dX]{효과: 모범적인 피니셔 (Rascal)}",
@@ -3942,8 +3942,8 @@
           "RollOptionLabel": "강화된 원소 자세 — 구조물에 대한 피해"
         },
         "KnowItAll": {
-          "Bard": "지식 회상 체크에 성공하면 추가 정보나 상황을 알 수 있습니다. 지식 회상 체크에 크리티컬 성공하면 추가 정보나 상황을 알 수 있거나 추가 질문을 할 수 있습니다 (GM이 선택).",
-          "Thaumaturge": "책에 나오는 모든 소문과 이야기를 들었기 때문에, 일단 어떤 이야기를 들었다면 그 이야기에 대해 자세히 알고 있다고 할 수 있습니다. 지식 회상 체크에 성공하면, 주어진 주제에 대한 추가 정보나 상황을 얻습니다. 지식 회상 체크에 크리티컬 성공하면, GM의 재량에 따라 평소보다 더 많은 추가 정보나 상황을 얻을 수도 있습니다."
+          "Bard": "지식 회상 체크에 성공하면 추가 정보나 상황을 알 수 있습니다. 지식 회상 체크에 대성공하면 추가 정보나 상황을 알 수 있거나 추가 질문을 할 수 있습니다 (GM이 선택).",
+          "Thaumaturge": "책에 나오는 모든 소문과 이야기를 들었기 때문에, 일단 어떤 이야기를 들었다면 그 이야기에 대해 자세히 알고 있다고 할 수 있습니다. 지식 회상 체크에 성공하면, 주어진 주제에 대한 추가 정보나 상황을 얻습니다. 지식 회상 체크에 대성공하면, GM의 재량에 따라 평소보다 더 많은 추가 정보나 상황을 얻을 수도 있습니다."
         },
         "LightningSwap": {
           "Exemplar": "여러 전투 스타일과 필요한 장비 사이를 빠르게 전환하는 것을 연습했습니다, 특히 한 가지 이상의 무기 아이콘을 사용하는 경우. 상호작용을 통해 손에 든 아이템을 원하는 수만큼 보관한 후, 최대 두 개의 무기나 방패와 무기를 뽑을 수 있습니다.",
@@ -4054,7 +4054,7 @@
         "Prompt": "기술에 대한 전문가의 숙련도를 선택하세요."
       },
       "FrenziedRevelry": {
-        "Note": "이 보너스의 혜택을 받는 사람이 적의 정신 효과에 대한 내성 굴림에 크리티컬 성공을 하면, 그 사람의 흥겨움이 증가하여 1 라운드 동안 공격 굴림과 피해 굴림에 +1 상태 보너스를 받습니다. @UUID[Compendium.pf2e.spell-effects.Item.ldl1aU5ovTQMUHJ2]{주문 효과: 광란의 축제 (크리티컬)}"
+        "Note": "이 보너스의 혜택을 받는 사람이 적의 정신 효과에 대한 내성 굴림에 대성공을 하면, 그 사람의 흥겨움이 증가하여 1 라운드 동안 공격 굴림과 피해 굴림에 +1 상태 보너스를 받습니다. @UUID[Compendium.pf2e.spell-effects.Item.ldl1aU5ovTQMUHJ2]{주문 효과: 광란의 축제 (크리티컬)}"
       },
       "GameHunterDedication": {
         "TargetHuntedPrey": "대상은 당신의 사냥감 (동물, 야수, 또는 용만 해당)",
@@ -4256,7 +4256,7 @@
           "Note": "적을 성공적으로 사기를 저하시키면, 그 적은 @Damage[(ternary(gte(@actor.system.skills.intimidation.rank,4),3,ternary(gte(@actor.system.skills.intimidation.rank,3),2,1))d4)[mental]]{1d4 정신 피해} 그 적의 턴이 시작될 때마다, 그 적이 겁에 질린 상태로 남아 있고 당신과 전투를 계속하는 한. 협박에 능숙한 숙련도를 가지고 있다면 피해는 2d4로 증가하고, 전설적인 숙련도를 가지고 있다면 피해는 3d4로 증가합니다."
         },
         "CantorianReinforcement": {
-          "Note": "질병이나 독에 대한 내성 굴림에 성공하면 단계가 2 감소하고 (악성 질병이나 독의 경우 1 감소), 크리티컬 성공하면 단계가 3 감소합니다 (악성 질병이나 독의 경우 2 감소)."
+          "Note": "질병이나 독에 대한 내성 굴림에 성공하면 단계가 2 감소하고 (악성 질병이나 독의 경우 1 감소), 대성공하면 단계가 3 감소합니다 (악성 질병이나 독의 경우 2 감소)."
         },
         "WarConditioning": {
           "Prompt": "이동 유형을 선택하세요."
@@ -5077,7 +5077,7 @@
             "Heightened": "초기 피해가 1d4가 아닌 2d4만큼 증가합니다. 대실패의 약점 부여가 1만큼 증가합니다."
           },
           "GhostlyShift": {
-            "Base": "당신의 무형성이 완전해져 다른 생물들을 통과할 수 있게 되며, 이때 고통스러운 간섭 효과가 발생합니다. 매 라운드에 한 번씩, Stride, Burrow, Swim, Fly를 사용할 때, @UUID[Compendium.pf2e.actionspf2e.Item.21WIfSu7Xd7uKqV8]{Tumble Through} 체크를 시도할 필요 없이 그 행동 중에 한 생물의 공간을 통과할 수 있지만, 그 공간에서 턴을 끝낼 수는 없습니다. 이 방법으로 생물의 공간을 통과할 때, 해당 생물에게 2d6의 역장 피해를 입히고, 기본 Fortitude 내성을 적용합니다.",
+            "Base": "당신의 무형성이 완전해져 다른 생물들을 통과할 수 있게 되며, 이때 고통스러운 간섭 효과가 발생합니다. 매 라운드에 한 번씩, Stride, Burrow, Swim, Fly를 사용할 때, @UUID[Compendium.pf2e.actionspf2e.Item.21WIfSu7Xd7uKqV8]{회피 돌파} 체크를 시도할 필요 없이 그 행동 중에 한 생물의 공간을 통과할 수 있지만, 그 공간에서 턴을 끝낼 수는 없습니다. 이 방법으로 생물의 공간을 통과할 때, 해당 생물에게 2d6의 역장 피해를 입히고, 기본 Fortitude 내성을 적용합니다.",
             "Heightened": "생물을 통과할 때 입히는 피해가 1d6 증가합니다."
           },
           "GlimpseWeakness": {
@@ -5191,7 +5191,7 @@
           "StrainMind": "당신은 1 포커스 포인트가 소모되는 앰프를 추가합니다. 그러나 정상적인 집중점 비용을 지불하는 대신, 앰프된 초능력 주문의 주문 랭크에 4를 곱한 만큼의 체력을 잃습니다. 이 과정에서 코피가 흐르거나 다른 형태의 눈에 띄는 고통의 징후가 나타납니다.",
           "TelekineticHand": "당신의 _염동력 손_은 가벼운 하중이 아니라 최대 1 Bulk까지 운반할 수 있습니다. 이 주문이 3랭크 이상으로 강화되었을 경우, 최대 하중이 2 Bulk로 증가합니다. 7랭크 이상으로 강화될 경우, 최대 하중이 3 Bulk로 증가합니다.",
           "TelekineticProjectile": "당신의 _염동력 투사체_는 훨씬 먼 거리까지 날아갑니다. _염동력 투사체_의 사거리가 60피트로 증가합니다.",
-          "ThoughtformSummoning": "당신이 생물을 소환할 때, 대신 해당 생물의 심령적 형상을 만들어낼 수도 있습니다. 이 경우, 해당 소환수는 자신의 레벨의 절반만큼 물리 피해 저항을 가지며, 정신 및 역장(Force) 피해에 대해 약점 5를 갖습니다. 또한, @UUID[Compendium.pf2e.actionspf2e.Item.21WIfSu7Xd7uKqV8]{통과} 판정을 시도하지 않고도 적의 공간을 통과할 수 있으며, 단 해당 공간에서 턴을 종료할 수는 없습니다.",
+          "ThoughtformSummoning": "당신이 생물을 소환할 때, 대신 해당 생물의 심령적 형상을 만들어낼 수도 있습니다. 이 경우, 해당 소환수는 자신의 레벨의 절반만큼 물리 피해 저항을 가지며, 정신 및 역장(Force) 피해에 대해 약점 5를 갖습니다. 또한, @UUID[Compendium.pf2e.actionspf2e.Item.21WIfSu7Xd7uKqV8]{회피 돌파} 판정을 시도하지 않고도 적의 공간을 통과할 수 있으며, 단 해당 공간에서 턴을 종료할 수는 없습니다.",
           "WarpStep": "당신은 _공간을 왜곡_하는 방식이 더욱 효율적입니다. _왜곡된 발걸음_을 사용할 때, 이동 속도에 +5피트가 아니라 +10피트의 상태 보너스를 받습니다."
         },
         "UnleashPsyche": {
