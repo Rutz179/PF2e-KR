@@ -127,11 +127,11 @@
     },
     "Grab an Edge": {
       "name": "가장자리 잡기",
-      "description": "<p><strong>트리거</strong> 가장자리 또는 손잡이에서 떨어지거나 지나칩니다.</p>\n<p><strong> 요구 조건</strong> 손이 등 뒤로 묶여 있지 않거나 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속됨}이 아닙니다.</p>\n<hr />\n<p>가장자리나 다른 손잡이에서 떨어지거나 지나칠 때, 손잡이를 잡으면 추락을 멈출 수 있습니다. 보통 클라이밍 DC에서 아크로바틱 체크 또는 반사 저항 중 하나를 선택해 성공해야 합니다. 가장자리나 손잡이를 잡았다면, 곡예를 사용해 @UUID[Compendium.pf2e.actionspf2e.Item.pprgrYQ1QnIDGZiy]{오르기}를 할 수 있습니다.</p>\n<hr />\n<p><strong>대성공</strong> 양손이 자유롭든 아니든, 일반적으로 적절한 잡는 물건(예: 난간에서 전투 도끼를 잡는 것)을 사용하여 가장자리나 손잡이를 잡습니다. 지금까지 떨어진 거리만큼 피해를 입지만, 30피트 더 짧게 떨어진 것으로 간주합니다.</p>\n<p><strong> 성공</strong> 한 손이라도 자유롭다면, 가장자리나 손잡이를 잡고 추락을 멈춥니다. 지금까지 떨어진 거리만큼 피해를 입지만, 20피트 더 짧게 떨어진 것처럼 취급합니다. 한 손이 자유롭지 않으면 체크에 실패한 것처럼 계속 떨어집니다.</p>\n<p><strong> 대실패</strong> 계속 떨어지고, 이 리액션을 사용하기 전에 20피트 이상 떨어진 적이 있다면, 떨어진 20피트마다 충격으로 10의 타격 피해를 받습니다.</p>"
+      "description": "<p><strong>트리거</strong> 가장자리 또는 손잡이에서 떨어지거나 지나칩니다.</p>\n<p><strong> 요구 조건</strong> 손이 등 뒤로 묶여 있지 않거나 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속}이 아닙니다.</p>\n<hr />\n<p>가장자리나 다른 손잡이에서 떨어지거나 지나칠 때, 손잡이를 잡으면 추락을 멈출 수 있습니다. 보통 클라이밍 DC에서 아크로바틱 체크 또는 반사 저항 중 하나를 선택해 성공해야 합니다. 가장자리나 손잡이를 잡았다면, 곡예를 사용해 @UUID[Compendium.pf2e.actionspf2e.Item.pprgrYQ1QnIDGZiy]{오르기}를 할 수 있습니다.</p>\n<hr />\n<p><strong>대성공</strong> 양손이 자유롭든 아니든, 일반적으로 적절한 잡는 물건(예: 난간에서 전투 도끼를 잡는 것)을 사용하여 가장자리나 손잡이를 잡습니다. 지금까지 떨어진 거리만큼 피해를 입지만, 30피트 더 짧게 떨어진 것으로 간주합니다.</p>\n<p><strong> 성공</strong> 한 손이라도 자유롭다면, 가장자리나 손잡이를 잡고 추락을 멈춥니다. 지금까지 떨어진 거리만큼 피해를 입지만, 20피트 더 짧게 떨어진 것처럼 취급합니다. 한 손이 자유롭지 않으면 체크에 실패한 것처럼 계속 떨어집니다.</p>\n<p><strong> 대실패</strong> 계속 떨어지고, 이 리액션을 사용하기 전에 20피트 이상 떨어진 적이 있다면, 떨어진 20피트마다 충격으로 10의 타격 피해를 받습니다.</p>"
     },
     "Drink Blood": {
       "name": "흡혈",
-      "description": "<p><strong>요구 조건</strong> A @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.6 uEgoh53GbXuHpTF]{마비됨}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속됨}, @UUID[Compendium.pf2e.conditionitems.Item. fBnFDH2MTzgFijKf]{무의식}, 또는 흡혈되고자 하는 의지가 있는 생물이 도달 범위 내에 있습니다</p>\n<hr />\n<p><strong>효과</strong> 당신은 해당 생물에게 송곳니를 들이밀고 그 피를 마십니다. 피해자가 잡힌 경우 피해자의 인내 DC에 대해 @Check[type:athletics|defense:fortitude] 체크가 필요하며, 다른 조건에 대해서는 자동으로 성공합니다. 성공하면, 생물은 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수됨 1}이 되고, 10분 동안 지속되는 대상의 레벨만큼 일시적으로 HP를 얻습니다. 대상에게 추가로 사용해도 흡혈됨 상태가 증가하거나 일시적 HP를 더 얻지 않습니다.</p>"
+      "description": "<p><strong>요구 조건</strong> A @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.6 uEgoh53GbXuHpTF]{마비됨}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속}, @UUID[Compendium.pf2e.conditionitems.Item. fBnFDH2MTzgFijKf]{무의식}, 또는 흡혈되고자 하는 의지가 있는 생물이 도달 범위 내에 있습니다</p>\n<hr />\n<p><strong>효과</strong> 당신은 해당 생물에게 송곳니를 들이밀고 그 피를 마십니다. 피해자가 잡힌 경우 피해자의 인내 DC에 대해 @Check[type:athletics|defense:fortitude] 체크가 필요하며, 다른 조건에 대해서는 자동으로 성공합니다. 성공하면, 생물은 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수됨 1}이 되고, 10분 동안 지속되는 대상의 레벨만큼 일시적으로 HP를 얻습니다. 대상에게 추가로 사용해도 흡혈됨 상태가 증가하거나 일시적 HP를 더 얻지 않습니다.</p>"
     },
     "Subsist": {
       "name": "서브시스트",
@@ -571,7 +571,7 @@
     },
     "Liberating Step": {
       "name": "해방의 발걸음",
-      "description": "<p><strong>트리거</strong> 적이 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, 또는 @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{그래플} 아군에게 피해를 주고 둘 다 자신으로부터 15 피트 이내에 있는 경우.</p>\n<hr />\n<p>아군을 구속에서 해방시킵니다.</p>\n<p>트리거가 피해를 받는 아군이었다면, 아군은 2 + 자신의 레벨에 해당하는 모든 피해에 대한 저항력을 얻습니다.</p>\n<p>아군은 붙잡기, 구속, @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{고정된} 또는 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비} 효과에서 벗어나려고 시도할 수 있습니다. 그들은 저항을 허용하는 효과에 대해 새로운 저항을 시도하거나 프리 액션으로 한 효과에서 @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{탈출}을 시도합니다.</p>\n<p>아군이 이동할 수 있다면 굳이 탈출하지 않아도 프리 액션으로 스텝을 밟을 수 있습니다.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.DawVHfoPKbPJsz4k]{Effect: 챔피언의 저항}</p>"
+      "description": "<p><strong>트리거</strong> 적이 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, 또는 @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{붙잡기} 아군에게 피해를 주고 둘 다 자신으로부터 15 피트 이내에 있는 경우.</p>\n<hr />\n<p>아군을 구속에서 해방시킵니다.</p>\n<p>트리거가 피해를 받는 아군이었다면, 아군은 2 + 자신의 레벨에 해당하는 모든 피해에 대한 저항력을 얻습니다.</p>\n<p>아군은 붙잡기, 구속, @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{고정된} 또는 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비} 효과에서 벗어나려고 시도할 수 있습니다. 그들은 저항을 허용하는 효과에 대해 새로운 저항을 시도하거나 프리 액션으로 한 효과에서 @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{탈출}을 시도합니다.</p>\n<p>아군이 이동할 수 있다면 굳이 탈출하지 않아도 프리 액션으로 스텝을 밟을 수 있습니다.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.DawVHfoPKbPJsz4k]{Effect: 챔피언의 저항}</p>"
     },
     "Manifest Realm": {
       "name": "창조 영역",
@@ -667,7 +667,7 @@
     },
     "Starlit Transformation": {
       "name": "별빛 변신",
-      "description": "<p><strong>발동 빈도</strong> 시간당 1회</p><hr /><p><strong>효과</strong> 빛이 당신 주변을 휘감으며, 당신의 갑옷, 옷, 그리고 소지한 무기 중 하나를 특정 대체 복장으로 변환합니다. 장비 모습이 극적으로 달라질 수 있지만, 기능은 평소와 동일합니다. 누군가가 당신의 신원을 알아내려고 시도할 경우, 그들은 @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} 행동을 사용하여, 마치 @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{Impersonate} 행동을 사용하는 것처럼, 당신의 속임수 DC에 대한 지각 체크를 시도해야 합니다. 이러한 시도에 대한 당신의 속임수 DC는 일반 DC 대신 20 + 당신의 숙련도 수정자입니다. 사칭과 달리, 자신의 정체를 숨기기 위해 다른 사람과 상호 작용할 때 속임수 체크를 시도할 필요는 없습니다. 체크는 다른 사람이 의도적으로 정체를 밝히려고 시도할 때만 진행됩니다. 당신은 10분 동안 또는 Starlit Transformation을 다시 사용하여 정상적인 형태로 돌아갈 때까지 센티넬 형태로 남아 있습니다. 센티넬 형태에 있는 동안, 변형된 무기는 별빛으로 빛나며 무기로 가하는 피해 굴림에 +1 상태 보너스를 받습니다. 공격 행동으로 무기로 별빛의 화살을 발사할 수 있으며, 무기의 근접 공격 수정자를 사용합니다. 이 광선은 1d4의 역장 피해를 주고, 사거리는 60피트이며, 무기의 룬의 영향을 받고, 비전 및 역장 특성을 가지고 있습니다. </p>"
+      "description": "<p><strong>발동 빈도</strong> 시간당 1회</p><hr /><p><strong>효과</strong> 빛이 당신 주변을 휘감으며, 당신의 갑옷, 옷, 그리고 소지한 무기 중 하나를 특정 대체 복장으로 변환합니다. 장비 모습이 극적으로 달라질 수 있지만, 기능은 평소와 동일합니다. 누군가가 당신의 신원을 알아내려고 시도할 경우, 그들은 @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} 행동을 사용하여, 마치 @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{사칭} 행동을 사용하는 것처럼, 당신의 속임수 DC에 대한 지각 체크를 시도해야 합니다. 이러한 시도에 대한 당신의 속임수 DC는 일반 DC 대신 20 + 당신의 숙련도 수정자입니다. 사칭과 달리, 자신의 정체를 숨기기 위해 다른 사람과 상호 작용할 때 속임수 체크를 시도할 필요는 없습니다. 체크는 다른 사람이 의도적으로 정체를 밝히려고 시도할 때만 진행됩니다. 당신은 10분 동안 또는 Starlit Transformation을 다시 사용하여 정상적인 형태로 돌아갈 때까지 센티넬 형태로 남아 있습니다. 센티넬 형태에 있는 동안, 변형된 무기는 별빛으로 빛나며 무기로 가하는 피해 굴림에 +1 상태 보너스를 받습니다. 공격 행동으로 무기로 별빛의 화살을 발사할 수 있으며, 무기의 근접 공격 수정자를 사용합니다. 이 광선은 1d4의 역장 피해를 주고, 사거리는 60피트이며, 무기의 룬의 영향을 받고, 비전 및 역장 특성을 가지고 있습니다. </p>"
     },
     "Balance": {
       "name": "균형잡기",
@@ -779,7 +779,7 @@
     },
     "Grapple": {
       "name": "붙잡기",
-      "description": "<p><strong>요구 조건</strong> 자유로운 손이 하나 이상 있고 목표물이 자신보다 한 사이즈 이상 크지 않아야 합니다.</p>\n<hr />\n<p>자유로운 손으로 생물이나 물체를 잡으려고 시도합니다. 대상의 인내 DC에 대해 <span data-pf2-action=\"grapple\" data-pf2-glyph=\"A\">운동</span> 체크를 시도합니다. 한 손이 자유롭지 않은 상태에서 이미 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속됨} 대상과 잡을 수 있습니다.</p>\n<hr />\n<p><strong>대성공</strong> 자신이 움직이거나 대상이 탈출하지 않는 한 다음 턴이 끝날 때까지 대상이 구속됩니다. </p>\n<p><strong>성공</strong> 자신이 움직이거나 대상이 탈출하지 않는 한 다음 턴이 끝날 때까지 대상을 붙잡습니다.</p>\n<p><strong> 실패</strong> 대상을 붙잡는 데 실패했습니다. </p>\n<p> <strong> 대실패</strong> 이미 대상을 붙잡거나 구속했다면 대상은 풀려납니다. 당신의 목표는 당신을 향해 그래플 액션을 사용하는 데 성공한 것처럼 당신을 붙잡을 수도 있고, 당신을 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드린}할 수도 있습니다.</p>"
+      "description": "<p><strong>요구 조건</strong> 자유로운 손이 하나 이상 있고 목표물이 자신보다 한 사이즈 이상 크지 않아야 합니다.</p>\n<hr />\n<p>자유로운 손으로 생물이나 물체를 잡으려고 시도합니다. 대상의 인내 DC에 대해 <span data-pf2-action=\"grapple\" data-pf2-glyph=\"A\">운동</span> 체크를 시도합니다. 한 손이 자유롭지 않은 상태에서 이미 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속} 대상과 잡을 수 있습니다.</p>\n<hr />\n<p><strong>대성공</strong> 자신이 움직이거나 대상이 탈출하지 않는 한 다음 턴이 끝날 때까지 대상이 구속됩니다. </p>\n<p><strong>성공</strong> 자신이 움직이거나 대상이 탈출하지 않는 한 다음 턴이 끝날 때까지 대상을 붙잡습니다.</p>\n<p><strong> 실패</strong> 대상을 붙잡는 데 실패했습니다. </p>\n<p> <strong> 대실패</strong> 이미 대상을 붙잡거나 구속했다면 대상은 풀려납니다. 당신의 목표는 당신을 향해 그래플 액션을 사용하는 데 성공한 것처럼 당신을 붙잡을 수도 있고, 당신을 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드린}할 수도 있습니다.</p>"
     },
     "Stitching Strike": {
       "name": "스티칭 스트라이크",
@@ -899,7 +899,7 @@
     },
     "Escape": {
       "name": "탈출",
-      "description": "<p>@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{고정된} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속됨} 상태에서 탈출을 시도합니다. 자신에게 이러한 조건을 부과하는 생물, 물체, 주문 효과, 위험 또는 기타 장애물을 하나 선택합니다. 효과의 DC에 대해 <span data-pf2-action=\"escape\" data-pf2-glyph=\"A\" data-pf2-skill=\"unarmed\">비무장 공격 수정치</span> 를 사용하여 <span data-pf2-action=\"escape\" data-pf2-glyph=\"A\">체크</span> 를 시도합니다. 일반적으로 자신을 붙잡은 생물의 운동 능력 DC, 자신을 묶은 생물의 도둑질 DC, 주문 효과의 주문 DC, 또는 물체, 위험 또는 기타 장애물의 나열된 탈출 DC가 해당됩니다. 원하는 경우 공격 수식어를 사용하는 대신 <span data-pf2-action=\"escape\" data-pf2-glyph=\"A\" data-pf2-skill=\"acrobatics\">곡예</span> 또는 <span data-pf2-action=\"escape\" data-pf2-glyph=\"A\" data-pf2-skill=\"athletics\">육상</span> 체크를 시도할 수 있습니다(단, 이 액션은 여전히 공격 특성을 가집니다).</p>\n<hr />\n<p><strong>대성공</strong> 선택한 대상에게 부여된 붙잡힘, 고정, 구속 상태가 해제되고 자유로워집니다. 그런 다음 최대 5피트까지 이동할 수 있습니다.</p>\n<p><strong> 성공</strong> 자유로워지고 선택한 대상이 부여한 붙잡힘, 이동 불가, 구속 조건을 제거합니다.</p>\n<p><strong> 대실패</strong> 자유로워지지 않으며 다음 턴까지 다시 탈출을 시도할 수 없습니다.</p>"
+      "description": "<p>@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{고정된} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속} 상태에서 탈출을 시도합니다. 자신에게 이러한 조건을 부과하는 생물, 물체, 주문 효과, 위험 또는 기타 장애물을 하나 선택합니다. 효과의 DC에 대해 <span data-pf2-action=\"escape\" data-pf2-glyph=\"A\" data-pf2-skill=\"unarmed\">비무장 공격 수정치</span> 를 사용하여 <span data-pf2-action=\"escape\" data-pf2-glyph=\"A\">체크</span> 를 시도합니다. 일반적으로 자신을 붙잡은 생물의 운동 능력 DC, 자신을 묶은 생물의 도둑질 DC, 주문 효과의 주문 DC, 또는 물체, 위험 또는 기타 장애물의 나열된 탈출 DC가 해당됩니다. 원하는 경우 공격 수식어를 사용하는 대신 <span data-pf2-action=\"escape\" data-pf2-glyph=\"A\" data-pf2-skill=\"acrobatics\">곡예</span> 또는 <span data-pf2-action=\"escape\" data-pf2-glyph=\"A\" data-pf2-skill=\"athletics\">육상</span> 체크를 시도할 수 있습니다(단, 이 액션은 여전히 공격 특성을 가집니다).</p>\n<hr />\n<p><strong>대성공</strong> 선택한 대상에게 부여된 붙잡힘, 고정, 구속 상태가 해제되고 자유로워집니다. 그런 다음 최대 5피트까지 이동할 수 있습니다.</p>\n<p><strong> 성공</strong> 자유로워지고 선택한 대상이 부여한 붙잡힘, 이동 불가, 구속 조건을 제거합니다.</p>\n<p><strong> 대실패</strong> 자유로워지지 않으며 다음 턴까지 다시 탈출을 시도할 수 없습니다.</p>"
     },
     "Royal Grace": {
       "name": "왕의 은총",
@@ -1155,7 +1155,7 @@
     },
     "Take a Taste": {
       "name": "맛보기",
-      "description": "<p><strong>요구 조건</strong> 좀비에게 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속됨} 생물이 있습니다.</p>\n<hr />\n<p>좀비가 생물을 붙잡아 물려고 합니다. 좀비가 생물에게 턱 공격을 가합니다. 이 공격은 일반 근접 공격과 동일한 능력치를 사용하지만, 피해 주사위가 1d10이고 관통 피해를 입힙니다.</p>"
+      "description": "<p><strong>요구 조건</strong> 좀비에게 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속} 생물이 있습니다.</p>\n<hr />\n<p>좀비가 생물을 붙잡아 물려고 합니다. 좀비가 생물에게 턱 공격을 가합니다. 이 공격은 일반 근접 공격과 동일한 능력치를 사용하지만, 피해 주사위가 1d10이고 관통 피해를 입힙니다.</p>"
     },
     "Lantern Strobe": {
       "name": "랜턴 섬광",
@@ -1247,7 +1247,7 @@
     },
     "Swift Choreography": {
       "name": "빠른 안무",
-      "description": "<p><strong>트리거</strong> 30피트 이내의 동료가 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{고정된}, @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프-가드}, @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드린}, 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속됨} 상태가 되려 할 때</p><hr /><p><strong>효과</strong> 당신은 동료에게 과거에 제안했던 특별한 움직임을 상기시키는 빠른 지시를 하여, 동료가 트리거된 효과를 완전히 회피할 수 있게 합니다.</p>"
+      "description": "<p><strong>트리거</strong> 30피트 이내의 동료가 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{고정된}, @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프-가드}, @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드린}, 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속} 상태가 되려 할 때</p><hr /><p><strong>효과</strong> 당신은 동료에게 과거에 제안했던 특별한 움직임을 상기시키는 빠른 지시를 하여, 동료가 트리거된 효과를 완전히 회피할 수 있게 합니다.</p>"
     },
     "Leap": {
       "name": "도약",
@@ -1727,7 +1727,7 @@
     },
     "Clear a Path": {
       "name": "경로 정리",
-      "description": "<p><strong>요건</strong> 양손 총기 또는 양손 석궁을 휘두르고 있습니다.</p>\n<hr />\n<p>무기를 바깥쪽으로 밀어서 공간을 확보한 다음 새 탄환을 재빨리 재장전합니다. 무기를 사용해 사정거리 내에 있는 적을 @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{밀기}로 운동 능력 체크를 한 다음, 상호작용을 통해 재장전합니다. 이 밀치기에는 빈 손이 필요하지 않으며, 공격 주사위에 무기의 아이템 보너스가 있다면 이를 운동 능력 체크에 추가합니다. 마지막 행동이 무기를 사용한 원거리 공격이었다면, 밀치기에도 해당 공격과 동일한 공격 횟수 패널티를 적용하며, 밀치기는 이후 공격에서도 일반 공격과 마찬가지로 공격 횟수 패널티에 포함됩니다.</p>"
+      "description": "<p><strong>요건</strong> 양손 총기 또는 양손 석궁을 휘두르고 있습니다.</p>\n<hr />\n<p>무기를 바깥쪽으로 밀어서 공간을 확보한 다음 새 탄환을 재빨리 재장전합니다. 무기를 사용해 사정거리 내에 있는 적을 @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{밀치기}로 운동 능력 체크를 한 다음, 상호작용을 통해 재장전합니다. 이 밀치기에는 빈 손이 필요하지 않으며, 공격 주사위에 무기의 아이템 보너스가 있다면 이를 운동 능력 체크에 추가합니다. 마지막 행동이 무기를 사용한 원거리 공격이었다면, 밀치기에도 해당 공격과 동일한 공격 횟수 패널티를 적용하며, 밀치기는 이후 공격에서도 일반 공격과 마찬가지로 공격 횟수 패널티에 포함됩니다.</p>"
     },
     "Giant-Felling Comet": {
       "name": "거인 쓰러뜨리는 혜성",
@@ -1775,7 +1775,7 @@
     },
     "Set Free": {
       "name": "해방",
-      "description": "<p><strong>빈도</strong> 1시간에 한 번</p>\n<p><strong> 트리거</strong> 효과를 제거하거나 상쇄하기 위해 체크 시도 @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{혼란}, @UUID[Compendium.pf2e.conditionitems.Item.9qGBRpbX9NEwtAAr]{제어됨}, @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{매혹}, @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{고정된}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비}, 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속됨} 조건</p>\n<hr />\n<p><strong>효과</strong> 두 번 굴려서 더 나은 결과를 사용합니다.</p>"
+      "description": "<p><strong>빈도</strong> 1시간에 한 번</p>\n<p><strong> 트리거</strong> 효과를 제거하거나 상쇄하기 위해 체크 시도 @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{혼란}, @UUID[Compendium.pf2e.conditionitems.Item.9qGBRpbX9NEwtAAr]{제어됨}, @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{매혹}, @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{고정된}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비}, 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속} 조건</p>\n<hr />\n<p><strong>효과</strong> 두 번 굴려서 더 나은 결과를 사용합니다.</p>"
     },
     "Vital Shot": {
       "name": "바이탈 샷",
@@ -1847,7 +1847,7 @@
     },
     "Anchor": {
       "name": "뿌리박기",
-      "description": "<p><strong>요건</strong> 단단한 바닥에 있을 때</p>\n<hr />\n<p><strong>효과</strong> 뿌리를 땅속으로 또는 땅을 가로질러 보내서 걸려 넘어지기 어렵게 만듭니다. 이동하기 전까지, @UUID[Compendium.pf2e.actionspf2e.Item.lOE4yjUnETTdaf2T]{위치 이동}, @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{밀기}, 또는 @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{넘어뜨리기} 시도에 대해 자신의 인내 또는 반사 DC에 +2의 상황 보너스를 얻습니다. (또는 루트 레시인 경우 +4 상황 보너스). 이 보너스는 플레이어를 이동시키거나 밀쳐내는 주문이나 효과 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드린}에 대한 시전 시에도 적용됩니다. 효과로 인해 강제로 이동하는 경우, 뿌리를 떼어내는 데 일부 힘이 들어가므로 정상 거리의 절반만 이동합니다.</p>"
+      "description": "<p><strong>요건</strong> 단단한 바닥에 있을 때</p>\n<hr />\n<p><strong>효과</strong> 뿌리를 땅속으로 또는 땅을 가로질러 보내서 걸려 넘어지기 어렵게 만듭니다. 이동하기 전까지, @UUID[Compendium.pf2e.actionspf2e.Item.lOE4yjUnETTdaf2T]{재배치}, @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{밀치기}, 또는 @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{넘어뜨리기} 시도에 대해 자신의 인내 또는 반사 DC에 +2의 상황 보너스를 얻습니다. (또는 루트 레시인 경우 +4 상황 보너스). 이 보너스는 플레이어를 이동시키거나 밀쳐내는 주문이나 효과 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드린}에 대한 시전 시에도 적용됩니다. 효과로 인해 강제로 이동하는 경우, 뿌리를 떼어내는 데 일부 힘이 들어가므로 정상 거리의 절반만 이동합니다.</p>"
     },
     "Compose Missive": {
       "name": "편지 작성",
