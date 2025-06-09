@@ -72,7 +72,7 @@
     },
     "Dazzled": {
       "name": "눈부신",
-      "description": "<p>눈이 과도하게 자극받았거나 시야가 흐릿합니다. 시각이 유일한 정확한 감각이라면, 모든 생명체와 물체는 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진} 당신으로부터 멀어집니다.</p>"
+      "description": "<p>눈이 과도하게 자극받았거나 시야가 흐릿합니다. 시각이 유일한 정확한 감각이라면, 모든 생명체와 물체는 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진} 으로 취급합니다.</p>"
     },
     "Undetected": {
       "name": "탐지 불가",
@@ -80,7 +80,7 @@
     },
     "Restrained": {
       "name": "구속됨",
-      "description": "<p>묶여서 거의 움직일 수 없거나 생물에 의해 고정되었습니다. @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프-가드} 및 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{고정된} 조건을 가지고 있으며, 공격 시도 외에 어떤 공격이나 동작 조작도 사용할 수 없습니다.@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9] {탈출} 또는 @UUID[Compendium.pf2e.actionspf2e.Item.SjmKHgI7a5Z9JzBx]{강제로 열기}를 시도할 수 있습니다. 억제됨은 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}을 재정의합니다.</p>"
+      "description": "<p>묶여서 거의 움직일 수 없거나 생물에 의해 고정되었습니다. @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프-가드} 및 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{고정된} 조건을 가지고 있으며, 공격 시도 외에 어떤 공격이나 동작 조작도 사용할 수 없습니다.@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9] {탈출} 또는 @UUID[Compendium.pf2e.actionspf2e.Item.SjmKHgI7a5Z9JzBx]{강제로 열기}를 시도할 수 있습니다. 구속됨은 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}보다 우선합니다.</p>"
     },
     "Blinded": {
       "name": "실명",
@@ -172,7 +172,7 @@
     },
     "Invisible": {
       "name": "투명한",
-      "description": "<p>보이지 않습니다. 당신은 모든 사람에게 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{탐지 불가}입니다. 생물은 @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{탐색}으로 플레이어를 감지할 수 있으며, 플레이어의 은신 DC에 대한 지각 체크에 성공하면, 플레이어는 @UUID[전서]가 됩니다.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨은}이 되어 다시 감지되지 않음 상태가 될 때까지 해당 생물에게 @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{은밀 이동}가 됩니다. 누군가 나를 이미 볼 수 있는 상태에서 보이지 않음 상태가 되면, 몰래 잠입에 성공할 때까지 감지되지 않음 상태가 아닌 숨겨진 상태로 시작하게 됩니다. 보이지 않는 상태에서는 특수 능력이나 마법을 사용하지 않는 한 @UUID[Compendium.pf2e.conditionitems.Item.1wQY3JYyhMYeeV2G]{관찰됨}이 될 수 없습니다.</p>"
+      "description": "<p>보이지 않습니다. 당신은 모든 사람에게 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{탐지 불가}입니다. 생물은 @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{탐색}으로 플레이어를 감지할 수 있으며, 플레이어의 은신 DC에 대한 지각 체크에 성공하면, 플레이어는 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨은}이 되어 다시 감지되지 않음 상태가 될 때까지 해당 생물에게 @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{은밀 이동}을 수행할 수 있게 됩니다.</p><p> 누군가 나를 이미 볼 수 있는 상태에서 보이지 않음 상태가 되면, 성공적으로 @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{은밀 이동}을 마칠 때 까지 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{탐지 불가} 상태가 아닌 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨은} 상태로 시작하게 됩니다. 투명한 상태에서는 특수 능력이나 마법을 동원하지 않는 한 @UUID[Compendium.pf2e.conditionitems.Item.1wQY3JYyhMYeeV2G]{관찰됨}이 될 수 없습니다.</p>"
     },
     "Cursebound": {
       "name": "저주에 묶인",

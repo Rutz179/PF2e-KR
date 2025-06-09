@@ -15,7 +15,7 @@
     },
     "Fling Magic": {
       "name": "플링 매직",
-      "description": "<p><strong>요구 조건</strong> 완드를 들고 있습니다.</p>\n<hr />\n<p>60피트 내의 대상에게 마력 에너지를 던져 자신의 클래스 DC에 @Check[type:reflex|dc:resolve(@actor.attributes.classDC.value)|basic:true]저항에 따라 대상에게 @Damage[ceil(@actor.level/2)d4 +@actor.abilities.cha.mod[untyped]]{1d4 + 자신의 카리스마 수정치}에 해당하는 피해를 입힙니다. 피해는 완드를 획득할 때 선택한 유형으로 적용됩니다. 3레벨과 그 이후 2레벨마다 피해량이 1d4씩 증가합니다.</p>\n<p></p>\n<p>평소보다 많은 에너지를 소비하여 투척 마법 효과를 강화할 수 있으며, @Damage[ceil(@actor.level/2)d6 +@actor.abilities.cha.mod[untyped]]{d4 대신 d6의 피해}를 입힐 수 있습니다. 이렇게 하면 완드가 [[[/r 1d4 #Recharge Wand]]{1d4라운드}를 재충전하며, 재충전하는 동안에는 완드의 공격력을 높일 수 없지만 정상적으로 마법을 계속 사용할 수 있습니다. 타격으로 크리티컬 히트를 하면, 완드가 충돌로 인한 힘을 흡수하면서 즉시 재충전됩니다.</p>\n<p></p>\n<hr />\n<p><strong>특별</strong> 이 활동에는 선택한 피해 유형에 해당하는 특성이 있습니다.</p>"
+      "description": "<p><strong>요구 조건</strong> 완드를 들고 있습니다.</p>\n<hr />\n<p>60피트 내의 대상에게 마력 에너지를 던져 자신의 클래스 DC에 @Check[type:reflex|dc:resolve(@actor.attributes.classDC.value)|basic:true]저항에 따라 대상에게 @Damage[ceil(@actor.level/2)d4 +@actor.abilities.cha.mod[untyped]]{1d4 + 자신의 카리스마 수정치}에 해당하는 피해를 입힙니다. 피해는 완드를 획득할 때 선택한 유형으로 적용됩니다. 3레벨과 그 이후 2레벨마다 피해량이 1d4씩 증가합니다.</p>\n<p></p>\n<p>평소보다 많은 에너지를 소비하여 투척 마법 효과를 강화할 수 있으며, @Damage[ceil(@actor.level/2)d6 +@actor.abilities.cha.mod[untyped]]{d4 대신 d6의 피해}를 입힐 수 있습니다. 이렇게 하면 완드가 [[[/r 1d4 #Recharge Wand]]{1d4라운드}를 재충전하며, 재충전하는 동안에는 완드의 공격력을 높일 수 없지만 정상적으로 마법을 계속 사용할 수 있습니다. 타격으로 치명타를 하면, 완드가 충돌로 인한 힘을 흡수하면서 즉시 재충전됩니다.</p>\n<p></p>\n<hr />\n<p><strong>특별</strong> 이 활동에는 선택한 피해 유형에 해당하는 특성이 있습니다.</p>"
     },
     "Furious Strike": {
       "name": "격렬한 공격",
@@ -1271,7 +1271,7 @@
     },
     "Implement's Interruption": {
       "name": "구현 중단",
-      "description": "<p><strong>트리거</strong> 취약성 공격 대상이 집중, 조작 또는 이동 동작을 사용하거나 사용 중인 이동 동작 중에 타일를 벗어납니다.</p>\n<p><strong>요구 사항</strong> 당신은 무기를 들고 있으며 생물에게 대한 취약성 공격으로 혜택을 받고 있습니다. 근접 무기를 사용하는 경우 생물체가 손이 닿는 거리 내에 있어야 하고, 원거리 무기를 사용하는 경우 10피트 이내에 있어야 합니다.</p>\n<hr />\n<p>무기가 적의 약점을 감지하여 적을 공격하도록 손을 유도합니다. 무기 도구로 트리거를 일으킨 생명체를 공격합니다. 공격이 크리티컬 히트로 적중하면 트리거 액션을 방해합니다. 이 공격은 당신의 다중 공격 페널티에 포함되지 않으며, 당신의 다중 공격 페널티도 이 공격에 적용되지 않습니다.</p>"
+      "description": "<p><strong>트리거</strong> 취약성 공격 대상이 집중, 조작 또는 이동 동작을 사용하거나 사용 중인 이동 동작 중에 타일를 벗어납니다.</p>\n<p><strong>요구 사항</strong> 당신은 무기를 들고 있으며 생물에게 대한 취약성 공격으로 혜택을 받고 있습니다. 근접 무기를 사용하는 경우 생물체가 손이 닿는 거리 내에 있어야 하고, 원거리 무기를 사용하는 경우 10피트 이내에 있어야 합니다.</p>\n<hr />\n<p>무기가 적의 약점을 감지하여 적을 공격하도록 손을 유도합니다. 무기 도구로 트리거를 일으킨 생명체를 공격합니다. 공격이 치명타로 적중하면 트리거 액션을 방해합니다. 이 공격은 당신의 다중 공격 페널티에 포함되지 않으며, 당신의 다중 공격 페널티도 이 공격에 적용되지 않습니다.</p>"
     },
     "Spit Ambient Magic": {
       "name": "주변 마법 뱉기",
@@ -1751,7 +1751,7 @@
     },
     "Ring Bell": {
       "name": "종 울리기",
-      "description": "<p><strong>트리거</strong> 당신의 착취 취약점의 대상이 공격하거나 자신 또는 아군에게 영향을 주는 주문을 시전합니다.</p>\n<p><strong> 요구 조건</strong> 당신이 종을 들고 있고, 트리거를 발동하는 생물이 30피트 이내에 있습니다.</p>\n<hr />\n<p>당신의 도구가 갑자기 소리를 내며 적을 혼란에 빠뜨립니다. 연주되는 곡은 트리거가 공격인지 주문인지에 따라 다르며, 달리 명시된 경우를 제외하고는 공격 또는 주문을 발동하는 생물에게 적용됩니다.</p>\n<ul>\n<li><strong>주의를 분산시키는 불협화음</strong> 트리거는 주문입니다. 음악적인 음파 에너지의 충돌을 일으켜 대상을 공격하고 집중력을 깨뜨립니다. 대상은 자신의 클래스 DC에 대한 @Check[type:fortitude|dc:resolve(@actor.system.proficiencies.classDCs.thaumaturge.value)] 내성에 성공하거나 다음 턴이 끝날 때까지 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1}이 됩니다 (대실패 시 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 2}가 됩니다). 대상은 발동 주문을 잃지 않기 위해 플랫 체크를 시도할 필요가 없지만, 불협화음의 고리는 발동 주문의 주문 공격 굴림 또는 주문 DC가 어리둥절해서 낮아집니다.</li>\n<li><strong> Disrupting Harmony</strong> 트리거는 공격입니다. 기묘한 불협화음을 만들어 적의 마음을 가라앉히고 움직임을 방해합니다. 대상은 자신의 클래스 DC에 대한 의지 내성에 성공하거나 다음 턴이 끝날 때까지 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화 1} 또는 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1} 중 하나를 선택해야 합니다. (대실패 시@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화 2} 또는 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 2} 가 됩니다) </li>\n</ul>"
+      "description": "<p><strong>트리거</strong> 당신의 착취 취약점의 대상이 공격하거나 자신 또는 아군에게 영향을 주는 주문을 시전합니다.</p>\n<p><strong> 요구 조건</strong> 당신이 종을 들고 있고, 트리거를 발동하는 생물이 30피트 이내에 있습니다.</p>\n<hr />\n<p>당신의 도구가 갑자기 소리를 내며 적을 혼란에 빠뜨립니다. 연주되는 곡은 트리거가 공격인지 주문인지에 따라 다르며, 달리 명시된 경우를 제외하고는 공격 또는 주문을 발동하는 생물에게 적용됩니다.</p>\n<ul>\n<li><strong>주의를 분산시키는 불협화음</strong> 트리거는 주문입니다. 음악적인 음파 에너지의 충돌을 일으켜 대상을 공격하고 집중력을 깨뜨립니다. 대상은 자신의 클래스 DC에 대한 @Check[type:fortitude|dc:resolve(@actor.system.proficiencies.classDCs.thaumaturge.value)] 내성에 성공하거나 다음 턴이 끝날 때까지 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1}이 됩니다 (대실패 시 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 2}가 됩니다). 대상은 발동 주문을 잃지 않기 위해 플랫 체크를 시도할 필요가 없지만, 불협화음의 고리는 발동 주문의 주문 공격 굴림 또는 주문 DC가 혼미해서 낮아집니다.</li>\n<li><strong> Disrupting Harmony</strong> 트리거는 공격입니다. 기묘한 불협화음을 만들어 적의 마음을 가라앉히고 움직임을 방해합니다. 대상은 자신의 클래스 DC에 대한 의지 내성에 성공하거나 다음 턴이 끝날 때까지 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화 1} 또는 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1} 중 하나를 선택해야 합니다. (대실패 시@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화 2} 또는 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 2} 가 됩니다) </li>\n</ul>"
     },
     "Bear Allies' Burdens": {
       "name": "동료의 짐을 지다",

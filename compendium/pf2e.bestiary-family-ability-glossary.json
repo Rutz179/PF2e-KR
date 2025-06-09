@@ -827,7 +827,7 @@
     },
     "(Ravener) Vicious Criticals": {
       "name": "(Ravener) 악의적인 크리티컬",
-      "description": "<p>Ravener는 공격 롤이 성공한 경우, 19 또는 20이 나온 공격 롤을 크리티컬 히트로 취급합니다. 또한, 레이브너가 공격 중 하나로 치명타를 날릴 때마다, 대상은 @Check[fortitude|dc:|name:Vicious Criticals] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수됨 1} 상태가 됩니다. 대상에게 이미 흡수된 값이 0보다 크면, 흡수된 값이 1씩 증가하며, 최대 흡수량은 4입니다. 레이버너가 이런 방식으로 생물에게 흡수를 적용할 때마다, 레이버너의 소울 워드는 체력 5를 얻습니다.</p>"
+      "description": "<p>Ravener는 공격 롤이 성공한 경우, 19 또는 20이 나온 공격 롤을 치명타로 취급합니다. 또한, 레이브너가 공격 중 하나로 치명타를 날릴 때마다, 대상은 @Check[fortitude|dc:|name:Vicious Criticals] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수됨 1} 상태가 됩니다. 대상에게 이미 흡수된 값이 0보다 크면, 흡수된 값이 1씩 증가하며, 최대 흡수량은 4입니다. 레이버너가 이런 방식으로 생물에게 흡수를 적용할 때마다, 레이버너의 소울 워드는 체력 5를 얻습니다.</p>"
     },
     "(Cryptid, Rumored) Stalk": {
       "name": "(크립티드, 소문) 스토킹",
@@ -983,7 +983,7 @@
     },
     "(Retired) Still Got It!": {
       "name": "(은퇴) 아직 실력은 그대로!",
-      "description": "<p><strong>발동 빈도</strong> 전투당 1회</p> <p><strong>요건</strong> 은퇴한 생물이 전투에 참여하고 있으며, 크리티컬 히트를 기록했거나 전투의 2라운드에 들어간 상태입니다. 은퇴한 생물은 또한 전투가 끝날 때까지 녹슨 상태의 효과를 억제합니다. </p><hr /><p>@UUID[Compendium.pf2e.bestiary-effects.Item.EZVgNBwMrJWeKLXp]{효과: 여전히 건재하다!}</p>"
+      "description": "<p><strong>발동 빈도</strong> 전투당 1회</p> <p><strong>요건</strong> 은퇴한 생물이 전투에 참여하고 있으며, 치명타를 기록했거나 전투의 2라운드에 들어간 상태입니다. 은퇴한 생물은 또한 전투가 끝날 때까지 녹슨 상태의 효과를 억제합니다. </p><hr /><p>@UUID[Compendium.pf2e.bestiary-effects.Item.EZVgNBwMrJWeKLXp]{효과: 여전히 건재하다!}</p>"
     },
     "(Vampire, Strigoi) Shadow Form": {
       "name": "(뱀파이어, 스트리고이) 그림자 형태",
@@ -1459,7 +1459,7 @@
     },
     "(Cryptid, Experimental) Clobber": {
       "name": "(크립티드, 실험용) 강타",
-      "description": "<p>실험용 크립티드가 생물을 공격합니다. 명중 시, 생물은 5피트(크리티컬 히트 시 10피트) 밀려나며 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드린} 상태가 됩니다. 이로 인해 생물이 단단한 물체에 부딪히면, 생물은 추가 1d10의 피해를 받습니다. 실험용 신비 생물이 5레벨 이상인 경우, 이 공격은 무기 피해 주사위 1개를 추가로 입히고, 실험용 신비 생물이 15레벨 이상인 경우, 이 공격은 무기 피해 주사위 2개를 추가로 입힙니다.</p>"
+      "description": "<p>실험용 크립티드가 생물을 공격합니다. 명중 시, 생물은 5피트(치명타 시 10피트) 밀려나며 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드린} 상태가 됩니다. 이로 인해 생물이 단단한 물체에 부딪히면, 생물은 추가 1d10의 피해를 받습니다. 실험용 신비 생물이 5레벨 이상인 경우, 이 공격은 무기 피해 주사위 1개를 추가로 입히고, 실험용 신비 생물이 15레벨 이상인 경우, 이 공격은 무기 피해 주사위 2개를 추가로 입힙니다.</p>"
     },
     "(Vampire, Nosferatu Overlord) Divine Innate Spells": {
       "name": "(뱀파이어, 노스페라투 오버로드) 신성한 타고난 주문",
@@ -1483,7 +1483,7 @@
     },
     "(Zombie) Disgusting Pustules": {
       "name": "(좀비) 역겨운 농포",
-      "description": "<p>좀비는 피어싱 피해나 크리티컬 히트를 받으면 파열되는 농포로 뒤덮여 있습니다.</p> <p>인접한 생물들은 사악한 액체에 맞고, 좀비의 레벨에 해당하는 중간 수준의 주문 DC에 대한 @Check[fortitude|dc:|name:Disgusting Pustules] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1} 상태가 됩니다.</p>"
+      "description": "<p>좀비는 피어싱 피해나 치명타를 받으면 파열되는 농포로 뒤덮여 있습니다.</p> <p>인접한 생물들은 사악한 액체에 맞고, 좀비의 레벨에 해당하는 중간 수준의 주문 DC에 대한 @Check[fortitude|dc:|name:Disgusting Pustules] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1} 상태가 됩니다.</p>"
     },
     "(Nemesis) Explosive Blast": {
       "name": "(Nemesis) 폭발적 폭발",

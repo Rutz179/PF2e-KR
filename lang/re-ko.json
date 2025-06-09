@@ -50,7 +50,7 @@
         }
       },
       "OozeAmmunition": {
-        "CriticalHitText": "크리티컬 히트 시, 대상은 다른 효과와 함께 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{고정된} 상태가 1 라운드 동안 적용됩니다.",
+        "CriticalHitText": "치명타 시, 대상은 다른 효과와 함께 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{고정된} 상태가 1 라운드 동안 적용됩니다.",
         "Greater": {
           "Text": "이 생물은 효과가 끝날 때까지 속도가 -10 피트 감소하고 @Damage[3d4[persistent,acid]]의 피해를 받습니다. 대상은 @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escaping} (DC 29)로 끈적끈적한 거품을 제거하여 효과를 끝낼 수 있습니다. 다른 생물도 이 행동을 할 수 있지만, 그렇게 하면 보조하는 생물에게 탄약의 지속성 산성 피해의 절반이 적용됩니다. 효과를 종료한 생물은 그 턴에 지속성 피해를 계속 받습니다. @UUID[Compendium.pf2e.equipment-effects.Item.6Pwdim01PH447CeS]{효과: 오즈 탄약 (강력)",
           "Title": "오즈 탄약 (강력)"
@@ -467,7 +467,7 @@
       },
       "RedpitchBomb": {
         "Greater": {
-          "criticalSuccess": "<strong>효과</strong> 폭탄은 또한 @Damage[(2*3d4)[persistent,fire]] 및 @Damage[(3[splash])[fire]]{3 fire splash damage}의 피해를 입힙니다. 크리티컬 히트 시, 대상은 다음 턴이 시작될 때까지 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 2} 상태가 됩니다.",
+          "criticalSuccess": "<strong>효과</strong> 폭탄은 또한 @Damage[(2*3d4)[persistent,fire]] 및 @Damage[(3[splash])[fire]]{3 fire splash damage}의 피해를 입힙니다. 치명타 시, 대상은 다음 턴이 시작될 때까지 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 2} 상태가 됩니다.",
           "success": "<strong>효과</strong> 폭탄은 또한 @Damage[3d4[persistent,fire]] 및 @Damage[(3[splash])[fire]]{3 화염 방사 피해}를 입힙니다."
         },
         "Lesser": {
@@ -479,7 +479,7 @@
           "success": "<strong>효과</strong> 폭탄은 또한 @Damage[4d4[persistent,fire]] 및 @Damage[(4[splash])[fire]]{4 화염 스플래시 피해}를 입힙니다."
         },
         "Moderate": {
-          "criticalSuccess": "<strong>효과</strong> 폭탄은 또한 @Damage[(2*2d4)[persistent,fire]] 및 @Damage[(2[splash])[fire]]{2 화염 스플래시 피해}를 입힙니다. 크리티컬 히트 시, 대상은 다음 턴이 시작될 때까지 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1} 상태가 됩니다.",
+          "criticalSuccess": "<strong>효과</strong> 폭탄은 또한 @Damage[(2*2d4)[persistent,fire]] 및 @Damage[(2[splash])[fire]]{2 화염 스플래시 피해}를 입힙니다. 치명타 시, 대상은 다음 턴이 시작될 때까지 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1} 상태가 됩니다.",
           "success": "<strong>효과</strong> 폭탄은 또한 @Damage[2d4[persistent,fire]] 및 @Damage[(2[splash])[fire]]{2 화염 방사 피해}를 입힙니다."
         }
       },
@@ -536,19 +536,19 @@
       },
       "TanglefootBag": {
         "Greater": {
-          "criticalSuccess": "크리티컬 히트 시, @UUID[Compendium.pf2e.equipment-effects.Item.csA4UAD2tQq7RjT8]{-15-foot Speed penalty}를 1분 동안 적용하고 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{고정된}를 1 라운드 동안 적용합니다.",
+          "criticalSuccess": "치명타 시, @UUID[Compendium.pf2e.equipment-effects.Item.csA4UAD2tQq7RjT8]{-15-foot Speed penalty}를 1분 동안 적용하고 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{고정된}를 1 라운드 동안 적용합니다.",
           "success": "타격 시, @UUID[Compendium.pf2e.equipment-effects.Item.csA4UAD2tQq7RjT8]{-15-foot Speed penalty}가 1분 동안 적용됩니다."
         },
         "Lesser": {
-          "criticalSuccess": "크리티컬 히트 시, @UUID[Compendium.pf2e.equipment-effects.Item.fYZIanbYu0Vc4JEL]{-10-foot Speed penalty} 1분 동안 적용되고 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{고정된} 1 라운드 동안 적용됩니다.",
+          "criticalSuccess": "치명타 시, @UUID[Compendium.pf2e.equipment-effects.Item.fYZIanbYu0Vc4JEL]{-10-foot Speed penalty} 1분 동안 적용되고 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{고정된} 1 라운드 동안 적용됩니다.",
           "success": "히트 시, @UUID[Compendium.pf2e.equipment-effects.Item.fYZIanbYu0Vc4JEL]{-10-foot Speed penalty} 1분 동안 적용됩니다."
         },
         "Major": {
-          "criticalSuccess": "크리티컬 히트 시, @UUID[Compendium.pf2e.equipment-effects.Item.ITAFsW3dQPupJ3DW]{-20-foot 속도 페널티} 1분 동안 적용되고 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{고정된} 1 라운드 동안 적용됩니다.",
+          "criticalSuccess": "치명타 시, @UUID[Compendium.pf2e.equipment-effects.Item.ITAFsW3dQPupJ3DW]{-20-foot 속도 페널티} 1분 동안 적용되고 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{고정된} 1 라운드 동안 적용됩니다.",
           "success": "히트 시, @UUID[Compendium.pf2e.equipment-effects.Item.ITAFsW3dQPupJ3DW]{-20피트 속도 페널티}를 1분 동안 적용합니다."
         },
         "Moderate": {
-          "criticalSuccess": "크리티컬 히트 시, @UUID[Compendium.pf2e.equipment-effects.Item.MEreOgnjoRiXPEuq]{-15피트 속도 페널티} 1분 동안 적용되고 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{고정된} 1 라운드 동안 적용됩니다.",
+          "criticalSuccess": "치명타 시, @UUID[Compendium.pf2e.equipment-effects.Item.MEreOgnjoRiXPEuq]{-15피트 속도 페널티} 1분 동안 적용되고 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{고정된} 1 라운드 동안 적용됩니다.",
           "success": "명중 시, @UUID[Compendium.pf2e.equipment-effects.Item.MEreOgnjoRiXPEuq]{-15-발 속도 페널티} 1분 동안."
         }
       },
@@ -1116,7 +1116,7 @@
       },
       "KrampusPunishTheNaughty": "Krampus는 Naughty Target에 대해 굴림 체크를 합니다.",
       "LegionArchon": {
-        "FlameOfJustice": "정의의 불꽃 - 크리티컬 히트"
+        "FlameOfJustice": "정의의 불꽃 - 치명타"
       },
       "LemureSubservience": {
         "Defend": "방어",
@@ -2219,7 +2219,7 @@
       },
       "Ardande": {
         "CausticNectar": {
-          "Note": "크리티컬 히트 시, 대상은 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1} 상태가 됩니다."
+          "Note": "치명타 시, 대상은 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1} 상태가 됩니다."
         },
         "PotentNectar": {
           "PersistentDamage": "지속적인 산성 피해",
@@ -2489,7 +2489,7 @@
         }
       },
       "BloodlettingKukri": {
-        "Note": "크리티컬 히트를 기록했을 때 대상이 이미 지속 출혈 피해를 받고 있지 않았다면, 당신은 [[/r 1d8]]의 임시 체력을 얻습니다."
+        "Note": "치명타를 기록했을 때 대상이 이미 지속 출혈 피해를 받고 있지 않았다면, 당신은 [[/r 1d8]]의 임시 체력을 얻습니다."
       },
       "BodyParts": {
         "Arms": "팔",
@@ -3020,14 +3020,14 @@
           "Prompt": "신성한 분수대를 선택합니다."
         },
         "DivineRebuttal": {
-          "Note": "당신의 공격이 적중하면, 모든 아군들은 발동 내성 굴림에 +2의 상황 보너스를 얻습니다 (크리티컬 히트 시에는 +3의 상황 보너스). @UUID[Compendium.pf2e.feat-effects.Item.jMQi2kDirzGgddti]{효과: 신성한 반박}"
+          "Note": "당신의 공격이 적중하면, 모든 아군들은 발동 내성 굴림에 +2의 상황 보너스를 얻습니다 (치명타 시에는 +3의 상황 보너스). @UUID[Compendium.pf2e.feat-effects.Item.jMQi2kDirzGgddti]{효과: 신성한 반박}"
         },
         "Doctrine": {
           "AllowedDrops": "1레벨 성직자 클래스 피트",
           "Prompt": "교리를 선택합니다."
         },
         "EmblazonAntimagic": {
-          "WeaponNote": "무기로 크리티컬 히트를 기록하면, 대상에게 걸린 주문을 반격할 수 있습니다. 반격 레벨은 레벨의 절반(올림)을 사용합니다. 이를 시도하면 새겨진 상징이 즉시 사라집니다."
+          "WeaponNote": "무기로 치명타를 기록하면, 대상에게 걸린 주문을 반격할 수 있습니다. 반격 레벨은 레벨의 절반(올림)을 사용합니다. 이를 시도하면 새겨진 상징이 즉시 사라집니다."
         },
         "EmblazonEnergy": {
           "MatchingDomainPrompt": "도메인 일치?"
@@ -3336,10 +3336,10 @@
       },
       "EldritchArcher": {
         "ArrowOfDeath": {
-          "Note": "크리티컬 히트를 하면, 대상은 @Check[fortitude|against:class-spell|traits:death,incapacitation] 내성 굴림에 성공하지 않으면 즉시 사망합니다."
+          "Note": "치명타를 하면, 대상은 @Check[fortitude|against:class-spell|traits:death,incapacitation] 내성 굴림에 성공하지 않으면 즉시 사망합니다."
         },
         "EnchantingArrow": {
-          "Note": "크리티컬 히트를 하면, 대상은 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{기절 1} 상태가 됩니다."
+          "Note": "치명타를 하면, 대상은 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{기절 1} 상태가 됩니다."
         },
         "IncorporealShot": {
           "Label": "무형의 사격 - 갑옷을 착용한 대상"
@@ -3399,7 +3399,7 @@
           "Note": "등반 또는 수영 행동에 운동 체크에 성공할 때마다, 이동 거리에 +5 피트 아이템 보너스를 추가합니다."
         },
         "BlackScorpionStingmace": {
-          "BlackScorpionVenomNote": "<p>크리티컬 히트를 하면, 대상은 검은 전갈의 맹독에 노출됩니다.</p> <p><strong>검은 전갈의 맹독</strong> (독)</p> <p><strong>내성 굴림</strong> @Check[fortitude|dc:36]</p> <p><strong>최대 지속 시간</strong> 6 라운드</p> <p><strong>1단계</strong> @Damage[2d12[poison]] 피해 및 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 2} (1 라운드)</p> <p><strong>2단계</strong> @Damage[3d12[poison]] 피해, 서투른 2, @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1} (1 라운드)</p> <p><strong>3단계</strong> @Damage[4d12[poison]] 피해, @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 4}, @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 2} (1 라운드).</p>"
+          "BlackScorpionVenomNote": "<p>치명타를 하면, 대상은 검은 전갈의 맹독에 노출됩니다.</p> <p><strong>검은 전갈의 맹독</strong> (독)</p> <p><strong>내성 굴림</strong> @Check[fortitude|dc:36]</p> <p><strong>최대 지속 시간</strong> 6 라운드</p> <p><strong>1단계</strong> @Damage[2d12[poison]] 피해 및 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 2} (1 라운드)</p> <p><strong>2단계</strong> @Damage[3d12[poison]] 피해, 서투른 2, @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1} (1 라운드)</p> <p><strong>3단계</strong> @Damage[4d12[poison]] 피해, @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 4}, @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 2} (1 라운드).</p>"
         },
         "BloodDrinkerBlade": {
           "Label": "피를 마시는 검 — 생명을 마셔라"
@@ -3638,7 +3638,7 @@
           "ToggleLabel": "세 기둥의 양나 — 세 번째 축복"
         },
         "UnholyPlate": {
-          "Note": "뿔로 크리티컬 히트를 하면, 대상은 @Check[fortitude|dc:30]에 성공하지 못하면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수됨 1}이 됩니다. (또는 대실패 시 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수됨 2})."
+          "Note": "뿔로 치명타를 하면, 대상은 @Check[fortitude|dc:30]에 성공하지 못하면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수됨 1}이 됩니다. (또는 대실패 시 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수됨 2})."
         },
         "UnholyWater": {
           "Note": "성스러운 특성을 가진 생물에게만 피해를 줄 수 있습니다."
@@ -3684,7 +3684,7 @@
         },
         "Epithet": {
           "BornOfTheBonesOfTheEarth": {
-            "CriticalSpecialization": "당신이 공격에 크리티컬을 성공시키고 크리티컬 히트의 대상이 땅이나 돌 표면에 서 있는 경우, 대상은 땅으로 밀려나서 땅에 빠집니다. 대상은 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{고정된} 상태가 되고, 당신의 직업 DC에 대한 @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} 시도에 성공해야만 고정 상태가 해제됩니다. 생물이 무형 상태이거나 액체(물 요소나 일부 오즈와 같은)이거나, 땅파기 속도를 가지고 있거나, 노력 없이 탈출할 수 있는 경우 고정되지 않습니다.",
+            "CriticalSpecialization": "당신이 공격에 크리티컬을 성공시키고 치명타의 대상이 땅이나 돌 표면에 서 있는 경우, 대상은 땅으로 밀려나서 땅에 빠집니다. 대상은 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{고정된} 상태가 되고, 당신의 직업 DC에 대한 @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} 시도에 성공해야만 고정 상태가 해제됩니다. 생물이 무형 상태이거나 액체(물 요소나 일부 오즈와 같은)이거나, 땅파기 속도를 가지고 있거나, 노력 없이 탈출할 수 있는 경우 고정되지 않습니다.",
             "Description": "땅이나 돌 표면 위에 서서 Spark Transcendence를 사용할 때, @Template[type:emanation|distance:10] 범위 내에서 표면을 부수어 어려운 지형으로 만들 수 있습니다. 당신은 이 어려운 지형의 영향을 받지 않습니다.",
             "Label": "지구의 뼈에서 태어난"
           },
@@ -3746,7 +3746,7 @@
             "Label": "시간의 소멸"
           },
           "Label": "영원을 태우는 불꽃",
-          "Note": "당신이 이 무기에 부여된 아이콘으로 크리티컬 히트를 기록할 때마다, 대상은 @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{파멸 1}이 되거나, 파멸 상태가 1 증가합니다. 이 능력으로 대상의 최대 사망 값이 0으로 감소하면, 대상은 영혼의 불꽃에 휩싸여 즉시 사망하고 시신은 재로 변합니다."
+          "Note": "당신이 이 무기에 부여된 아이콘으로 치명타를 기록할 때마다, 대상은 @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{파멸 1}이 되거나, 파멸 상태가 1 증가합니다. 이 능력으로 대상의 최대 사망 값이 0으로 감소하면, 대상은 영혼의 불꽃에 휩싸여 즉시 사망하고 시신은 재로 변합니다."
         },
         "GiftOfTheImmortalHerb": {
           "ShedOfTheMortalSkin": {
@@ -3860,7 +3860,7 @@
         },
         "Sunwrecker": {
           "Label": "선웨커",
-          "Note": "이 무기로 크리티컬 히트를 성공하면, 무기가 공격 대상의 중심에 2등급의 어둠을 시전합니다."
+          "Note": "이 무기로 치명타를 성공하면, 무기가 공격 대상의 중심에 2등급의 어둠을 시전합니다."
         }
       },
       "ExemplaryFinisher": {
@@ -4038,7 +4038,7 @@
       },
       "Fleshwarp": {
         "CoatingOfSlime": {
-          "CriticalHit": "크리티컬 히트 시, 대상은 @Damage[1d4[persistent,acid]]의 피해를 받습니다."
+          "CriticalHit": "치명타 시, 대상은 @Damage[1d4[persistent,acid]]의 피해를 받습니다."
         },
         "LivingWeapon": {
           "Prompt": "무기로 사용할 신체 부위를 선택하세요."
@@ -4418,7 +4418,7 @@
             "Label": "크리티컬 폭발",
             "Metal": "대상은 1d6의 지속 출혈 피해를 받습니다. 생물이 금속 특성을 가지고 있거나 금속으로 만들어진 경우, 대신 녹으로 인한 유형이 없는 @Damage[1d6[persistent,untyped]]의 피해를 받습니다. 게이트 감쇠기에서 얻는 것과 같은, 임펄스 공격 굴림에 대한 아이템 보너스와 동일한 지속 피해에 대한 아이템 보너스를 얻습니다.",
             "Water": "폭발은 폭발의 피해 주사위 당 2의 방사 피해를 같은 피해 유형으로 입힙니다.",
-            "Wood": "크리티컬 히트의 대상이 표면에 인접해 있는 경우, 뿌리가 그 대상을 얽어 매듭짓습니다. 대상은 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{고정된} 상태가 되고, @Check[athletics|dc:10] 체크를 시도하여 스스로를 풀어내기 위해 상호 작용 행동을 사용해야 합니다. 대상은 무형이거나 액체이거나, 또는 별다른 노력 없이 도망칠 수 있는 경우 붙잡히지 않습니다."
+            "Wood": "치명타의 대상이 표면에 인접해 있는 경우, 뿌리가 그 대상을 얽어 매듭짓습니다. 대상은 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{고정된} 상태가 되고, @Check[athletics|dc:10] 체크를 시도하여 스스로를 풀어내기 위해 상호 작용 행동을 사용해야 합니다. 대상은 무형이거나 액체이거나, 또는 별다른 노력 없이 도망칠 수 있는 경우 붙잡히지 않습니다."
           },
           "ElementalBlast": {
             "Label": {
@@ -4517,7 +4517,7 @@
       },
       "Leshy": {
         "Seedpod": {
-          "Note": "크리티컬 히트를 하면 씨앗 주머니가 터지면서 얽힌 식물이 튀어나와 1 라운드 동안 대상의 속도에 -10 피트의 상황 페널티를 부과합니다. @UUID[Compendium.pf2e.feat-effects.Item.wQDHpOKY3GZqvS2v]{효과: 씨앗 주머니}"
+          "Note": "치명타를 하면 씨앗 주머니가 터지면서 얽힌 식물이 튀어나와 1 라운드 동안 대상의 속도에 -10 피트의 상황 페널티를 부과합니다. @UUID[Compendium.pf2e.feat-effects.Item.wQDHpOKY3GZqvS2v]{효과: 씨앗 주머니}"
         },
         "ThornedSeedpod": {
           "Note": "씨앗 주머니 공격이 크리티컬에 성공하면 덩굴이 뒤틀려 적을 찌르며 @Damage[1d4[persistent,piercing]]의 피해를 입힙니다."
@@ -5230,7 +5230,7 @@
       },
       "RelicGift": {
         "DivineRetribution": {
-          "CriticalSuccess": "대상이 악한 경우, 크리티컬 히트를 당하면 다음 턴이 시작될 때까지 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화 2} 상태가 됩니다.",
+          "CriticalSuccess": "대상이 악한 경우, 치명타를 당하면 다음 턴이 시작될 때까지 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화 2} 상태가 됩니다.",
           "Success": "대상이 악한 경우, 명중 시 다음 턴이 시작될 때까지 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화 1} 상태가 됩니다."
         }
       },
@@ -6212,7 +6212,7 @@
       },
       "VenomGlands": {
         "Label": "독 분사",
-        "Note": "크리티컬 히트 시 대상은 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1} 상태가 됩니다."
+        "Note": "치명타 시 대상은 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1} 상태가 됩니다."
       },
       "VirtuosicPerformer": {
         "Acting": "행동",
