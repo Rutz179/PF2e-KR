@@ -774,7 +774,7 @@
           "Illumination": "조명",
           "IlluminationColor": "조명 공명",
           "Sensory": "감각",
-          "Subterfuge": "속임수"
+          "Subterfuge": "기만"
         }
       },
       "AlchemicalGolem": {
@@ -1322,7 +1322,7 @@
         }
       },
       "TongueOfFlame": {
-        "DescriptionAddendum": "폭군이 <em>매력</em>, <em>사악한 칙령</em>, <em>매혹</em> 또는 <em>떠다니는 불꽃</em>을 시전하면, 대상이 @Damage[(@item.rank)[fire]]의 피해를 받거나 폭군이 1 라운드 동안 속임수 체크에 +2의 상태 보너스를 얻습니다."
+        "DescriptionAddendum": "폭군이 <em>매력</em>, <em>사악한 칙령</em>, <em>매혹</em> 또는 <em>떠다니는 불꽃</em>을 시전하면, 대상이 @Damage[(@item.rank)[fire]]의 피해를 받거나 폭군이 1 라운드 동안 기만 체크에 +2의 상태 보너스를 얻습니다."
       },
       "ToothFairy": {
         "ToothTug": {
@@ -1601,7 +1601,7 @@
       },
       "Force2d12": {
         "criticalSuccess": "@Damage[(2*2d12)[persistent, 역장]]",
-        "success": "@Damage[2d12[persistent, 힘]]"
+        "success": "@Damage[2d12[persistent, force]]"
       },
       "Mental1d4": {
         "criticalSuccess": "@Damage[(2*1d4)[persistent, 정신]]",
@@ -1959,7 +1959,7 @@
       "Singing": "노래",
       "Skinless": "피부가 없는 상태에서",
       "Snow": "눈 속",
-      "Squeeze": "짜내기",
+      "Squeeze": "비집고 나아가기",
       "Steal": "훔치기",
       "StonyOrIcyAreas": "바위나 얼음 지역",
       "StringedInstruments": "현악기용",
@@ -2034,7 +2034,7 @@
           "SuccessBetterAdditionalInformation": "지식 회상 체크에 성공하면 추가 정보나 상황을 얻습니다. 지식 회상 체크에 대성공을 하면, GM의 재량에 따라 평소보다 더 많은 추가 정보나 상황을 얻을 수도 있습니다."
         },
         "Squeeze": {
-          "CriticalFailureSuccessBetter": "Squeeze 체크에 대실패를 하면 대신 실패가 되고, 성공을 하면 대신 대성공이 됩니다."
+          "CriticalFailureSuccessBetter": "비집고 나아가기 체크에 대실패를 하면 대신 실패가 되고, 성공을 하면 대신 대성공이 됩니다."
         },
         "Survival": {
           "SenseDirection": {
@@ -2073,7 +2073,7 @@
         },
         "BlowgunPoisoner": {
           "CriticalNote": "독이 묻은 다트를 사용하여 블로우건 공격에 대성공을 하면, 대상의 독에 대한 초기 내성은 생물체가 굴린 성공도보다 1도 낮아집니다. 이는 불행 효과입니다.",
-          "StealthNote": "또한, @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨은} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{감지되지 않음} 상태일 때 블로우건 공격을 성공적으로 수행하면, 자동으로 @UUID[Compendium.pf2e.conditionitems.Item.1wQY3JYyhMYeeV2G]{관찰됨} 상태가 되지 않습니다. 대신, 즉시 대상의 지각 DC에 대해 @Check[stealth|against:perception] 체크를 시도합니다. 성공하면, 당신은 관찰되지 않고 숨겨진 상태가 됩니다 (당신이 감지되지 않았던 경우에도, 감지되지 않은 상태로 남아 있지 않고 숨겨진 상태가 됩니다)."
+          "StealthNote": "또한, @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨은} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{탐지 불가} 상태일 때 블로우건 공격을 성공적으로 수행하면, 자동으로 @UUID[Compendium.pf2e.conditionitems.Item.1wQY3JYyhMYeeV2G]{관찰됨} 상태가 되지 않습니다. 대신, 즉시 대상의 지각 DC에 대해 @Check[stealth|against:perception] 체크를 시도합니다. 성공하면, 당신은 관찰되지 않고 숨겨진 상태가 됩니다 (당신이 감지되지 않았던 경우에도, 감지되지 않은 상태로 남아 있지 않고 숨겨진 상태가 됩니다)."
         },
         "DebilitatingBomb": {
           "AttackRollNote": "대상은 @Check[fortitude|against:class]에 성공해야 합니다. 그렇지 않으면 다음 효과 중 하나를 받습니다: 눈부심, 귀 먹음, 오프 가드, 또는 속도에 -5 피트의 상태 페널티를 받습니다. @UUID[Compendium.pf2e.feat-effects.Item.VTJ8D23sOIfApEt3]{효과: Debilitating Bomb}",
@@ -2605,7 +2605,7 @@
           "Trigger": "적이 당신을 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포} 상태로 만듭니다."
         },
         "Hatred": {
-          "Activation": "당신은 스텝 또는 스트라이드를 사용할 수 있습니다. 이 이동을 끝낼 때는 감정 포커스에 더 가까이 있어야 합니다.",
+          "Activation": "당신은 @UUID[Compendium.pf2e.actionspf2e.Item.UHpkTuCtyaPqiCAB]{신중한 발걸음} 또는 스트라이드를 사용할 수 있습니다. 이 이동을 끝낼 때는 감정 포커스에 더 가까이 있어야 합니다.",
           "Description": "당신의 당당한 증오가 당신의 영혼을 소모하고 적을 흔들게 합니다. 당신의 감정 포커스는 당신이 혐오하는 개별 적입니다.",
           "Fallout": "당신은 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{기절 2}가 됩니다.",
           "Fervor": "당신의 감정 포커스는 당신에게 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프-가드} 상태가 되고, 당신의 주문에 대한 내성에 -2의 상태 페널티를 받습니다. 당신은 당신의 감정 포커스에 대해 오프 가드 상태가 되고, 그에 대한 내성에 -2의 상태 페널티를 받습니다. 주문: @UUID[Compendium.pf2e.spells-srd.Item.TaaMEYdZXQXF0Sks]{Blood Vendetta}",
@@ -2754,10 +2754,10 @@
       "ChangeShape": {
         "Anadi": "당신은 인간 또는 거미의 모습으로 변신합니다. 각 모습은 고유하고 지속적인 외모를 가지고 있습니다. 인간의 모습에서는 조상의 능력으로 부여된 무기 없는 공격을 사용할 수 없습니다. 거미 형태로 등반할 때는 오프 가드가 되지 않습니다. 그러나 거미 형태로는 무기, 방패 또는 그 밖의 모든 종류의 소지품을 사용할 수 없으며, 조작 특성을 가진 행동은 제한됩니다. 수행할 수 있는 유일한 조작 행동은 @UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]{주문 시전} , 실크나 거미줄을 짜거나, 잠기지 않은 문을 여는 등 간단한 @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{Interact} 행동을 할 수 있습니다. 거미의 다리는 손가락이나 상당한 손재주가 필요한 행동, 즉 체크가 필요한 행동을 할 수 없습니다. GM은 거미 다리에 적합한 다른 조작 행동을 결정할 수 있습니다.",
         "Beastkin": "당신은 인간형 또는 혼합형으로 변신합니다. 각 형태는 고유하고 지속적인 외모를 가지고 있으며, 대부분의 야수족은 기본적으로 혼합형으로 남아 있습니다. 혼합형에서는, 당신은 당신의 조상과 타고난 동물 사이의 혼합으로 보입니다. 하이브리드 형태로 있는 동안, 당신은 본래의 동물의 특징을 닮은 무기 없는 공격인 턱을 얻습니다 (박쥐는 송곳니, 독수리는 부리, 말벌은 턱 등). 당신의 턱은 1d4의 관통 피해를 주고, 민첩, 기민, 무기 없는 특성을 가지며, 근접 무기 그룹에 속합니다. 인간형으로 변신하면, 당신은 원래 조상의 외모를 유지합니다.",
-        "Kitsune": "당신은 유전적 배경에 따라 특정 대체 형태로 변신합니다. 유전적 배경에 형태가 명시되지 않은 경우, 대체 형태는 꼬리가 없는 형태로, 성장한 지역에서 일반적인 중간 크기 인간형 종족(일반적으로 인간)입니다. 이 형태는 진정한 형태와 동일한 나이 및 체형이며, 머리 색상 등 유사한 신체적 특성을 가집니다. 모양 변경을 사용하는 것은 @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{사칭}의 속임수 사용에 대한 변장을 만드는 것으로 간주됩니다. 이 형태로 키츠네의 유산이나 조상의 특전에서 얻은 무기 없는 공격은 모두 잃게 됩니다. 대체 형태로 무제한으로 머물 수 있으며, 이 행동을 다시 사용해 진정한 키츠네 형태로 돌아갈 수 있습니다.",
+        "Kitsune": "당신은 유전적 배경에 따라 특정 대체 형태로 변신합니다. 유전적 배경에 형태가 명시되지 않은 경우, 대체 형태는 꼬리가 없는 형태로, 성장한 지역에서 일반적인 중간 크기 인간형 종족(일반적으로 인간)입니다. 이 형태는 진정한 형태와 동일한 나이 및 체형이며, 머리 색상 등 유사한 신체적 특성을 가집니다. 모양 변경을 사용하는 것은 @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{사칭}의 기만 사용에 대한 변장을 만드는 것으로 간주됩니다. 이 형태로 키츠네의 유산이나 조상의 특전에서 얻은 무기 없는 공격은 모두 잃게 됩니다. 대체 형태로 무제한으로 머물 수 있으며, 이 행동을 다시 사용해 진정한 키츠네 형태로 돌아갈 수 있습니다.",
         "Tanuki": "@UUID[Compendium.pf2e.spells-srd.Item.gfPjmG6Fe6D3MFjl]{Pest Form}의 통계치를 사용해 일반적인 라쿤 개로 변신할 수 있습니다. 이 형태는 진정한 형태와 동일한 나이 및 체형이며, 머리 색상 등 유사한 신체적 특성을 가진 특정 너구리 형태입니다. Change Shape를 사용하는 것은 Deception의 @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{사칭} 사용 시 위장 생성으로 간주됩니다. 이 형태에서는 너구리 유산이나 조상 피트에서 얻은 모든 무기 공격을 잃게 됩니다. 너구리 형태는 무기한으로 유지할 수 있으며, 이 행동을 다시 사용하면 너구리 형태로 되돌릴 수 있습니다.",
         "Werecreature": "당신은 하이브리드 또는 동물 형태로 변신합니다. 당신의 장비도 함께 변형되어 보너스를 계속 제공하지만, 동물 형태로는 무기, 방패 또는 기타 소지품을 사용할 수 없으며 조작 행동을 사용할 수 없습니다. 당신은 이동 속도, 무기 없는 공격, 그리고 당신의 야수 유형에 따라 다른 능력을 얻습니다. 이 무기 없는 공격은 싸움 그룹에 속합니다. 효과를 해제하여 인간형으로 돌아갈 수 있으며, 체력이 0이 되면 자동으로 인간형으로 돌아갑니다.",
-        "Yaoguai": "당신은 진정한 야오과이 형태에서 인간형 대체 형태로 변신하거나 그 반대로 변신합니다. 이 대체 형태는 당신이 태어난 곳에서 흔히 볼 수 있는 중간 크기의 인간형 조상(일반적으로 인간)입니다. 이 형태는 야오과이 형태와 외모 및 체격이 동일하며, 머리 색깔 등 대략적으로 유사한 신체적 특징을 가지고 있습니다. 모양 변경을 사용하는 것은 @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{사칭}의 속임수 사용에 대한 변장을 만드는 것으로 간주됩니다. 인간형으로 무기한으로 남아 있을 수 있지만, 1시간 동안 의식을 잃거나 사망한 후 1분이 지나면 야오과이 형태로 되돌아갑니다."
+        "Yaoguai": "당신은 진정한 야오과이 형태에서 인간형 대체 형태로 변신하거나 그 반대로 변신합니다. 이 대체 형태는 당신이 태어난 곳에서 흔히 볼 수 있는 중간 크기의 인간형 조상(일반적으로 인간)입니다. 이 형태는 야오과이 형태와 외모 및 체격이 동일하며, 머리 색깔 등 대략적으로 유사한 신체적 특징을 가지고 있습니다. 모양 변경을 사용하는 것은 @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{사칭}의 기만 사용에 대한 변장을 만드는 것으로 간주됩니다. 인간형으로 무기한으로 남아 있을 수 있지만, 1시간 동안 의식을 잃거나 사망한 후 1분이 지나면 야오과이 형태로 되돌아갑니다."
       },
       "CharmOfResistance": {
         "Greater": "{damageType} 저항 매력 (강력)",
@@ -4086,7 +4086,7 @@
           "GravelandsLabel": "자갈밭"
         },
         "TerrainAttunement": {
-          "Aquatic": "당신의 육상 속도와 동일한 수영 속도를 얻습니다. 표면에 있는 경우, 일시적인 파도가 당신의 움직임을 따라가며, 수영 속도가 있는 경우 육상 속도로 사용할 수 있습니다. 이 효과는 1 라운드 동안 지속됩니다.",
+          "Aquatic": "당신의 운동 속도와 동일한 수영 속도를 얻습니다. 표면에 있는 경우, 일시적인 파도가 당신의 움직임을 따라가며, 수영 속도가 있는 경우 운동 속도로 사용할 수 있습니다. 이 효과는 1 라운드 동안 지속됩니다.",
           "Arctic": "적들은 @Check[fortitude] 내성을 시도해야 합니다. 2 라운드 동안 속도에 -5 피트의 상태 페널티를 받습니다 (대실패 시 -10 피트).",
           "Desert": "적들은 @Check[fortitude] 내성을 시도해야 합니다. 실패하면, 물을 마시거나 다른 마실 수 있는 액체를 마실 때까지 @UUID[Compendium.pf2e.conditionitems.HL2l2VRSaQHu9lUw]{피곤} 상태가 됩니다.",
           "Forest": "가지와 덩굴이 적의 길을 막기 위해 뻗어 나갑니다. 적들은 @Check[reflex] 내성을 시도해야 합니다. 실패하면 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{서투른 1} 상태가 됩니다 (대실패 시 @UUID[Compendium.pf2e.conditionitems.i3OJZU2nk64Df3xm]{서투른 2} 상태가 됩니다).",
@@ -4590,7 +4590,7 @@
         "UnyieldingWill": "불굴의 의지"
       },
       "MarkForDeath": {
-        "DeceiveMark": "속임수를 사용하여 마크를 속이기",
+        "DeceiveMark": "기만를 사용하여 마크를 속이기",
         "SeekMark": "마크를 찾기",
         "TargetMark": "표적이 죽음의 표식이 됩니다"
       },
@@ -4881,8 +4881,8 @@
           "Overwhelmed": "계시 주문을 시전한 직후, 당신은 압도됩니다. 압도 상태에서는 계시 주문을 시전하거나 유지할 수 없습니다."
         },
         "Cursebound": {
-          "IncreaseNote": "저주에 묶인 능력을 사용할 때, 당신은 @UUID[Compendium.pf2e.conditionitems.Item.zXZjC8HLaRoLR17U]{Cursebound 1} 상태가 되거나, 이미 저주에 묶여 있다면 저주 상태의 값이 1 증가합니다.",
-          "MaximumNote": "이미 최대 @UUID[Compendium.pf2e.conditionitems.Item.zXZjC8HLaRoLR17U]{저주에 묶인} 값에 도달한 경우, 저주에 묶인 능력을 사용할 수 없습니다."
+          "IncreaseNote": "저주에 묶인 능력을 사용할 때, 당신은 @UUID[Compendium.pf2e.conditionitems.Item.zXZjC8HLaRoLR17U]{저주 속박 1} 상태가 되거나, 이미 저주에 묶여 있다면 저주 상태의 값이 1 증가합니다.",
+          "MaximumNote": "이미 최대 @UUID[Compendium.pf2e.conditionitems.Item.zXZjC8HLaRoLR17U]{저주 속박} 값에 도달한 경우, 저주에 묶인 능력을 사용할 수 없습니다."
         },
         "DiverseMystery": {
           "Toggle": "사용된 다양한 신비 저주에 묶인 주문"
@@ -5105,7 +5105,7 @@
             "Base": "당신의 정신 감응 메시지를 통해 정보를 전달하며 행동을 조율할 수 있습니다. 메시지의 대상은 즉시 반응을 사용하여 한 걸음 비키(Step)거나 이동(Stride)할 수 있습니다.",
             "Heightened": "메시지의 대상은 반응을 사용하여 @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{밀치기}, 공격(Strike), 또는 @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{넘어뜨리기(Trip)}를 선택할 수 있습니다."
           },
-          "MindsLightCirclet": "당신은 마음의 빛 고리에서 마법적인 빛의 일부를 생물 중 하나에게 전달합니다. 주문 대상이거나 그 범위 내에 있는 생물을 선택합니다. 다음 차례가 시작될 때까지 해당 생물은 20피트 반경 내에 밝은 빛을 내뿜고 (다음 20피트까지는 어두운 빛을 내뿜으며) @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진} 상태가 되지 않습니다. 해당 생물이 @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{투명한} 상태라면, 빛을 발하는 동안 숨겨진 상태가 되며, @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{감지되지 않음} 상태가 되지 않습니다.",
+          "MindsLightCirclet": "당신은 마음의 빛 고리에서 마법적인 빛의 일부를 생물 중 하나에게 전달합니다. 주문 대상이거나 그 범위 내에 있는 생물을 선택합니다. 다음 차례가 시작될 때까지 해당 생물은 20피트 반경 내에 밝은 빛을 내뿜고 (다음 20피트까지는 어두운 빛을 내뿜으며) @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진} 상태가 되지 않습니다. 해당 생물이 @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{투명한} 상태라면, 빛을 발하는 동안 숨겨진 상태가 되며, @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{탐지 불가} 상태가 되지 않습니다.",
           "OmnidirectionalScan": {
             "Base": "당신의 스캔은 매우 정교해서 적의 강점과 약점을 예측할 수 있습니다. 당신은 대상 적의 내성 굴림 중 가장 높은 것과 가장 낮은 것을 파악하고, 30피트 내의 모든 아군들은 그 생물에 대한 공격과 피해에 +1의 상황 보너스를 얻습니다.",
             "BaseTwo": "준비한 지원 반응을 사용하고 굴림에 성공하면, 지원 대상의 공격에 대한 보너스가 +2로 증가합니다. 대성공을 하면 보너스가 +3으로 증가하고, 주문 공격 굴림에 전설적인 숙련도를 가지고 있다면 +4로 증가합니다."
@@ -5449,12 +5449,12 @@
             "AncestralBloodMagic": "조상의 주문을 시전",
             "Angelic": "당신이나 한 대상이 1 라운드 동안 내성 굴림에 +1의 상태 보너스를 받습니다.",
             "Demonic": "대상 중 하나는 1 라운드 동안 AC에 -1의 상태 페널티를 받거나, 당신은 1 라운드 동안 협박 체크에 +2의 상태 보너스를 받습니다.",
-            "Diabolic": "대상 중 하나는 @Damage[@item.level[fire]]의 피해를 받거나 (주문이 이미 초기 화염 피해를 주는 경우, 약점과 저항력을 결정하기 전에 이 피해를 주문의 초기 피해와 합산합니다), 당신은 1 라운드 동안 속임수 체크에 +2의 상태 보너스를 받습니다.",
+            "Diabolic": "대상 중 하나는 @Damage[@item.level[fire]]의 피해를 받거나 (주문이 이미 초기 화염 피해를 주는 경우, 약점과 저항력을 결정하기 전에 이 피해를 주문의 초기 피해와 합산합니다), 당신은 1 라운드 동안 기만 체크에 +2의 상태 보너스를 받습니다.",
             "Draconic": "당신 또는 한 명의 대상이 1 라운드 동안 AC에 +1 상태 보너스를 받습니다.",
             "Elemental": "당신은 1 라운드 동안 협박 체크에 +2 상태 보너스를 받거나, 대상이 @Damage[@item.level[@actor.flags.pf2e.elementalBloodline.damageType]]의 피해를 받습니다. 주문이 이미 해당 유형의 피해를 입히는 경우, 약점과 저항력을 결정하기 전에 주문의 초기 피해와 합산합니다.",
             "ExplosionOfPower": "@Template[emanation|distance:5] 내에 있는 모든 생물은 @Damage[(@item.level)d6|options:explosion-of-power]의 피해를 받습니다 (@Check[reflex|basic|against:spell] 내성).",
             "Fey": "1 라운드 동안 성능 체크에 +2 상태 보너스를 받거나, 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진}가 될 수 있습니다. 이러한 명백한 은폐는 @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Hide}에 사용할 수 없습니다.",
-            "Genie": "당신의 주문은 현실을 왜곡하고 적의 주의를 분산시킵니다. 1 라운드 동안 속임수 체크에 +1의 상태 보너스를 받거나, 대상이 1 라운드 동안 지각에 -1의 상태 페널티를 받습니다.",
+            "Genie": "당신의 주문은 현실을 왜곡하고 적의 주의를 분산시킵니다. 1 라운드 동안 기만 체크에 +1의 상태 보너스를 받거나, 대상이 1 라운드 동안 지각에 -1의 상태 페널티를 받습니다.",
             "Hag": "당신의 다음 턴이 끝나기 전에 당신에게 피해를 입힌 첫 번째 생물에게 @Damage[(4*@item.level)[정신]]의 피해를 입힙니다 (@Check[will|basic|against:spell] 내성). 그 동안 당신에게 피해를 입힌 생물이 없다면, 당신은 그 악의를 소모하여 다음 턴이 시작될 때 주문 등급에 해당하는 임시 체력을 얻습니다. 이 임시 체력은 다음 턴이 시작될 때까지 지속됩니다.",
             "Harrow": "당신은 가능성의 가능성으로 둘러싸여, 당신의 가능한 미래에서 나온 여러 버전의 자신이 서로 겹쳐진 형태로 나타납니다. 당신은 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진}를 1 라운드 동안 얻지만, 이 은폐 효과를 @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Hide}에 사용할 수 없습니다.",
             "Imperial": "다음 턴이 시작될 때까지, AC 또는 내성 굴림에 +1 상태 보너스를 선택하여 얻을 수 있습니다.",
@@ -5942,7 +5942,7 @@
         "ManualPercussive": "수동 타격 스트라이커 다이나모",
         "ManualPower": "수동 파워 드라이버 다이나모",
         "StasianSmash": {
-          "CriticalFailureText": "다이나모 스트라이크에 대실패를 하면 @Damage[1d12[전기]]의 피해를 받습니다.",
+          "CriticalFailureText": "다이나모 스트라이크에 대실패를 하면 @Damage[1d12[electricity]]의 피해를 받습니다.",
           "SuccessText": "성공하면, 공격은 대상에게 추가 1d12의 전기 피해를 입히고, 10 피트 이내의 다른 적 최대 2명에게 @Damage[(ternary(gte(@actor.level,18),2,1))d4[electricity]]의 피해를 입힙니다."
         }
       },

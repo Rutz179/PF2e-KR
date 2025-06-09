@@ -8,7 +8,7 @@
   "entries": {
     "Observed": {
       "name": "관찰됨",
-      "description": "<p>눈에 보이는 모든 것은 플레이어에게 관찰됨. 생물이 은신을 사용하는 등 탐지를 피하기 위한 조치를 취하면 @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Hide} 대신 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨은} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{감지되지 않음} 이 될 수 있습니다. 시각 외에 다른 정밀한 감각이 있다면 해당 감각을 사용하여 생물이나 물체를 관찰할 수 있습니다. 정확한 감각으로만 생물을 관찰할 수 있습니다. 부정확한 감각으로만 생물을 @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{탐색 중}일 경우, 관찰됨이 아니라 숨겨진 상태로 남습니다.</p>"
+      "description": "<p>눈에 보이는 모든 것은 플레이어에게 관찰됨. 생물이 은신을 사용하는 등 탐지를 피하기 위한 조치를 취하면 @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Hide} 대신 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨은} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{탐지 불가} 이 될 수 있습니다. 시각 외에 다른 정밀한 감각이 있다면 해당 감각을 사용하여 생물이나 물체를 관찰할 수 있습니다. 정확한 감각으로만 생물을 관찰할 수 있습니다. 부정확한 감각으로만 생물을 @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{탐색 중}일 경우, 관찰됨이 아니라 숨겨진 상태로 남습니다.</p>"
     },
     "Doomed": {
       "name": "파멸",
@@ -23,7 +23,7 @@
       "description": "<p>부러진 상태는 물체에만 영향을 주는 상태입니다. 물체는 피해로 인해 HP가 부러진 한계치 이하로 감소하면 부러진 상태입니다. 부러진 물체는 정상적인 기능을 사용할 수 없으며, 갑옷을 제외하고는 보너스를 부여하지 않습니다. 부러진 갑옷은 여전히 AC에 아이템 보너스를 부여하지만, 갑옷의 종류에 따라 AC에 상태 페널티를 부여합니다: 부러진 경갑옷은 -1, 부러진 평갑옷은 -2, 부러진 중갑옷은 -3입니다.</p>\n<p>부러진 아이템은 휴대, 소지, 착용 시 일반적으로 발생하는 페널티와 제한이 여전히 적용됩니다. 예를 들어, 부러진 방어구에는 민첩 수정치 상한, 체크 페널티 등이 여전히 적용됩니다. 어떤 효과로 인해 아이템이 자동으로 부러진 상태에서 아이템의 HP가 부러진 한계치보다 많으면, 해당 효과는 아이템의 현재 HP도 부러진 한계치만큼 감소합니다.</p>"
     },
     "Paralyzed": {
-      "name": "마비됨",
+      "name": "마비",
       "description": "<p>제자리에서 멈췄습니다. @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프-가드} 상태가 되어 @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{지식 회상} 외에는 행동할 수 없으며 (GM이 결정하는 대로) 마음만 필요한 액션을 사용할 수 있습니다. 감각은 여전히 작동하지만, 움직이지 않고 지각할 수 있는 영역에서만 작동하므로 @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{찾기}를 할 수 없습니다.</p>"
     },
     "Deafened": {
@@ -31,8 +31,8 @@
       "description": "<p>들을 수 없습니다. 들을 수 있어야 하는 지각 체크는 자동으로 대실패합니다. 우선권을 위한 지각 검사 및 소리를 포함하지만 다른 감각에 의존하는 검사에서 -2 상태 페널티를 받습니다. 청각 특성이 있는 액션을 수행할 경우, @Check[type:flat|showDC:all|dc:5]에 성공하지 못하면 액션을 잃게 되며, 액션을 사용한 후 효과가 적용되기 전에 체크에 시도해야 합니다. 귀가 먼 상태에서는 청각 효과에 면역입니다.</p>"
     },
     "Unnoticed": {
-      "name": "눈에 띄지 않음",
-      "description": "<p>생명체에게 눈에 띄지 않는다면, 그 생명체는 플레이어의 존재를 전혀 모릅니다. 눈에 띄지 않음은 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{감지되지 않음}이기도 합니다. 이는 플레이어의 존재를 전혀 인식하지 못하는 대상에게만 사용할 수 있는 능력에 중요합니다.</p>"
+      "name": "인식 불가",
+      "description": "<p>인식 불가 상태인 생명체는 다른 생명체들이 그 존재 유무를 알 수 없습니다. 인식 불가는 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{탐지 불가}의 상위호환 입니다.</p>"
     },
     "Controlled": {
       "name": "제어됨",
@@ -75,8 +75,8 @@
       "description": "<p>눈이 과도하게 자극받았거나 시야가 흐릿합니다. 시각이 유일한 정확한 감각이라면, 모든 생명체와 물체는 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진} 당신으로부터 멀어집니다.</p>"
     },
     "Undetected": {
-      "name": "감지되지 않음",
-      "description": "<p>생물에게 감지되지 않음 상태에서는 해당 생물이 플레이어를 전혀 볼 수 없고, 플레이어가 어떤 공간을 점유하고 있는지 알지 못하며, 플레이어를 목표로 삼을 수 없지만, 특정 지역을 대상으로 하는 능력의 영향을 받을 수 있습니다. 당신이 어떤 생물에게 감지되지 않은 경우, 그 생물은 당신에게 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프-가드}입니다.</p>\n<p>당신이 감지되지 않은 생물은 당신이 어느 사각형에 있는지 추측하여 당신을 목표로 삼으려고 시도할 수 있습니다. 이 생물은 반드시 사각형 하나를 골라 공격을 시도해야 합니다. 이는 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨은} 생물을 목표로 하는 것과 같지만(@Check[type:flat|showDC:all|dc:11|traits:secret]필요), 플랫 체크와 공격 주사위는 GM이 비밀리에 굴리며, 플랫 체크에 실패해서 공격이 실패했는지 아니면 공격 롤을 잘못 선택했는지 공개할 수 없습니다. 그들은 @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{찾기}하여 플레이어를 찾으려고 할 수 있습니다.</p>"
+      "name": "탐지 불가",
+      "description": "<p>탐지 불가 상태에서는 해당 생물이 플레이어를 전혀 볼 수 없고, 플레이어가 어떤 공간을 점유하고 있는지 알지 못하며, 플레이어를 목표로 삼을 수 없지만, 특정 지역을 대상으로 하는 능력의 영향을 받을 수 있습니다. 당신이 어떤 생물에게 탐지 불가 상태인 경우, 그 생물은 당신에게 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프-가드}입니다.</p>\n<p>당신의 존재는 알고 있으나 탐지하지 못한 생물은 당신이 어느 사각형에 있는지 추측하여 당신을 목표로 삼으려고 시도할 수 있습니다. 이 생물은 반드시 사각형 하나를 골라 공격을 시도해야 합니다. 이는 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨은} 생물을 목표로 하는 것과 같지만(@Check[type:flat|showDC:all|dc:11|traits:secret]필요), 플랫 체크와 공격 주사위는 GM이 비밀리에 굴리며, 플랫 체크에 실패해서 공격이 실패했는지 아니면 공격할 사각형을 잘못 선택했기 때문에 빗나갔는지 알 수 없습니다. @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{찾기} 액션을 통해 탐지 불가 대상을 찾으려고 할 수 있습니다.</p>"
     },
     "Restrained": {
       "name": "구속됨",
@@ -172,10 +172,10 @@
     },
     "Invisible": {
       "name": "투명한",
-      "description": "<p>보이지 않습니다. 당신은 모든 사람에게 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{감지되지 않음}입니다. 생물은 @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{탐색}으로 플레이어를 감지할 수 있으며, 플레이어의 은신 DC에 대한 지각 체크에 성공하면, 플레이어는 @UUID[전서]가 됩니다.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨은}이 되어 다시 감지되지 않음 상태가 될 때까지 해당 생물에게 @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{은밀 이동}가 됩니다. 누군가 나를 이미 볼 수 있는 상태에서 보이지 않음 상태가 되면, 몰래 잠입에 성공할 때까지 감지되지 않음 상태가 아닌 숨겨진 상태로 시작하게 됩니다. 보이지 않는 상태에서는 특수 능력이나 마법을 사용하지 않는 한 @UUID[Compendium.pf2e.conditionitems.Item.1wQY3JYyhMYeeV2G]{관찰됨}이 될 수 없습니다.</p>"
+      "description": "<p>보이지 않습니다. 당신은 모든 사람에게 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{탐지 불가}입니다. 생물은 @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{탐색}으로 플레이어를 감지할 수 있으며, 플레이어의 은신 DC에 대한 지각 체크에 성공하면, 플레이어는 @UUID[전서]가 됩니다.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨은}이 되어 다시 감지되지 않음 상태가 될 때까지 해당 생물에게 @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{은밀 이동}가 됩니다. 누군가 나를 이미 볼 수 있는 상태에서 보이지 않음 상태가 되면, 몰래 잠입에 성공할 때까지 감지되지 않음 상태가 아닌 숨겨진 상태로 시작하게 됩니다. 보이지 않는 상태에서는 특수 능력이나 마법을 사용하지 않는 한 @UUID[Compendium.pf2e.conditionitems.Item.1wQY3JYyhMYeeV2G]{관찰됨}이 될 수 없습니다.</p>"
     },
     "Cursebound": {
-      "name": "저주에 묶인 자",
+      "name": "저주에 묶인",
       "description": "<p>당신의 신탁 저주가 당신을 조여오며, 신비한 힘을 너무 깊이 끌어온 후 신성한 처벌을 받게 됩니다. 저주에 묶인 자(Cursebound)는 오직 신탁 저주를 가진 생물에게만 영향을 미치는 상태이며, 저주에 묶인 자 상태는 항상 값을 포함합니다. 당신의 특정한 신탁 저주는 저주에 묶인 자 값에 따라 고유한 부정적인 효과를 부과합니다. 저주에 묶인 자 상태는 오직 재집중(Refocusing)으로만 제거할 수 있습니다.</p>"
     }
   }

@@ -151,7 +151,7 @@
     },
     "(Zombie, Shock) Breath Weapon": {
       "name": "(좀비, 충격) 숨결 무기",
-      "description": "<p>충격 좀비는 번개를 내뿜어 @Damage[4d12[전기]|옵션:면적 피해]의 피해를 @Template[line|distance:40] (@Check[reflex|dc:24|basic|options:area-effect])에 입힙니다. 1분 동안은 숨결 무기를 다시 사용할 수 없습니다.</p>"
+      "description": "<p>충격 좀비는 번개를 내뿜어 @Damage[4d12[electricity]|옵션:면적 피해]의 피해를 @Template[line|distance:40] (@Check[reflex|dc:24|basic|options:area-effect])에 입힙니다. 1분 동안은 숨결 무기를 다시 사용할 수 없습니다.</p>"
     },
     "(Ghost) Beatific Appearance": {
       "name": "(유령) 축복받은 모습",
@@ -283,7 +283,7 @@
     },
     "(Mythic) Mythic Weakness (Frailty)": {
       "name": "(Mythic) 신화적 약점 (약함)",
-      "description": "<p>신화적인 매복자는 은신과 속임수에 의존합니다. 이 생물은 공격에 대한 신화적인 면역이나 신화적인 저항력을 얻을 수 없습니다.</p>"
+      "description": "<p>신화적인 매복자는 은신과 기만에 의존합니다. 이 생물은 공격에 대한 신화적인 면역이나 신화적인 저항력을 얻을 수 없습니다.</p>"
     },
     "(Sporeborn) Contagious Spores": {
       "name": "(스포어본) 전염성 스포어",
@@ -439,7 +439,7 @@
     },
     "(Zombie, Shock) Arcing Strikes": {
       "name": "(좀비, 충격) 아크 공격",
-      "description": "<p>충격 좀비가 근접 공격으로 생물을 명중시키면, 번개 아크가 두 번째 생물로 이동하여 @Damage[1d12[전기]]의 피해를 입힙니다. 이 보조 목표는 충격 좀비의 원래 목표로부터 10피트 이내에 있어야 하며, 원래 목표에 가장 가까운 생물이어야 합니다(여러 생물이 동일한 거리에 있다면, 충격 좀비가 영향을 줄 대상을 선택합니다).</p>"
+      "description": "<p>충격 좀비가 근접 공격으로 생물을 명중시키면, 번개 아크가 두 번째 생물로 이동하여 @Damage[1d12[electricity]]의 피해를 입힙니다. 이 보조 목표는 충격 좀비의 원래 목표로부터 10피트 이내에 있어야 하며, 원래 목표에 가장 가까운 생물이어야 합니다(여러 생물이 동일한 거리에 있다면, 충격 좀비가 영향을 줄 대상을 선택합니다).</p>"
     },
     "(Vampire, Vetalarana, Basic) Thoughtsense 100 feet": {
       "name": "(흡혈귀, 베타라라나, 기본) 생각 감지 100피트",
@@ -519,7 +519,7 @@
     },
     "(Kallas Devil) Suffer the Children": {
       "name": "(칼라스 데빌) 아이들을 괴롭히기",
-      "description": "<p>20 피트. 칼라스 데빌이 아이로 변장한 동안, 그 문화에서 성인으로 간주되는 오라에 있는 모든 생물은 칼라스 데빌의 속임수에 대항하는 체크와 DC에 -2의 상황 페널티를 받습니다.</p>"
+      "description": "<p>20 피트. 칼라스 데빌이 아이로 변장한 동안, 그 문화에서 성인으로 간주되는 오라에 있는 모든 생물은 칼라스 데빌의 기만에 대항하는 체크와 DC에 -2의 상황 페널티를 받습니다.</p>"
     },
     "(Cryptid, Rumored) Howl": {
       "name": "(크립티드, 소문) 울부짖기",
@@ -627,7 +627,7 @@
     },
     "(Divine Warden) Faith Bound": {
       "name": "(신성한 수호자) 신앙에 묶인",
-      "description": "<p>신성한 수호자는 자신의 후원 신의 종교적 상징을 공개적으로 착용하거나 표시하는 생물을 공격할 수 없습니다. 단, 해당 생물이 먼저 신성한 수호자에게 적대적인 행동을 취한 경우를 제외합니다. 신성한 수호자가 지능을 가지고 있는 경우, 신성한 수호자가 자신의 신을 믿지 않는다고 생각하거나 종교적 상징을 속임수로 착용하고 있다고 생각되는 생물도 공격할 수 있습니다 (일반적으로 @UUID[Compendium.pf2e.actionspf2e.Item.1xRFPTFtWtGJ9ELw]{Sense Motive}에 성공한 후).</p>"
+      "description": "<p>신성한 수호자는 자신의 후원 신의 종교적 상징을 공개적으로 착용하거나 표시하는 생물을 공격할 수 없습니다. 단, 해당 생물이 먼저 신성한 수호자에게 적대적인 행동을 취한 경우를 제외합니다. 신성한 수호자가 지능을 가지고 있는 경우, 신성한 수호자가 자신의 신을 믿지 않는다고 생각하거나 종교적 상징을 기만로 착용하고 있다고 생각되는 생물도 공격할 수 있습니다 (일반적으로 @UUID[Compendium.pf2e.actionspf2e.Item.1xRFPTFtWtGJ9ELw]{Sense Motive}에 성공한 후).</p>"
     },
     "(Vampire, Nosferatu Thrall) Mortal Shield": {
       "name": "(뱀파이어, 노스페라투 스랄) 필멸의 방패",
@@ -831,7 +831,7 @@
     },
     "(Cryptid, Rumored) Stalk": {
       "name": "(크립티드, 소문) 스토킹",
-      "description": "<p><strong>요구 사항</strong> 소문으로 알려진 크립티드는 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{감지되지 않음}입니다. </p> <hr /> <p><strong>효과</strong> 소문으로 알려진 크립티드는 숨어 있는 먹이감을 빠르게 추적합니다. 이 크립티드는 스트라이드 후 공격을 합니다.</p>"
+      "description": "<p><strong>요구 사항</strong> 소문으로 알려진 크립티드는 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{탐지 불가}입니다. </p> <hr /> <p><strong>효과</strong> 소문으로 알려진 크립티드는 숨어 있는 먹이감을 빠르게 추적합니다. 이 크립티드는 스트라이드 후 공격을 합니다.</p>"
     },
     "(Lich) Paralyzing Touch": {
       "name": "(리치) 마비 터치",
@@ -839,7 +839,7 @@
     },
     "(Ulgrem-Axaan) Crocodile Tears": {
       "name": "(Ulgrem-Axaan) 악어의 눈물",
-      "description": "<p>Ulgrem-Axaan은 속임수 체크를 통해 거짓말의 소리를 흉내낼 수 있습니다. 이 체크에 +4의 상황 보너스가 적용됩니다.</p>"
+      "description": "<p>Ulgrem-Axaan은 기만 체크를 통해 거짓말의 소리를 흉내낼 수 있습니다. 이 체크에 +4의 상황 보너스가 적용됩니다.</p>"
     },
     "(Coven) Locate Coven": {
       "name": "(마녀회) 마녀회 위치 파악",
@@ -879,7 +879,7 @@
     },
     "(Vampire, True) Change Shape": {
       "name": "(뱀파이어, 트루) 형태 변화",
-      "description": "<p>흡혈귀는 자신의 동물 형태 중 하나로 변신하거나 원래 형태로 돌아갈 수 있습니다. 대부분의 흡혈귀는 박쥐로 변신할 수 있지만, 일부는 쥐나 늑대 같은 다른 생물로 변신할 수 있습니다.</p> <p>@UUID[Compendium.pf2e.spells-srd.Item.NzXpEzcZAjuDTZjK]{공중 형태}와 @UUID[Compendium.pf2e.spells-srd.Item.wp09USMB3GIW1qbp]{동물 형태} 주문의 옵션을 가이드라인으로 사용하세요.</p><ul><li><strong>박쥐</strong> 흡혈귀는 @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.2mg30nJR6P3HJDSd]{Bat Swarm} 또는 @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.xnpuGO8jEMba9wy5]{거대 박쥐}로 변합니다. 이 뱀파이어는 40피트의 반향 위치 파악 능력, 20피트의 육상 이동 속도, 30피트의 비행 속도, 그리고 가장 높은 근접 공격 보너스와 동일한 공격 보너스를 가진 송곳니 공격을 얻습니다. 이 송곳니는 뱀파이어의 발톱과 동일한 피해를 입히지만, 베기 피해가 아닌 관통 피해를 입힙니다. </li></ul><hr /><p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
+      "description": "<p>흡혈귀는 자신의 동물 형태 중 하나로 변신하거나 원래 형태로 돌아갈 수 있습니다. 대부분의 흡혈귀는 박쥐로 변신할 수 있지만, 일부는 쥐나 늑대 같은 다른 생물로 변신할 수 있습니다.</p> <p>@UUID[Compendium.pf2e.spells-srd.Item.NzXpEzcZAjuDTZjK]{공중 형태}와 @UUID[Compendium.pf2e.spells-srd.Item.wp09USMB3GIW1qbp]{동물 형태} 주문의 옵션을 가이드라인으로 사용하세요.</p><ul><li><strong>박쥐</strong> 흡혈귀는 @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.2mg30nJR6P3HJDSd]{Bat Swarm} 또는 @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.xnpuGO8jEMba9wy5]{거대 박쥐}로 변합니다. 이 뱀파이어는 40피트의 반향 위치 파악 능력, 20피트의 운동 이동 속도, 30피트의 비행 속도, 그리고 가장 높은 근접 공격 보너스와 동일한 공격 보너스를 가진 송곳니 공격을 얻습니다. 이 송곳니는 뱀파이어의 발톱과 동일한 피해를 입히지만, 베기 피해가 아닌 관통 피해를 입힙니다. </li></ul><hr /><p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
     },
     "(Skeleton) Lacquered": {
       "name": "(해골) 래커",
@@ -1159,7 +1159,7 @@
     },
     "(Kallas Devil) Blameless": {
       "name": "(칼라스 데빌) 무죄",
-      "description": "<p>변장한 상태에서 칼라스 데빌은 속임수 체크를 통해 거짓말에 성공하면 다른 사람들이 그녀의 혐오스러운 악취를 감지하지 못하게 할 수 있습니다. 그녀는 이 체크에 +4의 상황 보너스를 받습니다.</p>"
+      "description": "<p>변장한 상태에서 칼라스 데빌은 기만 체크를 통해 거짓말에 성공하면 다른 사람들이 그녀의 혐오스러운 악취를 감지하지 못하게 할 수 있습니다. 그녀는 이 체크에 +4의 상황 보너스를 받습니다.</p>"
     },
     "(Coven) Share Senses": {
       "name": "(마녀회) 감각 공유",
@@ -1387,7 +1387,7 @@
     },
     "(Skeleton) Nimble": {
       "name": "(스켈레톤) 민첩",
-      "description": "<p>해골은 특히 빠르고 민첩합니다. 육상 속도가 10피트 증가하고 등반 속도가 20피트가 됩니다. 또한 @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.wCnsRCHvtZkZTmO0]{민첩한 회피} 반응을 얻습니다.</p>"
+      "description": "<p>해골은 특히 빠르고 민첩합니다. 운동 속도가 10피트 증가하고 등반 속도가 20피트가 됩니다. 또한 @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.wCnsRCHvtZkZTmO0]{민첩한 회피} 반응을 얻습니다.</p>"
     },
     "(Beheaded) Giant": {
       "name": "(참수된) 거인",
@@ -1407,7 +1407,7 @@
     },
     "(Vampire, Vrykolakas Master) Change Shape": {
       "name": "(뱀파이어, 브리콜라카스 마스터) 형태 변화",
-      "description": "<p>Vrykolakas 마스터는 생전 몸과 유사한 형태로 변신할 수 있으며, 인간형 형태의 효과를 갖지만 지속 시간이 무제한입니다.이 형태에서는 송곳니와 발톱 공격을 사용할 수 없지만, @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{사칭}에 대한 속임수 체크에 +2의 상황 보너스를 얻습니다.</p>"
+      "description": "<p>Vrykolakas 마스터는 생전 몸과 유사한 형태로 변신할 수 있으며, 인간형 형태의 효과를 갖지만 지속 시간이 무제한입니다.이 형태에서는 송곳니와 발톱 공격을 사용할 수 없지만, @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{사칭}에 대한 기만 체크에 +2의 상황 보너스를 얻습니다.</p>"
     },
     "(Risen Nemesis) Fixated Obsession": {
       "name": "(부활한 적으로) 집착적인 강박",
@@ -1431,7 +1431,7 @@
     },
     "(Ghost) Fetch": {
       "name": "(유령) 소환",
-      "description": "<p>유령은 생물의 환영 복제를 생성합니다. 페치는 2등급 @UUID[Compendium.pf2e.spells-srd.Item.f8SBoXiXQjlCKqly]{Illusory Creature}로 기능하지만, 고스트는 페치를 통제하지 않으며, 이 주문은 [[/r 1d4 #hours]]{1d4 시간} 동안 지속되며, '주문 유지'가 필요하지 않습니다.</p> <p>페치는 기본적인 지능을 가지고 있으며 원본을 모방하려고 시도하지만(원본 유령의 가장 높은 기술 값과 동일한 속임수 기술 값을 가집니다), @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{혼란} 또는 모호하게 보입니다.</p> <p>유령은 한 번에 하나의 페치만 가질 수 있습니다. 페치에 의해 복제된 생물이 페치를 만나면, 그 생물은 @Check[will|dc:] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1} (@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{대실패 시 혼미 2}) 상태가 됩니다.</p>"
+      "description": "<p>유령은 생물의 환영 복제를 생성합니다. 페치는 2등급 @UUID[Compendium.pf2e.spells-srd.Item.f8SBoXiXQjlCKqly]{Illusory Creature}로 기능하지만, 고스트는 페치를 통제하지 않으며, 이 주문은 [[/r 1d4 #hours]]{1d4 시간} 동안 지속되며, '주문 유지'가 필요하지 않습니다.</p> <p>페치는 기본적인 지능을 가지고 있으며 원본을 모방하려고 시도하지만(원본 유령의 가장 높은 기술 값과 동일한 기만 기술 값을 가집니다), @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{혼란} 또는 모호하게 보입니다.</p> <p>유령은 한 번에 하나의 페치만 가질 수 있습니다. 페치에 의해 복제된 생물이 페치를 만나면, 그 생물은 @Check[will|dc:] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1} (@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{대실패 시 혼미 2}) 상태가 됩니다.</p>"
     },
     "(Woodblessed) Reactive Flare": {
       "name": "(우드블레싱) 반응성 플레어",
