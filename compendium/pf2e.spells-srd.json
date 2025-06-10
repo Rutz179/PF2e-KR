@@ -3765,7 +3765,7 @@
       "description": "<p>당신의 마법은 생물의 생체를 혼란에 빠뜨려 메스꺼움, 발열, 기타 불쾌한 상태를 유발합니다.</p>\n<hr />\n<p><strong>성공</strong> 대상은 영향을 받지 않습니다.</p>\n<p><strong> 실패</strong> 대상은 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1}이 됩니다.</p>\n<p><strong> 대실패</strong> 대상은 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 2} 및 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1}이 됩니다.</p>"
     },
     "Unbearable Cacophony": {
-      "name": "오라 내에 있는 생물에게 주문이 영향을 미칠 때마다, 그 주문이 주는 피해가 당신의 레벨과 같은 양만큼 감소합니다. 이는 지속 피해와 주문의 지속적인 효과로 인한 피해를 포함한, 그 주문이 주는 모든 피해에 적용됩니다.방어막",
+      "name": "참을 수 없는 소음의 혼란",
       "description": "<p>모든 물건과 생물의 소리를 불가능한 수준으로 증폭시킵니다. 귀머거리 생물과 음파 피해에 면역이 있는 생물은 대부분의 경우 영향을 받지 않습니다.</p> <p><strong>성공</strong> 생물이나 물체(예: 귀뚜라미, 울리는 모루, 사자의 포효)가 내는 모든 소리는 15피트 내의 모든 생물에게 그 생물이나 물체의 레벨에 해당하는 음파 피해를 입힙니다(최소 1). 소리를 내는 물건이나 생물의 크기가 소형보다 큰 경우, 이 피해는 크기가 1 단계 올라갈 때마다 2씩 증가합니다. 노래를 부르는 4중창단이나 곤충 떼와 같은 조직적인 생물 집단은 이 효과에 대해 한 단계 더 큰 크기로 간주됩니다. 일반적으로 생물과 물체에 음파 피해를 주는 효과는 생물이나 물체의 음파 저항력 또는 경도의 절반을 무시합니다.</p> <p><strong>대실패</strong> 각 시전자의 귀에 강렬한 울림이 메아리치며, 1일 동안 자신의 레벨에 해당하는 음파 피해에 대한 약점을 부여합니다. </p><hr /><p><strong>강화 (+2)</strong> 작은 크기의 생물보다 큰 생물이 주는 피해가 크기 카테고리당 6씩 증가합니다. </p>"
     },
     "Clouded Focus": {
@@ -5577,7 +5577,7 @@
       "description": "<p>이 지역에 있는 모든 생물이 졸음에 빠져 잠들 수 있습니다. 이 주문으로 졸음에 빠진 생물은 @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{무의식}에 빠지거나 들고 있는 것을 놓지 않습니다[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{약해져}. 이 주문은 지각 체크 성공으로 인한 생물의 각성을 막지 못하므로, 전투에서의 유용성이 제한됩니다.</p>\n<hr />\n<p><strong>대성공</strong> 생물은 영향을 받지 않습니다.</p>\n<p><strong> 성공</strong> 생물은 1라운드 동안 지각 체크에 -1 상태 패널티를 받습니다.</p>\n<p><strong> 실패</strong> 생물은 의식을 잃습니다. 1분 후에도 여전히 의식불명 상태이면 자동으로 깨어납니다.</p>\n<p><strong> 대실패</strong> 생물이 의식불명 상태에 빠집니다. 1시간 후에도 여전히 의식불명 상태이면 자동으로 깨어납니다.</p>\n<hr />\n<p><strong>강화 (4차)</strong> 이 생명체는 대실패 시 1라운드 동안, 치명타 실패 시 1분 동안 의식을 잃습니다. 이 생명체는 엎드려서 들고 있던 것을 놓으며, 깨어나기 위한 지각 체크를 시도할 수 없습니다. 지속시간이 끝나면 생명체는 자동으로 깨어나지 않고 정상적으로 수면 상태가 됩니다.</p>"
     },
     "Haste": {
-      "name": "이 효과는 거대 생물이나 공성 무기의 공격에만 적용됩니다.</p> <p><strong>실패</strong> 의식은 성공하지 않습니다. 대상은 상당히 약화되어 경도가 10 (최소 0) 감소합니다.",
+      "name": "신속",
       "description": "<p>마법을 사용하면 대상이 더 빠르게 행동할 수 있습니다. 대상은 @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{신속} 조건을 얻고, 매 라운드마다 타격과 보폭 액션에 한해 추가 액션을 사용할 수 있습니다.</p> <hr /> <p><strong>강화 (7차)</strong> 최대 6마리의 생물을 대상으로 할 수 있습니다.</p> <p>@UUID[Compendium.pf2e.spell-effects.Item.ElkXovNrHB0Doi6O]{주문 효과: 헤이스트}</p>"
     },
     "Missed Cue": {
@@ -5977,7 +5977,7 @@
       "description": "<p>당신의 말로 생명체를 축복하여 생명력과의 연결이 강화된 생명체로 만듭니다. 대상은 생명력 회복 주문으로 HP를 회복하면 추가로 2HP를 회복합니다.</p>\n<p>대상은 지정된 치유 주문으로 처음 HP를 회복할 때만 <em>힐러의 축복 </em>으로부터 추가 체력을 회복하므로, 일정 시간 동안 반복적으로 생물을 치유하는 주문은 처음 치유될 때 한 번만 추가 체력을 회복합니다.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.IjoYgBgEYSTZKmab]{주문 효과: 힐러의 축복}</p>\n<hr />\n<p><strong>강화 (+1)</strong> 추가 치유량이 2 HP만큼 증가합니다.</p>"
     },
     "Shall not Falter, Shall not Rout": {
-      "name": "흔들리지 않아야 하고, 경로를 변경하지 않아야 합니다.",
+      "name": "굴하지 않고, 물러서지 않으리",
       "description": "<p>진홍색 맹세의 다섯 번째 줄을 외치며, 가장 끔찍한 부상을 검을 휘둘러 봉인합니다. 매 라운드마다 처음으로 무기로 공격하여 적에게 피해를 입힐 때마다, 흔들리지 않고 패배하지 않는 자신의 체력이 두 배에 해당하는 수만큼 회복됩니다. 이 회복량은 현재 HP를 최대 HP의 절반 이상으로 올릴 수 없습니다.</p>"
     },
     "Acidic Burst": {
@@ -5985,7 +5985,7 @@
       "description": "<p>자신의 주위에 산성 껍질을 생성하여 즉시 바깥으로 터뜨려 해당 범위의 모든 생물에게 [[/r 2d6]]의 산성 피해를 줍니다.</p>\n<hr />\n<p><strong>강화 (+1)</strong> 피해가 2d6 증가합니다.</p>"
     },
     "Overselling Flourish": {
-      "name": "과잉 판매 번성",
+      "name": "과장된 몸짓",
       "description": "<p><strong>트리거</strong> 생물이 당신에게 피해를 입힙니다.</p>\n<p>당신은 공격을 받아 장관을 연출합니다. 마법으로 강화된 이 광경은 적의 공격으로 인해 피가 튀거나 고통스러운 비명을 지르거나 기타 연극적인 재주를 부립니다. 트리거된 생물은 의지 내성 굴림을 시도해야 합니다.</p>\n<hr />\n<p><strong>대성공</strong> 생물은 영향을 받지 않음</p>\n<p><strong> 성공</strong> 생물은 당신의 디스플레이에 의해 튕겨져 나갑니다. 생물은 당신의 턴이 시작될 때까지 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{눈부신}이 됩니다.</p>\n<p><strong> 실패</strong> 생물은 당신의 능력을 완전히 믿고 자신을 열어둔 채로 있습니다. 생물은 당신의 턴이 시작될 때까지 현혹되어 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프-가드} 상태가 됩니다.</p>\n<p><strong> 대실패</strong> 생물은 디스플레이에 매혹됩니다. 생물은 남은 액션을 사용해 경외심에 찬 눈으로 플레이어를 바라봅니다. 그런 다음 당신의 턴이 시작될 때까지 눈부신 상태로 오프-가드 상태를 유지합니다.</p>"
     },
     "Accelerated Decomposition": {
