@@ -95,7 +95,7 @@
     },
     "(Martial Artist, Dirty Fighting) Contraband Substance": {
       "name": "(무술가, 더러운 전투) 불법 물품",
-      "description": "<p>무술가는 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진} 알케미컬 병에 든 돌연변이 물질을 꺼내어 마시고 전투 능력을 향상시킵니다. 이 아이템은 일반적으로 @UUID[Compendium.pf2e.equipment-srd.Item.xE0EdDrf734l2fQH]{Juggernaut Mutagen (Lesser)} 또는 @UUID[Compendium.pf2e.equipment-srd.Item.5MKBwpE401uz4kNN]{Quicksilver Mutagen (Lesser)}입니다. 이 능력은 무술가가 새로운 변이 물질을 획득하고 숨길 시간이 있을 때까지 다시 사용할 수 없습니다. 일부 무술가는 숨겨진 작은 약병을 사용하지만, 다른 무술가는 주사기를 숨기거나 입에 넣을 수 있는 옷에 연금술 액체를 적셔 숨깁니다.</p>"
+      "description": "<p>무술가는 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진} 연금술 병에 든 돌연변이 물질을 꺼내어 마시고 전투 능력을 향상시킵니다. 이 아이템은 일반적으로 @UUID[Compendium.pf2e.equipment-srd.Item.xE0EdDrf734l2fQH]{Juggernaut Mutagen (Lesser)} 또는 @UUID[Compendium.pf2e.equipment-srd.Item.5MKBwpE401uz4kNN]{Quicksilver Mutagen (Lesser)}입니다. 이 능력은 무술가가 새로운 변이 물질을 획득하고 숨길 시간이 있을 때까지 다시 사용할 수 없습니다. 일부 무술가는 숨겨진 작은 약병을 사용하지만, 다른 무술가는 주사기를 숨기거나 입에 넣을 수 있는 옷에 연금술 액체를 적셔 숨깁니다.</p>"
     },
     "(Beheaded) Fiendish": {
       "name": "(참수된) 사악한",
@@ -467,7 +467,7 @@
     },
     "(Skeleton) Skeleton of Roses": {
       "name": "(해골) 장미의 해골",
-      "description": "<p>두꺼운 가시가 해골의 뼈를 덮고 자라, 1인치 길이의 가시가 달린 붉은 장미로 해골을 뒤덮었습니다. </p> <p>해골의 무기 없는 근접 공격은 해골의 레벨의 1/3에 해당하는 추가 관통 피해를 입힙니다 (최소 1 피해).</p> <p>각 턴이 끝날 때, 해골이 가시로 관통 피해를 입힌 경우, @Damage[(1,@actor.level의 최대치)[치유]]{레벨에 해당하는 HP} (최소 1)를 회복합니다. 해골이 이런 방식으로 HP를 회복할 때마다 또 다른 장미가 피어납니다.</p>"
+      "description": "<p>두꺼운 가시가 해골의 뼈를 덮고 자라, 1인치 길이의 가시가 달린 붉은 장미로 해골을 뒤덮었습니다. </p> <p>해골의 무기 없는 근접 공격은 해골의 레벨의 1/3에 해당하는 추가 관통 피해를 입힙니다 (최소 1 피해).</p> <p>각 턴이 끝날 때, 해골이 가시로 관통 피해를 입힌 경우, @Damage[(1,@actor.level의 최대치)[healing]]{레벨에 해당하는 HP} (최소 1)를 회복합니다. 해골이 이런 방식으로 HP를 회복할 때마다 또 다른 장미가 피어납니다.</p>"
     },
     "(Mythic) Recharge Spell": {
       "name": "(신화) 재충전 주문",
@@ -583,7 +583,7 @@
     },
     "(Nemesis) Ravage Mind": {
       "name": "(네메시스) 정신 파괴",
-      "description": "<p><strong>발동 빈도</strong> 하루에 두 번</p><hr /><p><strong>효과</strong> 네메시스는 120피트 이내에 있는 볼 수 있는 단일 생물에게 팔다리를 휘두르거나 음험한 시선을 던집니다. 그 생물의 정신이 파괴되고, @Check[will|dc:33] 내성 체크를 시도해야 합니다. </p><hr /><p><strong>대성공</strong> 그 생물은 영향을 받지 않습니다. </p><p><strong>성공</strong> 그 생물은 @Damage[7d6[정신]]의 피해를 입습니다.</p> <p><strong>실패</strong> 생물은 @Damage[14d6[정신]]의 피해를 받고 1분 동안 @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{혼란} 상태가 됩니다. 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{기절 3} 상태가 됩니다. 기절 상태에서 회복되면 1분 동안 혼란 상태가 됩니다.</p>"
+      "description": "<p><strong>발동 빈도</strong> 하루에 두 번</p><hr /><p><strong>효과</strong> 네메시스는 120피트 이내에 있는 볼 수 있는 단일 생물에게 팔다리를 휘두르거나 음험한 시선을 던집니다. 그 생물의 정신이 파괴되고, @Check[will|dc:33] 내성 체크를 시도해야 합니다. </p><hr /><p><strong>대성공</strong> 그 생물은 영향을 받지 않습니다. </p><p><strong>성공</strong> 그 생물은 @Damage[7d6[mental]]의 피해를 입습니다.</p> <p><strong>실패</strong> 생물은 @Damage[14d6[mental]]의 피해를 받고 1분 동안 @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{혼란} 상태가 됩니다. 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{기절 3} 상태가 됩니다. 기절 상태에서 회복되면 1분 동안 혼란 상태가 됩니다.</p>"
     },
     "(Ghoul) Ghoul Fever": {
       "name": "(구울) 구울 열병",
@@ -991,7 +991,7 @@
     },
     "(Visitant) Vengeful Presence": {
       "name": "(방문자) 복수심에 찬 존재",
-      "description": "<p>20 피트. 방문자의 오라 내에서 턴을 시작하는 생물은 @Check[will|dc:|name:Vengeful Presence] 내성 체크에 성공하지 않으면 복수의 갈망에 사로잡힙니다. </p> <p>[[/r 1d4 #rounds]]{1d4 라운드} 동안 (대실패 시 1분) 동안, 영향을 받은 생물이 지난 라운드에 공격을 받은 경우 (공격이 명중했는지 여부에 상관없이), 그 생물은 공격자가 살아있는 동안 라운드당 최소 1회의 행동을 사용하여 마지막 공격자를 공격하거나 적대적인 행동을 취해야 합니다. 그렇게 하지 못하면, 영향을 받은 생물은 @Damage[1d6[정신]]의 피해를 받고, 방문자의 레벨이 5레벨 올라갈 때마다 1d6의 피해가 추가됩니다.</p>"
+      "description": "<p>20 피트. 방문자의 오라 내에서 턴을 시작하는 생물은 @Check[will|dc:|name:Vengeful Presence] 내성 체크에 성공하지 않으면 복수의 갈망에 사로잡힙니다. </p> <p>[[/r 1d4 #rounds]]{1d4 라운드} 동안 (대실패 시 1분) 동안, 영향을 받은 생물이 지난 라운드에 공격을 받은 경우 (공격이 명중했는지 여부에 상관없이), 그 생물은 공격자가 살아있는 동안 라운드당 최소 1회의 행동을 사용하여 마지막 공격자를 공격하거나 적대적인 행동을 취해야 합니다. 그렇게 하지 못하면, 영향을 받은 생물은 @Damage[1d6[mental]]의 피해를 받고, 방문자의 레벨이 5레벨 올라갈 때마다 1d6의 피해가 추가됩니다.</p>"
     },
     "(Nymph Queen) Change Shape": {
       "name": "(님프 여왕) 형태 변화",
@@ -1015,7 +1015,7 @@
     },
     "(Ghost) Draining Touch": {
       "name": "(유령) 흡수하는 손길",
-      "description": "<p>유령은 손으로 만지는 생물의 생명력을 흡수하려고 합니다. 유령의 손이 공격을 하지만, 명중해도 피해를 주지 않습니다.</p> <p>대신, 대상은 1일 동안 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수됨 1}이 되고, 유령은 @Damage[(max(1,floor(@actor.level/2)))[치유]]{자신 레벨의 절반에 해당하는 HP}를 회복합니다.</p>"
+      "description": "<p>유령은 손으로 만지는 생물의 생명력을 흡수하려고 합니다. 유령의 손이 공격을 하지만, 명중해도 피해를 주지 않습니다.</p> <p>대신, 대상은 1일 동안 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수됨 1}이 되고, 유령은 @Damage[(max(1,floor(@actor.level/2)))[healing]]{자신 레벨의 절반에 해당하는 HP}를 회복합니다.</p>"
     },
     "(Ravener) Soulsense": {
       "name": "(Ravener) 영혼 감지",
@@ -1075,7 +1075,7 @@
     },
     "(Ghast) Ghast Fever": {
       "name": "(가스트) 가스트 피버",
-      "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:]</p> <hr /> <p><strong>1단계</strong> 악영향 없이 보균자 (1일)</p> <p><strong>2단계</strong> @Damage[3d8[void]] 피해를 받고 모든 치유로 체력의 절반을 회복합니다 (1일)</p> <p><strong>3단계</strong> 2단계와 동일 (1일)</p> <p><strong>4단계</strong> @Damage[3d8[무효]] 피해 및 치유로 인한 이득 없음 (1일)</p> <p><strong>5단계</strong> 4단계와 동일 (1일)</p> <p><strong>6단계</strong> 사망, 다음 자정에 @UUID[Compendium.pf2e.pathfinder-bestiary.Actor.VC7rtYR4hLxwg7WZ]{가스트}로 부활합니다.</p>"
+      "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:]</p> <hr /> <p><strong>1단계</strong> 악영향 없이 보균자 (1일)</p> <p><strong>2단계</strong> @Damage[3d8[void]] 피해를 받고 모든 치유로 체력의 절반을 회복합니다 (1일)</p> <p><strong>3단계</strong> 2단계와 동일 (1일)</p> <p><strong>4단계</strong> @Damage[3d8[void]] 피해 및 치유로 인한 이득 없음 (1일)</p> <p><strong>5단계</strong> 4단계와 동일 (1일)</p> <p><strong>6단계</strong> 사망, 다음 자정에 @UUID[Compendium.pf2e.pathfinder-bestiary.Actor.VC7rtYR4hLxwg7WZ]{가스트}로 부활합니다.</p>"
     },
     "(Spring-Heeled Jack) Change Shape": {
       "name": "(스프링힐드 잭) 형태 변경",
@@ -1083,7 +1083,7 @@
     },
     "(Blackfrost Dead) Mindburning Gaze": {
       "name": "(블랙프로스트 데드) 마인드 버닝 게이즈",
-      "description": "<p>블랙프로스트 데드는 60피트 이내의 생물에게 무서운 시선을 고정합니다. 이 생물은 블랙프로스트 데드의 레벨당 @Damage[1d4[정신]]의 피해를 받으며, @Check[will|dc:|basic] 내성을 가집니다.대실패 시, 생물은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 1}이 됩니다.</p>"
+      "description": "<p>블랙프로스트 데드는 60피트 이내의 생물에게 무서운 시선을 고정합니다. 이 생물은 블랙프로스트 데드의 레벨당 @Damage[1d4[mental]]의 피해를 받으며, @Check[will|dc:|basic] 내성을 가집니다.대실패 시, 생물은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 1}이 됩니다.</p>"
     },
     "(Vampire, Nosferatu) Plagued Coffin Restoration": {
       "name": "(뱀파이어, 노스페라투) 감염된 관 복원",
@@ -1139,7 +1139,7 @@
     },
     "(Ghoul) Consume Flesh": {
       "name": "(구울) 육체 소모",
-      "description": "<p><strong>요건</strong> 구울이 지난 1시간 이내에 사망한 생물의 시체에 인접해 있습니다. </p><hr /><p><strong>효과</strong> 구울은 시체의 일부를 먹어 치우고 @Damage[(1+(max(0,floor(@actor.level/2))))d6[치유]] 체력 + 1d6 (레벨 2당 1d6 추가)를 회복합니다. </p> <p>특정 시체에서 체력을 회복할 수 있는 횟수는 한 번뿐입니다. </p>"
+      "description": "<p><strong>요건</strong> 구울이 지난 1시간 이내에 사망한 생물의 시체에 인접해 있습니다. </p><hr /><p><strong>효과</strong> 구울은 시체의 일부를 먹어 치우고 @Damage[(1+(max(0,floor(@actor.level/2))))d6[healing]] 체력 + 1d6 (레벨 2당 1d6 추가)를 회복합니다. </p> <p>특정 시체에서 체력을 회복할 수 있는 횟수는 한 번뿐입니다. </p>"
     },
     "(Divine Warden) Divine Destruction": {
       "name": "(신성한 수호자) 신성한 파괴",
@@ -1223,7 +1223,7 @@
     },
     "(Ghast) Consume Flesh": {
       "name": "(가스트) 육체 소모",
-      "description": "<p><strong>요건</strong> 가스트는 지난 1시간 이내에 죽은 생물의 시체 옆에 있습니다. </p><hr /><p><strong>효과</strong> 가스트는 시체의 일부를 먹어 @Damage[2d6[치유]]를 회복합니다. 체력 + 2 레벨당 1d6. </p> <p>주어진 시체에서 체력을 회복할 수 있는 횟수는 한 번뿐입니다. </p>"
+      "description": "<p><strong>요건</strong> 가스트는 지난 1시간 이내에 죽은 생물의 시체 옆에 있습니다. </p><hr /><p><strong>효과</strong> 가스트는 시체의 일부를 먹어 @Damage[2d6[healing]]를 회복합니다. 체력 + 2 레벨당 1d6. </p> <p>주어진 시체에서 체력을 회복할 수 있는 횟수는 한 번뿐입니다. </p>"
     },
     "(Dragon) Change Shape": {
       "name": "(드래곤) 모양 변화",
@@ -1331,7 +1331,7 @@
     },
     "(Graveknight) Betrayed Revivification": {
       "name": "(무덤 기사) 배신된 부활",
-      "description": "<p>무덤 기사는 깊은 배신으로 인해 사망했습니다. </p> <p>특정 유형의 에너지 피해에 면역이 아닌, 정신 피해에 면역이 되고, 무기가 @Damage[1d6[정신]]의 피해를 입히며, Devastating Blast는 반사 대신 의지 내성 굴림으로 정신 피해를 입힙니다.</p>"
+      "description": "<p>무덤 기사는 깊은 배신으로 인해 사망했습니다. </p> <p>특정 유형의 에너지 피해에 면역이 아닌, 정신 피해에 면역이 되고, 무기가 @Damage[1d6[mental]]의 피해를 입히며, Devastating Blast는 반사 대신 의지 내성 굴림으로 정신 피해를 입힙니다.</p>"
     },
     "(Clockwork Creature) Malfunction - Backfire": {
       "name": "(시계 장치 생물) 오작동 - 역화",
@@ -1395,7 +1395,7 @@
     },
     "(Vampire, Vetalarana, Basic) Vetalarana Vulnerabilities": {
       "name": "(뱀파이어, 베타라라나, 기본) 베타라라나의 약점",
-      "description": "<p>모든 베타라라나는 다음과 같은 약점을 가지고 있습니다.</p> <ul> <li><strong>차단된 감각</strong> 베타라라나는 힘 효과나 차가운 철을 통해 볼 수 없거나 느낄 수 없으며, 그들의 정신은 힘 효과나 차가운 철을 관통할 수 없습니다. 이러한 장벽은 베타라라나의 정신이 정신 재탄생으로 전달되는 것을 방지할 수 있습니다.</li> <li><strong>혐오</strong> 베타라라나는 기억과 비밀을 소비하는 것을 즐기며, 이러한 민감한 정보를 공개적으로 공유하는 자들에게 혐오감을 느낍니다. 베타라라나는 자신의 친밀한 개인적 비밀이나 가장 소중한 기억을 큰 소리로 말하는 생물로부터 10피트 이내에 자발적으로 접근할 수 없습니다. 이러한 정보를 확신에 차서 큰 소리로 말하는 것은 청각, 집중, 언어적 특성을 가진 단일 행동이며, 해당 생물은 다음 턴 시작까지 보호됩니다. 베타라라나가 의도하지 않게 그런 정보를 공유하는 생물로부터 10피트 이내에 들어갈 경우, 해당 생물로부터 10피트 이상 떨어질 때까지 @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{도주} 상태를 얻습니다. 생물의 비밀에 노출된 후 1 라운드 동안, 베타라라나는 집중 특성을 가진 단일 행동으로 @Check[will|dc:25] 내성을 시도할 수 있습니다. 성공하면, [[/gmr 1d6 #rounds]]{1d6 라운드} 동안 혐오감을 극복합니다. (대성공의 경우 1시간 동안).</li> <li><strong>뇌 파괴에 취약함</strong> 뇌가 파괴되었거나, 정신 행동을 할 수 없는 상태에서 HP가 0이 된 베타라나나는 정신의 재생을 사용할 수 없습니다. </li> </ul></p>"
+      "description": "<p>모든 베타라라나는 다음과 같은 약점을 가지고 있습니다.</p> <ul> <li><strong>차단된 감각</strong> 베타라라나는 힘 효과나 냉철을 통해 볼 수 없거나 느낄 수 없으며, 그들의 정신은 힘 효과나 냉철을 관통할 수 없습니다. 이러한 장벽은 베타라라나의 정신이 정신 재탄생으로 전달되는 것을 방지할 수 있습니다.</li> <li><strong>혐오</strong> 베타라라나는 기억과 비밀을 소비하는 것을 즐기며, 이러한 민감한 정보를 공개적으로 공유하는 자들에게 혐오감을 느낍니다. 베타라라나는 자신의 친밀한 개인적 비밀이나 가장 소중한 기억을 큰 소리로 말하는 생물로부터 10피트 이내에 자발적으로 접근할 수 없습니다. 이러한 정보를 확신에 차서 큰 소리로 말하는 것은 청각, 집중, 언어적 특성을 가진 단일 행동이며, 해당 생물은 다음 턴 시작까지 보호됩니다. 베타라라나가 의도하지 않게 그런 정보를 공유하는 생물로부터 10피트 이내에 들어갈 경우, 해당 생물로부터 10피트 이상 떨어질 때까지 @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{도주} 상태를 얻습니다. 생물의 비밀에 노출된 후 1 라운드 동안, 베타라라나는 집중 특성을 가진 단일 행동으로 @Check[will|dc:25] 내성을 시도할 수 있습니다. 성공하면, [[/gmr 1d6 #rounds]]{1d6 라운드} 동안 혐오감을 극복합니다. (대성공의 경우 1시간 동안).</li> <li><strong>뇌 파괴에 취약함</strong> 뇌가 파괴되었거나, 정신 행동을 할 수 없는 상태에서 HP가 0이 된 베타라나나는 정신의 재생을 사용할 수 없습니다. </li> </ul></p>"
     },
     "(Vampire, Vrykolakas Master) Pestilential Aura": {
       "name": "(뱀파이어, 브리콜라카스 마스터) 전염성 오라",

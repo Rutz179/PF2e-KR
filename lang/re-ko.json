@@ -19,11 +19,11 @@
       "ExsanguinatingAmmunition": {
         "Greater": {
           "Text": "활성화된 출혈 탄약으로 생물에게 피해를 입힌 후 1분 동안, 그 생물은 지속 출혈 피해에 대해 약점 3을 얻습니다. 또한, 지속 출혈 피해를 끝내기 위한 모든 고정 체크의 DC가 지속 시간 동안 15에서 17로 증가합니다 (특히 효과적인 도움을 받은 경우 10에서 12로 증가). @UUID[Compendium.pf2e.equipment-effects.Item.5lZWAvm0oGxvF4bm]{효과: 출혈 탄약 (강화)}",
-          "Title": "출혈 탄약 (강화)"
+          "Title": "출혈 탄약 (중급)"
         },
         "Major": {
           "Text": "활성화된 출혈 탄약을 사용하여 생물에게 피해를 입힌 후 1분 동안, 해당 생물은 지속 출혈 피해에 대해 약화 5를 받습니다. 또한, 지속 출혈 피해를 종료하기 위한 모든 고정 체크의 DC가 지속 시간 동안 15에서 17로 증가합니다 (특히 효과적인 지원을 받은 경우 10에서 12로 증가). @UUID[Compendium.pf2e.equipment-effects.Item.mrwg2XftLtSLj197]{효과: Exsanguinating Ammunition (Major)}",
-          "Title": "Exsanguinating Ammunition (Major)"
+          "Title": "Exsanguinating Ammunition (상급)"
         },
         "Normal": {
           "Text": "활성화된 Exsanguinating Ammunition으로 생물에게 피해를 입힌 후 1분 동안, 해당 생물은 지속 출혈 피해에 대한 약점 1을 얻습니다. 또한, 지속 출혈 피해를 끝내기 위한 모든 고정 체크의 DC가 지속 시간 동안 15에서 17로 증가합니다 (특히 효과적인 지원을 받은 경우 10에서 12로 증가). @UUID[Compendium.pf2e.equipment-effects.Item.Fz3cSffzDAxhCh2D]{효과: Exsanguinating Ammunition}",
@@ -38,11 +38,11 @@
         "CriticalFailureText": "대실패 시, 무기가 오발됩니다.",
         "Greater": {
           "Text": "무기의 일반 피해에 추가하여, 유성탄은 화염 피해를 입히고, 해당 지역의 지면이 어려운 지형이 됩니다. 탄약은 대상 주변 @Template[emanation|distance:10] 범위 내에 @Damage[6d6[fire]]의 피해를 입힙니다 (@Check[reflex|dc:29|basic|name:Meteor Shot] 내성).",
-          "Title": "유성탄 (강화)"
+          "Title": "유성탄 (중급)"
         },
         "Major": {
           "Text": "무기의 일반 피해에 더해, 유성탄은 화염 피해를 주고, 해당 지역의 지면이 어려운 지형이 됩니다. 탄약은 대상 주변 @Template[emanation|distance:20] 범위 내에서 @Damage[9d6[fire]]의 피해를 입힙니다 (@Check[reflex|dc:37|basic|name:Meteor Shot] 내성).",
-          "Title": "유성탄 (주)"
+          "Title": "유성탄 (상급)"
         },
         "Normal": {
           "Text": "무기의 일반 피해에 추가하여, 유성탄은 화염 피해를 주고, 해당 지역의 지면이 어려운 지형이 됩니다. 탄약은 대상 주변 @Template[emanation|distance:5] 범위 내에서 @Damage[3d6[fire]]의 피해를 줍니다 (@Check[reflex|dc:23|basic|name:Meteor Shot] 내성).",
@@ -60,12 +60,12 @@
           "Title": "슬러지 탄약 (약함)"
         },
         "Major": {
-          "Text": "생물은 효과가 끝날 때까지 속도가 -15피트 감소하고 @Damage[4d4[persistent,acid]]의 피해를 받습니다. 대상은 @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escaping} (DC 38) 끈적끈적한 거품을 제거하여 효과를 끝낼 수 있습니다. 다른 생물도 이 행동을 할 수 있지만, 그렇게 하면 탄약의 지속적인 산성 피해의 절반이 도움을 준 생물에게 적용됩니다. 효과를 종료한 생물은 그 턴에 지속적인 피해를 계속 받습니다. @UUID[Compendium.pf2e.equipment-effects.Item.UjAJUFMfH0OWWwQS]{효과: 슬러지 탄약 (주)}",
-          "Title": "슬러지 탄약 (주)"
+          "Text": "생물은 효과가 끝날 때까지 속도가 -15피트 감소하고 @Damage[4d4[persistent,acid]]의 피해를 받습니다. 대상은 @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escaping} (DC 38) 끈적끈적한 거품을 제거하여 효과를 끝낼 수 있습니다. 다른 생물도 이 행동을 할 수 있지만, 그렇게 하면 탄약의 지속적인 산성 피해의 절반이 도움을 준 생물에게 적용됩니다. 효과를 종료한 생물은 그 턴에 지속적인 피해를 계속 받습니다. @UUID[Compendium.pf2e.equipment-effects.Item.UjAJUFMfH0OWWwQS]{효과: 슬러지 탄약 (상급)}",
+          "Title": "슬러지 탄약 (상급)"
         },
         "Moderate": {
-          "Text": "생물은 효과가 끝날 때까지 속도가 -10 피트 감소하고 @Damage[2d4[persistent,acid]]의 피해를 받습니다. 대상은 @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escaping} (DC 20) 끈적끈적한 거품을 제거하여 효과를 끝낼 수 있습니다. 다른 생물도 이 행동을 할 수 있지만, 그렇게 하면 탄약의 지속적인 산 피해의 절반이 도움을 준 생물에게 적용됩니다. 효과를 종료한 생물은 그 턴에 지속적인 피해를 계속 받습니다. @UUID[Compendium.pf2e.equipment-effects.Item.6c4o7ypWWnZKPy5b]{효과: 슬러지 탄약 (중간)}",
-          "Title": "슬러지 탄약 (중간)"
+          "Text": "생물은 효과가 끝날 때까지 속도가 -10 피트 감소하고 @Damage[2d4[persistent,acid]]의 피해를 받습니다. 대상은 @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escaping} (DC 20) 끈적끈적한 거품을 제거하여 효과를 끝낼 수 있습니다. 다른 생물도 이 행동을 할 수 있지만, 그렇게 하면 탄약의 지속적인 산 피해의 절반이 도움을 준 생물에게 적용됩니다. 효과를 종료한 생물은 그 턴에 지속적인 피해를 계속 받습니다. @UUID[Compendium.pf2e.equipment-effects.Item.6c4o7ypWWnZKPy5b]{효과: 슬러지 탄약 (보통)}",
+          "Title": "슬러지 탄약 (보통)"
         }
       },
       "ShiningAmmunition": {
@@ -298,7 +298,7 @@
       },
       "DreadAmpoule": {
         "Greater": {
-          "success": "<strong>효과</strong> 폭탄은 또한 @Damage[(3[splash])[정신]]{3 정신 방사 피해}를 입히고, 대상은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 1} (@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 2} 상태가 적용됩니다(크리티컬 시))."
+          "success": "<strong>효과</strong> 폭탄은 또한 @Damage[(3[splash])[mental]]{3 정신 방사 피해}를 입히고, 대상은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 1} (@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 2} 상태가 적용됩니다(크리티컬 시))."
         },
         "Lesser": {
           "success": "<strong>효과</strong> 폭탄은 또한 @Damage[(1[splash])[mental]]{1 정신 방사 피해}를 입히고, 대상은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 1} (@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 2} on a critical)."
@@ -333,7 +333,7 @@
           "success": "<strong>효과</strong> 폭탄은 또한 @Damage[(4[splash])[cold]]{4 냉기 스플래시 피해}를 입히고, 대상은 다음 턴이 끝날 때까지 이동 속도가 -15피트 감소합니다 (@UUID[Compendium.pf2e.equipment-effects.Item.4G9qnI0oRyL6eKFQ]{효과: 서리 약병 (강함)})."
         },
         "Moderate": {
-          "success": "<strong>효과</strong> 폭탄은 또한 @Damage[(2[splash])[cold]]{2 냉기 스플래시 피해}를 입히고, 대상은 다음 턴이 끝날 때까지 속도가 -10 피트 감소합니다 (@UUID[Compendium.pf2e.equipment-effects.Item.dv0IKm5syOdP759w]{효과: 서리 약병 (중간)})."
+          "success": "<strong>효과</strong> 폭탄은 또한 @Damage[(2[splash])[cold]]{2 냉기 스플래시 피해}를 입히고, 대상은 다음 턴이 끝날 때까지 속도가 -10 피트 감소합니다 (@UUID[Compendium.pf2e.equipment-effects.Item.dv0IKm5syOdP759w]{효과: 서리 약병 (보통)})."
         }
       },
       "GhostCharge": {
@@ -351,12 +351,12 @@
         }
       },
       "GooGrenade": {
-        "Greater": "Greater",
-        "Lesser": "Lesser",
-        "Major": "Major",
-        "Moderate": "Moderate",
+        "Greater": "중급",
+        "Lesser": "하급",
+        "Major": "상급",
+        "Moderate": "보통",
         "Prompt": "goo grenade품질을 선택합니다.",
-        "success": "<strong>효과</strong> 적중 시, 적의 속도에 고오의 접착 효과로 인해 페널티가 적용됩니다. @UUID[Compendium.pf2e.equipment-effects.Item.5JYchreCttBg7RcD]{효과: 고오 그레네이드}"
+        "success": "<strong>효과</strong> 적중 시, 적의 속도에 끈적이의 접착 효과로 인해 페널티가 적용됩니다. @UUID[Compendium.pf2e.equipment-effects.Item.5JYchreCttBg7RcD]{효과: 끈적이 수류탄}"
       },
       "JunkBomb": {
         "Greater": {
@@ -586,8 +586,8 @@
       },
       "VexingVapor": {
         "Greater": {
-          "criticalSuccess": "<strong>효과</strong> 폭탄은 또한 @Damage[(3[splash])[정신]]{3 정신 방사 피해}를 입히고, 대상은 집중 특성을 사용하여 행동을 취하기 전에 @Check[flat|dc:5]에 성공해야 합니다. 이 효과는 1분 동안 지속됩니다.",
-          "success": "<strong>효과</strong> 폭탄은 또한 @Damage[(3[splash])[정신]]{3 정신 방사 피해}를 입히고, 대상은 집중 특성을 사용하여 행동을 취하기 전에 @Check[flat|dc:5]에 성공해야 합니다. 이 효과는 다음 턴이 끝날 때까지 지속됩니다."
+          "criticalSuccess": "<strong>효과</strong> 폭탄은 또한 @Damage[(3[splash])[mental]]{3 정신 방사 피해}를 입히고, 대상은 집중 특성을 사용하여 행동을 취하기 전에 @Check[flat|dc:5]에 성공해야 합니다. 이 효과는 1분 동안 지속됩니다.",
+          "success": "<strong>효과</strong> 폭탄은 또한 @Damage[(3[splash])[mental]]{3 정신 방사 피해}를 입히고, 대상은 집중 특성을 사용하여 행동을 취하기 전에 @Check[flat|dc:5]에 성공해야 합니다. 이 효과는 다음 턴이 끝날 때까지 지속됩니다."
         },
         "Lesser": {
           "criticalSuccess": "<strong>효과</strong> 폭탄은 또한 @Damage[(1[splash])[mental]]{1 정신 스플래시 피해}를 입히고, 대상은 집중 특성을 사용하여 행동을 취하기 전에 @Check[flat|dc:5]에 성공해야 합니다. 이 효과는 1분 동안 지속됩니다.",
@@ -598,7 +598,7 @@
           "success": "<strong>효과</strong> 폭탄은 또한 @Damage[(4[splash])[mental]]{4 정신 방사 피해}를 입히고, 대상은 집중 특성을 사용하여 행동을 취하기 전에 @Check[flat|dc:5]에 성공해야 합니다. 이 효과는 다음 턴이 끝날 때까지 지속됩니다."
         },
         "Moderate": {
-          "criticalSuccess": "<strong>효과 폭탄은 또한 @Damage[(2[splash])[정신]]{2 정신 방사 피해}를 입히고, 대상은 집중 특성을 사용하여 행동을 취하기 전에 @Check[flat|dc:5]에 성공해야 합니다. 이 효과는 1분 동안 지속됩니다.",
+          "criticalSuccess": "<strong>효과 폭탄은 또한 @Damage[(2[splash])[mental]]{2 정신 방사 피해}를 입히고, 대상은 집중 특성을 사용하여 행동을 취하기 전에 @Check[flat|dc:5]에 성공해야 합니다. 이 효과는 1분 동안 지속됩니다.",
           "success": "<strong>효과</strong> 폭탄은 또한 @Damage[(2[splash])[mental]]{2 정신 방사 피해}를 입히고, 대상은 집중 특성을 사용하여 행동을 취하기 전에 @Check[flat|dc:5]에 성공해야 합니다. 이 효과는 다음 턴이 끝날 때까지 지속됩니다."
         }
       },
@@ -719,7 +719,7 @@
         "BludgeoningPiercingSlashing": "타격, 관통 및 베기 피해",
         "BludgeoningPiercingSlashingFromFrightenedStrikes": "타격, 관통 및 베기 겁에 질린 생물의 공격 피해",
         "CalistriasBane": "칼리스트리아의 저주",
-        "ColdIronBludgeoning": "차가운 철의 타격",
+        "ColdIronBludgeoning": "냉철의 타격",
         "CrystalHazards": "크리스탈 위험",
         "DamageFromSwornCreatures": "맹세한 생물 종족의 피해",
         "DraconicBreathWeapons": "드래곤의 숨결 무기",
@@ -758,7 +758,7 @@
         "VariantSaveLabel": "{item} 대 질병, 독, 피로"
       },
       "SereneMutagen": {
-        "PenaltyLabel": "고요한 돌연변이 유발제 — 공격적인 주문을 시전합니다."
+        "PenaltyLabel": "고요한 돌연변이 혈청 — 공격적인 주문을 시전합니다."
       }
     },
     "NPCAbility": {
@@ -1548,11 +1548,11 @@
         "success": "@Damage[2d8[persistent, cold]]"
       },
       "Fire1": {
-        "criticalSuccess": "@Damage[2[persistent, 화염]]",
-        "success": "@Damage[1[persistent, 화염]]"
+        "criticalSuccess": "@Damage[2[persistent, fire]]",
+        "success": "@Damage[1[persistent, fire]]"
       },
       "Fire1d10": {
-        "criticalSuccess": "@Damage[(2*1d10)[persistent, 화염]]",
+        "criticalSuccess": "@Damage[(2*1d10)[persistent, fire]]",
         "success": "@Damage[1d10[persistent,fire]]"
       },
       "Fire1d4": {
@@ -1589,55 +1589,55 @@
       },
       "Fire3d8": {
         "criticalSuccess": "@Damage[(2*3d8)[persistent,fire]]",
-        "success": "@Damage[3d8[persistent, 화염]]"
+        "success": "@Damage[3d8[persistent, fire]]"
       },
       "Fire4d10": {
-        "criticalSuccess": "@Damage[(2*4d10)[persistent, 화염]]",
-        "success": "@Damage[4d10[persistent, 화염]]"
+        "criticalSuccess": "@Damage[(2*4d10)[persistent, fire]]",
+        "success": "@Damage[4d10[persistent, fire]]"
       },
       "Force1d12": {
-        "criticalSuccess": "@Damage[(2*1d12)[persistent, 역장]]",
-        "success": "@Damage[1d12[persistent, 역장]]"
+        "criticalSuccess": "@Damage[(2*1d12)[persistent, force]]",
+        "success": "@Damage[1d12[persistent, force]]"
       },
       "Force2d12": {
-        "criticalSuccess": "@Damage[(2*2d12)[persistent, 역장]]",
+        "criticalSuccess": "@Damage[(2*2d12)[persistent, force]]",
         "success": "@Damage[2d12[persistent, force]]"
       },
       "Mental1d4": {
-        "criticalSuccess": "@Damage[(2*1d4)[persistent, 정신]]",
-        "success": "@Damage[1d4[persistent, 정신]]"
+        "criticalSuccess": "@Damage[(2*1d4)[persistent, mental]]",
+        "success": "@Damage[1d4[persistent, mental]]"
       },
       "Mental1d6": {
-        "criticalSuccess": "@Damage[(2*1d6)[persistent, 정신]]",
-        "success": "@Damage[1d6[persistent, 정신]]"
+        "criticalSuccess": "@Damage[(2*1d6)[persistent, mental]]",
+        "success": "@Damage[1d6[persistent, mental]]"
       },
       "Mental1d8": {
-        "criticalSuccess": "@Damage[(2*1d8)[persistent, 정신]]",
-        "success": "@Damage[1d8[persistent, 정신]]"
+        "criticalSuccess": "@Damage[(2*1d8)[persistent, mental]]",
+        "success": "@Damage[1d8[persistent, mental]]"
       },
       "Mental2d6": {
-        "criticalSuccess": "@Damage[(2*2d6)[persistent, 정신]]",
-        "success": "@Damage[2d6[persistent, 정신]]"
+        "criticalSuccess": "@Damage[(2*2d6)[persistent, mental]]",
+        "success": "@Damage[2d6[persistent, mental]]"
       },
       "Mental3d6": {
-        "criticalSuccess": "@Damage[(2*3d6)[persistent, 정신]]",
-        "success": "@Damage[3d6[persistent, 정신]]"
+        "criticalSuccess": "@Damage[(2*3d6)[persistent, mental]]",
+        "success": "@Damage[3d6[persistent, mental]]"
       },
       "Negative1d10": {
-        "criticalSuccess": "@Damage[(2*1d10)[persistent, 무효]]",
-        "success": "@Damage[1d10[persistent, 무효]]"
+        "criticalSuccess": "@Damage[(2*1d10)[persistent, void]]",
+        "success": "@Damage[1d10[persistent, void]]"
       },
       "Negative1d6": {
-        "criticalSuccess": "@Damage[(2*1d6)[persistent, 무효]]",
-        "success": "@Damage[1d6[persistent, 무효]]"
+        "criticalSuccess": "@Damage[(2*1d6)[persistent, void]]",
+        "success": "@Damage[1d6[persistent, void]]"
       },
       "Negative1d8": {
-        "criticalSuccess": "@Damage[(2*1d8)[persistent, 무효]]",
-        "success": "@Damage[1d8[persistent, 무효]]"
+        "criticalSuccess": "@Damage[(2*1d8)[persistent, void]]",
+        "success": "@Damage[1d8[persistent, void]]"
       },
       "Negative2d10": {
-        "criticalSuccess": "@Damage[(2*2d10)[persistent, 무효]]",
-        "success": "*@Damage[2d10[persistent, 무효]]"
+        "criticalSuccess": "@Damage[(2*2d10)[persistent, void]]",
+        "success": "*@Damage[2d10[persistent, void]]"
       },
       "Piercing2d8+8": {
         "criticalSuccess": "@Damage[(2*2d8+16)[persistent, piercing]]",
@@ -1806,7 +1806,7 @@
       "EffectSpinoff": "효과 스핀오프",
       "EphemeralEffect": "일시적 효과",
       "FastHealing": "빠른 치유/재생",
-      "FlatModifier": "평평한 수정자",
+      "FlatModifier": "플랫 체크 수정자",
       "GrantItem": "아이템 부여",
       "Immunity": "면역",
       "ItemAlteration": "아이템 변경",
@@ -1849,11 +1849,11 @@
       "Climb": "등반",
       "ClimbHighJumpLongJumpOrDisarm": "등반, 고공 점프, 장거리 점프, 또는 무장 해제",
       "ClimbOrSwim": "등반 또는 수영",
-      "CommandAnAnimal": "동물을 명령하기",
-      "CommandReptile": "파충류인 동물을 명령하기",
+      "CommandAnAnimal": "동물 명령",
+      "CommandReptile": "파충류과 동물 명령",
       "ConcealAnObject": "물체를 숨기기",
-      "CraftAlchemical": "알케미 아이템 제작",
-      "CraftAlchemicalOrMedicine": "알케미 또는 의약품 아이템 제작",
+      "CraftAlchemical": "연금술 아이템 제작",
+      "CraftAlchemicalOrMedicine": "연금술 또는 의약품 아이템 제작",
       "CraftBone": "뼈를 사용하기",
       "CraftJewelry": "보석 제작",
       "CraftSnare": "덫 제작",
@@ -1869,7 +1869,7 @@
       "Deserts": "사막에서",
       "DimLight": "어두운 빛 속에서",
       "DimLightOrDarkness": "어두운 빛이나 어둠 속에서",
-      "DisableADevice": "장치 무력화시키기",
+      "DisableADevice": "장치 해제시키기",
       "Disarm": "무장 해제시키기",
       "DisarmGrapple": "무장 해제시키거나 잡기",
       "DisarmGrappleAvoidDisarm": "무장 해제시키거나 잡기, 또는 무장 해제당하지 않기",
@@ -1879,7 +1879,7 @@
       "Diversion": "분산시키기",
       "Escape": "도망치기",
       "EscapeForceOpenOrLift": "도망치기, 강제로 열기, 또는 무거운 물체를 들어올리기",
-      "Feint": "가짜 동작을 취하기",
+      "Feint": "페인트 취하기",
       "Fly": "날아오르기",
       "ForceOpenGrappleShoveOrTrip": "강제로 열기, 잡기, 밀치기, 또는 넘어뜨리기",
       "Forests": "숲에서",
@@ -1895,15 +1895,15 @@
       "GrappleShove": "붙잡거나 밀치기",
       "Hide": "숨기",
       "HideInBody": "몸 안에 숨기",
-      "HideInDim": "어두운 빛 속에서 숨기",
-      "HideInDimOrDark": "어두운 빛이나 어둠 속에서 숨기",
-      "HideSneakInscriptions": "문자나 그림 사이에서 숨기거나 몰래 움직이기",
+      "HideInDim": "낮은 조명 속에서 숨기",
+      "HideInDimOrDark": "낮은 조명이나 어둠 속에서 숨기",
+      "HideSneakInscriptions": "서적이나 그림 사이에서 숨거나 몰래 움직이기",
       "HideSneakTree": "나무에 올라가서 숨기거나 몰래 움직이기",
       "HighJumpOrLongJump": "높이 뛰기나 멀리 뛰기",
       "IceAndSnow": "얼음이나 눈 속에서",
       "ImitateStone": "돌을 흉내내기",
       "ImitateVoice": "목소리를 흉내내기",
-      "Impersonate": "변장하기",
+      "Impersonate": "사칭하기",
       "ImpersonateCloakSheetRay": "망토, 시트, 또는 광선을 흉내내기",
       "ImpersonateClothing": "의상을 흉내내기",
       "ImpersonateHumanVersion": "자신의 인간 버전으로 변장하기",
@@ -1925,7 +1925,7 @@
       "Lie": "누워 있기",
       "LongJump": "장거리 점프하기",
       "Lute": "루트 연주하기",
-      "MakeAnImpression": "인상을 남기기",
+      "MakeAnImpression": "인상 남기기",
       "ManeuverInFlight": "비행 중 기동하기",
       "Moist": "습한 환경에서",
       "Moonlight": "달빛 아래에서",
@@ -1936,13 +1936,13 @@
       "OceansForests": "바다와 숲",
       "Orate": "연설하기",
       "Paint": "그림 그리기",
-      "PalmAnObjectOrSteal": "물건을 훔치거나 손에 숨기기",
+      "PalmAnObjectOrSteal": "물건을 슬쩍하기",
       "PickALock": "자물쇠 따기",
       "Poison": "독약 만들기",
-      "Prophecy": "예언을 내뱉기",
+      "Prophecy": "예언을 말하기",
       "Raining": "비 오는 상태",
-      "RecallKnowledge": "지식을 회상하기",
-      "RecallKnowledgeDeadSubject": "사망한 대상에 대한 지식을 회상하기",
+      "RecallKnowledge": "지식 회상하기",
+      "RecallKnowledgeDeadSubject": "사망한 대상에 대한 지식 회상하기",
       "Rocky": "바위 지형",
       "RockyOrBarren": "바위나 황무지 지형",
       "Ruins": "폐허",
@@ -1977,8 +1977,8 @@
       "Traps": "함정",
       "TrashAndRubbish": "쓰레기와 폐기물",
       "Treasure": "보물",
-      "Trip": "걸려 넘어지게 하기",
-      "TripTangle": "걸려 넘어지고 얽히게 하기",
+      "Trip": "넘어뜨리기",
+      "TripTangle": "넘어뜨려 얽히게 하기",
       "TumbleThrough": "회피 돌파",
       "TumbleThroughMediumOrLarger": "중형 또는 대형 생물의 공간을 회피 돌파",
       "Tundra": "툰드라",
@@ -1997,7 +1997,7 @@
       "VsMental": "vs. 정신 효과",
       "VsPlants": "vs. 식물",
       "VsProne": "vs. 엎드린 효과",
-      "VsShoveOrTrip": "vs. 밀치기 또는 걸려 넘어뜨리기",
+      "VsShoveOrTrip": "vs. 밀치기 또는 넘어뜨리기",
       "VsSleeping": "vs. 잠든 대상",
       "Water": "물",
       "WaterOrMud": "물 또는 진흙",
@@ -2011,7 +2011,7 @@
     "SpecificRule": {
       "Acrobat": {
         "AcrobatDedication": {
-          "Note": "적의 공간을 넘어가는 곡예 체크에 대성공을 할 때마다, 적의 공간을 어려운 지형으로 취급하지 않습니다."
+          "Note": "회피 돌파를 위한 곡예 체크에 대성공을 할 때마다, 적의 공간을 어려운 지형으로 취급하지 않습니다."
         },
         "Contortionist": {
           "Note": "곡예로 @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape}에 성공할 때마다, 당신이 탈출한 생물은 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프-가드} 상태가 됩니다. 가 됩니다."
@@ -2089,7 +2089,7 @@
           "Label": "개선된 활력 엘릭서",
           "Mental": {
             "Label": "정신 활력",
-            "Conditions": "@UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{혼란}, 통제된, @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{도주}, @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비}, @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐}."
+            "Conditions": "@UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{혼란}, 제어된, @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{도주}, @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비}, @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐}."
           },
           "Physical": {
             "Label": "물리적 활력",
@@ -2240,7 +2240,7 @@
           "SpellDescriptionAlteration": "자신을 대상으로 하지 않는 치유 특성이 있는 주문을 시전하면, @Damage[(@item.rank)d6[healing]] 체력을 회복합니다."
         },
         "ChannelDivineSpark": {
-          "Note": "근접 공격으로 생물에게 피해를 줄 때마다, 자유 행동으로 @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{밀치기} 또는 @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{걸려 넘어뜨리기}를 시도할 수 있습니다."
+          "Note": "근접 공격으로 생물에게 피해를 줄 때마다, 자유 행동으로 @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{밀치기} 또는 @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{넘어뜨리기}를 시도할 수 있습니다."
         },
         "Dedication": {
           "NimbusToggle": "승천한 천사 — 빛의 후광",
@@ -2694,7 +2694,7 @@
           "Iniquity": "챔피언의 오라에 있는 적을 제외한 챔피언의 오라에 있는 모든 적은 발동한 적에게 입힌 피해의 절반을 받습니다.",
           "Justice": "챔피언의 오라에 있고 근접 공격 범위 내에 대상이 있는 모든 아군은 반응으로 -5 페널티를 받고 대상을 공격할 수 있습니다.",
           "Liberation": "해방의 걸음에 영향을 받은 동맹 외에도, 당신과 챔피언의 오라 내에 있는 모든 동맹은 무료 행동으로 걸음을 사용할 수 있습니다. 해방의 걸음의 혜택을 받은 동맹이 이동할 수 없더라도, 당신과 동맹은 혜택을 받습니다.",
-          "Obedience": "챔피언의 오라에 있는 트리거링 크리처 이외의 모든 적도 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드린}을 떨어뜨리거나 정신 피해를 입어야 합니다(각 적이 선택). 이 생물들은 최소 피해(일반적으로 @Damage[ternary(gte(@actor.level,19),6,ternary(gte(@actor.level,16),5,ternary(gte(@actor.level,12),4,ternary(gte(@actor.level,11),3)[정신]])만 받고, 그 효과가 당신의 철의 명령을 변경하는 어떤 것에 의해서도 조정될 수 없습니다. 예를 들어, Iron Repercussions 피트는 발동한 크리처 이외의 크리처에게 피해를 지속 정신 피해로 바꿀 수 없습니다.",
+          "Obedience": "챔피언의 오라에 있는 트리거링 크리처 이외의 모든 적도 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드린}을 떨어뜨리거나 정신 피해를 입어야 합니다(각 적이 선택). 이 생물들은 최소 피해(일반적으로 @Damage[ternary(gte(@actor.level,19),6,ternary(gte(@actor.level,16),5,ternary(gte(@actor.level,12),4,ternary(gte(@actor.level,11),3)[mental]])만 받고, 그 효과가 당신의 철의 명령을 변경하는 어떤 것에 의해서도 조정될 수 없습니다. 예를 들어, Iron Repercussions 피트는 발동한 크리처 이외의 크리처에게 피해를 지속 정신 피해로 바꿀 수 없습니다.",
           "Redemption": "적들이 거부하면, 발동한 아군을 포함한 챔피언의 오라에 있는 모든 아군에게 저항력을 부여할 수 있습니다. 그렇게 하면, 모든 @UUID[Compendium.pf2e.feat-effects.Item.GFLiTESBmoyQ3sLx]{효과: 고귀한 반응 (구속)}의 저항력이 2 감소합니다."
         },
         "EvilDamage": "영혼 피해",
@@ -5455,7 +5455,7 @@
             "ExplosionOfPower": "@Template[emanation|distance:5] 내에 있는 모든 생물은 @Damage[(@item.level)d6|options:explosion-of-power]의 피해를 받습니다 (@Check[reflex|basic|against:spell] 내성).",
             "Fey": "1 라운드 동안 성능 체크에 +2 상태 보너스를 받거나, 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진}가 될 수 있습니다. 이러한 명백한 은폐는 @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Hide}에 사용할 수 없습니다.",
             "Genie": "당신의 주문은 현실을 왜곡하고 적의 주의를 분산시킵니다. 1 라운드 동안 기만 체크에 +1의 상태 보너스를 받거나, 대상이 1 라운드 동안 지각에 -1의 상태 페널티를 받습니다.",
-            "Hag": "당신의 다음 턴이 끝나기 전에 당신에게 피해를 입힌 첫 번째 생물에게 @Damage[(4*@item.level)[정신]]의 피해를 입힙니다 (@Check[will|basic|against:spell] 내성). 그 동안 당신에게 피해를 입힌 생물이 없다면, 당신은 그 악의를 소모하여 다음 턴이 시작될 때 주문 등급에 해당하는 임시 체력을 얻습니다. 이 임시 체력은 다음 턴이 시작될 때까지 지속됩니다.",
+            "Hag": "당신의 다음 턴이 끝나기 전에 당신에게 피해를 입힌 첫 번째 생물에게 @Damage[(4*@item.level)[mental]]의 피해를 입힙니다 (@Check[will|basic|against:spell] 내성). 그 동안 당신에게 피해를 입힌 생물이 없다면, 당신은 그 악의를 소모하여 다음 턴이 시작될 때 주문 등급에 해당하는 임시 체력을 얻습니다. 이 임시 체력은 다음 턴이 시작될 때까지 지속됩니다.",
             "Harrow": "당신은 가능성의 가능성으로 둘러싸여, 당신의 가능한 미래에서 나온 여러 버전의 자신이 서로 겹쳐진 형태로 나타납니다. 당신은 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진}를 1 라운드 동안 얻지만, 이 은폐 효과를 @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Hide}에 사용할 수 없습니다.",
             "Imperial": "다음 턴이 시작될 때까지, AC 또는 내성 굴림에 +1 상태 보너스를 선택하여 얻을 수 있습니다.",
             "Nymph": "님프의 우아함은 당신의 움직임을 강조하고 적의 주의를 분산시켜, 1 라운드 동안 외교 체크에 +1 상태 보너스를 부여하거나, 1 라운드 동안 한 대상의 의지 내성 굴림에 -1 상태 페널티를 부과합니다.",
@@ -5521,7 +5521,7 @@
         "UndeadNearby": "근처에 언데드가 있습니다."
       },
       "SpecialtyCrafting": {
-        "Alchemy": "알케미",
+        "Alchemy": "연금술",
         "Artistry": "예술",
         "Blacksmithing": "철공술",
         "Bookmaking": "책 제작",

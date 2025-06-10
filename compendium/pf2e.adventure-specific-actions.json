@@ -24,11 +24,11 @@
     },
     "Shattered Earth": {
       "name": "Shattered Earth",
-      "description": "<p><strong>측면</strong> earth</p> <p><strong>활성화</strong> <span class=\\“action-glyph\\”>2</span> 명령, 상호 작용</p> <p><strong>빈도</strong> 시간당 한 번</p> <hr /> <p><strong>효과</strong> 유물의 지진파가 주변의 땅을 파동으로 퍼져 나가며 날카로운 파편을 표면으로 흔듭니다. 60피트 이내의 반경 10피트에 있는 돌이나 흙이 어려운 지형으로 변합니다. 이동 행동 중에 영향을 받은 칸에 들어가는 생물은 곡예 체크 또는 반사 내성에 성공하지 않으면 @Damage[1d6[피어싱]]의 피해를 받습니다. 여러 칸을 이동하더라도 이동 행동 당 한 번만 굴림합니다. 6 레벨과 그 이후 4 레벨마다 피해가 [[/r 1d6]] 증가합니다. </p>\"action-glyph\\\">2</span> command, Interact</p> <p><strong>Frequency</strong> once per hour</p> <hr /> <p><strong>Effect</strong> Seismic pulses from your relic ripple through the nearby ground, shaking sharp fragments to the surface. A 10-foot-radius patch of stone or earth within 60 feet is transformed into difficult terrain. A creature that enters an affected square during a move action must succeed at an Acrobatics check or Reflex save or take @Damage[1d6[piercing]] damage; it needs to roll only once per move action even if it moves through several squares. At 6th level and every 4 levels thereafter, increase the damage by [[/r 1d6]].</p>"
+      "description": "<p><strong>측면</strong> earth</p> <p><strong>활성화</strong> <span class=\\“action-glyph\\”>2</span> 명령, 상호 작용</p> <p><strong>빈도</strong> 시간당 한 번</p> <hr /> <p><strong>효과</strong> 유물의 지진파가 주변의 땅을 파동으로 퍼져 나가며 날카로운 파편을 표면으로 흔듭니다. 60피트 이내의 반경 10피트에 있는 돌이나 흙이 어려운 지형으로 변합니다. 이동 행동 중에 영향을 받은 칸에 들어가는 생물은 곡예 체크 또는 반사 내성에 성공하지 않으면 @Damage[1d6[피어싱]]의 피해를 받습니다. 여러 칸을 이동하더라도 이동 행동 당 한 번만 굴림합니다. 6 레벨과 그 이후 4 레벨마다 피해가 [[/r 1d6]] 증가합니다. </p>"
     },
     "Searing Wave": {
       "name": "지글지글 파도",
-      "description": "<p><strong>속성</strong> fire</p> <p><strong>활성화</strong> <span class=\\“action-glyph\\”>2</span> (집중, 조작)</p> <hr /> <p><strong>효과</strong> 유물에 담긴 불의 마법의 일부를 원하는 방향으로 방출할 수 있습니다. 유물의 레벨 2마다 @Damage[1d10[fire]]의 피해를 @Template[cone|distance:30] (@Check[reflex|against:class-spell|basic])에 있는 모든 생물에게 입힙니다. [[/r 1d4 #Recharge Searing Wave]] 라운드 동안은 Searing Wave를 다시 사용할 수 없습니다.</p>\"action-glyph\\\">2</span> (concentrate, manipulate)</p> <hr /> <p><strong>Effect</strong> You allow a portion of the fire magic housed in your relic to escape in a direction of your choice. You deal @Damage[1d10[fire]] damage for every 2 levels of the relic to all creatures in a @Template[cone|distance:30] (@Check[reflex|against:class-spell|basic]). You can't use Searing Wave again for [[/r 1d4 #Recharge Searing Wave]] rounds.</p>"
+      "description": "<p><strong>속성</strong> fire</p> <p><strong>활성화</strong> <span class=\\“action-glyph\\”>2</span> (집중, 조작)</p> <hr /> <p><strong>효과</strong> 유물에 담긴 불의 마법의 일부를 원하는 방향으로 방출할 수 있습니다. 유물의 레벨 2마다 @Damage[1d10[fire]]의 피해를 @Template[cone|distance:30] (@Check[reflex|against:class-spell|basic])에 있는 모든 생물에게 입힙니다. [[/r 1d4 #Recharge Searing Wave]] 라운드 동안은 Searing Wave를 다시 사용할 수 없습니다.</p>"
     },
     "Position the Hunters": {
       "name": "사냥꾼의 위치",
@@ -108,7 +108,7 @@
     },
     "Perception Filter": {
       "name": "지각 필터",
-      "description": "<p><strong>측면</strong> 마음</p> <p><strong>활성화</strong> <span class=\\“action-glyph\\”>2</span> 상상</p> <p><strong>빈도</strong> 하루에 한 번</p> <hr /> <p><strong>효과</strong> 당신의 유물이 주변 생물들의 마음에 도달하여 당신의 존재를 그들의 지각에서 차단합니다. 다음 10분 동안, 당신을 중심으로 @Template[emanation|distance:120]에 들어가는 생물은 비밀 @Check[will|against:class-spell|traits:secret] 내성 체크를 시도해야 하며, 그 후 1일 동안 일시적으로 면역이 됩니다.</p> <p><strong>성공</strong> 생물은 @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} 또는 다른 방법으로 당신을 감지하기 위한 지각 체크에 -2의 상태 페널티를 받습니다. </p> <p><strong>실패</strong> 당신은 생물의 모든 감각을 필터링하여 생물이 당신을 알아차리기 어렵게 만듭니다. 당신이 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨은} 또는 생물에게 탐지되지 않은 상태일 때, 당신은 @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Hide}, @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{은밀 이동}, 또는 Step을 제외한 어떤 행동을 취해도 생물은 당신을 즉시 관찰하지 않습니다. 그 생물이 당신을 찾거나 다른 방법으로 감지하기 위해 지각 체크를 굴림, 그 결과는 굴린 결과보다 1단계 낮은 성공으로 처리되며, 당신이 숨기거나 몰래 움직이거나 그 생물의 주의를 피하기 위해 은신 체크를 굴림, 그 결과는 그 생물에 대해 굴린 결과보다 1단계 높은 성공으로 처리됩니다. 그 생물에게 적대적인 행동을 사용하면, 당신의 적대적인 행동이 완료된 후 그 생물에 대한 효과가 종료됩니다.</p>\"action-glyph\\\">2</span> envision</p> <p><strong>Frequency</strong> once per day</p> <hr /> <p><strong>Effect</strong> Your relic reaches into the minds of nearby creatures and blocks your presence from their perceptions. For the next 10 minutes, a creature that enters a @Template[emanation|distance:120], centered on you, must attempt a secret @Check[will|against:class-spell|traits:secret] save, after which the creature is then temporarily immune for 1 day.</p> <hr /> <p><strong>Critical Success</strong> The creature is unaffected.</p> <p><strong>Success</strong> The creature takes a –2 status penalty to Perception checks to @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} or otherwise detect you.</p> <p><strong>Failure</strong> You filter all of the creature's senses, making it difficult for it to notice you. When you are @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨은} or undetected from the creature, it doesn't observe you as soon as you do anything other than @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Hide}, @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{은밀 이동}, or Step. If it rolls a Perception check to Seek or otherwise detect you, it gets the outcome one degree of success worse than what it rolled, and if you roll a Stealth check to Hide, Sneak, or otherwise escape its attention, you get the outcome one degree of success better than what you rolled against the creature. If you use a hostile action toward the creature, the effect ends for that creature after your hostile action is completed.</p> <p><strong>Critical Failure</strong> As failure, but the effect doesn't end for that creature if you use a hostile action against it.</p>"
+      "description": "<p><strong>측면</strong> 마음</p> <p><strong>활성화</strong> <span class=\\“action-glyph\\”>2</span> 상상</p> <p><strong>빈도</strong> 하루에 한 번</p> <hr /> <p><strong>효과</strong> 당신의 유물이 주변 생물들의 마음에 도달하여 당신의 존재를 그들의 지각에서 차단합니다. 다음 10분 동안, 당신을 중심으로 @Template[emanation|distance:120]에 들어가는 생물은 비밀 @Check[will|against:class-spell|traits:secret] 내성 체크를 시도해야 하며, 그 후 1일 동안 일시적으로 면역이 됩니다.</p> <p><strong>성공</strong> 생물은 @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} 또는 다른 방법으로 당신을 감지하기 위한 지각 체크에 -2의 상태 페널티를 받습니다. </p> <p><strong>실패</strong> 당신은 생물의 모든 감각을 필터링하여 생물이 당신을 알아차리기 어렵게 만듭니다. 당신이 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨은} 또는 생물에게 탐지되지 않은 상태일 때, 당신은 @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Hide}, @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{은밀 이동}, 또는 Step을 제외한 어떤 행동을 취해도 생물은 당신을 즉시 관찰하지 않습니다. 그 생물이 당신을 찾거나 다른 방법으로 감지하기 위해 지각 체크를 굴림, 그 결과는 굴린 결과보다 1단계 낮은 성공으로 처리되며, 당신이 숨기거나 몰래 움직이거나 그 생물의 주의를 피하기 위해 은신 체크를 굴림, 그 결과는 그 생물에 대해 굴린 결과보다 1단계 높은 성공으로 처리됩니다. 그 생물에게 적대적인 행동을 사용하면, 당신의 적대적인 행동이 완료된 후 그 생물에 대한 효과가 종료됩니다.</p>"
     },
     "Fey Luck": {
       "name": "페이의 행운",
@@ -160,7 +160,7 @@
     },
     "Righteous Call": {
       "name": "의로운 부름",
-      "description": "<p><strong>측면</strong> 천상의</p> <p><strong>활성화</strong> <span class=\\“action-glyph\\”>2</span> (집중, 조작)</p> <p><strong>빈도</strong> 하루에 한 번</p> <hr /> <p><strong>효과</strong> 신성한 마법이 무기를 채워, 무기를 악에 대항하는 진정한 무기로 만듭니다. 1분 동안, 무기를 들고 있는 동안 무기와 무기 없는 공격이 신성한 무기 룬을 얻습니다. 무기의 속성 룬이 한계에 도달한 경우, 신성한 룬이 유효한 동안 무기의 속성 룬 중 하나를 휴면 상태로 만들 수 있습니다. 또한, 당신으로부터 30피트 이내의 아군이 공격을 하면 신성한 특성이 적용됩니다.</p>\"action-glyph\\\">2</span> (concentrate, manipulate)</p> <p><strong>Frequency</strong> once per day</p> <hr /> <p><strong>Effect</strong> Holy magic fills your armaments, making them true weapons against evil. For 1 minute, your weapons and unarmed attacks gain the holy weapon rune while you hold them. If a weapon is at its limit on property runes, you can choose one property rune on the weapon to go dormant while the holy rune takes effect. In addition, Strikes your allies make while they're within 30 feet of you gain the holy trait.</p>"
+      "description": "<p><strong>측면</strong> 천상의</p> <p><strong>활성화</strong> <span class=\\“action-glyph\\”>2</span> (집중, 조작)</p> <p><strong>빈도</strong> 하루에 한 번</p> <hr /> <p><strong>효과</strong> 신성한 마법이 무기를 채워, 무기를 악에 대항하는 진정한 무기로 만듭니다. 1분 동안, 무기를 들고 있는 동안 무기와 무기 없는 공격이 신성한 무기 룬을 얻습니다. 무기의 속성 룬이 한계에 도달한 경우, 신성한 룬이 유효한 동안 무기의 속성 룬 중 하나를 휴면 상태로 만들 수 있습니다. 또한, 당신으로부터 30피트 이내의 아군이 공격을 하면 신성한 특성이 적용됩니다.</p>"
     },
     "Hunt the Animals": {
       "name": "동물 사냥",
@@ -212,7 +212,7 @@
     },
     "Beginner's Luck": {
       "name": "초보자의 행운",
-      "description": "<p><strong>측면</strong> 행운</p> <p><strong>활성화</strong> <span class=\\“action-glyph\\”>r</span> envision</p> <p><strong>사용 빈도</strong> 하루에 한 번</p> <p><strong>발동 조건</strong> 훈련받지 않은 d20 굴림에 도전합니다</p> <hr /> <p><strong>효과</strong> 숙련 보너스를 레벨의 절반으로 취급하거나, 유물이 7레벨 이상인 경우 레벨로 취급합니다. 그런 다음 두 번 굴림하고 두 결과 중 더 좋은 결과를 사용합니다. 이로 인해 스킬의 훈련된 행동을 사용할 수 없게 됩니다.</p>\"action-glyph\\\">r</span> envision</p> <p><strong>Frequency</strong> once per day</p> <p><strong>Trigger</strong> You attempt a d20 roll you're untrained in</p> <hr /> <p><strong>Effect</strong> You treat your proficiency bonus as equal to half your level, or if the relic is 7th level or higher, as equal to your level. Then, roll twice, taking the better of the two results. This doesn't allow you to use a skill's trained actions.</p>"
+      "description": "<p><strong>측면</strong> 행운</p> <p><strong>활성화</strong> <span class=\\“action-glyph\\”>r</span> envision</p> <p><strong>사용 빈도</strong> 하루에 한 번</p> <p><strong>발동 조건</strong> 훈련받지 않은 d20 굴림에 도전합니다</p> <hr /> <p><strong>효과</strong> 숙련 보너스를 레벨의 절반으로 취급하거나, 유물이 7레벨 이상인 경우 레벨로 취급합니다. 그런 다음 두 번 굴림하고 두 결과 중 더 좋은 결과를 사용합니다. 이로 인해 스킬의 훈련된 행동을 사용할 수 없게 됩니다.</p>"
     },
     "Protector's Interdiction": {
       "name": "보호자의 금지",
@@ -248,11 +248,11 @@
     },
     "Shadow Smith": {
       "name": "그림자 대장장이",
-      "description": "<p><strong>어스펙트</strong> 그림자</p> <p><strong>활성화</strong> <span class=\\“action-glyph\\”>1</span> 상호 작용</p> <hr /> <p><strong>효과</strong> 당신의 유물은 주변의 그림자를 끌어당겨 간단한 무기나 간단한 도구 또는 로프나 지렛대 같은 아이템의 모양으로 변형시킵니다. 이 효과는 단일 활동에 사용될 때까지, 다시 그림자 대장장이를 사용할 때까지, 또는 1분 중 먼저 발생하는 시점까지 지속되며, 그 후 사라집니다.</p>\"action-glyph\\\">1</span> Interact</p> <hr /> <p><strong>Effect</strong> Your relic pulls at nearby shadows, twisting them into the shape of a simple weapon or a simple tool or item, such as a rope or crowbar. It lasts until it is used for a single activity, until you use shadow smith again, or for 1 minute, whichever comes first, after which it dissipates.</p>"
+      "description": "<p><strong>어스펙트</strong> 그림자</p> <p><strong>활성화</strong> <span class=\\“action-glyph\\”>1</span> 상호 작용</p> <hr /> <p><strong>효과</strong> 당신의 유물은 주변의 그림자를 끌어당겨 간단한 무기나 간단한 도구 또는 로프나 지렛대 같은 아이템의 모양으로 변형시킵니다. 이 효과는 단일 활동에 사용될 때까지, 다시 그림자 대장장이를 사용할 때까지, 또는 1분 중 먼저 발생하는 시점까지 지속되며, 그 후 사라집니다.</p>"
     },
     "Flare Bolt": {
       "name": "플레어 볼트",
-      "description": "<p><strong>측면</strong> fire</p> <p><strong>활성화</strong> <span class=\\“action-glyph\\”>2</span> (집중, 조작)</p> <hr /> <p><strong>효과</strong> 유물에서 불꽃의 화살이 솟아오릅니다. 유물로 30 피트 이내의 대상을 대상으로 주문 공격 굴림을 합니다. 화살은 유물의 레벨 2당 @Damage[1d6[fire]]의 피해를 입힙니다 (최소 1d6).</p> <p><strong>대성공</strong> 화살은 두 배의 피해를 입히고, 유물의 레벨에 해당하는 지속적인 화염 피해를 입힙니다. </p> <p><strong>성공</strong> 화살은 전체 피해를 입힙니다. </p>\"action-glyph\\\">2</span> (concentrate, manipulate)</p> <hr /> <p><strong>Effect</strong> A bolt of flames scorches out from the relic. Make a spell attack roll with your relic against a target within 30 feet. The bolt deals @Damage[1d6[fire]] damage for every 2 levels the relic has (minimum 1d6).</p> <p><strong>Critical Success</strong> The bolt deals double damage, as well as persistent fire damage equal to the level of the relic.</p> <p><strong>Success</strong> The bolt deals full damage.</p>"
+      "description": "<p><strong>측면</strong> fire</p> <p><strong>활성화</strong> <span class=\\“action-glyph\\”>2</span> (집중, 조작)</p> <hr /> <p><strong>효과</strong> 유물에서 불꽃의 화살이 솟아오릅니다. 유물로 30 피트 이내의 대상을 대상으로 주문 공격 굴림을 합니다. 화살은 유물의 레벨 2당 @Damage[1d6[fire]]의 피해를 입힙니다 (최소 1d6).</p> <p><strong>대성공</strong> 화살은 두 배의 피해를 입히고, 유물의 레벨에 해당하는 지속적인 화염 피해를 입힙니다. </p> <p><strong>성공</strong> 화살은 전체 피해를 입힙니다. </p>"
     },
     "Explore the Electric Castle": {
       "name": "전기 성을 탐험하세요",
@@ -264,7 +264,7 @@
     },
     "Steal Luck": {
       "name": "행운을 훔치기",
-      "description": "<p><strong>어스펙트</strong> luck</p> <p><strong>활성화</strong> <span class=\\“action-glyph\\”>r</span> envision</p> <p><strong>빈도 하루에 한 번</p> <p><strong>트리거 당신이나 당신으로부터 30피트 이내의 생물이 행운 또는 불행 효과를 위해 두 개의 d20을 굴리고, 당신이 더 높은 굴림 결과를 좋아합니다. 대상은 다른 결과를 사용해야 합니다. 다음 일일 준비를 할 때까지, 당신은 적, 위험, 또는 환경에 의해 생성된 효과에 대해 해야 하는 내성 굴림 또는 스킬 체크에 대해 그 숫자를 d20 굴림으로 대체할 수 있습니다. 이렇게 하는 것은 행운의 효과입니다. 다음 일일 준비를 하기 전에 그렇게 하지 않으면, 저장된 숫자는 소멸됩니다.</p>\"action-glyph\\\">r</span> envision</p> <p><strong>Frequency</strong> once per day</p> <p><strong>Trigger</strong> You or a creature within 30 feet of you rolls two d20s for a fortune or misfortune effect and you like the higher roll</p> <hr /> <p><strong>Effect</strong> You steal the higher of the two numbers the triggering target rolled; the target must use the other result. Until you make your next daily preparations, you can substitute that number for one d20 roll made for a saving throw or skill check you have to make against an effect created by an enemy, hazard, or the environment. Doing so is a fortune effect. If you fail to do so before your next daily preparations, you lose the stored number.</p>"
+      "description": "<p><strong>어스펙트</strong> luck</p> <p><strong>활성화</strong> <span class=\\“action-glyph\\”>r</span> envision</p> <p><strong>빈도 하루에 한 번</p> <p><strong>트리거 당신이나 당신으로부터 30피트 이내의 생물이 행운 또는 불행 효과를 위해 두 개의 d20을 굴리고, 당신이 더 높은 굴림 결과를 좋아합니다. 대상은 다른 결과를 사용해야 합니다. 다음 일일 준비를 할 때까지, 당신은 적, 위험, 또는 환경에 의해 생성된 효과에 대해 해야 하는 내성 굴림 또는 스킬 체크에 대해 그 숫자를 d20 굴림으로 대체할 수 있습니다. 이렇게 하는 것은 행운의 효과입니다. 다음 일일 준비를 하기 전에 그렇게 하지 않으면, 저장된 숫자는 소멸됩니다.</p>"
     },
     "Shortcut Through the Wastes": {
       "name": "사막을 가로지르는 단축 경로",
@@ -324,15 +324,15 @@
     },
     "Soul Ward": {
       "name": "소울 워드",
-      "description": "<p><strong>발동 빈도</strong> 1회</p> <p><strong>발동 조건</strong> 당신이 @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{무의식} 또는 @UUID[Compendium.pf2e.conditionitems.Item.yZRUzMqrMmfLu0V1]{죽음} 상태가 되거나, 당신은 파괴됩니다. </p><hr /><p><strong>효과</strong> 당신은 최대 체력까지 @Damage[200[치유]]의 체력을 회복합니다. 게브가 당신에게 부여한 모든 저항력과 임시 체력은 즉시 종료됩니다.</p>"
+      "description": "<p><strong>발동 빈도</strong> 1회</p> <p><strong>발동 조건</strong> 당신이 @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{무의식} 또는 @UUID[Compendium.pf2e.conditionitems.Item.yZRUzMqrMmfLu0V1]{죽음} 상태가 되거나, 당신은 파괴됩니다. </p><hr /><p><strong>효과</strong> 당신은 최대 체력까지 @Damage[200[healing]]의 체력을 회복합니다. 게브가 당신에게 부여한 모든 저항력과 임시 체력은 즉시 종료됩니다.</p>"
     },
     "Heat Haze": {
       "name": "열기",
-      "description": "<p><strong>속성</strong> fire</p> <hr /> <p>유물의 열이 주변 공기를 쾌적하게 따뜻하게 유지합니다. 유물을 들고 있거나 착용하고 있는 동안에는 극심한 추위로부터 당신을 보호합니다. 9레벨이 되면 극한의 추위도 막아주고, 17레벨이 되면 믿을 수 없을 정도의 추위도 막아줍니다. 4 레벨이 되면 유물은 다음 활성화 효과도 얻습니다. </p> <p><strong>활성화</strong> <span class=\\“action-glyph\\”>2</span> (집중)</p> <p><strong>빈도</strong> 하루에 한 번</p> <p><strong>효과</strong> 유물이 주변의 기온을 불규칙적으로 상승시켜 열의 흔들림을 생성하여 당신의 모습을 왜곡시키고 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진} 상태를 1분 동안 부여합니다. 이 효과의 특성상您的位置이 여전히 노출되므로, 이 은폐 효과를 @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{숨기기} 또는 @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{은밀 이동}에 사용할 수 없습니다.</p>\"action-glyph\\\">2</span> (concentrate)</p> <p><strong>Frequency</strong> once per day</p> <p><strong>Effect</strong> Your relic erratically elevates the air temperature around you, creating heat shimmers that distort your appearance and grant you the @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진} condition for 1 minute. As the nature of this effect still leaves your location obvious, you can't use this concealment to @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Hide} or @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{은밀 이동}.</p>"
+      "description": "<p><strong>속성</strong> fire</p> <hr /> <p>유물의 열이 주변 공기를 쾌적하게 따뜻하게 유지합니다. 유물을 들고 있거나 착용하고 있는 동안에는 극심한 추위로부터 당신을 보호합니다. 9레벨이 되면 극한의 추위도 막아주고, 17레벨이 되면 믿을 수 없을 정도의 추위도 막아줍니다. 4 레벨이 되면 유물은 다음 활성화 효과도 얻습니다. </p> <p><strong>활성화</strong> <span class=\\“action-glyph\\”>2</span> (집중)</p> <p><strong>빈도</strong> 하루에 한 번</p> <p><strong>효과</strong> 유물이 주변의 기온을 불규칙적으로 상승시켜 열의 흔들림을 생성하여 당신의 모습을 왜곡시키고 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진} 상태를 1분 동안 부여합니다. 이 효과의 특성상您的位置이 여전히 노출되므로, 이 은폐 효과를 @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{숨기기} 또는 @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{은밀 이동}에 사용할 수 없습니다.</p>"
     },
     "Wind Barrier": {
       "name": "바람의 장벽",
-      "description": "<p><strong>속성</strong> 공기</p> <p><strong>활성화</strong> <span class=\\“action-glyph\\”>1</span> 집중</p> <hr /> <p><strong>효과</strong> 보이지 않는 공기의 장벽이 원거리 공격을 반사하여, 다음 턴이 시작될 때까지 원거리 공격에 대한 AC에 +2의 상황 보너스를 부여합니다. 13 레벨이 되면, 이 보너스는 원거리 공격에 대한 AC에 +3 상황 보너스로 증가합니다.</p>\"action-glyph\\\">1</span> concentrate</p> <hr /> <p><strong>Effect</strong> An invisible barrier of air deflects ranged attacks, granting you a +2 circumstance bonus to AC against ranged attacks until the beginning of your next turn. At 13th level, this increases to a +3 circumstance bonus to AC against ranged attacks.</p>"
+      "description": "<p><strong>속성</strong> 공기</p> <p><strong>활성화</strong> <span class=\\“action-glyph\\”>1</span> 집중</p> <hr /> <p><strong>효과</strong> 보이지 않는 공기의 장벽이 원거리 공격을 반사하여, 다음 턴이 시작될 때까지 원거리 공격에 대한 AC에 +2의 상황 보너스를 부여합니다. 13 레벨이 되면, 이 보너스는 원거리 공격에 대한 AC에 +3 상황 보너스로 증가합니다.</p>"
     },
     "Elements of Creation": {
       "name": "창조의 요소",
@@ -392,7 +392,7 @@
     },
     "Underground Bounty": {
       "name": "지하 현상금",
-      "description": "<p><strong>속성</strong> 땅</p> <hr /> <p>당신의 유물은 무기를 강화하는 금속과 돌을 생성합니다. 매일 일일 준비 중, 유물은 은, 차가운 철, 금, 또는 선택한 비귀금속 또는 금속 재료(예: 청동이나 화강암)의 마법 조각을 소환합니다. 유물이 무기인 경우, 유물은 즉시 조각을 흡수하여 다음 일일 준비까지 해당 금속이나 돌의 마법적인 광채를 얻습니다. 유물이 무기가 아닌 경우, 조각은 즉시 사용되지 않으며, 상호작용 행동을 사용하여 돌이나 금속 무기에 조각을 접촉시켜 10분 동안 해당 금속이나 돌의 마법적인 광채를 부여할 수 있습니다. 마법적인 광채로 덮여 있는 동안 무기는 조각의 돌이나 금속으로 만들어진 것처럼 약점, 저항력 등과 상호작용합니다. 광채와 조각은 명백히 마법적 성질을 지니며, 조각을 사용하지 않으면 다음 일일 준비 시 사라집니다. 17레벨에 도달하면 사용 가능한 옵션에 아다마린과 던실버를 추가합니다.</p>"
+      "description": "<p><strong>속성</strong> 땅</p> <hr /> <p>당신의 유물은 무기를 강화하는 금속과 돌을 생성합니다. 매일 일일 준비 중, 유물은 은, 냉철, 금, 또는 선택한 비귀금속 또는 금속 재료(예: 청동이나 화강암)의 마법 조각을 소환합니다. 유물이 무기인 경우, 유물은 즉시 조각을 흡수하여 다음 일일 준비까지 해당 금속이나 돌의 마법적인 광채를 얻습니다. 유물이 무기가 아닌 경우, 조각은 즉시 사용되지 않으며, 상호작용 행동을 사용하여 돌이나 금속 무기에 조각을 접촉시켜 10분 동안 해당 금속이나 돌의 마법적인 광채를 부여할 수 있습니다. 마법적인 광채로 덮여 있는 동안 무기는 조각의 돌이나 금속으로 만들어진 것처럼 약점, 저항력 등과 상호작용합니다. 광채와 조각은 명백히 마법적 성질을 지니며, 조각을 사용하지 않으면 다음 일일 준비 시 사라집니다. 17레벨에 도달하면 사용 가능한 옵션에 아다마린과 던실버를 추가합니다.</p>"
     },
     "Exhale Poison": {
       "name": "독을 내뿜기",
@@ -424,7 +424,7 @@
     },
     "Form of Fury": {
       "name": "분노의 형태",
-      "description": "<p><strong>형태</strong> 야수</p> <p><strong>전제 조건</strong> 유물이 낡은 아이템입니다.</p> <p><strong>활성화</strong> <span class=\\“action-glyph\\”>2</span> (집중)</p> <p><strong>사용 빈도</strong> 하루에 두 번</p> <hr /> <p><strong>효과</strong> 내면의 야수성을 불러내어 동물의 모습으로 변신합니다. 유물은 @UUID[Compendium.pf2e.spells-srd.Item.wp09USMB3GIW1qbp]{동물 형태}를 당신에게 시전하여, 선물을 획득할 때 선택한 동일한 유형의 동물로 변신시킵니다. 주문 등급은 아이템 레벨의 절반으로 반올림됩니다. 유물 사용 시, 유물은 1회 사용됩니다.</p>\"action-glyph\\\">2</span> (concentrate)</p> <p><strong>Frequency</strong> twice per day</p> <hr /> <p><strong>Effect</strong> Calling upon the bestial nature within, you change shape into that of an animal. The relic casts @UUID[Compendium.pf2e.spells-srd.Item.wp09USMB3GIW1qbp]{Animal Form} on you, transforming you into the same type of animal every time, chosen when the gift is gained; the spell rank is half the item's level, rounded down.</p>"
+      "description": "<p><strong>형태</strong> 야수</p> <p><strong>전제 조건</strong> 유물이 낡은 아이템입니다.</p> <p><strong>활성화</strong> <span class=\\“action-glyph\\”>2</span> (집중)</p> <p><strong>사용 빈도</strong> 하루에 두 번</p> <hr /> <p><strong>효과</strong> 내면의 야수성을 불러내어 동물의 모습으로 변신합니다. 유물은 @UUID[Compendium.pf2e.spells-srd.Item.wp09USMB3GIW1qbp]{동물 형태}를 당신에게 시전하여, 선물을 획득할 때 선택한 동일한 유형의 동물로 변신시킵니다. 주문 등급은 아이템 레벨의 절반으로 반올림됩니다. 유물 사용 시, 유물은 1회 사용됩니다.</p>"
     },
     "Rebuild Battlements": {
       "name": "전장 복구",
@@ -444,7 +444,7 @@
     },
     "Word of Faith": {
       "name": "믿음의 말",
-      "description": "<p><strong>측면</strong> 천상의</p> <p><strong>활성화</strong> <span class=\\“action-glyph\\”>2</span> 명령, 상호 작용</p> <p><strong>빈도</strong> 시간당 한 번</p><hr /><p><strong>효과</strong> 자신이나 아군에게 손을 얹으면, 그 사람의 상처를 치유하고 정신력을 강화합니다. 대상은 아이템 레벨당 @Damage[1d8[치유]]의 HP를 회복하고 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포} 값이 1 감소합니다.</p>\"action-glyph\\\">2</span> command, Interact</p> <p><strong>Frequency</strong> once per hour</p><hr /><p><strong>Effect</strong> Placing your hand on yourself or an ally, you heal their wounds and bolster their spirit. The target regains @Damage[1d8[healing]] HP per item level and reduces their @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포} value by 1.</p>"
+      "description": "<p><strong>측면</strong> 천상의</p> <p><strong>활성화</strong> <span class=\\“action-glyph\\”>2</span> 명령, 상호 작용</p> <p><strong>빈도</strong> 시간당 한 번</p><hr /><p><strong>효과</strong> 자신이나 아군에게 손을 얹으면, 그 사람의 상처를 치유하고 정신력을 강화합니다. 대상은 아이템 레벨당 @Damage[1d8[healing]]의 HP를 회복하고 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포} 값이 1 감소합니다.</p>>"
     },
     "Influence Guild": {
       "name": "영향력 길드",
@@ -488,7 +488,7 @@
     },
     "Divine Retribution": {
       "name": "신성한 보복",
-      "description": "<p><strong>속성</strong> 천상</p> <p><strong>전제 조건</strong> 유물이 무기입니다.</p> <p><strong>활성화</strong> <span class=\\“action-glyph\\”>2</span> 명령</p> <hr /> <p><strong>효과</strong> 신의 분노를 끌어내어, 지난 라운드에 당신이나 아군에게 피해를 준 대상을 선택하고 유물에 신의 복수를 채웁니다. 그 적에게 공격을 하고, 명중 시 추가 피해 주사위를 던집니다. 타겟이 악한 경우, 명중 시 다음 턴이 시작될 때까지 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화 1} 상태가 됩니다 (치명타 시 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화 2} 상태가 됩니다).</p>\"action-glyph\\\">2</span> command</p> <hr /> <p><strong>Effect</strong> Drawing upon divine fury, you single out a target that damaged you or an ally within the past round and fill your relic with divine vengeance against them. Make a Strike against that foe, dealing an additional damage die on a hit. If the target is evil, it is also @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화 1} until the start of your next turn on a hit (or @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화 2} on a critical hit).</p>"
+      "description": "<p><strong>속성</strong> 천상</p> <p><strong>전제 조건</strong> 유물이 무기입니다.</p> <p><strong>활성화</strong> <span class=\\“action-glyph\\”>2</span> 명령</p> <hr /> <p><strong>효과</strong> 신의 분노를 끌어내어, 지난 라운드에 당신이나 아군에게 피해를 준 대상을 선택하고 유물에 신의 복수를 채웁니다. 그 적에게 공격을 하고, 명중 시 추가 피해 주사위를 던집니다. 타겟이 악한 경우, 명중 시 다음 턴이 시작될 때까지 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화 1} 상태가 됩니다 (치명타 시 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화 2} 상태가 됩니다).</p>"
     },
     "Reactive Scorch": {
       "name": "반응성 화상",
@@ -508,7 +508,7 @@
     },
     "Raise Ramparts": {
       "name": "방어벽 세우기",
-      "description": "<p><strong>측면</strong> earth</p> <p><strong>활성화</strong> <span class=\\“action-glyph\\”>2</span> 명령, 상호 작용</p> <p><strong>빈도</strong> 하루에 한 번</p> <hr /> <p><strong>효과</strong> 당신의 유물이 주변의 땅을 재구성합니다. 당신은 5등급 @UUID[Compendium.pf2e.spells-srd.Item.kOa055FIrO9Smnya]{Wall of Stone}을 시전합니다. </p>\"action-glyph\\\">2</span> command, Interact</p> <p><strong>Frequency</strong> once per day</p> <hr /> <p><strong>Effect</strong> Your relic reshapes the earth around you. You cast 5th-rank @UUID[Compendium.pf2e.spells-srd.Item.kOa055FIrO9Smnya]{Wall of Stone}.</p>"
+      "description": "<p><strong>측면</strong> earth</p> <p><strong>활성화</strong> <span class=\\“action-glyph\\”>2</span> 명령, 상호 작용</p> <p><strong>빈도</strong> 하루에 한 번</p> <hr /> <p><strong>효과</strong> 당신의 유물이 주변의 땅을 재구성합니다. 당신은 5등급 @UUID[Compendium.pf2e.spells-srd.Item.kOa055FIrO9Smnya]{Wall of Stone}을 시전합니다. </p>"
     },
     "Convince Mengkare": {
       "name": "멘카레를 설득하기",
@@ -540,7 +540,7 @@
     },
     "Azata's Grace": {
       "name": "아자타의 은총",
-      "description": "<p><strong>측면</strong> 천상체</p> <p><strong>활성화</strong> <span class=\\\"action-glyph\\\">2</span> 명령어, 상호작용</p> <p><strong>빈도</strong> 하루에 한 번</p> <hr /> <p><strong>효과</strong> <em>모나크</em>는 데스나의 궁전인 시노수어로 통로를 열고, 그곳에서 춤추고 뛰노는 아자타들의 은총으로 당신의 영혼을 충만하게 합니다. 최대 체력과 현재 체력이 50 증가하고, 법에 따른 피해에 대한 약점이 10 증가합니다. 또한 @UUID[Compendium.pf2e.adventure-specific-actions.Item.EbF9U21iMu0JkTzG]{Righteous Call} 선물 효과를 얻지만, 해당 선물의 일일 사용 횟수는 소모되지 않습니다.</p> <p>이 효과를 해제할 수 있습니다. 이를 해제하면 무지개 같은 빛의 파동 형태로 혼란의 힘이 폭발하며, 유물이 @UUID[Compendium.pf2e.spells-srd.Item.uEyfLoFQsRKBRIcB]{Confusing Colors}를 발동합니다. 이 발동 시 <em>scintillating pattern</em>의 효과는 동맹에게 영향을 미치지 않습니다.</p>\"action-glyph\\\">2</span> command, Interact</p> <p><strong>Frequency</strong> once per day</p> <hr /> <p><strong>Effect</strong> <em>Monarch</em> opens a conduit to Desna's palace of Cynosure and infuses your soul with the grace of the azatas who dance and frolic therein. You gain 50 additional Hit Points, increasing both your maximum and current Hit Points, as well as weakness 10 to lawful damage. You also gain the effects of the @UUID[Compendium.pf2e.adventure-specific-actions.Item.EbF9U21iMu0JkTzG]{Righteous Call} gift, without expending that gift's daily use.</p> <p>You can Dismiss the effect. If you do so, you unleash a wave of chaotic power in the form of a rainbow-like pulse of light, causing the relic to cast @UUID[Compendium.pf2e.spells-srd.Item.uEyfLoFQsRKBRIcB]{Confusing Colors}. The effects of this casting of <em>scintillating pattern</em> don't affect your allies.</p>"
+      "description": "<p><strong>측면</strong> 천상체</p> <p><strong>활성화</strong> <span class=\\\"action-glyph\\\">2</span> 명령어, 상호작용</p> <p><strong>빈도</strong> 하루에 한 번</p> <hr /> <p><strong>효과</strong> <em>모나크</em>는 데스나의 궁전인 시노수어로 통로를 열고, 그곳에서 춤추고 뛰노는 아자타들의 은총으로 당신의 영혼을 충만하게 합니다. 최대 체력과 현재 체력이 50 증가하고, 법에 따른 피해에 대한 약점이 10 증가합니다. 또한 @UUID[Compendium.pf2e.adventure-specific-actions.Item.EbF9U21iMu0JkTzG]{Righteous Call} 선물 효과를 얻지만, 해당 선물의 일일 사용 횟수는 소모되지 않습니다.</p> <p>이 효과를 해제할 수 있습니다. 이를 해제하면 무지개 같은 빛의 파동 형태로 혼란의 힘이 폭발하며, 유물이 @UUID[Compendium.pf2e.spells-srd.Item.uEyfLoFQsRKBRIcB]{Confusing Colors}를 발동합니다. 이 발동 시 <em>scintillating pattern</em>의 효과는 동맹에게 영향을 미치지 않습니다.</p>"
     },
     "Dematerialize": {
       "name": "소멸",
@@ -552,11 +552,11 @@
     },
     "Ancestors' Call": {
       "name": "선조의 부름",
-      "description": "<p><strong>측면</strong> 마음</p> <p>드워프의 영혼들이 이 유물에 끌려들며, 당신은 그들을 불러내어 당신과 당신의 동맹들에게 조상의 비밀을 전수할 수 있습니다. 이 능력을 얻으면, 1레벨 드워프 조상 피트 중 일반적인 세 가지를 선택하세요. </p> <p><strong>활성화</strong> <span class=\\“action-glyph\\”>1</span> 상상</p> <p><strong>빈도</strong> 시간당 한 번</p> <hr /> <p><strong>효과</strong> 세 가지 조상 피트 중 하나를 선택하세요. 당신과 당신을 중심으로 반경 10 피트에 있는 모든 아군은 1분 동안 그 피트와 드워프 특성을 얻습니다.</p>\"action-glyph\\\">1</span> envision</p> <p><strong>Frequency</strong> once per hour</p> <hr /> <p><strong>Effect</strong> Select one of the three ancestry feats. You and each ally in a 10-foot-radius burst centered on you gain that feat and the dwarf trait for 1 minute.</p>"
+      "description": "<p><strong>측면</strong> 마음</p> <p>드워프의 영혼들이 이 유물에 끌려들며, 당신은 그들을 불러내어 당신과 당신의 동맹들에게 조상의 비밀을 전수할 수 있습니다. 이 능력을 얻으면, 1레벨 드워프 조상 피트 중 일반적인 세 가지를 선택하세요. </p> <p><strong>활성화</strong> <span class=\\“action-glyph\\”>1</span> 상상</p> <p><strong>빈도</strong> 시간당 한 번</p> <hr /> <p><strong>효과</strong> 세 가지 조상 피트 중 하나를 선택하세요. 당신과 당신을 중심으로 반경 10 피트에 있는 모든 아군은 1분 동안 그 피트와 드워프 특성을 얻습니다.</p>"
     },
     "Propelling Winds": {
       "name": "추진하는 바람",
-      "description": "<p><strong>어스펙트</strong> 공기</p> <p><strong>활성화</strong> <span class=\\\"action-glyph\\\">2</span> 명령어, 상호작용</p> <p><strong>빈도</strong> 시간당 1회</p> <hr /> <p><strong>효과</strong> 유물이 @UUID[Compendium.pf2e.spells-srd.Item.A2JfEKe6BZcTG1S8]{Fly}를 당신을 대상으로 발동합니다.</p>\"action-glyph\\\">2</span> command, Interact</p> <p><strong>Frequency</strong> once per hour</p> <hr /> <p><strong>Effect</strong> The relic casts @UUID[Compendium.pf2e.spells-srd.Item.A2JfEKe6BZcTG1S8]{Fly} targeting you.</p>"
+      "description": "<p><strong>어스펙트</strong> 공기</p> <p><strong>활성화</strong> <span class=\\\"action-glyph\\\">2</span> 명령어, 상호작용</p> <p><strong>빈도</strong> 시간당 1회</p> <hr /> <p><strong>효과</strong> 유물이 @UUID[Compendium.pf2e.spells-srd.Item.A2JfEKe6BZcTG1S8]{Fly}를 당신을 대상으로 발동합니다.</p>"
     },
     "Build Workshop (Crafting)": {
       "name": "빌드 워크숍 (공예)",
@@ -584,7 +584,7 @@
     },
     "Feral Claws": {
       "name": "야생의 발톱",
-      "description": "<p><strong>측면</strong> 야수</p> <p><strong>전제 조건</strong> 유물이 착용된 아이템입니다. <p><strong>활성화</strong> <span class=\\“action-glyph\\”>1</span> (집중)</p> <hr /> <p><strong>효과</strong> 당신의 손이 한 쌍의 발톱으로 변합니다. 이 발톱은 1d6의 베기 피해를 주고 민첩과 기교 특성을 가진 무기 없는 발톱 공격을 할 수 있게 해줍니다. 이 효과는 당신이 효과를 해제할 때까지 지속됩니다.</p>\"action-glyph\\\">1</span> (concentrate)</p> <hr /> <p><strong>Effect</strong> Your hands transform into a pair of claws. These grant you a claw unarmed attack that deals 1d6 slashing damage and has the agile and finesse traits. This lasts until you Dismiss the effect.</p>"
+      "description": "<p><strong>측면</strong> 야수</p> <p><strong>전제 조건</strong> 유물이 착용된 아이템입니다. <p><strong>활성화</strong> <span class=\\“action-glyph\\”>1</span> (집중)</p> <hr /> <p><strong>효과</strong> 당신의 손이 한 쌍의 발톱으로 변합니다. 이 발톱은 1d6의 베기 피해를 주고 민첩과 기교 특성을 가진 무기 없는 발톱 공격을 할 수 있게 해줍니다. 이 효과는 당신이 효과를 해제할 때까지 지속됩니다.</p>"
     },
     "Prepare Firepots": {
       "name": "불항아리 준비",
@@ -596,7 +596,7 @@
     },
     "Deadly Spark": {
       "name": "치명적인 불꽃",
-      "description": "<p><strong>어스펙트</strong> 공기</p> <p><strong>활성화</strong> <span class=\\“action-glyph\\”>2</span> 명령, 상호 작용</p><hr /><p><strong>효과</strong> 유물에서 20 피트 이내의 생물에게 불꽃이 튀어 나갑니다. 이 불꽃은 @Damage[(1+max(0,floor((@actor.level -2)/4)))d12[electricity]]의 피해를 입힙니다 (@Check[reflex|against:class-spell|basic] 내성). 이 피해는 6 레벨에서 1d12, 그 이후 4 레벨마다 1d12씩 증가합니다.</p>\"action-glyph\\\">2</span> command, Interact</p><hr /><p><strong>Effect</strong> A spark flashes out from the relic toward a creature within 20 feet. This spark deals @Damage[(1+max(0,floor((@actor.level -2)/4)))d12[electricity]] damage (@Check[reflex|against:class-spell|basic] save). The damage increases by 1d12 at 6th level and by another 1d12 every 4 levels thereafter.</p>"
+      "description": "<p><strong>어스펙트</strong> 공기</p> <p><strong>활성화</strong> <span class=\\“action-glyph\\”>2</span> 명령, 상호 작용</p><hr /><p><strong>효과</strong> 유물에서 20 피트 이내의 생물에게 불꽃이 튀어 나갑니다. 이 불꽃은 @Damage[(1+max(0,floor((@actor.level -2)/4)))d12[electricity]]의 피해를 입힙니다 (@Check[reflex|against:class-spell|basic] 내성). 이 피해는 6 레벨에서 1d12, 그 이후 4 레벨마다 1d12씩 증가합니다.</p>"
     },
     "Passion": {
       "name": "열정",
@@ -620,7 +620,7 @@
     },
     "Dancing Shadow": {
       "name": "춤추는 그림자",
-      "description": "<p><strong>특성</strong> 그림자</p> <p><strong>전제 조건</strong> 유물은 무기입니다.</p> <p><strong>활성화</strong> <span class=\\“action-glyph\\”>2</span> 명령, 상호 작용</p> <p><strong>빈도</strong> 시간당 한 번</p> <hr /> <p><strong>효과</strong> 유물의 그림자가 유물에서 분리되어 공중을 날아 적을 공격합니다. 유물을 활성화할 때 대상을 지정하세요. 유물의 그림자는 그 적에게 인접할 때까지 최대 60피트까지 날아가 그 적을 공격하여, 성공 시 [[/r 5d8]]의 피해를, 대성공 시 그 두 배의 피해를 입힙니다. 피해 유형은 유물이 일반적으로 입히는 모든 유형입니다. 그림자는 유물을 사용한 공격 보너스를 사용하며, 다중 공격 페널티를 사용하고 그 페널티에 기여합니다. 이 활성화가 유효한 동안, 당신은 공격 및 집중 특성을 가진 단일 행동을 사용하여 그림자가 동일한 대상에게 또 다른 공격을 하도록 정신적으로 지시할 수 있습니다. 그림자는 그 대상이 체력이 0이 될 때까지, 그 대상이 당신으로부터 400피트 이상 멀리 이동할 때까지, 또는 그 대상이 완전한 어둠과 같이 그림자가 드리워질 수 없는 지역으로 이동할 때까지, 그 중 가장 먼저 발생하는 경우까지 지속됩니다. 그림자는 공간을 차지하지 않으며, 측면 공격을 부여하지도 않고, 다른 생물들이 가진 다른 속성도 가지고 있지 않으며, 선택한 적을 자동으로 따릅니다. 그림자는 공격 이외의 다른 공격을 할 수 없으며, 무기에 영향을 미치는 특기나 주문은 적용되지 않습니다.</p>\"action-glyph\\\">2</span> command, Interact</p> <p><strong>Frequency</strong> once per hour</p> <hr /> <p><strong>Effect</strong> Your relic's shadow detaches from your relic and dances through the air to attack an enemy. When you Activate the relic, designate a target. The relic's shadow flies up to 60 feet until it is adjacent to that foe and then makes a Strike against it, dealing [[/r 5d8]] damage on a success or double that on a critical success; the damage type is of any type normally dealt by your relic. The shadow uses your attack bonus with the relic, and it uses and contributes to your multiple attack penalty. While this activation is in effect, you can use a single action, which has the attack and concentrate traits, to mentally direct the shadow to make another Strike against the same target. The shadow lasts until that target is reduced to 0 Hit Points, that target moves more than 400 feet from you, or that target moves to an area where no shadow could be cast, such as an area of complete darkness, whichever comes first.</p> <p>The shadow doesn't take up space, grant flanking, or have any other attributes a creature would, and it automatically follows the chosen foe. The shadow can't make any attack other than its Strike, and feats or spells that affect weapons do not apply to it.</p>"
+      "description": "<p><strong>특성</strong> 그림자</p> <p><strong>전제 조건</strong> 유물은 무기입니다.</p> <p><strong>활성화</strong> <span class=\\“action-glyph\\”>2</span> 명령, 상호 작용</p> <p><strong>빈도</strong> 시간당 한 번</p> <hr /> <p><strong>효과</strong> 유물의 그림자가 유물에서 분리되어 공중을 날아 적을 공격합니다. 유물을 활성화할 때 대상을 지정하세요. 유물의 그림자는 그 적에게 인접할 때까지 최대 60피트까지 날아가 그 적을 공격하여, 성공 시 [[/r 5d8]]의 피해를, 대성공 시 그 두 배의 피해를 입힙니다. 피해 유형은 유물이 일반적으로 입히는 모든 유형입니다. 그림자는 유물을 사용한 공격 보너스를 사용하며, 다중 공격 페널티를 사용하고 그 페널티에 기여합니다. 이 활성화가 유효한 동안, 당신은 공격 및 집중 특성을 가진 단일 행동을 사용하여 그림자가 동일한 대상에게 또 다른 공격을 하도록 정신적으로 지시할 수 있습니다. 그림자는 그 대상이 체력이 0이 될 때까지, 그 대상이 당신으로부터 400피트 이상 멀리 이동할 때까지, 또는 그 대상이 완전한 어둠과 같이 그림자가 드리워질 수 없는 지역으로 이동할 때까지, 그 중 가장 먼저 발생하는 경우까지 지속됩니다. 그림자는 공간을 차지하지 않으며, 측면 공격을 부여하지도 않고, 다른 생물들이 가진 다른 속성도 가지고 있지 않으며, 선택한 적을 자동으로 따릅니다. 그림자는 공격 이외의 다른 공격을 할 수 없으며, 무기에 영향을 미치는 특기나 주문은 적용되지 않습니다.</p>"
     },
     "Influence Regent": {
       "name": "영향력 섭정",
