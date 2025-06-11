@@ -55,11 +55,11 @@
       "command": "game.pf2e.actions.repair({ event: event });"
     },
     "Perform - Play keyboard instrument: Performance": {
-      "name": "공연 - 키보드 악기를 연주: 공연",
+      "name": "공연 - 건반 악기 연주: 공연",
       "command": "game.pf2e.actions.perform({ event: event, variant: 'keyboards' });"
     },
     "Bon Mot: Diplomacy": {
-      "name": "본모트: 외교",
+      "name": "재치있는 말: 외교",
       "command": "game.pf2e.actions.bonMot({ event: event });"
     },
     "Escape": {
@@ -135,7 +135,7 @@
       "command": "game.pf2e.actions.craft({ event: event });"
     },
     "Decipher Writing: Arcana": {
-      "name": "문서 해독: 아르카나",
+      "name": "문서 해독: 주문학",
       "command": "game.pf2e.actions.decipherWriting({ event: event, skill: 'arcana' });"
     },
     "Squeeze: Acrobatics": {
@@ -283,7 +283,7 @@
       "command": "game.pf2e.actions.subsist({ event: event, skill: 'survival' });"
     },
     "Conceal an Object: Stealth": {
-      "name": "물체를 은폐: 은신",
+      "name": "물건 숨기기: 은신",
       "command": "game.pf2e.actions.concealAnObject({ event: event });"
     }
   }
