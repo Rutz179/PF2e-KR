@@ -30,11 +30,11 @@ class Translator {
 
     sluggify(label) {
         return label
-        .normalize("NFD")                     // 한글 분리 (선택)
-        .replace(/[\u0300-\u036f]/g, "")      // 발음 기호 제거 (선택)
+        .normalize("NFD")                     
+        .replace(/[\u0300-\u036f]/g, "")      
         .toLowerCase()
         .replace(/['’]/g, "")
-        .replace(/[^\p{L}0-9]+/gu, " ")       // 유니코드 문자 유지 (한글 포함)
+        .replace(/[^\p{L}0-9]+/gu, " ")       
         .trim()
         .replace(/[-\s]+/g, "-");
     }
@@ -230,9 +230,7 @@ Hooks.once("babele.ready", () => {
     }
 });
 
-/**
- * Credits to n1xx1 for suggesting this compatibility script for translated items
- */
+
 function hookOnAutoAnimations() {
     if (!game.modules.has("autoanimations") || game.settings.get('PF2e-KR', 'deactivate-animations-mapping')) {
         return;
