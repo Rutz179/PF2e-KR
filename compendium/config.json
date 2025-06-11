@@ -1,0 +1,44 @@
+{
+  "mappings": {
+    "heightening": {
+      "entryType": "Item",
+      "mappingEntries": {
+        "target": "target.value",
+        "range": "range.value"
+      }
+    },
+    "rules": {
+      "entryType": "Item",
+      "mappingEntries": {
+        "label": "label",
+        "prompt": "prompt",
+        "text": "text"
+      }
+    },
+    "item": {
+      "entryType": "Item",
+      "mappingEntries": {
+        "name": "name",
+        "cost": "system.cost.value",
+        "description": "system.description.value",
+        "duration": "system.duration.value",
+        "materials": "system.materials.value",
+        "prerequisites": "system.prerequisites.value",
+        "primarycheck": "system.primarycheck.value",
+        "range": "system.range.value",
+        "secondarycaster": "system.secondarycasters.value",
+        "secondarycheck": "system.secondarycheck.value",
+        "source": "system.source.value",
+        "target": "system.target.value",
+        "time": "system.time.value",
+        "trainedLore": "system.trainedLore"
+      }
+    },
+    "skillSpecial": {
+      "entryType": "Actor",
+      "mappingEntries": {
+        "label": "label"
+      }
+    }
+  }
+}
