@@ -8,7 +8,7 @@
   "entries": {
     "Observed": {
       "name": "관찰됨",
-      "description": "<p>눈에 보이는 모든 것은 플레이어에게 관찰됨. 생물이 은신을 사용하는 등 탐지를 피하기 위한 조치를 취하면 @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Hide} 대신 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨은} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{탐지 불가} 이 될 수 있습니다. 시각 외에 다른 정밀한 감각이 있다면 해당 감각을 사용하여 생물이나 물체를 관찰할 수 있습니다. 정확한 감각으로만 생물을 관찰할 수 있습니다. 부정확한 감각으로만 생물을 @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{탐색 중}일 경우, 관찰됨이 아니라 숨겨진 상태로 남습니다.</p>"
+      "description": "<p>눈에 보이는 모든 것은 플레이어에게 관찰됨. 생물이 은신을 사용하는 등 탐지를 피하기 위한 조치를 취하면 @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Hide} 대신 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨은} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{탐지 불가} 이 될 수 있습니다. 시각 외에 다른 정밀한 감각이 있다면 해당 감각을 사용하여 생물이나 물체를 관찰할 수 있습니다. 정확한 감각으로만 생물을 관찰할 수 있습니다. 부정확한 감각으로만 생물을 @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{찾기}일 경우, 관찰됨이 아니라 숨겨진 상태로 남습니다.</p>"
     },
     "Doomed": {
       "name": "파멸",
@@ -44,7 +44,7 @@
     },
     "Fascinated": {
       "name": "매혹된",
-      "description": "<p>주의를 강제로 무언가에 집중하게 되어 주변에서 일어나는 다른 일에 신경이 분산됩니다. 지각 및 기술 체크에서 -2 상태 페널티를 받으며, 집중 액션은 GM의 판단에 따라 매혹된 대상과 관련된 액션(또는 의도된 결과)이 아니면 사용할 수 없습니다. 예를 들어, 대상에 대해 @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{검색} 및 @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{지식 회상}은 가능하지만 다른 생물을 대상으로 한 주문은 시전할 수 없을 것입니다. 이 조건은 생물이 당신 또는 당신의 아군에게 적대적인 액션을 사용하면 종료됩니다.</p>"
+      "description": "<p>주의를 강제로 무언가에 집중하게 되어 주변에서 일어나는 다른 일에 신경이 분산됩니다. 지각 및 기술 체크에서 -2 상태 페널티를 받으며, 집중 액션은 GM의 판단에 따라 매혹된 대상과 관련된 액션(또는 의도된 결과)이 아니면 사용할 수 없습니다. 예를 들어, 대상에 대해 @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{찾기} 및 @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{지식 회상}은 가능하지만 다른 생물을 대상으로 한 주문은 시전할 수 없을 것입니다. 이 조건은 생물이 당신 또는 당신의 아군에게 적대적인 액션을 사용하면 종료됩니다.</p>"
     },
     "Encumbered": {
       "name": "과적",
@@ -172,7 +172,7 @@
     },
     "Invisible": {
       "name": "투명한",
-      "description": "<p>보이지 않습니다. 당신은 모든 사람에게 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{탐지 불가}입니다. 생물은 @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{탐색}으로 플레이어를 감지할 수 있으며, 플레이어의 은신 DC에 대한 지각 체크에 성공하면, 플레이어는 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨은}이 되어 다시 감지되지 않음 상태가 될 때까지 해당 생물에게 @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{은밀 이동}을 수행할 수 있게 됩니다.</p><p> 누군가 나를 이미 볼 수 있는 상태에서 보이지 않음 상태가 되면, 성공적으로 @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{은밀 이동}을 마칠 때 까지 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{탐지 불가} 상태가 아닌 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨은} 상태로 시작하게 됩니다. 투명한 상태에서는 특수 능력이나 마법을 동원하지 않는 한 @UUID[Compendium.pf2e.conditionitems.Item.1wQY3JYyhMYeeV2G]{관찰됨}이 될 수 없습니다.</p>"
+      "description": "<p>보이지 않습니다. 당신은 모든 사람에게 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{탐지 불가}입니다. 생물은 @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{찾기}으로 플레이어를 감지할 수 있으며, 플레이어의 은신 DC에 대한 지각 체크에 성공하면, 플레이어는 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨은}이 되어 다시 감지되지 않음 상태가 될 때까지 해당 생물에게 @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{은밀 이동}을 수행할 수 있게 됩니다.</p><p> 누군가 나를 이미 볼 수 있는 상태에서 보이지 않음 상태가 되면, 성공적으로 @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{은밀 이동}을 마칠 때 까지 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{탐지 불가} 상태가 아닌 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨은} 상태로 시작하게 됩니다. 투명한 상태에서는 특수 능력이나 마법을 동원하지 않는 한 @UUID[Compendium.pf2e.conditionitems.Item.1wQY3JYyhMYeeV2G]{관찰됨}이 될 수 없습니다.</p>"
     },
     "Cursebound": {
       "name": "저주에 묶인",

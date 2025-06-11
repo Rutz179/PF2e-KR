@@ -5625,9 +5625,9 @@
         "Name": "조상의 메아리"
       },
       "anchoring": {
-        "Name": "앵커링",
+        "Name": "구속",
         "Note": {
-          "criticalSuccess": "고정 무기로 대상에게 치명타를 가하면, 무기가 대상에게 <em>@UUID[Compendium.pf2e.spells-srd.Item.ksLCg62cLOojw3gN]{차원 닻}</em> 을 시전합니다(@Check[type:will|dc:27|name:고정 룬], 대응 수정치 [[/r 1d20+17 # Anchoring Rune Counteract Check]]{+17})."
+          "criticalSuccess": "구속 무기로 대상에게 치명타를 가하면, 무기가 대상에게 <em>@UUID[Compendium.pf2e.spells-srd.Item.ksLCg62cLOojw3gN]{차원 닻}</em> 을 시전합니다(@Check[type:will|dc:27|name:구속 룬], 대응 수정치 [[/r 1d20+17 # Anchoring Rune Counteract Check]]{+17})."
         }
       },
       "ashen": {
@@ -5644,7 +5644,7 @@
         }
       },
       "authorized": {
-        "Name": "권한 부여"
+        "Name": "권한"
       },
       "bane": {
         "Name": "파멸"
@@ -5659,7 +5659,7 @@
         }
       },
       "brilliant": {
-        "Name": "브릴리언트",
+        "Name": "찬란한",
         "Note": {
           "criticalSuccess": "치명타가 적중하면 대상은 @Check[type:fortitude|dc:29|name:찬란한 룬] 내성에 성공하거나 1라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명} 상태가 됩니다."
         }
@@ -5668,13 +5668,13 @@
         "Name": "호출"
       },
       "coating": {
-        "Name": "코팅"
+        "Name": "주머니"
       },
       "conducting": {
-        "Name": "수행"
+        "Name": "전도성"
       },
       "corrosive": {
-        "Name": "부식성",
+        "Name": "산성",
         "Note": {
           "criticalSuccess": "치명타를 받으면 대상의 방어구(있다면)에 [[/r 3d6[acid] #Corrosive Rune]]{3d6 산} 피해를 받습니다(경도 적용 전). 대상이 방패를 들고 있다면 방패가 대신 이 피해를 입습니다."
         }
@@ -5689,10 +5689,10 @@
         "Name": "교활"
       },
       "dancing": {
-        "Name": "춤"
+        "Name": "자의식 (레거시)"
       },
       "decaying": {
-        "Name": "Decaying"
+        "Name": "부패"
       },
       "deathdrinking": {
         "Name": "죽음을 마시는"
@@ -5701,37 +5701,37 @@
         "Name": "철거"
       },
       "earthbinding": {
-        "Name": "접지"
+        "Name": "대지구속"
       },
       "energizing": {
-        "Name": "에너자이징"
+        "Name": "충전"
       },
       "extending": {
-        "Name": "확장"
+        "Name": "연장"
       },
       "fanged": {
-        "Name": "송곳니 달린"
+        "Name": "송곳니"
       },
       "fearsome": {
-        "Name": "무서운",
+        "Name": "무시무시한",
         "Note": {
           "criticalSuccess": "이 무기로 치명타가 적중하면 대상이 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 1}이 됩니다."
         }
       },
       "flaming": {
-        "Name": "불타는",
+        "Name": "화염",
         "Note": {
           "criticalSuccess": "치명타가 적중하면 추가 [[/r 1d10[persistent,fire]]] 피해를 줍니다."
         }
       },
       "flickering": {
-        "Name": "Flickering",
+        "Name": "깜박이는",
         "Note": {
-          "criticalSuccess": "On a critical hit, the weapon flashes bright pulses of color into the creature's eyes, @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzling} the creature for 1 round (this effect has the visual trait)."
+          "criticalSuccess": "크리티컬 히트 시, 무기가 생물의 눈에 밝은 색상의 빛을 발사하여 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{눈부심} 효과를 1 라운드 동안 적용합니다(이 효과는 시각적 특성을 갖습니다).."
         }
       },
       "flurrying": {
-        "Name": "질풍"
+        "Name": "몰아치는"
       },
       "frost": {
         "Name": "서리",
@@ -5744,26 +5744,26 @@
         "Note": "이 무기는 물리적인 형태가 없는 생명체에게 피해를 줄 수 있습니다. 고스트 터치 무기는 특히 고스트 터치 무기에 특정 취약점을 가지고 있는 무형 생명체에게 효과적입니다. 무형 생명체는 대부분의 물리적 물체와 달리 고스트 터치 무기를 만지고, 잡고, 휘두를 수 있습니다."
       },
       "giantKilling": {
-        "Name": "자이언트 킬링",
+        "Name": "거인살해자",
         "Note": {
           "criticalSuccess": "이 무기로 치명타를 맞으면, 거인은 다음 턴이 끝날 때까지 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화 1} 상태가 됩니다."
         }
       },
       "greaterAnchoring": {
-        "Name": "향상된 앵커링",
+        "Name": "구속 (중급)",
         "Note": {
-          "criticalSuccess": "고정 룬이 있는 무기로 대상에게 치명타를 가하면 해당 무기는 대상에 8등급 <em>@UUID[Compendium.pf2e.spells-srd.Item.ksLCg62cLOojw3gN]{차원 닻}</em>을 시전합니다( @Check[type:will|dc:38|name:향상된 고정 룬], counteract modifier [[/r 1d20+28 #Greater Anchoring Rune Counteract Check]]{+28}), 단, 대상이 크리티컬로 성공하는 경우는 제외됩니다. 효과가 없는 대신 <em>차원 닻</em>이 1라운드 동안 지속됩니다.",
+          "criticalSuccess": "구속 룬이 있는 무기로 대상에게 치명타를 가하면 해당 무기는 대상에 8등급 <em>@UUID[Compendium.pf2e.spells-srd.Item.ksLCg62cLOojw3gN]{차원 닻}</em>을 시전합니다( @Check[type:will|dc:38|name:구속 룬 (중급)], counteract modifier [[/r 1d20+28 #Greater Anchoring Rune Counteract Check]]{+28}), 단, 대상이 크리티컬로 성공하는 경우는 제외됩니다. 효과가 없는 대신 <em>차원 닻</em>이 1라운드 동안 지속됩니다.",
           "success": "무기로 대상에게 적중했지만 치명타가 되지 않았을 때, 대상은 저항없이 1라운드 동안 4등급 <em>@UUID[Compendium.pf2e.spells-srd.Item.ksLCg62cLOojw3gN]{차원의 닻}</em> 의 영향을 받습니다(반격 수정치 [[/r 1d20+28 #Greater Anchoring Rune Counteract Check]]+28})."
         }
       },
       "greaterAshen": {
-        "Name": "향상된 잿빛",
+        "Name": "잿빛 (중급)",
         "Note": {
           "success": "이 재가 감각을 흐리게 하여 @Check[type:will|dc:35] 저항에 성공하지 않으면 1라운드 동안 혼란에 빠뜨립니다. 대실패 시 효과는 1분 동안 지속됩니다."
         }
       },
       "greaterAstral": {
-        "Name": "향상된 아스트랄",
+        "Name": "아스트랄 (중급)",
         "Note": {
           "criticalSuccess": "다른 생물을 빙의한 생물이 치명타를 맞으면, 빙의한 생물은 @Check[type:will|dc:36] 저항에 성공하지 못하면 추방되어 [[/br 1d4 #rounds]]{1d4라운드} 동안 생물을 빙의할 수 없게 됩니다.",
           "Note": "이 무기는 물리적인 형태가 없는 생명체에게 해를 끼칠 수 있습니다. 향상된 아스트랄 무기는 거의 항상 향상된 아스트랄 무기에 특정한 취약점을 가지고 있는 무형의 생명체에게 특히 효과적입니다. 무형 생명체는 대부분의 물리적 물체와 달리 향상된 아스트랄 무기를 만지고, 잡고, 휘두를 수 있습니다. 향상된 아스트랄 무기가 부여하는 영혼 피해는 대상의 영혼 저항을 무시합니다."
@@ -5773,110 +5773,110 @@
         "Name": "향상된 블러드베인"
       },
       "greaterBrilliant": {
-        "Name": "향상된 찬란한",
+        "Name": "찬란한 (중급)",
         "Note": {
-          "criticalSuccess": "이 무기로 주는 피해는 대상의 화염, 선, 생명력 저항을 무시합니다. 치명타가 적중하면 대상은 1라운드 동안 @Check[type:fortitude|dc:41|name:향상된 찬란한 룬] 저항에 성공하거나 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명} 상태가 되어야 합니다.",
+          "criticalSuccess": "이 무기로 주는 피해는 대상의 화염, 선, 생명력 저항을 무시합니다. 치명타가 적중하면 대상은 1라운드 동안 @Check[type:fortitude|dc:41|name:찬란한 룬 (중급)] 저항에 성공하거나 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명} 상태가 되어야 합니다.",
           "success": "이 무기로 주는 피해는 대상의 화염, 선, 생명력 저항을 무시합니다."
         }
       },
       "greaterCorrosive": {
-        "Name": "향상된 부식성",
+        "Name": "산성 (중급)",
         "Note": {
           "criticalSuccess": "이 무기로 주는 산성 피해는 대상의 내산성 저항을 무시합니다. 치명타가 적중하면 대상의 방어구가 있다면 [[/r 6d6[acid]]]{6d6산} 피해를 입습니다(경도 적용 전). 대상이 방패를 들었다면 방패가 대신 이 피해를 입습니다.",
           "success": "이 무기로 주는 산성 피해는 대상의 산성 저항을 무시합니다."
         }
       },
       "greaterCrushing": {
-        "Name": "향상된 분쇄",
+        "Name": "분쇄 (중급)",
         "Note": {
-          "criticalSuccess": "치명타로 적중하면 다음 턴이 끝날 때까지 대상은 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 2}와 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화 2}가 됩니다. @UUID[Compendium.pf2e.equipment-effects.Item.czdEHtLsrUcZxSDx]{효과: 분쇄 (향상된)}"
+          "criticalSuccess": "치명타로 적중하면 다음 턴이 끝날 때까지 대상은 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 2}와 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화 2}가 됩니다. @UUID[Compendium.pf2e.equipment-effects.Item.czdEHtLsrUcZxSDx]{효과: 분쇄 (중급)}"
         }
       },
       "greaterDecaying": {
-        "Name": "Greater Decaying"
+        "Name": "부패 (중급)"
       },
       "greaterDisrupting": {
-        "Name": "향상된 활력 증진",
+        "Name": "활력 (중급)",
         "Note": {
           "criticalSuccess": "치명타에 맞은 언데드 생물은 이 룬의 지속 피해가 지속되는 한 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화 1} 및 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{기절 1} 상태가 됩니다."
         }
       },
       "greaterExtending": {
-        "Name": "향상된 확장성"
+        "Name": "연장 (중급)"
       },
       "greaterFanged": {
-        "Name": "향상된 송곳니"
+        "Name": "송곳니 (중급)"
       },
       "greaterFearsome": {
-        "Name": "향상된 무시무시함",
+        "Name": "무시무시함 (중급)",
         "Note": {
           "criticalSuccess": "이 무기로 치명타가 적중하면 대상이 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 2}가 됩니다."
         }
       },
       "greaterFlaming": {
-        "Name": "향상된 불길",
+        "Name": "화염 (중급)",
         "Note": {
           "criticalSuccess": "이 무기로 주는 화염 피해(지속 화염 피해 포함)는 대상의 화염 저항을 무시합니다.",
           "success": "이 무기로 주는 화염 피해는 대상의 화염 저항을 무시합니다."
         }
       },
       "greaterFrost": {
-        "Name": "향상된 서리",
+        "Name": "서리 (중급)",
         "Note": {
           "criticalSuccess": "이 무기로 주는 냉기 피해는 대상의 냉기 저항을 무시합니다. 치명타가 적중하면 대상은 @Check[type:fortitude|dc:34|name:향상된 서리 룬] 저항에 성공하지 않는 한 다음 턴이 끝날 때까지 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1}이 됩니다.",
           "success": "이 무기로 주는 냉기 피해는 대상의 냉기 저항을 무시합니다."
         }
       },
       "greaterGiantKilling": {
-        "Name": "향상된 자이언트 킬링",
+        "Name": "거인살해자 (중급)",
         "Note": {
           "success": "이 무기로 주는 정신 피해는 대상의 정신 저항을 무시합니다.",
           "criticalSuccess": "이 무기로 치명타를 맞으면, 거인은 다음 효과를 가진 @Check[type:fortitude|dc:34]를 시도해야 합니다.<br /><strong>대성공</strong> 거인은 다음 턴이 끝날 때까지 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화 1}이 됩니다.<br /><strong>성공</strong> 거인은 다음 턴이 끝날 때까지 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화 2}가 되고 @Damage[1d10[mental]]를 받습니다.<br /><strong>실패</strong> 거인은 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화 2}가 되어 다음 1분 동안 @Damage[2d10[mental]]을 받습니다.<br/><strong>대실패</strong> 거인은 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화 4}가 되어 다음 1분 동안 @Damage[4d10[mental]]을 받습니다."
         }
       },
       "greaterHauling": {
-        "Name": "향상된 운반력"
+        "Name": "견인 (중급)"
       },
       "greaterImpactful": {
-        "Name": "향상된 영향력",
+        "Name": "역장 (중급)",
         "Note": {
-          "criticalSuccess": "치명타가 적중하면 대상에게 @Check[type:fortitude|dc:37|name:향상된 영향력 룬] 내성에 성공하도록 하거나 자신으로부터 10피트 떨어진 곳으로 밀려나도록 선택할 수 있습니다."
+          "criticalSuccess": "치명타가 적중하면 대상에게 @Check[type:fortitude|dc:37|name:역장 룬 (중급)] 내성에 성공하도록 하거나 자신으로부터 10피트 떨어진 곳으로 밀려나도록 선택할 수 있습니다."
         }
       },
       "greaterRooting": {
-        "Name": "향상된 루팅",
+        "Name": "뿌리 (중급)",
         "Note": {
           "criticalSuccess": "이 무기로 적에게 치명타를 가하면 대상에서 뿌리가 자랍니다. 1라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{고정된 1}(<span data-pf2-action=\"escape\" data-pf2-glyph=\"A\" data-pf2-dc=\"28\">탈출 DC 28</span>) 및 고정 상태가 지속되는 동안 , @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1}이 발동됩니다."
         }
       },
       "greaterShock": {
-        "Name": "향상된 충격",
+        "Name": "감전 (중급)",
         "Note": {
           "criticalSuccess": "이 무기로 주는 전기 피해는 대상의 전기 저항을 무시합니다(그리고 치명타 시 다른 생물의 저항도 무시합니다). 치명타가 적중하면 전기가 호를 그리며 대상으로부터 10피트 이내에 있는 원하는 다른 생물 최대 두 마리에게 같은 양의 전기 피해를 줍니다.",
           "success": "이 무기로 주는 전기 피해는 대상의 전기 저항을 무시합니다."
         }
       },
       "greaterThundering": {
-        "Name": "향상된 천둥",
+        "Name": "천둥 (중급)",
         "Note": {
           "criticalSuccess": "이 무기로 주는 음파 피해는 대상의 음파 저항을 무시합니다. 치명타가 적중하면 대상은 @Check[type:fortitude|dc:34|name:향상된 천둥 룬] 저항에 성공하거나 영구적으로 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{귀가 먼} 상태가 됩니다..",
           "success": "이 무기로 주는 음파 피해는 대상의 음파 저항을 무시합니다."
         }
       },
       "grievous": {
-        "Name": "고뇌",
+        "Name": "고통",
         "Note": {
           "Axe": "동일한 제한으로 세 번째 생물에게도 피해를 줄 수 있습니다.",
           "Bow": "발사체를 빼내기 위한 운동 체크는 DC 20입니다.",
           "Brawling": "대상은 저항에 -4의 상황 패널티를 받습니다.",
           "Club": "최대 15피트 거리까지 대상을 밀쳐낼 수 있습니다.",
-          "Crossbow": "If the target of the critical hit is adjacent to a surface, it gets stuck to that surface by the missile, as the bow critical specialization.",
+          "Crossbow": "치명타 대상이 표면과 인접해 있다면, 발사체에 의해 그 표면에 고정되게 됩니다. 이는 활 치명타 전문화의 효과입니다.",
           "Dart": "기본 지속 출혈 피해가 [[/r 2d6[bleed]]]로 증가합니다.",
-          "Firearm": "The target takes a –4 circumstance penalty to its save.",
+          "Firearm": "대상은 내성 굴림에 -4의 상황 페널티를 받습니다.",
           "Flail": "목표물을 5피트 이동합니다. 목표물을 자신에게서 멀어지게 할 수는 없지만 원하는 다른 방향으로 옮길 수는 있습니다.",
           "Hammer": "또한 대상에서 5피트 떨어진 곳으로 밀어낼 수도 있습니다.",
           "Knife": "대상은 속도에 -5피트 상태이상의 피해를 입으며 @UUID[Compendium.pf2e.conditionitems.Item.lDVqvLKA6eF3Df60]{지속적인 출혈 피해}를 지니고 있습니다.",
-          "Pick": "크리티컬 전문화 효과로 인한 추가 피해는 무기 공격력이 죽어감 당 4로 증가합니다.",
+          "Pick": "치명타 전문화 효과로 인한 추가 피해는 무기 공격력이 죽어감 당 4로 증가합니다.",
           "Polearm": "타겟을 최대 10피트까지 이동할 수 있습니다.",
           "Shield": "목표물을 최대 10피트 떨어진 곳으로 밀어낼 수 있습니다.",
           "Sling": "대상은 구하기에 실패하면 1라운드 동안 이동 속도에 -10피트 상태이상의 불이익을 받습니다.",
@@ -5885,7 +5885,7 @@
         }
       },
       "hauling": {
-        "Name": "운반"
+        "Name": "견인"
       },
       "holy": {
         "Name": "신성한",
@@ -5894,7 +5894,7 @@
         }
       },
       "hopeful": {
-        "Name": "희망찬",
+        "Name": "희망",
         "Note": {
           "criticalSuccess": "이 무기로 치명타가 적중하면 아군에게 영감을 불어넣어 더 열심히 싸우고 신념을 지킬 수 있도록 밀어줍니다. 나와 성향 구성 요소를 하나 이상 공유하는 30피트 내의 아군은 다음 턴이 끝날 때까지 공격 굴림에 +1 상태 보너스를 받습니다."
         }
@@ -5906,9 +5906,9 @@
         }
       },
       "impactful": {
-        "Name": "영향력 있는",
+        "Name": "역장",
         "Note": {
-          "criticalSuccess": "치명타가 적중하면 대상에게 Check[type:fortitude|dc:27|이름:충격적인 룬] 저항에 성공하도록 하거나 자신으로부터 5피트 떨어진 곳으로 밀려나도록 선택할 수 있습니다."
+          "criticalSuccess": "치명타가 적중하면 대상에게 Check[type:fortitude|dc:27|이름:역장 룬] 저항에 성공하도록 하거나 자신으로부터 5피트 떨어진 곳으로 밀려나도록 선택할 수 있습니다."
         }
       },
       "impossible": {
@@ -5921,7 +5921,7 @@
         "Name": "친족 보호"
       },
       "majorRooting": {
-        "Name": "주요 루팅",
+        "Name": "뿌리 (상급)",
         "Note": {
           "criticalSuccess": "이 무기로 적에게 치명타를 가하면 대상에서 뿌리가 자랍니다. 1라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{고정된 1} (<span data-pf2-action=\"escape\" data-pf2-glyph=\"A\" data-pf2-dc=\"34\">탈출 DC 34</span>) 및 고정 상태가 지속되는 동안, @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1}이 됩니다."
         }
@@ -5930,52 +5930,52 @@
         "Name": "자비"
       },
       "majorFanged": {
-        "Name": "메이저 송곳니"
+        "Name": "송곳니 (중급)"
       },
       "nightmare": {
-        "Name": "Nightmare",
+        "Name": "악몽",
         "Note": {
-          "criticalSuccess": "On a critical hit, the target becomes @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1} by overwhelming visions in their mind of personal horrors that linger. If you critically hit a creature that's already stupefied, it becomes @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 2} as well. These critical hit effects have the emotion, fear, and mental traits."
+          "criticalSuccess": "치명타를 당하면 대상은 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1} 상태가 됩니다. 이는 대상의 마음에 남아 있는 개인적인 공포의 환상이 압도적으로 몰아치기 때문입니다. 이미 혼미 상태인 생물에게 치명타를 하면, 그 생물은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 2} 상태가 됩니다. 이 치명타 효과는 감정, 공포, 정신 특성을 가지고 있습니다."
         }
       },
       "pacifying": {
         "Name": "진정"
       },
       "speed": {
-        "Name": "속도",
-        "Note": "While wielding a quickstrike weapon, you gain the @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{신속} condition, but you can use the additional action granted only to make a Strike with the etched weapon."
+        "Name": "신속",
+        "Note": "빠른 공격 무기를 사용하면 @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{신속} 상태가 적용되지만, 추가 행동은 새겨진 무기로 공격을 하는 데에만 사용할 수 있습니다."
       },
       "returning": {
-        "Name": "반환",
+        "Name": "귀환",
         "Note": "이 무기로 투척 공격을 하면, 공격이 완료된 후 무기가 내 손으로 돌아옵니다. 무기가 돌아올 때 양손에 무기가 가득 차 있으면, 무기는 내 공간의 바닥에 떨어집니다."
       },
       "rooting": {
-        "Name": "루팅",
+        "Name": "뿌리",
         "Note": {
           "criticalSuccess": "이 무기로 적에게 치명타를 가하면 대상에서 뿌리가 자랍니다. 1라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{고정된 1}(<span data-pf2-action=\"escape\" data-pf2-glyph=\"A\" data-pf2-dc=\"23\">탈출 DC 23</span>) 및 고정 상태가 지속되는 동안, @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1}이 됩니다."
         }
       },
       "serrating": {
-        "Name": "시레이팅"
+        "Name": "톱니"
       },
       "shifting": {
-        "Name": "시프트"
+        "Name": "형태변화"
       },
       "shock": {
-        "Name": "충격",
+        "Name": "감전",
         "Note": {
           "criticalSuccess": "치명타가 적중하면 전기가 호를 그리며 대상에서 10피트 이내에 있는 다른 생물 최대 두 마리에게 같은 양의 전기 피해를 입힙니다."
         }
       },
       "shockwave": {
-        "Name": "Shockwave",
-        "Note": "The attacker is immune to the splash damage."
+        "Name": "충격파",
+        "Note": "공격자는 방사 피해에 면역입니다."
       },
       "spellStoring": {
         "Name": "주문 저장"
       },
       "swarming": {
-        "Name": "스워밍"
+        "Name": "군집"
       },
       "thundering": {
         "Name": "천둥",
@@ -5984,7 +5984,7 @@
         }
       },
       "trueRooting": {
-        "Name": "트루 루팅",
+        "Name": "뿌리 (최상급)",
         "Note": {
           "criticalSuccess": "이 무기로 적에게 치명타를 가하면 대상에서 뿌리가 자랍니다. 1라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{고정된 1}(<span data-pf2-action=\"escape\" data-pf2-glyph=\"A\" data-pf2-dc=\"41\">탈출 DC 41</span>) 및 고정 상태가 지속되는 동안 , @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1}이 됩니다."
         }
@@ -5999,7 +5999,7 @@
         }
       },
       "disrupting": {
-        "Name": "활성화",
+        "Name": "활력",
         "Note": {
           "criticalSuccess": "치명타에 맞은 언데드는 다음 턴이 끝날 때까지 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화 1} 상태가 됩니다."
         }
@@ -6050,27 +6050,27 @@
       "AR": {
         "Era": "AR",
         "Months": {
-          "April": "고즈렌",
-          "August": "아로두스",
-          "December": "쿠토나",
-          "February": "칼리스트릴",
-          "January": "아바디우스",
-          "July": "에라스투스",
-          "June": "사레니스",
-          "March": "파라스트",
-          "May": "데스누스",
-          "November": "네스",
-          "October": "라마산",
-          "September": "로바"
+          "April": "고즈렌(4)",
+          "August": "아로두스(8)",
+          "December": "쿠토나(12)",
+          "February": "칼리스트릴(2)",
+          "January": "아바디우스(1)",
+          "July": "에라스투스(7)",
+          "June": "사레니스(6)",
+          "March": "파라스트(3)",
+          "May": "데스누스(5)",
+          "November": "네스(11)",
+          "October": "라마산(10)",
+          "September": "로바(9)"
         },
         "Weekdays": {
-          "Friday": "파이어데이",
-          "Monday": "문데이",
-          "Saturday": "스타데이",
-          "Sunday": "썬데이",
-          "Thursday": "오쓰데이",
-          "Tuesday": "토일데이",
-          "Wednesday": "웰데이"
+          "Friday": "파이어데이(금)",
+          "Monday": "문데이(월)",
+          "Saturday": "스타데이(토)",
+          "Sunday": "썬데이(일)",
+          "Thursday": "오쓰데이(목)",
+          "Tuesday": "토일데이(화)",
+          "Wednesday": "웰데이(수)"
         }
       },
       "Button": {
@@ -6080,14 +6080,14 @@
         "AddOneRound": "1 라운드",
         "AddOneWeek": "1 주",
         "AddTenMinutes": "10분",
-        "Advance": "사전",
-        "Retract": "철회",
+        "Advance": "진행",
+        "Retract": "뒤로",
         "TimeOfDay": {
           "Advance": {
-            "Dawn": "새벽으로 나아가기",
-            "Dusk": "황혼으로 나아가기",
-            "Midnight": "자정으로 나아가기",
-            "Noon": "정오로 나아가기"
+            "Dawn": "새벽으로",
+            "Dusk": "황혼으로",
+            "Midnight": "자정으로",
+            "Noon": "정오로"
           },
           "Retract": {
             "Dawn": "새벽으로 돌아가기",
@@ -6244,7 +6244,7 @@
       },
       "invisible": {
         "name": "투명한",
-        "rules": "<p>보이지 않습니다. 당신은 모든 사람에게 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{탐지 불가}입니다. 생물은 @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{탐색}으로 플레이어를 감지할 수 있으며, 플레이어의 은신 DC에 대한 지각 체크에 성공하면, 플레이어는 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨은}이 되어 다시 감지되지 않음 상태가 될 때까지 해당 생물에게 @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{은밀 이동}을 수행할 수 있게 됩니다.</p><p> 누군가 나를 이미 볼 수 있는 상태에서 보이지 않음 상태가 되면, 성공적으로 @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{은밀 이동}을 마칠 때 까지 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{탐지 불가} 상태가 아닌 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨은} 상태로 시작하게 됩니다. 투명한 상태에서는 특수 능력이나 마법을 동원하지 않는 한 @UUID[Compendium.pf2e.conditionitems.Item.1wQY3JYyhMYeeV2G]{관찰됨}이 될 수 없습니다.</p>",
+        "rules": "<p>보이지 않습니다. 당신은 모든 사람에게 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{탐지 불가}입니다. 생물은 @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{찾기}으로 플레이어를 감지할 수 있으며, 플레이어의 은신 DC에 대한 지각 체크에 성공하면, 플레이어는 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨은}이 되어 다시 감지되지 않음 상태가 될 때까지 해당 생물에게 @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{은밀 이동}을 수행할 수 있게 됩니다.</p><p> 누군가 나를 이미 볼 수 있는 상태에서 보이지 않음 상태가 되면, 성공적으로 @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{은밀 이동}을 마칠 때 까지 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{탐지 불가} 상태가 아닌 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨은} 상태로 시작하게 됩니다. 투명한 상태에서는 특수 능력이나 마법을 동원하지 않는 한 @UUID[Compendium.pf2e.conditionitems.Item.1wQY3JYyhMYeeV2G]{관찰됨}이 될 수 없습니다.</p>",
         "summary": "생물은 당신을 볼 수 없습니다."
       },
       "observed": {

@@ -20,11 +20,11 @@
     },
     "Fire the Cannons! (5-6)": {
       "name": "대포를 발사하라! (5-6)",
-      "description": "<p>당신은 <em>Unsinkable's</em>의 선원들이 Qxal의 현현에 대포를 발사하도록 돕습니다. 대포는 100피트 거리에서 대포알이나 작살을 발사할 수 있습니다. 창조에 대해 [[/r {1d20+17} #공격 굴림]]{공격 굴림에 +17 보너스}를 시도합니다. </p> <hr /> <p><strong>대성공</strong> 성공과 동일하지만, 창조는 두 배의 피해를 받습니다. 작살에 맞으면, 창조물은 <em>Unsinkable</em> 쪽으로 30피트 끌려갑니다. <p><strong>성공</strong> 창조물은 포탄에 맞으면 @Damage[(4d8+7)[타격] 피해, 작살에 맞으면 @Damage[(2d8+3)[piercing] 피해를 받고, 작살에 맞으면 <em>Unsinkable</em> 쪽으로 15 피트 끌려갑니다. </p> <p><strong>실패</strong> 공격은 피해를 주지 않습니다. </p> <p><strong>대실패</strong> 공격은 피해를 주지 않으며, 다음 라운드에는 대포를 다시 발사할 수 없습니다. </p>"
+      "description": "<p>당신은 <em>Unsinkable's</em>의 선원들이 Qxal의 현현에 대포를 발사하도록 돕습니다. 대포는 100피트 거리에서 대포알이나 작살을 발사할 수 있습니다. 창조에 대해 [[/r {1d20+17} #공격 굴림]]{공격 굴림에 +17 보너스}를 시도합니다. </p> <hr /> <p><strong>대성공</strong> 성공과 동일하지만, 창조는 두 배의 피해를 받습니다. 작살에 맞으면, 창조물은 <em>Unsinkable</em> 쪽으로 30피트 끌려갑니다. <p><strong>성공</strong> 창조물은 포탄에 맞으면 @Damage[(4d8+7)[bludgeoning] 피해, 작살에 맞으면 @Damage[(2d8+3)[piercing] 피해를 받고, 작살에 맞으면 <em>Unsinkable</em> 쪽으로 15 피트 끌려갑니다. </p> <p><strong>실패</strong> 공격은 피해를 주지 않습니다. </p> <p><strong>대실패</strong> 공격은 피해를 주지 않으며, 다음 라운드에는 대포를 다시 발사할 수 없습니다. </p>"
     },
     "Shattered Earth": {
       "name": "Shattered Earth",
-      "description": "<p><strong>측면</strong> earth</p> <p><strong>활성화</strong> <span class=\\“action-glyph\\”>2</span> 명령, 상호 작용</p> <p><strong>빈도</strong> 시간당 한 번</p> <hr /> <p><strong>효과</strong> 유물의 지진파가 주변의 땅을 파동으로 퍼져 나가며 날카로운 파편을 표면으로 흔듭니다. 60피트 이내의 반경 10피트에 있는 돌이나 흙이 어려운 지형으로 변합니다. 이동 행동 중에 영향을 받은 칸에 들어가는 생물은 곡예 체크 또는 반사 내성에 성공하지 않으면 @Damage[1d6[피어싱]]의 피해를 받습니다. 여러 칸을 이동하더라도 이동 행동 당 한 번만 굴림합니다. 6 레벨과 그 이후 4 레벨마다 피해가 [[/r 1d6]] 증가합니다. </p>"
+      "description": "<p><strong>측면</strong> earth</p> <p><strong>활성화</strong> <span class=\\“action-glyph\\”>2</span> 명령, 상호 작용</p> <p><strong>빈도</strong> 시간당 한 번</p> <hr /> <p><strong>효과</strong> 유물의 지진파가 주변의 땅을 파동으로 퍼져 나가며 날카로운 파편을 표면으로 흔듭니다. 60피트 이내의 반경 10피트에 있는 돌이나 흙이 어려운 지형으로 변합니다. 이동 행동 중에 영향을 받은 칸에 들어가는 생물은 곡예 체크 또는 반사 내성에 성공하지 않으면 @Damage[1d6[piercing]]의 피해를 받습니다. 여러 칸을 이동하더라도 이동 행동 당 한 번만 굴림합니다. 6 레벨과 그 이후 4 레벨마다 피해가 [[/r 1d6]] 증가합니다. </p>"
     },
     "Searing Wave": {
       "name": "지글지글 파도",
@@ -108,7 +108,7 @@
     },
     "Perception Filter": {
       "name": "지각 필터",
-      "description": "<p><strong>측면</strong> 마음</p> <p><strong>활성화</strong> <span class=\\“action-glyph\\”>2</span> 상상</p> <p><strong>빈도</strong> 하루에 한 번</p> <hr /> <p><strong>효과</strong> 당신의 유물이 주변 생물들의 마음에 도달하여 당신의 존재를 그들의 지각에서 차단합니다. 다음 10분 동안, 당신을 중심으로 @Template[emanation|distance:120]에 들어가는 생물은 비밀 @Check[will|against:class-spell|traits:secret] 내성 체크를 시도해야 하며, 그 후 1일 동안 일시적으로 면역이 됩니다.</p> <p><strong>성공</strong> 생물은 @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} 또는 다른 방법으로 당신을 감지하기 위한 지각 체크에 -2의 상태 페널티를 받습니다. </p> <p><strong>실패</strong> 당신은 생물의 모든 감각을 필터링하여 생물이 당신을 알아차리기 어렵게 만듭니다. 당신이 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨은} 또는 생물에게 탐지되지 않은 상태일 때, 당신은 @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Hide}, @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{은밀 이동}, 또는 Step을 제외한 어떤 행동을 취해도 생물은 당신을 즉시 관찰하지 않습니다. 그 생물이 당신을 찾거나 다른 방법으로 감지하기 위해 지각 체크를 굴림, 그 결과는 굴린 결과보다 1단계 낮은 성공으로 처리되며, 당신이 숨기거나 몰래 움직이거나 그 생물의 주의를 피하기 위해 은신 체크를 굴림, 그 결과는 그 생물에 대해 굴린 결과보다 1단계 높은 성공으로 처리됩니다. 그 생물에게 적대적인 행동을 사용하면, 당신의 적대적인 행동이 완료된 후 그 생물에 대한 효과가 종료됩니다.</p>"
+      "description": "<p><strong>측면</strong> 마음</p> <p><strong>활성화</strong> <span class=\\“action-glyph\\”>2</span> 상상</p> <p><strong>빈도</strong> 하루에 한 번</p> <hr /> <p><strong>효과</strong> 당신의 유물이 주변 생물들의 마음에 도달하여 당신의 존재를 그들의 지각에서 차단합니다. 다음 10분 동안, 당신을 중심으로 @Template[emanation|distance:120]에 들어가는 생물은 비밀 @Check[will|against:class-spell|traits:secret] 내성 체크를 시도해야 하며, 그 후 1일 동안 일시적으로 면역이 됩니다.</p> <p><strong>성공</strong> 생물은 @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{찾기} 또는 다른 방법으로 당신을 감지하기 위한 지각 체크에 -2의 상태 페널티를 받습니다. </p> <p><strong>실패</strong> 당신은 생물의 모든 감각을 필터링하여 생물이 당신을 알아차리기 어렵게 만듭니다. 당신이 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨은} 또는 생물에게 탐지되지 않은 상태일 때, 당신은 @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Hide}, @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{은밀 이동}, 또는 Step을 제외한 어떤 행동을 취해도 생물은 당신을 즉시 관찰하지 않습니다. 그 생물이 당신을 찾거나 다른 방법으로 감지하기 위해 지각 체크를 굴림, 그 결과는 굴린 결과보다 1단계 낮은 성공으로 처리되며, 당신이 숨기거나 몰래 움직이거나 그 생물의 주의를 피하기 위해 은신 체크를 굴림, 그 결과는 그 생물에 대해 굴린 결과보다 1단계 높은 성공으로 처리됩니다. 그 생물에게 적대적인 행동을 사용하면, 당신의 적대적인 행동이 완료된 후 그 생물에 대한 효과가 종료됩니다.</p>"
     },
     "Fey Luck": {
       "name": "페이의 행운",
@@ -116,7 +116,7 @@
     },
     "(Affinity Ablaze) Biting Roses: Glimpses to Beyond": {
       "name": "(친화력 불타는) 물린 장미: 저 너머를 엿보기",
-      "description": "<p><strong>발동 빈도</strong> 하루에 한 번</p> <hr /> <p>경기장에서 함께 타격을 나누며 서로를 이해하게 된 파이터들 사이에는 그와 같은 유대감이 거의 없습니다. 당신은 다른 토너먼트 팀 중 한 팀과 당신의 감정적 연결에 포커스를 맞추면, 그 팀의 힘이 불타는 줄처럼 당신에게로 솟구쳐 나옵니다. 다음 능력을 사용합니다. 이 능력은 원래 팀으로부터 획득해야 합니다.</p> <hr /> <p>초자연적인 것과 운명의 흐름을 감지하는 능력을 얻습니다. 1시간 동안 60피트 범위 내에서 정밀한 감각으로 스피릿센스를 얻습니다. 스피릿센스는 범위 내의 생물, 대부분의 무의식적인 언데드, 그리고 유령의 영혼을 감지할 수 있습니다. 청각과 다른 부정확한 감각과 마찬가지로, 감지되지 않은 생물을 찾기 위해서는 @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek}를 사용해야 합니다. 영혼 감지 능력은 영적 본질을 감지하며 물리적 몸을 감지하지 않기 때문에, 프로젝트 이미지나 영혼이 없는 물체를 점령하는 마법으로 투영된 영혼도 감지할 수 있습니다. 영혼이 없는 시체, 구조물, 물체는 감지할 수 없습니다. 주문 지속 시간 동안 한 번, 내성 굴림이나 스킬 체크에 실패하거나 대실패를 하면 대신 성공을 얻습니다.</p>"
+      "description": "<p><strong>발동 빈도</strong> 하루에 한 번</p> <hr /> <p>경기장에서 함께 타격을 나누며 서로를 이해하게 된 파이터들 사이에는 그와 같은 유대감이 거의 없습니다. 당신은 다른 토너먼트 팀 중 한 팀과 당신의 감정적 연결에 포커스를 맞추면, 그 팀의 힘이 불타는 줄처럼 당신에게로 솟구쳐 나옵니다. 다음 능력을 사용합니다. 이 능력은 원래 팀으로부터 획득해야 합니다.</p> <hr /> <p>초자연적인 것과 운명의 흐름을 감지하는 능력을 얻습니다. 1시간 동안 60피트 범위 내에서 정밀한 감각으로 스피릿센스를 얻습니다. 스피릿센스는 범위 내의 생물, 대부분의 무의식적인 언데드, 그리고 유령의 영혼을 감지할 수 있습니다. 청각과 다른 부정확한 감각과 마찬가지로, 감지되지 않은 생물을 찾기 위해서는 @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{찾기}를 사용해야 합니다. 영혼 감지 능력은 영적 본질을 감지하며 물리적 몸을 감지하지 않기 때문에, 프로젝트 이미지나 영혼이 없는 물체를 점령하는 마법으로 투영된 영혼도 감지할 수 있습니다. 영혼이 없는 시체, 구조물, 물체는 감지할 수 없습니다. 주문 지속 시간 동안 한 번, 내성 굴림이나 스킬 체크에 실패하거나 대실패를 하면 대신 성공을 얻습니다.</p>"
     },
     "Invoke Eiseth": {
       "name": "아이스스를 소환",
@@ -404,7 +404,7 @@
     },
     "Fire the Cannons! (3-4)": {
       "name": "대포를 발사하라! (3-4)",
-      "description": "<p>당신은 <em>Unsinkable's</em>의 선원들이 Qxal의 현현에 대포를 발사하도록 돕습니다. 대포는 100피트 거리에서 대포알이나 작살을 발사할 수 있습니다. [[/r {1d20+17} #Attack roll]]{공격 롤에 +17 보너스}를 창조물에 시도하세요. </p> <hr /> <p><strong>대성공</strong> 성공과 동일하지만, 창조물은 두 배의 피해를 받습니다. 작살에 맞으면 창조물은 <em>Unsinkable</em> 쪽으로 30피트 끌려갑니다. <p><strong>성공</strong> 창조물은 대포에 맞으면 @Damage[(2d8+9)[타격] 피해, 작살에 맞으면 @Damage[(1d8+4)[piercing] 피해를 받고, 작살에 맞으면 <em>Unsinkable</em> 쪽으로 15피트 끌려갑니다. </p> <p><strong>실패</strong> 공격은 피해를 주지 않습니다. </p> <p><strong>대실패</strong> 공격은 피해를 주지 않으며, 다음 라운드에는 대포를 다시 발사할 수 없습니다. </p>"
+      "description": "<p>당신은 <em>Unsinkable's</em>의 선원들이 Qxal의 현현에 대포를 발사하도록 돕습니다. 대포는 100피트 거리에서 대포알이나 작살을 발사할 수 있습니다. [[/r {1d20+17} #Attack roll]]{공격 롤에 +17 보너스}를 창조물에 시도하세요. </p> <hr /> <p><strong>대성공</strong> 성공과 동일하지만, 창조물은 두 배의 피해를 받습니다. 작살에 맞으면 창조물은 <em>Unsinkable</em> 쪽으로 30피트 끌려갑니다. <p><strong>성공</strong> 창조물은 대포에 맞으면 @Damage[(2d8+9)[bludgeoning] 피해, 작살에 맞으면 @Damage[(1d8+4)[piercing] 피해를 받고, 작살에 맞으면 <em>Unsinkable</em> 쪽으로 15피트 끌려갑니다. </p> <p><strong>실패</strong> 공격은 피해를 주지 않습니다. </p> <p><strong>대실패</strong> 공격은 피해를 주지 않으며, 다음 라운드에는 대포를 다시 발사할 수 없습니다. </p>"
     },
     "Pander to the Crowd": {
       "name": "관중을 부추기다",
@@ -628,7 +628,7 @@
     },
     "Set Traps": {
       "name": "함정 설치",
-      "description": "<p>주변 숲이나 좁은 골목에 빠르게 함정을 여러 개 설치하여, PC들은 공격자들의 이동을 방해하고 일부를 다치게 할 수도 있습니다. 함정을 설치하려면 생존 (훈련) 체크가 필요합니다. </p> <hr /> <p><strong>대성공 타츠포드 전투가 진행되는 동안 각 턴이 끝날 때마다, PC가 선택한 적군 1개 부대가 1의 수렁에 빠지고 1의 피해를 받습니다.</p> <p><strong>성공</strong> 타츠포드 전투가 진행되는 동안 각 턴이 끝날 때마다, PC가 선택한 적군 1개 부대가 1의 피해에 빠지거나 1의 피해를 입습니다. </p> <p><strong>대실패</strong> 함정을 설치하려는 시도가 실패할 뿐만 아니라, 함정 중 하나가 설치 중에 크게 오작동합니다. 가시로 덮인 목재를 조작하려는 시도가 실패하여 PC가 건물 벽에 부딪힙니다. 해당 PC는 @Damage[5d6[피어싱],5d6[타격]의 피해를 받습니다 (@Check[reflex|dc:25|기본]).</p>"
+      "description": "<p>주변 숲이나 좁은 골목에 빠르게 함정을 여러 개 설치하여, PC들은 공격자들의 이동을 방해하고 일부를 다치게 할 수도 있습니다. 함정을 설치하려면 생존 (훈련) 체크가 필요합니다. </p> <hr /> <p><strong>대성공 타츠포드 전투가 진행되는 동안 각 턴이 끝날 때마다, PC가 선택한 적군 1개 부대가 1의 수렁에 빠지고 1의 피해를 받습니다.</p> <p><strong>성공</strong> 타츠포드 전투가 진행되는 동안 각 턴이 끝날 때마다, PC가 선택한 적군 1개 부대가 1의 피해에 빠지거나 1의 피해를 입습니다. </p> <p><strong>대실패</strong> 함정을 설치하려는 시도가 실패할 뿐만 아니라, 함정 중 하나가 설치 중에 크게 오작동합니다. 가시로 덮인 목재를 조작하려는 시도가 실패하여 PC가 건물 벽에 부딪힙니다. 해당 PC는 @Damage[5d6[piercing],5d6[bludgeoning]의 피해를 받습니다 (@Check[reflex|dc:25|기본]).</p>"
     },
     "Cunning Disguise": {
       "name": "재치 있는 변장",

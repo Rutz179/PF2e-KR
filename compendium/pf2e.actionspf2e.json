@@ -343,7 +343,7 @@
     },
     "Seek": {
       "name": "찾기",
-      "description": "<p>비밀의 문이나 위험 요소를 포함한 생물이나 물체의 흔적이 있는지 영역을 살펴봅니다. 살펴볼 영역을 선택합니다. 탐색 액션 한 번으로 살펴볼 수 있는 영역은 GM이 결정하며, 어떤 차원에서도 30피트 이내로 제한됩니다. GM은 플레이어로부터 멀리 떨어진 곳을 탐색하거나 특히 복잡한 지역을 탐색하는 데 필요한 액션 횟수를 조정할 경우 페널티를 부과할 수 있습니다.</p>\n<p>GM은 플레이어를 위해 한 번의 비밀 <span data-pf2-action=\"seek\" data-pf2-glyph=\"A\">지각</span> 체크를 시도하고 그 결과를 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{탐지 불가} 또는 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨은} 생물의 은신 DC와 비교합니다. 해당 지역에 숨겨진 생물 또는 DC가 해당 지역의 각 개체를 감지합니다(GM 또는 @UUID[Compendium.pf2e.actionspf2e.Item.qVNVSmsgpKFGk9hV]{물체 은폐됨}이 결정). 부정확한 감각을 사용하거나 효과(예: <em>@UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB]{보이지 않음}</em>)은 대상이 관찰되는 것을 방지합니다.</p>\n<hr />\n<p><strong>대성공</strong> 감지되지 않거나 숨겨진 생물을 상대로 대성공한 모든 생물이 관찰됩니다. 대성공한 영역에 있는 물체의 위치를 배웁니다.</p>\n<p><strong> 성공</strong> 모든 감지되지 않은 생명체는 감지되지 않는 대신 숨겨지며, 숨겨진 생명체는 관찰할 수 있게 됩니다. GM의 결정에 따라 물체의 위치를 알아내거나 물체의 행방에 대한 단서를 얻습니다.</p>"
+      "description": "<p>비밀의 문이나 위험 요소를 포함한 생물이나 물체의 흔적이 있는지 영역을 살펴봅니다. 살펴볼 영역을 선택합니다. 탐색 액션 한 번으로 살펴볼 수 있는 영역은 GM이 결정하며, 어떤 차원에서도 30피트 이내로 제한됩니다. GM은 플레이어로부터 멀리 떨어진 곳을 탐색하거나 특히 복잡한 지역을 탐색하는 데 필요한 액션 횟수를 조정할 경우 페널티를 부과할 수 있습니다.</p>\n<p>GM은 플레이어를 위해 한 번의 비밀 <span data-pf2-action=\"seek\" data-pf2-glyph=\"A\">지각</span> 체크를 시도하고 그 결과를 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{탐지 불가} 또는 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨은} 생물의 은신 DC와 비교합니다. 해당 지역에 숨겨진 생물 또는 DC가 해당 지역의 각 개체를 감지합니다(GM 또는 @UUID[Compendium.pf2e.actionspf2e.Item.qVNVSmsgpKFGk9hV]{물체 은폐됨}이 결정). 부정확한 감각을 사용하거나 효과(예: <em>@UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB]{투명화}</em>)은 대상이 관찰되는 것을 방지합니다.</p>\n<hr />\n<p><strong>대성공</strong> 감지되지 않거나 숨겨진 생물을 상대로 대성공한 모든 생물이 관찰됩니다. 대성공한 영역에 있는 물체의 위치를 배웁니다.</p>\n<p><strong> 성공</strong> 모든 감지되지 않은 생명체는 감지되지 않는 대신 숨겨지며, 숨겨진 생명체는 관찰할 수 있게 됩니다. GM의 결정에 따라 물체의 위치를 알아내거나 물체의 행방에 대한 단서를 얻습니다.</p>"
     },
     "Entreat Pact": {
       "name": "간청 계약",
@@ -667,7 +667,7 @@
     },
     "Starlit Transformation": {
       "name": "별빛 변신",
-      "description": "<p><strong>발동 빈도</strong> 시간당 1회</p><hr /><p><strong>효과</strong> 빛이 당신 주변을 휘감으며, 당신의 갑옷, 옷, 그리고 소지한 무기 중 하나를 특정 대체 복장으로 변환합니다. 장비 모습이 극적으로 달라질 수 있지만, 기능은 평소와 동일합니다. 누군가가 당신의 신원을 알아내려고 시도할 경우, 그들은 @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} 행동을 사용하여, 마치 @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{사칭} 행동을 사용하는 것처럼, 당신의 기만 DC에 대한 지각 체크를 시도해야 합니다. 이러한 시도에 대한 당신의 기만 DC는 일반 DC 대신 20 + 당신의 숙련도 수정자입니다. 사칭과 달리, 자신의 정체를 숨기기 위해 다른 사람과 상호 작용할 때 기만 체크를 시도할 필요는 없습니다. 체크는 다른 사람이 의도적으로 정체를 밝히려고 시도할 때만 진행됩니다. 당신은 10분 동안 또는 Starlit Transformation을 다시 사용하여 정상적인 형태로 돌아갈 때까지 센티넬 형태로 남아 있습니다. 센티넬 형태에 있는 동안, 변형된 무기는 별빛으로 빛나며 무기로 가하는 피해 굴림에 +1 상태 보너스를 받습니다. 공격 행동으로 무기로 별빛의 화살을 발사할 수 있으며, 무기의 근접 공격 수정자를 사용합니다. 이 광선은 1d4의 역장 피해를 주고, 사거리는 60피트이며, 무기의 룬의 영향을 받고, 비전 및 역장 특성을 가지고 있습니다. </p>"
+      "description": "<p><strong>발동 빈도</strong> 시간당 1회</p><hr /><p><strong>효과</strong> 빛이 당신 주변을 휘감으며, 당신의 갑옷, 옷, 그리고 소지한 무기 중 하나를 특정 대체 복장으로 변환합니다. 장비 모습이 극적으로 달라질 수 있지만, 기능은 평소와 동일합니다. 누군가가 당신의 신원을 알아내려고 시도할 경우, 그들은 @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{찾기} 행동을 사용하여, 마치 @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{사칭} 행동을 사용하는 것처럼, 당신의 기만 DC에 대한 지각 체크를 시도해야 합니다. 이러한 시도에 대한 당신의 기만 DC는 일반 DC 대신 20 + 당신의 숙련도 수정자입니다. 사칭과 달리, 자신의 정체를 숨기기 위해 다른 사람과 상호 작용할 때 기만 체크를 시도할 필요는 없습니다. 체크는 다른 사람이 의도적으로 정체를 밝히려고 시도할 때만 진행됩니다. 당신은 10분 동안 또는 Starlit Transformation을 다시 사용하여 정상적인 형태로 돌아갈 때까지 센티넬 형태로 남아 있습니다. 센티넬 형태에 있는 동안, 변형된 무기는 별빛으로 빛나며 무기로 가하는 피해 굴림에 +1 상태 보너스를 받습니다. 공격 행동으로 무기로 별빛의 화살을 발사할 수 있으며, 무기의 근접 공격 수정자를 사용합니다. 이 광선은 1d4의 역장 피해를 주고, 사거리는 60피트이며, 무기의 룬의 영향을 받고, 비전 및 역장 특성을 가지고 있습니다. </p>"
     },
     "Balance": {
       "name": "균형잡기",
@@ -943,7 +943,7 @@
     },
     "Fire in the Hole": {
       "name": "폭발 점화",
-      "description": "<p><strong>트리거</strong> 생물이 위험 요소의 공간으로 이동합니다.</p>\n<hr />\n<p><strong>효과</strong> 위험 요소가 폭발하여 무생물에게 폭탄 피해와 비산 피해를 줍니다. 이 피해는 저항과 약점을 고려하여 합산되며, 이 피해는 자신의 레벨과 같은 양의 물체 경도를 무시합니다. 위험에 인접한 모든 생물은 폭탄의 비산 피해를 받으며, 저항과 약점을 고려하여 마찬가지로 합산합니다. 참고로, 폭탄을 던지지 않았으므로 @UUID[Compendium.pf2e.feats-srd.Item.UjWLK86BgHxz3Itd]{계산된 스플래시} 및 이와 유사한 효과는 적용되지 않습니다.</p>"
+      "description": "<p><strong>트리거</strong> 생물이 위험 요소의 공간으로 이동합니다.</p>\n<hr />\n<p><strong>효과</strong> 위험 요소가 폭발하여 무생물에게 폭탄 피해와 스플래시 피해를 줍니다. 이 피해는 저항과 약점을 고려하여 합산되며, 이 피해는 자신의 레벨과 같은 양의 물체 경도를 무시합니다. 위험에 인접한 모든 생물은 폭탄의 스플래시 피해를 받으며, 저항과 약점을 고려하여 마찬가지로 합산합니다. 참고로, 폭탄을 던지지 않았으므로 @UUID[Compendium.pf2e.feats-srd.Item.UjWLK86BgHxz3Itd]{계산된 스플래시} 및 이와 유사한 효과는 적용되지 않습니다.</p>"
     },
     "Step": {
       "name": "신중한 발걸음",
@@ -1103,7 +1103,7 @@
     },
     "Hunt the Razer's Pawn": {
       "name": "레이저의 하수인을 사냥하세요",
-      "description": "<p>당신이 보거나 들을 수 있거나, 멀리서 오랫동안 관찰하고 연구한 (GM의 승인이 필요한) 트리레이저의 하수인이라고 알고 있는 생물 한 마리를 지정하세요. 이 생물의 @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} 또는 @UUID[Compendium.pf2e.actionspf2e.Item.1xRFPTFtWtGJ9ELw]{Sense the Motive}에 대한 지각 체크에 +2의 상황 보너스를 얻습니다. 이 생물은 당신이 만드는 주문이나 효과에 대한 내성 굴림에 -1의 상황 페널티를 받습니다. 이 페널티는 신성한 특성을 가진 효과에 대해서는 -2로 증가합니다. 한 번에 Hunt the Razer's Pawn으로 지정할 수 있는 생물은 하나뿐입니다. 이미 한 생물을 지정한 상태에서 이 능력을 사용하면, 이전에 지정한 생물은 지정이 해제되고 새로운 생물이 지정이 됩니다. 이 효과는 다음 일일 준비까지 지속됩니다.</p>"
+      "description": "<p>당신이 보거나 들을 수 있거나, 멀리서 오랫동안 관찰하고 연구한 (GM의 승인이 필요한) 트리레이저의 하수인이라고 알고 있는 생물 한 마리를 지정하세요. 이 생물의 @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{찾기} 또는 @UUID[Compendium.pf2e.actionspf2e.Item.1xRFPTFtWtGJ9ELw]{Sense the Motive}에 대한 지각 체크에 +2의 상황 보너스를 얻습니다. 이 생물은 당신이 만드는 주문이나 효과에 대한 내성 굴림에 -1의 상황 페널티를 받습니다. 이 페널티는 신성한 특성을 가진 효과에 대해서는 -2로 증가합니다. 한 번에 Hunt the Razer's Pawn으로 지정할 수 있는 생물은 하나뿐입니다. 이미 한 생물을 지정한 상태에서 이 능력을 사용하면, 이전에 지정한 생물은 지정이 해제되고 새로운 생물이 지정이 됩니다. 이 효과는 다음 일일 준비까지 지속됩니다.</p>"
     },
     "Travel": {
       "name": "여행",
@@ -1123,7 +1123,7 @@
     },
     "Break Free": {
       "name": "탈출",
-      "description": "<p>체크에 +2의 상태 보너스를 받고 @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape}를 시도한 다음, 직선으로 자신의 속도의 2배까지 스트라이드하고, 마지막으로 근접 공격을 할 수 있습니다. 탈출이 필요하지 않거나 이동할 수 없거나 이동하지 않기로 선택한 경우에도 다른 행동은 그대로 진행합니다.</p>"
+      "description": "<p>체크에 +2의 상태 보너스를 받고 @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{탈출}를 시도한 다음, 직선으로 자신의 속도의 2배까지 스트라이드하고, 마지막으로 근접 공격을 할 수 있습니다. 탈출이 필요하지 않거나 이동할 수 없거나 이동하지 않기로 선택한 경우에도 다른 행동은 그대로 진행합니다.</p>"
     },
     "Deconstruct": {
       "name": "분해",
@@ -1163,7 +1163,7 @@
     },
     "Airy Step": {
       "name": "에어리 스텝",
-      "description": "<p><strong>빈도</strong> 하루에 한 번</p>\n<p><strong>트리거</strong> 생물이 공격 또는 다른 대상 효과로 당신을 목표로 삼고, 당신은 공격자를 볼 수 있습니다.</p>\n<hr />\n<p>당신이 공간의 한 구석을 중심으로 5피트 범위로 안개를 생성합니다. 해당 영역에 있는 모든 생물이 숨겨지고, 다른 모든 생물도 숨겨집니다. 이 은폐 효과는 발동 효과에 적용되며, 안개는 1분 동안 또는 강한 바람에 의해 흩어질 때까지 지속됩니다. 트리거 효과를 해결한 후 발걸음을 내딛습니다. 효과로 인해 발걸음을 내딛을 수 없는 경우, @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{이스케이프} 효과를 시도하고 성공하면 발걸음을 내딛습니다.</p>"
+      "description": "<p><strong>빈도</strong> 하루에 한 번</p>\n<p><strong>트리거</strong> 생물이 공격 또는 다른 대상 효과로 당신을 목표로 삼고, 당신은 공격자를 볼 수 있습니다.</p>\n<hr />\n<p>당신이 공간의 한 구석을 중심으로 5피트 범위로 안개를 생성합니다. 해당 영역에 있는 모든 생물이 숨겨지고, 다른 모든 생물도 숨겨집니다. 이 은폐 효과는 발동 효과에 적용되며, 안개는 1분 동안 또는 강한 바람에 의해 흩어질 때까지 지속됩니다. 트리거 효과를 해결한 후 발걸음을 내딛습니다. 효과로 인해 발걸음을 내딛을 수 없는 경우, @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{탈출} 효과를 시도하고 성공하면 발걸음을 내딛습니다.</p>"
     },
     "Lantern Beam": {
       "name": "랜턴 광선",
@@ -1531,7 +1531,7 @@
     },
     "Coiling Serpents": {
       "name": "코일링 서펀트",
-      "description": "<p>아이콘으로 원거리 공격을 합니다. 공격이 적중하면, 대상은 당신의 직업 DC에 대한 @Check[reflex|against:exemplar] 내성 체크에 성공해야 합니다. 그렇지 않으면 화살이 여러 마리의 미묘한 뱀으로 변해 대상 주위를 감싸고, @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{고정된} @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} 시도에 성공할 때까지 계속 감습니다.</p>"
+      "description": "<p>아이콘으로 원거리 공격을 합니다. 공격이 적중하면, 대상은 당신의 직업 DC에 대한 @Check[reflex|against:exemplar] 내성 체크에 성공해야 합니다. 그렇지 않으면 화살이 여러 마리의 미묘한 뱀으로 변해 대상 주위를 감싸고, @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{고정된} @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{탈출} 시도에 성공할 때까지 계속 감습니다.</p>"
     },
     "Coughing Dragon": {
       "name": "기침하는 드래곤",
@@ -1587,7 +1587,7 @@
     },
     "Mark for Death": {
       "name": "죽음의 표식",
-      "description": "<p><strong>요구 조건</strong> 표시하려는 생물을 보고 들을 수 있습니다.</p>\n<hr />\n<p><strong>효과</strong> 한 생물을 표식으로 지정합니다. 이 효과는 표식이 죽거나 당신이 다시 죽음의 표식을 사용할 때까지 지속됩니다. 당신의 표식에 대한 지각 체크와 @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{탐색}에 대한 기만 체크에 +2의 상황 보너스를 받습니다(자신의 표식에 대한 @UUID[Compendium.pf2e.actionspf2e.Item.QNAVeNKtHA0EUw4X]{기만}에 대한 체크).</p>\n<p>기민하고 기교적인 무기와 비무장 공격은 표식을 공격할 때 백스태버와 치명적인 d6 무기 특성을 얻습니다.</p>\n<p>무기나 비무장 공격에 이미 치명적인 특성이 있는 경우, 치명적인 d6 대신 치명적인 피해의 크기가 한 단계 증가합니다.</p>"
+      "description": "<p><strong>요구 조건</strong> 표시하려는 생물을 보고 들을 수 있습니다.</p>\n<hr />\n<p><strong>효과</strong> 한 생물을 표식으로 지정합니다. 이 효과는 표식이 죽거나 당신이 다시 죽음의 표식을 사용할 때까지 지속됩니다. 당신의 표식에 대한 지각 체크와 @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{찾기}에 대한 기만 체크에 +2의 상황 보너스를 받습니다(자신의 표식에 대한 @UUID[Compendium.pf2e.actionspf2e.Item.QNAVeNKtHA0EUw4X]{기만}에 대한 체크).</p>\n<p>기민하고 기교적인 무기와 비무장 공격은 표식을 공격할 때 백스태버와 치명적인 d6 무기 특성을 얻습니다.</p>\n<p>무기나 비무장 공격에 이미 치명적인 특성이 있는 경우, 치명적인 d6 대신 치명적인 피해의 크기가 한 단계 증가합니다.</p>"
     },
     "Smoke Blending": {
       "name": "스모크 블렌딩",

@@ -227,7 +227,7 @@
     },
     "(Zombie) Spitting Zombie": {
       "name": "(좀비) 침을 뱉는 좀비",
-      "description": "<p>좀비는 30피트의 사거리로 산성 액체를 뱉는 원거리 공격을 합니다. 이 공격은 좀비의 공격 중 가장 높은 공격 보너스를 사용하며, 좀비의 레벨 3당 @Damage[1d12[acid]]의 피해를 입힙니다 (레벨 3 미만인 경우 @Damage[1d6[acid]]의 피해를 입힙니다). 치명타를 맞으면, 대상은 좀비의 레벨 3당 @Damage[1d4[persistent,산성]]의 피해를 추가로 받습니다. 이 능력을 사용하면, 좀비는 이 능력을 다시 사용하기 위해 1 액션을 소비하여 충분한 산을 토해내야 합니다.</p>"
+      "description": "<p>좀비는 30피트의 사거리로 산성 액체를 뱉는 원거리 공격을 합니다. 이 공격은 좀비의 공격 중 가장 높은 공격 보너스를 사용하며, 좀비의 레벨 3당 @Damage[1d12[acid]]의 피해를 입힙니다 (레벨 3 미만인 경우 @Damage[1d6[acid]]의 피해를 입힙니다). 치명타를 맞으면, 대상은 좀비의 레벨 3당 @Damage[1d4[persistent,acid]]의 피해를 추가로 받습니다. 이 능력을 사용하면, 좀비는 이 능력을 다시 사용하기 위해 1 액션을 소비하여 충분한 산을 토해내야 합니다.</p>"
     },
     "(Graveknight) Ruinous Weapons": {
       "name": "(무덤 기사) 파멸의 무기",
@@ -255,7 +255,7 @@
     },
     "(Martial Artist, Dirty Fighting) Illegal Bite": {
       "name": "(무술가, 더티 파이팅) 불법적인 물기",
-      "description": "<p>무술가는 대상의 체력 DC에 대해 @Check[athletics|방어:인내력] 체크를 수행하여 취약한 부위를 물기 위해 시도합니다. 성공하면 무술가는 @Damage[2d6[피어싱]]의 피해를 입힙니다 (대성공 시 두 배의 피해).</p>"
+      "description": "<p>무술가는 대상의 체력 DC에 대해 @Check[athletics|방어:인내력] 체크를 수행하여 취약한 부위를 물기 위해 시도합니다. 성공하면 무술가는 @Damage[2d6[piercing]]의 피해를 입힙니다 (대성공 시 두 배의 피해).</p>"
     },
     "(Nemesis) Fast Healing": {
       "name": "(네메시스) 빠른 치유",
@@ -371,7 +371,7 @@
     },
     "(Vampire, Nosferatu) Change Shape": {
       "name": "(흡혈귀, 노스페라투) 형태 변화",
-      "description": "<p>노스페라투는 창백한 회색 쥐 떼로 변신합니다. 이들은 땅 이동 속도 30피트와 등반 속도 10피트를 얻으며, 크기가 대형으로 변합니다. 떼의 공간에 있는 각 적들은 @Damage[2d10[피어싱]]의 피해를 받고, 그 생물의 레벨에 맞는 높은 DC의 @Check[reflex|dc:|기본] 내성을 시도해야 합니다. 내성에 실패한 생물은 고대의 전염병에 노출됩니다.</p>"
+      "description": "<p>노스페라투는 창백한 회색 쥐 떼로 변신합니다. 이들은 땅 이동 속도 30피트와 등반 속도 10피트를 얻으며, 크기가 대형으로 변합니다. 떼의 공간에 있는 각 적들은 @Damage[2d10[piercing]]의 피해를 받고, 그 생물의 레벨에 맞는 높은 DC의 @Check[reflex|dc:|기본] 내성을 시도해야 합니다. 내성에 실패한 생물은 고대의 전염병에 노출됩니다.</p>"
     },
     "(Divine Warden) Divine Innate Spells": {
       "name": "(신성한 수호자) 신성한 타고난 주문",
@@ -1251,7 +1251,7 @@
     },
     "(Halfling) Keen Eyes": {
       "name": "(하플링) 예리한 눈",
-      "description": "<p>하프링은 @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} 행동을 사용하여 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨은} 또는 감지되지 않은 생물을 찾을 때 +2의 상황 보너스를 얻습니다. 하플링이 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진} 또는 그들에게서 숨겨진 생물을 대상으로 할 때마다, 숨겨진 대상의 고정 체크 DC를 3으로, 숨겨진 대상의 고정 체크 DC를 9로 감소시킵니다.</p>"
+      "description": "<p>하프링은 @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{찾기} 행동을 사용하여 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨은} 또는 감지되지 않은 생물을 찾을 때 +2의 상황 보너스를 얻습니다. 하플링이 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진} 또는 그들에게서 숨겨진 생물을 대상으로 할 때마다, 숨겨진 대상의 고정 체크 DC를 3으로, 숨겨진 대상의 고정 체크 DC를 9로 감소시킵니다.</p>"
     },
     "(Greater Barghest) Mutation - Vestigial Arm Strike": {
       "name": "(그레이터 바르게스트) 돌연변이 - 잔존 팔 공격",
@@ -1315,7 +1315,7 @@
     },
     "(Mythic) Unimpeded": {
       "name": "(신화) 방해받지 않음",
-      "description": "<p><strong>비용</strong> 1 신화 포인트</p><hr /><p><strong>효과</strong> 신화 스트라이커는 속도에 상황 페널티를 주는 효과를 자동으로 종료합니다. 그가 @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} 효과를 시도할 때, 그 효과가 그에게 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{고정된} 상태를 부여한 경우, @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속} 상태일 때, 해당 효과를 자동으로 성공합니다.</p>"
+      "description": "<p><strong>비용</strong> 1 신화 포인트</p><hr /><p><strong>효과</strong> 신화 스트라이커는 속도에 상황 페널티를 주는 효과를 자동으로 종료합니다. 그가 @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{탈출} 효과를 시도할 때, 그 효과가 그에게 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{고정된} 상태를 부여한 경우, @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속} 상태일 때, 해당 효과를 자동으로 성공합니다.</p>"
     },
     "(Kuworsys) Careless Block": {
       "name": "(쿠워시스) 부주의한 막기",
@@ -1435,7 +1435,7 @@
     },
     "(Woodblessed) Reactive Flare": {
       "name": "(우드블레싱) 반응성 플레어",
-      "description": "<p><strong>트리거</strong> 우드블레싱이 자신의 도달 범위 내에 있는 생물에게 피해를 받습니다. 트리거링한 크리처와 우드블레싱은 모두 @Damage[1d6[피어싱]]의 피해를 받고, 우드블레싱의 레벨이 2 레벨 올라갈 때마다 1d6의 피해를 추가로 받으며, 우드블레싱의 주문 DC에 대해 @Check[reflex|dc:|basic] 내성을 발휘합니다.</p>"
+      "description": "<p><strong>트리거</strong> 우드블레싱이 자신의 도달 범위 내에 있는 생물에게 피해를 받습니다. 트리거링한 크리처와 우드블레싱은 모두 @Damage[1d6[piercing]]의 피해를 받고, 우드블레싱의 레벨이 2 레벨 올라갈 때마다 1d6의 피해를 추가로 받으며, 우드블레싱의 주문 DC에 대해 @Check[reflex|dc:|basic] 내성을 발휘합니다.</p>"
     },
     "(Vampire, Vrykolakas Master) Children of the Night": {
       "name": "(흡혈귀, 브리콜라카스 마스터) 밤의 자녀들",
@@ -1503,7 +1503,7 @@
     },
     "(Risen Nemesis) Pained Retribution": {
       "name": "(부활한 Nemesis) 고통스러운 복수",
-      "description": "<p>부활한 네메시스는 PC들이 자신에게 어떤 잘못을 저질렀는지 보라고 요구합니다. 부활한 네메시스에서 @Template[type:emanation|distance:30]{30 피트} 이내의 모든 PC는 @Check[will|dc:42] 내성 체크를 시도해야 합니다. 결과에 상관없이, PC들은 24시간 동안 이 능력에 대해 일시적으로 면역이 됩니다. 실패 시, PC들은 자신들만 볼 수 있는 보이지 않는 죄의 사슬에 의해 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속} 상태가 됩니다 (@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} DC 42). 대실패 시, PC는 죄책감에 망설이면서 1분 동안 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐} 상태가 됩니다.</p>"
+      "description": "<p>부활한 네메시스는 PC들이 자신에게 어떤 잘못을 저질렀는지 보라고 요구합니다. 부활한 네메시스에서 @Template[type:emanation|distance:30]{30 피트} 이내의 모든 PC는 @Check[will|dc:42] 내성 체크를 시도해야 합니다. 결과에 상관없이, PC들은 24시간 동안 이 능력에 대해 일시적으로 면역이 됩니다. 실패 시, PC들은 자신들만 볼 수 있는 보이지 않는 죄의 사슬에 의해 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속} 상태가 됩니다 (@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{탈출} DC 42). 대실패 시, PC는 죄책감에 망설이면서 1분 동안 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐} 상태가 됩니다.</p>"
     },
     "(Path Maiden) Vengeful Frenzy": {
       "name": "(길잡이 무녀) 복수심에 찬 광기",
@@ -1567,7 +1567,7 @@
     },
     "(Cryptid, Experimental) Operational Flaw": {
       "name": "(크립티드, 실험적) 작동 결함",
-      "description": "<p>실험용 크립티드는 구조에 결함이 있으며, 이 결함은 @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek}에 대한 성공적인 지각 체크로 확인할 수 있습니다. 실험용 크립티드는 실험의 작동 결함을 성공적으로 찾아낸 모든 생물의 공격에 대해 자신의 레벨과 동일한 약점을 갖습니다.</p>"
+      "description": "<p>실험용 크립티드는 구조에 결함이 있으며, 이 결함은 @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{찾기}에 대한 성공적인 지각 체크로 확인할 수 있습니다. 실험용 크립티드는 실험의 작동 결함을 성공적으로 찾아낸 모든 생물의 공격에 대해 자신의 레벨과 동일한 약점을 갖습니다.</p>"
     },
     "(Vampire, Nosferatu Overlord) Air of Sickness": {
       "name": "(뱀파이어, 노스페라투 오버로드) Air of Sickness",
