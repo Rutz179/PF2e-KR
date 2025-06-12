@@ -360,20 +360,20 @@
       },
       "JunkBomb": {
         "Greater": {
-          "criticalSuccess": "<strong>효과</strong> 폭탄은 또한 @Damage[(2*3)[bleed]] 및 @Damage[(3[방사])[베기]]{3 베기 방사 피해}를 입힙니다.",
-          "success": "<strong>효과</strong> 폭탄은 또한 @Damage[3[bleed]] 및 @Damage[(3[방사])[베기]]{3 베기 방사 피해}를 입힙니다."
+          "criticalSuccess": "<strong>효과</strong> 폭탄은 또한 @Damage[(2*3)[bleed]] 및 @Damage[(3[방사])[slashing]]{3 베기 방사 피해}를 입힙니다.",
+          "success": "<strong>효과</strong> 폭탄은 또한 @Damage[3[bleed]] 및 @Damage[(3[방사])[slashing]]{3 베기 방사 피해}를 입힙니다."
         },
         "Lesser": {
-          "criticalSuccess": "<strong>효과</strong> 폭탄은 @Damage[(2*1)[bleed]] 및 @Damage[(1[방사])[베기]]{1 베기 방사 피해}의 추가 피해를 입힙니다.",
-          "success": "<strong>효과</strong> 폭탄은 @Damage[1[bleed]] 및 @Damage[(1[방사])[베기]]{1 베기 방사 피해}의 추가 피해를 입힙니다."
+          "criticalSuccess": "<strong>효과</strong> 폭탄은 @Damage[(2*1)[bleed]] 및 @Damage[(1[방사])[slashing]]{1 베기 방사 피해}의 추가 피해를 입힙니다.",
+          "success": "<strong>효과</strong> 폭탄은 @Damage[1[bleed]] 및 @Damage[(1[방사])[slashing]]{1 베기 방사 피해}의 추가 피해를 입힙니다."
         },
         "Major": {
-          "criticalSuccess": "<strong>효과</strong> 폭탄은 또한 @Damage[(2*4)[bleed]] 및 @Damage[(4[방사])[베기]]{4 베기 방사 피해}를 입힙니다.",
-          "success": "<strong>효과</strong> 폭탄은 또한 @Damage[4[bleed]] 및 @Damage[(4[방사])[베기]]{4 베기 방사 피해}를 입힙니다."
+          "criticalSuccess": "<strong>효과</strong> 폭탄은 또한 @Damage[(2*4)[bleed]] 및 @Damage[(4[방사])[slashing]]{4 베기 방사 피해}를 입힙니다.",
+          "success": "<strong>효과</strong> 폭탄은 또한 @Damage[4[bleed]] 및 @Damage[(4[방사])[slashing]]{4 베기 방사 피해}를 입힙니다."
         },
         "Moderate": {
-          "criticalSuccess": "<strong>효과</strong> 폭탄은 또한 @Damage[(2*2)[bleed]] 및 @Damage[(2[splash])[베기]]{2 베기 방사 피해}를 입힙니다.",
-          "success": "<strong>효과</strong> 폭탄은 또한 @Damage[2[bleed]] 및 @Damage[(2[splash])[베기]]{2 베기 방사 피해}를 입힙니다."
+          "criticalSuccess": "<strong>효과</strong> 폭탄은 또한 @Damage[(2*2)[bleed]] 및 @Damage[(2[splash])[slashing]]{2 베기 방사 피해}를 입힙니다.",
+          "success": "<strong>효과</strong> 폭탄은 또한 @Damage[2[bleed]] 및 @Damage[(2[splash])[slashing]]{2 베기 방사 피해}를 입힙니다."
         }
       },
       "MudBomb": {
@@ -1176,7 +1176,7 @@
           "Commander": "사령관",
           "ElementalAttack": "원소 공격",
           "ShieldCarrier": "방패 운반자",
-          "SneakAttack": "몰래 공격",
+          "SneakAttack": "암습",
           "WeaponPerk": "무기 특전",
           "WeaponPerkPrompt": "무기 특전을 선택하세요"
         }
@@ -2575,7 +2575,7 @@
           "Fervor": "문 슬롯에서 주문을 시전할 때, 해당 주문이 지속시간이 없고 피해를 입히는 경우, 해당 주문의 랭크와 동일한 상태 보너스를 해당 주문의 피해에 적용합니다. 주문: @UUID[Compendium.pf2e.spells-srd.Item.jsWthW1Qy6tg3SwD]{Draw Ire}",
           "Focus": "@UUID[Compendium.pf2e.spells-srd.Item.UGJzJRJDoonfWqqI]{운동 러시}",
           "Label": "분노",
-          "Trigger": "적이 당신에게 피해를 입힙니다. @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued} 상태에서는 이 반응을 사용할 수 없습니다."
+          "Trigger": "적이 당신에게 피해를 입힙니다. @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{피곤} 상태에서는 이 반응을 사용할 수 없습니다."
         },
         "Awe": {
           "Activation": "당신이 @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{매혹} 또는 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미함} 상태인 경우, 내성이 허용된다면 효과를 종료하기 위해 추가 내성을 시도할 수 있습니다.",
@@ -2616,7 +2616,7 @@
         "Joy": {
           "Activation": "당신이 가지고 있는 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포} 또는 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미} 상태의 값을 1 감소시키고, 당신이 가지고 있는 모든 지속적 정신 피해를 종료합니다.",
           "Description": "당신의 억제되지 않은 열정과 긍정적인 태도는 성공으로 이끌 수 있지만, 계획보다 더 많은 에너지를 소모할 수 있습니다.",
-          "Fallout": "당신은 감정을 안정시킬 때까지 @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued} 상태가 됩니다.",
+          "Fallout": "당신은 감정을 안정시킬 때까지 @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{피곤} 상태가 됩니다.",
           "Fervor": "당신은 성능 체크와 감정 마법의 마법 공격 굴림에 +1의 상태 보너스를 받고, 적들은 당신의 감정 마법에 대한 내성 체크에 -1의 상태 페널티를 받습니다. 마법: @UUID[Compendium.pf2e.spells-srd.Item.tlSE7Ly8vi1Dgddv]{Laughing Fit}",
           "Focus": "@UUID[Compendium.pf2e.spells-srd.Item.gwOYh5zMVZB0HNcT]{Unimpeded Stride}",
           "Label": "기쁨",
@@ -2755,7 +2755,7 @@
         "Anadi": "당신은 인간 또는 거미의 모습으로 변신합니다. 각 모습은 고유하고 지속적인 외모를 가지고 있습니다. 인간의 모습에서는 조상의 능력으로 부여된 무기 없는 공격을 사용할 수 없습니다. 거미 형태로 등반할 때는 오프 가드가 되지 않습니다. 그러나 거미 형태로는 무기, 방패 또는 그 밖의 모든 종류의 소지품을 사용할 수 없으며, 조작 특성을 가진 행동은 제한됩니다. 수행할 수 있는 유일한 조작 행동은 @UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]{주문 시전} , 실크나 거미줄을 짜거나, 잠기지 않은 문을 여는 등 간단한 @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{Interact} 행동을 할 수 있습니다. 거미의 다리는 손가락이나 상당한 손재주가 필요한 행동, 즉 체크가 필요한 행동을 할 수 없습니다. GM은 거미 다리에 적합한 다른 조작 행동을 결정할 수 있습니다.",
         "Beastkin": "당신은 인간형 또는 혼합형으로 변신합니다. 각 형태는 고유하고 지속적인 외모를 가지고 있으며, 대부분의 야수족은 기본적으로 혼합형으로 남아 있습니다. 혼합형에서는, 당신은 당신의 조상과 타고난 동물 사이의 혼합으로 보입니다. 하이브리드 형태로 있는 동안, 당신은 본래의 동물의 특징을 닮은 무기 없는 공격인 턱을 얻습니다 (박쥐는 송곳니, 독수리는 부리, 말벌은 턱 등). 당신의 턱은 1d4의 관통 피해를 주고, 민첩, 기민, 무기 없는 특성을 가지며, 근접 무기 그룹에 속합니다. 인간형으로 변신하면, 당신은 원래 조상의 외모를 유지합니다.",
         "Kitsune": "당신은 유전적 배경에 따라 특정 대체 형태로 변신합니다. 유전적 배경에 형태가 명시되지 않은 경우, 대체 형태는 꼬리가 없는 형태로, 성장한 지역에서 일반적인 중간 크기 인간형 종족(일반적으로 인간)입니다. 이 형태는 진정한 형태와 동일한 나이 및 체형이며, 머리 색상 등 유사한 신체적 특성을 가집니다. 모양 변경을 사용하는 것은 @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{사칭}의 기만 사용에 대한 변장을 만드는 것으로 간주됩니다. 이 형태로 키츠네의 유산이나 조상의 특전에서 얻은 무기 없는 공격은 모두 잃게 됩니다. 대체 형태로 무제한으로 머물 수 있으며, 이 행동을 다시 사용해 진정한 키츠네 형태로 돌아갈 수 있습니다.",
-        "Tanuki": "@UUID[Compendium.pf2e.spells-srd.Item.gfPjmG6Fe6D3MFjl]{Pest Form}의 통계치를 사용해 일반적인 라쿤 개로 변신할 수 있습니다. 이 형태는 진정한 형태와 동일한 나이 및 체형이며, 머리 색상 등 유사한 신체적 특성을 가진 특정 너구리 형태입니다. Change Shape를 사용하는 것은 Deception의 @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{사칭} 사용 시 위장 생성으로 간주됩니다. 이 형태에서는 너구리 유산이나 조상 피트에서 얻은 모든 무기 공격을 잃게 됩니다. 너구리 형태는 무기한으로 유지할 수 있으며, 이 행동을 다시 사용하면 너구리 형태로 되돌릴 수 있습니다.",
+        "Tanuki": "@UUID[Compendium.pf2e.spells-srd.Item.gfPjmG6Fe6D3MFjl]{Pest Form}의 통계치를 사용해 일반적인 라쿤 개로 변신할 수 있습니다. 이 형태는 진정한 형태와 동일한 나이 및 체형이며, 머리 색상 등 유사한 신체적 특성을 가진 특정 너구리 형태입니다. 형태 변화를 사용하는 것은 Deception의 @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{사칭} 사용 시 위장 생성으로 간주됩니다. 이 형태에서는 너구리 유산이나 조상 피트에서 얻은 모든 무기 공격을 잃게 됩니다. 너구리 형태는 무기한으로 유지할 수 있으며, 이 행동을 다시 사용하면 너구리 형태로 되돌릴 수 있습니다.",
         "Werecreature": "당신은 하이브리드 또는 동물 형태로 변신합니다. 당신의 장비도 함께 변형되어 보너스를 계속 제공하지만, 동물 형태로는 무기, 방패 또는 기타 소지품을 사용할 수 없으며 조작 행동을 사용할 수 없습니다. 당신은 이동 속도, 무기 없는 공격, 그리고 당신의 야수 유형에 따라 다른 능력을 얻습니다. 이 무기 없는 공격은 싸움 그룹에 속합니다. 효과를 해제하여 인간형으로 돌아갈 수 있으며, 체력이 0이 되면 자동으로 인간형으로 돌아갑니다.",
         "Yaoguai": "당신은 진정한 야오과이 형태에서 인간형 대체 형태로 변신하거나 그 반대로 변신합니다. 이 대체 형태는 당신이 태어난 곳에서 흔히 볼 수 있는 중간 크기의 인간형 조상(일반적으로 인간)입니다. 이 형태는 야오과이 형태와 외모 및 체격이 동일하며, 머리 색깔 등 대략적으로 유사한 신체적 특징을 가지고 있습니다. 모양 변경을 사용하는 것은 @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{사칭}의 기만 사용에 대한 변장을 만드는 것으로 간주됩니다. 인간형으로 무기한으로 남아 있을 수 있지만, 1시간 동안 의식을 잃거나 사망한 후 1분이 지나면 야오과이 형태로 되돌아갑니다."
       },
@@ -3399,7 +3399,7 @@
           "Note": "등반 또는 수영 행동에 운동 체크에 성공할 때마다, 이동 거리에 +5 피트 아이템 보너스를 추가합니다."
         },
         "BlackScorpionStingmace": {
-          "BlackScorpionVenomNote": "<p>치명타를 하면, 대상은 검은 전갈의 맹독에 노출됩니다.</p> <p><strong>검은 전갈의 맹독</strong> (독)</p> <p><strong>내성 굴림</strong> @Check[fortitude|dc:36]</p> <p><strong>최대 지속 시간</strong> 6 라운드</p> <p><strong>1단계</strong> @Damage[2d12[poison]] 피해 및 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 2} (1 라운드)</p> <p><strong>2단계</strong> @Damage[3d12[poison]] 피해, 서투른 2, @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1} (1 라운드)</p> <p><strong>3단계</strong> @Damage[4d12[poison]] 피해, @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 4}, @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 2} (1 라운드).</p>"
+          "BlackScorpionVenomNote": "<p>치명타를 하면, 대상은 검은 전갈의 맹독에 노출됩니다.</p>\n<p><strong>검은 전갈의 맹독</strong> (독)</p>\n<p><strong>내성 굴림</strong> @Check[fortitude|dc:36]</p>\n<p><strong>최대 지속 시간</strong> 6 라운드</p>\n<p><strong>1단계</strong> @Damage[2d12[poison]] 피해 및 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 2} (1 라운드)</p>\n<p><strong>2단계</strong> @Damage[3d12[poison]] 피해, 서투른 2, @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1} (1 라운드)</p>\n<p><strong>3단계</strong> @Damage[4d12[poison]] 피해, @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 4}, @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 2} (1 라운드).</p>"
         },
         "BloodDrinkerBlade": {
           "Label": "피를 마시는 검 — 생명을 마셔라"
@@ -3959,7 +3959,7 @@
           "Note": "성공하면 5피트, 대성공하면 10피트까지 더 멀리 수영할 수 있으며, 이동 거리는 자신의 속도에 따라 결정됩니다."
         },
         "RiskySurgery": {
-          "Note": "상처를 치료할 때, 상처 치료의 효과를 적용하기 직전에 환자에게 @Damage[1d8[베기]]의 피해를 줄 수 있습니다. 그렇게 하면, 상처 치료의 의학 체크에 +2의 상황 보너스를 받고, 성공을 굴리면 대신 대성공을 얻습니다."
+          "Note": "상처를 치료할 때, 상처 치료의 효과를 적용하기 직전에 환자에게 @Damage[1d8[slashing]]의 피해를 줄 수 있습니다. 그렇게 하면, 상처 치료의 의학 체크에 +2의 상황 보너스를 받고, 성공을 굴리면 대신 대성공을 얻습니다."
         },
         "SolarRejuvenation": {
           "Ghoran": "태양의 따뜻함과 빛이 당신에게 생명을 줍니다. 낮에 10분 동안 야외에서 휴식을 취하면, @Damage[(floor(@actor.level/2)*@actor.abilities.con.mod)[healing]]{체력 수정자 × 레벨의 절반}에 해당하는 체력을 회복합니다. 이 혜택은 @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{상처 치료}에서 얻는 치유 효과와 함께 적용됩니다.",
@@ -3987,7 +3987,7 @@
           "Note": "@Damage[(ternary(gte(@actor.level,18),2,1))@item.system.damage.die[@item.system.damage.damageType]]의 피해를 입힙니다."
         },
         "DazingBlow": {
-          "Note": "공격이 명중하면, 생물은 당신의 직업 DC에 대해 @Check[fortitude|against:class|traits:incapacitation] 내성을 시도해야 합니다. 이것은 무력화 효과입니다.</p> <p><strong>성공</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{기절 1} 상태가 됩니다.</p> <p><strong>실패</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{기절 2} 상태가 됩니다.</p> <p><strong>대실패 생물은 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{기절 3} 상태가 됩니다."
+          "Note": "공격이 명중하면, 생물은 당신의 직업 DC에 대해 @Check[fortitude|against:class|traits:incapacitation] 내성을 시도해야 합니다. 이것은 무력화 효과입니다.</p>\n<p><strong>성공</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{기절 1} 상태가 됩니다.</p>\n<p><strong>실패</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{기절 2} 상태가 됩니다.</p>\n<p><strong>대실패 생물은 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{기절 3} 상태가 됩니다."
         },
         "DoubleSlice": {
           "SecondAttackLabel": "더블 슬라이스 두 번째 공격"
@@ -4640,7 +4640,7 @@
           "sword": "고급 검"
         },
         "AdvancedHalflingWeapons": "고급 하프링 무기",
-        "AdvancedHobgoblinWeapons": "고급 호브고블린 무기",
+        "AdvancedHobgoblinWeapons": "고급 홉고블린 무기",
         "AdvancedKholoWeapons": "고급 코로 무기",
         "AdvancedKoboldWeapons": "고급 코볼드 무기",
         "AdvancedMonasticWeaponry": "고급 수도사 무기",
@@ -4694,7 +4694,7 @@
           "sword": "무술 검"
         },
         "MartialHalflingWeapons": "무술 하프링 무기",
-        "MartialHobgoblinWeapons": "무술 호브고블린 무기",
+        "MartialHobgoblinWeapons": "무술 홉고블린 무기",
         "MartialKholoWeapons": "무술 콜로 무기",
         "MartialKoboldWeapons": "무술 코볼트 무기",
         "MartialMerfolkWeapons": "무술 머핀 무기",
@@ -5120,7 +5120,7 @@
           },
           "RemovePresence": "주문의 대상 중 하나 또는 그 영역에 있는 생물 중 하나를 선택합니다. 그 적이 내성 검사에 실패하거나 주문이 적중하면, 당신은 그 생물에게 감지되지 않게 되어 1분 동안 또는 당신이 적대적인 행동을 할 때까지 그 생물의 감각에서 사라집니다. 이는 @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{투명한}과 비슷하지만, 투명화를 보는 등의 효과는 당신을 드러내지 않습니다. 당신은 대상의 시력이 아닌 의식에 영향을 미치고 있기 때문입니다. 반작용 체크에 성공하면 진정한 시력은 이 환상을 뚫고 볼 수 있습니다.",
           "ShatterMind": "주문의 범위를 @Template[cone|distance:30] 또는 @Template[cone|distance:60] 중 원하는 것으로 늘리고, 주문의 피해 주사위가 d10으로 변경됩니다. 실패한 생물은 다음 턴이 시작될 때까지 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1} 상태가 됩니다(대실패의 경우 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 2} 상태가 됩니다).",
-          "ShatterSpace": "당신이나 주문 대상 중 하나가 찢어진 공간의 소용돌이에 둘러싸입니다. 이것은 오라이며, 당신은 반경 20피트까지 발산 반경을 선택합니다. 오라에서 턴을 시작하거나 턴 중에 오라에 들어간 생물은 @Damage[(@item.level)d6[베기]]의 피해를 받고, 당신의 주문 DC에 대한 기본 반사 내성을 사용합니다. 생물이 대실패를 하면, 찢어진 공간이 그 생물의 균형을 무너뜨리고 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드린}으로 넘어지게 합니다. 오라는 다음 턴이 시작될 때까지 지속됩니다. 오라가 오라를 발산한 생물에게도 영향을 미칠지 선택할 수 있습니다.",
+          "ShatterSpace": "당신이나 주문 대상 중 하나가 찢어진 공간의 소용돌이에 둘러싸입니다. 이것은 오라이며, 당신은 반경 20피트까지 발산 반경을 선택합니다. 오라에서 턴을 시작하거나 턴 중에 오라에 들어간 생물은 @Damage[(@item.level)d6[slashing]]의 피해를 받고, 당신의 주문 DC에 대한 기본 반사 내성을 사용합니다. 생물이 대실패를 하면, 찢어진 공간이 그 생물의 균형을 무너뜨리고 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드린}으로 넘어지게 합니다. 오라는 다음 턴이 시작될 때까지 지속됩니다. 오라가 오라를 발산한 생물에게도 영향을 미칠지 선택할 수 있습니다.",
           "Shield": {
             "Base": "방어력을 높이기 위해 세 개의 방패로 이루어진 층을 만듭니다. 지속 시간이 최대 1분으로 증가합니다. 방패는 여전히 각 턴의 시작 시에 낮아지지만, 주문을 지속하면 다시 올릴 수 있습니다.",
             "BaseTwo": "이 주문으로 방패 막기(Shield Block)를 사용할 때, 세 개의 층(layer) 중 하나가 파괴되며 AC 보너스를 더 이상 얻을 수 없지만, 주문은 종료되지 않습니다. 마지막 층이 파괴될 때까지 주문을 계속 사용할 수 있으며, 마지막 층이 사라지면 주문이 종료되고 이후 10분 동안 방패(Shield) 또는 앰프된 방패(Amped Shield) 주문을 시전할 수 없습니다. 이 주문으로 방패 막기를 할 때, 추가적인 층을 자발적으로 파괴하여 방어력을 향상시킬 수 있습니다. 한 번에 두 개의 층을 파괴하면, 방어 강도(Hardness)가 정상 값의 1.5배로 증가합니다(1랭크에서 7, 3랭크에서 15, 5랭크에서 22, 7랭크에서 30, 9랭크에서 37). 세 개의 층을 모두 한 번에 파괴하면, 방어 강도가 정상 값의 2배로 증가합니다.",
@@ -5243,7 +5243,7 @@
       "ResonantReflection": {
         "Label": "활성 공명 반사",
         "ReflectionOfLife": {
-          "Description": "1분 동안 빠른 치유 3을 얻습니다. 이 빠른 치유량은 5레벨을 초과한 레벨당 1씩 증가합니다</p> <p>@UUID[Compendium.pf2e.campaign-effects.Item.DOxl0FDd21VMDOMP]{효과: 생명의 반사 (빠른 치유)}.",
+          "Description": "1분 동안 빠른 치유 3을 얻습니다. 이 빠른 치유량은 5레벨을 초과한 레벨당 1씩 증가합니다</p>\n<p>@UUID[Compendium.pf2e.campaign-effects.Item.DOxl0FDd21VMDOMP]{효과: 생명의 반사 (빠른 치유)}.",
           "Title": "생명의 반사"
         },
         "ReflectionOfLight": {
@@ -5432,7 +5432,7 @@
       "SmokingSword": {
         "StokeFlames": "불꽃을 부추기기"
       },
-      "SneakAttack": "몰래 공격",
+      "SneakAttack": "암습",
       "SnipersAim": {
         "Note": "대상자의 은폐 상태를 무시합니다."
       },
@@ -5914,7 +5914,7 @@
           "CraneStance": "하이 점프와 롱 점프의 DC를 5 감소시키고, 점프 시 추가로 수평으로 5피트 또는 수직으로 2피트 이동할 수 있습니다.",
           "GorillaStance": "운동 능력 체크로 등반에 성공하면, 대신 대성공을 얻습니다.",
           "StokedFlameStance": "번쩍이는 불꽃의 치명타 특화 효과를 사용할 수 있다면, 대신 대체 효과를 사용할 수 있습니다. 치명타 공격이 피해를 입혔을 경우, 대상은 @Damage[1d6[persistent,fire]]의 피해를 받습니다.",
-          "WaterfowlStance": "그 생물에게 @Damage[1d6[베기]]의 피해를 입힐 수 있습니다. 이 피해는 무기에 더 큰 타격 룬이 있는 경우 @Damage[2d6[베기]]로, 주요 타격 룬이 있는 경우 @Damage[3d6[베기]]로 증가합니다.",
+          "WaterfowlStance": "그 생물에게 @Damage[1d6[slashing]]의 피해를 입힐 수 있습니다. 이 피해는 무기에 더 큰 타격 룬이 있는 경우 @Damage[2d6[slashing]]로, 주요 타격 룬이 있는 경우 @Damage[3d6[slashing]]로 증가합니다.",
           "WildWindStance": "바람의 충돌 공격은 은폐와 모든 엄폐물을 무시합니다."
         }
       },

@@ -24,7 +24,7 @@
         },
         "89ujLImiUz00Zomc": {
           "name": "랜스 돌격",
-          "description": "<p>여단은 속도에 +10피트의 상황 보너스를 받고 두 번 전진합니다. 최소 10피트 이상 이동하면, 여단은 이동이 끝날 때 @Template[type:emanation|distance:10]에 있는 모든 적에게 @Damage[(3d8+14)[피어싱]|options:area-damage]의 피해를 입히고, @Check[reflex|dc:26|basic|options:area-effect] 내성을 적용합니다."
+          "description": "<p>여단은 속도에 +10피트의 상황 보너스를 받고 두 번 전진합니다. 최소 10피트 이상 이동하면, 여단은 이동이 끝날 때 @Template[type:emanation|distance:10]에 있는 모든 적에게 @Damage[(3d8+14)[piercing]|options:area-damage]의 피해를 입히고, @Check[reflex|dc:26|basic|options:area-effect] 내성을 적용합니다."
         },
         "iKR8M3h9wCtVtDTe": {
           "name": "안장에서 휘두르기",
@@ -180,7 +180,7 @@
         },
         "SoFniGftxKGmhTco": {
           "name": "인형 조종",
-          "description": "<p>인형사들은 보이지 않는 줄을 당겨 인형을 조종합니다. 각 인형은 최대 30피트까지 걸을 수 있습니다. 그런 다음 각 인형은 아래에 설명된 대로 공격을 할 수 있습니다. 각 공격은 인형사의 다중 공격 페널티에 포함되지만, 모든 공격이 끝날 때까지 페널티는 증가하지 않습니다. </p><ul><li>스마트 인형 스마트 인형은 신비한 힘을 부여하는 룬으로 덮여 있습니다. 30 피트 이내의 생물에게 +15 공격 수정자로 원거리 공격을 합니다. 공격이 성공하면 @Damage[2d6[정신]]의 피해를 입힙니다. </li><li>강한 인형 강한 인형은 작은 검과 방패를 사용합니다. 같은 공간에 있는 생물에게 +15 공격 수정자로 근접 공격을 합니다. 공격이 성공하면 @Damage[2d8[베기]]의 피해를 입힙니다. 또한, 강한 인형은 1 라운드 동안 AC에 +1의 상황 보너스를 얻습니다. </li><li><p>빠른 인형 빠른 인형은 두 개의 작은 단검을 휘두릅니다. 이 인형은 자신이 있는 공간에 있는 생물에게 +15의 공격 수정자로 근접 공격을 합니다. 공격이 성공하면 @Damage[2d4[피어싱]]의 피해를 입힙니다. 빠른 인형이 이번 라운드에 다른 인형에 의해 공격을 받은 생물에게 공격을 성공시키면, 그 공격은 추가로 1d4의 정밀 피해를 입힙니다.</p><ul><li><p>악마 인형 인형은 30피트 이내의 생물에게 원거리 공격을 가해 @Damage[1d10[영혼]]의 피해를 입히고, 대상이 신성한 경우 @Damage[1d4[영혼]]의 추가 피해를 입힙니다.</p></li><li><p>독살 인형 인형은 같은 공간에 있는 생물에게 작은 독 주사기로 근접 공격을 가해 @Damage[1d4[piercing]]의 피해와 @Damage[1d6[persistent,poison]]의 피해를 입힙니다.</p></li><li><p>언데드 인형 인형은 같은 공간에 있는 생물에게 근접 공격을 가해 @Damage[2d8[void]]의 피해를 입히고, 대상이 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1} (또는 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{두려움 2}를 적용합니다).</p></li></ul>"
+          "description": "<p>인형사들은 보이지 않는 줄을 당겨 인형을 조종합니다. 각 인형은 최대 30피트까지 걸을 수 있습니다. 그런 다음 각 인형은 아래에 설명된 대로 공격을 할 수 있습니다. 각 공격은 인형사의 다중 공격 페널티에 포함되지만, 모든 공격이 끝날 때까지 페널티는 증가하지 않습니다. </p><ul><li>스마트 인형 스마트 인형은 신비한 힘을 부여하는 룬으로 덮여 있습니다. 30 피트 이내의 생물에게 +15 공격 수정자로 원거리 공격을 합니다. 공격이 성공하면 @Damage[2d6[mental]]의 피해를 입힙니다. </li><li>강한 인형 강한 인형은 작은 검과 방패를 사용합니다. 같은 공간에 있는 생물에게 +15 공격 수정자로 근접 공격을 합니다. 공격이 성공하면 @Damage[2d8[slashing]]의 피해를 입힙니다. 또한, 강한 인형은 1 라운드 동안 AC에 +1의 상황 보너스를 얻습니다. </li><li><p>빠른 인형 빠른 인형은 두 개의 작은 단검을 휘두릅니다. 이 인형은 자신이 있는 공간에 있는 생물에게 +15의 공격 수정자로 근접 공격을 합니다. 공격이 성공하면 @Damage[2d4[piercing]]의 피해를 입힙니다. 빠른 인형이 이번 라운드에 다른 인형에 의해 공격을 받은 생물에게 공격을 성공시키면, 그 공격은 추가로 1d4의 정밀 피해를 입힙니다.</p><ul><li><p>악마 인형 인형은 30피트 이내의 생물에게 원거리 공격을 가해 @Damage[1d10[영혼]]의 피해를 입히고, 대상이 신성한 경우 @Damage[1d4[영혼]]의 추가 피해를 입힙니다.</p></li><li><p>독살 인형 인형은 같은 공간에 있는 생물에게 작은 독 주사기로 근접 공격을 가해 @Damage[1d4[piercing]]의 피해와 @Damage[1d6[persistent,poison]]의 피해를 입힙니다.</p></li><li><p>언데드 인형 인형은 같은 공간에 있는 생물에게 근접 공격을 가해 @Damage[2d8[void]]의 피해를 입히고, 대상이 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1} (또는 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{두려움 2}를 적용합니다).</p></li></ul>"
         }
       }
     },
@@ -207,7 +207,7 @@
         },
         "hPm8yFM9mgIGHYL6": {
           "name": "Boxing Ears",
-          "description": "<p><span class=\"action-glyph\">1</span> ~ <span class=\"action-glyph\">3</span></p>\n<p><strong>빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 옥수수 레시는 굳어진 옥수수 속대로 자신의 공간과 @Template[type:emanation|거리: 5]에 있는 각 적을 공격합니다. 피해는 행동 횟수에 따라 달라집니다. @Check[reflex|dc:18|basic|options:area-effect] 내성.area-damage] 피해</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d6+4)[bludgeoning]|options:area-damage] 피해</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(2d6+8)[bludgeoning]|options:area-damage] 피해</p>"
+          "description": "<p><span class=\"action-glyph\">1</span> ~ <span class=\"action-glyph\">3</span></p>\n<p><strong>빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 옥수수 레시는 굳어진 옥수수 속대로 자신의 공간과 @Template[type:emanation|distance: 5]에 있는 각 적을 공격합니다. 피해는 행동 횟수에 따라 달라집니다. @Check[reflex|dc:18|basic|options:area-effect] 내성.area-damage] 피해</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d6+4)[bludgeoning]|options:area-damage] 피해</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(2d6+8)[bludgeoning]|options:area-damage] 피해</p>"
         },
         "56TBiiZbleUC5RaS": {
           "name": "커널 바레",
@@ -440,7 +440,7 @@
         },
         "z6dAfzucPpphEx6T": {
           "name": "사냥꾼의 맹공격",
-          "description": "<p><strong>발동 조건</strong> 시간당 1회</p>\n<p><strong>요구 조건</strong> 몬스터 헌터는 @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{피로 상태}가 아니어야 합니다.</p><hr /><p><strong>효과</strong> 몬스터 헌터는 자신의 몬스터 적에게 공격을 이끌어냅니다. 몬스터 사냥꾼은 자신이 선호하는 사냥감으로 적합한, 자신이 볼 수 있는 적을 선택합니다. 몬스터 사냥꾼은 그 생물에게 @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{매료됨} 상태가 되고, 맹공격이 지속되는 동안 10의 임시 체력을 얻습니다. 공격이 진행되는 동안 사냥꾼은 지정된 적에 대한 피해 굴림에 +8의 상태 보너스를 얻고, 사냥꾼을 중심으로 30피트 반경의 아우라에 있는 아군들은 그 보너스의 절반을 얻습니다. 공격은 1분 동안 지속되거나 몬스터 사냥꾼이나 지정된 생물이 @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 잃음} 상태가 될 때까지 지속됩니다."
+          "description": "<p><strong>발동 조건</strong> 시간당 1회</p>\n<p><strong>요구 조건</strong> 몬스터 헌터는 @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{피곤}가 아니어야 합니다.</p><hr /><p><strong>효과</strong> 몬스터 헌터는 자신의 몬스터 적에게 공격을 이끌어냅니다. 몬스터 사냥꾼은 자신이 선호하는 사냥감으로 적합한, 자신이 볼 수 있는 적을 선택합니다. 몬스터 사냥꾼은 그 생물에게 @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{매료됨} 상태가 되고, 맹공격이 지속되는 동안 10의 임시 체력을 얻습니다. 공격이 진행되는 동안 사냥꾼은 지정된 적에 대한 피해 굴림에 +8의 상태 보너스를 얻고, 사냥꾼을 중심으로 30피트 반경의 아우라에 있는 아군들은 그 보너스의 절반을 얻습니다. 공격은 1분 동안 지속되거나 몬스터 사냥꾼이나 지정된 생물이 @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 잃음} 상태가 될 때까지 지속됩니다."
         },
         "rMyFoyfbCFtTsk1T": {
           "name": "원시적 공포",
@@ -701,7 +701,7 @@
         },
         "7plqqmq49cE7a6PQ": {
           "name": "그들을 붙잡아라!",
-          "description": "<p><span class=\"action-glyph\">A</span> to <span class=\"action-glyph\">3</span></p>\n<p>체포자들은 몽둥이로 적을 공격하고 태클을 합니다. @Template[type:emanation|distance:5] 내에 있는 모든 적들은 @Check[reflex|dc:23|basic] 내성을 시도해야 합니다. 피해와 추가 효과는 행동 횟수에 따라 달라집니다. 다음 조건 중 하나를 @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} DC는 26입니다. 피해 (대실패 시 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{잡힘} 추가)</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(3d6+6)[bludgeoning]] 피해 (실패 시 1 라운드 동안 잡힌 상태, 대실패 시 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{제압} 상태)</p>\n<p><span class=\"action-glyph\">3</span> @피해[(4d6+9)[타격]] 피해 (실패 시 1 라운드 동안 잡힌 상태, 대실패 시 1 라운드 동안 제압된 상태)</p>"
+          "description": "<p><span class=\"action-glyph\">A</span> to <span class=\"action-glyph\">3</span></p>\n<p>체포자들은 몽둥이로 적을 공격하고 태클을 합니다. @Template[type:emanation|distance:5] 내에 있는 모든 적들은 @Check[reflex|dc:23|basic] 내성을 시도해야 합니다. 피해와 추가 효과는 행동 횟수에 따라 달라집니다. 다음 조건 중 하나를 @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} DC는 26입니다. 피해 (대실패 시 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{잡힘} 추가)</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(3d6+6)[bludgeoning]] 피해 (실패 시 1 라운드 동안 잡힌 상태, 대실패 시 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{제압} 상태)</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(4d6+9)[bludgeoning]] 피해 (실패 시 1 라운드 동안 잡힌 상태, 대실패 시 1 라운드 동안 제압된 상태)</p>"
         },
         "0UCymBNVsiBKsKbM": {
           "name": "지역 청소",
@@ -727,7 +727,7 @@
       "items": {
         "PXsNHwsu7FSaoXTp": {
           "name": "뼈 갑옷",
-          "description": "<p><strong>트리거</strong> 뼈를 뜯어먹는 자에게 타격 피해가 발생합니다. 인접한 모든 생물들은 @Damage[2d4[피어싱]|옵션:지역 피해]의 피해를 받습니다 (@Check[반사|dc:16|기본|옵션:지역 효과] 내성).</p>"
+          "description": "<p><strong>트리거</strong> 뼈를 뜯어먹는 자에게 타격 피해가 발생합니다. 인접한 모든 생물들은 @Damage[2d4[piercing]|옵션:지역 피해]의 피해를 받습니다 (@Check[reflex|dc:16|기본|옵션:지역 효과] 내성).</p>"
         },
         "OtnUBBBUXOYTXoxi": {
           "name": "거친 여행",
@@ -1286,7 +1286,7 @@
         },
         "C0kPBmJmXuQOu7wN": {
           "name": "태엽 병사",
-          "description": "<p>장난감 제작자는 15피트 직선으로 달리는 바람개비 병사를 풀어 놓습니다. 병사가 생물 옆으로 이동하거나 생물이 병사 옆으로 이동할 때마다, 병사가 칼을 마구 휘두르며 @Damage[2d8[베기]]의 피해를 입으며, @Check[reflex|dc:20|basic] 내성을 통과해야 합니다. 생물은 한 라운드에 한 번만 바람개비 병사로부터 피해를 입을 수 있습니다. 장난감 제작자의 턴이 시작될 때마다, 병사는 같은 경로를 따라 15피트 더 스트라이드합니다. 병사는 세 번 이동한 후 무너집니다."
+          "description": "<p>장난감 제작자는 15피트 직선으로 달리는 바람개비 병사를 풀어 놓습니다. 병사가 생물 옆으로 이동하거나 생물이 병사 옆으로 이동할 때마다, 병사가 칼을 마구 휘두르며 @Damage[2d8[slashing]]의 피해를 입으며, @Check[reflex|dc:20|basic] 내성을 통과해야 합니다. 생물은 한 라운드에 한 번만 바람개비 병사로부터 피해를 입을 수 있습니다. 장난감 제작자의 턴이 시작될 때마다, 병사는 같은 경로를 따라 15피트 더 스트라이드합니다. 병사는 세 번 이동한 후 무너집니다."
         }
       }
     },
@@ -1715,7 +1715,7 @@
       "items": {
         "cjVbggOxvEzXmIQm": {
           "name": "피톤 핀",
-          "description": "<p><strong>요건</strong> 광부가 망치를 들고 있어야 합니다. </p><hr /><p><strong>효과</strong> 광부는 상호 작용을 통해 피톤을 꺼낸 다음, 피톤을 생물에게 망치로 박아 그 생물을 제자리에 고정시키고, 대상의 반사 DC에 대해 @Check[운동|대상:반사] 체크를 시도합니다. 타격에 성공하면, 대상은 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} 상태가 되어, 상호 작용 행동으로 @Check[athletics|dc:10] 체크에 성공하여 피톤을 제거할 때까지 움직일 수 없게 됩니다."
+          "description": "<p><strong>요건</strong> 광부가 망치를 들고 있어야 합니다. </p><hr /><p><strong>효과</strong> 광부는 상호 작용을 통해 피톤을 꺼낸 다음, 피톤을 생물에게 망치로 박아 그 생물을 제자리에 고정시키고, 대상의 반사 DC에 대해 @Check[athletics|대상:반사] 체크를 시도합니다. 타격에 성공하면, 대상은 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} 상태가 되어, 상호 작용 행동으로 @Check[athletics|dc:10] 체크에 성공하여 피톤을 제거할 때까지 움직일 수 없게 됩니다."
         }
       }
     },
@@ -1770,8 +1770,8 @@
       }
     },
     "Hobgoblin Battalion": {
-      "name": "호브고블린 대대",
-      "description": "<p>호브고블린 대대는 일반적으로 단일 대장에 의해 지휘되는 다수의 병사와 궁수로 구성되지만, 각 대대는 전투 중 현재 대장이 전사할 경우 지휘 체계를 명확히 정의하는 내부 계층 구조를 갖추고 있습니다.</p><hr /><p>호브고블린은 골라리온 전역에서 전쟁의 예술에 대한 무적의 전문성으로 존경받고 있습니다. 호브고블린 국가 오프라크의 최근 건국과 이웃 국가 니달과 니르마타스와 체결한 비공격 협정을 포함한 전례 없는 외교적 행보는 영원한 평화가 마침내 수립될 수 있다는 희망을 주었지만, 여전히 소속되지 않은 호브고블린 약탈자와 약탈단이 부족하지 않습니다.</p>",
+      "name": "홉고블린 대대",
+      "description": "<p>홉고블린 대대는 일반적으로 단일 대장에 의해 지휘되는 다수의 병사와 궁수로 구성되지만, 각 대대는 전투 중 현재 대장이 전사할 경우 지휘 체계를 명확히 정의하는 내부 계층 구조를 갖추고 있습니다.</p><hr /><p>홉고블린은 골라리온 전역에서 전쟁의 예술에 대한 무적의 전문성으로 존경받고 있습니다. 홉고블린 국가 오프라크의 최근 건국과 이웃 국가 니달과 니르마타스와 체결한 비공격 협정을 포함한 전례 없는 외교적 행보는 영원한 평화가 마침내 수립될 수 있다는 희망을 주었지만, 여전히 소속되지 않은 홉고블린 약탈자와 약탈단이 부족하지 않습니다.</p>",
       "hpdetails": "임계치 60 (3 세그먼트), 30 (2 세그먼트)",
       "items": {
         "EzfatqZSnczonYGD": {
@@ -1788,11 +1788,11 @@
         },
         "A3iRCw1rjvafnZxN": {
           "name": "협동 공격",
-          "description": "<p><span class=\"action-glyph\">1</span> ~ <span class=\"action-glyph\">3</span></p>\n<p><strong>사용 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 부대는 @Template[type:emanation|distance:5] 범위 내의 모든 적에게 창을 찔러 @Check[reflex|dc:21|기본|옵션:영역 효과] 내성. 피해는 행동 횟수에 따라 달라집니다.area-damage] 피해</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d6+5)[베기]|options:area-damage] 피해</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(3d12+7)[베기]|options:area-damage] 피해</p>"
+          "description": "<p><span class=\"action-glyph\">1</span> ~ <span class=\"action-glyph\">3</span></p>\n<p><strong>사용 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 부대는 @Template[type:emanation|distance:5] 범위 내의 모든 적에게 창을 찔러 @Check[reflex|dc:21|기본|옵션:영역 효과] 내성. 피해는 행동 횟수에 따라 달라집니다.area-damage] 피해</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d6+5)[slashing]|options:area-damage] 피해</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(3d12+7)[slashing]|options:area-damage] 피해</p>"
         },
         "cEC3FjTPb84L7Any": {
           "name": "포커스 발사",
-          "description": "<p>호브고블린 대대의 궁수들은 석궁을 당기거나 재장전 한 다음, 일제 사격을 하는 형태로 원거리 공격을 합니다. 이 일제 사격은 120피트 이내의 @Template[type:burst|distance:10] 범위 내에서 @Damage[2d8[piercing]|options:area-damage]의 피해를 입히고, @Check[reflex|dc:21|basic|options:area-effect] 내성을 적용합니다. 호브고블린 대대가 2개 이하로 줄어들면, 이 영역은 @Template[type:burst|distance:5]로 줄어듭니다. </p>"
+          "description": "<p>홉고블린 대대의 궁수들은 석궁을 당기거나 재장전 한 다음, 일제 사격을 하는 형태로 원거리 공격을 합니다. 이 일제 사격은 120피트 이내의 @Template[type:burst|distance:10] 범위 내에서 @Damage[2d8[piercing]|options:area-damage]의 피해를 입히고, @Check[reflex|dc:21|basic|options:area-effect] 내성을 적용합니다. 홉고블린 대대가 2개 이하로 줄어들면, 이 영역은 @Template[type:burst|distance:5]로 줄어듭니다. </p>"
         },
         "Tffn3VziTZohT4pV": {
           "name": "완벽한 대형",
@@ -1811,7 +1811,7 @@
         },
         "zMkrKhyfRWFrFfuv": {
           "name": "광적인 분노",
-          "description": "<p><strong>요건</strong> 컬티스트는 피해를 입었고, @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{피로} 상태가 아니며, 이미 광란 상태에 있지 않습니다. 광란 상태에 있는 동안 컬티스트는 공격 굴림에 +1의 상태 보너스를 받고, 피해 굴림에 +2의 상태 보너스를 받으며, AC에 -2의 페널티를 받습니다. 컬티스트는 자발적으로 광란을 멈출 수 없습니다. 광란이 끝나면 컬티스트는 피로 상태가 됩니다."
+          "description": "<p><strong>요건</strong> 컬티스트는 피해를 입었고, @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{피곤} 상태가 아니며, 이미 광란 상태에 있지 않습니다. 광란 상태에 있는 동안 컬티스트는 공격 굴림에 +1의 상태 보너스를 받고, 피해 굴림에 +2의 상태 보너스를 받으며, AC에 -2의 페널티를 받습니다. 컬티스트는 자발적으로 광란을 멈출 수 없습니다. 광란이 끝나면 컬티스트는 피로 상태가 됩니다."
         }
       }
     },
@@ -2014,7 +2014,7 @@
         },
         "jonX9f4s8mMLfL5C": {
           "name": "날카로운 가지의 숲",
-          "description": "<p><span class=\"\"action-glyph“”>1</span> ~ <span class=\"\"action-glyph“”>3</span></p><p><strong>사용 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 정찰병들은 @Template[type:emanation|distance:5] 범위 내의 각 적을 대상으로 @Check[reflex|dc:24|basic|options:area-effect] 내성 체크를 통해 조정된 근접 공격을 가합니다. 피해는 행동 횟수에 따라 달라집니다.<p><span class=\"\"action-glyph“”>1</span> @Damage[(1d8+3)[베기]|options:area-damage] 피해</p><p><span class=\"\"action-glyph“”>2</span> @Damage[(2d8+6)[베기]|options:area-damage] 피해</p><p><span class=\"\"action-glyph“”>3</span> @Damage[(3d8+9)[베기]|옵션:area-damage] 피해</p>"
+          "description": "<p><span class=\"\"action-glyph“”>1</span> ~ <span class=\"\"action-glyph“”>3</span></p><p><strong>사용 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 정찰병들은 @Template[type:emanation|distance:5] 범위 내의 각 적을 대상으로 @Check[reflex|dc:24|basic|options:area-effect] 내성 체크를 통해 조정된 근접 공격을 가합니다. 피해는 행동 횟수에 따라 달라집니다.<p><span class=\"\"action-glyph“”>1</span> @Damage[(1d8+3)[slashing]|options:area-damage] 피해</p><p><span class=\"\"action-glyph“”>2</span> @Damage[(2d8+6)[slashing]|options:area-damage] 피해</p><p><span class=\"\"action-glyph“”>3</span> @Damage[(3d8+9)[slashing]|옵션:area-damage] 피해</p>"
         }
       }
     },
@@ -2037,7 +2037,7 @@
         },
         "TQUoJLbYF9uz3bG8": {
           "name": "전투에 참여",
-          "description": "<p><span class=\"\"action-glyph“”>1</span> ~ <span class=\"\"action-glyph“”>3</span></p><p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 중기병은 @Template[type:emanation|distance:5] 범위 내의 모든 적을 @Check[reflex|dc:22|basic|options:area-effect] 내성 체크를 통해 공격합니다. 피해는 행동 횟수에 따라 달라집니다.<p><span class=\"\"action-glyph“”>1</span> @Damage[(1d6+3)[bludgeoning]|options:area-damage] 피해</p><p><span class=\"\"action-glyph“”>2</span> @Damage[(2d6+7)[bludgeoning]|options:area-damage] 피해</p><p><span class=\"\"action-glyph“”>3</span> @피해[(3d6+10)[타격]|옵션:영역 피해] 피해</p>"
+          "description": "<p><span class=\"\"action-glyph“”>1</span> ~ <span class=\"\"action-glyph“”>3</span></p><p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 중기병은 @Template[type:emanation|distance:5] 범위 내의 모든 적을 @Check[reflex|dc:22|basic|options:area-effect] 내성 체크를 통해 공격합니다. 피해는 행동 횟수에 따라 달라집니다.<p><span class=\"\"action-glyph“”>1</span> @Damage[(1d6+3)[bludgeoning]|options:area-damage] 피해</p><p><span class=\"\"action-glyph“”>2</span> @Damage[(2d6+7)[bludgeoning]|options:area-damage] 피해</p><p><span class=\"\"action-glyph“”>3</span> @Damage[(3d6+10)[bludgeoning]|옵션:영역 피해] 피해</p>"
         },
         "9ttQcVwRTUR44b34": {
           "name": "발굽의 천둥",
@@ -2160,11 +2160,11 @@
         },
         "MeBdzrbLiBNsKGFP": {
           "name": "패치 및 설정",
-          "description": "<p><strong>사용 빈도</strong> 하루에 한 번</p>\n<p><strong>요건</strong> 전쟁광이 손이 하나 자유롭다</p><hr /><p><strong>효과</strong> 전쟁광은 이를 악물고 상처를 묶거나 뼈나 관절을 고정합니다. @Damage[20[치유]] 체력을 회복합니다."
+          "description": "<p><strong>사용 빈도</strong> 하루에 한 번</p>\n<p><strong>요건</strong> 전쟁광이 손이 하나 자유롭다</p><hr /><p><strong>효과</strong> 전쟁광은 이를 악물고 상처를 묶거나 뼈나 관절을 고정합니다. @Damage[20[healing]] 체력을 회복합니다."
         },
         "IdqR8gAWKJ0Jevp4": {
           "name": "힘으로 돌파",
-          "description": "<p><strong>요건</strong> 전쟁광은 두 개의 근접 무기를 휘두르고 있으며 @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{피로} 상태가 아닙니다. 이 공격은 전쟁광의 다중 공격 페널티에 정상적으로 계산되지만, 모든 공격이 끝날 때까지 페널티는 증가하지 않습니다. 전쟁광은 공격으로 과도한 힘을 소모하여 피로해집니다. 전쟁광은 각 턴의 시작에 @Check[fortitude|dc:30] 내성 체크를 시도하여 피로 상태에서 회복할 수 있습니다."
+          "description": "<p><strong>요건</strong> 전쟁광은 두 개의 근접 무기를 휘두르고 있으며 @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{피곤} 상태가 아닙니다. 이 공격은 전쟁광의 다중 공격 페널티에 정상적으로 계산되지만, 모든 공격이 끝날 때까지 페널티는 증가하지 않습니다. 전쟁광은 공격으로 과도한 힘을 소모하여 피로해집니다. 전쟁광은 각 턴의 시작에 @Check[fortitude|dc:30] 내성 체크를 시도하여 피로 상태에서 회복할 수 있습니다."
         },
         "KNrYEY4UP6EdYPBy": {
           "name": "시야의 먹이",
@@ -2194,7 +2194,7 @@
           "description": "<p><strong>요건</strong> 숙련된 사냥개는 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} 생물체에 인접해 있습니다. 경험 많은 사냥개는 그 후 대상에서 물러날 수 있습니다. 대상이 사냥개에 의해 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{잡힌} 상태인 경우, 사냥개의 이전 칸으로 이동하고 잡힌 상태가 유지됩니다."
         },
         "CWn0KxMKc5751aPX": {
-          "name": "넉다운",
+          "name": "넘어뜨리기",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Knockdown]</p>"
         }
       }
@@ -2275,7 +2275,7 @@
         },
         "Yd7AfIigOJ1wFY1W": {
           "name": "공허의 덩굴",
-          "description": "<p>30 피트.</p>\n<p>오라에 있는 생물이 생명력 효과로 치유될 때, 치유량이 15 감소하고 신성한 그릇은 @Damage[15[치유]] 체력을 회복합니다."
+          "description": "<p>30 피트.</p>\n<p>오라에 있는 생물이 생명력 효과로 치유될 때, 치유량이 15 감소하고 신성한 그릇은 @Damage[15[healing]] 체력을 회복합니다."
         },
         "6ZsxIxGeLF5aLgdy": {
           "name": "시간을 빌리다",
@@ -2298,7 +2298,7 @@
         },
         "1XmYQ3VFWPVdhgLd": {
           "name": "낚시 바늘에 걸린",
-          "description": "<p>어부의 낚싯줄 공격으로 지속적인 출혈 피해를 입은 동안, 생물에는 낚시 바늘이 박혀 있습니다. 생물은 어부로부터 더 멀리 이동할 수 없습니다 (하지만 옆으로 이동은 가능합니다). 어부는 공격과 조작 특성을 사용하여 단일 행동으로 생물을 끌어당길 수 있으며, 생물의 체력 DC에 대해 @Check[운동|대항:체력] 체크를 시도할 수 있습니다. 성공하면, 생물은 @Damage[2d4[베기]]의 피해를 받고 어부에게 10피트 더 가까이 끌려갑니다 (대성공의 경우 피해와 거리가 두 배가 됩니다).</p>"
+          "description": "<p>어부의 낚싯줄 공격으로 지속적인 출혈 피해를 입은 동안, 생물에는 낚시 바늘이 박혀 있습니다. 생물은 어부로부터 더 멀리 이동할 수 없습니다 (하지만 옆으로 이동은 가능합니다). 어부는 공격과 조작 특성을 사용하여 단일 행동으로 생물을 끌어당길 수 있으며, 생물의 체력 DC에 대해 @Check[athletics|대항:체력] 체크를 시도할 수 있습니다. 성공하면, 생물은 @Damage[2d4[slashing]]의 피해를 받고 어부에게 10피트 더 가까이 끌려갑니다 (대성공의 경우 피해와 거리가 두 배가 됩니다).</p>"
         }
       }
     },
@@ -2382,7 +2382,7 @@
         },
         "PUbu5ZJgSB92fU23": {
           "name": "헤드 샷",
-          "description": "<p>럭키 쿠르서는 [[/act create-a-diversion]]{Diversion을 생성한 다음 공격을 합니다. 공격이 성공하면 대상은 행운의 질주자의 다음 턴이 끝날 때까지 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{눈이 멀게} 됩니다(크리티컬 히트인 경우 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{눈이 멀게} 됩니다).</p>"
+          "description": "<p>럭키 쿠르서는 [[/act create-a-diversion]]{Diversion을 생성한 다음 공격을 합니다. 공격이 성공하면 대상은 행운의 질주자의 다음 턴이 끝날 때까지 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{눈이 멀게} 됩니다(크리티컬 히트인 경우 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명} 상태가 됩니다).</p>"
         }
       }
     },
@@ -2430,17 +2430,17 @@
       }
     },
     "Hobgoblin Spellbreaker": {
-      "name": "호브고블린 스펠브레이커",
-      "description": "<p>엘프에 대한 선조의 원한으로 인해 많은 호브고블린은 마법에 대한 본능적인 불신을 가지고 있으며, 특히 아케인 전통의 “엘프 마법”에 대해 더욱 그렇습니다. 대부분의 호브고블린 군대는 군사적 충돌 전에 고가치 마법사 목표를 암살하거나 적의 전투 마법사를 신속히 식별하고 제거하기 위해 훈련된 특수 ‘스펠브레이커’ 부대를 유지합니다.</p><hr /><p>호브고블린은 골라리온 전역에서 전쟁의 예술에 대한 무적의 전문성으로 존경받고 있습니다. 최근 호브고블린 국가인 오프라크가 건국되고, 이웃 국가인 니달과 니르마타스와 비침략 조약을 맺는 등 전례 없는 외교적 행보를 보임에 따라, 마침내 지속적인 평화가 구축될 것이라는 희망이 생겼습니다. 하지만, 소속이 없는 호브고블린의 습격자와 약탈자들은 여전히 많습니다.",
+      "name": "홉고블린 스펠브레이커",
+      "description": "<p>엘프에 대한 선조의 원한으로 인해 많은 홉고블린은 마법에 대한 본능적인 불신을 가지고 있으며, 특히 아케인 전통의 “엘프 마법”에 대해 더욱 그렇습니다. 대부분의 홉고블린 군대는 군사적 충돌 전에 고가치 마법사 목표를 암살하거나 적의 전투 마법사를 신속히 식별하고 제거하기 위해 훈련된 특수 ‘스펠브레이커’ 부대를 유지합니다.</p><hr /><p>홉고블린은 골라리온 전역에서 전쟁의 예술에 대한 무적의 전문성으로 존경받고 있습니다. 최근 홉고블린 국가인 오프라크가 건국되고, 이웃 국가인 니달과 니르마타스와 비침략 조약을 맺는 등 전례 없는 외교적 행보를 보임에 따라, 마침내 지속적인 평화가 구축될 것이라는 희망이 생겼습니다. 하지만, 소속이 없는 홉고블린의 습격자와 약탈자들은 여전히 많습니다.",
       "hpdetails": "",
       "items": {
         "loLdDazPRkauXpk3": {
           "name": "비전 마법 감지",
-          "description": "<p>호브고블린 스펠브레이커는 범위 내의 모든 비전 마법의 출처를 대략적으로 감지할 수 있습니다."
+          "description": "<p>홉고블린 스펠브레이커는 범위 내의 모든 비전 마법의 출처를 대략적으로 감지할 수 있습니다."
         },
         "ri6d10aEeezcDbDg": {
           "name": "마법 파괴",
-          "description": "<p>호브고블린 스펠브레이커는 유익한 비전 마법의 효과를 받고 있는 생물에게 근접 공격을 시도합니다. 공격이 적중하고 피해를 입힌 경우, 호브고블린 주문 파괴자는 대상에 대한 단일 비전 마법 주문이나 비전 마법 효과를 무효화할 수 있습니다 (무효화 등급 2, [[/r 1d20+10 #Counteract]]{무효화 수정자 +10}). 실패하면 호브고블린 주문 파괴자는 1시간 동안 동일한 효과를 무효화할 수 없습니다."
+          "description": "<p>홉고블린 스펠브레이커는 유익한 비전 마법의 효과를 받고 있는 생물에게 근접 공격을 시도합니다. 공격이 적중하고 피해를 입힌 경우, 홉고블린 주문 파괴자는 대상에 대한 단일 비전 마법 주문이나 비전 마법 효과를 무효화할 수 있습니다 (무효화 등급 2, [[/r 1d20+10 #Counteract]]{무효화 수정자 +10}). 실패하면 홉고블린 주문 파괴자는 1시간 동안 동일한 효과를 무효화할 수 없습니다."
         },
         "w4sRIFwc8okhDdKG": {
           "name": "주문 파괴 반응 공격",
@@ -2586,13 +2586,13 @@
       }
     },
     "Hobgoblin Vanguard": {
-      "name": "호브고블린 선봉대",
-      "description": "<p>정밀함과 규율이 필요한 때도 있지만, 모든 호브고블린 장군은 압도적인 힘으로 적을 사기 저하시키는 것의 가치를 이해합니다. 이 목적에 가장 적합한 군사 부대는 전위대입니다. 무장과 방어력이 뛰어난 엘리트 부대로, 동료 병사들을 행동으로 이끌며 끔찍한 폭발 무기로 적의 진영과 사기를 무너뜨립니다.</p><hr /><p>호브고블린은 골라리온 전역에서 전쟁의 예술에서 무적의 전문성을 인정받고 있습니다. 최근 호브고블린의 국가인 오프라크가 건국되고, 이웃 국가인 니달과 니르마타스와 비침략 조약을 맺는 등 전례 없는 외교적 행보를 보임에 따라, 마침내 영원한 평화가 이루어질 것이라는 희망이 생겼습니다. 하지만, 어느 편에도 속하지 않은 호브고블린의 습격자와 약탈자들은 여전히 많습니다.",
+      "name": "홉고블린 선봉대",
+      "description": "<p>정밀함과 규율이 필요한 때도 있지만, 모든 홉고블린 장군은 압도적인 힘으로 적을 사기 저하시키는 것의 가치를 이해합니다. 이 목적에 가장 적합한 군사 부대는 전위대입니다. 무장과 방어력이 뛰어난 엘리트 부대로, 동료 병사들을 행동으로 이끌며 끔찍한 폭발 무기로 적의 진영과 사기를 무너뜨립니다.</p><hr /><p>홉고블린은 골라리온 전역에서 전쟁의 예술에서 무적의 전문성을 인정받고 있습니다. 최근 홉고블린의 국가인 오프라크가 건국되고, 이웃 국가인 니달과 니르마타스와 비침략 조약을 맺는 등 전례 없는 외교적 행보를 보임에 따라, 마침내 영원한 평화가 이루어질 것이라는 희망이 생겼습니다. 하지만, 어느 편에도 속하지 않은 홉고블린의 습격자와 약탈자들은 여전히 많습니다.",
       "hpdetails": "",
       "items": {
         "TFAhhwlmb0O93MES": {
           "name": "충격과 공포",
-          "description": "<p><strong>트리거</strong> 호브고블린 선봉대가 연금술 수류탄 공격으로 생물에게 치명타를 입힙니다. </p><hr /><p><strong>효과</strong> 호브고블린 선봉대는 그 생물을 눈으로만 [[/act 사기를 저하]] 시키려고 시도합니다. 트리거링 공격으로 대상 생물의 체력이 0이 되면, 호브고블린 선봉대는 대신 30피트 내의 모든 적을 사기 저하시키려고 시도할 수 있습니다. 한 번 굴림하고 그 결과를 각 대상의 의지 DC와 비교합니다."
+          "description": "<p><strong>트리거</strong> 홉고블린 선봉대가 연금술 수류탄 공격으로 생물에게 치명타를 입힙니다. </p><hr /><p><strong>효과</strong> 홉고블린 선봉대는 그 생물을 눈으로만 [[/act 사기를 저하]] 시키려고 시도합니다. 트리거링 공격으로 대상 생물의 체력이 0이 되면, 홉고블린 선봉대는 대신 30피트 내의 모든 적을 사기 저하시키려고 시도할 수 있습니다. 한 번 굴림하고 그 결과를 각 대상의 의지 DC와 비교합니다."
         }
       }
     },
@@ -2676,7 +2676,7 @@
           "description": "<p>저거너트는 현재 턴이 끝날 때까지 15피트의 비행 속도를 얻습니다. 저거너트가 비행 속도를 잃을 때 단단한 지면에 있지 않으면 떨어집니다. 효과가 끝난 후, 저거너트는 1 라운드 동안 점프 제트를 다시 사용할 수 없습니다."
         },
         "uzqaluUrz4rDIwR6": {
-          "name": "트램플",
+          "name": "짓밟기",
           "description": "<p>중형 이하, 갑옷으로 덮인 주먹, @Check[reflex|dc:33|basic]</p><hr /><p>@Localize[PF2E.NPC.Abilities.Glossary.Trample]</p>"
         }
       }
@@ -2767,7 +2767,7 @@
       "hpdetails": "",
       "items": {
         "YxYafEvifH6RFumX": {
-          "name": "상시 주문",
+          "name": "지속 주문",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ConstantSpells]</p>"
         },
         "fBxV4p1qSabmBC4c": {
@@ -2994,7 +2994,7 @@
         },
         "5mZHOHvumjTVWjwh": {
           "name": "로얄 플러시 플러리",
-          "description": "<p><strong>발동 조건</strong> 시간당 1회</p>\n<p><strong>요구 조건</strong> 하이 롤러가 한 손에 16장 이상의 카드를 가지고 있습니다</p><hr /><p><strong>효과</strong> 하이 롤러는 @Template[type:cone|distance:30] 범위 내의 모든 생물에게 @Check[reflex|dc:30|basic|options:area-damage] 검사를 수행합니다. @Damage[16d4[베기]|옵션:지역 피해]의 피해를 @Check[반사|dc:30|기본|옵션:지역 효과] 내성을 가진 해당 지역의 모든 생물에게 입힙니다. 이 능력은 소지한 카드의 전체 덱을 소모합니다."
+          "description": "<p><strong>발동 조건</strong> 시간당 1회</p>\n<p><strong>요구 조건</strong> 하이 롤러가 한 손에 16장 이상의 카드를 가지고 있습니다</p><hr /><p><strong>효과</strong> 하이 롤러는 @Template[type:cone|distance:30] 범위 내의 모든 생물에게 @Check[reflex|dc:30|basic|options:area-damage] 검사를 수행합니다. @Damage[16d4[slashing]|옵션:지역 피해]의 피해를 @Check[reflex|dc:30|기본|옵션:지역 효과] 내성을 가진 해당 지역의 모든 생물에게 입힙니다. 이 능력은 소지한 카드의 전체 덱을 소모합니다."
         }
       }
     },
@@ -3295,10 +3295,10 @@
         },
         "xTcDZSkp3WAdhSKI": {
           "name": "가시 폭발",
-          "description": "<p>텀블위드 레시 쿠리어가 사망하면, 원초적인 에너지가 몸에서 폭발하여 @Damage[2d8[치유, 활력]|shortLabel] 체력을 @Template[type:emanation|distance:30] 내의 모든 식물 생물에게 회복시킵니다. 이 지역은 즉시 가시덤불과 엉겅퀴로 가득 차고, 어려운 지형이 됩니다. 이 지역을 통과하는 모든 생물은 통과한 칸 수에 따라 @Damage[1[피어싱]]의 피해를 받습니다. 이 지형이 이러한 식물들이 살기 적합한 환경이 아닌 경우, 24시간 후에 시들어 죽습니다."
+          "description": "<p>텀블위드 레시 쿠리어가 사망하면, 원초적인 에너지가 몸에서 폭발하여 @Damage[2d8[healing, 활력]|shortLabel] 체력을 @Template[type:emanation|distance:30] 내의 모든 식물 생물에게 회복시킵니다. 이 지역은 즉시 가시덤불과 엉겅퀴로 가득 차고, 어려운 지형이 됩니다. 이 지역을 통과하는 모든 생물은 통과한 칸 수에 따라 @Damage[1[piercing]]의 피해를 받습니다. 이 지형이 이러한 식물들이 살기 적합한 환경이 아닌 경우, 24시간 후에 시들어 죽습니다."
         },
         "yB7IqUJb0VoQlhoB": {
-          "name": "모양 변화",
+          "name": "형태 변화",
           "description": "<p>텀블위드 레시 쿠리어는 작은 텀블위드로 변신합니다. 이 능력은 @UUID[Compendium.pf2e.spells-srd.Item.dileJ0Yxqg76LMvu]{One with Plants}의 효과를 사용합니다. 또한 레시가 형태 변경 능력을 사용할 때, 탐험 모드 중 이동을 위해 속도 10피트를 유지합니다.</p><hr /><p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
         }
       }
@@ -3333,7 +3333,7 @@
         },
         "oWhjvWrXmDrkBEbU": {
           "name": "강력한 주먹",
-          "description": "<p>검은 벨트의 주먹 공격은 치명적인 공격을 할 때 페널티를 받지 않으며, 주먹 공격은 차가운 철과 은으로 취급됩니다."
+          "description": "<p>검은 벨트의 주먹 공격은 치명적인 공격을 할 때 페널티를 받지 않으며, 주먹 공격은 냉철과 은으로 취급됩니다."
         },
         "Y5AtO9GHxIR4ZMYe": {
           "name": "빠른 연타",
@@ -3531,7 +3531,7 @@
         },
         "oIXWkbczFkJ8KZlj": {
           "name": "돈 마스크",
-          "description": "<p><strong>빈도</strong> 10분마다 한 번</p><hr /><p><strong>효과</strong> 무용수는 의식용 두개골 마스크를 착용하고 조상의 영혼을 불러 도움을 요청합니다. 영혼은 무용수가 돈 마스크 활동의 일부로 사용할 수 있는 원시적 선천적 주문(5등급, DC 27)을 통해 응답합니다. 마스크를 쓴 자는 1분 동안 지속되는 원시적 축복을 얻습니다. 1분이 지나거나 마스크가 제거되면, 주술과 축복은 여전히 활성화되어 있더라도 종료되며, 마스크를 쓴 자는 @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{피로한} 상태가 됩니다. 마스크가 소환할 수 있는 가장 일반적인 전설적인 영혼은 다음과 같습니다:</p><ul><li><p><strong>불타는 아카로크</strong> (티라노사우루스 마스크)</p><ul><li><strong>주문</strong> @UUID[Compendium.pf2e.spells-srd.Item.ZxHC7V7HtjUsB8zH]{불타는 화살} (3 액션 버전)</li><li><strong>Boon</strong> 마머의 근접 공격은 추가 2d6의 화염 피해를 입힙니다.</li></ul></li><li><p><strong>하지 제피르-본</strong> (그리폰 또는 이루시 마스크)</p><ul><li><strong>주문</strong> @UUID[Compendium.pf2e.spells-srd.Item.it4ZsAi6XgvGcodc]{바람의 벽}</li><li><strong>보너스</strong> 무머는 20피트의 비행 속도를 얻습니다.</li></ul></li><li><p><strong>폭풍의 왕</strong> (록 또는 뿔 달린 용 마스크)</p><ul><li><strong>주문</strong> @UUID[Compendium.pf2e.spells-srd.Item.xxWhyl81w3ckslAU]{울부짖는 폭풍}</li><li><strong>부온> 마머는 꼬리만으로 사용할 수 있는 @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.W7SbTykXrNwxDzJc]{반응 공격} 반응을 얻습니다.</li></ul></li><li><p><strong>네세크, 파도 춤꾼</strong> (모사사우루스 마스크)</p><ul><li><strong>주문</strong> @UUID[Compendium.pf2e.spells-srd.Item.xFp4EwVcYwSG336t]{슬라이더}</li><li><strong>부운</strong> 마머의 발톱 공격은 2d4의 추가적인 지속 출혈 피해를 입힙니다.</li></ul></li><li><p><strong>블랙 하버로 부름받은 자, 자록</strong> (나가 또는 스피노사우루스 마스크)</p><ul><li><strong>주문</strong> @UUID[Compendium.pf2e.spells-srd.Item.Y3G6Y6EDgCY0s3fq]{수압 폭류}</li><li><strong>보너스</strong> 무머는 육상 속도와 수영 속도에 +10 피트의 상태 보너스를 얻습니다. </li></ul></li></ul>"
+          "description": "<p><strong>빈도</strong> 10분마다 한 번</p><hr /><p><strong>효과</strong> 무용수는 의식용 두개골 마스크를 착용하고 조상의 영혼을 불러 도움을 요청합니다. 영혼은 무용수가 돈 마스크 활동의 일부로 사용할 수 있는 원시적 선천적 주문(5등급, DC 27)을 통해 응답합니다. 마스크를 쓴 자는 1분 동안 지속되는 원시적 축복을 얻습니다. 1분이 지나거나 마스크가 제거되면, 주술과 축복은 여전히 활성화되어 있더라도 종료되며, 마스크를 쓴 자는 @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{피곤} 상태가 됩니다. 마스크가 소환할 수 있는 가장 일반적인 전설적인 영혼은 다음과 같습니다:</p><ul><li><p><strong>불타는 아카로크</strong> (티라노사우루스 마스크)</p><ul><li><strong>주문</strong> @UUID[Compendium.pf2e.spells-srd.Item.ZxHC7V7HtjUsB8zH]{불타는 화살} (3 액션 버전)</li><li><strong>Boon</strong> 마머의 근접 공격은 추가 2d6의 화염 피해를 입힙니다.</li></ul></li><li><p><strong>하지 제피르-본</strong> (그리폰 또는 이루시 마스크)</p><ul><li><strong>주문</strong> @UUID[Compendium.pf2e.spells-srd.Item.it4ZsAi6XgvGcodc]{바람의 벽}</li><li><strong>보너스</strong> 무머는 20피트의 비행 속도를 얻습니다.</li></ul></li><li><p><strong>폭풍의 왕</strong> (록 또는 뿔 달린 용 마스크)</p><ul><li><strong>주문</strong> @UUID[Compendium.pf2e.spells-srd.Item.xxWhyl81w3ckslAU]{울부짖는 폭풍}</li><li><strong>부온> 마머는 꼬리만으로 사용할 수 있는 @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.W7SbTykXrNwxDzJc]{반응 공격} 반응을 얻습니다.</li></ul></li><li><p><strong>네세크, 파도 춤꾼</strong> (모사사우루스 마스크)</p><ul><li><strong>주문</strong> @UUID[Compendium.pf2e.spells-srd.Item.xFp4EwVcYwSG336t]{슬라이더}</li><li><strong>부운</strong> 마머의 발톱 공격은 2d4의 추가적인 지속 출혈 피해를 입힙니다.</li></ul></li><li><p><strong>블랙 하버로 부름받은 자, 자록</strong> (나가 또는 스피노사우루스 마스크)</p><ul><li><strong>주문</strong> @UUID[Compendium.pf2e.spells-srd.Item.Y3G6Y6EDgCY0s3fq]{수압 폭류}</li><li><strong>보너스</strong> 무머는 육상 속도와 수영 속도에 +10 피트의 상태 보너스를 얻습니다. </li></ul></li></ul>"
         },
         "yejcLHz02aGTNOKx": {
           "name": "별이 빛나는 존재",
@@ -3802,7 +3802,7 @@
         },
         "expbuuRqjktRYCHs": {
           "name": "분노의 폭언",
-          "description": "<p><strong>빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 셰프는 30피트 이내의 동맹이나 적에게 욕설과 비판을 쏟아내며 다음과 같은 효과를 유발합니다:</p>\n<p><strong>동맹</strong> 셰프의 조수는 비판의 폭격에 흔들리지만 더 빠르고 열심히 일하기로 결심합니다. 대상은 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} 상태가 되지만, 동시에 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1} 상태가 됩니다. 추가 행동을 사용하여 상호 작용, 스텝, 스트라이드, 또는 음식 준비, 요리, 서빙 등의 행동이나 활동의 일부로 사용할 수 있습니다. 피해를 받고 겁에 질린 상태가 됩니다 (또는 @Damage[2d6[정신]] 피해와 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2} 대실패 시).</p>"
+          "description": "<p><strong>빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 셰프는 30피트 이내의 동맹이나 적에게 욕설과 비판을 쏟아내며 다음과 같은 효과를 유발합니다:</p>\n<p><strong>동맹</strong> 셰프의 조수는 비판의 폭격에 흔들리지만 더 빠르고 열심히 일하기로 결심합니다. 대상은 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} 상태가 되지만, 동시에 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1} 상태가 됩니다. 추가 행동을 사용하여 상호 작용, 스텝, 스트라이드, 또는 음식 준비, 요리, 서빙 등의 행동이나 활동의 일부로 사용할 수 있습니다. 피해를 받고 겁에 질린 상태가 됩니다 (또는 @Damage[2d6[mental]] 피해와 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2} 대실패 시).</p>"
         },
         "GGYH8NGCqXyBBMY0": {
           "name": "향신료 혼합물",
@@ -3970,7 +3970,7 @@
         },
         "4oPCy2fCIKMYlypf": {
           "name": "신성한 광기",
-          "description": "<p><strong>요구 조건</strong> 시빌은 @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{피로 상태}가 아니며 광란 상태에 있지 않습니다</p><hr /><p><strong>효과</strong> 시빌은 1분 동안 신성한 광란 상태에 들어갑니다. 시빌은 자발적으로 광란을 멈출 수 없습니다. 신성한 광란 상태에 있는 동안, 시빌은 지각 체크와 의지 내성에 -2의 페널티를 받고, 주문 DC와 주문 공격 수정자에 +2의 상태 보너스를 받습니다. 신성한 광란 상태에 있는 동안, 시빌은 주문을 시전하거나 탐색을 하는 경우가 아니면 집중 특성을 가진 행동을 사용할 수 없습니다. 광기는 1분 동안 지속되며, 시빌이 @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 상실} 상태가 되거나 전투가 종료될 때까지 지속됩니다. 시빌은 자발적으로 광기를 끝낼 수 없습니다.</p>"
+          "description": "<p><strong>요구 조건</strong> 시빌은 @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{피곤}가 아니며 광란 상태에 있지 않습니다</p><hr /><p><strong>효과</strong> 시빌은 1분 동안 신성한 광란 상태에 들어갑니다. 시빌은 자발적으로 광란을 멈출 수 없습니다. 신성한 광란 상태에 있는 동안, 시빌은 지각 체크와 의지 내성에 -2의 페널티를 받고, 주문 DC와 주문 공격 수정자에 +2의 상태 보너스를 받습니다. 신성한 광란 상태에 있는 동안, 시빌은 주문을 시전하거나 탐색을 하는 경우가 아니면 집중 특성을 가진 행동을 사용할 수 없습니다. 광기는 1분 동안 지속되며, 시빌이 @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 상실} 상태가 되거나 전투가 종료될 때까지 지속됩니다. 시빌은 자발적으로 광기를 끝낼 수 없습니다.</p>"
         }
       }
     },
@@ -4027,7 +4027,7 @@
         },
         "xS8f6u8VDcBepVGM": {
           "name": "악마 소환",
-          "description": "<p>악마학자는 5등급 @UUID[Compendium.pf2e.spells-srd.Item.29ytKctjg7qSW2ff]{Summon Fiend} 마법 주문을 사용하여 악마를 소환할 수 있습니다. 이를 위해, 그들은 4등급의 준비된 주문 2개를 희생하고, 감소나 방지가 불가능한 @Damage[4d12[정신]]의 피해를 자발적으로 받아야 합니다. 악마학자가 주문을 유지할 수 없는 경우(기절하거나 사망한 경우 포함), 주문은 계속 진행되지만, GM은 매 라운드마다 @Check[flat|dc:10]을 굴림, 실패하면 주문이 종료됩니다."
+          "description": "<p>악마학자는 5등급 @UUID[Compendium.pf2e.spells-srd.Item.29ytKctjg7qSW2ff]{Summon Fiend} 마법 주문을 사용하여 악마를 소환할 수 있습니다. 이를 위해, 그들은 4등급의 준비된 주문 2개를 희생하고, 감소나 방지가 불가능한 @Damage[4d12[mental]]의 피해를 자발적으로 받아야 합니다. 악마학자가 주문을 유지할 수 없는 경우(기절하거나 사망한 경우 포함), 주문은 계속 진행되지만, GM은 매 라운드마다 @Check[flat|dc:10]을 굴림, 실패하면 주문이 종료됩니다."
         }
       }
     },
@@ -4134,7 +4134,7 @@
         },
         "dT41anVs1Byhwbok": {
           "name": "강철의 충돌",
-          "description": "<p><span class=\"action-glyph\">1</span> ~ <span class=\"action-glyph\">3</span></p><hr /><p><strong>빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 선 보병은 @Template[type:emanation|distance:5] 내에 있는 각 적에게 @Check[reflex|dc:21|basic|options:area-effect] 세이브를 사용합니다. @Check[reflex|dc:21|basic|options:area-effect] 내성 체크를 합니다. 피해는 행동 횟수에 따라 달라집니다.area-damage] 피해</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d6+7)[베기]|options:area-damage] 피해</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(3d6+10)[베기]|options:area-damage] 피해</p>"
+          "description": "<p><span class=\"action-glyph\">1</span> ~ <span class=\"action-glyph\">3</span></p><hr /><p><strong>빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 선 보병은 @Template[type:emanation|distance:5] 내에 있는 각 적에게 @Check[reflex|dc:21|basic|options:area-effect] 세이브를 사용합니다. @Check[reflex|dc:21|basic|options:area-effect] 내성 체크를 합니다. 피해는 행동 횟수에 따라 달라집니다.area-damage] 피해</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d6+7)[slashing]|options:area-damage] 피해</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(3d6+10)[slashing]|options:area-damage] 피해</p>"
         },
         "hX2JzZ4j0RfmZTNb": {
           "name": "형성된 부대",
@@ -4188,7 +4188,7 @@
         },
         "BCsGqHil1Dziu3FX": {
           "name": "하급 할버드!",
-          "description": "<p><span class=\"action-glyph\">1</span> ~ <span class=\"action-glyph\">3</span></p>\n<p><strong>사용 빈도</strong> 라운드당 1회.</p>\n<hr />\n<p><strong>효과</strong> 시 경비병들은 @Template[emanation|distance:10]{10 피트} 이내의 모든 적에 대해 @Check[reflex|dc:19|basic] 내성을 가진 조정된 근접 공격을 합니다. 피해는 행동 횟수에 따라 달라집니다. 피해 또는 @Damage[(1d10+7)[베기]] 피해</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(1d10+10)[피어싱]] 피해 또는 @Damage[(1d10+10)[베기]] 피해</p>"
+          "description": "<p><span class=\"action-glyph\">1</span> ~ <span class=\"action-glyph\">3</span></p>\n<p><strong>사용 빈도</strong> 라운드당 1회.</p>\n<hr />\n<p><strong>효과</strong> 시 경비병들은 @Template[emanation|distance:10]{10 피트} 이내의 모든 적에 대해 @Check[reflex|dc:19|basic] 내성을 가진 조정된 근접 공격을 합니다. 피해는 행동 횟수에 따라 달라집니다. 피해 또는 @Damage[(1d10+7)[slashing]] 피해</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(1d10+10)[piercing]] 피해 또는 @Damage[(1d10+10)[slashing]] 피해</p>"
         },
         "cLFteTTZ1b4O3AoI": {
           "name": "석궁을 쏴라!",
@@ -4242,7 +4242,7 @@
         },
         "fGxEd4o5r4hXlUtn": {
           "name": "가젯 제작",
-          "description": "<p>가젯 제작자는 자신의 쓰레기 가방과 주변의 폐품으로 다음 중 하나의 가젯을 제작합니다. 이 방법으로 만든 가젯은 한 번 사용하거나 1시간이 지나면 분해됩니다. </p><ul><li><strong>플래시 방</strong> <span class=\"action-glyph\">1</span> (조작) 가젯 제작자는 최대 20피트 떨어진 곳에 플래시 방을 던져 @Template[type:burst|distance:5] 범위 내에서 폭발시킵니다. 폭발에 포함된 생물은 @Check[fortitude|dc:24] 내성 체크에 성공하지 않으면 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} 상태가 됩니다.</li><li><strong>글라이더</strong> <span class=\"action-glyph\">1</span> (이동) 가제티어는 글라이더를 손에 들고 절벽에서 뛰어내립니다. 그들은 라운드당 60피트만 떨어지며, 10피트 떨어질 때마다 5피트 앞으로 이동할 수 있습니다.</li><li><strong>임시 열쇠</strong> <span class=\"action-glyph\">1</span> (조작) 가제티어는 체크에 +4의 아이템 보너스를 받고 자물쇠 따기를 시도합니다. 이 기기를 활성화하면 녹음된 말을 한 번 반복한 후 분해되거나, 최대 10분 동안 메시지를 반복 재생한 후 분해됩니다.</li><li><p><strong>충격 막대</strong> <span class=\"action-glyph\">1</span> (조작) 인접한 생물은 @Damage[3d12[전기]]의 피해를 받고 @Check[reflex|dc:24|basic] 내성을 가지고 있습니다. </p>\n</li></ul>"
+          "description": "<p>가젯 제작자는 자신의 쓰레기 가방과 주변의 폐품으로 다음 중 하나의 가젯을 제작합니다. 이 방법으로 만든 가젯은 한 번 사용하거나 1시간이 지나면 분해됩니다. </p><ul><li><strong>플래시 방</strong> <span class=\"action-glyph\">1</span> (조작) 가젯 제작자는 최대 20피트 떨어진 곳에 플래시 방을 던져 @Template[type:burst|distance:5] 범위 내에서 폭발시킵니다. 폭발에 포함된 생물은 @Check[fortitude|dc:24] 내성 체크에 성공하지 않으면 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명} 상태가 됩니다.</li><li><strong>글라이더</strong> <span class=\"action-glyph\">1</span> (이동) 가제티어는 글라이더를 손에 들고 절벽에서 뛰어내립니다. 그들은 라운드당 60피트만 떨어지며, 10피트 떨어질 때마다 5피트 앞으로 이동할 수 있습니다.</li><li><strong>임시 열쇠</strong> <span class=\"action-glyph\">1</span> (조작) 가제티어는 체크에 +4의 아이템 보너스를 받고 자물쇠 따기를 시도합니다. 이 기기를 활성화하면 녹음된 말을 한 번 반복한 후 분해되거나, 최대 10분 동안 메시지를 반복 재생한 후 분해됩니다.</li><li><p><strong>충격 막대</strong> <span class=\"action-glyph\">1</span> (조작) 인접한 생물은 @Damage[3d12[전기]]의 피해를 받고 @Check[reflex|dc:24|basic] 내성을 가지고 있습니다. </p>\n</li></ul>"
         }
       }
     },
@@ -4261,7 +4261,7 @@
         },
         "V0CjsWwxhKynsJi3": {
           "name": "내 걸작을 복원하라",
-          "description": "<p><strong>요구 사항</strong> 플레시워퍼는 치료사의 도구 키트를 들고 있거나 착용하고 있습니다. </p><hr /><p><strong>효과</strong> 플레시워퍼는 인접한, 의지가 있는 변형체 또는 플레시워핑으로 변형한 생물의 상처를 봉합합니다. 생물은 @Damage[20[치유]] HP를 회복하고 1일 동안 일시적으로 면역이 됩니다."
+          "description": "<p><strong>요구 사항</strong> 플레시워퍼는 치료사의 도구 키트를 들고 있거나 착용하고 있습니다. </p><hr /><p><strong>효과</strong> 플레시워퍼는 인접한, 의지가 있는 변형체 또는 플레시워핑으로 변형한 생물의 상처를 봉합합니다. 생물은 @Damage[20[healing]] HP를 회복하고 1일 동안 일시적으로 면역이 됩니다."
         }
       }
     },
@@ -4669,7 +4669,7 @@
         },
         "eJpLRA3j8QNnWM3M": {
           "name": "함정 만들기",
-          "description": "<p>코볼트 사냥꾼은 인접한 칸의 표면에 초보적인 함정을 만듭니다. 이 함정은 다음에 생물이 인접한 칸으로 이동할 때 작동합니다. 생물은 2d6 @Damage[2d6[타격]]{타격}, @Damage[2d6[관통]]{관통}, 또는 @Damage[2d6[베기]]{베기}의 피해를 받습니다 (함정을 설치한 트래퍼가 결정). @Check[reflex|dc:18|basic] 내성을 체크합니다. 저항 검사에 실패하면 생물은 1분 동안 모든 이동 속도에 –5 상태 페널티를 받습니다. 함정은 활성화되거나 8시간이 지나면 파괴됩니다. 트랩 제작자는 일반적으로 하루에 6개의 트랩을 만들 수 있는 원재료를 소지합니다.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.lhgGLGL8phfu0bOL]{효과: 트랩 제작}</p>"
+          "description": "<p>코볼트 사냥꾼은 인접한 칸의 표면에 초보적인 함정을 만듭니다. 이 함정은 다음에 생물이 인접한 칸으로 이동할 때 작동합니다. 생물은 2d6 @Damage[2d6[bludgeoning]]{타격}, @Damage[2d6[piercing]]{관통}, 또는 @Damage[2d6[slashing]]{베기}의 피해를 받습니다 (함정을 설치한 트래퍼가 결정). @Check[reflex|dc:18|basic] 내성을 체크합니다. 저항 검사에 실패하면 생물은 1분 동안 모든 이동 속도에 –5 상태 페널티를 받습니다. 함정은 활성화되거나 8시간이 지나면 파괴됩니다. 트랩 제작자는 일반적으로 하루에 6개의 트랩을 만들 수 있는 원재료를 소지합니다.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.lhgGLGL8phfu0bOL]{효과: 트랩 제작}</p>"
         }
       }
     },
@@ -4688,7 +4688,7 @@
         },
         "MsrrFoKurdqAnnPb": {
           "name": "그들에게 맡기세요!",
-          "description": "<p><span class=\"action-glyph\">1</span> ~ <span class=\"action-glyph\">3</span></p><hr /><p><strong>사용 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 용병단은 다양한 근접 무기를 사용하여 @Template[type:emanation|거리: 5]에 있는 각 적에게 @Check[reflex|dc:25|basic|options:area-effect] 내성을 가진 공격을 합니다. 피해는 행동 횟수에 따라 달라집니다.area-damage]{piercing}, 또는 @Damage[(1d8+2)[slashing]|options:area-damage]{slashing}</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(3d8+4)[bludgeoning]|options:area-damage], @Damage[(3d8+4)[piercing]|options:area-damage]{piercing}, 또는 @Damage[(3d8+4)[slashing]|options:area-damage]{slashing}</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(4d8+6)[bludgeoning]|options:area-damage], @Damage[(4d8+6)[piercing]|options:area-damage]{piercing}, or @Damage[(4d8+6)[slashing]|options:area-damage]{slashing}</p>"
+          "description": "<p><span class=\"action-glyph\">1</span> ~ <span class=\"action-glyph\">3</span></p><hr /><p><strong>사용 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 용병단은 다양한 근접 무기를 사용하여 @Template[type:emanation|distance: 5]에 있는 각 적에게 @Check[reflex|dc:25|basic|options:area-effect] 내성을 가진 공격을 합니다. 피해는 행동 횟수에 따라 달라집니다.area-damage]{piercing}, 또는 @Damage[(1d8+2)[slashing]|options:area-damage]{slashing}</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(3d8+4)[bludgeoning]|options:area-damage], @Damage[(3d8+4)[piercing]|options:area-damage]{piercing}, 또는 @Damage[(3d8+4)[slashing]|options:area-damage]{slashing}</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(4d8+6)[bludgeoning]|options:area-damage], @Damage[(4d8+6)[piercing]|options:area-damage]{piercing}, or @Damage[(4d8+6)[slashing]|options:area-damage]{slashing}</p>"
         },
         "8BepGIHpY5yY5uZf": {
           "name": "준비... 발사!",
@@ -4745,7 +4745,7 @@
         },
         "Lx0mXTZ6Vv5rAJGs": {
           "name": "거짓 축복",
-          "description": "<p>신성 모독자는 @Check[religion|dc:15] 체크를 시도하여 자신의 신이 성직자에게 부여한 1등급 주문(@UUID[Compendium.pf2e.spells-srd.Item.R8bqnYiThB6MYTxD]{Phantom Pain} for Zon-Kuthon)을 시전합니다. 이 주문을 발동하려면 1, 2, 또는 3개의 행동이 필요합니다. 신성 모독자는 증인이 있는 경우 평소와 같이 @Check[deception|dc:15]를 굴릴 수 있습니다. </p><hr /><p><strong>대성공</strong> 신성 모독자는 주문을 성공적으로 시전하고, @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{기절} 가 주문을 시전하는 데 걸리는 행동 수 - 1과 같은 값을 받습니다.</p>\n<p><strong>대실패</strong> 신성 모독자는 주문을 시전하지 못하고 @Damage[2d6[정신]]의 피해를 입으며 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{기절 1} 상태가 됩니다. </p>"
+          "description": "<p>신성 모독자는 @Check[religion|dc:15] 체크를 시도하여 자신의 신이 성직자에게 부여한 1등급 주문(@UUID[Compendium.pf2e.spells-srd.Item.R8bqnYiThB6MYTxD]{Phantom Pain} for Zon-Kuthon)을 시전합니다. 이 주문을 발동하려면 1, 2, 또는 3개의 행동이 필요합니다. 신성 모독자는 증인이 있는 경우 평소와 같이 @Check[deception|dc:15]를 굴릴 수 있습니다. </p><hr /><p><strong>대성공</strong> 신성 모독자는 주문을 성공적으로 시전하고, @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{기절} 가 주문을 시전하는 데 걸리는 행동 수 - 1과 같은 값을 받습니다.</p>\n<p><strong>대실패</strong> 신성 모독자는 주문을 시전하지 못하고 @Damage[2d6[mental]]의 피해를 입으며 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{기절 1} 상태가 됩니다. </p>"
         }
       }
     },
@@ -4883,7 +4883,7 @@
         },
         "9PPJKcSTyWJ1Csi6": {
           "name": "고블린 베기 및 고블린 상처!",
-          "description": "<p><span class=\"action-glyph\">1</span> ~ <span class=\"action-glyph\">3</span></p>\n<p><strong>빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 고블린 갱은 개 슬라이서, 말의 다리를 자르고 불타는 횃불을 사용하여 @Template[type:emanation|distance:5]에 있는 각 적을 공격합니다. @Check[reflex|dc:20|basic|options:area-effect] 내성이 적용됩니다. 피해는 행동 횟수에 따라 달라집니다. </p>\n<p><span class=\"action-glyph\">1</span> @Damage[1d6[slashing],1d6[fire]|options:area-damage] 피해</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(1d6+6)[slashing],1d6[fire]|options:area-damage] 피해</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(1d6+9)[베기],1d6[fire]|options:area-damage] 피해</p>"
+          "description": "<p><span class=\"action-glyph\">1</span> ~ <span class=\"action-glyph\">3</span></p>\n<p><strong>빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 고블린 갱은 개 슬라이서, 말의 다리를 자르고 불타는 횃불을 사용하여 @Template[type:emanation|distance:5]에 있는 각 적을 공격합니다. @Check[reflex|dc:20|basic|options:area-effect] 내성이 적용됩니다. 피해는 행동 횟수에 따라 달라집니다. </p>\n<p><span class=\"action-glyph\">1</span> @Damage[1d6[slashing],1d6[fire]|options:area-damage] 피해</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(1d6+6)[slashing],1d6[fire]|options:area-damage] 피해</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(1d6+9)[slashing],1d6[fire]|options:area-damage] 피해</p>"
         }
       }
     },
@@ -5062,11 +5062,11 @@
         },
         "0lg7kGLlTsVwWOmm": {
           "name": "지상 취약성",
-          "description": "<p>비행 능력을 막는 효과(예: 지구 결속 또는 쓰러뜨리는 타격)에 맞거나 내성 굴림에 실패한 폭풍의 화신은 일반적인 효과에 추가하여 @Damage[20[정신]]의 피해를 받습니다."
+          "description": "<p>비행 능력을 막는 효과(예: 지구 결속 또는 쓰러뜨리는 타격)에 맞거나 내성 굴림에 실패한 폭풍의 화신은 일반적인 효과에 추가하여 @Damage[20[mental]]의 피해를 받습니다."
         },
         "FQgyTPeSS1DpQsYQ": {
           "name": "허리케인 망토",
-          "description": "<p>10 피트. 이 영역에 들어가는 생물은 @Check[운동|dc:38] 체크 (지상에 있는 경우) 또는 비행 중 기동 아크로바틱스 체크 (비행 중인 경우)에 성공하지 않으면 이동을 종료합니다. 대실패한 생물은 5 피트 뒤로 밀려나 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}에 쓰러집니다. 이 지역을 통과하는 원거리 투사체 및 투척 공격을 하는 생물은 @Check[flat|dc:5]에 성공하지 않으면 공격이 실패합니다. 던진 바위와 같은 거대한 투사체는 영향을 받지 않습니다. 폭풍의 화신은 집중 특성을 가진 단일 행동으로 이 능력을 활성화하거나 비활성화할 수 있습니다."
+          "description": "<p>10 피트. 이 영역에 들어가는 생물은 @Check[athletics|dc:38] 체크 (지상에 있는 경우) 또는 비행 중 기동 아크로바틱스 체크 (비행 중인 경우)에 성공하지 않으면 이동을 종료합니다. 대실패한 생물은 5 피트 뒤로 밀려나 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}에 쓰러집니다. 이 지역을 통과하는 원거리 투사체 및 투척 공격을 하는 생물은 @Check[flat|dc:5]에 성공하지 않으면 공격이 실패합니다. 던진 바위와 같은 거대한 투사체는 영향을 받지 않습니다. 폭풍의 화신은 집중 특성을 가진 단일 행동으로 이 능력을 활성화하거나 비활성화할 수 있습니다."
         },
         "atpJ2mtaJeJ9UzZC": {
           "name": "위협적인 폭풍",
@@ -5128,7 +5128,7 @@
         },
         "DfON8v909jMLsLaL": {
           "name": "베어라!",
-          "description": "<p><span class=\"action-glyph\">1</span> ~ <span class=\"action-glyph\">3</span></p>\n<p><strong>빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 도적들은 @Template[emanation|distance:5] 내에 있는 각 적에게 도끼로 협동 공격을 합니다. @Check[reflex|dc:22|basic|options:area-effect] 내성. 피해는 행동 횟수에 따라 달라집니다.area-damage] 피해</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d6+9)[베기]|options:area-damage] 피해</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(3d6+9)[베기]|options:area-damage] 피해</p>"
+          "description": "<p><span class=\"action-glyph\">1</span> ~ <span class=\"action-glyph\">3</span></p>\n<p><strong>빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 도적들은 @Template[emanation|distance:5] 내에 있는 각 적에게 도끼로 협동 공격을 합니다. @Check[reflex|dc:22|basic|options:area-effect] 내성. 피해는 행동 횟수에 따라 달라집니다.area-damage] 피해</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d6+9)[slashing]|options:area-damage] 피해</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(3d6+9)[slashing]|options:area-damage] 피해</p>"
         },
         "tksvobKNKfovQxnZ": {
           "name": "숲길",
@@ -5289,7 +5289,7 @@
         },
         "935o5SaVUaLp8sje": {
           "name": "잉크를 뿌리기",
-          "description": "<p><strong>트리거</strong> 예술가가 15 피트 이내의 생물에게 근접 또는 원거리 공격을 받습니다. 공격자는 @Check[reflex|dc:18|options:inflicts:blinded] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded}가 됩니다. 이 효과는 공격자가 아티스트를 타깃으로 삼기 전에 발동합니다. 실명은 대상의 다음 턴이 끝날 때까지 지속되지만, 생물은 상호 작용을 통해 눈을 문지르며 새로운 내성을 시도하여 상태를 끝낼 수 있습니다."
+          "description": "<p><strong>트리거</strong> 예술가가 15 피트 이내의 생물에게 근접 또는 원거리 공격을 받습니다. 공격자는 @Check[reflex|dc:18|options:inflicts:blinded] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명}가 됩니다. 이 효과는 공격자가 아티스트를 타깃으로 삼기 전에 발동합니다. 실명은 대상의 다음 턴이 끝날 때까지 지속되지만, 생물은 상호 작용을 통해 눈을 문지르며 새로운 내성을 시도하여 상태를 끝낼 수 있습니다."
         },
         "wbKoBbfaKQvWmYiS": {
           "name": "Cry of Ages",
@@ -5469,7 +5469,7 @@
         },
         "ty02a1CedQJfgYkL": {
           "name": "야생 스윙",
-          "description": "<p><span class=\"action-glyph\">1</span> ~ <span class=\"action-glyph\">3</span></p>\n<p><strong>빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 폭도들은 @Template[type:emanation|distance:5] @Check[reflex|dc:25|basic|options:area-effect] 내성. 피해는 행동 횟수에 따라 달라집니다.area-damage] 피해</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d12+9)[베기]|options:area-damage] 피해</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(3d12+9)[베기]|options:area-damage] 피해</p>"
+          "description": "<p><span class=\"action-glyph\">1</span> ~ <span class=\"action-glyph\">3</span></p>\n<p><strong>빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 폭도들은 @Template[type:emanation|distance:5] @Check[reflex|dc:25|basic|options:area-effect] 내성. 피해는 행동 횟수에 따라 달라집니다.area-damage] 피해</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d12+9)[slashing]|options:area-damage] 피해</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(3d12+9)[slashing]|options:area-damage] 피해</p>"
         }
       }
     },
@@ -5639,10 +5639,10 @@
         },
         "2RXB3a94mH1mRWqg": {
           "name": "피의 냄새",
-          "description": "<p><strong>요건</strong> 에이돌론의 냄새 범위 내에 있는 생물이 출혈 피해를 받고 있습니다. 1분 동안 임시 HP 10을 얻고, 무기 없는 공격의 피해 굴림에 +4 상태 보너스를 얻지만, @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 됩니다. 광란 상태에서는 자발적으로 광란을 끝내거나 또 다른 광란을 시작할 수 없습니다. 광란은 1분 동안 지속되며, 그 후 에이돌론은 1분 동안 @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{피로한} 상태가 됩니다. </p>"
+          "description": "<p><strong>요건</strong> 에이돌론의 냄새 범위 내에 있는 생물이 출혈 피해를 받고 있습니다. 1분 동안 임시 HP 10을 얻고, 무기 없는 공격의 피해 굴림에 +4 상태 보너스를 얻지만, @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 됩니다. 광란 상태에서는 자발적으로 광란을 끝내거나 또 다른 광란을 시작할 수 없습니다. 광란은 1분 동안 지속되며, 그 후 에이돌론은 1분 동안 @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{피곤} 상태가 됩니다. </p>"
         },
         "G9axJGehalxDWo2y": {
-          "name": "잡기",
+          "name": "붙잡기",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
         }
       }
@@ -5712,7 +5712,7 @@
         },
         "2EbagWaQehCMBKx5": {
           "name": "엿보지 마!",
-          "description": "<p>광대는 인접한 적의 얼굴에 분필이나 얼굴 가루를 불어넣습니다. 대상은 @Check[fortitude|dc:29] 내성 굴림을 해야 합니다.</p><hr /><p><strong>대성공</strong> 대상은 영향을 받지 않습니다.</p>\n<p><strong>실패</strong> 대상은 1 라운드 동안 눈부심과 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 됩니다.</p>\n<p><strong>대실패</strong> 대상은 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} 상태가 됩니다. </p>"
+          "description": "<p>광대는 인접한 적의 얼굴에 분필이나 얼굴 가루를 불어넣습니다. 대상은 @Check[fortitude|dc:29] 내성 굴림을 해야 합니다.</p><hr /><p><strong>대성공</strong> 대상은 영향을 받지 않습니다.</p>\n<p><strong>실패</strong> 대상은 1 라운드 동안 눈부심과 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 됩니다.</p>\n<p><strong>대실패</strong> 대상은 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명} 상태가 됩니다. </p>"
         },
         "rUD7kZKPtLrnivTt": {
           "name": "Poisoned Blade",
@@ -5731,7 +5731,7 @@
         },
         "gHkZ5EkRCbXagaxl": {
           "name": "술에 취한 분노",
-          "description": "<p><strong>요구 조건</strong> 술에 취한 자는 취해 있으며, @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{피로한} 상태가 아니며 분노하지 않습니다</p><hr /><p><strong>효과</strong> 술에 취한 자는 술에 취한 분노에 휩싸입니다. 술에 취한 분노가 끝날 때까지 6의 임시 체력을 얻습니다. 분노 상태에서는 근접 공격으로 4의 추가 피해를 주고 AC에 -1의 페널티를 받습니다. 술에 취한 사람은 @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek}를 제외한 집중 행동을 사용할 수 없습니다. 분노는 1분 동안 지속되며, 술에 취한 자가 @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 상실} 상태가 되거나 술에서 깨어날 때까지 지속됩니다. 술에 취한 자는 자발적으로 분노를 멈출 수 없습니다. 분노가 끝난 후, 술에 취한 자는 이 행동으로 인해 1분 동안 임시 HP를 얻을 수 없습니다.</p>"
+          "description": "<p><strong>요구 조건</strong> 술에 취한 자는 취해 있으며, @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{피곤} 상태가 아니며 분노하지 않습니다</p><hr /><p><strong>효과</strong> 술에 취한 자는 술에 취한 분노에 휩싸입니다. 술에 취한 분노가 끝날 때까지 6의 임시 체력을 얻습니다. 분노 상태에서는 근접 공격으로 4의 추가 피해를 주고 AC에 -1의 페널티를 받습니다. 술에 취한 사람은 @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek}를 제외한 집중 행동을 사용할 수 없습니다. 분노는 1분 동안 지속되며, 술에 취한 자가 @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 상실} 상태가 되거나 술에서 깨어날 때까지 지속됩니다. 술에 취한 자는 자발적으로 분노를 멈출 수 없습니다. 분노가 끝난 후, 술에 취한 자는 이 행동으로 인해 1분 동안 임시 HP를 얻을 수 없습니다.</p>"
         }
       }
     },
