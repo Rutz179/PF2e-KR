@@ -8,7 +8,7 @@
       "items": {
         "qBfZKEJPVngf5Zs4": {
           "name": "엑토플라즘 필라멘트",
-          "description": "<p><strong>트리거</strong> 얽힌 뼈의 도달 범위 내에 있는 생물이 조작 특성을 가진 행동이나 이동 행동을 사용하거나, 이동 행동 중에 칸을 떠납니다. </p>\n<hr />\n<p><strong>효과</strong> 검고 기름진 엑토플라즘의 실이 트리거를 발동한 생물을 공격하여 @Damage[(2d8+8)[베기]] 의 피해를 입힙니다 (@Check[reflex|dc:25|basic] 내성). 필라멘트가 피해를 입힌 경우, 얽힌 뼈는 [[/r 2d8 #임시 체력]]{2d8 임시 체력}을 얻습니다."
+          "description": "<p><strong>트리거</strong> 얽힌 뼈의 도달 범위 내에 있는 생물이 조작 특성을 가진 행동이나 이동 행동을 사용하거나, 이동 행동 중에 칸을 떠납니다. </p>\n<hr />\n<p><strong>효과</strong> 검고 기름진 엑토플라즘의 실이 트리거를 발동한 생물을 공격하여 @Damage[(2d8+8)[slashing]] 의 피해를 입힙니다 (@Check[reflex|dc:25|basic] 내성). 필라멘트가 피해를 입힌 경우, 얽힌 뼈는 [[/r 2d8 #임시 체력]]{2d8 임시 체력}을 얻습니다."
         },
         "WarDVWwMegYTdbUM": {
           "name": "섬뜩한 유연성",
@@ -31,7 +31,7 @@
           "description": "<p>다음 행동까지, 얽힌 뼈는 얽힌 뼈 더미로 보입니다. 이 얽힌 뼈는 속임수 체크와 DC에 대해 자동으로 35의 결과를 얻으며, 끔찍하지만 무해한 엉망진창으로 보입니다."
         },
         "J7SGCpmm8PUjDGsg": {
-          "name": "잡기",
+          "name": "붙잡기",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]"
         }
       }
@@ -55,14 +55,14 @@
         },
         "FeDt6jCafBdwS5tk": {
           "name": "내장 파내기",
-          "description": "<p>Ixirizmid는 잡거나 제압한 생물, 또는 다른 이유로 움직이지 못하는 생물에게 빠르고 고통스러운 수술을 행합니다. 그들은 대상의 체력 DC에 대해 @Check[의학|방어:인내력] 체크를 굴립니다. 결과에 상관없이, 대상은 24시간 동안 Eviscerate에 일시적으로 면역이 됩니다. 의 피해를 받고, 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1}이 되고, @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1}이 됩니다. @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 1} 또는 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1} (미고가 선택) 24시간 동안 지속됩니다.</p>\n<p><strong>실패</strong> 대상은 @Damage[3d6[베기]]의 피해를 받습니다. </p>\n<p><strong>대실패</strong> 대상은 피해를 받지 않습니다. </p>"
+          "description": "<p>Ixirizmid는 잡거나 제압한 생물, 또는 다른 이유로 움직이지 못하는 생물에게 빠르고 고통스러운 수술을 행합니다. 그들은 대상의 체력 DC에 대해 @Check[의학|defense:fortitude] 체크를 굴립니다. 결과에 상관없이, 대상은 24시간 동안 Eviscerate에 일시적으로 면역이 됩니다. 의 피해를 받고, 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1}이 되고, @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1}이 됩니다. @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 1} 또는 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1} (미고가 선택) 24시간 동안 지속됩니다.</p>\n<p><strong>실패</strong> 대상은 @Damage[3d6[slashing]]의 피해를 받습니다. </p>\n<p><strong>대실패</strong> 대상은 피해를 받지 않습니다. </p>"
         },
         "uffOMQdKncfhcXF7": {
           "name": "암습",
           "description": "<p>Ixirizmid는 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 생물에게 추가 1d6의 정밀 피해를 입힙니다."
         },
         "pEzlMP5bZb18T57c": {
-          "name": "잡기",
+          "name": "붙잡기",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
         }
       }
@@ -90,7 +90,7 @@
         },
         "MMSZxMrXIdeCFlFq": {
           "name": "마음을 썩게 하는 독",
-          "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:25|basic]</p>\n<p><strong>최대 지속 시간</strong> 6 라운드</p>\n<hr />\n<p><strong>1단계</strong> @Damage[1d6[void]] 및 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1} (1 라운드)</p>\n<p><strong>2단계</strong> @Damage[1d6[void]], 혼미 1, @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1} (1 라운드)</p>\n<p><strong>3단계</strong> @피해[2d6[void]], @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 2}, 느려짐 1 (1 라운드)</p>"
+          "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:25|basic]</p>\n<p><strong>최대 지속 시간</strong> 6 라운드</p>\n<hr />\n<p><strong>1단계</strong> @Damage[1d6[void]] 및 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1} (1 라운드)</p>\n<p><strong>2단계</strong> @Damage[1d6[void]], 혼미 1, @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1} (1 라운드)</p>\n<p><strong>3단계</strong> @Damage[2d6[void]], @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 2}, 느려짐 1 (1 라운드)</p>"
         }
       }
     },
@@ -121,7 +121,7 @@
         },
         "fmcgopzl3nvrBJkz": {
           "name": "광란의 부리",
-          "description": "<p>떼의 공간에 있는 모든 적은 @Damage[5d6[피어싱]|traits:item:rune:property:ghost-touch]의 피해를 받고 (@Check[reflex|dc:30|basic]) 마법 흡수 효과에 노출됩니다. 이 피해는 무형 생물에게 유령의 손길 속성 룬의 효과로 적용됩니다."
+          "description": "<p>떼의 공간에 있는 모든 적은 @Damage[5d6[piercing]|traits:item:rune:property:ghost-touch]의 피해를 받고 (@Check[reflex|dc:30|basic]) 마법 흡수 효과에 노출됩니다. 이 피해는 무형 생물에게 유령의 손길 속성 룬의 효과로 적용됩니다."
         },
         "dCra4dM2DaOP8GAK": {
           "name": "소울 케이지",
@@ -217,7 +217,7 @@
         },
         "ewbuoRukTnN5HwAa": {
           "name": "구울 열병",
-          "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:22]</p>\n<p><strong>1단계</strong> 아무런 영향도 받지 않는 보균자 (1일)</p>\n<p><strong>2단계</strong> @Damage[2d6[void]] 피해를 받고 모든 치유로 체력의 절반을 회복합니다 (1일)</p>\n<p><strong>3단계</strong> 2단계와 동일 (1일)</p>\n<p><strong>4단계</strong> @피해[2d6[공기]] 피해 및 치유로 인한 이득 없음 (1일)</p>\n<p><strong>5단계</strong> 4단계와 동일 (1일)</p>\n<p><strong>6단계</strong> 사망, 다음 자정에 구울로 부활합니다."
+          "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:22]</p>\n<p><strong>1단계</strong> 아무런 영향도 받지 않는 보균자 (1일)</p>\n<p><strong>2단계</strong> @Damage[2d6[void]] 피해를 받고 모든 치유로 체력의 절반을 회복합니다 (1일)</p>\n<p><strong>3단계</strong> 2단계와 동일 (1일)</p>\n<p><strong>4단계</strong> @Damage[2d6[공기]] 피해 및 치유로 인한 이득 없음 (1일)</p>\n<p><strong>5단계</strong> 4단계와 동일 (1일)</p>\n<p><strong>6단계</strong> 사망, 다음 자정에 구울로 부활합니다."
         },
         "i02LjkO2d05n1YxC": {
           "name": "마비",
@@ -225,7 +225,7 @@
         },
         "iT8h3OAVXFRozXkw": {
           "name": "도약",
-          "description": "<p>에소복 구울은 스트라이드를 한 다음 발톱으로 공격을 합니다. 이 행동을 숨은 상태에서 시작하면, 공격이 끝날 때까지 숨은 상태로 남아 있습니다. </p>"
+          "description": "<p>에소복 구울은 이동를 한 다음 발톱으로 공격을 합니다. 이 행동을 숨은 상태에서 시작하면, 공격이 끝날 때까지 숨은 상태로 남아 있습니다. </p>"
         }
       }
     },
@@ -264,7 +264,7 @@
         },
         "6mMJCH3VP87wzthp": {
           "name": "환상적 절단",
-          "description": "<p><strong>빈도</strong> 하루에 한 번</p>\n<hr />\n<p><strong>효과</strong> Ioseff는 왼쪽 팔의 절단면을 들어올리며, 흐르는 피가 유령 같은 손을 형성합니다. 그는 이 손을 사용하여 30피트 이내의 인간형 생물을 가리킵니다. 그 생물은 @Check[fortitude|dc:28|traits:necromancy,occult] 내성 체크를 시도해야 합니다. </p>\n<hr />\n<p><strong>대성공</strong> 생물은 왼쪽 손에 갑작스럽고 극심한 통증으로 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} 상태가 됩니다.</p>\n<p><strong>성공 대성공과 동일하지만, 그 생물은 @Damage[2d6[베기]]의 피해를 받고, 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1} 상태가 됩니다. 마치 왼손이 도끼로 잘린 듯한 느낌을 받기 때문입니다.</p>\n<p><strong>실패</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}가 되고, @Damage[5d6[slashing]] 의 피해를 받고, 1분 동안 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 2} 상태가 됩니다.</p>\n<p><strong>대실패</strong> PC는 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 3} 상태가 되고 @Damage[8d6[slashing],2d6[bleed]]{8d6 베기 피해와 2d6 출혈 피해} 를 입습니다. PC의 왼손이 떨어져 바닥에 떨어지고, 순식간에 뼈로 부패합니다. PC는 서투른 2이고 @UUID[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2]{부상 1}입니다. 이 부상 상태가 제거되자마자 PC의 손이 기적적으로 돌아오고 서투른 상태가 종료됩니다."
+          "description": "<p><strong>빈도</strong> 하루에 한 번</p>\n<hr />\n<p><strong>효과</strong> Ioseff는 왼쪽 팔의 절단면을 들어올리며, 흐르는 피가 유령 같은 손을 형성합니다. 그는 이 손을 사용하여 30피트 이내의 인간형 생물을 가리킵니다. 그 생물은 @Check[fortitude|dc:28|traits:necromancy,occult] 내성 체크를 시도해야 합니다. </p>\n<hr />\n<p><strong>대성공</strong> 생물은 왼쪽 손에 갑작스럽고 극심한 통증으로 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} 상태가 됩니다.</p>\n<p><strong>성공 대성공과 동일하지만, 그 생물은 @Damage[2d6[slashing]]의 피해를 받고, 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1} 상태가 됩니다. 마치 왼손이 도끼로 잘린 듯한 느낌을 받기 때문입니다.</p>\n<p><strong>실패</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}가 되고, @Damage[5d6[slashing]] 의 피해를 받고, 1분 동안 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 2} 상태가 됩니다.</p>\n<p><strong>대실패</strong> PC는 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 3} 상태가 되고 @Damage[8d6[slashing],2d6[bleed]]{8d6 베기 피해와 2d6 출혈 피해} 를 입습니다. PC의 왼손이 떨어져 바닥에 떨어지고, 순식간에 뼈로 부패합니다. PC는 서투른 2이고 @UUID[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2]{부상 1}입니다. 이 부상 상태가 제거되자마자 PC의 손이 기적적으로 돌아오고 서투른 상태가 종료됩니다."
         }
       }
     },
@@ -282,7 +282,7 @@
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Lifesense]</p>"
         },
         "Ljd9PLTy03qKXfqC": {
-          "name": "상시 주문",
+          "name": "지속 주문",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ConstantSpells]</p>"
         },
         "Zy5jqqY9EMBjp2KN": {

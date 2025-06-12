@@ -12,7 +12,7 @@
         },
         "nxblqBzJUsncnJ9t": {
           "name": "Noxious Burst",
-          "description": "<p>filth fire의 몸 안에 있는 독성 물질과 휘젓고 있는 쓰레기가 세 가지 방법 중 하나로 폭발합니다. 오물 불이 효과를 선택하지만, 같은 효과를 두 번 연속으로 선택할 수는 없습니다.</li><li>파편 폭발 (소환, 원초적) 오물 불은 @Template[emanation|distance:5]의 뾰족한 쓰레기를 발사하여 @Damage[2d12[piercing]]의 피해를 입히고 @Check[reflex|dc:21|basic] 내성을 적용합니다. 더러운 불이 @Template[cone|distance:15]의 유독 연기를 뿜어내어 @Damage[2d6[poison]]의 피해를 입힙니다 (@Check[fortitude|dc:21|basic] 내성). 실패한 생물은 또한 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} (대실패 시에는 병들기 2)를 받습니다. </li></ul>"
+          "description": "<p>filth fire의 몸 안에 있는 독성 물질과 휘젓고 있는 쓰레기가 세 가지 방법 중 하나로 폭발합니다. 역겨운 불이 효과를 선택하지만, 같은 효과를 두 번 연속으로 선택할 수는 없습니다.</li><li>파편 폭발 (소환, 원초적) 역겨운 불은 @Template[emanation|distance:5]의 뾰족한 쓰레기를 발사하여 @Damage[2d12[piercing]]의 피해를 입히고 @Check[reflex|dc:21|basic] 내성을 적용합니다. 역겨운 불이 @Template[cone|distance:15]의 유독 연기를 뿜어내어 @Damage[2d6[poison]]의 피해를 입힙니다 (@Check[fortitude|dc:21|basic] 내성). 실패한 생물은 또한 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} (대실패 시에는 병들기 2)를 받습니다. </li></ul>"
         }
       }
     },
@@ -27,18 +27,18 @@
         },
         "U5q0XAi1tB1YZCFJ": {
           "name": "고드름 가죽",
-          "description": "<p>무기 없는 공격이나 도달 거리가 짧은 근접 공격으로 버그웜을 명중시킨 생물은 @Damage[1d8[피어싱]]의 피해를 받습니다 (@Check[reflex|dc:17|basic] 내성). 대실패 시, 해당 생물은 @Damage[1d4[persistent,cold]]의 피해도 받습니다."
+          "description": "<p>무기 없는 공격이나 도달 거리가 짧은 근접 공격으로 버그웜을 명중시킨 생물은 @Damage[1d8[piercing]]의 피해를 받습니다 (@Check[reflex|dc:17|basic] 내성). 대실패 시, 해당 생물은 @Damage[1d4[persistent,cold]]의 피해도 받습니다."
         },
         "w2k4E07PDkFTOziz": {
           "name": "갉아먹기",
-          "description": "<p><strong>요구 사항</strong> 버그웜은 이빨로 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}의 생물을 잡습니다. 공격</p>\n<hr />\n<p><strong>효과</strong> 버그웜은 대상 생물을 갉아먹고, 그 살을 파고들어 피부를 얼립니다. 이것은 @Damage[1d10[피어싱],1d6[콜드]]{1d10 피어싱 피해와 1d6 콜드 피해}를 입힙니다. 이런 식으로 콜드 피해를 입은 생물은 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1}이 될 때까지 어떤 종류나 양의 치유도 받을 수 없습니다."
+          "description": "<p><strong>요구 사항</strong> 버그웜은 이빨로 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}의 생물을 잡습니다. 공격</p>\n<hr />\n<p><strong>효과</strong> 버그웜은 대상 생물을 갉아먹고, 그 살을 파고들어 피부를 얼립니다. 이것은 @Damage[1d10[piercing],1d6[콜드]]{1d10 관통 피해와 1d6 콜드 피해}를 입힙니다. 이런 식으로 콜드 피해를 입은 생물은 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1}이 될 때까지 어떤 종류나 양의 치유도 받을 수 없습니다."
         },
         "qXRaa1mxhA7VnpVc": {
           "name": "얼음 파기 20 피트",
           "description": "<p>버그웜은 얼음이나 눈 속을 20 피트의 속도로 파고들 수 있습니다. 파고드는 동안 전체 속도로 이동합니다.</p>"
         },
         "44OCr1iqo3WbBDQH": {
-          "name": "잡기",
+          "name": "붙잡기",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
         }
       }
@@ -50,7 +50,7 @@
       "items": {
         "qfIg2ulL65DhV6X2": {
           "name": "스프린트",
-          "description": "<p><strong>빈도</strong> 1분에 한 번</p>\n<hr />\n<p><strong>효과</strong> 하드로사우루스는 두 번의 스트라이드를 합니다. 이 스트라이드 동안 속도에 +20피트의 상황 보너스가 적용됩니다."
+          "description": "<p><strong>빈도</strong> 1분에 한 번</p>\n<hr />\n<p><strong>효과</strong> 하드로사우루스는 두 번의 이동를 합니다. 이 이동 동안 속도에 +20피트의 상황 보너스가 적용됩니다."
         },
         "rASGf5YkW2lQXMFQ": {
           "name": "트램플",
@@ -196,7 +196,7 @@
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>"
         },
         "54pvmAtUtSvN1SQx": {
-          "name": "방패 차단",
+          "name": "방패 막기",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ShieldBlock]</p>"
         },
         "5EvbvNghD1THDwUR": {
@@ -266,7 +266,7 @@
         },
         "5PYqpxaU2nB6IYrL": {
           "name": "혼란스러운 행동",
-          "description": "<p>각 라운드 시작 시, [[/gmr 1d4]]를 굴려 주니어의 행동을 결정합니다. </p>\n<ul>\n<li>1: 주니어는 아무 행동도 하지 않습니다. </li>\n<li>2: 주니어는 1 액션을 사용하여 가장 가까운 무인 물체로 스트라이드한 다음, 조수 생명을 사용해서 그 물체를 움직입니다. 주니어의 조수 소환이 남아 있지 않거나, 범위 내에 물체가 없는 경우, 주니어는 아무 행동도 하지 않습니다. </li>\n<li>3-4: 주니어는 가장 가까운 생명체에게 다가가기 위해 필요한 만큼의 행동을 사용한 다음, 남은 행동으로 그 생명체에게 주먹 공격을 합니다. </li>\n</ul>"
+          "description": "<p>각 라운드 시작 시, [[/gmr 1d4]]를 굴려 주니어의 행동을 결정합니다. </p>\n<ul>\n<li>1: 주니어는 아무 행동도 하지 않습니다. </li>\n<li>2: 주니어는 1 액션을 사용하여 가장 가까운 무인 물체로 이동한 다음, 조수 생명을 사용해서 그 물체를 움직입니다. 주니어의 조수 소환이 남아 있지 않거나, 범위 내에 물체가 없는 경우, 주니어는 아무 행동도 하지 않습니다. </li>\n<li>3-4: 주니어는 가장 가까운 생명체에게 다가가기 위해 필요한 만큼의 행동을 사용한 다음, 남은 행동으로 그 생명체에게 주먹 공격을 합니다. </li>\n</ul>"
         }
       }
     },
@@ -300,7 +300,7 @@
           "description": "<p>늑대 인간은 잡은 생물에게 발톱으로 공격을 합니다. 공격이 명중하면, 그 생물은 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} 상태가 됩니다. 늑대 인간은 동물 형태일 때만 이 능력을 사용할 수 있습니다. </p>"
         },
         "9ONTjzUo2qngSIHO": {
-          "name": "잡기",
+          "name": "붙잡기",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
         }
       }
@@ -328,7 +328,7 @@
         },
         "5cf5c4QvVxAQ2DpC": {
           "name": "도약",
-          "description": "<p>아라부크는 스트라이드를 하고 그 이동이 끝날 때 공격을 합니다. 아라부크가 이 행동을 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} 상태에서 시작하면, 이 능력의 공격이 끝날 때까지 숨겨진 상태로 남아 있습니다."
+          "description": "<p>아라부크는 이동를 하고 그 이동이 끝날 때 공격을 합니다. 아라부크가 이 행동을 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} 상태에서 시작하면, 이 능력의 공격이 끝날 때까지 숨겨진 상태로 남아 있습니다."
         },
         "IjVhdoG1O0Tobs4K": {
           "name": "리버브",
@@ -374,14 +374,14 @@
         },
         "w2k4E07PDkFTOziz": {
           "name": "갉아먹기",
-          "description": "<p><strong>요구 사항</strong> 버그웜은 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{잡힌} 를 공격합니다. 공격</p>\n<hr />\n<p><strong>효과</strong> 버그웜은 대상 생물을 갉아먹고, 그 살을 파고들어 피부를 얼립니다. 이로 인해 @Damage[1d10[피어싱],1d8[냉기]]{1d10 피어싱 피해와 1d8 냉기 피해}가 발생합니다. 이 방법으로 냉기 피해를 받은 생물은 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1} 상태가 됩니다. 어떤 종류나 양의 치유도 받지 않으면 이 상태는 지속됩니다."
+          "description": "<p><strong>요구 사항</strong> 버그웜은 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 를 공격합니다. 공격</p>\n<hr />\n<p><strong>효과</strong> 버그웜은 대상 생물을 갉아먹고, 그 살을 파고들어 피부를 얼립니다. 이로 인해 @Damage[1d10[piercing],1d8[냉기]]{1d10 관통 피해와 1d8 냉기 피해}가 발생합니다. 이 방법으로 냉기 피해를 받은 생물은 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1} 상태가 됩니다. 어떤 종류나 양의 치유도 받지 않으면 이 상태는 지속됩니다."
         },
         "U5q0XAi1tB1YZCFJ": {
           "name": "고드름 가죽",
-          "description": "<p>무기 없는 공격이나 도달 거리가 짧은 근접 공격으로 버그웜을 명중시킨 생물은 @Damage[1d8[피어싱]]의 피해를 받습니다 (@Check[reflex|dc:17|basic] 내성). 대실패 시, 해당 생물은 @Damage[1d4[persistent,cold]]의 피해도 받습니다."
+          "description": "<p>무기 없는 공격이나 도달 거리가 짧은 근접 공격으로 버그웜을 명중시킨 생물은 @Damage[1d8[piercing]]의 피해를 받습니다 (@Check[reflex|dc:17|basic] 내성). 대실패 시, 해당 생물은 @Damage[1d4[persistent,cold]]의 피해도 받습니다."
         },
         "44OCr1iqo3WbBDQH": {
-          "name": "잡기",
+          "name": "붙잡기",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
         }
       }
@@ -405,7 +405,7 @@
         },
         "rGTmjeER3V1KY02w": {
           "name": "빠른 삼키기",
-          "description": "<p><strong>트리거</strong> 보라색 벌레 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{잡기}로 생물을 잡습니다.</p>\n<hr />\n<p><strong>효과</strong> 벌레는 Swallow Whole를 사용합니다.</p>"
+          "description": "<p><strong>트리거</strong> 보라색 벌레 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}로 생물을 잡습니다.</p>\n<hr />\n<p><strong>효과</strong> 벌레는 Swallow Whole를 사용합니다.</p>"
         },
         "53LkbbyoyISSppMe": {
           "name": "보라색 벌레의 맹독",
@@ -428,7 +428,7 @@
           "description": "<p>웜은 도달 가능한 모든 생물에게 한 번씩 공격을 합니다. 턱으로 한 번, 침으로 한 번, 몸으로 여러 번 공격할 수 있습니다. 각 공격은 웜의 다중 공격 페널티에 포함되지만, 다중 공격 페널티는 모든 공격을 마친 후에야 증가합니다."
         },
         "TKaqHg2KqjNmg24t": {
-          "name": "개선된 잡기",
+          "name": "향상된 붙잡기",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ImprovedGrab]</p>"
         }
       }
@@ -474,7 +474,7 @@
           "description": "<p>Fasiel은 다음 턴이 시작될 때까지 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 되는 무모한 공격으로 끊임없는 분노를 발산합니다. 그는 공격을 하고, 명중하면 피해 주사위 수를 1개 늘리고 @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.t6cx9FOODmeZQNYl]{Push}를 효과에 추가합니다. 이는 그의 다중 공격 페널티에 대해 2회의 공격으로 간주됩니다."
         },
         "0wqFlm8L407f7apV": {
-          "name": "잡기",
+          "name": "붙잡기",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
         },
         "dJT018LZV3FEJvJO": {
@@ -500,7 +500,7 @@
       "hpdetails": "",
       "items": {
         "4LeRt1l6t3cdOZzq": {
-          "name": "강화된 암흑 시력",
+          "name": "향상된 암흑 시야",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.GreaterDarkvision]</p>"
         },
         "uLKGOD24rA4zKuVY": {
@@ -543,7 +543,7 @@
         },
         "QEvRlTqwOEac04ov": {
           "name": "부착",
-          "description": "<p>혈액 추적자가 자신보다 큰 목표물을 공격할 때, 그 가시 달린 다리가 그 생물체에 붙습니다. 이는 생물을 잡는 것과 비슷하지만, 블러드시커는 생물을 제자리에 고정시키는 것이 아니라 그 생물과 함께 이동합니다. </p>\n<p>블러드시커는 붙어 있는 동안 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 됩니다. 블러드시커가 피를 흡수한 생물에게 붙어 있는 상태에서 죽거나 밀려나면, 그 생물은 @Damage[1[출혈]]의 피해를 받습니다. </p>\n<p>붙어 있는 상태에서 탈출하거나 다른 방법으로 블러드시커를 제거해도 출혈 피해는 발생하지 않습니다. </p>"
+          "description": "<p>혈액 추적자가 자신보다 큰 목표물을 공격할 때, 그 가시 달린 다리가 그 생물체에 붙습니다. 이는 생물을 잡는 것과 비슷하지만, 블러드시커는 생물을 제자리에 고정시키는 것이 아니라 그 생물과 함께 이동합니다. </p>\n<p>블러드시커는 붙어 있는 동안 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 됩니다. 블러드시커가 피를 흡수한 생물에게 붙어 있는 상태에서 죽거나 밀려나면, 그 생물은 @Damage[1[bleed]]의 피해를 받습니다. </p>\n<p>붙어 있는 상태에서 탈출하거나 다른 방법으로 블러드시커를 제거해도 출혈 피해는 발생하지 않습니다. </p>"
         },
         "YwidZ8QmOJ85iLcw": {
           "name": "피 흡수",
@@ -677,7 +677,7 @@
       "items": {
         "W983saQxv6GdNJtZ": {
           "name": "전진하는 화려한 동작",
-          "description": "<p>Tascio는 두 번의 스트라이드를 합니다. 적의 근접 공격 범위 내에서 이동을 끝낸 경우, @UUID[Compendium.pf2e.actionspf2e.Item.QNAVeNKtHA0EUw4X]{Feint}를 사용할 수 있습니다."
+          "description": "<p>Tascio는 두 번의 이동를 합니다. 적의 근접 공격 범위 내에서 이동을 끝낸 경우, @UUID[Compendium.pf2e.actionspf2e.Item.QNAVeNKtHA0EUw4X]{Feint}를 사용할 수 있습니다."
         },
         "pQKg4sOa8cxiKDGH": {
           "name": "기동력",
@@ -707,18 +707,18 @@
       "items": {
         "uEjliLhQWBsVYCsE": {
           "name": "Maul",
-          "description": "<p>표범은 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} 상태인 생물에게 두 번의 발톱 공격을 합니다. 두 공격 모두 다중 공격 페널티에 포함되지만, 페널티는 두 공격이 모두 끝난 후에 증가합니다."
+          "description": "<p>표범은 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 상태인 생물에게 두 번의 발톱 공격을 합니다. 두 공격 모두 다중 공격 페널티에 포함되지만, 페널티는 두 공격이 모두 끝난 후에 증가합니다."
         },
         "iuFRjKw2PLJl3E3F": {
           "name": "도약",
-          "description": "<p>표범은 스트라이드를 하고 그 이동이 끝날 때 공격을 합니다. 표범이 이 행동을 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨겨진 상태}에서 시작하면, 이 능력의 공격이 끝날 때까지 숨겨진 상태로 남아 있습니다."
+          "description": "<p>표범은 이동를 하고 그 이동이 끝날 때 공격을 합니다. 표범이 이 행동을 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨겨진 상태}에서 시작하면, 이 능력의 공격이 끝날 때까지 숨겨진 상태로 남아 있습니다."
         },
         "8Hc25NUrYBwSHQuO": {
           "name": "암습",
           "description": "<p>표범은 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태의 생물에게 1d4의 추가 정밀 피해를 입힙니다."
         },
         "5o4Qh26axxAvJeUp": {
-          "name": "잡기",
+          "name": "붙잡기",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]"
         }
       }
@@ -808,7 +808,7 @@
         },
         "deXYiHJyBjDSNFF5": {
           "name": "Grasping Bites",
-          "description": "<p>코블스웜은 @Check[athletics] 체크를 시도하고 그 결과를 자신의 공간에 있는 각 생물의 Fortitude DC와 비교합니다. 이는 코블스웜의 다중 공격 페널티에 대해 두 번의 공격으로 계산됩니다. </p>\n<hr />\n<p><strong>대성공</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} 상태가 되고, @Damage[1d6[bludgeoning]] 피해를 받고, 코블스웜의 다음 턴이 끝날 때까지 코블스웜에 의해 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} 상태가 됩니다. </p>\n<p><strong>성공</strong> 생물이 쓰러집니다. </p>"
+          "description": "<p>코블스웜은 @Check[athletics] 체크를 시도하고 그 결과를 자신의 공간에 있는 각 생물의 Fortitude DC와 비교합니다. 이는 코블스웜의 다중 공격 페널티에 대해 두 번의 공격으로 계산됩니다. </p>\n<hr />\n<p><strong>대성공</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} 상태가 되고, @Damage[1d6[bludgeoning]] 피해를 받고, 코블스웜의 다음 턴이 끝날 때까지 코블스웜에 의해 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 상태가 됩니다. </p>\n<p><strong>성공</strong> 생물이 쓰러집니다. </p>"
         },
         "MdAaSnMbM5KOAlWl": {
           "name": "Pummeling Assault",
@@ -858,7 +858,7 @@
         },
         "5cf5c4QvVxAQ2DpC": {
           "name": "돌진",
-          "description": "<p>아라부크는 스트라이드를 하고 그 이동이 끝날 때 공격을 합니다. 아라부크가 이 행동을 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} 상태에서 시작하면, 이 능력의 공격이 끝날 때까지 숨겨진 상태로 남아 있습니다."
+          "description": "<p>아라부크는 이동를 하고 그 이동이 끝날 때 공격을 합니다. 아라부크가 이 행동을 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} 상태에서 시작하면, 이 능력의 공격이 끝날 때까지 숨겨진 상태로 남아 있습니다."
         },
         "IjVhdoG1O0Tobs4K": {
           "name": "리버브",
@@ -881,14 +881,14 @@
         },
         "T7L2FMHmpDoURw0s": {
           "name": "붙어 있는 빨판",
-          "description": "<p>스밀글렌 데트가 자신보다 큰 생물을 @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.Tkd8sH4pwFIPzqTr]{잡을} 때, 그 생물에 붙어 있습니다. @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{잡힌} 생물은 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{동결} 상태가 아니지만, 해당 생물이 움직이면 스밀글렌도 함께 움직입니다. 생물이 중형 이하인 경우, 스밀글렌이 붙어 있는 동안 이동 속도가 -5 피트 감소합니다. 스밀글렌은 생물에게 붙어 있는 동안 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 됩니다."
+          "description": "<p>스밀글렌 데트가 자신보다 큰 생물을 @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.Tkd8sH4pwFIPzqTr]{잡을} 때, 그 생물에 붙어 있습니다. @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 생물은 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{동결} 상태가 아니지만, 해당 생물이 움직이면 스밀글렌도 함께 움직입니다. 생물이 중형 이하인 경우, 스밀글렌이 붙어 있는 동안 이동 속도가 -5 피트 감소합니다. 스밀글렌은 생물에게 붙어 있는 동안 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 됩니다."
         },
         "ftJSskhqjZaMBNyZ": {
           "name": "제트",
           "description": "<p>스밀글렌은 반응을 유발하지 않고 물속을 직선으로 최대 60피트까지 이동합니다."
         },
         "4PmFH52nJw8E0Xwl": {
-          "name": "잡기",
+          "name": "붙잡기",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]"
         }
       }
@@ -900,7 +900,7 @@
       "items": {
         "vrNHUkA6Gn1YqT7h": {
           "name": "그림자 슬링크",
-          "description": "<p><strong>요건</strong> 페츨링 스닉이 희미한 빛이나 어둠이 있는 지역에 있습니다</p>\n<hr />\n<p><strong>효과</strong> 페츨링 스닉은 적을 매복하기 위해 움직일 때 그림자에 붙어 있습니다. 페츨링 스닉은 자신의 속도의 절반까지 스트라이드하고 공격을 합니다. 스닉의 대상은 이 공격에 대해 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태입니다. 페츨링 스닉은 자신의 전체 속도로 스트라이드를 할 수 있지만, 그렇게 하면 스닉의 공격에 -2의 페널티가 적용됩니다."
+          "description": "<p><strong>요건</strong> 페츨링 스닉이 희미한 빛이나 어둠이 있는 지역에 있습니다</p>\n<hr />\n<p><strong>효과</strong> 페츨링 스닉은 적을 매복하기 위해 움직일 때 그림자에 붙어 있습니다. 페츨링 스닉은 자신의 속도의 절반까지 이동하고 공격을 합니다. 스닉의 대상은 이 공격에 대해 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태입니다. 페츨링 스닉은 자신의 전체 속도로 이동를 할 수 있지만, 그렇게 하면 스닉의 공격에 -2의 페널티가 적용됩니다."
         },
         "XJae0YEaI6yJHz4y": {
           "name": "암습",
@@ -946,7 +946,7 @@
         },
         "ck37LN0pcQmPLf0a": {
           "name": "부대 이동",
-          "description": "<p>부대가 스트라이드를 할 때마다, 먼저 자유 행동으로 20피트 x 20피트 영역(누락된 칸은 제외)으로 응축한 다음, 속도로 이동합니다. 이는 거대 생물이 이동하는 것과 동일하게 작동합니다. 예를 들어, 부대의 칸이 어려운 지형에 들어간 경우, 추가 이동 비용이 부대 전체에 적용됩니다."
+          "description": "<p>부대가 이동를 할 때마다, 먼저 자유 행동으로 20피트 x 20피트 영역(누락된 칸은 제외)으로 응축한 다음, 속도로 이동합니다. 이는 거대 생물이 이동하는 것과 동일하게 작동합니다. 예를 들어, 부대의 칸이 어려운 지형에 들어간 경우, 추가 이동 비용이 부대 전체에 적용됩니다."
         }
       }
     },
@@ -968,7 +968,7 @@
           "description": "<p>그림자 수호자는 그림자로 뒤덮여 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{은폐} 상태가 됩니다. 이 효과의 특성상 수호자의 위치가 명확하게 드러나기 때문에, 이 은폐를 사용하여 숨거나 몰래 다닐 수 없습니다. 이 효과는 1분 동안 지속되거나 직사광선에 노출될 때까지 지속됩니다. 둘 중 먼저 발생하는 쪽이 우선입니다."
         },
         "e3yVen7RiFeaVHWi": {
-          "name": "잡기",
+          "name": "붙잡기",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
         }
       }
@@ -1014,7 +1014,7 @@
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Ferocity]</p>"
         },
         "ZIkUyqg59QsIsvFA": {
-          "name": "방패 차단",
+          "name": "방패 막기",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ShieldBlock]</p>"
         },
         "G4sIbpytX2MVZOmN": {
@@ -1042,7 +1042,7 @@
       "items": {
         "JhtGLa6CH0z7UTJ4": {
           "name": "폭발성 하네스",
-          "description": "<p>쥐는 불길한 1분짜리 회중시계가 달린 폭발성 하네스에 연결되어 있습니다. 하네스는 1분(10라운드)이 지나도 해제되지 않으면 폭발하고, 쥐가 화염 피해를 받으면 즉시 폭발합니다. 이 폭발은 쥐와 @Template[burst|distance:5]{5-foot burst} (@Check[reflex|dc:15|basic] 내성) 범위 내의 모든 생물에게 @Damage[2d6[fire]]의 피해를 주고, 그 주변에 있는 인화성 물체를 불태웁니다.</p>\n<p>쥐가 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grappled}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}, 또는 @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 잃은] 상태인 경우, 인접한 생물은 @Check[nature|dc:17] 또는 @Check[thievery|dc:17] 체크에 성공하거나 @Check[tanning-lore|dc:15] 체크에 성공하면 안전하게 하네스를 제거하고 무력화할 수 있습니다. 하네스를 무력화하려는 시도는 두 개의 행동을 소모합니다.</p>"
+          "description": "<p>쥐는 불길한 1분짜리 회중시계가 달린 폭발성 하네스에 연결되어 있습니다. 하네스는 1분(10라운드)이 지나도 해제되지 않으면 폭발하고, 쥐가 화염 피해를 받으면 즉시 폭발합니다. 이 폭발은 쥐와 @Template[burst|distance:5]{5-foot burst} (@Check[reflex|dc:15|basic] 내성) 범위 내의 모든 생물에게 @Damage[2d6[fire]]의 피해를 주고, 그 주변에 있는 인화성 물체를 불태웁니다.</p>\n<p>쥐가 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}, 또는 @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 잃은] 상태인 경우, 인접한 생물은 @Check[nature|dc:17] 또는 @Check[thievery|dc:17] 체크에 성공하거나 @Check[tanning-lore|dc:15] 체크에 성공하면 안전하게 하네스를 제거하고 무력화할 수 있습니다. 하네스를 무력화하려는 시도는 두 개의 행동을 소모합니다.</p>"
         }
       }
     },
@@ -1061,14 +1061,14 @@
         },
         "aQDe7We9BV7qqiIm": {
           "name": "감싸기",
-          "description": "<p><strong>요구 조건</strong> 거대 아메바는 자신의 크기 이하의 목표물을 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{잡힌} 상태로 자신의 턴을 시작합니다.</p>\n<hr />\n<p><strong>효과</strong> 거대한 아메바는 @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.Tkd8sH4pwFIPzqTr]{Grab} 상태를 유지하며 가짜 다리를 확장해 생물을 둘러싸고 아메바의 몸 안으로 끌어당깁니다. 그 후에는 아메바가 @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.zU3Ovaet4xQ5Gmvy]{삼키기}를 한 것과 같은 효과가 발생합니다 (DC 17, @Damage[1d6[acid]] 피해, 탈출 DC 17, 파열 3).</p>"
+          "description": "<p><strong>요구 조건</strong> 거대 아메바는 자신의 크기 이하의 목표물을 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 상태로 자신의 턴을 시작합니다.</p>\n<hr />\n<p><strong>효과</strong> 거대한 아메바는 @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.Tkd8sH4pwFIPzqTr]{붙잡기} 상태를 유지하며 가짜 다리를 확장해 생물을 둘러싸고 아메바의 몸 안으로 끌어당깁니다. 그 후에는 아메바가 @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.zU3Ovaet4xQ5Gmvy]{삼키기}를 한 것과 같은 효과가 발생합니다 (DC 17, @Damage[1d6[acid]] 피해, 탈출 DC 17, 파열 3).</p>"
         },
         "eQGUATVlHv8iZ97x": {
           "name": "약산",
           "description": "<p>거대 아메바의 산은 금속, 돌, 기타 무기물 등 유기 물질에만 피해를 줍니다."
         },
         "zcMAmOWmYshvH5lq": {
-          "name": "잡기",
+          "name": "붙잡기",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]"
         }
       }
@@ -1088,7 +1088,7 @@
         },
         "hyLN8l8Z2WSxFAXC": {
           "name": "달리면서 재장전",
-          "description": "<p>9 군 병사는 스트라이드, 스텝 또는 스닉을 한 다음, 상호 작용을 통해 재장전합니다."
+          "description": "<p>9 군 병사는 이동, @UUID[Compendium.pf2e.actionspf2e.Item.UHpkTuCtyaPqiCAB]{신중한 발걸음} 또는 스닉을 한 다음, 상호 작용을 통해 재장전합니다."
         }
       }
     },
@@ -1194,7 +1194,7 @@
           "description": "<p>@Damage[(1d8+10)[bludgeoning]], @Check[fortitude|dc:23|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p>"
         },
         "szOXmGRlqUi0rBbN": {
-          "name": "Grab",
+          "name": "붙잡기",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
         }
       }
@@ -1326,7 +1326,7 @@
         },
         "1p7ZUpKG4O6NR5Ia": {
           "name": "그림자 보행",
-          "description": "<p><strong>요구 조건</strong> 지휘관이 어두운 빛에 노출되어 있습니다</p>\n<hr />\n<p><strong>효과</strong> 지휘관이 스트라이드를 수행합니다. 이 스트라이드 동안 속도에 +10피트 상태 보너스가 적용됩니다. 이 스트라이드 동안 그림자 혼합으로 인한 DC는 @Check[flat|dc:11]로 증가하며, 지휘관은 스트라이드 동안 희미한 빛을 벗어나더라도 이동이 끝날 때까지 희미한 빛에 의해 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} 상태로 남아 있습니다."
+          "description": "<p><strong>요구 조건</strong> 지휘관이 어두운 빛에 노출되어 있습니다</p>\n<hr />\n<p><strong>효과</strong> 지휘관이 이동를 수행합니다. 이 이동 동안 속도에 +10피트 상태 보너스가 적용됩니다. 이 이동 동안 그림자 혼합으로 인한 DC는 @Check[flat|dc:11]로 증가하며, 지휘관은 이동 동안 희미한 빛을 벗어나더라도 이동이 끝날 때까지 희미한 빛에 의해 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} 상태로 남아 있습니다."
         },
         "mWALalYwGai6ngEU": {
           "name": "암습",
@@ -1542,7 +1542,7 @@
           "description": "<p>Fasiel은 자신의 끊임없는 분노를 무모한 공격으로 발산하여 다음 턴이 시작될 때까지 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 됩니다. 그는 공격을 하고, 명중하면 피해 주사위 수를 1개 늘리고 @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.t6cx9FOODmeZQNYl]{Push}를 효과에 추가합니다. 이는 그의 다중 공격 페널티에 대해 2회의 공격으로 간주됩니다."
         },
         "0wqFlm8L407f7apV": {
-          "name": "잡기",
+          "name": "붙잡기",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
         },
         "dJT018LZV3FEJvJO": {
@@ -1566,7 +1566,7 @@
         },
         "1p7ZUpKG4O6NR5Ia": {
           "name": "그림자 보행",
-          "description": "<p><strong>요구 조건</strong> 장교가 어두운 빛 속에 있습니다</p>\n<hr />\n<p><strong>효과</strong> 장교가 스트라이드를 수행합니다. 이 스트라이드 동안 속도에 +10피트 상태 보너스가 적용됩니다. 이 스트라이드 동안 그림자 혼합으로 인한 DC는 @Check[flat|dc:11]로 증가하며, 장교는 스트라이드 중에 희미한 빛을 벗어나더라도 이동이 끝날 때까지 희미한 빛에 의해 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} 상태로 남아 있습니다."
+          "description": "<p><strong>요구 조건</strong> 장교가 어두운 빛 속에 있습니다</p>\n<hr />\n<p><strong>효과</strong> 장교가 이동를 수행합니다. 이 이동 동안 속도에 +10피트 상태 보너스가 적용됩니다. 이 이동 동안 그림자 혼합으로 인한 DC는 @Check[flat|dc:11]로 증가하며, 장교는 이동 중에 희미한 빛을 벗어나더라도 이동이 끝날 때까지 희미한 빛에 의해 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} 상태로 남아 있습니다."
         },
         "mWALalYwGai6ngEU": {
           "name": "암습",
@@ -1643,7 +1643,7 @@
         },
         "5cf5c4QvVxAQ2DpC": {
           "name": "돌진",
-          "description": "<p>젊은 아라부크는 스트라이드를 하고 그 이동이 끝날 때 공격을 합니다. 아라부크가 이 행동을 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden}에서 시작하면, 이 능력의 공격이 끝날 때까지 숨겨진 상태로 남아 있습니다."
+          "description": "<p>젊은 아라부크는 이동를 하고 그 이동이 끝날 때 공격을 합니다. 아라부크가 이 행동을 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden}에서 시작하면, 이 능력의 공격이 끝날 때까지 숨겨진 상태로 남아 있습니다."
         },
         "pEBPYHWxT2jukxE7": {
           "name": "눈 위를 걷기",
@@ -1695,7 +1695,7 @@
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Ferocity]</p>"
         },
         "ZIkUyqg59QsIsvFA": {
-          "name": "방패 차단",
+          "name": "방패 막기",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ShieldBlock]</p>"
         },
         "G4sIbpytX2MVZOmN": {
@@ -1727,18 +1727,18 @@
         },
         "DicxiMfpeviQRxSo": {
           "name": "당기기",
-          "description": "<p>드라카우티스는 자신이 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{잡힌} 상태인 모든 생물을 자신에게 15피트 가까이 당깁니다.</p>"
+          "description": "<p>드라카우티스는 자신이 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 상태인 모든 생물을 자신에게 15피트 가까이 당깁니다.</p>"
         },
         "OuwilwDvrI1Rqfzi": {
           "name": "포자 덩굴",
-          "description": "<p>드라카우티스의 몸을 덮고 있는 덩굴이 뻗어나가 인접한 생물들을 감염시켜 @Damage[4d6[poison]]의 피해와 @Damage[1d6[persistent,poison]]의 피해를 입힙니다. 생물은 @Check[reflex|dc:27|basic] 내성을 시도하여 이 피해를 줄일 수 있지만, 드라카우티스에 의해 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{잡힌} 1회당 이 내성에 -4의 상황 페널티가 적용됩니다. </p>"
+          "description": "<p>드라카우티스의 몸을 덮고 있는 덩굴이 뻗어나가 인접한 생물들을 감염시켜 @Damage[4d6[poison]]의 피해와 @Damage[1d6[persistent,poison]]의 피해를 입힙니다. 생물은 @Check[reflex|dc:27|basic] 내성을 시도하여 이 피해를 줄일 수 있지만, 드라카우티스에 의해 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 1회당 이 내성에 -4의 상황 페널티가 적용됩니다. </p>"
         },
         "fOnFVdptokDlFcTW": {
           "name": "갈고리 회오리",
           "description": "<p>드라카우티스는 소용돌이치며 주변의 생물들을 휘젓습니다. 드라카우티스는 자신의 도달 범위 내에 있는 모든 생물에게 촉수 공격을 합니다."
         },
         "cL9t5xg0FTPCRpjR": {
-          "name": "개선된 잡기",
+          "name": "향상된 붙잡기",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ImprovedGrab]"
         }
       }
@@ -1750,7 +1750,7 @@
       "items": {
         "vrNHUkA6Gn1YqT7h": {
           "name": "그림자 슬링크",
-          "description": "<p><strong>요건</strong> 페츨링 스닉이 희미한 빛이나 어둠이 있는 지역에 있습니다</p>\n<hr />\n<p><strong>효과</strong> 페츨링 스닉은 적을 매복하기 위해 움직이는 동안 그림자에 붙어 있습니다. 페츨링 스닉은 자신의 속도의 절반까지 스트라이드하고 공격을 합니다. 스닉의 대상은 이 공격에 대해 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 됩니다. 페츨링 스닉은 자신의 전체 속도로 스트라이드할 수 있지만, 그렇게 하면 스닉의 공격에 -2의 페널티가 적용됩니다."
+          "description": "<p><strong>요건</strong> 페츨링 스닉이 희미한 빛이나 어둠이 있는 지역에 있습니다</p>\n<hr />\n<p><strong>효과</strong> 페츨링 스닉은 적을 매복하기 위해 움직이는 동안 그림자에 붙어 있습니다. 페츨링 스닉은 자신의 속도의 절반까지 이동하고 공격을 합니다. 스닉의 대상은 이 공격에 대해 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 됩니다. 페츨링 스닉은 자신의 전체 속도로 이동할 수 있지만, 그렇게 하면 스닉의 공격에 -2의 페널티가 적용됩니다."
         },
         "GIjLcBqEommmyEgq": {
           "name": "암습",
@@ -1773,7 +1773,7 @@
         },
         "QEvRlTqwOEac04ov": {
           "name": "부착",
-          "description": "<p>블러드시커가 자신보다 큰 목표물을 공격할 때, 그 가시 달린 다리로 그 생물체에 부착됩니다. 이는 생물을 잡는 것과 비슷하지만, 블러드시커는 생물을 제자리에 고정시키는 것이 아니라 그 생물과 함께 이동합니다. </p>\n<p>블러드시커는 붙어 있는 동안 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 됩니다. 블러드시커가 피를 흡수한 생물에게 붙어 있는 상태에서 죽거나 밀려나면, 그 생물은 @Damage[1[출혈]]의 피해를 받습니다. </p>\n<p>붙어 있는 상태에서 탈출하거나 다른 방법으로 블러드시커를 제거해도 출혈 피해는 발생하지 않습니다. </p>"
+          "description": "<p>블러드시커가 자신보다 큰 목표물을 공격할 때, 그 가시 달린 다리로 그 생물체에 부착됩니다. 이는 생물을 잡는 것과 비슷하지만, 블러드시커는 생물을 제자리에 고정시키는 것이 아니라 그 생물과 함께 이동합니다. </p>\n<p>블러드시커는 붙어 있는 동안 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 됩니다. 블러드시커가 피를 흡수한 생물에게 붙어 있는 상태에서 죽거나 밀려나면, 그 생물은 @Damage[1[bleed]]의 피해를 받습니다. </p>\n<p>붙어 있는 상태에서 탈출하거나 다른 방법으로 블러드시커를 제거해도 출혈 피해는 발생하지 않습니다. </p>"
         },
         "YwidZ8QmOJ85iLcw": {
           "name": "피 흡수",
@@ -1827,7 +1827,7 @@
         },
         "5cf5c4QvVxAQ2DpC": {
           "name": "도약",
-          "description": "<p>아라부크는 스트라이드를 하고 그 이동이 끝날 때 공격을 합니다. 아라부크가 이 행동을 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} 상태에서 시작하면, 이 능력의 공격이 끝날 때까지 숨겨진 상태로 남아 있습니다."
+          "description": "<p>아라부크는 이동를 하고 그 이동이 끝날 때 공격을 합니다. 아라부크가 이 행동을 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} 상태에서 시작하면, 이 능력의 공격이 끝날 때까지 숨겨진 상태로 남아 있습니다."
         },
         "IjVhdoG1O0Tobs4K": {
           "name": "리버브",
@@ -1876,7 +1876,7 @@
         },
         "vrNHUkA6Gn1YqT7h": {
           "name": "그림자 슬링크",
-          "description": "<p><strong>요건</strong> 페츨링 스닉이 희미한 빛이나 어둠이 있는 지역에 있습니다. </p>\n<hr />\n<p><strong>효과</strong> 페츨링 스닉은 적을 매복하기 위해 이동할 때 그림자 속에 숨어 있습니다. 페츨링 스닉은 자신의 속도의 절반까지 스트라이드하고 공격을 합니다. 스닉의 대상은 이 공격에 대해 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 됩니다. 페츨링 스닉은 자신의 전체 속도로 스트라이드를 할 수 있지만, 그렇게 하면 스닉의 공격에 -2의 페널티가 적용됩니다."
+          "description": "<p><strong>요건</strong> 페츨링 스닉이 희미한 빛이나 어둠이 있는 지역에 있습니다. </p>\n<hr />\n<p><strong>효과</strong> 페츨링 스닉은 적을 매복하기 위해 이동할 때 그림자 속에 숨어 있습니다. 페츨링 스닉은 자신의 속도의 절반까지 이동하고 공격을 합니다. 스닉의 대상은 이 공격에 대해 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 됩니다. 페츨링 스닉은 자신의 전체 속도로 이동를 할 수 있지만, 그렇게 하면 스닉의 공격에 -2의 페널티가 적용됩니다."
         },
         "pDkPtxRE7DVKx9QC": {
           "name": "암습",
@@ -1894,11 +1894,11 @@
           "description": "<p>재 쥐는 연기에서 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} 상태를 무시합니다.</p>"
         },
         "SfW52dbCFSwVOdRf": {
-          "name": "압박",
+          "name": "압착",
           "description": "<p>@Damage[(1d6+4)[fire]] 피해, @Check[fortitude|dc:20|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p>"
         },
         "H6Ul1UJtDLObYIMF": {
-          "name": "Grab",
+          "name": "붙잡기",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
         }
       }
@@ -2036,7 +2036,7 @@
           "description": "<p>그림자 수호자는 그림자로 뒤덮여 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed}가 됩니다. 이 효과의 특성상 수호자의 위치가 명확하게 드러나기 때문에, 이 은폐를 사용하여 숨거나 몰래 움직일 수 없습니다. 이 효과는 1분 동안 지속되거나 직사광선에 노출될 때까지 지속됩니다. 둘 중 먼저 발생하는 쪽이 우선입니다."
         },
         "LsybSXyhdrVdj4j3": {
-          "name": "잡기",
+          "name": "붙잡기",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
         }
       }
@@ -2210,7 +2210,7 @@
           "description": "<p><strong>요건</strong> 쿠 시스는 턱에 대형 이하 크기의 생물을 물고 있습니다</p>\n<hr />\n<p><strong>효과</strong> 쿠 시스는 먹이를 사납게 흔듭니다. 쿠 시스는 물고 있는 생물에게 턱 공격을 하고, 공격 롤에 +2의 상황 보너스를 받습니다. 쿠 시스가 명중하면, 턱 피해가 적용되고, 잡기 상태가 유지되며, 운동 능력 체크를 통해 @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{Disarm} 대상이 들고 있는 모든 것을 빼앗으려고 시도합니다. 명중하지 않으면, 쿠 시스는 생물을 놓아줍니다."
         },
         "XyL3cp6QDg1bDLxY": {
-          "name": "잡기",
+          "name": "붙잡기",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
         }
       }
@@ -2257,14 +2257,14 @@
         },
         "6uvSpdy8ezlFUIIo": {
           "name": "Shred Flesh",
-          "description": "<p>샨리고르는 대상의 살을 큰 덩어리로 찢어냅니다. 샨리고르의 살을 찢는 공격에 치명타를 받은 생물은 추가 @Damage[1d6[출혈]]의 피해를 받고, 출혈이 지속되는 동안 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 1} 상태가 됩니다. "
+          "description": "<p>샨리고르는 대상의 살을 큰 덩어리로 찢어냅니다. 샨리고르의 살을 찢는 공격에 치명타를 받은 생물은 추가 @Damage[1d6[bleed]]의 피해를 받고, 출혈이 지속되는 동안 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 1} 상태가 됩니다. "
         },
         "UV3vQl5jrXwr1wQh": {
           "name": "파도치는 발걸음",
           "description": "<p>산리골은 뼈에서 살을 분리해 작은 공간을 통과합니다. 그것은 어려운 지형을 무시하고 좁은 공간을 통과하며, 마치 작은 생물처럼 움직입니다. 정상적인 형태로 돌아갈 수 있을 때까지는 파도치는 걸음 외의 다른 행동을 사용할 수 없습니다.</p>"
         },
         "VWWosu7Wvs4yAKZy": {
-          "name": "잡기",
+          "name": "붙잡기",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
         }
       }
@@ -2344,7 +2344,7 @@
         },
         "uRQUbYaddKHdfNtE": {
           "name": "그림자 스와이프",
-          "description": "<p><strong>효과</strong> 오닉스 얼라이언스 집행자가 근접 공격을 합니다. 공격이 적중하면 집행관은 스트라이드를 사용합니다. 집행관이 이 이동을 어두운 빛이나 어둠 속에서 끝내면 @UUID[Compendium.pf2e.action-macros.Macro.FlM3HvpnsZpCKawG]{숨기: 은신}을 시도할 수 있습니다. </p>"
+          "description": "<p><strong>효과</strong> 오닉스 얼라이언스 집행자가 근접 공격을 합니다. 공격이 적중하면 집행관은 이동를 사용합니다. 집행관이 이 이동을 어두운 빛이나 어둠 속에서 끝내면 @UUID[Compendium.pf2e.action-macros.Macro.FlM3HvpnsZpCKawG]{숨기: 은신}을 시도할 수 있습니다. </p>"
         }
       }
     },
@@ -2363,18 +2363,18 @@
         },
         "DicxiMfpeviQRxSo": {
           "name": "끌어당기기",
-          "description": "<p>노령의 드라카우티크스는 자신이 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{잡힌} 상태인 모든 생물을 자신에게 15피트 가까이 끌어당깁니다.</p>"
+          "description": "<p>노령의 드라카우티크스는 자신이 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 상태인 모든 생물을 자신에게 15피트 가까이 끌어당깁니다.</p>"
         },
         "OuwilwDvrI1Rqfzi": {
           "name": "포자 줄기",
-          "description": "<p>드라카우티스의 몸을 덮고 있는 줄기가 뻗어나가 인접한 생물들을 감염시켜 @Damage[5d6[poison]]의 피해와 @Damage[1d6[persistent,poison]]의 피해를 입힙니다. 생물은 @Check[reflex|dc:29|basic] 내성을 시도하여 이 피해를 줄일 수 있지만, 드라카우티스에 의해 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{잡힌} 생물은 이 내성에 -4의 상황 페널티를 받습니다."
+          "description": "<p>드라카우티스의 몸을 덮고 있는 줄기가 뻗어나가 인접한 생물들을 감염시켜 @Damage[5d6[poison]]의 피해와 @Damage[1d6[persistent,poison]]의 피해를 입힙니다. 생물은 @Check[reflex|dc:29|basic] 내성을 시도하여 이 피해를 줄일 수 있지만, 드라카우티스에 의해 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 생물은 이 내성에 -4의 상황 페널티를 받습니다."
         },
         "fOnFVdptokDlFcTW": {
           "name": "고리 회오리",
           "description": "<p>드라카우티스는 소용돌이치며 주변의 생물들을 휘젓습니다. 드라카우티스는 자신의 도달 범위 내에 있는 모든 생물에게 촉수 공격을 합니다."
         },
         "cL9t5xg0FTPCRpjR": {
-          "name": "개선된 잡기",
+          "name": "향상된 붙잡기",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ImprovedGrab]"
         }
       }
@@ -2431,7 +2431,7 @@
           "description": "<p>@Damage[(1d8+7)[bludgeoning]], @Check[fortitude|dc:20|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p>"
         },
         "szOXmGRlqUi0rBbN": {
-          "name": "Grab",
+          "name": "붙잡기",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
         }
       }
@@ -2470,7 +2470,7 @@
         },
         "z8Vh23jCIh7iroYs": {
           "name": "스웜 스팅",
-          "description": "<p>무리의 공간에 있는 각 적들은 @Damage[2d8[피어싱]]의 피해를 받고 (@Check[반사|dc:21|기본] 내성) 말벌의 맹독에 노출됩니다. 내성 체크에 성공하면 독에 노출되지 않습니다."
+          "description": "<p>무리의 공간에 있는 각 적들은 @Damage[2d8[piercing]]의 피해를 받고 (@Check[반사|dc:21|기본] 내성) 말벌의 맹독에 노출됩니다. 내성 체크에 성공하면 독에 노출되지 않습니다."
         },
         "OwDiH7gzfhf1i4hu": {
           "name": "말벌의 맹독",
@@ -2495,7 +2495,7 @@
       "hpdetails": "",
       "items": {
         "vcagOOSLrsql4x5q": {
-          "name": "강화된 암흑 시력",
+          "name": "향상된 암흑 시야",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.GreaterDarkvision]</p>"
         },
         "r5EbpWj3YsFSBL2K": {
@@ -2509,8 +2509,8 @@
       }
     },
     "Nuglub (PFS 3-18)": {
-      "name": "누글럽 (PFS 3-18)",
-      "description": "<p>거대한 등굽은 Nuglub은 그레민 중 가장 큰 종족 중 하나이지만, 키는 3피트에 미치지 않습니다. Nuglub은 세 개의 빛나는 파란 눈과 머리 및 등 부분에 검은 기름진 털을 가지고 있으며, 이 털은 망토처럼 몸을 감싸고 있습니다. Nuglub은 다른 그레민들이 sabotage에 사용하는 즐거움을 살인에 쏟습니다. 실제로 그들은 경계하지 않는 여행자들을 위한 매복을 준비하거나 잠든 마을 주민들의 살인을 계획하는 데 오랜 시간을 보냅니다. 기술적 측면에서는 친척들보다 덜 능숙하지만, 누글럽은 함정을 만드는 것을 즐깁니다. 그들은 피해자들이 익숙하다고 생각하는 장소, 예를 들어 현관문이나 침대 주변의 바닥 등에 몰래 함정을 설치하는 것을 좋아합니다. 누글럽이 저지른 혼란이 다른 사람에게 책임이 전가되면 더할 나위 없이 좋습니다. 전투에서 누글럽은 금속 갑옷을 입은 대상을 포커스로 삼습니다. 일부는 이것을 누글럽이 자신의 뒤틀린 몸에 갑옷을 입기 어렵기 때문에 생기는 부러움 때문이라고 생각합니다. 누글럽은 주변에 있는 사람들을 걸려 넘어지게 하고 쓰러뜨리는 데 특히 능숙합니다. 적군이 땅에 쓰러지면 모든 nuglub이 목표물에 몰려들어 물어뜯고 긁어대며 아무것도 남지 않을 때까지 공격합니다.</p>\n<p>nuglub은 보통 6마리 이상으로 모이지 않습니다. 다툼이 자주 폭력과 식인 행위로 이어지기 때문입니다. 작은 gremlin 무리를 괴롭히는 단독 nuglub은 자신의 뜻을 관철하기 쉬우며, 따라서 동맹을 공격할 가능성이 낮습니다.</p>",
+      "name": "너글럽 (PFS 3-18)",
+      "description": "<p>거대한 등굽은 너글럽은 그렘린 중 가장 큰 종족 중 하나이지만, 키는 3피트에 미치지 않습니다. 너글럽은 세 개의 빛나는 파란 눈과 머리 및 등 부분에 검은 기름진 털을 가지고 있으며, 이 털은 망토처럼 몸을 감싸고 있습니다. 너글럽은 다른 그렘린들이 sabotage에 사용하는 즐거움을 살인에 쏟습니다. 실제로 그들은 경계하지 않는 여행자들을 위한 매복을 준비하거나 잠든 마을 주민들의 살인을 계획하는 데 오랜 시간을 보냅니다. 기술적 측면에서는 친척들보다 덜 능숙하지만, 너글럽은 함정을 만드는 것을 즐깁니다. 그들은 피해자들이 익숙하다고 생각하는 장소, 예를 들어 현관문이나 침대 주변의 바닥 등에 몰래 함정을 설치하는 것을 좋아합니다. 너글럽이 저지른 혼란이 다른 사람에게 책임이 전가되면 더할 나위 없이 좋습니다. 전투에서 너글럽은 금속 갑옷을 입은 대상을 포커스로 삼습니다. 일부는 이것을 너글럽이 자신의 뒤틀린 몸에 갑옷을 입기 어렵기 때문에 생기는 부러움 때문이라고 생각합니다. 너글럽은 주변에 있는 사람들을 걸려 넘어지게 하고 쓰러뜨리는 데 특히 능숙합니다. 적군이 땅에 쓰러지면 모든 너글럽이 목표물에 몰려들어 물어뜯고 긁어대며 아무것도 남지 않을 때까지 공격합니다.</p>\n<p>너글럽은 보통 6마리 이상으로 모이지 않습니다. 다툼이 자주 폭력과 식인 행위로 이어지기 때문입니다. 작은 그렘린 무리를 괴롭히는 단독 너글럽은 자신의 뜻을 관철하기 쉬우며, 따라서 동맹을 공격할 가능성이 낮습니다.</p>",
       "hpdetails": "",
       "items": {
         "FhwufRLfw0dtrKFI": {
@@ -2519,10 +2519,10 @@
         },
         "r2wdTDuuQV5dAWva": {
           "name": "암습",
-          "description": "<p>누글럽의 공격은 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 대상을 공격하거나, 대상이 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}인 경우 1d10 정밀 피해가 추가됩니다. </p>"
+          "description": "<p>너글럽의 공격은 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 대상을 공격하거나, 대상이 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}인 경우 1d10 정밀 피해가 추가됩니다. </p>"
         },
         "WmPbJSiwT9lndOlq": {
-          "name": "Grab",
+          "name": "붙잡기",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
         }
       }
@@ -2597,11 +2597,11 @@
     },
     "Glurorchaes (7-8)": {
       "name": "글루로르체 (7-8)",
-      "description": "<p>오스티아리우스는 벨스트라크의 사자로서 그림자 차원과 물질 차원 사이의 포털을 관리합니다. 그들은 다른 벨스트라크를 인간 세계로 안내하는 것뿐 아니라, 인간을 벨스트라크의 영역으로 유인하는 일을 합니다. 대부분의 인간은 그곳에서 결코 돌아오지 않습니다. 벨스트라크 중 가장 친절하고 설득력 있는 종족인 오스티아리우스는 어떤 주제라도 수 시간 동안 대화할 수 있으며, 그들의 변태적인 철학에서 발견되는 즐거움에 대해 반복적으로 언급하는 데 능숙합니다. 오스티아리우스는 6피트 이상 키가 크며, 개인별로 뼈만 남은 것처럼 마른 체형에서 극도로 비만한 체형까지 다양합니다.</p>",
+      "description": "<p>오스티아리우스는 벨스트렉의 사자로서 그림자 차원과 물질 차원 사이의 포털을 관리합니다. 그들은 다른 벨스트렉를 인간 세계로 안내하는 것뿐 아니라, 인간을 벨스트렉의 영역으로 유인하는 일을 합니다. 대부분의 인간은 그곳에서 결코 돌아오지 않습니다. 벨스트렉 중 가장 친절하고 설득력 있는 종족인 오스티아리우스는 어떤 주제라도 수 시간 동안 대화할 수 있으며, 그들의 변태적인 철학에서 발견되는 즐거움에 대해 반복적으로 언급하는 데 능숙합니다. 오스티아리우스는 6피트 이상 키가 크며, 개인별로 뼈만 남은 것처럼 마른 체형에서 극도로 비만한 체형까지 다양합니다.</p>",
       "hpdetails": "재생 10 (성스러운 또는 은으로 무효화됨)",
       "items": {
         "eZpQaoruvmngTW6T": {
-          "name": "강화된 어둠 시야",
+          "name": "향상된 암시야",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.GreaterDarkvision]</p>"
         },
         "zCBg1ZpignZBuhdE": {
@@ -2610,7 +2610,7 @@
         },
         "EakALyMQUSW9bDgO": {
           "name": "통증 시야",
-          "description": "<p>벨스트라크는 자신이 보는 생물이 @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed}, @UUID[Compendium.pf2e.conditionitems.Item.yZRUzMqrMmfLu0V1]{Dying}, 및 @UUID[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2]{Wounded} 상태 여부 및 해당 상태의 값을 자동으로 알고 있습니다</p>"
+          "description": "<p>벨스트렉는 자신이 보는 생물이 @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed}, @UUID[Compendium.pf2e.conditionitems.Item.yZRUzMqrMmfLu0V1]{Dying}, 및 @UUID[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2]{Wounded} 상태 여부 및 해당 상태의 값을 자동으로 알고 있습니다</p>"
         },
         "vP6KGkCy0KpMQarQ": {
           "name": "포털 감지",
@@ -2630,10 +2630,10 @@
         },
         "snHGvNo3Y3eluuUN": {
           "name": "용기를 강요",
-          "description": "<p>오스티아리우스는 자신의 상처에서 용기를 북돋는 말을 속삭여 기꺼이 따르는 아군과 자신을 고무합니다. 오스티아리우스와 @Template[emanation|distance:50]에 있는 아군은 공격 굴림, 피해 굴림, 공포 효과에 대한 내성 굴림에 +1의 상태 보너스를 받습니다. 오스티아리우스는 용기를 강요를 유지할 수 있습니다. </p>\n<p>이 강요된 용기를 받아들이는 벨스트라크가 아닌 존재들은 자신의 몸에 피가 흐르는 상처가 생겨나 감사의 말을 속삭입니다. 그들은 @Damage[1[bleed]]의 피해를 받고, 강요를 받고 있는 동안에는 이 피해를 끝내기 위해 플랫 체크를 시도할 수 없습니다. "
+          "description": "<p>오스티아리우스는 자신의 상처에서 용기를 북돋는 말을 속삭여 기꺼이 따르는 아군과 자신을 고무합니다. 오스티아리우스와 @Template[emanation|distance:50]에 있는 아군은 공격 굴림, 피해 굴림, 공포 효과에 대한 내성 굴림에 +1의 상태 보너스를 받습니다. 오스티아리우스는 용기를 강요를 유지할 수 있습니다. </p>\n<p>이 강요된 용기를 받아들이는 벨스트렉가 아닌 존재들은 자신의 몸에 피가 흐르는 상처가 생겨나 감사의 말을 속삭입니다. 그들은 @Damage[1[bleed]]의 피해를 받고, 강요를 받고 있는 동안에는 이 피해를 끝내기 위해 플랫 체크를 시도할 수 없습니다. "
         },
         "t3cnDaUX26zIroa8": {
-          "name": "포커스 시선",
+          "name": "집중된 응시",
           "description": "<p>오스티아리우스는 30 피트 이내에서 볼 수 있는 생물을 응시합니다. 이 생물은 즉시 속삭이는 상처에 대한 의지 내성 체크를 시도해야 합니다. 또한, 그 생물이 이미 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened} 상태이고 내성 검사에 실패하면, 그 생물은 오스티아리우스에게 @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated} 상태가 되어 적대적인 행동을 할 수 없게 됩니다. 이 매혹은 1 라운드 동안 지속되거나, 오스티아리우스가 그 생물이나 그 생물의 아군에게 적대적인 행동을 취할 때까지 지속됩니다. 생물이 내성에 성공하거나 실패하든, 1 시간 동안 일시적으로 면역이 됩니다."
         }
       }
@@ -2702,14 +2702,14 @@
         },
         "T7L2FMHmpDoURw0s": {
           "name": "붙어 있는 빨판",
-          "description": "<p>그라인디로우가 자신보다 큰 생물을 @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.Tkd8sH4pwFIPzqTr]{잡을} 때, 그 생물에 붙습니다. @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{잡힌} 생물은 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{동결} 상태가 아니지만, 그 생물이 움직이면 그라인딜로우도 함께 움직입니다. 그 생물이 중형 이하인 경우, 그라인디로우가 붙어 있는 동안 이동 속도가 -5 피트 감소합니다. 그라인디로우는 생물에게 붙어 있는 동안 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 됩니다."
+          "description": "<p>그라인디로우가 자신보다 큰 생물을 @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.Tkd8sH4pwFIPzqTr]{잡을} 때, 그 생물에 붙습니다. @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 생물은 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{동결} 상태가 아니지만, 그 생물이 움직이면 그라인딜로우도 함께 움직입니다. 그 생물이 중형 이하인 경우, 그라인디로우가 붙어 있는 동안 이동 속도가 -5 피트 감소합니다. 그라인디로우는 생물에게 붙어 있는 동안 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 됩니다."
         },
         "ftJSskhqjZaMBNyZ": {
           "name": "제트",
           "description": "<p>그라인디로는 물 속에서 직선으로 최대 60피트까지 이동하며 반응을 유발하지 않습니다.</p>"
         },
         "4PmFH52nJw8E0Xwl": {
-          "name": "잡기",
+          "name": "붙잡기",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
         }
       }
@@ -2721,7 +2721,7 @@
       "items": {
         "96reu1mabkl2cmzu": {
           "name": "방향 감각 상실",
-          "description": "<p>레비누스는 석궁으로 원거리 공격을 합니다. 그런 다음 스트라이드를 해야 합니다. 원거리 공격이 적중하면, 대상은 레비누스의 다음 턴이 시작될 때까지 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 됩니다."
+          "description": "<p>레비누스는 석궁으로 원거리 공격을 합니다. 그런 다음 이동를 해야 합니다. 원거리 공격이 적중하면, 대상은 레비누스의 다음 턴이 시작될 때까지 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 됩니다."
         },
         "071xruqf1wjthqwv": {
           "name": "암습",
@@ -2821,7 +2821,7 @@
         },
         "WrTvPVOo3UOYpMWC": {
           "name": "승선 행동",
-          "description": "<p>해적은 밧줄을 휘두르거나 스트라이드를 사용하여 이동 속도의 2배까지 이동합니다. 이 이동 중에 해적이 배에 탑승하거나 하선한 경우, 이동이 끝날 때 근접 공격을 수행하여 명중 시 추가 피해 주사위 1개를 추가할 수 있습니다."
+          "description": "<p>해적은 밧줄을 휘두르거나 이동를 사용하여 이동 속도의 2배까지 이동합니다. 이 이동 중에 해적이 배에 탑승하거나 하선한 경우, 이동이 끝날 때 근접 공격을 수행하여 명중 시 추가 피해 주사위 1개를 추가할 수 있습니다."
         }
       }
     },
@@ -2946,7 +2946,7 @@
         },
         "ydBVkEJ8CwcPFkPB": {
           "name": "공황 상태의 날갯짓",
-          "description": "<p>박쥐 무리의 공간에 있는 각 적들은 물기와 발톱으로 인한 @Damage[1d6[피어싱]]의 피해를 받습니다 (@Check[reflex|dc:17|basic] 내성). 실패하면, 그 생물은 날개짓에 의해 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{눈부심} 상태가 됩니다."
+          "description": "<p>박쥐 무리의 공간에 있는 각 적들은 물기와 발톱으로 인한 @Damage[1d6[piercing]]의 피해를 받습니다 (@Check[reflex|dc:17|basic] 내성). 실패하면, 그 생물은 날개짓에 의해 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{눈부심} 상태가 됩니다."
         }
       }
     },
@@ -2973,7 +2973,7 @@
         },
         "6esHAxLWA5BUgH2E": {
           "name": "무모한 연금술",
-          "description": "<p><strong>요구 조건</strong> 무모한 과학자가 폭탄이나 엘릭서를 들고 있습니다</p>\n<hr />\n<p><strong>효과</strong> 무모한 과학자는 폭탄을 다른 폭탄과 결합하거나 엘릭서를 다른 엘릭서와 결합합니다. 이 행동의 일부로 필요시 상호작용을 통해 두 번째 폭탄이나 엘릭서를 뽑을 수 있습니다. 그들은 @Check[crafting|dc:28] 체크를 시도하여 두 구성 아이템을 모두 파괴하고 하나의 새로운 아이템을 만듭니다. 결과로 생성된 아이템이 과학자의 다음 턴이 끝날 때까지 사용되지 않으면, 대실패에 설명된 대로 폭발합니다. </p>\n<hr />\n<p><strong>대성공</strong> 새로운 아이템은 사용 시 두 구성 아이템의 효과를 모두 발휘합니다. </p>\n<p><strong>성공</strong> 새로운 아이템은 두 아이템을 결합하지만, 각 아이템의 효과는 절반으로 감소합니다. (이는 폭탄의 피해, 생명 엘릭서의 치유량, 또는 그 값이 반으로 줄일 수 없는 효과의 지속 시간을 반으로 줄입니다. 자세한 사항은 GM이 결정합니다.)</p>\n<p><strong>실패</strong> 새로운 아이템은 무효입니다.</p>\n<p><strong>대실패</strong> 새로운 아이템이 즉시 폭발하여 무모한 과학자에게 @Damage[3d6[피어싱]]의 피해를 입힙니다. "
+          "description": "<p><strong>요구 조건</strong> 무모한 과학자가 폭탄이나 엘릭서를 들고 있습니다</p>\n<hr />\n<p><strong>효과</strong> 무모한 과학자는 폭탄을 다른 폭탄과 결합하거나 엘릭서를 다른 엘릭서와 결합합니다. 이 행동의 일부로 필요시 상호작용을 통해 두 번째 폭탄이나 엘릭서를 뽑을 수 있습니다. 그들은 @Check[crafting|dc:28] 체크를 시도하여 두 구성 아이템을 모두 파괴하고 하나의 새로운 아이템을 만듭니다. 결과로 생성된 아이템이 과학자의 다음 턴이 끝날 때까지 사용되지 않으면, 대실패에 설명된 대로 폭발합니다. </p>\n<hr />\n<p><strong>대성공</strong> 새로운 아이템은 사용 시 두 구성 아이템의 효과를 모두 발휘합니다. </p>\n<p><strong>성공</strong> 새로운 아이템은 두 아이템을 결합하지만, 각 아이템의 효과는 절반으로 감소합니다. (이는 폭탄의 피해, 생명 엘릭서의 치유량, 또는 그 값이 반으로 줄일 수 없는 효과의 지속 시간을 반으로 줄입니다. 자세한 사항은 GM이 결정합니다.)</p>\n<p><strong>실패</strong> 새로운 아이템은 무효입니다.</p>\n<p><strong>대실패</strong> 새로운 아이템이 즉시 폭발하여 무모한 과학자에게 @Damage[3d6[piercing]]의 피해를 입힙니다. "
         }
       }
     },
@@ -3013,7 +3013,7 @@
       "hpdetails": "",
       "items": {
         "vcagOOSLrsql4x5q": {
-          "name": "강화된 암흑 시력",
+          "name": "향상된 암흑 시야",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.GreaterDarkvision]</p>"
         },
         "r5EbpWj3YsFSBL2K": {
@@ -3082,7 +3082,7 @@
           "description": "<p>일반 물체와 마찬가지로, 움직이는 조각상도 경도를 가지고 있습니다. 이 경도는 조각상이 받는 모든 피해를 경도만큼 감소시킵니다. </p>\n<p>움직이는 조각상의 체력이 절반 이하로 감소하거나, 치명타를 받아 피해를 입는 즉시, 그 구조물 갑옷이 파손되고 방어력이 15로 감소합니다. </p>"
         },
         "AEoTx2m6fpzmQFs8": {
-          "name": "잡기",
+          "name": "붙잡기",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
         }
       }
@@ -3117,7 +3117,7 @@
         },
         "eYkYSZX390lDUFFK": {
           "name": "도약",
-          "description": "<p>히에라코스핀스는 스트라이드를 하고 그 이동이 끝날 때 공격을 합니다. 이 행동을 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} 상태에서 시작하면, 공격이 끝날 때까지 숨겨진 상태로 남아 있습니다."
+          "description": "<p>히에라코스핀스는 이동를 하고 그 이동이 끝날 때 공격을 합니다. 이 행동을 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} 상태에서 시작하면, 공격이 끝날 때까지 숨겨진 상태로 남아 있습니다."
         },
         "xz2zppQgQtgwnNtp": {
           "name": "비명",
@@ -3151,7 +3151,7 @@
         },
         "5PYqpxaU2nB6IYrL": {
           "name": "혼란스러운 행동",
-          "description": "<p>각 라운드 시작 시, [[/gmr 1d4]]를 굴려 주니어의 행동을 결정합니다. </p>\n<ul>\n<li>1: 주니어는 아무 행동도 하지 않습니다. </li>\n<li>2: 주니어는 1 행동을 사용하여 가장 가까운 무인 물체로 스트라이드한 다음, 조수 생명을 사용해서 그 물체를 움직입니다. 주니어의 조수 소환이 남아 있지 않거나, 범위 내에 물체가 없는 경우, 주니어는 아무 행동도 하지 않습니다. </li>\n<li>3-4: 주니어는 가장 가까운 생명체에게 다가가기 위해 필요한 만큼의 행동을 사용한 다음, 남은 행동으로 그 생명체에게 주먹 공격을 합니다. </li>\n</ul>"
+          "description": "<p>각 라운드 시작 시, [[/gmr 1d4]]를 굴려 주니어의 행동을 결정합니다. </p>\n<ul>\n<li>1: 주니어는 아무 행동도 하지 않습니다. </li>\n<li>2: 주니어는 1 행동을 사용하여 가장 가까운 무인 물체로 이동한 다음, 조수 생명을 사용해서 그 물체를 움직입니다. 주니어의 조수 소환이 남아 있지 않거나, 범위 내에 물체가 없는 경우, 주니어는 아무 행동도 하지 않습니다. </li>\n<li>3-4: 주니어는 가장 가까운 생명체에게 다가가기 위해 필요한 만큼의 행동을 사용한 다음, 남은 행동으로 그 생명체에게 주먹 공격을 합니다. </li>\n</ul>"
         }
       }
     },
@@ -3191,7 +3191,7 @@
     },
     "Onyx Alliance Scout": {
       "name": "오닉스 얼라이언스 스카웃",
-      "description": "<p>오늘날 페츨링으로 알려진 사람들은 오래 전에 섀도우 플레인에 갇힌 인간들의 후손으로, 독특한 혈통을 가지고 있습니다. 더 이상 인간이 아닌 이 사람들은 스스로를 카얄이라고 부르며, 피부색과 머리카락 색이 흰색, 검은색, 그리고 모든 회색 음영으로 다양하며, 단색을 띠고 있습니다. 그들의 팔다리는 유연하고 가늘며, 눈은 대부분 노란색, 황록색, 흰색이지만, 드물게 보라색이나 파란색으로 빛나는 사람도 있습니다. 페츨링은 그림자 세계에서 자신들만의 복잡한 사회를 발전시켰으며, 대부분은 사악한 벨스트라크나 수수께끼의 드지리아크와 같은 이상하고 악의적인 생물들의 관용 아래에서, 또는 그들에게 노예로 살며 살아가고 있습니다. 개별 페츨링은 어떤 성향도 가질 수 있지만, 모두 가혹한 환경에서 살아남은 생존자이기 때문에 실용주의적인 경향을 보입니다. 페츨링의 의상은 그들이 사는 지역의 모습을 본떠서, 짙은 색조로 된 단조로운 색상을 사용합니다. 페츨링은 물질계에 있는 인간이나 다른 사회와 거래할 때, 종종 가면이나 몸을 가리는 옷을 착용하여 외모를 숨깁니다. 전형적인 페츨링 커뮤니티는 폐쇄적이며, 침입자가 나타나면 재빨리 단결합니다. 개별 페츨링은 무역을 촉진하기 위해 다른 사회로 여행을 가거나 그 사회에 융화되는 것을 싫어하지 않지만, 자신의 방문자가 오면 종종 숨거나 방어적인 반응을 보입니다. 그러나 그림자 평면의 다른 주민들의 본질을 고려할 때, 침입자에 대해 최악을 가정하는 이 경향은 일부에게는 이해할 수 있을 것입니다.</p>\n<p>페츨링은 물질계에서는 흔히 볼 수 없습니다. 물질계에 거주하는 페츨링은 대부분 자신의 의지로 고향을 떠나 다른 곳에서 모험을 찾는 외톨이들이거나, 고향에서 추방된 망명자, 또는 그림자계로 돌아갈 수 없는 평면 유배자들입니다. 마지막 범주에 속하는 잃어버린 자들과 좌초된 자들은 대규모 집단으로 발견될 가능성이 가장 높습니다. 규모가 큰 도시에서는 수십 명 이상의 페츨링들이 인간들 사이에서 살고 있는 작은 커뮤니티를 발견할 수도 있지만, 이들은 종종 머리카락을 염색하고 밝은 색의 옷을 입고 여러 겹의 화장을 통해 창백한 안색을 숨기며 신중하게 생활합니다.",
+      "description": "<p>오늘날 페츨링으로 알려진 사람들은 오래 전에 섀도우 플레인에 갇힌 인간들의 후손으로, 독특한 혈통을 가지고 있습니다. 더 이상 인간이 아닌 이 사람들은 스스로를 카얄이라고 부르며, 피부색과 머리카락 색이 흰색, 검은색, 그리고 모든 회색 음영으로 다양하며, 단색을 띠고 있습니다. 그들의 팔다리는 유연하고 가늘며, 눈은 대부분 노란색, 황록색, 흰색이지만, 드물게 보라색이나 파란색으로 빛나는 사람도 있습니다. 페츨링은 그림자 세계에서 자신들만의 복잡한 사회를 발전시켰으며, 대부분은 사악한 벨스트렉나 수수께끼의 드지리아크와 같은 이상하고 악의적인 생물들의 관용 아래에서, 또는 그들에게 노예로 살며 살아가고 있습니다. 개별 페츨링은 어떤 성향도 가질 수 있지만, 모두 가혹한 환경에서 살아남은 생존자이기 때문에 실용주의적인 경향을 보입니다. 페츨링의 의상은 그들이 사는 지역의 모습을 본떠서, 짙은 색조로 된 단조로운 색상을 사용합니다. 페츨링은 물질계에 있는 인간이나 다른 사회와 거래할 때, 종종 가면이나 몸을 가리는 옷을 착용하여 외모를 숨깁니다. 전형적인 페츨링 커뮤니티는 폐쇄적이며, 침입자가 나타나면 재빨리 단결합니다. 개별 페츨링은 무역을 촉진하기 위해 다른 사회로 여행을 가거나 그 사회에 융화되는 것을 싫어하지 않지만, 자신의 방문자가 오면 종종 숨거나 방어적인 반응을 보입니다. 그러나 그림자 평면의 다른 주민들의 본질을 고려할 때, 침입자에 대해 최악을 가정하는 이 경향은 일부에게는 이해할 수 있을 것입니다.</p>\n<p>페츨링은 물질계에서는 흔히 볼 수 없습니다. 물질계에 거주하는 페츨링은 대부분 자신의 의지로 고향을 떠나 다른 곳에서 모험을 찾는 외톨이들이거나, 고향에서 추방된 망명자, 또는 그림자계로 돌아갈 수 없는 평면 유배자들입니다. 마지막 범주에 속하는 잃어버린 자들과 좌초된 자들은 대규모 집단으로 발견될 가능성이 가장 높습니다. 규모가 큰 도시에서는 수십 명 이상의 페츨링들이 인간들 사이에서 살고 있는 작은 커뮤니티를 발견할 수도 있지만, 이들은 종종 머리카락을 염색하고 밝은 색의 옷을 입고 여러 겹의 화장을 통해 창백한 안색을 숨기며 신중하게 생활합니다.",
       "hpdetails": "",
       "items": {
         "P6oJVM0MDCy82QgU": {
@@ -3200,7 +3200,7 @@
         },
         "PpVuZdKsS2ms3K3h": {
           "name": "그림자 보행",
-          "description": "<p><strong>요건</strong> 페츨링이 희미한 빛에 있습니다</p>\n<hr />\n<p><strong>효과</strong> 페츨링이 스트라이드를 합니다. 이 스트라이드 동안 페츨링의 속도에 +10피트의 상태 보너스가 적용됩니다. 이 스트라이드 동안 그림자 혼합으로 인한 DC는 @Check[flat|dc:11]로 증가하며, 페츨링은 스트라이드 중에 희미한 빛을 벗어나더라도 이동이 끝날 때까지 희미한 빛에 의해 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} 상태로 남아 있습니다."
+          "description": "<p><strong>요건</strong> 페츨링이 희미한 빛에 있습니다</p>\n<hr />\n<p><strong>효과</strong> 페츨링이 이동를 합니다. 이 이동 동안 페츨링의 속도에 +10피트의 상태 보너스가 적용됩니다. 이 이동 동안 그림자 혼합으로 인한 DC는 @Check[flat|dc:11]로 증가하며, 페츨링은 이동 중에 희미한 빛을 벗어나더라도 이동이 끝날 때까지 희미한 빛에 의해 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} 상태로 남아 있습니다."
         },
         "mcOn5wJPK3EDRCeU": {
           "name": "암습",
@@ -3246,7 +3246,7 @@
         },
         "uRQUbYaddKHdfNtE": {
           "name": "그림자 일격",
-          "description": "<p><strong>효과</strong> 오닉스 얼라이언스 집행자가 근접 공격을 합니다. 공격이 적중하면 집행관은 스트라이드를 사용합니다. 집행관이 이 이동을 어두운 빛이나 어둠 속에서 끝내면 @UUID[Compendium.pf2e.action-macros.Macro.FlM3HvpnsZpCKawG]{Hide: Stealth}를 시도할 수 있습니다. </p>"
+          "description": "<p><strong>효과</strong> 오닉스 얼라이언스 집행자가 근접 공격을 합니다. 공격이 적중하면 집행관은 이동를 사용합니다. 집행관이 이 이동을 어두운 빛이나 어둠 속에서 끝내면 @UUID[Compendium.pf2e.action-macros.Macro.FlM3HvpnsZpCKawG]{Hide: Stealth}를 시도할 수 있습니다. </p>"
         }
       }
     },
@@ -3497,7 +3497,7 @@
           "description": "<p>펠라가스트르 꼬리는 로지의 현실과의 연결이 <em>Material Failsafe</em>에 의해 복원될 때마다 약화됩니다. 첫 번째로 failsafe가 활성화되면 펠라가스트르 꼬리는 Discordant Diversion 반응을 잃습니다. 두 번째로 failsafe가 활성화되면 Constrict 능력을 잃습니다. 세 번째로 안전 장치가 활성화되면, 펠라가스트 꼬리는 빠른 치유 능력을 잃고, [[/r {3d8}#damage]]{3d8 피해}를 받고, 우즈에지 롯지를 떠나 메일스트롬으로 돌아갈 때까지 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1} 상태가 됩니다."
         },
         "Q7xBjJbnMRVhdhte": {
-          "name": "상시 주문",
+          "name": "지속 주문",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ConstantSpells]</p>"
         },
         "kswqjlNX3xRZ2Igj": {
@@ -3529,7 +3529,7 @@
           "description": "<p>펠라가스트 꼬리의 Constrict 능력으로 피해를 입은 모든 생물은 @Check[fortitude|dc:22] 내성 체크에 성공하지 않으면 약한 워프웨이브의 영향을 받습니다."
         },
         "AVy2MGl38CVRObwC": {
-          "name": "Grab",
+          "name": "붙잡기",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]"
         }
       }
@@ -3571,7 +3571,7 @@
       "hpdetails": "",
       "items": {
         "HMgUQLrC6J8H3nv8": {
-          "name": "강화된 암흑 시력",
+          "name": "향상된 암흑 시야",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.GreaterDarkvision]</p>"
         }
       }
@@ -3590,7 +3590,7 @@
           "description": "<p><strong>요건</strong> 거대 거머리가 생물을 잡거나 제압하고 있어야 합니다</p>\n<hr />\n<p><strong>효과</strong> 거대 거머리는 잡은 생물의 피를 흡수합니다. 이로 인해 [[/r {2d4}]]{2d4 피해}가 발생합니다. 거대 거머리에게 피를 흡수당한 생물은 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1} 상태가 되어, 어떤 종류나 양의 치유를 받기 전까지 피가 흡수된 상태가 유지됩니다."
         },
         "H5pKmDQnqSb6s6bW": {
-          "name": "잡기",
+          "name": "붙잡기",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
         }
       }
@@ -3602,7 +3602,7 @@
       "items": {
         "96reu1mabkl2cmzu": {
           "name": "방향 감각 상실",
-          "description": "<p>Revinus는 석궁으로 원거리 공격을 합니다. 그런 다음 스트라이드를 해야 합니다. 원거리 공격이 적중하면, 대상은 Revinus의 다음 턴이 시작될 때까지 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 됩니다."
+          "description": "<p>Revinus는 석궁으로 원거리 공격을 합니다. 그런 다음 이동를 해야 합니다. 원거리 공격이 적중하면, 대상은 Revinus의 다음 턴이 시작될 때까지 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 됩니다."
         },
         "071xruqf1wjthqwv": {
           "name": "암습",
@@ -3628,7 +3628,7 @@
           "description": "<p>펠라가스트르 꼬리는 로지의 현실과의 연결이 <em>Material Failsafe</em>에 의해 복원될 때마다 약화됩니다. 첫 번째로 failsafe가 활성화되면 펠라가스트르 꼬리는 Discordant Diversion 반응을 잃습니다. 두 번째로 failsafe가 활성화되면 Constrict 능력을 잃습니다. 세 번째로 안전 장치가 활성화되면, 펠라가스트 꼬리는 빠른 치유 능력을 잃고, [[/r {3d6}#damage]]{3d6 피해}를 받고, 우즈엣지 롯지를 떠나 메일스트롬으로 돌아갈 때까지 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1} 상태가 됩니다."
         },
         "Q7xBjJbnMRVhdhte": {
-          "name": "상수 주문",
+          "name": "지속 주문",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ConstantSpells]</p>"
         },
         "kswqjlNX3xRZ2Igj": {
@@ -3660,7 +3660,7 @@
           "description": "<p>펠라가스트 꼬리의 Constrict 능력으로 피해를 입은 모든 생물은 @Check[fortitude|dc:20] 내성 체크에 성공하지 않으면 약한 워프웨이브의 영향을 받습니다."
         },
         "AVy2MGl38CVRObwC": {
-          "name": "잡기",
+          "name": "붙잡기",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
         }
       }
@@ -3720,7 +3720,7 @@
           "description": "<p>녹색 해그는 @UUID[Compendium.pf2e.spells-srd.Item.J6vNvrUT3b1hx2iA]{Entangling Flora}, @UUID[Compendium.pf2e.spells-srd.Item.KSAEhNfZyXMO7Z7V]{Outcast's Curse}, @UUID[Compendium.pf2e.spells-srd.Item.KsWhliKfUs3IpW3c]{가시 벽}을 추가합니다. </p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Coven]</p>"
         },
         "XgoaORovhBAB82vg": {
-          "name": "상시 주문",
+          "name": "지속 주문",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ConstantSpells]</p>"
         },
         "0F1cIENDKxVfgMvZ": {
@@ -3798,7 +3798,7 @@
         },
         "z8Vh23jCIh7iroYs": {
           "name": "스웜 스팅",
-          "description": "<p>무리의 공간에 있는 각 적들은 @Damage[2d8[피어싱]]의 피해를 받고 (@Check[reflex|dc:21|basic] 내성) 말벌의 맹독에 노출됩니다. 내성 체크에 성공하면 독에 노출되지 않습니다."
+          "description": "<p>무리의 공간에 있는 각 적들은 @Damage[2d8[piercing]]의 피해를 받고 (@Check[reflex|dc:21|basic] 내성) 말벌의 맹독에 노출됩니다. 내성 체크에 성공하면 독에 노출되지 않습니다."
         },
         "OwDiH7gzfhf1i4hu": {
           "name": "말벌의 맹독",
@@ -3823,7 +3823,7 @@
     },
     "Veteran Onyx Alliance Scout": {
       "name": "베테랑 오닉스 동맹 정찰병",
-      "description": "<p>오늘날 페츨링으로 알려진 사람들은 오래 전에 그림자 차원에 갇힌 인간들의 후손으로, 독특한 혈통을 가지고 있습니다. 더 이상 인간이 아닌 이 사람들은 스스로를 카얄이라고 부르며, 피부색과 머리카락 색이 흰색, 검은색, 그리고 모든 회색 음영으로 다양하며, 단색을 띠고 있습니다. 그들의 팔다리는 유연하고 가늘며, 눈은 대부분 노란색, 황록색, 또는 흰색이지만, 드물게 보라색이나 파란색으로 빛나는 사람도 있습니다. 페츨링은 그림자 세계에서 자신들만의 복잡한 사회를 발전시켰으며, 대부분은 사악한 벨스트라크나 수수께끼의 드지리아크와 같은 이상하고 악의적인 생물들의 관용 아래 또는 그들에게 노예로 살며 살아가고 있습니다. 개별 페츨링은 어떤 성향도 가질 수 있지만, 모두 가혹한 환경에서 살아남은 생존자이기 때문에 실용주의적인 경향을 보입니다. 페츨링의 의상은 그들이 사는 지역의 모습을 모방한 것으로, 칙칙한 색상이 어두운 색조로 치우쳐 있습니다. 페츨링은 물질계에 있는 인간이나 다른 사회와 거래할 때, 종종 가면이나 몸을 가리는 옷을 착용하여 자신의 외모를 숨깁니다. 일반적인 페츨링 커뮤니티는 폐쇄적이며, 침입자가 나타나면 재빨리 단결합니다. 개별 페츨링은 무역을 촉진하기 위해 다른 사회로 여행을 가거나 그 사회에 융화되는 것을 싫어하지 않지만, 자신의 방문자가 오면 종종 숨거나 방어적인 반응을 보입니다. 그러나 그림자 평면의 다른 주민들의 성격을 고려할 때, 침입자에 대해 최악을 가정하는 이 경향은 일부에게는 이해할 수 있을 것입니다.</p>\n<p>페츨링은 물질계에서는 흔히 볼 수 없습니다. 물질계에 거주하는 페츨링은 대부분 자신의 의지로 고향을 떠나 다른 곳에서 모험을 찾는 외톨이들이거나, 고향에서 추방된 망명자, 또는 그림자계로 돌아갈 수 없는 평면 유배자들입니다. 마지막 범주에 속하는 잃어버린 자들과 좌초된 자들은 대규모 집단으로 발견될 가능성이 가장 높습니다. 규모가 큰 도시에서는 수십 명 이상의 페츨링들이 인간들 사이에서 작은 커뮤니티를 형성하고 있는 경우도 볼 수 있지만, 이들은 종종 머리카락을 염색하고 밝은 색의 옷을 입고 화장을 여러 겹으로 해 창백한 안색을 숨기며 신분을 감추고 있습니다.",
+      "description": "<p>오늘날 페츨링으로 알려진 사람들은 오래 전에 그림자 차원에 갇힌 인간들의 후손으로, 독특한 혈통을 가지고 있습니다. 더 이상 인간이 아닌 이 사람들은 스스로를 카얄이라고 부르며, 피부색과 머리카락 색이 흰색, 검은색, 그리고 모든 회색 음영으로 다양하며, 단색을 띠고 있습니다. 그들의 팔다리는 유연하고 가늘며, 눈은 대부분 노란색, 황록색, 또는 흰색이지만, 드물게 보라색이나 파란색으로 빛나는 사람도 있습니다. 페츨링은 그림자 세계에서 자신들만의 복잡한 사회를 발전시켰으며, 대부분은 사악한 벨스트렉나 수수께끼의 드지리아크와 같은 이상하고 악의적인 생물들의 관용 아래 또는 그들에게 노예로 살며 살아가고 있습니다. 개별 페츨링은 어떤 성향도 가질 수 있지만, 모두 가혹한 환경에서 살아남은 생존자이기 때문에 실용주의적인 경향을 보입니다. 페츨링의 의상은 그들이 사는 지역의 모습을 모방한 것으로, 칙칙한 색상이 어두운 색조로 치우쳐 있습니다. 페츨링은 물질계에 있는 인간이나 다른 사회와 거래할 때, 종종 가면이나 몸을 가리는 옷을 착용하여 자신의 외모를 숨깁니다. 일반적인 페츨링 커뮤니티는 폐쇄적이며, 침입자가 나타나면 재빨리 단결합니다. 개별 페츨링은 무역을 촉진하기 위해 다른 사회로 여행을 가거나 그 사회에 융화되는 것을 싫어하지 않지만, 자신의 방문자가 오면 종종 숨거나 방어적인 반응을 보입니다. 그러나 그림자 평면의 다른 주민들의 성격을 고려할 때, 침입자에 대해 최악을 가정하는 이 경향은 일부에게는 이해할 수 있을 것입니다.</p>\n<p>페츨링은 물질계에서는 흔히 볼 수 없습니다. 물질계에 거주하는 페츨링은 대부분 자신의 의지로 고향을 떠나 다른 곳에서 모험을 찾는 외톨이들이거나, 고향에서 추방된 망명자, 또는 그림자계로 돌아갈 수 없는 평면 유배자들입니다. 마지막 범주에 속하는 잃어버린 자들과 좌초된 자들은 대규모 집단으로 발견될 가능성이 가장 높습니다. 규모가 큰 도시에서는 수십 명 이상의 페츨링들이 인간들 사이에서 작은 커뮤니티를 형성하고 있는 경우도 볼 수 있지만, 이들은 종종 머리카락을 염색하고 밝은 색의 옷을 입고 화장을 여러 겹으로 해 창백한 안색을 숨기며 신분을 감추고 있습니다.",
       "hpdetails": "",
       "items": {
         "P6oJVM0MDCy82QgU": {
@@ -3832,7 +3832,7 @@
         },
         "F9bWb4eSF5QIBze0": {
           "name": "그림자 보행",
-          "description": "<p><strong>요건</strong> 페츨링이 희미한 빛에 있습니다</p>\n<hr />\n<p><strong>효과</strong> 페츨링이 스트라이드합니다. 이 스트라이드 동안 페츨링의 속도에 +10피트의 상태 보너스가 적용됩니다. 이 스트라이드 동안 그림자 혼합으로 인한 DC는 @Check[flat|dc:11]로 증가하며, 페츨링은 스트라이드 중에 희미한 빛을 벗어나더라도 이동이 끝날 때까지 희미한 빛에 의해 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} 상태로 남아 있습니다."
+          "description": "<p><strong>요건</strong> 페츨링이 희미한 빛에 있습니다</p>\n<hr />\n<p><strong>효과</strong> 페츨링이 이동합니다. 이 이동 동안 페츨링의 속도에 +10피트의 상태 보너스가 적용됩니다. 이 이동 동안 그림자 혼합으로 인한 DC는 @Check[flat|dc:11]로 증가하며, 페츨링은 이동 중에 희미한 빛을 벗어나더라도 이동이 끝날 때까지 희미한 빛에 의해 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} 상태로 남아 있습니다."
         },
         "7oSwnJxN4kTQ4qO0": {
           "name": "암습",
@@ -3908,7 +3908,7 @@
         },
         "5IixHzakyftZgS0g": {
           "name": "속도 급증",
-          "description": "<p><strong>빈도</strong> 하루에 세 번</p>\n<hr />\n<p><strong>효과</strong> 섀도우 드레이크는 두 번의 스트라이드 또는 플라이를 사용합니다."
+          "description": "<p><strong>빈도</strong> 하루에 세 번</p>\n<hr />\n<p><strong>효과</strong> 섀도우 드레이크는 두 번의 이동 또는 플라이를 사용합니다."
         }
       }
     },
@@ -3918,7 +3918,7 @@
       "hpdetails": "재생 10 (추위에 의해 비활성화됨)",
       "items": {
         "bj3LBfUDYYqFHskT": {
-          "name": "강화된 암흑 시력",
+          "name": "향상된 암흑 시야",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.GreaterDarkvision]</p>"
         },
         "swAJMaqujVUFqFKT": {
@@ -3930,7 +3930,7 @@
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.AllAroundVision]</p>"
         },
         "MHU4sHBzbuyd9yfs": {
-          "name": "상시 마법",
+          "name": "지속 주문",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ConstantSpells]</p>"
         },
         "m8k2uRU1UVmPgF03": {

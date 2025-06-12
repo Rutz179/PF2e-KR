@@ -68,7 +68,7 @@
         },
         "UK9gsjbHYgmKZze9": {
           "name": "자폭",
-          "description": "<p>시계 장치 스파이는 제작자가 특별히 프로그래밍하지 않은 한 이 반응을 사용해야 합니다.</p>\n<p><strong>트리거</strong> 시계 장치 스파이의 체력이 0으로 감소합니다.</p>\n<hr />\n<p><strong>효과</strong> 스파이는 날뛰며 얇은 비명을 지른 다음, 꾸준한 똑딱거리는 소리를 내며 폭발합니다. 다음 턴이 시작될 때, 시계 장치 스파이는 폭발하여 @Damage[1d12[피어싱]|옵션:영역 피해]의 피해를 @Template[emanation|distance:5]{5-피트 반경}에 입힙니다 (@Check[reflex|dc:17|basic|options:area-effect] 내성). 보석과 그 안에 들어 있는 모든 정보는 파괴됩니다.</p>\n<p>인접한 생물은 @Check[thievery|dc:17|traits:action:disable-a-device] 체크에 성공하여 @UUID[Compendium.pf2e.actionspf2e.Item.cYdz2grcOcRt4jk6]{장치 비활성화}를 수행하면 자폭 시퀀스를 취소할 수 있습니다."
+          "description": "<p>시계 장치 스파이는 제작자가 특별히 프로그래밍하지 않은 한 이 반응을 사용해야 합니다.</p>\n<p><strong>트리거</strong> 시계 장치 스파이의 체력이 0으로 감소합니다.</p>\n<hr />\n<p><strong>효과</strong> 스파이는 날뛰며 얇은 비명을 지른 다음, 꾸준한 똑딱거리는 소리를 내며 폭발합니다. 다음 턴이 시작될 때, 시계 장치 스파이는 폭발하여 @Damage[1d12[piercing]|옵션:영역 피해]의 피해를 @Template[emanation|distance:5]{5-피트 반경}에 입힙니다 (@Check[reflex|dc:17|basic|options:area-effect] 내성). 보석과 그 안에 들어 있는 모든 정보는 파괴됩니다.</p>\n<p>인접한 생물은 @Check[thievery|dc:17|traits:action:disable-a-device] 체크에 성공하여 @UUID[Compendium.pf2e.actionspf2e.Item.cYdz2grcOcRt4jk6]{장치 비활성화}를 수행하면 자폭 시퀀스를 취소할 수 있습니다."
         },
         "hAK9kJGhzP6DASJX": {
           "name": "출혈 상처",
@@ -110,10 +110,10 @@
         },
         "FDCXS4bVC2F1PdGz": {
           "name": "주문 흡수",
-          "description": "<p>원초적 부러움은 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{잡은} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{제압한} 주문 시전 생물에게서 마법을 흡수하려고 합니다. 주문 시전 생물은 @Check[will|dc:20] 내성 체크를 시도해야 합니다. </p>\n<hr />\n<p><strong>대성공</strong> 생물은 영향을 받지 않으며 24시간 동안 주문 흡수 효과에 일시적으로 면역이 됩니다. </p>\n<p><strong>성공</strong> 생물은 @Damage[1d6[정신]]의 피해를 받습니다.</p>\n<p><strong>실패</strong> 생물은 @Damage[2d6[정신]]의 피해를 받고 1시간 동안 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1} 상태가 됩니다.</p>\n<p><strong>대실패 실패와 동일하지만, 생물의 시전되지 않은 주문이나 사용되지 않은 주문 슬롯 중 하나가 시전된 것처럼 사라집니다. 사라지는 주문이나 슬롯은 생물이 시전할 수 있는 가장 높은 등급의 주문 중 하나이며, 준비된 주문이 여러 개 있는 경우 무작위로 결정됩니다. 캔트립이 흡수된 경우, 시전자는 10분 동안 해당 캔트립을 사용할 수 없게 됩니다. 원시적인 부러움이 @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} 1이 되어 1 라운드 동안 추가 행동을 사용하여 스트라이드 또는 공격을 할 수 있습니다."
+          "description": "<p>원초적 부러움은 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{제압한} 주문 시전 생물에게서 마법을 흡수하려고 합니다. 주문 시전 생물은 @Check[will|dc:20] 내성 체크를 시도해야 합니다. </p>\n<hr />\n<p><strong>대성공</strong> 생물은 영향을 받지 않으며 24시간 동안 주문 흡수 효과에 일시적으로 면역이 됩니다. </p>\n<p><strong>성공</strong> 생물은 @Damage[1d6[정신]]의 피해를 받습니다.</p>\n<p><strong>실패</strong> 생물은 @Damage[2d6[정신]]의 피해를 받고 1시간 동안 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1} 상태가 됩니다.</p>\n<p><strong>대실패 실패와 동일하지만, 생물의 시전되지 않은 주문이나 사용되지 않은 주문 슬롯 중 하나가 시전된 것처럼 사라집니다. 사라지는 주문이나 슬롯은 생물이 시전할 수 있는 가장 높은 등급의 주문 중 하나이며, 준비된 주문이 여러 개 있는 경우 무작위로 결정됩니다. 캔트립이 흡수된 경우, 시전자는 10분 동안 해당 캔트립을 사용할 수 없게 됩니다. 원시적인 부러움이 @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} 1이 되어 1 라운드 동안 추가 행동을 사용하여 이동 또는 공격을 할 수 있습니다."
         },
         "ii80pyHfCh7uKPOS": {
-          "name": "잡기",
+          "name": "붙잡기",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
         }
       }
@@ -137,7 +137,7 @@
         },
         "A33mGw1DCgRJRDSe": {
           "name": "혀로 잡기",
-          "description": "<p>bogard swampseer가 혀로 생물을 공격하면 해당 생물은 bogard에 의해 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{잡힌} 상태가 됩니다. 일반적인 잡기와는 달리, 그 생물은 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} 상태가 되지 않지만, 보가드의 혀의 도달 범위를 벗어나서 이동할 수 없습니다. 이 공격은 보가드에게 피해를 주지 않지만, 혀가 다시 자랄 때까지 혀를 사용한 공격을 사용할 수 없게 합니다. 혀가 다시 자라는 데는 일주일이 걸립니다."
+          "description": "<p>bogard swampseer가 혀로 생물을 공격하면 해당 생물은 bogard에 의해 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 상태가 됩니다. 일반적인 잡기와는 달리, 그 생물은 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} 상태가 되지 않지만, 보가드의 혀의 도달 범위를 벗어나서 이동할 수 없습니다. 이 공격은 보가드에게 피해를 주지 않지만, 혀가 다시 자랄 때까지 혀를 사용한 공격을 사용할 수 없게 합니다. 혀가 다시 자라는 데는 일주일이 걸립니다."
         }
       }
     },
@@ -160,7 +160,7 @@
       "items": {
         "a5L9zwEbTQnPprg5": {
           "name": "녹슨 죽음",
-          "description": "<p>Theiltemar가 파괴되면, 그를 유지하던 네크로맨틱 에너지가 방출되며 그의 뼈가 폭발합니다. 이 과정에서 녹슨 사슬 갑옷도 산산조각 나며, 들쭉날쭉한 녹슨 금속 파편이 사방으로 튀어 나갑니다. 인접한 생물들은 @Damage[2d6[피어싱]]의 피해를 받고 (@Check[reflex|dc:21|basic] 내성) 녹이 퍼지는 상태가 됩니다. 그의 유해가 바닥에 떨어지자, <strong>F14</strong> 영역을 막고 있던 역장 벽이 흔들리다가 사라집니다."
+          "description": "<p>Theiltemar가 파괴되면, 그를 유지하던 네크로맨틱 에너지가 방출되며 그의 뼈가 폭발합니다. 이 과정에서 녹슨 사슬 갑옷도 산산조각 나며, 들쭉날쭉한 녹슨 금속 파편이 사방으로 튀어 나갑니다. 인접한 생물들은 @Damage[2d6[piercing]]의 피해를 받고 (@Check[reflex|dc:21|basic] 내성) 녹이 퍼지는 상태가 됩니다. 그의 유해가 바닥에 떨어지자, <strong>F14</strong> 영역을 막고 있던 역장 벽이 흔들리다가 사라집니다."
         },
         "hJqwMBdBQecpuWU8": {
           "name": "공허 치유",
@@ -190,7 +190,7 @@
           "description": "<p>녹슨 번짐에 감염된 자들은 피부 표면에 불편한 녹색 멍이 생기고, 장시간 운동 후 느끼는 것과 유사한 전신 통증을 겪습니다. 감염이 진행됨에 따라 그들의 몸뿐만 아니라 입거나 들고 있는 옷과 물건도 점차 붕괴되어 결국 고통스러운 죽음에 이릅니다. 캐릭터가 녹슨 번짐에 감염되는 것을 성공적으로 저항하거나 녹슨 번짐에서 회복되면, 24시간 동안 미래의 녹슨 번짐 감염에 일시적으로 면역이 됩니다.</p>\n<p><strong>내성 굴림</strong> @Check[fortitude|dc:15]</p>\n<p><strong>1단계</strong> 운동 체크에 -1 상태 페널티 (1일)</p>\n<p><strong>2단계</strong> 1단계와 동일 (1일)</p>\n<p><strong>3단계</strong> @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 1} (1일)</p>\n<p><strong>4단계</strong> 약화된 1 및 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1}, 그리고 질병의 확산으로 인해 해당 질병과 동일한 레벨이거나 그 이하인 모든 방어구, 의복 및 아이템이 파손됩니다 (1일; 파손된 아이템은 파손된 상태로 유지됩니다)</p>\n<p><strong>단계 5</strong> @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 상실} (1일)</p>\n<p><strong>단계 6</strong> 의식 상실 (1일)</p>\n<p><strong>단계 7</strong> 사망</p>"
         },
         "MRMj6jc7E8e5c7UF": {
-          "name": "잡기",
+          "name": "붙잡기",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
         }
       }
@@ -222,7 +222,7 @@
         },
         "w9Owf4Jdub9WbuFx": {
           "name": "녹슨 파편을 뿜어내기",
-          "description": "<p>vloriak은 @Template[cone|distance:15]의 산과 녹슨 금속을 분출합니다. 이 영역에 있는 생물은 @Damage[3d6[acid],3d6[piercing]]{3d6 산 및 3d6 관통}의 피해를 받습니다 (@Check[reflex|dc:22|basic] 내성). 피어싱 피해를 받은 생물은 파상풍에 노출됩니다. 블로리아크는 [[/gmr 1d4 #rounds]]{1d4 라운드} 동안 녹슨 파편을 분출할 수 없습니다."
+          "description": "<p>vloriak은 @Template[cone|distance:15]의 산과 녹슨 금속을 분출합니다. 이 영역에 있는 생물은 @Damage[3d6[acid],3d6[piercing]]{3d6 산 및 3d6 관통}의 피해를 받습니다 (@Check[reflex|dc:22|basic] 내성). 관통 피해를 받은 생물은 파상풍에 노출됩니다. 블로리아크는 [[/gmr 1d4 #rounds]]{1d4 라운드} 동안 녹슨 파편을 분출할 수 없습니다."
         },
         "Q0Sd9sqnUeL32Jw9": {
           "name": "파상풍",

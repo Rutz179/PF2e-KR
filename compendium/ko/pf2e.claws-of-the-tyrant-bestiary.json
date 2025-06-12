@@ -195,7 +195,7 @@
         },
         "lwzomHfOXbAWRLMB": {
           "name": "구울의 속삭임",
-          "description": "<p><strong>요구 조건</strong> @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{잡힌 상태}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비 상태}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속된}, 또는 @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 잃은} 생물이 구울의 도달 범위 내에 있습니다</p><hr /><p><strong>효과</strong> 구울은 생물의 귀에 어두운 생각과 사악한 욕망을 속삭입니다. 생물은 금지된 욕망의 저주에 대해 내성 굴림을 해야 합니다. </p>\n<p><strong>금지된 욕망</strong> (저주) 이 저주에 걸린 생물은 여전히 먹고 마실 수 있습니다. </p>\n<p><strong>내성 굴림</strong> @Check[will|dc:22|traits:curse], 구울의 레벨에 해당하는 높은 주문 DC를 사용합니다. </p>\n<p><strong>1단계</strong> 부작용이 없는 보균자 (1일)</p>\n<p><strong>2단계</strong> @피해[2d6[void]] 피해, 대상은 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} 날고기를 먹기 전까지 (1일)</p>\n<p><strong>3단계</strong> 2단계와 동일</p>\n<p><strong>4단계</strong> 2단계와 동일, 단 대상이 지난 24시간 동안 날고기를 먹지 않은 경우 @Damage[4d6[void]] 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}가 될 때까지 날고기를 먹지 않습니다. </p>\n<p><strong>5단계</strong> 지난 24시간 동안 날고기를 먹은 경우, 이 생물은 죽고 구울로 부활합니다. 그렇지 않으면 4단계로 돌아갑니다."
+          "description": "<p><strong>요구 조건</strong> @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비 상태}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속된}, 또는 @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 잃은} 생물이 구울의 도달 범위 내에 있습니다</p><hr /><p><strong>효과</strong> 구울은 생물의 귀에 어두운 생각과 사악한 욕망을 속삭입니다. 생물은 금지된 욕망의 저주에 대해 내성 굴림을 해야 합니다. </p>\n<p><strong>금지된 욕망</strong> (저주) 이 저주에 걸린 생물은 여전히 먹고 마실 수 있습니다. </p>\n<p><strong>내성 굴림</strong> @Check[will|dc:22|traits:curse], 구울의 레벨에 해당하는 높은 주문 DC를 사용합니다. </p>\n<p><strong>1단계</strong> 부작용이 없는 보균자 (1일)</p>\n<p><strong>2단계</strong> @Damage[2d6[void]] 피해, 대상은 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} 날고기를 먹기 전까지 (1일)</p>\n<p><strong>3단계</strong> 2단계와 동일</p>\n<p><strong>4단계</strong> 2단계와 동일, 단 대상이 지난 24시간 동안 날고기를 먹지 않은 경우 @Damage[4d6[void]] 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}가 될 때까지 날고기를 먹지 않습니다. </p>\n<p><strong>5단계</strong> 지난 24시간 동안 날고기를 먹은 경우, 이 생물은 죽고 구울로 부활합니다. 그렇지 않으면 4단계로 돌아갑니다."
         },
         "0JjWFbRTsJ5CAElC": {
           "name": "무덤의 지식",
@@ -210,7 +210,7 @@
           "description": "<p>구울은 자신의 속도의 절반까지 점프합니다. 이 이동은 반응을 유발하지 않습니다."
         },
         "SI7j7FkiK4171ne7": {
-          "name": "잡기",
+          "name": "붙잡기",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
         }
       }
@@ -284,11 +284,11 @@
         },
         "60fP8t9EWD6dlhAB": {
           "name": "폭도들 집결",
-          "description": "<p>분열된 영혼을 가진 장교는 자신의 지휘 아래 있는 언데드들에게 정신적으로 에너지를 공급합니다. 장교의 분열된 영혼을 공유하는 각 언데드는 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} 상태가 됩니다. 빠른 속도로 움직이는 아군은 추가 행동으로 스트라이드 또는 공격만 사용할 수 있습니다. 장교는 [[/gmr 1d4 #Recharge Rally the Rabble]]{1d4 라운드} 동안 다시 폭도들을 집결시킬 수 없습니다."
+          "description": "<p>분열된 영혼을 가진 장교는 자신의 지휘 아래 있는 언데드들에게 정신적으로 에너지를 공급합니다. 장교의 분열된 영혼을 공유하는 각 언데드는 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} 상태가 됩니다. 빠른 속도로 움직이는 아군은 추가 행동으로 이동 또는 공격만 사용할 수 있습니다. 장교는 [[/gmr 1d4 #Recharge Rally the Rabble]]{1d4 라운드} 동안 다시 폭도들을 집결시킬 수 없습니다."
         },
         "BQhacPuKBwrhjdBb": {
           "name": "동시 발걸음",
-          "description": "<p>파편 장교는 자신의 파편 영혼을 공유하는 언데드들에게 정신으로 위치를 변경하라고 명령합니다. 장교가 스텝을 하면, 장교의 파편 영혼을 공유하는 모든 언데드들은 반응으로 스텝을 사용할 수 있습니다."
+          "description": "<p>파편 장교는 자신의 파편 영혼을 공유하는 언데드들에게 정신으로 위치를 변경하라고 명령합니다. 장교가 @UUID[Compendium.pf2e.actionspf2e.Item.UHpkTuCtyaPqiCAB]{신중한 발걸음}을 하면, 장교의 파편 영혼을 공유하는 모든 언데드들은 반응으로 @UUID[Compendium.pf2e.actionspf2e.Item.UHpkTuCtyaPqiCAB]{신중한 발걸음}을 사용할 수 있습니다."
         }
       }
     },
@@ -307,7 +307,7 @@
         },
         "ksxzbB2QT9cShJXR": {
           "name": "떼로 몰려드는 물기",
-          "description": "<p>떼의 공간에 있는 각 적들은 @Damage[3d4[피어싱]|옵션:영역 피해]의 피해를 받습니다 (@Check[fortitude|dc:18|basic|options:area-effect] 내성). 이 내성에 실패한 생물은 탐욕스러운 질병에 노출됩니다."
+          "description": "<p>떼의 공간에 있는 각 적들은 @Damage[3d4[piercing]|옵션:영역 피해]의 피해를 받습니다 (@Check[fortitude|dc:18|basic|options:area-effect] 내성). 이 내성에 실패한 생물은 탐욕스러운 질병에 노출됩니다."
         }
       }
     },
@@ -427,7 +427,7 @@
         },
         "pI55naBBuMx5x0AA": {
           "name": "피를 마시기",
-          "description": "<p><strong>요구 조건</strong> @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비된}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious], 또는 기꺼이 피를 마실 생물이 뱀파이어의 손이 닿는 거리에 있습니다.</p><hr /><p><strong>효과</strong> 뱀파이어는 그 생물에게 송곳니를 박아 피를 마십니다. 이 효과는 피해자가 잡힌 경우 피해자의 체력 DC에 대해 @Check[운동|방어:인내력] 체크를 해야 하며, 그 외의 조건에서는 자동으로 적용됩니다.</p>\n<p>피해자는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 2} 상태가 되고, 뱀파이어는 @Damage[36[치유]] HP를 회복하고, 초과 HP는 임시 체력으로 얻습니다. 이미 흡수된 생물체의 피를 마셔도 뱀파이어의 HP는 회복되지 않지만, 피해자의 흡수 값이 1 증가하며, 흡수 값이 5에 도달하면 피해자는 사망합니다. 뱀파이어는 생명을 유지하기 위해 용기에 담겨진 피를 마실 수도 있지만, 그렇게 해도 HP는 회복되지 않습니다. 피해자의 흡수 상태는 매주 1씩 감소합니다. @Check[medicine|dc:20|name:Blood Transfusion] 체크와 충분한 혈액 또는 헌혈자가 필요한 수혈을 받으면 10분 후에 흡수량이 1 감소합니다."
+          "description": "<p><strong>요구 조건</strong> @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비된}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious], 또는 기꺼이 피를 마실 생물이 뱀파이어의 손이 닿는 거리에 있습니다.</p><hr /><p><strong>효과</strong> 뱀파이어는 그 생물에게 송곳니를 박아 피를 마십니다. 이 효과는 피해자가 잡힌 경우 피해자의 체력 DC에 대해 @Check[athletics|defense:fortitude] 체크를 해야 하며, 그 외의 조건에서는 자동으로 적용됩니다.</p>\n<p>피해자는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 2} 상태가 되고, 뱀파이어는 @Damage[36[치유]] HP를 회복하고, 초과 HP는 임시 체력으로 얻습니다. 이미 흡수된 생물체의 피를 마셔도 뱀파이어의 HP는 회복되지 않지만, 피해자의 흡수 값이 1 증가하며, 흡수 값이 5에 도달하면 피해자는 사망합니다. 뱀파이어는 생명을 유지하기 위해 용기에 담겨진 피를 마실 수도 있지만, 그렇게 해도 HP는 회복되지 않습니다. 피해자의 흡수 상태는 매주 1씩 감소합니다. @Check[medicine|dc:20|name:Blood Transfusion] 체크와 충분한 혈액 또는 헌혈자가 필요한 수혈을 받으면 10분 후에 흡수량이 1 감소합니다."
         },
         "RoBkljZDGJ3My0Z5": {
           "name": "독 무기",
@@ -546,7 +546,7 @@
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ReactiveStrike]</p>"
         },
         "bRz80BdKKsRJ5CH7": {
-          "name": "방패 차단",
+          "name": "방패 막기",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ShieldBlock]</p>"
         },
         "SAMxVvF0Py6t17Gl": {
@@ -570,7 +570,7 @@
         },
         "Fv7pLR00M2cdJAKM": {
           "name": "Shard Storm",
-          "description": "<p>10 피트.</p>\n<p>뼈 조각의 구름이 스컬 테이커를 둘러쌉니다. 생물이 그 구름 속으로 이동하거나 그곳에서 턴을 시작하면, 파편 폭풍은 @Damage[4d6[베기],4d6[공허]]{4d6 베기 피해와 4d6 공허 피해} 를 입게 하며, @Check[reflex|dc:42|basic] 내성을 체크합니다. </p>\n<p>생물이 공허 피해에 대한 저항력이나 면역력이 있거나, 죽음 효과로부터 보호하는 효과, 또는 @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed} 또는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained} 상태에 있는 경우, 크리처는 먼저 @Check[will|dc:42] 내성 체크에 성공하거나 1분 동안 이러한 모든 이점을 억제해야 합니다."
+          "description": "<p>10 피트.</p>\n<p>뼈 조각의 구름이 스컬 테이커를 둘러쌉니다. 생물이 그 구름 속으로 이동하거나 그곳에서 턴을 시작하면, 파편 폭풍은 @Damage[4d6[slashing],4d6[void]]{4d6 베기 피해와 4d6 공허 피해} 를 입게 하며, @Check[reflex|dc:42|basic] 내성을 체크합니다. </p>\n<p>생물이 공허 피해에 대한 저항력이나 면역력이 있거나, 죽음 효과로부터 보호하는 효과, 또는 @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed} 또는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained} 상태에 있는 경우, 크리처는 먼저 @Check[will|dc:42] 내성 체크에 성공하거나 1분 동안 이러한 모든 이점을 억제해야 합니다."
         },
         "xZVC4Ktpor7xNXGV": {
           "name": "공허의 치유",
@@ -582,7 +582,7 @@
         },
         "QtbYkrzWKmYbd4c5": {
           "name": "부서진 땅",
-          "description": "<p>스컬 테이커는 @Template[type:emanation|distance:100] 내의 모든 단단한 표면에서 조각난 뼈를 분출합니다. 이 뼈를 통과하는 생물은 이동 5 피트마다 @Damage[10[piercing],10[void]]{10 피어싱 피해와 10 공허}의 피해를 입습니다. 각 라운드에 이 부서진 뼈로 인해 피어싱 피해를 받은 생물은 @Check[reflex|dc:42] 내성 체크에 성공하지 않으면 10분 동안 모든 속도에 -10피트의 상황 페널티를 받거나, 대실패 시 24시간 동안 -15피트의 상황 페널티를 받습니다. 뼈는 스컬 테이커가 이 행동을 다시 사용하거나 뼈를 수동으로 제거할 때까지 제자리에 남아 있으며, 뼈를 제거하는 데는 5피트 칸당 10분이 소요됩니다. 파편이 튀는 땅}</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.hc7kR6quUE9ryRyj]{효과: 파편이 튀는 땅 (대실패)}</p>"
+          "description": "<p>스컬 테이커는 @Template[type:emanation|distance:100] 내의 모든 단단한 표면에서 조각난 뼈를 분출합니다. 이 뼈를 통과하는 생물은 이동 5 피트마다 @Damage[10[piercing],10[void]]{10 관통 피해와 10 공허}의 피해를 입습니다. 각 라운드에 이 부서진 뼈로 인해 관통 피해를 받은 생물은 @Check[reflex|dc:42] 내성 체크에 성공하지 않으면 10분 동안 모든 속도에 -10피트의 상황 페널티를 받거나, 대실패 시 24시간 동안 -15피트의 상황 페널티를 받습니다. 뼈는 스컬 테이커가 이 행동을 다시 사용하거나 뼈를 수동으로 제거할 때까지 제자리에 남아 있으며, 뼈를 제거하는 데는 5피트 칸당 10분이 소요됩니다. 파편이 튀는 땅}</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.hc7kR6quUE9ryRyj]{효과: 파편이 튀는 땅 (대실패)}</p>"
         },
         "MbJQF9CoclP4Q7uV": {
           "name": "공기 흡수",
@@ -644,10 +644,10 @@
         },
         "EwgoGqiHRTe0Ezil": {
           "name": "살인적인 공격자",
-          "description": "<p>좀비 곰은 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{잡기} 상태인 생물에게 가하는 피해 굴림에 +2 상황 보너스를 받습니다."
+          "description": "<p>좀비 곰은 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 상태인 생물에게 가하는 피해 굴림에 +2 상황 보너스를 받습니다."
         },
         "GBtj6ueTnSX6cm8G": {
-          "name": "잡기",
+          "name": "붙잡기",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
         }
       }

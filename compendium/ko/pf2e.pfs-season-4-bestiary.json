@@ -140,7 +140,7 @@
         },
         "7t0hoAr4rbWswzMK": {
           "name": "가시 달린 뿔",
-          "description": "<p><strong>빈도</strong> 하루에 한 번</p>\n<p><strong>트리거</strong> Liaskra가 무기 없는 공격이나 도달 거리가 없는 근접 무기로 공격을 받으면</p>\n<hr />\n<p><strong>효과</strong> Liaskra는 공격자의 살에 박힌 가시를 떼어냅니다. 그녀는 @Damage[1d8[피어싱]]의 피해를 트리거한 생물에게 입힙니다 (@Check[reflex|dc:17|basic]). 대실패 시, 가시가 살에 박혀 생물은 @Damage[1d4[출혈]]의 추가 피해를 입습니다."
+          "description": "<p><strong>빈도</strong> 하루에 한 번</p>\n<p><strong>트리거</strong> Liaskra가 무기 없는 공격이나 도달 거리가 없는 근접 무기로 공격을 받으면</p>\n<hr />\n<p><strong>효과</strong> Liaskra는 공격자의 살에 박힌 가시를 떼어냅니다. 그녀는 @Damage[1d8[piercing]]의 피해를 트리거한 생물에게 입힙니다 (@Check[reflex|dc:17|basic]). 대실패 시, 가시가 살에 박혀 생물은 @Damage[1d4[bleed]]의 추가 피해를 입습니다."
         },
         "LHV1Y69RCdChvRwx": {
           "name": "속임수 공격",
@@ -242,7 +242,7 @@
         },
         "479508pjo4uznsty": {
           "name": "최종 덫",
-          "description": "<p><strong>트리거</strong> 데드아이 웨이트의 체력이 0으로 감소합니다</p>\n<hr />\n<p><strong>효과</strong> 데드아이 웨이트는 자신의 몸에 올가미를 설치하고, 파괴되기 전에 이 올가미를 발동합니다. 뼈 조각이 인접한 생물에게 날아가 @Damage[(4d8+4)[피어싱]]의 피해를 입힙니다 (@Check[reflex|dc:27|basic]).</p>"
+          "description": "<p><strong>트리거</strong> 데드아이 웨이트의 체력이 0으로 감소합니다</p>\n<hr />\n<p><strong>효과</strong> 데드아이 웨이트는 자신의 몸에 올가미를 설치하고, 파괴되기 전에 이 올가미를 발동합니다. 뼈 조각이 인접한 생물에게 날아가 @Damage[(4d8+4)[piercing]]의 피해를 입힙니다 (@Check[reflex|dc:27|basic]).</p>"
         },
         "WUYJjrYb5HbQgPNA": {
           "name": "공허의 치유",
@@ -302,7 +302,7 @@
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>"
         },
         "54pvmAtUtSvN1SQx": {
-          "name": "방패 차단",
+          "name": "방패 막기",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ShieldBlock]</p>"
         },
         "5EvbvNghD1THDwUR": {
@@ -333,7 +333,7 @@
         },
         "479508pjo4uznsty": {
           "name": "최종 덫",
-          "description": "<p><strong>트리거</strong> 데드아이 웨이트의 체력이 0으로 감소합니다. 뼈 조각이 인접한 생물에게 날아가 @Damage[4d8[피어싱]]의 피해를 입힙니다 (@Check[reflex|dc:25|basic]).</p>"
+          "description": "<p><strong>트리거</strong> 데드아이 웨이트의 체력이 0으로 감소합니다. 뼈 조각이 인접한 생물에게 날아가 @Damage[4d8[piercing]]의 피해를 입힙니다 (@Check[reflex|dc:25|basic]).</p>"
         },
         "WUYJjrYb5HbQgPNA": {
           "name": "공허 치유",
@@ -417,7 +417,7 @@
       "items": {
         "YXFicpAJz9WZdrnS": {
           "name": "뼈 조각 폭발",
-          "description": "<p>삐걱거리는 해골 무리가 체력이 0이 되면, @Template[burst|distance:30] 범위 내에서 악의적인 에너지와 뼈 조각이 폭발하며 @Damage[(2d12-2)[피어싱],(2d12-2)[공허]|options:area-damage]{2d12-2 피어싱 피해와 2d12-2 공허 피해} (@Check[reflex|dc:27|basic|options:area-effect] 내성).</p>"
+          "description": "<p>삐걱거리는 해골 무리가 체력이 0이 되면, @Template[burst|distance:30] 범위 내에서 악의적인 에너지와 뼈 조각이 폭발하며 @Damage[(2d12-2)[piercing],(2d12-2)[void]|options:area-damage]{2d12-2 관통 피해와 2d12-2 공허 피해} (@Check[reflex|dc:27|basic|options:area-effect] 내성).</p>"
         },
         "dhMEgZcYzpqH15gY": {
           "name": "삐걱거리는 이빨",
@@ -433,7 +433,7 @@
         },
         "CFiD5D2XvZ2N67x1": {
           "name": "떼로 몰려드는 갉아먹기",
-          "description": "<p>떼의 공간에 있는 각 적들은 @Damage[(4d8-2)[피어싱]]의 피해를 받습니다 (@Check[reflex|dc:27|basic] 내성).</p>"
+          "description": "<p>떼의 공간에 있는 각 적들은 @Damage[(4d8-2)[piercing]]의 피해를 받습니다 (@Check[reflex|dc:27|basic] 내성).</p>"
         }
       }
     },
@@ -485,7 +485,7 @@
           "description": "<p>눈은 겨울 마녀의 시야를 방해하지 않습니다. 그녀는 눈보라로부터 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealment} 효과를 무시합니다.</p>"
         },
         "m03bX0sD03E32bCM": {
-          "name": "상시 주문",
+          "name": "지속 주문",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ConstantSpells]</p>"
         },
         "Zylzzu3xfzA6axxc": {
@@ -504,7 +504,7 @@
       "hpdetails": "",
       "items": {
         "AVgx9GEdYELu9Z9I": {
-          "name": "상시 주문",
+          "name": "지속 주문",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ConstantSpells]</p>"
         },
         "lo4ykwnhgn0sqzrn": {
@@ -540,7 +540,7 @@
         },
         "ggCUTswEGOjGvjj0": {
           "name": "갑작스러운 돌격",
-          "description": "<p>정찰 스카웃은 두 번의 스트라이드를 하고 근접 공격을 합니다."
+          "description": "<p>정찰 스카웃은 두 번의 이동를 하고 근접 공격을 합니다."
         }
       }
     },
@@ -692,7 +692,7 @@
         },
         "1VC5wdeGuePKqGuA": {
           "name": "스플로치",
-          "description": "<p><strong>트리거</strong> 인접한 생물이 베기 또는 찌르기 피해를 주는 공격으로 검은 푸딩 젤리를 공격합니다. 공격자는 @Check[reflex|dc:25] 내성을 시도해야 합니다. </p>\n<hr />\n<p><strong>대성공</strong> 공격자는 영향을 받지 않습니다. </p>\n<p><strong>성공</strong> 공격자는 @Damage[1d8[acid]]의 피해를 입습니다.</p>\n<p><strong>실패</strong> 공격자는 @Damage[2d8[acid]]의 피해를 받습니다. </p>\n<p><strong>대실패</strong> 공격자는 @Damage[2d8[acid]]의 피해를 받고 4의 지속성 산성 피해를 받습니다. </p>"
+          "description": "<p><strong>트리거</strong> 인접한 생물이 베기 또는 관통 피해를 주는 공격으로 검은 푸딩 젤리를 공격합니다. 공격자는 @Check[reflex|dc:25] 내성을 시도해야 합니다. </p>\n<hr />\n<p><strong>대성공</strong> 공격자는 영향을 받지 않습니다. </p>\n<p><strong>성공</strong> 공격자는 @Damage[1d8[acid]]의 피해를 입습니다.</p>\n<p><strong>실패</strong> 공격자는 @Damage[2d8[acid]]의 피해를 받습니다. </p>\n<p><strong>대실패</strong> 공격자는 @Damage[2d8[acid]]의 피해를 받고 4의 지속성 산성 피해를 받습니다. </p>"
         },
         "dH7eKw8pDJQDkR3P": {
           "name": "Constrict",
@@ -707,7 +707,7 @@
           "description": "<p>푸딩은 천장이나 다른 거꾸로 된 표면에도 올라갈 수 있지만, 이러한 표면은 푸딩에게는 어려운 지형입니다."
         },
         "Hczu635vDDik3NIJ": {
-          "name": "잡기",
+          "name": "붙잡기",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
         }
       }
@@ -764,7 +764,7 @@
         },
         "QpzMidSalFaHGivw": {
           "name": "모양 변경",
-          "description": "<p>흡혈귀는 동물 형태로 변신하거나 원래 형태로 돌아갑니다.</p><ul><li><p><strong>박쥐</strong> 흡혈귀는 @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.xnpuGO8jEMba9wy5]{거대 박쥐}로 변신합니다.</p><ul><li><strong>크기</strong> 대형</li><li><strong>감각</strong> 에코로케이션 40 피트</li><li><strong>속도</strong> 20 피트, 비행 30 피트</li><li><strong>근접 공격</strong> 이빨 [[/r 1d20+15 #Fangs]]{+15}/[[/r 1d20+10 #Fangs]]{+10}/[[/r 1d20+5 #Fangs]]{+5}, <strong>피해</strong> @Damage[(1d8+9)[피어싱]] 피해</li></ul></li></ul><hr /><p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
+          "description": "<p>흡혈귀는 동물 형태로 변신하거나 원래 형태로 돌아갑니다.</p><ul><li><p><strong>박쥐</strong> 흡혈귀는 @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.xnpuGO8jEMba9wy5]{거대 박쥐}로 변신합니다.</p><ul><li><strong>크기</strong> 대형</li><li><strong>감각</strong> 에코로케이션 40 피트</li><li><strong>속도</strong> 20 피트, 비행 30 피트</li><li><strong>근접 공격</strong> 이빨 [[/r 1d20+15 #Fangs]]{+15}/[[/r 1d20+10 #Fangs]]{+10}/[[/r 1d20+5 #Fangs]]{+5}, <strong>피해</strong> @Damage[(1d8+9)[piercing]] 피해</li></ul></li></ul><hr /><p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
         },
         "jnZDE6piOq3rzmdg": {
           "name": "스폰 생성",
@@ -776,10 +776,10 @@
         },
         "KESgZ7EFPclSlLY8": {
           "name": "피를 마시기",
-          "description": "<p><strong>요구 사항</strong> @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비된}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{제압된}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식이 없는}, 또는 의지가 있는 생물이 뱀파이어의 손이 닿는 거리에 있습니다.</p>\n<hr />\n<p><strong>효과</strong> 뱀파이어는 그 생물에게 송곳니를 박아 피를 마십니다. 이 효과는 피해자가 잡힌 경우 피해자의 체력 DC에 대해 @Check[athletics|defense:fortitude] 체크를 해야 하며, 그 외의 조건에서는 자동으로 적용됩니다.</p>\n<p>피해자는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 2} 상태가 되고, 뱀파이어는 @Damage[10[치유]] 체력을 회복하고, 초과 HP는 임시 체력으로 얻습니다. 이미 흡수된 생물에게서 피를 마셔도 뱀파이어의 HP는 회복되지 않지만, 피해자의 흡수 값이 1 증가합니다. 뱀파이어는 영양을 공급하기 위해 용기에 담겨진 피도 마실 수 있지만, 그렇게 해도 HP는 회복되지 않습니다. 피해자의 흡수 상태는 매주 1씩 감소합니다. @Check[medicine|dc:20|name:Blood Transfusion] 체크와 충분한 혈액 또는 헌혈자가 필요한 수혈을 받으면 10분 후에 흡수량이 1 감소합니다."
+          "description": "<p><strong>요구 사항</strong> @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비된}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{제압된}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식이 없는}, 또는 의지가 있는 생물이 뱀파이어의 손이 닿는 거리에 있습니다.</p>\n<hr />\n<p><strong>효과</strong> 뱀파이어는 그 생물에게 송곳니를 박아 피를 마십니다. 이 효과는 피해자가 잡힌 경우 피해자의 체력 DC에 대해 @Check[athletics|defense:fortitude] 체크를 해야 하며, 그 외의 조건에서는 자동으로 적용됩니다.</p>\n<p>피해자는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 2} 상태가 되고, 뱀파이어는 @Damage[10[치유]] 체력을 회복하고, 초과 HP는 임시 체력으로 얻습니다. 이미 흡수된 생물에게서 피를 마셔도 뱀파이어의 HP는 회복되지 않지만, 피해자의 흡수 값이 1 증가합니다. 뱀파이어는 영양을 공급하기 위해 용기에 담겨진 피도 마실 수 있지만, 그렇게 해도 HP는 회복되지 않습니다. 피해자의 흡수 상태는 매주 1씩 감소합니다. @Check[medicine|dc:20|name:Blood Transfusion] 체크와 충분한 혈액 또는 헌혈자가 필요한 수혈을 받으면 10분 후에 흡수량이 1 감소합니다."
         },
         "JUgPxjF2b7DYZwEu": {
-          "name": "잡기",
+          "name": "붙잡기",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
         }
       }
@@ -863,7 +863,7 @@
           "description": "<p>화분 속의 바이올렛 에더루트는 120피트 이내의 생물들의 감정을 대략적으로 감지할 수 있습니다. 감정 감지는 감정 효과에 영향을 받은 생물들에 대해서는 정확한 감지입니다. @UUID[Compendium.pf2e.spells-srd.Item.b515AZlB0sridKSq]{Calm} 효과나 에테루트의 ‘감정 자극’ 능력의 평온 효과 하에 있는 생물은 감정 감지로 탐지할 수 없습니다.</p>"
         },
         "U6DFq7NSLRLAFqso": {
-          "name": "상시 마법",
+          "name": "지속 주문",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ConstantSpells]</p>"
         },
         "N2odnc38PRSdfd3G": {
@@ -898,7 +898,7 @@
           "description": "<p>와이트 캡틴은 연기로 인한 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{은폐} 상태를 무시합니다."
         },
         "hrwH6CDrMAcUOAA4": {
-          "name": "상시 마법",
+          "name": "지속 주문",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ConstantSpells]</p>"
         },
         "cIJp4XSjGySMlIFb": {
@@ -1123,7 +1123,7 @@
           "description": "<p>소울 스켈름은 그림자 같은 환상을 남기며 근접 공격을 합니다. 스켈름은 다음 턴이 시작될 때까지 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 됩니다. 공격이 성공하면 스켈름은 피해 주사위 수를 1개 늘리고, 대상은 @Check[will|dc:29] 내성 체크를 시도해야 합니다. 실패 시, 대상은 @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible} 상태가 되어 4 라운드 동안 동맹군에게 보이지 않고, 들리지 않으며, 기타 방식으로 감지할 수 없게 됩니다. 또한 대상은 해당 동맹군을 볼 수 없으며, 들을 수 없으며, 기타 방식으로 감지할 수 없습니다. 결과에 관계없이 해당 생물은 24시간 동안 Isolating Lash에 일시적으로 면역됩니다.</p>"
         },
         "xmvNKENAwK9gdUuB": {
-          "name": "잡기",
+          "name": "붙잡기",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
         },
         "CTfA2dy8dT55Ygfa": {
@@ -1139,7 +1139,7 @@
       "items": {
         "YXFicpAJz9WZdrnS": {
           "name": "뼈 파편 폭발",
-          "description": "<p>삐걱거리는 해골 무리가 체력이 0이 되면, @Template[burst|distance:30] 범위 내에서 악의적인 에너지와 뼈 조각이 폭발하며 @Damage[(2d12+2)[피어싱],(2d12+2)[공허]|options:area-damage]{2d12+2 피어싱 피해와 2d12+2 공허 피해} (@Check[reflex|dc:31|basic|options:area-effect] 내성).</p>"
+          "description": "<p>삐걱거리는 해골 무리가 체력이 0이 되면, @Template[burst|distance:30] 범위 내에서 악의적인 에너지와 뼈 조각이 폭발하며 @Damage[(2d12+2)[piercing],(2d12+2)[void]|options:area-damage]{2d12+2 관통 피해와 2d12+2 공허 피해} (@Check[reflex|dc:31|basic|options:area-effect] 내성).</p>"
         },
         "dhMEgZcYzpqH15gY": {
           "name": "삐걱거리는 이빨",
@@ -1155,7 +1155,7 @@
         },
         "CFiD5D2XvZ2N67x1": {
           "name": "떼로 몰려드는 갉아먹기",
-          "description": "<p>떼의 공간에 있는 각 적들은 @Damage[(4d8+2)[피어싱]]의 피해를 받습니다 (@Check[reflex|dc:31|basic] 내성).</p>"
+          "description": "<p>떼의 공간에 있는 각 적들은 @Damage[(4d8+2)[piercing]]의 피해를 받습니다 (@Check[reflex|dc:31|basic] 내성).</p>"
         }
       }
     },
@@ -1165,7 +1165,7 @@
       "hpdetails": "",
       "items": {
         "M2JcdJZTsdKY31Ed": {
-          "name": "상수 주문",
+          "name": "지속 주문",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ConstantSpells]</p>"
         },
         "DxJcguaM5VY5ipoX": {
@@ -1229,13 +1229,13 @@
       }
     },
     "Deimostride (9-10)": {
-      "name": "데이모스트라이드 (9-10)",
+      "name": "데이모이동 (9-10)",
       "description": "<p>거대한 그레이터 나이트메어는 더 위험한 나이트메어의 일종으로, 특히 기수를 타고 다른 현실을 침공하는 능력으로 유명합니다. </p>\n<hr />\n<p>나이트메어는 불타는 말의 모습으로 죽음의 전조입니다. </p>",
       "hpdetails": "",
       "items": {
         "nbWXPfh7WyVCERN9": {
           "name": "연기",
-          "description": "<p>20 피트. 데임오스트라이드는 지속적으로 검은 연기를 내뿜어 주변에 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealment} 효과를 생성합니다. Deimostride와 그의 기수는 이 연기를 통해 볼 수 있습니다. 이 영역에서 턴을 시작하는 생물은 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2} (@Check[fortitude|dc:23] negates)가 되고, 1분 동안 연기로 인한 질병에 일시적으로 면역이 됩니다. 데이모스트라이드, 그의 기수, 현재 숨을 참은 생물(또는 숨을 쉴 필요가 없는 생물), 그리고 독에 면역인 생물은 오라의 병들음 효과에는 면역이지만 은폐 효과에는 면역이 아닙니다.</p>"
+          "description": "<p>20 피트. 데임오이동는 지속적으로 검은 연기를 내뿜어 주변에 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealment} 효과를 생성합니다. Deimostride와 그의 기수는 이 연기를 통해 볼 수 있습니다. 이 영역에서 턴을 시작하는 생물은 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2} (@Check[fortitude|dc:23] negates)가 되고, 1분 동안 연기로 인한 질병에 일시적으로 면역이 됩니다. 데이모이동, 그의 기수, 현재 숨을 참은 생물(또는 숨을 쉴 필요가 없는 생물), 그리고 독에 면역인 생물은 오라의 병들음 효과에는 면역이지만 은폐 효과에는 면역이 아닙니다.</p>"
         },
         "Huqh2NJEkx1xBpoO": {
           "name": "불타는 질주",
@@ -1269,7 +1269,7 @@
           "description": "<p>조종되는 시계 장치의 용기는 등 뒤의 에센스 수집기에서 공허의 에너지 아크를 방출합니다. @Template[emanation|distance:10] 내에 있는 생물들은 @Damage[11d6[void]]의 피해를 받습니다 (@Check[fortitude|dc:26|basic]). 용기는 [[/gmr 1d4 #Recharge Etheric Discharge]]{1d4 라운드} 동안 에테릭 방전을 사용할 수 없습니다.</p>"
         },
         "Urwp7vLcfy6avc98": {
-          "name": "잡기",
+          "name": "붙잡기",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
         }
       }
@@ -1280,7 +1280,7 @@
       "hpdetails": "",
       "items": {
         "TMSXcLjT68Imckvn": {
-          "name": "상시 주문",
+          "name": "지속 주문",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ConstantSpells]</p>"
         },
         "BJ3AKhYVgmzK2Crh": {
@@ -1303,7 +1303,7 @@
       "hpdetails": "void healing",
       "items": {
         "VqTDcQNmGBPYQ6d3": {
-          "name": "강화된 어둠 시야",
+          "name": "향상된 암시야",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.GreaterDarkvision]</p>"
         },
         "VwIv1y01lqATWPRT": {
@@ -1368,7 +1368,7 @@
           "description": "<p>와이트 사령관은 연기로 인한 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{은폐} 상태를 무시합니다."
         },
         "hrwH6CDrMAcUOAA4": {
-          "name": "상시 주문",
+          "name": "지속 주문",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ConstantSpells]</p>"
         },
         "cIJp4XSjGySMlIFb": {
@@ -1420,7 +1420,7 @@
         },
         "dWR9saug2xhMitQR": {
           "name": "떼로 몰려드는 물기",
-          "description": "<p>떼의 공간에 있는 각 적들은 @Damage[1d6[피어싱]]의 피해를 받습니다 (@Check[reflex|dc:14|basic] 내성). 내성 검사에 대실패한 생물은 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1}이 됩니다."
+          "description": "<p>떼의 공간에 있는 각 적들은 @Damage[1d6[piercing]]의 피해를 받습니다 (@Check[reflex|dc:14|basic] 내성). 내성 검사에 대실패한 생물은 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1}이 됩니다."
         }
       }
     },
@@ -1470,7 +1470,7 @@
         },
         "QpzMidSalFaHGivw": {
           "name": "모양 변경",
-          "description": "<p>흡혈귀는 동물 형태로 변신하거나 원래 형태로 돌아갑니다.</p><ul><li><p><strong>박쥐</strong> 흡혈귀는 @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.xnpuGO8jEMba9wy5]{거대 박쥐}로 변신합니다.</p><ul><li><strong>크기</strong> 대형</li><li><strong>감각</strong> 에코로케이션 40피트</li><li><strong>속도</strong> 20피트, 비행 30피트</li><li><strong>근접 공격</strong> 이빨 [[/r 1d20+17 #Fangs]]{+17}/[[/r 1d20+12 #Fangs]]{+12}/[[/r 1d20+7 #Fangs]]{+7}, <strong>피해</strong> @Damage[(1d8+11)[피어싱]] 피해</li></ul></li></ul><hr /><p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
+          "description": "<p>흡혈귀는 동물 형태로 변신하거나 원래 형태로 돌아갑니다.</p><ul><li><p><strong>박쥐</strong> 흡혈귀는 @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.xnpuGO8jEMba9wy5]{거대 박쥐}로 변신합니다.</p><ul><li><strong>크기</strong> 대형</li><li><strong>감각</strong> 에코로케이션 40피트</li><li><strong>속도</strong> 20피트, 비행 30피트</li><li><strong>근접 공격</strong> 이빨 [[/r 1d20+17 #Fangs]]{+17}/[[/r 1d20+12 #Fangs]]{+12}/[[/r 1d20+7 #Fangs]]{+7}, <strong>피해</strong> @Damage[(1d8+11)[piercing]] 피해</li></ul></li></ul><hr /><p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
         },
         "jnZDE6piOq3rzmdg": {
           "name": "스폰 생성",
@@ -1482,10 +1482,10 @@
         },
         "KESgZ7EFPclSlLY8": {
           "name": "피를 마시기",
-          "description": "<p><strong>요구 사항</strong> @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비된}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{제압된}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 잃은}, 또는 기꺼이 피를 마실 생물이 뱀파이어의 손이 닿는 거리에 있습니다.</p>\n<hr />\n<p><strong>효과</strong> 뱀파이어는 그 생물에게 송곳니를 박아 피를 마십니다. 이 효과는 피해자가 잡힌 경우 피해자의 체력 DC에 대해 @Check[athletics|defense:fortitude] 체크를 해야 하며, 그 외의 조건에서는 자동으로 적용됩니다.</p>\n<p>피해자는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 2} 상태가 되고, 뱀파이어는 @Damage[10[healing]] 체력을 회복하며, 초과 HP는 임시 체력으로 얻습니다. 이미 피가 흡수된 생물체에서 피를 마셔도 뱀파이어의 HP는 회복되지 않지만, 피해자의 흡수 값이 1 증가합니다. 뱀파이어는 생명을 유지하기 위해 용기에 담겨진 피도 마실 수 있지만, 그렇게 해도 HP는 회복되지 않습니다. 피해자의 흡수 상태는 매주 1씩 감소합니다. @Check[medicine|dc:20|name:Blood Transfusion] 체크와 충분한 혈액 또는 헌혈자가 필요한 수혈은 10분 후에 흡수량을 1 감소시킵니다."
+          "description": "<p><strong>요구 사항</strong> @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비된}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{제압된}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 잃은}, 또는 기꺼이 피를 마실 생물이 뱀파이어의 손이 닿는 거리에 있습니다.</p>\n<hr />\n<p><strong>효과</strong> 뱀파이어는 그 생물에게 송곳니를 박아 피를 마십니다. 이 효과는 피해자가 잡힌 경우 피해자의 체력 DC에 대해 @Check[athletics|defense:fortitude] 체크를 해야 하며, 그 외의 조건에서는 자동으로 적용됩니다.</p>\n<p>피해자는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 2} 상태가 되고, 뱀파이어는 @Damage[10[healing]] 체력을 회복하며, 초과 HP는 임시 체력으로 얻습니다. 이미 피가 흡수된 생물체에서 피를 마셔도 뱀파이어의 HP는 회복되지 않지만, 피해자의 흡수 값이 1 증가합니다. 뱀파이어는 생명을 유지하기 위해 용기에 담겨진 피도 마실 수 있지만, 그렇게 해도 HP는 회복되지 않습니다. 피해자의 흡수 상태는 매주 1씩 감소합니다. @Check[medicine|dc:20|name:Blood Transfusion] 체크와 충분한 혈액 또는 헌혈자가 필요한 수혈은 10분 후에 흡수량을 1 감소시킵니다."
         },
         "JUgPxjF2b7DYZwEu": {
-          "name": "Grab",
+          "name": "붙잡기",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
         }
       }
@@ -1554,7 +1554,7 @@
         },
         "dWR9saug2xhMitQR": {
           "name": "떼로 공격하는 이빨",
-          "description": "<p>떼의 공간에 있는 각 적들은 @Damage[5d4[피어싱]]의 피해를 받습니다 (@Check[reflex|dc:21|basic] 내성). 떼에 대한 내성에 실패한 생물은 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1}이 됩니다. 대실패 시, 그 생물은 @Damage[1d6[persistent,bleed]]의 피해도 받습니다."
+          "description": "<p>떼의 공간에 있는 각 적들은 @Damage[5d4[piercing]]의 피해를 받습니다 (@Check[reflex|dc:21|basic] 내성). 떼에 대한 내성에 실패한 생물은 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1}이 됩니다. 대실패 시, 그 생물은 @Damage[1d6[persistent,bleed]]의 피해도 받습니다."
         }
       }
     },
@@ -1594,7 +1594,7 @@
       "hpdetails": "",
       "items": {
         "oD3DnNMV4dQa3Gss": {
-          "name": "상시 주문",
+          "name": "지속 주문",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ConstantSpells]</p>"
         },
         "NCFt2ltSfGTesan4": {
@@ -1614,7 +1614,7 @@
           "description": "<p><strong>빈도</strong> 하루에 한 번</p>\n<hr />\n<p><strong>효과</strong> 스켈름은 추종자들에게 자신의 신념에 따라 행동할 것을 촉구하는 열정적인 연설을 합니다. @Template[emanation|distance:30]{30 피트} 내에 있는 모든 생물은 @Check[will|dc:26] 내성 체크를 시도해야 합니다.</p>\n<hr />\n<p><strong>대성공</strong> 이 생물은 즉시 인접한 생물 중 하나를 공격할 수 있습니다. 인접한 생물이 없는 경우, 해당 생물은 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 되고, 다음 턴이 시작될 때까지 스켈름에 @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{매료됨} 상태가 됩니다."
         },
         "xmvNKENAwK9gdUuB": {
-          "name": "잡기",
+          "name": "붙잡기",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
         },
         "CTfA2dy8dT55Ygfa": {
@@ -1718,7 +1718,7 @@
           "description": "<p>울펜 병사가 공포 효과에 대한 의지 내성 검사에서 성공을 굴릴 경우, 대신 대성공을 얻습니다. 또한, @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened} 상태를 얻을 때마다 그 값을 1 감소시킵니다.</p>"
         },
         "uZrWabL0WnwQx3ZJ": {
-          "name": "방패 차단",
+          "name": "방패 막기",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ShieldBlock]</p>"
         },
         "Hb3NR7M84lvmOD5l": {
@@ -1741,7 +1741,7 @@
       "hpdetails": "",
       "items": {
         "AVgx9GEdYELu9Z9I": {
-          "name": "상시 주문",
+          "name": "지속 주문",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ConstantSpells]</p>"
         },
         "lo4ykwnhgn0sqzrn": {
@@ -1820,7 +1820,7 @@
         },
         "QpzMidSalFaHGivw": {
           "name": "모양 변경",
-          "description": "<p>흡혈귀는 동물 형태로 변신하거나 원래 형태로 돌아갑니다.</p><ul><li><p><strong>박쥐</strong> 흡혈귀는 @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.xnpuGO8jEMba9wy5]{거대 박쥐}로 변신합니다.</p><ul><li><strong>크기</strong> 대형</li><li><strong>감각</strong> 에코로케이션 40 피트</li><li><strong>속도</strong> 20 피트, 비행 30 피트</li><li><strong>근접 공격</strong> 이빨 [[/r 1d20+13 #Fangs]]{+13}/[[/r 1d20+8 #Fangs]]{+8}/[[/r 1d20+3 #Fangs]]{+3}, <strong>피해</strong> @Damage[(1d8+7)[피어싱]] 피해</li></ul></li></ul><hr /><p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
+          "description": "<p>흡혈귀는 동물 형태로 변신하거나 원래 형태로 돌아갑니다.</p><ul><li><p><strong>박쥐</strong> 흡혈귀는 @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.xnpuGO8jEMba9wy5]{거대 박쥐}로 변신합니다.</p><ul><li><strong>크기</strong> 대형</li><li><strong>감각</strong> 에코로케이션 40 피트</li><li><strong>속도</strong> 20 피트, 비행 30 피트</li><li><strong>근접 공격</strong> 이빨 [[/r 1d20+13 #Fangs]]{+13}/[[/r 1d20+8 #Fangs]]{+8}/[[/r 1d20+3 #Fangs]]{+3}, <strong>피해</strong> @Damage[(1d8+7)[piercing]] 피해</li></ul></li></ul><hr /><p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
         },
         "jnZDE6piOq3rzmdg": {
           "name": "스폰 생성",
@@ -1832,10 +1832,10 @@
         },
         "KESgZ7EFPclSlLY8": {
           "name": "피를 마시기",
-          "description": "<p><strong>요구 사항</strong> @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비된}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{제압된}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 잃은}, 또는 기꺼이 피를 마실 생물이 뱀파이어의 손이 닿는 거리에 있습니다.</p>\n<hr />\n<p><strong>효과</strong> 뱀파이어는 그 생물에게 송곳니를 박아 피를 마십니다. 이 경우, 피해자가 잡혀 있는 경우 피해자의 체력 DC에 대해 @Check[athletics|defense:fortitude] 체크가 필요하며, 그 외의 조건에서는 자동으로 성공합니다.</p>\n<p>피해자는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 2} 상태가 되고, 뱀파이어는 @Damage[10[healing]] 체력을 회복하며, 초과 HP는 임시 체력으로 얻습니다. 이미 피가 흡수된 생물체에서 피를 마셔도 뱀파이어의 HP는 회복되지 않지만, 피해자의 흡수 값이 1 증가합니다. 뱀파이어는 영양을 공급하기 위해 용기에 담겨진 피도 마실 수 있지만, 그렇게 해도 HP는 회복되지 않습니다. 피해자의 흡수 상태는 매주 1씩 감소합니다. @Check[medicine|dc:20|name:Blood Transfusion] 체크와 충분한 혈액 또는 헌혈자가 필요한 수혈을 받으면 10분 후에 흡수량이 1 감소합니다."
+          "description": "<p><strong>요구 사항</strong> @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비된}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{제압된}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 잃은}, 또는 기꺼이 피를 마실 생물이 뱀파이어의 손이 닿는 거리에 있습니다.</p>\n<hr />\n<p><strong>효과</strong> 뱀파이어는 그 생물에게 송곳니를 박아 피를 마십니다. 이 경우, 피해자가 잡혀 있는 경우 피해자의 체력 DC에 대해 @Check[athletics|defense:fortitude] 체크가 필요하며, 그 외의 조건에서는 자동으로 성공합니다.</p>\n<p>피해자는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 2} 상태가 되고, 뱀파이어는 @Damage[10[healing]] 체력을 회복하며, 초과 HP는 임시 체력으로 얻습니다. 이미 피가 흡수된 생물체에서 피를 마셔도 뱀파이어의 HP는 회복되지 않지만, 피해자의 흡수 값이 1 증가합니다. 뱀파이어는 영양을 공급하기 위해 용기에 담겨진 피도 마실 수 있지만, 그렇게 해도 HP는 회복되지 않습니다. 피해자의 흡수 상태는 매주 1씩 감소합니다. @Check[medicine|dc:20|name:Blood Transfusion] 체크와 충분한 혈액 또는 헌혈자가 필요한 수혈을 받으면 10분 후에 흡수량이 1 감소합니다."
         },
         "JUgPxjF2b7DYZwEu": {
-          "name": "Grab",
+          "name": "붙잡기",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
         }
       }
@@ -1854,7 +1854,7 @@
           "description": "<p>와이트 사령관은 연기로 인한 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{은폐} 상태를 무시합니다."
         },
         "hrwH6CDrMAcUOAA4": {
-          "name": "상시 주문",
+          "name": "지속 주문",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ConstantSpells]</p>"
         },
         "cIJp4XSjGySMlIFb": {
@@ -2062,7 +2062,7 @@
         },
         "479508pjo4uznsty": {
           "name": "최종 덫",
-          "description": "<p><strong>트리거</strong> 사냥꾼 웨이트의 체력이 0으로 감소합니다</p>\n<hr />\n<p><strong>효과</strong> 사냥꾼 웨이트는 자신의 몸에 올가미를 설치하고, 파괴되기 전에 이 올가미를 발동합니다. 뼈 조각이 인접한 생물에게 날아가 @Damage[(4d8+4)[피어싱]]의 피해를 입힙니다 (@Check[reflex|dc:27|basic]).</p>"
+          "description": "<p><strong>트리거</strong> 사냥꾼 웨이트의 체력이 0으로 감소합니다</p>\n<hr />\n<p><strong>효과</strong> 사냥꾼 웨이트는 자신의 몸에 올가미를 설치하고, 파괴되기 전에 이 올가미를 발동합니다. 뼈 조각이 인접한 생물에게 날아가 @Damage[(4d8+4)[piercing]]의 피해를 입힙니다 (@Check[reflex|dc:27|basic]).</p>"
         },
         "WUYJjrYb5HbQgPNA": {
           "name": "공허의 치유",
@@ -2123,11 +2123,11 @@
         },
         "nbWXPfh7WyVCERN9": {
           "name": "연기",
-          "description": "<p>15 피트. 데임오스트라이드는 지속적으로 검은 연기를 내뿜어 주변에 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealment} 효과를 생성합니다. Deimostride와 그의 기수는 이 연기를 통해 볼 수 있습니다. 이 영역에서 턴을 시작하는 생물은 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2} (@Check[fortitude|dc:23] negates)가 되고, 1분 동안 연기로 인한 질병에 일시적으로 면역이 됩니다. 데이모스트라이드, 그의 기수, 현재 숨을 참은 생물(또는 숨을 쉴 필요가 없는 생물), 그리고 독에 면역인 생물은 오라의 병들음 효과에는 면역이지만 은폐 효과에는 면역이 아닙니다.</p>"
+          "description": "<p>15 피트. 데임오이동는 지속적으로 검은 연기를 내뿜어 주변에 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealment} 효과를 생성합니다. Deimostride와 그의 기수는 이 연기를 통해 볼 수 있습니다. 이 영역에서 턴을 시작하는 생물은 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2} (@Check[fortitude|dc:23] negates)가 되고, 1분 동안 연기로 인한 질병에 일시적으로 면역이 됩니다. 데이모이동, 그의 기수, 현재 숨을 참은 생물(또는 숨을 쉴 필요가 없는 생물), 그리고 독에 면역인 생물은 오라의 병들음 효과에는 면역이지만 은폐 효과에는 면역이 아닙니다.</p>"
         },
         "Huqh2NJEkx1xBpoO": {
           "name": "불타는 질주",
-          "description": "<p>데이모스트라이드는 속도의 3배까지 걸어 가거나 날아갑니다. 그의 발굽에서 강렬한 불꽃이 터져, 질주 중에 인접한 기수 이외의 모든 생물에게 @Damage[(3d6+2)[fire]]의 피해를 한 번씩 입힙니다 (@Check[reflex|dc:25|basic] 내성).</p>"
+          "description": "<p>데이모이동는 속도의 3배까지 걸어 가거나 날아갑니다. 그의 발굽에서 강렬한 불꽃이 터져, 질주 중에 인접한 기수 이외의 모든 생물에게 @Damage[(3d6+2)[fire]]의 피해를 한 번씩 입힙니다 (@Check[reflex|dc:25|basic] 내성).</p>"
         }
       }
     },
@@ -2222,7 +2222,7 @@
         },
         "mGkbLuXtisEvFNNs": {
           "name": "고정 도약",
-          "description": "<p>파기 위젯은 20피트 위로 도약하여 생물이나 물체에 착지한 후, 코르크 마개 따개처럼 회전하며 공격을 시도합니다. 공격이 대상에게 피해를 입히면, 파기 위젯은 대상(일반적으로 생물의 등)에 부착됩니다. 이것은 @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.Tkd8sH4pwFIPzqTr]{그랩}과 유사하지만, 디그 위젯은 대상 생물과 함께 이동하며 그 자리를 고정하지 않습니다. 부착되어 있는 동안, 파기 위젯은 코르크 스크루를 사용할 수 없습니다. 파기 위젯은 @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{밀어내기}로 밀어낼 수 있으며, 상호 작용 액션으로 스스로 분리될 수도 있습니다."
+          "description": "<p>파기 위젯은 20피트 위로 도약하여 생물이나 물체에 착지한 후, 코르크 마개 따개처럼 회전하며 공격을 시도합니다. 공격이 대상에게 피해를 입히면, 파기 위젯은 대상(일반적으로 생물의 등)에 부착됩니다. 이것은 @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.Tkd8sH4pwFIPzqTr]{붙잡기}과 유사하지만, 디그 위젯은 대상 생물과 함께 이동하며 그 자리를 고정하지 않습니다. 부착되어 있는 동안, 파기 위젯은 코르크 스크루를 사용할 수 없습니다. 파기 위젯은 @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{밀어내기}로 밀어낼 수 있으며, 상호 작용 액션으로 스스로 분리될 수도 있습니다."
         },
         "MH7wNM2dBDOtmzVO": {
           "name": "암습",
@@ -2253,14 +2253,14 @@
         },
         "hn5GBufYeA5C1oOg": {
           "name": "피 마시기",
-          "description": "<p><strong>요구 조건</strong> @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비된}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{제압된}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 잃은}, 또는 의지대로 행동할 수 없는 생물이 뱀파이어의 손이 닿는 거리에 있습니다.</p>\n<hr />\n<p><strong>효과</strong> 뱀파이어는 그 생물에게 송곳니를 박아 피를 마십니다. 이 효과는 피해자가 잡힌 경우 피해자의 체력 DC에 대해 @Check[athletics|defense:fortitude] 체크를 해야 하며, 그 외의 조건에서는 자동으로 적용됩니다.</p>\n<p>피해자는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1} 상태가 되고, 뱀파이어는 @Damage[5[healing]] 체력을 회복하며, 초과 HP는 임시 체력으로 얻습니다. 이미 피가 흡수된 생물에게서 피를 마셔도 뱀파이어의 HP는 회복되지 않지만, 피해자의 흡수 값이 1 증가합니다. 뱀파이어는 영양을 공급하기 위해 용기에 담겨진 피도 마실 수 있지만, 그렇게 해도 HP는 회복되지 않습니다. 피해자의 흡수 상태는 매주 1씩 감소합니다. @Check[medicine|dc:20|name:Blood Transfusion] 체크와 충분한 혈액 또는 헌혈자가 필요한 수혈을 받으면 10분 후에 흡수량이 1 감소합니다."
+          "description": "<p><strong>요구 조건</strong> @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비된}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{제압된}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 잃은}, 또는 의지대로 행동할 수 없는 생물이 뱀파이어의 손이 닿는 거리에 있습니다.</p>\n<hr />\n<p><strong>효과</strong> 뱀파이어는 그 생물에게 송곳니를 박아 피를 마십니다. 이 효과는 피해자가 잡힌 경우 피해자의 체력 DC에 대해 @Check[athletics|defense:fortitude] 체크를 해야 하며, 그 외의 조건에서는 자동으로 적용됩니다.</p>\n<p>피해자는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1} 상태가 되고, 뱀파이어는 @Damage[5[healing]] 체력을 회복하며, 초과 HP는 임시 체력으로 얻습니다. 이미 피가 흡수된 생물에게서 피를 마셔도 뱀파이어의 HP는 회복되지 않지만, 피해자의 흡수 값이 1 증가합니다. 뱀파이어는 영양을 공급하기 위해 용기에 담겨진 피도 마실 수 있지만, 그렇게 해도 HP는 회복되지 않습니다. 피해자의 흡수 상태는 매주 1씩 감소합니다. @Check[medicine|dc:20|name:Blood Transfusion] 체크와 충분한 혈액 또는 헌혈자가 필요한 수혈을 받으면 10분 후에 흡수량이 1 감소합니다."
         },
         "T0aFMtDJ5aZm7aQG": {
           "name": "암습",
           "description": "<p>뱀파이어 스폰은 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태의 생물에게 1d6의 추가 정밀 피해를 입힙니다."
         },
         "bQOfAaZEAHrScsHM": {
-          "name": "잡기",
+          "name": "붙잡기",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
         }
       }
@@ -2271,7 +2271,7 @@
       "hpdetails": "",
       "items": {
         "oD3DnNMV4dQa3Gss": {
-          "name": "상시 주문",
+          "name": "지속 주문",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ConstantSpells]</p>"
         },
         "NCFt2ltSfGTesan4": {
@@ -2291,7 +2291,7 @@
           "description": "<p><strong>빈도</strong> 하루에 한 번</p>\n<hr />\n<p><strong>효과</strong> 스켈름은 추종자들에게 자신의 신념에 따라 행동할 것을 촉구하는 열정적인 연설을 합니다. @Template[emanation|distance:30]{30 피트} 내의 모든 생물은 @Check[will|dc:24] 내성 체크를 시도해야 합니다.</p>\n<hr />\n<p><strong>대성공</strong> 이 생물은 즉시 인접한 생물 중 하나를 공격할 수 있습니다. 인접한 생물이 없는 경우, 해당 생물은 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 되고, 다음 턴이 시작될 때까지 스켈름에 @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{매료} 상태가 됩니다."
         },
         "xmvNKENAwK9gdUuB": {
-          "name": "잡기",
+          "name": "붙잡기",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
         },
         "CTfA2dy8dT55Ygfa": {
@@ -2447,10 +2447,10 @@
         },
         "M0BuH1pWhtWsVIYm": {
           "name": "걱정",
-          "description": "<p><strong>요구 사항</strong> 큰 늑대는 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{잡힌} 상태의 생물을 를 가지고 있습니다. </p>\n<hr />\n<p><strong>효과</strong> 거대한 늑대는 이빨로 잡은 생물을 흔들어 @Damage[(2d8+4)[piercing]]의 피해를 입힙니다 (@Check[fortitude|dc:25|basic] 내성).</p>"
+          "description": "<p><strong>요구 사항</strong> 큰 늑대는 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 상태의 생물을 를 가지고 있습니다. </p>\n<hr />\n<p><strong>효과</strong> 거대한 늑대는 이빨로 잡은 생물을 흔들어 @Damage[(2d8+4)[piercing]]의 피해를 입힙니다 (@Check[fortitude|dc:25|basic] 내성).</p>"
         },
         "aidpPDwvXoVTKC6j": {
-          "name": "잡기",
+          "name": "붙잡기",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
         }
       }
@@ -2705,7 +2705,7 @@
         },
         "5IixHzakyftZgS0g": {
           "name": "속도 급증",
-          "description": "<p><strong>빈도</strong> 하루에 세 번</p>\n<hr />\n<p><strong>효과</strong> 그림자 드레이크는 두 번의 스트라이드 또는 플라이를 사용합니다."
+          "description": "<p><strong>빈도</strong> 하루에 세 번</p>\n<hr />\n<p><strong>효과</strong> 그림자 드레이크는 두 번의 이동 또는 플라이를 사용합니다."
         }
       }
     },
@@ -2740,7 +2740,7 @@
         },
         "zEz9gGlpNBUnyF2Y": {
           "name": "모양 변경",
-          "description": "<p>흡혈귀는 동물 형태로 변신하거나 원래 형태로 돌아갑니다.</p><ul><li><p><strong>박쥐</strong> 흡혈귀는 @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.xnpuGO8jEMba9wy5]{거대 박쥐}로 변신합니다.</p><ul><li><strong>크기</strong> 대형</li><li><strong>감각</strong> 에코로케이션 40 피트</li><li><strong>속도</strong> 20 피트, 비행 30 피트</li><li><strong>근접 공격</strong> 이빨 [[/r 1d20+19 #Fangs]]{+19}/[[/r 1d20+14 #Fangs]]{+14}/[[/r 1d20+9 #Fangs]]{+9}, <strong>피해</strong> @Damage[(2d8+9)[피어싱]] 피해</li></ul></li></ul><hr /><p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
+          "description": "<p>흡혈귀는 동물 형태로 변신하거나 원래 형태로 돌아갑니다.</p><ul><li><p><strong>박쥐</strong> 흡혈귀는 @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.xnpuGO8jEMba9wy5]{거대 박쥐}로 변신합니다.</p><ul><li><strong>크기</strong> 대형</li><li><strong>감각</strong> 에코로케이션 40 피트</li><li><strong>속도</strong> 20 피트, 비행 30 피트</li><li><strong>근접 공격</strong> 이빨 [[/r 1d20+19 #Fangs]]{+19}/[[/r 1d20+14 #Fangs]]{+14}/[[/r 1d20+9 #Fangs]]{+9}, <strong>피해</strong> @Damage[(2d8+9)[piercing]] 피해</li></ul></li></ul><hr /><p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
         },
         "czqtIybNHs8mmEeg": {
           "name": "스폰 생성",
@@ -2756,14 +2756,14 @@
         },
         "HhkalK1aMfqDSiWQ": {
           "name": "피를 마신다",
-          "description": "<p><strong>요구 사항</strong> @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비된}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious}, 또는 의지가 있는 생물이 뱀파이어의 손이 닿는 거리에 있습니다.</p>\n<hr />\n<p><strong>효과</strong> 뱀파이어는 그 생물에게 송곳니를 박아 피를 마십니다. 이 효과는 피해자가 잡힌 경우 피해자의 체력 DC에 대해 @Check[athletics|defense:fortitude] 체크를 해야 하며, 그 외의 조건에서는 자동으로 적용됩니다.</p>\n<p>피해자는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 2} 상태가 되고, 뱀파이어는 @Damage[10[healing]] 체력을 회복하며, 초과 HP는 임시 체력으로 얻습니다. 이미 피가 흡수된 생물체에서 피를 마셔도 뱀파이어의 HP는 회복되지 않지만, 피해자의 흡수 값이 1 증가합니다. 뱀파이어는 생명을 유지하기 위해 용기에 담겨진 피도 마실 수 있지만, 그렇게 해도 HP는 회복되지 않습니다. 피해자의 흡수 상태는 매주 1씩 감소합니다. @Check[medicine|dc:20|name:Blood Transfusion] 체크와 충분한 혈액 또는 헌혈자가 필요한 수혈은 10분 후에 흡수량을 1 감소시킵니다."
+          "description": "<p><strong>요구 사항</strong> @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비된}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious}, 또는 의지가 있는 생물이 뱀파이어의 손이 닿는 거리에 있습니다.</p>\n<hr />\n<p><strong>효과</strong> 뱀파이어는 그 생물에게 송곳니를 박아 피를 마십니다. 이 효과는 피해자가 잡힌 경우 피해자의 체력 DC에 대해 @Check[athletics|defense:fortitude] 체크를 해야 하며, 그 외의 조건에서는 자동으로 적용됩니다.</p>\n<p>피해자는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 2} 상태가 되고, 뱀파이어는 @Damage[10[healing]] 체력을 회복하며, 초과 HP는 임시 체력으로 얻습니다. 이미 피가 흡수된 생물체에서 피를 마셔도 뱀파이어의 HP는 회복되지 않지만, 피해자의 흡수 값이 1 증가합니다. 뱀파이어는 생명을 유지하기 위해 용기에 담겨진 피도 마실 수 있지만, 그렇게 해도 HP는 회복되지 않습니다. 피해자의 흡수 상태는 매주 1씩 감소합니다. @Check[medicine|dc:20|name:Blood Transfusion] 체크와 충분한 혈액 또는 헌혈자가 필요한 수혈은 10분 후에 흡수량을 1 감소시킵니다."
         },
         "DD9mP7VmHRk4Lm97": {
           "name": "꾸준한 주문 시전",
           "description": "<p>다른 생물의 반응이 볼저의 주문 시전 행동을 방해할 경우, 뱀파이어는 @Check[flat|dc:15] 체크를 시도합니다. 체크에 성공하면, 그의 행동은 방해받지 않습니다."
         },
         "m3iQuuvCSejqA1Ue": {
-          "name": "잡기",
+          "name": "붙잡기",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]"
         }
       }
@@ -2895,7 +2895,7 @@
         },
         "1fTRsJAGDuFgPeXF": {
           "name": "지구 미끄러짐",
-          "description": "<p>살아있는 바위는 @UUID[Compendium.pf2e.actionspf2e.Item.H6v1VgowHaKHnVlG]{Burrow}를 사용하여 흙이나 바위 같은 지면 물질을 통과할 수 있습니다. 이 때, 그것은 완전한 땅파기 속도로 이동하며, 터널이나 흔적을 남기지 않습니다.</p>"
+          "description": "<p>살아있는 바위는 @UUID[Compendium.pf2e.actionspf2e.Item.H6v1VgowHaKHnVlG]{버로우}를 사용하여 흙이나 바위 같은 지면 물질을 통과할 수 있습니다. 이 때, 그것은 완전한 땅파기 속도로 이동하며, 터널이나 흔적을 남기지 않습니다.</p>"
         },
         "MJIrkULpmp4soA0F": {
           "name": "굴림 돌격",
@@ -2929,7 +2929,7 @@
         },
         "3bBspnRqJCqpS3uk": {
           "name": "스플로치",
-          "description": "<p><strong>트리거</strong> 인접한 생물이 황토색 젤리를 베기 또는 찌르기 피해가 있는 공격으로 공격합니다. 공격자는 @Check[reflex|dc:22] 내성 체크를 시도해야 합니다.</p>\n<p><strong>실패</strong> 공격자는 @Damage[2d6[acid]]의 피해를 받습니다. </p>\n<p><strong>대실패</strong> 공격자는 @Damage[2d6[acid]]의 피해와 @Damage[2[persistent,acid]]의 피해를 받습니다. </p>"
+          "description": "<p><strong>트리거</strong> 인접한 생물이 황토색 젤리를 베기 또는 관통 피해가 있는 공격으로 공격합니다. 공격자는 @Check[reflex|dc:22] 내성 체크를 시도해야 합니다.</p>\n<p><strong>실패</strong> 공격자는 @Damage[2d6[acid]]의 피해를 받습니다. </p>\n<p><strong>대실패</strong> 공격자는 @Damage[2d6[acid]]의 피해와 @Damage[2[persistent,acid]]의 피해를 받습니다. </p>"
         },
         "8CYcAwzfjTavahvb": {
           "name": "Constrict",
@@ -2940,7 +2940,7 @@
           "description": "<p>황토젤리의 산은 뼈, 돌, 나무 또는 기타 물질이 아닌 살에만 피해를 줍니다."
         },
         "NC141aBluvAWkdH5": {
-          "name": "잡기",
+          "name": "붙잡기",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
         }
       }
@@ -3047,7 +3047,7 @@
         },
         "ZzqnOy2oIOko1Izc": {
           "name": "서둘러 달리는 스키터",
-          "description": "<p>레밍 쥐는 총 3회 스트라이드 또는 클라이밍을 한 다음, 다음 턴이 시작될 때까지 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 됩니다."
+          "description": "<p>레밍 쥐는 총 3회 이동 또는 클라이밍을 한 다음, 다음 턴이 시작될 때까지 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 됩니다."
         },
         "6Y0iLMv0EtEg3lSN": {
           "name": "가려운 발진",
@@ -3092,7 +3092,7 @@
           "description": "<p>Fasiel은 다음 턴이 시작될 때까지 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 되는 무모한 공격으로 끊임없는 분노를 발산합니다. 그는 공격을 하고, 명중하면 피해 주사위 수를 1개 늘리고 @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.t6cx9FOODmeZQNYl]{Push}를 효과에 추가합니다. 이는 그의 다중 공격 페널티에 대해 2회의 공격으로 간주됩니다."
         },
         "0wqFlm8L407f7apV": {
-          "name": "잡기",
+          "name": "붙잡기",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
         },
         "dJT018LZV3FEJvJO": {
@@ -3122,7 +3122,7 @@
       "hpdetails": "",
       "items": {
         "M2JcdJZTsdKY31Ed": {
-          "name": "상시 마법",
+          "name": "지속 주문",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ConstantSpells]</p>"
         },
         "DxJcguaM5VY5ipoX": {
@@ -3170,7 +3170,7 @@
         },
         "479508pjo4uznsty": {
           "name": "최종 덫",
-          "description": "<p><strong>트리거</strong> 사냥꾼 와이트의 체력이 0으로 감소합니다</p>\n<hr />\n<p><strong>효과</strong> 사냥꾼 와이트는 자신의 몸에 올가미를 설치하고, 파괴되기 전에 이를 발동합니다. 뼈 조각이 인접한 생물에게 날아가 @Damage[4d8[피어싱]]의 피해를 입힙니다 (@Check[reflex|dc:25|basic]).</p>"
+          "description": "<p><strong>트리거</strong> 사냥꾼 와이트의 체력이 0으로 감소합니다</p>\n<hr />\n<p><strong>효과</strong> 사냥꾼 와이트는 자신의 몸에 올가미를 설치하고, 파괴되기 전에 이를 발동합니다. 뼈 조각이 인접한 생물에게 날아가 @Damage[4d8[piercing]]의 피해를 입힙니다 (@Check[reflex|dc:25|basic]).</p>"
         },
         "WUYJjrYb5HbQgPNA": {
           "name": "공허의 치유",
@@ -3217,7 +3217,7 @@
           "description": "<p>와이트 캡틴은 연기로 인한 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{은폐} 상태를 무시합니다."
         },
         "hrwH6CDrMAcUOAA4": {
-          "name": "상시 주문",
+          "name": "지속 주문",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ConstantSpells]</p>"
         },
         "cIJp4XSjGySMlIFb": {
@@ -3276,7 +3276,7 @@
         },
         "7t0hoAr4rbWswzMK": {
           "name": "가시 달린 깃털",
-          "description": "<p><strong>빈도</strong> 하루에 한 번</p>\n<p><strong>트리거</strong> Liaskra가 무기 없는 공격이나 도달 거리가 없는 근접 무기로 공격을 받으면</p>\n<hr />\n<p><strong>효과</strong> Liaskra는 공격자의 살에 가시를 꽂습니다. 그녀는 @Damage[2d8[피어싱]]의 피해를 트리거한 생물에게 입힙니다 (@Check[반사|dc:21|기본]). 대실패 시, 가시가 살에 박혀 생물은 @Damage[(1d4+1)[출혈]]의 추가 피해를 입습니다."
+          "description": "<p><strong>빈도</strong> 하루에 한 번</p>\n<p><strong>트리거</strong> Liaskra가 무기 없는 공격이나 도달 거리가 없는 근접 무기로 공격을 받으면</p>\n<hr />\n<p><strong>효과</strong> Liaskra는 공격자의 살에 가시를 꽂습니다. 그녀는 @Damage[2d8[piercing]]의 피해를 트리거한 생물에게 입힙니다 (@Check[반사|dc:21|기본]). 대실패 시, 가시가 살에 박혀 생물은 @Damage[(1d4+1)[bleed]]의 추가 피해를 입습니다."
         },
         "LHV1Y69RCdChvRwx": {
           "name": "속임수 공격",
@@ -3325,7 +3325,7 @@
           "description": "<p>조종되는 시계 장치의 용기는 등 뒤의 에센스 수집기에서 공허의 에너지 아크를 방출합니다. @Template[emanation|distance:10] 내에 있는 생물은 @Damage[9d6[void]]의 피해를 받습니다 (@Check[fortitude|dc:23|basic]). 용기는 [[/gmr 1d4 #Recharge Etheric Discharge]]{1d4 라운드} 동안 에테릭 방전을 사용할 수 없습니다.</p>"
         },
         "Urwp7vLcfy6avc98": {
-          "name": "잡기",
+          "name": "붙잡기",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
         }
       }
@@ -3351,7 +3351,7 @@
       "hpdetails": "",
       "items": {
         "6HJGU4tyzZ6JeEbD": {
-          "name": "상수 주문",
+          "name": "지속 주문",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ConstantSpells]</p>"
         },
         "GGqT9YKxm3SpALG5": {
@@ -3364,7 +3364,7 @@
         },
         "gVHdzhF7CYS5L3SK": {
           "name": "불타는 손아귀",
-          "description": "<p>파라가 생물을 잡으면, 그 생물은 @Damage[1d6[fire]]의 피해를 받고, @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{잡힌} 상태가 지속되는 동안 매 턴이 끝날 때마다 1d6의 화염 피해를 받습니다."
+          "description": "<p>파라가 생물을 잡으면, 그 생물은 @Damage[1d6[fire]]의 피해를 받고, @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 상태가 지속되는 동안 매 턴이 끝날 때마다 1d6의 화염 피해를 받습니다."
         },
         "zHL2E4bkH3vVvqSD": {
           "name": "크기 변경",
@@ -3372,7 +3372,7 @@
         },
         "36UmeWHlowHAjVXV": {
           "name": "전투 잡기",
-          "description": "<p><strong>요건</strong> 파라는 한 손이 자유롭습니다</p>\n<hr />\n<p><strong>효과</strong> 파라는 한 손을 자유롭게 유지한 상태에서 근접 공격을 합니다. 공격이 적중하면, 대상은 Farah의 자유로운 손에 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{잡힌} 상태가 됩니다."
+          "description": "<p><strong>요건</strong> 파라는 한 손이 자유롭습니다</p>\n<hr />\n<p><strong>효과</strong> 파라는 한 손을 자유롭게 유지한 상태에서 근접 공격을 합니다. 공격이 적중하면, 대상은 Farah의 자유로운 손에 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 상태가 됩니다."
         }
       }
     },
@@ -3437,14 +3437,14 @@
         },
         "hn5GBufYeA5C1oOg": {
           "name": "피 마시기",
-          "description": "<p><strong>요구 조건</strong> @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비된}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{제압된}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 잃은}, 또는 의지 있는 생물이 뱀파이어의 손이 닿는 거리에 있습니다.</p>\n<hr />\n<p><strong>효과</strong> 뱀파이어는 그 생물에게 송곳니를 박아 피를 마십니다. 이 효과는 피해자가 잡힌 경우 피해자의 체력 DC에 대해 @Check[athletics|defense:fortitude] 체크를 해야 하며, 그 외의 조건에서는 자동으로 적용됩니다.</p>\n<p>피해자는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1} 상태가 되고, 뱀파이어는 @Damage[5[healing]] 체력을 회복하며, 초과 HP는 임시 체력으로 얻습니다. 이미 피가 흡수된 생물에게서 피를 마셔도 뱀파이어의 HP는 회복되지 않지만, 피해자의 흡수 값이 1 증가합니다. 뱀파이어는 영양을 공급하기 위해 용기에 담겨진 피도 마실 수 있지만, 그렇게 해도 HP는 회복되지 않습니다. 피해자의 흡수 상태는 매주 1씩 감소합니다. @Check[medicine|dc:20|name:Blood Transfusion] 체크와 충분한 혈액 또는 헌혈자가 필요한 수혈을 받으면 10분 후에 흡수량이 1 감소합니다."
+          "description": "<p><strong>요구 조건</strong> @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비된}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{제압된}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 잃은}, 또는 의지 있는 생물이 뱀파이어의 손이 닿는 거리에 있습니다.</p>\n<hr />\n<p><strong>효과</strong> 뱀파이어는 그 생물에게 송곳니를 박아 피를 마십니다. 이 효과는 피해자가 잡힌 경우 피해자의 체력 DC에 대해 @Check[athletics|defense:fortitude] 체크를 해야 하며, 그 외의 조건에서는 자동으로 적용됩니다.</p>\n<p>피해자는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1} 상태가 되고, 뱀파이어는 @Damage[5[healing]] 체력을 회복하며, 초과 HP는 임시 체력으로 얻습니다. 이미 피가 흡수된 생물에게서 피를 마셔도 뱀파이어의 HP는 회복되지 않지만, 피해자의 흡수 값이 1 증가합니다. 뱀파이어는 영양을 공급하기 위해 용기에 담겨진 피도 마실 수 있지만, 그렇게 해도 HP는 회복되지 않습니다. 피해자의 흡수 상태는 매주 1씩 감소합니다. @Check[medicine|dc:20|name:Blood Transfusion] 체크와 충분한 혈액 또는 헌혈자가 필요한 수혈을 받으면 10분 후에 흡수량이 1 감소합니다."
         },
         "T0aFMtDJ5aZm7aQG": {
           "name": "암습",
           "description": "<p>뱀파이어 스폰은 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태의 생물에게 1d6의 추가 정밀 피해를 입힙니다."
         },
         "bQOfAaZEAHrScsHM": {
-          "name": "잡기",
+          "name": "붙잡기",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
         }
       }
@@ -3474,7 +3474,7 @@
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Telepathy]</p>"
         },
         "GsaqDG9VKiNEXisx": {
-          "name": "상시 주문",
+          "name": "지속 주문",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ConstantSpells]</p>"
         },
         "FUgfYGhsCxf8KU54": {
@@ -3499,7 +3499,7 @@
         },
         "NFPV2IK6zYWCTJbC": {
           "name": "열정적인 키스",
-          "description": "<p><strong>빈도</strong> 라운드당 1회. </p>\n<hr />\n<p><strong>효과</strong> 서큐버스는 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{잡은} 생물을 포옹이나 다른 열정적인 행동으로 끌어당겨 그 생명의 정수를 흡수합니다. 키스를 받은 생물은 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 1} 상태가 되거나, 흡수 상태가 1 증가하며, 최대 4까지 증가할 수 있습니다. 생물은 @Damage[2d6[void]]의 피해를 받고, 서큐버스는 그 피해량만큼 체력을 회복합니다. 대상은 @Check[will|dc:22] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.spells-srd.Item.qwlh6aDgi86U3Q7H]{Suggestion} @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape}로 탈출하려고 시도하는 대신 더 많은 열정적인 행동에 복종하게 됩니다."
+          "description": "<p><strong>빈도</strong> 라운드당 1회. </p>\n<hr />\n<p><strong>효과</strong> 서큐버스는 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 생물을 포옹이나 다른 열정적인 행동으로 끌어당겨 그 생명의 정수를 흡수합니다. 키스를 받은 생물은 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 1} 상태가 되거나, 흡수 상태가 1 증가하며, 최대 4까지 증가할 수 있습니다. 생물은 @Damage[2d6[void]]의 피해를 받고, 서큐버스는 그 피해량만큼 체력을 회복합니다. 대상은 @Check[will|dc:22] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.spells-srd.Item.qwlh6aDgi86U3Q7H]{Suggestion} @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape}로 탈출하려고 시도하는 대신 더 많은 열정적인 행동에 복종하게 됩니다."
         },
         "vgbSuZiK389nv7Tm": {
           "name": "모독적인 선물",
@@ -3521,7 +3521,7 @@
           "description": "<p>독침만</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>"
         },
         "5PDURAzo537r6kje": {
-          "name": "압박",
+          "name": "압착",
           "description": "<p>@Damage[(1d6+7)[bludgeoning]] 피해, @Check[fortitude|dc:22|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p>"
         },
         "WuUxcHe2LEnb3BVQ": {
@@ -3529,7 +3529,7 @@
           "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:20]</p><hr /><p><strong>최대 지속 시간</strong> 6 라운드</p>\n<p><strong>1단계</strong> @Damage[3d6[poison]] 피해 및 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화 1} (1 라운드)</p>\n<p><strong>2단계</strong> @Damage[4d6[poison]] 피해 및 약화 1 (1 라운드)</p>\n<p><strong>3단계</strong> 4d6 독 피해 및 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화 2} (1 라운드)</p>"
         },
         "JJc1A4ggjxl0zB12": {
-          "name": "잡기",
+          "name": "붙잡기",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
         }
       }
@@ -3574,7 +3574,7 @@
       "hpdetails": "",
       "items": {
         "6HJGU4tyzZ6JeEbD": {
-          "name": "상시 주문",
+          "name": "지속 주문",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ConstantSpells]</p>"
         },
         "NqPFvdpH7dqatWhz": {
@@ -3587,7 +3587,7 @@
         },
         "gVHdzhF7CYS5L3SK": {
           "name": "불타는 손아귀",
-          "description": "<p>파라가 생물을 잡으면, 그 생물은 @Damage[1d6[fire]]의 피해를 받고, @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{잡힌} 상태가 지속되는 동안 매 턴이 끝날 때마다 1d6의 화염 피해를 받습니다."
+          "description": "<p>파라가 생물을 잡으면, 그 생물은 @Damage[1d6[fire]]의 피해를 받고, @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 상태가 지속되는 동안 매 턴이 끝날 때마다 1d6의 화염 피해를 받습니다."
         },
         "zHL2E4bkH3vVvqSD": {
           "name": "크기 변경",
@@ -3595,7 +3595,7 @@
         },
         "36UmeWHlowHAjVXV": {
           "name": "전투 잡기",
-          "description": "<p><strong>요건</strong> Farah는 한 손이 자유롭습니다</p>\n<hr />\n<p><strong>효과</strong> Farah는 한 손을 자유롭게 유지한 상태에서 근접 공격을 합니다. 공격이 적중하면, 대상은 Farah의 자유로운 손에 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{잡힌} 상태가 됩니다."
+          "description": "<p><strong>요건</strong> Farah는 한 손이 자유롭습니다</p>\n<hr />\n<p><strong>효과</strong> Farah는 한 손을 자유롭게 유지한 상태에서 근접 공격을 합니다. 공격이 적중하면, 대상은 Farah의 자유로운 손에 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 상태가 됩니다."
         }
       }
     },
@@ -3621,14 +3621,14 @@
       "items": {
         "deLQWsbCp3jKrpIv": {
           "name": "Mauler",
-          "description": "<p>곰은 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{잡은} 생물에게 가하는 피해 굴림에 +4의 상황 보너스를 얻습니다."
+          "description": "<p>곰은 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 생물에게 가하는 피해 굴림에 +4의 상황 보너스를 얻습니다."
         },
         "X9lnoAMRNp4d62Iu": {
           "name": "돌진",
-          "description": "<p>동굴 곰은 스트라이드를 하고 그 이동이 끝날 때 공격을 합니다. 스트라이드 동안, 이 곰은 속도에 +10피트의 상황 보너스를 얻습니다."
+          "description": "<p>동굴 곰은 이동를 하고 그 이동이 끝날 때 공격을 합니다. 이동 동안, 이 곰은 속도에 +10피트의 상황 보너스를 얻습니다."
         },
         "FSk7wzzH1ToTF3ie": {
-          "name": "잡기",
+          "name": "붙잡기",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]"
         }
       }
@@ -3675,14 +3675,14 @@
         },
         "PVgQC5UPhLXPKnjX": {
           "name": "무덤의 손아귀",
-          "description": "<p>생물 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{잡힌} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{제압된} 무덤 마녀에 의해 무덤 마녀의 주문과 능력에 대한 내성 굴림에 -1의 상황 페널티를 받습니다."
+          "description": "<p>생물 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{제압된} 무덤 마녀에 의해 무덤 마녀의 주문과 능력에 대한 내성 굴림에 -1의 상황 페널티를 받습니다."
         },
         "BtiBFcTdtiRdw0mg": {
           "name": "언데드 미엔",
           "description": "<p>무덤 마녀는 마법 효과로 언데드 생물로 나타납니다."
         },
         "yThaeSJv15gPmoX4": {
-          "name": "잡기",
+          "name": "붙잡기",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
         }
       }
@@ -3723,7 +3723,7 @@
           "description": "<p>화분에 심어진 제비꽃 에테루트는 120피트 이내의 생물들의 감정을 대략적으로 감지할 수 있습니다. 감정 감지는 감정 효과에 영향을 받은 생물들에 대해서는 정확한 감각입니다. @UUID[Compendium.pf2e.spells-srd.Item.b515AZlB0sridKSq]{Calm} 또는 에테루트의 Incite Emotion 능력의 평온 효과 하에 있는 생물은 감정 감지로 탐지될 수 없습니다.</p>"
         },
         "U6DFq7NSLRLAFqso": {
-          "name": "상시 마법",
+          "name": "지속 주문",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ConstantSpells]</p>"
         },
         "N2odnc38PRSdfd3G": {

@@ -112,7 +112,7 @@
       },
       "Burrow": {
         "Description": "<p>흙, 모래 또는 이와 비슷한 느슨한 물질을 자신의 굴 파기 속도에 해당하는 속도로 파고 들어갑니다. 흙보다 밀도가 높은 바위나 다른 물질을 뚫을 수 있는 능력이 없다면 굴을 뚫을 수 없습니다.</p>",
-        "Title": "굴 파기기"
+        "Title": "버로우"
       },
       "Climb": {
         "Description": "<p><strong>요건</strong> 두 손이 자유롭습니다. </p><hr><p>운동 체크를 시도하여 경사면을 최대 5피트 위, 아래 또는 가로질러 이동합니다. 등반 속도가 없는 한, 등반 중에는 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프-가드} 상태가 됩니다. GM은 경사면의 특성과 환경적 상황을 고려하여 DC를 결정합니다. 등반이 쉬운 경사면에서는 자동으로 대성공이 될 수도 있습니다. 지상 속도가 40피트 이상인 경우, 20피트를 초과하는 속도 20피트마다 최대 거리를 5피트씩 늘립니다. 대성공 경사면을 따라 이동하며, 최대 거리가 5피트씩 늘어납니다. 성공 경사면을 따라 이동합니다. 대실패 만약 안정된 지면에서 등반을 시작했다면, 당신은 떨어지고 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드린}에 착지합니다.</p>",
@@ -431,7 +431,7 @@
         "Title": "숨기"
       },
       "HighJump": {
-        "Description": "<p>당신은 @UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]의 스트라이드를 한 다음, DC 30의 운동 체크를 시도하여 수직으로 점프합니다. 스트라이드가 10피트 이상 되지 않으면 자동으로 실패합니다. 이 DC는 상황에 따라 GM이 결정하여 증가 또는 감소될 수 있습니다. </p><p><strong>대성공</strong> 당신은 @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Leap}을 사용하여 수직으로 최대 8피트, 수평으로 10피트까지 점프합니다.<br><strong>성공</strong> 당신은 @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Leap}로 수직으로 최대 5피트, 수평으로 최대 5피트 이동합니다.<br><strong>실패 당신은 @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Leap}을 정상적으로 수행합니다.<br><strong>대실패</strong> 당신은 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드린} 상태로 자신의 위치에 쓰러집니다.",
+        "Description": "<p>당신은 @UUID[Compendium.pf2e.actionspf2e.Item.Bcxarzksqt9ezrs6]의 이동를 한 다음, DC 30의 운동 체크를 시도하여 수직으로 점프합니다. 이동가 10피트 이상 되지 않으면 자동으로 실패합니다. 이 DC는 상황에 따라 GM이 결정하여 증가 또는 감소될 수 있습니다. </p><p><strong>대성공</strong> 당신은 @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Leap}을 사용하여 수직으로 최대 8피트, 수평으로 10피트까지 점프합니다.<br><strong>성공</strong> 당신은 @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Leap}로 수직으로 최대 5피트, 수평으로 최대 5피트 이동합니다.<br><strong>실패 당신은 @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Leap}을 정상적으로 수행합니다.<br><strong>대실패</strong> 당신은 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드린} 상태로 자신의 위치에 쓰러집니다.",
         "Notes": {
           "criticalFailure": "<strong>대실패</strong> 자신의 공간에서 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드린}으로 추락했습니다.",
           "criticalSuccess": "<strong>중요 성공</strong> 당신 @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{도약} 수직으로 최대 8피트, 수평으로 최대 10피트까지 뛰어오를 수 있습니다.",

@@ -28,10 +28,10 @@
         },
         "drMUmP8Z6LhZyhRI": {
           "name": "사냥감 운반",
-          "description": "<p>고기테스는 입에 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{잡힌} 상태의 생물을 물고 있는 동안 최대 속도로 이동할 수 있으며, 잡힌 생물을 함께 끌고 갑니다.</p>"
+          "description": "<p>고기테스는 입에 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 상태의 생물을 물고 있는 동안 최대 속도로 이동할 수 있으며, 잡힌 생물을 함께 끌고 갑니다.</p>"
         },
         "yHE4jDWkyfO5E7mM": {
-          "name": "압박",
+          "name": "압착",
           "description": "<p>@Damage[(3d6+12)[bludgeoning]], @Check[fortitude|dc:32|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p>"
         },
         "19mriXy1nbmE5fBN": {
@@ -44,10 +44,10 @@
         },
         "fRkzUI9I50wuPJvX": {
           "name": "스키터링 어썰트",
-          "description": "<p>고기테스는 세 번의 스트라이드를 합니다. 스트라이드 한 번당, 스트라이드 중 언제든지 도달 가능한 거리에 있는 생물에게 다리 공격을 시도할 수 있습니다. 각 공격은 다른 생물에게만 적용될 수 있지만, 모든 공격을 마친 후에야 다중 공격 페널티가 적용됩니다. 공격 중 하나라도 대실패로 끝나면, 스키터링 어썰트는 종료됩니다."
+          "description": "<p>고기테스는 세 번의 이동를 합니다. 이동 한 번당, 이동 중 언제든지 도달 가능한 거리에 있는 생물에게 다리 공격을 시도할 수 있습니다. 각 공격은 다른 생물에게만 적용될 수 있지만, 모든 공격을 마친 후에야 다중 공격 페널티가 적용됩니다. 공격 중 하나라도 대실패로 끝나면, 스키터링 어썰트는 종료됩니다."
         },
         "zK2aR7Xwx6ctIIxv": {
-          "name": "개선된 잡기",
+          "name": "향상된 붙잡기",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ImprovedGrab]</p>"
         }
       }
@@ -169,7 +169,7 @@
         },
         "5gKrafzz4AlrGGlD": {
           "name": "형태 변화",
-          "description": "<p>불멸의 트릭스터는 코요테, 여우, 또는 까마귀의 모습을 취합니다. 다른 작은(Tiny) 또는 소형(Small) 동물이 교활함과 속임수로 유명한 지역에서는 불멸의 트릭스터가 그 동물의 형태를 대신 취할 수 있습니다. 변신 중에는 불멸의 트릭스터는 본래의 마법, 공격, 특수 행동을 잃지만, 다른 통계치는 변하지 않으며 말할 수 있습니다. 여우 또는 코요테의 형태로 변신하면 불멸의 트릭스터의 크기는 소형(여우의 경우) 또는 소형(코요테의 경우)으로 변경되고, 속도는 35피트로 증가하며, 물기 능력(+23의 명중률, @피해[(2d6+4)[피어싱]] 피해)을 얻습니다. 까마귀 형태에서는 크기가 초소형이 되고, 비행 속도가 25피트로 증가하며, 부리가 생깁니다 (민첩, 명중 +23, @피해[(2d4+4)[피어싱]] 피해).</p>"
+          "description": "<p>불멸의 트릭스터는 코요테, 여우, 또는 까마귀의 모습을 취합니다. 다른 작은(Tiny) 또는 소형(Small) 동물이 교활함과 속임수로 유명한 지역에서는 불멸의 트릭스터가 그 동물의 형태를 대신 취할 수 있습니다. 변신 중에는 불멸의 트릭스터는 본래의 마법, 공격, 특수 행동을 잃지만, 다른 통계치는 변하지 않으며 말할 수 있습니다. 여우 또는 코요테의 형태로 변신하면 불멸의 트릭스터의 크기는 소형(여우의 경우) 또는 소형(코요테의 경우)으로 변경되고, 속도는 35피트로 증가하며, 물기 능력(+23의 명중률, @Damage[(2d6+4)[piercing]] 피해)을 얻습니다. 까마귀 형태에서는 크기가 초소형이 되고, 비행 속도가 25피트로 증가하며, 부리가 생깁니다 (민첩, 명중 +23, @Damage[(2d4+4)[piercing]] 피해).</p>"
         },
         "9yG1XDG6DQawPlpo": {
           "name": "혼란을 야기하는 절도",
@@ -299,7 +299,7 @@
         },
         "IBX7Tix58PNMLskp": {
           "name": "생명 흡수",
-          "description": "<p>리치의 형태는 접촉하는 모든 생물로부터 생명을 흡수합니다. 리치가 무기 없는 공격으로 살아있는 생물에게 피해를 입히면, 리치는 5의 임시 체력을 얻고, 그 생물은 @Check[fortitude|dc:34] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 1}이 됩니다.</p>\n<p>리치가 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{잡힌} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{제압된} 에 있는 경우, 그 리치를 잡거나 제압하고 있는 각 크리처는 체력 저항에 성공하지 않으면 1의 흡수를 받습니다. 리치가 크리처의 생명력을 다시 흡수하면, 흡수된 생명력은 1씩 증가하며, 최대 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 4}까지 증가합니다."
+          "description": "<p>리치의 형태는 접촉하는 모든 생물로부터 생명을 흡수합니다. 리치가 무기 없는 공격으로 살아있는 생물에게 피해를 입히면, 리치는 5의 임시 체력을 얻고, 그 생물은 @Check[fortitude|dc:34] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 1}이 됩니다.</p>\n<p>리치가 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{제압된} 에 있는 경우, 그 리치를 잡거나 제압하고 있는 각 크리처는 체력 저항에 성공하지 않으면 1의 흡수를 받습니다. 리치가 크리처의 생명력을 다시 흡수하면, 흡수된 생명력은 1씩 증가하며, 최대 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 4}까지 증가합니다."
         },
         "5TLoRDxeWBDh6a6e": {
           "name": "꾸준한 주문 시전",
@@ -350,7 +350,7 @@
         },
         "0iTTc5eoCUpSjskp": {
           "name": "잔인한 끌기",
-          "description": "<p>올리펀트가 스트라이드 행동을 취할 때, Jandelay의 올리펀트의 뿔에 의해 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} 상태인 모든 생물은 올리펀트의 최종 위치로부터 20피트 이내의 위치로 함께 이동됩니다. 이 생물들은 계속 잡힌 상태로 남아 있으며, GM이 이 생물들이 최종적으로 도착한 칸을 결정합니다."
+          "description": "<p>올리펀트가 이동 행동을 취할 때, Jandelay의 올리펀트의 뿔에 의해 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 상태인 모든 생물은 올리펀트의 최종 위치로부터 20피트 이내의 위치로 함께 이동됩니다. 이 생물들은 계속 잡힌 상태로 남아 있으며, GM이 이 생물들이 최종적으로 도착한 칸을 결정합니다."
         },
         "vvltSOFKWwSN9pbb": {
           "name": "파괴적인 광란",
@@ -358,7 +358,7 @@
         },
         "SZPK1jhXDeTIsaJD": {
           "name": "파괴적인 발사",
-          "description": "<p><strong>비용</strong> 1 신화 포인트</p><hr /><p><strong>효과</strong> Jandelay의 Oliphaunt는 자신의 상아를 @Template[type:burst|distance:15]로 지면에 박아 넣으며, 그 중심으로부터 20피트 이내의 모든 것을 수집합니다. 그 중에는 현재 그 상아 공격으로 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} 상태인 모든 생물도 포함되며, 모든 것을 최대 120피트 떨어진 곳으로 날려보냅니다. 모든 것은 @Template[type:burst|distance:30]에 떨어지며, 그 영역에 있는 각 생물에게 @Damage[12d6[bludgeoning]]의 피해를 입힙니다 (@Check[reflex|dc:51|basic] 내성). 이 피해는 올리파운트가 던진 모든 생물, 차량, 물건에도 적용됩니다. 던져진 영역에 있는 생물 중 반사 내성에 성공하거나 치명적으로 성공한 생물은 원래 있던 칸에 남아 있습니다. 올리파운트가 던진 모든 물체는 GM이 결정한 폭발 영역의 칸에 떨어집니다."
+          "description": "<p><strong>비용</strong> 1 신화 포인트</p><hr /><p><strong>효과</strong> Jandelay의 Oliphaunt는 자신의 상아를 @Template[type:burst|distance:15]로 지면에 박아 넣으며, 그 중심으로부터 20피트 이내의 모든 것을 수집합니다. 그 중에는 현재 그 상아 공격으로 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 상태인 모든 생물도 포함되며, 모든 것을 최대 120피트 떨어진 곳으로 날려보냅니다. 모든 것은 @Template[type:burst|distance:30]에 떨어지며, 그 영역에 있는 각 생물에게 @Damage[12d6[bludgeoning]]의 피해를 입힙니다 (@Check[reflex|dc:51|basic] 내성). 이 피해는 올리파운트가 던진 모든 생물, 차량, 물건에도 적용됩니다. 던져진 영역에 있는 생물 중 반사 내성에 성공하거나 치명적으로 성공한 생물은 원래 있던 칸에 남아 있습니다. 올리파운트가 던진 모든 물체는 GM이 결정한 폭발 영역의 칸에 떨어집니다."
         },
         "MGlsEYwduFGAn3fE": {
           "name": "신화적 힘",
@@ -366,7 +366,7 @@
         },
         "lccIEtDFEyprHwTS": {
           "name": "트램플",
-          "description": "<p>거대하거나 그보다 작은, 발, @Check[reflex|dc:46|basic]</p>\n<p>잔델레이의 올리펀트가 트램플을 사용하면, 자신의 속도의 3배까지 스트라이드를 할 수 있으며, 반사 내성에 실패하거나 대실패한 모든 생물은 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}에 쓰러집니다. </p><hr /><p>@Localize[PF2E.NPC.Abilities.Glossary.Trample]</p>"
+          "description": "<p>거대하거나 그보다 작은, 발, @Check[reflex|dc:46|basic]</p>\n<p>잔델레이의 올리펀트가 트램플을 사용하면, 자신의 속도의 3배까지 이동를 할 수 있으며, 반사 내성에 실패하거나 대실패한 모든 생물은 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}에 쓰러집니다. </p><hr /><p>@Localize[PF2E.NPC.Abilities.Glossary.Trample]</p>"
         },
         "Kvj9gEu0opp2KIbx": {
           "name": "트럼펫 소리",
@@ -393,7 +393,7 @@
         },
         "5GhO6Eq1XWEL0ARL": {
           "name": "거미줄로 운반",
-          "description": "<p><strong>요구 조건</strong> 위버는 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비된} 상태의 생물로부터 15피트 이내에 있으며 거미줄에 얽힌 상태입니다. </p><hr /><p><strong>효과</strong> 위버는 마비된 대상을 붙잡아 자신의 등이나 다리 중 하나에 거미줄로 묶은 다음, 스트라이드를 사용합니다. 위버의 악몽의 고치에 의해 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} 상태인 생물은 위버와 같은 공간을 공유하며 그녀와 함께 이동합니다. 악몽의 고치에서 탈출하기 위한 DC는 [[/act escape dc=36]]{Escape}로 36으로 증가합니다.</p>"
+          "description": "<p><strong>요구 조건</strong> 위버는 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비된} 상태의 생물로부터 15피트 이내에 있으며 거미줄에 얽힌 상태입니다. </p><hr /><p><strong>효과</strong> 위버는 마비된 대상을 붙잡아 자신의 등이나 다리 중 하나에 거미줄로 묶은 다음, 이동를 사용합니다. 위버의 악몽의 고치에 의해 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} 상태인 생물은 위버와 같은 공간을 공유하며 그녀와 함께 이동합니다. 악몽의 고치에서 탈출하기 위한 DC는 [[/act escape dc=36]]{Escape}로 36으로 증가합니다.</p>"
         },
         "vr1193FbzgbslN1N": {
           "name": "모든 마법 내성에 +1",
@@ -405,7 +405,7 @@
         },
         "SD2UsS1GCg4rmAB6": {
           "name": "입양된 자손",
-          "description": "<p><strong>트리거</strong> 생물이 위버에게 정밀 피해를 입힙니다. </p><hr /><p><strong>효과</strong> 열린 상처에서 작은 거미들이 쏟아져 나옵니다. 이 거미들은 위버로부터 15 피트 이내의 단일 생물에게 @Damage[3d6[피어싱]]의 피해를 입히고, 그 생물을 위버의 맹독에 노출시킨 후 달아납니다."
+          "description": "<p><strong>트리거</strong> 생물이 위버에게 정밀 피해를 입힙니다. </p><hr /><p><strong>효과</strong> 열린 상처에서 작은 거미들이 쏟아져 나옵니다. 이 거미들은 위버로부터 15 피트 이내의 단일 생물에게 @Damage[3d6[piercing]]의 피해를 입히고, 그 생물을 위버의 맹독에 노출시킨 후 달아납니다."
         },
         "skUYH1Y6jeD5HfrJ": {
           "name": "신화적 저항",
@@ -456,7 +456,7 @@
         },
         "OuHFKcjzJlzQTflP": {
           "name": "전장 폭발",
-          "description": "<p><strong>비용</strong> 신화 포인트 1점</p><hr /><p><strong>효과</strong> Verex-That-Was는 땅 속으로 파고들어, 자신이나 그의 숭배자들이 전투에서 최소 10마리의 지능형 생물을 죽인 같은 차원의 임의의 위치에 다시 나타납니다. 베렉스가 도착하면 피와 부서진 뼈가 분출하며 @Damage[16d10[피어싱]|옵션:지역 피해]의 피해를 @Template[유형:방출|거리:30] (@Check[반사|dc:48|기본|옵션:지역 효과] 내성)에 입힙니다. </p>"
+          "description": "<p><strong>비용</strong> 신화 포인트 1점</p><hr /><p><strong>효과</strong> Verex-That-Was는 땅 속으로 파고들어, 자신이나 그의 숭배자들이 전투에서 최소 10마리의 지능형 생물을 죽인 같은 차원의 임의의 위치에 다시 나타납니다. 베렉스가 도착하면 피와 부서진 뼈가 분출하며 @Damage[16d10[piercing]|옵션:지역 피해]의 피해를 @Template[유형:방출|거리:30] (@Check[반사|dc:48|기본|옵션:지역 효과] 내성)에 입힙니다. </p>"
         },
         "KteLz40XOMcgbe5f": {
           "name": "피의 종기",
@@ -472,7 +472,7 @@
         },
         "4zHTrRFZ0GF5Urb5": {
           "name": "전체 삼키기",
-          "description": "<p>거대, @피해[(4d10+10)[타격]], 파열 50</p><hr /><p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
+          "description": "<p>거대, @Damage[(4d10+10)[bludgeoning]], 파열 50</p><hr /><p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
         },
         "GXO9oeuX2PBBdqNd": {
           "name": "고통의 교향곡",
@@ -546,7 +546,7 @@
       "items": {
         "KW0x3Cl4mTqJiDHP": {
           "name": "치명적인 스트라이커",
-          "description": "<p>신화급 스트라이커는 10 피트 이상 스트라이드 (또는 10 피트 이상 버로우, 클라임, 플라이) 액션을 사용할 때마다 다음 공격에 1d6의 추가 정밀 피해가 추가됩니다."
+          "description": "<p>신화급 스트라이커는 10 피트 이상 이동 (또는 10 피트 이상 버로우, 클라임, 플라이) 액션을 사용할 때마다 다음 공격에 1d6의 추가 정밀 피해가 추가됩니다."
         },
         "GCyLSeOtTMt3wLur": {
           "name": "비행 스트라이프",
@@ -562,7 +562,7 @@
         },
         "OAt8guQQNXMQRYHW": {
           "name": "도약",
-          "description": "<p>그리폰은 스트라이드를 하고 그 이동이 끝날 때 발톱으로 공격을 합니다. 그리폰이 이 행동을 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden}에서 시작하면, 공격이 끝날 때까지 숨겨진 상태로 남아 있습니다."
+          "description": "<p>그리폰은 이동를 하고 그 이동이 끝날 때 발톱으로 공격을 합니다. 그리폰이 이 행동을 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden}에서 시작하면, 공격이 끝날 때까지 숨겨진 상태로 남아 있습니다."
         },
         "zbeji4Adkt0WFV5B": {
           "name": "위엄 있는 비명",
@@ -570,7 +570,7 @@
         },
         "k2pu69kyQbd0J164": {
           "name": "방해받지 않음",
-          "description": "<p><strong>비용</strong> 1 신화 포인트</p><hr /><p><strong>효과</strong> 신화 그리폰은 속도에 상황 페널티를 주는 효과를 자동으로 종료합니다. 그가 @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} 효과를 시도할 때, 그 효과가 그에게 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} 상태를 부여한다면, @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{잡힌} 상태이거나 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{제압된} 상태일 때, 자동으로 성공합니다.</p>"
+          "description": "<p><strong>비용</strong> 1 신화 포인트</p><hr /><p><strong>효과</strong> 신화 그리폰은 속도에 상황 페널티를 주는 효과를 자동으로 종료합니다. 그가 @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} 효과를 시도할 때, 그 효과가 그에게 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} 상태를 부여한다면, @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 상태이거나 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{제압된} 상태일 때, 자동으로 성공합니다.</p>"
         }
       }
     }

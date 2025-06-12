@@ -86,14 +86,14 @@
         },
         "Qwa6uCGVwCVxgKZg": {
           "name": "질식하는 모래",
-          "description": "<p>모래 늑대는 소용돌이치는 모래 구름으로 분해됩니다. 이 모래 구름은 스트라이드를 사용하여 점령된 공간을 자유롭게 이동할 수 있습니다. 그 공간에 있는 모든 생물은 [[/r 2d10]]의 피해를 받고 @Check[reflex|dc:19|traits:damaging-effect] 내성 체크를 시도해야 합니다.</p>\n<p><strong>실패</strong> 대상은 전체 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} 상태가 됩니다.</p>\n<p><strong>대실패 실패와 동일하지만, 효과가 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 3}로 증가합니다. </p>"
+          "description": "<p>모래 늑대는 소용돌이치는 모래 구름으로 분해됩니다. 이 모래 구름은 이동를 사용하여 점령된 공간을 자유롭게 이동할 수 있습니다. 그 공간에 있는 모든 생물은 [[/r 2d10]]의 피해를 받고 @Check[reflex|dc:19|traits:damaging-effect] 내성 체크를 시도해야 합니다.</p>\n<p><strong>실패</strong> 대상은 전체 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} 상태가 됩니다.</p>\n<p><strong>대실패 실패와 동일하지만, 효과가 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 3}로 증가합니다. </p>"
         },
         "WkSKKlly7gJ0yJlm": {
           "name": "속삭이는 노래",
           "description": "<p>모래 늑대가 짧고 매혹적인 노래를 부릅니다. 30 피트 이내의 모래 늑대 이외의 모든 생물은 @Check[will|dc:19] 내성 체크를 시도해야 합니다.</p>\n<hr />\n<p><strong>대성공</strong> 대상은 영향을 받지 않으며, 24시간 동안 속삭이는 노래에 일시적으로 면역이 됩니다.</p>\n<p><strong>실패</strong> 대상은 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 2}가 됩니다.</p>\n<p><strong>대실패 실패와 동일하며, 대상은 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1}입니다. </p>"
         },
         "MbyCGuh3pY2i7iG0": {
-          "name": "잡기",
+          "name": "붙잡기",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
         }
       }
@@ -119,7 +119,7 @@
       "hpdetails": "",
       "items": {
         "9lwUFHn5fGEZ1bha": {
-          "name": "상시 주문",
+          "name": "지속 주문",
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ConstantSpells]</p>"
         },
         "kpbrWPglhL7JPNCJ": {
@@ -146,7 +146,7 @@
       "items": {
         "3jpOaMVqNFkPk4GY": {
           "name": "잔인한 공연",
-          "description": "<p><strong>빈도</strong> 하루에 한 번</p>\n<hr />\n<p><strong>효과</strong> 음유시인은 잔인하고 날카로운 말을 해 적의 피를 흘리게 합니다. 30 피트 내의 모든 적들은 @Damage[7d6[베기]]의 피해를 받습니다 (@Check[fortitude|dc:24|basic] 내성).</p>"
+          "description": "<p><strong>빈도</strong> 하루에 한 번</p>\n<hr />\n<p><strong>효과</strong> 음유시인은 잔인하고 날카로운 말을 해 적의 피를 흘리게 합니다. 30 피트 내의 모든 적들은 @Damage[7d6[slashing]]의 피해를 받습니다 (@Check[fortitude|dc:24|basic] 내성).</p>"
         }
       }
     },
