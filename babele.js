@@ -182,7 +182,7 @@ Hooks.once("init", () => {
         game.babele.register({
             module: "PF2e-KR",
             lang: 'ko',
-            dir: "language/"+game.settings.get('PF2e-KR', 'name-display')
+            dir: "compendium/"+game.settings.get('PF2e-KR', 'name-display')
         });
 
         game.babele.registerConverters({
