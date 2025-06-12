@@ -1,0 +1,807 @@
+{
+  "label": "Claws of the Tyrant",
+  "entries": {
+    "Chernasardo Ranger": {
+      "name": "Chernasardo Ranger",
+      "description": "",
+      "hpdetails": "",
+      "items": {
+        "rp18xC5ihiCNOnYj": {
+          "name": "Double Shot",
+          "description": "<p>The ranger makes two shortbow Strikes targeting two different creatures within the shortbow's first range increment. Both Strikes use the ranger's current multiple attack penalty, but each strike takes a –2 penalty.</p>"
+        },
+        "oEphqCBGMjm1SqbC": {
+          "name": "Quick Draw",
+          "description": "<p>The ranger draws a weapon, then Strikes with that weapon.</p>"
+        }
+      }
+    },
+    "Oceanius and Glory Arcely": {
+      "name": "Oceanius and Glory Arcely",
+      "description": "",
+      "hpdetails": "",
+      "items": {
+        "ClJ1Zcs6Fp8WQbMC": {
+          "name": "+1 Status to All Saves vs. Magic",
+          "description": ""
+        },
+        "jjAHglMsBrrFB0b4": {
+          "name": "Regeneration 20 (Deactivated by Unholy)",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Regeneration]</p>"
+        },
+        "hdOF983PEuaXtZwt": {
+          "name": "Aura of Righteousness",
+          "description": "<p>20 feet. Allies in the angel's aura gain a +2 status bonus to AC against unholy creatures and a +2 status bonus to damage rolls against unholy creatures. The area in the aura is difficult terrain for unholy creatures.</p>"
+        },
+        "faDKl9UwirYBxLrT": {
+          "name": "Change Shape",
+          "description": "<p>The angel takes on the appearance of any Small or Medium humanoid. This doesn't change their Speed or Strikes.</p><hr /><p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
+        },
+        "4TAFC5ce0v0be9zc": {
+          "name": "Holy Armaments",
+          "description": "<p>Any weapon gains the effect of a holy property rune while the angel wields it.</p>"
+        }
+      }
+    },
+    "Brumesgarth": {
+      "name": "Brumesgarth",
+      "description": "<p>In their relentless pursuit of more magical might, some liches use their rotting forms to hold magical secrets, hiding precious tomes in their ribcage, inscribing formulas on their withered flesh, even replacing some bones with powerful magical items. The process is painstaking, as the <em>soul cage</em> tries to repair any damage caused by such alterations.</p><hr /><p>A desire to live eternally motivates a spellcaster to become a lich, and necromantic knowledge makes the desire real. The typical lich takes the most direct path, keeping their undead form fairly close to their appearance in life. But undeath can also bring greater freedom for those with a less conventional view of what they can become. The horde lich and runecarved lich reshape themselves entirely.</p>",
+      "hpdetails": "void healing",
+      "items": {
+        "M4DkXSYfxHRYjQRc": {
+          "name": "Stored Items",
+          "description": "<p>Stored Items Brumesgarth can store items inside his body, as detailed below. Brumesgarth can Interact to remove or store an item. If Brumesgarth's body is destroyed, any stored items appear among his bones.</p><ul><li><p>Arm Wands (extradimensional) Brumesgarth can store up to two wands in the radius and ulna of one of his arms. These wands can be used as if wielded, and they can't be disarmed. If an arm wand is overcharged, Brumesgarth takes @Damage[20] damage if the wand is broken or @Damage[40] damage if it's destroyed.</p></li><li><p>Spell Tome Brumesgarth has a carefully crafted tome, filled with magical power, placed inside his ribcage. This tome can hold up to three spells stolen by the Spellstealing Counter ability.</p></li><li><p>Stored Weapon (extradimensional) Brumesgarth can store a single one-haded weapon of 1 Bulk or less, linked to special runes carved into the bones of one of his arms. Brumesgarth has the flail listed in his items. A weapon Brumesgarth wields deals additional damage equal to half the number of dice from his Hand strike.</p></li></ul>"
+        },
+        "Hkh7G6t50UbiRbaG": {
+          "name": "+1 Status to All Saves vs. Vitality",
+          "description": ""
+        },
+        "x8i1sfDGsUH5LgnE": {
+          "name": "Frightful Presence",
+          "description": "<p>60 feet @Check[will|dc:38]</p><hr /><p>@Localize[PF2E.NPC.Abilities.Glossary.FrightfulPresence]</p>"
+        },
+        "lE76vSq5YlsIBAXs": {
+          "name": "Rejuvenation",
+          "description": "<p>When Brumesgarth is destroyed, his soul immediately transfers to his <em>@UUID[Compendium.pf2e.equipment-srd.Item.NEbr7nKuiluJgBHT]{Soul Cage}</em>. Brumesgarth can be permanently destroyed only if his <em>soul cage</em> is found and destroyed.</p>"
+        },
+        "gWCfdSNHnn7uauFi": {
+          "name": "Spellstealing Counter",
+          "description": "<p><strong>Trigger</strong> A creature Brumesgarth can see Casts a Spell</p>\n<p><strong>Requirements</strong> Brumesgarth has fewer than three spells stored in his spell tome</p><hr /><p><strong>Effect</strong> Brumesgarth expends a spell slot of the same rank as the spell being cast to counter the triggering creature's casting. Brumesgarth loses his spell slot as if he had cast the triggering spell. Brumesgarth then attempts to counteract the triggering spell (counteract modifier [[/r 1d20+35#Counteract]]{+35}). If successful, the spell is countered and added to Brumesgarth's spell tome.</p>"
+        },
+        "dYbyPFvNLIK2l0qO": {
+          "name": "Void Healing",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>"
+        },
+        "WIphkvSmbVTYEcx8": {
+          "name": "Consult the Text",
+          "description": "<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> Brumesgarth causes the pages of his spell tome to flip open, revealing an occult spell of 9th rank or lower of his choice. For the remainder of the day, Brumesgarth can cast that spell as if it were one of his spells known for every rank of its base rank up to 9th.</p>"
+        },
+        "J4dWilDSMXaaCI8a": {
+          "name": "Drain Spell Tome",
+          "description": "<p><strong>Effect</strong> Brumesgarth draws upon the magic stored in his spell tome to cast one of the spells he has countered. This spell is the same rank as the one countered, but it uses Brumesgarth's spell DC and spell attack. Casting a spell in this way removes it from the spell tome.</p>"
+        },
+        "027MBe63MexY66lS": {
+          "name": "Steady Spellcasting",
+          "description": "<p>If a reaction would disrupt Brumesgarth's spellcasting action, he attempts a @Check[flat|dc:15]. On a success, the action isn't disrupted.</p>"
+        },
+        "NrARkuyvAKS8dHst": {
+          "name": "Summon Weapon",
+          "description": "<p><strong>Requirements</strong> Brumesgarth has a stored weapon in his arm and has that hand free</p><hr /><p><strong>Effect</strong> Brumesgarth summons his stored weapon into that arm's hand.</p>"
+        }
+      }
+    },
+    "Divine Warden of Arazni": {
+      "name": "Divine Warden of Arazni",
+      "description": "",
+      "hpdetails": "",
+      "items": {
+        "qxK87N9YPLpJzcQV": {
+          "name": "Divine Destruction",
+          "description": "<p>When the divine warden is reduced to 0 HP, it erupts with divine energy in a @Template[type:emanation|distance:30], dealing @Damage[16d6[spirit]|options:area-damage] damage. Each creature in the area must attempt a @Check[will|dc:37|options:area-effect,damaging-effect] save.</p><hr /><p><strong>Critical Success</strong> The creature takes half damage.</p>\n<p><strong>Success</strong> The creature takes full damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and becomes temporarily cursed by the patron deity. The cursed creature is @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1} and @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} for 1 day; this is a curse effect that uses the Will save DC as the counteract DC.</p>\n<p><strong>Critical Failure</strong> As failure, except the cursed creature is @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 2} and @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 2}.</p>"
+        },
+        "9nBppWVAN0zSndop": {
+          "name": "God-Bound",
+          "description": "<p>The divine warden is bound to a specific patron deity upon its creation. The warden can't take hostile actions against a creature that openly wears or displays a symbol of its patron deity unless that creature uses a hostile action against the warden first. The warden gains an initial domain spell chosen from its deity's list of domains. The divine warden has 3 Focus Points.</p>"
+        },
+        "Abdlw3EsvLwkrXvl": {
+          "name": "Faithful Weapon",
+          "description": "<p>While the divine warden wields the favored weapon of its patron deity, that weapon gains the effect of a greater striking rune.</p>"
+        },
+        "85s665zTTD0IE2l9": {
+          "name": "Instrument of Faith",
+          "description": "<p>The divine warden is a beacon for its deity's faith. A cleric of the divine warden's patron deity can channel a heal spell through a divine warden they can see within 60 feet. The cleric determines any targets or area for the spell as if they were standing in the divine warden's space.</p>"
+        }
+      }
+    },
+    "Seldeg Bhedlis": {
+      "name": "Seldeg Bhedlis",
+      "description": "",
+      "hpdetails": "rejuvenation, void healing",
+      "items": {
+        "WkyZC6SurQD0fosO": {
+          "name": "Iron Command",
+          "description": "<p><strong>Trigger</strong> An enemy within 15 feet damages Seldeg</p><hr /><p><strong>Effect</strong> Seldeg puts an impertinent foe who dared harm him in their proper place. He commands the enemy to kneel in obedience. If they refuse, they must pay the price in pain and anguish. The triggering creature must choose one of the following options: the enemy kneels, dropping @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} as a free action, or the enemy refuses and takes @Damage[6d6[mental]] damage. In addition, Seldeg's Strikes against the triggering creature deal an additional 3 damage until the end of his next turn. Seldeg chooses whether the additional damage is spirit or void each time he uses this reaction.</p>"
+        },
+        "MfAvyPTbC8uGaDUE": {
+          "name": "Raise a Shield",
+          "description": "<p><strong>Requirements</strong> You are wielding a shield.</p>\n<hr />\n<p>You position your shield to protect yourself. When you have Raised a Shield, you gain its listed circumstance bonus to AC. Your shield remains raised until the start of your next turn.</p>"
+        },
+        "yt1hdPaGfyVRp3cb": {
+          "name": "Reactive Strike",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ReactiveStrike]</p>"
+        },
+        "iKw4GQCxPY7vh6lx": {
+          "name": "Rejuvenation",
+          "description": "<p>When a graveknight is destroyed, their armor rebuilds their body over the course of [[/gmr 1d10]] days—or more quickly if the armor is worn by a living host. If the body is destroyed before then, the process restarts.</p>\n<p>A graveknight can only be permanently destroyed by obliterating their armor (such as with @UUID[Compendium.pf2e.spells-srd.Item.r7ihOgKv19eJQnik]{Disintegrate}), transporting it to the Forge of Creation, or throwing it into the heart of a volcano.</p>"
+        },
+        "WijJ9vsrHJ7QI7iB": {
+          "name": "Sacrilegious Aura",
+          "description": "<p>30 feet.</p>\n<p>When a creature in the aura uses a vitality spell or ability, the graveknight automatically attempts to counteract it, with a counteract modifier of [[/r 1d20+31 #Counteract]]{+31}.</p>"
+        },
+        "LUiCyJGmBUPSsRwh": {
+          "name": "Shield Block",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ShieldBlock]</p>"
+        },
+        "fxA9Mv6qzEGVRMnv": {
+          "name": "Void Healing",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>"
+        },
+        "j2O6R8psod1wYlkb": {
+          "name": "Devastating Blast",
+          "description": "<p>The graveknight unleashes a @Template[cone|distance:30] of energy. Creatures in the area take @Damage[11d12[fire]] damage for a creature of the graveknight's level with a @Check[reflex|dc:39|basic|traits:area-damage] based on a high DC of the graveknight's level.</p>\n<p>The graveknight can use this ability once every [[/gmr 1d4 #Rounds]] rounds.</p>\n<p>This energy damage is of the same type as that of their ruinous weapons, and Devastating Blast gains the associated trait.</p>"
+        },
+        "V7qddafp3khZLYNf": {
+          "name": "Graveknight's Curse",
+          "description": "<p>This curse affects anyone who wears a graveknight's armor for at least 1 hour</p>\n<p><strong>Saving Throw</strong> @Check[will|dc:39] save</p>\n<p><strong>Onset</strong> 1 hour</p>\n<p><strong>Stage 1</strong> @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 1} and can't remove armor (1 day)</p>\n<p><strong>Stage 2</strong> @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 2}, –10-foot status penalty to Speeds, and can't remove armor (1 day)</p>\n<p><strong>Stage 3</strong> dies and transforms into the Seldeg.</p>"
+        },
+        "Em9UHvB0Ssm1DOeY": {
+          "name": "Phantom Mount",
+          "description": "<p><strong>HP</strong> 155; <strong>AC</strong> 42, <strong>Fort</strong> +32, <strong>Ref</strong> +28, <strong>Will</strong> +29</p><hr /><p>Seldeg summons a supernatural mount, as @UUID[Compendium.pf2e.spells-srd.Item.WPKJOhEihhcIm2uQ]{Marvelous Mount} (rank 10). Unlike <em>marvelous mount</em>, the steed's AC and saving throw bonuses are all 4 lower than the graveknight's, and the steed has one-third the Seldeg's Hit Points (rounded down).</p>\n<p>If the steed is destroyed, Seldeg must wait 1 hour before using this ability again.</p>"
+        },
+        "5s5uWceDxfPxbyDF": {
+          "name": "Ruinous Weapons",
+          "description": "<p>Any weapon or unarmed attack Seldeg uses gains the effects of the <em>+1 greater striking</em> and <em>greater flaming runes</em>.</p>"
+        },
+        "3AtzTNZ9MEMZWSea": {
+          "name": "Swap Fates",
+          "description": "<p><strong>Frequency</strong> once per round</p><hr /><p><strong>Effect</strong> Seldeg switches the fates of two creatures within 500 feet. The two creatures teleport into each other's spaces. Each creature then attempts a @Check[will|dc:39] save.</p><hr /><p><strong>Critical Success</strong> The target becomes temporarily immune to Swap Fates for 24 hours.</p>\n<p><strong>Success</strong> The target takes @Damage[3d6[mental]] damage.</p>\n<p><strong>Failure</strong> The target takes @Damage[6d6[mental]] damage and is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1}.</p>\n<p><strong>Critical Failure</strong> The target takes @Damage[12d6[mental]] damage and is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 4}.</p>"
+        },
+        "Jwl6lRLT31JFoHui": {
+          "name": "Unyielding Block",
+          "description": "<p>At the start of each of Seldeg's turns, he gains two additional reactions he can use only to perform a Shield Block.</p>"
+        },
+        "h28Dv9xXFiaiT3iU": {
+          "name": "Weapon Master",
+          "description": "<p>Seldeg has access to the critical specialization effects of any weapon he wields.</p>"
+        }
+      }
+    },
+    "Omelia": {
+      "name": "Omelia",
+      "description": "",
+      "hpdetails": "void healing",
+      "items": {
+        "CkkXdTX9QoMohBIc": {
+          "name": "Stench",
+          "description": "<p>10 feet, @Check[fortitude|dc:22]</p><hr /><p>@Localize[PF2E.NPC.Abilities.Glossary.Stench]</p>"
+        },
+        "sdrcHAvZIJ52wywL": {
+          "name": "Void Healing",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>"
+        },
+        "YrsOwI6vGr3pBNx2": {
+          "name": "Consume Flesh",
+          "description": "<p><strong>Requirements</strong> The ghoul is adjacent to the corpse of a creature that died within the last hour.</p><hr /><p><strong>Effect</strong> The ghoul devours a chunk of the corpse and regains @Damage[(1+(max(0,floor(@actor.level/2))))d6[healing]] Hit Points.</p>\n<p>It can regain Hit Points from any given corpse only once.</p>"
+        },
+        "lwzomHfOXbAWRLMB": {
+          "name": "Ghoul Whispers",
+          "description": "<p><strong>Requirements</strong> A @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}, or @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious} creature is within the ghoul's reach</p><hr /><p><strong>Effect</strong> The ghoul whispers dark thoughts and vile cravings into the creature's ears. The creature must save against the forbidden cravings curse.</p>\n<p><strong>Forbidden Cravings</strong> (curse) A creature can still eat and drink while sickened by this curse</p>\n<p><strong>Saving Throw</strong> @Check[will|dc:22|traits:curse], using the high spell DC for the ghoul's level</p>\n<p><strong>Stage 1</strong> carrier with no ill effects (1 day)</p>\n<p><strong>Stage 2</strong> @Damage[2d6[void]] damage and the target is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} until it consumes raw meat (1 day)</p>\n<p><strong>Stage 3</strong> as stage 2</p>\n<p><strong>Stage 4</strong> as stage 2 unless the target has consumed raw meat in the past 24 hours, then it takes @Damage[4d6[void]] damage and is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2} until it consumes raw meat;</p>\n<p><strong>Stage 5</strong> if the creature has eaten raw meat in the past 24 hours, it dies and rises as a ghoul, if not, it returns to stage 4</p>"
+        },
+        "0JjWFbRTsJ5CAElC": {
+          "name": "Grave Knowledge",
+          "description": "<p>[[/gmr 1d20+13 #Grave Knowledge]]{+13} skill modifier</p><hr /><p><strong>Frequency</strong> once per hour</p><hr /><p><strong>Effect</strong> The ghoul calls upon knowledge it retains from one creature it has consumed in the past 7 days. The ghoul attempts a skill check using a skill in which the consumed creature was trained (if it's unclear whether the creature was trained, the GM decides). The ghoul is treated as trained and uses a +13 modifier. This takes the same amount of actions or time as usual for the check.</p>\n<p>The ghoul can instead automatically learn something specific known by a creature it consumed in the last 7 days, like the location of a @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} treasure or the name of a loved one. The ghoul can do this only once for a given creature, no matter how much of its flesh the ghoul consumed.</p>"
+        },
+        "t2LUE5suN7zZpp8b": {
+          "name": "Hunt Prey",
+          "description": "<p>Omelia designates a single creature she can see and hear, or one she's Tracking, as her prey. She gains a +2 circumstance bonus to Perception checks to @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} the prey and to Survival checks to @UUID[Compendium.pf2e.actionspf2e.Item.EA5vuSgJfiHH7plD]{Track} the prey. The first time Omelia hits her designated prey in a round, she deals an additional 1d8 precision damage. These effects last until she uses Hunt Prey again.</p>"
+        },
+        "szL9Et8PxwUvyBlO": {
+          "name": "Swift Leap",
+          "description": "<p>The ghoul jumps up to half its Speed. This movement doesn't trigger reactions.</p>"
+        },
+        "SI7j7FkiK4171ne7": {
+          "name": "Grab",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
+        }
+      }
+    },
+    "Zombie Desecrator": {
+      "name": "Zombie Desecrator",
+      "description": "",
+      "hpdetails": "void healing",
+      "items": {
+        "xyhohKgNMIIbZTiC": {
+          "name": "Reactive Strike",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ReactiveStrike]</p>"
+        },
+        "b4oNZk3c9abmkMWR": {
+          "name": "Trudge",
+          "description": "<p>The zombie desecrator moves mindlessly forward without fear of pain. It Strides twice, ignoring any difficult terrain during its movement. At the end of its movement, the zombie takes @Damage[1d6[bludgeoning]] damage for each square of difficult terrain it entered while Trudging.</p>"
+        }
+      }
+    },
+    "Stelemora": {
+      "name": "Stelemora",
+      "description": "<p>Stelemoras are nature-loving fey dedicated to beautifying the natural world by ensnaring unsuspecting creatures and transforming their bodies into elaborate topiaries from the inside out. Aside from their bulbous, spiked seed pods, stelemoras are composed entirely of vines, which they can grow, retract, and shed at will. Stelemoras regrow damaged vines at an alarming rate, allowing them to recover from nearly any injury over time.</p>\n<p>Young stelemoras travel the world looking for a piece of wilderness to call their own. Once they select a proper spot, they use their vines to snare passing creatures, holding their target still as they forcibly implant their seeds inside the victim. The implanted seeds then take root, using the creature itself as fertilizer and slowly transforming its body into a mass of vines and leaves. Once they complete their work, the stelemora sheds their vines and regrows in a new location to begin their next masterpiece.</p>\n<p>While stelemoras prefer to fill their gardens with once-living creatures, they entomb inanimate objects in vines if they can't capture their preferred subjects. Stelemoras have also been known to transform statues, treasure chests, and even entire buildings into topiaries in order to lure in their favored prey.</p>",
+      "hpdetails": "",
+      "items": {
+        "pkz9syqKyaD4ziPh": {
+          "name": "Regeneration 20 (Deactivated by Fire)",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Regeneration]</p>"
+        },
+        "dKRpWpRxUQwIeoTT": {
+          "name": "Constrict",
+          "description": "<p>@Damage[(1d8+8)[bludgeoning]], @Check[fortitude|dc:25|basic]</p><hr /><p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p>"
+        },
+        "U1H6IaFK6NGOz0ky": {
+          "name": "Flurry of Vines",
+          "description": "<p>The stelemora makes two vine Strikes at a –2 penalty, each against a different target. These attacks count toward the stelemora's multiple attack penalty, but the multiple attack penalty doesn't increase until after they make all their attacks.</p>"
+        },
+        "SRGoxwx5tAD6AfH8": {
+          "name": "Slithering Vine",
+          "description": "<p>The stelemora increases the reach of their vine Strike by 10 feet until the end of their turn.</p>"
+        },
+        "zN8cQA7lf6mwgSxi": {
+          "name": "Sow and Sprout",
+          "description": "<p>The stelemora implants a seed inside a creature they're grappling. The target must attempt a @Check[fortitude|dc:25] save.</p>\n<p><strong>Success</strong> The stelemora fails to implant a seed, and the target is unaffected.</p>\n<p><strong>Failure</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}. While sickened, the target also takes @Damage[4d6[persistent,piercing]] damage as flowering vines sprout through its flesh. The target can't end the persistent damage until it recovers from the sickened condition.</p>\n<p><strong>Critical Failure</strong> As failure, except the target is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}.</p>"
+        },
+        "fy5ygiykXTnoglRW": {
+          "name": "Tangle of Vines",
+          "description": "<p>Until the next time they act, the stelemora appears to be a normal tangle of flowering vines. They have an automatic result of 35 (38 in forests) on Deception checks and DCs to pass as a non-creature plant.</p>"
+        }
+      }
+    },
+    "Splinter Officer": {
+      "name": "Splinter Officer",
+      "description": "<p>An army of mindless undead possesses a fatal flaw: it requires near-constant babysitting from its maker. Yet, any undead with enough sentience to command such an army runs the risk of turning on its creator. Skilled necromancers have endeavored to strike a balance between these two extremes with the creation of splinter officers. Capable of leading small battalions of undead, splinter officers are at the same time uniquely bound to their creator—and easily disposed of should they ever decide to go rogue.</p>\n<p>The first splinter officer was created when a lich separated his soul cage into multiple parts and implanted each shard into a unique undead champion, over which the lich enjoyed complete control. Ultimately, the lich decided the risk to his soul cage wasn't worth the benefits, but the technique of soul-splitting proved too useful to abandon. Today, splinter officers are created by plucking an intelligent creature's soul from Pharasma's clutches at the moment of the creature's death. The fresh soul is then shattered, with the splinter officer receiving the largest portion and the remaining splinters being implanted into the mindless undead soldiers the officer controls.</p>",
+      "hpdetails": "void healing",
+      "items": {
+        "pIKfKVuwcJ7b4MOM": {
+          "name": "Splintersense",
+          "description": "<p>The splinter officer knows the direction and distance of all undead that share splinters of the same splinter officer's soul. These undead are always considered to be allies of the splinter officer.</p>"
+        },
+        "kj7mlA0RNkMkkh4V": {
+          "name": "Behind the Lines",
+          "description": "<p><strong>Trigger</strong> The splinter officer is targeted by an attack</p>\n<p><strong>Requirements</strong> At least one of the officer's undead allies is adjacent to the officer</p><hr /><p><strong>Effect</strong> The ally interposes itself, granting the officer a +2 circumstance bonus to AC against the triggering attack.</p>"
+        },
+        "tcFDQCT7SvWfV3Og": {
+          "name": "Void Healing",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>"
+        },
+        "kYafXDDEEnSuhZ7i": {
+          "name": "Raise Defenses",
+          "description": "<p>The splinter officer mentally commands its undead allies to strengthen their defenses. For 1 round, each undead that shares the officer's splintered soul gains a +1 circumstance bonus to AC.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.szOyQaUgKZ09q4Ux]{Effect: Raise Defenses}</p>"
+        },
+        "60fP8t9EWD6dlhAB": {
+          "name": "Rally the Rabble",
+          "description": "<p>The splinter officer mentally energizes the undead under its command. Each undead that shares the officer's splintered soul is @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} for 1 round. Quickened allies can use the extra action only to Stride or Strike. The officer can't Rally the Rabble again for [[/gmr 1d4 #Recharge Rally the Rabble]]{1d4 rounds}.</p>"
+        },
+        "BQhacPuKBwrhjdBb": {
+          "name": "Synchronized Step",
+          "description": "<p>The splinter officer mentally commands the undead that share its splintered soul to reposition. The officer Steps, and each undead that shares the officer's splintered soul can use a reaction to Step.</p>"
+        }
+      }
+    },
+    "Skeletal Rat Swarm": {
+      "name": "Skeletal Rat Swarm",
+      "description": "",
+      "hpdetails": "void healing",
+      "items": {
+        "NYsLdf3DVD8KHesB": {
+          "name": "Void Healing",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>"
+        },
+        "II7ioRxARtEX8n3p": {
+          "name": "Ravenous Sickness",
+          "description": "<p>An infected creature can't heal damage it takes from this disease until the disease is cured</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:20]</p>\n<p><strong>Stage 1</strong> carrier with no ill effect (1 day)</p>\n<p><strong>Stage 2</strong> @Damage[1d6[void]] damage and the target requires twice as much food for a creature of their size to avoid starvation (1 day)</p>\n<p><strong>Stage 3</strong> @Damage[1d6[void]] damage and the target requires three times as much food for a creature of their size to avoid starvation (1 day)</p>\n<p><strong>Stage 4</strong> @Damage[1d6[void]] damage and the target takes @Damage[1[void]] damage each hour until it eats a full meal (1 day)</p>\n<p><strong>Stage 5</strong> dead, rising as a skeleton immediately after it devours the flesh off its own bones.</p>"
+        },
+        "ksxzbB2QT9cShJXR": {
+          "name": "Swarming Bites",
+          "description": "<p>Each enemy in the swarm's space takes @Damage[3d4[piercing]|options:area-damage] damage (@Check[fortitude|dc:18|basic|options:area-effect] save). A creature that fails this save is exposed to ravenous sickness.</p>"
+        }
+      }
+    },
+    "Divine Warden of Iomedae": {
+      "name": "Divine Warden of Iomedae",
+      "description": "",
+      "hpdetails": "",
+      "items": {
+        "uh7Bvp6UoD8klJNg": {
+          "name": "Divine Destruction",
+          "description": "<p>When the divine warden is reduced to 0 HP, it erupts with divine energy in a @Template[type:emanation|distance:30], dealing @Damage[16d6[spirit]|options:area-damage] damage. Each creature in the area must attempt a @Check[will|dc:37|options:area-effect,damaging-effect] save.</p><hr /><p><strong>Critical Success</strong> The creature takes half damage.</p>\n<p><strong>Success</strong> The creature takes full damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and becomes temporarily cursed by the patron deity. The cursed creature is @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1} and @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} for 1 day; this is a curse effect that uses the Will save DC as the counteract DC.</p>\n<p><strong>Critical Failure</strong> As failure, except the cursed creature is @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 2} and @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 2}.</p>"
+        },
+        "uQaxoPZegzasqi3z": {
+          "name": "God-Bound",
+          "description": "<p>The divine warden is bound to a specific patron deity upon its creation. The warden can't take hostile actions against a creature that openly wears or displays a symbol of its patron deity unless that creature uses a hostile action against the warden first. The warden gains an initial domain spell chosen from its deity's list of domains. The divine warden has 3 Focus Points.</p>"
+        },
+        "ScqrDKqJQ9ZaC24C": {
+          "name": "Faithful Weapon",
+          "description": "<p>While the divine warden wields the favored weapon of its patron deity, that weapon gains the effect of a <em>greater striking rune</em>.</p>"
+        },
+        "rkDwIUD3xb4ZEsCK": {
+          "name": "Instrument of Faith",
+          "description": "<p>The divine warden is a beacon for its deity's faith. A cleric of the divine warden's patron deity can channel a @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Heal} spell through a divine warden they can see within 60 feet. The cleric determines any targets or area for the spell as if they were standing in the divine warden's space.</p>"
+        }
+      }
+    },
+    "Engerra": {
+      "name": "Engerra",
+      "description": "<p>Born of those who sacrificed their lives for something greater than themselves, engerras resemble swarms of glowing fireflies and are sometimes mistaken for will-o'-wisps or simple tricks of the light. They are most often encountered in the tombs of legendary heroes but might linger anywhere such a hero has drawn their final breath.</p>\n<p>Engerras believe that tales of worthy sacrifice hold great power. They gather the memories of those who died in service of a noble cause and then share those memories with mortals who might be inspired or cheered by them. An engerra's trademark glow is a sign of both sorrow and hope, for it simultaneously associates the death of a great hero with the determination to honor that hero's legacy.</p>",
+      "hpdetails": "",
+      "items": {
+        "1LTMSjSjEpGv3CPz": {
+          "name": "Firefly's Remembrance",
+          "description": "<p>Engerras embody the ethos of honoring the dead. When the engerra @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recalls Knowledge} about a creature whose final words it has heard spoken aloud, it uses the outcome one degree of success better than the result of its roll.</p>"
+        },
+        "utMgOFq73uTg7ebs": {
+          "name": "+1 Status Bonus to All Saves vs. Magic",
+          "description": ""
+        },
+        "NQpkgmCMj279eviW": {
+          "name": "Disperse",
+          "description": "<p>The engerra Strides or Flies. This movement doesn't trigger reactions. During the movement, the engerra can move through occupied spaces and tiny cracks, and it ignores difficult terrain and greater difficult terrain. It then coalesces back into its normal form.</p>"
+        },
+        "JiX8vgEMuht5BQRe": {
+          "name": "Dying Breath",
+          "description": "<p>The engerra draws the air from around breathing creatures in a @Template[type:emanation|distance:40], giving them the feeling of drawing their last breath. Enemies in the area must attempt a @Check[will|dc:26] save. If at least one creature fails the save, the engerra can gift the stolen breath to a willing creature within 40 feet, granting that creature [[/gmr 2d6 #Temp HP]] temporary Hit Points that last for 1 minute.</p><hr /><p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> The creature takes @Damage[(2d6+7)[mental]] damage and is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}.</p>\n<p><strong>Critical Failure</strong> The creature takes @Damage[(3d6+10)[mental]] damage, is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2}, and becomes @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued} for 1 minute.</p>"
+        },
+        "WDurhA3bbS4FZJLx": {
+          "name": "Final Words of Doom",
+          "description": "<p>The engerra whispers words of doom to an enemy within 40 feet. The creature must attempt a @Check[will|dc:26] save.</p><hr /><p><strong>Critical Success</strong> As success, and the creature is temporarily immune for 1 minute.</p>\n<p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> The creature takes @Damage[(3d8+13)[mental]] damage and is @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 1} for 1 minute.</p>\n<p><strong>Critical Failure</strong> The creature takes @Damage[(4d8+18)[mental]] damage and is @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 2} for 1 minute.</p>"
+        },
+        "XruCfTMuLPyHHhvw": {
+          "name": "Final Words of Wisdom",
+          "description": "<p>The engerra finds words to bolster a creature's spirits. The engerra spends 10 minutes speaking with a willing creature. If that creature has the @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued} condition, it's no longer fatigued. The creature can't benefit from any engerra's Final Words of Wisdom again for 1 year.</p>"
+        }
+      }
+    },
+    "Radiant Veranallia": {
+      "name": "Radiant Veranallia",
+      "description": "",
+      "hpdetails": "void healing",
+      "items": {
+        "KOuF3F1Z1MoD8fU1": {
+          "name": "Void Healing",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>"
+        },
+        "PsqfPhYsXPqObG7H": {
+          "name": "Alter Weather",
+          "description": "<p><strong>Frequency</strong> three times per day</p><hr /><p><strong>Effect</strong> The veranallia dramatically alters weather patterns in the surrounding area, producing any of the results of a successful 9th-rank @UUID[Compendium.pf2e.spells-srd.Item.XkDCzMIyc0YOjw05]{Control Weather} ritual.</p>"
+        },
+        "l1ec0vS3B6UeIpqa": {
+          "name": "Rebirth",
+          "description": "<p><strong>Frequency</strong> once per day</p><hr /><p><strong>Effect</strong> The veranallia spends a minute to encase a creature that has been dead for no more than a year in a cocoon. After 24 hours, the creature is restored to life, and the cocoon explodes in a shower of dust. If the veranallia chooses, Rebirth can change the creature's ancestry or heritage, typically into a @UUID[Compendium.pf2e.journals.JournalEntry.45SK8rdbbxvEHfMn.JournalEntryPage.EcNSrvwIj22Jxkjz]{skeleton}.</p>"
+        }
+      }
+    },
+    "Lady Siccale": {
+      "name": "Lady Siccale",
+      "description": "",
+      "hpdetails": "coffin restoration, fast healing 15, void healing",
+      "items": {
+        "AjQvzv61PkMOcGVn": {
+          "name": "Children of the Night",
+          "description": "<p>The vampire's presence brings forth creatures of the night to do the master's bidding. These typically include @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.6wPW2dvpt86Ou6bL]{Rat Swarms}, @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.2mg30nJR6P3HJDSd]{Bat Swarms}, and @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.BN5Lb6IsQ9Wyu3rL]{Wolves}, but can include other creatures.</p>\n<p>The vampire can give telepathic orders to these creatures as long as they are within 100 feet, but they can't communicate back.</p>"
+        },
+        "PI5PtgGXf6IqDppK": {
+          "name": "Fast Healing 15",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.FastHealing]</p>"
+        },
+        "ZXUZYucyzl2XBW4O": {
+          "name": "Coffin Restoration",
+          "description": "<p>Unlike other undead, a vampire isn't destroyed at 0 HP. Instead, it falls @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious}. If its body rests in its coffin for 1 hour, the vampire gains 1 HP, after which its fast healing begins to function normally.</p>"
+        },
+        "ycc6Krw2hejxON1x": {
+          "name": "Mist Escape",
+          "description": "<p><strong>Trigger</strong> The vampire is reduced to 0 HP.</p>\n<hr />\n<p><strong>Effect</strong> The vampire uses Turn to Mist. They can take move actions to move toward its coffin even though it's at 0 HP. While at 0 HP in this form, the vampire is unaffected by further damage.</p>\n<p>They automatically returns to its corporeal form, unconscious, if they reaches their coffin or after 2 hours, whichever comes first.</p>"
+        },
+        "dzrkutVzMisMs08K": {
+          "name": "Vampire Vulnerabilities",
+          "description": "<p>All vampires possess the following vulnerabilities.</p>\n<ul>\n<li><strong>Compulsions</strong> Vampires are creatures with strange and unknowable compulsions. A typical vampire can't voluntarily cross running water unless they're transported while they hide within their coffin, nor can they enter a private dwelling unless invited in by someone with the authority to do so. At your discretion, vampires might have different compulsions—a pirate vampire might not be able to set foot on solid ground without being invited, for example. The vampire can still be forced to do these things and might be able to overcome their compulsion just as they do their revulsion.</li>\n<li><strong>Revulsion</strong> A vampire can't voluntarily come within 10 feet of brandished garlic or a brandished religious symbol of a deity with a holy sanctification option. To brandish garlic or a religious symbol, a creature must Interact to do so, and it remains brandished for 1 round (similar to Raising a Shield). If the vampire involuntarily comes within 10 feet of an object of their revulsion, they gain the @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{Fleeing} condition, running from the object of their revulsion until they end an action beyond 10 feet. After 1 round of being exposed to the subject of their revulsion, a vampire can attempt a @Check[will|dc:25] save as a single action, which has the concentrate trait. On a success, they overcome their revulsions for [[/gmr 1d6 #rounds]]{1d6 rounds} (or 1 hour on a critical success).</li>\n<li><strong>Stake</strong> A wooden stake driven through a vampire's heart drops the vampire to 0 HP and prevents them from healing above 0 HP, even in their coffin. Staking a vampire requires 3 actions and works only if the vampire is @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious}. If the stake is removed, the vampire can heal above 0 HP again, and if they're in their coffin, the 1-hour rest period begins once the stake is removed. If the vampire's head is severed and anointed with holy water while the stake is in place, the vampire is destroyed.</li>\n<li><strong>Sunlight</strong> If exposed to direct sunlight, a vampire immediately becomes @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1}. The slowed value increases by 1 each time the vampire ends their turn in sunlight, and the condition ends when they're no longer in sunlight. If the vampire loses all their actions in this way, they're destroyed. Due to their supernatural aversion to light, vampires don't cast shadows or show a reflection in mirrors\n</li>\n</ul>"
+        },
+        "NGpzehHfK8uLXcl5": {
+          "name": "Void Healing",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>"
+        },
+        "s7WUO5qNvcfbuFxN": {
+          "name": "Change Shape",
+          "description": "<p>The vampire transforms into one of its animal forms or back into its normal form. Most vampires can turn into a bat, but some can turn into a different creature, such as a rat or a wolf.</p>\n<p>Use the options in the @UUID[Compendium.pf2e.spells-srd.Item.NzXpEzcZAjuDTZjK]{Aerial Form} and @UUID[Compendium.pf2e.spells-srd.Item.wp09USMB3GIW1qbp]{Animal Form} spells as guidelines.</p><ul><li><strong>Giant Bat</strong> Lady Siccale changes into a @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.xnpuGO8jEMba9wy5]{Giant Bat}. They gain echolocation 40 feet, a land Speed of 20 feet and a fly Speed of 30 feet, and a fangs Strike with the same attack bonus as their highest melee attack. These fangs deal the same amount of damage as the vampire's claws, but deal piercing damage rather than slashing damage.</li></ul><hr /><p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
+        },
+        "EIGWZ49ZXuIrnXwy": {
+          "name": "Create Servitor",
+          "description": "<p>If a creature dies after being reduced to 0 HP by Drink Blood, the vampire can turn this victim into a vampire servitor by donating some of their own blood to the victim and burying the victim in earth for 3 nights.</p>\n<p>A vampiric servitor is compelled to obey its creator, but if a vampire controls too many vampiric servitors at once (as determined by the GM), or if the servitor is a higher level than the vampire that created it, strong-willed servitors can free themselves by succeeding at a @Check[will|defense:will] saving throw against the vampire's Will DC.</p>"
+        },
+        "OzspHNwz22MvCJJX": {
+          "name": "Dominate",
+          "description": "<p>The vampire can cast @UUID[Compendium.pf2e.spells-srd.Item.OsOhx3TGIZ7AhD0P]{Dominate} at will as a divine innate spell. Casting it requires staring into the target's eyes, giving the spell the visual trait (@Check[will|dc:38]). The save DC uses the high spell DC of the vampire's level, and a creature that succeeds is temporarily immune to that vampire's Dominate for 24 hours.</p>\n<p>Fully destroying the vampire ends the domination, but merely reducing the vampire to 0 HP is insufficient to break the spell.</p>"
+        },
+        "pI55naBBuMx5x0AA": {
+          "name": "Drink Blood",
+          "description": "<p><strong>Requirement</strong> A @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious}, or willing creature is within the vampire's reach.</p><hr /><p><strong>Effect</strong> The vampire sinks its fangs into that creature to drink its blood. This requires an @Check[athletics|defense:fortitude] check against the victim's Fortitude DC if the victim is grabbed and is automatic for any of the other conditions.</p>\n<p>The victim is @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 2} and the vampire regains @Damage[36[healing]] HP, gaining any excess HP as temporary Hit Points. Drinking Blood from a creature that's already drained doesn't restore any HP to the vampire but increases the victim's drained value by 1, killing the victim when it reaches drained 5. A vampire can also consume blood that's been emptied into a vessel for sustenance, but it gains no HP from doing so.</p>\n<p>A victim's drained condition decreases by 1 per week. A blood transfusion, which requires a @Check[medicine|dc:20|name:Blood Transfusion] check and sufficient blood or a blood donor, reduces the drain by 1 after 10 minutes.</p>"
+        },
+        "RoBkljZDGJ3My0Z5": {
+          "name": "Poison Weapon",
+          "description": "<p>Lady Siccale applies poison to a dagger. If she has a free hand, she can Interact to draw a poison as part of the action. If her next attack with that weapon hits and deals damage, it applies the effect of the poison. If she critically fails the attack roll, the poison is wasted.</p>"
+        },
+        "LwQodZj4P7gGizPK": {
+          "name": "Turn to Mist",
+          "description": "<p>The vampire turns into a cloud of vapor, as the @UUID[Compendium.pf2e.spells-srd.Item.V8wXOsoejQhe6CyG]{Vapor Form} spell, or back to its normal form. The vampire loses fast healing while in gaseous form.</p>\n<p>The vampire can remain in this form indefinitely.</p>"
+        }
+      }
+    },
+    "Ossuary Warden": {
+      "name": "Ossuary Warden",
+      "description": "",
+      "hpdetails": "void healing",
+      "items": {
+        "s2js4pQr63SBkbSl": {
+          "name": "Void Healing",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>"
+        },
+        "HBPZgVc4kwVlttSz": {
+          "name": "Breach",
+          "description": "<p>The ossuary warden Leaps and makes a Strike at any point along its movement.</p>"
+        },
+        "AkISBHxGtq6IRSIT": {
+          "name": "River Jump",
+          "description": "<p>If the ossuary warden is in water, it can @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Leap} vertically 60 feet and horizontally 60 feet, moving any creature it has Grabbed along with it. The warden doesn't take damage from falls into water.</p>"
+        }
+      }
+    },
+    "Moldering Steed": {
+      "name": "Moldering Steed",
+      "description": "<p>A moldering steed is a horse whose unshakable will couldn't be broken, even by death. Draped in rotting flesh and trailing its own stinking entrails, the steed fights unrelentingly against its undead state, seeking out the spirits of strong-willed creatures to consume in a vain attempt to repair its fractured soul. Once it catches a scent, the steed pursues its prey until it consumes the creature's spirit or finds stronger-willed prey to track.</p>\n<p>The few moldering steeds that arise naturally often died attempting to escape desperate situations, such as floods or fires. More often, necromancers create moldering steeds to serve as mounts for their undead armies. Unlike living mounts, moldering steeds don't need to be fed or cared for, and they'll often accept an undead rider who allows them to hunt down living prey. Due to the steed's insatiable hunger, however, living necromancers must take care not to become their steed's next meal.</p>",
+      "hpdetails": "void healing",
+      "items": {
+        "ucEmiWtn0On6iaem": {
+          "name": "Willsense",
+          "description": "<p>The moldering steed senses all living creatures within the listed range that have a Wisdom of +1 or higher.</p>"
+        },
+        "sLbSGwkNf8bewn5L": {
+          "name": "Buck",
+          "description": "<p>@Check[reflex|dc:38]</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Buck]</p>"
+        },
+        "tb3g92KqSA5E3Efq": {
+          "name": "Frightful Presence",
+          "description": "<p>60 feet @Check[will|dc:38]</p><hr /><p>@Localize[PF2E.NPC.Abilities.Glossary.FrightfulPresence]</p>"
+        },
+        "cpNtao3wU207GUxP": {
+          "name": "Void Healing",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>"
+        },
+        "x13ZTh7u47ioXKWt": {
+          "name": "Gallop",
+          "description": "<p>The moldering steed Strides twice. It has a +10-foot circumstance bonus to its Speed during these Strides.</p>"
+        },
+        "Pp6Aft51KPdm0dni": {
+          "name": "Hunt Will",
+          "description": "<p>The moldering steed designates the living creature with the highest Will modifier within 120 feet as its prey. The steed gains a +2 circumstance bonus to Perception checks to @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} the prey and to Survival checks to @UUID[Compendium.pf2e.actionspf2e.Item.EA5vuSgJfiHH7plD]{Track} the prey. The first time the steed hits its designated prey in a round, it deals an additional 1d8 precision damage. These effects last until the steed uses Hunt Will again.</p>"
+        },
+        "aYpLKx3yQWuC4CjR": {
+          "name": "Siphon Will",
+          "description": "<p>When the moldering steed damages a living creature with its jaws Strike, the steed gains 20 temporary Hit Points that last for 1 minute, and the creature must succeed at a @Check[will|dc:38] save or become @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1}. Further damage dealt by the steed increases the creature's stupefied value on a failed save by 1, to a maximum of @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 4}.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.unwNPDLmReEQy700]{Effect: Siphon Will}</p>"
+        },
+        "5JBsMSFClcc2BGvE": {
+          "name": "Undead Steed",
+          "description": "<p>Undead and creatures allied with them can Command a moldering steed without needing to attempt a skill check.</p>"
+        }
+      }
+    },
+    "Knight Reclaimant": {
+      "name": "Knight Reclaimant",
+      "description": "",
+      "hpdetails": "",
+      "items": {
+        "TNkHSByQNDg1KgpX": {
+          "name": "Deep Resilience",
+          "description": "<p>The knight reclaimant's convictions steel their mind against outside influences and help their allies remain strong. The knight and their allies within 30 feet have a +1 circumstance bonus to saves against mental effects, which increases to +2 against mental effects originating from undead.</p>"
+        },
+        "iEKSCH2r62Zru1YB": {
+          "name": "Raise a Shield",
+          "description": "<p><strong>Requirements</strong> You are wielding a shield.</p>\n<hr />\n<p>You position your shield to protect yourself. When you have Raised a Shield, you gain its listed circumstance bonus to AC. Your shield remains raised until the start of your next turn.</p>"
+        },
+        "WaEiNxpcMQROS7hF": {
+          "name": "Shield Block",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ShieldBlock]</p>"
+        },
+        "P3ljxtnLPq5aUVSy": {
+          "name": "Sudden Charge",
+          "description": "<p><strong>Frequency</strong> once per turn</p><hr /><p><strong>Effect</strong> The knight Strides twice. If they end their movement within melee reach of at least one enemy, the knight can make a melee Strike against that enemy.</p>"
+        }
+      }
+    },
+    "Garrholdion": {
+      "name": "Garrholdion",
+      "description": "<p>Belief is a powerful force. When strong-willed individuals gather beneath a common banner, their unified conviction can take on a life of its own. The result is a garrholdion, a spirit construct that defends the meeting place of the faction that created it.</p>\n<p>A garrholdion usually appears as a shimmering, idealized version of a typical faction member, though it might instead shift its appearance among that of specific individuals, never settling on just one. Whatever form it takes, a garrholdion is always marked by its faction's symbol. A Firebrands garrholdion, for example, bears that faction's crossed swords symbol, while a Pathfinder Society garrholdion is marked with the Glyph of the Open Road.</p>",
+      "hpdetails": "",
+      "items": {
+        "wCVx7mAKnUXZy2Gw": {
+          "name": "Faction-Bound",
+          "description": "<p>A garrholdion is bound to a faction at its creation. It can't harm a known member of its faction, a symbol of its faction, or relics associated with its faction. It gains a +4 circumstance bonus to Perception checks to verify the identity of such creatures and objects. A garrholdion is also bound to a location associated with its faction, such as a fortress, an academy, or a secret hideout. It can't move more than 120 feet from its designated location. Finally, a garrholdion bears an obvious mark of its faction somewhere on its body. This mark can't be hidden.</p>"
+        },
+        "9QfTsUc215Xtdwfg": {
+          "name": "Quick Shield Block",
+          "description": "<p>The garrholdion gains an additional reaction each round that can be used only for Shield Block.</p>"
+        },
+        "DZJwTTyoOaFbCImk": {
+          "name": "Raise a Shield",
+          "description": "<p><strong>Requirements</strong> You are wielding a shield.</p>\n<hr />\n<p>You position your shield to protect yourself. When you have Raised a Shield, you gain its listed circumstance bonus to AC. Your shield remains raised until the start of your next turn.</p>"
+        },
+        "BW1WKt0gyEjbomMx": {
+          "name": "Reactive Defense",
+          "description": "<p><strong>Trigger</strong> A creature within reach attacks the garrholdion's ally</p><hr /><p><strong>Effect</strong> The garrholdion positions its shield in front of the attack, granting its ally a +2 circumstance bonus to AC against the triggering attack. It then makes a melee Strike against the triggering creature.</p>"
+        },
+        "JopIKEFbN9HuF51Z": {
+          "name": "Reactive Strike",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ReactiveStrike]</p>"
+        },
+        "bRz80BdKKsRJ5CH7": {
+          "name": "Shield Block",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ShieldBlock]</p>"
+        },
+        "SAMxVvF0Py6t17Gl": {
+          "name": "Belief Fortification",
+          "description": "<p>30 feet. Members of the garrholdion's faction gain a +1 status bonus to saving throws against emotion effects while within the aura.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.tnIjFwv55sDPZxlb]{Effect: Belief Fortification (Mark)}</p>"
+        },
+        "clnAWeEfAZSaKVw8": {
+          "name": "Seed of Doubt",
+          "description": "<p>A creature hit by the garrholdion's belief ray Strike doubts their actions, forcing them to hesitate. The target must succeed at a @Check[will|dc:39|options:inflicts:stunned] save or be @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1} (or @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 3} on a critical failure). On a critical success, the target becomes temporarily immune to seed of doubt for 24 hours.</p>"
+        }
+      }
+    },
+    "Onturat": {
+      "name": "Onturat",
+      "description": "<p>Swirling down from misty peaks and through howling mountain passes like an evil wind, the vortex of bones known as a skulltaker is a terrible manifestation of the delirium and agony experienced by doomed climbers and lost trailblazers just before they met their end. In some places, a skulltaker is also known as a saxra.</p>",
+      "hpdetails": "void healing",
+      "items": {
+        "oOdthftkNeAnj2vF": {
+          "name": "Skeletal Lore",
+          "description": "<p>Onturat taps into the memories of the creatures whose bones make up his body. This gives him the Skeletal Lore skill, which he can use to @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{Recall Knowledge} of any kind. In addition, he can speak and understand all the languages known by the creatures whose bones make up his body (typically Common and the regional language of the skulltaker's home region). Onturat can use Skeletal Lore as the primary skill check for the @UUID[Compendium.pf2e.spells-srd.Item.hp6Q64dl7xbdn4gQ]{Collective Memories} ritual, and he can cast collective memories without secondary casters.</p>"
+        },
+        "Fv7pLR00M2cdJAKM": {
+          "name": "Shard Storm",
+          "description": "<p>10 feet.</p>\n<p>A cloud of bone shards surrounds the skulltaker. When a creature moves into the emanation or begins its turn there, shard storm deals @Damage[4d6[slashing],4d6[void]]{4d6 slashing damage and 4d6 void damage} to the creature, with a @Check[reflex|dc:42|basic] save.</p>\n<p>If the creature has resistance or immunity to void damage, or an effect that protects it against death effects, or an effect that protects it against the @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed} or @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained} condition, the creature must first succeed at a @Check[will|dc:42] save or have all such benefits suppressed for 1 minute.</p>"
+        },
+        "xZVC4Ktpor7xNXGV": {
+          "name": "Void Healing",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>"
+        },
+        "t4gKNUAwe6yUvWC4": {
+          "name": "Bonetaker",
+          "description": "<p>Whenever a creature dies within 60 feet of a skulltaker, the skulltaker draws a portion of the creature's bones into its shard storm. The creature must succeed at a @Check[will|dc:40] save or rise as a @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.FH58AcRBZIfrHKvv]{Skeletal Champion} in [[/gmr 1d4 #rounds]]{1d4 rounds}. These skeletal champions are controlled by the skulltaker.</p>"
+        },
+        "QtbYkrzWKmYbd4c5": {
+          "name": "Splintered Ground",
+          "description": "<p>The skulltaker causes splintered bones to erupt from all solid surfaces in a @Template[type:emanation|distance:100], except for surfaces of worked stone. A creature moving through the bones takes @Damage[10[piercing],10[void]]{10 piercing damage and 10 void} damage for every 5 feet of movement. The first time each round a creature takes piercing damage from these splintered bones, it must succeed at a @Check[reflex|dc:42] save or take a –10-foot circumstance penalty to all Speeds for 10 minutes, or a –15-foot circumstance penalty for 24 hours on a critical failure. The bones remain in place until the skulltaker uses this action again or the bones are manually removed, which takes 10 minutes for each 5-foot square.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.86uYNsVXzYWxqLTV]{Effect: Splintered Ground}</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.hc7kR6quUE9ryRyj]{Effect: Splintered Ground (Critical Failure)}</p>"
+        },
+        "MbJQF9CoclP4Q7uV": {
+          "name": "Void Drain",
+          "description": "<p>When a skulltaker hits with a melee Strike, the target must succeed at a @Check[fortitude|dc:42] save or become @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 2} and @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 1}.</p>"
+        }
+      }
+    },
+    "Chained Norn": {
+      "name": "Chained Norn",
+      "description": "<p>Ancient beyond imagining, norns are powerful fey women who hold in their hands the physical manifestation of fate and destiny in the form of golden thread. They watch over all life, intervening with reluctance when called upon—or with a vengeance when the strands of fate are twisted and abused by lesser beings. They cut imposing figures, standing 14 feet tall and weighing 800 pounds.</p>\n<p>Norns' relationship with the Eldest of the First World is complex. Many among norns serve Magdh the Three, the triune Eldest who some norns believe to be the first norn triumvirate bound together into one entity, as Magdh has three bodies: a Maiden, a Mother, and a Matriarch. Magdh claims to be watching the threads of fate for some ominous prophesied cataclysm, and in addition to assisting in her divinations, Magdh expects the norns who serve her to follow her cryptic commands to help nudge the future away from the brink. However, norns are powerful beings in their own right, themselves capable of granting divine power, and many balk at serving the enigmatic demigod. These norns find the other Eldest even more alien and challenging to interact with, for they believe that while the Eldest wield great power, even these powerful beings should not be granted leave to meddle with fate as much as they desire.</p>\n<p>While even the weakest of the Eldest could destroy an unaffiliated norn with ease, they tend to obey the proclamations and judgments of norns when they are spoken. These norns, for their part, use their perceived neutrality judiciously. They know better than to issue too many demands to the Eldest, lest the capricious demigods grow frustrated. And so the balance of power remains tenuous between unaffiliated norns and the Eldest, as it has for eons. Norns know that it's merely a matter of time before the Eldest lose their respect for this tradition and start acting entirely as they please, despite norns' best efforts to rein in their most disruptive actions.</p><h2>Followers of Fate</h2><p>In the mortal Universe, some mortals worship norns as deities, while others, especially witches and bards, admire them as patrons or muses. Those who uphold norns as deities are known as Followers of Fate. Norns neither discourage this veneration nor go out of their way to support such worship. Clerics who venerate norns might worship a specific norn or norn triumvirate, or all norns as a whole, but they gain the same benefits regardless of their choice. The religious symbol of Followers of Fate is a pair of shears cutting a golden thread, and their areas of concern are destiny, fate, and the aging process.</p>",
+      "hpdetails": "",
+      "items": {
+        "TAynuoZDOHYTQzE1": {
+          "name": "Broken Fate",
+          "description": "<p>The chained norn automatically rolls a 1 when she rolls initiative.</p>"
+        },
+        "F2Ga87KD8Fqi1nUj": {
+          "name": "Broken Triumvirate",
+          "description": "<p>The chained norn's fate has been severed from the rest of the norns. She can't join a triumvirate or willingly take a hostile action against a norn.</p>"
+        },
+        "3rU70bN9hSvQd3uV": {
+          "name": "+1 Status to All Saves vs. Magic",
+          "description": ""
+        },
+        "w5Em5u7tTo4B8fyU": {
+          "name": "Regeneration 20 (Deactivated by Cold Iron)",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Regeneration]</p>"
+        },
+        "VYvFdlHYgwkwJIUp": {
+          "name": "Broken Fates Aura",
+          "description": "<p>60 feet. Creatures other than norns in the aura must attempt a @Check[will|dc:42] save. On a successful save, the creature is temporarily immune to the broken fates aura for 24 hours. On a failure, the creature can't benefit from effects with the fortune trait for 24 hours.</p>"
+        },
+        "x5qarA40W9CW0MkT": {
+          "name": "Rewind Fate",
+          "description": "<p><strong>Trigger</strong> A creature within 120 feet would succeed on an attack or skill check</p><hr /><p><strong>Effect</strong> The creature must attempt the attack or skill check again, rolling twice and taking the worse result.</p>"
+        },
+        "TXZZbrIQugmv5mtu": {
+          "name": "Fated",
+          "description": "<p>When a creature is subject to a misfortune effect from a norn and a fortune effect from any source other than a norn (or vice versa), the norn's effect automatically counteracts the other effect and then takes place normally, rather than the two effects canceling each other out. If both the fortune and misfortune effect are from a norn, then the two cancel each other out as normal. At the GM's discretion, powerful entities related to fate or luck, like Desna, Magdh, or Pharasma, can't have their effects negated by this ability.</p>"
+        },
+        "aW5Xf5RH0bL6fXwe": {
+          "name": "Sever Fate",
+          "description": "<p>When a norn deals void damage with a Strike, she regains @Damage[10[healing]]{10 Hit Points}. The target must succeed at a @Check[fortitude|dc:39] save or become @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1} (@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 2} on a critical failure).</p>\n<p>Further void damage dealt by the norn increases the drained condition value by 1 on a failed save (or by 2 on a critical failure), to a maximum of @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 4}.</p>"
+        }
+      }
+    },
+    "Zombie Bear": {
+      "name": "Zombie Bear",
+      "description": "",
+      "hpdetails": "void healing",
+      "items": {
+        "55OoM9AOwI52eNfi": {
+          "name": "Slow",
+          "description": "<p>A zombie bear is permanently @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} and can't use reactions.</p>"
+        },
+        "tgUylnFxJtjPJKq4": {
+          "name": "Void Healing",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>"
+        },
+        "EwgoGqiHRTe0Ezil": {
+          "name": "Murderous Mauler",
+          "description": "<p>The zombie bear gains a +2 circumstance bonus to damage rolls against creatures it has @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}.</p>"
+        },
+        "GBtj6ueTnSX6cm8G": {
+          "name": "Grab",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
+        }
+      }
+    },
+    "Commander Arsiella Dei": {
+      "name": "Commander Arsiella Dei",
+      "description": "",
+      "hpdetails": "",
+      "items": {
+        "Qc4Fa206RAv5AT4I": {
+          "name": "Blind-Fight",
+          "description": "<p>Arsiella doesn't need to succeed at a flat check to target @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} creatures. She isn't @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} to creatures that are @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} from her (unless she's off-guard to them for reasons other than the hidden condition) and only needs a successful @Check[flat|dc:5] to target a hidden creature.</p>"
+        },
+        "9I5uu3rYQMQICWVK": {
+          "name": "Reactive Strike",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ReactiveStrike]</p>"
+        },
+        "R8e6FTipDncl2VWL": {
+          "name": "For Nirmathas!",
+          "description": "<p><strong>Frequency</strong> once per round</p><hr /><p><strong>Effect</strong> Arsiella makes two battle axe Strikes against the same target. Both Strikes use Arsiella's current multiple attack penalty, but each Strike takes a –2 penalty. A target hit by both attacks on the same turn must also succeed at a @Check[fortitude|dc:26] saving throw or be knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p>"
+        },
+        "fGwdmejnlZtoyoul": {
+          "name": "Heavenly Strike",
+          "description": "<p>Arsiella calls on the spirit of her father and the strength of Iomedae to infuse her weapon, then Strikes with that weapon. If the Strike hits, Arsiella deals an extra weapon die of vitality damage.</p>"
+        },
+        "wwf5aLTlEfE2rUJr": {
+          "name": "Hunt Prey",
+          "description": "<p>Arsiella designates a single creature she can see and hear, or one she's Tracking, as her prey. She gains a +2 circumstance bonus to Perception checks to @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} her prey and to Survival checks to @UUID[Compendium.pf2e.actionspf2e.Item.EA5vuSgJfiHH7plD]{Track} her prey. The first time she hits her designated prey in a round, she deals an additional 1d8 precision damage. She also ignores the penalty for making ranged attacks within the second range increment when attacking her prey. These effects last until she uses Hunt Prey again.</p>"
+        },
+        "e14EQKyQj3XAspoF": {
+          "name": "Quick Draw",
+          "description": "<p>Arsiella draws a weapon, then Strikes with that weapon.</p>"
+        },
+        "V2vuYfw4jq6fV4sH": {
+          "name": "Skirmish Strike",
+          "description": "<p>Arsiella either Steps and then Strikes, or Strikes and then Steps.</p>"
+        }
+      }
+    },
+    "Priest of Iomedae": {
+      "name": "Priest of Iomedae",
+      "description": "",
+      "hpdetails": "",
+      "items": {
+        "KfnBvdwtxJAolRiZ": {
+          "name": "Healing Hands",
+          "description": "<p>When the priest casts @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Heal}, they roll d10s instead of d8s.</p>"
+        },
+        "pGCZfWgN4raVGlQO": {
+          "name": "Steady Spellcasting",
+          "description": "<p>If another creature's reaction would disrupt the priest's spellcasting action, the priest attempts a @Check[flat|dc:15]. If the priest succeeds, their action isn't disrupted.</p>"
+        }
+      }
+    },
+    "Undead Murder": {
+      "name": "Undead Murder",
+      "description": "",
+      "hpdetails": "void healing",
+      "items": {
+        "kbd7HpklCW03B3hP": {
+          "name": "Mindless Grudge",
+          "description": "<p><strong>Trigger</strong> A creature deals damage to the murder</p><hr /><p><strong>Effect</strong> The murder begrudges the triggering creature. The murder's swarming hunger deals 3 extra damage to that creature. The effect ends if the murder begrudges a different creature.</p>"
+        },
+        "FnPDbwY2HGaFwTxK": {
+          "name": "Swarming Hunger",
+          "description": "<p>The murder's beaks and talons deal @Damage[2d6[piercing]] damage to each enemy in the swarm's space (@Check[reflex|dc:20|basic] save). A creature that critically fails its save is @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} for [[/gmr 1d4 #rounds]]{1d4 rounds} as the murder focuses its attacks on clawing out the creature's eyes.</p>"
+        }
+      }
+    }
+  },
+  "mapping": {
+    "name": "name",
+    "description": "system.details.publicNotes",
+    "gm": "system.details.privateNotes",
+    "blurb": "system.details.blurb",
+    "cadetails": "system.attributes.ac.details",
+    "hpdetails": "system.attributes.hp.details",
+    "languages": "system.details.languages.details",
+    "perception": "system.perception.details",
+    "saves": "system.attributes.allSaves.value",
+    "speeds": "system.attributes.speed.details",
+    "desc": "system.details.description",
+    "disable": "system.details.disable",
+    "reset": "system.details.reset",
+    "routine": "system.details.routine",
+    "stealth": "system.attributes.stealth.details",
+    "target": "system.target.value",
+    "items": {
+      "path": "items",
+      "converter": "translateActorItems"
+    },
+    "AcrobaticsVariants": {
+      "path": "system.skills.acrobatics.special",
+      "converter": "translateSkillVariants"
+    },
+    "ArcanaVariants": {
+      "path": "system.skills.arcana.special",
+      "converter": "translateSkillVariants"
+    },
+    "AthleticsVariants": {
+      "path": "system.skills.athletics.special",
+      "converter": "translateSkillVariants"
+    },
+    "CraftingVariants": {
+      "path": "system.skills.crafting.special",
+      "converter": "translateSkillVariants"
+    },
+    "DeceptionVariants": {
+      "path": "system.skills.deception.special",
+      "converter": "translateSkillVariants"
+    },
+    "DiplomacyVariants": {
+      "path": "system.skills.diplomacy.special",
+      "converter": "translateSkillVariants"
+    },
+    "IntimidationVariants": {
+      "path": "system.skills.intimidation.special",
+      "converter": "translateSkillVariants"
+    },
+    "MedicineVariants": {
+      "path": "system.skills.medicine.special",
+      "converter": "translateSkillVariants"
+    },
+    "NatureVariants": {
+      "path": "system.skills.nature.special",
+      "converter": "translateSkillVariants"
+    },
+    "OccultismVariants": {
+      "path": "system.skills.occultism.special",
+      "converter": "translateSkillVariants"
+    },
+    "PerformanceVariants": {
+      "path": "system.skills.performance.special",
+      "converter": "translateSkillVariants"
+    },
+    "ReligionVariants": {
+      "path": "system.skills.religion.special",
+      "converter": "translateSkillVariants"
+    },
+    "SocietyVariants": {
+      "path": "system.skills.society.special",
+      "converter": "translateSkillVariants"
+    },
+    "StealthVariants": {
+      "path": "system.skills.stealth.special",
+      "converter": "translateSkillVariants"
+    },
+    "SurvivalVariants": {
+      "path": "system.skills.survival.special",
+      "converter": "translateSkillVariants"
+    },
+    "ThieveryVariants": {
+      "path": "system.skills.thievery.special",
+      "converter": "translateSkillVariants"
+    }
+  }
+}

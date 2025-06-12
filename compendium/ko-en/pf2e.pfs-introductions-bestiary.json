@@ -1,0 +1,187 @@
+{
+  "label": "Introductions",
+  "entries": {
+    "Ghoul (PFS Intro 2)": {
+      "name": "구울 (PFS 소개 2) (Ghoul (PFS Intro 2))",
+      "description": "<p>구울은 묘지를 떠돌며 시체를 먹는 탐욕스러운 언데드입니다. </p>\n<hr />\n<p>외로운 묘지나 폐허가 된 지하실과 같은 불길한 장소에서 구울로 알려진 육식을 하는 언데드보다 더 흔하게 볼 수 있는 생물은 거의 없습니다. </p>",
+      "hpdetails": "공허 치유",
+      "items": {
+        "6fGqptenx9qEegwS": {
+          "name": "공허 치유 (Void Healing)",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>"
+        },
+        "Ev6vuAb8rqAKu6ss": {
+          "name": "고기 섭취 (Consume Flesh)",
+          "description": "<p><strong>요구 사항</strong> 구울은 지난 1시간 이내에 죽은 생물의 시체에 인접해 있습니다. 체력을 회복합니다.</p>\n<p>주어진 시체에서 체력을 회복할 수 있는 횟수는 한 번뿐입니다."
+        },
+        "TwoYirIOl1z1WbOZ": {
+          "name": "구울의 열병 (Ghoul Fever)",
+          "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:15]</p>\n<hr />\n<p><strong>1단계</strong> 아무런 영향도 받지 않는 보균자 (1일)</p>\n<p><strong>2단계</strong> @Damage[3d8[void]] 피해를 받고 모든 치유로 체력의 절반을 회복합니다 (1일)</p>\n<p><strong>3단계 2단계와 동일 (1일)</p>\n<p><strong>4단계 @피해[3d8[무효]] 피해 및 치유로 인한 이득 없음 (1일)</p>\n<p><strong>5단계</strong> 4단계와 동일 (1일)</p>\n<p><strong>6단계</strong> 사망, 다음 자정에 @UUID[Compendium.pf2e.pathfinder-bestiary.Actor.LHHgGSs0ELCR4CYK]{구울}로 부활.</p>"
+        },
+        "rLNDBZSXuC3QhpxX": {
+          "name": "마비 (Paralysis)",
+          "description": "<p>구울의 공격을 받은 모든 살아있는 비엘프 생물은 @Check[fortitude|dc:15] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비} 상태가 됩니다. 각 턴이 끝날 때마다 새로운 내성 체크를 시도할 수 있으며, 이러한 내성 체크에 성공할 때마다 DC는 1씩 누적적으로 감소합니다."
+        },
+        "OVvzGRkQ4BEgGtYw": {
+          "name": "빠른 도약 (Swift Leap)",
+          "description": "<p>구울은 자신의 속도의 절반까지 점프합니다. 이 이동은 반응을 유발하지 않습니다."
+        }
+      }
+    },
+    "Sun-Scorched Shadow Drake": {
+      "name": "태양에 그을린 그림자 드레이크 (Sun-Scorched Shadow Drake)",
+      "description": "<p>섀도우 드레이크는 일반적으로 그 종족 중 가장 작고 가장 힘이 약한 종입니다. 대부분은 집 고양이만큼 크고 길며, 숯색 비늘과 그림자처럼 반투명한 막질 날개를 가지고 있습니다. 빛나는 물건에 끌리는 이들은 속임수, 팀워크, 심지어는 초보적인 함정을 사용하여 부당하게 얻은 물건을 빼앗아 달아날 기회를 만듭니다. 섀도우 드레이크는 드레이크와 드래곤의 일반적인 특성과는 달리, 섀도우 드래곤에 대해 특별한 매력과 존경심을 가지고 있습니다.",
+      "hpdetails": "",
+      "items": {
+        "hg3lMJ6qrkw8WpZ3": {
+          "name": "빛에 대한 실명 (Light Blindness)",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.LightBlindness]</p>"
+        },
+        "QNy9Hrx2ib5tkQKt": {
+          "name": "그림자 혼합 (Shadow Blend)",
+          "description": "<p>섀도우 드레이크의 형태는 반사적으로 주변의 그림자와 혼합되어 변합니다. 섀도우 드레이크는 매 라운드마다 추가 반응을 얻지만, 이 반응은 섀도우 회피에만 사용할 수 있습니다."
+        },
+        "0VNX7MbrCqRSKYkE": {
+          "name": "섀도우 회피 (Shadow Evade)",
+          "description": "<p><strong>트리거</strong> 어두운 빛이 비치는 영역에 있는 섀도우 드레이크를 생물이 공격합니다</p>\n<hr />\n<p><strong>효과</strong> 섀도우 드레이크는 자신의 위치를 더욱 모호하게 만듭니다. 공격자는 그림자 드레이크에게 영향을 미치기 위해 @Check[flat|dc:11] 체크에 성공해야 합니다. 마치 드레이크가 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden}인 것처럼 트리거 공격에 대한 반응입니다."
+        },
+        "wnZi8QCOMG86Db4l": {
+          "name": "드래곤의 광란 (Draconic Frenzy)",
+          "description": "<p>그림자 드레이크는 한 번의 턱 공격과 두 번의 꼬리 공격을 임의의 순서로 수행합니다."
+        },
+        "usIKpszaYrCWfN8r": {
+          "name": "그림자 숨결 (Shadow Breath)",
+          "description": "<p>그림자 드레이크는 검은 액체 덩어리를 뱉어내어 차가운 검은 그림자 구름으로 폭발합니다. 이 공격의 사거리는 40피트이며, 반경 5피트 범위에서 폭발합니다. 폭발 범위 내에 있는 생물은 @Damage[2d6[cold]]의 피해를 받습니다 (@Check[reflex|dc:16|basic] 내성). 그림자의 폭발은 횃불, 랜턴 또는 그보다 작은 크기의 평범한 광원을 소멸시키고, +8의 무효화 수정자로 마법의 빛을 무효화하려고 시도합니다. </p>\n<p>그림자 드레이크는 [[/gmr 1d6]] 라운드 동안 그림자 숨결을 다시 사용할 수 없습니다. </p>"
+        },
+        "5IixHzakyftZgS0g": {
+          "name": "속도 급증 (Speed Surge)",
+          "description": "<p><strong>빈도</strong> 하루에 세 번</p>\n<hr />\n<p><strong>효과</strong> 그림자 드레이크가 두 번의 스트라이드 또는 비행 능력을 사용합니다."
+        }
+      }
+    },
+    "Rain In Cloudy Day": {
+      "name": "흐린 날의 비 (Rain In Cloudy Day)",
+      "description": "",
+      "hpdetails": "",
+      "items": {
+        "PSd8ZUnIEeTZZ3Qc": {
+          "name": "초록빛 폭발 (Verdant Burst)",
+          "description": "<p>흐린 날의 비가 죽으면, 원초적인 에너지가 그의 몸에서 폭발하여 @Damage[2d8[치유]] 체력을 @Template[emanation|distance:30] 내의 모든 식물 생물에게 회복시킵니다. 이 지역은 곰팡이로 가득 차게 되어, 어려운 지형이 됩니다. 이 지형이 이 곰팡이가 살기 어려운 환경인 경우, 24시간 후에 시들어 죽습니다."
+        },
+        "f4Bxn2vuVItRYQrZ": {
+          "name": "형태 변화 (Change Shape)",
+          "description": "<p>구름 속의 비는 작은 거대 버섯이나 버섯 군락으로 변신합니다. 이 능력은 @UUID[Compendium.pf2e.spells-srd.Item.dileJ0Yxqg76LMvu]{식물과의 일체감}의 효과를 사용합니다.</p>"
+        },
+        "Ln8ZtQy8JZzqvbgp": {
+          "name": "포자 구름 (Spore Cloud)",
+          "description": "<p>Rain in Cloudy Day는 @Template[emanation|distance:15] 범위 내에 있는 곰팡이가 아닌 생물들의 눈과 목을 자극하는 포자 구름을 방출합니다. 각 생물은 @Check[fortitude|dc:16] 내성 체크에 성공하지 않으면 @Damage[1[persistent,poison]]의 피해를 입습니다. 지속적인 피해가 지속되는 동안 생물의 시야가 감소하고 20피트(대실패 시 10피트) 이내에서만 볼 수 있습니다. </p>"
+        },
+        "Qo6Zya98KMBBIXlg": {
+          "name": "포자 (Spores)",
+          "description": "<p>흐린 날의 비의 포자 포드 공격으로 피해를 입은 생물은 자신의 포자 구름 능력과 동일한 DC 및 효과로 내성 굴림을 시도해야 합니다."
+        }
+      }
+    },
+    "Swamp Ooze": {
+      "name": "늪 우즈 (Swamp Ooze)",
+      "description": "<p>이 무형의 하수 및 기타 쓰레기 덩어리는 크고 작은 도시 아래의 더러운 배수관을 통해 이동합니다. </p>\n<hr />\n<p>슬라임, 곰팡이 및 기타 우즈는 습한 던전과 그늘진 숲에서 볼 수 있습니다. 반드시 악한 것은 아니지만, 일부는 거대한 크기로 성장하고 만족할 줄 모르는 식욕을 보입니다.",
+      "hpdetails": "",
+      "items": {
+        "VwrlDdZczBGO5Ps4": {
+          "name": "움직임 감지 60 피트 (Motion Sense 60 feet)",
+          "description": "<p>늪 우즈는 진동과 공기의 움직임을 통해 주변의 움직임을 감지할 수 있습니다."
+        },
+        "mdqK7RuSjtezVyS8": {
+          "name": "늪의 파도 (Swamp Wave)",
+          "description": "<p><strong>빈도</strong> 1분에 한 번</p>\n<hr />\n<p><strong>효과</strong> 늪 우즈는 날카로운 파편으로 가득 찬 늪의 진흙을 @Template[emanation|distance:20] 범위 내의 모든 생물에게 뿌립니다. 이 영역에 있는 모든 생물은 @Check[reflex|dc:17|name:Filth Wave|traits:damaging-effect] 내성 체크에 성공하지 않으면 @Damage[1d4[piercing]] 피해를 받고 1분 동안 속도가 -10피트 감소합니다 (대실패 시, 생물은 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} 상태가 됩니다).</p>\n<p>생물은 상호작용 행동을 사용해 누군가를 닦아낼 수 있으며, 각 행동마다 속도 페널티를 5피트씩 감소시킵니다.</p>"
+        }
+      }
+    }
+  },
+  "mapping": {
+    "name": "name",
+    "description": "system.details.publicNotes",
+    "gm": "system.details.privateNotes",
+    "blurb": "system.details.blurb",
+    "cadetails": "system.attributes.ac.details",
+    "hpdetails": "system.attributes.hp.details",
+    "languages": "system.details.languages.details",
+    "perception": "system.perception.details",
+    "saves": "system.attributes.allSaves.value",
+    "speeds": "system.attributes.speed.details",
+    "desc": "system.details.description",
+    "disable": "system.details.disable",
+    "reset": "system.details.reset",
+    "routine": "system.details.routine",
+    "stealth": "system.attributes.stealth.details",
+    "target": "system.target.value",
+    "items": {
+      "path": "items",
+      "converter": "translateActorItems"
+    },
+    "AcrobaticsVariants": {
+      "path": "system.skills.acrobatics.special",
+      "converter": "translateSkillVariants"
+    },
+    "ArcanaVariants": {
+      "path": "system.skills.arcana.special",
+      "converter": "translateSkillVariants"
+    },
+    "AthleticsVariants": {
+      "path": "system.skills.athletics.special",
+      "converter": "translateSkillVariants"
+    },
+    "CraftingVariants": {
+      "path": "system.skills.crafting.special",
+      "converter": "translateSkillVariants"
+    },
+    "DeceptionVariants": {
+      "path": "system.skills.deception.special",
+      "converter": "translateSkillVariants"
+    },
+    "DiplomacyVariants": {
+      "path": "system.skills.diplomacy.special",
+      "converter": "translateSkillVariants"
+    },
+    "IntimidationVariants": {
+      "path": "system.skills.intimidation.special",
+      "converter": "translateSkillVariants"
+    },
+    "MedicineVariants": {
+      "path": "system.skills.medicine.special",
+      "converter": "translateSkillVariants"
+    },
+    "NatureVariants": {
+      "path": "system.skills.nature.special",
+      "converter": "translateSkillVariants"
+    },
+    "OccultismVariants": {
+      "path": "system.skills.occultism.special",
+      "converter": "translateSkillVariants"
+    },
+    "PerformanceVariants": {
+      "path": "system.skills.performance.special",
+      "converter": "translateSkillVariants"
+    },
+    "ReligionVariants": {
+      "path": "system.skills.religion.special",
+      "converter": "translateSkillVariants"
+    },
+    "SocietyVariants": {
+      "path": "system.skills.society.special",
+      "converter": "translateSkillVariants"
+    },
+    "StealthVariants": {
+      "path": "system.skills.stealth.special",
+      "converter": "translateSkillVariants"
+    },
+    "SurvivalVariants": {
+      "path": "system.skills.survival.special",
+      "converter": "translateSkillVariants"
+    },
+    "ThieveryVariants": {
+      "path": "system.skills.thievery.special",
+      "converter": "translateSkillVariants"
+    }
+  }
+}

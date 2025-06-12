@@ -1,0 +1,46 @@
+{
+  "label": "PF2e Macros",
+  "folders": {},
+  "entries": {
+    "Perception for Selected Tokens": {
+      "name": "Perception for Selected Tokens",
+      "command": "game.pf2e.gm.perceptionForSelected(event);"
+    },
+    "Rest for the Night": {
+      "name": "Rest for the Night",
+      "command": "game.pf2e.actions.restForTheNight({ actors: [game.user.character ?? canvas.tokens.controlled.map((t) => t.actor)].flat().filter((a) => a?.type === \"character\") })"
+    },
+    "Treat Wounds": {
+      "name": "Treat Wounds",
+      "command": "game.pf2e.actions.treatWounds({ event, actors: [token?.actor ?? actor ?? game.user.character].filter((actor) => actor) })"
+    },
+    "XP": {
+      "name": "XP",
+      "command": "game.pf2e.gm.xpFromEncounter();"
+    },
+    "Travel Duration": {
+      "name": "Travel Duration",
+      "command": "const tokens = canvas.tokens.controlled;\nif (tokens.length === 0) {\n    ui.notifications.error(`You must select at least one pc token`);\n} else {\n    game.pf2e.gm.launchTravelSheet(tokens.map((p) => p.actor));\n}"
+    },
+    "Take a Breather": {
+      "name": "Take a Breather",
+      "command": "game.pf2e.actions.takeABreather();"
+    },
+    "Generate Check Prompt": {
+      "name": "Generate Check Prompt",
+      "command": "game.pf2e.gm.checkPrompt();"
+    },
+    "Earn Income": {
+      "name": "Earn Income",
+      "command": "game.pf2e.actions.earnIncome(actor ?? game.user.character, event);"
+    },
+    "Toggle Compendium Browser": {
+      "name": "Toggle Compendium Browser",
+      "command": "game.pf2e.compendiumBrowser.rendered ? game.pf2e.compendiumBrowser.close() : game.pf2e.compendiumBrowser.render(true);"
+    },
+    "Stealth for Selected Tokens": {
+      "name": "Stealth for Selected Tokens",
+      "command": "game.pf2e.gm.stealthForSelected(event);"
+    }
+  }
+}

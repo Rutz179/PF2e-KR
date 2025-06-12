@@ -1,0 +1,455 @@
+{
+  "label": "Malevolence",
+  "entries": {
+    "Tanglebones": {
+      "name": "탱글본스",
+      "description": "<p>때로는 살인자가 수많은 희생자를 집단 무덤에 묻을 때, 살해된 자들의 복수심에 찬 영혼들이 마찬가지로 얽혀들 수 있습니다. 이 영혼들이 얽힌 상태에서 풀리지 못하면, 대신 그들의 육체적 유해로 돌아가 한 덩어리의 끔찍한 뼈와 검은 타르 같은 진흙으로 융합되어 '탱글본스'가 됩니다.</p>\n<p>한 끔찍한 이야기에 따르면, 법적 허점을 이용해 자신의 재산이 이혼한 딸에게 돌아갈 것이라는 사실을 알게 된 한 잔인한 노파가 있었습니다. 그녀는 13명의 하인을 살해하고 그들의 시신을 집 지하실에 묻은 후, 정해진 시간에 저택 열쇠를 넘겨주는 친절한 어머니 행세를 했습니다. 어느 날 밤, 노부인의 잔혹한 행위로 인해 부활한 얽힌 뼈들이 딸과 그녀의 가족을 살해했습니다. 당국이 이 사건을 알게 되었을 때, 노부인은 이미 나라를 떠나 신분을 바꾸고 (이야기에 따르면) 시간을 낭비하지 않고 재산을 재건하여 이번에는 여왕이 되었습니다.",
+      "hpdetails": "공허 치유",
+      "items": {
+        "qBfZKEJPVngf5Zs4": {
+          "name": "엑토플라즘 필라멘트",
+          "description": "<p><strong>트리거</strong> 얽힌 뼈의 도달 범위 내에 있는 생물이 조작 특성을 가진 행동이나 이동 행동을 사용하거나, 이동 행동 중에 칸을 떠납니다. </p>\n<hr />\n<p><strong>효과</strong> 검고 기름진 엑토플라즘의 실이 트리거를 발동한 생물을 공격하여 @Damage[(2d8+8)[베기]] 의 피해를 입힙니다 (@Check[reflex|dc:25|basic] 내성). 필라멘트가 피해를 입힌 경우, 얽힌 뼈는 [[/r 2d8 #임시 체력]]{2d8 임시 체력}을 얻습니다."
+        },
+        "WarDVWwMegYTdbUM": {
+          "name": "섬뜩한 유연성",
+          "description": "<p>탱글본스는 질량을 이동하고 조정하여 더 작은 공간에 들어갈 수 있으며, 중간 크기의 생물처럼 좁은 공간을 통과할 수 있습니다. 압축 상태에서는 최대 속도로 이동할 수 있습니다.</p>"
+        },
+        "iHIW94X3Fnp31s1a": {
+          "name": "공허 치유",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>"
+        },
+        "7GZSmH33lacIjGRG": {
+          "name": "씹기",
+          "description": "<p><strong>요구 사항</strong> 얽힌 뼈는 적을 잡았습니다</p>\n<hr />\n<p><strong>효과</strong> 얽힌 뼈는 잡은 대상을 여러 개의 해골로 갉아먹고 씹어 @Damage[(2d6+8)[piercing]]의 피해를 입힙니다 (@Check[fortitude|dc:23|basic] 내성). 대실패 시, 이 생물은 고통으로 인해 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} 상태가 됩니다."
+        },
+        "uWMjBNMf2i8vkJza": {
+          "name": "스켈레탈 스톰",
+          "description": "<p>탱글본은 도달 가능한 모든 생물에게 단일 발톱 공격을 합니다. 이 공격은 탱글본의 다중 공격 페널티에 포함되지만, 탱글본이 모든 공격을 완료할 때까지 다중 공격 페널티는 증가하지 않습니다."
+        },
+        "dvswlRsKg8EGBzsU": {
+          "name": "얽힌 뼈",
+          "description": "<p>다음 행동까지, 얽힌 뼈는 얽힌 뼈 더미로 보입니다. 이 얽힌 뼈는 속임수 체크와 DC에 대해 자동으로 35의 결과를 얻으며, 끔찍하지만 무해한 엉망진창으로 보입니다."
+        },
+        "J7SGCpmm8PUjDGsg": {
+          "name": "잡기",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]"
+        }
+      }
+    },
+    "Ixirizmid": {
+      "name": "익시리즈미드",
+      "description": "",
+      "hpdetails": "",
+      "items": {
+        "4a4AwC6MVxafM5dq": {
+          "name": "진동 감지 (정밀) 30 피트",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Tremorsense]</p>"
+        },
+        "OpIusm2cr2cYc7x5": {
+          "name": "영리한 변장",
+          "description": "<p>Ixirizmid는 Deception을 사용하여 중간 크기의 인간형 생물을 모방할 수 있지만, 이러한 변장을 만드는 데 1시간이 소요됩니다. 이 능력으로 특정 개인을 모방할 수는 없습니다.</p>"
+        },
+        "m3a767DfQxokefnk": {
+          "name": "호흡 없음",
+          "description": "<p>Ixirizmid는 호흡하지 않으며, 호흡을 요구하는 효과(예: 흡입 독)에 면역입니다.</p>"
+        },
+        "FeDt6jCafBdwS5tk": {
+          "name": "내장 파내기",
+          "description": "<p>Ixirizmid는 잡거나 제압한 생물, 또는 다른 이유로 움직이지 못하는 생물에게 빠르고 고통스러운 수술을 행합니다. 그들은 대상의 체력 DC에 대해 @Check[의학|방어:인내력] 체크를 굴립니다. 결과에 상관없이, 대상은 24시간 동안 Eviscerate에 일시적으로 면역이 됩니다. 의 피해를 받고, 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1}이 되고, @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1}이 됩니다. @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 1} 또는 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1} (미고가 선택) 24시간 동안 지속됩니다.</p>\n<p><strong>실패</strong> 대상은 @Damage[3d6[베기]]의 피해를 받습니다. </p>\n<p><strong>대실패</strong> 대상은 피해를 받지 않습니다. </p>"
+        },
+        "uffOMQdKncfhcXF7": {
+          "name": "암습",
+          "description": "<p>Ixirizmid는 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 생물에게 추가 1d6의 정밀 피해를 입힙니다."
+        },
+        "pEzlMP5bZb18T57c": {
+          "name": "잡기",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
+        }
+      }
+    },
+    "Undead Brain Collector": {
+      "name": "언데드 뇌 수집가",
+      "description": "",
+      "hpdetails": "공격 치유",
+      "items": {
+        "SqGN2C6WwW664mJx": {
+          "name": "유령 뇌 흡수",
+          "description": "<p><strong>트리거</strong> 언데드 뇌 수집가는 브레인래쉬를 사용한 후 최소 1개의 유령 뇌를 소유합니다</p>\n<hr />\n<p><strong>효과</strong> 언데드 뇌 수집가는 [[/r 1d4 #유령 뇌]]{1d4} 의 팬텀 브레인을 흡수하고, 흡수한 브레인마다 [[/r 1d8 #임시 체력]]{1d8 임시 체력}을 얻습니다."
+        },
+        "wsEjPohcBZ0DGWS5": {
+          "name": "모든 마법 내성에 +1",
+          "description": ""
+        },
+        "zDmN2GNIClzY8q9J": {
+          "name": "공허 치유",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>"
+        },
+        "CDTtHeFOvz7H1Jqo": {
+          "name": "브레인래쉬",
+          "description": "<p>언데드 브레인 콜렉터는 터진 뇌의 물집에서 뒤틀린 엑토플라즘을 분출합니다. 이 엑토플라즘 가닥은 30피트 내의 모든 살아있는 대상을 공격합니다. 이 영역에 있는 대상은 @Check[will|dc:25] 내성 체크를 시도해야 합니다. </p>\n<p>언데드 뇌 수집가가 이 능력을 사용한 후, 일곱 개의 유령 뇌가 뇌 물집이 있던 자리에 빛나며 반짝입니다. 일곱 개의 유령 뇌가 모두 흡수될 때까지 뇌의 반격을 다시 사용할 수 없습니다. </p>\n<hr />\n<p><strong>대성공</strong> 생물은 영향을 받지 않습니다.</p>\n<p><strong>성공</strong> 생물은 @Damage[4d6[정신]]의 피해를 받습니다.</p>\n<p><strong>대실패</strong> 생물은 @Damage[8d6[정신]]의 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{혼란} 상태가 됩니다. </p>"
+        },
+        "MMSZxMrXIdeCFlFq": {
+          "name": "마음을 썩게 하는 독",
+          "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:25|basic]</p>\n<p><strong>최대 지속 시간</strong> 6 라운드</p>\n<hr />\n<p><strong>1단계</strong> @Damage[1d6[void]] 및 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1} (1 라운드)</p>\n<p><strong>2단계</strong> @Damage[1d6[void]], 혼미 1, @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1} (1 라운드)</p>\n<p><strong>3단계</strong> @피해[2d6[void]], @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 2}, 느려짐 1 (1 라운드)</p>"
+        }
+      }
+    },
+    "Algea": {
+      "name": "알지아",
+      "description": "<p>알지아는 다른 존재, 특히 다른 세계의 힘을 다루지만 공식적으로 자신의 영혼을 바치지 않은 마법사들에게 빼앗길 위험에 처한 영혼을 보호하고 때로는 되찾기도 합니다.",
+      "hpdetails": "",
+      "items": {
+        "Bu3EUUlbn17nZdKq": {
+          "name": "생명 감지 60 피트",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Lifesense]</p>"
+        },
+        "zaePCGVy6RdZ31CZ": {
+          "name": "마법 감지",
+          "description": "<p>알제아는 관찰할 수 있는 생물이나 물체에 마법 오라를 볼 수 있지만, 시야에서 숨겨진 생물이나 물체의 마법 오라는 볼 수 없습니다. 생물을 대상으로 하는 모든 마법의 학파를 학습합니다.</p>"
+        },
+        "gOTq88NERumC1U4Q": {
+          "name": "모든 마법 내성 +1",
+          "description": ""
+        },
+        "iAp1BgBeTFhgvNEP": {
+          "name": "슬픔의 오라",
+          "description": "<p>30 피트. 오라에 들어간 생물은 @Check[will|dc:27] 내성 굴림을 시도해야 합니다. 언데드는 이 내성 굴림에 -2의 상황 페널티를 받습니다. 그러면 생물은 1시간 동안 슬픔의 오라에 일시적으로 면역이 됩니다.</p>\n<p><strong>성공</strong> 생물은 영향을 받지 않습니다. </p>\n<p><strong>실패</strong> 1 라운드 동안, 생물은 반응을 사용할 수 없으며, 그 턴 동안 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1} 상태가 되어 통제할 수 없이 흐느끼게 됩니다.</p>\n<p><strong>대실패 실패와 동일하지만, 생물이 오라에 남아 있는 동안 효과는 1분 동안 지속됩니다."
+        },
+        "idd2T28Lmct79QDu": {
+          "name": "마법 흡수",
+          "description": "<p>생물이 광란의 부리에 대한 내성을 실패할 때마다, 알게아는 그 생물에게 적용된 주문 효과를 무효화하려고 시도합니다 (6레벨, 무효화 체크 +22). 알게아는 각 생물에 대해 무효화할 효과를 선택할 수 있습니다."
+        },
+        "fmcgopzl3nvrBJkz": {
+          "name": "광란의 부리",
+          "description": "<p>떼의 공간에 있는 모든 적은 @Damage[5d6[피어싱]|traits:item:rune:property:ghost-touch]의 피해를 받고 (@Check[reflex|dc:30|basic]) 마법 흡수 효과에 노출됩니다. 이 피해는 무형 생물에게 유령의 손길 속성 룬의 효과로 적용됩니다."
+        },
+        "dCra4dM2DaOP8GAK": {
+          "name": "소울 케이지",
+          "description": "<p>광란의 부리에 피해를 입은 무형 언데드는 @Check[will|dc:30] 내성 체크를 시도해야 합니다.</p>\n<p><strong>성공</strong> 언데드는 1 라운드 동안 속도에 -10 피트의 상태 페널티를 받습니다. 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} 상태가 됩니다. 하지만 탈출을 시도할 수 있습니다 (DC 30).</p>\n<p><strong>대실패</strong> 언데드는 1 라운드 동안 제압됩니다. 알게아는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} 생물에게 평면 이동을 시도할 수 있지만, 그 생물이 원하지 않는 경우에도 시도할 수 있습니다. 하지만 원하지 않는 생물은 @UUID[Compendium.pf2e.spells-srd.Item.5bTt2CvYHPvaR7QQ]{Interplanar Teleport}에 대한 의지 내성 검사를 시도할 수 있습니다. 이 검사에 성공하면, 알게아는 평면 이동을 하고 무형 생물을 남겨둔 채 사라집니다. 그러면 무형 생물은 더 이상 제지되지 않습니다."
+        }
+      }
+    },
+    "Anitoli Nostraema": {
+      "name": "아니톨리 노스트라에마",
+      "description": "",
+      "hpdetails": "",
+      "items": {
+        "1ubiMFx1X0bEvumW": {
+          "name": "공허의 치유",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>"
+        },
+        "C6cMjmVitcFqX2HU": {
+          "name": "속삭이는 절망",
+          "description": "<p><strong>트리거</strong> 활성 감정 효과가 있는 생물이 다락방 속삭임의 흐느끼는 기운에 들어간다</p>\n<hr />\n<p><strong>효과</strong> 다락방 속삭임은 +13의 무효화 수정자로 감정 효과를 무효화하려고 시도한다."
+        },
+        "NorEqWsgAqUEHrv0": {
+          "name": "흐느끼는 기운",
+          "description": "<p>10 피트. 아니톨리 노스트레아마는 도난당한 목소리로 된 타피스트리로 자신을 감싼다. 오라에 들어오거나 턴을 시작하는 모든 생명체는 @Check[will|dc:21] 내성 체크에 성공하지 않으면, 불안하고 쓰라린 흐느끼는 소리에 정신이 혼미해지고, 오라에 남아 있는 동안 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1} 상태가 됩니다. 저축에 성공한 생물은 1시간 동안 일시적으로 면역됩니다.</p>\n<p>아니톨리 노스트레아마는 단일 무료 행동으로 오라를 활성화하거나 비활성화할 수 있으며, 이 행동은 집중 특성을 가지고 있습니다.</p>"
+        },
+        "F58s1zGhxWZhyyU7": {
+          "name": "숨을 훔치기",
+          "description": "<p>Anitoli Nostreaema는 살아있는 생물들의 숨을 빨아들여 그들의 힘을 약화시킵니다. 턱 공격에 맞은 살아있는 생물은 @Check[fortitude|dc:24] 내성 체크를 시도해야 합니다.</p>\n<hr />\n<p><strong>대성공</strong> 대상은 영향을 받지 않습니다.</p>\n<p><strong>실패</strong> 대상은 24시간 동안 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화 1} 상태가 되고, @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{피로} 상태가 됩니다.</p>\n<p><strong>대실패</strong> 대상은 24시간 동안 약화 1 상태가 되고, 피로 상태가 되며, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 상실} 상태가 됩니다."
+        },
+        "FbJ6MpdH1KNP6DEP": {
+          "name": "목소리 훔치기",
+          "description": "<p>아나톨리 노스트라에마가 뼈로 된 손으로 살아있는 생물을 공격하면, 피해자의 목소리를 자신의 오라로 끌어들이려고 합니다. 피해자는 @Check[will|dc:24] 내성 체크를 시도해야 합니다. 청각 특성을 사용하는 행동을 시도할 때마다 @Check[flat|dc:5] 체크에 성공하지 않으면 행동이 실패합니다. 이 시간 동안 다락방 속삭임은 대상의 목소리를 완벽하게 흉내낼 수 있으며, 대상은 다락방 속삭임의 흐느끼는 기운에 대한 내성 굴림에 -2의 상황 페널티를 받습니다."
+        }
+      }
+    },
+    "Haunted Nosoi": {
+      "name": "유령 노소이",
+      "description": "",
+      "hpdetails": "",
+      "items": {
+        "mj6SWij6O5cLmBul": {
+          "name": "생명 감지 60 피트",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Lifesense]</p>"
+        },
+        "WN5HCThXS1ilMtKI": {
+          "name": "진실의 말",
+          "description": "<p>유령 노소이는 심리포프의 언어인 레퀴안으로 말하지만, 모든 생물은 자신의 모국어로 그 말을 듣습니다.</p>"
+        },
+        "IbqmLczDaT9GKEuW": {
+          "name": "복수의 폭발",
+          "description": "<p><strong>발동 조건</strong> 유령 노소이가 파괴되거나, D5 영역에 있는 타락한 심리 펄프의 인접 칸으로 들어갑니다. 이 효과는 10 피트 내의 모든 생명체에게 @Damage[3d6[vitality]]의 피해를 치유합니다. D5 영역에서 발동된 경우, 복수의 폭발은 해당 영역에 있는 모든 타락한 심령의 안내자에게 @Damage[2d12[void]]의 피해를 입힙니다 (@Check[will|dc:18|basic] 내성).</p>"
+        }
+      }
+    },
+    "Nils Kelveken": {
+      "name": "Nils Kelveken",
+      "description": "",
+      "hpdetails": "공허 치유",
+      "items": {
+        "MmC60npHVmzvUVuO": {
+          "name": "공허 치유",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>"
+        },
+        "5RVQgrRnkm4C0Y2q": {
+          "name": "더 깊이 파기",
+          "description": "<p><strong>요구 사항</strong> Nils Kelveken이 이전 행동으로 핸드 드릴 공격으로 생물을 명중시켰습니다</p>\n<hr />\n<p><strong>효과</strong> Nils는 드릴을 잡고 비틀어 피해자를 더 깊게 뚫습니다. 그는 자동으로 @Damage[1d8[piercing]]의 피해를 입히고, 드릴로 찔린 생물은 @Check[fortitude|dc:22] 내성을 성공해야 추가 @Damage[1d6[bleed]]의 피해를 받지 않습니다 (대실패 시 @Damage[2d6[bleed]]의 피해).</p>"
+        },
+        "k5hfsPhHrFe43moo": {
+          "name": "네가 한 짓을 봤어!",
+          "description": "<p>Nils는 30 피트 이내의 목표물을 향해 자신의 속도로 달려가며, 접근하면서 “내가 네가 한 걸 봤어!”라고 소리칩니다. 목표물은 @Check[will|dc:22|name:I Seen What Ye Did!] 내성을 시도해야 합니다.</p>\n<hr />\n<p><strong>대성공</strong> 대상은 영향을 받지 않습니다.</p>\n<p><strong>실패</strong> 성공과 동일하지만, 대상은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 2} 상태가 됩니다.</p>\n<p><strong>대실패</strong> 대상은 도망치기만 할 수 있는 환상적인 악몽 상태에 빠지고, 시간이 느려지는 듯하지만, 아무리 빨리 도망치려 해도 Nils는 쉽게 따라잡을 수 있습니다. 대상은 다음 턴이 시작될 때 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 2} 상태가 되고, 다음 턴이 끝날 때까지 @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{도주} 상태가 됩니다."
+        }
+      }
+    },
+    "Esobok Ghoul": {
+      "name": "에소복 구울",
+      "description": "",
+      "hpdetails": "",
+      "items": {
+        "GqSUGGDq0PMDoaK4": {
+          "name": "생명 감지 60 피트",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Lifesense]</p>"
+        },
+        "JLT0Zn4WkF51Fz5B": {
+          "name": "공허의 치유",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>"
+        },
+        "IS7sAzIDvMgfptk8": {
+          "name": "육체 흡수",
+          "description": "<p><strong>요구 사항</strong> 에소복 구울은 지난 1시간 이내에 사망한 생물의 시체에 인접해 있습니다. 체력을 회복합니다.</p>\n<p>주어진 시체에서 체력을 회복할 수 있는 횟수는 한 번뿐입니다."
+        },
+        "iFqu2IfRpOfYJiI2": {
+          "name": "부패한 손길",
+          "description": "<p>에소복 구울의 공격은 살아있는 생물에게 @Damage[1d6[void]]의 피해를 입힙니다. 에소복 구울의 공격에 치명타를 입은 생물은 @Check[fortitude|dc:18] 내성 체크를 시도해야 합니다. 그렇지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 1} (@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 2} 대실패 시)로 변합니다."
+        },
+        "ewbuoRukTnN5HwAa": {
+          "name": "구울 열병",
+          "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:22]</p>\n<p><strong>1단계</strong> 아무런 영향도 받지 않는 보균자 (1일)</p>\n<p><strong>2단계</strong> @Damage[2d6[void]] 피해를 받고 모든 치유로 체력의 절반을 회복합니다 (1일)</p>\n<p><strong>3단계</strong> 2단계와 동일 (1일)</p>\n<p><strong>4단계</strong> @피해[2d6[공기]] 피해 및 치유로 인한 이득 없음 (1일)</p>\n<p><strong>5단계</strong> 4단계와 동일 (1일)</p>\n<p><strong>6단계</strong> 사망, 다음 자정에 구울로 부활합니다."
+        },
+        "i02LjkO2d05n1YxC": {
+          "name": "마비",
+          "description": "<p>구울의 공격을 받은 모든 살아있는 비엘프 생물은 @Check[fortitude|dc:22] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비} 상태가 됩니다.</p>\n<p>각 턴이 끝날 때마다 새로운 내성 체크를 시도할 수 있으며, 내성 체크에 성공할 때마다 DC는 1씩 감소합니다. </p>"
+        },
+        "iT8h3OAVXFRozXkw": {
+          "name": "도약",
+          "description": "<p>에소복 구울은 스트라이드를 한 다음 발톱으로 공격을 합니다. 이 행동을 숨은 상태에서 시작하면, 공격이 끝날 때까지 숨은 상태로 남아 있습니다. </p>"
+        }
+      }
+    },
+    "Ioseff Xarwin": {
+      "name": "이오세프 자르윈",
+      "description": "",
+      "hpdetails": "치유 무효, 회춘",
+      "items": {
+        "OPfyi9ivt0InaEXb": {
+          "name": "장소 바인딩",
+          "description": "<p>Ioseff Xarwin은 자신의 연구소에 장소 바인딩되어 있습니다."
+        },
+        "66dtKIUqfelqC7kk": {
+          "name": "반동",
+          "description": "<p>만약 캐릭터가 조작 특성을 가진 행동으로 풀비아의 반지를 요세프에게 강제로 건네면, 요세프는 @Check[will|dc:26] 내성 체크를 시도해야 합니다. 그 후 24시간 동안 요세프는 반동 효과에 면역이 됩니다.</p>\n<p><strong>성공</strong> Ioseff는 @Damage[4d6[정신]]의 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}이 됩니다.</p>\n<p><strong>실패</strong> Ioseff는 @Damage[8d6[정신]]의 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2}가 됩니다.</p>\n<p><strong>대실패 Ioseff는 @Damage[8d6[정신]]의 피해를 받고, 겁에 질린 2가 되고, @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{기절 3}이 됩니다."
+        },
+        "AlPbxguovoxPTMet": {
+          "name": "회춘",
+          "description": "<p>유령이 파괴되면, [[/br 2d4 #days]]{2d4 일} 이내에 그 유령이 묶여 있던 위치에 완전히 치유된 상태로 재구성됩니다. 유령은 그 존재의 이유를 누군가가 파악하고 영혼이 쉬지 못하게 하는 요소를 제거해야만 영구적으로 파괴될 수 있습니다. </p>\n<hr />\n<p>이오세프를 쉬게 하려면, 이오세프를 물리친 후, 그가 젊어지기 전에 다음 세 가지 조건을 충족해야 합니다.</li>\n<li>그의 아내와 아이들의 뇌가 뇌 수집가 동상에서 해방되어 그들의 영혼이 본야드로 이동할 수 있게 되었습니다. </li>\n<li>공허의 거울이 우주 묘지의 프레임에 다시 놓여졌습니다. </li>\n</ul>"
+        },
+        "M7sVspfHZSCGkPB3": {
+          "name": "수치",
+          "description": "<p>Ioseff는 Fulvia의 반지를 소지한 캐릭터에 대한 공격 굴림과 내성 굴림에 -1의 아이템 페널티를 받습니다. 이 페널티는 Fulvia의 반지를 착용한 캐릭터에 대해서는 -2로 두 배가 됩니다. 턴이 시작될 때, 풀비아의 반지를 소유한 캐릭터는 비밀 @Check[지각력|dc:20|특성:비밀] 체크를 시도할 수 있습니다. 성공하면, 풀비아의 반지를 유령에게 선물해야 한다는 분노로 인한 희미한 충동을 느낍니다."
+        },
+        "W6oYW5b8Ylon2YvG": {
+          "name": "공허의 치유",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>"
+        },
+        "oaQPnXy17nhfdQcU": {
+          "name": "반란 선동",
+          "description": "<p><strong>트리거</strong> Ioseff로부터 30피트 이내의 생물이 그의 주문 중 하나에 대한 내성 굴림에 실패합니다</p>\n<hr />\n<p><strong>효과</strong> Ioseff는 자신의 죽음의 고통을 자신의 주문의 마법에 주입합니다. 발동된 주문으로 인한 효과에 더해, 대상은 @Check[fortitude|dc:28|traits:disease] 내성 체크를 시도해야 합니다. 또는 1단계의 내부 반란에 걸립니다 (대실패 시 2단계로 진행).</p>\n<p><strong>내부 반란</strong> (질병); <strong>레벨 7</strong>.</p>\n<p>대상은 질병이 치료될 때까지 내부 반란으로 인한 서투른 상태에서 회복될 수 없습니다. </p>\n<p><strong>1단계</strong> @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1} (1일)</p>\n<p><strong>2단계</strong> @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 2} (1일)</p>\n<p><strong>3단계</strong> 서투른 2와 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} (1일)</p>\n<p><strong>4단계</strong> @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 3} 그리고 오프 가드 (1일)</p>\n<p><strong>5단계</strong> 사망, 그리고 대상의 시체가 수많은 파편으로 쪼개져 10피트 반경으로 퍼져 나간 후 사라지고, 피투성이의 해골만 남게 됩니다. "
+        },
+        "tq4v9Tm2A5wAIhYF": {
+          "name": "악의적인 소유",
+          "description": "<p>이오세프 자르윈은 인접한 육체적 생물을 점령하려 시도합니다. 이는 @UUID[Compendium.pf2e.spells-srd.Item.wU6hNzK8Yfqdmc8m]{Possession} 주문과 동일한 효과를 가집니다. 다만 이오세프 자르윈은 육체적 몸이 없기 때문에 해당 주문의 제한 사항에 영향을 받지 않습니다.</p>\n<p>대상은 @Check[will|dc:28|traits:controlling] 내성을 시도해야 합니다. </p>\n<hr />\n<p><strong>대성공</strong> 대상은 영향을 받지 않습니다. </p>\n<p><strong>성공</strong> 당신은 대상을 소유하지만 제어할 수는 없습니다. 주문이 지속되는 동안 대상의 몸에 타고 있습니다.</p>\n<p><strong>실패 당신은 대상의 몸에 타고 있지만 부분적으로만 통제할 수 있습니다. 당신은 더 이상 별도의 턴을 갖지 않으며, 대신 대상의 턴에 따라 행동할 수 있습니다. 대상은 자신의 턴이 시작될 때마다 또 다른 의지 저항을 시도합니다. 실패하면 그 턴 동안 당신은 @UUID[Compendium.pf2e.conditionitems.Item.9qGBRpbX9NEwtAAr]{Controlled}에 의해 제어됩니다. 성공하면 대상은 자신의 행동을 선택하고, 대실패하면 당신을 강제로 쫓아내고 주문이 종료됩니다.</p>\n<p><strong>대실패</strong> 당신은 대상을 완전히 지배하며, 대상은 당신이 인형처럼 조종하는 것을 지켜볼 수밖에 없습니다. 대상은 당신의 지배를 받습니다. </p>\n<p>풀비아의 반지를 소지한 캐릭터는 내성에 +4의 아이템 보너스를 받고, 굴림 결과보다 1단계 더 높은 내성 결과를 얻습니다. 이오세프가 풀비아의 반지를 착용한 캐릭터에게 이 능력을 사용하려고 하면, 반지 착용자의 은신 DC에 대해 지각 체크를 시도하여 반지를 제때 발견하고 시도를 피할 수 있습니다. 성공하면, 시도를 위해 사용한 두 가지 행동은 잃게 되지만, 그 이상의 효과는 피할 수 있습니다. 반지를 발견하지 못하고 반지 착용자를 소유하려고 시도하면, 반지 착용자는 의지 내성에서 자동으로 대성공을 얻고, Ioseff는 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{기절 3} 상태가 되며, 24시간 동안 악의적 소유를 다시 사용할 수 없습니다."
+        },
+        "6mMJCH3VP87wzthp": {
+          "name": "환상적 절단",
+          "description": "<p><strong>빈도</strong> 하루에 한 번</p>\n<hr />\n<p><strong>효과</strong> Ioseff는 왼쪽 팔의 절단면을 들어올리며, 흐르는 피가 유령 같은 손을 형성합니다. 그는 이 손을 사용하여 30피트 이내의 인간형 생물을 가리킵니다. 그 생물은 @Check[fortitude|dc:28|traits:necromancy,occult] 내성 체크를 시도해야 합니다. </p>\n<hr />\n<p><strong>대성공</strong> 생물은 왼쪽 손에 갑작스럽고 극심한 통증으로 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} 상태가 됩니다.</p>\n<p><strong>성공 대성공과 동일하지만, 그 생물은 @Damage[2d6[베기]]의 피해를 받고, 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1} 상태가 됩니다. 마치 왼손이 도끼로 잘린 듯한 느낌을 받기 때문입니다.</p>\n<p><strong>실패</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}가 되고, @Damage[5d6[slashing]] 의 피해를 받고, 1분 동안 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 2} 상태가 됩니다.</p>\n<p><strong>대실패</strong> PC는 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 3} 상태가 되고 @Damage[8d6[slashing],2d6[bleed]]{8d6 베기 피해와 2d6 출혈 피해} 를 입습니다. PC의 왼손이 떨어져 바닥에 떨어지고, 순식간에 뼈로 부패합니다. PC는 서투른 2이고 @UUID[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2]{부상 1}입니다. 이 부상 상태가 제거되자마자 PC의 손이 기적적으로 돌아오고 서투른 상태가 종료됩니다."
+        }
+      }
+    },
+    "Yianyin": {
+      "name": "Yianyin",
+      "description": "",
+      "hpdetails": "",
+      "items": {
+        "CZrdGP9D1n0eOI8A": {
+          "name": "텔레파시 120 피트",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Telepathy]</p>"
+        },
+        "Z1kI1lIR3yl4kS3A": {
+          "name": "생명 감지 60 피트",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Lifesense]</p>"
+        },
+        "Ljd9PLTy03qKXfqC": {
+          "name": "상시 주문",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ConstantSpells]</p>"
+        },
+        "Zy5jqqY9EMBjp2KN": {
+          "name": "모든 마법 내성에 +1",
+          "description": ""
+        },
+        "Ls9yE1H6FkT1OJYn": {
+          "name": "불안한 존재감",
+          "description": "<p>30 피트. 오라 내에서 턴을 시작하는 생물은 @Check[will|dc:22|basic] 내성 체크를 시도해야 합니다.</p>\n<p><strong>성공</strong> 생물의 공격 굴림에 1 라운드 동안 -1 상태 페널티가 적용됩니다. 이 외계 지능의 압도적인 존재감으로 인해 생물은 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1} 상태가 되어 공포에 떨며 떨게 됩니다.</p>\n<p><strong>대실패</strong> 실패와 동일하지만, 대신 생물은 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{기절 1} 상태가 되고, 그 빈 눈으로 지켜보는 존재의 이름을 알게 됩니다. 그 이름은 Tchekuth입니다."
+        },
+        "45tIfcu3EgUSitRf": {
+          "name": "Compel Condemned",
+          "description": "<p>Yianyin은 30 피트 이내의 생물에게 텔레파시로 접근하여 Yianyin이 키스할 수 있도록 강요합니다. 이는 Kiss of Death를 사용하기 위한 준비입니다. 대상은 @Check[will|dc:25] 내성 체크를 시도해야 합니다.<p><strong>성공</strong> 생물은 영향을 받지 않으며 24시간 동안 Compel Condemned에 일시적으로 면역이 됩니다.<p><strong>실패</strong> 생물은 명백한 위험을 피하면서 가능한 한 빨리 Yianyin에게 가까이 이동하기 위해 모든 행동을 사용해야 합니다. 강요받은 생물이 Yianyin에 인접해 있는 경우, 그 자리에 머물러 행동하지 않습니다. 생물이 피해를 받으면 효과는 종료되고 생물은 24시간 동안 Compel Condemned에 일시적으로 면역이 됩니다. 이 효과는 1 라운드 동안 지속되지만, Yianyin이 다음 라운드에 이 능력을 다시 사용하면, 모든 대상 생물의 지속 시간이 1 라운드 연장됩니다.<p><strong>대실패</strong> 실패와 동일하지만, 피해로 효과가 종료되지 않습니다."
+        },
+        "NampMSngFfuFfsYt": {
+          "name": "부패한 손길",
+          "description": "<p>Yianyin의 공격은 살아있는 생물에게 @Damage[2d6[void]]의 피해를 입힙니다. Yianyin의 공격에 치명타를 받은 생물은 @Check[fortitude|dc:18|traits:void] 내성 체크를 시도해야 합니다. 그렇지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1} (@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 2} 대실패 시)로 변합니다. 썩음이 살을 파고들기 때문입니다."
+        },
+        "kATbmBX9Ub3C8BqX": {
+          "name": "죽음의 키스",
+          "description": "<p>Yianyin은 @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 잃은} 또는 기꺼이 받아들이는 생물에게 길고 열정적인 키스를 하고 @Damage[4d6[void]]의 피해를 입힙니다.</p>\n<p>Yianyin의 죽음의 키스로 3 라운드 연속 피해를 입은 모든 생물은 의식을 잃고 @UUID[Compendium.pf2e.conditionitems.Item.yZRUzMqrMmfLu0V1]{죽어가는 1} 상태가 됩니다. </p>"
+        }
+      }
+    },
+    "Xarwin's Manifestation": {
+      "name": "Xarwin의 창조",
+      "description": "",
+      "hpdetails": "",
+      "items": {
+        "cWM3q0yWZ3nV2UKw": {
+          "name": "기억 흡수",
+          "description": "<p>창조물이 유령의 손 공격으로 생명체에게 피해를 입힐 때마다, 창조물은 5의 임시 체력을 얻고, 대상은 @Check[fortitude|dc:23|basic] 내성 체크에 성공하지 못하면 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1} 상태가 됩니다. 생물에게 피해를 입힐 때마다, 내성 실패 시 해당 생물의 혼미 상태가 1씩 증가하며, 최대 혼미 4까지 증가합니다."
+        },
+        "erB7z23ENjwroBai": {
+          "name": "생명 감지 60 피트",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Lifesense]</p>"
+        },
+        "0AEJAJ3AgrV5j4kM": {
+          "name": "저택에 묶여 있음",
+          "description": "<p>창조물은 자르윈 저택이나 그 아래의 던전을 떠날 수 없습니다."
+        },
+        "AOPfqLyhf0Xvpueq": {
+          "name": "+1 생명력에 대한 내성 보너스",
+          "description": ""
+        },
+        "3f4ySQfrmtsGbvjo": {
+          "name": "반동",
+          "description": "<p>만약 캐릭터가 조작 특성을 가진 행동으로 풀비아의 반지를 자르윈의 창조물에 강제로 제시하면, @Check[will|dc:26|traits:damaging-effect] 내성 체크를 시도해야 합니다.</p>\n<p><strong>성공</strong> 자르윈의 창조물은 @Damage[4d6[정신]]의 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}이 됩니다.</p>\n<p><strong>실패 자르윈의 창조는 @Damage[8d6[정신]] 피해를 받고, @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2}가 되고, 겁에 질린 상태가 지속되는 동안 @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{Flees}가 됩니다.</p>\n<p><strong>대실패</strong> 자르윈의 현현이 파괴됩니다. </p>"
+        },
+        "zjasConlgzOqCTnt": {
+          "name": "공허의 치유",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>"
+        },
+        "yB0f6FaPo2u5bqwy": {
+          "name": "유령의 손길",
+          "description": "<p>창조물이 유령의 손 공격으로 생물에게 치명타를 입히면, 그 생물의 악의 상태 값이 1 증가합니다."
+        }
+      }
+    },
+    "Corrupted Nosoi": {
+      "name": "타락한 노소이",
+      "description": "",
+      "hpdetails": "공허 치유",
+      "items": {
+        "mj6SWij6O5cLmBul": {
+          "name": "생명 감지 60 피트",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Lifesense]</p>"
+        },
+        "RZfMWcVtBQVi2pCA": {
+          "name": "공허 치유",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>"
+        },
+        "qarlOKy2gtbDmhfN": {
+          "name": "부패한 터치",
+          "description": "<p>타락한 노소이의 공격은 생명체에게 @Damage[1d6[void]]의 피해를 입힙니다. 타락한 노소이의 공격에 치명타를 받은 생명체는 @Check[fortitude|dc:18] 내성 체크에 실패하면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1} (@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 2} 대실패 시)로 변합니다."
+        },
+        "THAwoUoO7vQWUsob": {
+          "name": "유령의 멜로디",
+          "description": "<p>노소이는 “<em>주님은 아래에서 잠들어 계시며, 너희는 그분의 꿈에 불과하다. 주님이 깨어나시면, 너희는 모든 것이 끝날 것을 알게 될 것이다!</em>”라고 노래를 부릅니다. @Template[emanation|distance:60] 내에 있는 모든 생명체 또는 언데드는 @Check[will|dc:18] 내성을 시도해야 합니다. 이 효과는 1 라운드 동안 지속되지만, 노소이는 후속 라운드에 이 능력을 다시 사용해 영향을 받은 모든 생물의 지속 시간을 1 라운드씩 연장할 수 있습니다. 내성에 성공한 생물은 24시간 동안 일시적으로 면역이 됩니다. 정신 효과이지만, 이 능력은 지능이 없는 언데드에게도 영향을 미칩니다. 사이코폼프는 이 능력에 면역입니다.</p>\n<p><strong>대실패 실패와 동일하며, 해당 생물은 자신의 턴에 모든 행동을 사용하여 명백한 위험을 피하면서 가능한 한 빨리 노소이에게 접근해야 합니다. @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated} 상태의 생물이 노소이와 인접해 있다면, 그 생물은 움직이지 않고 행동하지 않습니다. 생물이 공격을 받으면 매혹 상태가 종료됩니다.</p>"
+        }
+      }
+    }
+  },
+  "mapping": {
+    "name": "name",
+    "description": "system.details.publicNotes",
+    "gm": "system.details.privateNotes",
+    "blurb": "system.details.blurb",
+    "cadetails": "system.attributes.ac.details",
+    "hpdetails": "system.attributes.hp.details",
+    "languages": "system.details.languages.details",
+    "perception": "system.perception.details",
+    "saves": "system.attributes.allSaves.value",
+    "speeds": "system.attributes.speed.details",
+    "desc": "system.details.description",
+    "disable": "system.details.disable",
+    "reset": "system.details.reset",
+    "routine": "system.details.routine",
+    "stealth": "system.attributes.stealth.details",
+    "target": "system.target.value",
+    "items": {
+      "path": "items",
+      "converter": "translateActorItems"
+    },
+    "AcrobaticsVariants": {
+      "path": "system.skills.acrobatics.special",
+      "converter": "translateSkillVariants"
+    },
+    "ArcanaVariants": {
+      "path": "system.skills.arcana.special",
+      "converter": "translateSkillVariants"
+    },
+    "AthleticsVariants": {
+      "path": "system.skills.athletics.special",
+      "converter": "translateSkillVariants"
+    },
+    "CraftingVariants": {
+      "path": "system.skills.crafting.special",
+      "converter": "translateSkillVariants"
+    },
+    "DeceptionVariants": {
+      "path": "system.skills.deception.special",
+      "converter": "translateSkillVariants"
+    },
+    "DiplomacyVariants": {
+      "path": "system.skills.diplomacy.special",
+      "converter": "translateSkillVariants"
+    },
+    "IntimidationVariants": {
+      "path": "system.skills.intimidation.special",
+      "converter": "translateSkillVariants"
+    },
+    "MedicineVariants": {
+      "path": "system.skills.medicine.special",
+      "converter": "translateSkillVariants"
+    },
+    "NatureVariants": {
+      "path": "system.skills.nature.special",
+      "converter": "translateSkillVariants"
+    },
+    "OccultismVariants": {
+      "path": "system.skills.occultism.special",
+      "converter": "translateSkillVariants"
+    },
+    "PerformanceVariants": {
+      "path": "system.skills.performance.special",
+      "converter": "translateSkillVariants"
+    },
+    "ReligionVariants": {
+      "path": "system.skills.religion.special",
+      "converter": "translateSkillVariants"
+    },
+    "SocietyVariants": {
+      "path": "system.skills.society.special",
+      "converter": "translateSkillVariants"
+    },
+    "StealthVariants": {
+      "path": "system.skills.stealth.special",
+      "converter": "translateSkillVariants"
+    },
+    "SurvivalVariants": {
+      "path": "system.skills.survival.special",
+      "converter": "translateSkillVariants"
+    },
+    "ThieveryVariants": {
+      "path": "system.skills.thievery.special",
+      "converter": "translateSkillVariants"
+    }
+  }
+}

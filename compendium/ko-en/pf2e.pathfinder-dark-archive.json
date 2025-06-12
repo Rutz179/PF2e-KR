@@ -1,0 +1,287 @@
+{
+  "label": "Dark Archive",
+  "entries": {
+    "Cocoon of Lucid Potential": {
+      "name": "명쾌한 잠재력의 고치 (Cocoon of Lucid Potential)",
+      "description": "",
+      "hpdetails": "",
+      "items": {
+        "H5No3yLHugKzgNQr": {
+          "name": "실크에 고정된 (Anchored in Silk)",
+          "description": "<p>고치는 그 자리에서 약간 꿈틀거리는 것 외에는 움직일 수 없습니다. 속도가 없으며, 위버의 실이 물리적으로 그리고 아스트랄로 그 자리를 고정하고 있기 때문에, 순간 이동과 같은 수단으로도 이동하거나 이동될 수 없습니다. 고치는 모든 주문을 심령으로 시전하며, 순수하고 자유로운 의지의 표현으로 언어 및 신체적 요소를 대체하고, 주문 시전 행동에서 조작 특성을 제거합니다."
+        },
+        "HHFw3W3cOgIJv8xE": {
+          "name": "자신을 바치다 (Give of Oneself)",
+          "description": "<p><strong>트리거</strong> 위버의 체력이 0으로 감소합니다</p>\n<hr />\n<p><strong>효과</strong> 고치의 생명력은 위버의 생명력과 연결되어 있습니다. 고치는 [[/r 30]] 체력을 잃고, 위버는 @Damage[15[healing]] 체력을 회복합니다. 이 능력은 원래 행동할 수 없는 상황에서도 사용할 수 있습니다.</p>"
+        },
+        "Hc9RMNJy8VQgbgt8": {
+          "name": "어딘가에 (In There Somewhere)",
+          "description": "<p>킬리아의 개성은 여전히 고치 안에 남아 있지만, 동화되려는 것을 저항하고 있습니다. PC가 고치에 대해 @Check[diplomacy|dc:32] 체크에 성공하면, 고치는 @Damage[5d6[mental]]의 피해를 받고, 킬리아의 의식이 위버와 싸우는 동안 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{기절 1} 상태가 됩니다. 고치는 이 방식으로 한 턴에 한 번 이상 영향을 받을 수 없습니다.</p>"
+        },
+        "pqQB2JJ1Z8S2K9ay": {
+          "name": "같은 본질 (Of Same Essence)",
+          "description": "<p>고치와 위버는 같은 본질을 공유합니다. 그 주문의 효과가 위버에게 해를 끼치는 경우, 그 주문은 위버에게 영향을 미치지 않으며, 위버는 원할 경우 고치의 활성 주문 효과(예: @UUID[Compendium.pf2e.spells-srd.Item.tSosbMsftXcRaQgT]{Sea of Thought})를 무시할 수 있습니다. </p>"
+        }
+      }
+    },
+    "The Morrowkin": {
+      "name": "모로킨 (The Morrowkin)",
+      "description": "",
+      "hpdetails": "",
+      "items": {
+        "C5zKC61h7GcivnD5": {
+          "name": "음식에 혐오감을 느끼는 (Disgusted by Food)",
+          "description": "<p>모로킨은 음식 대신 꿈과 잠재력을 먹습니다. 모로킨에게 음식을 휘두르기 위해 행동을 사용한 생물은 자동으로 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} (또는 병든 값이 1 증가하여 최대 병든 6까지 증가)가 적용되어 모로킨의 AC, 공격 굴림, 내성, 스킬 및 능력 DC가 병든 상태에 따라 정상적으로 감소합니다. 모로킨은 구토를 통해 병든 상태를 감소시킬 수 없습니다."
+        },
+        "GufPL7fXAz1R4tFA": {
+          "name": "끝없는 (Endless)",
+          "description": "<p>체력이 0으로 감소하거나 몇 라운드 이상 무력화되면 모로킨은 사라집니다. 1분 후에, 모로킨은 이전 전투가 전혀 없었던 것처럼 완전히 회복된 상태로 재등장하며, 체력이 최대치로 회복되고, 모든 효과가 해제되며, 미래 삼키기 능력이 다시 사용 가능해집니다."
+        },
+        "Vcb2fzxMkjOhWNPz": {
+          "name": "잠재력 흡수 (Drain Potential)",
+          "description": "<p>모로킨은 대상의 의욕을 흡수하려고 시도하며, 대상은 @Check[fortitude|dc:31] 내성을 시도해야 합니다. 대상이 실패하면 @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 1} (@UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 2} 대실패 시)가 되고, 1분 동안 모든 체크에서 두 번 굴림하고 더 나쁜 결과를 사용해야 합니다. 희망의 부적을 착용한 생물은 영향을 받지 않습니다."
+        },
+        "sxD01nPswudJsjzS": {
+          "name": "미래를 삼키기 (Swallow Future)",
+          "description": "<p>모로킨은 숨을 들이마시고 주변의 모든 생물들의 미래의 행적을 끌어당깁니다. 모로킨의 @Template[emanation|distance:30] 범위 내의 모든 생물들은 @Damage[(6d8 + 18)[정신]]의 피해를 받고 @Check[will|dc:39] 내성 체크를 시도해야 합니다.</p>\n<p>모로킨은 1분 동안 미래를 삼킬 수 없습니다.</p>\n<hr />\n<p><strong>대성공</strong> 생물은 피해를 받지 않습니다.</p>\n<p><strong>실패</strong> 생물은 전체 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 2}가 됩니다.</p>\n<p><strong>대실패</strong> 생물은 두 배의 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 4}가 됩니다 (즉, 즉시 사망할 가능성이 높습니다).</p>"
+        },
+        "pAa1q5ts9oP6qdky": {
+          "name": "내일의 분노 (Tomorrow's Fury)",
+          "description": "<p>모로킨은 도달 가능한 모든 대상에게 발톱 공격을 합니다. 발톱 공격은 모로킨의 다중 공격 페널티에 포함되지만, 모든 공격이 끝날 때까지 페널티는 적용되지 않습니다."
+        }
+      }
+    },
+    "Reflection": {
+      "name": "반사 (Reflection)",
+      "description": "",
+      "hpdetails": "",
+      "items": {
+        "qTHgALlk6FGnqd7W": {
+          "name": "반사 루틴 (Reflection Routine)",
+          "description": "<p>각 반사는 2개의 행동을 가지고 있으며, 이 행동을 사용하여 스텝, 스트라이드, 또는 공격을 할 수 있습니다 (어떤 조합으로도 가능). 반사는 생성된 턴에 행동할 수 있습니다."
+        }
+      }
+    },
+    "Mother Mitera": {
+      "name": "어머니 미테라 (Mother Mitera)",
+      "description": "",
+      "hpdetails": "크리스탈 생명력 연결",
+      "items": {
+        "GTidGY6vXi9cj9yz": {
+          "name": "크리스탈 생명력 연결 (Crystal Vitality Link)",
+          "description": "<p>섬의 힘은 미테라의 생명력을 그녀의 추종자들과 연결합니다. 세 개의 석영 구조물 중 하나라도 손상되지 않은 상태에서 미테라가 피해를 입을 때마다, 10마일 이내의 추종자들은 동일한 체력을 잃습니다."
+        },
+        "5n8EB4Rkx3GH7H9F": {
+          "name": "승천이 가까워졌다 (Ascension is Near)",
+          "description": "<p><strong>발동 빈도</strong> 승천 의식에 한 번씩</p>\n<hr />\n<p><strong>효과</strong> 미테라는 추종자들과의 문플라워 링크를 활성화합니다. @Template[emanation|distance:30]{30 피트} 내에 있는 추종자 중 문플라워 차에 대한 내성 굴림에 실패한 모든 추종자는 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}이 됩니다. 대실패를 하고 해독제를 받지 못한 사람은 폭발합니다 (PC들이 해독제를 성공적으로 투여하지 못한 경우, 미테라의 신도 중 약 절반이 폭발합니다). 누군가의 몸이 폭발하면, 미테라는 30의 임시 체력을 얻고 3 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} 상태가 됩니다. 그녀는 이 추가 행동을 매 라운드마다 공격 및 보행 행동에만 사용할 수 있습니다."
+        }
+      }
+    },
+    "Quartz-Spawned Shadow": {
+      "name": "석영에서 태어난 그림자 (Quartz-Spawned Shadow)",
+      "description": "<p>그림자라고 알려진 신비한 언데드는 어두운 곳에 숨어 빛에서 너무 멀리 떨어진 사람들을 먹이로 삼습니다. 빛이 나는 무기로 그림자를 막아 세며 협상하는 사람들은 그림자들이 이상적인 스파이이기 때문에 큰 비밀을 알 수 있습니다.",
+      "hpdetails": "",
+      "items": {
+        "ACHlnYzXVxizzqPw": {
+          "name": "빛에 대한 취약성 (Light Vulnerability)",
+          "description": "<p>마법적인 빛을 발산하는 물체(예: @UUID[Compendium.pf2e.spells-srd.Item.WBmvzNDfpwka3qT4]{Light} 주문에서 발산되는 빛)는 그림자를 공격할 때 마법적인 것으로 간주됩니다.</p>"
+        },
+        "LkqCkG3YFw362zdS": {
+          "name": "크리스탈 흡입 (Crystal Siphon)",
+          "description": "<p><strong>요구 조건</strong> 그림자와 대상은 그림자를 생성한 크리스탈로부터 40피트 이내에 있으며, 크리스탈은 덮여 있거나 방해받지 않아야 합니다</p>\n<hr />\n<p><strong>효과</strong> 덩굴 모양의 그림자가 대상 주변을 감싸며 대상의 생명력 일부를 끌어내어 크리스탈로 흡수합니다. 대상은 @Damage[4d6[void]]의 피해를 받습니다 (@Check[fortitude|dc:21|basic]). 실패하면 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 1} 상태가 됩니다. 이 약화된 상태는 석영에서 생성된 그림자에서 발생한 다른 약화된 상태와 누적되며, 최대 약화 4까지 누적될 수 있습니다. 크리스탈 사이펀이 생물의 약화 값을 3 이상으로 증가시키면, 대상의 그림자가 그림자의 크리스탈로 완전히 빨려 들어갑니다. 그들은 @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{보이지 않는} 끈이 자신을 크리스탈에 묶고 있는 것을 느끼고, 크리스탈에서 40피트 이상 떨어져 있을 때마다 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1} 상태가 됩니다. 크리스탈 사이펀으로 인한 약화된 상태는 크리스탈이 파괴될 때까지 감소될 수 없습니다. 크리스탈이 파괴되면 효과는 즉시 종료됩니다."
+        },
+        "0QWVJ7Of8cQNKp0N": {
+          "name": "그림자 속의 슬링크 (Slink in Shadows)",
+          "description": "<p>그림자는 @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{숨기}거나, 생물이나 물체의 그림자 속에서 @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{숨어 이동}을 종료할 수 있습니다.</p>"
+        }
+      }
+    },
+    "Verdure's Moonflower": {
+      "name": "버드레의 달꽃 (Verdure's Moonflower)",
+      "description": "<p>이 거대한 식물은 두꺼운 얽힌 줄기에 이빨 모양의 꽃이 가득 달려 있습니다. 줄기 꼭대기에 있는 거대한 입은 달꽃보다 작은 대부분의 생물을 통째로 삼킬 수 있습니다. 문플라워는 강력한 뿌리를 이용해 천천히 움직이거나 공격할 수 있지만, 보통은 뿌리를 주변의 땅에 깊게 박고 가만히 서서 먹이를 기다립니다. 문플라워는 일반적인 의미에서 말하지는 못하지만, 다른 문플라워들과 텔레파시로 소통합니다. 따라서 한 마리의 문플라워를 만난 탐험가는 그 주변에 다른 문플라워들이 자신을 기다리고 있을 것이라고 확신할 수 있습니다. 달꽃의 텔레파시 통신을 가로채는 자들은 거대한 식물 생명체가 지배하는 끔찍한 원시 정글의 비전을 공격받습니다. 이것이 과거의 비전인지, 모든 달꽃이 공유하는 미래의 꿈인지 여부는 알려지지 않았습니다.</p>\n<p>달꽃은 오래 전에 멸망한 행성에서 온 외계 생명체이지만, 별들 사이의 어두운 공간에 존재하는 악의적인 외계 조직인 블랙 도미니언의 음모로 인해 은하계 전체에 퍼지게 되었습니다.</p>",
+      "hpdetails": "빠른 치유 10",
+      "items": {
+        "7pxsxbazh1PpK8A4": {
+          "name": "빠른 치유 10 (Fast Healing 10)",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.FastHealing]</p>"
+        },
+        "6Psn5RSYm8UGDpwM": {
+          "name": "포드 감옥 (Pod Prison)",
+          "description": "<p><strong>트리거</strong> 문플라워가 생물을 삼켰습니다</p>\n<hr />\n<p><strong>효과</strong> 삼킨 생물은 단단한 고치로 감싸여 문플라워의 몸에서 인접한 칸으로 밀려납니다. 생물은 계속해서 통째로 삼켜진 상태로 남아 있습니다. 이 생물은 곡예로 포드에서 @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{탈출} 할 수 없지만, 다른 생물들은 포드를 파열할 수 있습니다. 고치에 싸인 생물은 고치에 가해진 피해의 절반을 받습니다. 고치가 파열되면 공기가 빠지고 부패합니다."
+        },
+        "Uoxf8sSuS6pG7QQF": {
+          "name": "포드 생성 (Pod Spawn)",
+          "description": "<p>작은 크기의 생물이나 그 이상의 크기의 생물이 포드 감옥에서 죽으면, 포드는 [[/gmr 1d4 #문플라워 변형]]{1d4 시간}의 성장 후 체력이 최대인 성숙한 문플라워로 변합니다. 죽은 생물의 장비는 새로운 달꽃 안에 남아 있으며, 달꽃이 죽으면 회수할 수 있습니다.</p>"
+        },
+        "uOpDNZG0ysnNMkxM": {
+          "name": "분사 꽃잎 (Spray Blossoms)",
+          "description": "<p><strong>효과</strong> 문플라워는 @Template[cone|distance:30] 범위 내에 정신을 왜곡하는 꽃잎을 분출합니다. 이 영역에 있는 생물들은 @Damage[4d6[mental],4d6[poison]]{4d6 정신 피해 및 4d6 독 피해} (@Check[will|dc:26|basic])를 받습니다. 실패하면 1분 동안 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 2} 상태가 되고, 대실패하면 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{혼란} 상태도 됩니다.</p>\n<p>달꽃은 [[/gmr 1d4 #Recharge Spray Blossoms]]{1d4 라운드} 동안 다시 꽃을 뿌릴 수 없습니다.</p>"
+        },
+        "kjaeBRLTBCSOl9cS": {
+          "name": "전체를 삼키기 (Swallow Whole)",
+          "description": "<p>대형, @Damage[(2d10+10)[bludgeoning],2d6[acid]]{2d10 + 10 bludgeoning 및 2d6 acid}, Rupture 21</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
+        },
+        "0D7DkzCzV4iv9Q0r": {
+          "name": "잡기 (Grab)",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
+        }
+      }
+    },
+    "The Weaver in Dreams": {
+      "name": "꿈속의 직공 (The Weaver in Dreams)",
+      "description": "",
+      "hpdetails": "",
+      "items": {
+        "G4i0tp7lYajN7KwD": {
+          "name": "꿈이 풀리다 (Dreams Unraveling)",
+          "description": "<p>위버의 체력이 155 미만이 되면, 그의 몸이 부분적으로 풀리면서 육체적인 상처를 남길 만큼 극심한 공포가 드러납니다. 이것은 @Damage[3d6[정신],3d6[베기]]{3d6 정신 피해와 3d6 베기 피해}를 주는 @Template[emanation|distance:10]을 생성하며, @Check[will|dc:36|basic]이 적용됩니다. 시선을 피하는 생물은 이 오라에 면역입니다."
+        },
+        "GGttpO7eWtif6ZON": {
+          "name": "이름 없는 악몽 (Nameless Nightmare)",
+          "description": "<p>위버는 자신의 이름을 찢어내어 공포의 존재가 되었습니다. 그는 언어적 효과와 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포} 상태를 부여하는 모든 효과에 면역입니다. 이름이 없기 때문에 현상의 영향을 받기 어렵습니다. 위버는 자신의 턴이 끝날 때 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비}, @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐}, @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{기절} 상태에서 회복되며, 지속 피해를 제거하기 위한 평면 체크는 @Check[flat|dc:5]{5}입니다. 누군가가 그의 이름을 말하거나, 쓰거나, 그 밖의 방법으로 기록하려고 시도하면, 그 생물은 자동으로 @Damage[10[정신]]의 피해를 받고 시도는 실패합니다."
+        },
+        "s0uQRVp56Th5lEsd": {
+          "name": "거미줄에 꿰매기 (Stitch Into the Web)",
+          "description": "<p><strong>트리거</strong> 위버가 자신의 의지에 반하여 이동하거나, 어떤 수단을 통해든 텔레포트 포함, 그로부터 20피트 이내의 칸을 떠나려고 시도하는 생물이 있습니다. 생물은 움직임을 멈추고 행동이 방해받습니다. 이 방해는 아스트랄 몸에 영향을 미치지 않습니다.</p>"
+        },
+        "PFLlpNCLFoMvvzjF": {
+          "name": "아스트랄 몸 분리 (Separate Astral Body)",
+          "description": "<p>위버는 대상의 정신에 실크 실을 묻고 당겨서 대상의 아스트랄 형태를 몸에서 빼냅니다. 대상이 @Check[will|dc:36] 내성 체크에 성공하지 않으면, 아스트랄 형태가 빼내져 위버가 선택한 인접한 공간에 유령의 이미지가 나타납니다. 아스트랄 체는 물리적 피해에는 면역이지만, 정신 효과, 역장 효과, 그리고 영혼을 직접 대상으로 하는 효과에는 정상적으로 영향을 받습니다. 대상은 은색 줄로 육체와 연결되어 있으며, 이 줄은 항상 보이며, 숨기기를 시도해도 실패할 가능성이 높습니다. 아스트랄 몸에서 분리되면 정신에 큰 타격을 입어 의지 내성에 -1의 상태 페널티가 적용되고, 몸이 분리되어 있는 동안 @Damage[1d6[persistent,mental]]의 피해가 발생합니다. 대상이 아스트랄 몸에서 30피트 이상 떨어져 있으면 이 피해는 3d6로 증가합니다. 대상은 집중 특성을 가진 단일 행동을 사용하여 아스트랄 몸을 속도만큼 이동시킬 수 있습니다. 대상은 이 능력으로 인한 지속적인 정신 피해가 중단되면 아스트랄 체가 물리 체로 다시 돌아와 효과가 종료됩니다. 대상이 은을 소지하고 있는 경우, 이 능력이 대상에게 처음 사용되면 능력은 실패하고 대상이 소지하고 있는 동전보다 큰 은이 변색됩니다. 이로 인해 무기나 마법 도구와 같은 아이템이 완전히 파괴되지는 않지만, 이 능력에 대해 두 번 이상 보호를 받을 수 없게 됩니다."
+        },
+        "XcNlseVC4Ik7ETIX": {
+          "name": "아스트랄 실을 끊기 (Sever Astral Threads)",
+          "description": "<p>위버는 발톱을 사용하여 생물의 아스트랄 체와 물리적 체를 연결하는 은색 줄을 끊습니다. 이 능력은 분리된 아스트랄 체의 영향을 받고 있으며, 물리적 체 또는 아스트랄 체가 위버로부터 10피트 이내의 거리에 있는 모든 대상에게 @Damage[16d6[정신]]의 피해를 입힙니다 (@Check[will|dc:37|basic]). 이 능력의 대상이 된 아스트랄 몸은 대상의 물리적 몸으로 격렬하게 되돌아가며, 대상의 시야를 흐릿하게 만들고 다음 턴이 시작될 때까지 실명 상태로 만듭니다. 대상이 내성 굴림에 성공하지 않는 한 이 효과는 지속됩니다."
+        },
+        "5ziv4KKVkKAcChTU": {
+          "name": "꿈속의 스토커 (Stalker in Dreams)",
+          "description": "<p><strong>트리거</strong> 위버가 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} 상태가 됩니다. 모든 60피트 이내의 생물에게 또는 60피트 이내의 생물로부터 관찰되지 않을 때까지</p>\n<hr />\n<p><strong>효과</strong> 위버의 물질계 존재는 다른 이들의 인식과 연결되어 있으며, 그 인식이 흔들리면 새로운 위치로 이동할 수 있습니다. 위버는 60피트 이내에 있는 모든 생물의 시야 범위 밖에 있는 빈 공간으로 순간이동합니다. 만약 위버가 이동 행동의 일부로 숨겨지거나 관찰되지 않게 되었다면, 순간이동 후 이동을 계속할 수 있습니다. 위버로부터 시선을 돌린 생물은 그를 관찰하지 않습니다.</p>"
+        },
+        "4A7cNLcKMBz6WJiy": {
+          "name": "실 아스트랄 신체 (String Astral Body)",
+          "description": "<p>위버는 생물의 아스트랄 몸에 줄을 연결하여 이동시킵니다. 그는 자신의 아스트랄 실크 공격 범위 내에 노출된 아스트랄 몸을 내성 굴림 없이 최대 20피트까지 강제로 이동시킵니다."
+        }
+      }
+    },
+    "K. H. W.'s Echo": {
+      "name": "K. H. W.의 에코 (K. H. W.'s Echo)",
+      "description": "",
+      "hpdetails": "불안정한 형태",
+      "items": {
+        "2LrlEIwWcp7z9jL4": {
+          "name": "기회 공격 (특수) (Attack of Opportunity (Special))",
+          "description": "<p>에코는 기회 공격이 발동되는 시점과 기회 공격을 수행할 때의 도달 범위가 15입니다.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>"
+        },
+        "g86YWdXagoWqk0OQ": {
+          "name": "불안정한 형태 (Destabilized Form)",
+          "description": "<p>에코의 체력이 140 미만이 되면, 그의 형태가 불안정해지고 얼굴, 팔다리, 몸통에서 큰 덩어리가 떨어져 나갑니다. 사라진 부분에서 흰 나방이 끊임없이 솟아올라 @Template[emanation|distance:10]을 생성하며, @Damage[6d6[mental]]의 피해를 @Check[will|dc:34|basic]로 입힙니다.</p>\n<p>오라가 지속되는 동안, 그는 자신의 턴이 시작될 때마다 자유 행동으로 나방으로 사라진 다음 15 피트 이내의 다른 위치에 재구성될 수 있습니다. 이 능력은 오컬트, 마법, 순간 이동 특성을 가지고 있습니다. </p>"
+        },
+        "9AePbujsZky8xUjK": {
+          "name": "아스트랄 스핀들 도구 (Astral Spindel Implement)",
+          "description": "<p>에코는 끊임없이 붉은 아스트랄 실을 짜는 드롭 스핀들을 가지고 있으며, 이는 그의 마법 도구이자 무기입니다. 그의 <em>로프 다트</em>를 잃거나 파손한 경우, 상호 작용 액션으로 재구성할 수 있습니다. <em>로프 다트</em> 공격에 크리티컬 성공하면, 압도적인 생각과 허구가 실을 따라 대상의 마음속으로 흘러 들어갑니다. 대상은 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{혼란> 상태가 됩니다. "
+        },
+        "PSN0OsnaXCyM9qu3": {
+          "name": "아스트랄 실 제어 (Astral Thread Control)",
+          "description": "<p><strong>사용 빈도</strong> 라운드당 1회</p>\n<p><strong>요건</strong> 에코의의 이전 행동이 성공적인 던진 로프 다트 공격이었습니다. </p>\n<hr />\n<p><strong>효과</strong> 에코는 손목을 튕겨서 첫 번째 대상에서 30피트 이내의 다른 대상에게 동일한 다중 공격 페널티를 적용하여 던진 로프 다트 공격을 추가로 수행합니다. 공격이 명중했는지 여부에 상관없이, 에코는 무기를 회수합니다."
+        },
+        "gjGhslPt9ZQSI0yX": {
+          "name": "비상 서약일-9-로바 (Contingency Oathday-Nine-Rova)",
+          "description": "<p><strong>빈도</strong> 하루에 한 번</p>\n<p><strong>트리거</strong> 에코의 턴이 시작되고, 그는 기절, 느려짐, @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{혼란} 상태입니다. @UUID[Compendium.pf2e.conditionitems.Item.9qGBRpbX9NEwtAAr]{통제됨}, @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{이동 불가}, @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비된}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{제압됨}, 또는 다른 이유로 행동할 수 없음</p>\n<hr />\n<p><strong>효과</strong> 에코는 자신이 침투당했을 경우를 대비해 다양한 비상 조치를 마련해 두었습니다. 그의 몸에 있는 탈리스만이 부서져 트리거 효과를 무효화합니다. 에코는 행동할 수 없더라도 이 무료 행동을 사용할 수 있습니다.</p>"
+        },
+        "crjSzGgHUw6zPIVX": {
+          "name": "생각으로 재구성 (Reconstitute from Thought)",
+          "description": "<p><strong>요구 조건</strong> 에코는 지도상의 8개 대형 섬 중 하나에 서 있으며, 해당 섬이 어두워지지 않았습니다</p><hr /><p><strong>효과</strong> 에코는 섬에 로프 다트를 던져 정신 풍경을 통해 정신 에센스를 흡수하여 자신을 회복합니다. 그는 @Damage[45[치유]] 체력을 회복하고 섬은 1일 동안 채도가 떨어진 회색으로 변하며, 향후 흡수가 방지되고 해당 섬에서 @UUID[Compendium.pf2e.pathfinder-dark-archive.Actor.0AdtolhMWrPlzVZY]{Call of the Void} 위험이 비활성화됩니다."
+        },
+        "vt810lsvoNHLaCNF": {
+          "name": "스핀들의 거미줄 (Spindle's Web)",
+          "description": "<p>에코의 스핀들이 점점 더 빠르게 회전하며 흐릿해지며, 모든 방향으로 붉은 실을 휘감습니다. 실은 @Damage[7d6[베기],7d6[정신]]{7d6 베기 피해와 7d6 정신 피해}를 @Template[emanation|distance:30]에 있는 모든 생물에게 @Check[reflex|dc:34|basic]로 가합니다. 생물이 내성에 실패하면, 실은 그 안에 있는 마인드스케이프의 코러를 깨워, 그 생물이 마인드스케이프의 중심에 접근하기 위해 사용한 앵커에 따라 다른 영향을 미칩니다. (파티에 PC가 4명 이상으로 마인드스케이프 앵커를 흡수하지 않은 PC가 있는 경우, 그 PC에게 가장 가까운 PC의 앵커를 사용합니다.)</p>\n<p>에코는 [[/gmr 1d4 #rounds]]{1d4 라운드} 동안 스핀들의 거미줄을 사용할 수 없습니다.</p>\n<ul>\n<li><strong>랜턴</strong> 랜턴은 @UUID[Compendium.pf2e.spells-srd.Item.HRb2doyaLtaoCfi3]{Faerie Fire}로 생물체를 윤곽을 그리고 @Damage[2d6[persistent,fire]]의 피해를 입힙니다.</li>\n<li><strong>거울</strong> 거울은 생물을 다른 위치로 반사하여, 현재 위치에서 25 피트 이내의 빈 공간으로 순간 이동시킵니다.</li>\n<li><strong>책</strong> 책은 생물의 마음을 정보로 가득 채워, 대상은 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1} 상태가 됩니다.</li>\n</ul>"
+        }
+      }
+    }
+  },
+  "mapping": {
+    "name": "name",
+    "description": "system.details.publicNotes",
+    "gm": "system.details.privateNotes",
+    "blurb": "system.details.blurb",
+    "cadetails": "system.attributes.ac.details",
+    "hpdetails": "system.attributes.hp.details",
+    "languages": "system.details.languages.details",
+    "perception": "system.perception.details",
+    "saves": "system.attributes.allSaves.value",
+    "speeds": "system.attributes.speed.details",
+    "desc": "system.details.description",
+    "disable": "system.details.disable",
+    "reset": "system.details.reset",
+    "routine": "system.details.routine",
+    "stealth": "system.attributes.stealth.details",
+    "target": "system.target.value",
+    "items": {
+      "path": "items",
+      "converter": "translateActorItems"
+    },
+    "AcrobaticsVariants": {
+      "path": "system.skills.acrobatics.special",
+      "converter": "translateSkillVariants"
+    },
+    "ArcanaVariants": {
+      "path": "system.skills.arcana.special",
+      "converter": "translateSkillVariants"
+    },
+    "AthleticsVariants": {
+      "path": "system.skills.athletics.special",
+      "converter": "translateSkillVariants"
+    },
+    "CraftingVariants": {
+      "path": "system.skills.crafting.special",
+      "converter": "translateSkillVariants"
+    },
+    "DeceptionVariants": {
+      "path": "system.skills.deception.special",
+      "converter": "translateSkillVariants"
+    },
+    "DiplomacyVariants": {
+      "path": "system.skills.diplomacy.special",
+      "converter": "translateSkillVariants"
+    },
+    "IntimidationVariants": {
+      "path": "system.skills.intimidation.special",
+      "converter": "translateSkillVariants"
+    },
+    "MedicineVariants": {
+      "path": "system.skills.medicine.special",
+      "converter": "translateSkillVariants"
+    },
+    "NatureVariants": {
+      "path": "system.skills.nature.special",
+      "converter": "translateSkillVariants"
+    },
+    "OccultismVariants": {
+      "path": "system.skills.occultism.special",
+      "converter": "translateSkillVariants"
+    },
+    "PerformanceVariants": {
+      "path": "system.skills.performance.special",
+      "converter": "translateSkillVariants"
+    },
+    "ReligionVariants": {
+      "path": "system.skills.religion.special",
+      "converter": "translateSkillVariants"
+    },
+    "SocietyVariants": {
+      "path": "system.skills.society.special",
+      "converter": "translateSkillVariants"
+    },
+    "StealthVariants": {
+      "path": "system.skills.stealth.special",
+      "converter": "translateSkillVariants"
+    },
+    "SurvivalVariants": {
+      "path": "system.skills.survival.special",
+      "converter": "translateSkillVariants"
+    },
+    "ThieveryVariants": {
+      "path": "system.skills.thievery.special",
+      "converter": "translateSkillVariants"
+    }
+  }
+}

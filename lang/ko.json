@@ -80,7 +80,7 @@
           "CraftingSlots": "Crafting slots restored.",
           "ConditionReduced": "{condition}이 1 감소했습니다.",
           "ConditionRemoved": "더 이상 {condition}이 없습니다.",
-          "FocusPoints": "포커스 포인트가 회복되었습니다.",
+          "FocusPoints": "집중 포인트가 회복되었습니다.",
           "Frequencies": "액션 횟수가 새로 고쳐졌습니다.",
           "HitPoints": "{hitPoints}의 HP가 회복되었습니다.",
           "HitPointsSingle": "{hitPoints}의 HP가 회복되었습니다.",
@@ -867,7 +867,7 @@
     "AttackEffectImprovedGrab": "개선된 붙잡기",
     "AttackEffectImprovedKnockdown": "향상된 넉다운",
     "AttackEffectImprovedPush": "향상된 밀기",
-    "AttackEffectKnockdown": "넘어뜨리기",
+    "AttackEffectKnockdown": "넉다운",
     "AttackEffectPush": "밀기",
     "AttackEffectTrip": "넘어뜨리기",
     "AttackLabel": "공격",
@@ -2970,7 +2970,7 @@
           "CatchRock": "<p><strong>요구 조건</strong> 몬스터는 손이 자유로워야 하지만, 이 리액션의 일부로 들고 있는 모든 것을 @UUID[Compendium.pf2e.actionspf2e.Item.wQYmDStjdjn0I26t]{놓을 수 있습니다.</p>\n<p><strong> 트리거</strong> 몬스터가 던진 돌을 맞거나 돌이 몬스터에게 떨어질 것입니다.</p>\n<hr />\n<p><strong>효과</strong> 몬스터는 트리거 공격에 대한 공격력 또는 떨어지는 돌에 대한 방어력에 상황 보너스 +4를 얻습니다. 공격이 빗나가거나 몬스터가 떨어지는 돌을 성공적으로 방어하면, 몬스터는 돌을 잡아서 피해를 받지 않고 돌을 들고 있는 상태가 됩니다.</p>",
           "ChangeFormation": "<p>부대는 아래에 나열된 형상 중 하나를 선택하여 재편성합니다. 이 행동을 다시 사용하면 이전 형상이 해제되며, 부대는 이 행동을 사용하여 기본 형상으로 돌아갈 수 있으며, 이 경우 모든 이점과 단점이 해제됩니다.</p><ul><li><strong>분산</strong> 부대원들이 넓게 흩어져 더 넓은 지역을 커버합니다. <strong>이점</strong> 부대가 가진 모든 지역 및 방사 피해에 대한 약점이 억제됩니다. <strong>단점</strong> 부대의 피해 효과에 대한 적의 내성 굴림이 굴림보다 1 단계 더 성공하기 쉽습니다. <strong>행군 대열</strong> 이 대형은 장거리를 더 빠르게 이동합니다. <strong>이점</strong> 부대의 모든 속도가 +10 피트 환경 보너스를 받습니다. <strong>단점</strong> 부대는 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 되고 반사 구원에 -2의 페널티를 받습니다. <strong>이점</strong> 부대는 원거리 공격과 반사 내성에 +2 상황 보너스를 받습니다. <strong>단점</strong> 부대는 모든 속도에 -10 피트 페널티를 받습니다. <strong>이점</strong> 부대는 부대 특성이 없는 인접한 동맹 생물을 선택해 그 뒤에 따라갑니다. 선택된 생물이 Stride를 사용할 때마다 부대는 무료 행동으로 Stride를 사용해 선택된 생물을 인접하게 유지합니다. <strong>단점</strong> 부대는 일부 자율성을 잃습니다. 이동 속도가 1 감소하며, 리더로부터 자발적으로 멀어지거나 이동할 수 없습니다.</li></ul>",
           "ChangeShape": "<p>몬스터가 무기한으로 모양을 바꿉니다. 몬스터는 이 액션을 다시 사용해 원래 모양으로 돌아가거나 새로운 모양을 채택할 수 있습니다. 달리 명시되지 않는 한, 몬스터는 모양 변경을 사용하여 특정 개인으로 나타날 수 없습니다. 형태 변경을 사용하면 @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{사칭} 기만 사용에 대한 변장을 생성한 것으로 계산됩니다. 몬스터는 변신 시 자동으로 지각 DC를 무시하고 해당 생물이 변신한 혈통의 일원인지, 변신한 생물 유형인지 판단하며, 변장을 통해 다른 이가 자신의 변장을 알아차리지 못하도록 기만 DC에 상태 보너스 +4를 얻습니다. 형상 변경 능력은 괴물이 취할 수 있는 형상을 지정합니다. 몬스터는 새로운 형상의 특별한 능력을 얻지 않고 물리적인 형태만 얻습니다. 예를 들어, 각 형상에서는 일반적인 속도와 공격력이 대체되며, 감각이나 크기가 변경될 수도 있습니다. 모든 변경 사항은 스탯 블록에 표시됩니다.</p>",
-          "ConstantSpells": "<p>지속 주문은 몬스터가 주문을 시전하지 않아도 몬스터에게 영향을 주며, 지속시간은 제한이 없습니다. 지속 주문이 무력화되면, 몬스터는 주문에 필요한 일반 주문 시전 액션을 소모하여 주문을 다시 활성화할 수 있습니다.</p>",
+          "ConstantSpells": "<p>지속 주문은 몬스터가 주문을 시전하지 않아도 몬스터에게 영향을 주며, 지속시간은 제한이 없습니다. 상수 주문이 무력화되면, 몬스터는 주문에 필요한 일반 주문 시전 액션을 소모하여 주문을 다시 활성화할 수 있습니다.</p>",
           "Constrict": "<p>이 괴물은 나열된 만큼의 피해를 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속} 생물에게 주는 것으로 공격합니다. 해당 생물은 각각 나열된 DC로 기본 인내 내성을 시도할 수 있습니다.</p>",
           "Coven": "<p>이 괴물은 집회 능력을 가진 두 마리 이상의 다른 생물과 함께 집회를 결성할 수 있습니다. 이를 위해서는 모든 예비 마녀회원과 함께 8시간 동안 의식을 치러야 합니다. 집회가 결성된 후, 각 구성원은 엘리트 조정 능력을 얻으며 그에 따라 레벨이 조정됩니다. 코벤 멤버는 집중 특성이 있는 한 번의 액션으로 다른 멤버의 위치와 상태를 감지할 수 있으며, 집중 특성이 있는 두 번의 액션으로 다른 코벤 멤버가 감지하는 것을 감지할 수 있습니다.</p>\n<p>코벤은 또한 멤버에게 주문과 의식을 부여하지만, 이는 모두 서로 30피트 이내에 있는 세 명의 코벤 멤버가 협력해야만 시전할 수 있습니다. 집회 구성원은 집중 특성이 있는 액션 한 번으로 집회 주문에 기여할 수 있습니다. 지난 라운드에 두 명의 집회원이 이러한 액션을 사용했다면, 세 번째 집회원은 자신의 차례에 일반 주문 시전 액션을 사용해 집회 주문을 시전할 수 있습니다. 집회는 횟수에 제한 없이 집회 주문을 시전할 수 있지만, 각 라운드에 한 번만 집회 주문을 시전할 수 있습니다. 모든 코벤은 8번째 등급인 @UUID[Compendium.pf2e.spells-srd.Item.dN8QBNuTiaBHCKUe]{저주받은 변형} 주문과 다음 모든 주문을 5등급까지 모든 등급에서 시전할 수 있습니다: @UUID[Compendium.pf2e.spells-srd.Item.41TZEjhO6D1nWw2X]{분노}, @UUID[Compendium.pf2e.spells-srd.Item.vLA0q0WOK2YPuJs6]{매혹}, @UUID[Compendium.pf2e.spells-srd.Item.HXhWYJviWalN5tQ2]{클레어오디언스}, @UUID[Compendium.pf2e.spells-srd.Item.zvKWclOZ7A53DObE]{투시}, @UUID[Compendium.pf2e.spells-srd.Item.yM3KTTSAIHhyuP14]{꿈 메시지}, @UUID[Compendium.pf2e.spells-srd.Item.i35dpZFI7jZcRoBo]{환상의 변장}, @UUID[Compendium.pf2e.spells-srd.Item.Ucf8eynbZMfUucjE]{환상의 장면}, @UUID[Compendium.pf2e.spells-srd.Item.Ek5XI0aEdZhBgm21]{정찰하는 눈}, @UUID[Compendium.pf2e.spells-srd.Item.FM3SmEW8N1FCRjqt]{말하는 시체}. 집회 능력을 가진 개별 생물은 자신이 속한 집회에 추가 주문을 부여합니다. 코벤은 또한 표준 DC 대신 23의 DC로 @UUID[Compendium.pf2e.spells-srd.Item.XkDCzMIyc0YOjw05]{날씨 제어} 의식을 시전할 수 있습니다.</p>\n<p>코벤 멤버의 이탈 또는 사망으로 코벤 멤버가 3명으로 줄어들면, 남은 멤버는 24시간 동안 정예 조정 상태를 유지하지만 필요한 액션을 제공할 멤버가 충분하지 않으면 코벤 명령을 시전할 수 없게 됩니다.</p>",
           "Darkvision": "<p>암흑 시야을 가진 괴물은 어둠과 희미한 빛이 있는 곳에서도 완벽하게 잘 볼 수 있지만, 흑백으로만 볼 수 있습니다. 4등급 <em>@UUID[Compendium.pf2e.spells-srd.Item.4GE2ZdODgIQtg51c]{암흑}</em> 주문과 같은 일부 형태의 마법 어둠은 일반 어둠시력을 차단합니다. 하지만 @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.4Ho2xMPEC05aSxzr]{향상된 암흑 시야}을 가진 몬스터는 이러한 형태의 마법의 어둠도 투과할 수 있습니다.</p>",
@@ -3170,8 +3170,8 @@
     "PreciousMaterialAbysiumDescription": "섬뜩한 녹색 빛을 내는 청록색 금속인 어비슘은 생명체에 치명적인 힘을 발산합니다. 이 물질에 부주의하게 노출되면 면역 체계가 장기적으로 손상될 수 있으며, 한 지역에 많은 양의 어비슘이 존재하면 주변의 모든 생물이 병에 걸리기 때문에 어비슘 채굴은 위험합니다. 어비슘 물체를 들고 있는 생물은 표준 등급 물체가 1벌크일 경우 1병, 표준 등급 물체가 1벌크 이상 또는 고급 등급 물체가 1벌크일 경우 2병, 고급 등급 물체가 1벌크 이상일 경우 3병에 걸립니다. 이 효과와 다른 어비슘의 모든 병들임 효과는 독 효과입니다. 제작자는 어비슘 덩어리 1개를 사용해 독 어비슘 가루를 최대 6회까지 만들 수 있습니다. 부도덕한 대장장이들은 어비슘의 독성을 이용해 유독한 무기와 치명적인 물질을 만들어왔습니다. 어비슘으로 만든 모든 물체는 10피트 반경에서 희미한 빛을 발산합니다.",
     "PreciousMaterialAdamantine": "아다만틴",
     "PreciousMaterialAdamantineDescription": "하늘에서 떨어진 암석에서 채굴되는 아다만틴은 알려진 가장 단단한 금속 중 하나입니다. 반짝이는 검은색 외관을 가지고 있으며 놀라운 탄력성과 믿을 수 없을 정도로 날카로운 모서리를 유지하는 능력으로 유명합니다.",
-    "PreciousMaterialColdIron": "냉철",
-    "PreciousMaterialColdIronDescription": "냉철으로 만든 무기는 악마나 요정 모두에게 치명적입니다. 냉철은 일반 철처럼 보이지만 매우 순수한 자원에서 채굴하고 열을 거의 또는 전혀 가하지 않고 모양을 만듭니다. 이 과정은 특히 고급 냉철 아이템의 경우 매우 어렵습니다.",
+    "PreciousMaterialColdIron": "콜드 아이언",
+    "PreciousMaterialColdIronDescription": "콜드 아이언으로 만든 무기는 악마나 요정 모두에게 치명적입니다. 콜드 아이언은 일반 철처럼 보이지만 매우 순수한 자원에서 채굴하고 열을 거의 또는 전혀 가하지 않고 모양을 만듭니다. 이 과정은 특히 고급 콜드 아이언 아이템의 경우 매우 어렵습니다.",
     "PreciousMaterialDawnsilver": "던실버",
     "PreciousMaterialDawnsilverDescription": "던실버는 가볍고 내구성이 뛰어나며 악마나 라이칸트로프 등 다양한 생물에 효과가 있는 것으로 유명합니다. 은색과 광택은 같지만 약간 더 밝은 색조를 띠고 있습니다. 던실버 무기와 방어구는 은에 약한 생물에게 피해를 입힐 목적으로 은처럼 취급됩니다. 여명 은으로 만든 금속 아이템은 철이나 강철로 만든 아이템보다 가볍습니다: 아이템의 부피는 1만큼 감소합니다(일반 부피가 1이면 가벼운 부피로 감소하며, 원래 가벼운 부피를 가진 아이템에는 영향을 미치지 않습니다). 이 재료로 만든 아이템의 가격은 던실버로 만들어져 감소한 부피가 아닌 아이템의 일반 부피를 기준으로 책정되지만, 아이템의 크기에 따라 부피를 추가로 조정하기 전에 부피를 줄입니다.",
     "PreciousMaterialDjezet": "디제트",
@@ -3193,7 +3193,7 @@
     "PreciousMaterialKeepStone": "킵 스톤",
     "PreciousMaterialKeepStoneDescription": "하이헬름이 수천 년 동안 쌓아온 야금술과 엔지니어링의 가장 빛나는 업적은 킵 스톤이라는 아름다운 합금입니다. 이름과는 달리 킵 스톤 생산에는 돌이 사용되지 않습니다. 하이헬름의 최고의 장인들은 아다만틴과 납을 함께 제련하는 고도의 공정을 통해 금속보다 대리석에 더 가까운 외관을 가진 소재를 개발할 수 있었습니다. 킵 스톤은 아다만틴만 사용하는 것보다 약간 약하지만, 마법을 방해하는 놀라운 능력을 지니고 있습니다. 원시 킵 스톤을 대상으로 하는 주문이나 마법 효과는 반드시 DC 5 플랫 체크에서 성공해야 하며, 그렇지 않으면 효과가 사라집니다.",
     "PreciousMaterialNoqual": "노퀄",
-    "PreciousMaterialNoqualDescription": "가볍고 강한 노퀄은 또한 마법에 대한 강력한 저항력을 보여줍니다. 이 저항의 부작용으로 노퀄로 마법 무기를 만들려면 복잡하고 값비싼 연금술 처리가 필요합니다. 누메리아의 검은 군주 케보스 쿨은 이 특성을 완화하기 위해 노퀄과 냉철의 합금인 소버린 스틸을 개발했습니다. 금속의 결정적인 외관을 보면 깨지기 쉽다고 생각할 수 있지만, 옅은 녹색의 이 소재는 철과 비슷하게 가공할 수 있습니다. 노퀄로 만든 아이템은 아이템이 시도하는 마법에 대한 세이브에 +4의 상황 보너스를 부여하며, 소유자가 마법으로부터 아이템을 보호하기 위해 특별히 사용하는 세이브(예: 녹슨 손아귀 주문)에도 보너스를 부여합니다.",
+    "PreciousMaterialNoqualDescription": "가볍고 강한 노퀄은 또한 마법에 대한 강력한 저항력을 보여줍니다. 이 저항의 부작용으로 노퀄로 마법 무기를 만들려면 복잡하고 값비싼 연금술 처리가 필요합니다. 누메리아의 검은 군주 케보스 쿨은 이 특성을 완화하기 위해 노퀄과 콜드 아이언의 합금인 소버린 스틸을 개발했습니다. 금속의 결정적인 외관을 보면 깨지기 쉽다고 생각할 수 있지만, 옅은 녹색의 이 소재는 철과 비슷하게 가공할 수 있습니다. 노퀄로 만든 아이템은 아이템이 시도하는 마법에 대한 세이브에 +4의 상황 보너스를 부여하며, 소유자가 마법으로부터 아이템을 보호하기 위해 특별히 사용하는 세이브(예: 녹슨 손아귀 주문)에도 보너스를 부여합니다.",
     "PreciousMaterialOrichalcum": "오리칼쿰",
     "PreciousMaterialOrichalcumDescription": "가장 희귀하고 귀중한 하늘 금속인 오리칼쿰은 시간과 관련된 놀라운 마법 속성 때문에 탐나는 금속입니다. 이 둔탁한 구리빛 금속은 아다만틴만큼 물리적으로 튼튼하지는 않지만, 오리칼쿰의 시간 휨 속성이 이를 보호하여 경도와 HP가 향상됩니다. 오리칼쿰 아이템이 피해를 입어도 파괴되지 않으면 24시간 후에 완전히 복구됩니다.",
     "PreciousMaterialPeachwood": "피치우드",
@@ -3209,7 +3209,7 @@
     "PreciousMaterialSloughstone": "Sloughstone",
     "PreciousMaterialSloughstoneDescription": "Weapons made from sloughstone exploit Verex-That-Was's hatred of his unwilling transformation, turning his own flesh against him. Processing sloughstone is difficult and unpleasant, increasing the DC to craft an item with the material by 4. Structures can't be made out of sloughstone.",
     "PreciousMaterialSovereignSteel": "소버린 스틸",
-    "PreciousMaterialSovereignSteelDescription": "블랙 소버린 케보스 쿨이 만든 이 독특한 냉철과 스카이메탈 노퀄의 합금은 마법의 공격으로부터 보호할 수 있습니다. 두 재료를 함께 냉간 단조하는 과정은 매우 복잡하고 정밀합니다. 소버린 스틸 무기와 방어구를 찾는 캐릭터는 이 희귀 합금으로 만든 장비를 구하기 위해 스타폴로 이동해야 할 것입니다. 소버린 스틸로 방패도 만들 수 있다고 믿는 사람도 있지만, 케보스 쿨은 소버린 스틸 방패는 쓸모가 없다고 소리치며 누구도 그런 방패를 만들지 못하도록 금지했습니다. 지금까지 그의 대장장이들은 너무 두려워서 농담인지 아닌지 확인하지 못했습니다. 모든 주권 강철 아이템(아래 무기 및 방어구 포함)은 아이템이 만드는 마법에 대한 방어력에 상황 보너스 +4를 부여하며, 소유자가 마법으로부터 아이템을 보호하기 위해 특별히 만드는 방어력(예: 녹슨 손아귀 주문에 대한 방어력)에도 보너스를 부여합니다.",
+    "PreciousMaterialSovereignSteelDescription": "블랙 소버린 케보스 쿨이 만든 이 독특한 콜드 아이언과 스카이메탈 노퀄의 합금은 마법의 공격으로부터 보호할 수 있습니다. 두 재료를 함께 냉간 단조하는 과정은 매우 복잡하고 정밀합니다. 소버린 스틸 무기와 방어구를 찾는 캐릭터는 이 희귀 합금으로 만든 장비를 구하기 위해 스타폴로 이동해야 할 것입니다. 소버린 스틸로 방패도 만들 수 있다고 믿는 사람도 있지만, 케보스 쿨은 소버린 스틸 방패는 쓸모가 없다고 소리치며 누구도 그런 방패를 만들지 못하도록 금지했습니다. 지금까지 그의 대장장이들은 너무 두려워서 농담인지 아닌지 확인하지 못했습니다. 모든 주권 강철 아이템(아래 무기 및 방어구 포함)은 아이템이 만드는 마법에 대한 방어력에 상황 보너스 +4를 부여하며, 소유자가 마법으로부터 아이템을 보호하기 위해 특별히 만드는 방어력(예: 녹슨 손아귀 주문에 대한 방어력)에도 보너스를 부여합니다.",
     "PreciousMaterialStandardGrade": "표준 등급",
     "PreciousMaterialWarpglass": "워프글래스",
     "PreciousMaterialWarpglassDescription": "이 기괴한 물질은 소용돌이의 날것과 혼돈의 정수로 만들어집니다. 무기와 아이템으로 제작할 수는 있지만, 너무 불안정하여 방어구나 방패로 사용하기는 어렵습니다. 원시 워프글라스는 놀라운 근력을 지닌 유백색의 유리 같은 재료입니다. 가공하면 외형은 변하지만 속성은 변하지 않으며, 다른 금속과 돌의 무작위 줄무늬로 나타납니다.",
@@ -4050,11 +4050,11 @@
     "TraitAndroid": "안드로이드",
     "TraitAngel": "천사",
     "TraitAnimal": "동물",
-    "TraitAnimist": "애니미스트",
+    "TraitAnimist": "Animist",
     "TraitAnugobu": "아누고부",
     "TraitApex": "에이펙스",
     "TraitAphorite": "아포라이트",
-    "TraitApparition": "망령",
+    "TraitApparition": "Apparition",
     "TraitAppliedToANoninjectionMeleePiercingWeapon": "관통 피해를 주는 비주사식 근접 무기에 적용됩니다.",
     "TraitAppliedToAWindPoweredVehicle": "풍력 차량에 적용",
     "TraitAppliedToAWeapon": "무기에 적용",
@@ -4063,7 +4063,7 @@
     "TraitAppliedToArmor": "갑옷에 적용",
     "TraitAppliedToArmorOrUnarmored": "갑옷 또는 비무장 방위 의류에 적용",
     "TraitAppliedToBasketBagOrContainer": "바구니, 가방 또는 기타 용기에 적용",
-    "TraitAppliedToBeltCapeCloakOrScarf": "벨트, 망토 또는 스카프에 적용",
+    "TraitAppliedToBeltCapeCloakOrScarf": "벨트, 망토, 망토 또는 스카프에 적용",
     "TraitAppliedToBootsCapeCloakOrUmbrella": "부츠, 케이프, 망토 또는 우산에 적용",
     "TraitAppliedToBucklerShield": "버클러 또는 방패에 적용",
     "TraitAppliedToDuelingCapeOrShield": "결투 망토 또는 방패에 적용",
@@ -4074,13 +4074,13 @@
     "TraitAquatic": "아쿠아틱",
     "TraitArcane": "아케인",
     "TraitArchetype": "아키타입",
-    "TraitArchon": "아콘",
+    "TraitArchon": "집정관",
     "TraitArdande": "아르단드",
     "TraitAreaDamage": "면적 피해",
     "TraitArtifact": "아티팩트",
     "TraitAstral": "아스트랄",
     "TraitAsura": "아수라",
-    "TraitAthamaru": "아타마루",
+    "TraitAthamaru": "Athamaru",
     "TraitAttached": "부착됨",
     "TraitAttachedToAThrownWeapon": "투척 무기에 부착",
     "TraitAttachedToCrossbowOrFirearm": "쇠뇌 또는 총기에 부착",
@@ -4089,14 +4089,14 @@
     "TraitAttachedToFirearm": "총기에 부착",
     "TraitAttachedToFirearmFiringMechanism": "총기에 부착(발사 메커니즘)",
     "TraitAttachedToFirearmScope": "총기에 부착(조준경)",
-    "TraitAttachedToMeleeWeapon": "근접 무기에 부착",
+    "TraitAttachedToMeleeWeapon": "Attached to a Melee Weapon",
     "TraitAttachedToShield": "방패에 부착",
     "TraitAttachedToShipsBow": "선박의 뱃머리에 부착",
     "TraitAttack": "공격",
     "TraitAuditory": "청각",
     "TraitAura": "아우라",
     "TraitAutomaton": "오토마톤",
-    "TraitAwakenedAnimal": "깨어난 동물",
+    "TraitAwakenedAnimal": "Awakened Animal",
     "TraitAzarketi": "아자케티",
     "TraitAzata": "아자타",
     "TraitBackstabber": "백스태버",
@@ -4114,9 +4114,9 @@
     "TraitBonded": "유대",
     "TraitBottledBreath": "보틀 브레스",
     "TraitBrace": "부목",
-    "TraitBravado": "브라바도",
+    "TraitBravado": "Bravado",
     "TraitBrutal": "잔인한",
-    "TraitBugbear": "버그베어",
+    "TraitBugbear": "Bugbear",
     "TraitBulwark": "방어벽",
     "TraitCaligni": "칼리니",
     "TraitCalling": "Calling",
@@ -4141,10 +4141,10 @@
     "TraitClimbing": "클라이밍",
     "TraitClockwork": "시계장치",
     "TraitCobbled": "코볼드",
-    "TraitCoagulant": "응고제",
+    "TraitCoagulant": "Coagulant",
     "TraitCoda": "코다",
     "TraitCold": "추위",
-    "TraitColdiron": "냉철",
+    "TraitColdiron": "콜드 아이언",
     "TraitCombination": "조합",
     "TraitComfort": "편안함",
     "TraitCommon": "흔한",
@@ -4152,13 +4152,13 @@
     "TraitComplex": "복잡한",
     "TraitComposite": "합성",
     "TraitComposition": "구성",
-    "TraitConcealable": "가릴수있는",
+    "TraitConcealable": "은폐된",
     "TraitConcentrate": "집중",
     "TraitConcussive": "뇌진탕",
     "TraitConfusion": "혼란",
     "TraitConrasu": "콘라수",
     "TraitConsecration": "헌신",
-    "TraitConstruct": "구조체",
+    "TraitConstruct": "건설",
     "TraitConsumable": "소모품",
     "TraitContact": "접촉",
     "TraitContingency": "컨틴전시",
@@ -4321,7 +4321,7 @@
     "TraitDescriptionDuskwalker": "이 특성을 가진 생물은 더스크워커의 다재다능한 유산을 가지고 있습니다. 더스크워커는 사이코펌프의 초자연적인 에너지가 주입된 차원의 자손입니다. 이 특성을 가진 능력은 더스크워커만 사용하거나 선택할 수 있습니다.",
     "TraitDescriptionDwarf": "이 특성을 가진 생명체는 드워프 혈통의 일원입니다. 드워프는 주로 지하에 사는 강인한 종족으로, 보통 암흑 시각을 가지고 있습니다. 이 특성을 가진 능력은 드워프만 사용하거나 선택할 수 있습니다. 이 특성을 가진 아이템은 드워프가 제작하고 사용합니다.",
     "TraitDescriptionEarth": "대지 특성을 가진 효과는 대지를 조작하거나 생성합니다. 대지를 조작하는 효과는 대지가 없는 지역에서는 효과가 없습니다. 이 특성을 가진 생물은 주로 흙으로 구성되거나 해당 원소와 마법적으로 연결되어 있습니다.",
-    "TraitDescriptionEidolon": "이 특성을 가진 생물은 소환사의 에이돌론입니다. 이 특성이 있는 아이템은 에이돌론이 착용할 수 있습니다. 에이돌론은 최대 두 개까지 아이템을 투자할 수 있습니다.",
+    "TraitDescriptionEidolon": "이 특성을 가진 생물은 소환사의 아이돌론입니다. 이 특성이 있는 아이템은 아이돌론이 착용할 수 있습니다. 아이돌론은 최대 두 개까지 아이템을 투자할 수 있습니다.",
     "TraitDescriptionElectricity": "이 특성을 가진 효과는 전기 피해를 입힙니다. 이 특성을 가진 생물은 전기와 마법적으로 연결되어 있습니다.",
     "TraitDescriptionElemental": "원소와 직접적으로 연결되어 있으며 원소 평면에 원주민으로 존재하는 생물들. 원소체는 숨을 쉴 필요가 없습니다.",
     "TraitDescriptionElf": "이 특성을 가진 생명체는 엘프 혈통의 일원입니다. 엘프는 마법과 학문의 풍부한 전통을 지닌 신비로운 종족으로, 일반적으로 저조도 시야을 가지고 있습니다. 이 특성을 가진 능력은 엘프만 사용하거나 선택할 수 있습니다. 이 특성을 가진 무기는 엘프가 제작하고 사용합니다.",
@@ -4352,8 +4352,8 @@
     "TraitDescriptionFleshwarp": "외부의 힘에 의해 완전히 변형된 휴머노이드는 이제 고유 조상이 되었습니다.",
     "TraitDescriptionFlexible": "갑옷은 대부분의 액션에 방해가 되지 않을 만큼 유연합니다. 곡예나 운동 체크에 페널티가 적용되지 않습니다.",
     "TraitDescriptionFlourish": "번성 액션은 너무 많은 힘을 소모해야 연속으로 수행할 수 있는 액션입니다. 번성 특성이 있는 액션은 한 턴에 하나만 사용할 수 있습니다.",
-    "TraitDescriptionFocus": "집중 주문은 특정 학문 분야, 신 또는 다른 특정 출처에서 직접 습득할 수 있는 특별한 유형의 주문입니다. 집중 주문은 주문 목록에서 선택하는 것이 아니라 특별한 클래스 특징이나 재주를 통해서만 배울 수 있습니다. 또한, 집중 주문은 특별한 포커스 포인트 풀을 사용하여 주문 슬롯에서 집중 주문을 준비하거나 주문 슬롯을 사용하여 집중 주문을 시전할 수 없으며, 마찬가지로 집중 주문이 아닌 다른 주문을 시전하는 데 포커스 포인트를 사용할 수 없습니다.",
-    "TraitDescriptionFocused": "이 특성이 있는 아이템은 추가 포커스 포인트를 획득할 수 있습니다. 이 포커스 포인트는 집중력 풀과는 별개이며, 집중력 풀의 한도에 포함되지 않습니다. 이 혜택은 집중력 풀이 있는 경우에만 얻을 수 있으며, 포인트 사용 방법에는 제한이 있을 수 있습니다. 집중 아이템에서 하루에 1점 이상의 포커스 포인트를 획득할 수 없습니다.",
+    "TraitDescriptionFocus": "집중 주문은 특정 학문 분야, 신 또는 다른 특정 출처에서 직접 습득할 수 있는 특별한 유형의 주문입니다. 집중 주문은 주문 목록에서 선택하는 것이 아니라 특별한 클래스 특징이나 재주를 통해서만 배울 수 있습니다. 또한, 집중 주문은 특별한 집중 포인트 풀을 사용하여 주문 슬롯에서 집중 주문을 준비하거나 주문 슬롯을 사용하여 집중 주문을 시전할 수 없으며, 마찬가지로 집중 주문이 아닌 다른 주문을 시전하는 데 집중 포인트를 사용할 수 없습니다.",
+    "TraitDescriptionFocused": "이 특성이 있는 아이템은 추가 집중 포인트를 획득할 수 있습니다. 이 집중 포인트는 집중력 풀과는 별개이며, 집중력 풀의 한도에 포함되지 않습니다. 이 혜택은 집중력 풀이 있는 경우에만 얻을 수 있으며, 포인트 사용 방법에는 제한이 있을 수 있습니다. 집중 아이템에서 하루에 1점 이상의 집중 포인트를 획득할 수 없습니다.",
     "TraitDescriptionFoldaway": "<p>이 방패는 건틀릿에 부착된 작은 형태로 접을 수 있어 안정적이고 이동이 편리합니다. 인터랙트 액션을 사용하여 방패를 펼치거나 보관할 수 있습니다. 방패가 펼쳐져 있는 동안에는 한 손이 자유롭거나 무기가 아닌 가벼운 물체를 손에 들고 있으면 방패를 들어 올릴 수 있습니다. 방패가 펼쳐져 있는 동안에는 손을 사용할 수 없습니다. 그 손으로 아이템을 잡을 수는 있지만, 그 손으로 무기를 휘두르거나 두 손이 필요한 조작을 하거나 건틀릿으로 공격할 수는 없습니다.</p><p>접이식 보호막은 안정성을 위해 건틀릿에 부착해야 합니다. 이 방패는 10분의 작업 시간과 DC 10의 제작 체크 성공으로 아이템에 부착할 수 있으며, 필요한 경우 이전 건틀렛에서 방패를 제거하는 데 필요한 시간도 여기에 포함됩니다. 건틀렛이 파괴된 경우, 접이식 방패는 보통 회수할 수 있습니다. 방패는 접을 수 있기 때문에 부착 무기를 장착할 수 없습니다.</p>",
     "TraitDescriptionForce": "이 특성을 가진 효과는 힘 피해를 입히거나 순수한 마법의 힘으로 만들어진 물체를 생성합니다.",
     "TraitDescriptionForceful": "이 무기는 기세를 올릴수록 더 위험해집니다. 자신의 차례에 이 무기로 두 번 이상 공격하면 두 번째 공격은 무기 피해 주사위 수만큼 공격력에 대한 상황 보너스를 얻고, 이후 공격할 때마다 무기 피해 주사위 수의 두 배만큼 공격력에 대한 상황 보너스를 얻습니다.",
@@ -4373,7 +4373,7 @@
     "TraitDescriptionGiant": "거인들은 거대한 인간형 생물체입니다..",
     "TraitDescriptionGnoll": "놀은 하이에나를 닮은 휴머노이드입니다.",
     "TraitDescriptionGnome": "이 특성을 가진 생명체는 노움 혈통의 일원입니다. 노움은 새로운 경험을 추구하는 마법에 능숙한 작은 종족으로, 보통 저조도 시력을 가지고 있습니다. 이 특성을 가진 능력은 노움만 사용하거나 선택할 수 있습니다. 이 특성을 가진 무기는 노움이 만들어서 사용합니다.",
-    "TraitDescriptionGoblin": "이 특성을 가진 생물은 고블린, 홉고블린, 버그베어 등 여러 부족의 생물에서 나올 수 있습니다. 고블린은 암흑 시야을 가진 경향이 있습니다. 이 특성을 가진 능력은 고블린만 사용하거나 선택할 수 있습니다. 이 특성을 가진 무기는 고블린이 만들어서 사용합니다.",
+    "TraitDescriptionGoblin": "이 특성을 가진 생물은 고블린, 호브고블린, 버그베어 등 여러 부족의 생물에서 나올 수 있습니다. 고블린은 암흑시력을 가진 경향이 있습니다. 이 특성을 가진 능력은 고블린만 사용하거나 선택할 수 있습니다. 이 특성을 가진 무기는 고블린이 만들어서 사용합니다.",
     "TraitDescriptionGoloma": "무수히 많은 눈을 가진 고립된 휴머노이드.",
     "TraitDescriptionGraft": "<p>이식 특성을 가진 아이템은 호스트에 이식된 살아있는 조직 샘플입니다. 이는 대상의 신체에 영구적으로 통합되며, 해당 생물이 하루에 투자할 수 있는 아이템 수를 1씩 감소시킵니다. 각 이식물은 이 제한을 표시하기 위해 ‘투자된’ 특성을 갖습니다—이식물은 호스트 생물이 선택의 여지 없이 투자해야 하는 투자된 아이템과 유사합니다. 생물체가 투자할 수 있는 아이템의 수가 이미 0으로 감소한 상태에서 새로운 이식물을 얻게 되면, 숙주 신체는 이식물을 거부합니다. 이식물이 완전히 이식된 후에는 별도로 피해를 입을 수 없습니다. 이식물이 숙주 신체에서 분리된 경우, 재생 마법과 같이 일반적으로 사지나 장기를 다시 부착할 수 있는 효과로 다시 부착할 수 있습니다. 이식자는 이식을 제거하는 데 필요한 동일한 과정을 통해 이식을 제거할 수 있지만, 이는 초기 이식으로 대체된 장기를 반드시 복원하지는 않습니다. 이식은 일반적으로 호스트 외부에 생존하기 위해 특수한 보관 조건(예: 연금술 탱크)이 필요합니다. 이식은 이식자가 추가 수술, 변이 개발, 또는 유사한 의료 절차를 적용함으로써 더 강력한 버전으로 업그레이드될 수 있습니다.</p>",
     "TraitDescriptionGrapple": "이 무기를 사용하면 양손이 자유롭지 않아도 운동 기술로 격투할 수 있습니다. 이 경우 무기의 사정거리(자신의 사정거리와 다른 경우)를 사용하며, 무기의 아이템 보너스를 운동 기술 체크에 아이템 보너스로 추가하여 공격 굴림에 추가합니다. 무기를 사용하여 격투 체크에서 대실패하면 무기를 떨어뜨려 대실패 대신 실패의 효과를 받을 수 있습니다.",
@@ -4390,7 +4390,7 @@
     "TraitDescriptionHefty": "무거운 방패는 너무 무거워서 올리려면 더 많은 노력이 필요합니다. 근력 점수가 해당 특성이 있는 수치와 같거나 그 이상이면 무거운 방패를 올리는 데 2번의 액션이 필요합니다.",
     "TraitDescriptionHex": "헥스는 마녀가 시전할 수 있는 일종의 집중 주문입니다.",
     "TraitDescriptionHindering": "이 갑옷은 너무 무겁고 부피가 커서 무슨 일이 있어도 속도가 느려집니다. 모든 이동 속도에 -5의 페널티를 받습니다(최소 5피트 이동 속도까지). 이는 방어구의 속도 감소 효과와는 별개이며, 근력이나 능력으로 방어구의 속도 감소 효과를 줄이거나 무시할 수 있는 경우에도 영향을 받습니다.",
-    "TraitDescriptionHobgoblin": "이 특성을 가진 생물은 키가 크고 군사적인 고블린족입니다. 홉고블린은 어둠 시야를 가지고 있습니다.",
+    "TraitDescriptionHobgoblin": "이 특성을 가진 생물은 키가 크고 군사적인 고블린족입니다. 호브고블린은 어둠 시야를 가지고 있습니다.",
     "TraitDescriptionHoly": "성스러운 특성을 가진 효과는 자비와 미덕의 강력한 마법력과 관련이 있습니다. 종종 부정한 생물에게 더 강력한 효과를 발휘합니다. 이 특성을 가진 생물은 성스러운 일에 강하게 헌신하며, 종종 부정한 것에 약합니다. 신성함에 약점을 가진 생물이 신성 아이템이나 효과를 사용하면, 그 약점으로 인한 피해를 받습니다",
     "TraitDescriptionHryngar": "지하에 사는 난쟁이의 친척인 흐링가르들은 일반적으로 어둠 시야를 가지고 있으며, 독에 저항하고 밝은 빛에 놀라 물러납니다.",
     "TraitDescriptionHuman": "이 특성을 가진 생물은 인간 조상의 일원입니다. 인간은 적응력이 뛰어난 것으로 알려진 다양한 사람들입니다. 이 특성을 가진 능력은 인간만이 사용하거나 선택할 수 있습니다.",
@@ -4435,26 +4435,26 @@
     "TraitDescriptionManipulate": "이 특성을 가진 액션을 사용하려면 아이템을 물리적으로 조작하거나 제스처를 취해야 합니다. 적절한 부속물이 없는 생물은 이 특성을 가진 액션을 수행할 수 없습니다. 조작 액션은 종종 리액션을 트리거합니다.",
     "TraitDescriptionMechanical": "이 특성을 지닌 위험 요소는 구성된 물리적 물체입니다.",
     "TraitDescriptionMental": "정신 효과는 대상의 마음을 바꿀 수 있습니다. 물체나 정신이 없는 생명체에는 영향을 미치지 않습니다.",
-    "TraitDescriptionMerfolk": "이 수생 인간형 생물은 상체는 인간과 유사하고 하체는 물고기와 유사합니다.",
+    "TraitDescriptionMerfolk": "These aquatic humanoids have an upper body similar to a human and a lower body similar to a fish.",
     "TraitDescriptionMetal": "금속 특성을 가진 효과는 금속을 조작하거나 소환합니다. 금속을 조작하는 효과는 금속이 없는 지역에서는 효과가 없습니다. 이 특성을 가진 생물은 주로 금속으로 이루어져 있거나 해당 원소와 마법적으로 연결되어 있습니다.",
     "TraitDescriptionMindless": "무의식 생명체는 프로그래밍된 정신 속성 또는 초보적인 정신 속성을 가지고 있습니다. 전부는 아니더라도 대부분의 정신 속성 수정치는 -5입니다. 이들은 모든 정신 효과에 면역입니다.",
     "TraitDescriptionMindshift": "이 특성이 있는 액션은 언제든지 정신의 원초적인 힘을 사용하도록 변경할 수 있습니다. 이 액션을 사용할 때, 이 액션이 주는 모든 피해를 정신 피해로 바꾸고, 정신 특성을 부여하고, 필요한 저항을 의지 저항으로 바꿀 수 있습니다. 이 액션은 더 이상 입히지 않는 피해 유형과 일치하는 특성을 잃습니다.",
     "TraitDescriptionMinion": "하수인은 다른 생물을 직접적으로 섬기는 생물입니다. 이 특성을 가진 생물은 턴당 액션을 두 번만 사용할 수 있고, 리액션이 없으며, 내 차례가 아닐 때는 행동할 수 없습니다. 당신의 하수인은 전투에서 턴당 한 번, 당신이 액션을 사용해 명령을 내릴 때 당신의 턴에 행동합니다. 동물 동반자의 경우, 당신은 동물에게 명령을 내리고, 소환된 하수인처럼 주문이나 마법 아이템 효과를 받는 하수인이라면 주문 지속 또는 활성화 지속을, 달리 지정되지 않은 경우 청각과 집중 특성을 가진 하수인에게 한 번의 액션으로 구두 명령을 내립니다. 명령을 내리지 않으면 하수인은 자신을 방어하거나 명백한 위험을 피하는 것 외에는 아무 액션도 사용하지 않습니다. 보통 1분 정도 충분히 오래 방치하면 무의미한 하수인은 아무 행동도 하지 않고, 동물은 본능을 따르며, 영리한 하수인은 자신이 원하는 대로 행동합니다. 하수인은 다른 생물을 조종할 수 없습니다.",
-    "TraitDescriptionMinotaur": "미노타우르는 뿔이 난 소 모양의 인간형 생물로, 미로와 퍼즐에 능숙합니다.",
+    "TraitDescriptionMinotaur": "Minotaurs are horned, bovine humanoids with a mastery of mazes and puzzles.",
     "TraitDescriptionMisfortune": "불행 효과는 주사위를 굴리는 방식에 불이익을 줍니다. 한 번의 주사위 굴림에 두 가지 이상의 불행 효과가 적용될 수는 없습니다. 불행 효과가 여러 개 적용될 경우, GM이 어떤 것이 더 나쁜지 결정하여 적용합니다. 행운 효과와 불행 효과가 같은 주사위에 적용될 경우, 두 효과는 서로 상쇄되고 정상적으로 주사위를 굴립니다.",
     "TraitDescriptionMissive": "미시브는 마법 문구류로, 반드시 제작하고 구성해야 활성화할 수 있습니다. 모든 미시브에는 미시브와 소모품 특성이 있습니다. 미시브는 보통 종이, 양피지, 모피지로 제작되지만, 글이나 엠보싱을 넣을 수 있는 얇고 휴대가 간편한 재료라면 무엇이든 미시브로 제작할 수 있습니다. 미시브를 제작한 후에는 그 위에 메시지를 작성하여 마법을 완성하기 전까지는 빈 종이입니다.",
     "TraitDescriptionModification": "이 특성의 재주는 혁신의 구성을 변경합니다. 재구성 클래스 특징이 있으면 이러한 재주를 더 쉽게 재교육할 수 있습니다.",
     "TraitDescriptionModular": "무기에는 인터랙트 액션을 사용하여 전환할 수 있는 여러 가지 구성이 있습니다. 일반적으로 모듈형 무기의 구성을 전환하면 다양한 유형의 피해를 입힐 수 있지만(예: \"모듈형 B, P 또는 S\"와 같이 특성에 나열됨), 모듈형 무기 설명에 더 복잡한 구성이 나열될 수도 있습니다.",
-    "TraitDescriptionMonitor": "액시스, 본야드, 혹은 메일스트롬에서 태어났거나 이들과 강한 연관이 있는 크리처들은 모니터라고 불립니다. 모니터는 외계 공간의 기본 환경 효과로부터 생존할 수 있습니다.",
+    "TraitDescriptionMonitor": "Creatures that hail from or have a strong connection to Axis, the Boneyard, or the Maelstrom are called monitors. Monitors can survive the basic environmental effects of planes in the Outer Sphere.",
     "TraitDescriptionMonk": "이 특성을 가진 능력은 몽크 클래스에 속합니다. 이 특성을 가진 무기는 주로 몽크가 사용합니다.",
     "TraitDescriptionMonkWeapon": "많은 몽크들이 이 무기를 배웁니다.",
     "TraitDescriptionMorph": "생물의 형태를 약간 변경하는 효과에는 변신 특성이 있습니다. 변신 효과에 의해 특별히 부여되는 모든 타격은 마법입니다. 한 번에 여러 개의 변신 주문의 영향을 받을 수 있지만, 같은 신체 부위를 두 번 이상 변신하면 두 번째 변신 효과는 첫 번째 효과를 상쇄하려고 시도합니다(해당 특성에 설명된 두 개의 다형성 효과와 같은 방식으로). 또한, 형상변환 중인 상태에서 형상변환 효과가 자신의 형상변환 효과를 무효화하거나 무시하는 경우에도 형상변환 효과가 종료될 수 있습니다. GM이 함께 사용할 수 있는 변신 효과와 사용할 수 없는 효과를 결정합니다.",
     "TraitDescriptionMounted": "기갑 공성 무기는 일정한 크기와 공간을 차지하며, 일반적으로 공격할 수 있는 통계가 있습니다. 대규모 전쟁에 사용됩니다.",
     "TraitDescriptionMove": "이 특성이 있는 액션은 한 공간에서 다른 공간으로 이동하는 것을 포함합니다.",
     "TraitDescriptionMulticlass": "멀티 클래스 특성을 가진 아키타입은 다른 클래스의 전문 분야로 훈련을 다양화하는 것을 나타냅니다. 같은 이름의 클래스에 소속되어 있는 경우 멀티 클래스 아키타입의 헌신 재주를 선택할 수 없습니다.",
-    "TraitDescriptionMummy": "미라는 보존된 시체에서 만들어진 언데드 생물입니다.",
+    "TraitDescriptionMummy": "A mummy is an undead creature created from a preserved corpse.",
     "TraitDescriptionMutagen": "돌연변이 유발 물질 특성을 가진 엘릭서는 대상의 신체를 일시적으로 변형시키고 정신을 변화시킵니다. 돌연변이 유발제는 항상 하나 이상의 유익한 효과와 하나 이상의 해로운 효과를 함께 전달합니다. 돌연변이 유발제는 다형성 효과이므로 한 번에 하나만 혜택을 받을 수 있습니다.",
-    "TraitDescriptionMutant": "몬스터가 변이하거나 진화하여 특이한 장점, 단점, 또는 둘 다를 얻었습니다.",
+    "TraitDescriptionMutant": "The monster has mutated or evolved, granting it unusual benefits, drawbacks, or both.",
     "TraitDescriptionMythic": "이 특성을 가진 옵션은 신화적 힘을 부여하거나 활용합니다. 신화적 특성을 가진 피트는 신화적 소명을 가진 신화적 캐릭터만 선택할 수 있습니다. 신화적 특성을 가진 몬스터는 신화 포인트 풀을 사용할 수 있으며, 같은 레벨의 다른 생물보다 특히 강합니다. 많은 신화적 몬스터는 신화적이지 않은 생물이나 무기의 공격에 대해 저항력이나 완전히 면역입니다.</p><p>신화적 특성을 가진 주문은 발동하기 위해 신화 포인트를 소모해야 하며, 신화적 특성을 가진 아이템은 활성화된 능력을 사용하기 위해 신화 포인트를 소모해야 합니다.</p><p>신화적 특성을 가진 무기는 신화적 몬스터의 저항력과 면역력을 무력화합니다.",
     "TraitDescriptionNagaji": "파충류의 특징과 뱀의 머리를 가진 전통주의 조상입니다.",
     "TraitDescriptionNephilim": "이 특성을 가진 생물은 네피림의 다재다능한 유산을 가지고 있습니다. 네피림은 다른 행성에서 온 불멸의 존재의 후손인 차원 자손입니다. 이 특성을 가진 능력은 네피림만 사용하거나 선택할 수 있습니다.",
@@ -4462,29 +4462,29 @@
     "TraitDescriptionNoisy": "이 갑옷은 시끄러워서 주목 피하기 탐험 활동을 사용할 때 다른 플레이어에게 자신의 존재를 알릴 가능성이 높습니다. 이 갑옷의 체크 페널티는 요구 조건인 근력 점수를 충족하더라도 은신 체크에 적용됩니다.",
     "TraitDescriptionNone": "이 특성은 설명이 없습니다.",
     "TraitDescriptionNonlethal": "이 무기를 사용한 공격은 치명적이지 않으며 생물을 죽이는 대신 무의식으로 만드는 데 사용됩니다. 치명적이지 않은 무기를 사용하여 -2 상황 페널티를 받고 치명적인 공격을 할 수 있습니다.",
-    "TraitDescriptionNymph": "이 아름다운 요정 생물들의 종족은 자연적인 장소들과 깊은 연관을 가지고 있습니다.",
+    "TraitDescriptionNymph": "This family of beautiful fey creatures has strong ties to natural locations.",
     "TraitDescriptionOath": "맹세는 코드에 추가 원칙을 추가합니다. 이 특성은 보통 한 가지 재주만 가질 수 있습니다.",
     "TraitDescriptionOccult": "이 마법은 오컬트 전통에서 유래한 것으로, 기괴하고 일시적인 신비를 불러일으킵니다. 이 특성을 가진 것은 무엇이든 마법입니다.",
     "TraitDescriptionOil": "오일은 일반적으로 물체에 바르고 그 과정에서 소진되는 마법의 젤, 연고, 페이스트 또는 연고입니다.",
     "TraitDescriptionOlfactory": "후각 효과는 냄새를 맡을 수 있는 생물에게만 영향을 줄 수 있습니다. 이는 GM이 결정하는 대로 후각 효과의 일부에만 적용됩니다.",
-    "TraitDescriptionOni": "오니는 잔인하고 형태를 바꾸는 거인족으로, 과거에 신이었던 존재들입니다.",
-    "TraitDescriptionOoze": "우즈는 해부학적으로 단순한 생물입니다. 정신 속성 수정자가 낮고 정신 효과 및 정밀 피해에 대한 면역력이 있는 경향이 있습니다.",
+    "TraitDescriptionOni": "Oni are a family of brutal, shapechanging giants who were once kami.",
+    "TraitDescriptionOoze": "Oozes are creatures with simple anatomies. They tend to have low mental attribute modifiers and immunity to mental effects and precision damage.",
     "TraitDescriptionOracle": "오라클 클래스의 능력을 나타냅니다.",
     "TraitDescriptionOrc": "이 특성을 가진 생물은 오크 혈통의 일원입니다. 이 특성을 가진 무기는 오크가 제작하여 사용하는 무기입니다.",
     "TraitDescriptionOread": "대지 차원에서 온 존재의 후손인 지니킨의 일종입니다.",
     "TraitDescriptionOverflow": "강력한 충동은 일시적으로 키네틱 게이트의 에너지를 넘치게 합니다. 오버플로 특성이 있는 임펄스를 사용하면 키네틱 오라가 다시 활성화될 때까지 비활성화됩니다(일반적으로 채널 원소를 사용합니다). 원소를 이렇게 심하게 소진하는 것은 부담스럽기 때문에 키네틱 게이트를 다시 활성화하더라도 라운드당 오버플로 임펄스는 한 번만 사용할 수 있습니다.",
-    "TraitDescriptionPalinthanos": "신들의 비와 같은 우주적 사건이 존재하는 모든 것을 뒤흔들 때, 영혼의 강은 충격파로 인해 일시적으로 역류하는 현상이 발생합니다. 충격파에 의해 강제로 멀리 밀려난 영혼들은 역류하는 시간 속에서 죽음을 겪는 고통스러운 경험을 할 수 있습니다. 이 영혼들 중 일부는 흐름이 정상으로 돌아오면 강으로 다시 들어갈 수 있지만, 은유적인 생명의 해안에 좌초된 영혼들은 팔린타노스가 될 수 있습니다. 팔린타노스는 역행한 죽음에서 태어난 강력한 언데드로, 강으로 다시 추방될 때까지 무의미한 투쟁을 계속합니다.",
+    "TraitDescriptionPalinthanos": "When a cosmic event like Godsrain disturbs all that exists, the River of Souls sometimes flows backward for a brief moment, literally, from the shockwave. Unwilling and confused souls that are forced back far enough can have the agonizing experience of enduring death in reversed time. Some of these souls manage to re-enter the river once the flow returns to normal, but those who are stranded on the metaphorical shores of the living can become palinthanos: powerful undead born from their reversed demise who struggle futilely until their predestined banishment back to the River.",
     "TraitDescriptionParry": "이 무기는 방어적으로 사용하여 공격을 막을 수 있습니다. 이 무기를 사용하는 동안 훈련된 숙련도 이상이면 한 번의 액션을 사용하여 무기를 방어적으로 배치하고 다음 턴이 시작될 때까지 AC에 +1의 상황 보너스를 얻을 수 있습니다.",
     "TraitDescriptionPeachwood": "피치우드 무기는 직사광선을 받으면 특히 황갈색으로 빛납니다. 피치우드는 더스크우드와 관련된 언데드 생물의 저항이나 약점에 대해 더스크우드로 취급됩니다(예를 들어, 피치우드 무기는 강시의 저항을 우회할 수 있습니다). 또한, 피치우드 무기는 언데드 생물의 저항 중 일부를 우회합니다. 피치우드 무기로 공격하면 언데드의 물리 피해에 대한 저항이 일반 등급 피치우드는 2, 고급 등급은 4 낮게 적용됩니다.",
-    "TraitDescriptionPersonaFlirt": "대중은 당신을 그룹에서 가장 로맨틱한 사람으로 인식하며, 외모에 의존해 살아가는 유혹자나 텅 빈 허세꾼으로 여겨질 수 있습니다. 당신은 파티에 아무런 가치도 기여하지 않는 사람으로 보일 수 있습니다.",
-    "TraitDescriptionPersonaGuardian": "대중은 당신을 그룹의 치유자이자 보호자로 인식하지만, 일부는 당신이 \"진정한 영웅\"으로 보기에는 너무 마음이 약하고 소심하다고 생각할 수도 있습니다.",
-    "TraitDescriptionPersonaLeader": "대중은 당신을 그룹의 리더로 인식하지만, 일부는 당신을 너무 과격하거나 심지어 교만하다고 생각합니다.",
-    "TraitDescriptionPersonaScholar": "대중은 당신을 문제 해결자이자 그룹의 두뇌로 여기지만, 일부는 당신을 교만하거나 신체적 업무에 능숙하지 못하다고 생각합니다.",
-    "TraitDescriptionPersonaScoundrel": "대중은 당신이 그룹의 \"나쁜 남자/나쁜 여자\"로, 불쾌하지만 필요한 일을 처리하는 인물이라고 믿고 있습니다. 하지만 때로는 당에 대한 범죄자나 잠재적 배신자로 여겨지기도 합니다. ",
-    "TraitDescriptionPersonaUnderdog": "대중은 당신을 \"물 밖의 물고기\"로 인식합니다—우연히 그룹에 휘말려 들어갔지만 여전히 성공을 거두는 사람으로, 때로는 약한 고리나 패배자로 여겨지는 인물입니다.",
-    "TraitDescriptionPersonaWarrior": "일반 대중은 당신을 그 그룹의 강경파로 보고 있습니다. 싸움에서는 뛰어나지만, 때로는 잔인하거나 무례하거나 심지어 괴롭힘을 가하는 사람으로 여겨지기도 합니다.",
-    "TraitDescriptionPersonaWildcard": "대중은 당신을 그룹 내에서 유머러스하고 독특한 아이디어의 원천으로 인식하지만, 그 명성은 양날의 검과도 같습니다. 일부는 당신을 부담스러운 존재나 신뢰할 수 없는 사람으로 여기기 때문입니다.",
-    "TraitDescriptionPhantom": "유령은 심판을 받기 전에 에테리얼 플레인의 영혼의 강에서 분리된 영혼입니다. 일반적으로 죽음 전의 기억을 유지하고 있지만 언데드는 아닙니다.",
+    "TraitDescriptionPersonaFlirt": "The public perceives you as the most romantic of the group, and you may be thought of as a seducer or vapid pretender who gets by on their looks and brings nothing of value to the party.",
+    "TraitDescriptionPersonaGuardian": "The public perceives you as the healer and protector of the group, but some may also consider you too soft-hearted and meek to be a \"true hero.\"",
+    "TraitDescriptionPersonaLeader": "The public perceives you as the leader of the group, but some likewise consider you too brash or even pompous.",
+    "TraitDescriptionPersonaScholar": "The public considers you the problem-solver and brains of the group, though some also perceive you as arrogant or incapable of physical tasks.",
+    "TraitDescriptionPersonaScoundrel": "The public is convinced you are the \"bad boy/bad girl\" of the group who gets the distasteful but necessary things done, but who is at times thought of as a criminal or potential traitor to the party.",
+    "TraitDescriptionPersonaUnderdog": "The public perceives you as a \"fish out of water\"—someone who accidently got swept up by the group and still manages to triumph, but who is sometimes thought of as a weak link or loser.",
+    "TraitDescriptionPersonaWarrior": "The public believes you are the strong-arm of the group, the person who excels in a fight but is also at times considered cruel, uncouth, or even a bully.",
+    "TraitDescriptionPersonaWildcard": "The public perceives you as a source of whimsy, outlandish ideas, and comedy in the group, but that reputation is a double-edged sword, as some also consider you a liability or unreliable.",
+    "TraitDescriptionPhantom": "A phantom is soul that has diverged from the River of Souls on the Ethereal Plane before being judged. They typically retain memories of their life before death but are not undead.",
     "TraitDescriptionPlant": "식물성 생물은 식물 특성을 가지고 있습니다. 식물은 일반 식물과 구별됩니다. 이 특성을 가진 마법 효과는 어떤 식으로든 식물이나 식물 물질을 조작하거나 만들어냅니다. 식물을 조작하는 효과는 식물이 없는 지역에서는 효과가 없습니다.",
     "TraitDescriptionPoison": "이 특성을 가진 효과는 독을 전달하거나 독 피해를 입힙니다. 이 특성이 있는 아이템은 독성이 있으며 고통을 유발할 수 있습니다.",
     "TraitDescriptionPolymorph": "이 효과는 대상을 새로운 형태로 변화시킵니다. 대상은 한 번에 두 개 이상의 다형성 효과의 영향을 받을 수 없습니다. 대상이 두 번째 다형체 효과의 영향을 받는 경우, 두 번째 다형체 효과는 첫 번째 다형체 효과를 상쇄하려고 시도합니다. 성공하면 효과가 적용되고, 실패하면 해당 주문은 해당 대상에게 효과가 없습니다. 다형체 효과에 의해 특별히 부여되는 모든 타격은 마법입니다. 달리 명시되지 않는 한, 다형체 주문은 대상이 특정 개별 생물의 모습을 취하는 것이 아니라 일반적인 유형이나 혈통의 일반 생물의 모습을 취하게 합니다. 다형성 주문으로 전투 형태를 취하면 특수 능력치는 상황 보너스, 상태 보너스, 페널티에 의해서만 조정할 수 있습니다. 별도의 설명이 없는 한, 전투 형태에서는 주문 시전, 말하기, 손이 필요한 대부분의 조작 액션을 사용할 수 없습니다. (액션을 사용할 수 있는지 여부는 GM이 결정합니다.) 장비는 자신에게 흡수되며, 장비의 상시 능력은 계속 작동하지만 아이템은 활성화할 수 없습니다.",
@@ -4516,7 +4516,7 @@
     "TraitDescriptionReach": "이 특성을 가진 자연 공격은 인접한 생물만 공격하는 대신 나열된 거리까지 멀리 있는 생물을 공격하는 데 사용할 수 있습니다. 이 특성이 있는 무기는 길이가 길며, 인접한 생물만 공격하는 대신 최대 10피트 떨어진 생물까지 공격할 수 있습니다. 이미 무기를 휘두르는 팔다리의 범위가 있는 생물의 경우, 무기의 범위가 5피트 증가합니다.",
     "TraitDescriptionReckless": "무모한 특성이 있는 액션은 조종사가 기체에 대한 통제권을 잃을 위험이 있습니다. 무모한 액션을 수행할 때 파일럿은 먼저 적절한 파일럿 체크를 시도하여 차량 제어권을 유지해야 합니다.",
     "TraitDescriptionRecovery": "복원 무기는 던진 무기가 목표물을 빗나갔을 때 던진 사람에게 돌아오도록 설계된 무기입니다. 이 무기로 던진 공격이 실패하면, 공격이 완료된 후 무기는 다시 내 손으로 날아와 다시 시도할 수 있습니다. 무기가 돌아올 때 손이 가득 차 있으면 무기는 내 공간의 바닥에 떨어집니다.",
-    "TraitDescriptionReincarnated": "이 조상 피트는 배경 스토리에서 또는 플레이 중에 환생한 적이 한 번 이상 있는 모든 캐릭터가 사용할 수 있습니다.",
+    "TraitDescriptionReincarnated": "This ancestry feat is available to any character who has reincarnated at least once, either as part of their backstory or because of a reincarnation that took place during play.",
     "TraitDescriptionReflection": "이 특성을 가진 생물은 리플렉션 다재다능한 유산을 가지고 있습니다. 리플렉션은 복제, 평면 복제, 또는 다른 메커니즘을 통해 살아있는 사람의 복사본이 된 존재입니다. 이 특성을 가진 능력은 리플렉션만 사용하거나 선택할 수 있습니다.",
     "TraitDescriptionRelic": "유물 특성을 가진 아이템은 착용자와 함께 위력이 증가합니다.",
     "TraitDescriptionReload": "모든 무기는 장전하는 데 어느 정도 시간이 필요하지만, 원거리 무기는 장전하고 재장전하는 데도 많은 시간이 필요합니다. 이 항목은 해당 무기를 재장전하는 데 필요한 인터랙트 액션 수를 나타냅니다. 탄약을 뽑는 것과 무기를 발사하는 것이 동일한 액션의 일부인 경우 0이 될 수 있습니다. 아이템 재장전에 2개 이상의 액션이 필요한 경우, GM은 이 액션들을 하나의 활동으로 함께 수행해야 하는지 아니면 한 턴에 일부만 사용하고 나머지는 다음 턴에 사용할 수 있는지를 결정합니다.",
@@ -4530,9 +4530,9 @@
     "TraitDescriptionScroll": "주문 주문서에는 주문 슬롯 없이 시전할 수 있는 주문이 하나 들어 있습니다.",
     "TraitDescriptionScrying": "점술 효과는 자신의 눈과 귀가 아닌 센서나 장치를 사용하여 먼 거리에서 보고, 듣고, 감각 정보를 얻을 수 있게 해줍니다.",
     "TraitDescriptionSecret": "이 능력은 GM이 비밀리에 체크합니다.",
-    "TraitDescriptionSedacthy": "해양에 사는 인간형 생물로, 해양 생물과 소통할 수 있으며 보통 어둠 시야와 파동 감지 능력을 갖추고 있습니다.",
-    "TraitDescriptionSerpentfolk": "서펀트포크는 뱀 모양의 인간형 생물 종족입니다.",
-    "TraitDescriptionShade": "쉐이드는 심판을 받은 후 다른 차원의 원주민으로 변환된 인간 영혼입니다. 청원자들은 자신의 고향 차원의 기본 환경 효과를 견딜 수 있습니다.",
+    "TraitDescriptionSedacthy": "Ocean-dwelling humanoids who communicate with sea life and usually have darkvision and wavesense.",
+    "TraitDescriptionSerpentfolk": "Serpentfolk are a family of serpentine humanoids.",
+    "TraitDescriptionShade": "Shades are mortal souls who have been judged and then transformed into creatures native to other planes. Petitioners can survive the basic environmental effects of their home plane.",
     "TraitDescriptionShadow": "이 마법에는 그림자 또는 네더월드의 에너지가 사용됩니다.",
     "TraitDescriptionShieldThrow": "이 특성이 있는 방패는 원거리 공격으로 던지도록 설계되었습니다.",
     "TraitDescriptionShisk": "지하에 서식하는 뼈의 깃털로 덮인 비밀스러운 휴머노이드입니다.",
@@ -4545,7 +4545,7 @@
     "TraitDescriptionSocial": "사회적 특성이 있는 액션과 능력은 비질란테가 사회적 신분을 유지하고 있는 동안에만 사용할 수 있습니다.",
     "TraitDescriptionSonic": "음파 특성이 있는 효과는 소리를 낼 때만 작동하므로 고요한 공간이나 진공 상태에서는 효과가 없습니다. 이는 대상이 들을 수 있을 때만 효과가 있는 청각 주문과는 다릅니다. 음파 효과는 음파 피해를 입힐 수 있습니다.",
     "TraitDescriptionSorcerer": "소서러 클래스의 능력을 나타냅니다.",
-    "TraitDescriptionSoulbound": "이 구조체들은 한때 살아있던 생물의 영혼의 조각에 의해 정신적으로 강화됩니다.",
+    "TraitDescriptionSoulbound": "These constructs are mentally augmented by a fragment of a once-living creature's soul.",
     "TraitDescriptionSpellgun": "주문총 특성은 총알처럼 날아가는 마법 효과를 생성할 수 있는 아이템에 나타납니다. 주문 총으로 주문 공격 주사위를 굴리거나 간단한 총기 숙련도를 사용해 원거리 공격 주사위를 굴릴 수 있습니다. 주문 총에는 사거리 증가 효과가 있으며, 이는 어떤 유형의 공격 굴림을 하든 적용됩니다. 단순 총기에 수정치를 사용할 수 있지만, 주문총은 실제로 총기가 아닙니다. 총기 일격의 피해나 치명타 전문화 같은 다른 혜택을 받을 수 없습니다. 마찬가지로 주문 총을 장전하거나 재장전할 수 없으며, 주문 총에 부적을 부착하거나 총기 일격을 가할 수 있는 액션의 일부로 주문 총 일격을 가하는 등의 행동을 할 수 없습니다.",
     "TraitDescriptionSpellheart": "주문심장은 부적과 유사한 효과를 지닌 영구 아이템입니다. 주문심장 부착하기 활동을 통해 주문심장을 부착할 수 있으며, 그 외에는 부적 부착과 동일합니다. 아이템당 부적 1개 제한은 그대로 유지되며, 아이템에는 주문심장 하나 또는 부적 하나만 부착할 수 있고 둘 다 부착할 수는 없습니다. 주문심장으로 캔트립을 시전할 때는 주문 공격력 주사위를 사용하거나 주문 DC가 더 높을 경우 사용할 수 있습니다. 주문심장을 제작하려면 주문 심장이 시전할 수 있는 주문이 필요합니다. 예를 들어, 주요 다섯 깃털 화환을 만들려면 공중 보행, 강풍 폭발, 바람의 벽이 필요합니다.",
     "TraitDescriptionSpellshape": "주문형상 액션은 주문의 속성을 변경합니다. 주문형상 액션은 변경하려는 주문을 시전하기 바로 전에 사용해야 합니다. 주문 시전 직후에 주문을 시전하는 것 외에 다른 액션(자유 액션 및 리액션 포함)을 사용하면 주문형상 액션의 이점을 잃게 됩니다. 주문을 시전하기 전에 자신의 턴이 끝나면 이 혜택도 사라집니다. 주문형상 액션으로 추가되는 모든 효과는 주문 효과의 일부이지 주문형상 액션 자체의 일부가 아닙니다.",
@@ -4560,7 +4560,7 @@
     "TraitDescriptionStructure": "구조물 특성이 있는 아이템은 활성화하면 마법 건물이나 다른 구조물을 생성합니다. 아이템은 다른 구조물이 없는 대지에서 활성화해야 합니다. 구조물은 자연 지형에 적응하여 그곳에 건설할 수 있는 구조 요구 조건을 적용합니다. 구조물은 연못이나 바위 첨탑과 같은 작은 특징을 중심으로 조정되지만, 물이나 기타 단단한 표면에는 생성할 수 없습니다. 눈, 모래 언덕 또는 아래에 단단한 표면이 있는 기타 부드러운 표면에서 활성화하면 구조물의 기초(있는 경우)가 단단한 지면에 닿게 됩니다. 이 특성이 있는 아이템이 늪이나 지진이 자주 발생하는 지역처럼 단단하지만 불안정한 표면에서 활성화되면 매일 @Check[type:flat|dc:3]을 굴려 실패하면 구조물이 가라앉거나 붕괴하기 시작합니다. 구조물이 나타날 때 해당 지역 내의 생물에게는 해를 끼치지 않으며, 군중이나 인구 밀집 지역에는 구조물을 만들 수 없습니다. 아이템이 활성화되었을 때 실수로 구조물 안에 갇힌 생명체는 전체 구조물 안에서 무사히 탈출할 수 있으며, 항상 탈출 경로가 명확합니다. 활성화가 종료될 때 구조물 안에 있던 생명체는 해를 입지 않으며, 구조물의 위층에 있었다면 무사히 바닥에 떨어집니다.",
     "TraitDescriptionSubtle": "미묘한 특성을 가진 주문은 주문 없이 시전할 수 있으며 뚜렷한 효과가 나타나지 않습니다.",
     "TraitDescriptionSuli": "술리는 지니의 후손인 차원 자손입니다.",
-    "TraitDescriptionSurki": "수르키는 지하에 사는 곤충형 조상 종으로, 주변의 마법을 흡수하여 독특한 적응력을 진화시킨 종입니다.",
+    "TraitDescriptionSurki": "Surkis are a subterranean insectile ancestry that absorb ambient magic and evolve unique adaptations.",
     "TraitDescriptionSummon": "소환 특성이 있는 주문은 일반적으로 특정 특성을 가진 생물을 소환할 수 있습니다. 이러한 생물은 몬스터 코어와 유사한 책에서 찾을 수 있습니다. 특별한 언급이 없는 한, 해당 생물은 일반 생물이어야 하고, 소환 특성을 얻어야 하며, 해당 생물을 포함할 수 있을 만큼 넓은 범위의 비어 있는 공간에 나타나야 합니다. 주문으로 소환할 수 있는 최고 레벨의 생물은 주문의 등급에 따라 아래 목록과 같이 달라집니다. 주문은 원하는 경우 더 낮은 레벨의 생물을 소환할 수도 있습니다. 이 규칙은 소환 특성이 있는 주문에만 적용되며, 소환 도구처럼 아이템이나 존재를 부르거나 소환하지만 해당 특성이 없는 다른 주문은 주문에 설명된 대로 작동합니다.",
     "TraitDescriptionSummoned": "주문 또는 효과에 의해 호출된 생물은 소환된 특성을 얻습니다. 소환된 생물은 다른 생물을 소환하거나, 가치 있는 물건을 만들거나, 비용이 필요한 주문을 시전할 수 없습니다. 하수인 특성이 있습니다. 소환된 생물이 자신을 소환한 주문과 같거나 더 높은 등급의 주문을 시전하려고 하면, 소환 마법을 무력화하여 자신의 주문이 실패하고 소환 주문이 종료됩니다. 그렇지 않으면, 소환된 생물은 같은 종류의 생물에 대한 표준 능력을 사용합니다. 소환된 생물은 일반적으로 최선을 다해 적을 공격합니다. 소환수와 의사소통이 가능하다면 소환수에게 명령을 내릴 수 있지만, 소환수가 당신의 명령을 얼마나 따를지는 GM이 결정합니다. 주문 시전이 끝나는 즉시, 소환된 생물은 해당 턴에 자신의 액션 2장을 사용합니다. 소환된 생물로부터 생성된 스폰 또는 다른 생물은 소환된 생물이 사라진 후 변경되지 않은 상태(스폰의 경우 보통 시체)로 돌아갑니다. 이 상태가 무엇인지 불분명할 경우, GM이 결정합니다. 소환된 생물은 다양한 주문과 효과에 의해 추방될 수 있습니다. HP가 0으로 감소하거나 소환한 주문이 끝나면 자동으로 추방됩니다.",
     "TraitDescriptionSummoner": "소환사 클래스의 능력을 나타냅니다.",
@@ -4571,7 +4571,7 @@
     "TraitDescriptionTalisman": "부적은 갑옷, 방패 또는 무기에 부착하는 작은 물체(부착 아이템이라고 함)입니다. 부착된 부적을 활성화하려면 아이템을 휘두르거나 착용하고 있어야 합니다. 부적이 활성화되면 영구적으로 소멸됩니다.",
     "TraitDescriptionTalos": "탈로스는 주라의 후손인 차원 자손입니다.",
     "TraitDescriptionTandem": "이 특성이 있는 액션은 자신과 에이돌론이 함께 행동하는 것입니다. 자신이나 에이돌론 중 한 명이 행동할 수 없거나, 에이돌론을 발현하지 않았거나, 에이돌론이 별도의 개체가 아닌 방식으로 발현한 경우(예: 에이돌론에 녹아들기 재주)에는 탠덤 액션을 사용할 수 없습니다. 탠덤 액션을 사용하면 자신과 에이돌론이 각각 별도의 액션을 취할 수 있지만, 이는 반드시 자신과 에이돌론이 각각 따로 취하는 액션이어야 하며, 탠덤 액션을 사용하여 다른 탠덤 액션을 취할 수 없습니다.",
-    "TraitDescriptionTane": "타네는 첫 번째 세계의 가장 오래된 존재에 의해 수억 년 전에 창조된 강력한 생물체입니다. 모든 타네는 자신이 속한 차원을 자신의 고향 차원으로 여깁니다.",
+    "TraitDescriptionTane": "The Tane are powerful creatures created eons ago by the Eldest of the First World. All of the Tane treat whatever plane they happen to be on as their home plane.",
     "TraitDescriptionTattoo": "문신은 동물의 피부에 그리거나 자르는 일종의 아이템으로, 일반적으로 이미지나 상징의 형태를 취합니다.",
     "TraitDescriptionTea": "<p>마법의 차는 일종의 물약입니다. 마시면 활성화되어 물약이 소진됩니다. 마법 차에는 물약과 차의 특성이 있습니다. 마법 차를 제작할 때 공급하는 원료는 특이하고 값비싼 찻잎의 형태입니다. 마법 차를 만드는 과정에는 찻잎에 마법 시약을 주입하고, 물을 정화하고, 차를 물에 담그는 과정이 포함되며, 그 결과 특별한 맛의 물약이 만들어집니다. 마법의 차를 마실 때 상호작용 액션으로 활성화하거나 다른 생물에게 먹이면 물약처럼 마법의 차를 활성화할 수 있습니다. 또한, 10분의 활동으로 마법의 차를 활성화할 수 있는데, 이 활동은 최대 4명이 동시에 공유할 수 있는 고급 다기(장인의 도구)를 사용해 차를 준비한 다음 짧은 다도를 통해 차를 마시거나 누군가에게 선물하면 마법의 차의 효과가 시작되며, 이 방법으로 마법의 차를 활성화하면 각 항목의 다도에 설명된 대로 효과가 강화됩니다.</p><p>마법의 차를 한 번 마시면 24시간 동안 해당 마법의 차에 일시적으로 면역이 됩니다.</p>",
     "TraitDescriptionTearing": "이 무기는 구부러진 이빨로 가장자리가 날카로워 출혈을 일으키는 상처를 남깁니다. 이 무기로 생물을 공격하면 추가적으로 1의 지속 출혈 피해가 발생합니다. 이 무기에 더 큰 타격 룬이 장착되어 있으면 지속 출혈 피해가 2로 증가합니다.",
@@ -4597,7 +4597,7 @@
     "TraitDescriptionUnholy": "불경한 특성을 가진 효과는 잔인함과 죄악의 강력한 마법과 관련이 있습니다. 성스러운 생물에게 더 강력한 효과를 주는 경우가 많습니다. 이 특성을 가진 생물은 부정한 목적에 강하게 헌신하며, 종종 성스러운 것에 약합니다. 부정한 것에 약점을 가진 생물이 불경한 아이템이나 효과를 사용하면 그 약점으로 인해 피해를 받습니다.",
     "TraitDescriptionUnique": "이 특성을 가진 규칙 요소는 유일무이합니다. 이 특성을 가진 생물과 관련된 지식 회상 체크의 DC가 10 증가합니다.",
     "TraitDescriptionUnstable": "불안정한 액션은 본인도 완전히 예측할 수 없는 혁신의 실험적 기능에 의존합니다. 혁신에 불안정한 액션을 사용한 후 다른 액션을 사용하는 것은 위험합니다.",
-    "TraitDescriptionVampire": "피에 목마른 언데드 생물인 뱀파이어는 다재다능하고 파괴하기 어려운 것으로 악명 높습니다.",
+    "TraitDescriptionVampire": "Undead creatures who thirst for blood, vampires are notoriously versatile and hard to destroy.",
     "TraitDescriptionVanara": "영장류와 같은 특징과 날카로운 꼬리를 가진 호기심 많은 조상입니다.",
     "TraitDescriptionVehicular": "차량용 무기는 차량에 부착하거나 탈것에 착용하며, 일반적으로 차량 운전자 또는 탈것의 주 탑승자만 사용할 수 있습니다. 운전자 또는 탑승자는 차량을 조종하거나 탈것을 안내할 때 사용하는 것과 같은 손으로 차량 무기를 제어할 수 있습니다. 차량 무기는 조작 장치(일반적으로 탈것의 고삐 또는 차량의 조향 장치)를 착용자의 손에서 떼어내면 무장 해제할 수 있습니다.",
     "TraitDescriptionVenomous": "이 무기는 타격할 때마다 독을 주입합니다. 이 무기로 생물을 타격하면 1의 지속 독 피해가 추가로 발생합니다. 이 무기에 더 큰 타격 룬이 장착되어 있으면 지속 독 피해가 2로 증가합니다.",
@@ -4613,14 +4613,14 @@
     "TraitDescriptionWater": "물 특성을 가진 효과는 물을 조작하거나 생성합니다. 물을 조작하는 효과는 물이 없는 지역에서는 효과가 없습니다. 이 특성을 가진 생물은 주로 물로 구성되어 있거나 물과 마법적으로 연결되어 있습니다.",
     "TraitDescriptionWerecreature": "이 변신 생물들은 동물형, 인간형, 그리고 하이브리드 형태 사이를 자유롭게 변신할 수 있습니다.",
     "TraitDescriptionWight": "와이트는 생명을 흡수하는 언데드 생물이며, 무덤을 지키고 있는 존재입니다.",
-    "TraitDescriptionWildHunt": "야생 사냥 특성을 가진 생물은 14레벨 이하가 아닙니다. 향상된 암흑 시야, 녹색 시력, 차원 적응, 야생 시선, 본능적 협력, 냉철에 약함, 동식물과의 대화 능력, 고유한 야생 사냥 고리를 가지고 있습니다.",
+    "TraitDescriptionWildHunt": "야생 사냥 특성을 가진 생물은 14레벨 이하가 아닙니다. 향상된 암흑 시야, 녹색 시력, 차원 적응, 야생 시선, 본능적 협력, 콜드 아이언에 약함, 동식물과의 대화 능력, 고유한 야생 사냥 고리를 가지고 있습니다.",
     "TraitDescriptionWitch": "윗치 클래스의 능력을 나타냅니다.",
     "TraitDescriptionWizard": "위자드 클래스의 능력을 나타냅니다.",
     "TraitDescriptionWraith": "와이트는 공허의 에너지로 충만해져 모든 생명에 대한 증오로 움직이는 무형의 불사체입니다.",
     "TraitDescriptionWood": "나무 특성을 가진 효과는 나무를 소환하거나 조작합니다. 나무를 조종하는 효과는 나무가 없는 지역에서는 효과가 없습니다. 이 특성을 가진 생물은 주로 나무로 이루어져 있거나 마법의 나무와 관련이 있습니다.",
     "TraitDescriptionXulgath": "이 지하에 사는 파충류 생물들은 어둠을 볼 수 있고 냄새가 매우 나쁘다.",
     "TraitDescriptionZombie": "이 언데드는 살아있는 살을 갈망하는 무의식적인 썩은 시체들입니다.",
-    "TraitDestiny": "운명",
+    "TraitDestiny": "Destiny",
     "TraitDetection": "탐지",
     "TraitDeviant": "비정상",
     "TraitDevil": "데빌",
@@ -4633,7 +4633,7 @@
     "TraitDoubleBarrel": "더블 배럴",
     "TraitDowntime": "다운타임",
     "TraitDragon": "드래곤",
-    "TraitDragonblood": "드래곤블러드",
+    "TraitDragonblood": "Dragonblood",
     "TraitDream": "꿈",
     "TraitDromaar": "드로마르",
     "TraitDrow": "드로우",
@@ -4728,9 +4728,9 @@
     "TraitGoblin": "고블린",
     "TraitGolem": "골렘",
     "TraitGoloma": "골로마",
-    "TraitGraft": "그래프트",
+    "TraitGraft": "Graft",
     "TraitGrapple": "그래플",
-    "TraitGraveknight": "무덤기사",
+    "TraitGraveknight": "Graveknight",
     "TraitGremlin": "그렘린",
     "TraitGrimoire": "마도서",
     "TraitGrioth": "그리오스",
@@ -4748,7 +4748,7 @@
     "TraitHefty2": "무거운 2",
     "TraitHeldOneHand": "한 손으로 잡기",
     "TraitHeldOneHandFreeStanding": "한 손으로 잡거나 독립형으로 사용 가능",
-    "HeldInOneHandHungOnACordOrAttachedToClothing": "한 손에 들고, 줄에 걸어두거나 옷에 부착할 수 있습니다.",
+    "HeldInOneHandHungOnACordOrAttachedToClothing": "Held in 1 hand, hung on a cord, or attached to clothing",
     "TraitHeldOneTwoHands": "한 손 또는 두 손으로 잡기",
     "TraitHeldTwoHands": "두 손으로 잡기",
     "TraitHerald": "헤럴드",
@@ -4760,12 +4760,12 @@
     "TraitHryngar": "흐린가",
     "TraitHuman": "인간",
     "TraitHumanoid": "휴머노이드",
-    "TraitHungerseed": "헝거시드",
+    "TraitHungerseed": "Hungerseed",
     "TraitIfrit": "아이프릿",
     "TraitIkeshti": "이케슈티",
     "TraitIkon": "Ikon",
     "TraitIllusion": "환상",
-    "TraitImplanted": "이식된",
+    "TraitImplanted": "Implanted",
     "TraitImpulse": "임펄스",
     "TraitIncapacitation": "무력화",
     "TraitIncarnate": "화신",
@@ -4864,16 +4864,16 @@
     "TraitPaaridar": "파리다르",
     "TraitPalinthanos": "Palinthanos",
     "TraitParry": "패리",
-    "TraitPersonaFlirt": "페르소나: 유혹",
-    "TraitPersonaGuardian": "페르소나: 수호자",
-    "TraitPersonaLeader": "페르소나: 리더",
-    "TraitPersonaScholar": "페르소나: 학자",
-    "TraitPersonaScoundrel": "페르소나: 악당",
-    "TraitPersonaUnderdog": "페르소나: 약자",
-    "TraitPersonaWarrior": "페르소나: 전사",
-    "TraitPersonaWildcard": "페르소나: 와일드카드",
+    "TraitPersonaFlirt": "Persona: Flirt",
+    "TraitPersonaGuardian": "Persona: Guardian",
+    "TraitPersonaLeader": "Persona: Leader",
+    "TraitPersonaScholar": "Persona: Scholar",
+    "TraitPersonaScoundrel": "Persona: Scoundrel",
+    "TraitPersonaUnderdog": "Persona: Underdog",
+    "TraitPersonaWarrior": "Persona: Warrior",
+    "TraitPersonaWildcard": "Persona: Wildcard",
     "TraitPervasiveMagic": "퍼베이시브 매직",
-    "TraitPetitioner": "탄원자",
+    "TraitPetitioner": "청원자",
     "TraitPhantom": "팬텀",
     "TraitPhysical": "물리적",
     "TraitPiercing": "관통",
@@ -4996,7 +4996,7 @@
     "TraitReckless": "무모한",
     "TraitRecovery": "복원",
     "TraitReflection": "리플렉션",
-    "TraitReincarnated": "환생한",
+    "TraitReincarnated": "Reincarnated",
     "TraitRelic": "유물",
     "TraitReload": "재장전",
     "TraitReload0": "재장전 0",
@@ -5011,7 +5011,7 @@
     "TraitSahkil": "사킬",
     "TraitSamsaran": "삼사란",
     "TraitSanctified": "성화",
-    "TraitSarangay": "사랑가이",
+    "TraitSarangay": "Sarangay",
     "TraitScatter": "분산",
     "TraitScatter10": "흩어짐 10",
     "TraitScatter15": "흩어짐 15",
@@ -5070,7 +5070,7 @@
     "TraitSummon": "소환",
     "TraitSummoned": "소환된",
     "TraitSummoner": "소환사",
-    "TraitSurki": "수르키",
+    "TraitSurki": "Surki",
     "TraitSwarm": "스웜",
     "TraitSwashbuckler": "스워시버클러",
     "TraitSweep": "스윕",
@@ -5080,7 +5080,7 @@
     "TraitTandem": "탠덤",
     "TraitTane": "테인",
     "TraitTanggal": "탕갈",
-    "TraitTanuki": "타누키",
+    "TraitTanuki": "Tanuki",
     "TraitTattoo": "타투",
     "TraitTattooedOnTheBody": "몸에 새긴 타투",
     "TraitTea": "차",
@@ -5104,7 +5104,7 @@
     "TraitThrown60": "던지기 60피트.",
     "TraitThrown80": "던지기 80피트.",
     "TraitTime": "시간",
-    "TraitTitan": "타이탄",
+    "TraitTitan": "티탄",
     "TraitTouched": "감동",
     "TraitTraining": "교육",
     "TraitTranscendence": "Transcendence",
@@ -5160,10 +5160,10 @@
     "TraitVolley20": "발리 20 피트.",
     "TraitVolley30": "발리 30 피트.",
     "TraitVolley50": "발리 50 피트.",
-    "TraitVolley60": "발리 60 피트.",
+    "TraitVolley60": "Volley 60 ft.",
     "TraitVorpalFear": "보팔 공포",
     "TraitWand": "완드",
-    "TraitWandering": "방황",
+    "TraitWandering": "Wandering",
     "TraitWater": "물",
     "TraitWayang": "와양",
     "TraitWeapons": "무기",
@@ -5214,8 +5214,8 @@
     "TraitWraithvine": "Wraithvine",
     "TraitWyrwood": "와이어우드",
     "TraitXulgath": "줄가스",
-    "TraitYaksha": "야크샤",
-    "TraitYaoguai": "야오과이",
+    "TraitYaksha": "Yaksha",
+    "TraitYaoguai": "Yaoguai",
     "TraitZombie": "좀비",
     "Traits": "특성",
     "TraitsLabel": "특성",
@@ -5287,7 +5287,7 @@
       "SourceId": "소스 ID"
     },
     "UnitedPaizoWorkers": {
-      "PFSNote": "패스파인더 소사이어티 플레이어를 위한 참고 사항: UPW를 지원하기 위해, 연합 상점에서 구매한 상품은 온라인 PFS 지역에서 <span class=\"hover\" title=\"영웅 포인트를 사용해 체크 리롤 시, 리롤에 +1 상황 보너스 추가\">홍보용 의복 혜택에 포함될 것입니다.",
+      "PFSNote": "패스파인더 사회 플레이어를 위한 참고 사항: UPW를 지원하기 위해, 연합 상점에서 구매한 상품은 온라인 PFS 지역에서 <span class=\"hover\" title=\"영웅 포인트를 사용해 체크 리롤 시, 리롤에 +1 상황 보너스 추가\">홍보용 의복 혜택에 포함될 것입니다.",
       "ReleaseIntro": "워싱턴주 레드먼드(2021년 10월 14일) - 오늘, 패스파인더와 스타파인더 롤플레잉 게임의 퍼블리셔인 Paizo, Inc의 직원들이 미국 커뮤니케이션 노동조합의 CODE-CWA 프로젝트와 함께 연합 파이조 노동자 노조(UPW)를 설립한다고 발표했습니다. 이 노조는 테이블탑 롤플레잉 게임 업계 최초의 노조입니다.",
       "Title": "공지사항: 파이조 노동자 연합"
     },
@@ -5625,9 +5625,9 @@
         "Name": "조상의 메아리"
       },
       "anchoring": {
-        "Name": "구속",
+        "Name": "앵커링",
         "Note": {
-          "criticalSuccess": "구속 무기로 대상에게 치명타를 가하면, 무기가 대상에게 <em>@UUID[Compendium.pf2e.spells-srd.Item.ksLCg62cLOojw3gN]{차원 닻}</em> 을 시전합니다(@Check[type:will|dc:27|name:구속 룬], 대응 수정치 [[/r 1d20+17 # Anchoring Rune Counteract Check]]{+17})."
+          "criticalSuccess": "고정 무기로 대상에게 치명타를 가하면, 무기가 대상에게 <em>@UUID[Compendium.pf2e.spells-srd.Item.ksLCg62cLOojw3gN]{차원 닻}</em> 을 시전합니다(@Check[type:will|dc:27|name:고정 룬], 대응 수정치 [[/r 1d20+17 # Anchoring Rune Counteract Check]]{+17})."
         }
       },
       "ashen": {
@@ -5644,7 +5644,7 @@
         }
       },
       "authorized": {
-        "Name": "권한"
+        "Name": "권한 부여"
       },
       "bane": {
         "Name": "파멸"
@@ -5659,7 +5659,7 @@
         }
       },
       "brilliant": {
-        "Name": "찬란한",
+        "Name": "브릴리언트",
         "Note": {
           "criticalSuccess": "치명타가 적중하면 대상은 @Check[type:fortitude|dc:29|name:찬란한 룬] 내성에 성공하거나 1라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명} 상태가 됩니다."
         }
@@ -5668,13 +5668,13 @@
         "Name": "호출"
       },
       "coating": {
-        "Name": "주머니"
+        "Name": "코팅"
       },
       "conducting": {
-        "Name": "전도성"
+        "Name": "수행"
       },
       "corrosive": {
-        "Name": "산성",
+        "Name": "부식성",
         "Note": {
           "criticalSuccess": "치명타를 받으면 대상의 방어구(있다면)에 [[/r 3d6[acid] #Corrosive Rune]]{3d6 산} 피해를 받습니다(경도 적용 전). 대상이 방패를 들고 있다면 방패가 대신 이 피해를 입습니다."
         }
@@ -5689,10 +5689,10 @@
         "Name": "교활"
       },
       "dancing": {
-        "Name": "자의식 (레거시)"
+        "Name": "춤"
       },
       "decaying": {
-        "Name": "부패"
+        "Name": "Decaying"
       },
       "deathdrinking": {
         "Name": "죽음을 마시는"
@@ -5701,37 +5701,37 @@
         "Name": "철거"
       },
       "earthbinding": {
-        "Name": "대지구속"
+        "Name": "접지"
       },
       "energizing": {
-        "Name": "충전"
+        "Name": "에너자이징"
       },
       "extending": {
-        "Name": "연장"
+        "Name": "확장"
       },
       "fanged": {
-        "Name": "송곳니"
+        "Name": "송곳니 달린"
       },
       "fearsome": {
-        "Name": "무시무시한",
+        "Name": "무서운",
         "Note": {
           "criticalSuccess": "이 무기로 치명타가 적중하면 대상이 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 1}이 됩니다."
         }
       },
       "flaming": {
-        "Name": "화염",
+        "Name": "불타는",
         "Note": {
           "criticalSuccess": "치명타가 적중하면 추가 [[/r 1d10[persistent,fire]]] 피해를 줍니다."
         }
       },
       "flickering": {
-        "Name": "깜박이는",
+        "Name": "Flickering",
         "Note": {
-          "criticalSuccess": "크리티컬 히트 시, 무기가 생물의 눈에 밝은 색상의 빛을 발사하여 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{눈부심} 효과를 1 라운드 동안 적용합니다(이 효과는 시각적 특성을 갖습니다).."
+          "criticalSuccess": "On a critical hit, the weapon flashes bright pulses of color into the creature's eyes, @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzling} the creature for 1 round (this effect has the visual trait)."
         }
       },
       "flurrying": {
-        "Name": "몰아치는"
+        "Name": "질풍"
       },
       "frost": {
         "Name": "서리",
@@ -5744,26 +5744,26 @@
         "Note": "이 무기는 물리적인 형태가 없는 생명체에게 피해를 줄 수 있습니다. 고스트 터치 무기는 특히 고스트 터치 무기에 특정 취약점을 가지고 있는 무형 생명체에게 효과적입니다. 무형 생명체는 대부분의 물리적 물체와 달리 고스트 터치 무기를 만지고, 잡고, 휘두를 수 있습니다."
       },
       "giantKilling": {
-        "Name": "거인살해자",
+        "Name": "자이언트 킬링",
         "Note": {
           "criticalSuccess": "이 무기로 치명타를 맞으면, 거인은 다음 턴이 끝날 때까지 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화 1} 상태가 됩니다."
         }
       },
       "greaterAnchoring": {
-        "Name": "구속 (중급)",
+        "Name": "향상된 앵커링",
         "Note": {
-          "criticalSuccess": "구속 룬이 있는 무기로 대상에게 치명타를 가하면 해당 무기는 대상에 8등급 <em>@UUID[Compendium.pf2e.spells-srd.Item.ksLCg62cLOojw3gN]{차원 닻}</em>을 시전합니다( @Check[type:will|dc:38|name:구속 룬 (중급)], counteract modifier [[/r 1d20+28 #Greater Anchoring Rune Counteract Check]]{+28}), 단, 대상이 크리티컬로 성공하는 경우는 제외됩니다. 효과가 없는 대신 <em>차원 닻</em>이 1라운드 동안 지속됩니다.",
+          "criticalSuccess": "고정 룬이 있는 무기로 대상에게 치명타를 가하면 해당 무기는 대상에 8등급 <em>@UUID[Compendium.pf2e.spells-srd.Item.ksLCg62cLOojw3gN]{차원 닻}</em>을 시전합니다( @Check[type:will|dc:38|name:향상된 고정 룬], counteract modifier [[/r 1d20+28 #Greater Anchoring Rune Counteract Check]]{+28}), 단, 대상이 크리티컬로 성공하는 경우는 제외됩니다. 효과가 없는 대신 <em>차원 닻</em>이 1라운드 동안 지속됩니다.",
           "success": "무기로 대상에게 적중했지만 치명타가 되지 않았을 때, 대상은 저항없이 1라운드 동안 4등급 <em>@UUID[Compendium.pf2e.spells-srd.Item.ksLCg62cLOojw3gN]{차원의 닻}</em> 의 영향을 받습니다(반격 수정치 [[/r 1d20+28 #Greater Anchoring Rune Counteract Check]]+28})."
         }
       },
       "greaterAshen": {
-        "Name": "잿빛 (중급)",
+        "Name": "향상된 잿빛",
         "Note": {
           "success": "이 재가 감각을 흐리게 하여 @Check[type:will|dc:35] 저항에 성공하지 않으면 1라운드 동안 혼란에 빠뜨립니다. 대실패 시 효과는 1분 동안 지속됩니다."
         }
       },
       "greaterAstral": {
-        "Name": "아스트랄 (중급)",
+        "Name": "향상된 아스트랄",
         "Note": {
           "criticalSuccess": "다른 생물을 빙의한 생물이 치명타를 맞으면, 빙의한 생물은 @Check[type:will|dc:36] 저항에 성공하지 못하면 추방되어 [[/br 1d4 #rounds]]{1d4라운드} 동안 생물을 빙의할 수 없게 됩니다.",
           "Note": "이 무기는 물리적인 형태가 없는 생명체에게 해를 끼칠 수 있습니다. 향상된 아스트랄 무기는 거의 항상 향상된 아스트랄 무기에 특정한 취약점을 가지고 있는 무형의 생명체에게 특히 효과적입니다. 무형 생명체는 대부분의 물리적 물체와 달리 향상된 아스트랄 무기를 만지고, 잡고, 휘두를 수 있습니다. 향상된 아스트랄 무기가 부여하는 영혼 피해는 대상의 영혼 저항을 무시합니다."
@@ -5773,110 +5773,110 @@
         "Name": "향상된 블러드베인"
       },
       "greaterBrilliant": {
-        "Name": "찬란한 (중급)",
+        "Name": "향상된 찬란한",
         "Note": {
-          "criticalSuccess": "이 무기로 주는 피해는 대상의 화염, 선, 생명력 저항을 무시합니다. 치명타가 적중하면 대상은 1라운드 동안 @Check[type:fortitude|dc:41|name:찬란한 룬 (중급)] 저항에 성공하거나 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명} 상태가 되어야 합니다.",
+          "criticalSuccess": "이 무기로 주는 피해는 대상의 화염, 선, 생명력 저항을 무시합니다. 치명타가 적중하면 대상은 1라운드 동안 @Check[type:fortitude|dc:41|name:향상된 찬란한 룬] 저항에 성공하거나 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명} 상태가 되어야 합니다.",
           "success": "이 무기로 주는 피해는 대상의 화염, 선, 생명력 저항을 무시합니다."
         }
       },
       "greaterCorrosive": {
-        "Name": "산성 (중급)",
+        "Name": "향상된 부식성",
         "Note": {
           "criticalSuccess": "이 무기로 주는 산성 피해는 대상의 내산성 저항을 무시합니다. 치명타가 적중하면 대상의 방어구가 있다면 [[/r 6d6[acid]]]{6d6산} 피해를 입습니다(경도 적용 전). 대상이 방패를 들었다면 방패가 대신 이 피해를 입습니다.",
           "success": "이 무기로 주는 산성 피해는 대상의 산성 저항을 무시합니다."
         }
       },
       "greaterCrushing": {
-        "Name": "분쇄 (중급)",
+        "Name": "향상된 분쇄",
         "Note": {
-          "criticalSuccess": "치명타로 적중하면 다음 턴이 끝날 때까지 대상은 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 2}와 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화 2}가 됩니다. @UUID[Compendium.pf2e.equipment-effects.Item.czdEHtLsrUcZxSDx]{효과: 분쇄 (중급)}"
+          "criticalSuccess": "치명타로 적중하면 다음 턴이 끝날 때까지 대상은 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 2}와 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화 2}가 됩니다. @UUID[Compendium.pf2e.equipment-effects.Item.czdEHtLsrUcZxSDx]{효과: 분쇄 (향상된)}"
         }
       },
       "greaterDecaying": {
-        "Name": "부패 (중급)"
+        "Name": "Greater Decaying"
       },
       "greaterDisrupting": {
-        "Name": "활력 (중급)",
+        "Name": "향상된 활력 증진",
         "Note": {
           "criticalSuccess": "치명타에 맞은 언데드 생물은 이 룬의 지속 피해가 지속되는 한 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화 1} 및 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{기절 1} 상태가 됩니다."
         }
       },
       "greaterExtending": {
-        "Name": "연장 (중급)"
+        "Name": "향상된 확장성"
       },
       "greaterFanged": {
-        "Name": "송곳니 (중급)"
+        "Name": "향상된 송곳니"
       },
       "greaterFearsome": {
-        "Name": "무시무시함 (중급)",
+        "Name": "향상된 무시무시함",
         "Note": {
           "criticalSuccess": "이 무기로 치명타가 적중하면 대상이 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 2}가 됩니다."
         }
       },
       "greaterFlaming": {
-        "Name": "화염 (중급)",
+        "Name": "향상된 불길",
         "Note": {
           "criticalSuccess": "이 무기로 주는 화염 피해(지속 화염 피해 포함)는 대상의 화염 저항을 무시합니다.",
           "success": "이 무기로 주는 화염 피해는 대상의 화염 저항을 무시합니다."
         }
       },
       "greaterFrost": {
-        "Name": "서리 (중급)",
+        "Name": "향상된 서리",
         "Note": {
           "criticalSuccess": "이 무기로 주는 냉기 피해는 대상의 냉기 저항을 무시합니다. 치명타가 적중하면 대상은 @Check[type:fortitude|dc:34|name:향상된 서리 룬] 저항에 성공하지 않는 한 다음 턴이 끝날 때까지 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1}이 됩니다.",
           "success": "이 무기로 주는 냉기 피해는 대상의 냉기 저항을 무시합니다."
         }
       },
       "greaterGiantKilling": {
-        "Name": "거인살해자 (중급)",
+        "Name": "향상된 자이언트 킬링",
         "Note": {
           "success": "이 무기로 주는 정신 피해는 대상의 정신 저항을 무시합니다.",
           "criticalSuccess": "이 무기로 치명타를 맞으면, 거인은 다음 효과를 가진 @Check[type:fortitude|dc:34]를 시도해야 합니다.<br /><strong>대성공</strong> 거인은 다음 턴이 끝날 때까지 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화 1}이 됩니다.<br /><strong>성공</strong> 거인은 다음 턴이 끝날 때까지 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화 2}가 되고 @Damage[1d10[mental]]를 받습니다.<br /><strong>실패</strong> 거인은 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화 2}가 되어 다음 1분 동안 @Damage[2d10[mental]]을 받습니다.<br/><strong>대실패</strong> 거인은 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화 4}가 되어 다음 1분 동안 @Damage[4d10[mental]]을 받습니다."
         }
       },
       "greaterHauling": {
-        "Name": "견인 (중급)"
+        "Name": "향상된 운반력"
       },
       "greaterImpactful": {
-        "Name": "역장 (중급)",
+        "Name": "향상된 영향력",
         "Note": {
-          "criticalSuccess": "치명타가 적중하면 대상에게 @Check[type:fortitude|dc:37|name:역장 룬 (중급)] 내성에 성공하도록 하거나 자신으로부터 10피트 떨어진 곳으로 밀려나도록 선택할 수 있습니다."
+          "criticalSuccess": "치명타가 적중하면 대상에게 @Check[type:fortitude|dc:37|name:향상된 영향력 룬] 내성에 성공하도록 하거나 자신으로부터 10피트 떨어진 곳으로 밀려나도록 선택할 수 있습니다."
         }
       },
       "greaterRooting": {
-        "Name": "뿌리 (중급)",
+        "Name": "향상된 루팅",
         "Note": {
           "criticalSuccess": "이 무기로 적에게 치명타를 가하면 대상에서 뿌리가 자랍니다. 1라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{고정된 1}(<span data-pf2-action=\"escape\" data-pf2-glyph=\"A\" data-pf2-dc=\"28\">탈출 DC 28</span>) 및 고정 상태가 지속되는 동안 , @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1}이 발동됩니다."
         }
       },
       "greaterShock": {
-        "Name": "감전 (중급)",
+        "Name": "향상된 충격",
         "Note": {
           "criticalSuccess": "이 무기로 주는 전기 피해는 대상의 전기 저항을 무시합니다(그리고 치명타 시 다른 생물의 저항도 무시합니다). 치명타가 적중하면 전기가 호를 그리며 대상으로부터 10피트 이내에 있는 원하는 다른 생물 최대 두 마리에게 같은 양의 전기 피해를 줍니다.",
           "success": "이 무기로 주는 전기 피해는 대상의 전기 저항을 무시합니다."
         }
       },
       "greaterThundering": {
-        "Name": "천둥 (중급)",
+        "Name": "향상된 천둥",
         "Note": {
           "criticalSuccess": "이 무기로 주는 음파 피해는 대상의 음파 저항을 무시합니다. 치명타가 적중하면 대상은 @Check[type:fortitude|dc:34|name:향상된 천둥 룬] 저항에 성공하거나 영구적으로 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{귀가 먼} 상태가 됩니다..",
           "success": "이 무기로 주는 음파 피해는 대상의 음파 저항을 무시합니다."
         }
       },
       "grievous": {
-        "Name": "고통",
+        "Name": "고뇌",
         "Note": {
           "Axe": "동일한 제한으로 세 번째 생물에게도 피해를 줄 수 있습니다.",
           "Bow": "발사체를 빼내기 위한 운동 체크는 DC 20입니다.",
           "Brawling": "대상은 저항에 -4의 상황 패널티를 받습니다.",
           "Club": "최대 15피트 거리까지 대상을 밀쳐낼 수 있습니다.",
-          "Crossbow": "치명타 대상이 표면과 인접해 있다면, 발사체에 의해 그 표면에 고정되게 됩니다. 이는 활 치명타 전문화의 효과입니다.",
+          "Crossbow": "If the target of the critical hit is adjacent to a surface, it gets stuck to that surface by the missile, as the bow critical specialization.",
           "Dart": "기본 지속 출혈 피해가 [[/r 2d6[bleed]]]로 증가합니다.",
-          "Firearm": "대상은 내성 굴림에 -4의 상황 페널티를 받습니다.",
+          "Firearm": "The target takes a –4 circumstance penalty to its save.",
           "Flail": "목표물을 5피트 이동합니다. 목표물을 자신에게서 멀어지게 할 수는 없지만 원하는 다른 방향으로 옮길 수는 있습니다.",
           "Hammer": "또한 대상에서 5피트 떨어진 곳으로 밀어낼 수도 있습니다.",
           "Knife": "대상은 속도에 -5피트 상태이상의 피해를 입으며 @UUID[Compendium.pf2e.conditionitems.Item.lDVqvLKA6eF3Df60]{지속적인 출혈 피해}를 지니고 있습니다.",
-          "Pick": "치명타 전문화 효과로 인한 추가 피해는 무기 공격력이 죽어감 당 4로 증가합니다.",
+          "Pick": "크리티컬 전문화 효과로 인한 추가 피해는 무기 공격력이 죽어감 당 4로 증가합니다.",
           "Polearm": "타겟을 최대 10피트까지 이동할 수 있습니다.",
           "Shield": "목표물을 최대 10피트 떨어진 곳으로 밀어낼 수 있습니다.",
           "Sling": "대상은 구하기에 실패하면 1라운드 동안 이동 속도에 -10피트 상태이상의 불이익을 받습니다.",
@@ -5885,7 +5885,7 @@
         }
       },
       "hauling": {
-        "Name": "견인"
+        "Name": "운반"
       },
       "holy": {
         "Name": "신성한",
@@ -5894,7 +5894,7 @@
         }
       },
       "hopeful": {
-        "Name": "희망",
+        "Name": "희망찬",
         "Note": {
           "criticalSuccess": "이 무기로 치명타가 적중하면 아군에게 영감을 불어넣어 더 열심히 싸우고 신념을 지킬 수 있도록 밀어줍니다. 나와 성향 구성 요소를 하나 이상 공유하는 30피트 내의 아군은 다음 턴이 끝날 때까지 공격 굴림에 +1 상태 보너스를 받습니다."
         }
@@ -5906,9 +5906,9 @@
         }
       },
       "impactful": {
-        "Name": "역장",
+        "Name": "영향력 있는",
         "Note": {
-          "criticalSuccess": "치명타가 적중하면 대상에게 Check[type:fortitude|dc:27|이름:역장 룬] 저항에 성공하도록 하거나 자신으로부터 5피트 떨어진 곳으로 밀려나도록 선택할 수 있습니다."
+          "criticalSuccess": "치명타가 적중하면 대상에게 Check[type:fortitude|dc:27|이름:충격적인 룬] 저항에 성공하도록 하거나 자신으로부터 5피트 떨어진 곳으로 밀려나도록 선택할 수 있습니다."
         }
       },
       "impossible": {
@@ -5921,7 +5921,7 @@
         "Name": "친족 보호"
       },
       "majorRooting": {
-        "Name": "뿌리 (상급)",
+        "Name": "주요 루팅",
         "Note": {
           "criticalSuccess": "이 무기로 적에게 치명타를 가하면 대상에서 뿌리가 자랍니다. 1라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{고정된 1} (<span data-pf2-action=\"escape\" data-pf2-glyph=\"A\" data-pf2-dc=\"34\">탈출 DC 34</span>) 및 고정 상태가 지속되는 동안, @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1}이 됩니다."
         }
@@ -5930,52 +5930,52 @@
         "Name": "자비"
       },
       "majorFanged": {
-        "Name": "송곳니 (중급)"
+        "Name": "메이저 송곳니"
       },
       "nightmare": {
-        "Name": "악몽",
+        "Name": "Nightmare",
         "Note": {
-          "criticalSuccess": "치명타를 당하면 대상은 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1} 상태가 됩니다. 이는 대상의 마음에 남아 있는 개인적인 공포의 환상이 압도적으로 몰아치기 때문입니다. 이미 혼미 상태인 생물에게 치명타를 하면, 그 생물은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 2} 상태가 됩니다. 이 치명타 효과는 감정, 공포, 정신 특성을 가지고 있습니다."
+          "criticalSuccess": "On a critical hit, the target becomes @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1} by overwhelming visions in their mind of personal horrors that linger. If you critically hit a creature that's already stupefied, it becomes @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 2} as well. These critical hit effects have the emotion, fear, and mental traits."
         }
       },
       "pacifying": {
         "Name": "진정"
       },
       "speed": {
-        "Name": "신속",
-        "Note": "빠른 공격 무기를 사용하면 @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{신속} 상태가 적용되지만, 추가 행동은 새겨진 무기로 공격을 하는 데에만 사용할 수 있습니다."
+        "Name": "속도",
+        "Note": "While wielding a quickstrike weapon, you gain the @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{신속} condition, but you can use the additional action granted only to make a Strike with the etched weapon."
       },
       "returning": {
-        "Name": "귀환",
+        "Name": "반환",
         "Note": "이 무기로 투척 공격을 하면, 공격이 완료된 후 무기가 내 손으로 돌아옵니다. 무기가 돌아올 때 양손에 무기가 가득 차 있으면, 무기는 내 공간의 바닥에 떨어집니다."
       },
       "rooting": {
-        "Name": "뿌리",
+        "Name": "루팅",
         "Note": {
           "criticalSuccess": "이 무기로 적에게 치명타를 가하면 대상에서 뿌리가 자랍니다. 1라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{고정된 1}(<span data-pf2-action=\"escape\" data-pf2-glyph=\"A\" data-pf2-dc=\"23\">탈출 DC 23</span>) 및 고정 상태가 지속되는 동안, @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1}이 됩니다."
         }
       },
       "serrating": {
-        "Name": "톱니"
+        "Name": "시레이팅"
       },
       "shifting": {
-        "Name": "형태변화"
+        "Name": "시프트"
       },
       "shock": {
-        "Name": "감전",
+        "Name": "충격",
         "Note": {
           "criticalSuccess": "치명타가 적중하면 전기가 호를 그리며 대상에서 10피트 이내에 있는 다른 생물 최대 두 마리에게 같은 양의 전기 피해를 입힙니다."
         }
       },
       "shockwave": {
-        "Name": "충격파",
-        "Note": "공격자는 방사 피해에 면역입니다."
+        "Name": "Shockwave",
+        "Note": "The attacker is immune to the splash damage."
       },
       "spellStoring": {
         "Name": "주문 저장"
       },
       "swarming": {
-        "Name": "군집"
+        "Name": "스워밍"
       },
       "thundering": {
         "Name": "천둥",
@@ -5984,7 +5984,7 @@
         }
       },
       "trueRooting": {
-        "Name": "뿌리 (최상급)",
+        "Name": "트루 루팅",
         "Note": {
           "criticalSuccess": "이 무기로 적에게 치명타를 가하면 대상에서 뿌리가 자랍니다. 1라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{고정된 1}(<span data-pf2-action=\"escape\" data-pf2-glyph=\"A\" data-pf2-dc=\"41\">탈출 DC 41</span>) 및 고정 상태가 지속되는 동안 , @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1}이 됩니다."
         }
@@ -5999,7 +5999,7 @@
         }
       },
       "disrupting": {
-        "Name": "활력",
+        "Name": "활성화",
         "Note": {
           "criticalSuccess": "치명타에 맞은 언데드는 다음 턴이 끝날 때까지 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화 1} 상태가 됩니다."
         }
@@ -6050,27 +6050,27 @@
       "AR": {
         "Era": "AR",
         "Months": {
-          "April": "고즈렌(4)",
-          "August": "아로두스(8)",
-          "December": "쿠토나(12)",
-          "February": "칼리스트릴(2)",
-          "January": "아바디우스(1)",
-          "July": "에라스투스(7)",
-          "June": "사레니스(6)",
-          "March": "파라스트(3)",
-          "May": "데스누스(5)",
-          "November": "네스(11)",
-          "October": "라마산(10)",
-          "September": "로바(9)"
+          "April": "고즈렌",
+          "August": "아로두스",
+          "December": "쿠토나",
+          "February": "칼리스트릴",
+          "January": "아바디우스",
+          "July": "에라스투스",
+          "June": "사레니스",
+          "March": "파라스트",
+          "May": "데스누스",
+          "November": "네스",
+          "October": "라마산",
+          "September": "로바"
         },
         "Weekdays": {
-          "Friday": "파이어데이(금)",
-          "Monday": "문데이(월)",
-          "Saturday": "스타데이(토)",
-          "Sunday": "썬데이(일)",
-          "Thursday": "오쓰데이(목)",
-          "Tuesday": "토일데이(화)",
-          "Wednesday": "웰데이(수)"
+          "Friday": "파이어데이",
+          "Monday": "문데이",
+          "Saturday": "스타데이",
+          "Sunday": "썬데이",
+          "Thursday": "오쓰데이",
+          "Tuesday": "토일데이",
+          "Wednesday": "웰데이"
         }
       },
       "Button": {
@@ -6080,14 +6080,14 @@
         "AddOneRound": "1 라운드",
         "AddOneWeek": "1 주",
         "AddTenMinutes": "10분",
-        "Advance": "진행",
-        "Retract": "뒤로",
+        "Advance": "사전",
+        "Retract": "철회",
         "TimeOfDay": {
           "Advance": {
-            "Dawn": "새벽으로",
-            "Dusk": "황혼으로",
-            "Midnight": "자정으로",
-            "Noon": "정오로"
+            "Dawn": "새벽으로 나아가기",
+            "Dusk": "황혼으로 나아가기",
+            "Midnight": "자정으로 나아가기",
+            "Noon": "정오로 나아가기"
           },
           "Retract": {
             "Dawn": "새벽으로 돌아가기",
@@ -6244,7 +6244,7 @@
       },
       "invisible": {
         "name": "투명한",
-        "rules": "<p>보이지 않습니다. 당신은 모든 사람에게 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{탐지 불가}입니다. 생물은 @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{찾기}으로 플레이어를 감지할 수 있으며, 플레이어의 은신 DC에 대한 지각 체크에 성공하면, 플레이어는 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨은}이 되어 다시 감지되지 않음 상태가 될 때까지 해당 생물에게 @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{은밀 이동}을 수행할 수 있게 됩니다.</p><p> 누군가 나를 이미 볼 수 있는 상태에서 보이지 않음 상태가 되면, 성공적으로 @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{은밀 이동}을 마칠 때 까지 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{탐지 불가} 상태가 아닌 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨은} 상태로 시작하게 됩니다. 투명한 상태에서는 특수 능력이나 마법을 동원하지 않는 한 @UUID[Compendium.pf2e.conditionitems.Item.1wQY3JYyhMYeeV2G]{관찰됨}이 될 수 없습니다.</p>",
+        "rules": "<p>보이지 않습니다. 당신은 모든 사람에게 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{탐지 불가}입니다. 생물은 @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{탐색}으로 플레이어를 감지할 수 있으며, 플레이어의 은신 DC에 대한 지각 체크에 성공하면, 플레이어는 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨은}이 되어 다시 감지되지 않음 상태가 될 때까지 해당 생물에게 @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{은밀 이동}을 수행할 수 있게 됩니다.</p><p> 누군가 나를 이미 볼 수 있는 상태에서 보이지 않음 상태가 되면, 성공적으로 @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{은밀 이동}을 마칠 때 까지 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{탐지 불가} 상태가 아닌 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨은} 상태로 시작하게 됩니다. 투명한 상태에서는 특수 능력이나 마법을 동원하지 않는 한 @UUID[Compendium.pf2e.conditionitems.Item.1wQY3JYyhMYeeV2G]{관찰됨}이 될 수 없습니다.</p>",
         "summary": "생물은 당신을 볼 수 없습니다."
       },
       "observed": {

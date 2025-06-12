@@ -1,0 +1,660 @@
+{
+  "label": "Night of the Gray Death",
+  "entries": {
+    "Gray Gardener Assassin": {
+      "name": "그레이 가드너 암살자 (Gray Gardener Assassin)",
+      "description": "",
+      "hpdetails": "",
+      "items": {
+        "UU9cOQ3GJiiJ0y2t": {
+          "name": "익명성 (Anonymity)",
+          "description": "<p>그레이 가드너 암살자는 자신의 신분을 숨기기 위한 속임수 체크와 내성 굴림에 +2의 상황 보너스를 받고, 그레이 가드너의 신분을 밝히는 효과에 대한 속임수 DC에 +2의 상황 보너스를 받습니다."
+        },
+        "21UXAxVXwteVs9dM": {
+          "name": "가드너의 결의 (Gardener's Resolve)",
+          "description": "<p><strong>트리거</strong> 그레이 가드너 암살자는 정신 또는 공포 특성이 있는 효과에 대해 의지력 저축에 실패(대실패는 제외)를 굴립니다.의 특징이 가면이나 두건으로 가려져 있습니다</p>\n<hr />\n<p><strong>효과</strong> 그레이 가드너 암살자는 @Damage[3d8[정신]]의 피해를 받고, 내성 굴림이 성공합니다."
+        },
+        "tqtwsr6iftva2t2h": {
+          "name": "즉각적인 개방 (Instant Opening)",
+          "description": "<p>그레이 가드너 암살자는 몇 마디의 말이나 제스처로 30피트 이내의 생물들의 주의를 분산시킵니다. 이 생물들은 암살자의 다음 턴이 끝날 때까지 암살자의 공격에 대해 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 됩니다. 주의 분산에 따라 이 행동은 청각 또는 시각 특성을 얻습니다.</p>"
+        },
+        "ir9iykcrbdq5n5zv": {
+          "name": "죽음의 표식 (Mark for Death)",
+          "description": "<p>회색 정원사 암살자는 볼 수 있고 들을 수 있는 단일 생물을 표적으로 지정합니다. 이 효과는 표적이 죽거나 암살자가 다시 '죽음의 표식'을 사용할 때까지 지속됩니다. 암살자는 표적을 @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{찾기} 위한 지각 체크와 표적을 상대로 한 속임수 체크에 +2의 상황 보너스를 얻습니다. 암살자의 근접 및 원거리 공격은 표적을 공격할 때 치명적인 d8 무기 특성을 얻습니다."
+        },
+        "qlj226n45f0wl98g": {
+          "name": "독 무기 (Poison Weapon)",
+          "description": "<p><strong>요건</strong> 그레이 가드너 암살자는 관통 또는 베기 무기를 들고 있으며, 한 손이 자유롭습니다."
+        },
+        "uzua9klnxxs2xosv": {
+          "name": "빠른 무기 뽑기 (Quick Draw)",
+          "description": "<p>그레이 가드너 암살자는 상호 작용을 통해 무기를 뽑은 다음 그 무기로 공격을 합니다."
+        },
+        "qnoacZYdU5EipEmP": {
+          "name": "암습 (Sneak Attack)",
+          "description": "<p>그레이 가드너 암살자는 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태의 생물에게 6d6의 추가 정밀 피해 정밀 피해를 입힙니다."
+        },
+        "sslmxm3jw7n66c4h": {
+          "name": "기습 공격 (Surprise Attack)",
+          "description": "<p>전투의 첫 번째 라운드에서 아직 행동하지 않은 생물은 그레이 가드너 암살자에게 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 됩니다."
+        }
+      }
+    },
+    "Tumblak": {
+      "name": "텀블락 (Tumblak)",
+      "description": "",
+      "hpdetails": "",
+      "items": {
+        "MudC8GBQciwNzqbi": {
+          "name": "텔레파시 100 피트 (Telepathy 100 feet)",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Telepathy]</p>"
+        },
+        "cPZGmHSfsoLl1Nki": {
+          "name": "상시 마법 (Constant Spells)",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ConstantSpells]</p>"
+        },
+        "64ianM5ftP3OaVMU": {
+          "name": "쉽게 소환 가능 (Easy to Call)",
+          "description": "<p>사킬의 레벨은 @UUID[Compendium.pf2e.spells-srd.Item.2ykmAVKrsAWcazcC]{Binding Circle} 의식에 소환될 때 (그리고 GM의 재량에 따라 다른 의식에도 소환될 수 있음) 하지만, 주 시전자의 체크가 대성공이 아닌 한, 협상 대신에 자유롭게 공격하거나 떠날 수 있습니다."
+        },
+        "5brkjiwh6zdkj7wr": {
+          "name": "집중된 힘 (Focused Force)",
+          "description": "<p>대부분의 무형 생물과 달리, tumblak은 원할 경우 물리적 생물 및 물체에 대해 힘 기반 체크를 할 수 있지만, 이러한 생물은 tumblak에 대해 힘 기반 체크를 할 수 없습니다."
+        },
+        "1n5e4eqt4djl2jue": {
+          "name": "Gasping Aura",
+          "description": "<p>100 피트. 오라 내에 있는 생물은 @Check[fortitude|dc:37] 내성 체크에 성공해야 합니다. 실패 시 숨을 쉴 수 없으며, 질식하지 않기 위해 숨을 참아야 하며, 오라를 벗어나기 전까지 이 상태가 지속됩니다. 텀블락은 단일 무료 행동으로 오라를 활성화하거나 비활성화할 수 있으며, 이 행동은 집중 특성을 가지고 있습니다.</p>"
+        },
+        "ni4fg355bj42fih7": {
+          "name": "숨쉬지 않음 (No Breath)",
+          "description": "<p>텀블락은 숨을 쉴 필요가 없습니다.</p>"
+        },
+        "ha7ss846toq76vyl": {
+          "name": "폐소공포증 악몽 (Claustrophobic Nightmares)",
+          "description": "<p>텀블락의 @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{피로} 상태에 빠진 생물은 @UUID[Compendium.pf2e.spells-srd.Item.Uqj344bezBq3ESdq]{악몽} 주문은 살아있는 채로 묻히는 듯한 마비 증상을 일으킵니다. 완전한 밤의 휴식을 통해 피로 상태를 제거할 수 있는 효과를 사용하는 사람은 DC 44의 대항 체크에 성공하지 않으면 피로 상태가 제거되지 않습니다. 피로 상태에 있는 생물이 전투에서 이니셔티브를 굴리거나 중요한 협상에 들어가는 등 스트레스가 많은 상황에 들어갈 경우, Entombing Echoes의 영향을 받습니다."
+        },
+        "k5ref5cp18jsia4p": {
+          "name": "Entombing Echoes",
+          "description": "<p>텀블락의 주먹에 맞거나 Claustrophobic Nightmares의 영향을 받은 생물은 @Check[will|dc:44] 내성 체크에 성공하지 않으면 사방이 막힌 느낌을 받습니다. 생물은 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} 및 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} 상태가 됩니다. 탈출(DC 44)할 때까지 이 상태는 지속됩니다."
+        },
+        "WAGi6iHW6Q93uHQj": {
+          "name": "Skip Between",
+          "description": "<p>Tumblak은 물질 평면과 에테리얼 평면 사이를 이동하며, @UUID[Compendium.pf2e.spells-srd.Item.D2nPKbIS67m9199U]{Ethereal Jaunt}의 효과를 갖지만, 효과의 지속 시간이 무제한이며 해제될 수 있습니다. 소환된 사킬은 'Skip Between'을 사용할 수 없습니다."
+        }
+      }
+    },
+    "Keznin Nevarmo": {
+      "name": "케즈닌 네바르모 (Keznin Nevarmo)",
+      "description": "",
+      "hpdetails": "",
+      "items": {
+        "Gsp6SyiR5bBRNQWO": {
+          "name": "침략 (Invaded)",
+          "description": "<p>케즈닌은 정복자 웜의 정신 침입자 효과의 영향을 받지만, 그 사실을 인식하지 못합니다. (주의: 이 효과는 3장에서만 유효합니다.)</p>"
+        },
+        "0dqz0pv2p93dvn79": {
+          "name": "전문가 약초학자 (Expert Herbalist)",
+          "description": "<p>케즈닌은 질병 치료, 독 치료, 상처 치료에 의학 대신 자연을 사용할 수 있으며, 치유 속성, 해독제, 전염병 방지 효과를 가진 알케미 아이템을 제작할 때 제작 대신 자연을 사용할 수 있습니다.</p>"
+        },
+        "l1hi0v4rtyhlqmz7": {
+          "name": "위험한 치료 (Risky Treatment)",
+          "description": "<p><strong>트리거</strong> 케즈닌이 질병 치료, 독 치료, 상처 치료 체크에서 대실패를 굴립니다</p>\n<hr />\n<p><strong>효과</strong> 케즈닌은 더 이상의 피해를 막기 위해 위험한 약초를 긴급으로 투여합니다. 케즈닌이 치료하는 생물은 @Damage[2d6[독]]의 피해를 받고, 케즈닌은 체크를 다시 합니다. "
+        }
+      }
+    },
+    "Gray Death": {
+      "name": "회색 죽음 (Gray Death)",
+      "description": "",
+      "hpdetails": "",
+      "items": {
+        "1HHQzlsedjpTcEfq": {
+          "name": "텔레파시 100 피트 (Telepathy 100 feet)",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Telepathy]</p>"
+        },
+        "hupKxv9RWzNfoW3Z": {
+          "name": "생명 감지 1,000 피트 (Lifesense 1,000 feet)",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Lifesense]</p>"
+        },
+        "rd8g0sujo4faxyxg": {
+          "name": "영혼 출혈 (Soul Bleed)",
+          "description": "<p>1000 피트. 이 영역에서 턴을 시작하는 생물은 @Damage[5d6[void]]의 피해를 받고 @Check[fortitude|dc:42] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 1}이 됩니다. 생물체의 레벨이 13 이하인 경우, 소울 블리드에 의한 파멸 상태는 누적되며, 내성 실패 1회마다 1씩 증가하여 생물체가 죽을 때까지 계속됩니다 (일반적으로 파멸 4에서 사망).</p>"
+        },
+        "3ed13i1acidqfl7r": {
+          "name": "플레일링 터치 (Flailing Touch)",
+          "description": "<p>그레이 데스는 최대 4회의 손 공격을 할 수 있으며, 각 공격은 도달 가능한 다른 대상에게 가해집니다. 이 공격으로 도달 거리가 100피트까지 늘어납니다. 이 공격은 그레이 데스의 다중 공격 페널티에 1회의 공격으로 계산되며, 페널티는 공격이 끝날 때까지 증가하지 않습니다."
+        },
+        "qsvl0ev40eghja9n": {
+          "name": "생명력 흡수 (Life Sap)",
+          "description": "<p>회색 죽음의 손 공격으로 피해를 입은 생물은 @Check[fortitude|dc:42] 내성 체크에 성공하지 못하면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}이 됩니다. 대실패 시 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비} 상태가 1 라운드 동안 지속됩니다."
+        },
+        "0atuz9r7fy2l37ep": {
+          "name": "원한의 소유 (Resentful Possession)",
+          "description": "<p><strong>빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 회색 죽음은 30피트 이내의 살아있는 생물을 선택합니다. 대상은 @Check[will|dc:42] 내성 체크에 성공하지 못하면, 원한에 찬 영혼의 파편이 대상의 영혼에 박혀서 그 대상을 아군에게 대적하게 만듭니다. 대상은 이 파편을 가지고 있는 동안, 측면 공격을 제공하는 목적에서는 누구의 아군으로도 간주되지 않으며, 이 생물에게만 효과가 있는 주문을 시전하는 아군 후보는 DC 42의 대항 체크(레벨 20)에 성공하지 않으면 그 주문은 효과가 없습니다. 파편은 24시간 후에 사라집니다."
+        },
+        "cirhydwi7xmesep9": {
+          "name": "유령의 잠복자 (Spectral Lurker)",
+          "description": "<p>회색 죽음은 물체 안에서 자신의 턴을 시작할 때 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1}이 아닙니다."
+        }
+      }
+    },
+    "Pageant Troupe": {
+      "name": "페이지언 트루프 (Pageant Troupe)",
+      "description": "<p>테라코타 전사들은 고대 통치자들의 무덤을 지키며, 침입자가 보물을 훔치거나 무덤을 더럽히기 위해 침입할 때만 움직여 경계를 서고 있습니다. 각 전사는 점토로 세심하게 제작되어 독특한 특징을 지니고 있습니다.</p>\n<hr />\n<p>이 인공 전사들은 훈련된 그룹으로 협력하여 침입자를 물리칠 수 있습니다.</p>",
+      "hpdetails": "부대 방어",
+      "items": {
+        "SlKd6WmjF0C4lXGp": {
+          "name": "형성 (Form Up)",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.FormUp]</p>"
+        },
+        "zqId4tqfbUrRgpwQ": {
+          "name": "연기자 (Performers)",
+          "description": "<p>오토마톤은 방패나 무기를 가지고 있지 않습니다. 그들의 일제 공격 능력은 주먹을 사용하여 베기 피해 대신 타격 피해를 입힙니다."
+        },
+        "YfW3hmqsouC0M5an": {
+          "name": "기회 공격 (Attack of Opportunity)",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ShieldBlock]</p>"
+        },
+        "ncklibzh6Dfp2LTc": {
+          "name": "방패 막기 (Shield Block)",
+          "description": "<p><strong>임계값</strong> 160 (3 세그먼트), 80 (2 세그먼트)</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
+        },
+        "BlH8W4GE6xpZoZM2": {
+          "name": "부대 방어력 (Troop Defenses)",
+          "description": "<p><strong>임계값</strong> 160 (3 세그먼트), 80 (2 세그먼트)</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
+        },
+        "Vx9iqVf4ismUN743": {
+          "name": "일제 공격 (Strike as One)",
+          "description": "<p><span class=\"action-glyph\">A</span> ~ <span class=\"action-glyph\">3</span></p>\n<p><strong>빈도</strong> 라운드당 1회</p>\n<hr />\n<p><strong>효과</strong> 수비대는 @Template[emanation|distance:5] (@Check[reflex|dc:30|기본] 내성). 피해는 행동 횟수에 따라 달라집니다.</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(8d8+12)[bludgeoning]] 피해. </p>\n<p><span class=\"action-glyph\">3</span> @Damage[(4d8+15)[bludgeoning]] 피해. </p>"
+        },
+        "4y0Im0eAbj4YFOII": {
+          "name": "부대 이동 (Troop Movement)",
+          "description": "<p>부대가 스트라이드를 할 때마다, 먼저 자유 행동으로 20피트 x 20피트 영역(누락된 칸은 제외)으로 압축된 후, 속도로 이동합니다. 이는 거대한 생물이 이동하는 것과 동일하게 작동합니다. 예를 들어, 어떤 칸이 어려운 지형에 들어간 경우, 추가 이동 비용이 부대 전체에 적용됩니다."
+        }
+      }
+    },
+    "Mateena Lumlin": {
+      "name": "메티나 루민 (Mateena Lumlin)",
+      "description": "",
+      "hpdetails": "",
+      "items": {
+        "K6FLOVNca07pIkf5": {
+          "name": "침략 (Invaded)",
+          "description": "<p>메티나는 정복자 웜의 정신 침입자 효과의 영향을 받지만, 그 사실을 깨닫지 못합니다."
+        },
+        "JklgmRLJ4Ie3Edu0": {
+          "name": "익명성 (Anonymity)",
+          "description": "<p>그레이 가드너 국장은 자신의 신분을 숨기기 위한 속임수 체크와 내성 굴림에 +2의 상황 보너스를 받고, 그레이 가드너의 신분을 밝히는 효과에 대한 속임수 DC에 +2의 상황 보너스를 받습니다."
+        },
+        "Z6I93yAvWeA9y6Rv": {
+          "name": "가드너의 결의 (Gardener's Resolve)",
+          "description": "<p><strong>트리거</strong> 그레이 가드너 국장은 정신 또는 공포 특성이 있는 효과에 대한 의지 내성 굴림에 실패(대실패는 제외)합니다.의 특징이 가면이나 두건으로 가려져 있습니다</p>\n<hr />\n<p><strong>효과</strong> 그레이 가드너 총괄 책임자는 @Damage[3d8[정신]]의 피해를 받고, 내성 굴림이 성공합니다."
+        },
+        "rpuws83q8uhxkxk3": {
+          "name": "빠른 무기 뽑기 (Quick Draw)",
+          "description": "<p>총괄 책임자는 상호 작용을 통해 무기를 뽑은 다음, 그 무기로 공격을 합니다."
+        },
+        "msa7xu7z09elqbwi": {
+          "name": "두려움을 꿰뚫기 (Skewer the Fearful)",
+          "description": "<p>총감독의 공격은 겁에 질린 생물에게 4d6의 추가 정밀 피해를 입힙니다. 겁에 질린 생물에 대한 공격이 치명타인 경우, 그 생물은 다음 턴이 끝날 때 겁에 질린 상태가 자동으로 감소하지 않습니다."
+        },
+        "iox2rs5y6wd0lxbv": {
+          "name": "엄한 눈빛 (Stern Glare)",
+          "description": "<p><strong>트리거</strong> 총감독의 턴이 시작됩니다</p><hr /><p><strong>효과</strong> 총감독은 60피트 이내에 있고 총감독을 볼 수 있으며 총감독이 볼 수 있는 생물을 대상으로 '도덕적 붕괴'를 시도합니다.</p>"
+        },
+        "z1h9foa0rroyvcrj": {
+          "name": "우월성의 속삭임 (Whispers of Superiority)",
+          "description": "<p>총감독은 60피트 이내에 있는 두려움 상태가 아닌 대상에게 말을 걸어 그 대상의 비겁자에 대한 분노를 강화합니다. 대상 생물은 @Check[will|dc:39] 내성 체크에 성공하지 않으면 겁에 질린 생물을 아군으로 간주하지 않고, 그들을 돕거나 측면을 공격할 수 없습니다. 이 효과는 1 라운드 동안 지속됩니다 (대실패 시 1분).</p>"
+        }
+      }
+    },
+    "Chakanaj": {
+      "name": "Chakanaj",
+      "description": "",
+      "hpdetails": "",
+      "items": {
+        "Zs370DSVx92Fm8ZN": {
+          "name": "텔레파시 100 피트 (Telepathy 100 feet)",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Telepathy]</p>"
+        },
+        "xYJYmPCRaY4WEe9c": {
+          "name": "상시 마법 (Constant Spells)",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ConstantSpells]</p>"
+        },
+        "PCpYbybUdhkg72Y4": {
+          "name": "의도 감지 능력에 지각력 +4 (+4 to Perception to Sense Motive)",
+          "description": ""
+        },
+        "diy6u3a10bnj98gf": {
+          "name": "비밀을 듣는 귀 (Ear for Secrets)",
+          "description": "<p>차카나즈는 30 피트 이내의 생물이 거짓말을 할 때, 그 생물이 차카나즈에 대한 지각력 체크에 치명타를 성공하지 않는 한 그 사실을 알 수 있습니다. 이 능력은 진실을 드러내지 않습니다."
+        },
+        "vxriga2ssb4grup4": {
+          "name": "부르기 쉬운 (Easy to Call)",
+          "description": "<p>사킬의 레벨은 @UUID[Compendium.pf2e.spells-srd.Item.2ykmAVKrsAWcazcC]{Binding Circle} 의식에 소환될 수 있지만(GM의 재량에 따라 다른 의식에도 소환될 수 있음), 주 시전자의 체크가 대성공이 아닌 한, 협상 대신 자유롭게 공격하거나 떠날 수 있습니다."
+        },
+        "8x5osr2xcjkaa7ff": {
+          "name": "보복 (Retaliate)",
+          "description": "<p><strong>트리거</strong> 차카나즈의 도달 범위 내에 있는 생물이 호스트를 공격합니다. <strong>요건</strong> 차카나즈는 호스트와 결합되어 있습니다. </p><hr /><p><strong>효과</strong> 차카나즈는 트리거링 생물에게 다리 공격을 합니다. 차카나즈가 이 공격을 할 때 의상을 모방하고 있었다면, 모방은 종료됩니다. </p>"
+        },
+        "v72jr2qs8g9jdxqd": {
+          "name": "호스트와 결합 (Bond with Host)",
+          "description": "<p><strong>요건</strong> 차카나즈는 기꺼이 받아들이는 생물과 인접해 있습니다</p>\n<hr />\n<p><strong>효과</strong> 차카나즈는 그 생물(이하 호스트)의 공간으로 들어가 호스트의 얼굴이나 등 등 적절한 부위를 덮습니다. 차카나즈는 호스트와 동일한 공간을 차지하며 호스트와 함께 이동합니다. 호스트의 감각이나 움직임을 방해하지 않습니다. 착용 중일 때 차카나즈는 호스트와 @UUID[Compendium.pf2e.spells-srd.Item.d7Lwx6KAs47MtF0q]{생명 공유} 효과를 지속적으로 유지합니다. 차카나즈를 대상으로 한 공격은 대신 숙주를 대상으로 하지만, 차카나즈와 숙주 중 더 높은 AC 또는 내성 굴림 값을 사용합니다. 효과 영역은 효과 영역에 대해 평소와 같이 차카나즈와 숙주 모두에 적용됩니다."
+        },
+        "q0q1v6frn5sd4009": {
+          "name": "개입 (Interpose)",
+          "description": "<p><strong>요구 사항</strong> 차카나즈는 호스트와 결합되어 있습니다</p>\n<hr />\n<p><strong>효과</strong> 차카나즈는 호스트와 적 사이에 자신을 끼워 넣고, 차카나즈의 다음 턴이 시작될 때까지 호스트의 AC에 +2의 상황 보너스를 부여합니다.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.7PjBr9LsVB0Jjzyu]{효과: Interpose}</p>"
+        },
+        "673lguaolbkl5kcs": {
+          "name": "Peel Away",
+          "description": "<p><strong>요구 사항</strong> 차카나지는 호스트와 결합되어 있습니다</p>\n<hr />\n<p><strong>효과</strong> 차카나지는 호스트로부터 자신을 분리하여 호스트의 몸에서 벗겨져 인접한 공간으로 이동합니다.</p>"
+        },
+        "7f4wzqfk9l7e9vni": {
+          "name": "Skip Between",
+          "description": "<p>차카나즈 사킬은 물질 평면과 에테리얼 평면 사이를 이동하며, @UUID[Compendium.pf2e.spells-srd.Item.D2nPKbIS67m9199U]{Ethereal Jaunt}의 효과를 갖지만, 효과의 지속 시간이 무제한이며 해제될 수 있습니다. 소환된 사킬은 스킵 사이를 사용할 수 없습니다."
+        }
+      }
+    },
+    "Gray Gardener Director General": {
+      "name": "그레이 가드너 총감독 (Gray Gardener Director General)",
+      "description": "",
+      "hpdetails": "",
+      "items": {
+        "JklgmRLJ4Ie3Edu0": {
+          "name": "익명성 (Anonymity)",
+          "description": "<p>그레이 가드너 총감독은 자신의 신분을 숨기기 위한 속임수 체크와 내성 굴림에 +2의 상황 보너스를 받고, 그레이 가드너의 신분을 밝히는 효과에 대한 속임수 DC에 +2의 상황 보너스를 받습니다."
+        },
+        "Z6I93yAvWeA9y6Rv": {
+          "name": "가드너의 결의 (Gardener's Resolve)",
+          "description": "<p><strong>트리거</strong> 그레이 가드너 총괄 책임자는 정신 또는 공포 특성이 있는 효과에 대한 의지 내성 굴림에 실패(대실패는 제외)합니다.의 특징이 가면이나 두건으로 가려져 있습니다</p>\n<hr />\n<p><strong>효과</strong> 그레이 가드너 총감독은 @Damage[3d8[정신]]의 피해를 받고, 내성 굴림이 성공합니다."
+        },
+        "rpuws83q8uhxkxk3": {
+          "name": "빠른 무기 뽑기 (Quick Draw)",
+          "description": "<p>총감독은 상호 작용을 통해 무기를 뽑은 다음, 그 무기로 공격을 합니다."
+        },
+        "msa7xu7z09elqbwi": {
+          "name": "두려움을 찔러라 (Skewer the Fearful)",
+          "description": "<p>총감독의 공격은 겁에 질린 생물에게 4d6의 추가 정밀 피해를 입힙니다. 겁에 질린 생물에 대한 공격이 치명타일 경우, 그 생물은 다음 턴이 끝날 때 겁에 질린 상태가 자동으로 감소하지 않습니다."
+        },
+        "iox2rs5y6wd0lxbv": {
+          "name": "엄한 눈빛 (Stern Glare)",
+          "description": "<p><strong>트리거</strong> 총감독의 턴이 시작됩니다</p><hr /><p><strong>효과</strong> 총감독은 60피트 이내에 있고 총감독을 볼 수 있으며 총감독이 볼 수 있는 생물을 대상으로 '도덕적 붕괴'를 시도합니다.</p>"
+        },
+        "z1h9foa0rroyvcrj": {
+          "name": "우월성의 속삭임 (Whispers of Superiority)",
+          "description": "<p>총감독은 60피트 이내에서 자신의 말을 들을 수 있는 겁에 질리지 않은 대상에게 몇 마디 말을 던져, 그 대상의 겁쟁이에 대한 분노를 부추깁니다. 대상 생물은 @Check[will|dc:39] 내성 체크에 성공하지 않으면 겁에 질린 생물을 아군으로 간주하지 않고, 그들을 돕거나 측면을 공격할 수 없습니다. 이 효과는 1 라운드 동안 지속됩니다 (대실패 시 1분).</p>"
+        }
+      }
+    },
+    "Guillotine Golem": {
+      "name": "기요틴 골렘 (Guillotine Golem)",
+      "description": "",
+      "hpdetails": "",
+      "items": {
+        "GjFzfXhsM4SnB7cI": {
+          "name": "골렘의 마법 저항 (Golem Antimagic)",
+          "description": "<p>산에 의해 피해를 입습니다 (@Damage[9d10[untyped]], @Damage[3d8[untyped]] 영역 또는 지속 피해로 인해); 전기 @Damage[3d8[healing]] HP로 치유됨; 화염으로 느려짐</p><hr /><p>@Localize[PF2E.NPC.Abilities.Glossary.GolemAntimagic]</p>"
+        },
+        "6p3pu94vw7ef0g71": {
+          "name": "독 무력화에 취약 (Vulnerable to Neutralize Poison)",
+          "description": "<p>골렘에 @UUID[Compendium.pf2e.spells-srd.Item.SUKaxVZW2TlM8lu0]{고통 정화}를 시전하면 1분 동안 골렘의 숨결 무기가 비활성화됩니다."
+        },
+        "yoiqxstjk7nmorpr": {
+          "name": "녹에 취약 (Vulnerable to Rust)",
+          "description": "<p>녹슨 괴물의 안테나와 같은 마법의 녹슬기 효과는 단두대 골렘에 정상적으로 영향을 미칩니다."
+        },
+        "sjy3bim3i42e3t4n": {
+          "name": "호흡 무기 (Breath Weapon)",
+          "description": "<p>단두대 골렘은 골렘의 칸 모서리를 중심으로 @Template[burst|distance:10] 범위에 독가스를 방출합니다. 가스는 1 라운드 동안 지속됩니다. 이 영역에 있는 (또는 나중에 이 영역에 들어오는) 모든 생물은 골렘의 독에 노출됩니다. 골렘은 [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 라운드} 동안 숨결 무기를 다시 사용할 수 없습니다."
+        },
+        "qpv42cvabo9c5yrd": {
+          "name": "참수 (Decapitation)",
+          "description": "<p>기요틴 골렘이 칼날 공격으로 생물에게 치명타를 입힌 경우, 해당 생물은 @Check[fortitude|dc:40] 내성 체크에 성공하지 않으면 참수되어, 머리가 없는 상태로 살아남지 못하면 즉시 사망합니다."
+        },
+        "peb95giu5vjyf7fb": {
+          "name": "기요틴 골렘의 독 (Guillotine Golem Poison)",
+          "description": "<p>이 독으로 흡수된 모든 값은 1시간마다 1씩 감소합니다.</p>\n<hr />\n<p><strong>내성 굴림</strong> @Check[fortitude|dc:40]</p>\n<p><strong>최대 지속 시간</strong> 4 라운드</p>\n<p><strong>1단계</strong> @Damage[3d6[poison]] 및 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 1} (1 라운드)</p>\n<p><strong>2단계</strong> @Damage[5d6[poison]] 및 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 2} (1 라운드)</p>\n<p><strong>3단계</strong> @Damage[10d6[poison]] 및 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 3} (1 라운드).</p>"
+        },
+        "ks2rth5pf36if6wd": {
+          "name": "무자비한 행진 (Inexorable March)",
+          "description": "<p>단두대 골렘은 자신의 속도로 전진하며, 이동하는 공간에 있는 모든 생물을 밀어내고, 그 움직임을 막으려 하면 피해를 입힙니다. 생물은 @Check[fortitude|dc:44] 내성 체크에 성공하면 길을 막을 수 있습니다. 대성공을 하면 저항한 생물은 피해를 입지 않지만, 그렇지 않으면 골렘의 칼 공격에 맞은 것처럼 피해를 입습니다."
+        }
+      }
+    },
+    "Riekanoy": {
+      "name": "리케노이 (Riekanoy)",
+      "description": "",
+      "hpdetails": "",
+      "items": {
+        "RmdaktfumPEM4R7q": {
+          "name": "상시 주문 (Constant Spells)",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ConstantSpells]</p>"
+        },
+        "m8okrt5p2n41726w": {
+          "name": "구불구불한 이니셔티브 (Sinuous Initiative)",
+          "description": "<p>리카노이의 흔들리는 움직임은 우아하게 전투로 돌진합니다. 리카노이는 행동할 수 있고 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} 상태가 아닌 동안에는 이니셔티브를 위해 성능을 굴릴 수 있습니다."
+        },
+        "iolcGi2CFgzPxgyI": {
+          "name": "물 위를 걷기 (Water Walk)",
+          "description": "<p>리케노이는 항상 9등급 @UUID[Compendium.pf2e.spells-srd.Item.Seaah9amXg70RKw2]{물 위를 걷기}의 영향을 받고 있습니다.</p>"
+        },
+        "l1p4q2zyo6konsxf": {
+          "name": "유혹의 춤 (Beckoning Dance)",
+          "description": "<p>리케카노이는 매혹적인 몸짓으로 흔들립니다. 리케카노이를 볼 수 있는 @Template[emanation|distance:300] 내에 있는 모든 비페이 생물은 @Check[will|dc:38] 내성 체크를 시도해야 합니다. 이 효과는 1 라운드 동안 지속되지만, 리케카노이가 다음 라운드에 다시 손짓 춤을 사용하면, 모든 영향을 받은 생물의 지속 시간이 1 라운드씩 연장됩니다. 유혹의 춤에 대한 내성 체크에 성공한 생물은 24시간 동안 일시적으로 면역이 됩니다.</p>\n<p><strong>실패 생물은 @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{매료됨} 상태가 되며, 각 행동을 리카노이에게 더 가까이 이동하는 데 사용해야 하며 명백한 위험을 피해야 합니다. 유인된 생물이 리카노이와 인접해 있다면 움직이지 않고 행동하지 않습니다. 리케노이의 공격을 받으면, 그 생물은 리케노이의 턴이 끝날 때 매혹에서 해방됩니다.</p>\n<p><strong>대실패 실패와 동일하지만, 리케노이의 공격을 받으면, 그 생물은 리케노이의 턴이 끝날 때 해방되는 대신, 다음 턴이 시작될 때만 새로운 내성 검사를 시도할 수 있습니다."
+        },
+        "hc1wuichiyplb2ks": {
+          "name": "Constrict",
+          "description": "<p>@Damage[(3d10+12)[bludgeoning]], @Check[fortitude|dc:41|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p>"
+        },
+        "8zl0kvuswlu8s369": {
+          "name": "얽히는 머리카락 (Entangling Hair)",
+          "description": "<p>리케노이는 한 번에 최대 8개의 생물 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{잡힌}을 머리카락에 감아둘 수 있습니다.</p>"
+        },
+        "46kj31h9euhnr25q": {
+          "name": "머리카락 흔들기 (Waving Hair)",
+          "description": "<p>리케노이는 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{잡힌} 생물 각각의 반사 DC에 대해 곡예 체크를 시도합니다. 리케노이는 성공한 각 생물을 최대 10피트까지 이동시키고, 크리티컬 성공한 각 생물을 최대 20피트까지 이동시킵니다. 이 이동은 모두 그 머리카락의 범위 내에 있어야 합니다.</p>"
+        },
+        "uzvjse6FjVHlNmbW": {
+          "name": "개선된 잡기 (Improved Grab)",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ImprovedGrab]</p>"
+        }
+      }
+    },
+    "Gray Gardener Enforcer": {
+      "name": "그레이 가드너 집행자 (Gray Gardener Enforcer)",
+      "description": "",
+      "hpdetails": "무효 치유",
+      "items": {
+        "zdnavpfqin8dkh7j": {
+          "name": "익명성 (Anonymity)",
+          "description": "<p>그레이 가드너 집행자는 자신의 신분을 숨기기 위한 속임수 체크와 내성 굴림에 +2의 상황 보너스를 받고, 그레이 가드너의 신분을 밝히는 효과에 대한 속임수 DC에 +2의 상황 보너스를 받습니다."
+        },
+        "ffx2ztc99l9bxph6": {
+          "name": "봉헌에 대한 취약성 (Consecration Vulnerability)",
+          "description": "<p>그레이 가드너 집행관이 악이 아닌 신에게 헌정된 예배 장소나 성스러운 땅에 있을 때, 예: @UUID[Compendium.pf2e.spells-srd.Item.y3jlOfgsQH1JjkJE]{Anointed Ground}로 축복받은 지역, @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1}.</p>"
+        },
+        "cx1w05nphshxjcgy": {
+          "name": "정원사의 결의 (Gardener's Resolve)",
+          "description": "<p><strong>트리거</strong> 그레이 가드너 집행자가 정신 또는 공포 특성이 있는 효과에 대한 의지 내성 굴림에 실패(대실패는 제외)를 기록합니다. </p>\n<p><strong>요건</strong> 그레이 가드너 집행자의 특징이 가면이나 두건으로 가려져 있습니다. </p>\n<hr />\n<p><strong>효과</strong> 그레이 가드너가 @Damage[3d8[정신]]의 피해를 받고, 내성 굴림이 성공합니다. "
+        },
+        "0gbex6y5cokj8lhd": {
+          "name": "영양가 높은 잔치 (Nourishing Feast)",
+          "description": "<p>그레이 가드너 집행자는 1시간 동안 1개의 생고기 덩어리를 먹어 몸의 부패를 되돌립니다. 1시간 동안 그레이 가드너 집행자는 창백하고 부풀어 오른 인간으로 보입니다. 그들은 속임수 체크와 DC에서 32의 자동 결과를 얻어, 죽지 않은 인간으로 보입니다. 영양의 잔치 효과가 지속되는 동안, 썩어가는 살은 기능을 멈춥니다."
+        },
+        "7461tqwfss2gv5o4": {
+          "name": "썩어가는 살 (Rotting Flesh)",
+          "description": "<p>그레이 가드너 집행관을 무장하지 않은 공격으로 공격하거나, 그들을 그랩하려고 시도하거나, 또는 그르그리스트에 접촉하는 모든 생물은 썩은 살과 부패한 액체로 덮입니다. 생물은 @Check[fortitude|dc:36] 내성 체크에 성공하지 못하면 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} (@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2} 대실패 시)가 됩니다."
+        },
+        "hx1yYAXXEsBnBk6s": {
+          "name": "공허의 치유 (Void Healing)",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>"
+        },
+        "c7xmf5hqlj4c7gk2": {
+          "name": "사슬 목조르기 (Chain Garotte)",
+          "description": "<p>그레이 가드너의 집행자의 가시 달린 사슬 공격은 @Damage[2d8[출혈]]의 피해를 입히고, 이 공격을 사용하여 최대 두 명의 적을 잡을 수 있습니다. 집행자는 한 명의 생물을 잡은 상태에서도 스파이크 체인으로 공격할 수 있지만, 두 명을 잡은 상태에서는 공격할 수 없습니다. "
+        },
+        "9ngglw35qsko0dgv": {
+          "name": "죽음의 숨결 (Death Gasp)",
+          "description": "<p>그레이 가드너 집행자는 심호흡을 한 후 숨을 참아 생체 기능을 일시적으로 정지시키고 언데드가 됩니다. 그레이 가드너 엔포서는 언데드 특성을 얻고 출혈, 죽음 효과, 질병, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비}, 독, 수면 효과에 면역이 됩니다. 그레이 가드너가 현재 받고 있는 이러한 효과는 일시적으로 중단되지만, 숨을 쉬면 다시 효과가 발동합니다. 데스 가스프는 그레이 가드너 집행관이 숨을 참는 동안 지속됩니다.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.lyeRL7khixdlJsaf]{효과: 데스 가스프}</p>"
+        },
+        "uqvrj5m4qmq12a02": {
+          "name": "그레이트 콘스트릭트 (Greater Constrict)",
+          "description": "<p>@Damage[(3d8+7)[베기]] 피해, @Check[fortitude|dc:38|basic|name:Chain Garotte Constrict|traits:disarm,trip]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.GreaterConstrict]</p>"
+        },
+        "DCGj6wBryfo6dU2v": {
+          "name": "잡기 (Grab)",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
+        }
+      }
+    },
+    "Zintaya Calbieste": {
+      "name": "Zintaya Calbieste",
+      "description": "",
+      "hpdetails": "",
+      "items": {
+        "UU9cOQ3GJiiJ0y2t": {
+          "name": "익명성 (Anonymity)",
+          "description": "<p>그레이 가드너 암살자는 자신의 신분을 숨기기 위한 속임수 체크와 내성 굴림에 +2의 상황 보너스를 받고, 그레이 가드너의 신분을 밝히는 효과에 대한 속임수 DC에 +2의 상황 보너스를 받습니다."
+        },
+        "21UXAxVXwteVs9dM": {
+          "name": "가드너의 결의 (Gardener's Resolve)",
+          "description": "<p><strong>트리거</strong> 그레이 가드너 암살자는 정신 또는 공포 특성이 있는 효과에 대한 의지 내성 굴림에 실패(대실패는 제외)합니다.의 특징이 가면이나 두건으로 가려져 있습니다</p>\n<hr />\n<p><strong>효과</strong> 그레이 가드너 암살자는 @Damage[3d8[정신]]의 피해를 받고, 내성 굴림이 성공합니다."
+        },
+        "tqtwsr6iftva2t2h": {
+          "name": "즉각적인 개방 (Instant Opening)",
+          "description": "<p>그레이 가드너 암살자는 몇 마디의 말이나 제스처로 30 피트 이내의 생물들의 주의를 분산시킵니다. 이 생물들은 암살자의 다음 턴이 끝날 때까지 암살자의 공격에 대해 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 됩니다. 주의 분산에 따라 이 행동은 청각 또는 시각 특성을 얻습니다.</p>"
+        },
+        "ir9iykcrbdq5n5zv": {
+          "name": "죽음의 표식 (Mark for Death)",
+          "description": "<p>회색 정원사 암살자는 볼 수 있고 들을 수 있는 단일 생물을 표적으로 지정합니다. 이 효과는 표적이 죽거나 암살자가 다시 '죽음의 표식'을 사용할 때까지 지속됩니다. 암살자는 표적을 @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{찾기} 위한 지각 체크와 표적을 상대로 한 속임수 체크에 +2의 상황 보너스를 얻습니다. 암살자의 근접 및 원거리 공격은 표적을 공격할 때 치명적인 d8 무기 특성을 얻습니다."
+        },
+        "qlj226n45f0wl98g": {
+          "name": "독 무기 (Poison Weapon)",
+          "description": "<p><strong>요건</strong> 그레이 가드너 암살자는 관통 또는 베기 무기를 들고 있으며, 한 손이 자유롭습니다."
+        },
+        "uzua9klnxxs2xosv": {
+          "name": "빠른 무기 뽑기 (Quick Draw)",
+          "description": "<p>그레이 가드너 암살자는 상호 작용을 통해 무기를 뽑은 다음 그 무기로 공격합니다."
+        },
+        "qnoacZYdU5EipEmP": {
+          "name": "암습 (Sneak Attack)",
+          "description": "<p>그레이 가드너 암살자는 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태의 생물에게 6d6의 추가 정밀 피해 정밀 피해를 입힙니다."
+        },
+        "sslmxm3jw7n66c4h": {
+          "name": "기습 공격 (Surprise Attack)",
+          "description": "<p>전투의 첫 번째 라운드에서 아직 행동하지 않은 생물은 그레이 가드너 암살자에게 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 됩니다."
+        }
+      }
+    },
+    "Worm Prophet": {
+      "name": "웜 예언자 (Worm Prophet)",
+      "description": "",
+      "hpdetails": "",
+      "items": {
+        "l3VBs0xOvAxRlsA8": {
+          "name": "익명성 (Anonymity)",
+          "description": "<p>웜 예언자는 자신의 신분을 숨기기 위한 속임수 체크와 내성 굴림에 +2의 상황 보너스를 받고, 웜 예언자의 신분을 밝히는 효과에 대한 속임수 DC에 +2의 상황 보너스를 받습니다."
+        },
+        "k9j42KNgSKOO2vo1": {
+          "name": "정원사의 결의 (Gardener's Resolve)",
+          "description": "<p><strong>트리거</strong> 웜 예언자는 정신 또는 공포 특성이 있는 효과에 대한 의지 내성 굴림에 실패(대실패는 제외)합니다. </p>\n<p><strong>요건</strong> 웜 예언자의 특징이 가면이나 두건으로 가려져 있습니다. </p>\n<hr />\n<p><strong>효과</strong> 웜 예언자는 @Damage[3d8[정신]] 피해를 받고, 내성 굴림이 성공합니다."
+        },
+        "zkuytxydee6ur175": {
+          "name": "침략 (Invaded)",
+          "description": "<p>웜 예언자는 정복자 웜의 정신 침략자 효과의 대상이 됩니다."
+        },
+        "yjfa16qk51s0uylr": {
+          "name": "영혼 포획 (Capture Spirit)",
+          "description": "<p><strong>트리거</strong> 벌레 예언자의 네크로맨시 마법에 영향을 받은 대상이 벌레 예언자로부터 60피트 이내에서 사망합니다</p><hr /><p><strong>효과</strong> 벌레 예언자는 사망한 희생자의 영혼 일부를 흡수합니다, 그리고 벌레 예언자는 @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} 1 상태가 1분 동안 적용됩니다. 이 추가 행동은 이동, 이동 범위 확장, 또는 주문의 지속에만 사용할 수 있습니다.</p>"
+        },
+        "7pt4u3cwen65t4fp": {
+          "name": "안정된 주술 (Steady Spellcasting)",
+          "description": "<p>반응이 웜 예언자의 주문 시전 행동을 방해할 경우, 웜 예언자는 @Check[flat|dc:15|showDC:owner]를 시도합니다. 성공하면 행동은 방해받지 않습니다."
+        }
+      }
+    },
+    "Conqueror Worm": {
+      "name": "정복자 웜 (Conqueror Worm)",
+      "description": "",
+      "hpdetails": "",
+      "items": {
+        "2I4qA3cOx8bMmRjL": {
+          "name": "강화된 암흑 시력 (Greater Darkvision)",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.GreaterDarkvision]</p>"
+        },
+        "qOqmjTlxe8O2y4mw": {
+          "name": "진동 감지 (불정확) 100 피트 (Tremorsense (Imprecise) 100 feet)",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Tremorsense]</p>"
+        },
+        "UpaQDxLX39uLoHzQ": {
+          "name": "텔레파시 200 피트 (Telepathy 200 feet)",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Telepathy]</p>"
+        },
+        "nDkt46wDZ0uSOcsk": {
+          "name": "상시 마법 (Constant Spells)",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ConstantSpells]</p>"
+        },
+        "sTwosLv59wI120s7": {
+          "name": "공중 걸음 (Air Walk)",
+          "description": "<p>정복자 벌레는 항상 9등급 @UUID[Compendium.pf2e.spells-srd.Item.b5sGjGlBf58f8jn0]{공중 걸음}의 영향을 받고 있습니다.</p>"
+        },
+        "du4eq4l0aets9kbu": {
+          "name": "설득력 있는 텔레파시 (Convincing Telepathy)",
+          "description": "<p>정복자 벌레가 텔레파시로 의사소통을 할 때, 그 압도적인 의지는 거짓말을 뒷받침합니다. 정교하거나 믿기 어려운 텔레파시 거짓말에 대해서는 속임수 체크와 속임수 DC에 페널티가 적용되지 않습니다."
+        },
+        "48yobypl8536j6s6": {
+          "name": "정신 침입자 (Mental Invader)",
+          "description": "<p><strong>트리거</strong> 생물이 정복자 벌레와 텔레파시로 통신할 때 (정복자 벌레의 텔레파시에 응답하거나 @UUID[Compendium.pf2e.spells-srd.Item.R9xqCBblkS5KE4y7]{Sending}과 같은 정신 마법으로 통신할 때) 또는 정복자 벌레가 시전한 정신 마법에 대한 내성 굴림에 실패합니다. </p><hr />\n<p><strong>효과</strong> 정복자 벌레는 생물의 정신을 감염시켜 멀리서도 정신으로 생물과 접촉할 수 있게 합니다. 생물은 @Check[will|dc:48] 내성 굴림에 도전해야 하며, 1년 동안 일시적으로 면역이 됩니다.</p>\n<p><strong>성공</strong> 대상은 1분 동안 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1} 상태가 됩니다.</p>\n<p><strong>실패</strong> 성공과 동일하며, 정복자 벌레는 벌레와 대상이 같은 차원에 있는 한 거리와 관계없이 대상에게 텔레파시와 정신 마법을 사용할 수 있습니다. 이 연결은 영구적이며, @UUID[Compendium.pf2e.spells-srd.Item.YfJTXyVGzLhM6V8U]{Miracle}, @UUID[Compendium.pf2e.spells-srd.Item.6dDtGIUerazSHIOu]{Wish}, 또는 유사한 마법으로만 끊을 수 있습니다. 정복자 벌레는 Mental Invader와 최대 10개의 연결을 유지할 수 있습니다. 다른 생물이 감염될 경우, 벌레는 기존 연결 중 하나를 끊어야 하며, 현재 10개의 연결을 유지하려면 새로운 생물은 감염되지 않습니다.</p>\n<p><strong>대실패</strong> 실패로 처리되며, 정신적 연결이 지속되는 동안 대상은 정복자 벌레가 시전하는 정신 마법에 대한 내성 굴림의 결과보다 1 단계 낮은 결과를 사용합니다."
+        },
+        "0jnZP1Msn776vEXn": {
+          "name": "텔레파시 탈출 (Telepathic Escape)",
+          "description": "<p>정복자 벌레가 죽으면, 정신 침입자 능력에 감염된 생물 중 정복자 벌레와 같은 차원에 있는 생물에게 자신의 의식을 텔레파시로 투사합니다. 이 생물은 @Check[will|dc:48|name:Mental Invader] 내성 체크에 성공하지 않으면 정복자 벌레에게 제압당합니다. 이 효과는 @UUID[Compendium.pf2e.spells-srd.Item.wU6hNzK8Yfqdmc8m]{Possession} 주문의 무제한 지속 시간과 동일하지만, 정복자 벌레는 물리적 몸을 완전히 포기합니다. 정복자 벌레에 의해 점령된 숙주 몸은 끔찍한 변화를 겪습니다. 호스트는 매일 @Check[will|dc:48]에 성공하지 않으면 영구적으로 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1}이 되고 (또는 혼미 값이 1 증가하며) 점점 창백해지고, 대머리가 되고, 부풀어 오릅니다. 숙주가 혼미 4에 도달하면, 엑토플라즘 고치가 그 주위를 감쌉니다. 다음 24시간 동안, 숙주는 급속한 변형을 겪고, 이전의 모든 기억을 가진 새로운 정복자 벌레로 등장합니다. 이 시점에서 호스트는 사망하며, @UUID[Compendium.pf2e.spells-srd.Item.YfJTXyVGzLhM6V8U]{Miracle}, @UUID[Compendium.pf2e.spells-srd.Item.6dDtGIUerazSHIOu]{Wish} 또는 유사한 마법으로만 복원 가능합니다. 그러나 그 시점 이전에는 이 끔찍한 변형을 끝낼 수 있는 효과는 정복자 벌레의 점령을 제거하는 모든 효과입니다. 즉, 정복자 벌레의 살인자는 그 의식을 찾아내어 점령을 끝내야 하며, 그렇지 않으면 벌레가 다시 부활할 수 있습니다.</p>"
+        },
+        "WuXtdNahM3NS94BI": {
+          "name": "진정한 시야 (True Seeing)",
+          "description": "<p>정복자 벌레는 항상 9등급 @UUID[Compendium.pf2e.spells-srd.Item.uqlxMQQeSGWEVjki]{Truesight}의 영향을 받고 있습니다.</p>"
+        },
+        "6jahq6alozpikfb2": {
+          "name": "호흡 무기 (Breath Weapon)",
+          "description": "<p>정복자 벌레는 @Template[line|distance:120] 범위 내에 있는 모든 생물에게 @Damage[14d10[acid]|options:area-damage]의 피해를 입히는 산을 분출합니다 (@Check[reflex|dc:44|basic|options:area-effect] 내성). [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 라운드} 동안 Breath Weapon을 다시 사용할 수 없습니다.</p>"
+        },
+        "s3eavgi7nlhcrmv2": {
+          "name": "빠른 삼키기 (Fast Swallow)",
+          "description": "<p><strong>트리거</strong> 정복자 벌레가 생물을 잡습니다.</p><hr /><p><strong>효과</strong> 벌레는 Swallow Whole을 사용합니다.</p>"
+        },
+        "gc3r13us7llpvf0y": {
+          "name": "부하 소집 (Muster Minions)",
+          "description": "<p>정복자 벌레는 자신의 정신 침입 능력에 영향을 받는 같은 차원에 있는 최대 3개의 의지가 있는 생물을 선택하고, 벌레가 선택한 벌레에 인접한 칸으로 그 생물들을 순간 이동시킵니다."
+        },
+        "bs1iKnQ8cmv0AxtL": {
+          "name": "통째로 삼키기 (Swallow Whole)",
+          "description": "<p>거대, @피해[(4d10+10)[타격], 2d6[산]], 파열 44</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
+        },
+        "301a83AKqydcAu0f": {
+          "name": "개선된 잡기 (Improved Grab)",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ImprovedGrab]</p>"
+        }
+      }
+    },
+    "Miss Whisper": {
+      "name": "미스 휘스퍼 (Miss Whisper)",
+      "description": "<p>수천 년 전, 이 다중우주의 사이클이 아직 청소년기였던 시절, 영혼을 최종 안식처로 안내하는 역할에 지치고 구속감을 느낀 심리푼프들의 카발이 자신의 지위에 반란을 일으켰다. 이 영혼의 순환에 대한 부패가 첫 번째 사킬을 탄생시켰습니다.</p>\n<p>다중우주의 정해진 질서에 무관심하고 인간에 대한 증오를 품은 사킬은 모든 존재에게 공포와 불안을 퍼뜨리는 것을 즐기며, 잠재력을 발휘하기 두려워하는 불안에 휩싸인 인간들로 초월적 순환을 막아둡니다. 이 악마들은 헌신적인 심리 뱀파이어 선조들과는 극적으로 달라졌습니다. 그들은 증오와 고문, 공포와 혐오의 존재입니다. 그들은 가장 일반적이고 희귀한 공포를 자신의 변태적인 만족을 위해 이용하며, 인간을 공포에 떨게 만들고 그들의 존재 이유를 의심하게 만드는 것만을 원합니다.</p>\n<p>대부분의 사킬은 에테리얼 평면에서 숨어 지내지만, 자주 물질 평면을 침범해 인간을 고문하고 공포를 퍼뜨립니다. 그들은 에테리얼과 물질 평면 사이의 장막을 자유롭게 넘나드는 선천적 능력을 활용해, 목표물을 수일 또는 수주 동안 추적한 후 악랄한 계획을 실행합니다.</p>\n<hr />\n<p>파칼치스는 사냥감의 개인적 및 감정적 유대 관계에 내재된 불안을 극대화하려 합니다. 그들은 그 관계가 파탄에 빠질 위협을 이용해 조작합니다. 이 사킬들은 동족 중에서도 가장 교활한 종족으로, 오랜 기간에 걸쳐 말 그대로 그리고 비유적으로 희생자들을 조종하며, 가능한 한 오랫동안 절망과 공포에 빠진 희생자들을 즐기며 흥분합니다.",
+      "hpdetails": "",
+      "items": {
+        "lPHcKkQiBqbtQQ8z": {
+          "name": "텔레파시 100피트 (Telepathy 100 feet)",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Telepathy]</p>"
+        },
+        "l2ymfoz6uzs9Q7vM": {
+          "name": "상시 마법 (Constant Spells)",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ConstantSpells]</p>"
+        },
+        "txI3yFBFe03WbSW7": {
+          "name": "결박 (Bound)",
+          "description": "<p>벽에 파칼치를 고정하는 새벽은빛 수갑은 마법으로 강화되어 있습니다. 파칼치는 이를 제거할 수 없지만, 다른 생물은 단일 상호작용 행동으로 제거할 수 있습니다. 묶여 있는 동안, 그녀는 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} 상태가 되어, 근접 공격을 할 수 없고, 스킵 사이를 이동할 수 없지만, -4의 상황 페널티를 받고 가시 공격을 할 수는 있습니다."
+        },
+        "vMRN1ON8B5Jk9K9h": {
+          "name": "Easy to Call",
+          "description": "<p>사킬의 레벨은 @UUID[Compendium.pf2e.spells-srd.Item.2ykmAVKrsAWcazcC]{Binding Circle}의식에 소환될 수 있지만(GM의 재량에 따라 다른 의식에도 소환될 수 있음), 주 시전자의 체크가 대성공이 아닌 한, 협상 대신 공격하거나 떠날 수 있습니다."
+        },
+        "qi2lvWIXN1GWDfm1": {
+          "name": "얽히는 기차 (Entangling Train)",
+          "description": "<p><strong>트리거</strong> 생물이 파칼치 옆으로 이동합니다</p>\n<hr />\n<p><strong>효과</strong> 검은 덩굴이 생물을 감싸고 뒤틀립니다. 생물은 @Damage[1d6[베기]]의 피해를 받고, 다음 턴이 끝날 때까지 속도에 -15피트의 상황 페널티를 받습니다."
+        },
+        "SA7P07cUNUdSC4Sp": {
+          "name": "배신 독 (Betrayal Toxin)",
+          "description": "<p>배신 독에 영향을 받은 생물은 머릿속에서 끊임없는 의심의 속삭임을 듣고, 어떤 생물도 자신의 동맹으로 간주하지 않습니다.어떤 생물도 아군으로 취급할 수 없습니다</p>\n<p><strong>내성 굴림</strong> @Check[fortitude|dc:28]</p>\n<p><strong>최대 지속 시간</strong> 6 라운드</p>\n<p><strong>1단계</strong> @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1} (1 라운드)</p>\n<p><strong>2단계</strong> @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 2} (1 라운드)</p>"
+        },
+        "Umi4PGsADEgpFaTb": {
+          "name": "사이 건너뛰기 (Skip Between)",
+          "description": "<p>사킬은 물질계에서 에테리얼계로, 또는 그 반대로 이동하며, @UUID[Compendium.pf2e.spells-srd.Item.D2nPKbIS67m9199U]{Ethereal Jaunt}의 효과를 받지만, 효과의 지속 시간이 무제한이며 해제될 수 있습니다.</p>\n<p>소환된 사킬은 'Skip Between'을 사용할 수 없습니다.</p>"
+        }
+      }
+    }
+  },
+  "mapping": {
+    "name": "name",
+    "description": "system.details.publicNotes",
+    "gm": "system.details.privateNotes",
+    "blurb": "system.details.blurb",
+    "cadetails": "system.attributes.ac.details",
+    "hpdetails": "system.attributes.hp.details",
+    "languages": "system.details.languages.details",
+    "perception": "system.perception.details",
+    "saves": "system.attributes.allSaves.value",
+    "speeds": "system.attributes.speed.details",
+    "desc": "system.details.description",
+    "disable": "system.details.disable",
+    "reset": "system.details.reset",
+    "routine": "system.details.routine",
+    "stealth": "system.attributes.stealth.details",
+    "target": "system.target.value",
+    "items": {
+      "path": "items",
+      "converter": "translateActorItems"
+    },
+    "AcrobaticsVariants": {
+      "path": "system.skills.acrobatics.special",
+      "converter": "translateSkillVariants"
+    },
+    "ArcanaVariants": {
+      "path": "system.skills.arcana.special",
+      "converter": "translateSkillVariants"
+    },
+    "AthleticsVariants": {
+      "path": "system.skills.athletics.special",
+      "converter": "translateSkillVariants"
+    },
+    "CraftingVariants": {
+      "path": "system.skills.crafting.special",
+      "converter": "translateSkillVariants"
+    },
+    "DeceptionVariants": {
+      "path": "system.skills.deception.special",
+      "converter": "translateSkillVariants"
+    },
+    "DiplomacyVariants": {
+      "path": "system.skills.diplomacy.special",
+      "converter": "translateSkillVariants"
+    },
+    "IntimidationVariants": {
+      "path": "system.skills.intimidation.special",
+      "converter": "translateSkillVariants"
+    },
+    "MedicineVariants": {
+      "path": "system.skills.medicine.special",
+      "converter": "translateSkillVariants"
+    },
+    "NatureVariants": {
+      "path": "system.skills.nature.special",
+      "converter": "translateSkillVariants"
+    },
+    "OccultismVariants": {
+      "path": "system.skills.occultism.special",
+      "converter": "translateSkillVariants"
+    },
+    "PerformanceVariants": {
+      "path": "system.skills.performance.special",
+      "converter": "translateSkillVariants"
+    },
+    "ReligionVariants": {
+      "path": "system.skills.religion.special",
+      "converter": "translateSkillVariants"
+    },
+    "SocietyVariants": {
+      "path": "system.skills.society.special",
+      "converter": "translateSkillVariants"
+    },
+    "StealthVariants": {
+      "path": "system.skills.stealth.special",
+      "converter": "translateSkillVariants"
+    },
+    "SurvivalVariants": {
+      "path": "system.skills.survival.special",
+      "converter": "translateSkillVariants"
+    },
+    "ThieveryVariants": {
+      "path": "system.skills.thievery.special",
+      "converter": "translateSkillVariants"
+    }
+  }
+}

@@ -1,0 +1,446 @@
+{
+  "label": "Rusthenge",
+  "entries": {
+    "Trygve": {
+      "name": "트리그베 (Trygve)",
+      "description": "",
+      "hpdetails": "",
+      "items": {
+        "2tLWKbKmJp9SzebT": {
+          "name": "대장장이의 분노 (Smith's Fury)",
+          "description": "<p>트리그베는 경량 망치로 공격을 할 때 치명타를 입히면 1d6의 추가 타격 피해를 입힙니다."
+        }
+      }
+    },
+    "Knurr Ragnulf": {
+      "name": "크누르 라그눌프 (Knurr Ragnulf)",
+      "description": "",
+      "hpdetails": "",
+      "items": {
+        "rmbTeX3cdnck9oQ2": {
+          "name": "위협적인 공격 (Intimidating Strike)",
+          "description": "<p>Knurr는 Xar-Azmak의 이름을 외치며 근접 공격을 합니다. 타격에 성공하고 피해를 입힌 경우, 대상은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}이 되고, 크리티컬 히트인 경우 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2}이 됩니다."
+        }
+      }
+    },
+    "Rustsworn Initiate": {
+      "name": "녹슨 맹세 초보자 (Rustsworn Initiate)",
+      "description": "",
+      "hpdetails": "",
+      "items": {
+        "CNpPqhgSIEamhwFL": {
+          "name": "집단 공격 (Gang Up)",
+          "description": "<p>적은 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 되어, 그 적이 자신과 아군의 도달 범위 내에 있는 동안은 러스트스워른 초보자의 근접 공격에 대해 측면 공격을 받지 않습니다."
+        }
+      }
+    },
+    "Severed Head": {
+      "name": "잘린 머리 (Severed Head)",
+      "description": "<p>가장 흔한 참수된 머리는 그것을 만든 마법으로 간신히 보존된 썩어가는 머리로만 보입니다. </p>\n<hr />\n<p>참수된 머리는 참수된 희생자의 머리가 되살아난 것입니다. 이 무의식적인 언데드는 공중을 날아다니거나 굴러다니며 먹이감을 공격합니다. </p>",
+      "hpdetails": "공허 치유",
+      "items": {
+        "MODzmDCzn3MDbT9X": {
+          "name": "공허 치유 (Void Healing)",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>"
+        },
+        "KjLaF8NJBaPjsRAz": {
+          "name": "이빨 갈기 (Gnash)",
+          "description": "<p><strong>요건</strong> 참수된 유령의 이전 행동이 대상에게 피해를 주는 턱 공격이었습니다. 성공하면, 대상은 추가 1d4의 베기 피해와 1의 지속 출혈 피해를 받고 녹이 스며들게 됩니다."
+        },
+        "oxpwAUYEbjv8nf4R": {
+          "name": "녹이 스며들기 (Rust Creep)",
+          "description": "<p>이 언데드는 턱 공격으로 녹이 스며들게 합니다. 이 잘린 머리 중 하나의 턱 공격이나 이빨로 물린 피해로 피해를 입은 생물은 DC 15 체력 저항에 성공하지 않으면 녹이 스며들게 됩니다. 감염이 진행됨에 따라 그들의 몸뿐만 아니라 입거나 들고 있는 옷과 물건도 점차 붕괴되어 고통스러운 죽음에 이릅니다. 캐릭터가 녹슨 곰팡이 감염을 성공적으로 저항하거나 감염에서 회복되면, 24시간 동안 미래의 녹슨 곰팡이 감염에 일시적으로 면역됩니다.</p>\n<hr />\n<p><strong>녹슨 기어</strong></p>\n<p><strong>내성 굴림</strong> @Check[fortitude|dc:15]</p>\n<p><strong>1단계</strong> 운동 체크에 -1 상태 페널티 (1일)</p>\n<p><strong>2단계</strong> 1단계와 동일 (1일)</p>\n<p><strong>3단계</strong> @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 1} (1일)</p>\n<p><strong>4단계</strong> 약화 1 및 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1}, 그리고 질병이 퍼지면서 질병의 레벨과 같거나 그보다 낮은 갑옷, 의복 및 소지품이 파손됩니다 (1일, 파손된 아이템은 계속 파손된 상태로 유지됩니다)</p>\n<p><strong>단계 5</strong> @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 상실} (1일)</p>\n<p><strong>단계 6</strong> 의식 상실 (1일)</p>\n<p><strong>단계 7</strong> 사망</p>"
+        }
+      }
+    },
+    "Clockwork Serpent Spy": {
+      "name": "시계장치 뱀 스파이 (Clockwork Serpent Spy)",
+      "description": "<p>공학자, 기술자, 기계에 천재적인 마법사들은 시계장치 스파이—작고 거미 같은 구조물로 음성을 녹음하고 재생할 수 있는—를 고용해 적을 몰래 감시하거나 경쟁자의 비밀을 훔치기 위해 사용합니다. 그들의 가늘고 약한 몸과 섬세한 부품은 전투에 적합하지 않습니다. 실제로 대부분의 제작자는 시계장치 스파이에 자폭 장치를 장착해 스파이의 활동이 제작자에게 추적되지 않도록 합니다.</p>\n<hr />\n<p>정교하고 복잡한 기계인 시계장치는 고도로 숙련된 공학자들에 의해 세심하게 제작됩니다. 그들의 제작에는 일부 마법이 포함되지만, 주로 기계적 구조로 이루어져 있으며 정밀하게 조율된 기어와 스프링이 조화롭게 작동합니다.</p>\n<p>시계 장치의 튼튼한 메인 스프링은 장치를 구동하기 위해 에너지를 공급하기 위해 감아야 합니다. 더 큰 시계 장치는 각 부위에 해당하는 스프링을 포함하며, 각각을 감아야 합니다. 시계 장치를 제작하는 장인은 시계 장치를 만들 때 고유한 금속 키를 제작합니다. 시계 장치를 감는 것은 일반적으로 기계의 뒷부분에 키를 삽입하고 시계 방향으로 돌리는 과정을 포함합니다. 더 큰 시계 장치는 키를 돌리는 데 더 큰 힘이 필요하며, 일반적으로 더 큰 키를 사용해 더 큰 토크를 허용합니다. 일부는 개인이 아닌 팀이 감을 수 있도록 설계되기도 합니다. 시계 장치를 프로그래밍하려면 키와 프로그램을 올바르게 설정하는 지식이 모두 필요합니다. 이 정보는 보통 시계 장치의 제작자나 소유자만 알고 있습니다.",
+      "hpdetails": "",
+      "items": {
+        "lL49wJa4ig4V0ag1": {
+          "name": "오디오 녹음 (Record Audio)",
+          "description": "<p>시계 스파이는 @Template[emanation|distance:25]{25 피트} 이내의 모든 소리를 몸에 내장된 1gp 가치의 작은 보석에 녹음합니다. 시계장치 스파이는 단일 보석에 최대 1시간의 소리를 녹음할 수 있습니다. 녹음이 시작되면 조기 중단이 불가능하며, 이미 녹음이 된 보석에 추가 녹음도 불가능합니다.</p>\n<p>일부 시계장치 스파이는 연속 녹음을 위해 다중 보석을 내장하고 있습니다. 시계장치 스파이는 지능이 없기 때문에, 소리 녹음 시작 시점을 지시하는 간단한 명령을 받아야 합니다. 시계 장치 스파이는 다양한 종류의 생물을 구분할 수 있지만 특정 개체를 구분할 수는 없습니다.</p>\n<p>스파이는 단일 행동을 소비하여 녹음된 소리의 재생 시작 또는 중지를 할 수 있습니다. 시계 장치 스파이에서 보석을 제거하거나 설치하려면 [[/act disable-device dc=14]]{DC 14 도둑질} 체크를 @UUID[Compendium.pf2e.actionspf2e.Item.cYdz2grcOcRt4jk6]{장치 비활성화}에 성공해야 합니다. 실패하면 보석은 손상되지 않지만, 녹음된 소리는 모두 지워지고 보석은 다른 녹음에 사용할 수 없게 됩니다."
+        },
+        "zdb8RR0jcIIol6on": {
+          "name": "풍차 (Wind-Up)",
+          "description": "<p>24시간, [[/act disable-device dc=17]]{DC 17 도둑질}, 대기</p>\n<hr />\n<p>시계 장치가 작동하려면 다른 생물체에 의해 고유한 열쇠로 감겨야 합니다. 이 과정은 1분이 소요됩니다. 감긴 후에는 지정된 시간 동안 작동하며, 일반적으로 24시간 후에는 주변 환경을 인식하지 못하고 다시 감기지 않으면 작동하지 않습니다. 일부 시계 장치는 작동 시간의 일부를 소비해야 하는 능력을 가지고 있습니다. 남은 작동 시간을 초과해 사용할 수 없으며, 0이 되면 즉시 작동이 중단됩니다. 시계 장치가 마지막으로 감긴 시점이 불분명할 경우, 대부분의 시계 장치 관리자는 모든 시계 장치를 정해진 시간(일반적으로 오전 8시)에 감습니다.</p>\n<p>시계 장치의 감기 항목에 '대기'가 기재된 경우, 3개의 행동으로 대기 모드로 진입할 수 있습니다. 대기 상태에서는 작동 시간이 감소하지 않지만, 주변을 감지할 수 있습니다 (지각에 -2 페널티가 적용됨). 행동은 할 수 없지만, 한 가지 예외가 있습니다. 생물을 감지하면 반응으로 대기 상태를 종료할 수 있습니다 (필요한 경우 이니셔티브를 굴림).</p>\n<p>생물은 @UUID[Compendium.pf2e.actionspf2e.Item.cYdz2grcOcRt4jk6]{장치 비활성화}를 시도하여 시계 장치를 감을 수 있습니다(감기 항목에 표시된 DC가 적용됩니다). 성공할 때마다 시계 장치는 1시간의 작동 시간을 잃습니다. 이 작업은 시계 장치가 대기 모드에 있더라도 수행할 수 있습니다.</p>"
+        },
+        "UK9gsjbHYgmKZze9": {
+          "name": "자폭 (Self-Destruct)",
+          "description": "<p>시계 장치 스파이는 제작자가 특별히 프로그래밍하지 않은 한 이 반응을 사용해야 합니다.</p>\n<p><strong>트리거</strong> 시계 장치 스파이의 체력이 0으로 감소합니다.</p>\n<hr />\n<p><strong>효과</strong> 스파이는 날뛰며 얇은 비명을 지른 다음, 꾸준한 똑딱거리는 소리를 내며 폭발합니다. 다음 턴이 시작될 때, 시계 장치 스파이는 폭발하여 @Damage[1d12[피어싱]|옵션:영역 피해]의 피해를 @Template[emanation|distance:5]{5-피트 반경}에 입힙니다 (@Check[reflex|dc:17|basic|options:area-effect] 내성). 보석과 그 안에 들어 있는 모든 정보는 파괴됩니다.</p>\n<p>인접한 생물은 @Check[thievery|dc:17|traits:action:disable-a-device] 체크에 성공하여 @UUID[Compendium.pf2e.actionspf2e.Item.cYdz2grcOcRt4jk6]{장치 비활성화}를 수행하면 자폭 시퀀스를 취소할 수 있습니다."
+        },
+        "hAK9kJGhzP6DASJX": {
+          "name": "출혈 상처 (Bleeding Gash)",
+          "description": "<p>날카롭게 연마된 기어로 크리티컬 히트를 하면, 시계 태엽 뱀 스파이도 @Damage[1d4[persistent,bleed]]의 피해를 입힙니다 (@Check[fortitude|dc:17] 내성으로 추가 출혈 피해는 무효화됩니다).</p>"
+        }
+      }
+    },
+    "Meitremar": {
+      "name": "메이트레마르 (Meitremar)",
+      "description": "",
+      "hpdetails": "",
+      "items": {
+        "97l0hEJqbFlmWhUZ": {
+          "name": "도달 주문 (Reach Spell)",
+          "description": "<p>이 턴에 Meitremar의 다음 행동이 사거리가 있는 주문을 시전하는 것이라면, 그 주문의 사거리가 30피트 증가합니다 (또는 터치 주문의 사거리가 30피트로 증가합니다).</p>"
+        },
+        "QXmns8bw5DBlNJ9D": {
+          "name": "시그니처 주문 (Signature Spell)",
+          "description": "<p>Meitremar는 @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{치유} 주문을 자유롭게 강화할 수 있습니다."
+        }
+      }
+    },
+    "Primordial Envy": {
+      "name": "원초적 질투 (Primordial Envy)",
+      "description": "<p>원시적 질투는 에다세릴의 지하 유적지에서 가장 자주 발견됩니다. 이 존재는 마법을 갈망하며 접촉할 수 있는 모든 소스에서 마법을 흡수합니다. 이 갈망은 강력한 파괴 마법을 미끼로 사용하는 현명한 모험가들에 의해 악용될 수 있습니다. 원초적 부러움은 가장 방어적인 죄의 우즈 중 하나이며, 자신의 회복력을 높이고 공격을 강화하기 위해 자신에게 저주 주문을 중첩하는 경향이 있습니다. </p>\n<hr />\n<p>타실론의 유적에는 잃어버리거나 잊혀진 수많은 원시 마법의 힘이 숨어 있습니다. 이 중 많은 원천은 루넬로드들이 힘을 강화하기 위해 사용한 죄악의 영혼 에너지로 휩싸여 있어, 일부 원천은 '부패'하여 죄악 슬러지로 변모합니다. 이는 죄악의 감정에 기반한 원시적인 의식을 갖춘 진득한 분비물로 발전합니다.</p>\n<h2>다른 죄악 슬러지</h2>\n<p>원시적 질투는 가장 위험하지 않은 죄악 슬러지입니다. 반짝이는 자부심의 빛나는 얼굴은 희생자들을 유혹한 후, 과대망상과 경쟁적인 자아로 저주해 죽게 만듭니다. 굳은 게으름은 희생자들을 무기력함에 빠뜨려 굶어 죽게 하며, 반짝이는 탐욕은 보물을 찾는 자들을 귀금속 껍질 속에 가둬버립니다. 기어다니는 욕망의 달콤한 향기는 희생자들의 가장 깊은 욕망을 유혹해 먹이를 먹으며 그들을 방해합니다. 그러나 가장 끔찍한 죄의 슬러지는 파괴적인 에너지를 발산하여 먹이를 먹는 탐욕스러운 분노와 영혼을 삼키고 시체를 치명적인 언데드로 남기는 악취를 풍기는 폭식입니다.",
+      "hpdetails": "",
+      "items": {
+        "HhUe0MpfzNrigkps": {
+          "name": "마법 감지 (Magic Sense)",
+          "description": "<p>원초적인 질투는 30피트 이내의 마법의 기운, 아이템, 마법사를 감지할 수 있습니다."
+        },
+        "yM6vQmTRvxoXYPqj": {
+          "name": "-2 상태 대 소환 및 네크로맨시 (-2 Status Vs. Evocation and Necromancy)",
+          "description": ""
+        },
+        "fJ34aqwTiZbTv92E": {
+          "name": "주문 압수 (Confiscate Spell)",
+          "description": "<p><strong>트리거</strong> 원시적 질투가 감지할 수 있는 30피트 이내의 생물이 주문을 시전합니다</p>\n<hr />\n<p><strong>효과</strong> 원시적 질투의 표면이 색상의 만다라처럼 빛나며, 트리거된 생물을 비춥니다. 원초적 질투는 [[/r 1d20+12 #Counteract]]{+12}의 대항 수정자로 주문을 무효화하려고 시도합니다. 성공하면 주문이 무효화되고 원초적 질투는 [[/br 2d6 #Temp HP]]의 임시 체력을 얻습니다."
+        },
+        "FDCXS4bVC2F1PdGz": {
+          "name": "주문 흡수 (Spell Drain)",
+          "description": "<p>원초적 부러움은 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{잡은} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{제압한} 주문 시전 생물에게서 마법을 흡수하려고 합니다. 주문 시전 생물은 @Check[will|dc:20] 내성 체크를 시도해야 합니다. </p>\n<hr />\n<p><strong>대성공</strong> 생물은 영향을 받지 않으며 24시간 동안 주문 흡수 효과에 일시적으로 면역이 됩니다. </p>\n<p><strong>성공</strong> 생물은 @Damage[1d6[정신]]의 피해를 받습니다.</p>\n<p><strong>실패</strong> 생물은 @Damage[2d6[정신]]의 피해를 받고 1시간 동안 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1} 상태가 됩니다.</p>\n<p><strong>대실패 실패와 동일하지만, 생물의 시전되지 않은 주문이나 사용되지 않은 주문 슬롯 중 하나가 시전된 것처럼 사라집니다. 사라지는 주문이나 슬롯은 생물이 시전할 수 있는 가장 높은 등급의 주문 중 하나이며, 준비된 주문이 여러 개 있는 경우 무작위로 결정됩니다. 캔트립이 흡수된 경우, 시전자는 10분 동안 해당 캔트립을 사용할 수 없게 됩니다. 원시적인 부러움이 @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} 1이 되어 1 라운드 동안 추가 행동을 사용하여 스트라이드 또는 공격을 할 수 있습니다."
+        },
+        "ii80pyHfCh7uKPOS": {
+          "name": "잡기 (Grab)",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
+        }
+      }
+    },
+    "Glutu": {
+      "name": "글루투 (Glutu)",
+      "description": "<p>보가드 스왐프시어는 악마 군주 고군타를 숭배하며 마법을 부여받았으며, 이 힘을 이용해 보가드 마을을 지배하며 마을 주민들을 통제하고 인근 커뮤니티에 대한 습격을 계획합니다.</p>\n<hr />\n<p>보가드는 습지, 늪지대, 심지어 일부 열대 우림에서 번영하는 공격적인 인간형 양서류입니다. 보가드는 알에서 올챙이로 부화해 식량을 놓고 치열하게 경쟁하며 심지어 형제자매까지 먹어치웁니다. 3년 동안 생존한 보가드는 팔, 다리, 폐를 발달시키며 사냥, 공예, 전쟁의 기본을 배우며, 힘으로 모든 것을 결정하는 사회에서 생존하기 위해 필요한 모든 것을 습득합니다. 대부분의 보가드 계층 구조의 최상위에는 어두운 신성한 마법으로 충만한 거대한 습지 시어가 군림합니다.</p>",
+      "hpdetails": "",
+      "items": {
+        "80CuEcGtDQ6fUIyY": {
+          "name": "익사 드론 (Drowning Drone)",
+          "description": "<p><strong>트리거</strong> 보가드 늪의 신이나 60피트 이내의 동맹이 청각 또는 음향 효과에 대해 내성 굴림을 시도합니다. @Check[performance] 체크를 굴립니다. 이 스웜피어와 그 주변에 있는 보가드 아군들은 스웜피어의 퍼포먼스 체크 또는 내성 중 더 높은 결과를 사용하여 청각 또는 음향 효과에 대한 효과를 해결할 수 있습니다."
+        },
+        "xBIoPO0Yl00JwtXW": {
+          "name": "늪지대 걸음 (Swamp Stride)",
+          "description": "<p>보가드 스웜피어는 늪지대 지형으로 인한 어려운 지형을 무시합니다."
+        },
+        "z8bl09rqF4yCJDy4": {
+          "name": "무서운 삐걱거리는 소리 (Terrifying Croak)",
+          "description": "<p>bogard swampseer는 끔찍한 croak을 발사합니다. @Template[emanation|distance:30] 내에 있는 보가드가 아닌 모든 생물은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}이 됩니다. @Check[will|dc:19] 내성 체크에 성공하지 않는 한."
+        },
+        "A33mGw1DCgRJRDSe": {
+          "name": "혀로 잡기 (Tongue Grab)",
+          "description": "<p>bogard swampseer가 혀로 생물을 공격하면 해당 생물은 bogard에 의해 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{잡힌} 상태가 됩니다. 일반적인 잡기와는 달리, 그 생물은 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} 상태가 되지 않지만, 보가드의 혀의 도달 범위를 벗어나서 이동할 수 없습니다. 이 공격은 보가드에게 피해를 주지 않지만, 혀가 다시 자랄 때까지 혀를 사용한 공격을 사용할 수 없게 합니다. 혀가 다시 자라는 데는 일주일이 걸립니다."
+        }
+      }
+    },
+    "Vanda": {
+      "name": "Vanda",
+      "description": "",
+      "hpdetails": "",
+      "items": {}
+    },
+    "Fallen Acolyte": {
+      "name": "타락한 제자 (Fallen Acolyte)",
+      "description": "",
+      "hpdetails": "",
+      "items": {}
+    },
+    "Theiltemar": {
+      "name": "Theiltemar",
+      "description": "<p>죽은 자들의 무리 중에서도 가장 많고 다양한 존재는 스켈레톤입니다. 대부분의 스켈레톤은 뼈로 이루어져 있지만, 일부는 움직임을 돕기 위해 날개 막과 같은 살점 조각을 유지하고 있습니다.</p>",
+      "hpdetails": "공허 치유",
+      "items": {
+        "a5L9zwEbTQnPprg5": {
+          "name": "녹슨 죽음 (Rusting Death)",
+          "description": "<p>Theiltemar가 파괴되면, 그를 유지하던 네크로맨틱 에너지가 방출되며 그의 뼈가 폭발합니다. 이 과정에서 녹슨 사슬 갑옷도 산산조각 나며, 들쭉날쭉한 녹슨 금속 파편이 사방으로 튀어 나갑니다. 인접한 생물들은 @Damage[2d6[피어싱]]의 피해를 받고 (@Check[reflex|dc:21|basic] 내성) 녹이 퍼지는 상태가 됩니다. 그의 유해가 바닥에 떨어지자, <strong>F14</strong> 영역을 막고 있던 역장 벽이 흔들리다가 사라집니다."
+        },
+        "hJqwMBdBQecpuWU8": {
+          "name": "공허 치유 (Void Healing)",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>"
+        },
+        "GFEimWK8niicOioN": {
+          "name": "녹슨 번짐 (Rust Creep)",
+          "description": "<p>녹슨 번짐에 감염된 생물은 피부 표면에 불편한 녹색 멍이 생기고, 장시간 운동 후 느끼는 것과 유사한 전신 통증을 겪습니다. 감염이 진행됨에 따라 그들의 몸뿐만 아니라 입거나 들고 있는 옷과 물건도 점차 붕괴되어 결국 고통스러운 죽음에 이릅니다. 캐릭터가 녹슨 번짐에 감염되는 것을 성공적으로 저항하거나 감염에서 회복되면, 24시간 동안 녹슨 번짐 감염에 일시적으로 면역이 됩니다.</p>\n<p><strong>내성 굴림</strong> @Check[fortitude|dc:15]</p>\n<p><strong>1단계</strong> 운동 체크에 -1 상태 페널티 (1일)</p>\n<p><strong>2단계</strong> 1단계와 동일 (1일)</p>\n<p><strong>3단계</strong> @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 1} (1일)</p>\n<p><strong>4단계</strong> 약화된 1 및 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1}, 또한 질병의 확산으로 인해 질병과 동일한 레벨이거나 그 이하인 모든 방어구, 의복 및 아이템이 파손됩니다 (1일; 파손된 아이템은 파손된 상태로 유지됩니다)</p>\n<p><strong>단계 5</strong> @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 상실} (1일)</p>\n<p><strong>6단계</strong> 의식 상실 (1일)</p>\n<p><strong>7단계</strong> 죽음</p>"
+        }
+      }
+    },
+    "Rust Zombie": {
+      "name": "녹슨 좀비 (Rust Zombie)",
+      "description": "<p>전염병 좀비는 끔찍한 전염병에 감염되어 있습니다. 생각도 없고, 계속 비틀거리며 죽음을 예고하는 좀비는 파괴될 때만 멈춥니다.",
+      "hpdetails": "공허 치유",
+      "items": {
+        "a2pZeef5wn9y5xAA": {
+          "name": "느려짐 (Slow)",
+          "description": "<p>좀비는 영구적으로 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1} 상태가 되어 반응을 사용할 수 없습니다."
+        },
+        "Jcl5rz38QkHYDfHx": {
+          "name": "공허 치유 (Void Healing)",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>"
+        },
+        "PmrOcp7IYi6XPIer": {
+          "name": "녹슨 번짐 (Rust Creep)",
+          "description": "<p>녹슨 번짐에 감염된 자들은 피부 표면에 불편한 녹색 멍이 생기고, 장시간 운동 후 느끼는 것과 유사한 전신 통증을 겪습니다. 감염이 진행됨에 따라 그들의 몸뿐만 아니라 입거나 들고 있는 옷과 물건도 점차 붕괴되어 결국 고통스러운 죽음에 이릅니다. 캐릭터가 녹슨 번짐에 감염되는 것을 성공적으로 저항하거나 녹슨 번짐에서 회복되면, 24시간 동안 미래의 녹슨 번짐 감염에 일시적으로 면역이 됩니다.</p>\n<p><strong>내성 굴림</strong> @Check[fortitude|dc:15]</p>\n<p><strong>1단계</strong> 운동 체크에 -1 상태 페널티 (1일)</p>\n<p><strong>2단계</strong> 1단계와 동일 (1일)</p>\n<p><strong>3단계</strong> @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 1} (1일)</p>\n<p><strong>4단계</strong> 약화된 1 및 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1}, 그리고 질병의 확산으로 인해 해당 질병과 동일한 레벨이거나 그 이하인 모든 방어구, 의복 및 아이템이 파손됩니다 (1일; 파손된 아이템은 파손된 상태로 유지됩니다)</p>\n<p><strong>단계 5</strong> @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 상실} (1일)</p>\n<p><strong>단계 6</strong> 의식 상실 (1일)</p>\n<p><strong>단계 7</strong> 사망</p>"
+        },
+        "MRMj6jc7E8e5c7UF": {
+          "name": "잡기 (Grab)",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
+        }
+      }
+    },
+    "Vloriak": {
+      "name": "Vloriak",
+      "description": "<p>Vloriaks는 파괴 행위로 절망과 공포를 초래한 죄악된 영혼들로부터 탄생한 존재로, 인간이 창조한 모든 것을 파괴하는 것을 즐깁니다. 종종 '파괴의 악마'라고 불리는 Vloriaks는 Xar-Azmak의 추종자들이었습니다. 녹의 군주 Xar-Azmak의 죽음 이후 수천 년 동안 그들의 수는 급감했으며, 현재 존재하는 개체들은 아비스 전역에 흩어져 있습니다. 그들의 갑각질 몸과 다각형 눈은 곤충 같은 외형을 지니고 있습니다.</p>\n<h2>Vlorian 영향</h2>\n<p>Vloriaks는 초자연적인 세계 Vlorus에서 왔으며, 따라서 썩음과 녹슨 파멸의 잠재력을 지니고 있습니다. Vlorus에 거주하는 다른 생물들, 특히 그곳에서 권력을 얻은 악마들은 녹에 대해 비슷한 능력을 얻을 수 있습니다. 이 모험에서 앞서 만난 Vlorian cythnigot이 그 예이지만, 이 다른 세계에서 온 악마들은 모두 독특한 녹 관련 능력을 얻을 수 있습니다.",
+      "hpdetails": "",
+      "items": {
+        "DjmAD6EbMKvhTPwC": {
+          "name": "텔레파시 100 피트 (Telepathy 100 feet)",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Telepathy]</p>"
+        },
+        "VqHY5IorfKc9TEmc": {
+          "name": "모든 마법 내성에 +1 (+1 Status to All Saves vs. Magic)",
+          "description": ""
+        },
+        "V8UhxFNrr8B2m7UP": {
+          "name": "복구 취약성 (Restoration Vulnerability)",
+          "description": "<p>vloriak은 근처에 있는 생물이나 물체가 약화 효과를 회복할 때 극심한 고통을 받습니다. 라운드에서 처음으로 부정적인 상태에 영향을 받은 생물이 악마의 시야 내에 있으며 그 상태의 값을 감소시키면, 악마는 @Damage[3d6[정신]]의 피해를 받고 다음 턴에 녹을 핥을 수 없게 됩니다."
+        },
+        "fzTUnlrMpxSgmSAy": {
+          "name": "녹을 핥기 (Lick Rust)",
+          "description": "<p><strong>요건</strong> 블로리아크가 이번 턴에 혀로 금속 물건을 녹슬게 만들었습니다. 명중하면 녹을 핥아내어 피해를 주지 않고 @Damage[2d6[healing]] 체력을 회복합니다 (공격이 치명타인 경우 @Damage[4d6[healing]] 체력을 회복합니다). 다음 턴에는 녹을 핥을 수 없습니다."
+        },
+        "TZig28UcpE4GS2P0": {
+          "name": "녹 (Rust)",
+          "description": "<p>vloriak의 침은 금속을 빠르게 녹슬게 합니다. 혀 공격이나 @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{무장 해제} 시도가 성공하면, vloriak은 대상이 착용하거나 들고 있는 금속 아이템에 @Damage[2d6[untyped]]의 피해(크리티컬 히트 시 2배)를 입힙니다. vloriak이 무인 금속 아이템을 명중하면, 해당 아이템은 자동으로 이 피해를 받습니다. 생물이 금속 방패로 혀 공격에 대해 방패 막기 반응을 사용하면, 방패는 자동으로 부서지지만, 그 공격으로 다른 아이템은 녹슬지 않습니다."
+        },
+        "w9Owf4Jdub9WbuFx": {
+          "name": "녹슨 파편을 뿜어내기 (Spew Rusted Shards)",
+          "description": "<p>vloriak은 @Template[cone|distance:15]의 산과 녹슨 금속을 분출합니다. 이 영역에 있는 생물은 @Damage[3d6[acid],3d6[piercing]]{3d6 산 및 3d6 관통}의 피해를 받습니다 (@Check[reflex|dc:22|basic] 내성). 피어싱 피해를 받은 생물은 파상풍에 노출됩니다. 블로리아크는 [[/gmr 1d4 #rounds]]{1d4 라운드} 동안 녹슨 파편을 분출할 수 없습니다."
+        },
+        "Q0Sd9sqnUeL32Jw9": {
+          "name": "파상풍 (Tetanus)",
+          "description": "<p>열린 상처를 통해 감염되는 파상풍은 뼈가 부러질 정도로 강한 근육 경직과 경련을 일으키고, 결국 사망에 이를 수 있습니다.</p>\n<p><strong>내성 굴림</strong> @Check[fortitude|dc:14]</p>\n<p><strong>발병</strong> 10일</p>\n<p><strong>1단계</strong> @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1} (1 주)</p>\n<p><strong>2 단계</strong> @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 2} 말할 수 없음 (1일)</p>\n<p><strong>단계 3</strong> @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비} 경련 동반 (1일)</p>\n<p><strong>단계 4</strong> 사망</p>"
+        }
+      }
+    },
+    "Vlorian Cythnigot": {
+      "name": "Vlorian Cythnigot",
+      "description": "<p>사이니고트는 작은 생물의 시체에서 자라고 번식하는 더러운 곰팡이 기생충입니다. 이 생물은 시체를 옷처럼 입지만, 필요에 따라 살갗을 조정하고 맞춤 제작하여 결국 아비스의 심연에서 탄생한 다른 어떤 것만큼이나 낯선 모습으로 변모합니다. 사이티니고트의 가장 두드러진 특징은 생물의 몸에서 뻗어 나온 긴 곰팡이 줄기로, 끝에는 놀랍도록 강한 송곳니가 달린 턱이 있습니다.",
+      "hpdetails": "",
+      "items": {
+        "1qBTVbPZxVREvpnT": {
+          "name": "텔레파시 (접촉만 가능) (Telepathy (Touch only))",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Telepathy]</p>"
+        },
+        "UGFoKIvbXM0ZSdiU": {
+          "name": "녹슨 기어 (Rust Creep)",
+          "description": "<p>Vlorian cythnigot에 물린 생물은 녹슨 기어에 감염되지만, DC 20의 체력 내성을 가지고 있습니다. 감염이 진행됨에 따라 그들의 몸뿐만 아니라 입거나 들고 있는 옷과 물건도 점차 분해되어 결국 고통스러운 죽음에 이릅니다. 캐릭터가 녹이 스며드는 것을 성공적으로 저항하거나 녹이 스며든 상태에서 회복되면, 24시간 동안 녹이 스며드는 감염에 일시적으로 면역이 됩니다.</p>\n<p><strong>1단계</strong> 운동 체크에 -1 상태 페널티 (1일)</p>\n<p><strong>2단계</strong> 1단계와 동일 (1일)</p>\n<p><strong>3단계</strong> @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 1} (1일)</p>\n<p><strong>4단계</strong> 약화 1 및 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1}, 또한 질병의 확산으로 인해 질병과 동일한 레벨이거나 그 이하인 모든 방어구, 의복 및 아이템이 파손됩니다 (1일; 파손된 아이템은 파손된 상태로 유지됩니다)</p>\n<p><strong>단계 5</strong> @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 상실} (1일)</p>\n<p><strong>단계 6</strong> 의식 상실 (1일)</p>\n<p><strong>단계 7</strong> 사망</p>"
+        },
+        "Kv1pkf5Ma30A8n58": {
+          "name": "역겨운 모습 (Sickening Display)",
+          "description": "<p>사이티니고트는 끔찍한 모습을 완전히 드러내고, @Template[emanation|distance:10]에 있는 생물들은 @Check[will|dc:20] 내성을 시도해야 합니다. 이 내성을 시도한 생물은 1분 동안 역겨운 모습에 대해 일시적으로 면역이 됩니다.</p>\n<hr />\n<p><strong>대성공</strong> 생물은 영향을 받지 않습니다.</p>\n<p><strong>실패</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} 상태가 되고, 병에 걸린 동안 오프 가드 상태가 됩니다.</p>\n<p><strong>대실패</strong> 이 생물은 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2} 상태가 되고, 병에 걸린 동안은 가드 상태가 해제됩니다."
+        }
+      }
+    },
+    "Starving Werebat": {
+      "name": "굶주린 워레뱀 (Starving Werebat)",
+      "description": "<p>워레뱀은 기회주의적인 사냥꾼들의 조직화된 식민지를 형성합니다. 그들은 식민지에 추가하기 위해 생물을 변형시키는 것을 주저하지 않으며, 이를 위해 복잡한 사회적 의식과 피비린내 나는 입문식을 진행합니다. 워레뱀의 저주는 그들에게 약하고 외로운 생물을 사냥하려는 강한 충동을 부여합니다. 진정한 워뱀파이는 보통 매우 키가 크고 마른 체형에 각진 얼굴 특징을 가지고 있습니다. 전투 시 워뱀파이는 날개로 무기를 휘두를 수 없기 때문에 무장하지 않은 공격을 선호합니다.</p>\n<hr />\n<p>워크리처는 보름달의 빛 아래에서 동물이나 동물-인간 하이브리드로 변신하는 인간형 생물입니다. 이 변신 생물들의 운명은 고대의 원초적인 저주에서 비롯되었으며, 이 저주는 자신의 물기를 통해 다른 생물들에게 전염될 수 있습니다. 이 섹션의 스탯 블록은 하이브리드 형태의 늑대인간을 반영합니다.",
+      "hpdetails": "",
+      "items": {
+        "6kZm8XnYELAQFppU": {
+          "name": "박쥐의 공감 (Bat Empathy)",
+          "description": "<p>늑대박쥐는 박쥐와 소통할 수 있습니다."
+        },
+        "lnftcCa5nWLimB4r": {
+          "name": "날개 휘두르기 (Wing Thrash)",
+          "description": "<p><strong>트리거</strong> 인접한 적이 뱀파이어 박쥐에게 피해를 입힙니다</p>\n<hr />\n<p><strong>효과</strong> 뱀파이어 박쥐는 인접한 다른 생물에게 각각 한 번 또는 두 번의 날개 공격을 합니다."
+        },
+        "iUcqbwAXsz9BBt5U": {
+          "name": "모양 변화 (Change Shape)",
+          "description": "<ul>\n<li><strong>인간</strong>\n<ul>\n<li><strong>근접</strong> 주먹 [[/r 1d20+10 #주먹]]{+10}/[[/r 1d20+6 #주먹]]{+6}/[[/r 1d20+2 #주먹]]{+2} (민첩, 치명적이지 않음), <strong>피해</strong> @Damage[(1d4+2)[bludgeoning]] 피해</li>\n<li><strong>속도</strong> 25 피트</li>\n</ul>\n</li>\n<li><strong>거대 박쥐</strong>\n<ul>\n<li><strong>속도</strong> 15 피트, 30 피트 비행</li>\n</ul>\n</li>\n</ul>\n<hr />\n<p>늑대 인간은 인간형, 혼종형, 동물형으로 변신합니다. 각 형태는 고유하고 지속적인 외모를 가지고 있습니다. 진정한 웨어크리처의 본래 모습은 하이브리드 형태입니다. 인간형으로 변한 웨어크리처는 원래의 인간 크기를 사용하며, 턱과 발톱 공격을 잃고, 발톱이 가하는 베기 피해와 동일한 타격 피해를 가하는 근접 주먹 공격을 얻습니다.</p>\n<p>동물 형태에서는 속도와 크기가 동물의 속도와 크기로 바뀌고, 아직 가지고 있지 않은 동물의 특수 공격 효과(예: 잡기)를 얻으며, 무기 공격을 잃게 됩니다."
+        },
+        "v88O0NAy45VWmtTO": {
+          "name": "늑대 인간 저주 (Curse of the Werebat)",
+          "description": "<p>이 저주는 인간형 생물에게만 영향을 미칩니다.</p>\n<hr />\n<p><strong>내성 굴림</strong> @Check[fortitude|dc:15]</p>\n<p>보름달이 뜨는 날마다, 저주받은 생물은 또 다른 체력 내성 굴림에 성공하지 못하면 새벽까지 늑대 인간으로 변합니다. 해당 생물은 GM의 통제 하에 밤의 절반 동안 난동을 부리다가 새벽까지 의식을 잃습니다.</p>"
+        },
+        "N6z6E7Ly3t7eFBoU": {
+          "name": "달의 광기 (Moon Frenzy)",
+          "description": "<p>밤하늘에 보름달이 뜨면, 늑대 인간은 혼합 형태로 변해야 하며, 그 이후로는 형태를 바꿀 수 없고, 크기가 1 단계 커지며, 도달 거리가 5 피트 증가하고, 턱의 공격 (또는 이와 유사한 공격)의 피해가 2 증가합니다.</p>\n<p>달이 지거나 해가 뜰 때, 늑대인간은 인간형으로 돌아가고 @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{피로} 상태가 [[/br 2d4 #Fatigued duration]]{2d4 시간} 동안 지속됩니다.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.dRe8n1nBWMIXd8jh]{효과: 달의 광란}</p>"
+        }
+      }
+    },
+    "Clockwork Belimarius": {
+      "name": "시계 장치 벨리마리우스 (Clockwork Belimarius)",
+      "description": "<p>시계 장치 마법사는 마법과 기계의 치명적인 조합입니다. 이 시계 장치 각각은 가슴에 내장된 지팡이를 통해 주문을 발동시키는 신비한 돌로 강화되어 있습니다.</p>\n<hr />\n<p>정교하고 복잡한 기계인 시계 장치는 고도로 숙련된 공학자들에 의해 세심하게 제작됩니다. 그들의 창조 과정에는 일부 마법이 포함되지만, 주로 기계적 구조로 이루어져 있으며 정밀하게 조율된 기어와 스프링이 조화롭게 작동합니다.</p>\n<p>시계 장치의 튼튼한 메인 스프링은 장치를 구동하기 위해 에너지를 공급하기 위해 감아야 합니다. 일부 대형 시계 장치는 각 부위에 해당하는 스프링을 포함하며, 각각을 감아야 합니다. 시계 장치는 제작 과정에서 고유한 금속 키를 제작하며, 시계 장치를 감는 과정은 일반적으로 기계의 뒷부분에 키를 삽입하고 시계 방향으로 돌리는 방식으로 진행됩니다. 더 큰 시계 장치는 키를 돌리는 데 더 큰 힘이 필요하며, 일반적으로 더 큰 토크를 발휘할 수 있도록 더 큰 키를 사용합니다. 일부는 한 사람이 아닌 여러 사람이 감을 수 있도록 설계되어 있습니다. 시계 장치를 프로그래밍하려면 키와 프로그램을 올바르게 설정하는 지식이 모두 필요합니다. 이 정보는 일반적으로 시계 장치의 제작자나 소유자만 알고 있습니다.",
+      "hpdetails": "",
+      "items": {
+        "edVyMro5viX5rgD9": {
+          "name": "Wind-Up",
+          "description": "<p>24시간, [[/act disable-device dc=21]]{DC 21 도둑질}, 대기</p>\n<hr />\n<p>시계 장치가 작동하려면 다른 생물체에 의해 고유한 키로 감겨야 합니다. 이 과정은 1분이 소요됩니다. 감긴 후에는 지정된 시간 동안 작동하며, 일반적으로 24시간 후에는 주변 환경을 인식하지 못하고 다시 감기지 않으면 작동하지 않습니다. 일부 시계 장치는 작동 시간 중 일부를 소비해야 하는 능력을 가지고 있습니다. 남은 작동 시간을 초과해 사용할 수 없으며, 0이 되면 즉시 작동이 중단됩니다. 시계 장치가 마지막으로 감긴 시점이 불분명할 경우, 대부분의 시계 장치 관리자는 모든 시계 장치를 정해진 시간(일반적으로 오전 8시)에 감습니다.</p>\n<p>시계 장치의 감기 항목에 '대기'가 기재된 경우, 3개의 행동으로 대기 모드로 진입할 수 있습니다. 대기 상태에서는 작동 시간이 감소하지 않지만, 주변을 감지할 수 있습니다 (지각에 -2 페널티가 적용됨). 한 가지 예외를 제외하고는 행동할 수 없습니다. 생물을 감지하면 반응으로 대기 상태를 종료할 수 있습니다 (필요한 경우 이니셔티브를 굴림).</p>\n<p>생물은 @UUID[Compendium.pf2e.actionspf2e.Item.cYdz2grcOcRt4jk6]{장치 비활성화}를 시도하여 시계 장치를 감을 수 있습니다(감기 항목에 표시된 DC가 적용됩니다).  성공할 때마다 시계 장치는 작동 시간이 1시간씩 감소합니다. 시계 장치가 대기 모드에 있어도 이 작업을 수행할 수 있습니다."
+        },
+        "fH4zN6EufktPqbW4": {
+          "name": "시계 장치 지팡이 (Clockwork Wand)",
+          "description": "<p>시계 마법사는 기계식 지팡이를 포커스로 사용하여 마법의 에너지를 전달합니다. 이 지팡이는 시계 마법사의 가슴에 내장되어 있으며, 끝 부분의 수정만 노출되어 있습니다. 마법사는 상호 작용을 통해 지팡이를 제거할 수 있으며, 다른 사람은 @Check[thievery|dc:25|traits:action:disable-a-device] 체크를 통해 @UUID[Compendium.pf2e.actionspf2e.Item.cYdz2grcOcRt4jk6]{장치 비활성화}를 사용하여 지팡이를 제거할 수 있습니다. 지팡이가 제거된 동안 시계 마법사는 캔트립을 제외한 모든 주문을 시전할 수 없게 됩니다.</em>로 변환되며, 시계장치 마법사가 마지막으로 사용한 1단계 내재 마법(@UUID[Compendium.pf2e.spells-srd.Item.4koZzrnMXhhosn0D]{공포}, 시계장치 벨리마리우스가 이 모험에서 1단계 마법을 아직 사용하지 않았다면)을 포함합니다. 주문은 마법사가 생성될 때 지팡이 내에 배치되며, 생성자는 적절한 등급의 다른 마법 주문을 대체할 수 있습니다.</p>"
+        },
+        "pyDc4hD647pfgYEk": {
+          "name": "해제 크리티컬 (Dispelling Critical)",
+          "description": "<p>할버드 공격으로 크리티컬 히트를 하면, 시계 장치 벨리마리우스에 내장된 노쿠알 파편이 잠시 녹색으로 빛납니다. 크리티컬 히트로 추가 피해를 입히는 대신, 시계 장치 벨리마리우스는 대상에게 적용된 마법 효과 하나에 대해 [[/r 1d20+18 #Counteract]]{+18} 보너스로 대항 체크를 시도합니다."
+        },
+        "IvUr6AnOtG8K2BSD": {
+          "name": "시계 장치 지팡이 충전 (Energize Clockwork Wand)",
+          "description": "<p><strong>발동 빈도</strong> 10분마다 한 번.</p>\n<hr />\n<p><strong>효과</strong> 시계 장치 마법사는 그날 이미 사용한 마법을 하나 회복합니다. 이를 위해 운영 시간 1시간을 소모해야 하며, 마법이 3등급 이상인 경우 2시간을 소모해야 합니다.</p>"
+        }
+      }
+    },
+    "Zaiox": {
+      "name": "자이옥 (Zaiox)",
+      "description": "<p>데로 마기스터는 데로 사회의 지도자입니다. 그들은 피해자들에게 가해지는 잔혹한 수술과 기억 조작 절차를 주로 수행합니다.</p>\n<hr />\n<p>데로는 우유빛 흰 눈, 회색빛 파란 피부, 흰색이나 회색의 헝클어진 머리카락을 가진 작은 체구의 인간형 생물입니다. 골라리온의 가장 깊고 어두운 동굴에 버려진 신비한 요정의 후손인 데로스는 세계 대부분의 지상 종족들에게 무서운 전설과 민속 이야기의 주인공입니다. 그들은 대도시의 지하에서 숨어 지내며, 원치 않는 대상들에게 잔인하고 비정상적인 실험을 행합니다. 데로스의 키는 3피트이고 체중은 약 70파운드입니다.",
+      "hpdetails": "",
+      "items": {
+        "qtsF75k2Zterahrt": {
+          "name": "햇빛에 취약 (Vulnerable to Sunlight)",
+          "description": "<p>데로 마기스터는 햇빛에 노출된 시간마다 [[/r {10}]]{10의 피해를 받습니다."
+        },
+        "36QKwrAooz1cygR4": {
+          "name": "사이틸레쉬의 응시 (Cytillesh Stare)",
+          "description": "<p><strong>빈도</strong> 라운드당 1회</p>\n<hr />\n<p><strong>효과</strong> 자이옥스는 30피트 이내에 있는 생물을 노려봅니다. 대상은 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{눈부심} 상태가 되고, @Check[will|dc:21] 내성 체크에 성공하지 못하면 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1} 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} 상태가 됩니다."
+        }
+      }
+    },
+    "Ordwi": {
+      "name": "Ordwi",
+      "description": "",
+      "hpdetails": "",
+      "items": {
+        "htliQ05jVKwfE22v": {
+          "name": "Divine Font",
+          "description": "<p>@UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Heal}</p>"
+        },
+        "UDhWMhJzdEJtykvO": {
+          "name": "치유의 손 (Healing Hands)",
+          "description": "<p>Ordwi가 @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{치유}를 시전할 때, d8 대신 1d10을 굴립니다."
+        }
+      }
+    },
+    "Dretch": {
+      "name": "드레치 (Dretch)",
+      "description": "<p>모든 악마 중 가장 낮고 약한 존재인 드레치는 더 강력한 동료들만큼이나 잔인하고 잔혹합니다. 그들은 자신보다 약한 모든 것에 분노를 쏟아냅니다.</p>\n<p>게으른 영혼에서 태어난 이 악마들은 어색한 사지와 몸에서 늘어져 있는 느슨한 피부 덩어리를 가진 인간형 모습을 하고 있습니다. 전설에 따르면, 충분한 타락과 힘을 지닌 게으른 영혼 하나가 이 생물들의 전체 무리를 탄생시킬 수 있다고 합니다. 그러나 약한 악마로서 그들의 운명은 더 강력한 아비스 포식자들에게 고통받는 것이며, 드레치 중 극히 소수만이 더 높은 존재로 진화할 수 있습니다. 이 때문에 드레치는 인간에 의해 소환될 때 매우 협조적입니다. 그들은 다른 외계인들이 받아들이기 어려운 조건에서도 일하는 것을 선호하지만, 주인이 약한 모습을 보이면 가장 친절한 주인이라도 기꺼이 배반합니다.</p>\n<hr />\n<p>죄로 인해 왜곡되고 부패한 인간 영혼은 사후 세계에서 악마로 부활할 수 있습니다. 이 강력하고 파괴적인 악마들은 자신의 특정한 죄를 퍼뜨려 더 많은 영혼을 타락시키고, 그로 인해 자신의 수를 늘리고 이 순환을 계속하려고 합니다. ",
+      "hpdetails": "",
+      "items": {
+        "EbsFN4gbz3zpDwft": {
+          "name": "텔레파시 100 피트 (Telepathy 100 feet)",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Telepathy]</p>"
+        },
+        "p6uToNU7wgFDgDDH": {
+          "name": "게으름 (Sloth)",
+          "description": "<p>드레치의 턴이 시작될 때마다 [[/gmr 1d4 #Actions Regained]]{1d4}를 굴림. 결과는 드레치가 그 턴에 회복하는 행동의 횟수입니다 (최대 3회).</p>\n<p>@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐} 조건과 같은 효과는 행동 횟수를 더욱 감소시킬 수 있습니다."
+        },
+        "Lb8baU3vfeAtn1Nw": {
+          "name": "Cower",
+          "description": "<p>드레치는 자신의 몸을 최대한 작게 만들고, 사지로 중요한 장기를 보호합니다. AC에 +4의 상황 보너스를 얻지만, 공격 굴림에 -2의 페널티를 받습니다. 이 효과는 드레치가 현재 위치에서 이동하거나 @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 상실} 상태가 되거나, 무료 행동으로 효과를 종료할 때까지 지속됩니다.</p>"
+        },
+        "h8caQJMnKj4F22zZ": {
+          "name": "광란의 베기 (Frenzied Slashes)",
+          "description": "<p>드레치는 -2 페널티를 받고, 같은 생물을 대상으로 세 번의 발톱 공격을 합니다. 드레치의 다중 공격 페널티는 세 번의 공격을 모두 수행할 때까지 증가하지 않습니다. </p>\n<p>드레치는 다음 턴이 시작될 때까지 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 2} 상태를 얻습니다.</p>"
+        },
+        "xdQJFj57QglkQXeG": {
+          "name": "악랄한 치명타 (Vicious Criticals)",
+          "description": "<p>드레치는 발견한 약점을 최대한 활용합니다. 드레치가 발톱 공격으로 치명타를 입힐 때마다, 대상은 추가 @Damage[1d6[bleed]]의 피해를 입습니다.</p>"
+        }
+      }
+    }
+  },
+  "mapping": {
+    "name": "name",
+    "description": "system.details.publicNotes",
+    "gm": "system.details.privateNotes",
+    "blurb": "system.details.blurb",
+    "cadetails": "system.attributes.ac.details",
+    "hpdetails": "system.attributes.hp.details",
+    "languages": "system.details.languages.details",
+    "perception": "system.perception.details",
+    "saves": "system.attributes.allSaves.value",
+    "speeds": "system.attributes.speed.details",
+    "desc": "system.details.description",
+    "disable": "system.details.disable",
+    "reset": "system.details.reset",
+    "routine": "system.details.routine",
+    "stealth": "system.attributes.stealth.details",
+    "target": "system.target.value",
+    "items": {
+      "path": "items",
+      "converter": "translateActorItems"
+    },
+    "AcrobaticsVariants": {
+      "path": "system.skills.acrobatics.special",
+      "converter": "translateSkillVariants"
+    },
+    "ArcanaVariants": {
+      "path": "system.skills.arcana.special",
+      "converter": "translateSkillVariants"
+    },
+    "AthleticsVariants": {
+      "path": "system.skills.athletics.special",
+      "converter": "translateSkillVariants"
+    },
+    "CraftingVariants": {
+      "path": "system.skills.crafting.special",
+      "converter": "translateSkillVariants"
+    },
+    "DeceptionVariants": {
+      "path": "system.skills.deception.special",
+      "converter": "translateSkillVariants"
+    },
+    "DiplomacyVariants": {
+      "path": "system.skills.diplomacy.special",
+      "converter": "translateSkillVariants"
+    },
+    "IntimidationVariants": {
+      "path": "system.skills.intimidation.special",
+      "converter": "translateSkillVariants"
+    },
+    "MedicineVariants": {
+      "path": "system.skills.medicine.special",
+      "converter": "translateSkillVariants"
+    },
+    "NatureVariants": {
+      "path": "system.skills.nature.special",
+      "converter": "translateSkillVariants"
+    },
+    "OccultismVariants": {
+      "path": "system.skills.occultism.special",
+      "converter": "translateSkillVariants"
+    },
+    "PerformanceVariants": {
+      "path": "system.skills.performance.special",
+      "converter": "translateSkillVariants"
+    },
+    "ReligionVariants": {
+      "path": "system.skills.religion.special",
+      "converter": "translateSkillVariants"
+    },
+    "SocietyVariants": {
+      "path": "system.skills.society.special",
+      "converter": "translateSkillVariants"
+    },
+    "StealthVariants": {
+      "path": "system.skills.stealth.special",
+      "converter": "translateSkillVariants"
+    },
+    "SurvivalVariants": {
+      "path": "system.skills.survival.special",
+      "converter": "translateSkillVariants"
+    },
+    "ThieveryVariants": {
+      "path": "system.skills.thievery.special",
+      "converter": "translateSkillVariants"
+    }
+  }
+}

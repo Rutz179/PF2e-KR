@@ -1,0 +1,187 @@
+{
+  "label": "Introductions",
+  "entries": {
+    "Ghoul (PFS Intro 2)": {
+      "name": "Ghoul (PFS Intro 2)",
+      "description": "<p>Ghouls are ravenous undead who haunt graveyards and eat corpses.</p>\n<hr />\n<p>Few creatures are more ubiquitous to sinister locations such as lonely graveyards and ruined crypts than the flesh-eating undead known as ghouls.</p>",
+      "hpdetails": "void healing",
+      "items": {
+        "6fGqptenx9qEegwS": {
+          "name": "Void Healing",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>"
+        },
+        "Ev6vuAb8rqAKu6ss": {
+          "name": "Consume Flesh",
+          "description": "<p><strong>Requirements</strong> The ghoul is adjacent to the corpse of a creature that died within the last hour.</p>\n<hr />\n<p><strong>Effect</strong> The ghoul devours a chunk of the corpse and regains @Damage[1d6[healing]] Hit Points.</p>\n<p>It can regain Hit Points from any given corpse only once.</p>"
+        },
+        "TwoYirIOl1z1WbOZ": {
+          "name": "Ghoul Fever",
+          "description": "<p><strong>Saving Throw</strong> @Check[fortitude|dc:15]</p>\n<hr />\n<p><strong>Stage 1</strong> carrier with no ill effect (1 day)</p>\n<p><strong>Stage 2</strong> @Damage[3d8[void]] damage and regains half as many Hit Points from all healing (1 day)</p>\n<p><strong>Stage 3</strong> as stage 2 (1 day)</p>\n<p><strong>Stage 4</strong> @Damage[3d8[void]] damage and gains no benefit from healing (1 day)</p>\n<p><strong>Stage 5</strong> as stage 4 (1 day)</p>\n<p><strong>Stage 6</strong> dead, and rises as a @UUID[Compendium.pf2e.pathfinder-bestiary.Actor.LHHgGSs0ELCR4CYK]{Ghoul} the next midnight.</p>"
+        },
+        "rLNDBZSXuC3QhpxX": {
+          "name": "Paralysis",
+          "description": "<p>Any living, non-elf creature hit by a ghoul's attack must succeed at a @Check[fortitude|dc:15] save or become @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed}. It can attempt a new save at the end of each of its turns, and the DC cumulatively decreases by 1 on each such save.</p>"
+        },
+        "OVvzGRkQ4BEgGtYw": {
+          "name": "Swift Leap",
+          "description": "<p>The ghoul jumps up to half its Speed. This movement doesn't trigger reactions.</p>"
+        }
+      }
+    },
+    "Sun-Scorched Shadow Drake": {
+      "name": "Sun-Scorched Shadow Drake",
+      "description": "<p>Shadow drakes are typically among the smallest and least powerful of their species. Most stand as tall and long as house cats and have charcoal-colored scales and membranous wings just translucent enough to pass for shadows. Attracted to shiny materials, they employ deception, teamwork, and even rudimentary traps to create opportunities to make off with ill-gotten gains. Shadow drakes have a particular fascination and admiration for umbral dragons-a notable exception to the norm for drakes and dragons.</p>",
+      "hpdetails": "",
+      "items": {
+        "hg3lMJ6qrkw8WpZ3": {
+          "name": "Light Blindness",
+          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.LightBlindness]</p>"
+        },
+        "QNy9Hrx2ib5tkQKt": {
+          "name": "Shadow Blend",
+          "description": "<p>The shadow drake's form shifts and blends reflexively with surrounding shadows. A shadow drake gains an additional reaction each round, but it can use this reaction only for Shadow Evade.</p>"
+        },
+        "0VNX7MbrCqRSKYkE": {
+          "name": "Shadow Evade",
+          "description": "<p><strong>Trigger</strong> A creature attacks the shadow drake while it is in an area of dim light</p>\n<hr />\n<p><strong>Effect</strong> The shadow drake further obscures its position. The attacker must succeed at a @Check[flat|dc:11] check in order to affect the shadow drake, as if the drake were @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} for the triggering attack.</p>"
+        },
+        "wnZi8QCOMG86Db4l": {
+          "name": "Draconic Frenzy",
+          "description": "<p>The shadow drake makes one jaws Strike and two tail Strikes in any order.</p>"
+        },
+        "usIKpszaYrCWfN8r": {
+          "name": "Shadow Breath",
+          "description": "<p>A shadow drake spits a ball of black liquid that explodes into a cloud of frigid black shadow. This attack has a range of 40 feet and explodes in a 5-foot-radius burst. Creatures within the burst take @Damage[2d6[cold]] damage (@Check[reflex|dc:16|basic] save). The explosion of shadow also snuffs out mundane light sources the size of a torch, lantern, or smaller, and attempts to counteract magical light with a +8 counteract modifier.</p>\n<p>The shadow drake can't use Shadow Breath again for [[/gmr 1d6]] rounds.</p>"
+        },
+        "5IixHzakyftZgS0g": {
+          "name": "Speed Surge",
+          "description": "<p><strong>Frequency</strong> three times per day</p>\n<hr />\n<p><strong>Effect</strong> The shadow drake Strides or Flies twice.</p>"
+        }
+      }
+    },
+    "Rain In Cloudy Day": {
+      "name": "Rain In Cloudy Day",
+      "description": "",
+      "hpdetails": "",
+      "items": {
+        "PSd8ZUnIEeTZZ3Qc": {
+          "name": "Verdant Burst",
+          "description": "<p>When Rain in Cloudy Day dies, a burst of primal energy explodes from his body, restoring @Damage[2d8[healing]] Hit Points to each plant creature in a @Template[emanation|distance:30]. This area is filled with fungi, becoming difficult terrain. If the terrain is not a viable environment for this fungus, it withers after 24 hours.</p>"
+        },
+        "f4Bxn2vuVItRYQrZ": {
+          "name": "Change Shape",
+          "description": "<p>Rain in Cloudy Day transforms into a Small giant mushroom or patch of fungi. This ability otherwise uses the effects of @UUID[Compendium.pf2e.spells-srd.Item.dileJ0Yxqg76LMvu]{One with Plants}.</p>"
+        },
+        "Ln8ZtQy8JZzqvbgp": {
+          "name": "Spore Cloud",
+          "description": "<p>Rain in Cloudy Day can unleash a cloud of spores that irritates the eyes and throats of nonfungi creatures in a @Template[emanation|distance:15]. Each creature must succeed at a @Check[fortitude|dc:16] save or take @Damage[1[persistent,poison]] damage. A creature has its vision reduced as long as the persistent damage continues and can see only within 20 feet (10 feet on a critical failure).</p>"
+        },
+        "Qo6Zya98KMBBIXlg": {
+          "name": "Spores",
+          "description": "<p>A creature that takes damage from Rain in Cloudy Day's spore pod Strike must attempt a saving throw with the same DC and effect as his Spore Cloud ability.</p>"
+        }
+      }
+    },
+    "Swamp Ooze": {
+      "name": "Swamp Ooze",
+      "description": "<p>These amorphous masses of sewage and other detritus make their way through filthy culverts beneath cities large and small.</p>\n<hr />\n<p>Slimes, molds, and other oozes can be found in dank dungeons and shadowed forests. While not necessarily evil, some grow to enormous sizes and have insatiable appetites.</p>",
+      "hpdetails": "",
+      "items": {
+        "VwrlDdZczBGO5Ps4": {
+          "name": "Motion Sense 60 feet",
+          "description": "<p>A swamp ooze can sense nearby motion through vibration and air movement.</p>"
+        },
+        "mdqK7RuSjtezVyS8": {
+          "name": "Swamp Wave",
+          "description": "<p><strong>Frequency</strong> once per minute</p>\n<hr />\n<p><strong>Effect</strong> The swamp ooze unleashes a wave of swamp muck filled with sharp debris, covering all creatures within a @Template[emanation|distance:20]. Each creature in the area must succeed at a @Check[reflex|dc:17|name:Filth Wave|traits:damaging-effect] save or take @Damage[1d4[piercing]] damage and take a -10-foot penalty to its Speeds for 1 minute (on a critical failure, the creature also falls @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}).</p>\n<p>A creature can spend an Interact action to clean someone off, decreasing the Speed penalty by 5 feet with each action.</p>"
+        }
+      }
+    }
+  },
+  "mapping": {
+    "name": "name",
+    "description": "system.details.publicNotes",
+    "gm": "system.details.privateNotes",
+    "blurb": "system.details.blurb",
+    "cadetails": "system.attributes.ac.details",
+    "hpdetails": "system.attributes.hp.details",
+    "languages": "system.details.languages.details",
+    "perception": "system.perception.details",
+    "saves": "system.attributes.allSaves.value",
+    "speeds": "system.attributes.speed.details",
+    "desc": "system.details.description",
+    "disable": "system.details.disable",
+    "reset": "system.details.reset",
+    "routine": "system.details.routine",
+    "stealth": "system.attributes.stealth.details",
+    "target": "system.target.value",
+    "items": {
+      "path": "items",
+      "converter": "translateActorItems"
+    },
+    "AcrobaticsVariants": {
+      "path": "system.skills.acrobatics.special",
+      "converter": "translateSkillVariants"
+    },
+    "ArcanaVariants": {
+      "path": "system.skills.arcana.special",
+      "converter": "translateSkillVariants"
+    },
+    "AthleticsVariants": {
+      "path": "system.skills.athletics.special",
+      "converter": "translateSkillVariants"
+    },
+    "CraftingVariants": {
+      "path": "system.skills.crafting.special",
+      "converter": "translateSkillVariants"
+    },
+    "DeceptionVariants": {
+      "path": "system.skills.deception.special",
+      "converter": "translateSkillVariants"
+    },
+    "DiplomacyVariants": {
+      "path": "system.skills.diplomacy.special",
+      "converter": "translateSkillVariants"
+    },
+    "IntimidationVariants": {
+      "path": "system.skills.intimidation.special",
+      "converter": "translateSkillVariants"
+    },
+    "MedicineVariants": {
+      "path": "system.skills.medicine.special",
+      "converter": "translateSkillVariants"
+    },
+    "NatureVariants": {
+      "path": "system.skills.nature.special",
+      "converter": "translateSkillVariants"
+    },
+    "OccultismVariants": {
+      "path": "system.skills.occultism.special",
+      "converter": "translateSkillVariants"
+    },
+    "PerformanceVariants": {
+      "path": "system.skills.performance.special",
+      "converter": "translateSkillVariants"
+    },
+    "ReligionVariants": {
+      "path": "system.skills.religion.special",
+      "converter": "translateSkillVariants"
+    },
+    "SocietyVariants": {
+      "path": "system.skills.society.special",
+      "converter": "translateSkillVariants"
+    },
+    "StealthVariants": {
+      "path": "system.skills.stealth.special",
+      "converter": "translateSkillVariants"
+    },
+    "SurvivalVariants": {
+      "path": "system.skills.survival.special",
+      "converter": "translateSkillVariants"
+    },
+    "ThieveryVariants": {
+      "path": "system.skills.thievery.special",
+      "converter": "translateSkillVariants"
+    }
+  }
+}

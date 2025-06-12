@@ -1,0 +1,290 @@
+{
+  "label": "Action Macros",
+  "folders": {},
+  "entries": {
+    "Exploration: Avoid Notice": {
+      "name": "Exploration: Avoid Notice",
+      "command": "game.pf2e.actions.avoidNotice({ event: event });"
+    },
+    "Create a Diversion - Trick: Deception": {
+      "name": "Create a Diversion - Trick: Deception",
+      "command": "game.pf2e.actions.createADiversion({ event: event, variant: 'trick' });"
+    },
+    "Make an Impression: Diplomacy": {
+      "name": "Make an Impression: Diplomacy",
+      "command": "game.pf2e.actions.makeAnImpression({ event: event });"
+    },
+    "Tumble Through: Acrobatics": {
+      "name": "Tumble Through: Acrobatics",
+      "command": "game.pf2e.actions.tumbleThrough({ event: event });"
+    },
+    "Raise a Shield": {
+      "name": "Raise a Shield",
+      "command": "game.pf2e.actions.raiseAShield({ actors: [token?.actor ?? actor ?? game.user.character].filter((actor) => actor) })"
+    },
+    "Escape: Acrobatics": {
+      "name": "Escape: Acrobatics",
+      "command": "game.pf2e.actions.escape({ event: event, skill: 'acrobatics' });"
+    },
+    "Balance: Acrobatics": {
+      "name": "Balance: Acrobatics",
+      "command": "game.pf2e.actions.balance({ event: event });"
+    },
+    "Whirling Throw: Athletics": {
+      "name": "Whirling Throw: Athletics",
+      "command": "game.pf2e.actions.whirlingThrow({ event: event });"
+    },
+    "Pick a Lock: Thievery": {
+      "name": "Pick a Lock: Thievery",
+      "command": "game.pf2e.actions.pickALock({ event: event });"
+    },
+    "Coerce: Intimidation": {
+      "name": "Coerce: Intimidation",
+      "command": "game.pf2e.actions.coerce({ event: event });"
+    },
+    "Maneuver in Flight: Acrobatics": {
+      "name": "Maneuver in Flight: Acrobatics",
+      "command": "game.pf2e.actions.maneuverInFlight({ event: event });"
+    },
+    "Track: Survival": {
+      "name": "Track: Survival",
+      "command": "game.pf2e.actions.track({ event: event });"
+    },
+    "Repair: Crafting": {
+      "name": "Repair: Crafting",
+      "command": "game.pf2e.actions.repair({ event: event });"
+    },
+    "Perform - Play keyboard instrument: Performance": {
+      "name": "Perform - Play keyboard instrument: Performance",
+      "command": "game.pf2e.actions.perform({ event: event, variant: 'keyboards' });"
+    },
+    "Bon Mot: Diplomacy": {
+      "name": "Bon Mot: Diplomacy",
+      "command": "game.pf2e.actions.bonMot({ event: event });"
+    },
+    "Escape": {
+      "name": "Escape",
+      "command": "game.pf2e.actions.escape({ event: event });"
+    },
+    "Hide: Stealth": {
+      "name": "Hide: Stealth",
+      "command": "game.pf2e.actions.hide({ event: event });"
+    },
+    "Palm an Object: Thievery": {
+      "name": "Palm an Object: Thievery",
+      "command": "game.pf2e.actions.palmAnObject({ event: event });"
+    },
+    "Perform - Play wind instrument: Performance": {
+      "name": "Perform - Play wind instrument: Performance",
+      "command": "game.pf2e.actions.perform({ event: event, variant: 'winds' });"
+    },
+    "Sneak: Stealth": {
+      "name": "Sneak: Stealth",
+      "command": "game.pf2e.actions.sneak({ event: event });"
+    },
+    "Encouraging Words": {
+      "name": "Encouraging Words",
+      "command": "const tokens = canvas.tokens.controlled;\nif (tokens.length != 1) {\n    ui.notifications.error(`You must select one pc token`);\n} else {\n    game.pf2e.actions.encouragingWords({ actors: [token.actor ?? actor].filter((actor) => actor !== null) });\n}"
+    },
+    "Sense Direction: Survival": {
+      "name": "Sense Direction: Survival",
+      "command": "game.pf2e.actions.senseDirection({ event: event });"
+    },
+    "Climb: Athletics": {
+      "name": "Climb: Athletics",
+      "command": "game.pf2e.actions.climb({ event: event });"
+    },
+    "Perform - Oratory: Performance": {
+      "name": "Perform - Oratory: Performance",
+      "command": "game.pf2e.actions.perform({ event: event, variant: 'oratory' });"
+    },
+    "Perform - Dance: Performance": {
+      "name": "Perform - Dance: Performance",
+      "command": "game.pf2e.actions.perform({ event: event, variant: 'dance' });"
+    },
+    "Sense Motive: Perception": {
+      "name": "Sense Motive: Perception",
+      "command": "game.pf2e.actions.senseMotive({ event: event });"
+    },
+    "Long Jump: Athletics": {
+      "name": "Long Jump: Athletics",
+      "command": "game.pf2e.actions.longJump({ event: event });"
+    },
+    "Treat Poison: Medicine": {
+      "name": "Treat Poison: Medicine",
+      "command": "game.pf2e.actions.treatPoison({ event: event });"
+    },
+    "Decipher Writing: Occultism": {
+      "name": "Decipher Writing: Occultism",
+      "command": "game.pf2e.actions.decipherWriting({ event: event, skill: 'occultism' });"
+    },
+    "Feint: Deception": {
+      "name": "Feint: Deception",
+      "command": "game.pf2e.actions.feint({ event: event });"
+    },
+    "Disable Device: Thievery": {
+      "name": "Disable Device: Thievery",
+      "command": "game.pf2e.actions.disableDevice({ event: event });"
+    },
+    "Swim: Athletics": {
+      "name": "Swim: Athletics",
+      "command": "game.pf2e.actions.swim({ event: event });"
+    },
+    "Craft: Crafting": {
+      "name": "Craft: Crafting",
+      "command": "game.pf2e.actions.craft({ event: event });"
+    },
+    "Decipher Writing: Arcana": {
+      "name": "Decipher Writing: Arcana",
+      "command": "game.pf2e.actions.decipherWriting({ event: event, skill: 'arcana' });"
+    },
+    "Squeeze: Acrobatics": {
+      "name": "Squeeze: Acrobatics",
+      "command": "game.pf2e.actions.squeeze({ event: event });"
+    },
+    "Perform - Play percussion instrument: Performance": {
+      "name": "Perform - Play percussion instrument: Performance",
+      "command": "game.pf2e.actions.perform({ event: event, variant: 'percussion' });"
+    },
+    "Lie: Deception": {
+      "name": "Lie: Deception",
+      "command": "game.pf2e.actions.lie({ event: event });"
+    },
+    "Decipher Writing: Society": {
+      "name": "Decipher Writing: Society",
+      "command": "game.pf2e.actions.decipherWriting({ event: event, skill: 'society' });"
+    },
+    "Administer First Aid - Stop Bleeding: Medicine": {
+      "name": "Administer First Aid - Stop Bleeding: Medicine",
+      "command": "game.pf2e.actions.administerFirstAid({ event: event, variant: 'stop-bleeding' });"
+    },
+    "Athletics: Arcane Slam": {
+      "name": "Athletics: Arcane Slam",
+      "command": "game.pf2e.actions.arcaneSlam({ event: event });"
+    },
+    "Create a Diversion - Distracting Words: Deception": {
+      "name": "Create a Diversion - Distracting Words: Deception",
+      "command": "game.pf2e.actions.createADiversion({ event: event, variant: 'distracting-words' });"
+    },
+    "Escape: Unarmed Attack": {
+      "name": "Escape: Unarmed Attack",
+      "command": "game.pf2e.actions.escape({ event: event, skill: 'unarmed' });"
+    },
+    "Perform - Singing: Performance": {
+      "name": "Perform - Singing: Performance",
+      "command": "game.pf2e.actions.perform({ event: event, variant: 'singing' });"
+    },
+    "Trip: Athletics": {
+      "name": "Trip: Athletics",
+      "command": "game.pf2e.actions.trip({ event: event });"
+    },
+    "Reposition: Athletics": {
+      "name": "Reposition: Athletics",
+      "command": "game.pf2e.actions.reposition({ event: event });"
+    },
+    "Perform - Comedy: Performance": {
+      "name": "Perform - Comedy: Performance",
+      "command": "game.pf2e.actions.perform({ event: event, variant: 'comedy' });"
+    },
+    "Grapple: Athletics": {
+      "name": "Grapple: Athletics",
+      "command": "game.pf2e.actions.grapple({ event: event });"
+    },
+    "Tamper: Crafting": {
+      "name": "Tamper: Crafting",
+      "command": "game.pf2e.actions.tamper({ event: event });"
+    },
+    "Impersonate: Deception": {
+      "name": "Impersonate: Deception",
+      "command": "game.pf2e.actions.impersonate({ event: event });"
+    },
+    "Administer First Aid - Stabilize: Medicine": {
+      "name": "Administer First Aid - Stabilize: Medicine",
+      "command": "game.pf2e.actions.administerFirstAid({ event: event, variant: 'stabilize' });"
+    },
+    "Escape: Athletics": {
+      "name": "Escape: Athletics",
+      "command": "game.pf2e.actions.escape({ event: event, skill: 'athletics' });"
+    },
+    "Treat Disease: Medicine": {
+      "name": "Treat Disease: Medicine",
+      "command": "game.pf2e.actions.treatDisease({ event: event });"
+    },
+    "Create Forgery: Society": {
+      "name": "Create Forgery: Society",
+      "command": "game.pf2e.actions.createForgery({ event: event });"
+    },
+    "Subsist: Society": {
+      "name": "Subsist: Society",
+      "command": "game.pf2e.actions.subsist({ event: event, skill: 'society' });"
+    },
+    "Demoralize: Intimidation": {
+      "name": "Demoralize: Intimidation",
+      "command": "game.pf2e.actions.demoralize({ event: event });"
+    },
+    "Perform - Play string instrument: Performance": {
+      "name": "Perform - Play string instrument: Performance",
+      "command": "game.pf2e.actions.perform({ event: event, variant: 'strings' });"
+    },
+    "Disarm: Athletics": {
+      "name": "Disarm: Athletics",
+      "command": "game.pf2e.actions.disarm({ event: event });"
+    },
+    "Steel Your Resolve": {
+      "name": "Steel Your Resolve",
+      "command": "const tokens = canvas.tokens.controlled;\nif (tokens.length != 1) {\n    ui.notifications.error(`You must select one pc token`);\n} else {\n    game.pf2e.actions.steelYourResolve({ actors: [token.actor ?? actor].filter((actor) => actor !== null) });\n}"
+    },
+    "Gather Information: Diplomacy": {
+      "name": "Gather Information: Diplomacy",
+      "command": "game.pf2e.actions.gatherInformation({ event: event });"
+    },
+    "Decipher Writing: Religion": {
+      "name": "Decipher Writing: Religion",
+      "command": "game.pf2e.actions.decipherWriting({ event: event, skill: 'religion' });"
+    },
+    "Request: Diplomacy": {
+      "name": "Request: Diplomacy",
+      "command": "game.pf2e.actions.request({ event: event });"
+    },
+    "Seek: Perception": {
+      "name": "Seek: Perception",
+      "command": "game.pf2e.actions.seek({ event: event });"
+    },
+    "High Jump: Athletics": {
+      "name": "High Jump: Athletics",
+      "command": "game.pf2e.actions.highJump({ event: event });"
+    },
+    "Perform - Acting: Performance": {
+      "name": "Perform - Acting: Performance",
+      "command": "game.pf2e.actions.perform({ event: event, variant: 'acting' });"
+    },
+    "Command an Animal: Nature": {
+      "name": "Command an Animal: Nature",
+      "command": "game.pf2e.actions.commandAnAnimal({ event: event });"
+    },
+    "Force Open: Athletics": {
+      "name": "Force Open: Athletics",
+      "command": "game.pf2e.actions.forceOpen({ event: event });"
+    },
+    "Shove: Athletics": {
+      "name": "Shove: Athletics",
+      "command": "game.pf2e.actions.shove({ event: event });"
+    },
+    "Create a Diversion - Gesture: Deception": {
+      "name": "Create a Diversion - Gesture: Deception",
+      "command": "game.pf2e.actions.createADiversion({ event: event, variant: 'gesture' });"
+    },
+    "Steal: Thievery": {
+      "name": "Steal: Thievery",
+      "command": "game.pf2e.actions.steal({ event: event });"
+    },
+    "Subsist: Survival": {
+      "name": "Subsist: Survival",
+      "command": "game.pf2e.actions.subsist({ event: event, skill: 'survival' });"
+    },
+    "Conceal an Object: Stealth": {
+      "name": "Conceal an Object: Stealth",
+      "command": "game.pf2e.actions.concealAnObject({ event: event });"
+    }
+  }
+}
