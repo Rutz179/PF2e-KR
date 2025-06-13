@@ -253,7 +253,7 @@
         },
         "5lWzxa4oDKBEY6Bv": {
           "name": "호블",
-          "description": "<p><strong>요구 사항</strong> 생물이 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{제압된} interrogator에 의해 잡히거나 제압된 경우</p><hr /><p><strong>효과</strong> interrogator에 의해 잡히거나 제압된 크리처는 @Damage[2d6[bludgeoning]]의 피해를 받고 @Check[fortitude|dc:23|basic] 내성을 체크합니다. 생물이 내성을 실패하면 심문자가 선택한 상태도 얻습니다: @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 2} 1분 동안, @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 2} 1분 동안, 또는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 1}.</p>"
+          "description": "<p><strong>요구 사항</strong> 생물이 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속} interrogator에 의해 잡히거나 제압된 경우</p><hr /><p><strong>효과</strong> interrogator에 의해 잡히거나 제압된 크리처는 @Damage[2d6[bludgeoning]]의 피해를 받고 @Check[fortitude|dc:23|basic] 내성을 체크합니다. 생물이 내성을 실패하면 심문자가 선택한 상태도 얻습니다: @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 2} 1분 동안, @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 2} 1분 동안, 또는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 1}.</p>"
         },
         "9sEjcGcCgW3dkPKD": {
           "name": "고문",
@@ -701,7 +701,7 @@
         },
         "7plqqmq49cE7a6PQ": {
           "name": "그들을 붙잡아라!",
-          "description": "<p><span class=\"action-glyph\">A</span> to <span class=\"action-glyph\">3</span></p>\n<p>체포자들은 몽둥이로 적을 공격하고 태클을 합니다. @Template[type:emanation|distance:5] 내에 있는 모든 적들은 @Check[reflex|dc:23|basic] 내성을 시도해야 합니다. 피해와 추가 효과는 행동 횟수에 따라 달라집니다. 다음 조건 중 하나를 @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} DC는 26입니다. 피해 (대실패 시 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 추가)</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(3d6+6)[bludgeoning]] 피해 (실패 시 1 라운드 동안 잡힌 상태, 대실패 시 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{제압} 상태)</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(4d6+9)[bludgeoning]] 피해 (실패 시 1 라운드 동안 잡힌 상태, 대실패 시 1 라운드 동안 제압된 상태)</p>"
+          "description": "<p><span class=\"action-glyph\">A</span> to <span class=\"action-glyph\">3</span></p>\n<p>체포자들은 몽둥이로 적을 공격하고 태클을 합니다. @Template[type:emanation|distance:5] 내에 있는 모든 적들은 @Check[reflex|dc:23|basic] 내성을 시도해야 합니다. 피해와 추가 효과는 행동 횟수에 따라 달라집니다. 다음 조건 중 하나를 @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} DC는 26입니다. 피해 (대실패 시 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 추가)</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(3d6+6)[bludgeoning]] 피해 (실패 시 1 라운드 동안 잡힌 상태, 대실패 시 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속} 상태)</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(4d6+9)[bludgeoning]] 피해 (실패 시 1 라운드 동안 잡힌 상태, 대실패 시 1 라운드 동안 제압된 상태)</p>"
         },
         "0UCymBNVsiBKsKbM": {
           "name": "지역 청소",
@@ -727,7 +727,7 @@
       "items": {
         "PXsNHwsu7FSaoXTp": {
           "name": "뼈 갑옷",
-          "description": "<p><strong>트리거</strong> 뼈를 뜯어먹는 자에게 타격 피해가 발생합니다. 인접한 모든 생물들은 @Damage[2d4[piercing]|옵션:지역 피해]의 피해를 받습니다 (@Check[반사|dc:16|기본|옵션:지역 효과] 내성).</p>"
+          "description": "<p><strong>트리거</strong> 뼈를 뜯어먹는 자에게 타격 피해가 발생합니다. 인접한 모든 생물들은 @Damage[2d4[piercing]|옵션:지역 피해]의 피해를 받습니다 (@Check[반사|dc:16|basic|옵션:지역 효과] 내성).</p>"
         },
         "OtnUBBBUXOYTXoxi": {
           "name": "거친 여행",
@@ -1788,7 +1788,7 @@
         },
         "A3iRCw1rjvafnZxN": {
           "name": "협동 공격",
-          "description": "<p><span class=\"action-glyph\">1</span> ~ <span class=\"action-glyph\">3</span></p>\n<p><strong>사용 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 부대는 @Template[type:emanation|distance:5] 범위 내의 모든 적에게 창을 찔러 @Check[reflex|dc:21|기본|옵션:영역 효과] 내성. 피해는 행동 횟수에 따라 달라집니다.area-damage] 피해</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d6+5)[slashing]|options:area-damage] 피해</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(3d12+7)[slashing]|options:area-damage] 피해</p>"
+          "description": "<p><span class=\"action-glyph\">1</span> ~ <span class=\"action-glyph\">3</span></p>\n<p><strong>사용 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 부대는 @Template[type:emanation|distance:5] 범위 내의 모든 적에게 창을 찔러 @Check[reflex|dc:21|basic|옵션:영역 효과] 내성. 피해는 행동 횟수에 따라 달라집니다.area-damage] 피해</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d6+5)[slashing]|options:area-damage] 피해</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(3d12+7)[slashing]|options:area-damage] 피해</p>"
         },
         "cEC3FjTPb84L7Any": {
           "name": "포커스 발사",
@@ -2634,7 +2634,7 @@
         },
         "dRd0M7P3MVBvrJhb": {
           "name": "해방의 걸음",
-          "description": "<p><strong>트리거</strong> 적이 챔피언의 아군에게 피해를 주거나, 잡거나, 제압하고, 둘 다 챔피언의 오라 내에 있을 때</p><hr /><p><strong>효과</strong> 챔피언이 제압된 아군을 해방합니다. 트리거가 아군의 피해인 경우, 아군은 트리거가 된 피해에 대해 모든 피해에 대해 저항력 10을 얻습니다. 해방의 걸음}</p>\n<p>동료는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{제약}, @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{동결}, 또는 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비} 효과를 적용할 수 있습니다. 그들은 내성이 있는 효과에 대해 새로운 내성을 시도하거나, 자유 행동으로 @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape}를 시도합니다. 탈출이 필요했는지 여부에 상관없이, 아군은 이동이 가능한 경우 자유 행동으로 @UUID[Compendium.pf2e.actionspf2e.Item.UHpkTuCtyaPqiCAB]{신중한 발걸음}을 할 수 있습니다."
+          "description": "<p><strong>트리거</strong> 적이 챔피언의 아군에게 피해를 주거나, 잡거나, 제압하고, 둘 다 챔피언의 오라 내에 있을 때</p><hr /><p><strong>효과</strong> 챔피언이 제압된 아군을 해방합니다. 트리거가 아군의 피해인 경우, 아군은 트리거가 된 피해에 대해 모든 피해에 대해 저항력 10을 얻습니다. 해방의 걸음}</p>\n<p>동료는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속}, @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{동결}, 또는 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비} 효과를 적용할 수 있습니다. 그들은 내성이 있는 효과에 대해 새로운 내성을 시도하거나, 자유 행동으로 @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape}를 시도합니다. 탈출이 필요했는지 여부에 상관없이, 아군은 이동이 가능한 경우 자유 행동으로 @UUID[Compendium.pf2e.actionspf2e.Item.UHpkTuCtyaPqiCAB]{신중한 발걸음}을 할 수 있습니다."
         },
         "e9KYlRN3U7f2qytl": {
           "name": "축복받은 무기",
@@ -2994,7 +2994,7 @@
         },
         "5mZHOHvumjTVWjwh": {
           "name": "로얄 플러시 플러리",
-          "description": "<p><strong>발동 조건</strong> 시간당 1회</p>\n<p><strong>요구 조건</strong> 하이 롤러가 한 손에 16장 이상의 카드를 가지고 있습니다</p><hr /><p><strong>효과</strong> 하이 롤러는 @Template[type:cone|distance:30] 범위 내의 모든 생물에게 @Check[reflex|dc:30|basic|options:area-damage] 검사를 수행합니다. @Damage[16d4[slashing]|옵션:지역 피해]의 피해를 @Check[반사|dc:30|기본|옵션:지역 효과] 내성을 가진 해당 지역의 모든 생물에게 입힙니다. 이 능력은 소지한 카드의 전체 덱을 소모합니다."
+          "description": "<p><strong>발동 조건</strong> 시간당 1회</p>\n<p><strong>요구 조건</strong> 하이 롤러가 한 손에 16장 이상의 카드를 가지고 있습니다</p><hr /><p><strong>효과</strong> 하이 롤러는 @Template[type:cone|distance:30] 범위 내의 모든 생물에게 @Check[reflex|dc:30|basic|options:area-damage] 검사를 수행합니다. @Damage[16d4[slashing]|옵션:지역 피해]의 피해를 @Check[반사|dc:30|basic|옵션:지역 효과] 내성을 가진 해당 지역의 모든 생물에게 입힙니다. 이 능력은 소지한 카드의 전체 덱을 소모합니다."
         }
       }
     },
@@ -3139,7 +3139,7 @@
         },
         "ZrAQkE7N4BH2nY8v": {
           "name": "그물 던지기",
-          "description": "<p><strong>요건</strong> 정찰병이 양손으로 그물을 들고 있습니다. </p><hr /><p><strong>효과</strong> 정찰병은 20피트 이내의 중형 이하 크기의 생물에게 원거리 공격을 합니다 (수정자 [[/r 1d20+9 #Hurl Net]]{+9} 적용). 명중 시, 대상은 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 되고, 속도에 -10 피트의 상황 페널티를 받습니다. 크리티컬 히트 시, 생물은 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} 상태가 됩니다. 그물을 벗어나는 [[/act escape dc=16]]{Escape}의 DC는 16입니다. 대상과 인접한 생물은 그물과 상호작용하여 제거할 수 있습니다.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.q2D1QBalqBQfKzTc]{효과: 그물 던지기}</p>"
+          "description": "<p><strong>요건</strong> 정찰병이 양손으로 그물을 들고 있습니다. </p><hr /><p><strong>효과</strong> 정찰병은 20피트 이내의 중형 이하 크기의 생물에게 원거리 공격을 합니다 (수정자 [[/r 1d20+9 #Hurl Net]]{+9} 적용). 명중 시, 대상은 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 되고, 속도에 -10 피트의 상황 페널티를 받습니다. 크리티컬 히트 시, 생물은 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속} 상태가 됩니다. 그물을 벗어나는 [[/act escape dc=16]]{Escape}의 DC는 16입니다. 대상과 인접한 생물은 그물과 상호작용하여 제거할 수 있습니다.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.q2D1QBalqBQfKzTc]{효과: 그물 던지기}</p>"
         }
       }
     },
@@ -3417,7 +3417,7 @@
         },
         "X7MiwGQZ8H6HZrvQ": {
           "name": "호그타이",
-          "description": "<p><strong>요구 조건</strong> 목동에게 밧줄로 잡혀 있거나 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} 상태인 생물</p><hr /><p><strong>효과</strong> 목동은 잡힌 생물을 최대 20피트까지 끌어당길 수 있습니다. 그 후, 생물이 도달 범위 내에 있다면 드로버는 그 생물을 호그타이로 묶고 다시 [[/act grapple]]을 시도합니다. 성공 시 생물은 라소로 제압되며, 드로버는 그랩을 유지할 필요가 없습니다. 묶인 상태는 생물이 @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{탈출}하거나 라소가 @UUID[Compendium.pf2e.actionspf2e.Item.SjmKHgI7a5Z9JzBx]{강제적으로 열릴} 때까지 지속됩니다. 목동은 도달 범위 내의 호그타이드 상태 생물을 해방하기 위해 상호작용할 수 있습니다.</p>"
+          "description": "<p><strong>요구 조건</strong> 목동에게 밧줄로 잡혀 있거나 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속} 상태인 생물</p><hr /><p><strong>효과</strong> 목동은 잡힌 생물을 최대 20피트까지 끌어당길 수 있습니다. 그 후, 생물이 도달 범위 내에 있다면 드로버는 그 생물을 호그타이로 묶고 다시 [[/act grapple]]을 시도합니다. 성공 시 생물은 라소로 제압되며, 드로버는 그랩을 유지할 필요가 없습니다. 묶인 상태는 생물이 @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{탈출}하거나 라소가 @UUID[Compendium.pf2e.actionspf2e.Item.SjmKHgI7a5Z9JzBx]{강제적으로 열릴} 때까지 지속됩니다. 목동은 도달 범위 내의 호그타이드 상태 생물을 해방하기 위해 상호작용할 수 있습니다.</p>"
         },
         "KZA9FGpOR8xg53mX": {
           "name": "lasso",
@@ -4242,7 +4242,7 @@
         },
         "fGxEd4o5r4hXlUtn": {
           "name": "가젯 제작",
-          "description": "<p>가젯 제작자는 자신의 쓰레기 가방과 주변의 폐품으로 다음 중 하나의 가젯을 제작합니다. 이 방법으로 만든 가젯은 한 번 사용하거나 1시간이 지나면 분해됩니다. </p><ul><li><strong>플래시 방</strong> <span class=\"action-glyph\">1</span> (조작) 가젯 제작자는 최대 20피트 떨어진 곳에 플래시 방을 던져 @Template[type:burst|distance:5] 범위 내에서 폭발시킵니다. 폭발에 포함된 생물은 @Check[fortitude|dc:24] 내성 체크에 성공하지 않으면 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} 상태가 됩니다.</li><li><strong>글라이더</strong> <span class=\"action-glyph\">1</span> (이동) 가제티어는 글라이더를 손에 들고 절벽에서 뛰어내립니다. 그들은 라운드당 60피트만 떨어지며, 10피트 떨어질 때마다 5피트 앞으로 이동할 수 있습니다.</li><li><strong>임시 열쇠</strong> <span class=\"action-glyph\">1</span> (조작) 가제티어는 체크에 +4의 아이템 보너스를 받고 자물쇠 따기를 시도합니다. 이 기기를 활성화하면 녹음된 말을 한 번 반복한 후 분해되거나, 최대 10분 동안 메시지를 반복 재생한 후 분해됩니다.</li><li><p><strong>충격 막대</strong> <span class=\"action-glyph\">1</span> (조작) 인접한 생물은 @Damage[3d12[전기]]의 피해를 받고 @Check[reflex|dc:24|basic] 내성을 가지고 있습니다. </p>\n</li></ul>"
+          "description": "<p>가젯 제작자는 자신의 쓰레기 가방과 주변의 폐품으로 다음 중 하나의 가젯을 제작합니다. 이 방법으로 만든 가젯은 한 번 사용하거나 1시간이 지나면 분해됩니다. </p><ul><li><strong>플래시 방</strong> <span class=\"action-glyph\">1</span> (조작) 가젯 제작자는 최대 20피트 떨어진 곳에 플래시 방을 던져 @Template[type:burst|distance:5] 범위 내에서 폭발시킵니다. 폭발에 포함된 생물은 @Check[fortitude|dc:24] 내성 체크에 성공하지 않으면 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명} 상태가 됩니다.</li><li><strong>글라이더</strong> <span class=\"action-glyph\">1</span> (이동) 가제티어는 글라이더를 손에 들고 절벽에서 뛰어내립니다. 그들은 라운드당 60피트만 떨어지며, 10피트 떨어질 때마다 5피트 앞으로 이동할 수 있습니다.</li><li><strong>임시 열쇠</strong> <span class=\"action-glyph\">1</span> (조작) 가제티어는 체크에 +4의 아이템 보너스를 받고 자물쇠 따기를 시도합니다. 이 기기를 활성화하면 녹음된 말을 한 번 반복한 후 분해되거나, 최대 10분 동안 메시지를 반복 재생한 후 분해됩니다.</li><li><p><strong>충격 막대</strong> <span class=\"action-glyph\">1</span> (조작) 인접한 생물은 @Damage[3d12[전기]]의 피해를 받고 @Check[reflex|dc:24|basic] 내성을 가지고 있습니다. </p>\n</li></ul>"
         }
       }
     },
@@ -4544,7 +4544,7 @@
         },
         "yuynsVSsUSCdk5SC": {
           "name": "Pick Smash",
-          "description": "<p>코볼트 어스 다이버는 픽을 땅에 내리쳐 @Template[type:emanation|distance:5]의 범위 내에 파편을 폭발시킵니다. 범위 내에 있는 모든 생물과 무인 물체는 @Damage[3d6[bludgeoning]|options:area-damage]의 피해를 받고 @Check[reflex|dc:20|basic|options:area-effect] 내성을 체크합니다. 어스 다이버의 싱크홀에 의해 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} 상태에 있는 생물은 추가 @Damage[1d6[bludgeoning]]의 피해를 받습니다."
+          "description": "<p>코볼트 어스 다이버는 픽을 땅에 내리쳐 @Template[type:emanation|distance:5]의 범위 내에 파편을 폭발시킵니다. 범위 내에 있는 모든 생물과 무인 물체는 @Damage[3d6[bludgeoning]|options:area-damage]의 피해를 받고 @Check[reflex|dc:20|basic|options:area-effect] 내성을 체크합니다. 어스 다이버의 싱크홀에 의해 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속} 상태에 있는 생물은 추가 @Damage[1d6[bludgeoning]]의 피해를 받습니다."
         }
       }
     },
@@ -5289,7 +5289,7 @@
         },
         "935o5SaVUaLp8sje": {
           "name": "잉크를 뿌리기",
-          "description": "<p><strong>트리거</strong> 예술가가 15 피트 이내의 생물에게 근접 또는 원거리 공격을 받습니다. 공격자는 @Check[reflex|dc:18|options:inflicts:blinded] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded}가 됩니다. 이 효과는 공격자가 아티스트를 타깃으로 삼기 전에 발동합니다. 실명은 대상의 다음 턴이 끝날 때까지 지속되지만, 생물은 상호 작용을 통해 눈을 문지르며 새로운 내성을 시도하여 상태를 끝낼 수 있습니다."
+          "description": "<p><strong>트리거</strong> 예술가가 15 피트 이내의 생물에게 근접 또는 원거리 공격을 받습니다. 공격자는 @Check[reflex|dc:18|options:inflicts:blinded] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명}가 됩니다. 이 효과는 공격자가 아티스트를 타깃으로 삼기 전에 발동합니다. 실명은 대상의 다음 턴이 끝날 때까지 지속되지만, 생물은 상호 작용을 통해 눈을 문지르며 새로운 내성을 시도하여 상태를 끝낼 수 있습니다."
         },
         "wbKoBbfaKQvWmYiS": {
           "name": "Cry of Ages",
@@ -5712,7 +5712,7 @@
         },
         "2EbagWaQehCMBKx5": {
           "name": "엿보지 마!",
-          "description": "<p>광대는 인접한 적의 얼굴에 분필이나 얼굴 가루를 불어넣습니다. 대상은 @Check[fortitude|dc:29] 내성 굴림을 해야 합니다.</p><hr /><p><strong>대성공</strong> 대상은 영향을 받지 않습니다.</p>\n<p><strong>실패</strong> 대상은 1 라운드 동안 눈부심과 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 됩니다.</p>\n<p><strong>대실패</strong> 대상은 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} 상태가 됩니다. </p>"
+          "description": "<p>광대는 인접한 적의 얼굴에 분필이나 얼굴 가루를 불어넣습니다. 대상은 @Check[fortitude|dc:29] 내성 굴림을 해야 합니다.</p><hr /><p><strong>대성공</strong> 대상은 영향을 받지 않습니다.</p>\n<p><strong>실패</strong> 대상은 1 라운드 동안 눈부심과 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 됩니다.</p>\n<p><strong>대실패</strong> 대상은 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명} 상태가 됩니다. </p>"
         },
         "rUD7kZKPtLrnivTt": {
           "name": "Poisoned Blade",
@@ -5861,7 +5861,7 @@
         },
         "6DCBFxqTA6NPJRzi": {
           "name": "저글링",
-          "description": "<p>저글러는 가벼운 또는 무시할 수 있는 부피의 아이템 최대 3개를 저글링을 시작합니다. 그들은 손에 든 아이템을 선택하거나 상호작용을 통해 몸에 있는 아이템을 뽑거나 근처에 있는 무인 아이템을 집을 수 있습니다. 저글링 중에는 상호작용을 통해 저글링에 최대 2개의 아이템을 추가할 수 있지만, 추가할 때마다 하나를 떨어뜨려야 합니다. 저글러는 저글링하는 모든 아이템을 휘두르고 있지만, 손이 필요한 행동은 반환 던지기, 저글링 바운스, 저글링한 무기를 사용한 공격, 상호 작용을 통해 저글링에 아이템을 추가하거나 저글링을 중단하는 것뿐입니다.</p>\n<p>줄다리기꾼이 줄다리기를 중단할 때, 각 줄다리기 아이템을 계속 휘두르거나 떨어뜨리거나 보관할 수 있지만, 손에 든 아이템 수보다 많은 아이템을 휘두를 수는 없습니다. 줄다리기 사용자가 어떤 시점에서든 아이템을 휘두르지 않거나 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} 또는 @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 상실} 상태가 되면 저글링이 종료되고 저글러는 모든 아이템을 떨어뜨립니다.</p>"
+          "description": "<p>저글러는 가벼운 또는 무시할 수 있는 부피의 아이템 최대 3개를 저글링을 시작합니다. 그들은 손에 든 아이템을 선택하거나 상호작용을 통해 몸에 있는 아이템을 뽑거나 근처에 있는 무인 아이템을 집을 수 있습니다. 저글링 중에는 상호작용을 통해 저글링에 최대 2개의 아이템을 추가할 수 있지만, 추가할 때마다 하나를 떨어뜨려야 합니다. 저글러는 저글링하는 모든 아이템을 휘두르고 있지만, 손이 필요한 행동은 반환 던지기, 저글링 바운스, 저글링한 무기를 사용한 공격, 상호 작용을 통해 저글링에 아이템을 추가하거나 저글링을 중단하는 것뿐입니다.</p>\n<p>줄다리기꾼이 줄다리기를 중단할 때, 각 줄다리기 아이템을 계속 휘두르거나 떨어뜨리거나 보관할 수 있지만, 손에 든 아이템 수보다 많은 아이템을 휘두를 수는 없습니다. 줄다리기 사용자가 어떤 시점에서든 아이템을 휘두르지 않거나 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속} 또는 @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 상실} 상태가 되면 저글링이 종료되고 저글러는 모든 아이템을 떨어뜨립니다.</p>"
         },
         "a6NYStpQRrBO2h1H": {
           "name": "저글링 바운스",

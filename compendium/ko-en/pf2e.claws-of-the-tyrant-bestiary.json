@@ -195,7 +195,7 @@
         },
         "lwzomHfOXbAWRLMB": {
           "name": "구울의 속삭임 (Ghoul Whispers)",
-          "description": "<p><strong>요구 조건</strong> @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비 상태}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속된}, 또는 @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 잃은} 생물이 구울의 도달 범위 내에 있습니다</p><hr /><p><strong>효과</strong> 구울은 생물의 귀에 어두운 생각과 사악한 욕망을 속삭입니다. 생물은 금지된 욕망의 저주에 대해 내성 굴림을 해야 합니다. </p>\n<p><strong>금지된 욕망</strong> (저주) 이 저주에 걸린 생물은 여전히 먹고 마실 수 있습니다. </p>\n<p><strong>내성 굴림</strong> @Check[will|dc:22|traits:curse], 구울의 레벨에 해당하는 높은 주문 DC를 사용합니다. </p>\n<p><strong>1단계</strong> 부작용이 없는 보균자 (1일)</p>\n<p><strong>2단계</strong> @Damage[2d6[void]] 피해, 대상은 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} 날고기를 먹기 전까지 (1일)</p>\n<p><strong>3단계</strong> 2단계와 동일</p>\n<p><strong>4단계</strong> 2단계와 동일, 단 대상이 지난 24시간 동안 날고기를 먹지 않은 경우 @Damage[4d6[void]] 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}가 될 때까지 날고기를 먹지 않습니다. </p>\n<p><strong>5단계</strong> 지난 24시간 동안 날고기를 먹은 경우, 이 생물은 죽고 구울로 부활합니다. 그렇지 않으면 4단계로 돌아갑니다."
+          "description": "<p><strong>요구 조건</strong> @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비 상태}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속}, 또는 @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 잃은} 생물이 구울의 도달 범위 내에 있습니다</p><hr /><p><strong>효과</strong> 구울은 생물의 귀에 어두운 생각과 사악한 욕망을 속삭입니다. 생물은 금지된 욕망의 저주에 대해 내성 굴림을 해야 합니다. </p>\n<p><strong>금지된 욕망</strong> (저주) 이 저주에 걸린 생물은 여전히 먹고 마실 수 있습니다. </p>\n<p><strong>내성 굴림</strong> @Check[will|dc:22|traits:curse], 구울의 레벨에 해당하는 높은 주문 DC를 사용합니다. </p>\n<p><strong>1단계</strong> 부작용이 없는 보균자 (1일)</p>\n<p><strong>2단계</strong> @Damage[2d6[void]] 피해, 대상은 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} 날고기를 먹기 전까지 (1일)</p>\n<p><strong>3단계</strong> 2단계와 동일</p>\n<p><strong>4단계</strong> 2단계와 동일, 단 대상이 지난 24시간 동안 날고기를 먹지 않은 경우 @Damage[4d6[void]] 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}가 될 때까지 날고기를 먹지 않습니다. </p>\n<p><strong>5단계</strong> 지난 24시간 동안 날고기를 먹은 경우, 이 생물은 죽고 구울로 부활합니다. 그렇지 않으면 4단계로 돌아갑니다."
         },
         "0JjWFbRTsJ5CAElC": {
           "name": "무덤의 지식 (Grave Knowledge)",
@@ -427,7 +427,7 @@
         },
         "pI55naBBuMx5x0AA": {
           "name": "피를 마시기 (Drink Blood)",
-          "description": "<p><strong>요구 조건</strong> @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비된}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious], 또는 기꺼이 피를 마실 생물이 뱀파이어의 손이 닿는 거리에 있습니다.</p><hr /><p><strong>효과</strong> 뱀파이어는 그 생물에게 송곳니를 박아 피를 마십니다. 이 효과는 피해자가 잡힌 경우 피해자의 체력 DC에 대해 @Check[athletics|defense:fortitude] 체크를 해야 하며, 그 외의 조건에서는 자동으로 적용됩니다.</p>\n<p>피해자는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 2} 상태가 되고, 뱀파이어는 @Damage[36[치유]] HP를 회복하고, 초과 HP는 임시 체력으로 얻습니다. 이미 흡수된 생물체의 피를 마셔도 뱀파이어의 HP는 회복되지 않지만, 피해자의 흡수 값이 1 증가하며, 흡수 값이 5에 도달하면 피해자는 사망합니다. 뱀파이어는 생명을 유지하기 위해 용기에 담겨진 피를 마실 수도 있지만, 그렇게 해도 HP는 회복되지 않습니다. 피해자의 흡수 상태는 매주 1씩 감소합니다. @Check[medicine|dc:20|name:Blood Transfusion] 체크와 충분한 혈액 또는 헌혈자가 필요한 수혈을 받으면 10분 후에 흡수량이 1 감소합니다."
+          "description": "<p><strong>요구 조건</strong> @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비된}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious], 또는 기꺼이 피를 마실 생물이 뱀파이어의 손이 닿는 거리에 있습니다.</p><hr /><p><strong>효과</strong> 뱀파이어는 그 생물에게 송곳니를 박아 피를 마십니다. 이 효과는 피해자가 잡힌 경우 피해자의 체력 DC에 대해 @Check[athletics|defense:fortitude] 체크를 해야 하며, 그 외의 조건에서는 자동으로 적용됩니다.</p>\n<p>피해자는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 2} 상태가 되고, 뱀파이어는 @Damage[36[치유]] HP를 회복하고, 초과 HP는 임시 체력으로 얻습니다. 이미 흡수된 생물체의 피를 마셔도 뱀파이어의 HP는 회복되지 않지만, 피해자의 흡수 값이 1 증가하며, 흡수 값이 5에 도달하면 피해자는 사망합니다. 뱀파이어는 생명을 유지하기 위해 용기에 담겨진 피를 마실 수도 있지만, 그렇게 해도 HP는 회복되지 않습니다. 피해자의 흡수 상태는 매주 1씩 감소합니다. @Check[medicine|dc:20|name:Blood Transfusion] 체크와 충분한 혈액 또는 헌혈자가 필요한 수혈을 받으면 10분 후에 흡수량이 1 감소합니다."
         },
         "RoBkljZDGJ3My0Z5": {
           "name": "독 무기 (Poison Weapon)",
@@ -713,7 +713,7 @@
         },
         "FnPDbwY2HGaFwTxK": {
           "name": "무리 굶주림 (Swarming Hunger)",
-          "description": "<p>살인자의 부리와 발톱은 무리의 공간에 있는 각 적에게 @Damage[2d6[piercing]]의 피해를 입힙니다 (@Check[reflex|dc:20|basic] 내성). 내성에 대실패한 생물은 살인자가 그 생물의 눈을 쪼아내는 데 공격을 집중하는 동안 [[/gmr 1d4 #rounds]]{1d4 라운드} 동안 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} 상태가 됩니다.</p>"
+          "description": "<p>살인자의 부리와 발톱은 무리의 공간에 있는 각 적에게 @Damage[2d6[piercing]]의 피해를 입힙니다 (@Check[reflex|dc:20|basic] 내성). 내성에 대실패한 생물은 살인자가 그 생물의 눈을 쪼아내는 데 공격을 집중하는 동안 [[/gmr 1d4 #rounds]]{1d4 라운드} 동안 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명} 상태가 됩니다.</p>"
         }
       }
     }

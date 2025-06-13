@@ -125,7 +125,7 @@
         },
         "0eyOInV05vjoOU3X": {
           "name": "눈을 멀게 하는 유황",
-          "description": "<p>가연성 좀비는 썩은 불로 타오릅니다. 가연성 좀비의 주먹 공격에 맞은 생물은 @Check[fortitude|dc:27] 내성 체크를 시도해야 합니다. 실패하면, 그 생물은 1 라운드 동안, 또는 대실패의 경우 1분 동안 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} 상태가 됩니다."
+          "description": "<p>가연성 좀비는 썩은 불로 타오릅니다. 가연성 좀비의 주먹 공격에 맞은 생물은 @Check[fortitude|dc:27] 내성 체크를 시도해야 합니다. 실패하면, 그 생물은 1 라운드 동안, 또는 대실패의 경우 1분 동안 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명} 상태가 됩니다."
         }
       }
     },
@@ -776,7 +776,7 @@
         },
         "KESgZ7EFPclSlLY8": {
           "name": "피를 마시기",
-          "description": "<p><strong>요구 사항</strong> @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비된}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{제압된}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식이 없는}, 또는 의지가 있는 생물이 뱀파이어의 손이 닿는 거리에 있습니다.</p>\n<hr />\n<p><strong>효과</strong> 뱀파이어는 그 생물에게 송곳니를 박아 피를 마십니다. 이 효과는 피해자가 잡힌 경우 피해자의 체력 DC에 대해 @Check[athletics|defense:fortitude] 체크를 해야 하며, 그 외의 조건에서는 자동으로 적용됩니다.</p>\n<p>피해자는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 2} 상태가 되고, 뱀파이어는 @Damage[10[치유]] 체력을 회복하고, 초과 HP는 임시 체력으로 얻습니다. 이미 흡수된 생물에게서 피를 마셔도 뱀파이어의 HP는 회복되지 않지만, 피해자의 흡수 값이 1 증가합니다. 뱀파이어는 영양을 공급하기 위해 용기에 담겨진 피도 마실 수 있지만, 그렇게 해도 HP는 회복되지 않습니다. 피해자의 흡수 상태는 매주 1씩 감소합니다. @Check[medicine|dc:20|name:Blood Transfusion] 체크와 충분한 혈액 또는 헌혈자가 필요한 수혈을 받으면 10분 후에 흡수량이 1 감소합니다."
+          "description": "<p><strong>요구 사항</strong> @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비된}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식이 없는}, 또는 의지가 있는 생물이 뱀파이어의 손이 닿는 거리에 있습니다.</p>\n<hr />\n<p><strong>효과</strong> 뱀파이어는 그 생물에게 송곳니를 박아 피를 마십니다. 이 효과는 피해자가 잡힌 경우 피해자의 체력 DC에 대해 @Check[athletics|defense:fortitude] 체크를 해야 하며, 그 외의 조건에서는 자동으로 적용됩니다.</p>\n<p>피해자는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 2} 상태가 되고, 뱀파이어는 @Damage[10[치유]] 체력을 회복하고, 초과 HP는 임시 체력으로 얻습니다. 이미 흡수된 생물에게서 피를 마셔도 뱀파이어의 HP는 회복되지 않지만, 피해자의 흡수 값이 1 증가합니다. 뱀파이어는 영양을 공급하기 위해 용기에 담겨진 피도 마실 수 있지만, 그렇게 해도 HP는 회복되지 않습니다. 피해자의 흡수 상태는 매주 1씩 감소합니다. @Check[medicine|dc:20|name:Blood Transfusion] 체크와 충분한 혈액 또는 헌혈자가 필요한 수혈을 받으면 10분 후에 흡수량이 1 감소합니다."
         },
         "JUgPxjF2b7DYZwEu": {
           "name": "붙잡기",
@@ -1040,7 +1040,7 @@
         },
         "0eyOInV05vjoOU3X": {
           "name": "눈을 멀게 하는 유황",
-          "description": "<p>유황 좀비는 썩은 불로 타오릅니다. 유황 좀비의 주먹 공격에 맞은 생물은 @Check[fortitude|dc:24] 내성을 시도해야 합니다. 실패하면, 그 생물은 1 라운드 동안, 또는 대실패의 경우 1분 동안 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} 상태가 됩니다."
+          "description": "<p>유황 좀비는 썩은 불로 타오릅니다. 유황 좀비의 주먹 공격에 맞은 생물은 @Check[fortitude|dc:24] 내성을 시도해야 합니다. 실패하면, 그 생물은 1 라운드 동안, 또는 대실패의 경우 1분 동안 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명} 상태가 됩니다."
         }
       }
     },
@@ -1482,7 +1482,7 @@
         },
         "KESgZ7EFPclSlLY8": {
           "name": "피를 마시기",
-          "description": "<p><strong>요구 사항</strong> @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비된}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{제압된}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 잃은}, 또는 기꺼이 피를 마실 생물이 뱀파이어의 손이 닿는 거리에 있습니다.</p>\n<hr />\n<p><strong>효과</strong> 뱀파이어는 그 생물에게 송곳니를 박아 피를 마십니다. 이 효과는 피해자가 잡힌 경우 피해자의 체력 DC에 대해 @Check[athletics|defense:fortitude] 체크를 해야 하며, 그 외의 조건에서는 자동으로 적용됩니다.</p>\n<p>피해자는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 2} 상태가 되고, 뱀파이어는 @Damage[10[healing]] 체력을 회복하며, 초과 HP는 임시 체력으로 얻습니다. 이미 피가 흡수된 생물체에서 피를 마셔도 뱀파이어의 HP는 회복되지 않지만, 피해자의 흡수 값이 1 증가합니다. 뱀파이어는 생명을 유지하기 위해 용기에 담겨진 피도 마실 수 있지만, 그렇게 해도 HP는 회복되지 않습니다. 피해자의 흡수 상태는 매주 1씩 감소합니다. @Check[medicine|dc:20|name:Blood Transfusion] 체크와 충분한 혈액 또는 헌혈자가 필요한 수혈은 10분 후에 흡수량을 1 감소시킵니다."
+          "description": "<p><strong>요구 사항</strong> @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비된}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 잃은}, 또는 기꺼이 피를 마실 생물이 뱀파이어의 손이 닿는 거리에 있습니다.</p>\n<hr />\n<p><strong>효과</strong> 뱀파이어는 그 생물에게 송곳니를 박아 피를 마십니다. 이 효과는 피해자가 잡힌 경우 피해자의 체력 DC에 대해 @Check[athletics|defense:fortitude] 체크를 해야 하며, 그 외의 조건에서는 자동으로 적용됩니다.</p>\n<p>피해자는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 2} 상태가 되고, 뱀파이어는 @Damage[10[healing]] 체력을 회복하며, 초과 HP는 임시 체력으로 얻습니다. 이미 피가 흡수된 생물체에서 피를 마셔도 뱀파이어의 HP는 회복되지 않지만, 피해자의 흡수 값이 1 증가합니다. 뱀파이어는 생명을 유지하기 위해 용기에 담겨진 피도 마실 수 있지만, 그렇게 해도 HP는 회복되지 않습니다. 피해자의 흡수 상태는 매주 1씩 감소합니다. @Check[medicine|dc:20|name:Blood Transfusion] 체크와 충분한 혈액 또는 헌혈자가 필요한 수혈은 10분 후에 흡수량을 1 감소시킵니다."
         },
         "JUgPxjF2b7DYZwEu": {
           "name": "붙잡기",
@@ -1832,7 +1832,7 @@
         },
         "KESgZ7EFPclSlLY8": {
           "name": "피를 마시기",
-          "description": "<p><strong>요구 사항</strong> @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비된}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{제압된}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 잃은}, 또는 기꺼이 피를 마실 생물이 뱀파이어의 손이 닿는 거리에 있습니다.</p>\n<hr />\n<p><strong>효과</strong> 뱀파이어는 그 생물에게 송곳니를 박아 피를 마십니다. 이 경우, 피해자가 잡혀 있는 경우 피해자의 체력 DC에 대해 @Check[athletics|defense:fortitude] 체크가 필요하며, 그 외의 조건에서는 자동으로 성공합니다.</p>\n<p>피해자는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 2} 상태가 되고, 뱀파이어는 @Damage[10[healing]] 체력을 회복하며, 초과 HP는 임시 체력으로 얻습니다. 이미 피가 흡수된 생물체에서 피를 마셔도 뱀파이어의 HP는 회복되지 않지만, 피해자의 흡수 값이 1 증가합니다. 뱀파이어는 영양을 공급하기 위해 용기에 담겨진 피도 마실 수 있지만, 그렇게 해도 HP는 회복되지 않습니다. 피해자의 흡수 상태는 매주 1씩 감소합니다. @Check[medicine|dc:20|name:Blood Transfusion] 체크와 충분한 혈액 또는 헌혈자가 필요한 수혈을 받으면 10분 후에 흡수량이 1 감소합니다."
+          "description": "<p><strong>요구 사항</strong> @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비된}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 잃은}, 또는 기꺼이 피를 마실 생물이 뱀파이어의 손이 닿는 거리에 있습니다.</p>\n<hr />\n<p><strong>효과</strong> 뱀파이어는 그 생물에게 송곳니를 박아 피를 마십니다. 이 경우, 피해자가 잡혀 있는 경우 피해자의 체력 DC에 대해 @Check[athletics|defense:fortitude] 체크가 필요하며, 그 외의 조건에서는 자동으로 성공합니다.</p>\n<p>피해자는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 2} 상태가 되고, 뱀파이어는 @Damage[10[healing]] 체력을 회복하며, 초과 HP는 임시 체력으로 얻습니다. 이미 피가 흡수된 생물체에서 피를 마셔도 뱀파이어의 HP는 회복되지 않지만, 피해자의 흡수 값이 1 증가합니다. 뱀파이어는 영양을 공급하기 위해 용기에 담겨진 피도 마실 수 있지만, 그렇게 해도 HP는 회복되지 않습니다. 피해자의 흡수 상태는 매주 1씩 감소합니다. @Check[medicine|dc:20|name:Blood Transfusion] 체크와 충분한 혈액 또는 헌혈자가 필요한 수혈을 받으면 10분 후에 흡수량이 1 감소합니다."
         },
         "JUgPxjF2b7DYZwEu": {
           "name": "붙잡기",
@@ -2253,7 +2253,7 @@
         },
         "hn5GBufYeA5C1oOg": {
           "name": "피 마시기",
-          "description": "<p><strong>요구 조건</strong> @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비된}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{제압된}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 잃은}, 또는 의지대로 행동할 수 없는 생물이 뱀파이어의 손이 닿는 거리에 있습니다.</p>\n<hr />\n<p><strong>효과</strong> 뱀파이어는 그 생물에게 송곳니를 박아 피를 마십니다. 이 효과는 피해자가 잡힌 경우 피해자의 체력 DC에 대해 @Check[athletics|defense:fortitude] 체크를 해야 하며, 그 외의 조건에서는 자동으로 적용됩니다.</p>\n<p>피해자는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1} 상태가 되고, 뱀파이어는 @Damage[5[healing]] 체력을 회복하며, 초과 HP는 임시 체력으로 얻습니다. 이미 피가 흡수된 생물에게서 피를 마셔도 뱀파이어의 HP는 회복되지 않지만, 피해자의 흡수 값이 1 증가합니다. 뱀파이어는 영양을 공급하기 위해 용기에 담겨진 피도 마실 수 있지만, 그렇게 해도 HP는 회복되지 않습니다. 피해자의 흡수 상태는 매주 1씩 감소합니다. @Check[medicine|dc:20|name:Blood Transfusion] 체크와 충분한 혈액 또는 헌혈자가 필요한 수혈을 받으면 10분 후에 흡수량이 1 감소합니다."
+          "description": "<p><strong>요구 조건</strong> @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비된}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 잃은}, 또는 의지대로 행동할 수 없는 생물이 뱀파이어의 손이 닿는 거리에 있습니다.</p>\n<hr />\n<p><strong>효과</strong> 뱀파이어는 그 생물에게 송곳니를 박아 피를 마십니다. 이 효과는 피해자가 잡힌 경우 피해자의 체력 DC에 대해 @Check[athletics|defense:fortitude] 체크를 해야 하며, 그 외의 조건에서는 자동으로 적용됩니다.</p>\n<p>피해자는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1} 상태가 되고, 뱀파이어는 @Damage[5[healing]] 체력을 회복하며, 초과 HP는 임시 체력으로 얻습니다. 이미 피가 흡수된 생물에게서 피를 마셔도 뱀파이어의 HP는 회복되지 않지만, 피해자의 흡수 값이 1 증가합니다. 뱀파이어는 영양을 공급하기 위해 용기에 담겨진 피도 마실 수 있지만, 그렇게 해도 HP는 회복되지 않습니다. 피해자의 흡수 상태는 매주 1씩 감소합니다. @Check[medicine|dc:20|name:Blood Transfusion] 체크와 충분한 혈액 또는 헌혈자가 필요한 수혈을 받으면 10분 후에 흡수량이 1 감소합니다."
         },
         "T0aFMtDJ5aZm7aQG": {
           "name": "암습",
@@ -2756,7 +2756,7 @@
         },
         "HhkalK1aMfqDSiWQ": {
           "name": "피를 마신다",
-          "description": "<p><strong>요구 사항</strong> @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비된}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious}, 또는 의지가 있는 생물이 뱀파이어의 손이 닿는 거리에 있습니다.</p>\n<hr />\n<p><strong>효과</strong> 뱀파이어는 그 생물에게 송곳니를 박아 피를 마십니다. 이 효과는 피해자가 잡힌 경우 피해자의 체력 DC에 대해 @Check[athletics|defense:fortitude] 체크를 해야 하며, 그 외의 조건에서는 자동으로 적용됩니다.</p>\n<p>피해자는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 2} 상태가 되고, 뱀파이어는 @Damage[10[healing]] 체력을 회복하며, 초과 HP는 임시 체력으로 얻습니다. 이미 피가 흡수된 생물체에서 피를 마셔도 뱀파이어의 HP는 회복되지 않지만, 피해자의 흡수 값이 1 증가합니다. 뱀파이어는 생명을 유지하기 위해 용기에 담겨진 피도 마실 수 있지만, 그렇게 해도 HP는 회복되지 않습니다. 피해자의 흡수 상태는 매주 1씩 감소합니다. @Check[medicine|dc:20|name:Blood Transfusion] 체크와 충분한 혈액 또는 헌혈자가 필요한 수혈은 10분 후에 흡수량을 1 감소시킵니다."
+          "description": "<p><strong>요구 사항</strong> @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비된}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious}, 또는 의지가 있는 생물이 뱀파이어의 손이 닿는 거리에 있습니다.</p>\n<hr />\n<p><strong>효과</strong> 뱀파이어는 그 생물에게 송곳니를 박아 피를 마십니다. 이 효과는 피해자가 잡힌 경우 피해자의 체력 DC에 대해 @Check[athletics|defense:fortitude] 체크를 해야 하며, 그 외의 조건에서는 자동으로 적용됩니다.</p>\n<p>피해자는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 2} 상태가 되고, 뱀파이어는 @Damage[10[healing]] 체력을 회복하며, 초과 HP는 임시 체력으로 얻습니다. 이미 피가 흡수된 생물체에서 피를 마셔도 뱀파이어의 HP는 회복되지 않지만, 피해자의 흡수 값이 1 증가합니다. 뱀파이어는 생명을 유지하기 위해 용기에 담겨진 피도 마실 수 있지만, 그렇게 해도 HP는 회복되지 않습니다. 피해자의 흡수 상태는 매주 1씩 감소합니다. @Check[medicine|dc:20|name:Blood Transfusion] 체크와 충분한 혈액 또는 헌혈자가 필요한 수혈은 10분 후에 흡수량을 1 감소시킵니다."
         },
         "DD9mP7VmHRk4Lm97": {
           "name": "꾸준한 주문 시전",
@@ -3276,7 +3276,7 @@
         },
         "7t0hoAr4rbWswzMK": {
           "name": "가시 달린 깃털",
-          "description": "<p><strong>빈도</strong> 하루에 한 번</p>\n<p><strong>트리거</strong> Liaskra가 무기 없는 공격이나 도달 거리가 없는 근접 무기로 공격을 받으면</p>\n<hr />\n<p><strong>효과</strong> Liaskra는 공격자의 살에 가시를 꽂습니다. 그녀는 @Damage[2d8[piercing]]의 피해를 트리거한 생물에게 입힙니다 (@Check[반사|dc:21|기본]). 대실패 시, 가시가 살에 박혀 생물은 @Damage[(1d4+1)[bleed]]의 추가 피해를 입습니다."
+          "description": "<p><strong>빈도</strong> 하루에 한 번</p>\n<p><strong>트리거</strong> Liaskra가 무기 없는 공격이나 도달 거리가 없는 근접 무기로 공격을 받으면</p>\n<hr />\n<p><strong>효과</strong> Liaskra는 공격자의 살에 가시를 꽂습니다. 그녀는 @Damage[2d8[piercing]]의 피해를 트리거한 생물에게 입힙니다 (@Check[반사|dc:21|basic]). 대실패 시, 가시가 살에 박혀 생물은 @Damage[(1d4+1)[bleed]]의 추가 피해를 입습니다."
         },
         "LHV1Y69RCdChvRwx": {
           "name": "속임수 공격",
@@ -3437,7 +3437,7 @@
         },
         "hn5GBufYeA5C1oOg": {
           "name": "피 마시기",
-          "description": "<p><strong>요구 조건</strong> @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비된}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{제압된}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 잃은}, 또는 의지 있는 생물이 뱀파이어의 손이 닿는 거리에 있습니다.</p>\n<hr />\n<p><strong>효과</strong> 뱀파이어는 그 생물에게 송곳니를 박아 피를 마십니다. 이 효과는 피해자가 잡힌 경우 피해자의 체력 DC에 대해 @Check[athletics|defense:fortitude] 체크를 해야 하며, 그 외의 조건에서는 자동으로 적용됩니다.</p>\n<p>피해자는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1} 상태가 되고, 뱀파이어는 @Damage[5[healing]] 체력을 회복하며, 초과 HP는 임시 체력으로 얻습니다. 이미 피가 흡수된 생물에게서 피를 마셔도 뱀파이어의 HP는 회복되지 않지만, 피해자의 흡수 값이 1 증가합니다. 뱀파이어는 영양을 공급하기 위해 용기에 담겨진 피도 마실 수 있지만, 그렇게 해도 HP는 회복되지 않습니다. 피해자의 흡수 상태는 매주 1씩 감소합니다. @Check[medicine|dc:20|name:Blood Transfusion] 체크와 충분한 혈액 또는 헌혈자가 필요한 수혈을 받으면 10분 후에 흡수량이 1 감소합니다."
+          "description": "<p><strong>요구 조건</strong> @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비된}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 잃은}, 또는 의지 있는 생물이 뱀파이어의 손이 닿는 거리에 있습니다.</p>\n<hr />\n<p><strong>효과</strong> 뱀파이어는 그 생물에게 송곳니를 박아 피를 마십니다. 이 효과는 피해자가 잡힌 경우 피해자의 체력 DC에 대해 @Check[athletics|defense:fortitude] 체크를 해야 하며, 그 외의 조건에서는 자동으로 적용됩니다.</p>\n<p>피해자는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1} 상태가 되고, 뱀파이어는 @Damage[5[healing]] 체력을 회복하며, 초과 HP는 임시 체력으로 얻습니다. 이미 피가 흡수된 생물에게서 피를 마셔도 뱀파이어의 HP는 회복되지 않지만, 피해자의 흡수 값이 1 증가합니다. 뱀파이어는 영양을 공급하기 위해 용기에 담겨진 피도 마실 수 있지만, 그렇게 해도 HP는 회복되지 않습니다. 피해자의 흡수 상태는 매주 1씩 감소합니다. @Check[medicine|dc:20|name:Blood Transfusion] 체크와 충분한 혈액 또는 헌혈자가 필요한 수혈을 받으면 10분 후에 흡수량이 1 감소합니다."
         },
         "T0aFMtDJ5aZm7aQG": {
           "name": "암습",
@@ -3564,7 +3564,7 @@
         },
         "0eyOInV05vjoOU3X": {
           "name": "눈을 멀게 하는 유황",
-          "description": "<p>가연성 좀비는 부패한 내부의 불로 타오릅니다. 가연성 좀비의 주먹 공격에 맞은 생물은 @Check[fortitude|dc:25] 내성을 시도해야 합니다. 실패하면, 그 생물은 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} 상태가 되며, 대실패의 경우 1분 동안 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2] 상태가 됩니다."
+          "description": "<p>가연성 좀비는 부패한 내부의 불로 타오릅니다. 가연성 좀비의 주먹 공격에 맞은 생물은 @Check[fortitude|dc:25] 내성을 시도해야 합니다. 실패하면, 그 생물은 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명} 상태가 되며, 대실패의 경우 1분 동안 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2] 상태가 됩니다."
         }
       }
     },
@@ -3675,7 +3675,7 @@
         },
         "PVgQC5UPhLXPKnjX": {
           "name": "무덤의 손아귀",
-          "description": "<p>생물 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{제압된} 무덤 마녀에 의해 무덤 마녀의 주문과 능력에 대한 내성 굴림에 -1의 상황 페널티를 받습니다."
+          "description": "<p>생물 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속} 무덤 마녀에 의해 무덤 마녀의 주문과 능력에 대한 내성 굴림에 -1의 상황 페널티를 받습니다."
         },
         "BtiBFcTdtiRdw0mg": {
           "name": "언데드 미엔",
@@ -3709,7 +3709,7 @@
       "items": {
         "JSGbWepzGabICqtd": {
           "name": "사악한 눈부신 사향",
-          "description": "<p>거대한 악취를 풍기는 Familiar는 @Template[cone|distance:15] 범위 내에 강력한 매운 사향을 분사합니다. 이 선에 있는 모든 생물은 @Check[fortitude|dc:16] 내성 체크를 시도해야 합니다.</p>\n<hr />\n<p><strong>대성공</strong> 대상은 영향을 받지 않습니다.</p>\n<p><strong>실패</strong> 대상은 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 3} 상태가 됩니다.</p>\n<p><strong>대실패 대상은 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded}로 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 3}가 됩니다. @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 1} 상태가 되고, 사향 제거 또는 중화될 때까지 10분 동안 비누로 철저히 문질러 씻어야 합니다."
+          "description": "<p>거대한 악취를 풍기는 Familiar는 @Template[cone|distance:15] 범위 내에 강력한 매운 사향을 분사합니다. 이 선에 있는 모든 생물은 @Check[fortitude|dc:16] 내성 체크를 시도해야 합니다.</p>\n<hr />\n<p><strong>대성공</strong> 대상은 영향을 받지 않습니다.</p>\n<p><strong>실패</strong> 대상은 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 3} 상태가 됩니다.</p>\n<p><strong>대실패 대상은 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명}로 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 3}가 됩니다. @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 1} 상태가 되고, 사향 제거 또는 중화될 때까지 10분 동안 비누로 철저히 문질러 씻어야 합니다."
         }
       }
     },

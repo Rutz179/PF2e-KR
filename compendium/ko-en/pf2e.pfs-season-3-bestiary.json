@@ -942,7 +942,7 @@
         },
         "YNpN5FwvZ27Zfviz": {
           "name": "샬블링 돌격 (Shambling Onslaught)",
-          "description": "<p><span class=\"action-glyph\">1</span> ~ <span class=\"action-glyph\">2</span></p>\n<p><strong>빈도</strong> 라운드당 1회</p>\n<hr />\n<p><strong>효과</strong> 샴블러는 자신의 칸에 있거나 5피트 이내의 모든 적을 공격합니다 (@Check[reflex|dc:21|기본] 내성). 피해는 행동 횟수에 따라 달라집니다. </p>\n<p><span class=\"action-glyph\">1</span> @Damage[(2d6+8)[bludgeoning]] 피해</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d6+13)[bludgeoning]] 피해</p>"
+          "description": "<p><span class=\"action-glyph\">1</span> ~ <span class=\"action-glyph\">2</span></p>\n<p><strong>빈도</strong> 라운드당 1회</p>\n<hr />\n<p><strong>효과</strong> 샴블러는 자신의 칸에 있거나 5피트 이내의 모든 적을 공격합니다 (@Check[reflex|dc:21|basic] 내성). 피해는 행동 횟수에 따라 달라집니다. </p>\n<p><span class=\"action-glyph\">1</span> @Damage[(2d6+8)[bludgeoning]] 피해</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d6+13)[bludgeoning]] 피해</p>"
         },
         "ck37LN0pcQmPLf0a": {
           "name": "부대 이동 (Troop Movement)",
@@ -1042,7 +1042,7 @@
       "items": {
         "JhtGLa6CH0z7UTJ4": {
           "name": "폭발성 하네스 (Explosive Harness)",
-          "description": "<p>쥐는 불길한 1분짜리 회중시계가 달린 폭발성 하네스에 연결되어 있습니다. 하네스는 1분(10라운드)이 지나도 해제되지 않으면 폭발하고, 쥐가 화염 피해를 받으면 즉시 폭발합니다. 이 폭발은 쥐와 @Template[burst|distance:5]{5-foot burst} (@Check[reflex|dc:15|basic] 내성) 범위 내의 모든 생물에게 @Damage[2d6[fire]]의 피해를 주고, 그 주변에 있는 인화성 물체를 불태웁니다.</p>\n<p>쥐가 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}, 또는 @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 잃은] 상태인 경우, 인접한 생물은 @Check[nature|dc:17] 또는 @Check[thievery|dc:17] 체크에 성공하거나 @Check[tanning-lore|dc:15] 체크에 성공하면 안전하게 하네스를 제거하고 무력화할 수 있습니다. 하네스를 무력화하려는 시도는 두 개의 행동을 소모합니다.</p>"
+          "description": "<p>쥐는 불길한 1분짜리 회중시계가 달린 폭발성 하네스에 연결되어 있습니다. 하네스는 1분(10라운드)이 지나도 해제되지 않으면 폭발하고, 쥐가 화염 피해를 받으면 즉시 폭발합니다. 이 폭발은 쥐와 @Template[burst|distance:5]{5-foot burst} (@Check[reflex|dc:15|basic] 내성) 범위 내의 모든 생물에게 @Damage[2d6[fire]]의 피해를 주고, 그 주변에 있는 인화성 물체를 불태웁니다.</p>\n<p>쥐가 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속}, 또는 @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 잃은] 상태인 경우, 인접한 생물은 @Check[nature|dc:17] 또는 @Check[thievery|dc:17] 체크에 성공하거나 @Check[tanning-lore|dc:15] 체크에 성공하면 안전하게 하네스를 제거하고 무력화할 수 있습니다. 하네스를 무력화하려는 시도는 두 개의 행동을 소모합니다.</p>"
         }
       }
     },
@@ -2470,7 +2470,7 @@
         },
         "z8Vh23jCIh7iroYs": {
           "name": "스웜 스팅 (Swarming Stings)",
-          "description": "<p>무리의 공간에 있는 각 적들은 @Damage[2d8[piercing]]의 피해를 받고 (@Check[반사|dc:21|기본] 내성) 말벌의 맹독에 노출됩니다. 내성 체크에 성공하면 독에 노출되지 않습니다."
+          "description": "<p>무리의 공간에 있는 각 적들은 @Damage[2d8[piercing]]의 피해를 받고 (@Check[반사|dc:21|basic] 내성) 말벌의 맹독에 노출됩니다. 내성 체크에 성공하면 독에 노출되지 않습니다."
         },
         "OwDiH7gzfhf1i4hu": {
           "name": "말벌의 맹독 (Wasp Venom)",
@@ -3514,7 +3514,7 @@
         },
         "BwcbTdrmpudvgEvg": {
           "name": "Protean Anatomy",
-          "description": "<p>Protean의 중요한 장기는 끊임없이 모양과 위치를 변화시킵니다. Protean이 산, 전기 또는 음파 피해를 받은 직후, 그 피해 유형에 대해 나열된 저항력을 얻습니다. 이 효과는 1시간 동안 지속되거나, 프로테안이 다른 유형의 피해를 입을 때까지 지속됩니다(이 경우 저항력이 해당 유형에 맞게 변경됩니다). 프로테안은 자발적인 대상이 아닌 한, 다형 효과에 면역입니다. @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} 또는 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened} 상태일 경우, 프로테안은 다음 턴 종료 시 손상된 감각 기관을 대체하는 새로운 감각 기관이 성장하여 자동으로 회복됩니다.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.c6SiBB3mzV8lZUQr]{효과: Protean Anatomy}</p>"
+          "description": "<p>Protean의 중요한 장기는 끊임없이 모양과 위치를 변화시킵니다. Protean이 산, 전기 또는 음파 피해를 받은 직후, 그 피해 유형에 대해 나열된 저항력을 얻습니다. 이 효과는 1시간 동안 지속되거나, 프로테안이 다른 유형의 피해를 입을 때까지 지속됩니다(이 경우 저항력이 해당 유형에 맞게 변경됩니다). 프로테안은 자발적인 대상이 아닌 한, 다형 효과에 면역입니다. @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명} 또는 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened} 상태일 경우, 프로테안은 다음 턴 종료 시 손상된 감각 기관을 대체하는 새로운 감각 기관이 성장하여 자동으로 회복됩니다.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.c6SiBB3mzV8lZUQr]{효과: Protean Anatomy}</p>"
         },
         "mPFdR2sjyu6j0vdi": {
           "name": "Constrict",
@@ -3645,7 +3645,7 @@
         },
         "BwcbTdrmpudvgEvg": {
           "name": "Protean Anatomy",
-          "description": "<p>Protean의 중요한 장기는 끊임없이 모양과 위치를 변화합니다. Protean이 산, 전기, 또는 음파 피해를 받은 직후, 그 피해 유형에 대해 나열된 양의 저항력을 얻습니다. 이 효과는 1시간 동안 지속되거나, 프로테안이 다른 유형의 피해를 입을 때까지 지속됩니다(이 경우 저항력이 해당 유형에 맞게 변경됩니다). 프로테안은 자발적인 대상이 아닌 한, 다형 효과에 면역입니다. @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} 또는 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened} 상태일 경우, 프로테안은 다음 턴 종료 시 손상된 감각 기관을 대체하는 새로운 감각 기관이 성장하여 자동으로 회복됩니다.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.c6SiBB3mzV8lZUQr]{효과: Protean Anatomy}</p>"
+          "description": "<p>Protean의 중요한 장기는 끊임없이 모양과 위치를 변화합니다. Protean이 산, 전기, 또는 음파 피해를 받은 직후, 그 피해 유형에 대해 나열된 양의 저항력을 얻습니다. 이 효과는 1시간 동안 지속되거나, 프로테안이 다른 유형의 피해를 입을 때까지 지속됩니다(이 경우 저항력이 해당 유형에 맞게 변경됩니다). 프로테안은 자발적인 대상이 아닌 한, 다형 효과에 면역입니다. @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명} 또는 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened} 상태일 경우, 프로테안은 다음 턴 종료 시 손상된 감각 기관을 대체하는 새로운 감각 기관이 성장하여 자동으로 회복됩니다.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.c6SiBB3mzV8lZUQr]{효과: Protean Anatomy}</p>"
         },
         "mPFdR2sjyu6j0vdi": {
           "name": "Constrict",

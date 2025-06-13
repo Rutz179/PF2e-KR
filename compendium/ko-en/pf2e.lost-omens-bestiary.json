@@ -281,7 +281,7 @@
         },
         "jMHfYrZHVo7uvNdf": {
           "name": "아홉 턱의 광란 (Nine-Jawed Frenzy)",
-          "description": "<p><strong>요구 조건</strong> 대홍수의 해당 라운드 두 번째 턴입니다(협동 행동 참조)</p>\n<hr />\n<p><strong>효과</strong> 대홍수는 걸어다니거나 수영을 두 번 수행하며, 작은 생물의 공간을 자유롭게 통과합니다. 대홍수가 지나가거나 인접한 모든 생물은 @Damage[(4d8+20)[piercing]]의 피해를 받습니다 (@Check[반사|dc:42|기본] 내성). 내성에 실패한 생물은 홍수 숨결에 노출됩니다."
+          "description": "<p><strong>요구 조건</strong> 대홍수의 해당 라운드 두 번째 턴입니다(협동 행동 참조)</p>\n<hr />\n<p><strong>효과</strong> 대홍수는 걸어다니거나 수영을 두 번 수행하며, 작은 생물의 공간을 자유롭게 통과합니다. 대홍수가 지나가거나 인접한 모든 생물은 @Damage[(4d8+20)[piercing]]의 피해를 받습니다 (@Check[반사|dc:42|basic] 내성). 내성에 실패한 생물은 홍수 숨결에 노출됩니다."
         }
       }
     },
@@ -765,7 +765,7 @@
         },
         "LGocfA4bhbnXFwea": {
           "name": "피를 마시기 (Drink Blood)",
-          "description": "<p><strong>요구 조건</strong> @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비된}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속됨}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 상실}, 또는 의지가 있는 생물이 아산보삼의 이빨에 닿을 수 있는 거리에 있습니다. </p>\n<hr />\n<p><strong>효과</strong> 아산보삼은 생물의 피를 마시기 위해 이빨을 박습니다. 피해자가 잡혀 있는 경우, 이 효과는 자동으로 발동됩니다. 그렇지 않은 경우, 아산보삼은 피해자의 체력 DC에 대한 @Check[athletics|defense:fortitude] 체크에 성공해야 합니다. 피해자는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{드레인 1}이 되고, 아산보삼은 @Damage[10[healing]] HP를 회복하며, 최대 체력을 초과하는 체력은 임시 체력으로 얻습니다. 이 임시 체력은 1분 동안 유지됩니다. 이미 흡수된 생물의 피를 마시면 피해자의 흡수 값이 1 증가하여 최대 흡수 3까지 증가하지만, 아산보삼의 HP는 회복되지 않습니다. 피해자의 흡수 상태는 매주 1씩 감소합니다. 성공적인 @Check[medicine|dc:20|name:Drink Blood Treatment] 체크와 혈액 기증자 또는 충분한 혈액이 필요한 수혈은 10분 후에 흡수된 값을 1 감소시킵니다."
+          "description": "<p><strong>요구 조건</strong> @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비된}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 상실}, 또는 의지가 있는 생물이 아산보삼의 이빨에 닿을 수 있는 거리에 있습니다. </p>\n<hr />\n<p><strong>효과</strong> 아산보삼은 생물의 피를 마시기 위해 이빨을 박습니다. 피해자가 잡혀 있는 경우, 이 효과는 자동으로 발동됩니다. 그렇지 않은 경우, 아산보삼은 피해자의 체력 DC에 대한 @Check[athletics|defense:fortitude] 체크에 성공해야 합니다. 피해자는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{드레인 1}이 되고, 아산보삼은 @Damage[10[healing]] HP를 회복하며, 최대 체력을 초과하는 체력은 임시 체력으로 얻습니다. 이 임시 체력은 1분 동안 유지됩니다. 이미 흡수된 생물의 피를 마시면 피해자의 흡수 값이 1 증가하여 최대 흡수 3까지 증가하지만, 아산보삼의 HP는 회복되지 않습니다. 피해자의 흡수 상태는 매주 1씩 감소합니다. 성공적인 @Check[medicine|dc:20|name:Drink Blood Treatment] 체크와 혈액 기증자 또는 충분한 혈액이 필요한 수혈은 10분 후에 흡수된 값을 1 감소시킵니다."
         },
         "my79TeHUaRiixNX5": {
           "name": "붙잡기 (Grab)",
@@ -792,7 +792,7 @@
         },
         "D8NoYJVUsN4gPlGK": {
           "name": "눈부신 잉크 (Blinding Ink)",
-          "description": "<p>잉크 방울의 가짜 다리에 치명타를 받은 생물은 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} 상태가 되어, 상호 작용 행동을 사용하여 눈을 씻기 전까지 잉크에 의해 시야가 가려집니다."
+          "description": "<p>잉크 방울의 가짜 다리에 치명타를 받은 생물은 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명} 상태가 되어, 상호 작용 행동을 사용하여 눈을 씻기 전까지 잉크에 의해 시야가 가려집니다."
         },
         "L4Q7dbuGO7UgeD6z": {
           "name": "잉크 얼룩 (Ink Blot)",
@@ -1525,7 +1525,7 @@
         },
         "eo949d41od22jirl": {
           "name": "창으로 찌르기 (Impaling Charge)",
-          "description": "<p>Cuetzmonquali는 앞으로 돌진하여 적을 찔러 죽이려고 합니다. 이 공격은 이동이며 뿔로 공격을 시도합니다. 명중하면, 대상은 Cuetzmonquali의 뿔에 찔려 죽게 됩니다. 이 생물은 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}가 됩니다. Cuetzmonquali가 이동하면, 잡은 생물도 함께 이동합니다. Cuetzmonquali는 생물을 잡은 상태를 유지하기 위해 추가 행동을 할 필요가 없습니다. 생물은 찔린 상태가 지속되는 동안 잡힌 상태로 남아 있습니다. 잡힌 생물은 평소와 같이 탈출을 시도할 수 있지만, 탈출에 필요한 DC는 Cuetzmonquali의 운동 DC가 아닌 40입니다. Cuetzmonquali가 크리틱 히트를 통해 생물을 찔렀다면, 그 생물은 성공에 따른 잡기와 찔림에 더해 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{제지된 상태}가 됩니다."
+          "description": "<p>Cuetzmonquali는 앞으로 돌진하여 적을 찔러 죽이려고 합니다. 이 공격은 이동이며 뿔로 공격을 시도합니다. 명중하면, 대상은 Cuetzmonquali의 뿔에 찔려 죽게 됩니다. 이 생물은 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}가 됩니다. Cuetzmonquali가 이동하면, 잡은 생물도 함께 이동합니다. Cuetzmonquali는 생물을 잡은 상태를 유지하기 위해 추가 행동을 할 필요가 없습니다. 생물은 찔린 상태가 지속되는 동안 잡힌 상태로 남아 있습니다. 잡힌 생물은 평소와 같이 탈출을 시도할 수 있지만, 탈출에 필요한 DC는 Cuetzmonquali의 운동 DC가 아닌 40입니다. Cuetzmonquali가 크리틱 히트를 통해 생물을 찔렀다면, 그 생물은 성공에 따른 잡기와 찔림에 더해 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속 상태}가 됩니다."
         },
         "90yzeQFbYxJFIiXF": {
           "name": "트램플 (Trample)",
@@ -1552,7 +1552,7 @@
         },
         "YzH31yZdhxR2eUCh": {
           "name": "피부 공유 (Share the Skin)",
-          "description": "<p><strong>요구 사항</strong> @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비된}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속됨}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 상실}, 또는 기꺼이 그 행동을 하는 생물이 스킨스키터의 도달 범위 내에 있습니다. </p>\n<hr />\n<p><strong>효과</strong> 스킨스키터는 피해자의 피부를 긁어내어 큰 조각으로 잘라냅니다. 이 효과는 피해자가 잡힌 경우 피해자의 체력 DC에 대해 @Check[athletics|defense:fortitude] 체크를 해야 하며, 그 외의 조건에서는 자동으로 적용됩니다. 심한 통증으로 인해 피해자는 1분 동안 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1} 상태가 되고, 스킨스키터는 펄럭이는 피부를 자신의 몸에 두르고 1분 동안 10의 임시 체력을 얻습니다."
+          "description": "<p><strong>요구 사항</strong> @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비된}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 상실}, 또는 기꺼이 그 행동을 하는 생물이 스킨스키터의 도달 범위 내에 있습니다. </p>\n<hr />\n<p><strong>효과</strong> 스킨스키터는 피해자의 피부를 긁어내어 큰 조각으로 잘라냅니다. 이 효과는 피해자가 잡힌 경우 피해자의 체력 DC에 대해 @Check[athletics|defense:fortitude] 체크를 해야 하며, 그 외의 조건에서는 자동으로 적용됩니다. 심한 통증으로 인해 피해자는 1분 동안 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1} 상태가 되고, 스킨스키터는 펄럭이는 피부를 자신의 몸에 두르고 1분 동안 10의 임시 체력을 얻습니다."
         },
         "Lu89daMaRaJYkzCs": {
           "name": "붙잡기 (Grab)",
@@ -1703,7 +1703,7 @@
         },
         "4zyl6wd0lae8unq2": {
           "name": "필멸의 반사 (Mortal Reflection)",
-          "description": "<p><strong>요구 조건</strong> 불완전한 자동 기계는 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{제압된} 상태의 생물을 가지고 있습니다.</p><hr />\n<p><strong>효과</strong> 불완전한 자동 기계는 대상의 감정을 끌어내어 인간적인 감정의 유사체를 회상하며, 1분 동안 속도에 +5피트 상태 보너스를 얻습니다. 잡힌 또는 제압된 생물이 카운터액트 등급 4 이하의 지속적인 감정 또는 정신 효과가 있다면, 불완전한 자동 기계는 해당 효과를 1분 동안 복사할 수 있습니다.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.vUFIbQ74jz22rOXw]{효과: 인간적 반영}</p>"
+          "description": "<p><strong>요구 조건</strong> 불완전한 자동 기계는 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속} 상태의 생물을 가지고 있습니다.</p><hr />\n<p><strong>효과</strong> 불완전한 자동 기계는 대상의 감정을 끌어내어 인간적인 감정의 유사체를 회상하며, 1분 동안 속도에 +5피트 상태 보너스를 얻습니다. 잡힌 또는 제압된 생물이 카운터액트 등급 4 이하의 지속적인 감정 또는 정신 효과가 있다면, 불완전한 자동 기계는 해당 효과를 1분 동안 복사할 수 있습니다.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.vUFIbQ74jz22rOXw]{효과: 인간적 반영}</p>"
         },
         "bx38jxjHpbtTvxcl": {
           "name": "붙잡기 (Grab)",
@@ -2458,7 +2458,7 @@
       "items": {
         "a7SkSojOBCMbEEq5": {
           "name": "눈을 멀게 하는 침 (Blinding Spittle)",
-          "description": "<p>파굴린의 침에 맞은 생물은 @Check[fortitude|dc:22] 내성 체크를 시도해야 합니다.</p>\n<hr />\n<p><strong>대성공</strong> 생물은 영향을 받지 않습니다. </p>\n<p><strong>성공</strong> 생물은 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{눈부심} 상태가 됩니다. 생물은 상호작용 행동을 사용하여 침을 닦아내고 눈부심 상태를 제거할 수 있습니다.</p>\n<p><strong>실패 성공과 동일하지만, 생물은 눈부심 대신 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} 상태가 됩니다.</p>\n<p><strong>대실패 실패와 동일하지만, 생물은 1분 동안 실명 상태가 됩니다. 생물은 침을 닦아내기 위해 총 2회의 상호 작용 행동이 필요합니다."
+          "description": "<p>파굴린의 침에 맞은 생물은 @Check[fortitude|dc:22] 내성 체크를 시도해야 합니다.</p>\n<hr />\n<p><strong>대성공</strong> 생물은 영향을 받지 않습니다. </p>\n<p><strong>성공</strong> 생물은 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{눈부심} 상태가 됩니다. 생물은 상호작용 행동을 사용하여 침을 닦아내고 눈부심 상태를 제거할 수 있습니다.</p>\n<p><strong>실패 성공과 동일하지만, 생물은 눈부심 대신 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명} 상태가 됩니다.</p>\n<p><strong>대실패 실패와 동일하지만, 생물은 1분 동안 실명 상태가 됩니다. 생물은 침을 닦아내기 위해 총 2회의 상호 작용 행동이 필요합니다."
         },
         "5F3x3kb6RzBAtAwH": {
           "name": "Constrict",
@@ -2648,7 +2648,7 @@
         },
         "2oevhXnu1QOT55BQ": {
           "name": "얼굴 먹이 (Face Eater)",
-          "description": "<p><strong>요구 조건</strong> 마말람보가 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{제압된} 상태의 생물을 가지고 있거나, 또는 마말람보의 범위 내에 @UUID[Compendium.pf2e.conditionitems.Item.yZRUzMqrMmfLu0V1]{Dying}, @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized}, 또는 @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 잃은} 생물이 있습니다. 의 피해를 입습니다 (@Check[fortitude|dc:28|basic] 내성).</p>\n<p>실패하면, 생물은 추가로 @Damage[2d6[bleed]]의 피해를 입거나, 대실패 시 @Damage[4d6[bleed]]의 피해를 입습니다."
+          "description": "<p><strong>요구 조건</strong> 마말람보가 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속} 상태의 생물을 가지고 있거나, 또는 마말람보의 범위 내에 @UUID[Compendium.pf2e.conditionitems.Item.yZRUzMqrMmfLu0V1]{Dying}, @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized}, 또는 @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 잃은} 생물이 있습니다. 의 피해를 입습니다 (@Check[fortitude|dc:28|basic] 내성).</p>\n<p>실패하면, 생물은 추가로 @Damage[2d6[bleed]]의 피해를 입거나, 대실패 시 @Damage[4d6[bleed]]의 피해를 입습니다."
         },
         "xwXKqYeS8wn01sOG": {
           "name": "향상된 붙잡기 (Improved Grab)",

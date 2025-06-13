@@ -20,7 +20,7 @@
         },
         "xsHOUZyFnSvFmKSt": {
           "name": "월로우",
-          "description": "<p><strong>요구 사항</strong> 마그네고르는 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}입니다.</p>\n<hr />\n<p><strong>효과</strong> 마그네고르는 등뼈로 뒤덮인 등을 굴려, 자신의 속도까지 전진하며 땅을 파고, 그 경로에 있는 대형 이하 크기의 생물들을 부숩니다. 이 공격은 @Damage[4d10[piercing]]의 피해를 입히고, @Check[reflex|dc:24|basic] 내성을 체크합니다. 내성 체크에 실패한 경우, 금속 갑옷을 착용하거나 금속으로 만들어진 생물은 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} 마그네고르의 자석화된 털에 의해 (@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} DC 24). 구속된 생물이 마그네고르에 붙어 있는 금속 물체나 장비를 하나씩 버릴 때마다, 그 생물은 탈출 시도 시 +1 상황 보너스를 얻습니다. 모든 금속을 포기한 생물은 자동으로 탈출합니다. 마그네고르는 이 방식으로 제압된 생물을 끌고 가며 최대 속도로 이동할 수 있습니다.</p>"
+          "description": "<p><strong>요구 사항</strong> 마그네고르는 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}입니다.</p>\n<hr />\n<p><strong>효과</strong> 마그네고르는 등뼈로 뒤덮인 등을 굴려, 자신의 속도까지 전진하며 땅을 파고, 그 경로에 있는 대형 이하 크기의 생물들을 부숩니다. 이 공격은 @Damage[4d10[piercing]]의 피해를 입히고, @Check[reflex|dc:24|basic] 내성을 체크합니다. 내성 체크에 실패한 경우, 금속 갑옷을 착용하거나 금속으로 만들어진 생물은 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속} 마그네고르의 자석화된 털에 의해 (@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} DC 24). 구속된 생물이 마그네고르에 붙어 있는 금속 물체나 장비를 하나씩 버릴 때마다, 그 생물은 탈출 시도 시 +1 상황 보너스를 얻습니다. 모든 금속을 포기한 생물은 자동으로 탈출합니다. 마그네고르는 이 방식으로 제압된 생물을 끌고 가며 최대 속도로 이동할 수 있습니다.</p>"
         }
       }
     },
@@ -688,7 +688,7 @@
         },
         "gs4TQWASo5vkCAmm": {
           "name": "껍질 벗기기",
-          "description": "<p><strong>요구 조건</strong> 생물이 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{제압된} 헬리코프리온의 턱에 잡혀 있습니다</p>\n<hr />\n<p><strong>효과</strong> 상어가 생물을 찢어 @Damage[3d10[slashing]]의 피해를 입힙니다 (@Check[reflex|dc:26|basic] 내성).</p>"
+          "description": "<p><strong>요구 조건</strong> 생물이 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속} 헬리코프리온의 턱에 잡혀 있습니다</p>\n<hr />\n<p><strong>효과</strong> 상어가 생물을 찢어 @Damage[3d10[slashing]]의 피해를 입힙니다 (@Check[reflex|dc:26|basic] 내성).</p>"
         },
         "hA8CZfGS5qACaEHn": {
           "name": "통째로 삼키기",
@@ -935,7 +935,7 @@
         },
         "9y73RR8Oukdu0LR2": {
           "name": "돌 아래에 묻기",
-          "description": "<p><strong>요구 조건</strong> 워든은 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 생물을 잡고 있어야 합니다.</p><hr /><p><strong>효과</strong> 워든은 자신이 입으로 잡은 생물을 자신 아래에 열린 땅의 틈에 끼워 넣으려고 시도합니다. 워든은 잡은 생물의 반사 DC에 대해 @Check[athletics|defense:반사] 체크를 시도합니다. 성공하면, 그 생물을 땅에 묻습니다. 생물은 @Damage[10d10[bludgeoning]]의 피해를 입습니다. 또한 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{제압}, @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1} 상태가 되고, 숨을 참지 않으면 @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escapes} (DC 42)까지 질식하기 시작합니다. 턴이 끝날 때까지 생물이 여전히 땅에 묻혀 있으면 @Damage[5d10[bludgeoning]]의 피해를 입습니다."
+          "description": "<p><strong>요구 조건</strong> 워든은 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 생물을 잡고 있어야 합니다.</p><hr /><p><strong>효과</strong> 워든은 자신이 입으로 잡은 생물을 자신 아래에 열린 땅의 틈에 끼워 넣으려고 시도합니다. 워든은 잡은 생물의 반사 DC에 대해 @Check[athletics|defense:반사] 체크를 시도합니다. 성공하면, 그 생물을 땅에 묻습니다. 생물은 @Damage[10d10[bludgeoning]]의 피해를 입습니다. 또한 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속}, @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1} 상태가 되고, 숨을 참지 않으면 @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escapes} (DC 42)까지 질식하기 시작합니다. 턴이 끝날 때까지 생물이 여전히 땅에 묻혀 있으면 @Damage[5d10[bludgeoning]]의 피해를 입습니다."
         },
         "1R03lSgMof62gZ9x": {
           "name": "깊은 곳으로 부름",
@@ -1063,7 +1063,7 @@
         },
         "HI5afO4uknNWUqlH": {
           "name": "태양을 해방하라",
-          "description": "<p><strong>요건</strong> 태양 비늘 뱀이 비행 중입니다</p>\n<hr />\n<p><strong>효과</strong> 태양 비늘 뱀은 비행 속도로 날아오른 다음 땅에 충돌하여 @Damage[5d10[fire]] @Template[burst|distance:60] 내의 모든 생물에게 피해를 주고, 그 비늘에서 분출되는 영광으로 생물들의 눈을 태워 버립니다. 이 영역에 있는 모든 생물은 @Check[reflex|dc:31] 내성 체크를 시도해야 합니다.</p>\n<p><strong>실패</strong> 생물은 전체 피해를 받고 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{눈부심} 상태가 됩니다.</p>\n<p><strong>대실패 생물은 전체 피해를 받고, 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} 상태가 되고, 1분 동안 눈이 부시게 됩니다. </p>"
+          "description": "<p><strong>요건</strong> 태양 비늘 뱀이 비행 중입니다</p>\n<hr />\n<p><strong>효과</strong> 태양 비늘 뱀은 비행 속도로 날아오른 다음 땅에 충돌하여 @Damage[5d10[fire]] @Template[burst|distance:60] 내의 모든 생물에게 피해를 주고, 그 비늘에서 분출되는 영광으로 생물들의 눈을 태워 버립니다. 이 영역에 있는 모든 생물은 @Check[reflex|dc:31] 내성 체크를 시도해야 합니다.</p>\n<p><strong>실패</strong> 생물은 전체 피해를 받고 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{눈부심} 상태가 됩니다.</p>\n<p><strong>대실패 생물은 전체 피해를 받고, 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명} 상태가 되고, 1분 동안 눈이 부시게 됩니다. </p>"
         },
         "OSoBPzZh5uE3W8fC": {
           "name": "향상된 붙잡기",
@@ -1457,7 +1457,7 @@
         },
         "yes3Dw8znID2FuF6": {
           "name": "끌어당기기",
-          "description": "<p>드르탁은 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 생물을 입에 물고 있는 동안 반 속도로 수영할 수 있습니다. 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} 상태의 생물을 입에 물고 있을 때, 그 생물을 함께 끌고 갈 수 있습니다.</p>"
+          "description": "<p>드르탁은 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 생물을 입에 물고 있는 동안 반 속도로 수영할 수 있습니다. 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속} 상태의 생물을 입에 물고 있을 때, 그 생물을 함께 끌고 갈 수 있습니다.</p>"
         },
         "dPYjfixt9YiqsrCS": {
           "name": "민감한 에코로케이션",
@@ -1469,7 +1469,7 @@
         },
         "g7fpjFdxAJa69lmZ": {
           "name": "공명하는 턱",
-          "description": "<p>드르탁이 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{제압된} 생물에게 비명 공격을 실패하면 를 놓치면, 그 생물에게 @Damage[2d6[sonic]]의 피해를 입힙니다."
+          "description": "<p>드르탁이 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속} 생물에게 비명 공격을 실패하면 를 놓치면, 그 생물에게 @Damage[2d6[sonic]]의 피해를 입힙니다."
         }
       }
     },
@@ -1499,11 +1499,11 @@
         },
         "ELLDkkqDHf5Yl8lp": {
           "name": "스내치",
-          "description": "<p>소니파크는 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{제압된} 를 발톱으로 움켜잡고 그 생물을 함께 끌고 날아갈 수 있습니다. </p>"
+          "description": "<p>소니파크는 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속} 를 발톱으로 움켜잡고 그 생물을 함께 끌고 날아갈 수 있습니다. </p>"
         },
         "GBUlcSToBzMlWQnF": {
           "name": "여진",
-          "description": "<p>소니파크가 비명 공격으로 적중할 때마다, 소니파크가 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{제지된} @Damage[1d6[sonic]]의 피해를 입습니다."
+          "description": "<p>소니파크가 비명 공격으로 적중할 때마다, 소니파크가 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속} @Damage[1d6[sonic]]의 피해를 입습니다."
         },
         "D6TybuaAzhYJfP2K": {
           "name": "방해하는 비명",
@@ -1615,7 +1615,7 @@
         },
         "dpFoseZUoXpa9zMt": {
           "name": "쏘는 말미잘",
-          "description": "<p>데카포드 딩기의 아네모네는 승객과 데카포드 딩기가 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 상태인 생물 중 원하는 수를 선택해 찌릅니다. 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}에 있는 생물에게 찌릅니다. 찌르는 것은 @Damage[5d6[poison]]의 피해를 입힙니다 (@Check[fortitude|dc:26|basic]). 내성 실패 시, 해당 생물은 1시간 동안 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 2} 상태가 됩니다."
+          "description": "<p>데카포드 딩기의 아네모네는 승객과 데카포드 딩기가 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 상태인 생물 중 원하는 수를 선택해 찌릅니다. 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속}에 있는 생물에게 찌릅니다. 찌르는 것은 @Damage[5d6[poison]]의 피해를 입힙니다 (@Check[fortitude|dc:26|basic]). 내성 실패 시, 해당 생물은 1시간 동안 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 2} 상태가 됩니다."
         }
       }
     },
@@ -1804,7 +1804,7 @@
         },
         "FGDNgOQBoM5Xmqhh": {
           "name": "강력한 조임",
-          "description": "<p>@Damage[(4d8+3)[bludgeoning]], @Check[fortitude|dc:32|기본]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.GreaterConstrict]</p>"
+          "description": "<p>@Damage[(4d8+3)[bludgeoning]], @Check[fortitude|dc:32|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.GreaterConstrict]</p>"
         },
         "uvTvb2cBy4Nv0Ggv": {
           "name": "로얄 바실리스크의 맹독",
@@ -1820,7 +1820,7 @@
         },
         "Kzg1FKJxsglkhdRO": {
           "name": "Wrap in Coils",
-          "description": "<p><strong>요구 조건</strong> 대형 또는 더 작은 크기의 생물이 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{제압된} 상태이며 </p>\n<hr />\n<p><strong>효과</strong> 로얄 바실리스크는 생물을 코일에 감아 입을 자유롭게 한 다음, 그 생물에게 그레이터 콘스트릭트를 사용합니다. 로얄 바실리스크의 코일은 그 공간에 들어갈 수 있는 만큼의 생물을 감을 수 있습니다."
+          "description": "<p><strong>요구 조건</strong> 대형 또는 더 작은 크기의 생물이 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속} 상태이며 </p>\n<hr />\n<p><strong>효과</strong> 로얄 바실리스크는 생물을 코일에 감아 입을 자유롭게 한 다음, 그 생물에게 그레이터 콘스트릭트를 사용합니다. 로얄 바실리스크의 코일은 그 공간에 들어갈 수 있는 만큼의 생물을 감을 수 있습니다."
         }
       }
     },
@@ -2017,7 +2017,7 @@
         },
         "30Xxn6WE11NrGrqJ": {
           "name": "독 주입",
-          "description": "<p>떼의 공간에 있는 모든 적들은 @Damage[2d4[piercing]]의 피해를 받습니다 (@Check[반사|dc:18|기본] 내성). 내성에 실패한 생물들은 돌고기 떼의 맹독에 노출됩니다."
+          "description": "<p>떼의 공간에 있는 모든 적들은 @Damage[2d4[piercing]]의 피해를 받습니다 (@Check[반사|dc:18|basic] 내성). 내성에 실패한 생물들은 돌고기 떼의 맹독에 노출됩니다."
         },
         "jn9AnjvtJSsTXoFG": {
           "name": "돌고래 무리 맹독",

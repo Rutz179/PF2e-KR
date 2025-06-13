@@ -470,7 +470,7 @@
         },
         "qz6WlJm5c1QTYtA8": {
           "name": "피를 마시기",
-          "description": "<p><strong>요구 조건</strong> @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비된}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{제압된}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 잃은}, 또는 기꺼이 피를 마실 생물이 뱀파이어의 손이 닿는 거리에 있습니다.</p>\n<hr />\n<p><strong>효과</strong> 뱀파이어는 그 생물에게 송곳니를 박아 피를 마십니다. 이 효과는 피해자가 잡힌 경우 피해자의 체력 DC에 대해 @Check[athletic|defense:will] 체크를 해야 하며, 그 외의 조건에서는 자동으로 적용됩니다.</p>\n<p>피해자는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{드레인 2} 상태가 되고, 뱀파이어는 @Damage[22[healing]] 체력을 회복하며, 초과 HP는 임시 체력으로 얻습니다. 이미 피를 모두 빼앗긴 생물에게서 피를 마셔도 뱀파이어의 HP는 회복되지 않지만, 피해자의 흡수 값이 1 증가합니다. 뱀파이어는 생명을 유지하기 위해 용기에 담겨진 피도 마실 수 있지만, 그렇게 해도 HP는 회복되지 않습니다. 피해자의 흡수 상태는 매주 1씩 감소합니다. @Check[medicine|dc:20|name:Blood Transfusion] 체크와 충분한 혈액 또는 헌혈자가 필요한 수혈을 받으면 10분 후에 흡수량이 1 감소합니다."
+          "description": "<p><strong>요구 조건</strong> @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비된}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 잃은}, 또는 기꺼이 피를 마실 생물이 뱀파이어의 손이 닿는 거리에 있습니다.</p>\n<hr />\n<p><strong>효과</strong> 뱀파이어는 그 생물에게 송곳니를 박아 피를 마십니다. 이 효과는 피해자가 잡힌 경우 피해자의 체력 DC에 대해 @Check[athletic|defense:will] 체크를 해야 하며, 그 외의 조건에서는 자동으로 적용됩니다.</p>\n<p>피해자는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{드레인 2} 상태가 되고, 뱀파이어는 @Damage[22[healing]] 체력을 회복하며, 초과 HP는 임시 체력으로 얻습니다. 이미 피를 모두 빼앗긴 생물에게서 피를 마셔도 뱀파이어의 HP는 회복되지 않지만, 피해자의 흡수 값이 1 증가합니다. 뱀파이어는 생명을 유지하기 위해 용기에 담겨진 피도 마실 수 있지만, 그렇게 해도 HP는 회복되지 않습니다. 피해자의 흡수 상태는 매주 1씩 감소합니다. @Check[medicine|dc:20|name:Blood Transfusion] 체크와 충분한 혈액 또는 헌혈자가 필요한 수혈을 받으면 10분 후에 흡수량이 1 감소합니다."
         },
         "yjzcKHxxLILIkpm9": {
           "name": "친숙한 동물",
@@ -663,7 +663,7 @@
       "items": {
         "tY3TZfRWPDy9qUYl": {
           "name": "잡았다!",
-          "description": "<p>부유하는 대퇴골은 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 상태가 되면 움직이지 않습니다. 골반뼈가 생물체에 의해 잡히거나 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} 상태가 되면, 그 골반뼈는 1분 동안 행동할 수 없으며, 이를 잡고 있는 생물체는 이를 <em>+1 클럽</em>으로 사용할 수 있으며 치명적인 d10 특성을 갖습니다. 그 시간이 지나면 떠다니는 대퇴골은 행동할 수 있게 되며, 무기로 사용한 사람에게 매우 공격적입니다."
+          "description": "<p>부유하는 대퇴골은 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 상태가 되면 움직이지 않습니다. 골반뼈가 생물체에 의해 잡히거나 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속} 상태가 되면, 그 골반뼈는 1분 동안 행동할 수 없으며, 이를 잡고 있는 생물체는 이를 <em>+1 클럽</em>으로 사용할 수 있으며 치명적인 d10 특성을 갖습니다. 그 시간이 지나면 떠다니는 대퇴골은 행동할 수 있게 되며, 무기로 사용한 사람에게 매우 공격적입니다."
         }
       }
     },
@@ -753,7 +753,7 @@
         },
         "RfZkJsVPKiboLSK8": {
           "name": "피를 마시기",
-          "description": "<p><strong>요구 조건</strong> @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비된}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious], 또는 의지가 있는 생물이 뱀파이어의 손이 닿는 거리에 있습니다.</p>\n<hr />\n<p><strong>효과</strong> 뱀파이어는 그 생물에게 송곳니를 박아 피를 마십니다. 이 경우, 피해자가 잡혀 있는 경우 피해자의 체력 DC에 대해 @Check[athletic|defense:will] 체크가 필요하며, 그 외의 조건에서는 자동으로 성공합니다.</p>\n<p>피해자는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{체력 2 감소} 상태가 되고, 뱀파이어는 @Damage[16[healing]] HP를 회복하며, 초과 HP는 임시 체력으로 얻습니다. 이미 피가 흡수된 생물에게서 피를 마셔도 뱀파이어의 HP는 회복되지 않지만, 피해자의 흡수 값이 1 증가합니다. 뱀파이어는 생명을 유지하기 위해 용기에 담겨진 피도 마실 수 있지만, 그렇게 해도 HP는 회복되지 않습니다. 피해자의 흡수 상태는 매주 1씩 감소합니다. @Check[medicine|dc:20|name:Blood Transfusion] 체크와 충분한 혈액 또는 헌혈자가 필요한 수혈을 받으면 10분 후에 흡수량이 1 감소합니다."
+          "description": "<p><strong>요구 조건</strong> @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비된}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious], 또는 의지가 있는 생물이 뱀파이어의 손이 닿는 거리에 있습니다.</p>\n<hr />\n<p><strong>효과</strong> 뱀파이어는 그 생물에게 송곳니를 박아 피를 마십니다. 이 경우, 피해자가 잡혀 있는 경우 피해자의 체력 DC에 대해 @Check[athletic|defense:will] 체크가 필요하며, 그 외의 조건에서는 자동으로 성공합니다.</p>\n<p>피해자는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{체력 2 감소} 상태가 되고, 뱀파이어는 @Damage[16[healing]] HP를 회복하며, 초과 HP는 임시 체력으로 얻습니다. 이미 피가 흡수된 생물에게서 피를 마셔도 뱀파이어의 HP는 회복되지 않지만, 피해자의 흡수 값이 1 증가합니다. 뱀파이어는 생명을 유지하기 위해 용기에 담겨진 피도 마실 수 있지만, 그렇게 해도 HP는 회복되지 않습니다. 피해자의 흡수 상태는 매주 1씩 감소합니다. @Check[medicine|dc:20|name:Blood Transfusion] 체크와 충분한 혈액 또는 헌혈자가 필요한 수혈을 받으면 10분 후에 흡수량이 1 감소합니다."
         },
         "LvlP5RIyqPdNNiK6": {
           "name": "안개로 변하기",
@@ -819,7 +819,7 @@
         },
         "ypGQGTvYyK5bAhwW": {
           "name": "영혼 빼앗기",
-          "description": "<p>에세네스는 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{제압한} 생물의 몸에서 영혼을 끌어내려고 시도합니다. 에세네스는 대상의 체력 DC에 대해 @Check[athletic|defense:will] 체크를 시도합니다. 신체는 해방되며 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비} 상태가 2 라운드 동안 지속됩니다. 신체가 마비 상태에서 벗어나면 영혼이 즉시 돌아오고 대상이 깨어납니다. 에센스에 의해 잡힌 영혼은 비물질적이며 @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible} 상태로, 비행 속도는 생물의 속도와 동일하며, 기타 모든 통계는 동일합니다. 이 영혼은 @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} 체크를 제외한, 물리적 신체가 필요한 모든 스킬 체크를 시도할 수 없으며, 항상 자신의 신체에 효과 범위를 유지해야 합니다.</p>\n<p><strong>실패</strong> 대상은 잡힌 상태 또는 제압된 상태로 남아 있지만, 영혼은 몸에 남아 있습니다. </p>\n<p><strong>대실패</strong> 잡기가 종료됩니다. </p>"
+          "description": "<p>에세네스는 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속} 생물의 몸에서 영혼을 끌어내려고 시도합니다. 에세네스는 대상의 체력 DC에 대해 @Check[athletic|defense:will] 체크를 시도합니다. 신체는 해방되며 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비} 상태가 2 라운드 동안 지속됩니다. 신체가 마비 상태에서 벗어나면 영혼이 즉시 돌아오고 대상이 깨어납니다. 에센스에 의해 잡힌 영혼은 비물질적이며 @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible} 상태로, 비행 속도는 생물의 속도와 동일하며, 기타 모든 통계는 동일합니다. 이 영혼은 @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} 체크를 제외한, 물리적 신체가 필요한 모든 스킬 체크를 시도할 수 없으며, 항상 자신의 신체에 효과 범위를 유지해야 합니다.</p>\n<p><strong>실패</strong> 대상은 잡힌 상태 또는 제압된 상태로 남아 있지만, 영혼은 몸에 남아 있습니다. </p>\n<p><strong>대실패</strong> 잡기가 종료됩니다. </p>"
         },
         "WVJdmD2UxJ7zu1NV": {
           "name": "영혼을 찢기",
@@ -1055,7 +1055,7 @@
       "items": {
         "gz9FXcaHrgMEOhfr": {
           "name": "스크래블",
-          "description": "<p><strong>트리거</strong> 생물이 긁히는 갈비뼈에서 멀어지거나, 생물이 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escapes}에 의해 탈출합니다</p>\n<hr />\n<p><strong>효과</strong> 갈비뼈는 이동 또는 클라이밍을 합니다. 이 이동은 반응을 트리거하지 않습니다.</p>"
+          "description": "<p><strong>트리거</strong> 생물이 긁히는 갈비뼈에서 멀어지거나, 생물이 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속} @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escapes}에 의해 탈출합니다</p>\n<hr />\n<p><strong>효과</strong> 갈비뼈는 이동 또는 클라이밍을 합니다. 이 이동은 반응을 트리거하지 않습니다.</p>"
         },
         "RnLbi3AwbhWJQPnv": {
           "name": "Constrict",
@@ -1114,7 +1114,7 @@
         },
         "0A2oL9wUXBkFmI72": {
           "name": "피를 마신다",
-          "description": "<p><strong>요구 조건</strong> @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비된}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious], 또는 기꺼이 피를 마실 생물이 뱀파이어의 손이 닿는 거리에 있습니다.</p>\n<hr />\n<p><strong>효과</strong> 뱀파이어는 그 생물에게 송곳니를 박아 피를 마십니다. 이 경우, 피해자가 잡혀 있는 경우 피해자의 체력 DC에 대해 @Check[athletic|defense:will] 체크가 필요하며, 그 외의 조건에서는 자동으로 성공합니다.</p>\n<p>피해자는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 2} 상태가 되고, 뱀파이어는 @Damage[16[healing]] HP를 회복하고, 초과 HP는 임시 체력으로 얻습니다. 이미 피를 모두 빼앗긴 생물에게서 피를 마셔도 뱀파이어의 HP는 회복되지 않지만, 피해자의 흡수 값이 1 증가합니다. 뱀파이어는 생명을 유지하기 위해 그릇에 담겨진 피도 마실 수 있지만, 그렇게 해도 HP는 회복되지 않습니다. 피해자의 흡수 상태는 매주 1씩 감소합니다. @Check[medicine|dc:20|name:Blood Transfusion] 체크와 충분한 혈액 또는 헌혈자가 필요한 수혈을 받으면 10분 후에 흡수량이 1 감소합니다."
+          "description": "<p><strong>요구 조건</strong> @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비된}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious], 또는 기꺼이 피를 마실 생물이 뱀파이어의 손이 닿는 거리에 있습니다.</p>\n<hr />\n<p><strong>효과</strong> 뱀파이어는 그 생물에게 송곳니를 박아 피를 마십니다. 이 경우, 피해자가 잡혀 있는 경우 피해자의 체력 DC에 대해 @Check[athletic|defense:will] 체크가 필요하며, 그 외의 조건에서는 자동으로 성공합니다.</p>\n<p>피해자는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 2} 상태가 되고, 뱀파이어는 @Damage[16[healing]] HP를 회복하고, 초과 HP는 임시 체력으로 얻습니다. 이미 피를 모두 빼앗긴 생물에게서 피를 마셔도 뱀파이어의 HP는 회복되지 않지만, 피해자의 흡수 값이 1 증가합니다. 뱀파이어는 생명을 유지하기 위해 그릇에 담겨진 피도 마실 수 있지만, 그렇게 해도 HP는 회복되지 않습니다. 피해자의 흡수 상태는 매주 1씩 감소합니다. @Check[medicine|dc:20|name:Blood Transfusion] 체크와 충분한 혈액 또는 헌혈자가 필요한 수혈을 받으면 10분 후에 흡수량이 1 감소합니다."
         },
         "1SOF01NAoVFMZvSs": {
           "name": "몰래 공격",
@@ -1772,7 +1772,7 @@
       "items": {
         "rBFcY5MpSMdtvE5Y": {
           "name": "Gaping Chomp",
-          "description": "<p>시머뉴트는 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{제압된} 상태의 생물을 씹고 있습니다. 대상 생물은 @Check[fortitude|dc:24] 내성 체크를 시도해야 합니다.</p>\n<p><strong>실패</strong> 생물은 @Damage[2d10[piercing]]의 피해를 받고 @Damage[1d6[bleed]]의 피해를 받습니다. 피해를 받고, 씹는 고통으로 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2} 상태가 됩니다.</p>"
+          "description": "<p>시머뉴트는 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속} 상태의 생물을 씹고 있습니다. 대상 생물은 @Check[fortitude|dc:24] 내성 체크를 시도해야 합니다.</p>\n<p><strong>실패</strong> 생물은 @Damage[2d10[piercing]]의 피해를 받고 @Damage[1d6[bleed]]의 피해를 받습니다. 피해를 받고, 씹는 고통으로 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2} 상태가 됩니다.</p>"
         },
         "9yfwQGf7Fj956UQS": {
           "name": "Shimmer Step",
@@ -1980,7 +1980,7 @@
         },
         "PVgQC5UPhLXPKnjX": {
           "name": "무덤의 손아귀",
-          "description": "<p>생물 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{제압된} 무덤 마녀에 의해 무덤 마녀의 주문과 능력에 대한 내성 굴림에 -1의 상황 페널티를 받습니다."
+          "description": "<p>생물 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속} 무덤 마녀에 의해 무덤 마녀의 주문과 능력에 대한 내성 굴림에 -1의 상황 페널티를 받습니다."
         },
         "BtiBFcTdtiRdw0mg": {
           "name": "언데드 미엔",
@@ -2182,7 +2182,7 @@
         },
         "tUur14bXK0CP1S6Y": {
           "name": "생각 흡수",
-          "description": "<p><strong>요구 사항</strong> @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비 상태}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속 상태}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 잃음}, 또는 의지 있는 생물이 Taviah의 도달 범위 내에 있음</p>\n<hr />\n<p><strong>효과</strong> Taviah는 생물을 붙잡고 그 기억을 흡수합니다. 이 효과는 피해자가 잡힌 경우 피해자의 체력 DC에 대해 @Check[athletic|defense:will] 체크를 해야 하며, 그 외의 조건에서는 자동으로 발동합니다. 피해자는 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1} (@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 2} Taviah의 운동 체크가 대성공인 경우), 그리고 Taviah는 @Damage[18[healing]] 체력을 회복하고, 초과분은 임시 체력으로 얻습니다. 이미 혼미 상태인 생물에게서 생각을 흡수해도 Taviah의 HP는 회복되지 않지만, 피해자의 혼미 값이 1 증가합니다. 또한 Taviah는 피해자의 기억 중 하나를 보고, 4등급 @UUID[Compendium.pf2e.spells-srd.Item.FhOaQDTSnsY7tiam]{Rewrite Memory} 주문을 사용하여 해당 기억을 변경, 강화, 또는 지울 수 있습니다. 피해자의 혼미 상태 값은 매주 1씩 감소합니다. </p>\n<p>이 방법으로 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 5} 상태가 된 피해자는 Taviah가 파괴될 때까지 혼수 상태에 빠지고 영구적으로 의식을 잃게 됩니다. 의식을 잃은 동안에는 혼미 상태가 감소하지 않습니다. </p>"
+          "description": "<p><strong>요구 사항</strong> @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비 상태}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 잃음}, 또는 의지 있는 생물이 Taviah의 도달 범위 내에 있음</p>\n<hr />\n<p><strong>효과</strong> Taviah는 생물을 붙잡고 그 기억을 흡수합니다. 이 효과는 피해자가 잡힌 경우 피해자의 체력 DC에 대해 @Check[athletic|defense:will] 체크를 해야 하며, 그 외의 조건에서는 자동으로 발동합니다. 피해자는 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1} (@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 2} Taviah의 운동 체크가 대성공인 경우), 그리고 Taviah는 @Damage[18[healing]] 체력을 회복하고, 초과분은 임시 체력으로 얻습니다. 이미 혼미 상태인 생물에게서 생각을 흡수해도 Taviah의 HP는 회복되지 않지만, 피해자의 혼미 값이 1 증가합니다. 또한 Taviah는 피해자의 기억 중 하나를 보고, 4등급 @UUID[Compendium.pf2e.spells-srd.Item.FhOaQDTSnsY7tiam]{Rewrite Memory} 주문을 사용하여 해당 기억을 변경, 강화, 또는 지울 수 있습니다. 피해자의 혼미 상태 값은 매주 1씩 감소합니다. </p>\n<p>이 방법으로 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 5} 상태가 된 피해자는 Taviah가 파괴될 때까지 혼수 상태에 빠지고 영구적으로 의식을 잃게 됩니다. 의식을 잃은 동안에는 혼미 상태가 감소하지 않습니다. </p>"
         },
         "oNEcLYST1r5V2Ts9": {
           "name": "마비 발톱",
@@ -2357,7 +2357,7 @@
         },
         "WDFdvCXmXpXv57rO": {
           "name": "Ravenous Earth",
-          "description": "<p>단 한 번의 사악한 생각으로, 어글리드는 생물의 발밑에 무덤의 흙을 쌓아 올립니다. @Check[reflex|dc:30] 내성 체크에 실패한 생물은 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{제압} 상태가 됩니다. 제지된 생물은 그 후 자발적으로 형성된 무덤 속으로 가라앉기 시작합니다. 이 능력에 의해 3 라운드 동안 제지된 생물은 땅속 6 피트 깊이에 묻히고 1 분 이내에 질식하기 시작합니다. 묻힌 생물은 파내야만 해방될 수 있습니다. Ravenous Earth에 의해 살해된 생물은 다음 자정에 구울로 부활합니다."
+          "description": "<p>단 한 번의 사악한 생각으로, 어글리드는 생물의 발밑에 무덤의 흙을 쌓아 올립니다. @Check[reflex|dc:30] 내성 체크에 실패한 생물은 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속} 상태가 됩니다. 제지된 생물은 그 후 자발적으로 형성된 무덤 속으로 가라앉기 시작합니다. 이 능력에 의해 3 라운드 동안 제지된 생물은 땅속 6 피트 깊이에 묻히고 1 분 이내에 질식하기 시작합니다. 묻힌 생물은 파내야만 해방될 수 있습니다. Ravenous Earth에 의해 살해된 생물은 다음 자정에 구울로 부활합니다."
         }
       }
     },
@@ -2477,7 +2477,7 @@
         },
         "EdMz9Oaiq1CLqKRd": {
           "name": "생각 흡수",
-          "description": "<p><strong>요구 사항</strong> A @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비 상태}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{제압 상태}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 잃음}, 또는 의지가 있는 생물이 Kemnebi의 도달 범위 내에 있습니다</p>\n<hr />\n<p><strong>효과</strong> Kemnebi는 생물을 붙잡고 그 기억을 흡수합니다. 이 능력은 피해자가 잡힌 경우 피해자의 체력 DC에 대해 @Check[athletic|defense:will] 체크를 해야 하며, 그 외의 조건에서는 자동으로 발동합니다. 피해자는 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 2} 상태가 되고, Kemnebi는 @Damage[35[healing]] HP를 회복하고, 초과 HP는 임시 체력으로 얻습니다. 이미 혼미 상태인 생물에게서 생각을 흡수해도 Kemnebi의 HP는 회복되지 않지만, 피해자의 혼미 값이 2 증가합니다. 또한, Kemnebi는 피해자의 기억 중 하나를 보고, 4레벨 @UUID[Compendium.pf2e.spells-srd.Item.FhOaQDTSnsY7tiam]{기억 재작성}으로 보고 있는 기억을 변경, 강화 또는 삭제할 수 있습니다.</p>\n<p>이 방법으로 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 5} 상태가 된 피해자는 혼수 상태에 빠지고 영구적으로 의식을 잃게 됩니다. Kemnebi가 살아있는 한, 혼수 상태에 빠진 피해자는 의식을 되찾을 수 없으며, 혼미 상태도 감소하지 않습니다."
+          "description": "<p><strong>요구 사항</strong> A @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비 상태}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 잃음}, 또는 의지가 있는 생물이 Kemnebi의 도달 범위 내에 있습니다</p>\n<hr />\n<p><strong>효과</strong> Kemnebi는 생물을 붙잡고 그 기억을 흡수합니다. 이 능력은 피해자가 잡힌 경우 피해자의 체력 DC에 대해 @Check[athletic|defense:will] 체크를 해야 하며, 그 외의 조건에서는 자동으로 발동합니다. 피해자는 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 2} 상태가 되고, Kemnebi는 @Damage[35[healing]] HP를 회복하고, 초과 HP는 임시 체력으로 얻습니다. 이미 혼미 상태인 생물에게서 생각을 흡수해도 Kemnebi의 HP는 회복되지 않지만, 피해자의 혼미 값이 2 증가합니다. 또한, Kemnebi는 피해자의 기억 중 하나를 보고, 4레벨 @UUID[Compendium.pf2e.spells-srd.Item.FhOaQDTSnsY7tiam]{기억 재작성}으로 보고 있는 기억을 변경, 강화 또는 삭제할 수 있습니다.</p>\n<p>이 방법으로 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 5} 상태가 된 피해자는 혼수 상태에 빠지고 영구적으로 의식을 잃게 됩니다. Kemnebi가 살아있는 한, 혼수 상태에 빠진 피해자는 의식을 되찾을 수 없으며, 혼미 상태도 감소하지 않습니다."
         },
         "65rn8RYmcgwdJo5p": {
           "name": "연속 타격",
@@ -2794,7 +2794,7 @@
         },
         "HrJ5JhtYoyiqDvRj": {
           "name": "태양 플레어",
-          "description": "<p>유리 골렘은 스테인드 글라스 프레임을 들고 아래로 기울여, 작품 속의 태양의 이미지가 밝게 빛나 @Template[cone|distance:30]을 비춥니다. 이 빛의 폭발은 해당 영역에 있는 생물에게 @Damage[8d6[fire]]의 피해를 주고, 언데드 생물에게는 @Damage[4d6[vitality]]{4d6}의 추가 생명력 피해를 줍니다. 이 영역에 있는 모든 생물은 @Check[reflex|dc:30|traits:damaging-effect] 내성을 시도해야 합니다. 이 태양 플레어가 마법의 어둠 영역과 겹치면, 어둠의 효과를 무효화하려고 시도합니다 ([[/r 1d20+22 #Counteract]]{+22} 무효화 체크).</p>\n<hr />\n<p><strong>대성공 생물은 영향을 받지 않습니다.</p>\n<p><strong>성공</strong> 생물은 절반의 피해를 받습니다.</p>\n<p><strong>대실패 생물은 전체 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} 상태가 영구적으로 됩니다."
+          "description": "<p>유리 골렘은 스테인드 글라스 프레임을 들고 아래로 기울여, 작품 속의 태양의 이미지가 밝게 빛나 @Template[cone|distance:30]을 비춥니다. 이 빛의 폭발은 해당 영역에 있는 생물에게 @Damage[8d6[fire]]의 피해를 주고, 언데드 생물에게는 @Damage[4d6[vitality]]{4d6}의 추가 생명력 피해를 줍니다. 이 영역에 있는 모든 생물은 @Check[reflex|dc:30|traits:damaging-effect] 내성을 시도해야 합니다. 이 태양 플레어가 마법의 어둠 영역과 겹치면, 어둠의 효과를 무효화하려고 시도합니다 ([[/r 1d20+22 #Counteract]]{+22} 무효화 체크).</p>\n<hr />\n<p><strong>대성공 생물은 영향을 받지 않습니다.</p>\n<p><strong>성공</strong> 생물은 절반의 피해를 받습니다.</p>\n<p><strong>대실패 생물은 전체 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명} 상태가 영구적으로 됩니다."
         }
       }
     },
@@ -2871,7 +2871,7 @@
         },
         "VV1cgiDjco87IMUF": {
           "name": "기억 흡수",
-          "description": "<p><strong>요구 조건</strong> 빈 껍데기는 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{제압된} 상태의 생물을 가지고 있습니다.</p>\n<hr />\n<p><strong>효과</strong> 잡힌 생물의 기억이 빈 공간인 빈 껍데기의 정신으로 흘러들어갑니다. 속이 빈 껍데기는 생물에게 @Damage[3d6[정신]]의 피해를 입히고, 생물은 @Check[will|dc:16|traits:damaging-effect] 내성을 시도해야 합니다. </p>\n<hr />\n<p><strong>대성공</strong> 생물은 영향을 받지 않습니다. </p>\n<p><strong>성공</strong> 생물은 절반의 피해를 받습니다.</p>\n<p><strong>실패</strong> 생물은 전체 피해를 받고 1분 동안 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1} 상태가 됩니다.</p>\n<p><strong>대실패 생물은 전체 피해를 받고 1분 동안 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 2} 상태가 됩니다."
+          "description": "<p><strong>요구 조건</strong> 빈 껍데기는 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속} 상태의 생물을 가지고 있습니다.</p>\n<hr />\n<p><strong>효과</strong> 잡힌 생물의 기억이 빈 공간인 빈 껍데기의 정신으로 흘러들어갑니다. 속이 빈 껍데기는 생물에게 @Damage[3d6[정신]]의 피해를 입히고, 생물은 @Check[will|dc:16|traits:damaging-effect] 내성을 시도해야 합니다. </p>\n<hr />\n<p><strong>대성공</strong> 생물은 영향을 받지 않습니다. </p>\n<p><strong>성공</strong> 생물은 절반의 피해를 받습니다.</p>\n<p><strong>실패</strong> 생물은 전체 피해를 받고 1분 동안 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1} 상태가 됩니다.</p>\n<p><strong>대실패 생물은 전체 피해를 받고 1분 동안 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 2} 상태가 됩니다."
         },
         "8HBRyEneqU4oAH3V": {
           "name": "붙잡기",
@@ -3044,7 +3044,7 @@
         },
         "snTIGb2g7DF1L8wx": {
           "name": "환상의 구타",
-          "description": "<p>코블본 무리의 공간에 있는 각 적들은 @Damage[1d6[bludgeoning],1d6[void]]{1d6 타격 피해와 1d6 공허 피해} (@Check[반사|dc:17|기본])를 받습니다."
+          "description": "<p>코블본 무리의 공간에 있는 각 적들은 @Damage[1d6[bludgeoning],1d6[void]]{1d6 타격 피해와 1d6 공허 피해} (@Check[반사|dc:17|basic])를 받습니다."
         },
         "LpV8movSEB2EyosK": {
           "name": "정착지 경계",
@@ -3105,7 +3105,7 @@
       "items": {
         "ae3SxCMfvZIgesia": {
           "name": "그들을 따돌리세요",
-          "description": "<p><strong>트리거</strong> 데드 페인이 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{동결된}, 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} 상태를 얻습니다.</p>\n<hr />\n<p><strong>효과</strong> 데드 페인은 변장을 벗고 도망칩니다. 그는 트리거 이벤트에 의해 부과된 잡힌, 움직이지 못하게 된, 그리고 구속된 상태를 제거한 후 이동합니다. 데드 페인이 현재 변장 중이라면 그의 변장은 망가지고, 그는 자신의 정체를 드러냅니다.</p>"
+          "description": "<p><strong>트리거</strong> 데드 페인이 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{동결된}, 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속} 상태를 얻습니다.</p>\n<hr />\n<p><strong>효과</strong> 데드 페인은 변장을 벗고 도망칩니다. 그는 트리거 이벤트에 의해 부과된 잡힌, 움직이지 못하게 된, 그리고 구속된 상태를 제거한 후 이동합니다. 데드 페인이 현재 변장 중이라면 그의 변장은 망가지고, 그는 자신의 정체를 드러냅니다.</p>"
         },
         "WGMIZhZMyM5r1alA": {
           "name": "인격 채택",
@@ -3136,7 +3136,7 @@
         },
         "FZwSFqaynmTAfiNW": {
           "name": "무수한 손가락",
-          "description": "<p>팔랑크스의 공간에 있는 다른 모든 생물은 @Damage[1d6[piercing]]의 피해를 받습니다 (@Damage[(1d6+2)[piercing]]의 피해를 받습니다. 무리가 광폭화한 경우) (@Check[반사|dc:17|기본]). 대실패 시, 대상은 팔랑크스에 완전히 고정되어 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} 상태가 되며, @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escapes} (DC 17) 또는 어떤 생물이 2회의 상호 작용 행동을 사용하여 고정된 뼈를 긁어낼 때까지 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} 상태가 유지됩니다."
+          "description": "<p>팔랑크스의 공간에 있는 다른 모든 생물은 @Damage[1d6[piercing]]의 피해를 받습니다 (@Damage[(1d6+2)[piercing]]의 피해를 받습니다. 무리가 광폭화한 경우) (@Check[반사|dc:17|basic]). 대실패 시, 대상은 팔랑크스에 완전히 고정되어 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} 상태가 되며, @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escapes} (DC 17) 또는 어떤 생물이 2회의 상호 작용 행동을 사용하여 고정된 뼈를 긁어낼 때까지 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} 상태가 유지됩니다."
         }
       }
     },
@@ -3676,7 +3676,7 @@
         },
         "EUkVu0jdkqrrm4E4": {
           "name": "피 마시기",
-          "description": "<p><strong>요구 조건</strong> @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비된}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious}, 또는 의지가 있는 생물이 뱀파이어의 손이 닿는 거리에 있습니다.</p>\n<hr />\n<p><strong>효과</strong> 뱀파이어는 그 생물에게 송곳니를 박아 피를 마십니다. 이 경우, 피해자가 잡혀 있는 경우 피해자의 체력 DC에 대해 @Check[athletic|defense:will] 체크가 필요하며, 그 외의 조건에서는 자동으로 성공합니다.</p>\n<p>피해자는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 1} 상태가 되고, 뱀파이어는 @Damage[13[healing]] 체력을 회복하며, 초과 HP는 임시 체력으로 얻습니다. 이미 피를 모두 빼앗긴 생물에게서 피를 마셔도 뱀파이어의 HP는 회복되지 않지만, 피해자의 흡수 값이 1 증가합니다. 뱀파이어는 생명을 유지하기 위해 용기에 담겨진 피도 마실 수 있지만, 그렇게 해도 HP는 회복되지 않습니다. 피해자의 흡수 상태는 매주 1씩 감소합니다. @Check[medicine|dc:20|name:Blood Transfusion] 체크와 충분한 혈액 또는 헌혈자가 필요한 수혈을 받으면 10분 후에 흡수량이 1 감소합니다."
+          "description": "<p><strong>요구 조건</strong> @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비된}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious}, 또는 의지가 있는 생물이 뱀파이어의 손이 닿는 거리에 있습니다.</p>\n<hr />\n<p><strong>효과</strong> 뱀파이어는 그 생물에게 송곳니를 박아 피를 마십니다. 이 경우, 피해자가 잡혀 있는 경우 피해자의 체력 DC에 대해 @Check[athletic|defense:will] 체크가 필요하며, 그 외의 조건에서는 자동으로 성공합니다.</p>\n<p>피해자는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 1} 상태가 되고, 뱀파이어는 @Damage[13[healing]] 체력을 회복하며, 초과 HP는 임시 체력으로 얻습니다. 이미 피를 모두 빼앗긴 생물에게서 피를 마셔도 뱀파이어의 HP는 회복되지 않지만, 피해자의 흡수 값이 1 증가합니다. 뱀파이어는 생명을 유지하기 위해 용기에 담겨진 피도 마실 수 있지만, 그렇게 해도 HP는 회복되지 않습니다. 피해자의 흡수 상태는 매주 1씩 감소합니다. @Check[medicine|dc:20|name:Blood Transfusion] 체크와 충분한 혈액 또는 헌혈자가 필요한 수혈을 받으면 10분 후에 흡수량이 1 감소합니다."
         },
         "Jq2usNoNnsU6K6FR": {
           "name": "몰래 공격",
@@ -3699,7 +3699,7 @@
       "items": {
         "RRtEbi7LCsYVcq0p": {
           "name": "얽히는 그물",
-          "description": "<p>Sallowdrudge는 자신의 그물을 사용하여 30피트 이내의 중간 크기 또는 더 작은 생물을 @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple}합니다. 성공 시, 대상은 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 상태가 되며, 탈출(DC 16)하거나 인접한 생물이 그물을 제거할 때까지 지속됩니다. 크리티컬 히트 시, 대상은 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} 상태가 되며, 잡히지 않습니다. Sallowdrudge는 그물을 다시 펼치는 데 1분이 소요될 때까지 Entangling Net을 다시 사용할 수 없습니다.</p>"
+          "description": "<p>Sallowdrudge는 자신의 그물을 사용하여 30피트 이내의 중간 크기 또는 더 작은 생물을 @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple}합니다. 성공 시, 대상은 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 상태가 되며, 탈출(DC 16)하거나 인접한 생물이 그물을 제거할 때까지 지속됩니다. 크리티컬 히트 시, 대상은 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속} 상태가 되며, 잡히지 않습니다. Sallowdrudge는 그물을 다시 펼치는 데 1분이 소요될 때까지 Entangling Net을 다시 사용할 수 없습니다.</p>"
         },
         "YvpiKlId2of8rjcZ": {
           "name": "Spear Fisher",

@@ -16,7 +16,7 @@
         },
         "pydkk6U2LVFlha3A": {
           "name": "드래곤 칠",
-          "description": "<p>5 피트. @Damage[2d6[추위]] 피해 (@체크[반사|dc:27|기본] 내성)</p>"
+          "description": "<p>5 피트. @Damage[2d6[추위]] 피해 (@체크[반사|dc:27|basic] 내성)</p>"
         },
         "y0vt5wkSLNErceZF": {
           "name": "얼어붙은 피",
@@ -417,7 +417,7 @@
         },
         "pSi2yAlBjhVTBwq8": {
           "name": "파멸의 춤",
-          "description": "<p>vrock은 비행 중 춤을 추며 주문을 외워 파괴적인 전기 폭발을 일으킵니다. 30피트 이내에 더 많은 vrock이 춤에 참여하려는 경우, vrock은 춤을 지연시켜 더 많은 vrock을 기다릴 수 있습니다. 이 경우 효과는 마지막 vrock이 Dance of Ruin을 사용하거나 vrock 중 하나가 해당 라운드의 춤을 완료할 때까지 발생합니다. 춤추는 브록으로부터 @Template[emanation|distance:20] 내에 있는 악마가 아닌 모든 생물은 @Damage[2d12[electricity]]의 피해를 받습니다 (@Check[reflex|dc:28|basic] 내성). 춤에 참여하는 브록이 하나 추가될 때마다 피해는 1d12씩 증가하고 내성 DC는 1씩 증가합니다 (최대 4개의 브록이 DC 31의 내성을 가진 5d12의 전기 피해를 입힙니다). 브록은 매 라운드마다 Dance of Ruin을 사용하여 총 3 라운드까지 춤을 계속할 수 있습니다. 발산 크기는 매 라운드마다 20 피트씩 증가하고, 피해는 매 라운드마다 브록 1 마리당 1d12씩 증가합니다. </p>\n<hr />\n<ul>\n<li><strong>1 Vrock Dancing</strong>\n<table class=\"pf2e\">\n<thead>\n<tr>\n<th>라운드</th>\n<th>효과</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>@Template[emanation|distance:20] @Damage[2d12[electricity]] 피해 @Check[반사|dc:28|기본]</td>\n</tr>\n<tr>\n<td>2</td>\n<td>@Template[emanation|distance:40] @Damage[3d12[electricity]] 피해 @Check[반사|dc:28|기본]</td>\n</tr>\n<tr>\n<td>3</td>\n<td>@Template[emanation|distance:60] @Damage[4d12[electricity]] 피해 @Check[반사|dc:28|기본]</td>\n</tr>\n</tbody>\n</table>\n</li>\n<li><strong>2 Vrocks Dancing</strong>\n<table class=\"pf2e\">\n<thead>\n<tr>\n<th>라운드</th>\n<th>효과</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>@Template[emanation|distance:20] @Damage[3d12[electricity]] 피해 @Check[reflex|dc:29|basic]</td>\n</tr>\n<tr>\n<td>2</td>\n<td>@Template[emanation|distance:40] @Damage[5d12[electricity]] 피해 @Check[반사|dc:29|기본]</td>\n</tr>\n<tr>\n<td>3</td>\n<td>@Template[emanation|distance:60] @Damage[7d12[electricity]] 피해 @Check[reflex|dc:29|basic]</td>\n</tr>\n</tbody>\n</table>\n</li>\n<li><strong>3 Vrocks Dancing</strong>\n<table class=\"pf2e\">\n<thead>\n<tr>\n<th>라운드</th>\n<th>효과</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>@Template[emanation|distance:20] @Damage[4d12[electricity]] 피해 @Check[반사|dc:30|기본]</td>\n</tr>\n<tr>\n<td>2</td>\n<td>@Template[emanation|distance:40] @Damage[7d12[electricity]] 피해 @Check[반사|dc:30|기본]</td>\n</tr>\n<tr>\n<td>3</td>\n<td>@Template[emanation|distance:60] @Damage[10d12[electricity]] 피해 @Check[반사|dc:30|기본]</td>\n</tr>\n</tbody>\n</table>\n</li>\n<li><strong>4 Vrocks Dancing</strong>\n<table class=\"pf2e\">\n<thead>\n<tr>\n<th>라운드</th>\n<th>효과</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>@Template[emanation|distance:20] @Damage[5d12[electricity]] 피해 @Check[반사|dc:31|기본]</td>\n</tr>\n<tr>\n<td>2</td>\n<td>@Template[emanation|distance:40] @Damage[9d12[electricity]] 피해 @Check[반사|dc:31|기본]</td>\n</tr>\n<tr>\n<td>3</td>\n<td>@Template[emanation|distance:60] @Damage[13d12[electricity]] damage @Check[reflex|dc:31|basic]</td>\n</tr>\n</tbody>\n</table>\n</li>\n</ul>"
+          "description": "<p>vrock은 비행 중 춤을 추며 주문을 외워 파괴적인 전기 폭발을 일으킵니다. 30피트 이내에 더 많은 vrock이 춤에 참여하려는 경우, vrock은 춤을 지연시켜 더 많은 vrock을 기다릴 수 있습니다. 이 경우 효과는 마지막 vrock이 Dance of Ruin을 사용하거나 vrock 중 하나가 해당 라운드의 춤을 완료할 때까지 발생합니다. 춤추는 브록으로부터 @Template[emanation|distance:20] 내에 있는 악마가 아닌 모든 생물은 @Damage[2d12[electricity]]의 피해를 받습니다 (@Check[reflex|dc:28|basic] 내성). 춤에 참여하는 브록이 하나 추가될 때마다 피해는 1d12씩 증가하고 내성 DC는 1씩 증가합니다 (최대 4개의 브록이 DC 31의 내성을 가진 5d12의 전기 피해를 입힙니다). 브록은 매 라운드마다 Dance of Ruin을 사용하여 총 3 라운드까지 춤을 계속할 수 있습니다. 발산 크기는 매 라운드마다 20 피트씩 증가하고, 피해는 매 라운드마다 브록 1 마리당 1d12씩 증가합니다. </p>\n<hr />\n<ul>\n<li><strong>1 Vrock Dancing</strong>\n<table class=\"pf2e\">\n<thead>\n<tr>\n<th>라운드</th>\n<th>효과</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>@Template[emanation|distance:20] @Damage[2d12[electricity]] 피해 @Check[반사|dc:28|basic]</td>\n</tr>\n<tr>\n<td>2</td>\n<td>@Template[emanation|distance:40] @Damage[3d12[electricity]] 피해 @Check[반사|dc:28|basic]</td>\n</tr>\n<tr>\n<td>3</td>\n<td>@Template[emanation|distance:60] @Damage[4d12[electricity]] 피해 @Check[반사|dc:28|basic]</td>\n</tr>\n</tbody>\n</table>\n</li>\n<li><strong>2 Vrocks Dancing</strong>\n<table class=\"pf2e\">\n<thead>\n<tr>\n<th>라운드</th>\n<th>효과</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>@Template[emanation|distance:20] @Damage[3d12[electricity]] 피해 @Check[reflex|dc:29|basic]</td>\n</tr>\n<tr>\n<td>2</td>\n<td>@Template[emanation|distance:40] @Damage[5d12[electricity]] 피해 @Check[반사|dc:29|basic]</td>\n</tr>\n<tr>\n<td>3</td>\n<td>@Template[emanation|distance:60] @Damage[7d12[electricity]] 피해 @Check[reflex|dc:29|basic]</td>\n</tr>\n</tbody>\n</table>\n</li>\n<li><strong>3 Vrocks Dancing</strong>\n<table class=\"pf2e\">\n<thead>\n<tr>\n<th>라운드</th>\n<th>효과</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>@Template[emanation|distance:20] @Damage[4d12[electricity]] 피해 @Check[반사|dc:30|basic]</td>\n</tr>\n<tr>\n<td>2</td>\n<td>@Template[emanation|distance:40] @Damage[7d12[electricity]] 피해 @Check[반사|dc:30|basic]</td>\n</tr>\n<tr>\n<td>3</td>\n<td>@Template[emanation|distance:60] @Damage[10d12[electricity]] 피해 @Check[반사|dc:30|basic]</td>\n</tr>\n</tbody>\n</table>\n</li>\n<li><strong>4 Vrocks Dancing</strong>\n<table class=\"pf2e\">\n<thead>\n<tr>\n<th>라운드</th>\n<th>효과</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>@Template[emanation|distance:20] @Damage[5d12[electricity]] 피해 @Check[반사|dc:31|basic]</td>\n</tr>\n<tr>\n<td>2</td>\n<td>@Template[emanation|distance:40] @Damage[9d12[electricity]] 피해 @Check[반사|dc:31|basic]</td>\n</tr>\n<tr>\n<td>3</td>\n<td>@Template[emanation|distance:60] @Damage[13d12[electricity]] damage @Check[reflex|dc:31|basic]</td>\n</tr>\n</tbody>\n</table>\n</li>\n</ul>"
         },
         "rCo3WVukDgsbPhLD": {
           "name": "포자 구름",
@@ -671,7 +671,7 @@
         },
         "iE5eD6UZECDALlPI": {
           "name": "불꽃의 오라",
-          "description": "<p>20 피트. 오라 내에서 턴을 시작하는 적은 @Damage[(3d6+10)[fire]]의 피해를 받거나, 발루어가 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 또는 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}를 가지고 있는 경우 @Damage[(6d6+20)[fire 피해를 받습니다. 발로르가 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} 상태인 경우. 무기로 발로를 공격한 생물은 @Damage[(3d6+10)[fire]]의 피해를 받고, 발로를 공격한 무기는 @Damage[(3d6+10)[fire]]의 피해를 받습니다."
+          "description": "<p>20 피트. 오라 내에서 턴을 시작하는 적은 @Damage[(3d6+10)[fire]]의 피해를 받거나, 발루어가 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 또는 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}를 가지고 있는 경우 @Damage[(6d6+20)[fire 피해를 받습니다. 발로르가 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속} 상태인 경우. 무기로 발로를 공격한 생물은 @Damage[(3d6+10)[fire]]의 피해를 받고, 발로를 공격한 무기는 @Damage[(3d6+10)[fire]]의 피해를 받습니다."
         },
         "zgR8Rwk8qwhkLVy6": {
           "name": "죽음의 고통",
@@ -1213,7 +1213,7 @@
         },
         "lBuNOTGbx6zBFceT": {
           "name": "사막의 바람",
-          "description": "<p><strong>빈도</strong> 하루에 세 번</p>\n<hr />\n<p><strong>효과</strong> 용은 사막의 바람을 불러옵니다. 이는 @UUID[Compendium.pf2e.spells-srd.Item.g8QqHpv2CWDwmIm1]{Gust of Wind} (@Check[fortitude|dc:30]) 하지만 @Template[cone|distance:60] 범위 내에서만 적용됩니다. </p>\n<p>내성에 실패한 생물은 다음 턴이 끝날 때까지 (대실패의 경우 1분 동안) @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} 상태가 됩니다."
+          "description": "<p><strong>빈도</strong> 하루에 세 번</p>\n<hr />\n<p><strong>효과</strong> 용은 사막의 바람을 불러옵니다. 이는 @UUID[Compendium.pf2e.spells-srd.Item.g8QqHpv2CWDwmIm1]{Gust of Wind} (@Check[fortitude|dc:30]) 하지만 @Template[cone|distance:60] 범위 내에서만 적용됩니다. </p>\n<p>내성에 실패한 생물은 다음 턴이 끝날 때까지 (대실패의 경우 1분 동안) @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명} 상태가 됩니다."
         }
       }
     },
@@ -1706,7 +1706,7 @@
         },
         "lBuNOTGbx6zBFceT": {
           "name": "사막의 바람",
-          "description": "<p><strong>빈도</strong> 하루에 세 번</p>\n<hr />\n<p><strong>효과</strong> 용은 사막의 바람을 소환합니다. 이는 @UUID[Compendium.pf2e.spells-srd.Item.g8QqHpv2CWDwmIm1]{Gust of Wind} (@Check[fortitude|dc:30])와 동일한 효과를 발휘하지만, @Template[cone|distance:60] 범위 내에서만 유효합니다. </p>\n<p>내성 체크에 실패한 생물은 다음 턴이 끝날 때까지 (대실패의 경우 1분 동안) @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} 상태가 됩니다."
+          "description": "<p><strong>빈도</strong> 하루에 세 번</p>\n<hr />\n<p><strong>효과</strong> 용은 사막의 바람을 소환합니다. 이는 @UUID[Compendium.pf2e.spells-srd.Item.g8QqHpv2CWDwmIm1]{Gust of Wind} (@Check[fortitude|dc:30])와 동일한 효과를 발휘하지만, @Template[cone|distance:60] 범위 내에서만 유효합니다. </p>\n<p>내성 체크에 실패한 생물은 다음 턴이 끝날 때까지 (대실패의 경우 1분 동안) @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명} 상태가 됩니다."
         },
         "oeg1zG9t1NO1R9l3": {
           "name": "드래곤의 광란",
@@ -1895,7 +1895,7 @@
         },
         "pydkk6U2LVFlha3A": {
           "name": "드래곤 칠",
-          "description": "<p>5 피트. @Damage[2d6[추위]] 피해 (@체크[반사|dc:27|기본] 내성)</p>"
+          "description": "<p>5 피트. @Damage[2d6[추위]] 피해 (@체크[반사|dc:27|basic] 내성)</p>"
         },
         "y0vt5wkSLNErceZF": {
           "name": "얼어붙은 피",
@@ -3074,7 +3074,7 @@
         },
         "WX7zOVpbKUqeICJ0": {
           "name": "사막의 바람",
-          "description": "<p><strong>빈도</strong> 하루에 세 번</p>\n<hr />\n<p><strong>효과</strong> 용은 사막의 바람을 소환합니다. 이는 @UUID[Compendium.pf2e.spells-srd.Item.g8QqHpv2CWDwmIm1]{바람의 돌풍}과 동일한 효과를 가집니다. (@Check[fortitude|dc:37])와 동일한 효과를 발휘하지만, @Template[cone|distance:60] 범위 내에서만 유효합니다. </p>\n<p>내성 체크에 실패한 생물은 다음 턴이 끝날 때까지 (대실패의 경우 1분 동안) @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} 상태가 됩니다."
+          "description": "<p><strong>빈도</strong> 하루에 세 번</p>\n<hr />\n<p><strong>효과</strong> 용은 사막의 바람을 소환합니다. 이는 @UUID[Compendium.pf2e.spells-srd.Item.g8QqHpv2CWDwmIm1]{바람의 돌풍}과 동일한 효과를 가집니다. (@Check[fortitude|dc:37])와 동일한 효과를 발휘하지만, @Template[cone|distance:60] 범위 내에서만 유효합니다. </p>\n<p>내성 체크에 실패한 생물은 다음 턴이 끝날 때까지 (대실패의 경우 1분 동안) @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명} 상태가 됩니다."
         },
         "YAjAjrcDtGXjLBD7": {
           "name": "드래곤의 광란",
@@ -3097,7 +3097,7 @@
         },
         "P0Q4Hgs9e8hwRX5G": {
           "name": "Envelop",
-          "description": "<p>클로커는 인접한 생물의 반사 DC에 대해 [[/r 1d20+14 #Envelop Attack]]{+14 보너스}로 공격 굴림을 합니다. 성공하면, 클로커는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} 상태가 된 대상을 감쌉니다. 감싸는 클로커를 명중한 공격은 피해의 절반을 클로커에게, 나머지 절반은 갇힌 희생자에게 입힙니다. 클로커는 날지 못하며, 지상 속도로 이동할 때 감싸고 있는 생물도 함께 이동합니다. 클로커는 제압된 생물에게는 턱 공격만 할 수 있지만, 다른 생물에게는 꼬리 공격을 할 수 있습니다. 클로커는 대형 이하의 생물만 포위할 수 있으며, 한 번에 한 마리만 포위할 수 있습니다.</p>"
+          "description": "<p>클로커는 인접한 생물의 반사 DC에 대해 [[/r 1d20+14 #Envelop Attack]]{+14 보너스}로 공격 굴림을 합니다. 성공하면, 클로커는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속} 상태가 된 대상을 감쌉니다. 감싸는 클로커를 명중한 공격은 피해의 절반을 클로커에게, 나머지 절반은 갇힌 희생자에게 입힙니다. 클로커는 날지 못하며, 지상 속도로 이동할 때 감싸고 있는 생물도 함께 이동합니다. 클로커는 제압된 생물에게는 턱 공격만 할 수 있지만, 다른 생물에게는 꼬리 공격을 할 수 있습니다. 클로커는 대형 이하의 생물만 포위할 수 있으며, 한 번에 한 마리만 포위할 수 있습니다.</p>"
         },
         "7DB79rjng9ShAwNU": {
           "name": "초음파 신음",
@@ -3283,7 +3283,7 @@
         },
         "XZcafYrLS6wcyUVG": {
           "name": "눈을 태우다",
-          "description": "<p>겔겔거리는 입의 침으로 피해를 받은 생물은 @Check[fortitude|dc:22] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} 상태가 됩니다. 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} (대실패 시 1 라운드 동안) 상태가 됩니다. </p>"
+          "description": "<p>겔겔거리는 입의 침으로 피해를 받은 생물은 @Check[fortitude|dc:22] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} 상태가 됩니다. 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명} (대실패 시 1 라운드 동안) 상태가 됩니다. </p>"
         },
         "N5NccQ5JtdXMWjA9": {
           "name": "Engulf",
@@ -3907,7 +3907,7 @@
         },
         "WX7zOVpbKUqeICJ0": {
           "name": "사막의 바람",
-          "description": "<p><strong>빈도</strong> 하루에 세 번</p>\n<hr />\n<p><strong>효과</strong> 용은 사막의 바람을 소환합니다. 이는 @UUID[Compendium.pf2e.spells-srd.Item.g8QqHpv2CWDwmIm1]{바람의 돌풍}과 동일한 효과를 가집니다. (@Check[fortitude|dc:37])와 동일한 효과를 발휘하지만, @Template[cone|distance:60] 범위 내에서만 유효합니다. </p>\n<p>내성에 실패한 생물은 다음 턴이 끝날 때까지 (대실패의 경우 1분 동안) @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} 상태가 됩니다."
+          "description": "<p><strong>빈도</strong> 하루에 세 번</p>\n<hr />\n<p><strong>효과</strong> 용은 사막의 바람을 소환합니다. 이는 @UUID[Compendium.pf2e.spells-srd.Item.g8QqHpv2CWDwmIm1]{바람의 돌풍}과 동일한 효과를 가집니다. (@Check[fortitude|dc:37])와 동일한 효과를 발휘하지만, @Template[cone|distance:60] 범위 내에서만 유효합니다. </p>\n<p>내성에 실패한 생물은 다음 턴이 끝날 때까지 (대실패의 경우 1분 동안) @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명} 상태가 됩니다."
         }
       }
     },
@@ -4283,7 +4283,7 @@
         },
         "UVREJWrU0MjhSxLs": {
           "name": "변형 해부학",
-          "description": "<p>변형자의 중요한 장기는 끊임없이 모양과 위치를 변화합니다. 변형자가 산, 전기, 음파 피해를 받은 직후, 해당 피해 유형에 대해 나열된 양의 저항력을 얻습니다. 이 효과는 1시간 동안 지속되거나, 프로테안이 다른 유형의 피해를 입을 때까지 지속됩니다(이 경우 저항력이 해당 유형에 맞게 변경됨). 프로테안은 자발적으로 대상이 되지 않는 한, 다형 효과에 면역입니다. @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} 또는 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened} 상태일 경우, 프로테안은 다음 턴 종료 시 손상된 감각 기관을 대체하는 새로운 감각 기관이 성장하여 자동으로 회복됩니다.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.c6SiBB3mzV8lZUQr]{효과: 변형 해부학}</p>"
+          "description": "<p>변형자의 중요한 장기는 끊임없이 모양과 위치를 변화합니다. 변형자가 산, 전기, 음파 피해를 받은 직후, 해당 피해 유형에 대해 나열된 양의 저항력을 얻습니다. 이 효과는 1시간 동안 지속되거나, 프로테안이 다른 유형의 피해를 입을 때까지 지속됩니다(이 경우 저항력이 해당 유형에 맞게 변경됨). 프로테안은 자발적으로 대상이 되지 않는 한, 다형 효과에 면역입니다. @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명} 또는 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened} 상태일 경우, 프로테안은 다음 턴 종료 시 손상된 감각 기관을 대체하는 새로운 감각 기관이 성장하여 자동으로 회복됩니다.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.c6SiBB3mzV8lZUQr]{효과: 변형 해부학}</p>"
         },
         "zoTuvqovtFZqbEp6": {
           "name": "적응형 타격",
@@ -4735,7 +4735,7 @@
         },
         "v8yr3bjEd1JafWFX": {
           "name": "Breath Weapon",
-          "description": "<p>은룡은 두 가지 방법으로 숨을 내뿜습니다.</p>\n<p>용은 [[/gmr 1d4 #Breath Weapon 재충전]]{1d4 라운드} 동안 숨기 무기를 다시 사용할 수 없습니다.</p><ul><li><strong>얼음</strong> (마법, 추위) 드래곤은 @Template[원뿔|거리:40]에 서리 구름을 내뿜어 @Damage[15d6[추위]|옵션:지역 피해]의 피해를 입힙니다 (@Check[반사|dc:35|기본|특성:비전, 추위|옵션:지역 효과] 내성).</li><li><strong>마비 가스</strong> (비전, 무력화) 드래곤은 마비 가스를 분출합니다. @Template[cone|distance:40] 내에 있는 모든 생물은 @Check[fortitude|dc:35|traits:arcane,incapacitation|options:area-effect] 내성 또는 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 2} 1 라운드 동안 (또는 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비} 2 라운드 동안 대실패 시).</li></ul>"
+          "description": "<p>은룡은 두 가지 방법으로 숨을 내뿜습니다.</p>\n<p>용은 [[/gmr 1d4 #Breath Weapon 재충전]]{1d4 라운드} 동안 숨기 무기를 다시 사용할 수 없습니다.</p><ul><li><strong>얼음</strong> (마법, 추위) 드래곤은 @Template[원뿔|거리:40]에 서리 구름을 내뿜어 @Damage[15d6[추위]|옵션:지역 피해]의 피해를 입힙니다 (@Check[반사|dc:35|basic|특성:비전, 추위|옵션:지역 효과] 내성).</li><li><strong>마비 가스</strong> (비전, 무력화) 드래곤은 마비 가스를 분출합니다. @Template[cone|distance:40] 내에 있는 모든 생물은 @Check[fortitude|dc:35|traits:arcane,incapacitation|options:area-effect] 내성 또는 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 2} 1 라운드 동안 (또는 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비} 2 라운드 동안 대실패 시).</li></ul>"
         }
       }
     },
