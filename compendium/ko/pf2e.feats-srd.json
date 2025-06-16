@@ -760,7 +760,7 @@
     },
     "Orc Warmask": {
       "name": "오크 워마스크",
-      "description": "<p>얼굴을 칠하여 자신의 레벨과 같은 아이템 레벨과 착용(마스크) 용도를 가진 무시할 수 있는 벌크의 투자 마법 아이템인 <em>@UUID[Compendium.pf2e.equipment-srd.Item.ZEDDVQDtUZ2qOB5q]{워마스크}</em> 를 생성합니다. 종류에 따라 점술 특성과 마법 전통 특성이 있습니다. <em> 따뜻한 마스크</em> 를 착용하거나 벗는 데는 1분 정도의 작업이 필요하지만, 매번 마스크를 투자할 필요는 없습니다. <em> 워마스크</em> 는 나만의 고유한 것으로서, 보유, 업적 또는 신앙을 상징할 수 있습니다. 마스크를 만드는 동안 아래 옵션에서 <em>warmask</em> 의 파워 소스를 선택해야 합니다. 이 소스는 마스크의 관련 기술과 마법의 전통을 결정합니다. 이 소스는 한 번 선택하면 변경할 수 없습니다. 관련 기술을 훈련받게 되며, 보너스 재주로 @UUID[Compendium.pf2e.feats-srd.Item.1Bt7uCW2WI4sM84P]{의문의 지식} 기술 재주를 얻습니다. 1시간 동안 50 경험치를 소모하는 의식을 수행하여 <em>워마스크(</em>)로 자신을 더 깊이 조율할 수 있습니다. 그렇게 하면, <em>방한복</em> 을 착용할 때마다 관련 기술에 +1 아이템 보너스를 받습니다.</p>\n<hr />\n<ul>\n<li><strong>신</strong> 종교, 신성한 전통</li>\n<li><strong> 대지</strong> 자연, 원시적 전통</li>\n<li><strong> 마법</strong> 아르카나, 비전 전통</li>\n<li><strong> 미지의 세계</strong> 신비주의, 오컬트 전통</li>\n</ul>"
+      "description": "<p>얼굴을 칠하여 자신의 레벨과 같은 아이템 레벨과 착용(마스크) 용도를 가진 무시할 수 있는 벌크의 투자 마법 아이템인 <em>@UUID[Compendium.pf2e.equipment-srd.Item.ZEDDVQDtUZ2qOB5q]{워마스크}</em> 를 생성합니다. 종류에 따라 점술 특성과 마법 전통 특성이 있습니다. <em> 따뜻한 마스크</em> 를 착용하거나 벗는 데는 1분 정도의 작업이 필요하지만, 매번 마스크를 투자할 필요는 없습니다. <em> 워마스크</em> 는 나만의 고유한 것으로서, 보유, 업적 또는 신앙을 상징할 수 있습니다. 마스크를 만드는 동안 아래 옵션에서 <em>warmask</em> 의 파워 소스를 선택해야 합니다. 이 소스는 마스크의 관련 기술과 마법의 전통을 결정합니다. 이 소스는 한 번 선택하면 변경할 수 없습니다. 관련 기술을 훈련받게 되며, 보너스 재주로 @UUID[Compendium.pf2e.feats-srd.Item.1Bt7uCW2WI4sM84P]{의문의 지식} 기술 재주를 얻습니다. 1시간 동안 50 경험치를 소모하는 의식을 수행하여 <em>워마스크(</em>)로 자신을 더 깊이 조율할 수 있습니다. 그렇게 하면, <em>방한복</em> 을 착용할 때마다 관련 기술에 +1 아이템 보너스를 받습니다.</p>\n<hr />\n<ul>\n<li><strong>신</strong> 종교, 신성한 전통</li>\n<li><strong> 대지</strong> 자연, 원시적 전통</li>\n<li><strong> 마법</strong> 주문학, 비전 전통</li>\n<li><strong> 미지의 세계</strong> 신비주의, 오컬트 전통</li>\n</ul>"
     },
     "Hijack Undead": {
       "name": "언데드 납치",
@@ -1344,7 +1344,7 @@
     },
     "Thundering Surge": {
       "name": "천둥 같은 서지",
-      "description": "<p><strong>요건</strong> 당신의 @UUID[Compendium.pf2e.spells-srd.Item.XIgvCPaSy5WXStVD]{Spellsurge} 오라가 활성화되어 있습니다.</p><hr /><p>과도한 에너지가 폭발하여 천둥 같은 파동을 일으킵니다. 다음 행동이 주문을 시전하는 것이라면 @Check[flat|dc:5|showDC:all]을 시도합니다.</p> <p><strong>대성공</strong> 주문의 대상을 중심으로 @Template[burst|distance:10]{10피트 반경 폭발} 안에 있거나 주문의 효과 범위 안에 있는 적이 @Damage[(2*@액터.레벨)[음파]|옵션:영역 피해]{음파 피해}를 자신의 레벨의 2배만큼 받습니다(@Check[내성|대적:직업 주문|basic|옵션:영역 효과] 직업 DC 또는 주문 DC 중 더 높은 값에 대한 내성 굴림). 내성에 실패하면 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드린}.</p> <p><strong>성공</strong> 주문 대상을 중심으로 반경 10피트 내에 있는 적이나 주문의 효과 범위 내에 있는 적이 @Damage[(@액터.레벨)[음파]|옵션:범위 피해]{음파 피해}만큼 자신의 레벨(직업 DC 또는 주문 DC 중 높은 값에 대한 기본 내성 굴림 효과)에 해당하는 피해를 입습니다(기본 내성 굴림 효과는 자신의 직업 DC와 주문 DC 중 더 높습니다). 대실패하면 기절합니다.</p> <p><strong>실패</strong> 자신을 중심으로 10피트 반경 내의 모든 생물이 자신의 레벨(직업 DC 또는 주문 DC 중 높은 값에 대한 기본 내성 구슬 굴림)만큼 음파 피해를 받습니다. 내성에 실패한 생명체도 기절합니다.</p> </p>"
+      "description": "<p><strong>요건</strong> 당신의 @UUID[Compendium.pf2e.spells-srd.Item.XIgvCPaSy5WXStVD]{Spellsurge} 오라가 활성화되어 있습니다.</p><hr /><p>과도한 에너지가 폭발하여 천둥 같은 파동을 일으킵니다. 다음 행동이 주문을 시전하는 것이라면 @Check[flat|dc:5|showDC:all]을 시도합니다.</p> <p><strong>대성공</strong> 주문의 대상을 중심으로 @Template[burst|distance:10]{10피트 반경 폭발} 안에 있거나 주문의 효과 범위 안에 있는 적이 @Damage[(2*@액터.레벨)[음파]|옵션:영역 피해]{음파 피해}를 자신의 레벨의 2배만큼 받습니다(@Check[fortitude|대적:직업 주문|basic|옵션:영역 효과] 직업 DC 또는 주문 DC 중 더 높은 값에 대한 내성 굴림). 내성에 실패하면 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드린}.</p> <p><strong>성공</strong> 주문 대상을 중심으로 반경 10피트 내에 있는 적이나 주문의 효과 범위 내에 있는 적이 @Damage[(@액터.레벨)[음파]|옵션:범위 피해]{음파 피해}만큼 자신의 레벨(직업 DC 또는 주문 DC 중 높은 값에 대한 기본 내성 굴림 효과)에 해당하는 피해를 입습니다(기본 내성 굴림 효과는 자신의 직업 DC와 주문 DC 중 더 높습니다). 대실패하면 기절합니다.</p> <p><strong>실패</strong> 자신을 중심으로 10피트 반경 내의 모든 생물이 자신의 레벨(직업 DC 또는 주문 DC 중 높은 값에 대한 기본 내성 구슬 굴림)만큼 음파 피해를 받습니다. 내성에 실패한 생명체도 기절합니다.</p> </p>"
     },
     "Spy's Countermeasures": {
       "name": "스파이의 대응책",
@@ -1615,8 +1615,8 @@
       "description": "<p>다음 행동으로 @UUID[Compendium.pf2e.spells-srd.Item.Yph1UqZU8vMc9bJG]{정령 격퇴}를 사용하면, 그 정령이 자신을 중심으로 @Template[type:emanation|distance:10]에서 화려한 색, 빛, 소리를 방출하게 할 수 있습니다. 해당 구역에 있는 모든 생물은 자신의 직업 DC 또는 주문 DC에 대해 @Check[fortitude|against:class-spell] 내성을 시도하고 다음과 같은 결과를 얻어야 합니다.</p><hr /><p><strong>대성공</strong> 생물은 영향을 받지 않습니다.</p> <p><strong>성공</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{눈부신}을 1라운드 동안 받았습니다.</p> <p><strong>실패</strong> 생물은 1분 동안 눈부심에 빠졌습니다.</p> <p><strong>대실패 실패</strong> 이 생물은 1라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명}에 걸려 1분 동안 현혹됩니다.</p> <p><strong>이 생물은 1라운드 동안 눈멀음에 걸려 1분 동안 눈멀음에 걸려 1분 동안 눈멀음에 걸려 있습니다.</p>"
     },
     "Gnome Weapon Familiarity": {
-      "name": "그놈 무기 패밀리어",
-      "description": "<p>구부러지고 특이한 모양의 칼날과 같이 종족에게 묶인 특이한 무기를 선호합니다. 쿠크리와 그놈 특성을 가진 모든 희귀 무기를 사용할 수 있습니다. 노움 특성이 있는 무기와 글레이브, 쿠크리를 패밀리어로 사용하며, 숙련도를 위해 이 중 일반 무기인 것은 일반 무기로, 고급 무기인 것은 고급 무기로 취급합니다.</p>\n<p>5레벨이 되면 이 무기 중 하나로 치명타를 맞을 때마다 치명타 전문화 효과를 얻습니다.</p>"
+      "name": "노움 무기 패밀리어",
+      "description": "<p>구부러지고 특이한 모양의 칼날과 같이 종족에게 묶인 특이한 무기를 선호합니다. 쿠크리와 노움 특성을 가진 모든 희귀 무기를 사용할 수 있습니다. 노움 특성이 있는 무기와 글레이브, 쿠크리를 패밀리어로 사용하며, 숙련도를 위해 이 중 일반 무기인 것은 일반 무기로, 고급 무기인 것은 고급 무기로 취급합니다.</p>\n<p>5레벨이 되면 이 무기 중 하나로 치명타를 맞을 때마다 치명타 전문화 효과를 얻습니다.</p>"
     },
     "Towering Transformation": {
       "name": "우뚝 솟은 변신",
@@ -1676,7 +1676,7 @@
     },
     "Poultice Preparation": {
       "name": "파스 준비",
-      "description": "<p>허브 엘릭서를 만들 때, 대신 파스로 준비할 수 있습니다. 파스는 기름 특성을 얻지만(마법 특성이 아닌 연금술 특성을 유지합니다), 엘릭서와 섭취한 특성은 잃게 됩니다. 파스는 한 손으로 @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{대화 중}으로 붙일 수 있습니다.</p>\n<p>파스를 붙이면 아이템의 일반 효과에 더해, 받는 사람은 즉시 플랫 체크를 시도하여 지속적인 산, 출혈, 화재 피해를 회복하고 적절한 지원을 통해 감소하는 DC를 받을 수 있습니다.</p>"
+      "description": "<p>허브 엘릭서를 만들 때, 대신 파스로 준비할 수 있습니다. 파스는 기름 특성을 얻지만(마법 특성이 아닌 연금술 특성을 유지합니다), 엘릭서와 섭취한 특성은 잃게 됩니다. 파스는 한 손으로 @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{상호작용}으로 붙일 수 있습니다.</p>\n<p>파스를 붙이면 아이템의 일반 효과에 더해, 받는 사람은 즉시 플랫 체크를 시도하여 지속적인 산, 출혈, 화재 피해를 회복하고 적절한 지원을 통해 감소하는 DC를 받을 수 있습니다.</p>"
     },
     "Waking Dream": {
       "name": "깨어 있는 꿈",
@@ -1764,7 +1764,7 @@
     },
     "Snarecrafter Dedication": {
       "name": "스네어 크래프터 헌신",
-      "description": "<p>올무는 무료로 제한된 개수만 만들 수 있습니다. 매일 일일 준비 중에 공식 책에서 4개의 올무를 준비하여 빠르게 배치할 수 있으며, 일반적으로 @UUID[Compendium.pf2e.actionspf2e.Item.rmwa3OyhTZ2i2AHl]{제작}에 1분 걸리는 올무를 3개의 @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{인터랙트} 동작으로 제작할 수 있습니다. 제작 마스터인 경우 올가미 개수가 6개, 전설적 마스터인 경우 8개로 증가합니다.</p>\n<p>이렇게 준비한 올가미는 제작에 자원이 소모되지 않습니다.</p>\n<hr />\n<p><strong>특별</strong> 이 재주는 재주 전제 조건의 경우 @UUID[Compendium.pf2e.feats-srd.Item.0haS0qXR9xTYKoTG]{스네어 전문가}로 계산됩니다. 올무 전문가 레인저 재주도 보유하고 있는 경우, 두 재주 모두 @UUID[Compendium.pf2e.feats-srd.Item.KW6K5Zv4J7ClWkKA]{퀵 스네어}가 누적됩니다. 다른 헌신 재주를 두 개 획득하기 전까지는 @UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.G9Fzy5ZK4KtAmcFb]{스네어크래프트} 원형을 선택해 다른 헌신 업적을 선택할 수 없습니다.</p>"
+      "description": "<p>올무는 무료로 제한된 개수만 만들 수 있습니다. 매일 일일 준비 중에 공식 책에서 4개의 올무를 준비하여 빠르게 배치할 수 있으며, 일반적으로 @UUID[Compendium.pf2e.actionspf2e.Item.rmwa3OyhTZ2i2AHl]{제작}에 1분 걸리는 올무를 3개의 @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{상호작용} 동작으로 제작할 수 있습니다. 제작 마스터인 경우 올가미 개수가 6개, 전설적 마스터인 경우 8개로 증가합니다.</p>\n<p>이렇게 준비한 올가미는 제작에 자원이 소모되지 않습니다.</p>\n<hr />\n<p><strong>특별</strong> 이 재주는 재주 전제 조건의 경우 @UUID[Compendium.pf2e.feats-srd.Item.0haS0qXR9xTYKoTG]{스네어 전문가}로 계산됩니다. 올무 전문가 레인저 재주도 보유하고 있는 경우, 두 재주 모두 @UUID[Compendium.pf2e.feats-srd.Item.KW6K5Zv4J7ClWkKA]{퀵 스네어}가 누적됩니다. 다른 헌신 재주를 두 개 획득하기 전까지는 @UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.G9Fzy5ZK4KtAmcFb]{스네어크래프트} 원형을 선택해 다른 헌신 업적을 선택할 수 없습니다.</p>"
     },
     "Elven Weapon Familiarity": {
       "name": "엘프 무기 패밀리어",
@@ -1772,7 +1772,7 @@
     },
     "Lightning Snares": {
       "name": "번개 올무",
-      "description": "<p>놀라운 속도로 덫을 설치할 수 있습니다. 일반적으로 @UUID[Compendium.pf2e.actionspf2e.Item.rmwa3OyhTZ2i2AHl]{Craft}에 1분 걸리는 올무를 제작할 때, @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{Interact} 액션 한 번으로 대신 제작할 수 있습니다.</p>"
+      "description": "<p>놀라운 속도로 덫을 설치할 수 있습니다. 일반적으로 @UUID[Compendium.pf2e.actionspf2e.Item.rmwa3OyhTZ2i2AHl]{Craft}에 1분 걸리는 올무를 제작할 때, @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{상호작용} 액션 한 번으로 대신 제작할 수 있습니다.</p>"
     },
     "Cratering Drop": {
       "name": "크레이터링 드롭",
@@ -2016,7 +2016,7 @@
     },
     "Nantambu Chime-Ringer Dedication": {
       "name": "난탐부 차임벨 헌신",
-      "description": "<p>당신은 종소리의 울림으로 대표되는 조화와 공명의 마법의 기본을 배웠습니다. 선택한 아케인 또는 오컬트 캔트립 하나를 획득하고, 레벨의 절반에 해당하는 주문 등급으로 강화하여 반올림합니다. 그렇지 않은 경우, 해당 전통의 주문 DC와 주문 공격 굴림에 훈련된 상태가 되며, 아케인을 선택하면 지능이, 오컬트를 선택하면 매력이 주문 시전 능력으로 적용됩니다. 선택에 관계없이 아르카나 또는 오컬트 중 한 가지 기술을 훈련받거나, 이미 두 가지 기술을 모두 훈련받은 경우 두 기술 중 하나의 전문가가 됩니다.</p>\n<hr />\n<p><strong>특별</strong> @UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.sY25SoDaHBPIG5Jw]{난탐부 차임벨} 원형에서 다른 두 재주를 획득할 때까지 다른 헌납 재주를 선택할 수 없습니다.</p>"
+      "description": "<p>당신은 종소리의 울림으로 대표되는 조화와 공명의 마법의 기본을 배웠습니다. 선택한 아케인 또는 오컬트 캔트립 하나를 획득하고, 레벨의 절반에 해당하는 주문 등급으로 강화하여 반올림합니다. 그렇지 않은 경우, 해당 전통의 주문 DC와 주문 공격 굴림에 훈련된 상태가 되며, 아케인을 선택하면 지능이, 오컬트를 선택하면 매력이 주문 시전 능력으로 적용됩니다. 선택에 관계없이 주문학 또는 오컬트 중 한 가지 기술을 훈련받거나, 이미 두 가지 기술을 모두 훈련받은 경우 두 기술 중 하나의 전문가가 됩니다.</p>\n<hr />\n<p><strong>특별</strong> @UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.sY25SoDaHBPIG5Jw]{난탐부 차임벨} 원형에서 다른 두 재주를 획득할 때까지 다른 헌납 재주를 선택할 수 없습니다.</p>"
     },
     "Eidolon's Opportunity": {
       "name": "에이돌론의 기회",
@@ -2064,7 +2064,7 @@
     },
     "Magic Warrior Dedication": {
       "name": "마법 전사 헌신",
-      "description": "<p><strong>접속</strong> 당신은 므왕기 창공에서 왔습니다.</p>\n<hr />\n<p>당신은 이름 없는 가면을 쓰고 마법 전사의 선서를 맹세했습니다. 선택한 아르카나 또는 자연과 마법 전사 지식을 훈련받았으며, 이미 해당 기술을 훈련받았다면 대신 전문가가 됩니다.</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.wp09USMB3GIW1qbp]{동물 형태} 주문에서 일반 동물 유형 중 하나에 해당하는 선택한 동물의 가면 뒤에 자신의 신원을 숨깁니다. 점술 효과에 대한 방어에 +1 상황 보너스를 받지만, 가면을 벗지 않으면 마법 전사 전통을 존중하지 않거나 이해하지 못하는 지역에서 문제가 발생할 수 있습니다.</p>\n<p>이 재주를 사용하면 다른 생물이 당신의 진짜 얼굴이나 이름을 알게 되면 이 원형에서 능력을 잃게 됩니다. 헌신하기 전에 가면을 쓰기로 결정한 사실을 알고 있는 가까운 동맹은 다른 사람에게 말하지 않는 한 이 금기를 깨지 못합니다. 능력을 되찾으려면 가면을 버리고 다른 동물의 가면을 새로 얻은 다음, 새 가면을 사용해 마법 전사 헌신을 새로운 마법 전사 헌신으로 재훈련해야 합니다. 마법 전사 전형의 포커스 주문은 다른 주문과 같은 전통입니다(여러 전통의 주문이 있는 경우 하나만 선택).</p>\n<p><strong>특별</strong> @UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.zxY04QNfB90gjLoh]{마법 전사} 원형에서 다른 두 가지 업적을 획득할 때까지 다른 헌신 업적을 선택할 수 없습니다.</p>"
+      "description": "<p><strong>접속</strong> 당신은 므왕기 창공에서 왔습니다.</p>\n<hr />\n<p>당신은 이름 없는 가면을 쓰고 마법 전사의 선서를 맹세했습니다. 선택한 주문학 또는 자연과 마법 전사 지식을 훈련받았으며, 이미 해당 기술을 훈련받았다면 대신 전문가가 됩니다.</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.wp09USMB3GIW1qbp]{동물 형태} 주문에서 일반 동물 유형 중 하나에 해당하는 선택한 동물의 가면 뒤에 자신의 신원을 숨깁니다. 점술 효과에 대한 방어에 +1 상황 보너스를 받지만, 가면을 벗지 않으면 마법 전사 전통을 존중하지 않거나 이해하지 못하는 지역에서 문제가 발생할 수 있습니다.</p>\n<p>이 재주를 사용하면 다른 생물이 당신의 진짜 얼굴이나 이름을 알게 되면 이 원형에서 능력을 잃게 됩니다. 헌신하기 전에 가면을 쓰기로 결정한 사실을 알고 있는 가까운 동맹은 다른 사람에게 말하지 않는 한 이 금기를 깨지 못합니다. 능력을 되찾으려면 가면을 버리고 다른 동물의 가면을 새로 얻은 다음, 새 가면을 사용해 마법 전사 헌신을 새로운 마법 전사 헌신으로 재훈련해야 합니다. 마법 전사 전형의 포커스 주문은 다른 주문과 같은 전통입니다(여러 전통의 주문이 있는 경우 하나만 선택).</p>\n<p><strong>특별</strong> @UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.zxY04QNfB90gjLoh]{마법 전사} 원형에서 다른 두 가지 업적을 획득할 때까지 다른 헌신 업적을 선택할 수 없습니다.</p>"
     },
     "Barrier of Boreal Frost": {
       "name": "북극 서리의 장벽",
@@ -2328,7 +2328,7 @@
     },
     "Embodied Legionary Subjectivity": {
       "name": "구현된 군단의 주관성",
-      "description": "<p><strong>접속</strong> 당신은 넥스에서 왔습니다.</p>\n<hr />\n<p>넥스의 육체조각은 당신을 개인의 위대함이 아닌 군단의 일원으로, 넥시안 배틀메이지의 통합된 무기 전략에 필수적인 모듈 조각이 되도록 만들었습니다. 아르카나와 운동을 훈련받게 됩니다. 해당 기술 중 하나에 자동으로 훈련된 경우, 대신 선택한 다른 기술에서 훈련된 등급을 얻습니다. 또한, 전쟁 지식도 훈련됩니다.</p>"
+      "description": "<p><strong>접속</strong> 당신은 넥스에서 왔습니다.</p>\n<hr />\n<p>넥스의 육체조각은 당신을 개인의 위대함이 아닌 군단의 일원으로, 넥시안 배틀메이지의 통합된 무기 전략에 필수적인 모듈 조각이 되도록 만들었습니다. 주문학와 운동을 훈련받게 됩니다. 해당 기술 중 하나에 자동으로 훈련된 경우, 대신 선택한 다른 기술에서 훈련된 등급을 얻습니다. 또한, 전쟁 지식도 훈련됩니다.</p>"
     },
     "Elude Trouble": {
       "name": "문제 해결",
@@ -2396,7 +2396,7 @@
     },
     "Hellknight Signifer Dedication": {
       "name": "지옥기사 시그니퍼 헌신",
-      "description": "<p>당신은 측정과 사슬의 힘으로 의지의 힘을 강화했습니다. 시작 시, 눈구멍이나 기타 장식적인 재주가 없는 @UUID[Compendium.pf2e.equipment-srd.Item.XlmoKh60WMF9ou3J]{기호자의 가면}을 받습니다. 이 마스크는 시야를 가리지는 않지만, 다른 플레이어의 눈은 볼 수 없게 만듭니다. 기표자의 가면을 착용한 상태에서는 거짓말 기만 체크, 협박 체크, 감각 동기에 대한 기만 DC에 +1의 상황 보너스를 받습니다. 협박(또는 이미 협박 전문가인 경우 훈련된 다른 기술)과 아르카나, 자연, 오컬트, 종교 중 선택한 기술에 대한 전문가 숙련도를 얻습니다.</p>\n<div><strong> 특별</strong> @UUID[Compendium]에서 다른 재주를 두 개 획득하기 전까지는 다른 헌신 재주를 선택할 수 없습니다.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.RxDsPgPCCxEdjcVQ]{Hellknight Signifer} 또는 @UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.ARYrFIOsT3JxpjDY]{Hellknight Armiger} 아키타입.</div>"
+      "description": "<p>당신은 측정과 사슬의 힘으로 의지의 힘을 강화했습니다. 시작 시, 눈구멍이나 기타 장식적인 재주가 없는 @UUID[Compendium.pf2e.equipment-srd.Item.XlmoKh60WMF9ou3J]{기호자의 가면}을 받습니다. 이 마스크는 시야를 가리지는 않지만, 다른 플레이어의 눈은 볼 수 없게 만듭니다. 기표자의 가면을 착용한 상태에서는 거짓말 기만 체크, 협박 체크, 감각 동기에 대한 기만 DC에 +1의 상황 보너스를 받습니다. 협박(또는 이미 협박 전문가인 경우 훈련된 다른 기술)과 주문학, 자연, 오컬트, 종교 중 선택한 기술에 대한 전문가 숙련도를 얻습니다.</p>\n<div><strong> 특별</strong> @UUID[Compendium]에서 다른 재주를 두 개 획득하기 전까지는 다른 헌신 재주를 선택할 수 없습니다.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.RxDsPgPCCxEdjcVQ]{Hellknight Signifer} 또는 @UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.ARYrFIOsT3JxpjDY]{Hellknight Armiger} 아키타입.</div>"
     },
     "Hallowed Necromancer Dedication": {
       "name": "신성한 강령술사 헌신",
@@ -2904,7 +2904,7 @@
     },
     "Declare Anathema": {
       "name": "아나테마 선언",
-      "description": "<p><strong>빈도</strong> 10분에 한 번</p><hr /><p>당신이 30피트 이내에 있는 생물에게 혐오를 선언하여 그 생물의 친구와 낯선 이가 그 생물에게 기피하게 만듭니다. 대상의 의지 DC에 대해 @Check[종교|반대:의지] 검사를 시도합니다.</p><hr /><p><strong>대성공</strong> 혐오 생물에게 이로운 효과를 주려는 모든 생물은 @Check[flat|dc:5|showDC:모두]에서 성공해야 하며, 그렇지 않으면 행동이 방해받습니다. 이 저주는 @UUID[Compendium.pf2e.spells-srd.Item.SUKaxVZW2TlM8lu0]{고통 정화} 또는 이와 유사한 효과 또는 속죄 의식으로 제거할 때까지 유지됩니다. 또한, 생물은 1분 동안 영혼 피해에 10의 약점을 받는다.</p> <p>@UUID[Compendium.pf2e.feat-effects.Item.gyfPLgqeIgW7fYD0]{효과: 아나테마 선언}</p> <p><strong>성공</strong> 대성공이지만, 저주가 1분 동안 지속됩니다.</p> <p><strong>실패</strong> 대성공이지만 저주가 1라운드 동안 지속되고 대상은 영혼 피해에 약해지지 않습니다.</p> <p><strong>대실패</strong> 대상은 영향을 받지 않습니다.</p> <p><strong>효과 없음</p>"
+      "description": "<p><strong>빈도</strong> 10분에 한 번</p><hr /><p>당신이 30피트 이내에 있는 생물에게 혐오를 선언하여 그 생물의 친구와 낯선 이가 그 생물에게 기피하게 만듭니다. 대상의 의지 DC에 대해 @Check[religion|반대:의지] 검사를 시도합니다.</p><hr /><p><strong>대성공</strong> 혐오 생물에게 이로운 효과를 주려는 모든 생물은 @Check[flat|dc:5|showDC:모두]에서 성공해야 하며, 그렇지 않으면 행동이 방해받습니다. 이 저주는 @UUID[Compendium.pf2e.spells-srd.Item.SUKaxVZW2TlM8lu0]{고통 정화} 또는 이와 유사한 효과 또는 속죄 의식으로 제거할 때까지 유지됩니다. 또한, 생물은 1분 동안 영혼 피해에 10의 약점을 받는다.</p> <p>@UUID[Compendium.pf2e.feat-effects.Item.gyfPLgqeIgW7fYD0]{효과: 아나테마 선언}</p> <p><strong>성공</strong> 대성공이지만, 저주가 1분 동안 지속됩니다.</p> <p><strong>실패</strong> 대성공이지만 저주가 1라운드 동안 지속되고 대상은 영혼 피해에 약해지지 않습니다.</p> <p><strong>대실패</strong> 대상은 영향을 받지 않습니다.</p> <p><strong>효과 없음</p>"
     },
     "Basic Dogma": {
       "name": "기본 도그마",
@@ -2976,7 +2976,7 @@
     },
     "Raise Island": {
       "name": "레이즈 아일랜드",
-      "description": "<p><strong>빈도</strong> 1시간에 한 번</p><hr /><p>바다를 휘저으며 돌을 낚아 올려 함께 있는 적들이 벌을 받을 수 있도록 합니다. @Template[type:emanation|distance:30]에 있는 각 적은 자신의 직업 DC에 대한 @Check[내성|대적:예시] 세이브에 성공하거나 해당 지역 내에서 원하는 다른 위치로 최대 15피트까지 휩쓸려 다음 턴 시작 전까지 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프-가드}가 되어야 합니다. 지면에 있는 경우, 자신의 밑으로 흙 기둥이 솟아오르며 1분 동안 지속됩니다. 기둥의 높이는 10피트이며, 기둥의 표면에는 내 공간과 내 주위의 @Template[type:emanation|distance:5]가 포함됩니다. 기둥이 떠오른 후, 당신은 범위 내에 있는 적 한 명에게 근접 공격을 시도할 수 있습니다.</p>"
+      "description": "<p><strong>빈도</strong> 1시간에 한 번</p><hr /><p>바다를 휘저으며 돌을 낚아 올려 함께 있는 적들이 벌을 받을 수 있도록 합니다. @Template[type:emanation|distance:30]에 있는 각 적은 자신의 직업 DC에 대한 @Check[fortitude|대적:예시] 세이브에 성공하거나 해당 지역 내에서 원하는 다른 위치로 최대 15피트까지 휩쓸려 다음 턴 시작 전까지 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프-가드}가 되어야 합니다. 지면에 있는 경우, 자신의 밑으로 흙 기둥이 솟아오르며 1분 동안 지속됩니다. 기둥의 높이는 10피트이며, 기둥의 표면에는 내 공간과 내 주위의 @Template[type:emanation|distance:5]가 포함됩니다. 기둥이 떠오른 후, 당신은 범위 내에 있는 적 한 명에게 근접 공격을 시도할 수 있습니다.</p>"
     },
     "Invoke Movement": {
       "name": "이동 호출",
@@ -3412,7 +3412,7 @@
     },
     "Perfect Truths": {
       "name": "완벽한 진실",
-      "description": "<p>라즈미르의 신앙과 교리에 대한 지식이 성장했습니다. 당신은 경쟁 종교의 사제들과 논쟁을 벌이는 데 능숙하며, 어떤 사기꾼이 거짓말을 하듯 교묘하고 능숙하게 진실을 휘두릅니다. 기만를 @UUID[Compendium.pf2e.actionspf2e.Item.ewwCglB7XOPLUz72]{Lie}로 사용하면, 특정 관점에서 보면 각 진술이 진실이 되도록 신중하게 기만를 구성할 수 있습니다.</p> <p>이것은 @UUID[Compendium을 착용하고 있는 동안만 가능합니다.pf2e.equipment-srd.Item.UaOrOGrjcXgSeBvr]{라즈미리 마스크}를 착용하고 있으면, @UUID[Compendium.pf2e.spells-srd.Item.aewxsale5xWEPKLk]{진실의 반지} 주문 또는 유사한 효과를 받는 동안 기만 체크에 불이익을 받지 않습니다. 진실의 반지} 주문 또는 이와 유사한 효과를 받을 때마다, 처음 말을 시작할 때 주문의 효과를 상쇄하기 위해 자신의 레벨의 절반(반올림)에 해당하는 상쇄 등급으로 @Check[[기만]] 체크를 시도할 수 있습니다; 이 체크에 성공해도 주문이나 효과가 종료되는 것은 아니지만, 진실과 기만가 어디에서 끝나는지 본인도 확신할 수 없을 정도로 정교한 말의 거미줄을 엮어 실제로는 거짓말을 하고 있을 때에도 진실을 말하고 있는 것처럼 보이게 합니다.</p>"
+      "description": "<p>라즈미르의 신앙과 교리에 대한 지식이 성장했습니다. 당신은 경쟁 종교의 사제들과 논쟁을 벌이는 데 능숙하며, 어떤 사기꾼이 거짓말을 하듯 교묘하고 능숙하게 진실을 휘두릅니다. 기만를 @UUID[Compendium.pf2e.actionspf2e.Item.ewwCglB7XOPLUz72]{Lie}로 사용하면, 특정 관점에서 보면 각 진술이 진실이 되도록 신중하게 기만를 구성할 수 있습니다.</p> <p>이것은 @UUID[Compendium을 착용하고 있는 동안만 가능합니다.pf2e.equipment-srd.Item.UaOrOGrjcXgSeBvr]{라즈미리 마스크}를 착용하고 있으면, @UUID[Compendium.pf2e.spells-srd.Item.aewxsale5xWEPKLk]{진실의 반지} 주문 또는 유사한 효과를 받는 동안 기만 체크에 불이익을 받지 않습니다. 진실의 반지} 주문 또는 이와 유사한 효과를 받을 때마다, 처음 말을 시작할 때 주문의 효과를 상쇄하기 위해 자신의 레벨의 절반(반올림)에 해당하는 상쇄 등급으로 @Check[[deception]] 체크를 시도할 수 있습니다; 이 체크에 성공해도 주문이나 효과가 종료되는 것은 아니지만, 진실과 기만가 어디에서 끝나는지 본인도 확신할 수 없을 정도로 정교한 말의 거미줄을 엮어 실제로는 거짓말을 하고 있을 때에도 진실을 말하고 있는 것처럼 보이게 합니다.</p>"
     },
     "Deft Cooperation": {
       "name": "능숙한 협력",
@@ -3496,7 +3496,7 @@
     },
     "Death from Above (Eternal Legend)": {
       "name": "상공에서 온 죽음(영원한 전설)",
-      "description": "<p><strong>요건</strong> 최소 10피트 높이의 등반 가능한 표면에 인접해 있습니다.</p><hr /><p>중력을 거스르는 것처럼 보이는 근처의 수직 표면을 이용해 몸을 위로 추진한 다음 빗줄기처럼 아래쪽으로 공격합니다. 필요한 표면에서 최대 절반의 속도로 위로 보폭을 넓히며, 상승 속도가 있는 경우 최대 상승 속도를 대신 사용할 수 있습니다. 지면이 내 보폭의 전체 높이에 걸쳐 있을 필요는 없습니다. 그런 다음 무기의 첫 번째 사거리 증가분 내에 있는 대상에게 원거리 공격을 가한 후 처음 시작한 공간(또는 인접한 공간)에 낙하 피해를 받지 않고 착지하거나, 필요한 표면에서 10피트 이내에 있는 생물과 인접한 공간에 낙하 피해를 받지 않고 착지한 후 해당 생물에게 근접 공격을 가할 수 있습니다. 어느 공격이든 주사위 두 개를 던져 추가로 무기 피해를 줍니다. 또한, 당신의 공격으로 피해를 입은 대상은 자신의 직업 DC에 대한 @Check[내성|대적:직업] 내성 굴림에 성공하거나 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{기절 1}이 되어야 합니다.</p>"
+      "description": "<p><strong>요건</strong> 최소 10피트 높이의 등반 가능한 표면에 인접해 있습니다.</p><hr /><p>중력을 거스르는 것처럼 보이는 근처의 수직 표면을 이용해 몸을 위로 추진한 다음 빗줄기처럼 아래쪽으로 공격합니다. 필요한 표면에서 최대 절반의 속도로 위로 보폭을 넓히며, 상승 속도가 있는 경우 최대 상승 속도를 대신 사용할 수 있습니다. 지면이 내 보폭의 전체 높이에 걸쳐 있을 필요는 없습니다. 그런 다음 무기의 첫 번째 사거리 증가분 내에 있는 대상에게 원거리 공격을 가한 후 처음 시작한 공간(또는 인접한 공간)에 낙하 피해를 받지 않고 착지하거나, 필요한 표면에서 10피트 이내에 있는 생물과 인접한 공간에 낙하 피해를 받지 않고 착지한 후 해당 생물에게 근접 공격을 가할 수 있습니다. 어느 공격이든 주사위 두 개를 던져 추가로 무기 피해를 줍니다. 또한, 당신의 공격으로 피해를 입은 대상은 자신의 직업 DC에 대한 @Check[fortitude|대적:직업] 내성 굴림에 성공하거나 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{기절 1}이 되어야 합니다.</p>"
     },
     "Ratfolk Roll": {
       "name": "쥐포크 롤",
@@ -3568,7 +3568,7 @@
     },
     "Hurling Charge": {
       "name": "돌진 충전",
-      "description": "<p>이미 손에 들고 있는 투척 무기로 원거리 공격을 하고 보폭을 낸 다음, @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{Interact}를 사용해 다른 무기를 뽑을 수 있습니다.</p>\n<p>Compendium.pf2e.actionspf2e.Item.Ah5g9pDwWF9b9VW9]{격노}인 경우, 격노로 받는 근접 무기의 추가 피해를 던진 무기의 피해에 더할 수 있습니다.</p>"
+      "description": "<p>이미 손에 들고 있는 투척 무기로 원거리 공격을 하고 보폭을 낸 다음, @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{상호작용}를 사용해 다른 무기를 뽑을 수 있습니다.</p>\n<p>Compendium.pf2e.actionspf2e.Item.Ah5g9pDwWF9b9VW9]{격노}인 경우, 격노로 받는 근접 무기의 추가 피해를 던진 무기의 피해에 더할 수 있습니다.</p>"
     },
     "Jagged Berms": {
       "name": "들쭉날쭉한 범프",
@@ -3920,7 +3920,7 @@
     },
     "Bestiary Scholar": {
       "name": "괴물 도감 학자",
-      "description": "<p>특정 생물에 대한 방대한 지식을 지식을 바탕으로 적용하는 방법을 배웁니다. 이 재주를 습득하면 마스터 숙련도를 달성한 다음 기술 중 하나를 선택합니다: 아르카나, 제작, 자연, 오컬트, 종교 중 하나를 선택합니다. 선택한 기술을 지식 기억에 사용해 위의 기술 중 일반적으로 식별할 수 있는 생물을 식별할 수 있습니다. 또한, 생물 식별에 대성공하면 해당 생물에 대한 다음 공격 굴림 또는 내성 굴림에 +1 상황 보너스를 받습니다.</p>"
+      "description": "<p>특정 생물에 대한 방대한 지식을 지식을 바탕으로 적용하는 방법을 배웁니다. 이 재주를 습득하면 마스터 숙련도를 달성한 다음 기술 중 하나를 선택합니다: 주문학, 제작, 자연, 오컬트, 종교 중 하나를 선택합니다. 선택한 기술을 지식 기억에 사용해 위의 기술 중 일반적으로 식별할 수 있는 생물을 식별할 수 있습니다. 또한, 생물 식별에 대성공하면 해당 생물에 대한 다음 공격 굴림 또는 내성 굴림에 +1 상황 보너스를 받습니다.</p>"
     },
     "Mask of the 12th Step": {
       "name": "12번째 단계의 마스크",
@@ -3956,7 +3956,7 @@
     },
     "Clan Lore": {
       "name": "클랜 지식",
-      "description": "<p>부족 맴버로서의 정체성은 드워프의 조상만큼이나 자아의 핵심입니다. 부족의 두 가지 기술에서 훈련된 숙련도 등급을 얻습니다. 이 기술 중 하나(예: 배경 또는 클래스)를 자동으로 훈련받을 수 있는 경우, 대신 선택한 기술을 훈련받게 됩니다. 또한, 해당 클랜에 대한 나열된 지식도 훈련받게 됩니다. 여기에 나열되지 않은 클랜 출신인 경우, GM이 결정한 적절한 기술을 훈련받게 됩니다. 클랜의 기술을 습득하는 데 시간이 걸리므로, 클랜을 탈퇴하고 다른 클랜에 가입하더라도 이러한 기술은 자동으로 변경되지 않지만, GM이 휴면 시간 동안 재훈련의 일환으로 기술을 변경하도록 허용할 수 있습니다</p>.\n<table border=\"1\"><colgroup><col><col><col></colgroup>\n<thead>\n<tr>\n<th>클랜</th>\n<th>기술</th>\n<th>Lore</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>클랜 아링겔드</td>\n<td>외교와 사회</td>\n<td>상업 지식</td>\n</tr>\n<tr>\n<td>클랜 브레이크아이언</td>\n<td>제작과 생존</td>\n<td>연금술 전승</td>\n</tr>\n<tr>\n<td>클랜 파이어캐스크</td>\n<td>제작과 자연</td>\n<td>알코올 지식</td>\n</tr>\n<tr>\n<td>클랜 겔데론</td>\n<td>운동과 자연</td>\n<td>농사 지식</td>\n</tr>\n<tr>\n<td>그림마크 클랜</td>\n<td>제작과 사회</td>\n<td>건축 지식</td>\n</tr>\n<tr>\n<td>클랜 아이언피스트</td>\n<td>제작과 의학</td>\n<td>용융 지식</td>\n</tr>\n<tr>\n<td>클랜 몰그레이드</td>\n<td>제작과 도둑질</td>\n<td>제련 전승</td>\n</tr>\n<tr>\n<td>오리두스 클랜</td>\n<td>종교와 사회</td>\n<td>드워프 판테온 전승</td>\n</tr>\n<tr>\n<td>클랜 룬바인더</td>\n<td>아르카나와 오컬트</td>\n<td>아카데믹 로어</td>\n</tr>\n<tr>\n<td>클랜 스톤피스트</td>\n<td>운동과 협박</td>\n<td>전투 전승</td>\n</tr>\n<tr>\n<td>클랜 톨러</td>\n<td>외교와 사회</td>\n<td>도서관 지식</td>\n</tr>\n<tr>\n<td>반더홀 클랜</td>\n<td>운동 및 제작</td>\n<td>노동 지식</td>\n</tr>\n</tbody>\n</table>"
+      "description": "<p>부족 맴버로서의 정체성은 드워프의 조상만큼이나 자아의 핵심입니다. 부족의 두 가지 기술에서 훈련된 숙련도 등급을 얻습니다. 이 기술 중 하나(예: 배경 또는 클래스)를 자동으로 훈련받을 수 있는 경우, 대신 선택한 기술을 훈련받게 됩니다. 또한, 해당 클랜에 대한 나열된 지식도 훈련받게 됩니다. 여기에 나열되지 않은 클랜 출신인 경우, GM이 결정한 적절한 기술을 훈련받게 됩니다. 클랜의 기술을 습득하는 데 시간이 걸리므로, 클랜을 탈퇴하고 다른 클랜에 가입하더라도 이러한 기술은 자동으로 변경되지 않지만, GM이 휴면 시간 동안 재훈련의 일환으로 기술을 변경하도록 허용할 수 있습니다</p>.\n<table border=\"1\"><colgroup><col><col><col></colgroup>\n<thead>\n<tr>\n<th>클랜</th>\n<th>기술</th>\n<th>Lore</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>클랜 아링겔드</td>\n<td>외교와 사회</td>\n<td>상업 지식</td>\n</tr>\n<tr>\n<td>클랜 브레이크아이언</td>\n<td>제작과 생존</td>\n<td>연금술 전승</td>\n</tr>\n<tr>\n<td>클랜 파이어캐스크</td>\n<td>제작과 자연</td>\n<td>알코올 지식</td>\n</tr>\n<tr>\n<td>클랜 겔데론</td>\n<td>운동과 자연</td>\n<td>농사 지식</td>\n</tr>\n<tr>\n<td>그림마크 클랜</td>\n<td>제작과 사회</td>\n<td>건축 지식</td>\n</tr>\n<tr>\n<td>클랜 아이언피스트</td>\n<td>제작과 의학</td>\n<td>용융 지식</td>\n</tr>\n<tr>\n<td>클랜 몰그레이드</td>\n<td>제작과 도둑질</td>\n<td>제련 전승</td>\n</tr>\n<tr>\n<td>오리두스 클랜</td>\n<td>종교와 사회</td>\n<td>드워프 판테온 전승</td>\n</tr>\n<tr>\n<td>클랜 룬바인더</td>\n<td>주문학와 오컬트</td>\n<td>아카데믹 로어</td>\n</tr>\n<tr>\n<td>클랜 스톤피스트</td>\n<td>운동과 협박</td>\n<td>전투 전승</td>\n</tr>\n<tr>\n<td>클랜 톨러</td>\n<td>외교와 사회</td>\n<td>도서관 지식</td>\n</tr>\n<tr>\n<td>반더홀 클랜</td>\n<td>운동 및 제작</td>\n<td>노동 지식</td>\n</tr>\n</tbody>\n</table>"
     },
     "Master Magus Spellcasting": {
       "name": "마스터 매거스 주문 시전",
@@ -4008,7 +4008,7 @@
     },
     "Arboreal Conversationalist": {
       "name": "수목 대화가",
-      "description": "<p><strong>접근</strong> 키지무나 그놈 유산 또는 티엔 샤 기원</p><hr /><p>원초적인 에너지와 제1세계와의 긴밀한 연결로 나무와 소통할 수 있습니다. 하루에 두 번 4등급 타고난 원시 주문으로 @UUID[Compendium.pf2e.spells-srd.Item.qvwIwJ9QBihy8R0t]{식물과 대화하기}를 시전할 수 있습니다.</p>"
+      "description": "<p><strong>접근</strong> 키지무나 노움 유산 또는 티엔 샤 기원</p><hr /><p>원초적인 에너지와 제1세계와의 긴밀한 연결로 나무와 소통할 수 있습니다. 하루에 두 번 4등급 타고난 원시 주문으로 @UUID[Compendium.pf2e.spells-srd.Item.qvwIwJ9QBihy8R0t]{식물과 대화하기}를 시전할 수 있습니다.</p>"
     },
     "Earworm": {
       "name": "귀벌레",
@@ -4376,7 +4376,7 @@
     },
     "Counterclockwork Focus": {
       "name": "카운터 시계 작업 집중",
-      "description": "<p><strong>빈도</strong> 라운드당 1회</p>\n<hr />\n<p>당신은 끊임없이 변화하는 기술과 아르카나의 혁신에 적응하기 위한 법 집행 교리의 필요성을 이해하고 있습니다. 특수 무기와 전술에 대한 훈련을 통해 시계와 마법 관련 범죄에 대응할 수 있는 특별한 기술을 익혔습니다. 장전된 총기에 특수 첨가제를 적용합니다. 자신의 턴이 끝나기 전에 다음 총기로 공격할 때, 대상이 구조물일 경우 추가 2d6 피해를 입히고 탄약은 냉철 또는 아다만틴 중 원하는 탄약으로 취급할 수 있습니다. 18레벨이 되면 이 추가 피해가 3d6으로 증가하고, 탄약을 오리칼쿰으로 대신 취급할 수 있습니다.</p>"
+      "description": "<p><strong>빈도</strong> 라운드당 1회</p>\n<hr />\n<p>당신은 끊임없이 변화하는 기술과 주문학의 혁신에 적응하기 위한 법 집행 교리의 필요성을 이해하고 있습니다. 특수 무기와 전술에 대한 훈련을 통해 시계와 마법 관련 범죄에 대응할 수 있는 특별한 기술을 익혔습니다. 장전된 총기에 특수 첨가제를 적용합니다. 자신의 턴이 끝나기 전에 다음 총기로 공격할 때, 대상이 구조물일 경우 추가 2d6 피해를 입히고 탄약은 냉철 또는 아다만틴 중 원하는 탄약으로 취급할 수 있습니다. 18레벨이 되면 이 추가 피해가 3d6으로 증가하고, 탄약을 오리칼쿰으로 대신 취급할 수 있습니다.</p>"
     },
     "Adrenaline Rush": {
       "name": "아드레날린 러시",
@@ -4516,7 +4516,7 @@
     },
     "Kijimuna Whistle": {
       "name": "키지무나 호루라기",
-      "description": "<p><strong>접속</strong> 키지무나 그놈 유산 또는 티엔 샤 기원</p><hr /><p>자연, 특히 나무와의 인연이 너무 강해져 어린 시절 숲에서 친구가 되었던 식물을 소환할 수 있게 되었습니다. 하루에 한 번, 키지무나 그놈 커뮤니티의 특징인 독특하고 경쾌한 휘파람 소리를 내며 @UUID[Compendium.pf2e.spells-srd.Item.jSRAyd57kd4WZ4yE]{식물 또는 균류 소환}을 5등급 원시 타고난 주문으로 시전할 수 있습니다. 이 주문에 사용되는 주문과 제스처는 휘파람만 사용하므로 조작 특성이 사라집니다. 주변의 키지무나 노움은 이 축하의 소리를 자동으로 인식하며, 가능한 경우 음악에 응답하거나 음악 만들기에 동참합니다.</p>"
+      "description": "<p><strong>접속</strong> 키지무나 노움 유산 또는 티엔 샤 기원</p><hr /><p>자연, 특히 나무와의 인연이 너무 강해져 어린 시절 숲에서 친구가 되었던 식물을 소환할 수 있게 되었습니다. 하루에 한 번, 키지무나 노움 커뮤니티의 특징인 독특하고 경쾌한 휘파람 소리를 내며 @UUID[Compendium.pf2e.spells-srd.Item.jSRAyd57kd4WZ4yE]{식물 또는 균류 소환}을 5등급 원시 타고난 주문으로 시전할 수 있습니다. 이 주문에 사용되는 주문과 제스처는 휘파람만 사용하므로 조작 특성이 사라집니다. 주변의 키지무나 노움은 이 축하의 소리를 자동으로 인식하며, 가능한 경우 음악에 응답하거나 음악 만들기에 동참합니다.</p>"
     },
     "More Real Than Real": {
       "name": "실제보다 더 실제",
@@ -4760,7 +4760,7 @@
     },
     "Automaton Lore": {
       "name": "오토마톤 지식",
-      "description": "<p>몸을 만드는 과정과 몸을 움직이는 마법을 더 잘 이해하게 되었습니다. 아르카나와 제작에서 훈련된 숙련도 등급을 얻습니다. 해당 기술 중 하나(예: 배경 또는 클래스)를 자동으로 훈련받을 수 있는 경우, 대신 원하는 기술을 훈련받게 됩니다. 또한 오토마톤 지식도 훈련됩니다.</p>\n<p><strong> 강화</strong> 이해력이 향상됩니다. 아르카나 또는 제작, 오토마톤 로어의 숙련도가 전문가로 올라갑니다. 선택한 기술의 숙련도가 이미 전문가였다면, 대신 마스터로 랭크가 올라갑니다.</p>"
+      "description": "<p>몸을 만드는 과정과 몸을 움직이는 마법을 더 잘 이해하게 되었습니다. 주문학와 제작에서 훈련된 숙련도 등급을 얻습니다. 해당 기술 중 하나(예: 배경 또는 클래스)를 자동으로 훈련받을 수 있는 경우, 대신 원하는 기술을 훈련받게 됩니다. 또한 오토마톤 지식도 훈련됩니다.</p>\n<p><strong> 강화</strong> 이해력이 향상됩니다. 주문학 또는 제작, 오토마톤 로어의 숙련도가 전문가로 올라갑니다. 선택한 기술의 숙련도가 이미 전문가였다면, 대신 마스터로 랭크가 올라갑니다.</p>"
     },
     "Unfettered Growth": {
       "name": "자유로운 성장",
@@ -5083,7 +5083,7 @@
       "description": "<p>클래스의 전통과 적응된 전통을 혼합하기 위해 마법을 계속 적응시켜 왔습니다. 적응된 캔트립의 캔트립과 동일한 마법 전통에서 캔트립 또는 1등급 주문을 선택합니다. 해당 주문을 습득하여 적응된 캔트립의 캔트립과 마찬가지로 주문 옵션에 추가합니다. 이 주문은 클래스의 마법 전통 주문으로 시전할 수 있습니다. 1등급 주문을 선택하면 해당 주문의 강화 버전을 사용할 수 없으므로 주문을 준비할 때 주문을 배울 수 없거나 주문 목록이 있는 경우 해당 주문을 시그니처 주문으로 선택할 수 없습니다.</p>"
     },
     "Basic Arcana": {
-      "name": "기본 아르카나",
+      "name": "기본 주문학",
       "description": "<p>원하는 1 또는 2 레벨 마법사 재주를 얻습니다.</p>"
     },
     "Patron's Claim": {
@@ -5244,7 +5244,7 @@
     },
     "Echoing Violence": {
       "name": "메아리치는 폭력",
-      "description": "<p><strong>빈도</strong> 1분에 한 번</p> <p><strong>트리거</strong> 적에게 비무장 공격으로 치명타에 성공합니다.</p><hr /><p> 강력한 공격이 상대의 몸 전체에 울려 퍼져 근육과 뼈를 흔드는 피해를 입힙니다. 이 생물은 자신의 직업 DC에 대한 @Check[내성|대적:직업|basic] 세이브만큼 @Damage[10d6[bludgeoning]] 피해를 받습니다. 대실패하면, 당신의 타격으로 몸이 내부에서 찢어지면서 즉시 죽습니다.</p>"
+      "description": "<p><strong>빈도</strong> 1분에 한 번</p> <p><strong>트리거</strong> 적에게 비무장 공격으로 치명타에 성공합니다.</p><hr /><p> 강력한 공격이 상대의 몸 전체에 울려 퍼져 근육과 뼈를 흔드는 피해를 입힙니다. 이 생물은 자신의 직업 DC에 대한 @Check[fortitude|대적:직업|basic] 세이브만큼 @Damage[10d6[bludgeoning]] 피해를 받습니다. 대실패하면, 당신의 타격으로 몸이 내부에서 찢어지면서 즉시 죽습니다.</p>"
     },
     "Spirit Spells": {
       "name": "정령 주문",
@@ -5516,7 +5516,7 @@
     },
     "Crystal Keeper Dedication": {
       "name": "크리스탈 키퍼 헌신",
-      "description": "<p>아르카나, 오컬트, 종교, 사회는 글자의 종류에 관계없이 수정 앞에서 명상하여 글자를 해독할 수 있습니다. 글자를 해독하고 대실패를 굴리면 실패를, 글자를 해독하고 성공을 굴리면 대성공을 얻습니다.</p>\n<p>또한, 수정과 관련된 위험으로 인한 피해에 대한 저항력이 10 증가합니다.</p>\n<p><strong>특별</strong> @UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.rxyJUbQosVfgRjLr]{Crystal Keeper} 원형에서 다른 두 재주를 획득할 때까지 다른 헌신 업적을 선택하지 못합니다.</p>"
+      "description": "<p>주문학, 오컬트, 종교, 사회는 글자의 종류에 관계없이 수정 앞에서 명상하여 글자를 해독할 수 있습니다. 글자를 해독하고 대실패를 굴리면 실패를, 글자를 해독하고 성공을 굴리면 대성공을 얻습니다.</p>\n<p>또한, 수정과 관련된 위험으로 인한 피해에 대한 저항력이 10 증가합니다.</p>\n<p><strong>특별</strong> @UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.rxyJUbQosVfgRjLr]{Crystal Keeper} 원형에서 다른 두 재주를 획득할 때까지 다른 헌신 업적을 선택하지 못합니다.</p>"
     },
     "Domain Fluency": {
       "name": "권역 유창성",
@@ -6040,7 +6040,7 @@
     },
     "Scattering Shout": {
       "name": "흩어지는 외침",
-      "description": "<p>강력한 허리를 휘두르며 귀에서 피가 날 듯한 고함소리로 주변의 적을 몰아냅니다. 템플릿[type:emanation|distance:10] 안에 있는 모든 적은 자신의 직업 DC에 대해 @Check[내성|대적:직업|옵션:영역 효과] 내성 굴림을 시도해야 합니다.</p> <p><strong>대성공</strong> 생명체는 영향을 받지 않습니다.</p> <p><strong>성공</strong> 생명체가 플레이어로부터 5피트 뒤로 밀려납니다.</p> <p><strong>실패</strong> 생물이 플레이어로부터 10피트 밀려나 @Damage[8d6[음파]|옵션:범위 피해]를 받습니다.</p> <p><strong>대실패</strong> 생물이 플레이어로부터 15피트 밀려나 @Damage[16d6[음파]|옵션:광역 피해]를 받습니다.</p> <p><strong>이 생물은 플레이어로부터 15피트 밀려나 @Damage[16d6[음파]|options:area-damage] 피해를 받습니다.</p>"
+      "description": "<p>강력한 허리를 휘두르며 귀에서 피가 날 듯한 고함소리로 주변의 적을 몰아냅니다. 템플릿[type:emanation|distance:10] 안에 있는 모든 적은 자신의 직업 DC에 대해 @Check[fortitude|대적:직업|옵션:영역 효과] 내성 굴림을 시도해야 합니다.</p> <p><strong>대성공</strong> 생명체는 영향을 받지 않습니다.</p> <p><strong>성공</strong> 생명체가 플레이어로부터 5피트 뒤로 밀려납니다.</p> <p><strong>실패</strong> 생물이 플레이어로부터 10피트 밀려나 @Damage[8d6[음파]|옵션:범위 피해]를 받습니다.</p> <p><strong>대실패</strong> 생물이 플레이어로부터 15피트 밀려나 @Damage[16d6[음파]|옵션:광역 피해]를 받습니다.</p> <p><strong>이 생물은 플레이어로부터 15피트 밀려나 @Damage[16d6[음파]|options:area-damage] 피해를 받습니다.</p>"
     },
     "Remake the World": {
       "name": "세상 다시 만들기",
@@ -6392,7 +6392,7 @@
     },
     "Gear Up": {
       "name": "기어 업",
-      "description": "<p>나무 말뚝, <em>@UUID[Compendium.pf2e.equipment-srd.Item.z9T4c1hXwOotsMCp]{성수}</em> 등 언데드의 특이한 약점과 취약점을 처리할 수 있는 특별한 도구를 항상 준비해 두세요.@UUID[Compendium.pf2e.feats-srd.Item.bh2jHyyYrkLMsIdX]{현명한 플래너} 및 @UUID[Compendium.pf2e.feats-srd.Item.lHFz4MmebvPqTb0A]{현명한 소모품} 특성이 획득됩니다. 언데드의 약점이나 취약점을 처리하는 데 필요한 아이템을 뽑기 위해 프레즌트 플래너를 특별히 사용할 경우, 1분 대신 배낭(또는 유사한 용기)을 꺼내고 아이템을 뽑는 2액션 활동으로 아이템을 뽑을 수 있습니다.</p>\n<p>@UUID[Compendium]이 있는 경우, 아이템을 뽑는 데 2분 정도 걸리지 않습니다.pf2e.feats-srd.Item.HVP3ZGIOlxlFy0ni]{사냥꾼의 성소} 재주가 있다면, 성소에 기본 물품을 충분히 비축하고 성소에서 1시간 동안 보급품을 새로 채워 상품을 구매하지 못했더라도 선구자 플래너 요구 조건을 충족할 수 있습니다.</p>"
+      "description": "<p>나무 말뚝, <em>@UUID[Compendium.pf2e.equipment-srd.Item.z9T4c1hXwOotsMCp]{성수}</em> 등 언데드의 특이한 약점과 취약점을 처리할 수 있는 특별한 도구를 항상 준비해 두세요.@UUID[Compendium.pf2e.feats-srd.Item.bh2jHyyYrkLMsIdX]{현명한 계획자} 및 @UUID[Compendium.pf2e.feats-srd.Item.lHFz4MmebvPqTb0A]{현명한 소모품} 특성이 획득됩니다. 언데드의 약점이나 취약점을 처리하는 데 필요한 아이템을 뽑기 위해 프레즌트 플래너를 특별히 사용할 경우, 1분 대신 배낭(또는 유사한 용기)을 꺼내고 아이템을 뽑는 2액션 활동으로 아이템을 뽑을 수 있습니다.</p>\n<p>@UUID[Compendium]이 있는 경우, 아이템을 뽑는 데 2분 정도 걸리지 않습니다.pf2e.feats-srd.Item.HVP3ZGIOlxlFy0ni]{사냥꾼의 성소} 재주가 있다면, 성소에 기본 물품을 충분히 비축하고 성소에서 1시간 동안 보급품을 새로 채워 상품을 구매하지 못했더라도 선구자 플래너 요구 조건을 충족할 수 있습니다.</p>"
     },
     "Offensive Analysis": {
       "name": "공격 분석",
@@ -6424,7 +6424,7 @@
     },
     "Skim Scroll": {
       "name": "스킴 스크롤",
-      "description": "<p>허리띠에서 두루마리를 뽑을 때 두루마리의 마법을 활성화할 수 있습니다.@UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{Interact}로 두루마리를 뽑은 다음, 두루마리에 @UUID[Compendium.pf2e.feats-srd.Item.uR62fVC9FyQAMCO1]{Trick Magic Item}을 사용하세요.</p>"
+      "description": "<p>허리띠에서 두루마리를 뽑을 때 두루마리의 마법을 활성화할 수 있습니다.@UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{상호작용}로 두루마리를 뽑은 다음, 두루마리에 @UUID[Compendium.pf2e.feats-srd.Item.uR62fVC9FyQAMCO1]{Trick Magic Item}을 사용하세요.</p>"
     },
     "Maneuvering Spell": {
       "name": "기동 주문",
@@ -7100,7 +7100,7 @@
     },
     "Ghoran Lore": {
       "name": "고란 지식",
-      "description": "<p>고란이 가장 먼저 기억하는 것은 창조에 대한 기억이며, 수천 년이 지난 후에도 그 기억은 결코 사라지지 않습니다. 당신은 아르카나와 자연에 훈련된 존재가 됩니다. 해당 기술 중 하나(예: 배경 또는 클래스)에 자동으로 훈련될 경우, 대신 자신이 선택한 기술로 훈련됩니다. 또한 고란 지식에 훈련된 상태가 됩니다.</p>"
+      "description": "<p>고란이 가장 먼저 기억하는 것은 창조에 대한 기억이며, 수천 년이 지난 후에도 그 기억은 결코 사라지지 않습니다. 당신은 주문학와 자연에 훈련된 존재가 됩니다. 해당 기술 중 하나(예: 배경 또는 클래스)에 자동으로 훈련될 경우, 대신 자신이 선택한 기술로 훈련됩니다. 또한 고란 지식에 훈련된 상태가 됩니다.</p>"
     },
     "Venom Gulp": {
       "name": "맹독 꿀꺽 삼키기",
@@ -7236,7 +7236,7 @@
     },
     "Raise a Tome": {
       "name": "책 올리기",
-      "description": "<p><strong>요구 조건</strong> 책을 들고 있습니다.</p>\n<hr />\n<p>들고 있는 책을 들어 올리고 뒤집어 자신을 방어하고 공부 속도를 높입니다. 책은 다음 턴이 시작될 때까지 들어 올린 상태로 유지됩니다. 책을 들고 있는 동안, 책의 주제와 관련된 기술(주문서를 사용 중이라면 아르카나)을 사용해 생물을 식별할 때 AC에 +2의 상황 보너스와 지식 기억에 +1의 상황 보너스를 받습니다(주문서를 사용 중이라면 아르카나). 이 보너스는 책이 일반적으로 체크에 주는 아이템 보너스에 추가됩니다.</p>\n<p>[Compendium.pf2e.feats-srd.Item.jM72TjJ965jocBV8]{방패 블록}을 가지고 있다면, 해당 재주(경도 3, HP 12, BT 6)를 위해 책을 방패처럼 사용할 수 있습니다. 긴급 돌격과 같이 보호막을 올릴 수 있는 능력을 사용할 때마다 보호막 대신 고서를 올릴 수 있으며, 일반적으로 책에 적용하기 위해 보호막이 필요한 요구 조건이 변경됩니다.</p>"
+      "description": "<p><strong>요구 조건</strong> 책을 들고 있습니다.</p>\n<hr />\n<p>들고 있는 책을 들어 올리고 뒤집어 자신을 방어하고 공부 속도를 높입니다. 책은 다음 턴이 시작될 때까지 들어 올린 상태로 유지됩니다. 책을 들고 있는 동안, 책의 주제와 관련된 기술(주문서를 사용 중이라면 주문학)을 사용해 생물을 식별할 때 AC에 +2의 상황 보너스와 지식 기억에 +1의 상황 보너스를 받습니다(주문서를 사용 중이라면 주문학). 이 보너스는 책이 일반적으로 체크에 주는 아이템 보너스에 추가됩니다.</p>\n<p>[Compendium.pf2e.feats-srd.Item.jM72TjJ965jocBV8]{방패 블록}을 가지고 있다면, 해당 재주(경도 3, HP 12, BT 6)를 위해 책을 방패처럼 사용할 수 있습니다. 긴급 돌격과 같이 보호막을 올릴 수 있는 능력을 사용할 때마다 보호막 대신 고서를 올릴 수 있으며, 일반적으로 책에 적용하기 위해 보호막이 필요한 요구 조건이 변경됩니다.</p>"
     },
     "Incredible Familiar": {
       "name": "인크레더블 익숙한",
@@ -7624,7 +7624,7 @@
     },
     "Impossible Polymath": {
       "name": "임파서블 폴리매스",
-      "description": "<p>당신의 난해한 공식은 매우 특이해서 다른 음유시인들이 이해하지 못하는 다양한 전통의 마법을 다룰 수 있게 해줍니다. 아르카나에 대해 훈련된 상태라면, @UUID[Compendium.pf2e.feats-srd.Item.4]에서 책에 비전 주문을 추가할 수 있습니다.HZTLPKPteEFsa7n]{밀교 폴리매쓰}, 자연에서 훈련된 경우 원시 주문을 책에 추가할 수 있으며, 종교에서 훈련된 경우 신성한 주문을 책에 추가할 수 있습니다.</p>\n<p>책에 있는 다른 주문과 마찬가지로, 매일 밀교 주문을 사용해 다른 전통의 주문 중 하나를 오컬트 주문으로 목록에 추가할 수 있지만, 다시 준비할 때 다른 전통의 주문을 보유할 수 없으며, @UUID[Compendium.pf2e.feats-srd.Item.yaxf1Tpk5iwPCSpW]{Eclectic Polymath}가 있더라도 보유할 수 없습니다.</p>"
+      "description": "<p>당신의 난해한 공식은 매우 특이해서 다른 음유시인들이 이해하지 못하는 다양한 전통의 마법을 다룰 수 있게 해줍니다. 주문학에 대해 훈련된 상태라면, @UUID[Compendium.pf2e.feats-srd.Item.4]에서 책에 비전 주문을 추가할 수 있습니다.HZTLPKPteEFsa7n]{밀교 폴리매쓰}, 자연에서 훈련된 경우 원시 주문을 책에 추가할 수 있으며, 종교에서 훈련된 경우 신성한 주문을 책에 추가할 수 있습니다.</p>\n<p>책에 있는 다른 주문과 마찬가지로, 매일 밀교 주문을 사용해 다른 전통의 주문 중 하나를 오컬트 주문으로 목록에 추가할 수 있지만, 다시 준비할 때 다른 전통의 주문을 보유할 수 없으며, @UUID[Compendium.pf2e.feats-srd.Item.yaxf1Tpk5iwPCSpW]{Eclectic Polymath}가 있더라도 보유할 수 없습니다.</p>"
     },
     "Arcane Fists": {
       "name": "아케인 주먹",
@@ -7656,7 +7656,7 @@
     },
     "Quick Stow (Ratfolk)": {
       "name": "빠른 보관(쥐족)",
-      "description": "<p><strong>빈도</strong> 라운드당 1회</p>\n<hr />\n<p>당신은 아이템을 볼 주머니로 재빨리 옮기는 데 능숙합니다. 소지하고 있는 아이템 하나를 (맞는다면) 뺨 주머니에 넣기 위해 @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{인터랙트}합니다.</p>"
+      "description": "<p><strong>빈도</strong> 라운드당 1회</p>\n<hr />\n<p>당신은 아이템을 볼 주머니로 재빨리 옮기는 데 능숙합니다. 소지하고 있는 아이템 하나를 (맞는다면) 뺨 주머니에 넣기 위해 @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{상호작용}합니다.</p>"
     },
     "Infinite Possibilities": {
       "name": "무한한 가능성",
@@ -7828,7 +7828,7 @@
     },
     "Rise, My Creature!": {
       "name": "일어나라, 나의 피조물아!",
-      "description": "<p>너희는 생명을 창조했다! 신들의 힘을 빼앗았습니다! 시체에서 조각을 모아 화학 물질이나 스타시안 기술로 움직이는 프로토타입 구조물 동료를 얻습니다. 제작 대신 약을 사용해 건설물을 수리하거나 파괴된 경우 재건할 수 있습니다.</p> <p>내 건설물은 생명을 불어넣은 번개와 친화력이 있습니다. 당신의 건설물 동료가 전기 피해를 받으면, 다음 턴이 끝날 때까지 운동 기술 체크에 +1의 상황 보너스를 받습니다.</p> <p>코일이나 연금술 잔여물로 인해 당신과 비슷한 훈련을 받은 이들이 당신의 창조물이 언데드가 아니라는 것을 알 수 있지만, 다른 이들은 일반적으로 @Check[crafting|dc:15], @Check[의학|dc:15], @Check[종교|dc:15] 체크에 성공해야 @UUID[Compendium.pf2e.actionspf2e.Item.1로 이를 확인할 수 있습 니다.OagaWtBpVXExToo]{지식 불러오기}.</p>"
+      "description": "<p>너희는 생명을 창조했다! 신들의 힘을 빼앗았습니다! 시체에서 조각을 모아 화학 물질이나 스타시안 기술로 움직이는 프로토타입 구조물 동료를 얻습니다. 제작 대신 약을 사용해 건설물을 수리하거나 파괴된 경우 재건할 수 있습니다.</p> <p>내 건설물은 생명을 불어넣은 번개와 친화력이 있습니다. 당신의 건설물 동료가 전기 피해를 받으면, 다음 턴이 끝날 때까지 운동 기술 체크에 +1의 상황 보너스를 받습니다.</p> <p>코일이나 연금술 잔여물로 인해 당신과 비슷한 훈련을 받은 이들이 당신의 창조물이 언데드가 아니라는 것을 알 수 있지만, 다른 이들은 일반적으로 @Check[crafting|dc:15], @Check[medicine|dc:15], @Check[religion|dc:15] 체크에 성공해야 @UUID[Compendium.pf2e.actionspf2e.Item.1로 이를 확인할 수 있습 니다.OagaWtBpVXExToo]{지식 불러오기}.</p>"
     },
     "Palatine Detective Dedication": {
       "name": "팔라티노 탐정 헌신",
@@ -7840,7 +7840,7 @@
     },
     "Guiding Words": {
       "name": "안내 단어",
-      "description": "<p><strong>빈도</strong> 10분에 한 번</p><hr /><p>당신의 말은 신성한 진실을 말하며 칼날과 화살을 표적에 맞히도록 유도합니다. 30피트 이내에 있는 아군을 선택하고 @Check[외교] 체크를 시도합니다. DC는 아군 레벨의 어려운 난이도 DC와 같습니다. 성공하면, 대상 아군이 다음 턴이 끝나기 전에 처음으로 공격 굴림을 할 때 두 번 굴려서 더 좋은 결과를 사용합니다.</p> <p>@UUID[Compendium.pf2e.feat-effects.Item.9hIzh4UvjSTyBby]{효과: 유도어}</p> <p>결과에 관계없이 대상은 10분 동안 유도어에 면역이 됩니다.</p>"
+      "description": "<p><strong>빈도</strong> 10분에 한 번</p><hr /><p>당신의 말은 신성한 진실을 말하며 칼날과 화살을 표적에 맞히도록 유도합니다. 30피트 이내에 있는 아군을 선택하고 @Check[diplomacy] 체크를 시도합니다. DC는 아군 레벨의 어려운 난이도 DC와 같습니다. 성공하면, 대상 아군이 다음 턴이 끝나기 전에 처음으로 공격 굴림을 할 때 두 번 굴려서 더 좋은 결과를 사용합니다.</p> <p>@UUID[Compendium.pf2e.feat-effects.Item.9hIzh4UvjSTyBby]{효과: 유도어}</p> <p>결과에 관계없이 대상은 10분 동안 유도어에 면역이 됩니다.</p>"
     },
     "Heal Mount": {
       "name": "치유 탈것",
@@ -8000,7 +8000,7 @@
     },
     "Jelly Body": {
       "name": "젤리 바디",
-      "description": "<p>몸을 감싸고 있던 진액이 몸의 일부에 영구적으로 스며들어 촉감이 부드러워지고 뼈가 보일 정도로 반투명해집니다. 정밀 피해와 치명타로 인한 피해에 대해 자신의 레벨만큼 저항력을 얻습니다. 아이템을 몸 안에 붙이면 최대 1벌크까지 몸 안에 잠길 수 있습니다. 아이템의 돌출부는 외부에서 볼 수 있지만, 아이템이 몸 안에 있는 동안에는 과적 상태나 최대 벌크에 포함되지 않습니다. 몸 속에 넣은 아이템을 꺼내거나 보관하려면 @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{Interact}를 누르면 됩니다.</p>"
+      "description": "<p>몸을 감싸고 있던 진액이 몸의 일부에 영구적으로 스며들어 촉감이 부드러워지고 뼈가 보일 정도로 반투명해집니다. 정밀 피해와 치명타로 인한 피해에 대해 자신의 레벨만큼 저항력을 얻습니다. 아이템을 몸 안에 붙이면 최대 1벌크까지 몸 안에 잠길 수 있습니다. 아이템의 돌출부는 외부에서 볼 수 있지만, 아이템이 몸 안에 있는 동안에는 과적 상태나 최대 벌크에 포함되지 않습니다. 몸 속에 넣은 아이템을 꺼내거나 보관하려면 @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{상호작용}를 누르면 됩니다.</p>"
     },
     "Eternal Torch": {
       "name": "영원한 토치",
@@ -8108,7 +8108,7 @@
     },
     "Recognize Spell": {
       "name": "주문 인식하기",
-      "description": "<p><strong>트리거</strong> 시야 내에 있는 생물이 준비하지 않았거나 주문 목록에 없는 주문을 시전하거나 함정 또는 이와 유사한 물체가 해당 주문을 시전합니다. 반드시 해당 주문을 인지하고 있어야 합니다.</p>\n<hr />\n<p>주문의 전통에 적합한 기술로 훈련되어 있고 2등급 이하의 일반 주문인 경우, 자동으로 주문을 알아챕니다(여전히 대성공을 시도할 수 있지만 성공보다 나쁜 결과를 얻을 수는 없습니다). 자동으로 식별할 수 있는 주문의 최고 등급은 전문가인 경우 4, 마스터인 경우 6, 전설적인 경우 10으로 증가합니다. GM은 시전 중인 주문의 전통에 해당하는 비밀 아르카나, 자연, 오컬트, 종교 체크 중 하나를 굴립니다. 해당 기술에 대해 훈련되지 않았다면 실패 이상의 결과를 얻을 수 없습니다.</p>\n<hr />\n<p><strong>대성공</strong> 주문을 정확히 인식하고 내성 굴림 또는 주문에 대한 AC에 +1 상황 보너스를 얻습니다.</p>\n<p><strong> 성공</strong> 주문을 정확히 인식합니다.</p>\n<p><strong> 실패</strong> 주문을 인식하지 못합니다.</p>\n<p><strong> 치명적 실패</strong> GM이 선택한 주문을 전혀 다른 주문으로 잘못 인식합니다.</p>"
+      "description": "<p><strong>트리거</strong> 시야 내에 있는 생물이 준비하지 않았거나 주문 목록에 없는 주문을 시전하거나 함정 또는 이와 유사한 물체가 해당 주문을 시전합니다. 반드시 해당 주문을 인지하고 있어야 합니다.</p>\n<hr />\n<p>주문의 전통에 적합한 기술로 훈련되어 있고 2등급 이하의 일반 주문인 경우, 자동으로 주문을 알아챕니다(여전히 대성공을 시도할 수 있지만 성공보다 나쁜 결과를 얻을 수는 없습니다). 자동으로 식별할 수 있는 주문의 최고 등급은 전문가인 경우 4, 마스터인 경우 6, 전설적인 경우 10으로 증가합니다. GM은 시전 중인 주문의 전통에 해당하는 비밀 주문학, 자연, 오컬트, 종교 체크 중 하나를 굴립니다. 해당 기술에 대해 훈련되지 않았다면 실패 이상의 결과를 얻을 수 없습니다.</p>\n<hr />\n<p><strong>대성공</strong> 주문을 정확히 인식하고 내성 굴림 또는 주문에 대한 AC에 +1 상황 보너스를 얻습니다.</p>\n<p><strong> 성공</strong> 주문을 정확히 인식합니다.</p>\n<p><strong> 실패</strong> 주문을 인식하지 못합니다.</p>\n<p><strong> 치명적 실패</strong> GM이 선택한 주문을 전혀 다른 주문으로 잘못 인식합니다.</p>"
     },
     "Perfect Distraction": {
       "name": "완벽한 주의 분산",
@@ -8144,7 +8144,7 @@
     },
     "Sword of Sealing": {
       "name": "봉인의 검",
-      "description": "<p>영적 힘이 적의 몸과 영혼을 관통하여 적을 제자리에 고정시킵니다. 한손, 민첩, 기교 무기로 근접 공격을 하거나 주먹으로 비무장 공격을 합니다. 적중 시 대상은 자신의 직업 DC와 주문 DC 중 높은 수치에 대해 @Check[내성|대적:직업-주문] 세이브에 성공하거나 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{고정된 상태}가 되어야 합니다. 대상은 직업 DC와 주문 DC 중 높은 수치를 탈출 DC로 사용하여 @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{탈출} 시도에 성공하면 이 고정 상태를 종료할 수 있습니다. </p>"
+      "description": "<p>영적 힘이 적의 몸과 영혼을 관통하여 적을 제자리에 고정시킵니다. 한손, 민첩, 기교 무기로 근접 공격을 하거나 주먹으로 비무장 공격을 합니다. 적중 시 대상은 자신의 직업 DC와 주문 DC 중 높은 수치에 대해 @Check[fortitude|대적:직업-주문] 세이브에 성공하거나 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{고정된 상태}가 되어야 합니다. 대상은 직업 DC와 주문 DC 중 높은 수치를 탈출 DC로 사용하여 @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{탈출} 시도에 성공하면 이 고정 상태를 종료할 수 있습니다. </p>"
     },
     "Folktales Lore": {
       "name": "민화 지식",
@@ -8324,11 +8324,11 @@
     },
     "Wonder Worker": {
       "name": "원더워커",
-      "description": "<p>마법사의 길은 경이로움의 작용으로 정점을 찍습니다. 하루에 한 번, 비전서를 정렬하여 시전하는 데 1, 2 또는 3개의 액션이 필요한 8등급 이하의 주문을 시전할 수 있습니다. 주문은 일반 주문이거나 내가 접근할 수 있는 주문이어야 합니다. 주문은 관련 기술에서 전설적인 전통(비전은 아르카나, 자연은 네이처, 오컬트는 오컬트, 종교는 종교)을 선택할 수 있습니다(비전은 신비, 원시, 오컬트는 신비). 필요한 주문 DC 대신에 마법사 클래스 DC를, 필요한 반격 수정치 또는 주문 공격 수정치 대신에 마법사 클래스 DC - 10을 사용합니다.</p>"
+      "description": "<p>마법사의 길은 경이로움의 작용으로 정점을 찍습니다. 하루에 한 번, 비전서를 정렬하여 시전하는 데 1, 2 또는 3개의 액션이 필요한 8등급 이하의 주문을 시전할 수 있습니다. 주문은 일반 주문이거나 내가 접근할 수 있는 주문이어야 합니다. 주문은 관련 기술에서 전설적인 전통(비전은 주문학, 자연은 네이처, 오컬트는 오컬트, 종교는 종교)을 선택할 수 있습니다(비전은 신비, 원시, 오컬트는 신비). 필요한 주문 DC 대신에 마법사 클래스 DC를, 필요한 반격 수정치 또는 주문 공격 수정치 대신에 마법사 클래스 DC - 10을 사용합니다.</p>"
     },
     "Swaggering Initiative": {
       "name": "스웨그 넘치는 이니셔티브",
-      "description": "<p><strong>트리거</strong> 당신은 우선권을 잡으려 합니다.</p>\n<hr />\n<p>매복을 포함한 모든 전투에 기꺼이 뛰어듭니다. 우선권 굴림에 +2의 상황 보너스를 얻고, @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{Interact}로 무기를 뽑을 수 있습니다.</p>"
+      "description": "<p><strong>트리거</strong> 당신은 우선권을 잡으려 합니다.</p>\n<hr />\n<p>매복을 포함한 모든 전투에 기꺼이 뛰어듭니다. 우선권 굴림에 +2의 상황 보너스를 얻고, @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{상호작용}로 무기를 뽑을 수 있습니다.</p>"
     },
     "Jungle Runner": {
       "name": "정글 러너",
@@ -8380,7 +8380,7 @@
     },
     "Prepare Elemental Medicine": {
       "name": "원소 약 준비",
-      "description": "<p><strong>접근</strong> 티엔 샤 기원</p><hr /><p>환자를 진단한 다음, 원소 약을 준비하여 생명체에게 투여합니다. @UUID[Compendium.pf2e.equipment-srd.Item.s1vB3HdXjMigYAnY]{치료사의 도구}에는 원소 약을 만들기 위한 기본 재료가 들어 있지만, 주변에서 강력한 재료를 더 수집해야 할 수도 있습니다. 약효는 24시간 동안 지속되며, 어떤 캐릭터도 한 번에 두 가지 이상의 원소 약의 혜택을 받을 수 없습니다. 받는 사람의 레벨에 해당하는 표준 DC를 기준으로 @Check[crafting], @Check[약초-지식], @Check[약] 검사를 시도합니다(특히 잘 알려져 있거나 모호한 고통의 경우, GM이 각각 DC를 낮추거나 높이는 조정을 적용해야 합니다). 환자의 상태는 매일매일 미세하게 변할 수 있으므로, 치료 중인 질병이 변하지 않더라도 매일 환자를 치료할 때마다 원소 약을 새로 체크하여 준비해야 합니다. 매일 준비하는 동안 최대 6마리의 생물을 진단하고 치료할 수 있으며, 환자마다 따로 체크해야 합니다.</p><hr /><p><strong>대성공</strong> 환자를 정확하게 진단합니다. GM은 환자의 증상을 유발하는 원소 불균형(어떤 원소인지, 과잉인지 결핍인지)을 파악한 다음, 페이징 원소 연관 표의 정보를 사용하여 이를 해결하기 위해 어떤 원소의 약이 필요한지 알려줍니다. 이 정보를 바탕으로 특정 재료의 원소 속성을 정확하게 파악한 다음, 이를 사용하여 받는 사람에게 +2의 상황 보너스를 부여하여 고통에 대한 내성을 높여주는 우수한 원소 약을 준비할 수 있습니다.</p> <p><strong>성공</strong> 대성공이지만 보너스는 +1입니다.</p> <p><strong>실패</strong> 환자를 진단하는 데 실패합니다. GM이 환자 증상의 원인이 되는 원소 불균형을 알려주지 않아서 원소 약을 준비할 수 없습니다.</p> <p><strong>대실패</strong> 환자를 잘못 진단했습니다. GM이 환자 증상의 원인이 되는 원소 불균형이라고 판단한 후 다른 잘못된 진단을 내리거나 증상을 치료하려는 원소 성분이 실제로는 잘못되었다고 알려줍니다. 어느 쪽이든, 잘못된 치료는 해당 고통에 대한 내성에 -1의 상황 페널티를 부과합니다.</p> <p>@UUID[Compendium.pf2e.feat-effects.Item.ZqEOsqnGFLI2ob9m]{효과: 원소 약 준비}</p>"
+      "description": "<p><strong>접근</strong> 티엔 샤 기원</p><hr /><p>환자를 진단한 다음, 원소 약을 준비하여 생명체에게 투여합니다. @UUID[Compendium.pf2e.equipment-srd.Item.s1vB3HdXjMigYAnY]{치료사의 도구}에는 원소 약을 만들기 위한 기본 재료가 들어 있지만, 주변에서 강력한 재료를 더 수집해야 할 수도 있습니다. 약효는 24시간 동안 지속되며, 어떤 캐릭터도 한 번에 두 가지 이상의 원소 약의 혜택을 받을 수 없습니다. 받는 사람의 레벨에 해당하는 표준 DC를 기준으로 @Check[crafting], @Check[약초-지식], @Check[medicine] 검사를 시도합니다(특히 잘 알려져 있거나 모호한 고통의 경우, GM이 각각 DC를 낮추거나 높이는 조정을 적용해야 합니다). 환자의 상태는 매일매일 미세하게 변할 수 있으므로, 치료 중인 질병이 변하지 않더라도 매일 환자를 치료할 때마다 원소 약을 새로 체크하여 준비해야 합니다. 매일 준비하는 동안 최대 6마리의 생물을 진단하고 치료할 수 있으며, 환자마다 따로 체크해야 합니다.</p><hr /><p><strong>대성공</strong> 환자를 정확하게 진단합니다. GM은 환자의 증상을 유발하는 원소 불균형(어떤 원소인지, 과잉인지 결핍인지)을 파악한 다음, 페이징 원소 연관 표의 정보를 사용하여 이를 해결하기 위해 어떤 원소의 약이 필요한지 알려줍니다. 이 정보를 바탕으로 특정 재료의 원소 속성을 정확하게 파악한 다음, 이를 사용하여 받는 사람에게 +2의 상황 보너스를 부여하여 고통에 대한 내성을 높여주는 우수한 원소 약을 준비할 수 있습니다.</p> <p><strong>성공</strong> 대성공이지만 보너스는 +1입니다.</p> <p><strong>실패</strong> 환자를 진단하는 데 실패합니다. GM이 환자 증상의 원인이 되는 원소 불균형을 알려주지 않아서 원소 약을 준비할 수 없습니다.</p> <p><strong>대실패</strong> 환자를 잘못 진단했습니다. GM이 환자 증상의 원인이 되는 원소 불균형이라고 판단한 후 다른 잘못된 진단을 내리거나 증상을 치료하려는 원소 성분이 실제로는 잘못되었다고 알려줍니다. 어느 쪽이든, 잘못된 치료는 해당 고통에 대한 내성에 -1의 상황 페널티를 부과합니다.</p> <p>@UUID[Compendium.pf2e.feat-effects.Item.ZqEOsqnGFLI2ob9m]{효과: 원소 약 준비}</p>"
     },
     "Pierce the Darkness": {
       "name": "어둠을 뚫고",
@@ -8444,7 +8444,7 @@
     },
     "Firebrand Braggart Dedication": {
       "name": "파이어브랜드 브라가트 헌신",
-      "description": "<p>파이어브랜드 훈련을 통해 무언가를 성취했을 때 먼저 자랑해야 더 큰 만족감을 느낀다는 것을 배웠습니다. 균형잡기, 사기를 떨어뜨리기, 지식 기억하기 등 특정 기술 액션에 대해 자랑을 선언합니다. GM이 적절히 도전적이고 의미 있다고 판단하는 상황에서 다음 1분 이내에 이 액션을 처음 시도할 경우, 주사위를 두 번 굴려 더 낮은 결과를 사용해야 합니다. 이 체크에 성공하면 10분 동안 같은 액션을 시도하는 체크에 +1의 상황 보너스를 얻습니다. 이 체크에 실패하거나 1분 이내에 액션을 시도하지 않으면 대신 1시간 동안 같은 액션을 시도하는 체크에 -1 상황 패널티를 받습니다.</p>\n<p>선택한 액션이 마법 식별 또는 지식 회상과 같이 여러 기술과 함께 사용할 수 있는 경우, 아르카나를 사용하여 마법 식별과 같이 특정 액션에 어떤 기술을 사용하는지 명시해야 하며, 자랑 후 보너스 또는 패널티는 해당 기술을 사용한 체크에 대해서만 해당 액션에 적용됩니다. 특정 액션에 대해 자랑을 선언하면 체크의 성공 여부와 관계없이 다음 일일 준비 시간까지 같은 액션에 대해 자랑을 선언할 수 없습니다.</p>\n<p>일반적으로 도전적인 과제는 자신의 레벨에 맞는 표준 DC 이상의 과제이지만, 상황에 따라 난이도가 더 높을 수 있습니다. 의미 있는 상황이란 액션의 성공 또는 실패가 단순히 나중에 보너스를 받기 위한 자랑이 아니라 목표 추구와 관련이 있는 상황입니다.</p>\n<p><strong>특별</strong> @UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.F7W15pGOeSeNJD0C]{파이어브랜드 브라가트} 원형에서 다른 두 가지 재주를 획득할 때까지 다른 헌신 업적을 선택하지 못합니다.</p>"
+      "description": "<p>파이어브랜드 훈련을 통해 무언가를 성취했을 때 먼저 자랑해야 더 큰 만족감을 느낀다는 것을 배웠습니다. 균형잡기, 사기를 떨어뜨리기, 지식 기억하기 등 특정 기술 액션에 대해 자랑을 선언합니다. GM이 적절히 도전적이고 의미 있다고 판단하는 상황에서 다음 1분 이내에 이 액션을 처음 시도할 경우, 주사위를 두 번 굴려 더 낮은 결과를 사용해야 합니다. 이 체크에 성공하면 10분 동안 같은 액션을 시도하는 체크에 +1의 상황 보너스를 얻습니다. 이 체크에 실패하거나 1분 이내에 액션을 시도하지 않으면 대신 1시간 동안 같은 액션을 시도하는 체크에 -1 상황 패널티를 받습니다.</p>\n<p>선택한 액션이 마법 식별 또는 지식 회상과 같이 여러 기술과 함께 사용할 수 있는 경우, 주문학를 사용하여 마법 식별과 같이 특정 액션에 어떤 기술을 사용하는지 명시해야 하며, 자랑 후 보너스 또는 패널티는 해당 기술을 사용한 체크에 대해서만 해당 액션에 적용됩니다. 특정 액션에 대해 자랑을 선언하면 체크의 성공 여부와 관계없이 다음 일일 준비 시간까지 같은 액션에 대해 자랑을 선언할 수 없습니다.</p>\n<p>일반적으로 도전적인 과제는 자신의 레벨에 맞는 표준 DC 이상의 과제이지만, 상황에 따라 난이도가 더 높을 수 있습니다. 의미 있는 상황이란 액션의 성공 또는 실패가 단순히 나중에 보너스를 받기 위한 자랑이 아니라 목표 추구와 관련이 있는 상황입니다.</p>\n<p><strong>특별</strong> @UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.F7W15pGOeSeNJD0C]{파이어브랜드 브라가트} 원형에서 다른 두 가지 재주를 획득할 때까지 다른 헌신 업적을 선택하지 못합니다.</p>"
     },
     "Mirror Refuge": {
       "name": "거울 피난처",
@@ -8500,7 +8500,7 @@
     },
     "Immortal Ruin": {
       "name": "불멸의 폐허",
-      "description": "<p>모든 생명을 끝내기 위해 헌신하면 불멸의 힘을 얻게 되고, 진정한 종말의 라이더가 되어 네 명의 라이더 중 한 명을 대신할 수 있는 발판을 마련할 수 있습니다. 악마, 악마, 부정한 특성을 얻으면 종말의 탈것도 얻게 되지만, 운명은 더욱 얽히고설키게 됩니다. 종말 탈것이 살아있는 동안에는 노화하지 않으며, @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{파멸} 또는 @UUID[Compendium.pf2e.conditionitems.Item.yZRUzMqrMmfLu0V1]{Dying} 상태가 4 이상으로 증가할 때마다 증가하지 않습니다. 다른 방식으로 사망할 경우, 대신 체력이 0으로 감소하고 @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{무의식}이 되며, 종말 탈것이 의식이 있다면 즉시 플레이어 옆으로 순간이동하여 플레이어를 태우고 위험 현장을 벗어나려고 시도합니다.</p> <p>플레이어가 의식이 있고 종말 탈것으로부터 30피트 이내에 있는 동안에는 죽일 수 없습니다. 종말 탈것의 체력이 0으로 감소하면 즉시 안정화되며, 죽음의 상태가 증가하지 않습니다. 파멸 조건이 4 이상으로 증가해도 증가하지 않습니다. 하지만, 이 시간 동안 종말 탈것에서 30피트 이상 멀어지거나 @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{무의식} 상태가 되면 종말 탈것은 이러한 혜택을 잃고 죽을 수 있습니다.</p> <p>마지막으로, 60피트 내에 있는 생명체가 죽으면, 그 생명체는 자신의 직업 DC 또는 주문 DC 중 높은 값에 대해 @Check[의지|대적:직업-주문|특성:무력화] 내성 굴림을 시도해야 합니다. 이것은 무력화 효과입니다. 실패하면 해당 생물은 24시간 동안 다시 살아날 수 없습니다. 대실패할 경우, 해당 생물의 영혼이 주먹 크기의 영혼 보석(경도 2, HP 8)으로 합쳐져 해당 생물의 공간에 나타나도록 선택할 수 있습니다. 해당 생물의 영혼은 1주일 동안 보석에 갇히지만, 10분 의식을 통해 보석을 영구적으로 만들 수 있습니다. 보석을 파괴해도 그 안에 갇힌 영혼은 해방되지만, 죽은 생물이 다시 살아나지는 않습니다. 시전자가 영혼 보석에 영혼이 갇혀 있는 생물을 되살리려고 시도할 경우, 자신의 직업 DC 또는 주문 DC 중 높은 값에 대한 @Check[종교|대적:직업-주문|롤러역할:대상] 체크에 성공하지 못하면 실패합니다. 성공하면 영혼의 보석이 산산조각이 나며, 해당 생물은 주문에 따라 정상적으로 살아납니다. 데몬과 다른 악마들은 이 영혼 보석을 선호하며, 일반적으로 보석에 포획된 영혼의 레벨에 따라 일정량의 가치가 있습니다.</p>"
+      "description": "<p>모든 생명을 끝내기 위해 헌신하면 불멸의 힘을 얻게 되고, 진정한 종말의 라이더가 되어 네 명의 라이더 중 한 명을 대신할 수 있는 발판을 마련할 수 있습니다. 악마, 악마, 부정한 특성을 얻으면 종말의 탈것도 얻게 되지만, 운명은 더욱 얽히고설키게 됩니다. 종말 탈것이 살아있는 동안에는 노화하지 않으며, @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{파멸} 또는 @UUID[Compendium.pf2e.conditionitems.Item.yZRUzMqrMmfLu0V1]{Dying} 상태가 4 이상으로 증가할 때마다 증가하지 않습니다. 다른 방식으로 사망할 경우, 대신 체력이 0으로 감소하고 @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{무의식}이 되며, 종말 탈것이 의식이 있다면 즉시 플레이어 옆으로 순간이동하여 플레이어를 태우고 위험 현장을 벗어나려고 시도합니다.</p> <p>플레이어가 의식이 있고 종말 탈것으로부터 30피트 이내에 있는 동안에는 죽일 수 없습니다. 종말 탈것의 체력이 0으로 감소하면 즉시 안정화되며, 죽음의 상태가 증가하지 않습니다. 파멸 조건이 4 이상으로 증가해도 증가하지 않습니다. 하지만, 이 시간 동안 종말 탈것에서 30피트 이상 멀어지거나 @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{무의식} 상태가 되면 종말 탈것은 이러한 혜택을 잃고 죽을 수 있습니다.</p> <p>마지막으로, 60피트 내에 있는 생명체가 죽으면, 그 생명체는 자신의 직업 DC 또는 주문 DC 중 높은 값에 대해 @Check[의지|대적:직업-주문|특성:무력화] 내성 굴림을 시도해야 합니다. 이것은 무력화 효과입니다. 실패하면 해당 생물은 24시간 동안 다시 살아날 수 없습니다. 대실패할 경우, 해당 생물의 영혼이 주먹 크기의 영혼 보석(경도 2, HP 8)으로 합쳐져 해당 생물의 공간에 나타나도록 선택할 수 있습니다. 해당 생물의 영혼은 1주일 동안 보석에 갇히지만, 10분 의식을 통해 보석을 영구적으로 만들 수 있습니다. 보석을 파괴해도 그 안에 갇힌 영혼은 해방되지만, 죽은 생물이 다시 살아나지는 않습니다. 시전자가 영혼 보석에 영혼이 갇혀 있는 생물을 되살리려고 시도할 경우, 자신의 직업 DC 또는 주문 DC 중 높은 값에 대한 @Check[religion|대적:직업-주문|롤러역할:대상] 체크에 성공하지 못하면 실패합니다. 성공하면 영혼의 보석이 산산조각이 나며, 해당 생물은 주문에 따라 정상적으로 살아납니다. 데몬과 다른 악마들은 이 영혼 보석을 선호하며, 일반적으로 보석에 포획된 영혼의 레벨에 따라 일정량의 가치가 있습니다.</p>"
     },
     "Stone Face": {
       "name": "돌 얼굴",
@@ -8556,7 +8556,7 @@
     },
     "Putrefaction": {
       "name": "부패",
-      "description": "<p>적의 몸속을 포함하여 주변의 음식과 물을 망칩니다. 신화 점수를 소비합니다. 60피트 내에 있는 적이 자신의 직업 DC 또는 주문 DC(둘 중 높은 값)에 대한 @Check[내성|대적:직업 주문] 세이브에 성공하거나 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1}이 되어야 합니다. 또한, 해당 지역 내에서 먹을 수 있는 음식이 썩고 식수가 썩게 됩니다. 해당 지역 내에서 자신의 주요 속성 수정자와 같은 수의 물약 또는 연금술 비약을 선택하고 신화 숙련도에서 @Check[신비주의] 또는 @Check[종교]를 사용해 각각에 대한 반작용을 시도합니다. 반격 등급은 자신의 레벨의 절반입니다. 성공하면 엘릭서 또는 물약이 손상되어 일반 아이템이 됩니다.</p>"
+      "description": "<p>적의 몸속을 포함하여 주변의 음식과 물을 망칩니다. 신화 점수를 소비합니다. 60피트 내에 있는 적이 자신의 직업 DC 또는 주문 DC(둘 중 높은 값)에 대한 @Check[fortitude|대적:직업 주문] 세이브에 성공하거나 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1}이 되어야 합니다. 또한, 해당 지역 내에서 먹을 수 있는 음식이 썩고 식수가 썩게 됩니다. 해당 지역 내에서 자신의 주요 속성 수정자와 같은 수의 물약 또는 연금술 비약을 선택하고 신화 숙련도에서 @Check[신비주의] 또는 @Check[religion]를 사용해 각각에 대한 반작용을 시도합니다. 반격 등급은 자신의 레벨의 절반입니다. 성공하면 엘릭서 또는 물약이 손상되어 일반 아이템이 됩니다.</p>"
     },
     "Daring Flourish": {
       "name": "대담한 번영",
@@ -8624,7 +8624,7 @@
     },
     "Disruptive Stance": {
       "name": "파괴적 자세",
-      "description": "<p>조금만 주의를 산만하게 해도 분노를 불러일으킬 수 있으며, 적의 액션을 저지할 준비가 되어 있습니다. 이 자세를 취하고 있는 동안에는, 당신의 범위 내에 있는 생물이 집중 액션을 사용할 때 조종 및 이동 액션과 더불어 @UUID[Compendium.pf2e.actionspf2e.Item.KAVf7AmRnbCAHrkT]{반응성 타격}을 사용할 수 있습니다. 또한, 당신의 타격이 적중하면 (치명타뿐 아니라) 트리거가 된 집중 또는 조작 액션을 방해합니다.</p>"
+      "description": "<p>조금만 주의를 산만하게 해도 분노를 불러일으킬 수 있으며, 적의 액션을 저지할 준비가 되어 있습니다. 이 자세를 취하고 있는 동안에는, 당신의 범위 내에 있는 생물이 집중 액션을 사용할 때 조종 및 이동 액션과 더불어 @UUID[Compendium.pf2e.actionspf2e.Item.KAVf7AmRnbCAHrkT]{기회 공격}을 사용할 수 있습니다. 또한, 당신의 타격이 적중하면 (치명타뿐 아니라) 트리거가 된 집중 또는 조작 액션을 방해합니다.</p>"
     },
     "Explosive Death Drop": {
       "name": "폭발성 사망 드롭",
@@ -8668,7 +8668,7 @@
     },
     "Demon Slayer": {
       "name": "악마 슬레이어",
-      "description": "<p><strong>빈도</strong> 하루에 한 번</p><hr /><p>악마에게 성스러운 빛을 폭발시키는 근접 공격을 가하여 악마를 끝장낼 수 있습니다. 근접 공격으로 주는 일반 피해에 더해 악마에게 @Damage[10d6[정령]] 피해를 입힙니다. 악마는 자신의 직업 DC에 대한 @Check[내성|대적:직업|basic] 세이브로 이 추가 피해에 저항할 수 있습니다. 이 공격으로 악마가 죽으면, 악마는 폭발하여 @Template[type:emanation|distance:30]을 가득 채우는 성스러운 빛의 폭발을 일으킵니다. 이 범위 내의 악마 특성을 가진 모든 생물은 @Damage[10d6[정령]|옵션:범위 피해]를 받고, 자신의 직업 DC에 대해 @Check[fortitude|against:class|옵션:범위 효과,피해 효과] 세이브를 시도해야 합니다.</p> <p><strong>대성공</strong> 악마는 피해를 받지 않습니다.</p> <p><strong>성공</strong> 악마는 절반의 피해를 받습니다.</p> <p><strong>실패</strong> 악마가 전체 피해를 받고 1라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{눈부신} 상태가 됩니다.</p> <p><strong>대실패</strong> 악마가 전체 피해를 받고 영구적으로 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명} 상태가 됩니다.</p>"
+      "description": "<p><strong>빈도</strong> 하루에 한 번</p><hr /><p>악마에게 성스러운 빛을 폭발시키는 근접 공격을 가하여 악마를 끝장낼 수 있습니다. 근접 공격으로 주는 일반 피해에 더해 악마에게 @Damage[10d6[정령]] 피해를 입힙니다. 악마는 자신의 직업 DC에 대한 @Check[fortitude|대적:직업|basic] 세이브로 이 추가 피해에 저항할 수 있습니다. 이 공격으로 악마가 죽으면, 악마는 폭발하여 @Template[type:emanation|distance:30]을 가득 채우는 성스러운 빛의 폭발을 일으킵니다. 이 범위 내의 악마 특성을 가진 모든 생물은 @Damage[10d6[정령]|옵션:범위 피해]를 받고, 자신의 직업 DC에 대해 @Check[fortitude|against:class|옵션:범위 효과,피해 효과] 세이브를 시도해야 합니다.</p> <p><strong>대성공</strong> 악마는 피해를 받지 않습니다.</p> <p><strong>성공</strong> 악마는 절반의 피해를 받습니다.</p> <p><strong>실패</strong> 악마가 전체 피해를 받고 1라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{눈부신} 상태가 됩니다.</p> <p><strong>대실패</strong> 악마가 전체 피해를 받고 영구적으로 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명} 상태가 됩니다.</p>"
     },
     "Spirit's Sacrifice": {
       "name": "영혼의 희생",
@@ -8852,7 +8852,7 @@
     },
     "Reactive Striker": {
       "name": "리액티브 스트라이커",
-      "description": "<p>UUID[Compendium.pf2e.actionspf2e.Item.KAVf7AmRnbCAHrkT]{반응 타격} 리액션을 획득합니다.</p>"
+      "description": "<p>UUID[Compendium.pf2e.actionspf2e.Item.KAVf7AmRnbCAHrkT]{기회 공격} 리액션을 획득합니다.</p>"
     },
     "Devrin's Cunning Stance": {
       "name": "데브린의 교활한 자세",
@@ -8868,7 +8868,7 @@
     },
     "Eye of the Arclords": {
       "name": "아클로드의 눈",
-      "description": "<p><strong>빈도</strong> 하루에 한 번</p>\n<p><strong> 접속</strong> 당신은 넥스의 아클로드의 맴버입니다.</p>\n<hr />\n<p>이마에 백열등으로 빛나는 세 번째 눈을 뜹니다.</p>\n<p>이 눈은 1분 동안 열려 있을 수 있으며, 그 전에 집중 특성으로 한 번의 액션으로 눈을 닫을 수 있습니다. 아르카나 마스터인 경우 2분, 전설적 마스터인 경우 5분 동안 눈을 뜬 상태를 유지할 수 있습니다.</p>\n<p>눈을 뜨고 있는 동안 다음과 같은 이점을 얻습니다:</p>\n<ul>\n<li>주문을 시전하지 않아도 매 턴 시작 시 아케인 센스에서 마법 감지 비전 타고난 주문의 효과를 얻습니다;</li>\n<li>암흑 시야를 얻습니다;</li>\n<li>감지되지 않음 및 숨겨진 생명체 찾기 지각 체크와 은신 및 은신에 대한 지각 DC에 상태 보너스 +2를 얻습니다.</li>\n</ul>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.5IGz4iheaiUWm5KR]{효과: 아클로드의 눈}</p>\n<p>세 번째 눈이 닫힌 후, 눈을 뜬 시간만큼 눈부신 상태가 됩니다.</p>"
+      "description": "<p><strong>빈도</strong> 하루에 한 번</p>\n<p><strong> 접속</strong> 당신은 넥스의 아클로드의 맴버입니다.</p>\n<hr />\n<p>이마에 백열등으로 빛나는 세 번째 눈을 뜹니다.</p>\n<p>이 눈은 1분 동안 열려 있을 수 있으며, 그 전에 집중 특성으로 한 번의 액션으로 눈을 닫을 수 있습니다. 주문학 마스터인 경우 2분, 전설적 마스터인 경우 5분 동안 눈을 뜬 상태를 유지할 수 있습니다.</p>\n<p>눈을 뜨고 있는 동안 다음과 같은 이점을 얻습니다:</p>\n<ul>\n<li>주문을 시전하지 않아도 매 턴 시작 시 아케인 센스에서 마법 감지 비전 타고난 주문의 효과를 얻습니다;</li>\n<li>암흑 시야를 얻습니다;</li>\n<li>감지되지 않음 및 숨겨진 생명체 찾기 지각 체크와 은신 및 은신에 대한 지각 DC에 상태 보너스 +2를 얻습니다.</li>\n</ul>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.5IGz4iheaiUWm5KR]{효과: 아클로드의 눈}</p>\n<p>세 번째 눈이 닫힌 후, 눈을 뜬 시간만큼 눈부신 상태가 됩니다.</p>"
     },
     "Ocean Wariness": {
       "name": "바다 경계",
@@ -9000,7 +9000,7 @@
     },
     "Germination of Resolve": {
       "name": "결의의 발아",
-      "description": "<p><strong>빈도</strong> 하루에 한 번</p><hr /><p>밟힌 영혼에 활력이 넘쳐나며, 완전한 휴식은 아니더라도 활력을 되찾을 수 있습니다. 약화된} 또는 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화} 조건이 자신에게 영향을 주는 각 효과에 대해, 해당 효과를 상쇄하기 위해 @Check[자연] 체크를 시도합니다. 결의의 발아 효과의 상쇄 등급은 반올림한 레벨의 절반에 해당합니다.</p>"
+      "description": "<p><strong>빈도</strong> 하루에 한 번</p><hr /><p>밟힌 영혼에 활력이 넘쳐나며, 완전한 휴식은 아니더라도 활력을 되찾을 수 있습니다. 약화된} 또는 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화} 조건이 자신에게 영향을 주는 각 효과에 대해, 해당 효과를 상쇄하기 위해 @Check[nature] 체크를 시도합니다. 결의의 발아 효과의 상쇄 등급은 반올림한 레벨의 절반에 해당합니다.</p>"
     },
     "Pistol Phenom Dedication": {
       "name": "권총 페놈 헌신",
@@ -9468,7 +9468,7 @@
     },
     "Predictive Purchase (Investigator)": {
       "name": "예측 구매(조사자)",
-      "description": "<p>상황에 딱 맞는 물건이 있습니다.@UUID[Compendium.pf2e.feats-srd.Item.bh2jHyyYrkLMsIdX]{과학자 플래너} 및 @UUID[Compendium.pf2e.feats-srd.Item.lHFz4MmebvPqTb0A]{과학자 소모품} 재주를 획득합니다.</p>\n<p>프레즌트 플래너를 사용할 때는 1분 대신 배낭(또는 유사한 용기)을 꺼내 아이템을 뽑는 2액션 활동으로 아이템을 뽑을 수 있습니다.</p>"
+      "description": "<p>상황에 딱 맞는 물건이 있습니다.@UUID[Compendium.pf2e.feats-srd.Item.bh2jHyyYrkLMsIdX]{현명한 계획자} 및 @UUID[Compendium.pf2e.feats-srd.Item.lHFz4MmebvPqTb0A]{현명한 소모품} 재주를 획득합니다.</p>\n<p>프레즌트 플래너를 사용할 때는 1분 대신 배낭(또는 유사한 용기)을 꺼내 아이템을 뽑는 2액션 활동으로 아이템을 뽑을 수 있습니다.</p>"
     },
     "Wind God's Fan": {
       "name": "바람의 신 부채",
@@ -9516,7 +9516,7 @@
     },
     "Cry of Rebellion": {
       "name": "반란의 외침",
-      "description": "<p><strong>빈도</strong> 1시간에 한 번</p><hr /><p>아군에게 힘을 불어넣고 적을 두드리는 격정의 비명을 내뱉습니다. 이 소리를 들을 수 있는 60피트 내의 아군은 1분 동안 공격 굴림, 지각 점검, 내성 굴림, 기술 점검에 +2 상태 보너스를 받습니다.</p> <p>@UUID[Compendium.pf2e.feat-effects.Item.AsYHSc1sNEXYELj7]{Effect: 반란의 함성}</p> <p>추가로, 30피트 내의 적이 @Damage[(@액터.레벨)d4[음파]|옵션:광역 피해] 피해를 받습니다(@Check[fortitude|대적:직업 주문|basic|옵션:광역 효과] 자신의 직업 DC 또는 주문 DC 중 더 높은 값에 대한 [내성]). 이 음파 피해는 17레벨과 그 이후 매 레벨마다 1d4씩 증가합니다.</p>"
+      "description": "<p><strong>빈도</strong> 1시간에 한 번</p><hr /><p>아군에게 힘을 불어넣고 적을 두드리는 격정의 비명을 내뱉습니다. 이 소리를 들을 수 있는 60피트 내의 아군은 1분 동안 공격 굴림, 지각 점검, 내성 굴림, 기술 점검에 +2 상태 보너스를 받습니다.</p> <p>@UUID[Compendium.pf2e.feat-effects.Item.AsYHSc1sNEXYELj7]{Effect: 반란의 함성}</p> <p>추가로, 30피트 내의 적이 @Damage[(@액터.레벨)d4[음파]|옵션:광역 피해] 피해를 받습니다(@Check[fortitude|대적:직업 주문|basic|옵션:광역 효과] 자신의 직업 DC 또는 주문 DC 중 더 높은 값에 대한 [fortitude]). 이 음파 피해는 17레벨과 그 이후 매 레벨마다 1d4씩 증가합니다.</p>"
     },
     "Impaling Finisher": {
       "name": "임페딩 피니셔",
@@ -9728,7 +9728,7 @@
     },
     "Elemental Lore": {
       "name": "원소 지식",
-      "description": "<p>당신은 이너 스피어의 비밀을 연구하는 데 전념해 왔습니다. 생존과 아르카나 또는 자연 중 선택한 기술에 훈련된 숙련도를 얻습니다. 예를 들어, 배경이나 클래스를 통해 자동으로 생존에 훈련된 경우, 대신 선택한 기술을 훈련받게 됩니다. 또한, 자신의 출신 원소계와 관련된 지식(예: 불의 차원 지식)도 훈련됩니다.</p>"
+      "description": "<p>당신은 이너 스피어의 비밀을 연구하는 데 전념해 왔습니다. 생존과 주문학 또는 자연 중 선택한 기술에 훈련된 숙련도를 얻습니다. 예를 들어, 배경이나 클래스를 통해 자동으로 생존에 훈련된 경우, 대신 선택한 기술을 훈련받게 됩니다. 또한, 자신의 출신 원소계와 관련된 지식(예: 불의 차원 지식)도 훈련됩니다.</p>"
     },
     "Spirit Companion": {
       "name": "정령 동반자",
@@ -9759,8 +9759,8 @@
       "description": "<p>자신의 그림자가 말을 걸어 주문에 대한 지식과 마법의 힘을 저장합니다. 그림자 저장소에는 주문 슬롯에서 시전할 수 있는 가장 높은 등급의 주문보다 최소 2레벨 낮은 각 주문 등급의 주문이 하나씩 들어 있습니다. 이 주문은 주문 목록에 있어야 하고, 주문에 접근할 수 있어야 하며, 주문 공격 주사위 또는 내성 굴림이 필요합니다. 이러한 주문은 준비할 필요가 없으며 목록에 포함되어 있지 않습니다.</p>\n<p>주문 시전 방식에 관계없이, 같은 등급의 주문 슬롯 중 하나를 사용하여 그림자 저장소에서 즉흥적으로 주문을 시전할 수 있습니다. 준비된 주문 시전자인 경우, 해당 슬롯에서 준비한 주문을 잃습니다.</p>\n<p>그림자 저장소에서 시전한 주문은 그림자 특성을 얻으며, 영향을 받는 생물은 이를 무시할 수 있습니다. 주문에 공격 굴림이 필요한 경우, 대상의 AC와 의지 DC 중 더 높은 것을 사용합니다. 주문에 내성 굴림이 필요한 경우, 대상은 자신의 의지 내성 굴림 또는 주문의 일반 내성 굴림 중 더 높은 것을 사용합니다. 당신의 저장소에서 발동한 주문에 대해 생물이 내성 굴림에 실패할 때마다, 당신은 순수한 그림자 재료로 살에 새긴 작은 문신을 얻습니다.</p>\n<p>다중 직업 원형을 가진 주문 마법사처럼 주문 슬롯으로 발동할 수 있는 주문 소스가 두 개 이상 있는 경우, 그림자 저장소에서 한 개의 주문 소스를 선택합니다.</p>"
     },
     "Basic Scroll Cache": {
-      "name": "기본 스크롤 캐시",
-      "description": "<p>방대하고 넘쳐나는 두루마리 스크랩은 오류와 맞춤법 오류로 가득하고 체처럼 새는 에너지로 가득 차 있습니다. 조금만 주의를 기울이면 이 두루마리 조각들을 잠시나마 기능을 발휘하도록 만들 수 있습니다.</p>\n<p>매일 일과를 준비하는 동안, 1급 주문이 담긴 임시 두루마리 하나를 생성할 수 있습니다. 주문은 <em>핵심 규칙서</em> 에 있는 일반 주문 또는 @UUID[Compendium.pf2e.actionspf2e.Item.Q5iIYCFdqJFM31GW]{주문 배우기}를 통해 배운 다른 주문이어야 하며, 해당 기술이 훈련된 전통에서 나온 것이어야 합니다.</p>\n<p>이 주문서는 불안정한 임시 아이템이므로 아직 사용하지 않았다면 다음 일일 준비를 할 때 마법을 잃게 됩니다. 주문 학습에는 사용할 수 없습니다.</p>\n<p>8레벨이 되면, 2등급 주문이 들어 있는 두 번째 임시 주문서를 추가합니다.</p>"
+      "name": "기본 스크롤 묶음",
+      "description": "<p>방대하고 넘쳐나는 스크롤 스크랩은 오류와 맞춤법 오류로 가득하고 체처럼 새는 에너지로 가득 차 있습니다. 조금만 주의를 기울이면 이 스크롤 조각들을 잠시나마 기능을 발휘하도록 만들 수 있습니다.</p>\n<p>매일 일과를 준비하는 동안, 1급 주문이 담긴 임시 스크롤 하나를 생성할 수 있습니다. 주문은 <em>핵심 규칙서</em> 에 있는 일반 주문 또는 @UUID[Compendium.pf2e.actionspf2e.Item.Q5iIYCFdqJFM31GW]{주문 배우기}를 통해 배운 다른 주문이어야 하며, 해당 기술이 훈련된 전통에서 나온 것이어야 합니다.</p>\n<p>이 주문서는 불안정한 임시 아이템이므로 아직 사용하지 않았다면 다음 일일 준비를 할 때 마법을 잃게 됩니다. 주문 학습에는 사용할 수 없습니다.</p>\n<p>8레벨이 되면, 2등급 주문이 들어 있는 두 번째 임시 주문서를 추가합니다.</p>"
     },
     "Enlightened Presence": {
       "name": "깨달은 존재감",
@@ -9888,7 +9888,7 @@
     },
     "Banish Falsehoods of Flesh": {
       "name": "육체의 거짓을 추방하라",
-      "description": "<p>초자연적인 에너지를 조작하는 능력을 사용하면 위장한 적에게 직접 신성한 마법을 사용하여 적의 본 모습을 드러내거나 아군이 원치 않게 변신한 것을 정화할 수 있습니다. 현재 30피트 이내에 있는, 자신이 인지하고 있는 생물에게 영향을 미치는 다형성 효과 를 무력화하려면 @Check[종교] 체크를 시도합니다. 그러면 대상은 1일 동안 육체의 거짓 추방에 일시적으로 면역이 됩니다.</p>"
+      "description": "<p>초자연적인 에너지를 조작하는 능력을 사용하면 위장한 적에게 직접 신성한 마법을 사용하여 적의 본 모습을 드러내거나 아군이 원치 않게 변신한 것을 정화할 수 있습니다. 현재 30피트 이내에 있는, 자신이 인지하고 있는 생물에게 영향을 미치는 다형성 효과 를 무력화하려면 @Check[religion] 체크를 시도합니다. 그러면 대상은 1일 동안 육체의 거짓 추방에 일시적으로 면역이 됩니다.</p>"
     },
     "Sunder Enchantment": {
       "name": "선더 인챈트",
@@ -9904,7 +9904,7 @@
     },
     "Implausible Purchase (Investigator)": {
       "name": "불가능한 구매(조사자)",
-      "description": "<p>불가능할 것 같지만, 다각도로 분석해 멀리 떨어진 곳에서도 필요한 아이템을 정확하게 뽑아낼 수 있습니다.</p>\n<p>상품 구매 후 이미 사용한 적이 있어도 @UUID[Compendium.pf2e.feats-srd.Item.bh2jHyyYrkLMsIdX]{과학자 플래너}를 사용할 수 있으며, 2액션이 아닌 1회 액션으로 사용할 수 있고, 그 동안 @UUID[Compendium]을 사용해도 무방합니다.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{Interact}를 사용하여 아이템을 뽑을 수 있습니다.</p>\n<p>또한, 하루에 5번, 자신의 레벨보다 최대 6레벨 낮은 일반 소모품 아이템을 뽑을 수 있는 Prescient Planner를 사용할 수 있습니다.</p>"
+      "description": "<p>불가능할 것 같지만, 다각도로 분석해 멀리 떨어진 곳에서도 필요한 아이템을 정확하게 뽑아낼 수 있습니다.</p>\n<p>상품 구매 후 이미 사용한 적이 있어도 @UUID[Compendium.pf2e.feats-srd.Item.bh2jHyyYrkLMsIdX]{현명한 계획자}를 사용할 수 있으며, 2액션이 아닌 1회 액션으로 사용할 수 있고, 그 동안 @UUID[Compendium]을 사용해도 무방합니다.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{상호작용}를 사용하여 아이템을 뽑을 수 있습니다.</p>\n<p>또한, 하루에 5번, 자신의 레벨보다 최대 6레벨 낮은 일반 소모품 아이템을 뽑을 수 있는 Prescient Planner를 사용할 수 있습니다.</p>"
     },
     "Supreme Psychic Center": {
       "name": "최고 심령 센터",
@@ -10056,7 +10056,7 @@
     },
     "Acupuncturist": {
       "name": "침술사",
-      "description": "<p><strong>접근</strong> 티엔 샤 기원</p><hr /><p>기(氣)가 몸을 흐르는 경로에 대해 공부했습니다. 치료사의 도구에 저장된 침은 기의 흐름을 조작하고 특정 경락 지점에 적용하면 건강을 향상시킬 수 있습니다. 하루 동안 아군을 연구하여 아군의 레벨에 맞는 표준 DC를 기준으로 기를 향상시키기 위해 @Check[[약]] 체크를 시도합니다. 그러면 아군은 1주일 동안 침술사의 모든 사용에 면역이 됩니다.</p><hr /><p><strong>대성공</strong> 당신은 아군에게 다음 주에 한 번의 다운타임 활동 스킬 체크에 +2의 상황 보너스 또는 다음 주에 고통에 대한 다음 내성 굴림에서 두 번 굴려 더 높은 결과를 가져가는 능력 중 하나를 선택할 수 있는 행운 효과를 부여합니다.</p> <p><strong>성공</strong> 아군에게 다음 주에 한 번의 다운타임 활동 스킬 체크에 +1 상황 보너스를 부여합니다.</p> <p><strong>대실패</strong> 아군은 다음 주 내 모든 다운타임 활동 스킬 체크에 -1 상황 패널티를 받습니다.</p> <p>@UUID[Compendium.pf2e.feat-effects.Item.fHM9xvCBWrBqcDQY]{Effect: 침술사}</p>"
+      "description": "<p><strong>접근</strong> 티엔 샤 기원</p><hr /><p>기(氣)가 몸을 흐르는 경로에 대해 공부했습니다. 치료사의 도구에 저장된 침은 기의 흐름을 조작하고 특정 경락 지점에 적용하면 건강을 향상시킬 수 있습니다. 하루 동안 아군을 연구하여 아군의 레벨에 맞는 표준 DC를 기준으로 기를 향상시키기 위해 @Check[[medicine]] 체크를 시도합니다. 그러면 아군은 1주일 동안 침술사의 모든 사용에 면역이 됩니다.</p><hr /><p><strong>대성공</strong> 당신은 아군에게 다음 주에 한 번의 다운타임 활동 스킬 체크에 +2의 상황 보너스 또는 다음 주에 고통에 대한 다음 내성 굴림에서 두 번 굴려 더 높은 결과를 가져가는 능력 중 하나를 선택할 수 있는 행운 효과를 부여합니다.</p> <p><strong>성공</strong> 아군에게 다음 주에 한 번의 다운타임 활동 스킬 체크에 +1 상황 보너스를 부여합니다.</p> <p><strong>대실패</strong> 아군은 다음 주 내 모든 다운타임 활동 스킬 체크에 -1 상황 패널티를 받습니다.</p> <p>@UUID[Compendium.pf2e.feat-effects.Item.fHM9xvCBWrBqcDQY]{Effect: 침술사}</p>"
     },
     "Orc Sight": {
       "name": "오크 사이트",
@@ -10480,7 +10480,7 @@
     },
     "Chronocognizance": {
       "name": "크로노인지",
-      "description": "<p>시간의 흐름과 썰물은 시간의 흐름이 왜곡될 때 형성되는 엉킴과 마찬가지로 여러분에게 분명합니다. 관찰됨 생물이 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐} 또는 @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{신속} 조건의 영향을 받고 있는지 자동으로 알아챌 수 있습니다. 시간을 조작하는 현상에 대해 대략적으로 파악할 수 있지만, 그렇다고 해서 변칙의 구체적인 효과에 대해 구체적으로 알 수는 없습니다. 특히 미묘한 시간 변칙은 여전히 플레이어의 눈에 띄지 않을 수 있으며, GM의 판단에 따라 지각 체크가 필요합니다. 아르카나, 자연, 오컬트, 종교에서 전설적이라면, 관찰할 수 있는 생물이 @UUID[Compendium.pf2e.spells-srd.Item.1dsahW4g1ggXtypx]{시간 정지} 또는 유사한 효과의 혜택을 받을 때마다 해당 시간 동안 자신이 행동할 수는 없지만, 정지된 시간 동안 일어나는 일을 관찰할 수 있습니다.</p>"
+      "description": "<p>시간의 흐름과 썰물은 시간의 흐름이 왜곡될 때 형성되는 엉킴과 마찬가지로 여러분에게 분명합니다. 관찰됨 생물이 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐} 또는 @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{신속} 조건의 영향을 받고 있는지 자동으로 알아챌 수 있습니다. 시간을 조작하는 현상에 대해 대략적으로 파악할 수 있지만, 그렇다고 해서 변칙의 구체적인 효과에 대해 구체적으로 알 수는 없습니다. 특히 미묘한 시간 변칙은 여전히 플레이어의 눈에 띄지 않을 수 있으며, GM의 판단에 따라 지각 체크가 필요합니다. 주문학, 자연, 오컬트, 종교에서 전설적이라면, 관찰할 수 있는 생물이 @UUID[Compendium.pf2e.spells-srd.Item.1dsahW4g1ggXtypx]{시간 정지} 또는 유사한 효과의 혜택을 받을 때마다 해당 시간 동안 자신이 행동할 수는 없지만, 정지된 시간 동안 일어나는 일을 관찰할 수 있습니다.</p>"
     },
     "Majestic Presence": {
       "name": "장엄한 존재감",
@@ -10535,7 +10535,7 @@
       "description": "<p>당신은 삶과 사랑, 자유를 향한 아자타의 전염성 있는 열정에 사로잡혀 우아한 움직임에 진주빛 잔상이, 부드러운 발걸음에 봄이, 감미로운 목소리에 선율이, 매혹적인 눈빛에 정열적인 색채의 소용돌이처럼 나타납니다.@UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{인상 남기기} 체크 시 상황 보너스 +1을, 대상이 혼돈의 선이라면 상황 보너스 +2를 얻습니다. 당신은 @UUID[Compendium.pf2e.actionspf2e.Item.vFaNE7s7vFs9BxJW]{무료로 설정} 리액션을 얻습니다.</p>"
     },
     "Advanced Arcana": {
-      "name": "고급 아르카나",
+      "name": "고급 주문학",
       "description": "<p>마법사 재주를 하나 얻습니다. 전제 조건을 충족하기 위해 마법사 레벨은 캐릭터 레벨의 절반과 같습니다.</p>\n<hr />\n<p><strong>특별</strong> 이 재주는 두 번 이상 선택할 수 있습니다. 선택할 때마다 다른 마법사 재주를 하나씩 얻습니다.</p>"
     },
     "Vibration Sense": {
@@ -10632,7 +10632,7 @@
     },
     "Wish Alchemy": {
       "name": "소원 연금술",
-      "description": "<p>아르토쿠스 키란의 숨겨진 비밀을 배워 소원의 힘이 주입된 연금술을 만들 수 있게 되었습니다.</p>\n<p>@UUID[Compendium.pf2e.classfeatures.Item] 사용 시 하루에 한 번씩 사용할 수 있습니다.Pe0zmIqyTBc2Td0I]{고급 연금술}을 매일 준비하는 동안, 주입된 시약을 사용해 8레벨 이하의 일반 비전 주문 한 가지가 담긴 소원 약병을 만들 수 있습니다.</p>\n<p>주문은 시전 시간이 3번 이하의 액션과 비용 없이 자신을 대상으로 할 수 있어야 하며, 자신을 대상으로 해야 합니다. 나만 소원 약병을 활성화할 수 있으며, 주문 시전 시간과 동일한 수의 @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{Interact} 액션이 필요하고 주문의 효과를 받을 수 있습니다.</p>"
+      "description": "<p>아르토쿠스 키란의 숨겨진 비밀을 배워 소원의 힘이 주입된 연금술을 만들 수 있게 되었습니다.</p>\n<p>@UUID[Compendium.pf2e.classfeatures.Item] 사용 시 하루에 한 번씩 사용할 수 있습니다.Pe0zmIqyTBc2Td0I]{고급 연금술}을 매일 준비하는 동안, 주입된 시약을 사용해 8레벨 이하의 일반 비전 주문 한 가지가 담긴 소원 약병을 만들 수 있습니다.</p>\n<p>주문은 시전 시간이 3번 이하의 액션과 비용 없이 자신을 대상으로 할 수 있어야 하며, 자신을 대상으로 해야 합니다. 나만 소원 약병을 활성화할 수 있으며, 주문 시전 시간과 동일한 수의 @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{상호작용} 액션이 필요하고 주문의 효과를 받을 수 있습니다.</p>"
     },
     "Disciple of Shade": {
       "name": "그늘의 제자",
@@ -10672,7 +10672,7 @@
     },
     "Magus Dedication": {
       "name": "메이거스 헌신",
-      "description": "<p>마법사처럼 주문을 시전하고, 원하는 일반 비전 주문 4장이 담긴 주문서를 얻습니다. 주문 시전 활동을 얻습니다. 주문서에서 매일 두 개의 주문을 준비할 수 있습니다. 마법사 원형에서 새로운 레벨의 주문 슬롯을 얻을 때마다 주문서에 해당 등급 이하의 주문을 하나 추가합니다. 당신은 비전 주문 공격 굴림과 주문 DC에 훈련되어 있습니다. 마도사 원형 주문의 주요 주문 시전 속성은 지능이며, 해당 주문은 비전 마도사 주문입니다. 아르카나를 훈련받게 되며, 이미 아르카나를 훈련받았다면 대신 원하는 기술을 훈련받게 됩니다. 단순 무기를 훈련받게 됩니다.</p>\n<hr />\n<p><strong>특별</strong> @UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.r79jab1XgOdcgvKJ]{마거스} 원형에서 다른 두 가지 재주를 획득할 때까지 다른 헌신 재주를 선택할 수 없습니다.</p>"
+      "description": "<p>마법사처럼 주문을 시전하고, 원하는 일반 비전 주문 4장이 담긴 주문서를 얻습니다. 주문 시전 활동을 얻습니다. 주문서에서 매일 두 개의 주문을 준비할 수 있습니다. 마법사 원형에서 새로운 레벨의 주문 슬롯을 얻을 때마다 주문서에 해당 등급 이하의 주문을 하나 추가합니다. 당신은 비전 주문 공격 굴림과 주문 DC에 훈련되어 있습니다. 마도사 원형 주문의 주요 주문 시전 속성은 지능이며, 해당 주문은 비전 마도사 주문입니다. 주문학를 훈련받게 되며, 이미 주문학를 훈련받았다면 대신 원하는 기술을 훈련받게 됩니다. 단순 무기를 훈련받게 됩니다.</p>\n<hr />\n<p><strong>특별</strong> @UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.r79jab1XgOdcgvKJ]{마거스} 원형에서 다른 두 가지 재주를 획득할 때까지 다른 헌신 재주를 선택할 수 없습니다.</p>"
     },
     "Sow Spell": {
       "name": "씨 뿌리기 주문",
@@ -10940,7 +10940,7 @@
     },
     "Makeshift Strike": {
       "name": "임시 파업",
-      "description": "<p>근처에 있는 물체를 재빨리 집어 들고 즉석 무기로 공격합니다.</p>\n<p>@UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{Interact}를 사용해 즉석 무기로 사용할 수 있는 근처의 물체를 집어 올립니다. 바닥에 있는 물체가 아니라 테이블 위에 있는 머그잔과 같이 가슴 레벨 정도에 있어야 합니다. 그런 다음 이 즉석 무기로 공격하거나 @UUID[Compendium.pf2e.feats-srd.Item.FSxugo3zTgRhW7Og]{즉석 타격}을 날립니다.</p>"
+      "description": "<p>근처에 있는 물체를 재빨리 집어 들고 즉석 무기로 공격합니다.</p>\n<p>@UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{상호작용}를 사용해 즉석 무기로 사용할 수 있는 근처의 물체를 집어 올립니다. 바닥에 있는 물체가 아니라 테이블 위에 있는 머그잔과 같이 가슴 레벨 정도에 있어야 합니다. 그런 다음 이 즉석 무기로 공격하거나 @UUID[Compendium.pf2e.feats-srd.Item.FSxugo3zTgRhW7Og]{즉석 타격}을 날립니다.</p>"
     },
     "Strong Swimmer": {
       "name": "강한 수영 선수",
@@ -10948,7 +10948,7 @@
     },
     "Sense Holiness": {
       "name": "거룩함 감지",
-      "description": "<p>선함의 존재는 그 사탕 같은 독선으로 당신을 병들게 합니다. 120피트 이내에서 성스러운 특성을 가진 생명체의 존재를 감지할 수 있습니다. 이는 인간의 후각과 비슷한 막연한 감각으로 작용합니다. 변장을 사용하거나 다른 방법으로 자신의 존재를 숨기려는 성스러운 생물은 당신의 지각 DC에 @Check[기만|대적:지각|롤러역할:대상|showDC:모두] 체크를 시도하여 자신의 성화를 숨기려고 합니다. 그 생물이 기만 체크에 성공하면, 그 생물은 1일 동안 당신의 지각 성화에 일시적으로 면역이 됩니다.</p>"
+      "description": "<p>선함의 존재는 그 사탕 같은 독선으로 당신을 병들게 합니다. 120피트 이내에서 성스러운 특성을 가진 생명체의 존재를 감지할 수 있습니다. 이는 인간의 후각과 비슷한 막연한 감각으로 작용합니다. 변장을 사용하거나 다른 방법으로 자신의 존재를 숨기려는 성스러운 생물은 당신의 지각 DC에 @Check[deception|대적:지각|롤러역할:대상|showDC:모두] 체크를 시도하여 자신의 성화를 숨기려고 합니다. 그 생물이 기만 체크에 성공하면, 그 생물은 1일 동안 당신의 지각 성화에 일시적으로 면역이 됩니다.</p>"
     },
     "Bloodline Breadth": {
       "name": "혈통의 폭",
@@ -11043,8 +11043,8 @@
       "description": "<p>준비된 신성한 시전사로서 전문 주문 시전 효과를 얻습니다.</p>"
     },
     "Expert Scroll Cache": {
-      "name": "전문가 스크롤 캐시",
-      "description": "<p>두루마리 컬렉션이 더 강력해집니다.</p>\n<p>기본 두루마리 보관함에 있는 일일 두루마리 외에 3단계 주문이 있는 두루마리를 추가합니다. 14 레벨이 되면 4단계 주문이 있는 두루마리를 추가합니다. 16 레벨이 되면 5 등급 주문이 적힌 두루마리를 추가합니다.</p>"
+      "name": "전문가 스크롤 묶음",
+      "description": "<p>스크롤 컬렉션이 더 강력해집니다.</p>\n<p>기본 스크롤 보관함에 있는 일일 스크롤 외에 3단계 주문이 있는 스크롤을 추가합니다. 14 레벨이 되면 4단계 주문이 있는 스크롤을 추가합니다. 16 레벨이 되면 5 등급 주문이 적힌 스크롤을 추가합니다.</p>"
     },
     "Voice of Authority": {
       "name": "권위의 목소리",
@@ -11804,7 +11804,7 @@
     },
     "Clan's Edge": {
       "name": "클랜의 가장자리",
-      "description": "<p>클랜 단검을 빠르고 정확하게 움직여 자신을 더 효과적으로 보호할 수 있습니다. 서로 다른 대상에게 두 번의 클랜 단검 공격을 가합니다. 이 공격에는 일반적으로 다중 공격 페널티가 적용됩니다. 그런 다음 @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{Interact} 액션을 사용해 클랜 단검의 회피 특성에 따른 상황 보너스 +1을 AC에 부여합니다.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.fRlvmul3LbLo2xvR]{Effect: 패리}</p>"
+      "description": "<p>클랜 단검을 빠르고 정확하게 움직여 자신을 더 효과적으로 보호할 수 있습니다. 서로 다른 대상에게 두 번의 클랜 단검 공격을 가합니다. 이 공격에는 일반적으로 다중 공격 페널티가 적용됩니다. 그런 다음 @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{상호작용} 액션을 사용해 클랜 단검의 회피 특성에 따른 상황 보너스 +1을 AC에 부여합니다.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.fRlvmul3LbLo2xvR]{Effect: 패리}</p>"
     },
     "Wall Jump": {
       "name": "벽 점프",
@@ -12076,7 +12076,7 @@
     },
     "Assured Identification": {
       "name": "확실한 신원 확인",
-      "description": "<p>아이템을 잘못 식별하는 경우는 거의 없습니다. 아르카나, 자연, 오컬트, 종교 체크를 사용해 마법을 식별할 때, 대실패를 굴리면 대신 실패를 얻습니다. 대성공이 아닌 성공이 나와 저주받은 아이템으로 잘못 식별할 경우, 대신 저주받은 아이템을 식별할 수 없습니다.</p>"
+      "description": "<p>아이템을 잘못 식별하는 경우는 거의 없습니다. 주문학, 자연, 오컬트, 종교 체크를 사용해 마법을 식별할 때, 대실패를 굴리면 대신 실패를 얻습니다. 대성공이 아닌 성공이 나와 저주받은 아이템으로 잘못 식별할 경우, 대신 저주받은 아이템을 식별할 수 없습니다.</p>"
     },
     "Mortal Herald Dedication": {
       "name": "필멸의 전령 헌신",
@@ -12232,7 +12232,7 @@
     },
     "Free from Bonds": {
       "name": "채권 없음",
-      "description": "<p>죽음의 전령은 쉽게 잡힐 수 없으며, 아군도 마찬가지입니다. UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속}인 경우, @UUID를 사용할 때.pf2e.feats-srd.Item.N9kJPSRz1Ax9eFdD]{편재성의 섬광}, 해당 조건을 자신에게 부여하는 생물 또는 효과가 @Damage[(@액터.레벨)[정령]]{정령 피해}를 자신의 레벨만큼 받습니다.</p> <p>잡히거나 제지된 아군에게 편재의 섬광을 사용하여 순간이동하는 경우, 해당 조건을 부여하는 생물 또는 효과의 레벨에 대한 하드 DC에 @Check[종교] 체크를 시도합니다. 성공 시, 아군은 더 이상 해당 조건을 갖지 않습니다.</p>"
+      "description": "<p>죽음의 전령은 쉽게 잡힐 수 없으며, 아군도 마찬가지입니다. UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속}인 경우, @UUID를 사용할 때.pf2e.feats-srd.Item.N9kJPSRz1Ax9eFdD]{편재성의 섬광}, 해당 조건을 자신에게 부여하는 생물 또는 효과가 @Damage[(@액터.레벨)[정령]]{정령 피해}를 자신의 레벨만큼 받습니다.</p> <p>잡히거나 제지된 아군에게 편재의 섬광을 사용하여 순간이동하는 경우, 해당 조건을 부여하는 생물 또는 효과의 레벨에 대한 하드 DC에 @Check[religion] 체크를 시도합니다. 성공 시, 아군은 더 이상 해당 조건을 갖지 않습니다.</p>"
     },
     "Magnetic Field": {
       "name": "자기장",
@@ -12376,7 +12376,7 @@
     },
     "Impassable Wall Stance": {
       "name": "통과할 수 없는 벽 자세",
-      "description": "<p>적의 방어를 거부합니다. 이 자세를 취하고 있는 동안 이동 액션으로 트리거된 @UUID[Compendium.pf2e.actionspf2e.Item.KAVf7AmRnbCAHrkT]{반응 타격}에 치명타를 받으면 해당 이동 액션을 방해합니다.</p>"
+      "description": "<p>적의 방어를 거부합니다. 이 자세를 취하고 있는 동안 이동 액션으로 트리거된 @UUID[Compendium.pf2e.actionspf2e.Item.KAVf7AmRnbCAHrkT]{기회 공격}에 치명타를 받으면 해당 이동 액션을 방해합니다.</p>"
     },
     "Piercing Quills": {
       "name": "피어싱 퀼",
@@ -12464,7 +12464,7 @@
     },
     "Predictive Purchase (Rogue)": {
       "name": "예측 구매(로그)",
-      "description": "<p>어떻게든 상황에 딱 맞는 물건을 손에 넣었습니다.@UUID[Compendium.pf2e.feats-srd.Item.bh2jHyyYrkLMsIdX]{현명한 플래너} 및 @UUID[Compendium.pf2e.feats-srd.Item.lHFz4MmebvPqTb0A]{현명한 소모품} 재주를 획득합니다. 프레즌트 플래너를 사용할 때, 배낭(또는 유사한 용기)에서 아이템을 꺼내는 데 1분 걸리는 대신 2번의 액션으로 아이템을 꺼낼 수 있습니다.</p>"
+      "description": "<p>어떻게든 상황에 딱 맞는 물건을 손에 넣었습니다.@UUID[Compendium.pf2e.feats-srd.Item.bh2jHyyYrkLMsIdX]{현명한 계획자} 및 @UUID[Compendium.pf2e.feats-srd.Item.lHFz4MmebvPqTb0A]{현명한 소모품} 재주를 획득합니다. 프레즌트 플래너를 사용할 때, 배낭(또는 유사한 용기)에서 아이템을 꺼내는 데 1분 걸리는 대신 2번의 액션으로 아이템을 꺼낼 수 있습니다.</p>"
     },
     "Devoted Guardian": {
       "name": "헌신적인 수호자",
@@ -12692,11 +12692,11 @@
     },
     "Lunging Stance": {
       "name": "돌진 자세",
-      "description": "<p><strong>요구 조건</strong> 근접 무기를 휘두르고 있습니다.</p>\n<hr />\n<p>몸을 돌돌 말아 멀리 있는 적을 공격할 수 있습니다. 이 자세를 취하고 있을 때, @UUID[Compendium.pf2e.actionspf2e.Item.KAVf7AmRnbCAHrkT]{반격 타격}을 사용할 수 있지만 @UUID[Compendium.pf2e.feats-srd.Item.rTkr1EqpAN6YtnAh]{돌진}으로 사정거리 내에 있는 생물에게 공격할 수 있습니다. 그렇게 하면 타격 사거리가 5피트 증가합니다.</p>"
+      "description": "<p><strong>요구 조건</strong> 근접 무기를 휘두르고 있습니다.</p>\n<hr />\n<p>몸을 돌돌 말아 멀리 있는 적을 공격할 수 있습니다. 이 자세를 취하고 있을 때, @UUID[Compendium.pf2e.actionspf2e.Item.KAVf7AmRnbCAHrkT]{기회 공격}을 사용할 수 있지만 @UUID[Compendium.pf2e.feats-srd.Item.rTkr1EqpAN6YtnAh]{돌진}으로 사정거리 내에 있는 생물에게 공격할 수 있습니다. 그렇게 하면 타격 사거리가 5피트 증가합니다.</p>"
     },
     "Magaambyan Attendant Dedication": {
       "name": "마가암비안 어텐던트 헌신",
-      "description": "<p>할시온 마법을 연구하는 데 많은 시간을 할애합니다. 원하는 비전 또는 원시 캔트립을 하나 시전할 수 있는 능력을 얻습니다(일반적인 캔트립과 마찬가지로, 레벨의 절반에 해당하는 주문 등급으로 강화되며 반올림됩니다). 그렇지 않은 경우, 해당 전통의 주문 DC와 주문 공격 굴림에 훈련된 상태가 되며, 아케인을 선택하면 주문 시전 능력으로 지능을, 원시를 선택하면 주문 시전 능력으로 지혜를 얻습니다.</p>\n<p>비전 또는 원시 캔트립을 선택하든 상관없이 아르카나 또는 자연 중 하나를 훈련받거나 이미 훈련된 기술 중 하나의 전문가가 됩니다.</p>\n<p>이 재주를 얻으면 폭포수 운반자, 에메랄드 가지, 비-서기, 폭풍-태양 마법사 또는 우준자티와 소속을 선택할 수 있습니다. 그러면 해당 분파에서만 사용할 수 있는 추가 재주를 획득할 수 있습니다.</p>\n<hr />\n<div><strong>특별</strong> @UUID[Compendium.pf2e.feats-srd.Item.7] 이외의 다른 헌신 재주는 선택할 수 없습니다.fU6e3HIT4NvwLYa]{할시온 스피커 헌신}은 @UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage에서 다른 두 가지 업적을 획득할 때까지 선택할 수 없습니다.eLc6TSgWykjtSeuF]{마가암비안 어텐던트} 또는 @UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.pDmUITVao0FDMnVf]{할시온 스피커} 아카이브 유형.</div>"
+      "description": "<p>할시온 마법을 연구하는 데 많은 시간을 할애합니다. 원하는 비전 또는 원시 캔트립을 하나 시전할 수 있는 능력을 얻습니다(일반적인 캔트립과 마찬가지로, 레벨의 절반에 해당하는 주문 등급으로 강화되며 반올림됩니다). 그렇지 않은 경우, 해당 전통의 주문 DC와 주문 공격 굴림에 훈련된 상태가 되며, 아케인을 선택하면 주문 시전 능력으로 지능을, 원시를 선택하면 주문 시전 능력으로 지혜를 얻습니다.</p>\n<p>비전 또는 원시 캔트립을 선택하든 상관없이 주문학 또는 자연 중 하나를 훈련받거나 이미 훈련된 기술 중 하나의 전문가가 됩니다.</p>\n<p>이 재주를 얻으면 폭포수 운반자, 에메랄드 가지, 비-서기, 폭풍-태양 마법사 또는 우준자티와 소속을 선택할 수 있습니다. 그러면 해당 분파에서만 사용할 수 있는 추가 재주를 획득할 수 있습니다.</p>\n<hr />\n<div><strong>특별</strong> @UUID[Compendium.pf2e.feats-srd.Item.7] 이외의 다른 헌신 재주는 선택할 수 없습니다.fU6e3HIT4NvwLYa]{할시온 스피커 헌신}은 @UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage에서 다른 두 가지 업적을 획득할 때까지 선택할 수 없습니다.eLc6TSgWykjtSeuF]{마가암비안 어텐던트} 또는 @UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.pDmUITVao0FDMnVf]{할시온 스피커} 아카이브 유형.</div>"
     },
     "Apprentice Sea Witch": {
       "name": "견습 바다마녀",
@@ -13000,7 +13000,7 @@
     },
     "Five Breaths, One Death": {
       "name": "다섯 번의 호흡, 한 번의 죽음",
-      "description": "<p><strong>빈도</strong> 10분에 한 번</p> <p><strong>요건</strong> 자신이 원소 자세에 있고, 대상이 불균형 유도 효과를 받고 있습니다.</p><hr /><p>원소를 순환하며 파괴적인 조합 공격을 합니다. 현재 원소 자세와 관련된 비무장 공격으로 대상을 공격한 다음, @UUID[Compendium.pf2e.actionspf2e.Item.Oh6H1fuXC6jK4Hcp]{원소 자세 순환}을 사용합니다. 그런 다음 새로운 원소 자세와 관련된 비무장 공격으로 대상을 공격합니다. 알고 있는 모든 원소 자세의 비무장 공격으로 공격을 성공할 때까지 원소 자세와 공격을 계속 순환할 수 있으며, 평소처럼 다중 공격 페널티가 적용됩니다. 이 능력을 사용하여 다섯 가지 원소 공격으로 대상을 모두 적중시키는 데 성공하면, 대상은 자신의 직업 DC에 대해 [내성|대적:직업|특성:죽음] 세이브를 시도하거나 신체 내 원소와 관련된 각 기관이 닫히면서 죽습니다. </p> 사망 효과입니다.</p>"
+      "description": "<p><strong>빈도</strong> 10분에 한 번</p> <p><strong>요건</strong> 자신이 원소 자세에 있고, 대상이 불균형 유도 효과를 받고 있습니다.</p><hr /><p>원소를 순환하며 파괴적인 조합 공격을 합니다. 현재 원소 자세와 관련된 비무장 공격으로 대상을 공격한 다음, @UUID[Compendium.pf2e.actionspf2e.Item.Oh6H1fuXC6jK4Hcp]{원소 자세 순환}을 사용합니다. 그런 다음 새로운 원소 자세와 관련된 비무장 공격으로 대상을 공격합니다. 알고 있는 모든 원소 자세의 비무장 공격으로 공격을 성공할 때까지 원소 자세와 공격을 계속 순환할 수 있으며, 평소처럼 다중 공격 페널티가 적용됩니다. 이 능력을 사용하여 다섯 가지 원소 공격으로 대상을 모두 적중시키는 데 성공하면, 대상은 자신의 직업 DC에 대해 [fortitude|대적:직업|특성:죽음] 세이브를 시도하거나 신체 내 원소와 관련된 각 기관이 닫히면서 죽습니다. </p> 사망 효과입니다.</p>"
     },
     "Interfering Surge": {
       "name": "간섭 서지",
@@ -13244,7 +13244,7 @@
     },
     "One for All": {
       "name": "모두를 위한 하나",
-      "description": "<p>정확한 격려의 말로 아군의 노력에 힘을 실어줍니다. 30피트 이내에 있는 아군을 지정하고, 이 행동은 해당 아군을 @UUID[Compendium.pf2e.actionspf2e.Item.HCl3pzVefiv9ZKQW]{Aid}에 대한 충분한 준비로 계산합니다. 원조 반응을 사용하여 해당 아군을 도울 때, 일반적인 체크 대신 @Check[외교|특성:행동:원조,허세]를 굴리면 그 행동은 허세 특성을 얻습니다</p>"
+      "description": "<p>정확한 격려의 말로 아군의 노력에 힘을 실어줍니다. 30피트 이내에 있는 아군을 지정하고, 이 행동은 해당 아군을 @UUID[Compendium.pf2e.actionspf2e.Item.HCl3pzVefiv9ZKQW]{Aid}에 대한 충분한 준비로 계산합니다. 원조 반응을 사용하여 해당 아군을 도울 때, 일반적인 체크 대신 @Check[diplomacy|특성:행동:원조,허세]를 굴리면 그 행동은 허세 특성을 얻습니다</p>"
     },
     "Ease the Burden": {
       "name": "부담 완화",
@@ -13272,7 +13272,7 @@
     },
     "Silk Bracelet": {
       "name": "실크 팔찌",
-      "description": "<p><strong>접속</strong> 티엔 샤의 기원</p><hr /><p>티엔 샤의 거대한 실크 나방인 데스나의 이미지에서 영감을 받아 맹독이 섞인 초강력 실크 가닥을 생성하는 팔찌를 발명품에 부착했습니다. 이 물질을 공격의 일부로 방출할 수 있습니다. 근접 공격을 가합니다. 명중하면 대상은 일반 공격처럼 피해를 입으며, 다음과 같은 효과로 자신의 직업 DC에 대해 @Check[내성|대적:발명가] 세이브를 시도해야 합니다.</p><hr /><p><strong>대성공</strong> 대상은 영향을 받지 않습니다.</p> <p><strong>성공</strong> 비단이 1라운드 동안 대상의 모든 이동 속도에 -10 피트 상태이상을 부여합니다.</p> <p>@UUID[Compendium.pf2e.feat-effects.Item.RmJ5qosNpE8DUX2a]{Effect: 비단 팔찌}</p> <p><strong>실패</strong> 성공 시, 대상은 추가로 @Damage[(바닥(@액터.레벨/6))d4[persistent,poison]] 피해를 받습니다. 독 피해는 12레벨에서 2d4, 18레벨에서 3d4로 증가합니다.</p> <p><strong>대실패</strong> 실패로, 대상은 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{고정된}로 다음 턴이 끝날 때까지 이동합니다.</p><hr /><p><strong>특별</strong> 혁신이 하수인인 경우, 당신 대신 이 행동을 취할 수 있습니다.</p>"
+      "description": "<p><strong>접속</strong> 티엔 샤의 기원</p><hr /><p>티엔 샤의 거대한 실크 나방인 데스나의 이미지에서 영감을 받아 맹독이 섞인 초강력 실크 가닥을 생성하는 팔찌를 발명품에 부착했습니다. 이 물질을 공격의 일부로 방출할 수 있습니다. 근접 공격을 가합니다. 명중하면 대상은 일반 공격처럼 피해를 입으며, 다음과 같은 효과로 자신의 직업 DC에 대해 @Check[fortitude|대적:발명가] 세이브를 시도해야 합니다.</p><hr /><p><strong>대성공</strong> 대상은 영향을 받지 않습니다.</p> <p><strong>성공</strong> 비단이 1라운드 동안 대상의 모든 이동 속도에 -10 피트 상태이상을 부여합니다.</p> <p>@UUID[Compendium.pf2e.feat-effects.Item.RmJ5qosNpE8DUX2a]{Effect: 비단 팔찌}</p> <p><strong>실패</strong> 성공 시, 대상은 추가로 @Damage[(바닥(@액터.레벨/6))d4[persistent,poison]] 피해를 받습니다. 독 피해는 12레벨에서 2d4, 18레벨에서 3d4로 증가합니다.</p> <p><strong>대실패</strong> 실패로, 대상은 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{고정된}로 다음 턴이 끝날 때까지 이동합니다.</p><hr /><p><strong>특별</strong> 혁신이 하수인인 경우, 당신 대신 이 행동을 취할 수 있습니다.</p>"
     },
     "Rolling Landing": {
       "name": "롤링 랜딩",
@@ -13468,7 +13468,7 @@
     },
     "Arcane Sense": {
       "name": "아케인 센스",
-      "description": "<p>마법을 공부한 덕분에 본능적으로 마법의 존재를 감지할 수 있습니다. 1랭크 @UUID[Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl]{마법 탐지}를 아케인 타고난 주문으로 마음대로 시전할 수 있습니다. 아르카나 마스터인 경우 주문이 3랭크, 전설적 마스터인 경우 4랭크까지 강화됩니다.</p>"
+      "description": "<p>마법을 공부한 덕분에 본능적으로 마법의 존재를 감지할 수 있습니다. 1랭크 @UUID[Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl]{마법 탐지}를 아케인 타고난 주문으로 마음대로 시전할 수 있습니다. 주문학 마스터인 경우 주문이 3랭크, 전설적 마스터인 경우 4랭크까지 강화됩니다.</p>"
     },
     "Look Again": {
       "name": "다시 보기",
@@ -13712,7 +13712,7 @@
     },
     "Olethros's Decree": {
       "name": "올레트로스의 칙령",
-      "description": "<p><strong>빈도</strong> 하루에 한 번</p>\n<hr />\n<p>당신은 야마라즈를 성공적으로 조종하여 최초의 어둠의 워커를 탄생시킨 수수께끼의 사이코패스인 올레트로스와 연관이 있습니다. 당신은 활에 비단을 감아 운명의 비늘에 손가락을 얹습니다.</p>\n<p>이 턴에 처음으로 당신이 이런 식으로 수정한 활군 무기를 사용하여 공격으로 생물을 공격하는 경우, 그 생물은 추가로 [[/r 60]] 피해를 받습니다(@Check[type:fortitude|dc:resolve(@actor.attributes.classOrSpellDC.value)|basic:true] 클래스 또는 주문 DC 중 더 높은 값으로 저장) 화살표가 그들의 운명을 끊는 역할을 합니다. 이 추가 피해는 처음에 가한 공격과 같은 유형입니다. 동시에 두 마리 이상의 생물을 공격했다면, 한 마리를 선택하여 칙령의 효과를 받도록 합니다.</p>"
+      "description": "<p><strong>빈도</strong> 하루에 한 번</p>\n<hr />\n<p>당신은 야마라즈를 성공적으로 조종하여 최초의 어둠의 워커를 탄생시킨 수수께끼의 사이코패스인 올레트로스와 연관이 있습니다. 당신은 활에 비단을 감아 운명의 비늘에 손가락을 얹습니다.</p>\n<p>이 턴에 처음으로 당신이 이런 식으로 수정한 활군 무기를 사용하여 공격으로 생물을 공격하는 경우, 그 생물은 추가로 [[/r 60]] 피해를 받습니다(@Check[type:fortitude|dc:resolve(@actor.attributes.classOrSpellDC.value)|basic:true] 클래스 또는 주문 DC 중 더 높은 값으로 내성) 화살표가 그들의 운명을 끊는 역할을 합니다. 이 추가 피해는 처음에 가한 공격과 같은 유형입니다. 동시에 두 마리 이상의 생물을 공격했다면, 한 마리를 선택하여 칙령의 효과를 받도록 합니다.</p>"
     },
     "Orchard's Endurance": {
       "name": "과수원의 지구력",
@@ -13723,7 +13723,7 @@
       "description": "<p>첫인상은 당신의 강점입니다. 일상적인 상황이나 사교적인 상황에서 누군가를 만나면, 1분 동안 대화할 필요 없이 즉시 그 생물에게 @UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{인상 남기기}에 대한 외교 체크를 시도할 수 있습니다. 실패할 경우, 실패 또는 대실패 결과를 받아들이지 않고 1분 동안 대화에 참여하고 그 시간이 끝나면 새로운 체크를 시도할 수 있습니다.</p>"
     },
     "Gnome Polyglot": {
-      "name": "그놈 다국어",
+      "name": "노움 다국어",
       "description": "<p>폭넓은 여행 경험, 호기심, 배움에 대한 사랑이 언어를 빠르게 배우는 데 도움이 됩니다. 여러분이 접할 수 있는 일반적인 언어와 흔하지 않은 언어 중에서 선택한 세 가지 새로운 언어를 배우게 됩니다. 이 언어들은 다른 언어와 동일한 형태(수화 또는 음성)를 취합니다. @UUID[Compendium.pf2e.feats-srd.Item.P9HCz0uR6xPHuw72]{다국어} 재주를 선택하면 두 가지가 아닌 세 가지 언어를 새로 배우게 됩니다.</p>"
     },
     "Lorefinder": {
@@ -13748,7 +13748,7 @@
     },
     "Guardian Lion Roar": {
       "name": "수호 사자 포효",
-      "description": "<p>혁신은 수호 사자의 커다란 입을 닮은 판으로 강화되며, 이를 활성화하면 사자의 강력한 포효를 연상시키는 음파 에너지를 방출할 수 있습니다. 당신의 혁신으로부터 @Template[type:선|distance:20] 안에 있는 모든 생물은 당신의 직업 DC에 대한 @Check[내성|대적:발명가|basic]으로 d8[음파]|옵션:광역 피해만큼 @Damage[(max(2,(바닥(@액터.레벨/2)-2)))d8[음파] 피해를 받습니다. 이 내성에 실패한 생물은 1라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프-가드}가 됩니다. 이 효과로 인한 피해는 10레벨에서 1d8, 이후 2레벨마다 증가합니다.</p> <p><strong>불안정한 기능</strong> 수호 사자의 판에 숨겨진 스위치를 눌러 사자의 범위와 힘을 확장합니다. 수호 사자 포효에 불안정 특성이 추가됩니다. 포효의 사거리가 @Template[type:선|distance:60]까지 증가합니다. 세이브에 성공(치명타 성공은 아님)한 생물도 1라운드 동안 내성이 해제됩니다. 이 불안정한 행동에 대한 평정 확인을 시도하다가 대실패하면, 당신은 불 피해 대신 자신의 레벨과 같은 음파 피해를 받습니다.</p><hr /><p><strong>Special</strong> 당신의 혁신이 하수인인 경우, 이 행동을 당신이 아닌 하수인이 취할 수 있습니다.</p>"
+      "description": "<p>혁신은 수호 사자의 커다란 입을 닮은 판으로 강화되며, 이를 활성화하면 사자의 강력한 포효를 연상시키는 음파 에너지를 방출할 수 있습니다. 당신의 혁신으로부터 @Template[type:선|distance:20] 안에 있는 모든 생물은 당신의 직업 DC에 대한 @Check[fortitude|대적:발명가|basic]으로 d8[음파]|옵션:광역 피해만큼 @Damage[(max(2,(바닥(@액터.레벨/2)-2)))d8[음파] 피해를 받습니다. 이 내성에 실패한 생물은 1라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프-가드}가 됩니다. 이 효과로 인한 피해는 10레벨에서 1d8, 이후 2레벨마다 증가합니다.</p> <p><strong>불안정한 기능</strong> 수호 사자의 판에 숨겨진 스위치를 눌러 사자의 범위와 힘을 확장합니다. 수호 사자 포효에 불안정 특성이 추가됩니다. 포효의 사거리가 @Template[type:선|distance:60]까지 증가합니다. 세이브에 성공(치명타 성공은 아님)한 생물도 1라운드 동안 내성이 해제됩니다. 이 불안정한 행동에 대한 평정 확인을 시도하다가 대실패하면, 당신은 불 피해 대신 자신의 레벨과 같은 음파 피해를 받습니다.</p><hr /><p><strong>Special</strong> 당신의 혁신이 하수인인 경우, 이 행동을 당신이 아닌 하수인이 취할 수 있습니다.</p>"
     },
     "Spell-Repelling Form": {
       "name": "주문 퇴치 형태",
@@ -14164,7 +14164,7 @@
     },
     "Tracing Sigil": {
       "name": "추적 인장",
-      "description": "<p>Compendium.pf2e.spells-srd.Item.AUctDF2fqPZN2w4W]{Sigil}을 시전할 때 주문을 수정하여 기본 효과에 다음과 같은 효과를 추가할 수 있습니다: 대상은 자신과 다른 생물이 따라갈 수 있는 마법의 흔적을 남깁니다. 자신과 다른 생물은 생존 체크 대신 아르카나, 자연, 오컬트, 종교 체크(인장 주문의 마법 전통과 일치하는 것 중 하나)를 사용하여 대상을 @UUID[Compendium.pf2e.actionspf2e.Item.EA5vuSgJfiHH7plD]{추적}하려고 시도할 수 있습니다. 생존을 통한 추적과 마찬가지로, 목표물이 있었던 곳에서 진행해야 하며, 멀리서 목표물을 찾을 수 없습니다. 이 방법으로 수정치 표식을 표시할 수 있는 대상은 한 명만 지정할 수 있습니다. 두 번째 대상에게 이 능력을 다시 사용하면 첫 번째 대상의 인장 주문이 종료되고 표식이 사라집니다.</p>"
+      "description": "<p>Compendium.pf2e.spells-srd.Item.AUctDF2fqPZN2w4W]{Sigil}을 시전할 때 주문을 수정하여 기본 효과에 다음과 같은 효과를 추가할 수 있습니다: 대상은 자신과 다른 생물이 따라갈 수 있는 마법의 흔적을 남깁니다. 자신과 다른 생물은 생존 체크 대신 주문학, 자연, 오컬트, 종교 체크(인장 주문의 마법 전통과 일치하는 것 중 하나)를 사용하여 대상을 @UUID[Compendium.pf2e.actionspf2e.Item.EA5vuSgJfiHH7plD]{추적}하려고 시도할 수 있습니다. 생존을 통한 추적과 마찬가지로, 목표물이 있었던 곳에서 진행해야 하며, 멀리서 목표물을 찾을 수 없습니다. 이 방법으로 수정치 표식을 표시할 수 있는 대상은 한 명만 지정할 수 있습니다. 두 번째 대상에게 이 능력을 다시 사용하면 첫 번째 대상의 인장 주문이 종료되고 표식이 사라집니다.</p>"
     },
     "House of Imaginary Walls": {
       "name": "상상의 벽의 집",
@@ -14596,7 +14596,7 @@
     },
     "Cursebreaker": {
       "name": "커스브레이커",
-      "description": "<p><strong>빈도</strong> 하루에 한 번</p><hr /><p>다양한 도구와 난해한 방법을 사용하여 불운한 희생자의 저주를 풀려고 시도할 수 있습니다. 의지가 있는 생물에게 의식을 수행하는 데는 10분이 걸리며, 이 시간은 내내 당신의 손이 닿는 곳에 있어야 합니다.</p> <p>생물에게 걸린 저주 하나에 대응을 시도할 수 있으며, 대응 등급은 자신의 레벨 반올림으로 하고, 자신의 @Check[신비주의] 또는 @Check[종교] 수정자를 대응 수식어로 사용합니다. 영향을 받은 생물 또는 영향을 받은 생물에게 저주를 내린 자가 단서 추적을 통한 적극적인 조사 대상인 경우, 당신은 이 대응 체크에 +1 상황 보너스를 받습니다.</p> <p>저주 가 저주받은 아이템이나 다른 외부 출처에서 온 경우, 성공하면 대상 생물이 저주받은 아이템을 스스로 제거할 수는 있지만 아이템에서 저주를 제거하지는 못합니다.</p> <p>저주받은 아이템이 저주된 것이라면, 저주받은 아이템이 저주된 것을 제거하지 못한다는 의미도 됩니다.</p>"
+      "description": "<p><strong>빈도</strong> 하루에 한 번</p><hr /><p>다양한 도구와 난해한 방법을 사용하여 불운한 희생자의 저주를 풀려고 시도할 수 있습니다. 의지가 있는 생물에게 의식을 수행하는 데는 10분이 걸리며, 이 시간은 내내 당신의 손이 닿는 곳에 있어야 합니다.</p> <p>생물에게 걸린 저주 하나에 대응을 시도할 수 있으며, 대응 등급은 자신의 레벨 반올림으로 하고, 자신의 @Check[신비주의] 또는 @Check[religion] 수정자를 대응 수식어로 사용합니다. 영향을 받은 생물 또는 영향을 받은 생물에게 저주를 내린 자가 단서 추적을 통한 적극적인 조사 대상인 경우, 당신은 이 대응 체크에 +1 상황 보너스를 받습니다.</p> <p>저주 가 저주받은 아이템이나 다른 외부 출처에서 온 경우, 성공하면 대상 생물이 저주받은 아이템을 스스로 제거할 수는 있지만 아이템에서 저주를 제거하지는 못합니다.</p> <p>저주받은 아이템이 저주된 것이라면, 저주받은 아이템이 저주된 것을 제거하지 못한다는 의미도 됩니다.</p>"
     },
     "Animal Companion": {
       "name": "동물 동반자",
@@ -14684,7 +14684,7 @@
     },
     "Strategist Stance": {
       "name": "전략가 자세",
-      "description": "<p>자신과 아군에게 가장 전략적인 선택지를 찾습니다. 이 행동을 사용할 때는 @Check[사회|dc:@self.level|롤러:자신] 또는 @Check[전쟁-지식|dc:@self.level|롤러:자신] 체크를 시도합니다. DC는 일반적으로 해당 레벨의 표준 난이도 DC가 적용되지만, 상황에 따라 GM이 다른 DC를 지정할 수 있습니다.</p> <p>@UUID[Compendium.pf2e.feat-effects.Item.z6oLNlBs724PCcR6]{Stance: 전략가 자세}</p><hr /><p><strong>대성공</strong> 원수의 오라가 @Template[type:emanation|distance:20]으로 증가하고, 자신과 아군의 반사 내성 굴림에 +1 상태 보너스를 부여합니다. 턴당 한 번, 당신이 적 생물에 대한 정보를 얻기 위해 지식 소환 체크에 성공하거나 치명타로 성공하면, 지식 소환 체크의 대상은 당신 또는 당신의 오라에 있는 아군이 다음 공격할 때 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프-가드}가 됩니다.</p> <p><strong>성공</strong> 대성공이지만, 오라의 크기가 증가하지 않습니다.</p> <p><strong>실패</strong> 자세를 취하지 못합니다.</p> <p><strong>대실패</strong> 자세 진입에 실패하고 1분 동안 이 동작을 다시 사용할 수 없습니다.</p> </p>"
+      "description": "<p>자신과 아군에게 가장 전략적인 선택지를 찾습니다. 이 행동을 사용할 때는 @Check[society|dc:@self.level|롤러:자신] 또는 @Check[전쟁-지식|dc:@self.level|롤러:자신] 체크를 시도합니다. DC는 일반적으로 해당 레벨의 표준 난이도 DC가 적용되지만, 상황에 따라 GM이 다른 DC를 지정할 수 있습니다.</p> <p>@UUID[Compendium.pf2e.feat-effects.Item.z6oLNlBs724PCcR6]{Stance: 전략가 자세}</p><hr /><p><strong>대성공</strong> 원수의 오라가 @Template[type:emanation|distance:20]으로 증가하고, 자신과 아군의 반사 내성 굴림에 +1 상태 보너스를 부여합니다. 턴당 한 번, 당신이 적 생물에 대한 정보를 얻기 위해 지식 소환 체크에 성공하거나 치명타로 성공하면, 지식 소환 체크의 대상은 당신 또는 당신의 오라에 있는 아군이 다음 공격할 때 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프-가드}가 됩니다.</p> <p><strong>성공</strong> 대성공이지만, 오라의 크기가 증가하지 않습니다.</p> <p><strong>실패</strong> 자세를 취하지 못합니다.</p> <p><strong>대실패</strong> 자세 진입에 실패하고 1분 동안 이 동작을 다시 사용할 수 없습니다.</p> </p>"
     },
     "Guardian's Embrace": {
       "name": "수호자의 품",
@@ -14932,7 +14932,7 @@
     },
     "Second Shield": {
       "name": "두 번째 방패",
-      "description": "<p><strong>트리거</strong> @UUID[Compendium.pf2e.feats-srd.Item.jM72TjJ965jocBV8]{실드 블록}으로 인해 실드가 부러지거나 파괴됩니다.</p>\n<hr />\n<p>전투 도중에 방패가 부러지는 것에 익숙하다면 예비 방패나 주변에 있는 편리한 물체를 사용해 방어할 수 있습니다.</p>\n<p>@UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{Interact}를 사용해 손이 닿는 곳에 있는 사람이나 방치된 방패를 끌어당겨 방패를 방어할 수 있습니다. 손이 닿는 곳에 테이블이나 의자처럼 즉석에서 방패 역할을 할 수 있는 물체가 있다면, 상호작용을 통해 이 재주를 사용해 그 물체를 끌어당길 수 있습니다. 즉석 방패로 사용할 수 있는 물체인지 여부는 GM이 결정합니다.</p>\n<p>새 방패는 평소처럼 @UUID[Compendium.pf2e.actionspf2e.Item.xjGwis0uaC2305pm]{방패 올리기} 액션을 사용할 때까지 올리지 못합니다.</p>"
+      "description": "<p><strong>트리거</strong> @UUID[Compendium.pf2e.feats-srd.Item.jM72TjJ965jocBV8]{실드 블록}으로 인해 실드가 부러지거나 파괴됩니다.</p>\n<hr />\n<p>전투 도중에 방패가 부러지는 것에 익숙하다면 예비 방패나 주변에 있는 편리한 물체를 사용해 방어할 수 있습니다.</p>\n<p>@UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{상호작용}를 사용해 손이 닿는 곳에 있는 사람이나 방치된 방패를 끌어당겨 방패를 방어할 수 있습니다. 손이 닿는 곳에 테이블이나 의자처럼 즉석에서 방패 역할을 할 수 있는 물체가 있다면, 상호작용을 통해 이 재주를 사용해 그 물체를 끌어당길 수 있습니다. 즉석 방패로 사용할 수 있는 물체인지 여부는 GM이 결정합니다.</p>\n<p>새 방패는 평소처럼 @UUID[Compendium.pf2e.actionspf2e.Item.xjGwis0uaC2305pm]{방패 올리기} 액션을 사용할 때까지 올리지 못합니다.</p>"
     },
     "Fox Trick": {
       "name": "폭스 트릭",
@@ -15011,7 +15011,7 @@
       "description": "<p><strong>트리거</strong> 적 또는 위험 요소의 효과가 자신에게 적중하거나 위험 요소에 대한 인내 저항에 실패합니다.</p>\n<hr />\n<p>돌의 근력이 당신의 튼튼한 몸을 대체할 정도로 강력하게 당신을 압도합니다. 당신은 현재 턴이 끝날 때까지 @UUID[Compendium.pf2e.conditionitems.Item.dTwPJuKgBQCMxixg]{석화}이 됩니다. 트리거 효과나 돌에 영향을 줄 수 없는 다른 악영향으로 인한 피해를 받지 않습니다.</p>"
     },
     "Dragon Arcana": {
-      "name": "드래곤 아르카나",
+      "name": "드래곤 주문학",
       "description": "<p>전통에 용의 마법을 추가하는 방법을 발견했습니다.</p>\n<p>드라코닉 혈통의 부여 주문을 주문 목록에 추가하고, 평소처럼 배우거나 목록에 추가해야 합니다. 해당 주문은 @UUID[Compendium.pf2e.spells-srd.Item.TVKNbcgTee19PXZR]{방패}, @UUID[Compendium.pf2e.spells-srd.Item입니다.Gb7SeieEvd0pL2Eh]{확률 스트라이크}, @UUID[Compendium.pf2e.spells-srd.Item.Fr58LDSrbndgld9n]{에너지 저항}, @UUID[Compendium.pf2e.spells-srd.Item.o6YCGx4lycsYpww4]{속성}, @UUID[Compendium.pf2e.spells-srd.Item.tgIhRUFtgDSELpJE]{주문 면역}, @UUID[Compendium.pf2e.spells-srd.Item.forsqeofEszBNtLq]{채색벽}, @UUID[Compendium.pf2e.spells-srd.Item.5c692cCcTDXjSEzk]{드래곤 형태}, @UUID[Compendium.pf2e.spells-srd.Item.O6VQC1Bs4aSYDa6R]{마스크 오브 테러}, @UUID[Compendium.pf2e.spells-srd.Item.iL6TujgTCtRRa0Y0]{프리즘의 벽}, @UUID[Compendium.pf2e.spells-srd.Item.fkDeKktdmbeplYRY]{압도적인 존재감}.</p>"
     },
     "Minotaur Weapon Familiarity": {
@@ -15048,7 +15048,7 @@
     },
     "Thaumaturge Dedication": {
       "name": "쏘마터지 헌신",
-      "description": "<p>기본적인 마력술에 대해 알아냈습니다. 쏘마터지 클래스 DC로 훈련된 상태가 됩니다. 도구를 선택하면 취약성을 엿볼 수는 있지만, 그 이점은 얻지 못합니다. 또한, 몇 가지 밀교를 획득하여 밀교 액션을 사용할 수 있습니다. 아르카나, 자연, 오컬트, 종교 중 하나를 선택해 훈련받으며, 이미 이 중 하나를 훈련받은 경우 원하는 기술을 훈련받습니다.@UUID[Compendium.pf2e.actionspf2e.Item.Yfl6q6Pi42FttDRE]{취약점 엿보기} 액션을 얻습니다.</p>\n<hr />\n<p><strong>특별</strong> @UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.K9Krytj8OtUvQxoc]{Thaumaturge} 원형에서 다른 두 가지 재주를 획득할 때까지 다른 헌신 업적을 선택하지 못합니다.</p>"
+      "description": "<p>기본적인 마력술에 대해 알아냈습니다. 쏘마터지 클래스 DC로 훈련된 상태가 됩니다. 도구를 선택하면 취약성을 엿볼 수는 있지만, 그 이점은 얻지 못합니다. 또한, 몇 가지 밀교를 획득하여 밀교 액션을 사용할 수 있습니다. 주문학, 자연, 오컬트, 종교 중 하나를 선택해 훈련받으며, 이미 이 중 하나를 훈련받은 경우 원하는 기술을 훈련받습니다.@UUID[Compendium.pf2e.actionspf2e.Item.Yfl6q6Pi42FttDRE]{취약점 엿보기} 액션을 얻습니다.</p>\n<hr />\n<p><strong>특별</strong> @UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.K9Krytj8OtUvQxoc]{Thaumaturge} 원형에서 다른 두 가지 재주를 획득할 때까지 다른 헌신 업적을 선택하지 못합니다.</p>"
     },
     "Resolute Defender": {
       "name": "단호한 수비수",
@@ -15324,7 +15324,7 @@
     },
     "Ponpoko-Pon!": {
       "name": "폰포코폰!",
-      "description": "<p>특히 격렬하게 연주하든 단순히 음이 맞지 않든, 배꼽북의 음악은 적에게 물리적인 상처를 입힐 수 있습니다. 당신은 @Template[type:원뿔|distance:30] 안에 있는 모든 생물에게 주문 DC와 직업 DC 중 높은 값만큼의 @Check[내성|대적:직업 주문|basic] 세이브와 함께 @Damage[(ceiling(@actor.level/2))d4[음파]|옵션:광역 피해]를 입힙니다. 하지만 이렇게 격렬하게 북을 치면 배가 약간 아프기 때문에 [[/r 1d4 #라운드]]{1d4 라운드} 동안 이 능력을 다시 사용할 수 없습니다.</p> <p>15레벨과 이후 2레벨마다 피해량이 1d4씩 증가합니다.</p> <p>15레벨이 되면, 피해량이 1d4씩 증가합니다.</p>"
+      "description": "<p>특히 격렬하게 연주하든 단순히 음이 맞지 않든, 배꼽북의 음악은 적에게 물리적인 상처를 입힐 수 있습니다. 당신은 @Template[type:원뿔|distance:30] 안에 있는 모든 생물에게 주문 DC와 직업 DC 중 높은 값만큼의 @Check[fortitude|대적:직업 주문|basic] 세이브와 함께 @Damage[(ceiling(@actor.level/2))d4[음파]|옵션:광역 피해]를 입힙니다. 하지만 이렇게 격렬하게 북을 치면 배가 약간 아프기 때문에 [[/r 1d4 #라운드]]{1d4 라운드} 동안 이 능력을 다시 사용할 수 없습니다.</p> <p>15레벨과 이후 2레벨마다 피해량이 1d4씩 증가합니다.</p> <p>15레벨이 되면, 피해량이 1d4씩 증가합니다.</p>"
     },
     "Fleeting Shadow": {
       "name": "덧없는 그림자",
@@ -15508,7 +15508,7 @@
     },
     "Wither Away": {
       "name": "위더 어웨이",
-      "description": "<p><strong>빈도</strong> 10분에 한 번</p><hr /><p>생물의 시간 경과를 앞당겨 조기에 노쇠하게 만듭니다. 60피트 내의 생명체는 자신의 직업 DC와 주문 DC 중 높은 값에 대한 @Check[내성|대:직업-주문] 구르기 결과에 따라 다음과 같은 불이익을 받으면서 @Damage[14d6[void]] 피해를 입고 자신이 선택한 신체 부위가 시들어갑니다.</p><ul><li><strong>팔</strong> 대상의 팔이 약해집니다. 대상은 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화 1}이 됩니다.</li><li><strong>머리</strong> 대상은 정신을 똑바로 차리지 못합니다. 대상은 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1}.</li><li><strong>다리를</strong> 대상의 다리가 움직일 때마다 꺾입니다. 대상은 이동 속도에 -10피트 상태이상의 피해를 받습니다.</li><li><strong>몸통</strong> 대상의 피부가 얇아지고 종이처럼 변합니다. 대상은 베기 피해에 10의 약점을 얻습니다.</li></ul><hr /><p><strong>대성공</strong> 대상은 영향을 받지 않습니다.</p> <p><strong>성공</strong> 대상은 절반 피해를 받고 시들음 상태이상은 다음 턴이 끝날 때까지 지속됩니다.</p> <p><strong>실패</strong> 대상은 전체 피해를 받고 시들음 패널티는 1분 동안 지속됩니다.</p> <p><strong>대실패</strong> 대상은 두 배의 피해를 받고, 당신은 몸의 다른 부분을 선택해 시들게 할 수 있습니다. 두 불이익은 모두 1분 동안 지속됩니다.</p> <p>@UUID[Compendium.pf2e.피트 효과.Item.ICUcmwY504WHCs3N]{Effect: 시들다 사라짐}</p>"
+      "description": "<p><strong>빈도</strong> 10분에 한 번</p><hr /><p>생물의 시간 경과를 앞당겨 조기에 노쇠하게 만듭니다. 60피트 내의 생명체는 자신의 직업 DC와 주문 DC 중 높은 값에 대한 @Check[fortitude|대:직업-주문] 구르기 결과에 따라 다음과 같은 불이익을 받으면서 @Damage[14d6[void]] 피해를 입고 자신이 선택한 신체 부위가 시들어갑니다.</p><ul><li><strong>팔</strong> 대상의 팔이 약해집니다. 대상은 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화 1}이 됩니다.</li><li><strong>머리</strong> 대상은 정신을 똑바로 차리지 못합니다. 대상은 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1}.</li><li><strong>다리를</strong> 대상의 다리가 움직일 때마다 꺾입니다. 대상은 이동 속도에 -10피트 상태이상의 피해를 받습니다.</li><li><strong>몸통</strong> 대상의 피부가 얇아지고 종이처럼 변합니다. 대상은 베기 피해에 10의 약점을 얻습니다.</li></ul><hr /><p><strong>대성공</strong> 대상은 영향을 받지 않습니다.</p> <p><strong>성공</strong> 대상은 절반 피해를 받고 시들음 상태이상은 다음 턴이 끝날 때까지 지속됩니다.</p> <p><strong>실패</strong> 대상은 전체 피해를 받고 시들음 패널티는 1분 동안 지속됩니다.</p> <p><strong>대실패</strong> 대상은 두 배의 피해를 받고, 당신은 몸의 다른 부분을 선택해 시들게 할 수 있습니다. 두 불이익은 모두 1분 동안 지속됩니다.</p> <p>@UUID[Compendium.pf2e.피트 효과.Item.ICUcmwY504WHCs3N]{Effect: 시들다 사라짐}</p>"
     },
     "Spirit of the Blade": {
       "name": "칼날의 정신",
@@ -15532,7 +15532,7 @@
     },
     "Unified Theory": {
       "name": "통합 이론",
-      "description": "<p>당신은 네 가지 마법 전통과 마법의 정수의 공통된 토대를 이해하므로, 비전 렌즈를 통해 모든 마법을 이해할 수 있습니다. 마법 전통에 따라 자연, 오컬트, 종교 체크가 필요한 기술 액션이나 기술 재주를 사용할 때마다 아르카나를 대신 사용할 수 있습니다. 식별 마법을 사용할 때와 같이 다른 마법에 아르카나를 사용하면 일반적으로 페널티를 받거나 더 높은 DC가 적용되던 경우, 더 이상 그렇게 하지 않아도 됩니다.</p>"
+      "description": "<p>당신은 네 가지 마법 전통과 마법의 정수의 공통된 토대를 이해하므로, 비전 렌즈를 통해 모든 마법을 이해할 수 있습니다. 마법 전통에 따라 자연, 오컬트, 종교 체크가 필요한 기술 액션이나 기술 재주를 사용할 때마다 주문학를 대신 사용할 수 있습니다. 식별 마법을 사용할 때와 같이 다른 마법에 주문학를 사용하면 일반적으로 페널티를 받거나 더 높은 DC가 적용되던 경우, 더 이상 그렇게 하지 않아도 됩니다.</p>"
     },
     "Communal Tale": {
       "name": "공동의 이야기",
@@ -15840,7 +15840,7 @@
     },
     "Sever the Dreaming Shadow": {
       "name": "꿈꾸는 그림자 제거",
-      "description": "<p>푸사카에게 속삭이면 푸사카가 적의 그림자를 잘라내어 영원한 잠에 빠지게 합니다. 푸사카는 다음과 같은 활성화 효과를 얻습니다.</p> <p><strong>활성화-그림자 자르기</strong> <span class=\\\"action-glyph\\\">2</span> (집중, 조작, 정신)</p> <p><strong>사용 빈도</strong> 하루에 한 번</p><hr /><p><strong>효과</strong> 당신의 푸사카가 어둠으로 만들어진 크리스가 되어 인접한 적의 그림자 속으로 자신을 몰아넣습니다. 그 적은 당신의 주문 DC와 직업 DC 중 높은 값에 대한 @Check[내성|대적:직업 주문|basic] 세이브만큼 @Damage[80[mental]] 피해를 받습니다. 이로 인해 생물의 체력이 0으로 감소하면 대상은 죽지 않지만, 대상의 몸에서 그림자가 분리되어 대상의 몸에서 도망치려는 @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.clzHAfegb9Rn6DOe]{섀도우 스폰}이 됩니다. 그림자 스폰이 존재하는 한 대상은 꿈이 없는 잠에 빠지며, 파괴하면 대상은 그림자를 되찾고 깨어납니다(@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{무의식} 동안 몸을 제대로 유지했다면).</p>"
+      "description": "<p>푸사카에게 속삭이면 푸사카가 적의 그림자를 잘라내어 영원한 잠에 빠지게 합니다. 푸사카는 다음과 같은 활성화 효과를 얻습니다.</p> <p><strong>활성화-그림자 자르기</strong> <span class=\\\"action-glyph\\\">2</span> (집중, 조작, 정신)</p> <p><strong>사용 빈도</strong> 하루에 한 번</p><hr /><p><strong>효과</strong> 당신의 푸사카가 어둠으로 만들어진 크리스가 되어 인접한 적의 그림자 속으로 자신을 몰아넣습니다. 그 적은 당신의 주문 DC와 직업 DC 중 높은 값에 대한 @Check[fortitude|대적:직업 주문|basic] 세이브만큼 @Damage[80[mental]] 피해를 받습니다. 이로 인해 생물의 체력이 0으로 감소하면 대상은 죽지 않지만, 대상의 몸에서 그림자가 분리되어 대상의 몸에서 도망치려는 @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.clzHAfegb9Rn6DOe]{섀도우 스폰}이 됩니다. 그림자 스폰이 존재하는 한 대상은 꿈이 없는 잠에 빠지며, 파괴하면 대상은 그림자를 되찾고 깨어납니다(@UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{무의식} 동안 몸을 제대로 유지했다면).</p>"
     },
     "Directed Channel": {
       "name": "직접 채널",
@@ -16156,7 +16156,7 @@
     },
     "Instinctive Obfuscation": {
       "name": "본능적 난독화",
-      "description": "<p><strong>빈도</strong> 1시간에 한 번</p>\n<p><strong> 트리거</strong> 적에게 공격을 받았지만 아직 굴러오지 않았습니다.</p>\n<hr />\n<p>내면의 마법이 위협에 대한 자연스러운 리액션으로 나타납니다. 잠시 동안 자신의 공간에 자신의 두 배로 보이는 환영이 나타납니다. 트리거 공격자는 @Check[type:flat|DC:10]을 굴려야 하며, 성공하면 공격은 정상적으로 당신을 대상으로 하고, 실패하면 공격은 이중을 대상으로 하여 파괴합니다. 이 액션의 전통은 그놈 조상 옵션의 전통과 일치합니다.</p>"
+      "description": "<p><strong>빈도</strong> 1시간에 한 번</p>\n<p><strong> 트리거</strong> 적에게 공격을 받았지만 아직 굴러오지 않았습니다.</p>\n<hr />\n<p>내면의 마법이 위협에 대한 자연스러운 리액션으로 나타납니다. 잠시 동안 자신의 공간에 자신의 두 배로 보이는 환영이 나타납니다. 트리거 공격자는 @Check[type:flat|DC:10]을 굴려야 하며, 성공하면 공격은 정상적으로 당신을 대상으로 하고, 실패하면 공격은 이중을 대상으로 하여 파괴합니다. 이 액션의 전통은 노움 조상 옵션의 전통과 일치합니다.</p>"
     },
     "Made for Combat": {
       "name": "전투용으로 제작",
@@ -16356,7 +16356,7 @@
     },
     "Kreighton's Cognitive Crossover": {
       "name": "크레이튼의 인지적 크로스오버",
-      "description": "<p><strong>트리거</strong> 이 재주를 위해 선택한 두 가지 기술 중 하나를 사용하여 지식 회상 체크에서 (보통 비밀 체크에 실패했기 때문에) 정보를 얻지 못합니다.</p>\n<hr />\n<p>크레이튼은 제자들에게 기민한 마음은 가장 가능성이 희박한 정보원에서도 진실로 이끄는 단서를 수집할 수 있다고 가르칩니다. 즉시 선택한 다른 기술을 사용하여 트리거 확인을 다시 시도합니다.</p>\n<hr />\n<p><strong>특별</strong> 이 재주를 얻으면 다음 기술 중 두 가지를 선택합니다: 아르카나, 제작, 지식(아무거나), 의학, 자연, 오컬트, 종교, 사회 중 하나를 선택합니다.</p>"
+      "description": "<p><strong>트리거</strong> 이 재주를 위해 선택한 두 가지 기술 중 하나를 사용하여 지식 회상 체크에서 (보통 비밀 체크에 실패했기 때문에) 정보를 얻지 못합니다.</p>\n<hr />\n<p>크레이튼은 제자들에게 기민한 마음은 가장 가능성이 희박한 정보원에서도 진실로 이끄는 단서를 수집할 수 있다고 가르칩니다. 즉시 선택한 다른 기술을 사용하여 트리거 확인을 다시 시도합니다.</p>\n<hr />\n<p><strong>특별</strong> 이 재주를 얻으면 다음 기술 중 두 가지를 선택합니다: 주문학, 제작, 지식(아무거나), 의학, 자연, 오컬트, 종교, 사회 중 하나를 선택합니다.</p>"
     },
     "Nocturnal Charm": {
       "name": "야행성 매력",
@@ -16719,19 +16719,19 @@
       "description": "<p>공부에 도움이 되는 꿈 관련 마법을 배웁니다. 이 재주를 습득할 때 @UUID[Compendium.pf2e.spells-srd.Item.yM3KTTSAIHhyuP14]{꿈의 메시지} 또는 @UUID[Compendium.pf2e.spells-srd.Item.o4lRVTwSxnOOn5vl]{수면}을 선택하면 4급 타고난 오컬트 주문으로 이 주문을 학습하게 됩니다. 수면을 선택하면 백일몽 트랜스 상태에서만 주문을 시전할 수 있습니다. 오컬트 주문 공격 주사위 굴림과 주문 DC가 훈련되고, 이 주문에 대한 주문 시전 능력은 지혜가 됩니다.</p>\n<hr />\n<p><strong>특별</strong> 이 재주를 두 번 사용할 수 있으며, 두 번째에는 처음에 선택하지 않은 주문을 얻습니다.</p>"
     },
     "Prescient Consumable": {
-      "name": "프레즌트 소모품",
-      "description": "<p>어떤 소모품이 필요할지 미리 예측할 수 있습니다. @UUID[Compendium.pf2e.feats-srd.Item.bh2jHyyYrkLMsIdX]{과학자 플래너} 사용 시, 모험 장비 대신 배낭에서 소모품 아이템을 획득할 수 있습니다. 소모 아이템은 레벨의 절반 이하인 일반 아이템이어야 하며, 들고 있어도 과적이 되지 않을 만큼 벌크가 낮아야 합니다.</p>"
+      "name": "예측 가능한 소모품",
+      "description": "<p>어떤 소모품이 필요할지 미리 예측할 수 있습니다. @UUID[Compendium.pf2e.feats-srd.Item.bh2jHyyYrkLMsIdX]{현명한 계획자} 사용 시, 모험 장비 대신 배낭에서 소모품 아이템을 획득할 수 있습니다. 소모 아이템은 레벨의 절반 이하인 일반 아이템이어야 하며, 들고 있어도 과적이 되지 않을 만큼 벌크가 낮아야 합니다.</p>"
     },
     "Incredible Improvisation": {
       "name": "놀라운 즉흥 연주",
       "description": "<p><strong>빈도</strong> 하루에 한 번</p>\n<p><strong> 트리거</strong> 훈련하지 않은 기술을 사용하여 체크를 시도합니다.</p>\n<hr />\n<p>미숙함에도 불구하고 뛰어난 기술을 사용하면 큰 이점을 얻을 수 있습니다. 트리거 기술 체크에 +4의 상황 보너스를 받습니다.</p>"
     },
     "Master Scroll Cache": {
-      "name": "마스터 스크롤 캐시",
-      "description": "<p>당신의 두루마리 컬렉션은 엘드리치의 힘으로 가득 차 있으며, 일반 두루마리 트릭스터보다 훨씬 더 많은 두루마리를 준비할 수 있습니다.</p>\n<p>기본 및 전문가 두루마리 보관함에 있는 일일 두루마리 외에 6등급 주문이 있는 두루마리 한 장을 추가하세요. 20 레벨이 되면 7 등급 주문이 적힌 두루마리를 추가합니다.</p>"
+      "name": "마스터 스크롤 묶음",
+      "description": "<p>당신의 스크롤 컬렉션은 엘드리치의 힘으로 가득 차 있으며, 일반 스크롤 트릭스터보다 훨씬 더 많은 스크롤을 준비할 수 있습니다.</p>\n<p>기본 및 전문가 스크롤 보관함에 있는 일일 스크롤 외에 6등급 주문이 있는 스크롤 한 장을 추가하세요. 20 레벨이 되면 7 등급 주문이 적힌 스크롤을 추가합니다.</p>"
     },
     "Vigilant Benediction": {
-      "name": "경계의 축도",
+      "name": "경계의 축성",
       "description": "<p>크림슨 리클레이머와 그들의 맹세에 밀리고 싶지 않은 당신은 선의 신들에게 신성한 마법의 조각을 달라고 청원했습니다. 요구 조건을 충족하는 다음 신들 중 하나(아래의 임의의 신 옵션의 경우, GM이 적절하다고 판단하는 신을 선택할 수 있습니다)와 나열된 주문 중 하나를 선택합니다. 해당 주문은 하루에 한 번 4등급 신성한 타고난 주문으로 시전할 수 있으며, 주문 공격 수정치와 DC가 훈련됩니다. 14레벨이 되면 주문이 5레벨로, 16레벨이 되면 주문이 6레벨로 강화됩니다. 신과 주문을 선택한 후에는 이 선택을 변경할 수 없습니다. 신은 당신의 가치 있는 대의를 위해 기꺼이 이 혜택을 부여할 것이므로, 해당 신을 수호신으로 숭배할 필요는 없습니다. 속죄할 때까지 해당 신의 혐오를 수행하지 않거나 이 주문을 시전할 수 있는 능력을 잃어야 합니다.</p>\n<ul>\n<li><strong>모든 신</strong>: @UUID[Compendium.pf2e.spells-srd.Item.aqRYNoSvxsVfqglH]{무제한 이동}, @UUID[Compendium.pf2e.spells-srd.Item.SUKaxVZW2TlM8lu0]{고통의 정화}, @UUID[Compendium.pf2e.spells-srd.Item.Fr58LDSrbndgld9n]{에너지 저항}, @UUID[Compendium.pf2e.spells-srd.Item.tgIhRUFtgDSELpJE]{주문 면역}, @UUID[Compendium.pf2e.spells-srd.Item.HTou8cG05yuSkesj]{상태}</li>\n<li><strong> 젠도윈</strong>: @UUID[Compendium.pf2e.spells-srd.Item.YWrfKetOqDwVFut7]{오큰 회복력}</li>\n<li><strong> 이오메대</strong>: @UUID[Compendium.pf2e.spells-srd.Item.YrzBLPLd3r9m6t1p]{불의 방패}</li>\n<li><strong> 이로리</strong>: @UUID[Compendium.pf2e.spells-srd.Item.2BV2yYPfVJ5zirZt]{산 탄력}</li>\n<li><strong> Kazutal</strong>: @UUID[Compendium.pf2e.spells-srd.Item.aAbfKn8maGjJjk2W]{미스틱 아머}, @UUID[Compendium.pf2e.spells-srd.Item.2BV2yYPfVJ5zirZt]{산 회복력}</li>\n<li><strong> Milani</strong>: @UUID[Compendium.pf2e.spells-srd.Item.YrzBLPLd3r9m6t1p]{파이어 쉴드}, @UUID[Compendium.pf2e.spells-srd.Item.aAbfKn8maGjJjk2W]{미스틱 아머}</li>\n<li><strong> 라가티엘</strong>: @UUID[Compendium.pf2e.spells-srd.Item.YrzBLPLd3r9m6t1p]{파이어 쉴드}</li>\n<li><strong> 사렌래</strong>: @UUID[Compendium.pf2e.spells-srd.Item.IarZrgCeaiUqOuRu]{불의 벽}</li>\n</ul>\n<p><strong>특별</strong> 14레벨에 이 재주를 두 번째로 선택하여 선택한 신 목록 또는 아무 신 목록에서 하루에 한 번 시전할 수 있는 주문을 하나 더 얻고, 주문 공격 수정치 및 DC에 대한 전문가가 됩니다. 이 재주는 18레벨에 세 번째로 선택할 수 있습니다. 선택하면, 선택한 신 목록 또는 모든 신 목록에서 하루에 한 번 시전할 수 있는 세 번째 주문을 얻고, 세 주문 모두 7레벨로 강화됩니다.</p>"
     },
     "Rebounding Assault": {
@@ -16764,7 +16764,7 @@
     },
     "Pass Vengeful Judgment": {
       "name": "복수심에 찬 심판 통과",
-      "description": "<p><strong>빈도</strong> 하루에 한 번</p> <p><strong>요건</strong> 당신의 계급장이 이전 턴에 당신의 심판을 호출했습니다./p><hr /><p>신성한 분노의 끔찍한 힘을 함부로 불러내지 않기 위해, 당신은 당신의 필멸자의 동의를 얻어야만 그렇게 하겠다고 맹세했습니다. 당신의 히에로팬트가 목표물을 공격하는 데 성공하면, 한 번의 행동으로 당신의 분노를 불러올 수 있습니다. 자신의 차례가 되면, 대상에게 복수의 심판을 통과시켜 신성한 에너지 기둥을 소환하여 @Damage[20d10[정령] 피해를 주고 @Check[내성|basic|대적:직업 주문] 세이브를 얻습니다. 대상에게 효과가 줄 필요 없이 모든 범위에서 작동합니다. 현재 사용하는 도메인 주문 중 정령이 아닌 다른 유형의 피해를 줄 수 있는 주문이 있다면, 이 피해 유형과 일치하도록 선택할 수 있습니다(예: 불 도메인이 있다면 불 피해를 주는 불기둥을 소환하는 식).<p> <p>복수의 심판을 통과하는 데 신화 포인트를 사용하면, 이 폭발이 하늘로 뻗어나가 10마일 반경 내의 모든 생물이 볼 수 있는 폭발로 구름을 흩뿌려 감히 당신의 추종자를 해치거나 당신의 계명에 도전하는 자들에게 분노의 표시와 경고를 보냅니다. 다음 한 달 동안, 당신과 당신의 군마는 해당 지역의 생물에 대한 협박 검사에 상태 보너스 +2를 받습니다.</p> <p>@UUID[Compendium.pf2e.feat-effects.Item.0nkzRcjN9iOSFUf9]{이펙트: 복수의 심판 통과}</p><hr /><p><strong>특수</strong> 삶과 죽음의 글꼴을 보유하고 있다면, 이 능력을 사용할 때 피해 유형을 활력(치유를 선택한 경우) 또는 무효화(해를 선택한 경우)로 선택할 수 있습니다.</p><hr /><p><em>주: 페이조는 이 능력에 대한 DC를 제공하지 않았습니다. 위의 버튼은 직업 또는 주문 DC 중 더 좋은 것을 사용합니다.</em></p>"
+      "description": "<p><strong>빈도</strong> 하루에 한 번</p> <p><strong>요건</strong> 당신의 계급장이 이전 턴에 당신의 심판을 호출했습니다./p><hr /><p>신성한 분노의 끔찍한 힘을 함부로 불러내지 않기 위해, 당신은 당신의 필멸자의 동의를 얻어야만 그렇게 하겠다고 맹세했습니다. 당신의 히에로팬트가 목표물을 공격하는 데 성공하면, 한 번의 행동으로 당신의 분노를 불러올 수 있습니다. 자신의 차례가 되면, 대상에게 복수의 심판을 통과시켜 신성한 에너지 기둥을 소환하여 @Damage[20d10[정령] 피해를 주고 @Check[fortitude|basic|대적:직업 주문] 세이브를 얻습니다. 대상에게 효과가 줄 필요 없이 모든 범위에서 작동합니다. 현재 사용하는 도메인 주문 중 정령이 아닌 다른 유형의 피해를 줄 수 있는 주문이 있다면, 이 피해 유형과 일치하도록 선택할 수 있습니다(예: 불 도메인이 있다면 불 피해를 주는 불기둥을 소환하는 식).<p> <p>복수의 심판을 통과하는 데 신화 포인트를 사용하면, 이 폭발이 하늘로 뻗어나가 10마일 반경 내의 모든 생물이 볼 수 있는 폭발로 구름을 흩뿌려 감히 당신의 추종자를 해치거나 당신의 계명에 도전하는 자들에게 분노의 표시와 경고를 보냅니다. 다음 한 달 동안, 당신과 당신의 군마는 해당 지역의 생물에 대한 협박 검사에 상태 보너스 +2를 받습니다.</p> <p>@UUID[Compendium.pf2e.feat-effects.Item.0nkzRcjN9iOSFUf9]{이펙트: 복수의 심판 통과}</p><hr /><p><strong>특수</strong> 삶과 죽음의 글꼴을 보유하고 있다면, 이 능력을 사용할 때 피해 유형을 활력(치유를 선택한 경우) 또는 무효화(해를 선택한 경우)로 선택할 수 있습니다.</p><hr /><p><em>주: 페이조는 이 능력에 대한 DC를 제공하지 않았습니다. 위의 버튼은 직업 또는 주문 DC 중 더 좋은 것을 사용합니다.</em></p>"
     },
     "Whitecape": {
       "name": "화이트캡",
@@ -16976,7 +16976,7 @@
     },
     "Eldritch Researcher Dedication": {
       "name": "엘드리치 연구자 헌신",
-      "description": "<p>선택한 비전 또는 오컬트 주문 한 개를 시전할 수 있는 능력을 얻습니다(반올림한 레벨의 절반에 해당하는 주문 등급으로 증가). 이미 해당 전통을 선택하지 않았다면, 해당 전통의 주문 DC와 주문 공격 굴림에 지능이 주문 시전 능력으로 적용됩니다.</p>\n<p>아르카나 또는 오컬트 캔트립을 선택하든 상관없이, 선택한 아르카나 또는 오컬트 중 한 가지의 전문가가 됩니다. 또한, 마법을 조사하거나 식별할 때 선택한 기술로 시도하는 체크에 +1의 상황 보너스를 받습니다.</p>\n<hr />\n<p><strong>특별</strong> @UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.JBPXisA4IdXI9gVn]{엘드리치 연구자} 원형에서 다른 두 가지 업적을 획득할 때까지 다른 헌신 업적을 선택하지 못합니다.</p>"
+      "description": "<p>선택한 비전 또는 오컬트 주문 한 개를 시전할 수 있는 능력을 얻습니다(반올림한 레벨의 절반에 해당하는 주문 등급으로 증가). 이미 해당 전통을 선택하지 않았다면, 해당 전통의 주문 DC와 주문 공격 굴림에 지능이 주문 시전 능력으로 적용됩니다.</p>\n<p>주문학 또는 오컬트 캔트립을 선택하든 상관없이, 선택한 주문학 또는 오컬트 중 한 가지의 전문가가 됩니다. 또한, 마법을 조사하거나 식별할 때 선택한 기술로 시도하는 체크에 +1의 상황 보너스를 받습니다.</p>\n<hr />\n<p><strong>특별</strong> @UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.JBPXisA4IdXI9gVn]{엘드리치 연구자} 원형에서 다른 두 가지 업적을 획득할 때까지 다른 헌신 업적을 선택하지 못합니다.</p>"
     },
     "Grave Sight": {
       "name": "그레이브 사이트",
@@ -16988,7 +16988,7 @@
     },
     "Runescarred Dedication": {
       "name": "룬의 상처 헌신",
-      "description": "<p><strong></strong> 접속 당신은 사가 땅에서 왔습니다.\n(바리시안, 쇼안티, 뉴 타실로니안인 경우) 피를 통해서든 룬 마법에 노출되어서든, 당신은 몸에 문신이나 흉터 형태로 빛나는 룬이 눈에 띄는 룬스카르드족이 되었습니다. 원형을 얻기 전에도 이러한 흔적을 가지고 있었을 수도 있지만, 룬을 연구하고 룬의 힘을 활용하기로 선택했을 때 비로소 진정한 룬흔이 생겼습니다. 아르카나 전문가가 되면 타실론 지식에 대한 훈련도 받게 되고, 이미 타실론 지식을 훈련받았다면 타실론 지식 전문가가 됩니다. 아케인 목록에서 칸트립을 하나 선택합니다. 몸에 있는 룬 중 하나가 선택한 칸트립에 해당하며, 선택한 칸트립을 타고난 비전 주문으로 시전할 수 있습니다.특별 @UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.j5uZbCwoHOOEO1bC]{Runescarred} 원형에서 다른 두 재주를 획득할 때까지 다른 헌납 업적을 선택하지 못합니다.</p>\n<hr /><p></p>\n<p></p>\n<p><strong></strong></p>"
+      "description": "<p><strong></strong> 접속 당신은 사가 땅에서 왔습니다.\n(바리시안, 쇼안티, 뉴 타실로니안인 경우) 피를 통해서든 룬 마법에 노출되어서든, 당신은 몸에 문신이나 흉터 형태로 빛나는 룬이 눈에 띄는 룬스카르드족이 되었습니다. 원형을 얻기 전에도 이러한 흔적을 가지고 있었을 수도 있지만, 룬을 연구하고 룬의 힘을 활용하기로 선택했을 때 비로소 진정한 룬흔이 생겼습니다. 주문학 전문가가 되면 타실론 지식에 대한 훈련도 받게 되고, 이미 타실론 지식을 훈련받았다면 타실론 지식 전문가가 됩니다. 아케인 목록에서 칸트립을 하나 선택합니다. 몸에 있는 룬 중 하나가 선택한 칸트립에 해당하며, 선택한 칸트립을 타고난 비전 주문으로 시전할 수 있습니다.특별 @UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.j5uZbCwoHOOEO1bC]{Runescarred} 원형에서 다른 두 재주를 획득할 때까지 다른 헌납 업적을 선택하지 못합니다.</p>\n<hr /><p></p>\n<p></p>\n<p><strong></strong></p>"
     },
     "Gigavolt": {
       "name": "기가볼트",
@@ -17152,7 +17152,7 @@
     },
     "Mega Bomb": {
       "name": "메가 폭탄",
-      "description": "<p><strong>요구 조건</strong> 상급 연금술 레벨보다 3 이상 낮은 레벨로 제작한 주입된 연금술 폭탄을 들고 있습니다.</p>\n<hr />\n<p>보유하고 있는 폭탄에 엄청나게 강력한 첨가제를 추가하여 거대 폭탄을 만들어 그 범위와 위력을 크게 늘립니다.</p>\n<p>공격이 아닌 @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{Interact} 액션을 사용하여 거대 폭탄을 던지며 공격 굴림을 하지 않습니다.</p>\n<p>거대 폭탄이 60피트 이내의 자신을 중심으로 반경 30미터 범위의 생물에게 폭발 피해를 줍니다. 폭탄은 각 생물이 주 공격 대상인 것처럼 피해를 입히며, 기본 반사 방어가 적용됩니다. 방어에 실패하면 생물은 주 대상에게 영향을 주는 모든 추가 효과(예: 병에 든 번개로부터 오프-가드)도 받습니다. 해당 지역의 모든 대상이 주 대상으로 물보라 피해를 받지만, 해당 지역을 넘어서는 더 이상의 물보라 피해는 없습니다.</p>\n<p>메가 폭탄을 생성한 후 다음 액션이 던지는 상호작용 액션이 아닌 경우, 메가 폭탄은 변성되고 모든 효과를 잃게 됩니다.</p>"
+      "description": "<p><strong>요구 조건</strong> 상급 연금술 레벨보다 3 이상 낮은 레벨로 제작한 주입된 연금술 폭탄을 들고 있습니다.</p>\n<hr />\n<p>보유하고 있는 폭탄에 엄청나게 강력한 첨가제를 추가하여 거대 폭탄을 만들어 그 범위와 위력을 크게 늘립니다.</p>\n<p>공격이 아닌 @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{상호작용} 액션을 사용하여 거대 폭탄을 던지며 공격 굴림을 하지 않습니다.</p>\n<p>거대 폭탄이 60피트 이내의 자신을 중심으로 반경 30미터 범위의 생물에게 폭발 피해를 줍니다. 폭탄은 각 생물이 주 공격 대상인 것처럼 피해를 입히며, 기본 반사 방어가 적용됩니다. 방어에 실패하면 생물은 주 대상에게 영향을 주는 모든 추가 효과(예: 병에 든 번개로부터 오프-가드)도 받습니다. 해당 지역의 모든 대상이 주 대상으로 물보라 피해를 받지만, 해당 지역을 넘어서는 더 이상의 물보라 피해는 없습니다.</p>\n<p>메가 폭탄을 생성한 후 다음 액션이 던지는 상호작용 액션이 아닌 경우, 메가 폭탄은 변성되고 모든 효과를 잃게 됩니다.</p>"
     },
     "Invigorating Surge": {
       "name": "활력 넘치는 서지",
@@ -17359,7 +17359,7 @@
       "description": "<p>마법 아이템을 사용하든, 타고난 마법을 휘두르든, 주문 시전을 하든, 칼날처럼 쉽게 적의 방어를 뚫고 몰래 주문을 시전할 수 있습니다. 오프-가드 상태인 적의 AC를 상대로 주문 공격 시전에 성공하고 주문이 피해를 입히면, 몰래 공격한 피해에 몰래 공격한 피해를 더할 수 있습니다. 하나의 주문으로 여러 차례의 피해 굴림이 발생하는 경우, 몰래 공격 피해는 대상당 한 번만 적용됩니다.</p>"
     },
     "Gnome Obsession": {
-      "name": "그놈 집착",
+      "name": "노움 집착",
       "description": "<p>당신은 날렵한 성격이지만, 어떤 주제가 당신의 관심을 끌면 그 주제에 정면으로 뛰어듭니다. 선택한 지식에 대해 @UUID[Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x]{추가 지식} 재주를 얻고 @UUID[Compendium.pf2e.feats-srd.Item.W6Gl9ePmItfDHji0]{확신} 특성을 얻습니다. 노움 집착은 빠르게 나타났다가 사라질 수 있으므로, 1일의 다운타임 동안 노움 집착을 다른 지식 하위 카테고리로 재훈련할 수 있습니다.</p>"
     },
     "Uzunjati Storytelling": {
@@ -17651,7 +17651,7 @@
       "description": "<p>악마에 대한 무기 및 비무장 공격으로 주는 피해에 상황 보너스 +1을 받습니다. 공격으로 두 개 이상의 무기가 죽어감으로써 피해를 입힐 경우(1보다 높은 레벨에서 흔히 발생하는 경우), 보너스는 무기 주사위 또는 비무장 공격 주사위의 수와 같습니다. 내 액션으로 악마가 죄악에 취약한 피해를 받는다면, 그 피해는 2만큼 증가합니다.</p>"
     },
     "Anarchic Arcana": {
-      "name": "아나키 아르카나",
+      "name": "아나키 주문학",
       "description": "<p>당신의 피 속 마법은 예측할 수 없습니다. 매일 준비할 때 [[/r 1d12]]를 두 번 굴리고 다음 목록을 참고하세요:</p>\n<ol>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.f8hRqLJaxBVhF1u0]{산 화살};</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.3JG1t3T4mWn6vTke]{흐림};</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.tlSE7Ly8vi1Dgddv]{웃음맞춤};</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.2qGqa33E4GPUCbMV]{휴머노이드 폼};</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.2oH5IufzdESuYxat]{환상 오브젝트};</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.j8vIoIEWElvpwkcI]{미러 이미지};</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.Fr58LDSrbndgld9n]{에너지 저항};</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.jwK43yKsHTkJQvQ9]{보이지 않는 것을 본다};</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.1xbFBQDRs0hT5xZ9]{산산조각};</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.wzLkNU3AAqOSKFPR]{노이즈 폭발};</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.5KobTMrZeZxuXMgl]{게코 그립};</li>\n<li>@UUID[Compendium.pf2e.spells-srd.Item.mrDi3v933gsmnw25]{텔레키네틱 매니버}.</li>\n</ol>\n<p>이 두 주문은 다음 날 동안 각각 한 번씩(두 번 굴린 경우 한 번씩) 2등급 신성한 타고난 주문으로 시전할 수 있습니다.</p>"
     },
     "Primal Breadth": {
@@ -17912,7 +17912,7 @@
     },
     "Aegis for the Innocent": {
       "name": "무고한 자를 위한 이지스",
-      "description": "<p><strong>요건</strong> 님버스가 활성화되어 있습니다.</p><hr /><p>신성한 불꽃의 일부를 아군에게 전달하여 일시적으로 님버스를 어둡게 하여 아군을 빛의 보호막으로 감싸 공격자를 물리칩니다. 후광의 밝은 빛 안에 있는 생명체 한 마리를 선택합니다. 대상을 중심으로 @Template[type:emanation|distance:10]의 빛 보호막으로 대상을 둘러쌉니다. 이 보호막은 1분 동안 또는 해제할 때까지 지속됩니다. 무고한 자의 보호막이 활성화되어 있는 동안에는 후광의 범위가 절반으로 줄어듭니다.</p> <p>대상은 AC에 +1 상태 보너스를 받습니다. 보호막 안에 있거나 보호막 안으로 들어오는 모든 적은 자신의 직업 DC 또는 주문 DC에 대해 [내성|대적:직업-주문|옵션:범위 효과,피해 효과] 구명 던지기를 시도해야 합니다. 생물은 매 라운드에 한 번만 이 내성을 시도해야 합니다.</p> <p>@UUID[Compendium.pf2e.feat-effects.Item.dFNh66uyI5yxVKbt]{Effect: 무고한 자를 위한 이지스}</p><hr /><p><strong>대성공</strong> 생물은 영향을 받지 않습니다.</p> <p><strong>성공</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item]이 됩니다.TkIyaNPgTZFBCCuh]{눈부신}에 1라운드 동안 시달리고 보호막 안의 공간을 어려운 지형으로 취급합니다.</p> <p><strong>실패</strong> 생물은 1분 동안 현혹되고, 10피트 밀려나며 보호막 안의 공간을 어려운 지형으로 취급합니다. 생물이 단단한 장벽이나 다른 생물에게 밀릴 경우, 그 지점에서 멈추고 @Damage[2d6[bludgeoning]|옵션:범위 피해]를 받습니다.</p> <p><strong>대실패</strong>로 실패하지만, 생물은 1라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{눈멀기} 상태가 됩니다.</p>"
+      "description": "<p><strong>요건</strong> 님버스가 활성화되어 있습니다.</p><hr /><p>신성한 불꽃의 일부를 아군에게 전달하여 일시적으로 님버스를 어둡게 하여 아군을 빛의 보호막으로 감싸 공격자를 물리칩니다. 후광의 밝은 빛 안에 있는 생명체 한 마리를 선택합니다. 대상을 중심으로 @Template[type:emanation|distance:10]의 빛 보호막으로 대상을 둘러쌉니다. 이 보호막은 1분 동안 또는 해제할 때까지 지속됩니다. 무고한 자의 보호막이 활성화되어 있는 동안에는 후광의 범위가 절반으로 줄어듭니다.</p> <p>대상은 AC에 +1 상태 보너스를 받습니다. 보호막 안에 있거나 보호막 안으로 들어오는 모든 적은 자신의 직업 DC 또는 주문 DC에 대해 [fortitude|대적:직업-주문|옵션:범위 효과,피해 효과] 구명 던지기를 시도해야 합니다. 생물은 매 라운드에 한 번만 이 내성을 시도해야 합니다.</p> <p>@UUID[Compendium.pf2e.feat-effects.Item.dFNh66uyI5yxVKbt]{Effect: 무고한 자를 위한 이지스}</p><hr /><p><strong>대성공</strong> 생물은 영향을 받지 않습니다.</p> <p><strong>성공</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item]이 됩니다.TkIyaNPgTZFBCCuh]{눈부신}에 1라운드 동안 시달리고 보호막 안의 공간을 어려운 지형으로 취급합니다.</p> <p><strong>실패</strong> 생물은 1분 동안 현혹되고, 10피트 밀려나며 보호막 안의 공간을 어려운 지형으로 취급합니다. 생물이 단단한 장벽이나 다른 생물에게 밀릴 경우, 그 지점에서 멈추고 @Damage[2d6[bludgeoning]|옵션:범위 피해]를 받습니다.</p> <p><strong>대실패</strong>로 실패하지만, 생물은 1라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{눈멀기} 상태가 됩니다.</p>"
     },
     "Scion of Many Planes": {
       "name": "많은 비행기의 자손",
@@ -17944,7 +17944,7 @@
     },
     "Wizard Dedication": {
       "name": "위자드 헌신",
-      "description": "<p>마법사처럼 주문을 시전하여 원하는 일반 비전 주문 4장이 들어 있는 주문서를 얻습니다. 주문 시전} 활동을 획득하면 @UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz를 획득합니다. 주문서에서 매일 두 개의 주문을 준비할 수 있습니다. 주문 공격 수정치와 주문 DC 통계에 대해 훈련되어 있습니다. 마법사 원형 주문의 주요 주문 시전 속성은 지능이며, 마법사 주문은 비전 마법 주문입니다. 아르카나로 훈련된 경우, 이미 아르카나로 훈련된 경우 대신 선택한 기술을 훈련받게 됩니다. 학교 선택: 선택한 학교의 능력은 얻지 못하지만 맴버로서 재주를 사용할 수 있는 자격을 얻습니다.</p>\n<hr />\n<p><strong>특별</strong> @UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.XszmLWy174esRrlg]{Wizard} 원형에서 다른 두 가지 업적을 획득할 때까지 다른 헌신 업적을 선택하지 못합니다.</p>"
+      "description": "<p>마법사처럼 주문을 시전하여 원하는 일반 비전 주문 4장이 들어 있는 주문서를 얻습니다. 주문 시전} 활동을 획득하면 @UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz를 획득합니다. 주문서에서 매일 두 개의 주문을 준비할 수 있습니다. 주문 공격 수정치와 주문 DC 통계에 대해 훈련되어 있습니다. 마법사 원형 주문의 주요 주문 시전 속성은 지능이며, 마법사 주문은 비전 마법 주문입니다. 주문학로 훈련된 경우, 이미 주문학로 훈련된 경우 대신 선택한 기술을 훈련받게 됩니다. 학교 선택: 선택한 학교의 능력은 얻지 못하지만 맴버로서 재주를 사용할 수 있는 자격을 얻습니다.</p>\n<hr />\n<p><strong>특별</strong> @UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.XszmLWy174esRrlg]{Wizard} 원형에서 다른 두 가지 업적을 획득할 때까지 다른 헌신 업적을 선택하지 못합니다.</p>"
     },
     "Root to Life": {
       "name": "루트 투 라이프",
@@ -18100,7 +18100,7 @@
     },
     "Cunning Hair": {
       "name": "교활한 머리",
-      "description": "<p>머리카락이 사용자의 제어 하에 움직입니다. 머리카락으로 잠기지 않은 문을 여는 것과 같은 간단한 @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{Interact} 액션을 수행할 수 있습니다. 머리카락은 손가락이나 상당한 민첩성이 필요한 액션, 즉 체크가 필요한 액션을 수행할 수 없으며 아이템을 잡는 데 사용할 수 없습니다.</p>"
+      "description": "<p>머리카락이 사용자의 제어 하에 움직입니다. 머리카락으로 잠기지 않은 문을 여는 것과 같은 간단한 @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{상호작용} 액션을 수행할 수 있습니다. 머리카락은 손가락이나 상당한 민첩성이 필요한 액션, 즉 체크가 필요한 액션을 수행할 수 없으며 아이템을 잡는 데 사용할 수 없습니다.</p>"
     },
     "Divine Countermeasures": {
       "name": "신성한 대책",
@@ -18272,7 +18272,7 @@
     },
     "Keep up Appearances": {
       "name": "외형 유지",
-      "description": "<p><strong>접근</strong> 탈단 국적</p> <p><strong>트리거</strong> 당신은 감정 효과의 영향을 받습니다.</p> <hr /> <p>탈단의 자존심은 결코 나약한 모습을 보이지 않는다는 뜻입니다. 기만[기만] 체크 굴림을 하고 그 결과를 관찰 중인 생물의 지각 DC와 비교합니다. 성공하면, 그 생물은 당신이 감정 효과의 영향을 받지 않았다고 믿습니다.</p> <p>이 방식으로 속은 생물은 감정 효과의 혜택을 받을 수 없으며, 당신이 감정 효과를 받고 있어야 하는 능력을 사용할 수 없습니다; 예를 들어, 이 능력을 사용해 윌오스윅을 속여 당신이 공포 효과를 받지 않는다고 믿게 하는 데 성공하면, 윌오스윅은 당신에게 공포에 먹이주기 능력을 사용할 수 없습니다.</p> <p> <p>이러한 방식으로 속인 생물은 감정 효과의 혜택을 받을 수 없으며, 당신이 이 효과에 걸려 있어야 하는 능력도 사용할 수 없습니다.</p>"
+      "description": "<p><strong>접근</strong> 탈단 국적</p> <p><strong>트리거</strong> 당신은 감정 효과의 영향을 받습니다.</p> <hr /> <p>탈단의 자존심은 결코 나약한 모습을 보이지 않는다는 뜻입니다. 기만[deception] 체크 굴림을 하고 그 결과를 관찰 중인 생물의 지각 DC와 비교합니다. 성공하면, 그 생물은 당신이 감정 효과의 영향을 받지 않았다고 믿습니다.</p> <p>이 방식으로 속은 생물은 감정 효과의 혜택을 받을 수 없으며, 당신이 감정 효과를 받고 있어야 하는 능력을 사용할 수 없습니다; 예를 들어, 이 능력을 사용해 윌오스윅을 속여 당신이 공포 효과를 받지 않는다고 믿게 하는 데 성공하면, 윌오스윅은 당신에게 공포에 먹이주기 능력을 사용할 수 없습니다.</p> <p> <p>이러한 방식으로 속인 생물은 감정 효과의 혜택을 받을 수 없으며, 당신이 이 효과에 걸려 있어야 하는 능력도 사용할 수 없습니다.</p>"
     },
     "Rushing Boar": {
       "name": "돌진하는 멧돼지",
@@ -18820,7 +18820,7 @@
     },
     "Arcane Evolution": {
       "name": "아케인 진화",
-      "description": "<p>비전 유산을 통해 지적 및 학문적 추구에 탁월한 적성을 갖게 됩니다. 선택한 한 가지 기술을 훈련받게 됩니다.</p>\n<p>또한 마법사의 주문서와 유사한 비전 주문서를 보관합니다. 이 책에 있는 모든 주문 목록를 무료로 추가할 수 있으며, 마법사가 주문을 학습하여 주문서에 주문을 추가하는 것과 유사하게 적절한 비용을 지불하고 아르카나 기술을 사용하여 책에 비전 주문을 추가할 수 있습니다.</p>\n<p>매일 준비하는 동안 비전 주문 책에서 주문 한 개를 선택합니다. 주문 목록에 없는 주문이라면 다음 준비할 때까지 주문 목록에 추가하세요. 주문 목록에 이미 있는 주문이라면 그날의 추가 대표 주문으로 추가하세요.</p>"
+      "description": "<p>비전 유산을 통해 지적 및 학문적 추구에 탁월한 적성을 갖게 됩니다. 선택한 한 가지 기술을 훈련받게 됩니다.</p>\n<p>또한 마법사의 주문서와 유사한 비전 주문서를 보관합니다. 이 책에 있는 모든 주문 목록를 무료로 추가할 수 있으며, 마법사가 주문을 학습하여 주문서에 주문을 추가하는 것과 유사하게 적절한 비용을 지불하고 주문학 기술을 사용하여 책에 비전 주문을 추가할 수 있습니다.</p>\n<p>매일 준비하는 동안 비전 주문 책에서 주문 한 개를 선택합니다. 주문 목록에 없는 주문이라면 다음 준비할 때까지 주문 목록에 추가하세요. 주문 목록에 이미 있는 주문이라면 그날의 추가 대표 주문으로 추가하세요.</p>"
     },
     "Swamp Stealth": {
       "name": "늪지 은신",
@@ -18880,7 +18880,7 @@
     },
     "Mobile Shot Stance": {
       "name": "모바일 샷 자세",
-      "description": "<p>사격이 민첩하고 치명적이 됩니다. 이 자세를 취하고 있는 동안에는 원거리 공격으로 반응 타격이나 원거리 공격으로 트리거되는 다른 리액션이 발동되지 않습니다.</p>\n<hr />\n<p><strong>특별</strong> @UUID[Compendium.pf2e.actionspf2e.Item.KAVf7AmRnbCAHrkT]{리액티브 스트라이크}가 있는 경우, 장전된 원거리 무기와 함께 사용할 수 있습니다. 트리거하는 생물이 플레이어로부터 5피트 이내에 있어야 사용할 수 있습니다.</p>"
+      "description": "<p>사격이 민첩하고 치명적이 됩니다. 이 자세를 취하고 있는 동안에는 원거리 공격으로 반응 타격이나 원거리 공격으로 트리거되는 다른 리액션이 발동되지 않습니다.</p>\n<hr />\n<p><strong>특별</strong> @UUID[Compendium.pf2e.actionspf2e.Item.KAVf7AmRnbCAHrkT]{기회 공격}가 있는 경우, 장전된 원거리 무기와 함께 사용할 수 있습니다. 트리거하는 생물이 플레이어로부터 5피트 이내에 있어야 사용할 수 있습니다.</p>"
     },
     "Slip Sideways": {
       "name": "옆으로 미끄러짐",
@@ -19132,7 +19132,7 @@
     },
     "Tactical Reflexes": {
       "name": "전술 반사 신경",
-      "description": "<p>당신은 특히 자신에게 빈틈을 남기는 적을 재빠르게 응징할 수 있습니다. 자신의 턴이 시작될 때마다 액션을 회복할 때, @UUID[Compendium.pf2e.actionspf2e.Item.KAVf7AmRnbCAHrkT]{반응 타격}을 할 때만 사용할 수 있는 추가 리액션을 얻습니다.</p>"
+      "description": "<p>당신은 특히 자신에게 빈틈을 남기는 적을 재빠르게 응징할 수 있습니다. 자신의 턴이 시작될 때마다 액션을 회복할 때, @UUID[Compendium.pf2e.actionspf2e.Item.KAVf7AmRnbCAHrkT]{기회 공격}을 할 때만 사용할 수 있는 추가 리액션을 얻습니다.</p>"
     },
     "Steadfast Ally": {
       "name": "굳건한 동맹",
@@ -19144,7 +19144,7 @@
     },
     "Sense Unholiness": {
       "name": "불결함 감지",
-      "description": "<p>당신은 진정한 사악함을 구역질이나 불길한 느낌으로 감지합니다. 120피트 이내에 부정한 특성을 가진 생물의 존재를 감지할 수 있습니다. 이것은 인간의 후각과 비슷한 막연한 감각으로 작용합니다. 변장을 사용하거나 다른 방법으로 자신의 존재를 숨기려는 부정한 생물은 자신의 성화를 숨기려고 당신의 지각 DC에 @Check[기만|대적:지각|롤러역할:대상|showDC:모두] 체크를 시도합니다. 그 생물이 기만 체크에 성공하면, 그 생물은 1일 동안 일시적으로 당신의 지각 불결함에 면역이 됩니다.</p>"
+      "description": "<p>당신은 진정한 사악함을 구역질이나 불길한 느낌으로 감지합니다. 120피트 이내에 부정한 특성을 가진 생물의 존재를 감지할 수 있습니다. 이것은 인간의 후각과 비슷한 막연한 감각으로 작용합니다. 변장을 사용하거나 다른 방법으로 자신의 존재를 숨기려는 부정한 생물은 자신의 성화를 숨기려고 당신의 지각 DC에 @Check[deception|대적:지각|롤러역할:대상|showDC:모두] 체크를 시도합니다. 그 생물이 기만 체크에 성공하면, 그 생물은 1일 동안 일시적으로 당신의 지각 불결함에 면역이 됩니다.</p>"
     },
     "Exemplar Resiliency": {
       "name": "모범 복원력",
@@ -19240,7 +19240,7 @@
     },
     "Nimble Shield Hand": {
       "name": "민첩한 방패 손",
-      "description": "<p>방패를 휘두르는 데 너무 익숙해져서 방패를 들고 있는 손을 다른 용도로 사용해도 방패를 휘두를 수 있습니다.</p>\n<p>방패를 휘두르는 데 사용하는 손은 @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{Interact} 액션의 목적에 따라 자유 손으로도 간주됩니다. 이 손으로 다른 물체를 잡을 수도 있지만 무기를 휘두르는 데는 사용할 수 없습니다.</p>\n<p>이 혜택은 여전히 너무 번거로운 타워 쉴드에는 적용되지 않습니다.</p>"
+      "description": "<p>방패를 휘두르는 데 너무 익숙해져서 방패를 들고 있는 손을 다른 용도로 사용해도 방패를 휘두를 수 있습니다.</p>\n<p>방패를 휘두르는 데 사용하는 손은 @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{상호작용} 액션의 목적에 따라 자유 손으로도 간주됩니다. 이 손으로 다른 물체를 잡을 수도 있지만 무기를 휘두르는 데는 사용할 수 없습니다.</p>\n<p>이 혜택은 여전히 너무 번거로운 타워 쉴드에는 적용되지 않습니다.</p>"
     },
     "Gloomseer": {
       "name": "글룸시어",
@@ -19924,7 +19924,7 @@
     },
     "Pactbinder Dedication": {
       "name": "팩트바인더 헌신",
-      "description": "<p>성공적인 협정을 맺기 위한 첫 번째 단계는 협상의 기술과 함께 협정 뒤에 숨겨진 마법에 대한 이해입니다. 약속을 지키기 위해 자신을 마법으로 묶는 방법을 배워두면 협상을 더 쉽게 할 수 있습니다. 훈련된 외교 전문가에서 다음 중 하나에 대한 숙련도가 증가합니다: 아르카나, 자연, 오컬트, 종교.</p>\n<p>@UUID[Compendium.pf2e.actionspf2e.Item.9X80J5RN21Uoaeiw]{결속 서약}</p>\n<p><strong> 특별</strong> @UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.0UrqPv7XLDDRwZ13]{약정 체결자} 원형에서 다른 두 개의 헌신적 업적을 획득할 때까지는 다른 헌신적 업적을 선택할 수 없습니다.</p>"
+      "description": "<p>성공적인 협정을 맺기 위한 첫 번째 단계는 협상의 기술과 함께 협정 뒤에 숨겨진 마법에 대한 이해입니다. 약속을 지키기 위해 자신을 마법으로 묶는 방법을 배워두면 협상을 더 쉽게 할 수 있습니다. 훈련된 외교 전문가에서 다음 중 하나에 대한 숙련도가 증가합니다: 주문학, 자연, 오컬트, 종교.</p>\n<p>@UUID[Compendium.pf2e.actionspf2e.Item.9X80J5RN21Uoaeiw]{결속 서약}</p>\n<p><strong> 특별</strong> @UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.0UrqPv7XLDDRwZ13]{약정 체결자} 원형에서 다른 두 개의 헌신적 업적을 획득할 때까지는 다른 헌신적 업적을 선택할 수 없습니다.</p>"
     },
     "Call of the Green Man": {
       "name": "그린맨의 부름",
@@ -20012,7 +20012,7 @@
     },
     "Trick Magic Item": {
       "name": "트릭 마법 아이템",
-      "description": "<p>평소에는 사용할 수 없었던 마법 아이템을 검사하여 일시적으로 활성화합니다. 예를 들어, 파이터가 지팡이로 주문을 시전하거나 마법사가 마법 목록에 없는 주문을 두루마리를 사용하여 시전할 수 있습니다. 아이템을 활성화하는 방법을 알지 못하면 속이려고 시도할 수 없습니다.</p>\n<p>아이템으로 주문을 시전하려는 경우 아이템의 마법 전통과 일치하는 기술을 사용하거나 목록에 해당 주문이 있는 전통과 일치하는 기술을 사용하여 체크를 시도하세요. 해당 기술은 비전은 아르카나, 원초는 자연, 오컬트는 오컬티즘, 신성은 종교, 또는 전통 특성이 아닌 마법 특성을 가진 아이템의 경우 이 네 가지 중 하나를 선택합니다. GM은 아이템의 레벨에 따라 DC를 결정합니다(아이템이나 상황에 따라 조정될 수 있음).</p>\n<p>주문 공격력 수정치 또는 주문 DC가 필요한 마법 아이템을 활성화할 때 해당 전통의 주문을 시전할 수 없는 경우, 자신의 레벨과 지능, 지혜, 매력 수정치 중 가장 높은 수치를 숙련도 보너스로 활용합니다. 아이템의 전통에 해당하는 기술의 마스터라면 훈련된 숙련도 보너스를, 전설적이라면 전문가 숙련도 보너스를 대신 사용합니다.</p>\n<hr />\n<p><strong>성공</strong> 현재 턴의 남은 시간 동안 아이템을 정상적으로 사용할 수 있는 것처럼 액션을 사용해 아이템을 활성화할 수 있습니다.</p>\n<p><strong> 실패</strong> 이번 턴에는 아이템을 사용하거나 속이기를 시도할 수 없지만 다음 턴에 다시 시도할 수 있습니다.</p>\n<p><strong> 대실패</strong> 아이템을 사용할 수 없고 다음 일일 준비 전까지 다시 속이기를 시도할 수 없습니다.</p>"
+      "description": "<p>평소에는 사용할 수 없었던 마법 아이템을 검사하여 일시적으로 활성화합니다. 예를 들어, 파이터가 지팡이로 주문을 시전하거나 마법사가 마법 목록에 없는 주문을 두루마리를 사용하여 시전할 수 있습니다. 아이템을 활성화하는 방법을 알지 못하면 속이려고 시도할 수 없습니다.</p>\n<p>아이템으로 주문을 시전하려는 경우 아이템의 마법 전통과 일치하는 기술을 사용하거나 목록에 해당 주문이 있는 전통과 일치하는 기술을 사용하여 체크를 시도하세요. 해당 기술은 비전은 주문학, 원초는 자연, 오컬트는 오컬티즘, 신성은 종교, 또는 전통 특성이 아닌 마법 특성을 가진 아이템의 경우 이 네 가지 중 하나를 선택합니다. GM은 아이템의 레벨에 따라 DC를 결정합니다(아이템이나 상황에 따라 조정될 수 있음).</p>\n<p>주문 공격력 수정치 또는 주문 DC가 필요한 마법 아이템을 활성화할 때 해당 전통의 주문을 시전할 수 없는 경우, 자신의 레벨과 지능, 지혜, 매력 수정치 중 가장 높은 수치를 숙련도 보너스로 활용합니다. 아이템의 전통에 해당하는 기술의 마스터라면 훈련된 숙련도 보너스를, 전설적이라면 전문가 숙련도 보너스를 대신 사용합니다.</p>\n<hr />\n<p><strong>성공</strong> 현재 턴의 남은 시간 동안 아이템을 정상적으로 사용할 수 있는 것처럼 액션을 사용해 아이템을 활성화할 수 있습니다.</p>\n<p><strong> 실패</strong> 이번 턴에는 아이템을 사용하거나 속이기를 시도할 수 없지만 다음 턴에 다시 시도할 수 있습니다.</p>\n<p><strong> 대실패</strong> 아이템을 사용할 수 없고 다음 일일 준비 전까지 다시 속이기를 시도할 수 없습니다.</p>"
     },
     "Twirling Strike": {
       "name": "회전 공격",
@@ -20132,11 +20132,11 @@
     },
     "Internal Compartment": {
       "name": "내부 수납공간",
-      "description": "<p>팔뚝의 빈 공간 안에 최대 가벼운 벌크의 작은 물체를 숨길 수 있습니다. 이 방법으로 물체를 숨기려면 세 번의 @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{Interact} 액션이 필요합니다.</p>\n<p>다른 플레이어에 대한 체크 DC에 상황 보너스 +4를 얻거나 @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} 또는 @UUID[Compendium]에 상황 보너스 +2를 얻습니다.팔 안에 저장된 물체를 훔치세요.</p>\n<p>팔에 무기를 저장한 경우, 상호작용 액션을 한 번만 사용하여 무기를 내부 공간에 해당하는 손으로 끌어온 다음 무기로 공격할 수 있습니다.</p>"
+      "description": "<p>팔뚝의 빈 공간 안에 최대 가벼운 벌크의 작은 물체를 숨길 수 있습니다. 이 방법으로 물체를 숨기려면 세 번의 @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{상호작용} 액션이 필요합니다.</p>\n<p>다른 플레이어에 대한 체크 DC에 상황 보너스 +4를 얻거나 @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} 또는 @UUID[Compendium]에 상황 보너스 +2를 얻습니다.팔 안에 저장된 물체를 훔치세요.</p>\n<p>팔에 무기를 저장한 경우, 상호작용 액션을 한 번만 사용하여 무기를 내부 공간에 해당하는 손으로 끌어온 다음 무기로 공격할 수 있습니다.</p>"
     },
     "Vigilante Dedication": {
       "name": "자경단 헌신",
-      "description": "<p>여러분에게는 각각 고유한 이름, 소속, 능력을 가진 두 가지 정체성이 있습니다. 사회적 정체성은 정직한 사회 구성원이고, 자경단원 정체성은 기술적이고 교활한 전사입니다. 이 두 정체성 중 어느 것도 거짓이 아니며, 여러분은 실제로 이 두 사람 모두이므로 두 정체성은 서로 최대 한 단계만 일치할 수 있습니다(예: 한 정체성은 중립, 다른 정체성은 중립 악이지만 다른 정체성은 혼돈의 악이 아닐 수 있음).</p>\n<p>누군가가 내 다른 신분을 알아내려고 시도하면, @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{탐색} 액션을 사용하여 @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{사칭} 액션을 사용하는 것처럼 내 기만 DC에 대한 인식 확인을 시도해야 합니다. 이러한 시도에 대한 기만 DC는 일반 DC 대신 20 + 자신의 숙련도 수정치입니다. 가장하기와 달리, 다른 신분을 은폐하기 위해 @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{Interact}에 기만 체크를 시도할 필요는 없습니다.</p>\n<p>한 신분에서 다른 신분으로 바꾸는 데 1분 정도 걸리며 다른 생물의 눈에 띄지 않는 곳에서 이루어져야 합니다. 이 과정에는 옷이나 화장과 같은 신체적 변화와 마음 상태의 변화가 모두 포함되므로 외모를 바꾸는 다른 효과는 신원 변경에 필요한 시간을 줄이지 않습니다.</p>\n<p>두 신원은 완전히 구별됩니다. 정렬에 의존하는 효과는 현재 신분의 정렬을 사용하지만, 특정 정렬이 필요한 능력(예: 성직자의 신)은 두 신분이 모두 자격을 갖춘 경우에만 사용할 수 있습니다. 두 신원 중 하나에 대한 @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{지식 회상} 확인은 확인을 시도하는 사람이 두 신원이 동일인임을 알지 못하는 한 다른 신원에 대한 정보를 알려주지 않습니다. 신분으로 나를 감지하는 효과(예: @UUID[Compendium.pf2e.spells-srd.Item.QnTtGCAvdWRU4spv]{동일성 감지} 주문)는 내가 현재 효과가 감지하려는 신분으로 있을 때만 작동하며, 그렇지 않으면 대상이 없는 것처럼 효과가 실패합니다.</p>\n<p>신분 간 분리를 유지하기 위해 일부 능력은 사교 또는 경계라는 두 특성 중 하나를 갖습니다. 사교 재주는 사교 신분일 때만 사용할 수 있습니다. 클래스 재주와 자경단 재주는 자경단 정체성과 연관되어 있으며, 소셜 정체성 상태에서 사용하면 자경단원으로 노출될 위험이 있습니다. 즉, 이 재주를 사용하기 전에 특별히 온순하거나 눈에 띄지 않았다면 신원이 노출될 위험이 더 커질 수 있습니다. 신분이 공개되면 자경단원 헌신으로 변장할 수 있는 혜택을 잃게 되지만, 신분을 비밀로 유지하지 않는 한 두 신분 모두에서 사교 능력과 자경단원 능력을 모두 사용할 수 있습니다. 현재 신분에 관계없이 두 특성이 모두 없는 재주를 사용할 수 있습니다.</p>\n<p><strong> 특별</strong> @UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.rtAFOZOjWHC2zRNO]{Vigilante} 원형에서 다른 두 가지 특성을 획득할 때까지 다른 헌신 특성을 선택할 수 없습니다.</p>"
+      "description": "<p>여러분에게는 각각 고유한 이름, 소속, 능력을 가진 두 가지 정체성이 있습니다. 사회적 정체성은 정직한 사회 구성원이고, 자경단원 정체성은 기술적이고 교활한 전사입니다. 이 두 정체성 중 어느 것도 거짓이 아니며, 여러분은 실제로 이 두 사람 모두이므로 두 정체성은 서로 최대 한 단계만 일치할 수 있습니다(예: 한 정체성은 중립, 다른 정체성은 중립 악이지만 다른 정체성은 혼돈의 악이 아닐 수 있음).</p>\n<p>누군가가 내 다른 신분을 알아내려고 시도하면, @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{탐색} 액션을 사용하여 @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{사칭} 액션을 사용하는 것처럼 내 기만 DC에 대한 인식 확인을 시도해야 합니다. 이러한 시도에 대한 기만 DC는 일반 DC 대신 20 + 자신의 숙련도 수정치입니다. 가장하기와 달리, 다른 신분을 은폐하기 위해 @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{상호작용}에 기만 체크를 시도할 필요는 없습니다.</p>\n<p>한 신분에서 다른 신분으로 바꾸는 데 1분 정도 걸리며 다른 생물의 눈에 띄지 않는 곳에서 이루어져야 합니다. 이 과정에는 옷이나 화장과 같은 신체적 변화와 마음 상태의 변화가 모두 포함되므로 외모를 바꾸는 다른 효과는 신원 변경에 필요한 시간을 줄이지 않습니다.</p>\n<p>두 신원은 완전히 구별됩니다. 정렬에 의존하는 효과는 현재 신분의 정렬을 사용하지만, 특정 정렬이 필요한 능력(예: 성직자의 신)은 두 신분이 모두 자격을 갖춘 경우에만 사용할 수 있습니다. 두 신원 중 하나에 대한 @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{지식 회상} 확인은 확인을 시도하는 사람이 두 신원이 동일인임을 알지 못하는 한 다른 신원에 대한 정보를 알려주지 않습니다. 신분으로 나를 감지하는 효과(예: @UUID[Compendium.pf2e.spells-srd.Item.QnTtGCAvdWRU4spv]{동일성 감지} 주문)는 내가 현재 효과가 감지하려는 신분으로 있을 때만 작동하며, 그렇지 않으면 대상이 없는 것처럼 효과가 실패합니다.</p>\n<p>신분 간 분리를 유지하기 위해 일부 능력은 사교 또는 경계라는 두 특성 중 하나를 갖습니다. 사교 재주는 사교 신분일 때만 사용할 수 있습니다. 클래스 재주와 자경단 재주는 자경단 정체성과 연관되어 있으며, 소셜 정체성 상태에서 사용하면 자경단원으로 노출될 위험이 있습니다. 즉, 이 재주를 사용하기 전에 특별히 온순하거나 눈에 띄지 않았다면 신원이 노출될 위험이 더 커질 수 있습니다. 신분이 공개되면 자경단원 헌신으로 변장할 수 있는 혜택을 잃게 되지만, 신분을 비밀로 유지하지 않는 한 두 신분 모두에서 사교 능력과 자경단원 능력을 모두 사용할 수 있습니다. 현재 신분에 관계없이 두 특성이 모두 없는 재주를 사용할 수 있습니다.</p>\n<p><strong> 특별</strong> @UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.rtAFOZOjWHC2zRNO]{Vigilante} 원형에서 다른 두 가지 특성을 획득할 때까지 다른 헌신 특성을 선택할 수 없습니다.</p>"
     },
     "Ascend": {
       "name": "Ascend",
@@ -20980,7 +20980,7 @@
     },
     "Quick Shot": {
       "name": "퀵샷",
-      "description": "<p>활이나 석궁을 뽑고 같은 액션으로 공격합니다. 활 또는 석궁 무기 그룹에서 장전되어 있거나 재장전이 0인 무기를 뽑고 해당 무기로 공격합니다[@UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{Interact}.</p>"
+      "description": "<p>활이나 석궁을 뽑고 같은 액션으로 공격합니다. 활 또는 석궁 무기 그룹에서 장전되어 있거나 재장전이 0인 무기를 뽑고 해당 무기로 공격합니다[@UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{상호작용}.</p>"
     },
     "Ebb and Flow": {
       "name": "썰물과 썰물",
@@ -21044,7 +21044,7 @@
     },
     "Quick Bomber": {
       "name": "퀵 폭격기",
-      "description": "<p>폭탄을 손이 닿기 쉬운 주머니에 넣어두고 아무 생각 없이 뽑습니다. 당신은 @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{Interact}를 사용해 폭탄을 뽑은 다음, 폭탄으로 공격합니다.</p>"
+      "description": "<p>폭탄을 손이 닿기 쉬운 주머니에 넣어두고 아무 생각 없이 뽑습니다. 당신은 @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{상호작용}를 사용해 폭탄을 뽑은 다음, 폭탄으로 공격합니다.</p>"
     },
     "Sin Counterspell": {
       "name": "죄의 카운터스펠",
@@ -21196,7 +21196,7 @@
     },
     "Mythic Containment": {
       "name": "신화적 봉쇄",
-      "description": "<p>일반 가방, 자루, 상자 등의 용기에 신화의 힘을 불어넣어 생물을 지휘할 수 있는 감옥으로 변신시킵니다. 신화 포인트를 소모하고, 30피트 내에 있는 생물의 의지 DC에 대해 신화 숙련도로 @Check[기만|대적:의지], @Check[외교|대적:의지] 또는 @Check[협박|대적:의지] 검사를 시도하여 속이거나 설득하거나 명령하여 수용소에 들어가도록 할 수 있습니다. 수용소에는 어떤 크기의 생물도 담을 수 있으며, 체크가 성공하면 생물은 수용소에 들어갑니다. 이 생물은 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1}이며 숨을 참거나 질식하기 시작해야 합니다. 봉투에 갇힌 생물은 @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{탈출}을 시도할 수 있으며, 봉투 안으로 생물을 유인하는 데 사용한 스킬을 사용해 DC를 계산하고 신화 숙련도를 사용하여 DC를 계산합니다. 갇힌 생물은 1분 후 자동으로 풀려나지만, 자유 행동으로 신화 점수를 추가로 소모하여 감금 지속시간을 1분 더 연장할 수 있습니다.</p>"
+      "description": "<p>일반 가방, 자루, 상자 등의 용기에 신화의 힘을 불어넣어 생물을 지휘할 수 있는 감옥으로 변신시킵니다. 신화 포인트를 소모하고, 30피트 내에 있는 생물의 의지 DC에 대해 신화 숙련도로 @Check[deception|대적:의지], @Check[diplomacy|대적:의지] 또는 @Check[협박|대적:의지] 검사를 시도하여 속이거나 설득하거나 명령하여 수용소에 들어가도록 할 수 있습니다. 수용소에는 어떤 크기의 생물도 담을 수 있으며, 체크가 성공하면 생물은 수용소에 들어갑니다. 이 생물은 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1}이며 숨을 참거나 질식하기 시작해야 합니다. 봉투에 갇힌 생물은 @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{탈출}을 시도할 수 있으며, 봉투 안으로 생물을 유인하는 데 사용한 스킬을 사용해 DC를 계산하고 신화 숙련도를 사용하여 DC를 계산합니다. 갇힌 생물은 1분 후 자동으로 풀려나지만, 자유 행동으로 신화 점수를 추가로 소모하여 감금 지속시간을 1분 더 연장할 수 있습니다.</p>"
     },
     "Ferrousoul": {
       "name": "철의 영혼",
@@ -21304,7 +21304,7 @@
     },
     "Magical Knowledge": {
       "name": "마법 지식",
-      "description": "<p>아르카나, 자연, 오컬트, 종교 중 하나의 숙련도가 전문가에서 마스터로, 다른 하나의 숙련도가 훈련된 전문가로 올라갑니다. 선택한 기술과 관련된 기술 재주를 얻습니다.</p>"
+      "description": "<p>주문학, 자연, 오컬트, 종교 중 하나의 숙련도가 전문가에서 마스터로, 다른 하나의 숙련도가 훈련된 전문가로 올라갑니다. 선택한 기술과 관련된 기술 재주를 얻습니다.</p>"
     },
     "Takedown Expert": {
       "name": "테이크다운 전문가",
@@ -21380,22 +21380,22 @@
     },
     "Uncanny Cheeks": {
       "name": "언캐니 볼",
-      "description": "<p>유용한 물건을 숨겨두었다가 적절한 타이밍에 회수하는 것처럼 보입니다. 항상 뺨 주머니에서 물건을 꺼낸다는 점을 제외하면, @UUID[Compendium.pf2e.feats-srd.Item.lHFz4MmebvPqTb0A]{과학자 소모품} 및 @UUID[Compendium.pf2e.feats-srd.Item.bh2jHyyYrkLMsIdX]{과학자 계획} 특기를 획득할 수 있습니다. 즉, 꺼낸 물건은 뺨 주머니에 꼭 들어맞아야 하며, @UUID[Compendium.pf2e.feats-srd.Item.Pox93XMBaFmeLIDM]{뺨 주머니} 재주가 없다면 일반적으로 무시할 수 있는 벌크의 아이템입니다.</p>"
+      "description": "<p>유용한 물건을 숨겨두었다가 적절한 타이밍에 회수하는 것처럼 보입니다. 항상 뺨 주머니에서 물건을 꺼낸다는 점을 제외하면, @UUID[Compendium.pf2e.feats-srd.Item.lHFz4MmebvPqTb0A]{현명한 소모품} 및 @UUID[Compendium.pf2e.feats-srd.Item.bh2jHyyYrkLMsIdX]{현명한 계획자} 특기를 획득할 수 있습니다. 즉, 꺼낸 물건은 뺨 주머니에 꼭 들어맞아야 하며, @UUID[Compendium.pf2e.feats-srd.Item.Pox93XMBaFmeLIDM]{뺨 주머니} 재주가 없다면 일반적으로 무시할 수 있는 벌크의 아이템입니다.</p>"
     },
     "United Assault": {
       "name": "유나이티드 어썰트",
       "description": "<p>수많은 전투를 통해 아군과 함께할 때 더 강해진다는 것을 배웠습니다. 일격을 가합니다. 당신의 공격은 대상의 마지막 턴 종료 이후 대상에게 피해를 준 다른 생물의 수만큼 공격력 굴림에 상황 보너스를 얻으며, 최대 +4의 상황 보너스를 받습니다.</p>"
     },
     "Versatile Font": {
-      "name": "다용도 글꼴",
-      "description": "<p>신의 측면을 탐구하면서 치유와 해악의 제한을 뛰어넘게 됩니다. 해로운 글꼴 또는 치유 글꼴에서 얻은 주문 슬롯에 @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{Harm} 또는 @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Heal}을 준비하면 됩니다.</p>"
+      "name": "다용도 주문 샘",
+      "description": "<p>신의 측면을 탐구하면서 치유와 해악의 제한을 뛰어넘게 됩니다. @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{Harm} 주문 샘 또는 @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Heal} 주문 샘에서 얻은 주문 슬롯에 @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{Harm} 또는 @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Heal} 주문을 자유롭게 준비할 수 있게 됩니다.</p>"
     },
     "Clan Protector": {
       "name": "클랜 수호자",
-      "description": "<p>클랜 단검}은 자신만큼이나 쉽게 아군을 보호할 수 있습니다. 클랜 단검의 회피 특성으로 상황 보너스를 AC에 부여하기 위해 @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{Interact} 액션을 사용하면, 자신이 상황 보너스를 얻는 대신 인접한 아군에게 상황 보너스를 부여할 수 있습니다. 여러 번의 상호작용 액션을 사용해 여러 아군을 보호하거나 자신과 아군을 보호할 수 있습니다. 아군은 자신과 인접한 경우에만 AC 보너스의 혜택을 받습니다.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.fRlvmul3LbLo2xvR]{Effect: 패리}</p>"
+      "description": "<p>클랜 단검은 자신만큼이나 쉽게 아군을 보호할 수 있습니다. 클랜 단검의 회피 특성으로 상황 보너스를 AC에 부여하기 위해 @UUID[Compendium.pf2e.actionspf2e.Item.pvQ5rY2zrtPI614F]{상호작용} 액션을 사용하면, 자신이 상황 보너스를 얻는 대신 인접한 아군에게 상황 보너스를 부여할 수 있습니다. 여러 번의 상호작용 액션을 사용해 여러 아군을 보호하거나 자신과 아군을 보호할 수 있습니다. 아군은 자신과 인접한 경우에만 AC 보너스의 혜택을 받습니다.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.fRlvmul3LbLo2xvR]{Effect: 패리}</p>"
     },
     "Skittertalk": {
-      "name": "스키터톡",
+      "name": "거미 대화",
       "description": "<p>거미와 다른 거미류에게 질문을 하고, 답변을 받고, 외교 기술을 사용할 수 있습니다. 이 능력을 사용할 수 있는 생물은 GM이 결정합니다.</p>"
     },
     "Mental Forge": {
@@ -21411,16 +21411,16 @@
       "description": "<p>유연한 마음가짐으로 한 주문에서 다른 주문으로 빠르게 전환할 수 있습니다. 매일 준비 중에 @UUID[Compendium.pf2e.feats-srd.Item.4HZTLPKPteEFsa7n]{밀교 폴리매스}를 사용해 주문을 목록에 추가한 경우, 다시 준비할 때 밀교 폴리매스의 새 주문을 목록에 유지하고 대신 같은 등급의 다른 주문을 사용할 수 없게 선택할 수 있습니다.</p>"
     },
     "Shared Clarity": {
-      "name": "공유 명확성",
-      "description": "<p>아군에게 선명도의 예감을 투사할 수 있습니다. 선명도의 예감}을 사용하면, 같은 정신 효과에 대해 같은 내성 굴림에 실패한 15피트 내의 아군도 자신의 리액션을 사용해 실패한 내성 굴림에 상황 보너스 +2를 더해 다시 굴릴 수 있습니다.</p>\n<p>@UUID[Compendium.pf2e.feats-srd.Item.CUtvkuGSxq1raBIB]{Effect: 공유된 선명도}</p>"
+      "name": "공유된 명확성",
+      "description": "<p>아군에게 선명도의 예감을 투사할 수 있습니다. 선명도의 예감}을 사용하면, 같은 정신 효과에 대해 같은 내성 굴림에 실패한 15피트 내의 아군도 자신의 리액션을 사용해 실패한 내성 굴림에 상황 보너스 +2를 더해 다시 굴릴 수 있습니다.</p>\n<p>@UUID[Compendium.pf2e.feats-srd.Item.CUtvkuGSxq1raBIB]{Effect: 공유된 명확성}</p>"
     },
     "Dance of the Jester": {
       "name": "광대의 춤",
-      "description": "<p>놀라운 춤 솜씨로 무대 위 다른 플레이어의 그림자를 조종할 수 있는 광대 캐릭터를 구현할 수 있습니다(재미있게도). 30피트 이내에 있는 적 한 명의 [fortitude] DC에 대해 [performance|against:fortitude] 체크를 시도합니다.</p><hr /><p><strong>대성공</strong> 자신의 그림자와 상대방의 그림자가 동기화되어 대상의 움직임이 한 걸음 한 걸음 일치하도록 강제합니다. 다음 동작 중 두 가지를 수행합니다: 엎드리기, 물건 놓기, 서기, 걷기, 보폭 중 하나를 수행합니다. 반드시 두 가지 동작을 수행해야 합니다. 상대방도 이러한 동작을 수행하여 나와 같은 방향으로 움직이거나(예를 들어, 내가 북쪽으로 보폭을 넓히면 상대방도 같은 방향으로 움직입니다), 내가 물체를 놓을 때 상대방도 물체를 놓습니다. 그러면 대상은 1일 동안 내 광대의 춤에 일시적으로 면역이 됩니다.</p> <p><strong>성공</strong> 대성공으로, 대상이 내 춤에 일시적으로 면역이 되기 전까지 두 가지가 아닌 한 가지 행동만 할 수 있으며, 대상을 위험한 지형으로 이동할 수 없습니다.</p> <p> <p> 단, 두 가지 행동이 모두 성공할 경우 대상은 위험한 지형으로 이동할 수 없습니다.</p>"
+      "description": "<p>놀라운 춤 솜씨로 무대 위 다른 플레이어의 그림자를 조종할 수 있는 광대 캐릭터를 구현할 수 있습니다(재미있게도). 30피트 이내에 있는 적 한 명의 [fortitude] DC에 대해 @Check[performance|against:fortitude] 체크를 시도합니다.</p><hr /><p><strong>대성공</strong> 자신의 그림자와 상대방의 그림자가 동기화되어 대상의 움직임이 한 걸음 한 걸음 일치하도록 강제합니다. 다음 동작 중 두 가지를 수행합니다: 엎드리기, 물건 놓기, 서기, 걷기, 보폭 중 하나를 수행합니다. 반드시 두 가지 동작을 수행해야 합니다. 상대방도 이러한 동작을 수행하여 나와 같은 방향으로 움직이거나(예를 들어, 내가 북쪽으로 보폭을 넓히면 상대방도 같은 방향으로 움직입니다), 내가 물체를 놓을 때 상대방도 물체를 놓습니다. 그러면 대상은 1일 동안 내 광대의 춤에 일시적으로 면역이 됩니다.</p> <p><strong>성공</strong> 대성공으로, 대상이 내 춤에 일시적으로 면역이 되기 전까지 두 가지가 아닌 한 가지 행동만 할 수 있으며, 대상을 위험한 지형으로 이동할 수 없습니다.</p> <p> <p> 단, 두 가지 행동이 모두 성공할 경우 대상은 위험한 지형으로 이동할 수 없습니다.</p>"
     },
     "Hands That Unweave Disaster": {
       "name": "재난을 헤쳐나가는 손",
-      "description": "<p>손이 기묘한 확신으로 움직이며 위험을 해체합니다. 아크로바틱 체크를 시도할 때 신화 포인트를 소모하여 신화 숙련도 체크를 시도할 수 있습니다[@UUID[Compendium.pf2e.actionspf2e.Item.3yoajuKjwHZ9ApUY]{날개를 잡다}. 신화 포인트를 소모하여 @UUID[Compendium.pf2e.actionspf2e.Item.cYdz2grcOcRt4jk6]{장치 비활성화}를 시도할 때 신화 숙련도 체크에 도전할 수 있습니다. 신화 숙련도로 체크를 시도할 때 정상적으로 전문가 이상의 숙련도가 필요한 경우에도 장치 비활성화를 시도할 수 있습니다.</p>"
+      "description": "<p>손이 기묘한 확신으로 움직이며 위험을 해체합니다. 아크로바틱 체크를 시도할 때 신화 포인트를 소모하여 신화 숙련도 체크를 시도할 수 있습니다[@UUID[Compendium.pf2e.actionspf2e.Item.3yoajuKjwHZ9ApUY]{가장자리 잡기}. 신화 포인트를 소모하여 @UUID[Compendium.pf2e.actionspf2e.Item.cYdz2grcOcRt4jk6]{장치 비활성화}를 시도할 때 신화 숙련도 체크에 도전할 수 있습니다. 신화 숙련도로 체크를 시도할 때 정상적으로 전문가 이상의 숙련도가 필요한 경우에도 장치 비활성화를 시도할 수 있습니다.</p>"
     },
     "Angelkin": {
       "name": "천계의 후손",
@@ -21608,7 +21608,7 @@
     },
     "Implausible Purchase (Rogue)": {
       "name": "불가능한 구매(도적)",
-      "description": "<p>상품 구매 후 이미 사용한 적이 있어도 @UUID[Compendium.pf2e.feats-srd.Item.bh2jHyyYrkLMsIdX]{Prescient Planner}를 사용할 수 있으며, 상호작용을 통해 2번 액션이 아닌 한 번의 액션으로 아이템을 뽑을 수 있습니다. 또한, 하루에 5회 프레시언트 플래너를 사용하여 자신의 레벨보다 최대 6레벨 낮은 일반 소모성 아이템을 뽑을 수 있습니다.</p>"
+      "description": "<p>상품 구매 후 이미 사용한 적이 있어도 @UUID[Compendium.pf2e.feats-srd.Item.bh2jHyyYrkLMsIdX]{현명한 계획자}를 사용할 수 있으며, 상호작용을 통해 2번 액션이 아닌 한 번의 액션으로 아이템을 뽑을 수 있습니다. 또한, 하루에 5회 프레시언트 플래너를 사용하여 자신의 레벨보다 최대 6레벨 낮은 일반 소모성 아이템을 뽑을 수 있습니다.</p>"
     },
     "Ascended Celestial Dedication": {
       "name": "승천한 천상의 헌신",
@@ -21688,7 +21688,7 @@
     },
     "Pact of the Crossroads": {
       "name": "교차로의 협정",
-      "description": "<p>당신은 교차로의 군주로 알려진 장자, 두건 쓴 응과 조약을 맺었지만, 응이 인정하는 유일한 표시가 당신이 받는 혜택뿐입니다. 당신을 추적하는 모든 생명체는 직업 DC와 주문 DC 중 더 높은 수치에 대한 @Check[생존|대적:직업-주문|롤러 역할:대상] 체크에 성공해야 합니다. 처음 만난 후 당신의 특징을 기억하려는 생물은 같은 DC에 대해 @Check[will|against:class-spell] 내성에 성공해야 합니다. 실패하면, 만남은 기억하지만 당신의 특징은 기억하지 못합니다.</p> <p>대신 한 달 이상 한 곳에 정착하지 않고 계속 떠돌아야 하며, 그렇지 않으면 다시 여행을 시작할 때까지 이 피트의 혜택을 잃게 됩니다. 만약 응과 조약을 맺었다는 사실을 다른 사람에게 알린다면, 조약의 효과에 대한 모호한 정보를 공유할 수는 있지만 이 피트의 혜택을 영구적으로 잃게 됩니다.</p> </p>"
+      "description": "<p>당신은 교차로의 군주로 알려진 장자, 두건 쓴 응과 조약을 맺었지만, 응이 인정하는 유일한 표시가 당신이 받는 혜택뿐입니다. 당신을 추적하는 모든 생명체는 직업 DC와 주문 DC 중 더 높은 수치에 대한 @Check[survival|대적:직업-주문|롤러 역할:대상] 체크에 성공해야 합니다. 처음 만난 후 당신의 특징을 기억하려는 생물은 같은 DC에 대해 @Check[will|against:class-spell] 내성에 성공해야 합니다. 실패하면, 만남은 기억하지만 당신의 특징은 기억하지 못합니다.</p> <p>대신 한 달 이상 한 곳에 정착하지 않고 계속 떠돌아야 하며, 그렇지 않으면 다시 여행을 시작할 때까지 이 피트의 혜택을 잃게 됩니다. 만약 응과 조약을 맺었다는 사실을 다른 사람에게 알린다면, 조약의 효과에 대한 모호한 정보를 공유할 수는 있지만 이 피트의 혜택을 영구적으로 잃게 됩니다.</p> </p>"
     },
     "Cauldron": {
       "name": "가마솥",
@@ -21800,7 +21800,7 @@
     },
     "Elven Lore": {
       "name": "엘프 지식",
-      "description": "<p>전통적인 엘프 예술을 공부하며 비전 마법과 주변 세계에 대해 배웠습니다. 아르카나와 자연에서 훈련된 숙련도 등급을 얻습니다. 해당 기술 중 하나에 자동으로 훈련된 경우(예: 배경이나 클래스 등), 대신 원하는 기술을 훈련받게 됩니다.</p>\n<p>또한 엘프 지식에 대한 @UUID[Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x]{추가 지식} 일반 재주를 획득합니다.</p>"
+      "description": "<p>전통적인 엘프 예술을 공부하며 비전 마법과 주변 세계에 대해 배웠습니다. 주문학와 자연에서 훈련된 숙련도 등급을 얻습니다. 해당 기술 중 하나에 자동으로 훈련된 경우(예: 배경이나 클래스 등), 대신 원하는 기술을 훈련받게 됩니다.</p>\n<p>또한 엘프 지식에 대한 @UUID[Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x]{추가 지식} 일반 재주를 획득합니다.</p>"
     },
     "Kishin Rage": {
       "name": "기신 분노",
