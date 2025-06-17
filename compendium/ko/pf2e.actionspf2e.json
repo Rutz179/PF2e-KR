@@ -879,7 +879,7 @@
     },
     "Bullet Dancer Stance": {
       "name": "불릿 댄서 자세",
-      "description": "<p><strong>요건</strong> 비무장 상태이며 간단한 총기, 총검 또는 강화된 개머리판을 휘두르는 상태입니다</p>\n<hr />\n<p><strong>효과</strong> 간단한 총기를 중심으로 하는 고유 무술의 특수 자세를 취합니다. 이 자세에서는 총검, 강화된 개머리판, 간단한 총기 화기를 사용한 공격만 사용할 수 있습니다. 이러한 무기로는 폭풍우 타격(Flurry of Blow)을 사용할 수 있습니다. 다른 수도사 업적이나 수도사 능력 중 비무장 공격이 필요한 업적이나 능력은 한 번의 특정 타격이 필요하지 않다면 총검과 강화된 개머리판으로 사용할 수 있습니다. 또한, 첫 번째 사거리 증가의 절반 범위 내에서 공격할 때는 간단한 화기로도 사용할 수 있습니다.</p>"
+      "description": "<p><strong>요건</strong> 비무장 상태이며 간단한 총기, 총검 또는 강화된 개머리판을 휘두르는 상태입니다</p>\n<hr />\n<p><strong>효과</strong> 간단한 총기를 중심으로 하는 고유 무술의 특수 자세를 취합니다. 이 자세에서는 총검, 강화된 개머리판, 간단한 총기 화기를 사용한 공격만 사용할 수 있습니다. 이러한 무기로는 폭풍우 타격(Flurry of Blow)을 사용할 수 있습니다. 다른 몽크 업적이나 몽크 능력 중 비무장 공격이 필요한 업적이나 능력은 한 번의 특정 타격이 필요하지 않다면 총검과 강화된 개머리판으로 사용할 수 있습니다. 또한, 첫 번째 사거리 증가의 절반 범위 내에서 공격할 때는 간단한 화기로도 사용할 수 있습니다.</p>"
     },
     "Repel Ambient Magic": {
       "name": "주변 마법 격퇴",
@@ -1115,7 +1115,7 @@
     },
     "Amassed Assault": {
       "name": "집결된 공격",
-      "description": "<p>당신의 연합된 동료의 공간에 있는 각 적들은 무기 없는 공격 중 하나에 해당하는 피해와 당신의 레벨 (@Check[reflex|against:class-spell|basic] 당신의 직업 DC 또는 주문 DC 중 더 높은 쪽에 대한 내성)을 받습니다.</p>"
+      "description": "<p>당신의 연합된 동료의 공간에 있는 각 적들은 비무장 공격 중 하나에 해당하는 피해와 당신의 레벨 (@Check[reflex|against:class-spell|basic] 당신의 직업 DC 또는 주문 DC 중 더 높은 쪽에 대한 내성)을 받습니다.</p>"
     },
     "Overload Vision": {
       "name": "오버로드 비전",
@@ -1287,7 +1287,7 @@
     },
     "Find Fault": {
       "name": "결함 찾기",
-      "description": "<p><strong>트리거</strong> 주문이나 마법 효과에 대해 내성 굴림을 시도했지만 아직 굴리지 않았습니다.</p>\n<hr />\n<p><strong>효과</strong> 마법에서 어떤 종류의 결함을 발견하고, 그 결함을 이용해 효과로부터 자신을 보호합니다. 트리거 효과에 대한 구명 던지기에 +1 상황 보너스를 얻으며, 원한으로 선택한 신을 숭배하는 신성한 효과라면 상황 보너스는 +2로 증가합니다.</p>"
+      "description": "<p><strong>트리거</strong> 주문이나 마법 효과에 대해 내성 굴림을 시도했지만 아직 굴리지 않았습니다.</p>\n<hr />\n<p><strong>효과</strong> 마법에서 어떤 종류의 결함을 발견하고, 그 결함을 이용해 효과로부터 자신을 보호합니다. 트리거 효과에 대한 내성 굴림에 +1 상황 보너스를 얻으며, 원한으로 선택한 신을 숭배하는 신성한 효과라면 상황 보너스는 +2로 증가합니다.</p>"
     },
     "Water Transfer": {
       "name": "물 이동",
@@ -1379,7 +1379,7 @@
     },
     "Fight with Fear": {
       "name": "두려움과의 싸움",
-      "description": "<p><strong>트리거</strong> 당신이 볼 수 있는 생물이 당신에게 정신적 효과를 사용합니다.</p>\n<hr />\n<p><strong>효과</strong> 트리거된 생물은 다음과 같은 효과가 있는 의지 저항을 시도해야 합니다.</p>\n<hr />\n<p><strong>성공</strong> 생물은 영향을 받지 않습니다.</p>\n<p><strong> 실패</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 2} 상태가 되고, 당신은 트리거된 정신 효과에 대한 당신의 구명 던지기 또는 기타 방어력에 +2 상태 보너스를 얻습니다.</p>\n<p><strong>대실패</strong> 생물은 겁먹은 2가 되고, 당신은 트리거하는 정신 효과의 영향을 받지 않습니다.</p>"
+      "description": "<p><strong>트리거</strong> 당신이 볼 수 있는 생물이 당신에게 정신적 효과를 사용합니다.</p>\n<hr />\n<p><strong>효과</strong> 트리거된 생물은 다음과 같은 효과가 있는 의지 저항을 시도해야 합니다.</p>\n<hr />\n<p><strong>성공</strong> 생물은 영향을 받지 않습니다.</p>\n<p><strong> 실패</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 2} 상태가 되고, 당신은 트리거된 정신 효과에 대한 당신의 내성 굴림 또는 기타 방어력에 +2 상태 보너스를 얻습니다.</p>\n<p><strong>대실패</strong> 생물은 겁먹은 2가 되고, 당신은 트리거하는 정신 효과의 영향을 받지 않습니다.</p>"
     },
     "Craft Disharmonic Instrument": {
       "name": "부조화 악기 제작",
@@ -1539,7 +1539,7 @@
     },
     "Call Upon the Brightness": {
       "name": "빛을 불러오다",
-      "description": "<p><strong>발동트리거</strong> 자신의 <em>@UUID[Compendium.pf2e.spells-srd.Item.41TZEjhO6D1nWw2X]{징조}</em>의 행동 과정을 수행하는 동안 공격 굴리기, 기술 판정, 또는 내성 굴림을 시도했지만 아직 굴리지 않은 경우</p>\n<hr />\n<p>발동 검사에 +1 상태 보너스를 얻거나, 징조의 결과가 \"비애\"였음에도 불구하고 계속 진행했을 경우 +2의 상태 보너스를 얻습니다.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.xPg5wzzKNxJy18rU]{효과: 밝음 추구자}</p>"
+      "description": "<p><strong>발동트리거</strong> 자신의 <em>@UUID[Compendium.pf2e.spells-srd.Item.41TZEjhO6D1nWw2X]{전조}</em>의 행동 과정을 수행하는 동안 공격 굴리기, 기술 판정, 또는 내성 굴림을 시도했지만 아직 굴리지 않은 경우</p>\n<hr />\n<p>발동 검사에 +1 상태 보너스를 얻거나, 징조의 결과가 \"비애\"였음에도 불구하고 계속 진행했을 경우 +2의 상태 보너스를 얻습니다.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.xPg5wzzKNxJy18rU]{효과: 밝음 추구자}</p>"
     },
     "Unleash Realm": {
       "name": "영역 해방",
@@ -1703,7 +1703,7 @@
     },
     "Spasm of the Berserker": {
       "name": "베르세커의 경련",
-      "description": "<p>당신의 몸이 알아볼 수 없을 정도로 변형되어 강력한 한 눈의 형태로 변합니다. 당신은 4등급 @UUID[Compendium.pf2e.spells-srd.Item.wzctak6BxOW8xvFV]{Enlarge} 주문과 6등급 @UUID[Compendium.pf2e.spells-srd.Item.YtesyvfAIwXOqISq]{Moon Frenzy} 주문의 영향을 받으며, 두 주문 모두 다음 차례가 끝날 때까지 지속됩니다. 달의 광기를 조기에 종료하려고 시도할 수 없습니다.</p> <p>이 아이콘이 다시 강화되면, Spasm of the Berserker의 지속 시간을 다음 차례의 끝까지 연장할 수 있습니다. Spasm of the Berserker의 영향을 받고 있는 동안, transcend 행동은 다음 차례의 끝까지 지속 시간을 연장하는 무료 행동이 됩니다.</p>"
+      "description": "<p>당신의 몸이 알아볼 수 없을 정도로 변형되어 강력한 한 눈의 형태로 변합니다. 당신은 4등급 @UUID[Compendium.pf2e.spells-srd.Item.wzctak6BxOW8xvFV]{Enlarge} 주문과 6등급 @UUID[Compendium.pf2e.spells-srd.Item.YtesyvfAIwXOqISq]{Moon Frenzy} 주문의 영향을 받으며, 두 주문 모두 다음 차례가 끝날 때까지 지속됩니다. 달의 광기를 조기에 종료하려고 시도할 수 없습니다.</p> <p>이 아이콘이 다시 강화되면, Spasm of the Berserker의 지속 시간을 다음 차례의 끝까지 연장할 수 있습니다. Spasm of the Berserker의 영향을 받고 있는 동안, transcend 행동은 다음 차례의 끝까지 지속 시간을 연장하는 자유 행동이 됩니다.</p>"
     },
     "Field of Roots": {
       "name": "뿌리의 필드",

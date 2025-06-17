@@ -140,7 +140,7 @@
         },
         "7t0hoAr4rbWswzMK": {
           "name": "가시 달린 뿔",
-          "description": "<p><strong>빈도</strong> 하루에 한 번</p>\n<p><strong>트리거</strong> Liaskra가 무기 없는 공격이나 도달 거리가 없는 근접 무기로 공격을 받으면</p>\n<hr />\n<p><strong>효과</strong> Liaskra는 공격자의 살에 박힌 가시를 떼어냅니다. 그녀는 @Damage[1d8[piercing]]의 피해를 트리거한 생물에게 입힙니다 (@Check[reflex|dc:17|basic]). 대실패 시, 가시가 살에 박혀 생물은 @Damage[1d4[bleed]]의 추가 피해를 입습니다."
+          "description": "<p><strong>빈도</strong> 하루에 한 번</p>\n<p><strong>트리거</strong> Liaskra가 비무장 공격이나 도달 거리가 없는 근접 무기로 공격을 받으면</p>\n<hr />\n<p><strong>효과</strong> Liaskra는 공격자의 살에 박힌 가시를 떼어냅니다. 그녀는 @Damage[1d8[piercing]]의 피해를 트리거한 생물에게 입힙니다 (@Check[reflex|dc:17|basic]). 대실패 시, 가시가 살에 박혀 생물은 @Damage[1d4[bleed]]의 추가 피해를 입습니다."
         },
         "LHV1Y69RCdChvRwx": {
           "name": "속임수 공격",
@@ -216,7 +216,7 @@
       "items": {
         "F44pNDrMtxw9rISh": {
           "name": "주문 타격",
-          "description": "<p>Nathatel은 근접 공격에 주문을 집중시켜 마법으로 충전된 공격을 가합니다. 그는 1~2 행동이 소요되고 주문 공격 롤이 필요한 주문을 시전합니다. 주문의 효과는 즉시 발생하지 않고, 대신 그의 공격에 부여됩니다. 그는 무기 또는 무기 없는 공격으로 근접 타격을 가하며, 이 타격은 비전 특성을 얻습니다. 그의 주문은 공격과 결합되어, 그의 공격 굴림으로 공격과 주문의 효과를 모두 결정합니다. 이는 그의 다중 공격 페널티에 두 번의 공격으로 계산되지만, 페널티는 그가 스펠 스트라이크를 완료한 후에야 적용됩니다. 스펠 스트라이크를 사용한 후, Nathatel은 집중 특성을 가진 단일 행동으로 이 능력을 재충전할 때까지 다시 사용할 수 없습니다. 또한 @UUID[Compendium.pf2e.spells-srd.Item.9mPEoOPN0AMuixIv]{Force Fang} 또는 @UUID[Compendium.pf2e.spells-srd.Item.r82rqcm0MmGaBFkM]{Thunderous Strike}를 시전할 때도 Spellstrike가 재충전됩니다."
+          "description": "<p>Nathatel은 근접 공격에 주문을 집중시켜 마법으로 충전된 공격을 가합니다. 그는 1~2 행동이 소요되고 주문 공격 롤이 필요한 주문을 시전합니다. 주문의 효과는 즉시 발생하지 않고, 대신 그의 공격에 부여됩니다. 그는 무기 또는 비무장 공격으로 근접 타격을 가하며, 이 타격은 비전 특성을 얻습니다. 그의 주문은 공격과 결합되어, 그의 공격 굴림으로 공격과 주문의 효과를 모두 결정합니다. 이는 그의 다중 공격 페널티에 두 번의 공격으로 계산되지만, 페널티는 그가 스펠 스트라이크를 완료한 후에야 적용됩니다. 스펠 스트라이크를 사용한 후, Nathatel은 집중 특성을 가진 단일 행동으로 이 능력을 재충전할 때까지 다시 사용할 수 없습니다. 또한 @UUID[Compendium.pf2e.spells-srd.Item.9mPEoOPN0AMuixIv]{Force Fang} 또는 @UUID[Compendium.pf2e.spells-srd.Item.r82rqcm0MmGaBFkM]{Thunderous Strike}를 시전할 때도 Spellstrike가 재충전됩니다."
         }
       }
     },
@@ -250,7 +250,7 @@
         },
         "3gvb9wq37oq21be3": {
           "name": "생명력 흡수",
-          "description": "<p>데드아이 와이트가 무기 없는 공격이나 바운드 무기로 살아있는 생물에게 피해를 입힐 때, 10의 임시 체력을 얻고, 그 생물은 @Check[fortitude|dc:27] 내성 체크에 성공하지 못하면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}이 됩니다. 데드아이 와이트의 무기 및 결박된 무기로 추가 피해를 입히면, 내성 체크에 실패할 때마다 흡수된 체력이 1씩 증가하며, 최대 흡수 체력은 4까지 증가합니다."
+          "description": "<p>데드아이 와이트가 비무장 공격이나 바운드 무기로 살아있는 생물에게 피해를 입힐 때, 10의 임시 체력을 얻고, 그 생물은 @Check[fortitude|dc:27] 내성 체크에 성공하지 못하면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}이 됩니다. 데드아이 와이트의 무기 및 결박된 무기로 추가 피해를 입히면, 내성 체크에 실패할 때마다 흡수된 체력이 1씩 증가하며, 최대 흡수 체력은 4까지 증가합니다."
         },
         "4z31tccif8f7qaq7": {
           "name": "데드아이 와이트 생성",
@@ -341,7 +341,7 @@
         },
         "3gvb9wq37oq21be3": {
           "name": "생명력 흡수",
-          "description": "<p>데드아이 웨이트가 무기 없는 공격이나 결박된 무기로 살아있는 생물에게 피해를 입힐 경우, 9의 임시 체력을 얻고, 해당 생물은 @Check[fortitude|dc:25] 내성 체크에 성공하지 못하면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}이 됩니다. 데드아이 와이트의 무기 및 결박된 무기로 추가 피해를 입히면, 내성 체크에 실패할 때마다 흡수된 생명력이 1씩 증가하며, 최대 흡수 생명력은 4까지 증가합니다."
+          "description": "<p>데드아이 웨이트가 비무장 공격이나 결박된 무기로 살아있는 생물에게 피해를 입힐 경우, 9의 임시 체력을 얻고, 해당 생물은 @Check[fortitude|dc:25] 내성 체크에 성공하지 못하면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}이 됩니다. 데드아이 와이트의 무기 및 결박된 무기로 추가 피해를 입히면, 내성 체크에 실패할 때마다 흡수된 생명력이 1씩 증가하며, 최대 흡수 생명력은 4까지 증가합니다."
         },
         "4z31tccif8f7qaq7": {
           "name": "데드아이 와이트 생성",
@@ -521,7 +521,7 @@
         },
         "vfnb5vr7qkm2nzme": {
           "name": "Wear Pelt",
-          "description": "<p>Serraleth는 인접한 죽은 동물의 가죽을 입어 그 동물과 똑같은 모습으로 변신합니다. 그녀는 대상 동물의 크기와 속도가 동일해집니다. 세랄레스는 무기 없는 발톱과 이빨의 공격을 잃고, 그녀가 입고 있는 가죽의 동물의 근접 공격 유형을 얻습니다. 이 공격은 그녀의 이빨 공격과 동일한 피해를 주거나, 이 공격이 민첩 특성을 가지고 있다면 그녀의 발톱 공격과 동일한 피해를 줍니다. 어느 쪽이든, 피해 유형은 새로운 무기 없는 공격에 맞게 변경됩니다. 세랄레스가 가죽을 입고 있는 동안, 그녀에게 가해진 물리 피해의 절반은 대신 가죽에 가해집니다. 가죽은 경도 5와 25 HP를 가지고 있습니다. 가죽의 HP가 0이 되면, 그녀는 즉시 가죽에서 쫓겨나며 가죽은 파괴됩니다."
+          "description": "<p>Serraleth는 인접한 죽은 동물의 가죽을 입어 그 동물과 똑같은 모습으로 변신합니다. 그녀는 대상 동물의 크기와 속도가 동일해집니다. 세랄레스는 무기 없는 발톱과 이빨의 공격을 잃고, 그녀가 입고 있는 가죽의 동물의 근접 공격 유형을 얻습니다. 이 공격은 그녀의 이빨 공격과 동일한 피해를 주거나, 이 공격이 민첩 특성을 가지고 있다면 그녀의 발톱 공격과 동일한 피해를 줍니다. 어느 쪽이든, 피해 유형은 새로운 비무장 공격에 맞게 변경됩니다. 세랄레스가 가죽을 입고 있는 동안, 그녀에게 가해진 물리 피해의 절반은 대신 가죽에 가해집니다. 가죽은 경도 5와 25 HP를 가지고 있습니다. 가죽의 HP가 0이 되면, 그녀는 즉시 가죽에서 쫓겨나며 가죽은 파괴됩니다."
         }
       }
     },
@@ -803,7 +803,7 @@
         },
         "TDyZOrJxLY1hcPKJ": {
           "name": "생명 흡수",
-          "description": "<p>사냥꾼 와이트가 무기 없는 공격이나 결박된 무기로 살아있는 생물에게 피해를 입히면, 10의 임시 체력을 얻고, 그 생물은 @Check[fortitude|dc:27] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}이 됩니다. 사냥꾼 와이트의 무기 및 결박된 무기로 추가 피해를 입히면, 내성 체크에 실패할 때마다 흡수된 생명력이 1씩 증가하며, 최대 흡수 생명력은 4까지 증가합니다."
+          "description": "<p>사냥꾼 와이트가 비무장 공격이나 결박된 무기로 살아있는 생물에게 피해를 입히면, 10의 임시 체력을 얻고, 그 생물은 @Check[fortitude|dc:27] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}이 됩니다. 사냥꾼 와이트의 무기 및 결박된 무기로 추가 피해를 입히면, 내성 체크에 실패할 때마다 흡수된 생명력이 1씩 증가하며, 최대 흡수 생명력은 4까지 증가합니다."
         },
         "apx5l6z5p09xanhv": {
           "name": "사망 위장",
@@ -923,7 +923,7 @@
         },
         "ombjfkyxjmwbb9xc": {
           "name": "생명 흡수",
-          "description": "<p>와이트 캡틴이 무기 없는 공격이나 결박된 무기로 살아있는 생물에게 피해를 입히면, 11의 임시 체력을 얻고, 그 생물은 @Check[fortitude|dc:28] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}이 됩니다. 헌터 와이트의 무기 및 결박 무기로 추가 피해를 입히면, 내성 체크에 실패할 때마다 흡수된 생명력이 1씩 증가하며, 최대 흡수 생명력은 4까지 증가합니다."
+          "description": "<p>와이트 캡틴이 비무장 공격이나 결박된 무기로 살아있는 생물에게 피해를 입히면, 11의 임시 체력을 얻고, 그 생물은 @Check[fortitude|dc:28] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}이 됩니다. 헌터 와이트의 무기 및 결박 무기로 추가 피해를 입히면, 내성 체크에 실패할 때마다 흡수된 생명력이 1씩 증가하며, 최대 흡수 생명력은 4까지 증가합니다."
         },
         "581dy5lnt449p866": {
           "name": "와이트 병사 생성",
@@ -982,7 +982,7 @@
         },
         "dtgKK6rVHlLwLtr0": {
           "name": "사냥 호출",
-          "description": "<p>무리 리더는 머리를 뒤로 젖히고 뼈를 얼어붙게 하는 울부짖음을 내뱉습니다. 30피트 이내에 있는 모든 아비스 워하운드와 무리 리더는 이 호출을 듣자마자 Caustic Drool 능력을 무료 행동으로 활성화합니다. 이 효과의 혜택을 받는 생물은 이 생물의 호출에 대해 1분 동안 면역이 됩니다.</p>"
+          "description": "<p>무리 리더는 머리를 뒤로 젖히고 뼈를 얼어붙게 하는 울부짖음을 내뱉습니다. 30피트 이내에 있는 모든 아비스 워하운드와 무리 리더는 이 호출을 듣자마자 Caustic Drool 능력을 자유 행동으로 활성화합니다. 이 효과의 혜택을 받는 생물은 이 생물의 호출에 대해 1분 동안 면역이 됩니다.</p>"
         },
         "cmS0jkZKZUfUUq1P": {
           "name": "흔들기",
@@ -1213,7 +1213,7 @@
         },
         "F44pNDrMtxw9rISh": {
           "name": "주문 타격",
-          "description": "<p>Nathatel은 근접 공격에 주문을 집중시켜 마법으로 충전된 공격을 가합니다. 그는 1~2 행동이 소요되고 주문 공격 롤이 필요한 주문을 시전합니다. 주문의 효과는 즉시 발생하지 않고, 대신 그의 공격에 부여됩니다. 그는 무기 또는 무기 없는 공격으로 근접 공격을 하고, 이 공격은 비전 특성을 얻습니다. 그의 주문은 공격과 결합되어, 그의 공격 굴림으로 공격과 주문의 효과를 모두 결정합니다. 이는 그의 다중 공격 페널티에 두 번의 공격으로 계산되지만, 페널티는 그가 스펠 스트라이크를 완료한 후에야 적용됩니다. 스펠 스트라이크를 사용한 후, Nathatel은 집중 특성을 가진 단일 행동으로 이 능력을 재충전할 때까지 다시 사용할 수 없습니다. 또한 @UUID[Compendium.pf2e.spells-srd.Item.9mPEoOPN0AMuixIv]{Force Fang} 또는 @UUID[Compendium.pf2e.spells-srd.Item.r82rqcm0MmGaBFkM]{Thunderous Strike}를 시전할 때도 Spellstrike가 재충전됩니다."
+          "description": "<p>Nathatel은 근접 공격에 주문을 집중시켜 마법으로 충전된 공격을 가합니다. 그는 1~2 행동이 소요되고 주문 공격 롤이 필요한 주문을 시전합니다. 주문의 효과는 즉시 발생하지 않고, 대신 그의 공격에 부여됩니다. 그는 무기 또는 비무장 공격으로 근접 공격을 하고, 이 공격은 비전 특성을 얻습니다. 그의 주문은 공격과 결합되어, 그의 공격 굴림으로 공격과 주문의 효과를 모두 결정합니다. 이는 그의 다중 공격 페널티에 두 번의 공격으로 계산되지만, 페널티는 그가 스펠 스트라이크를 완료한 후에야 적용됩니다. 스펠 스트라이크를 사용한 후, Nathatel은 집중 특성을 가진 단일 행동으로 이 능력을 재충전할 때까지 다시 사용할 수 없습니다. 또한 @UUID[Compendium.pf2e.spells-srd.Item.9mPEoOPN0AMuixIv]{Force Fang} 또는 @UUID[Compendium.pf2e.spells-srd.Item.r82rqcm0MmGaBFkM]{Thunderous Strike}를 시전할 때도 Spellstrike가 재충전됩니다."
         }
       }
     },
@@ -1393,7 +1393,7 @@
         },
         "ombjfkyxjmwbb9xc": {
           "name": "생명력 흡수",
-          "description": "<p>사냥꾼 와이트가 무기 없는 공격이나 결박된 무기로 살아있는 생물에게 피해를 입히면, 13의 임시 체력을 얻고, 그 생물은 @Check[fortitude|dc:31] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}이 됩니다. 헌터 와이트의 무기 및 결박된 무기로 추가 피해를 입히면, 내성 체크에 실패할 때마다 흡수된 체력이 1씩 증가하며, 최대 흡수 체력은 4까지 증가합니다."
+          "description": "<p>사냥꾼 와이트가 비무장 공격이나 결박된 무기로 살아있는 생물에게 피해를 입히면, 13의 임시 체력을 얻고, 그 생물은 @Check[fortitude|dc:31] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}이 됩니다. 헌터 와이트의 무기 및 결박된 무기로 추가 피해를 입히면, 내성 체크에 실패할 때마다 흡수된 체력이 1씩 증가하며, 최대 흡수 체력은 4까지 증가합니다."
         },
         "581dy5lnt449p866": {
           "name": "와이트 병사 생성",
@@ -1435,7 +1435,7 @@
         },
         "F44pNDrMtxw9rISh": {
           "name": "Spellstrike",
-          "description": "<p>Nathatel은 근접 공격에 주문을 집중시켜 마법으로 충전된 공격을 가합니다. 그는 1~2 행동이 소요되고 주문 공격 롤이 필요한 주문을 시전합니다. 주문의 효과는 즉시 발생하지 않고, 대신 그의 공격에 부여됩니다. 그는 무기 또는 무기 없는 공격으로 근접 공격을 하고, 이 공격은 비전 특성을 얻습니다. 그의 주문은 공격과 결합되어, 그의 공격 굴림으로 공격과 주문의 효과를 모두 결정합니다. 이는 그의 다중 공격 페널티에 두 번의 공격으로 계산되지만, 페널티는 그가 스펠 스트라이크를 완료한 후에 적용됩니다. 스펠 스트라이크를 사용한 후, Nathatel은 집중 특성을 가진 단일 행동으로 이 능력을 재충전할 때까지 다시 사용할 수 없습니다. 또한 @UUID[Compendium.pf2e.spells-srd.Item.9mPEoOPN0AMuixIv]{Force Fang} 또는 @UUID[Compendium.pf2e.spells-srd.Item.r82rqcm0MmGaBFkM]{Thunderous Strike}를 시전할 때도 Spellstrike가 재충전됩니다."
+          "description": "<p>Nathatel은 근접 공격에 주문을 집중시켜 마법으로 충전된 공격을 가합니다. 그는 1~2 행동이 소요되고 주문 공격 롤이 필요한 주문을 시전합니다. 주문의 효과는 즉시 발생하지 않고, 대신 그의 공격에 부여됩니다. 그는 무기 또는 비무장 공격으로 근접 공격을 하고, 이 공격은 비전 특성을 얻습니다. 그의 주문은 공격과 결합되어, 그의 공격 굴림으로 공격과 주문의 효과를 모두 결정합니다. 이는 그의 다중 공격 페널티에 두 번의 공격으로 계산되지만, 페널티는 그가 스펠 스트라이크를 완료한 후에 적용됩니다. 스펠 스트라이크를 사용한 후, Nathatel은 집중 특성을 가진 단일 행동으로 이 능력을 재충전할 때까지 다시 사용할 수 없습니다. 또한 @UUID[Compendium.pf2e.spells-srd.Item.9mPEoOPN0AMuixIv]{Force Fang} 또는 @UUID[Compendium.pf2e.spells-srd.Item.r82rqcm0MmGaBFkM]{Thunderous Strike}를 시전할 때도 Spellstrike가 재충전됩니다."
         }
       }
     },
@@ -1758,7 +1758,7 @@
         },
         "vfnb5vr7qkm2nzme": {
           "name": "Wear Pelt",
-          "description": "<p>세랄레스는 인접한 죽은 동물의 가죽을 입어 그 동물과 똑같은 모습으로 변신합니다. 그녀는 대상 동물의 크기와 속도를 얻습니다. 세랄레스는 발톱과 이빨을 잃고, 무기 공격을 잃고, 그녀가 입은 가죽의 동물의 근접 공격 유형을 얻습니다. 이 공격은 그녀의 이빨 공격과 같은 피해를 주거나, 이 공격이 민첩 특성을 가지고 있다면 그녀의 발톱 공격과 같은 피해를 줍니다. 어느 쪽이든, 피해 유형은 새로운 무기 없는 공격에 맞게 변경됩니다. Serraleth가 가죽을 착용하고 있는 동안, 그녀에게 가해진 물리 피해의 절반은 가죽에 대신 가해집니다. 가죽은 경도 5와 HP 25를 가지고 있습니다. 가죽의 HP가 0이 되면, 그녀는 즉시 가죽에서 쫓겨나며 가죽은 파괴됩니다."
+          "description": "<p>세랄레스는 인접한 죽은 동물의 가죽을 입어 그 동물과 똑같은 모습으로 변신합니다. 그녀는 대상 동물의 크기와 속도를 얻습니다. 세랄레스는 발톱과 이빨을 잃고, 무기 공격을 잃고, 그녀가 입은 가죽의 동물의 근접 공격 유형을 얻습니다. 이 공격은 그녀의 이빨 공격과 같은 피해를 주거나, 이 공격이 민첩 특성을 가지고 있다면 그녀의 발톱 공격과 같은 피해를 줍니다. 어느 쪽이든, 피해 유형은 새로운 비무장 공격에 맞게 변경됩니다. Serraleth가 가죽을 착용하고 있는 동안, 그녀에게 가해진 물리 피해의 절반은 가죽에 대신 가해집니다. 가죽은 경도 5와 HP 25를 가지고 있습니다. 가죽의 HP가 0이 되면, 그녀는 즉시 가죽에서 쫓겨나며 가죽은 파괴됩니다."
         }
       }
     },
@@ -1879,7 +1879,7 @@
         },
         "ombjfkyxjmwbb9xc": {
           "name": "생명 흡수",
-          "description": "<p>사냥꾼 와이트가 무기 없는 공격이나 결박된 무기로 살아있는 생물에게 피해를 입히면, 12의 임시 체력을 얻고, 그 생물은 @Check[fortitude|dc:29] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}이 됩니다. 헌터 와이트의 무기 및 결박된 무기로 추가 피해를 입히면, 내성 체크에 실패할 때마다 흡수된 생명력이 1씩 증가하며, 최대 흡수 생명력은 4까지 증가합니다."
+          "description": "<p>사냥꾼 와이트가 비무장 공격이나 결박된 무기로 살아있는 생물에게 피해를 입히면, 12의 임시 체력을 얻고, 그 생물은 @Check[fortitude|dc:29] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}이 됩니다. 헌터 와이트의 무기 및 결박된 무기로 추가 피해를 입히면, 내성 체크에 실패할 때마다 흡수된 생명력이 1씩 증가하며, 최대 흡수 생명력은 4까지 증가합니다."
         },
         "581dy5lnt449p866": {
           "name": "와이트 병사 생성",
@@ -1974,7 +1974,7 @@
         },
         "TDyZOrJxLY1hcPKJ": {
           "name": "생명 흡수",
-          "description": "<p>사냥꾼 와이트가 무기 없는 공격이나 결박된 무기로 살아있는 생물에게 피해를 입히면, 9의 임시 체력을 얻고, 그 생물은 @Check[fortitude|dc:25] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}이 됩니다. 사냥꾼 와이트의 무기 및 결속 무기로 추가 피해를 입히면, 내성 체크에 실패할 때마다 흡수된 생명력이 1씩 증가하며, 최대 흡수 생명력은 4까지 증가합니다."
+          "description": "<p>사냥꾼 와이트가 비무장 공격이나 결박된 무기로 살아있는 생물에게 피해를 입히면, 9의 임시 체력을 얻고, 그 생물은 @Check[fortitude|dc:25] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}이 됩니다. 사냥꾼 와이트의 무기 및 결속 무기로 추가 피해를 입히면, 내성 체크에 실패할 때마다 흡수된 생명력이 1씩 증가하며, 최대 흡수 생명력은 4까지 증가합니다."
         },
         "apx5l6z5p09xanhv": {
           "name": "사망 위장",
@@ -2070,7 +2070,7 @@
         },
         "3gvb9wq37oq21be3": {
           "name": "생명력 흡수",
-          "description": "<p>사냥꾼 유령이 무기 없는 공격이나 결박된 무기로 살아있는 생물에게 피해를 입히면, 8의 임시 체력을 얻고, 그 생물은 @Check[fortitude|dc:24] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}이 됩니다. 헌터 와이트의 무기 및 결박된 무기로 추가 피해를 입히면, 내성 체크에 실패할 때마다 흡수된 생명력이 1씩 증가하며, 최대 흡수 생명력은 4까지 증가합니다."
+          "description": "<p>사냥꾼 유령이 비무장 공격이나 결박된 무기로 살아있는 생물에게 피해를 입히면, 8의 임시 체력을 얻고, 그 생물은 @Check[fortitude|dc:24] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}이 됩니다. 헌터 와이트의 무기 및 결박된 무기로 추가 피해를 입히면, 내성 체크에 실패할 때마다 흡수된 생명력이 1씩 증가하며, 최대 흡수 생명력은 4까지 증가합니다."
         },
         "4z31tccif8f7qaq7": {
           "name": "헌터 와이트 생성",
@@ -2358,7 +2358,7 @@
         },
         "TDyZOrJxLY1hcPKJ": {
           "name": "생명 흡수",
-          "description": "<p>스토커 와이트가 무기 없는 공격이나 바인딩된 무기로 살아있는 생물에게 피해를 입히면, 8의 임시 체력을 얻고, 해당 생물은 @Check[fortitude|dc:24] 내성 체크에 성공하지 못하면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}이 됩니다. 스토커 웨이트의 무기 및 결박된 무기로 추가 피해를 입히면, 내성 체크에 실패할 때마다 흡수된 상태의 값이 1씩 증가하며, 최대 흡수 4까지 증가합니다."
+          "description": "<p>스토커 와이트가 비무장 공격이나 바인딩된 무기로 살아있는 생물에게 피해를 입히면, 8의 임시 체력을 얻고, 해당 생물은 @Check[fortitude|dc:24] 내성 체크에 성공하지 못하면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}이 됩니다. 스토커 웨이트의 무기 및 결박된 무기로 추가 피해를 입히면, 내성 체크에 실패할 때마다 흡수된 상태의 값이 1씩 증가하며, 최대 흡수 4까지 증가합니다."
         },
         "apx5l6z5p09xanhv": {
           "name": "사망 위장",
@@ -2552,7 +2552,7 @@
         },
         "TDyZOrJxLY1hcPKJ": {
           "name": "생명 흡수",
-          "description": "<p>스토커 웨이트가 무기 없는 공격이나 결박된 무기로 살아있는 생물에게 피해를 입히면, 7의 임시 체력을 얻고, 그 생물은 @Check[fortitude|dc:22] 내성 체크에 성공하지 못하면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}이 됩니다. 스토커 와이트의 무기 및 결박된 무기로 추가 피해를 입히면, 내성 실패 시 흡수 상태의 값이 1씩 증가하며, 최대 흡수 4까지 증가합니다."
+          "description": "<p>스토커 웨이트가 비무장 공격이나 결박된 무기로 살아있는 생물에게 피해를 입히면, 7의 임시 체력을 얻고, 그 생물은 @Check[fortitude|dc:22] 내성 체크에 성공하지 못하면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}이 됩니다. 스토커 와이트의 무기 및 결박된 무기로 추가 피해를 입히면, 내성 실패 시 흡수 상태의 값이 1씩 증가하며, 최대 흡수 4까지 증가합니다."
         },
         "apx5l6z5p09xanhv": {
           "name": "사망 위장",
@@ -3062,7 +3062,7 @@
       "items": {
         "F44pNDrMtxw9rISh": {
           "name": "주문 타격",
-          "description": "<p>Nathatel은 근접 공격에 주문을 집중시켜 마법이 충전된 공격을 가합니다. 그는 1~2 행동이 소요되고 주문 공격 롤이 필요한 주문을 시전합니다. 주문의 효과는 즉시 발생하지 않고, 대신 그의 공격에 부여됩니다. 그는 무기 또는 무기 없는 공격으로 근접 공격을 가하며, 이 공격은 비전 특성을 얻습니다. 그의 주문은 공격과 결합되어, 그의 공격 롤을 사용하여 공격과 주문의 효과를 결정합니다. 이는 그의 다중 공격 페널티에 두 번의 공격으로 계산되지만, 페널티는 그가 주문 타격을 완료한 후에야 적용됩니다. 주문 타격을 사용한 후, Nathatel은 집중 특성을 가진 단일 행동으로 이 능력을 재충전할 때까지 다시 사용할 수 없습니다. 또한 @UUID[Compendium.pf2e.spells-srd.Item.9mPEoOPN0AMuixIv]{Force Fang} 또는 @UUID[Compendium.pf2e.spells-srd.Item.r82rqcm0MmGaBFkM]{Thunderous Strike}를 시전할 때도 Spellstrike가 재충전됩니다."
+          "description": "<p>Nathatel은 근접 공격에 주문을 집중시켜 마법이 충전된 공격을 가합니다. 그는 1~2 행동이 소요되고 주문 공격 롤이 필요한 주문을 시전합니다. 주문의 효과는 즉시 발생하지 않고, 대신 그의 공격에 부여됩니다. 그는 무기 또는 비무장 공격으로 근접 공격을 가하며, 이 공격은 비전 특성을 얻습니다. 그의 주문은 공격과 결합되어, 그의 공격 롤을 사용하여 공격과 주문의 효과를 결정합니다. 이는 그의 다중 공격 페널티에 두 번의 공격으로 계산되지만, 페널티는 그가 주문 타격을 완료한 후에야 적용됩니다. 주문 타격을 사용한 후, Nathatel은 집중 특성을 가진 단일 행동으로 이 능력을 재충전할 때까지 다시 사용할 수 없습니다. 또한 @UUID[Compendium.pf2e.spells-srd.Item.9mPEoOPN0AMuixIv]{Force Fang} 또는 @UUID[Compendium.pf2e.spells-srd.Item.r82rqcm0MmGaBFkM]{Thunderous Strike}를 시전할 때도 Spellstrike가 재충전됩니다."
         }
       }
     },
@@ -3178,7 +3178,7 @@
         },
         "3gvb9wq37oq21be3": {
           "name": "생명 흡수",
-          "description": "<p>사냥꾼 유령이 무기 없는 공격이나 결박된 무기로 살아있는 생물에게 피해를 입히면, 7의 임시 체력을 얻고, 그 생물은 @Check[fortitude|dc:22] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}이 됩니다. 헌터 웨이트의 무기 및 결박된 무기로 추가 피해를 입히면, 내성 체크에 실패할 때마다 흡수된 생명력이 1씩 증가하며, 최대 흡수 생명력은 4까지 증가합니다."
+          "description": "<p>사냥꾼 유령이 비무장 공격이나 결박된 무기로 살아있는 생물에게 피해를 입히면, 7의 임시 체력을 얻고, 그 생물은 @Check[fortitude|dc:22] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}이 됩니다. 헌터 웨이트의 무기 및 결박된 무기로 추가 피해를 입히면, 내성 체크에 실패할 때마다 흡수된 생명력이 1씩 증가하며, 최대 흡수 생명력은 4까지 증가합니다."
         },
         "4z31tccif8f7qaq7": {
           "name": "헌터 웨이트 생성",
@@ -3242,7 +3242,7 @@
         },
         "ombjfkyxjmwbb9xc": {
           "name": "생명 흡수",
-          "description": "<p>와이트 캡틴이 무기 없는 공격이나 결박된 무기로 살아있는 생물에게 피해를 입히면, 10의 임시 체력을 얻고, 그 생물은 @Check[fortitude|dc:26] 내성 체크에 성공하지 못하면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}이 됩니다. 헌터 와이트의 무기 및 결속 무기로 추가 피해를 입히면, 내성 체크에 실패할 때마다 흡수된 생명력이 1씩 증가하며, 최대 흡수 생명력은 4까지 증가합니다."
+          "description": "<p>와이트 캡틴이 비무장 공격이나 결박된 무기로 살아있는 생물에게 피해를 입히면, 10의 임시 체력을 얻고, 그 생물은 @Check[fortitude|dc:26] 내성 체크에 성공하지 못하면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}이 됩니다. 헌터 와이트의 무기 및 결속 무기로 추가 피해를 입히면, 내성 체크에 실패할 때마다 흡수된 생명력이 1씩 증가하며, 최대 흡수 생명력은 4까지 증가합니다."
         },
         "581dy5lnt449p866": {
           "name": "와이트 병사 생성",
@@ -3276,7 +3276,7 @@
         },
         "7t0hoAr4rbWswzMK": {
           "name": "가시 달린 깃털",
-          "description": "<p><strong>빈도</strong> 하루에 한 번</p>\n<p><strong>트리거</strong> Liaskra가 무기 없는 공격이나 도달 거리가 없는 근접 무기로 공격을 받으면</p>\n<hr />\n<p><strong>효과</strong> Liaskra는 공격자의 살에 가시를 꽂습니다. 그녀는 @Damage[2d8[piercing]]의 피해를 트리거한 생물에게 입힙니다 (@Check[반사|dc:21|basic]). 대실패 시, 가시가 살에 박혀 생물은 @Damage[(1d4+1)[bleed]]의 추가 피해를 입습니다."
+          "description": "<p><strong>빈도</strong> 하루에 한 번</p>\n<p><strong>트리거</strong> Liaskra가 비무장 공격이나 도달 거리가 없는 근접 무기로 공격을 받으면</p>\n<hr />\n<p><strong>효과</strong> Liaskra는 공격자의 살에 가시를 꽂습니다. 그녀는 @Damage[2d8[piercing]]의 피해를 트리거한 생물에게 입힙니다 (@Check[반사|dc:21|basic]). 대실패 시, 가시가 살에 박혀 생물은 @Damage[(1d4+1)[bleed]]의 추가 피해를 입습니다."
         },
         "LHV1Y69RCdChvRwx": {
           "name": "속임수 공격",
