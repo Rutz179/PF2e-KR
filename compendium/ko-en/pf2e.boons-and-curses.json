@@ -23,7 +23,7 @@
       "description": "<p><strong>하급 은혜:</strong> 밤하늘은 특별한 방식으로 영감을 줍니다. 한 번, 밤하늘 아래에서 제작 또는 공연 체크에서 실패를 굴리면 대신 대성공합니다. 녹티큘라는 일반적으로 결과적인 작품이나 공연에 대해 이 은혜을 부여합니다.</p>"
     },
     "Ghlaunder - Minor Boon": {
-      "name": "세탁 - 하급 은혜 (Ghlaunder - Minor Boon)",
+      "name": "글라우더 - 하급 은혜 (Ghlaunder - Minor Boon)",
       "description": "<p><strong>하급 은혜:</strong> 오물에 대한 당신의 헌신은 질병을 옮기는 작은 벌레 구름을 불러옵니다. 한 번, 갯지렁이, 모기, 파리 구름을 소환하여 1분 동안 자신을 둘러싸도록 할 수 있습니다. 해당 시간 동안 캐릭터 주변에 있는 모든 생물이 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수됨 1}, @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1}이 되어 혈액 매개 질병에 노출됩니다. 세탁소는 일반적으로 상당한 수의 생물을 감염시킬 수 있을 때 이 은혜을 부여합니다.</p>"
     },
     "Groetus - Major Curse": {
@@ -56,7 +56,7 @@
     },
     "Pharasma - Moderate Curse": {
       "name": "파라즈마 - 중급 저주 (Pharasma - Moderate Curse)",
-      "description": "<p><strong>중급 저주 (매일)</strong> 운명이 당신에게 등을 돌리고 끔찍한 징조를 드러냅니다. 캐릭터가 시전하거나 캐릭터가 관련된 @UUID[Compendium.pf2e.spells-srd.Item.41TZEjhO6D1nWw2X]{점술}과 같은 점은 항상 비애를 암시합니다. 체크 시도 후 하루에 한 번, GM은 주사위 굴림 결과를 자연스럽게 1로 만들 수 있습니다.</p>"
+      "description": "<p><strong>중급 저주 (매일)</strong> 운명이 당신에게 등을 돌리고 끔찍한 징조를 드러냅니다. 캐릭터가 시전하거나 캐릭터가 관련된 @UUID[Compendium.pf2e.spells-srd.Item.41TZEjhO6D1nWw2X]{전조}과 같은 점은 항상 비애를 암시합니다. 체크 시도 후 하루에 한 번, GM은 주사위 굴림 결과를 자연스럽게 1로 만들 수 있습니다.</p>"
     },
     "Rovagug - Minor Curse": {
       "name": "로바구그 - 하급 저주 (Rovagug - Minor Curse)",
@@ -591,7 +591,7 @@
       "description": "<p><strong>중급 저주</strong> 파괴적인 분노가 풀리지 않으려 합니다.</p>\n<p>착용하는 모든 방어구가 자동으로 @UUID[Compendium.pf2e.conditionitems.Item.6dNUvdb1dhToNDj3]{부서진}이 됩니다. 소지하고 있는 다른 아이템은 시간이 지나면 가끔 @UUID[Compendium.pf2e.conditionitems.Item.6dNUvdb1dhToNDj3]{부서진}이 됩니다.</p>"
     },
     "Ghlaunder - Major Boon": {
-      "name": "세탁 - 상급 은혜 (Ghlaunder - Major Boon)",
+      "name": "글라우더 - 상급 은혜 (Ghlaunder - Major Boon)",
       "description": "<p><strong>메이저 분:</strong> 글레이더는 추종자에게 질병을 안전하게 전파하는 능력을 보상으로 주거나, 간혹 자신을 기쁘게 하는 절박한 청원자에게는 휴식을 제공합니다. 글레이더가 이 은혜을 철회하지 않는 한, 감염된 질병으로 인한 부정적인 영향을 받지 않습니다.</p>"
     },
     "Tsukiyo - Minor Boon": {
@@ -711,7 +711,7 @@
       "description": "<p><strong>중등도 저주:</strong> 공학 또는 과학 작업을 수행하려고 할 때마다 모든 것이 폭발하는 것 같습니다. 연금술 아이템이나 구조물을 만들거나 사용하려고 할 때마다 @UUID[Compendium.pf2e.actionspf2e.Item.cYdz2grcOcRt4jk6]{장치 비활성화} 등을 시도할 때마다 @Check[type:flat|dc:15]를 시도해야 합니다. 실패하면 무언가가 폭발하고 아이템, 구조물 또는 장치의 레벨당 1d6의 화염 피해(또는 적절한 경우 다른 유형의 피해)를 받습니다(@Check[reflex|dc:40|basic:true] 내성).</p>"
     },
     "Ghlaunder - Moderate Boon": {
-      "name": "세탁 - 중급 은혜 (Ghlaunder - Moderate Boon)",
+      "name": "글라우더 - 중급 은혜 (Ghlaunder - Moderate Boon)",
       "description": "<p><strong>적당한 은혜:</strong> 세탁소는 적절한 때가 될 때까지 부패하고 감염시키며 시간을 끌도록 가르칩니다. 생물을 질병에 노출시키고 인내 내성에 성공하면, 치명타에 성공하지 않는 한 여전히 감염된 상태입니다. 그러나 이러한 생물은 일반적으로 빠르게 작용하는 질병이거나 다른 능력을 사용하여 질병을 진행시키더라도 처음 24시간 동안은 아무런 영향을 받지 않으며 질병이 진행되지 않습니다. 첫날에 감염을 감지하는 것은 매우 어려우며, 이를 감지하기 위한 의학 체크 DC는 5가 더 높습니다.</p>"
     },
     "Effect: Grandmother Spider's Underdog": {
@@ -723,7 +723,7 @@
       "description": "<p><strong>중급 은혜:</strong> 바다에서 언제나 적 함선을 약탈하거나 아군 함선을 방어할 준비가 되어 있습니다. 배에 탑승하면 모든 우선권 굴림, 곡예 균형 체크, 운동 등반 체크에서 상태 보너스 +2를 받습니다. 또한 뱃멀미를 하지 않습니다.</p>"
     },
     "Ghlaunder - Major Curse": {
-      "name": "세탁 - 상급 저주 (Ghlaunder - Major Curse)",
+      "name": "글라우더 - 상급 저주 (Ghlaunder - Major Curse)",
       "description": "<p><strong>중대한 저주:</strong> GM이 선택한 전염성 질병에 걸립니다. 자신과 자신이 감염시킨 다른 사람은 다른 두 명의 현명한 존재에게 질병을 감염시키기 전까지는 어떤 식으로든 질병을 치료하거나 초기 단계로 회복할 수 없습니다.</p>"
     },
     "Nethys - Minor Boon": {
@@ -811,7 +811,7 @@
       "description": "<p><strong>적당한 은혜:</strong> 새로운 문이 저절로 열립니다. 하루에 한 번 신성 선천 주문으로 @UUID[Compendium.pf2e.spells-srd.Item.6Ot4N22t5tPD51BO]{노크}를 시전할 수 있습니다.</p>"
     },
     "Ghlaunder - Minor Curse": {
-      "name": "세탁 - 하급 저주 (Ghlaunder - Minor Curse)",
+      "name": "글라우더 - 하급 저주 (Ghlaunder - Minor Curse)",
       "description": "<p><strong>하급 저주:</strong> 세탁소가 자신의 생명력을 흡수됨. 캐릭터는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수됨 1}이 되어 흡수된 상태를 1 이하로 낮출 수 없습니다.</p>"
     },
     "Erastil - Minor Curse": {
@@ -955,7 +955,7 @@
       "description": "<p><strong>중급 은혜:</strong> 생명을 빼앗아도 좋다는 신의 승인을 얻습니다. 하루에 한 번 타고난 신성 주문으로 @UUID[Compendium.pf2e.spells-srd.Item.dLdRqT6UxTKlsPgp]{죽음의 무릎}을 시전할 수 있습니다.</p>"
     },
     "Ghlaunder - Moderate Curse": {
-      "name": "세탁 - 중급 저주 (Ghlaunder - Moderate Curse)",
+      "name": "글라우더 - 중급 저주 (Ghlaunder - Moderate Curse)",
       "description": "<p><strong>중급 저주:</strong> 세탁소가 피처럼 쉽게 기력을 빨아들입니다. 인내 내성에 실패할 때마다 다른 모든 효과와 함께 @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{피곤}이 됩니다.</p>"
     },
     "Asmodeus - Moderate Curse": {

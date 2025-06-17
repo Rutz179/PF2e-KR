@@ -114,7 +114,7 @@
         },
         "yVuwDzx4JtpqtgpW": {
           "name": "신화적 면역 (Mythic Immunity)",
-          "description": "<p>Vulot는 신화가 아닌 생물들이 시전하는 해로운 주문, 신화가 아닌 무기로 행한 공격, 신화가 아닌 캐릭터의 무기 없는 공격에 면역입니다."
+          "description": "<p>Vulot는 신화가 아닌 생물들이 시전하는 해로운 주문, 신화가 아닌 무기로 행한 공격, 신화가 아닌 캐릭터의 비무장 공격에 면역입니다."
         },
         "5kiH1CaCLLvktz7W": {
           "name": "완벽한 모방 (Perfect Mimicry)",
@@ -240,7 +240,7 @@
         },
         "Swybg7dNQJYA96rO": {
           "name": "모양 변경 (Change Shape)",
-          "description": "<p>숭고한 숨결은 중형 또는 대형 인간형 생물의 모습을 취할 수 있습니다. 이로 인해 속도나 공격 및 피해 보너스는 변하지 않지만, 공격이 가하는 피해 유형이 바뀔 수 있습니다. 처음 관찰될 때, 그들은 Change Shape를 무료 행동으로 사용합니다. 관찰되고 있다는 것을 인지하지 못했더라도, 그들은 단일 관찰자의 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} 욕망, 희망, 예술적 경향, 또는 유사한 깊은 감정을 반영하는 특정 모습을 취합니다. 이 생물이 숭고한 숨결을 관찰할 수 있고 이 모습을 유지하는 한, 관찰자는 제작 및 공연 체크에 +1의 상황 보너스를 받고, 숭고한 숨결에 대한 의지 내성 또는 이 생물을 포획하거나 제지하기 위한 모든 체크나 DC에 -1의 상황 페널티를 받습니다. 예를 들면 다음과 같은 시도가 있습니다. @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple} 또는 @UUID[Compendium.pf2e.spells-srd.Item.DCQHaLrYXMI37dvW]{Paralyze} 주문의 DC에 대한 저항 검사에서 –1 상황 페널티를 받습니다.</p>"
+          "description": "<p>숭고한 숨결은 중형 또는 대형 인간형 생물의 모습을 취할 수 있습니다. 이로 인해 속도나 공격 및 피해 보너스는 변하지 않지만, 공격이 가하는 피해 유형이 바뀔 수 있습니다. 처음 관찰될 때, 그들은 Change Shape를 자유 행동으로 사용합니다. 관찰되고 있다는 것을 인지하지 못했더라도, 그들은 단일 관찰자의 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} 욕망, 희망, 예술적 경향, 또는 유사한 깊은 감정을 반영하는 특정 모습을 취합니다. 이 생물이 숭고한 숨결을 관찰할 수 있고 이 모습을 유지하는 한, 관찰자는 제작 및 공연 체크에 +1의 상황 보너스를 받고, 숭고한 숨결에 대한 의지 내성 또는 이 생물을 포획하거나 제지하기 위한 모든 체크나 DC에 -1의 상황 페널티를 받습니다. 예를 들면 다음과 같은 시도가 있습니다. @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple} 또는 @UUID[Compendium.pf2e.spells-srd.Item.DCQHaLrYXMI37dvW]{Paralyze} 주문의 DC에 대한 저항 검사에서 –1 상황 페널티를 받습니다.</p>"
         },
         "7WPZ3eJbHVEV27Sn": {
           "name": "시간이 흐릅니다 (Hours Go By)",
@@ -299,7 +299,7 @@
         },
         "IBX7Tix58PNMLskp": {
           "name": "생명 흡수 (Siphon Life)",
-          "description": "<p>리치의 형태는 접촉하는 모든 생물로부터 생명을 흡수합니다. 리치가 무기 없는 공격으로 살아있는 생물에게 피해를 입히면, 리치는 5의 임시 체력을 얻고, 그 생물은 @Check[fortitude|dc:34] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 1}이 됩니다.</p>\n<p>리치가 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속} 에 있는 경우, 그 리치를 잡거나 제압하고 있는 각 크리처는 체력 저항에 성공하지 않으면 1의 흡수를 받습니다. 리치가 크리처의 생명력을 다시 흡수하면, 흡수된 생명력은 1씩 증가하며, 최대 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 4}까지 증가합니다."
+          "description": "<p>리치의 형태는 접촉하는 모든 생물로부터 생명을 흡수합니다. 리치가 비무장 공격으로 살아있는 생물에게 피해를 입히면, 리치는 5의 임시 체력을 얻고, 그 생물은 @Check[fortitude|dc:34] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 1}이 됩니다.</p>\n<p>리치가 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속} 에 있는 경우, 그 리치를 잡거나 제압하고 있는 각 크리처는 체력 저항에 성공하지 않으면 1의 흡수를 받습니다. 리치가 크리처의 생명력을 다시 흡수하면, 흡수된 생명력은 1씩 증가하며, 최대 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 4}까지 증가합니다."
         },
         "5TLoRDxeWBDh6a6e": {
           "name": "꾸준한 주문 시전 (Steady Spellcasting)",
@@ -330,7 +330,7 @@
         },
         "09zr2mkHYoa2dlrA": {
           "name": "신화적 면역 (Mythic Immunity)",
-          "description": "<p>잔델레이의 올리펀트는 신화적 생물이 아닌 생물이 시전하는 해로운 주문, 신화적 무기가 아닌 무기로 행한 공격, 신화적 캐릭터가 행한 무기 없는 공격에 면역입니다."
+          "description": "<p>잔델레이의 올리펀트는 신화적 생물이 아닌 생물이 시전하는 해로운 주문, 신화적 무기가 아닌 무기로 행한 공격, 신화적 캐릭터가 행한 비무장 공격에 면역입니다."
         },
         "N0tzcyXMdu07ek1R": {
           "name": "신화적 회복력 (Mythic Resilience)",
@@ -409,7 +409,7 @@
         },
         "skUYH1Y6jeD5HfrJ": {
           "name": "신화적 저항 (Mythic Resistance)",
-          "description": "<p>거미줄의 직조자는 신화적 무기가 아닌 무기로 행한 모든 공격과 신화적 생물이 행한 무기 없는 공격에 대해 15의 저항력을 가지고 있습니다."
+          "description": "<p>거미줄의 직조자는 신화적 무기가 아닌 무기로 행한 모든 공격과 신화적 생물이 행한 비무장 공격에 대해 15의 저항력을 가지고 있습니다."
         },
         "yFGi8rZPWBQ9mQjm": {
           "name": "유출된 비밀 (Spilled Secrets)",
@@ -444,7 +444,7 @@
         },
         "RGQybNAvFA3SDkjw": {
           "name": "신화적 면역 (Mythic Immunity)",
-          "description": "<p>Verex-That-Was는 신화적 생물이 아닌 생물이 시전하는 해로운 주문, 신화적 무기가 아닌 무기로 행한 공격, 신화적 캐릭터가 행한 무기 없는 공격에 면역입니다."
+          "description": "<p>Verex-That-Was는 신화적 생물이 아닌 생물이 시전하는 해로운 주문, 신화적 무기가 아닌 무기로 행한 공격, 신화적 캐릭터가 행한 비무장 공격에 면역입니다."
         },
         "9gKIQtI8kPnOv99m": {
           "name": "신화적 회복력 (Mythic Resilience)",
