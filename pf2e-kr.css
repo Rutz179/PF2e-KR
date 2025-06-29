@@ -5,24 +5,37 @@ body, button, input, select, textarea {
   word-break: keep-all;
 }
 
-i.fa, .fa, .fas, .far, .fal, .fad, .fab,
-.fas::before, .fa::before, .far::before, .fal::before, .fad::before, .fab::before {
-  font-family: 
-    "Font Awesome 6 Pro", 
-    "Font Awesome 6 Free", 
-    "Font Awesome 6 Duotone", 
-    "Font Awesome 5 Pro", 
-    "Font Awesome 5 Free", 
-    "FontAwesome", 
+/* 공통 아이콘 기본값 */
+i.fa, .fa, .fas, .far, .fal, .fab,
+.fas::before, .fa::before, .far::before, .fal::before, .fab::before {
+  font-family:
+    "Font Awesome 6 Pro",
+    "Font Awesome 6 Free",
+    "Font Awesome 5 Pro",
+    "Font Awesome 5 Free",
+    "FontAwesome",
     sans-serif !important;
-  font-weight: normal !important; 
   font-style: normal !important;
 }
 
-.fa-solid, .fa-regular, .fa-light, .fa-duotone {
-  font-family: 
-    "Font Awesome 6 Pro", 
-    "Font Awesome 6 Free", 
-    "FontAwesome", 
+/* 듀오톤 제외한 스타일별 지정 */
+.fa-solid, .fa-regular, .fa-light {
+  font-family:
+    "Font Awesome 6 Pro",
+    "Font Awesome 6 Free",
+    "FontAwesome",
     sans-serif !important;
+  --fa-secondary-opacity: 0;   
 }
+
+/* 듀오톤 전용 — 반드시 전용 글꼴 사용 */
+.fad, .fa-duotone {
+  font-family: "Font Awesome 6 Duotone", sans-serif !important;
+  --fa-secondary-opacity: 0;   /* 보조 레이어 투명화 */
+}
+
+/* 추가 세분화 */
+.fas, .fa-solid   { font-family:"Font Awesome 6 Free",   sans-serif; } /* 900 */
+.far, .fa-regular { font-family:"Font Awesome 6 Free",   sans-serif; } /* 400 */
+.fal, .fa-light   { font-family:"Font Awesome 6 Pro",    sans-serif; } /* 300 */
+.fab, .fa-brands  { font-family:"Font Awesome 6 Brands", sans-serif; } /* 400 */
