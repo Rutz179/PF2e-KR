@@ -1,8 +1,8 @@
 # PF2e‑KR 🇰🇷
 
-![Status](https://img.shields.io/badge/status-Beta-yellow) 
+![Status](https://img.shields.io/badge/status-Release-yellow) 
 ![License](https://img.shields.io/badge/license-CUP%20%2B%20ORC-blue) 
-![Foundry VTT](https://img.shields.io/badge/FoundryVTT-Compatible-orange)
+![Foundry VTT](https://img.shields.io/badge/FoundryVTT-v13_Compatible-orange)
 
 > **Pathfinder Second Edition** 한글화 프로젝트에 오신 것을 환영합니다! 📜
 
