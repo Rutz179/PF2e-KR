@@ -5103,7 +5103,7 @@
           "MentalBalm": "사용자 또는 30피트 내에 있는 동료 1명이 1분 동안 감정 효과에 대한 의지 내성 +2 상태 보너스를 얻습니다. 또한 앰프 사이 캔트립을 통해 자신이나 선택한 아군에게 공포 상태를 유발하는 효과나 지속시간이 1시간 이하인 혼미 상태를 유발하는 효과를 무효화할 수 있습니다. 효과 무효화에 성공하면, 공포 상태와 혼미 상태만 제거할 수 있으며, 그 외의 효과는 제거할 수 없습니다.",
           "Message": {
             "Base": "당신의 정신 감응 메시지를 통해 정보를 전달하며 행동을 조율할 수 있습니다. 메시지의 대상은 즉시 반응을 사용하여 한 걸음 비키(Step)거나 이동(Stride)할 수 있습니다.",
-            "Heightened": "메시지의 대상은 반응을 사용하여 @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{밀치기}, 공격(Strike), 또는 @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{넘어뜨리기(Trip)}를 선택할 수 있습니다."
+            "Heightened": "메시지의 대상은 반응을 사용하여 @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{밀치기}, 공격(Strike), 또는 @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{넘어뜨리기}를 선택할 수 있습니다."
           },
           "MindsLightCirclet": "당신은 마음의 빛 고리에서 마법적인 빛의 일부를 생물 중 하나에게 전달합니다. 주문 대상이거나 그 범위 내에 있는 생물을 선택합니다. 다음 차례가 시작될 때까지 해당 생물은 20피트 반경 내에 밝은 빛을 내뿜고 (다음 20피트까지는 어두운 빛을 내뿜으며) @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진} 상태가 되지 않습니다. 해당 생물이 @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{투명한} 상태라면, 빛을 발하는 동안 숨겨진 상태가 되며, @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{탐지 불가} 상태가 되지 않습니다.",
           "OmnidirectionalScan": {
@@ -5735,7 +5735,7 @@
           "Description": "_wall of fire_를 시전할 때, 그 표준 효과를 다음과 같이 수정할 수 있습니다. 5피트 두께, 10피트 반경의 불의 고리 대신, @Template[burst|distance:10]{10-foot-radius} 반구형의 불의 벽을 만들 수 있습니다."
         },
         "TopplingTentacles": {
-          "Description": "_black tentacles_를 시전할 때, 주문의 표준 효과를 다음과 같이 대체합니다. 촉수가 해당 지역의 지면을 기어다니며 그 안에 있는 모든 것을 방해합니다. 끈적끈적한 검은 촉수가 해당 지역의 모든 생물에게 @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Trip}을 시도합니다. 영향을 받은 각 생물의 반사 DC에 대해 주문 공격 굴림을 시도합니다. 공격에 성공한 모든 생물은 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드린} 상태가 되고 @Damage[3d6[bludgeoning]]의 피해를 받습니다. 이 영역에서 생물의 턴이 끝날 때마다, 촉수가 그 생물이 아직 쓰러지지 않았다면 그 생물을 트립 시키려고 시도하고, 이미 쓰러진 생물에게는 @Damage[1d6[bludgeoning]]의 피해를 입힙니다. 생물들은 이 주문의 영역을 어려운 지형으로 취급합니다."
+          "Description": "_black tentacles_를 시전할 때, 주문의 표준 효과를 다음과 같이 대체합니다. 촉수가 해당 지역의 지면을 기어다니며 그 안에 있는 모든 것을 방해합니다. 끈적끈적한 검은 촉수가 해당 지역의 모든 생물에게 @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{넘어뜨리기}을 시도합니다. 영향을 받은 각 생물의 반사 DC에 대해 주문 공격 굴림을 시도합니다. 공격에 성공한 모든 생물은 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드린} 상태가 되고 @Damage[3d6[bludgeoning]]의 피해를 받습니다. 이 영역에서 생물의 턴이 끝날 때마다, 촉수가 그 생물이 아직 쓰러지지 않았다면 그 생물을 트립 시키려고 시도하고, 이미 쓰러진 생물에게는 @Damage[1d6[bludgeoning]]의 피해를 입힙니다. 생물들은 이 주문의 영역을 어려운 지형으로 취급합니다."
         },
         "TracingSigil": {
           "Description": "_sigil_을 시전할 때, 주문의 표준 효과에 다음을 추가하도록 주문을 수정할 수 있습니다. 대상은 당신과 다른 사람들이 따라갈 수 있는 마법의 흔적을 남깁니다. 당신과 다른 생물들은 생존 체크를 대신하여 아카나, 자연, 오컬트, 종교 체크(당신의 _sigil_ 주문의 마법 전통에 맞는 것)를 사용하여 대상을 @UUID[Compendium.pf2e.actionspf2e.Item.EA5vuSgJfiHH7plD]{추적}할 수 있습니다. 생존으로 추적하는 것과 마찬가지로, 이 능력은 대상이 있었던 곳에서 흔적을 따라야 하며, 멀리서 대상을 찾을 수는 없습니다. 이 방법으로 수정된 _sigil_로 표시할 수 있는 대상은 한 명뿐입니다. 이 능력을 두 번째 대상에게 다시 사용하면 첫 번째 대상에 걸린 _sigil_ 주문이 종료되고 당신의 표식이 사라집니다."

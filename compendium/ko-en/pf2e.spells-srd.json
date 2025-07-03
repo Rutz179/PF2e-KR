@@ -850,7 +850,7 @@
     },
     "Lucky Break": {
       "name": "행운의 휴식 (Lucky Break)",
-      "description": "<p><strong>트리거</strong> 내성 굴림에 실패했지만 치명적인 실패는 아닙니다.</p>\n<hr />\n<p>내성 굴림을 재시도하여 더 나은 결과를 얻습니다. 그러면 10분 동안 일시적으로 면역 상태가 됩니다.</p>"
+      "description": "<p><strong>트리거</strong> 내성 굴림에 실패했지만 대실패는 아닙니다.</p>\n<hr />\n<p>내성 굴림을 재시도하여 더 나은 결과를 얻습니다. 그러면 10분 동안 일시적으로 면역 상태가 됩니다.</p>"
     },
     "Power Word Stun": {
       "name": "파워 워드 기절 (Power Word Stun)",
@@ -1118,7 +1118,7 @@
     },
     "Acid Grip": {
       "name": "산성 그립 (Acid Grip)",
-      "description": "<p>발톱이 달린 일시적인 손이 대상을 움켜쥐고 마력의 산으로 불태웁니다. 대상은 반사 내성에 따라 [[/r 2d8]]의 산 피해와 + @Damage[floor(@item.level/2)d6[persistent,acid]] 피해를 받습니다. 이 주문으로 지속 피해를 받는 생물은 이동 속도에 -10피트 상태 보너스를 받습니다.</p>\n<hr />\n<p><strong>대성공</strong> 생명체는 영향을 받지 않습니다.</p>\n<p><strong> 성공</strong> 생명체는 지속 피해를 절반만큼 받고 지속 피해를 받지 않으며, 발톱으로 원하는 방향으로 최대 5피트까지 이동합니다.</p>\n<p><strong>실패</strong> 생물이 전체 피해와 지속 피해를 받고, 발톱으로 원하는 방향으로 최대 10피트까지 이동합니다.</p>\n<p><strong> 대실패</strong> 생물이 전체 피해와 지속 피해를 두 배로 받고, 발톱으로 원하는 방향으로 최대 20피트까지 이동합니다.</p>\n<hr />\n<p><strong>강화(+2)</strong> 초기 피해가 2d8 증가하고 지속 산성 피해가 1d6 증가합니다.</p>"
+      "description": "<p>발톱이 달린 일시적인 손이 대상을 움켜쥐고 마력의 산으로 불태웁니다. 대상은 반사 내성에 따라 [[/r 2d8]]의 산 피해와 + @Damage[floor(@item.level/2)d6[persistent,acid]] 피해를 받습니다. 이 주문으로 지속 피해를 받는 생물은 이동 속도에 -10피트 상태 보너스를 받습니다.</p>\n<hr />\n<p><strong>대성공</strong> 생명체는 영향을 받지 않습니다.</p>\n<p><strong> 성공</strong> 생명체는 피해를 절반만큼 받고 지속 피해를 받지 않으며, 발톱으로 시전자가 원하는 방향으로 최대 5피트까지 이동합니다.</p>\n<p><strong>실패</strong> 생물이 전체 피해와 지속 피해를 받고, 발톱으로 시전자가 원하는 방향으로 최대 10피트까지 이동합니다.</p>\n<p><strong> 대실패</strong> 생물이 전체 피해와 지속 피해를 두 배로 받고, 발톱으로 시전자가 원하는 방향으로 최대 20피트까지 이동합니다.</p>\n<hr />\n<p><strong>강화(+2)</strong> 초기 피해가 2d8 증가하고 지속 산성 피해가 1d6 증가합니다.</p>"
     },
     "Positive Attunement": {
       "name": "긍정적 조율 (Positive Attunement)",
@@ -1130,7 +1130,7 @@
     },
     "Shaken Confidence": {
       "name": "흔들리는 자신감 (Shaken Confidence)",
-      "description": "<p><strong>트리거</strong> 30피트 이내에 있는 적이 공격 굴리기, 지각 체크, 기술 체크에서 대실패합니다.</p>\n<hr />\n<p>대상의 모든 실패를 조롱하여 자신감을 의심하게 만듭니다. 적이 의지 내성 굴림을 시도합니다.</p>\n<hr />\n<p><strong>성공</strong> 대상은 영향을 받지 않습니다.</p>\n<p><strong> 실패</strong> 대상은 잠시 흔들리며 자신의 능력을 확신하지 못합니다. 대상은 두 번 굴려서 주문을 발동시킨 대실패와 같은 유형의 다음 굴림에서 더 나쁜 결과를 받아야 합니다(예: 대상의 다음 아크로바틱 체크가 아크로바틱 체크에서 대실패였다면 다음 아크로바틱 체크). 대상이 적격 체크를 시도하지 않으면 주문은 대상의 다음 턴이 끝날 때 종료됩니다.</p>"
+      "description": "<p><strong>트리거</strong> 30피트 이내에 있는 적이 공격 굴리기, 지각 체크, 기술 체크에서 대실패합니다.</p>\n<hr />\n<p>대상의 모든 실패를 조롱하여 자신감을 의심하게 만듭니다. 적이 의지 내성 굴림을 시도합니다.</p>\n<hr />\n<p><strong>성공</strong> 대상은 영향을 받지 않습니다.</p>\n<p><strong> 실패</strong> 대상은 잠시 흔들리며 자신의 능력을 확신하지 못합니다. 대상은 두 번 굴려서 주문을 발동시킨 대실패와 같은 유형의 다음 굴림에서 더 나쁜 결과를 받아야 합니다(예: 대상의 다음 곡예 체크가 곡예 체크에서 대실패였다면 다음 곡예 체크). 대상이 적격 체크를 시도하지 않으면 주문은 대상의 다음 턴이 끝날 때 종료됩니다.</p>"
     },
     "Life-Giving Form": {
       "name": "생명을 주는 형태 (Life-Giving Form)",
@@ -1142,7 +1142,7 @@
     },
     "Force Fang": {
       "name": "포스 팽 (Force Fang)",
-      "description": "<p>잠시 공격을 순수한 힘으로 전환하여 상대의 방어를 우회합니다. 자신의 손이 닿는 범위 내에 있거나 휘두르고 있는 근접 무기의 범위 내에 있는 대상을 선택합니다. 원거리 무기로 (예를 들어 별빛 범위 하이브리드 연구와 함께) @UUID[Compendium.pf2e.actionspf2e.Item.QDW9H8XLIjuW2fE4]{Spellstrike}를 사용할 수 있다면, 원거리 무기의 첫 범위 증가분 안에 있는 생물을 목표로 삼을 수 있습니다. 순간적으로 무기 또는 비무장 공격이 순수한 힘의 송곳니로 변하여 모든 일반 통계와 능력을 대체합니다. 힘의 송곳니는 대상에게 자동으로 1d4+1의 힘 피해를 줍니다.</p>\n<hr />\n<p><strong>강화(+2)</strong> 피해량이 1d4+1만큼 증가합니다.</p>\n<p data-visibility=\"owner\"><em> 참고: 혼돈의 주문은 주문타를 새로 고칩니다.</em></p>"
+      "description": "<p>잠시 공격을 순수한 힘으로 전환하여 상대의 방어를 우회합니다. 자신의 손이 닿는 범위 내에 있거나 휘두르고 있는 근접 무기의 범위 내에 있는 대상을 선택합니다. 원거리 무기로 (예를 들어 별빛 범위 하이브리드 연구와 함께) @UUID[Compendium.pf2e.actionspf2e.Item.QDW9H8XLIjuW2fE4]{Spellstrike}를 사용할 수 있다면, 원거리 무기의 첫 범위 증가분 안에 있는 생물을 목표로 삼을 수 있습니다. 순간적으로 무기 또는 비무장 공격이 순수한 힘의 송곳니로 변하여 모든 일반 통계와 능력을 대체합니다. 힘의 송곳니는 대상에게 자동으로 1d4+1의 힘 피해를 줍니다.</p>\n<hr />\n<p><strong>강화(+2)</strong> 피해량이 1d4+1만큼 증가합니다.</p>\n<p data-visibility=\"owner\"><em> 참고: 융합 주문은 스펠 스트라이크를새로 고칩니다.</em></p>"
     },
     "Untwisting Iron Roots": {
       "name": "철 뿌리 풀기 (Untwisting Iron Roots)",
@@ -2086,7 +2086,7 @@
     },
     "Shifting Sand": {
       "name": "모래 이동 (Shifting Sand)",
-      "description": "<p>지면을 휘청거리게 합니다. 이 지역은 험난한 지형이 되고, 이 지역의 모든 지반은 휘몰아치는 지반에 의해 파괴됩니다. 이 지역에 서 있는 생물은 아크로바틱 체크에 -1 상태력 패널티를 받고 @UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]{균형잡기} 및 @UUID[Compendium.pf2e.actionspf2e.Item.21WIfSu7Xd7uKqV8]{회피 돌파} 및 운동 체크를 @UUID[Compendium.pf2e.actionspf2e.Item.2HJ4yuEFY1Cast4h]{높이뛰기} 및 @UUID[Compendium.pf2e.actionspf2e.Item.JUvAvruz7yRQXfz2]{ 멀리뛰기}로 확인합니다. 매 라운드 처음 주문을 지속하면, 휘몰아치는 영역을 원하는 방향으로 최대 10피트까지 이동할 수 있습니다. 주문에 의해 움직이지 못하는 생물은 가능하면 같은 방향으로 이동하는 <em>모래</em> 와 함께 이동하며, 이 이동은 강제 이동입니다. <em> 이동하는 모래</em> 에 들어가거나 서 있는 상태에서 차례를 시작하는 생물은 반사 내성을 시도해야 합니다.</p>\n<hr />\n<p><strong>대성공</strong> 이 생물은 영향을 받지 않고 자신의 턴이 끝날 때까지 해당 지역의 어려운 지형과 기술 체크에 대한 패널티를 무시합니다.</p>\n<p><strong> 성공</strong> 이 생물은 자신의 턴이 끝날 때까지 해당 지역의 기술 체크에 대한 패널티를 무시합니다.</p>\n<p><strong>실패</strong> 생물은 이번 턴에 주문의 영향을 정상적으로 받습니다.</p>\n<p><strong> 대실패</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{고정된}가 될 때까지 주문의 영역 내에서 @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{탈출}가 됩니다. 생물이 이미 <em>이동하는 모래에 의해 고정된 경우</em>, 또한 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드린}에 빠지게 됩니다.</p>\n<hr />\n<p><strong>강화 (5차)</strong> 상태 페널티가 -2로 증가하고 주문의 사거리가 60피트로 증가합니다.</p>\n<p><strong> 강화 (7차)</strong> 상태 페널티가 -3으로 증가하고 주문의 사거리가 60피트로 증가하며 주문 범위가 30피트 폭발로 증가합니다.</p>\n<p><strong>강화(9차)</strong> 상태 페널티가 -4로 증가하고 주문의 사거리가 60피트로 증가하며 주문의 범위가 40피트 폭발로 증가합니다.</p>"
+      "description": "<p>지면을 휘청거리게 합니다. 이 지역은 험난한 지형이 되고, 이 지역의 모든 지반은 휘몰아치는 지반에 의해 파괴됩니다. 이 지역에 서 있는 생물은 곡예 체크에 -1 상태력 패널티를 받고 @UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]{균형잡기} 및 @UUID[Compendium.pf2e.actionspf2e.Item.21WIfSu7Xd7uKqV8]{회피 돌파} 및 운동 체크를 @UUID[Compendium.pf2e.actionspf2e.Item.2HJ4yuEFY1Cast4h]{높이뛰기} 및 @UUID[Compendium.pf2e.actionspf2e.Item.JUvAvruz7yRQXfz2]{ 멀리뛰기}로 확인합니다. 매 라운드 처음 주문을 지속하면, 휘몰아치는 영역을 원하는 방향으로 최대 10피트까지 이동할 수 있습니다. 주문에 의해 움직이지 못하는 생물은 가능하면 같은 방향으로 이동하는 <em>모래</em> 와 함께 이동하며, 이 이동은 강제 이동입니다. <em> 이동하는 모래</em> 에 들어가거나 서 있는 상태에서 차례를 시작하는 생물은 반사 내성을 시도해야 합니다.</p>\n<hr />\n<p><strong>대성공</strong> 이 생물은 영향을 받지 않고 자신의 턴이 끝날 때까지 해당 지역의 어려운 지형과 기술 체크에 대한 패널티를 무시합니다.</p>\n<p><strong> 성공</strong> 이 생물은 자신의 턴이 끝날 때까지 해당 지역의 기술 체크에 대한 패널티를 무시합니다.</p>\n<p><strong>실패</strong> 생물은 이번 턴에 주문의 영향을 정상적으로 받습니다.</p>\n<p><strong> 대실패</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{고정된}가 될 때까지 주문의 영역 내에서 @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{탈출}가 됩니다. 생물이 이미 <em>이동하는 모래에 의해 고정된 경우</em>, 또한 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드린}에 빠지게 됩니다.</p>\n<hr />\n<p><strong>강화 (5차)</strong> 상태 페널티가 -2로 증가하고 주문의 사거리가 60피트로 증가합니다.</p>\n<p><strong> 강화 (7차)</strong> 상태 페널티가 -3으로 증가하고 주문의 사거리가 60피트로 증가하며 주문 범위가 30피트 폭발로 증가합니다.</p>\n<p><strong>강화(9차)</strong> 상태 페널티가 -4로 증가하고 주문의 사거리가 60피트로 증가하며 주문의 범위가 40피트 폭발로 증가합니다.</p>"
     },
     "Ephemeral Hazards": {
       "name": "일시적 위험 (Ephemeral Hazards)",
@@ -2942,7 +2942,7 @@
     },
     "Rime Slick": {
       "name": "라임 슬릭 (Rime Slick)",
-      "description": "<p>차가운 바람을 불러옵니다. 이 주문을 시전하면 범위 내의 모든 생물에게 2d4의 냉기 피해를 줍니다(기본 반사 내성). 해당 지역에 있는 생물이 치명타로 반사 저하에 실패하고 서 있는 상태라면, 그 생물도 쓰러집니다.</p>\n<p>또한, 해당 지역의 모든 지면에 얼음층을 생성하여 어려운 지형이 됩니다. 이 지역의 방치된 물체는 얼음으로 미끄러워지며, 물체를 집어 올리려면 반사 구슬 또는 주문 DC에 대한 아크로바틱 체크가 성공해야 합니다. 얼음은 화염 피해를 받는 모든 물체와 화염 특성을 가진 높은 등급의 주문이나 효과 영역에 포함된 모든 사각형에서 녹습니다.</p>\n<hr />\n<p><strong>강화(5차)</strong> 피해가 8d4 냉기 피해로 증가하고 범위는 30피트입니다.</p>\n<p><strong> 강화(8차)</strong> 피해가 14d4 냉기 피해로 증가하고 범위는 60피트로 확장됩니다.</p>"
+      "description": "<p>차가운 바람을 불러옵니다. 이 주문을 시전하면 범위 내의 모든 생물에게 2d4의 냉기 피해를 줍니다(기본 반사 내성). 해당 지역에 있는 생물이 치명타로 반사 저하에 실패하고 서 있는 상태라면, 그 생물도 쓰러집니다.</p>\n<p>또한, 해당 지역의 모든 지면에 얼음층을 생성하여 어려운 지형이 됩니다. 이 지역의 방치된 물체는 얼음으로 미끄러워지며, 물체를 집어 올리려면 반사 구슬 또는 주문 DC에 대한 곡예 체크가 성공해야 합니다. 얼음은 화염 피해를 받는 모든 물체와 화염 특성을 가진 높은 등급의 주문이나 효과 영역에 포함된 모든 사각형에서 녹습니다.</p>\n<hr />\n<p><strong>강화(5차)</strong> 피해가 8d4 냉기 피해로 증가하고 범위는 30피트입니다.</p>\n<p><strong> 강화(8차)</strong> 피해가 14d4 냉기 피해로 증가하고 범위는 60피트로 확장됩니다.</p>"
     },
     "Construct Mindscape": {
       "name": "마인드스케이프 구축 (Construct Mindscape)",
@@ -3626,7 +3626,7 @@
     },
     "Take Root": {
       "name": "뿌리 내리기 (Take Root)",
-      "description": "<p>대상의 살에서 뿌리가 돋아나 바닥이나 물체 주위를 감싸며 자세나 그립을 강화합니다. 대상이 된 생물은 @UUID[Compendium.pf2e.actionspf2e.7blmbDrQFNfdT731]{밀치기 Shove} 에 대한 인내 DC에 +1의 상황 보너스를, @UUID[Compendium.pf2e.actionspf2e.Dt6B1slsBy8ipJu9]{무장 해제 Disarm}나 @UUID[Compendium.pf2e.actionspf2e.ge56Lu1xXVFYUnLP]{넘어뜨리기 Trip} 시도에 대한 반사 DC에 +1 상황 보너스를 받습니다. 이 보너스는 잡은 아이템을 빼앗으려는 주문이나 효과에 대한 내성 굴림에도 적용됩니다.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.ZGzhNFB3SM8owk85]{주문 효과: 뿌리 내리기}</p>"
+      "description": "<p>대상의 살에서 뿌리가 돋아나 바닥이나 물체 주위를 감싸며 자세나 그립을 강화합니다. 대상이 된 생물은 @UUID[Compendium.pf2e.actionspf2e.7blmbDrQFNfdT731]{밀치기 Shove} 에 대한 인내 DC에 +1의 상황 보너스를, @UUID[Compendium.pf2e.actionspf2e.Dt6B1slsBy8ipJu9]{무장 해제 Disarm}나 @UUID[Compendium.pf2e.actionspf2e.ge56Lu1xXVFYUnLP]{넘어뜨리기} 시도에 대한 반사 DC에 +1 상황 보너스를 받습니다. 이 보너스는 잡은 아이템을 빼앗으려는 주문이나 효과에 대한 내성 굴림에도 적용됩니다.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.ZGzhNFB3SM8owk85]{주문 효과: 뿌리 내리기}</p>"
     },
     "Flense": {
       "name": "살갗 녹이기 (Flense)",
@@ -3662,7 +3662,7 @@
     },
     "Grease": {
       "name": "그리스 (Grease)",
-      "description": "<p>영역 또는 대상을 선택하여 그리스를 떠올립니다.</p>\n<ul>\n<li><strong>영역</strong> <strong>[연속된 5피트 타일 4개]</strong> 이 영역의 모든 단단한 땅은 기름으로 덮여 있습니다. 기름기 있는 표면 위에 서 있는 각 생물은 반사 저하나 주문 DC에 대한 곡예 체크에 성공하거나 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드린}으로 쓰러져야 합니다. 주문 지속시간 동안 기름기 있는 표면으로 이동하는 액션을 사용하는 생물은 반사 내성 또는 아크로바틱 체크를 시도해야 합니다 @UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]{균형잡기}에. 밟거나 기어가는 생물은 체크 또는 내성 굴림을 시도할 필요가 없습니다.</li>\n<li><strong> 대상</strong> <strong>[벌크 1 이하의 물체 1개]</strong> 사람이 없는 물체에 주문을 시전하는 경우, 그 물체를 집으려는 사람은 반드시 주문 DC에 대한 곡예 체크 또는 반사 내성에 성공해야 합니다. 주인이 있는 물체를 대상으로 하는 경우, 그 물체를 가진 생물은 곡예 체크 또는 반사 내성을 시도해야 합니다. 실패하면, 소유자 또는 착용자는 그 물건을 사용하는 모든 체크에 -2 상황 패널티를 받고, 대실패하면 그 물건을 놓습니다. 물건은 GM이 선택한 인접한 타일에 놓입니다. 착용한 물체에 이 주문을 시전하면, 착용자는 물체를 잡으려는 시도에 대해 인내 내성에 +2의 상황 보너스를 받습니다.</li>\n</ul>"
+      "description": "<p>영역 또는 대상을 선택하여 그리스를 떠올립니다.</p>\n<ul>\n<li><strong>영역</strong> <strong>[연속된 5피트 타일 4개]</strong> 이 영역의 모든 단단한 땅은 기름으로 덮여 있습니다. 기름기 있는 표면 위에 서 있는 각 생물은 반사 저하나 주문 DC에 대한 곡예 체크에 성공하거나 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드린}으로 쓰러져야 합니다. 주문 지속시간 동안 기름기 있는 표면으로 이동하는 액션을 사용하는 생물은 반사 내성 또는 곡예 체크를 시도해야 합니다 @UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]{균형잡기}에. 밟거나 기어가는 생물은 체크 또는 내성 굴림을 시도할 필요가 없습니다.</li>\n<li><strong> 대상</strong> <strong>[벌크 1 이하의 물체 1개]</strong> 사람이 없는 물체에 주문을 시전하는 경우, 그 물체를 집으려는 사람은 반드시 주문 DC에 대한 곡예 체크 또는 반사 내성에 성공해야 합니다. 주인이 있는 물체를 대상으로 하는 경우, 그 물체를 가진 생물은 곡예 체크 또는 반사 내성을 시도해야 합니다. 실패하면, 소유자 또는 착용자는 그 물건을 사용하는 모든 체크에 -2 상황 패널티를 받고, 대실패하면 그 물건을 놓습니다. 물건은 GM이 선택한 인접한 타일에 놓입니다. 착용한 물체에 이 주문을 시전하면, 착용자는 물체를 잡으려는 시도에 대해 인내 내성에 +2의 상황 보너스를 받습니다.</li>\n</ul>"
     },
     "Unfolding Wind Blitz": {
       "name": "펼쳐지는 바람의 습격 (Unfolding Wind Blitz)",
@@ -3765,7 +3765,7 @@
       "description": "<p>당신의 마법은 생물의 생체를 혼란에 빠뜨려 메스꺼움, 발열, 기타 불쾌한 상태를 유발합니다.</p>\n<hr />\n<p><strong>성공</strong> 대상은 영향을 받지 않습니다.</p>\n<p><strong> 실패</strong> 대상은 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1}이 됩니다.</p>\n<p><strong> 대실패</strong> 대상은 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 2} 및 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1}이 됩니다.</p>"
     },
     "Unbearable Cacophony": {
-      "name": "오라 내에 있는 생물에게 주문이 영향을 미칠 때마다, 그 주문이 주는 피해가 당신의 레벨과 같은 양만큼 감소합니다. 이는 지속 피해와 주문의 지속적인 효과로 인한 피해를 포함한, 그 주문이 주는 모든 피해에 적용됩니다.방어막 (Unbearable Cacophony)",
+      "name": "참을 수 없는 소음의 혼란 (Unbearable Cacophony)",
       "description": "<p>모든 물건과 생물의 소리를 불가능한 수준으로 증폭시킵니다. 귀머거리 생물과 음파 피해에 면역이 있는 생물은 대부분의 경우 영향을 받지 않습니다.</p> <p><strong>성공</strong> 생물이나 물체(예: 귀뚜라미, 울리는 모루, 사자의 포효)가 내는 모든 소리는 15피트 내의 모든 생물에게 그 생물이나 물체의 레벨에 해당하는 음파 피해를 입힙니다(최소 1). 소리를 내는 물건이나 생물의 크기가 소형보다 큰 경우, 이 피해는 크기가 1 단계 올라갈 때마다 2씩 증가합니다. 노래를 부르는 4중창단이나 곤충 떼와 같은 조직적인 생물 집단은 이 효과에 대해 한 단계 더 큰 크기로 간주됩니다. 일반적으로 생물과 물체에 음파 피해를 주는 효과는 생물이나 물체의 음파 저항력 또는 경도의 절반을 무시합니다.</p> <p><strong>대실패</strong> 각 시전자의 귀에 강렬한 울림이 메아리치며, 1일 동안 자신의 레벨에 해당하는 음파 피해에 대한 약점을 부여합니다. </p><hr /><p><strong>강화 (+2)</strong> 작은 크기의 생물보다 큰 생물이 주는 피해가 크기 카테고리당 6씩 증가합니다. </p>"
     },
     "Clouded Focus": {
@@ -3805,7 +3805,7 @@
       "description": "<p>소용돌이치는 물줄기가 일직선을 따라 나타나며, 그 경로에 있는 생물과 무인 물체를 공격하여 플레이어로부터 밀어냅니다. 급류는 8d6의 둔기 피해를 줍니다. 해당 지역에 있는 모든 생물은 기본 인내 내성을 시도해야 하며, 주인 없는 물체는 자동으로 실패합니다. 실패한 생물과 물체도 5피트(대실패 시 10피트) 뒤로 밀려납니다.</p>\n<hr />\n<p><strong>강화(+1)</strong> 공격력이 2d6만큼 증가합니다.</p>"
     },
     "Brand the Impenitent": {
-      "name": "참을성이 없는 사람 브랜드화 (Brand the Impenitent)",
+      "name": "불굴의 낙인 (Brand the Impenitent)",
       "description": "<p>대상에게 신의 종교적 상징의 미묘한 사본으로 낙인을 찍습니다. 이 표식은 숨길 수 없지만, 불이 켜진 횃불처럼 선명하게 보이는 신앙을 가진 추종자에게만 표시됩니다. 당신의 신앙의 추종자는 대상의 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진} 조건이 있다면 무시하고, 대상은 당신의 신앙의 추종자의 공격에 대해 공격력에 -1 상태 페널티를 받습니다. 대상이 정상 상태의 신을 따르는 추종자라면 주문은 실패합니다.</p>\n<hr />\n<p><strong>대성공</strong> 대상은 영향을 받지 않습니다.</p>\n<p><strong> 성공</strong> 주문은 1라운드 동안 지속됩니다.</p>\n<p><strong> 실패</strong> 주문은 1분 동안 지속됩니다.</p>\n<p><strong> 대실패</strong> 주문의 지속시간은 무제한입니다.</p>"
     },
     "Split Shadow": {
@@ -3821,12 +3821,12 @@
       "description": "<p>차분하고 고른 어조로 대상을 달래는 말을 하여 대상을 진정시키려고 합니다. 대상은 의지 내성 굴림에 +1 상태 보너스를 얻습니다. 이 보너스는 감정 효과에 대해 +2로 증가합니다.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.an4yZ6dyIDOFa1wa]{주문 효과: 달래는 말}</p>\n<p>또한, 이 주문을 시전할 때 대상의 감정 효과 하나를 상쇄할 수 있습니다.</p>\n<hr />\n<p><strong>강화(5차)</strong> 내성 굴림 보너스가 +2로 증가하거나 감정 효과에 대해 +3으로 증가합니다.</p>"
     },
     "Speak with Stones": {
-      "name": "스톤으로 말하기 (Speak with Stones)",
+      "name": "석재 대화 (Speak with Stones)",
       "description": "<p>자연석이나 가공된 돌에 질문을 하고 답변을 받을 수 있습니다. 자연석은 지능이 없지만, 가공된 돌의 경우 돌의 종류에 따라, 돌이 속한 구조의 종류에 따라 개성을 지닌 돌의 영혼과 대화할 수 있습니다. 돌의 관점, 지각, 지식은 인간과 충분히 다른 세계관을 가지고 있기 때문에 동일한 세부 사항을 중요하게 생각하지 않습니다. 돌은 과거에 자신과 접촉한 생물과 그 아래 또는 뒤에 은폐된 것에 대한 질문에 대부분 대답할 수 있습니다.</p>\n<hr />\n<p><strong>강화(6차)</strong> 소요 시간은 8시간입니다.</p>"
     },
     "Serrate": {
       "name": "톱날 (Serrate)",
-      "description": "<p>한 번 꼬집으면 무기의 금속이 뒤틀리면서 표면을 따라 수많은 뾰족한 칼날이 추가됩니다. 대상 무기로 공격하면 다음 턴이 시작될 때까지 추가로 1d4의 베기 피해를 줍니다.</p> <p>@UUID[Compendium.pf2e.spell-effects.Item.CDNKDV3UsAp95D1m]{주문 효과: 날카로운}</p> <hr /> <p><strong>강화(+2)</strong> 추가 피해가 1d4만큼 증가합니다.</p>"
+      "description": "<p>무기를 살짝 꼬집으면 무기의 금속이 뒤틀리면서 표면을 따라 수많은 뾰족한 칼날이 추가됩니다. 대상 무기로 공격하면 다음 턴이 시작될 때까지 추가로 1d4의 베기 피해를 줍니다.</p> <p>@UUID[Compendium.pf2e.spell-effects.Item.CDNKDV3UsAp95D1m]{주문 효과: 날카로운}</p> <hr /> <p><strong>강화(+2)</strong> 추가 피해가 1d4만큼 증가합니다.</p>"
     },
     "Pact Broker": {
       "name": "팩트 브로커 (Pact Broker)",
@@ -3973,8 +3973,8 @@
       "description": "<p>모든 것은 늙고, 모든 것은 죽어감으로써 종말에는 우주조차 조용하고 고요해질 것입니다. 당신은 우주의 엔트로피 원리를 깨우고, 살이 흔들리고, 식물이 쪼그라들고, 심지어 돌이 부서지기 시작하는 등 해당 구역의 시간을 가속화합니다. 해당 지역에 들어오거나 자신의 턴을 시작하는 모든 생물은 기본 인내 저하에 성공하거나 @Damage[8d6[void]] 피해를 받아야 하며, 해당 생물이 구조물이나 언데드처럼 평소 공허 피해를 받지 않는 생물이라면 @Damage[8d6[force]] 피해를 받아야 합니다. 수명이 무한한 악마 같은 존재도 엔트로피에 의해 닳아 없어질 수 있습니다. 이후 턴에 처음으로 주문을 지속할 때마다 엔트로피 구역은 지속시간이 증가할 뿐만 아니라 더 강해집니다. 폭발의 반경이 10피트(최대 40피트) 증가하고, 피해 주사위의 크기가 한 단계씩 증가합니다(d6에서 d8로, 그다음에는 d10으로, 마지막으로 d12로).</p>\n<hr />\n<p><strong>강화(+1)</strong> 공격력이 [[/r 1d6]]{1d6}만큼 증가합니다.</p>"
     },
     "Unbreaking Wave Vapor": {
-      "name": "끊이지 않는 파도 증기 (Unbreaking Wave Vapor)",
-      "description": "<p><strong>트리거</strong> 눈에 보이는 공격자의 공격 대상이 되었습니다.</p>\n<hr />\n<p>당신은 트리거 공격에 대해 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진} 상태이며, 해당 공격에 대한 상황 보너스로 공격력에 +2를 얻습니다. 트리거 공격이 완료된 후, 트리거 공격이 적중하면 한 걸음, 빗나갔으면 두 걸음 내딛을 수 있습니다.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.m6x0IvoeX0a0bZiQ]{주문 효과: 부서지지 않는 파동 증기}</p>"
+      "name": "끊이지 않는 증기 파도 (Unbreaking Wave Vapor)",
+      "description": "<p><strong>트리거</strong> 눈에 보이는 공격자의 공격 대상이 되었습니다.</p>\n<hr />\n<p>당신은 트리거 공격에 대해 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진} 상태가 되며, 해당 공격에 대한 상황 보너스로 방어력에 +2를 얻습니다. 트리거 공격이 완료된 후, 트리거 공격이 적중하면 한번, 빗나갔으면 두번 신중한 발걸음을 수행 할 수 있습니다.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.m6x0IvoeX0a0bZiQ]{주문 효과: 끊이지 않는 증기 파도}</p>"
     },
     "Purify Tanglebriar": {
       "name": "타브리어 정화 (Purify Tanglebriar)",
@@ -3997,11 +3997,11 @@
       "description": "<p>당신은 감시자 특성을 가지고 있고 레벨이 5 이하인 생물을 소환하여 당신을 위해 싸울 수 있습니다. GM이 특정 경우에 소환할 수 있는 특정 유형의 감시자를 제한할 수 있습니다. 예를 들어, 우르가토아는 일반적으로 추종자가 사이코펌프를 소환하는 것을 허용하지 않습니다.</p>\n<hr />\n<p><strong>강화됨</strong> @UUID[Compendium.pf2e.journals.JournalEntry.S55aqwWIzpQRFhcq.JournalEntryPage.8gcp880pEWZ9VPnF]{summon} 특성에 나열된 대로</p>"
     },
     "Take its Course": {
-      "name": "코스 수강하기 (Take its Course)",
+      "name": "고통의 흐름 (Take its Course)",
       "description": "<p>누군가가 지나치게 탐닉했을 때, 최악의 고통을 지나치게 빨리 지나가게 하거나 고통을 심화시킬 수 있습니다. 이 주문은 대상에게 영향을 미치는 질병 고통, 독 고통, 지속적인 독 피해를 진행시키려고 시도합니다. 대상이 두 가지 이상의 영향을 받는 경우, 플레이어가 알고 있는 것 중에서 선택할 수 있으며, 그렇지 않은 경우 GM이 무작위로 선택합니다. 원하지 않는 대상은 의지 내성 굴림을 시도하여 <em>과정을 무효화할 수 있습니다</em>.</p>\n<p>이 주문의 효과는 고통 또는 지속적 독 피해를 끝내려는 것인지, 대상의 회복을 돕거나 방해하려는 것인지에 따라 달라집니다.</p>\n<ul>\n<li><strong>고통</strong> 대상은 즉시 고통에 대한 다음 내성 굴림을 시도합니다. 괴로움에 대한 내성 굴림에 @UUID[Compendium.pf2e.spell-effects.Item.nHXKK4pRXAzrLdEP]{+2 상태 보너스} 또는 @UUID[Compendium.pf2e.spell-effects.Item.R27azQfzeFuFc48G]{-2 상태 패널티} 중 원하는 것을 생물에게 부여할 수 있습니다.</li>\n<li><strong>지속 독</strong> 이 주문을 시전할 때 대상이 즉시 지속 독 피해를 받도록 할 수 있습니다(다음 턴이 끝날 때 받는 것 외에도). 그렇게 하든 안 하든, 대상은 지속 독 피해에 대해 추가 플랫 체크를 시도합니다. 이 플랫 체크의 DC는 일반 DC 대신 5 또는 20으로 설정할 수 있습니다.</li>\n</ul>\n<hr />\n<p><strong>강화(7차)</strong> 대상의 적격 고통과 지속 독 피해를 몇 번이나 진행하려고 시도할 수 있습니다.</p>"
     },
     "Appearance of Wealth": {
-      "name": "부의 외관 (Appearance of Wealth)",
+      "name": "부유한 외관 (Appearance of Wealth)",
       "description": "<p>주문의 범위 내에 엄청난 부의 환영이 잠시 나타납니다. 해당 영역에서 20피트 이내에 있는 물질적 부의 유혹을 받을 수 있는 모든 생물은 의지 내성 굴림을 시도해야 합니다. 해당 구역에 들어온 생물은 자동으로 환영을 믿지 않으며, 환영을 믿지 않으면 주문이 부여한 모든 @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{매혹} 조건이 종료됩니다. 주문을 지속하는 한, 다른 생물은 다른 환영처럼 보물에 반응하지만 매혹될 위험은 없습니다.</p>\n<hr />\n<p><strong>대성공</strong> 생물은 환영을 믿지 않고 영향을 받지 않습니다.</p>\n<p><strong> 성공</strong> 생물은 다음 턴에 첫 액션을 완료할 때까지 부의에 매료됩니다.</p>\n<p><strong> 실패</strong> 생물은 환영에 매료됩니다.</p>"
     },
     "Plant Growth": {
@@ -4013,7 +4013,7 @@
       "description": "<p>한 곳에만 머무르는 경우는 거의 없습니다. 타겟이 볼 수 있는 100피트 이내의 위치를 선택하세요. 그곳에 대상만 볼 수 있고 자신의 모든 액션을 모방하는 자신의 환영을 만듭니다. 대상은 의지 내성 굴림을 시도해야 합니다.</p>\n<hr /><strong> 대성공</strong> 대상은 영향을 받지 않습니다.\n<p><strong>성공</strong> 대상은 내가 지정된 위치에 있다고 믿으며 실제 위치에서는 나를 볼 수 없습니다. 환영의 위치에 맞지 않는 액션을 사용하거나 대상이 환영을 공격, 접촉, 탐색 또는 다른 방식으로 교전하면 대상은 자동으로 환영을 믿지 않게 됩니다. 대상에게 적대적인 액션을 사용하면 주문이 종료됩니다.</p>\n<p><strong> 실패</strong> 성공으로 간주되지만, 나열된 이벤트 중 하나가 발생할 때 대상은 반드시 의지 내성에서 성공해야 환영을 믿지 않습니다.</p>\n<p><strong> 대성공</strong> 성공으로 간주되지만, 대상은 반드시 의지 내성에서 치명적으로 성공해야 나열된 이벤트 중 하나가 발생할 때 환영을 믿지 않습니다.</p>"
     },
     "Glimpse the Truth": {
-      "name": "진실을 엿보기 (Glimpse the Truth)",
+      "name": "진실 엿보기 (Glimpse the Truth)",
       "description": "<p>신성한 통찰력으로 사물을 있는 그대로 볼 수 있으며, 마술로 진실을 은폐하려는 시도에 의해 드러납니다. GM은 해당 지역 내에 적어도 부분적으로 존재하는 각 환영에 대해 비밀 대응 체크를 시도합니다. 환영에 대응하는 대신, 환영을 투과하여 볼 수 있습니다(예를 들어, @UUID[Compendium.pf2e.spells-srd.Item.i35dpZFI7jZcRoBo]{Illusory Disguise} 명령에 대한 체크가 성공하면 생물의 실제 모습이 보이지만 <em>환영 위장</em> 은 종료되지 않습니다). 주문이 지속되는 동안 새로운 환영이 오라에 들어올 때마다 GM은 해당 환영에 대한 비밀 대응 체크를 시도합니다.</p>\n<hr />\n<p><strong>강화(7차)</strong> 자신뿐만 아니라 발산 범위 내에 있는 모든 사람이 주문에 성공한 환영을 투과할 수 있습니다.</p>"
     },
     "Heal Animal": {
@@ -4498,7 +4498,7 @@
     },
     "Elemental Gift": {
       "name": "원소 선물 (Elemental Gift)",
-      "description": "<p>선택한 원소에 따라 대상에게 공기의 신속함, 땅의 견고함, 불의 날카로움, 물의 유연함을 부여하는 원소의 힘이 대상에 가득 차게 됩니다. 주문을 시전할 때 원소를 선택합니다. 대상은 아래에 설명된 대로 해당 원소의 이점을 얻으며, 이 주문은 해당 특성의 원소를 얻습니다.</p>\n<ul>\n<li><strong>공기</strong> 대상은 자신의 지상 이동 속도에 +30피트 상태 보너스를 얻고, 상태 보너스 없이 자신의 지상 이동 속도와 동일한 비행 속도를 얻습니다.</li>\n<li><strong> 땅</strong> 대상은 지상에 있는 동안 @UUID[Compendium.pf2e.actionspf2e.7blmbDrQFNfdT731]{밀치기 Shove}, @UUID[Compendium.pf2e.actionspf2e.ge56Lu1xXVFYUnLP]{넘어뜨리기 Trip} 그리고 @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{엎드린}상태를 유발하는 모든 종류의 효과에 대해, 인내와 반사 내성에 +2 상태 보너스를 받습니다. 또한 대상과 인접한 지면은 어려운 지형이며, 어려운 지형은 대상과 함께 이동하지만 대상은 자신의 이동할 때 이 어려운 지형을 무시합니다.</li>\n<li><strong> 불</strong> 대상의 근접 비무장 공격과 근접 무기 공격이 적중하면 1d6의 지속 불 피해를 줍니다.</li>\n<li><strong>금속</strong> 대상의 금속 무기 또는 비무장 공격이 적중하면 추가로 1d4의 전기 피해를 입히고, 대상이 금속으로 만들어졌거나 금속 갑옷을 입고 있으면 공격 굴림에 +1 상태 보너스를 받습니다.</li>\n<li><strong>물</strong> 대상이 물빛을 띠며 화염에 대한 내성이 5 증가하고 이동 속도가 지상 속도와 같아집니다.</li>\n<li><strong> 나무</strong> 대상이 주문 등급과 같은 수의 임시 체력을 얻고, 매 턴이 시작될 때마다 그 절반의 일시적 HP를 얻습니다.</li>\n</ul>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.AF4vQ1xoOiJ1ewH1]{주문 효과: 원소의 선물}</p>\n<hr />\n<p><strong>강화 (8차)</strong> 의지가 있는 생물을 최대 5마리까지 목표로 삼을 수 있습니다.</p>"
+      "description": "<p>선택한 원소에 따라 대상에게 공기의 신속함, 땅의 견고함, 불의 날카로움, 물의 유연함을 부여하는 원소의 힘이 대상에 가득 차게 됩니다. 주문을 시전할 때 원소를 선택합니다. 대상은 아래에 설명된 대로 해당 원소의 이점을 얻으며, 이 주문은 해당 특성의 원소를 얻습니다.</p>\n<ul>\n<li><strong>공기</strong> 대상은 자신의 지상 이동 속도에 +30피트 상태 보너스를 얻고, 상태 보너스 없이 자신의 지상 이동 속도와 동일한 비행 속도를 얻습니다.</li>\n<li><strong> 땅</strong> 대상은 지상에 있는 동안 @UUID[Compendium.pf2e.actionspf2e.7blmbDrQFNfdT731]{밀치기 Shove}, @UUID[Compendium.pf2e.actionspf2e.ge56Lu1xXVFYUnLP]{넘어뜨리기} 그리고 @UUID[Compendium.pf2e.conditionitems.j91X7x0XSomq8d60]{엎드린}상태를 유발하는 모든 종류의 효과에 대해, 인내와 반사 내성에 +2 상태 보너스를 받습니다. 또한 대상과 인접한 지면은 어려운 지형이며, 어려운 지형은 대상과 함께 이동하지만 대상은 자신의 이동할 때 이 어려운 지형을 무시합니다.</li>\n<li><strong> 불</strong> 대상의 근접 비무장 공격과 근접 무기 공격이 적중하면 1d6의 지속 불 피해를 줍니다.</li>\n<li><strong>금속</strong> 대상의 금속 무기 또는 비무장 공격이 적중하면 추가로 1d4의 전기 피해를 입히고, 대상이 금속으로 만들어졌거나 금속 갑옷을 입고 있으면 공격 굴림에 +1 상태 보너스를 받습니다.</li>\n<li><strong>물</strong> 대상이 물빛을 띠며 화염에 대한 내성이 5 증가하고 이동 속도가 지상 속도와 같아집니다.</li>\n<li><strong> 나무</strong> 대상이 주문 등급과 같은 수의 임시 체력을 얻고, 매 턴이 시작될 때마다 그 절반의 일시적 HP를 얻습니다.</li>\n</ul>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.AF4vQ1xoOiJ1ewH1]{주문 효과: 원소의 선물}</p>\n<hr />\n<p><strong>강화 (8차)</strong> 의지가 있는 생물을 최대 5마리까지 목표로 삼을 수 있습니다.</p>"
     },
     "Pressure Zone": {
       "name": "압력 영역 (Pressure Zone)",
@@ -4646,7 +4646,7 @@
     },
     "Rapid Adaptation": {
       "name": "빠른 적응 (Rapid Adaptation)",
-      "description": "<p>목표물에 주변 지형의 에너지를 쏟아 부어 수 세기에 걸친 진화를 단 한 순간에 압축합니다. 대상은 주변 환경에 따라 다음 중 하나의 자연 적응력을 얻습니다.</p>\n<ul>\n<li><strong>수중</strong> 대상은 육지 속도와 동일한 수영 속도를 얻습니다. 대상에게 이미 헤엄 속도가 있었다면, 헤엄 속도에 +10피트 상태 보너스를 얻습니다. @UUID[Compendium.pf2e.spell-effects.Item.fGK6zJ7mWz9D5QYo]{주문 효과: 빠른 적응 (수중 기본 수영 속도)} 또는 @UUID[Compendium.pf2e.spell-effects.Item.itmiGioGNuVvt4QE]{주문 효과: 빠른 적응(수중 속도 보너스)}</li>\n<li><strong> 북극</strong> 대상은 혹독하거나 극심한 추위에 영향을 받지 않으며, 얼음과 눈 위에서 균형잡기 체크에서 성공하면 대신 대성공을 얻습니다. @UUID[Compendium.pf2e.spell-effects.Item.iiV80Kexj6vPmzqU]{주문 효과: 빠른 적응 (북극)}</li>\n<li><strong> 사막</strong> 대상은 혹독하거나 극심한 더위에 영향을 받지 않으며, 모래 위에서 균형잡기 체크에서 성공하면 대신 대성공을 얻습니다. @UUID[Compendium.pf2e.spell-effects.Item.qo7DoF11Xl9gqmFc]{주문 효과: 빠른 적응 (사막)}</li>\n<li><strong> 숲</strong> 대상은 30피트 범위의 부정확한 감각으로 냄새를 맡습니다. @UUID[Compendium.pf2e.spell-effects.Item.jtMo6qS47hPx6EbR]{주문 효과: 빠른 적응 (숲)}</li>\n<li><strong> 산</strong> 대상은 등반 시 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프-가드}가 아니며, 잔해 위에서 균형잡기 아크로바틱 체크에서 성공하면 대신 대성공을 얻습니다. @UUID[Compendium.pf2e.spell-effects.Item.sDN9b4bjCGH2nQnG]{주문 효과: 빠른 적응 (산)}</li>\n<li><strong> 평원</strong> 대상이 이동 속도에 +10피트 상태 보너스를 얻습니다. @UUID[Compendium.pf2e.spell-effects.Item.AM49w68oKykc2fHI]{주문 효과: 빠른 적응 (평원)}</li>\n<li><strong> 지하</strong> 대상이 암흑 시야를 얻습니다. @UUID[Compendium.pf2e.spell-effects.Item.0q2716S34XL1y9Hh]{주문 효과: 빠른 적응 (지하)}</li>\n</ul>"
+      "description": "<p>목표물에 주변 지형의 에너지를 쏟아 부어 수 세기에 걸친 진화를 단 한 순간에 압축합니다. 대상은 주변 환경에 따라 다음 중 하나의 자연 적응력을 얻습니다.</p>\n<ul>\n<li><strong>수중</strong> 대상은 육지 속도와 동일한 수영 속도를 얻습니다. 대상에게 이미 헤엄 속도가 있었다면, 헤엄 속도에 +10피트 상태 보너스를 얻습니다. @UUID[Compendium.pf2e.spell-effects.Item.fGK6zJ7mWz9D5QYo]{주문 효과: 빠른 적응 (수중 기본 수영 속도)} 또는 @UUID[Compendium.pf2e.spell-effects.Item.itmiGioGNuVvt4QE]{주문 효과: 빠른 적응(수중 속도 보너스)}</li>\n<li><strong> 북극</strong> 대상은 혹독하거나 극심한 추위에 영향을 받지 않으며, 얼음과 눈 위에서 균형잡기 체크에서 성공하면 대신 대성공을 얻습니다. @UUID[Compendium.pf2e.spell-effects.Item.iiV80Kexj6vPmzqU]{주문 효과: 빠른 적응 (북극)}</li>\n<li><strong> 사막</strong> 대상은 혹독하거나 극심한 더위에 영향을 받지 않으며, 모래 위에서 균형잡기 체크에서 성공하면 대신 대성공을 얻습니다. @UUID[Compendium.pf2e.spell-effects.Item.qo7DoF11Xl9gqmFc]{주문 효과: 빠른 적응 (사막)}</li>\n<li><strong> 숲</strong> 대상은 30피트 범위의 부정확한 감각으로 냄새를 맡습니다. @UUID[Compendium.pf2e.spell-effects.Item.jtMo6qS47hPx6EbR]{주문 효과: 빠른 적응 (숲)}</li>\n<li><strong> 산</strong> 대상은 등반 시 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프-가드}가 아니며, 잔해 위에서 균형잡기 곡예 체크에서 성공하면 대신 대성공을 얻습니다. @UUID[Compendium.pf2e.spell-effects.Item.sDN9b4bjCGH2nQnG]{주문 효과: 빠른 적응 (산)}</li>\n<li><strong> 평원</strong> 대상이 이동 속도에 +10피트 상태 보너스를 얻습니다. @UUID[Compendium.pf2e.spell-effects.Item.AM49w68oKykc2fHI]{주문 효과: 빠른 적응 (평원)}</li>\n<li><strong> 지하</strong> 대상이 암흑 시야를 얻습니다. @UUID[Compendium.pf2e.spell-effects.Item.0q2716S34XL1y9Hh]{주문 효과: 빠른 적응 (지하)}</li>\n</ul>"
     },
     "Animus Mine": {
       "name": "애니머스 광산 (Animus Mine)",
@@ -5462,7 +5462,7 @@
     },
     "Telekinetic Maneuver": {
       "name": "염동 기동 (Telekinetic Maneuver)",
-      "description": "<p>순간적인 염력으로 적이나 적의 소지품을 이동시킵니다. 시도할 수 있습니다 @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{무장 해제}, @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{밀치기}, @UUID[Compendium.pf2e.actionspf2e.Item.lOE4yjUnETTdaf2T]{재배치}, 또는 @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{이동} 운동경기 체크 대신 명령 공격 롤을 사용하여 대상에게 접근합니다.</p>"
+      "description": "<p>순간적인 염력으로 적이나 적의 소지품을 이동시킵니다. 시도할 수 있습니다 @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{무장 해제}, @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{밀치기}, @UUID[Compendium.pf2e.actionspf2e.Item.lOE4yjUnETTdaf2T]{재배치}, 또는 @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{넘어뜨리기} 운동경기 체크 대신 명령 공격 롤을 사용하여 대상에게 접근합니다.</p>"
     },
     "Caster's Imposition": {
       "name": "캐스터의 부과 (Caster's Imposition)",
@@ -5526,7 +5526,7 @@
     },
     "Shooting Star": {
       "name": "슈팅 스타 (Shooting Star)",
-      "description": "<p>투사체를 발사하여 그 뒤에 유성의 타오르는 흔적을 남깁니다. 대상의 은폐된 상태는 무시하고 이 공격에 한해 대상의 엄폐를 1도 감소시켜 원거리 공격을 합니다(향상됨에서 표준으로, 표준에서 낮음으로, 없음에서 향상됨으로). 타격이 적중하면 유성 흔적이 공중에 떠 있습니다. 이렇게 하면 다음 턴이 시작될 때까지 그 생물에게 (누구든) 공격할 때 은폐무효와 엄폐 감소의 이점이 부여됩니다.</p>\n<p data-visibility=\"owner\"><em> 참고: 혼돈의 주문은 주문타격을 새로고침합니다.</em></p>"
+      "description": "<p>투사체를 발사하여 그 뒤에 유성의 타오르는 흔적을 남깁니다. 대상의 은폐된 상태는 무시하고 이 공격에 한해 대상의 엄폐를 1도 감소시켜 원거리 공격을 합니다(향상됨에서 표준으로, 표준에서 낮음으로, 없음에서 향상됨으로). 타격이 적중하면 유성 흔적이 공중에 떠 있습니다. 이렇게 하면 다음 턴이 시작될 때까지 그 생물에게 (누구든) 공격할 때 은폐무효와 엄폐 감소의 이점이 부여됩니다.</p>\n<p data-visibility=\"owner\"><em> 참고: 융합 주문은 주문타격을 새로고침합니다.</em></p>"
     },
     "Invisible Item": {
       "name": "보이지 않는 항목 (Invisible Item)",
@@ -6006,7 +6006,7 @@
     },
     "Cascade Countermeasure": {
       "name": "캐스케이드 대책 (Cascade Countermeasure)",
-      "description": "<p>빠르게 @UUID[Compendium.pf2e.actionspf2e.Item.HbejhIywqIufrmVM]{아케인 연쇄}를 조정하여 마법 보호 효과를 부여합니다. 주문으로 인한 피해에 대한 저항이 5 증가합니다. 정상적으로 다시 아케인 연쇄를 사용하면 자세가 종료되고 주문이 종료됩니다.</p>\n<hr />\n<p><strong>강화 (+3)</strong> 저항이 5 증가합니다.</p>\n<p data-visibility=\"owner\"><em> 참고: 혼돈의 주문은 주문타격을 새로 고칩니다.</em></p>"
+      "description": "<p>빠르게 @UUID[Compendium.pf2e.actionspf2e.Item.HbejhIywqIufrmVM]{아케인 연쇄}를 조정하여 마법 보호 효과를 부여합니다. 주문으로 인한 피해에 대한 저항이 5 증가합니다. 정상적으로 다시 아케인 연쇄를 사용하면 자세가 종료되고 주문이 종료됩니다.</p>\n<hr />\n<p><strong>강화 (+3)</strong> 저항이 5 증가합니다.</p>\n<p data-visibility=\"owner\"><em> 참고: 융합 주문은 주문타격을 새로 고칩니다.</em></p>"
     },
     "Return Beacon": {
       "name": "반환 비콘 (Return Beacon)",
@@ -6102,7 +6102,7 @@
     },
     "Lashing Rope": {
       "name": "채찍질 밧줄 (Lashing Rope)",
-      "description": "<p>밧줄 또는 밧줄과 비슷한 물체가 움직이면서 자신의 사각형로 미끄러져 들어와 자신을 둘러싸고 꼬불꼬불한 섬유로 휘감습니다.</p>\n<p>주문을 시전할 때와 주문을 지속할 때마다 밧줄로 근접 공격을 할 수 있으며, 이는 자신의 다중 공격 패널티에 더해집니다. 이 밧줄 공격은 근접 주문 공격이며, 마법, 범위, 넘어뜨리기 무기 특성을 가지고 있고, 3d6의 베기 피해를 줍니다.</p>\n<p>밧줄을 사용하여 @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Trip} 체크에 치명적으로 실패하면, 이번 턴에 더 이상 밧줄로 공격할 수 없고 다음 턴 시작 전까지 기회 공격에 사용할 수 없게 됩니다. 이것은 넘어짐 대실패의 일반적인 결과를 대체합니다.</p>\n<hr />\n<p><strong>강화(+2)</strong> 밧줄 공격으로 주는 피해가 2d6만큼 증가합니다.</p>"
+      "description": "<p>밧줄 또는 밧줄과 비슷한 물체가 움직이면서 자신의 사각형로 미끄러져 들어와 자신을 둘러싸고 꼬불꼬불한 섬유로 휘감습니다.</p>\n<p>주문을 시전할 때와 주문을 지속할 때마다 밧줄로 근접 공격을 할 수 있으며, 이는 자신의 다중 공격 패널티에 더해집니다. 이 밧줄 공격은 근접 주문 공격이며, 마법, 범위, 넘어뜨리기 무기 특성을 가지고 있고, 3d6의 베기 피해를 줍니다.</p>\n<p>밧줄을 사용하여 @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{넘어뜨리기} 체크에 치명적으로 실패하면, 이번 턴에 더 이상 밧줄로 공격할 수 없고 다음 턴 시작 전까지 기회 공격에 사용할 수 없게 됩니다. 이것은 넘어짐 대실패의 일반적인 결과를 대체합니다.</p>\n<hr />\n<p><strong>강화(+2)</strong> 밧줄 공격으로 주는 피해가 2d6만큼 증가합니다.</p>"
     },
     "Drop Dead": {
       "name": "가사 상태 (Drop Dead)",
