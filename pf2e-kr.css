@@ -1,13 +1,27 @@
-@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap');
+/* ======================================================================== */
+/*  Foundry VTT – Korean UI + Font Awesome 호환 아이콘 + 취소선 문제 해결     */
+/* ======================================================================== */
 
-body, button, input, select, textarea {
+/* ------------------------------------------------------------------------ */
+/* 0. 본문 글꼴 – 한글 + 라틴 계열 혼용                                      */
+/* ------------------------------------------------------------------------ */
+@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap");
+
+body,
+button,
+input,
+select,
+textarea {
   font-family: "Noto Sans KR", "Signika", sans-serif;
   word-break: keep-all;
+  -webkit-font-smoothing: antialiased;
 }
 
-/* 공통 아이콘 기본값 */
-i.fa, .fa, .fas, .far, .fal, .fab,
-.fas::before, .fa::before, .far::before, .fal::before, .fab::before {
+/* ------------------------------------------------------------------------ */
+/* 1. Font Awesome 아이콘 – 클래스 전용 (태그 구분 없음)                     */
+/* ------------------------------------------------------------------------ */
+.fa, .fas, .far, .fal, .fab,
+.fa-solid, .fa-regular, .fa-light, .fa-duotone, .fa-brands {
   font-family:
     "Font Awesome 6 Pro",
     "Font Awesome 6 Free",
@@ -16,24 +30,91 @@ i.fa, .fa, .fas, .far, .fal, .fab,
     "FontAwesome",
     sans-serif !important;
   font-style: normal !important;
+  -webkit-font-smoothing: antialiased;
 }
 
-/* 듀오톤 제외한 스타일별 지정 */
-.fa-solid, .fa-regular, .fa-light {
-  font-family:
-    "Font Awesome 6 Pro",
-    "Font Awesome 6 Free",
-    "FontAwesome",
-    sans-serif !important;
-}
+/* 아이콘 weight 보정 */
+.fas, .fa-solid        { font-weight: 900 !important; } /* Solid */
+.far, .fa-regular      { font-weight: 400 !important; } /* Regular */
+.fal, .fa-light        { font-weight: 300 !important; } /* Light (Pro) */
+.fad, .fa-duotone      { font-weight: 900 !important; } /* Duotone */
+.fab, .fa-brands       { font-weight: 400 !important; } /* Brands */
 
-/* 듀오톤 전용 — 반드시 전용 글꼴 사용 */
+/* Duotone/Brands 전용 폰트 재정의 */
 .fad, .fa-duotone {
   font-family: "Font Awesome 6 Duotone", sans-serif !important;
 }
 
-/* 추가 세분화 */
-.fas, .fa-solid   { font-family:"Font Awesome 6 Free",   sans-serif; } /* 900 */
-.far, .fa-regular { font-family:"Font Awesome 6 Free",   sans-serif; } /* 400 */
-.fal, .fa-light   { font-family:"Font Awesome 6 Pro",    sans-serif; } /* 300 */
-.fab, .fa-brands  { font-family:"Font Awesome 6 Brands", sans-serif; } /* 400 */
+.fab, .fa-brands {
+  font-family: "Font Awesome 6 Brands", sans-serif !important;
+}
+
+/* ::before 가상요소에도 상속 */
+.fa::before, .fas::before, .far::before,
+.fal::before, .fab::before, .fad::before {
+  font-family: inherit;
+  font-style: normal;
+}
+
+/* ------------------------------------------------------------------------ */
+/* 2. 아이콘이 아닌 일반 텍스트(span) 보호: 버튼 내부 텍스트 등             */
+/* ------------------------------------------------------------------------ */
+button span.fa,
+button span.fas,
+button span.far,
+button span.fal,
+button span.fab,
+button span.fa-solid,
+button span.fa-regular,
+button span.fa-light,
+button span.fa-brands,
+button span.fa-duotone {
+  font-family: inherit !important;
+  font-weight: inherit !important;
+}
+
+/* ------------------------------------------------------------------------ */
+/* 3. Foundry 결과 텍스트 스타일 복구 (성공/실패/조정 등)                    */
+/* ------------------------------------------------------------------------ */
+
+/* 공통 텍스트 보호 및 색상 상속 */
+span.success,
+span.failure,
+span.adjusted,
+span.unadjusted,
+span[data-tooltip] {
+  font-family: "Noto Sans KR", "Signika", sans-serif !important;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+/* 조정 전 결과 (취소선 강조) */
+span.unadjusted,
+span.failure.unadjusted {
+  text-decoration: line-through;
+  color: #d00;  /* 실패 계열 강조색 */
+}
+
+/* 조정 후 성공 */
+span.adjusted.success {
+  text-decoration: none;
+  color: #080;
+}
+
+/* 조정 후 대성공 */
+span.adjusted.criticalSuccess {
+  text-decoration: none;
+  color: #006400;
+}
+
+/* 조정 후 실패 */
+span.adjusted.failure {
+  text-decoration: none;
+  color: #b22222;
+}
+
+/* 조정 후 대실패 */
+span.adjusted.criticalFailure {
+  text-decoration: none;
+  color: #8b0000;
+}
