@@ -960,14 +960,6 @@
       "Title": "롤 검사"
     },
     "Check": {
-      
-      // ① 결과 플레이버 ----------------------------------------
-      "ResultFlavor": "결과: {degree}",
-      "ResultFlavorShift": "결과: <s>{before}</s> {after} ({degree})",
-      // Incapacitation 트레잇 라벨(슬러그는 영어 그대로!)
-      "TraitIncapacitation": "무력화",
-
-
       "DC": {
         "Label": {
           "AdjustedTarget": "<opposer>대상: {opposer}</opposer> <dc>({dcType} <preadjusted>{preadjusted}</preadjusted> <adjusted>{adjusted}</adjusted>)</dc>",
@@ -990,7 +982,7 @@
       },
       "Label": "체크",
       "Result": {
-        "AdjustedLabel": "결과: <unadjusted>{unadjusted]</unadjusted> <adjusted>{adjusted]</adjusted> <offset>{offset}으로 조정됨</offset>",
+        "AdjustedLabel": "결과: <unadjusted>{unadjusted}</unadjusted> <adjusted>{adjusted}</adjusted> <offset>{offset}트레잇으로 인해 조정됨</offset>",
         "Degree": {
           "Attack": {
             "criticalFailure": "대실패",
