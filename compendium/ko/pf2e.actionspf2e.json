@@ -359,7 +359,7 @@
     },
     "Heavy is the Crown": {
       "name": "무거운 왕관",
-      "description": "<p>권위의 무게가 당신과 주변 생물들에게 무겁게 내려앉습니다. 60 피트 이내의 @Template[type:burst|distance:15]에 있는 모든 적들은 @Damage[(@actor.level)[spirit]|options:area-damage]{spirit damage damage equal to your level}의 피해를 받고, 당신의 직업 DC에 대한 @Check[will|against:exemplar|basic|options:area-effect] 내성 체크를 합니다. 내성에 실패한 모든 적들은 즉시 무릎을 꿇고 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드린}을 자유 행동으로 떨어뜨립니다.</p>"
+      "description": "<p>권위의 무게가 당신과 주변 생물들에게 무겁게 내려앉습니다. 60 피트 이내의 @Template[burst|distance:15]에 있는 모든 적들은 @Damage[(@actor.level)[spirit]|options:area-damage]{spirit damage damage equal to your level}의 피해를 받고, 당신의 직업 DC에 대한 @Check[will|against:exemplar|basic|options:area-effect] 내성 체크를 합니다. 내성에 실패한 모든 적들은 즉시 무릎을 꿇고 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드린}을 자유 행동으로 떨어뜨립니다.</p>"
     },
     "Reactive Falsehood": {
       "name": "즉각적 허위",
@@ -575,7 +575,7 @@
     },
     "Manifest Realm": {
       "name": "창조 영역",
-      "description": "<p><strong>빈도</strong> 1시간에 한 번</p><hr /><p><strong>효과</strong> 당신은 주변 지역을 당신을 중심으로 @Template[type:burst|distance:20]{20피트 반경의 폭발}의 범위 내에 당신의 영역으로 변형시킵니다. 당신의 창조된 영역은 적들에게 어려운 지형으로 간주되며, 적들은 당신의 창조된 영역에 있는 동안 체력 내성 굴림에 -1의 페널티를 받습니다. </p> <p>@UUID[Compendium.pf2e.feat-effects.Item.VrTaP6BcXo6sizn6]{효과: 영역 창조}</p> <p>다음 라운드에 한 번씩 창조한 영역을 유지할 수 있으며, 유지하지 않으면 창조한 영역의 반경이 5피트씩 감소합니다. 창조된 영역의 반경이 0피트로 줄어들거나 창조된 영역의 경계에서 100피트 이상 멀어지면 창조된 영역은 자동으로 해제됩니다. </p>"
+      "description": "<p><strong>빈도</strong> 1시간에 한 번</p><hr /><p><strong>효과</strong> 당신은 주변 지역을 당신을 중심으로 @Template[burst|distance:20]{20피트 반경의 폭발}의 범위 내에 당신의 영역으로 변형시킵니다. 당신의 창조된 영역은 적들에게 어려운 지형으로 간주되며, 적들은 당신의 창조된 영역에 있는 동안 체력 내성 굴림에 -1의 페널티를 받습니다. </p> <p>@UUID[Compendium.pf2e.feat-effects.Item.VrTaP6BcXo6sizn6]{효과: 영역 창조}</p> <p>다음 라운드에 한 번씩 창조한 영역을 유지할 수 있으며, 유지하지 않으면 창조한 영역의 반경이 5피트씩 감소합니다. 창조된 영역의 반경이 0피트로 줄어들거나 창조된 영역의 경계에서 100피트 이상 멀어지면 창조된 영역은 자동으로 해제됩니다. </p>"
     },
     "Life Block": {
       "name": "라이프 블록",
@@ -1067,7 +1067,7 @@
     },
     "Blazing Conflagration": {
       "name": "불타는 화염",
-      "description": "<p><strong>요건</strong> 이 피트에 의해 부여된 괴물 형태 주문으로 불사조 형태로 변신합니다. @Template[type:burst|distance:10]에 있는 모든 생물은 @Damage[max(16,(2*(floor(@actor.level/2))))d6[fire]|options:area-damage]의 피해를 입으며, 당신의 주문 DC에 대해 @Check[fortitude|against:spell|basic|options:area-effect] 내성을 체크합니다. 대실패한 생물은 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명} 상태가 됩니다. 당신은 8d6의 임시 체력을 얻습니다. 18 레벨과 20 레벨에 도달하면, 폭발은 추가 2d6의 화염 피해를 입히고, 당신은 추가 1d6의 임시 체력을 얻습니다.</p>"
+      "description": "<p><strong>요건</strong> 이 피트에 의해 부여된 괴물 형태 주문으로 불사조 형태로 변신합니다. @Template[burst|distance:10]에 있는 모든 생물은 @Damage[max(16,(2*(floor(@actor.level/2))))d6[fire]|options:area-damage]의 피해를 입으며, 당신의 주문 DC에 대해 @Check[fortitude|against:spell|basic|options:area-effect] 내성을 체크합니다. 대실패한 생물은 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명} 상태가 됩니다. 당신은 8d6의 임시 체력을 얻습니다. 18 레벨과 20 레벨에 도달하면, 폭발은 추가 2d6의 화염 피해를 입히고, 당신은 추가 1d6의 임시 체력을 얻습니다.</p>"
     },
     "Blinding of the Needle": {
       "name": "바늘로 눈을 멀게 하기",
@@ -1075,7 +1075,7 @@
     },
     "Break the Sun's Legs": {
       "name": "태양의 다리를 부러뜨리다",
-      "description": "<p>당신은 횃불이나 하늘의 태양과 같은 가장 밝은 빛의 원천 위로 베는 동작을 합니다. 빛의 원천 위에 모든 이가 볼 수 있는 상처가 생기고, 그 빛을 삼켜버립니다. 당신 주변 @Template[type:burst|distance:120] 범위 내 전체 지역이 9등급 @UUID[Compendium.pf2e.spells-srd.Item.4GE2ZdODgIQtg51c]{Darkness} 마법에 1분 동안 영향을 받습니다. 훔친 빛은 당신의 눈으로 전달되어 효과 지속 동안 어둠 시야가 강화됩니다.</p>"
+      "description": "<p>당신은 횃불이나 하늘의 태양과 같은 가장 밝은 빛의 원천 위로 베는 동작을 합니다. 빛의 원천 위에 모든 이가 볼 수 있는 상처가 생기고, 그 빛을 삼켜버립니다. 당신 주변 @Template[burst|distance:120] 범위 내 전체 지역이 9등급 @UUID[Compendium.pf2e.spells-srd.Item.4GE2ZdODgIQtg51c]{Darkness} 마법에 1분 동안 영향을 받습니다. 훔친 빛은 당신의 눈으로 전달되어 효과 지속 동안 어둠 시야가 강화됩니다.</p>"
     },
     "Drifter's Wake": {
       "name": "드리프터 웨이크",
@@ -1403,7 +1403,7 @@
     },
     "Goblin Jubilee": {
       "name": "고블린 주빌리",
-      "description": "<p><strong>비용</strong> 주입 시약 3배치</p>\n<hr />\n<p><strong>효과</strong> 혼돈이 120피트 내의 @Template[type:burst|distance:20] 을 가득 채웁니다. 범위 내의 모든 생물이@Damage[3d6[fire],3d6[sonic]]{화염 피해 3d6, 음파 피해 3d6}를 받고 인내 저항을 시도해야 합니다. 고블린 주빌리 전시에는 주입된 시약이 1개가 아니라 3개가 필요합니다.</p>\n<hr />\n<p><strong>대성공</strong> 생명체는 영향을 받지 않습니다.</p>\n<p><strong> 성공</strong> 생명체는 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{눈부신} 및 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{귀가 먼}상태이며 절반의 피해를 입습니다.</p>\n<p><strong> 실패</strong> 이 생물은 1분 동안 눈부시고 귀가 멀며 전체 피해를 받습니다.</p>\n<p><strong>대실패</strong> 이 생물은 1라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명}상태가 되어 1분 동안 눈부시고 귀가 먼 상태로 피해를 두 배로 받습니다.</p>"
+      "description": "<p><strong>비용</strong> 주입 시약 3배치</p>\n<hr />\n<p><strong>효과</strong> 혼돈이 120피트 내의 @Template[burst|distance:20] 을 가득 채웁니다. 범위 내의 모든 생물이@Damage[3d6[fire],3d6[sonic]]{화염 피해 3d6, 음파 피해 3d6}를 받고 인내 저항을 시도해야 합니다. 고블린 주빌리 전시에는 주입된 시약이 1개가 아니라 3개가 필요합니다.</p>\n<hr />\n<p><strong>대성공</strong> 생명체는 영향을 받지 않습니다.</p>\n<p><strong> 성공</strong> 생명체는 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{눈부신} 및 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{귀가 먼}상태이며 절반의 피해를 입습니다.</p>\n<p><strong> 실패</strong> 이 생물은 1분 동안 눈부시고 귀가 멀며 전체 피해를 받습니다.</p>\n<p><strong>대실패</strong> 이 생물은 1라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명}상태가 되어 1분 동안 눈부시고 귀가 먼 상태로 피해를 두 배로 받습니다.</p>"
     },
     "Mark the Center": {
       "name": "중심을 표시",
@@ -1583,7 +1583,7 @@
     },
     "Dragon Breath": {
       "name": "드래곤 브레스",
-      "description": "<p><strong>빈도</strong> 한 시간에 한 번</p>\n<hr />\n<p><strong>효과</strong> 숨을 깊게 들이마시고, 계약을 맺은 용처럼 강력한 숨을 선 또는 원뿔 모양으로 내뱉습니다. 드래곤이 원뿔 모양의 호흡 무기를 가졌다면, 당신의 호흡 무기는 @Template[type:cone|distance:30]입니다. 드래곤이 선 모양의 숨결 무기를 가지고 있었다면, 당신의 숨결 무기는 @Template[type:line|distance:60]이 됩니다. 상대가 폭발 형태의 숨결 무기를 가지고 있다면, 당신의 숨결 무기는 60피트 범위 내의 @Template[type:burst|distance:10]이 됩니다. 형태와 상관없이 드래곤의 숨결 무기와 같은 피해 유형인 [[/r (@actor.level)d6]]{레벨당 1d6 피해}를 @Check[type:reflex|dc:resolve(@actor.system.attributes.classOrSpellDC.value)|basic:true] 반사 내성으로 자신의 클래스 DC와 주문 DC 중 더 큰 값으로 사용합니다. 이 액션은 계약을 맺은 드래곤의 숨결 무기와 동일한 특성을 가집니다.</p>"
+      "description": "<p><strong>빈도</strong> 한 시간에 한 번</p>\n<hr />\n<p><strong>효과</strong> 숨을 깊게 들이마시고, 계약을 맺은 용처럼 강력한 숨을 선 또는 원뿔 모양으로 내뱉습니다. 드래곤이 원뿔 모양의 호흡 무기를 가졌다면, 당신의 호흡 무기는 @Template[type:cone|distance:30]입니다. 드래곤이 선 모양의 숨결 무기를 가지고 있었다면, 당신의 숨결 무기는 @Template[type:line|distance:60]이 됩니다. 상대가 폭발 형태의 숨결 무기를 가지고 있다면, 당신의 숨결 무기는 60피트 범위 내의 @Template[burst|distance:10]이 됩니다. 형태와 상관없이 드래곤의 숨결 무기와 같은 피해 유형인 [[/r (@actor.level)d6]]{레벨당 1d6 피해}를 @Check[type:reflex|dc:resolve(@actor.system.attributes.classOrSpellDC.value)|basic:true] 반사 내성으로 자신의 클래스 DC와 주문 DC 중 더 큰 값으로 사용합니다. 이 액션은 계약을 맺은 드래곤의 숨결 무기와 동일한 특성을 가집니다.</p>"
     },
     "Mark for Death": {
       "name": "죽음의 표식",
@@ -1731,7 +1731,7 @@
     },
     "Giant-Felling Comet": {
       "name": "거인 쓰러뜨리는 혜성",
-      "description": "<p>당신은 @UUID[Compendium.pf2e.classfeatures.Item.LC8i3ZJjhhKEHSLI]{Starshot}을 발사하여 60피트 이내의 @Template[type:burst|distance:5] 범위 내에서 폭발을 일으킵니다. 이 영역에 있는 모든 생물은 당신의 직업 DC에 대한 @Check[reflex|against:exemplar|basic|options:area-effect] 내성 굴림에 성공하지 않으면, 스타샷으로 인한 일반 공격 피해와 동일한 영적 피해를 받습니다. 당신보다 큰 생물은 내성 굴림에 -2의 상황 페널티를 받습니다. 이 사격에는 무기에 일반적으로 필요한 모든 탄약이 필요합니다.</p>"
+      "description": "<p>당신은 @UUID[Compendium.pf2e.classfeatures.Item.LC8i3ZJjhhKEHSLI]{Starshot}을 발사하여 60피트 이내의 @Template[burst|distance:5] 범위 내에서 폭발을 일으킵니다. 이 영역에 있는 모든 생물은 당신의 직업 DC에 대한 @Check[reflex|against:exemplar|basic|options:area-effect] 내성 굴림에 성공하지 않으면, 스타샷으로 인한 일반 공격 피해와 동일한 영적 피해를 받습니다. 당신보다 큰 생물은 내성 굴림에 -2의 상황 페널티를 받습니다. 이 사격에는 무기에 일반적으로 필요한 모든 탄약이 필요합니다.</p>"
     },
     "Draconic Frenzy": {
       "name": "드라코닉 광란",

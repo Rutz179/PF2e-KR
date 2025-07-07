@@ -2536,7 +2536,7 @@
     },
     "Basic Red Mantis Magic": {
       "name": "기본 붉은 사마귀 마법",
-      "description": "<p>붉은 사마귀 훈련을 통해 제한된 신성한 마법을 배웠습니다. 주문 시전 활동을 획득합니다. 당신은 준비된 주문 시전자로, 매일 두 개의 칸트립과 한 개의 1급 주문을 준비할 수 있습니다. 이 주문은 마법사와 비슷한 붉은 사마귀 암살자 주문서에서 준비하며, 주문서에는 세 개의 캔트립과 두 개의 1급 주문이 들어 있습니다. 붉은 사마귀 암살자 주문서에 있는 모든 주문은 이 주문과 그 이후의 재주에서 비전 주문 목록에 있는 변신 또는 환영 주문이거나 다음 목록에 있는 주문이어야 합니다: @UUID[Compendium.pf2e.spells-srd.Item.HXhWYJviWalN5tQ2]{천리안}, @UUID[Compendium.pf2e.spells-srd.Item.zvKWclOZ7A53DObE]{투시력}, @UUID[Compendium.pf2e.spells-srd.Item.4GE2ZdODgIQtg51c]{암흑}, @UUID[Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8]{이동}, @UUID[Compendium.pf2e.spells-srd.Item.FhOaQDTSnsY7tiam]{다시쓰기 메모리}, @UUID[Compendium.pf2e.spells-srd.Item.9XHmC2JgTUIQ1CCm]{안개}, @UUID[Compendium.pf2e.spells-srd.Item.DCQHaLrYXMI37dvW]{마비됨}, @UUID[Compendium.pf2e.spells-srd.Item.jwK43yKsHTkJQvQ9]{보이지 않는 것을 본다}, @UUID[Compendium.pf2e.spells-srd.Item.Gb7SeieEvd0pL2Eh]{확률 타격}. 붉은 사마귀 암살자 주문은 일반적인 마법 전통과 상관없이, 획득한 붉은 사마귀 포커스 주문과 마찬가지로 신성한 주문입니다.</p>\n<p>붉은 사마귀 암살자 주문서에서 매일 칸트립과 1급 주문 두 개씩을 준비할 수 있습니다. 당신은 신성한 주문을 시전하기 위해 주문 공격 주사위와 주문 DC를 훈련받았습니다. 이 주문의 주요 주문 시전 능력은 매력입니다.</p>"
+      "description": "<p>붉은 사마귀 훈련을 통해 제한된 신성한 마법을 배웠습니다. 주문 시전 활동을 획득합니다. 당신은 준비된 주문 시전자로, 매일 두 개의 캔트립과 한 개의 1급 주문을 준비할 수 있습니다. 이 주문은 마법사와 비슷한 붉은 사마귀 암살자 주문서에서 준비하며, 주문서에는 세 개의 캔트립과 두 개의 1급 주문이 들어 있습니다. 붉은 사마귀 암살자 주문서에 있는 모든 주문은 이 주문과 그 이후의 재주에서 비전 주문 목록에 있는 변신 또는 환영 주문이거나 다음 목록에 있는 주문이어야 합니다: @UUID[Compendium.pf2e.spells-srd.Item.HXhWYJviWalN5tQ2]{천리안}, @UUID[Compendium.pf2e.spells-srd.Item.zvKWclOZ7A53DObE]{투시력}, @UUID[Compendium.pf2e.spells-srd.Item.4GE2ZdODgIQtg51c]{암흑}, @UUID[Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8]{이동}, @UUID[Compendium.pf2e.spells-srd.Item.FhOaQDTSnsY7tiam]{다시쓰기 메모리}, @UUID[Compendium.pf2e.spells-srd.Item.9XHmC2JgTUIQ1CCm]{안개}, @UUID[Compendium.pf2e.spells-srd.Item.DCQHaLrYXMI37dvW]{마비됨}, @UUID[Compendium.pf2e.spells-srd.Item.jwK43yKsHTkJQvQ9]{보이지 않는 것을 본다}, @UUID[Compendium.pf2e.spells-srd.Item.Gb7SeieEvd0pL2Eh]{확률 타격}. 붉은 사마귀 암살자 주문은 일반적인 마법 전통과 상관없이, 획득한 붉은 사마귀 포커스 주문과 마찬가지로 신성한 주문입니다.</p>\n<p>붉은 사마귀 암살자 주문서에서 매일 캔트립과 1급 주문 두 개씩을 준비할 수 있습니다. 당신은 신성한 주문을 시전하기 위해 주문 공격 주사위와 주문 DC를 훈련받았습니다. 이 주문의 주요 주문 시전 능력은 매력입니다.</p>"
     },
     "Bloodline Perfection": {
       "name": "혈통 완벽성",
@@ -3200,7 +3200,7 @@
     },
     "Rain of Razors": {
       "name": "면도칼의 비",
-      "description": "<p>날카로운 금속 조각이 하늘에서 떨어집니다. 60피트 내의 @Template[type:burst|distance:20] 안에 있는 각 생물은 @Check[type:reflex|dc:resolve(@actor.level -12)/2)+9)d6[슬래싱]|특성:광역 피해]의 피해를 @Damage[(floor((@actor.level -12)/2)+9]로 받고 자신의 클래스 DC에 대한 [@Check] 내성 효과를 받습니다. 면도날이 해당 지역의 모든 지면에 박혀 1분 동안 위험 지형이 됩니다. 이 위험 지형을 통과하는 생물은 이동하는 면적의 제곱만큼 @Damage[(floor((최대(12,@actor.level)-12)/2)+3)[slashing]] 피해를 받습니다.</p>\n<hr />\n<p><strong>레벨 (+2)</strong> 초기 피해는 1d6만큼 증가하고 위험 지형 피해는 1만큼 증가합니다.</p>"
+      "description": "<p>날카로운 금속 조각이 하늘에서 떨어집니다. 60피트 내의 @Template[burst|distance:20] 안에 있는 각 생물은 @Check[type:reflex|dc:resolve(@actor.level -12)/2)+9)d6[슬래싱]|특성:광역 피해]의 피해를 @Damage[(floor((@actor.level -12)/2)+9]로 받고 자신의 클래스 DC에 대한 [@Check] 내성 효과를 받습니다. 면도날이 해당 지역의 모든 지면에 박혀 1분 동안 위험 지형이 됩니다. 이 위험 지형을 통과하는 생물은 이동하는 면적의 제곱만큼 @Damage[(floor((최대(12,@actor.level)-12)/2)+3)[slashing]] 피해를 받습니다.</p>\n<hr />\n<p><strong>레벨 (+2)</strong> 초기 피해는 1d6만큼 증가하고 위험 지형 피해는 1만큼 증가합니다.</p>"
     },
     "Courageous Onslaught": {
       "name": "용감한 맹공격",
@@ -4104,7 +4104,7 @@
     },
     "The Shattered Mountain Weeps": {
       "name": "산산이 부서진 산이 울다",
-      "description": "<p>거대한 바위 구가 폭발하여 떨어지는 파편과 치명적인 파편으로 대재앙을 일으킵니다. 폭발의 파편은 120피트 내의 @Template[type:burst|distance:20] 범위 안에 떨어집니다. 범위 내의 생물은 자신의 클래스 DC에 대한 @Check[type:fortitude|dc:resolve(@actor.attributes.classDC.value)|basic:true] 내성으로 @Damage[9d10[bludgeoning]|특성:범위 피해]의 피해를 받습니다. 실패하면 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드린} 상태가 됩니다. 다음 1분 동안 바위가 계속 떨어지면서 해당 지역을 어려운 지형으로 만들고, 해당 지역에서 자신의 턴이 끝나는 모든 생물에게 @Damage[3d10[bludgeoning]] 피해를 줍니다. 이 충동을 다시 사용하면 이전 충동은 모두 종료됩니다.</p>\n<hr />\n<p><strong>레벨 (20)</strong> 초기 피해는 @Damage[10d10[bludgeoning]], 광역 피해는 @Damage[4d10[bludgeoning]]입니다.</p>"
+      "description": "<p>거대한 바위 구가 폭발하여 떨어지는 파편과 치명적인 파편으로 대재앙을 일으킵니다. 폭발의 파편은 120피트 내의 @Template[burst|distance:20] 범위 안에 떨어집니다. 범위 내의 생물은 자신의 클래스 DC에 대한 @Check[type:fortitude|dc:resolve(@actor.attributes.classDC.value)|basic:true] 내성으로 @Damage[9d10[bludgeoning]|특성:범위 피해]의 피해를 받습니다. 실패하면 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드린} 상태가 됩니다. 다음 1분 동안 바위가 계속 떨어지면서 해당 지역을 어려운 지형으로 만들고, 해당 지역에서 자신의 턴이 끝나는 모든 생물에게 @Damage[3d10[bludgeoning]] 피해를 줍니다. 이 충동을 다시 사용하면 이전 충동은 모두 종료됩니다.</p>\n<hr />\n<p><strong>레벨 (20)</strong> 초기 피해는 @Damage[10d10[bludgeoning]], 광역 피해는 @Damage[4d10[bludgeoning]]입니다.</p>"
     },
     "Sly Striker": {
       "name": "슬라이 스트라이커",
@@ -4588,7 +4588,7 @@
     },
     "Imperial Dragon Potion": {
       "name": "임페리얼 드래곤 물약",
-      "description": "<p>일일 준비 중에 10분을 사용해 일반 특성 외에 코볼트 특성을 가진 변형 <em>에너지 호흡 물약</em>을 만들 수 있습니다. 변형 물약은 제국의 용 마법의 영향을 받아 드래곤의 은인에 해당하는 효과를 부여하며, 숨결의 DC는 직업 DC와 주문 DC 중 더 높은 값을 갖습니다. 이 물약은 다음 일일 준비 시까지 사용하지 않으면 비활성 상태가 되므로, 판매하면 가치가 없습니다.</p><table class=\\\"pf2-table\\\"><thead><tr><th>드래곤</th><th>효과 (내성)</th></tr></thead><tbody><tr><td>숲</td><td>곤충이 @Template[cone|거리 내에 관통 피해를 줍니다:15] (@Check[reflex|against:class-spell])</td></tr><tr><td>바다</td><td>물이 @Template[line|distance:30] 범위에 둔기 피해를 줍니다:class-spell])</td></tr><tr><td>하늘</td><td>번개로 @Template[line|distance:30] 범위에 전기 피해를 줍니다 (@Check[reflex|against:직업- 주문])</td></tr><tr><td>소버린</td><td>사이킥으로 @Template[cone|거리 내에 정신 피해를 줍니다:15] (@Check[will|against:직업 주문])</td></tr><tr><td>언더월드</td><td>화염으로 @Template[cone|거리 내에 화염 피해를 줍니다:15] (@Check[reflex|against:직업 주문])</td></tr></tbody></table></p>\"pf2-table\\\"><thead><tr><th>Dragon</th><th>Effect (Save)</th></tr></thead><tbody><tr><td>Forest</td><td>Insects dealing piercing damage in a @Template[cone|distance:15] (@Check[reflex|against:class-spell])</td></tr><tr><td>Sea</td><td>Water dealing bludgeoning damage in a @Template[line|distance:30] (@Check[reflex|against:class-spell])</td></tr><tr><td>Sky</td><td>Lightning dealing electricity damage in a @Template[line|distance:30] (@Check[reflex|against:class-spell])</td></tr><tr><td>Sovereign</td><td>A psychic roar dealing mental damage in a @Template[cone|distance:15] (@Check[will|against:class-spell])</td></tr><tr><td>Underworld</td><td>Flames that deal fire damage in a @Template[cone|distance:15] (@Check[reflex|against:class-spell])</td></tr></tbody></table>"
+      "description": "<p>일일 준비 중에 10분을 사용해 일반 특성 외에 코볼트 특성을 가진 변형 <em>에너지 호흡 물약</em>을 만들 수 있습니다. 변형 물약은 제국의 용 마법의 영향을 받아 드래곤의 은인에 해당하는 효과를 부여하며, 숨결의 DC는 직업 DC와 주문 DC 중 더 높은 값을 갖습니다. 이 물약은 다음 일일 준비 시까지 사용하지 않으면 비활성 상태가 되므로, 판매하면 가치가 없습니다.</p><table class=\\\"pf2-table\\\"><thead><tr><th>드래곤</th><th>효과 (내성)</th></tr></thead><tbody><tr><td>숲</td><td>곤충이 @Template[cone|distance:15] 내에 관통 피해를 줍니다 (@Check[reflex|against:class-spell])</td></tr><tr><td>바다</td><td>물이 @Template[line|distance:30] 범위에 둔기 피해를 줍니다:class-spell])</td></tr><tr><td>하늘</td><td>번개로 @Template[line|distance:30] 범위에 전기 피해를 줍니다 (@Check[reflex|against:직업- 주문])</td></tr><tr><td>소버린</td><td>사이킥으로 @Template[cone|distance:15] 내에 정신 피해를 줍니다 (@Check[will|against:직업 주문])</td></tr><tr><td>언더월드</td><td>화염으로 @Template[cone|distance:15] 내에 화염 피해를 줍니다 (@Check[reflex|against:직업 주문])</td></tr></tbody></table></p>\"pf2-table\\\"><thead><tr><th>Dragon</th><th>Effect (Save)</th></tr></thead><tbody><tr><td>Forest</td><td>Insects dealing piercing damage in a @Template[cone|distance:15] (@Check[reflex|against:class-spell])</td></tr><tr><td>Sea</td><td>Water dealing bludgeoning damage in a @Template[line|distance:30] (@Check[reflex|against:class-spell])</td></tr><tr><td>Sky</td><td>Lightning dealing electricity damage in a @Template[line|distance:30] (@Check[reflex|against:class-spell])</td></tr><tr><td>Sovereign</td><td>A psychic roar dealing mental damage in a @Template[cone|distance:15] (@Check[will|against:class-spell])</td></tr><tr><td>Underworld</td><td>Flames that deal fire damage in a @Template[cone|distance:15] (@Check[reflex|against:class-spell])</td></tr></tbody></table>"
     },
     "Additional Lore": {
       "name": "추가 지식",
@@ -4968,7 +4968,7 @@
     },
     "Flexible Spellcaster Dedication": {
       "name": "유연한 주문술사 헌신",
-      "description": "<p>이제 하루에 캔트립을 3개에서 4개로 늘릴 수 있습니다. 4 레벨에서는 하루에 칸트립이 4개가 아닌 5개가 주어집니다.</p>"
+      "description": "<p>이제 하루에 캔트립을 3개에서 4개로 늘릴 수 있습니다. 4 레벨에서는 하루에 캔트립이 4개가 아닌 5개가 주어집니다.</p>"
     },
     "Murderous Thorns": {
       "name": "살인 가시",
@@ -5012,7 +5012,7 @@
     },
     "Axuma's Awakening": {
       "name": "악수마의 각성",
-      "description": "<p>비전 주문 목록에서 칸트립을 두 개 선택합니다. 이 칸트립은 의지대로 비전 타고난 주문으로 시전할 수 있습니다. 캔트립은 자신의 레벨을 반올림한 값의 절반에 해당하는 주문 등급으로 강화됩니다. 그런 다음, 비전 주문 목록에서 1등급 주문과 2등급 주문을 하나씩 선택합니다. 이 주문은 각각 하루에 한 번씩 비전 타고난 주문으로 시전할 수 있습니다. 이 재주를 통해 얻는 주문은 내가 사용할 수 있는 일반 주문 또는 주문이어야 합니다.</p>"
+      "description": "<p>비전 주문 목록에서 캔트립을 두 개 선택합니다. 이 캔트립은 의지대로 비전 타고난 주문으로 시전할 수 있습니다. 캔트립은 자신의 레벨을 반올림한 값의 절반에 해당하는 주문 등급으로 강화됩니다. 그런 다음, 비전 주문 목록에서 1등급 주문과 2등급 주문을 하나씩 선택합니다. 이 주문은 각각 하루에 한 번씩 비전 타고난 주문으로 시전할 수 있습니다. 이 재주를 통해 얻는 주문은 내가 사용할 수 있는 일반 주문 또는 주문이어야 합니다.</p>"
     },
     "Amplifying Touch": {
       "name": "증폭 터치",
@@ -5072,7 +5072,7 @@
     },
     "Plum Deluge": {
       "name": "매화 폭발",
-      "description": "<p><strong>요구 조건</strong> 동일한 접촉 독을 3개 이상 보유하고 있습니다.</p>\n<hr />\n<p>당신은 라이벌인 블루 바이퍼의 기술을 모방하여 독으로 특정 지역을 포화시키는 기술을 배웠습니다. 이 능력의 일부로 상호작용하여 같은 접촉 독 약병 세 개를 뽑아 공중에 던지면, 약병이 부서지면서 60피트 내의 @Template[type:burst|distance:20]에게 영향을 미치는 독 홍수를 퍼뜨립니다. 폭발에 포함된 모든 생명체는 자동으로 독에 노출되며, 발병 시간을 무시하고 즉시 해당 독에 대한 내성 굴림을 시도해야 합니다. 독의 종류가 여러 가지이거나 레벨이 다르더라도 세 개의 약병은 동일해야 합니다.</p>"
+      "description": "<p><strong>요구 조건</strong> 동일한 접촉 독을 3개 이상 보유하고 있습니다.</p>\n<hr />\n<p>당신은 라이벌인 블루 바이퍼의 기술을 모방하여 독으로 특정 지역을 포화시키는 기술을 배웠습니다. 이 능력의 일부로 상호작용하여 같은 접촉 독 약병 세 개를 뽑아 공중에 던지면, 약병이 부서지면서 60피트 내의 @Template[burst|distance:20]에게 영향을 미치는 독 홍수를 퍼뜨립니다. 폭발에 포함된 모든 생명체는 자동으로 독에 노출되며, 발병 시간을 무시하고 즉시 해당 독에 대한 내성 굴림을 시도해야 합니다. 독의 종류가 여러 가지이거나 레벨이 다르더라도 세 개의 약병은 동일해야 합니다.</p>"
     },
     "Master Qi Spells": {
       "name": "통달한 기 주문",
@@ -5312,7 +5312,7 @@
     },
     "Simple Crystal Magic": {
       "name": "간단한 크리스탈 마법",
-      "description": "<p>매일 준비 과정의 일부로 10 경험치 이상의 보석 앞에서 명상을 하면, 마법 물체에 대한 정보를 보여주는 흐르는 룬으로 마법을 볼 수 있으며, 자신을 상징하는 개인 룬을 새길 수 있습니다. 읽기 오라 및 인장 주문서를 얻습니다. 이 칸트립은 의지대로 비전 타고난 주문으로 시전할 수 있습니다. 주문은 레벨을 반올림한 값의 절반에 해당하는 주문 등급으로 강화됩니다.</p>"
+      "description": "<p>매일 준비 과정의 일부로 10 경험치 이상의 보석 앞에서 명상을 하면, 마법 물체에 대한 정보를 보여주는 흐르는 룬으로 마법을 볼 수 있으며, 자신을 상징하는 개인 룬을 새길 수 있습니다. 읽기 오라 및 인장 주문서를 얻습니다. 이 캔트립은 의지대로 비전 타고난 주문으로 시전할 수 있습니다. 주문은 레벨을 반올림한 값의 절반에 해당하는 주문 등급으로 강화됩니다.</p>"
     },
     "Walk Through the Conflagration": {
       "name": "불길 속을 걷다",
@@ -5320,7 +5320,7 @@
     },
     "Arcane Tattoos": {
       "name": "아케인 문신",
-      "description": "<p><strong>접속</strong> 바리시안 종족 또는 뉴 타실론 국적</p>\n<hr />\n<p>몸에 고대 타실론의 마법 유파 중 하나에 해당하는 문신이 있습니다. 다음 마법 유파 중 하나를 선택하세요: 제명 (@UUID[Compendium.pf2e.spells-srd.Item.TVKNbcgTee19PXZR]{방패}), 주술 (@UUID[Compendium.pf2e.spells-srd.Item.uZK2BYzPnxUBnDjr]{앵글바인}), 인챈트 (@UUID[Compendium.pf2e.spells-srd.Item.4).gBIw4IDrSfFHik4]{Daze}), 소환(@UUID[Compendium.pf2e.spells-srd.Item.kBhaPuzLUSwS6vVf]{Electric Arc}), 환영(@UUID[Compendium.pf2e.spells-srd.Item.atlgGNI1E1Ox3O3a]{고스트 사운드}), 강령술(@UUID[Compendium.pf2e.spells-srd.Item.mAMEt4FFbdqoRnkN]{보이드 워프}) 또는 변신(@UUID[Compendium.pf2e.spells-srd.Item.AUctDF2fqPZN2w4W]{시길}) 기술을 사용하세요. 괄호 안에 나열된 관련 칸트립을 의지대로 타고난 비전 주문으로 시전할 수 있습니다.</p>"
+      "description": "<p><strong>접속</strong> 바리시안 종족 또는 뉴 타실론 국적</p>\n<hr />\n<p>몸에 고대 타실론의 마법 유파 중 하나에 해당하는 문신이 있습니다. 다음 마법 유파 중 하나를 선택하세요: 제명 (@UUID[Compendium.pf2e.spells-srd.Item.TVKNbcgTee19PXZR]{방패}), 주술 (@UUID[Compendium.pf2e.spells-srd.Item.uZK2BYzPnxUBnDjr]{앵글바인}), 인챈트 (@UUID[Compendium.pf2e.spells-srd.Item.4).gBIw4IDrSfFHik4]{Daze}), 소환(@UUID[Compendium.pf2e.spells-srd.Item.kBhaPuzLUSwS6vVf]{Electric Arc}), 환영(@UUID[Compendium.pf2e.spells-srd.Item.atlgGNI1E1Ox3O3a]{고스트 사운드}), 강령술(@UUID[Compendium.pf2e.spells-srd.Item.mAMEt4FFbdqoRnkN]{보이드 워프}) 또는 변신(@UUID[Compendium.pf2e.spells-srd.Item.AUctDF2fqPZN2w4W]{시길}) 기술을 사용하세요. 괄호 안에 나열된 관련 캔트립을 의지대로 타고난 비전 주문으로 시전할 수 있습니다.</p>"
     },
     "Gorilla Stance": {
       "name": "고릴라 자세",
@@ -5660,7 +5660,7 @@
     },
     "Greater Magical Scholastics": {
       "name": "향상된 마법 스콜라스틱스",
-      "description": "<p>마법의 연구 범위를 넓혀 올바른 길을 찾고, 물체를 감지하고, 부도덕한 라이벌로부터 물체를 은폐할 수 있습니다.</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.41을 시전할 수 있습니다.TZEjhO6D1nWw2X]{오구리}, @UUID[Compendium.pf2e.spells-srd.Item.LQzlKbYjZSMFQawP]{위치}, @UUID[Compendium.pf2e.spells-srd.Item.EoKBlgf6Smt8opaU]{비밀의 베일}을 각각 하루에 한 번 오컬트 고유 주문으로 발동할 수 있습니다. 이 <em>탐지 불가</em> 주문은 물체에만 시전할 수 있으며, 마법 스콜라스틱의 칸트립과 동일한 주문 등급으로 자동 강화됩니다.</p>"
+      "description": "<p>마법의 연구 범위를 넓혀 올바른 길을 찾고, 물체를 감지하고, 부도덕한 라이벌로부터 물체를 은폐할 수 있습니다.</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.41을 시전할 수 있습니다.TZEjhO6D1nWw2X]{오구리}, @UUID[Compendium.pf2e.spells-srd.Item.LQzlKbYjZSMFQawP]{위치}, @UUID[Compendium.pf2e.spells-srd.Item.EoKBlgf6Smt8opaU]{비밀의 베일}을 각각 하루에 한 번 오컬트 고유 주문으로 발동할 수 있습니다. 이 <em>탐지 불가</em> 주문은 물체에만 시전할 수 있으며, 마법 스콜라스틱의 캔트립과 동일한 주문 등급으로 자동 강화됩니다.</p>"
     },
     "Cycle Spell": {
       "name": "사이클 주문",
@@ -6228,7 +6228,7 @@
     },
     "Call Worm Spirit": {
       "name": "웜 스피릿 호출",
-      "description": "<p><strong>빈도</strong> 하루에 한 번</p>\n<hr />\n<p>벌레 영혼의 유령을 불러냅니다. 60피트 이내의 지상의 교차점을 선택하면, 유령 같은 벌레의 아가리가 땅에서 나와 @Template[type:burst|distance:10] 범위 내의 모든 생물을 공격합니다. 해당 영역에 있는 모든 생물은 @Check[type:reflex|dc:resolve(@actor.system.attributes.classOrSpellDC.value)] 내성을 시도해야 합니다.</p>\n<hr />\n<p><strong>대성공</strong> 대상은 영향을 받지 않습니다.</p>\n<p><strong> 성공</strong> 대상은 벌레의 몸에 맞아 @Damage[(1d10+13)[bludgeoning]] 피해를 받습니다.</p>\n<p><strong> 실패</strong> 대상은 벌레에 물려 @Damage[(3d10+15)[piercing]] 피해를 받습니다. 대상은 다음 턴이 끝날 때까지 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{고정된} 상태가 됩니다.</p>\n<p><strong>대실패</strong> 실패로 간주되지만, 피해량이 @Damage[(6d10+30)[bludgeoning]]로 증가하고 대상은 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드린}이 됩니다.</p>\n<hr />\n<p><em>참고: 이 능력에 대한 DC는 페이조에서 제공하지 않았습니다. 위의 버튼은 클래스 또는 주문 DC 중 더 좋은 것을 사용합니다.</em></p>"
+      "description": "<p><strong>빈도</strong> 하루에 한 번</p>\n<hr />\n<p>벌레 영혼의 유령을 불러냅니다. 60피트 이내의 지상의 교차점을 선택하면, 유령 같은 벌레의 아가리가 땅에서 나와 @Template[burst|distance:10] 범위 내의 모든 생물을 공격합니다. 해당 영역에 있는 모든 생물은 @Check[type:reflex|dc:resolve(@actor.system.attributes.classOrSpellDC.value)] 내성을 시도해야 합니다.</p>\n<hr />\n<p><strong>대성공</strong> 대상은 영향을 받지 않습니다.</p>\n<p><strong> 성공</strong> 대상은 벌레의 몸에 맞아 @Damage[(1d10+13)[bludgeoning]] 피해를 받습니다.</p>\n<p><strong> 실패</strong> 대상은 벌레에 물려 @Damage[(3d10+15)[piercing]] 피해를 받습니다. 대상은 다음 턴이 끝날 때까지 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{고정된} 상태가 됩니다.</p>\n<p><strong>대실패</strong> 실패로 간주되지만, 피해량이 @Damage[(6d10+30)[bludgeoning]]로 증가하고 대상은 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드린}이 됩니다.</p>\n<hr />\n<p><em>참고: 이 능력에 대한 DC는 페이조에서 제공하지 않았습니다. 위의 버튼은 클래스 또는 주문 DC 중 더 좋은 것을 사용합니다.</em></p>"
     },
     "Palm-Leaf Silhouette": {
       "name": "야자수 잎 실루엣",
@@ -6660,7 +6660,7 @@
     },
     "Cantrip Casting": {
       "name": "캔트립 캐스팅",
-      "description": "<p>간단한 주문 시전 능력이 증가합니다. 자신의 특성과 일치하는 전통에서 칸트립을 두 개 추가로 얻습니다.</p>"
+      "description": "<p>간단한 주문 시전 능력이 증가합니다. 자신의 특성과 일치하는 전통에서 캔트립을 두 개 추가로 얻습니다.</p>"
     },
     "Practiced Paddler": {
       "name": "연습용 패들러",
@@ -7200,7 +7200,7 @@
     },
     "Loose Cannon": {
       "name": "느슨한 대포",
-      "description": "<p>예측할 수 없는 총격으로 적을 오프-가드하거나 무방비 구역을 공격할 수 있습니다. 이 턴에 아직 공격하지 않은 생물을 대상으로 총기로 원거리 공격을 합니다. 이 공격으로 무기 공격력 주사위 수만큼 공격력에 대한 상황 보너스를 얻습니다. 공격은 다음과 같은 실패 효과를 얻습니다.</p>\n<hr />\n<p><strong>실패</strong> 총기가 불발하지만, 아래에 나열된 다른 대실패 효과는 발생하지 않습니다.</p>\n<p><strong> 대실패</strong> 총기가 불발하고 폭발합니다. 총기는 부러진 상태로, 총기를 중심으로 @Template[type:burst|distance:20] 내의 모든 생물에게 일반 무기 피해를 입히고, 자신의 클래스 DC에 대해 @Check[type:reflex|dc:resolve(@actor.attributes.classDC.value)|basic:true]를 적용합니다. 이 피해에는 무기의 기본 룬과 속성 룬으로 인한 피해가 모두 포함됩니다.</p>"
+      "description": "<p>예측할 수 없는 총격으로 적을 오프-가드하거나 무방비 구역을 공격할 수 있습니다. 이 턴에 아직 공격하지 않은 생물을 대상으로 총기로 원거리 공격을 합니다. 이 공격으로 무기 공격력 주사위 수만큼 공격력에 대한 상황 보너스를 얻습니다. 공격은 다음과 같은 실패 효과를 얻습니다.</p>\n<hr />\n<p><strong>실패</strong> 총기가 불발하지만, 아래에 나열된 다른 대실패 효과는 발생하지 않습니다.</p>\n<p><strong> 대실패</strong> 총기가 불발하고 폭발합니다. 총기는 부러진 상태로, 총기를 중심으로 @Template[burst|distance:20] 내의 모든 생물에게 일반 무기 피해를 입히고, 자신의 클래스 DC에 대해 @Check[type:reflex|dc:resolve(@actor.attributes.classDC.value)|basic:true]를 적용합니다. 이 피해에는 무기의 기본 룬과 속성 룬으로 인한 피해가 모두 포함됩니다.</p>"
     },
     "Skeptic's Defense": {
       "name": "회의론자의 방어",
@@ -7492,7 +7492,7 @@
     },
     "Impenetrable Fog": {
       "name": "뚫을 수 없는 안개",
-      "description": "<p>안개가 혼란스럽고 소용돌이치는 패턴으로 응축되어 플레이어를 밀어내는 것처럼 보일 정도로 짙어집니다. 120피트 이내의 @Template[type:burst|distance:10] 범위에서 안개 은행을 소환합니다. 안개 속 모든 생물이 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진} 상태가 되며, 안개 바깥의 모든 생물이 안개 속 생물에게 은폐됩니다. 안개는 마법처럼 짙어 이동을 방해하여 이 지역을 어려운 지형으로 만듭니다. 안개는 다음 턴이 끝날 때까지 지속되며, 충동은 최대 1분까지 지속할 수 있습니다.</p>\n<hr />\n<p><strong>레벨 (+3)</strong> 폭발의 반경을 더 크게 만들 수 있습니다. 최대 크기가 5피트 증가합니다.</p>"
+      "description": "<p>안개가 혼란스럽고 소용돌이치는 패턴으로 응축되어 플레이어를 밀어내는 것처럼 보일 정도로 짙어집니다. 120피트 이내의 @Template[burst|distance:10] 범위에서 안개 은행을 소환합니다. 안개 속 모든 생물이 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진} 상태가 되며, 안개 바깥의 모든 생물이 안개 속 생물에게 은폐됩니다. 안개는 마법처럼 짙어 이동을 방해하여 이 지역을 어려운 지형으로 만듭니다. 안개는 다음 턴이 끝날 때까지 지속되며, 충동은 최대 1분까지 지속할 수 있습니다.</p>\n<hr />\n<p><strong>레벨 (+3)</strong> 폭발의 반경을 더 크게 만들 수 있습니다. 최대 크기가 5피트 증가합니다.</p>"
     },
     "Tree's Ward": {
       "name": "나무의 병동",
@@ -7652,7 +7652,7 @@
     },
     "Scatter Blast": {
       "name": "산란 폭발",
-      "description": "<p><strong>요구 조건</strong> 장전된 총기 중 산란 특성이 있는 총기를 휘두르고 있습니다.</p>\n<hr />\n<p>무기에 탄환과 화약을 추가로 장전하여 위험하지만 파괴적인 파괴의 물결을 일으킵니다. 총기로 원거리 공격을 가합니다. 총기의 사거리가 20피트 증가하고 산란 반경이 20피트 증가합니다. 타격은 다음과 같은 실패 조건을 얻습니다.</p>\n<p><strong> 실패</strong> 총기가 불발하지만 아래에 나열된 다른 대실패 효과는 발생하지 않습니다.</p>\n<p><strong> 대실패</strong> 총기가 불발하고 폭발합니다. 무기는 부러진 채로 총기를 중심으로 @Template[type:burst|distance:20] 내의 모든 생물에게 일반 무기 피해를 입히고, 자신의 클래스 DC에 대한 기본 반사 저감 효과를 줍니다. 이 피해에는 무기의 기본 룬과 속성 룬이 주는 피해가 모두 포함됩니다.</p>"
+      "description": "<p><strong>요구 조건</strong> 장전된 총기 중 산란 특성이 있는 총기를 휘두르고 있습니다.</p>\n<hr />\n<p>무기에 탄환과 화약을 추가로 장전하여 위험하지만 파괴적인 파괴의 물결을 일으킵니다. 총기로 원거리 공격을 가합니다. 총기의 사거리가 20피트 증가하고 산란 반경이 20피트 증가합니다. 타격은 다음과 같은 실패 조건을 얻습니다.</p>\n<p><strong> 실패</strong> 총기가 불발하지만 아래에 나열된 다른 대실패 효과는 발생하지 않습니다.</p>\n<p><strong> 대실패</strong> 총기가 불발하고 폭발합니다. 무기는 부러진 채로 총기를 중심으로 @Template[burst|distance:20] 내의 모든 생물에게 일반 무기 피해를 입히고, 자신의 클래스 DC에 대한 기본 반사 저감 효과를 줍니다. 이 피해에는 무기의 기본 룬과 속성 룬이 주는 피해가 모두 포함됩니다.</p>"
     },
     "Quick Stow (Ratfolk)": {
       "name": "빠른 보관(쥐족)",
@@ -8424,7 +8424,7 @@
     },
     "Impossible Volley": {
       "name": "임파서블 발리",
-      "description": "<p><strong>요구 조건</strong> 발리 특성이 있는 원거리 무기를 휘두르고 있으며 재장전 횟수가 0입니다.</p>\n<hr />\n<p>일정 범위의 모든 적에게 발리를 발사합니다. 무기의 발리 사거리를 중심으로 @Template[type:burst|distance:10] 안에 있는 모든 적에게 -2의 페널티를 주는 공격을 한 번 합니다. 모든 대상에게 한 번만 피해를 줍니다.</p>\n<p>각 공격은 다중 공격 페널티에 포함되지만, 모든 공격을 할 때까지 페널티를 늘리지 마십시오.</p>"
+      "description": "<p><strong>요구 조건</strong> 발리 특성이 있는 원거리 무기를 휘두르고 있으며 재장전 횟수가 0입니다.</p>\n<hr />\n<p>일정 범위의 모든 적에게 발리를 발사합니다. 무기의 발리 사거리를 중심으로 @Template[burst|distance:10] 안에 있는 모든 적에게 -2의 페널티를 주는 공격을 한 번 합니다. 모든 대상에게 한 번만 피해를 줍니다.</p>\n<p>각 공격은 다중 공격 페널티에 포함되지만, 모든 공격을 할 때까지 페널티를 늘리지 마십시오.</p>"
     },
     "Progenitor Lore": {
       "name": "선조 지식",
@@ -8620,7 +8620,7 @@
     },
     "Pit of Snakes": {
       "name": "뱀의 구덩이",
-      "description": "<p>평범한 뱀이 당신의 소환에 복종합니다. 꿈틀거리는 뱀 덩어리를 불러내 손을 들어 뱀이 120피트 이내의 @Template[type:burst|distance:20] 범위에서 땅에서 나오게 합니다. 뱀은 해당 구역의 모든 사각형 바닥에 나타나 1분 동안 지속됩니다. 뱀의 구덩이를 사용할 때, 해당 지역의 모든 생물은 자신의 클래스 DC와 주문 DC 중 높은 수치에 대해 @Check[type:fortitude|dc:resolve(@actor.attributes.classOrSpellDC.value)|특성:피해 효과] 내성을 시도해야 합니다. 실패한 모든 생물은 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 뱀에게 @Damage[3d6[bludgeoning]] 피해를 받습니다. 해당 지역에서 생물의 턴이 끝날 때마다, 뱀은 이미 잡혀 있지 않은 생물이 있다면 그 생물을 잡으려고 시도합니다. 대신 이미 잡힌 생물은 @Damage[2d6[bludgeoning]] 피해를 받습니다.</p>\n<p>뱀의 @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape}. DC는 클래스 DC와 주문 DC 중 높은 값과 같습니다. 생물은 뱀의 손아귀를 풀기 위해 뱀을 공격할 수 있습니다. 뱀의 AC는 당신의 클래스 DC와 주문 DC 중 더 높은 값과 같으며, 12 이상의 피해를 받으면 파괴됩니다. 특정 뱀이 파괴되더라도 지속 시간이 끝날 때까지 해당 구역에 추가 뱀이 계속 포위망을 형성합니다. 효과를 해제할 수 있습니다.</p>"
+      "description": "<p>평범한 뱀이 당신의 소환에 복종합니다. 꿈틀거리는 뱀 덩어리를 불러내 손을 들어 뱀이 120피트 이내의 @Template[burst|distance:20] 범위에서 땅에서 나오게 합니다. 뱀은 해당 구역의 모든 사각형 바닥에 나타나 1분 동안 지속됩니다. 뱀의 구덩이를 사용할 때, 해당 지역의 모든 생물은 자신의 클래스 DC와 주문 DC 중 높은 수치에 대해 @Check[type:fortitude|dc:resolve(@actor.attributes.classOrSpellDC.value)|특성:피해 효과] 내성을 시도해야 합니다. 실패한 모든 생물은 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 뱀에게 @Damage[3d6[bludgeoning]] 피해를 받습니다. 해당 지역에서 생물의 턴이 끝날 때마다, 뱀은 이미 잡혀 있지 않은 생물이 있다면 그 생물을 잡으려고 시도합니다. 대신 이미 잡힌 생물은 @Damage[2d6[bludgeoning]] 피해를 받습니다.</p>\n<p>뱀의 @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape}. DC는 클래스 DC와 주문 DC 중 높은 값과 같습니다. 생물은 뱀의 손아귀를 풀기 위해 뱀을 공격할 수 있습니다. 뱀의 AC는 당신의 클래스 DC와 주문 DC 중 더 높은 값과 같으며, 12 이상의 피해를 받으면 파괴됩니다. 특정 뱀이 파괴되더라도 지속 시간이 끝날 때까지 해당 구역에 추가 뱀이 계속 포위망을 형성합니다. 효과를 해제할 수 있습니다.</p>"
     },
     "Disruptive Stance": {
       "name": "파괴적 자세",
@@ -8984,7 +8984,7 @@
     },
     "Demon's Hair": {
       "name": "악마의 머리카락",
-      "description": "<p>머리카락이 라이벌인 수탁화처럼 끊임없이 꿈틀거리며 몸부림칩니다. 비무장 상태의 머리카락이 주는 피해량이 한 단계 증가하고, 도달 범위와 다용도 베기 특성을 얻습니다. 패밀리어가 머리카락을 부분적으로 제어하며, 패밀리어가 살아 있고 30피트 이내에 있는 한 영구적으로 신속해지며, 추가 액션을 사용하여 머리카락 타격만 할 수 있습니다.</p>\n<p>머리카락을 통해 주술을 전달할 수 있습니다. 시전하는 데 2개 이상의 액션이 필요하고 주문 공격 굴림이 필요 없는 비칸트립 마법을 성공적으로 시전했을 때, 대상이 당신의 범위 내에 있다면 주문 시전 활동의 일부로 마법의 효과를 적용하기 전에 머리카락을 타격할 수 있습니다. 이 타격이 빗나가면 주문은 효과가 없습니다.</p>\n<p><strong> 특수</strong> 머리카락에 이미 도달 특성이 있는 경우, 대신 휩쓸기 특성을 얻습니다.</p>"
+      "description": "<p>머리카락이 라이벌인 수탁화처럼 끊임없이 꿈틀거리며 몸부림칩니다. 비무장 상태의 머리카락이 주는 피해량이 한 단계 증가하고, 도달 범위와 다용도 베기 특성을 얻습니다. 패밀리어가 머리카락을 부분적으로 제어하며, 패밀리어가 살아 있고 30피트 이내에 있는 한 영구적으로 신속해지며, 추가 액션을 사용하여 머리카락 타격만 할 수 있습니다.</p>\n<p>머리카락을 통해 주술을 전달할 수 있습니다. 시전하는 데 2개 이상의 액션이 필요하고 주문 공격 굴림이 필요 없는 비캔트립 마법을 성공적으로 시전했을 때, 대상이 당신의 범위 내에 있다면 주문 시전 활동의 일부로 마법의 효과를 적용하기 전에 머리카락을 타격할 수 있습니다. 이 타격이 빗나가면 주문은 효과가 없습니다.</p>\n<p><strong> 특수</strong> 머리카락에 이미 도달 특성이 있는 경우, 대신 휩쓸기 특성을 얻습니다.</p>"
     },
     "Gruesome Strike": {
       "name": "그루썸 스트라이크",
@@ -9132,7 +9132,7 @@
     },
     "Otherworldly Magic": {
       "name": "다른 세계의 마법",
-      "description": "<p>정식으로 마법을 훈련받지 않았더라도 엘프 마법은 간단한 비전 주문으로 나타납니다. 비전 주문 목록에서 칸트립 하나를 선택합니다. 이 칸트립은 마음대로 비전 타고난 주문으로 시전할 수 있습니다. 주문은 자신의 레벨을 반올림한 값의 절반에 해당하는 주문 등급으로 강화됩니다.</p>"
+      "description": "<p>정식으로 마법을 훈련받지 않았더라도 엘프 마법은 간단한 비전 주문으로 나타납니다. 비전 주문 목록에서 캔트립 하나를 선택합니다. 이 캔트립은 마음대로 비전 타고난 주문으로 시전할 수 있습니다. 주문은 자신의 레벨을 반올림한 값의 절반에 해당하는 주문 등급으로 강화됩니다.</p>"
     },
     "Dissolution's Sovereignty": {
       "name": "해산의 주권",
@@ -9208,7 +9208,7 @@
     },
     "Surrounding Flames": {
       "name": "주변 화염",
-      "description": "<p>화염의 벽}을 시전하면 다음과 같이 기본 효과를 수정할 수 있습니다: 5피트 두께, 반경 10피트 화염의 고리 대신 @Template[type:burst|distance:10]{반경 10피트} 불의 반구로 벽을 형성할 수 있습니다.</p>"
+      "description": "<p>화염의 벽}을 시전하면 다음과 같이 기본 효과를 수정할 수 있습니다: 5피트 두께, 반경 10피트 화염의 고리 대신 @Template[burst|distance:10]{반경 10피트} 불의 반구로 벽을 형성할 수 있습니다.</p>"
     },
     "Orc Ferocity": {
       "name": "오크 포악성",
@@ -11256,7 +11256,7 @@
     },
     "Treacherous Earth": {
       "name": "위험한 지구",
-      "description": "<p><strong>빈도</strong> 10분에 한 번</p>\n<hr />\n<p>대지를 자신이 고안한 모양으로 부서뜨리는 힘을 가집니다. 자신의 공간 한 구석을 중심으로 @Template[type:burst|distance:5]의 지형을 만들어 지하의 땅을 깨뜨려 어려운 지형을 만듭니다.</p>"
+      "description": "<p><strong>빈도</strong> 10분에 한 번</p>\n<hr />\n<p>대지를 자신이 고안한 모양으로 부서뜨리는 힘을 가집니다. 자신의 공간 한 구석을 중심으로 @Template[burst|distance:5]의 지형을 만들어 지하의 땅을 깨뜨려 어려운 지형을 만듭니다.</p>"
     },
     "Ancestral Weaponry": {
       "name": "조상 무기",
@@ -12160,7 +12160,7 @@
     },
     "Augment Senses": {
       "name": "감각 증강",
-      "description": "<p>당신은 흔적의 눈을 뜨거나 고막의 피부 덮개를 펼치거나 다른 방식으로 감각을 강화합니다. 다음 턴이 시작될 때까지 다음과 같은 혜택을 얻습니다: 측면 공격을 받을 수 없고, 생물을 찾을 때 일반 영역 대신 @Template[type:cone|distance:60] 또는 @Template[type:burst|distance:30]을 스캔할 수 있으며, 숨겨진 물건을 찾을 때 일반 영역 대신 15피트 정사각형을 검색할 수 있습니다.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.JwDCoBIwyhOFnDGZ]{Effect: 감각 증강}</p>"
+      "description": "<p>당신은 흔적의 눈을 뜨거나 고막의 피부 덮개를 펼치거나 다른 방식으로 감각을 강화합니다. 다음 턴이 시작될 때까지 다음과 같은 혜택을 얻습니다: 측면 공격을 받을 수 없고, 생물을 찾을 때 일반 영역 대신 @Template[type:cone|distance:60] 또는 @Template[burst|distance:30]을 스캔할 수 있으며, 숨겨진 물건을 찾을 때 일반 영역 대신 15피트 정사각형을 검색할 수 있습니다.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.JwDCoBIwyhOFnDGZ]{Effect: 감각 증강}</p>"
     },
     "Spiritual Headhunter": {
       "name": "영적 헤드헌터",
@@ -12260,7 +12260,7 @@
     },
     "Winter's Clutch": {
       "name": "윈터스 클러치",
-      "description": "<p>60피트 이내에 빛나는 차가운 눈 조각이 @Template[type:burst|distance:10] 범위 내에 떨어집니다. 해당 구역에 있는 모든 생물이 자신의 클래스 DC에 대한 @Check[type:reflex|dc:resolve(@actor.system.proficiencies.classDCs.kineticist.dc)|basic:true] 저항로 @Damage[(floor((@actor.level -1)/2)+2)d4[cold]|traits:area-damage]의 피해를 받습니다. 이 지역의 땅은 눈 더미로 덮여 있어 어려운 지형입니다. 눈 더미의 각 사각형은 자연적으로 녹을 때까지 또는 해당 사각형에 화염 피해가 발생할 때까지 지속됩니다.</p>\n<hr />\n<p><strong>레벨 (+2)</strong> 피해가 1d4만큼 증가합니다.</p>"
+      "description": "<p>60피트 이내에 빛나는 차가운 눈 조각이 @Template[burst|distance:10] 범위 내에 떨어집니다. 해당 구역에 있는 모든 생물이 자신의 클래스 DC에 대한 @Check[type:reflex|dc:resolve(@actor.system.proficiencies.classDCs.kineticist.dc)|basic:true] 저항로 @Damage[(floor((@actor.level -1)/2)+2)d4[cold]|traits:area-damage]의 피해를 받습니다. 이 지역의 땅은 눈 더미로 덮여 있어 어려운 지형입니다. 눈 더미의 각 사각형은 자연적으로 녹을 때까지 또는 해당 사각형에 화염 피해가 발생할 때까지 지속됩니다.</p>\n<hr />\n<p><strong>레벨 (+2)</strong> 피해가 1d4만큼 증가합니다.</p>"
     },
     "Junk Tinker": {
       "name": "정크 팅커",
@@ -12324,7 +12324,7 @@
     },
     "Basic Summoner Spellcasting": {
       "name": "기본 소환사 주문 시전",
-      "description": "<p>UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.TwSQ0VPXZL0mfPez#basic-bounded-spellcasting-feat]{기본 제한 주문 캐스팅 재주} 혜택을 획득합니다. 주문 시전 활동을 얻습니다. 소환사 원형 주문의 주요 주문 시전 능력은 매력이며, 이 주문은 에이돌론의 전통에 따른 소환사 주문입니다. 당신은 해당 전통의 주문 공격 굴림과 주문 DC에 대해 훈련받습니다. 주문 목록와 두 개의 칸트립을 얻습니다. 소환사 원형에서 새로운 등급의 주문 슬롯을 얻을 때마다, 해당 등급 이하의 주문을 자신의 주문 목록에 추가합니다. 특정 등급의 주문 슬롯을 잃을 때마다 해당 주문을 목록에서 제거합니다.</p>"
+      "description": "<p>UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.TwSQ0VPXZL0mfPez#basic-bounded-spellcasting-feat]{기본 제한 주문 캐스팅 재주} 혜택을 획득합니다. 주문 시전 활동을 얻습니다. 소환사 원형 주문의 주요 주문 시전 능력은 매력이며, 이 주문은 에이돌론의 전통에 따른 소환사 주문입니다. 당신은 해당 전통의 주문 공격 굴림과 주문 DC에 대해 훈련받습니다. 주문 목록와 두 개의 캔트립을 얻습니다. 소환사 원형에서 새로운 등급의 주문 슬롯을 얻을 때마다, 해당 등급 이하의 주문을 자신의 주문 목록에 추가합니다. 특정 등급의 주문 슬롯을 잃을 때마다 해당 주문을 목록에서 제거합니다.</p>"
     },
     "Beacon Mark": {
       "name": "비콘 마크",
@@ -13044,7 +13044,7 @@
     },
     "Wildborn Magic": {
       "name": "야생의 마법",
-      "description": "<p><strong>접속</strong> 무알리재 민족</p>\n<hr />\n<p>당신은 야생의 오래된 마법에 접근하는 법을 배웠습니다. 원시 주문 목록에서 칸트립을 하나 선택합니다. 이 칸트립은 의지대로 타고난 원시 주문으로 시전할 수 있습니다. 캔트립은 자신의 레벨 반올림에 해당하는 주문 등급으로 강화됩니다.</p>"
+      "description": "<p><strong>접속</strong> 무알리재 민족</p>\n<hr />\n<p>당신은 야생의 오래된 마법에 접근하는 법을 배웠습니다. 원시 주문 목록에서 캔트립을 하나 선택합니다. 이 캔트립은 의지대로 타고난 원시 주문으로 시전할 수 있습니다. 캔트립은 자신의 레벨 반올림에 해당하는 주문 등급으로 강화됩니다.</p>"
     },
     "Foolproof Instructions": {
       "name": "완벽한 지침",
@@ -13628,7 +13628,7 @@
     },
     "Secondary Detonation Array": {
       "name": "보조 폭발 어레이",
-      "description": "<p>주문의 에너지 일부를 불안정한 룬 배열로 전환합니다. 다음 액션이 피해를 입히고 지속시간이 없으며 특정 지역에 영향을 주는 주문을 시전하는 것이면, 해당 지역 내에 빛나는 마법 원이 @Template[type:burst|distance:5] 안에 나타납니다. 다음 턴이 시작될 때 원이 폭발하여 원 안에 있는 모든 생물에게 주문 등급당 @Damage[1d6[force]] 피해를 입히고, 주문 DC에 대한 기본 반사저항을 얻습니다. 주문이 다른 유형의 피해를 주는 경우, 원은 대신 해당 유형의 피해를 줍니다(주문이 여러 유형의 피해를 줄 수 있는 경우 선택한 한 유형).</p>"
+      "description": "<p>주문의 에너지 일부를 불안정한 룬 배열로 전환합니다. 다음 액션이 피해를 입히고 지속시간이 없으며 특정 지역에 영향을 주는 주문을 시전하는 것이면, 해당 지역 내에 빛나는 마법 원이 @Template[burst|distance:5] 안에 나타납니다. 다음 턴이 시작될 때 원이 폭발하여 원 안에 있는 모든 생물에게 주문 등급당 @Damage[1d6[force]] 피해를 입히고, 주문 DC에 대한 기본 반사저항을 얻습니다. 주문이 다른 유형의 피해를 주는 경우, 원은 대신 해당 유형의 피해를 줍니다(주문이 여러 유형의 피해를 줄 수 있는 경우 선택한 한 유형).</p>"
     },
     "Disciple's Breath": {
       "name": "제자의 숨결",
@@ -13788,7 +13788,7 @@
     },
     "Sacred Ground": {
       "name": "신성한 땅",
-      "description": "<p><strong>빈도</strong> 10분에 한 번</p>\n<hr />\n<p>1분 동안 지속적으로 기도를 통해 자신을 중심으로 @Template[type:burst|distance:30] 너머에 있는 신계의 미묘한 그림자를 불러옵니다. 이 효과는 10분 동안 지속되며, 10분 동안 해당 영역에 남아 있는 생물은 자신의 레벨만큼 HP를 회복합니다. 치유 글꼴을 가지고 있다면, 이 활동은 치유 및 활력 특성을 가지며 생명체를 치유합니다. 해로운 글꼴을 가지고 있다면, 이 활동은 치유 및 공허 특성을 가지며 언데드 생물(또는 공허 치유가 있는 다른 생물)을 치유합니다. 다재다능한 글꼴을 가진 성직자는 둘 중 하나 또는 둘 다 선택할 수 있습니다. 어떤 경우에도 생물에게 피해를 줄 수 없습니다.</p>"
+      "description": "<p><strong>빈도</strong> 10분에 한 번</p>\n<hr />\n<p>1분 동안 지속적으로 기도를 통해 자신을 중심으로 @Template[burst|distance:30] 너머에 있는 신계의 미묘한 그림자를 불러옵니다. 이 효과는 10분 동안 지속되며, 10분 동안 해당 영역에 남아 있는 생물은 자신의 레벨만큼 HP를 회복합니다. 치유 글꼴을 가지고 있다면, 이 활동은 치유 및 활력 특성을 가지며 생명체를 치유합니다. 해로운 글꼴을 가지고 있다면, 이 활동은 치유 및 공허 특성을 가지며 언데드 생물(또는 공허 치유가 있는 다른 생물)을 치유합니다. 다재다능한 글꼴을 가진 성직자는 둘 중 하나 또는 둘 다 선택할 수 있습니다. 어떤 경우에도 생물에게 피해를 줄 수 없습니다.</p>"
     },
     "Daring Act": {
       "name": "대담한 행동",
@@ -14376,7 +14376,7 @@
     },
     "Uplifting Overture": {
       "name": "고양되는 서곡",
-      "description": "<p>아군에게 영감을 주는 연주로 아군의 기술을 보조하는 @UUID[Compendium.pf2e.spells-srd.Item.f0Z5mqGA6Yu79B8x]{기운찬 서곡} 작곡 칸트립을 배웁니다.</p>"
+      "description": "<p>아군에게 영감을 주는 연주로 아군의 기술을 보조하는 @UUID[Compendium.pf2e.spells-srd.Item.f0Z5mqGA6Yu79B8x]{기운찬 서곡} 작곡 캔트립을 배웁니다.</p>"
     },
     "Dormant Eruption": {
       "name": "휴면 분출",
@@ -14696,7 +14696,7 @@
     },
     "Bone Magic": {
       "name": "본 매직",
-      "description": "<p>이룩시 조상과의 연결은 조상의 뼈 조각을 사용하여 발동하는 간단한 원시 주문으로 나타납니다. 원시 주문 목록에서 칸트립 하나를 선택합니다. 이 칸트립은 의지대로 원시 타고난 주문으로 시전할 수 있으며, 레벨을 반올림한 값의 절반에 해당하는 주문 등급으로 강화됩니다.</p>"
+      "description": "<p>이룩시 조상과의 연결은 조상의 뼈 조각을 사용하여 발동하는 간단한 원시 주문으로 나타납니다. 원시 주문 목록에서 캔트립 하나를 선택합니다. 이 캔트립은 의지대로 원시 타고난 주문으로 시전할 수 있으며, 레벨을 반올림한 값의 절반에 해당하는 주문 등급으로 강화됩니다.</p>"
     },
     "Wave Spiral": {
       "name": "웨이브 나선형",
@@ -14820,7 +14820,7 @@
     },
     "Infinite Expanse of Bluest Heaven": {
       "name": "푸른 하늘의 무한한 확장",
-      "description": "<p>끝없이 펼쳐진 무한한 창공과 믿을 수 없을 정도로 푸른 하늘의 환영이 그 안에 있는 모든 이들을 영원히 추락하는 듯한 느낌으로 만듭니다. 환영은 100피트 이내의 @Template[type:burst|distance:20] 범위에서 나타납니다. 환영은 다음 턴이 끝날 때까지 지속되지만, 최대 1분까지 지속할 수 있습니다. 이 충동을 다시 사용하면 이전 충동이 종료됩니다. 해당 지역에 있거나 나중에 해당 지역에 들어오는 모든 생물은 자신의 클래스 DC에 대해 [@Check[type:will|dc:resolve(@actor.시스템.전문성.클래스DCs.키네티니스트.DC)] 내성을 시도해야 합니다. 공기 특성을 가진 생물은 면역입니다. 환영의 모든 효과는 생물이 환영의 영역을 벗어나거나 충동이 종료되는 즉시 종료되며, 그 후 1시간 동안 일시적으로 면역이 됩니다.</p>\n<hr />\n<p><strong>대성공</strong> 이 생물은 영향을 받지 않습니다.</p>\n<p><strong> 성공</strong> 이 생물은 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프-가드}입니다.</p>\n<p><strong> 실패</strong> 이 생물은 오프-가드 상태입니다. 이 생물은 환영의 하늘에서 @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{도주} 상태이지만, 방향 감각을 잃은 상태이므로 도주를 시도할 때마다 @Check[type:flat|dc:11]에 성공하거나 환영 안에 있는 공간으로 도망쳐야 합니다. 괴물이 어디로 갈지는 GM이 결정하지만, 괴물이 움직일 수 있다면 고정된 채로 있을 수는 없습니다.</p>"
+      "description": "<p>끝없이 펼쳐진 무한한 창공과 믿을 수 없을 정도로 푸른 하늘의 환영이 그 안에 있는 모든 이들을 영원히 추락하는 듯한 느낌으로 만듭니다. 환영은 100피트 이내의 @Template[burst|distance:20] 범위에서 나타납니다. 환영은 다음 턴이 끝날 때까지 지속되지만, 최대 1분까지 지속할 수 있습니다. 이 충동을 다시 사용하면 이전 충동이 종료됩니다. 해당 지역에 있거나 나중에 해당 지역에 들어오는 모든 생물은 자신의 클래스 DC에 대해 [@Check[type:will|dc:resolve(@actor.시스템.전문성.클래스DCs.키네티니스트.DC)] 내성을 시도해야 합니다. 공기 특성을 가진 생물은 면역입니다. 환영의 모든 효과는 생물이 환영의 영역을 벗어나거나 충동이 종료되는 즉시 종료되며, 그 후 1시간 동안 일시적으로 면역이 됩니다.</p>\n<hr />\n<p><strong>대성공</strong> 이 생물은 영향을 받지 않습니다.</p>\n<p><strong> 성공</strong> 이 생물은 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프-가드}입니다.</p>\n<p><strong> 실패</strong> 이 생물은 오프-가드 상태입니다. 이 생물은 환영의 하늘에서 @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{도주} 상태이지만, 방향 감각을 잃은 상태이므로 도주를 시도할 때마다 @Check[type:flat|dc:11]에 성공하거나 환영 안에 있는 공간으로 도망쳐야 합니다. 괴물이 어디로 갈지는 GM이 결정하지만, 괴물이 움직일 수 있다면 고정된 채로 있을 수는 없습니다.</p>"
     },
     "Shore Gift": {
       "name": "해안 선물",
@@ -15200,7 +15200,7 @@
     },
     "Shrouded Magic": {
       "name": "가려진 마법",
-      "description": "<p>오컬트 주문 목록에서 칸트립 하나를 선택합니다. 이 칸트립은 의지대로 오컬트 고유 주문으로 시전할 수 있으며, 레벨을 반올림한 값의 절반만큼 주문 등급을 높일 수 있습니다.</p>"
+      "description": "<p>오컬트 주문 목록에서 캔트립 하나를 선택합니다. 이 캔트립은 의지대로 오컬트 고유 주문으로 시전할 수 있으며, 레벨을 반올림한 값의 절반만큼 주문 등급을 높일 수 있습니다.</p>"
     },
     "Brutish Shove": {
       "name": "잔인한 밀기",
@@ -15372,7 +15372,7 @@
     },
     "Airy Step": {
       "name": "안개 발걸음",
-      "description": "<p><strong>빈도</strong> 하루에 한 번</p>\n<p><strong> 트리거</strong> 생물이 공격 또는 다른 대상 효과로 당신을 목표로 삼고, 당신은 공격자를 볼 수 있습니다.</p>\n<hr />\n<p>자신의 공간 한 구석을 중심으로 @Template[type:burst|distance:5]의 안개를 생성합니다. 해당 영역 내의 모든 생물은 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진} 상태가 되며, 그 외의 모든 생물은 이 안개에 가려집니다. 이 은폐는 트리거 효과에 적용되며, 안개는 1분 동안 또는 강한 바람에 의해 흩어질 때까지 지속됩니다. 트리거 효과를 해결한 후 @UUID[Compendium.pf2e.actionspf2e.Item.UHpkTuCtyaPqiCAB]{신중한 발걸음}을 밟습니다. 효과로 인해 발걸음을 내딛을 수 없는 경우, @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} 효과를 시도하고 성공하면 발걸음을 내딛습니다.</p>"
+      "description": "<p><strong>빈도</strong> 하루에 한 번</p>\n<p><strong> 트리거</strong> 생물이 공격 또는 다른 대상 효과로 당신을 목표로 삼고, 당신은 공격자를 볼 수 있습니다.</p>\n<hr />\n<p>자신의 공간 한 구석을 중심으로 @Template[burst|distance:5]의 안개를 생성합니다. 해당 영역 내의 모든 생물은 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진} 상태가 되며, 그 외의 모든 생물은 이 안개에 가려집니다. 이 은폐는 트리거 효과에 적용되며, 안개는 1분 동안 또는 강한 바람에 의해 흩어질 때까지 지속됩니다. 트리거 효과를 해결한 후 @UUID[Compendium.pf2e.actionspf2e.Item.UHpkTuCtyaPqiCAB]{신중한 발걸음}을 밟습니다. 효과로 인해 발걸음을 내딛을 수 없는 경우, @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} 효과를 시도하고 성공하면 발걸음을 내딛습니다.</p>"
     },
     "Fluttering Distraction": {
       "name": "펄럭이는 산만함",
@@ -15548,7 +15548,7 @@
     },
     "Storm Spiral": {
       "name": "폭풍 나선형",
-      "description": "<p>어두운 뇌운이 소용돌이치며 번개가 교차하는 미니어처 폭풍을 일으키고, 엄청난 천둥소리가 공기를 가득 채웁니다. 폭풍은 60피트 이내에 @Template[type:burst|distance:20] 형태로 나타납니다. 이 범위 내의 모든 생물은 @Damage[(floor((@actor.level -8)/3)+3)d12[electricity], 1d10[음파]|특성:범위 피해]를 받고, 자신의 클래스 DC에 대해 @Check[type:reflex|dc:resolve(@actor.시스템.전문성.클래스DCs.운동학자.dc)|basic:진실] 저항을 합니다. 내성 굴림에 실패한 생물은 다음 턴이 끝날 때까지(또는 대실패 시 1분 동안) @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{귀가 먼} 상태가 됩니다. 금속 갑옷을 입거나 금속으로 만들어진 생물은 자신의 방어력에 -1의 상황 패널티를 받습니다.</p>\n<hr />\n<p><strong>레벨 (+3)</strong> 전기 피해가 1d12만큼 증가합니다.</p>"
+      "description": "<p>어두운 뇌운이 소용돌이치며 번개가 교차하는 미니어처 폭풍을 일으키고, 엄청난 천둥소리가 공기를 가득 채웁니다. 폭풍은 60피트 이내에 @Template[burst|distance:20] 형태로 나타납니다. 이 범위 내의 모든 생물은 @Damage[(floor((@actor.level -8)/3)+3)d12[electricity], 1d10[음파]|특성:범위 피해]를 받고, 자신의 클래스 DC에 대해 @Check[type:reflex|dc:resolve(@actor.시스템.전문성.클래스DCs.운동학자.dc)|basic:진실] 저항을 합니다. 내성 굴림에 실패한 생물은 다음 턴이 끝날 때까지(또는 대실패 시 1분 동안) @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{귀가 먼} 상태가 됩니다. 금속 갑옷을 입거나 금속으로 만들어진 생물은 자신의 방어력에 -1의 상황 패널티를 받습니다.</p>\n<hr />\n<p><strong>레벨 (+3)</strong> 전기 피해가 1d12만큼 증가합니다.</p>"
     },
     "Gravesight": {
       "name": "그레이브사이트",
@@ -15880,7 +15880,7 @@
     },
     "Driving Rain": {
       "name": "드라이빙 레인",
-      "description": "<p>빗방울이 쏟아져 투석기처럼 내리쳐 시야를 방해합니다. 120피트 내에 있는 @Template[type:burst|distance:15] 내의 모든 생물은 자신의 클래스 DC에 대한 @Check[type:reflex|dc:resolve(@actor.시스템.전문성.클래스DCs.운동가.dc)|basic:true] 내성으로 @Damage[(floor((@actor.level -6)/2)+3)d8[bludgeoning]||특성:광역 피해] 피해를 받습니다. 다음 턴이 시작될 때까지, 모든 생물은 해당 영역에 있는 동안 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진} 상태가 되고, 영역 밖의 모든 생물은 그 안에 있는 생물에게 은폐됩니다.</p>\n<hr />\n<p><strong>레벨 (+2)</strong> 공격력이 1d8만큼 증가합니다.</p>"
+      "description": "<p>빗방울이 쏟아져 투석기처럼 내리쳐 시야를 방해합니다. 120피트 내에 있는 @Template[burst|distance:15] 내의 모든 생물은 자신의 클래스 DC에 대한 @Check[type:reflex|dc:resolve(@actor.시스템.전문성.클래스DCs.운동가.dc)|basic:true] 내성으로 @Damage[(floor((@actor.level -6)/2)+3)d8[bludgeoning]||특성:광역 피해] 피해를 받습니다. 다음 턴이 시작될 때까지, 모든 생물은 해당 영역에 있는 동안 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진} 상태가 되고, 영역 밖의 모든 생물은 그 안에 있는 생물에게 은폐됩니다.</p>\n<hr />\n<p><strong>레벨 (+2)</strong> 공격력이 1d8만큼 증가합니다.</p>"
     },
     "Halcyon Spellcasting Sage": {
       "name": "할시온 주문 시전 현자",
@@ -15996,7 +15996,7 @@
     },
     "Greater Magical Edification": {
       "name": "향상된 마법 교화 능력",
-      "description": "<p>지식을 수집하는 도구 모음집을 계속 확장하고 있습니다.@UUID[Compendium.pf2e.spells-srd.Item.vTQvfYu2llKQedmY]{Translate}, @UUID[Compendium.pf2e.spells-srd.Item을 캐스팅할 수 있습니다.D442XMADp01qJ7Cs]{마인드링크}, @UUID[Compendium.pf2e.spells-srd.Item.VVAZPCvd4d90qVA1]{비밀 페이지}를 하루에 한 번씩 타고난 오컬트 주문으로 사용할 수 있습니다. <em> 비밀 페이지</em> 를 시전하면 마법 교화의 칸트립과 동일한 주문 등급으로 자동 강화됩니다.</p>"
+      "description": "<p>지식을 수집하는 도구 모음집을 계속 확장하고 있습니다.@UUID[Compendium.pf2e.spells-srd.Item.vTQvfYu2llKQedmY]{Translate}, @UUID[Compendium.pf2e.spells-srd.Item을 캐스팅할 수 있습니다.D442XMADp01qJ7Cs]{마인드링크}, @UUID[Compendium.pf2e.spells-srd.Item.VVAZPCvd4d90qVA1]{비밀 페이지}를 하루에 한 번씩 타고난 오컬트 주문으로 사용할 수 있습니다. <em> 비밀 페이지</em> 를 시전하면 마법 교화의 캔트립과 동일한 주문 등급으로 자동 강화됩니다.</p>"
     },
     "Enduring Alchemy": {
       "name": "영속적인 연금술",
@@ -16060,7 +16060,7 @@
     },
     "Studious Magic": {
       "name": "스터디 매직",
-      "description": "<p>아나디의 비전술 전통에 관심을 가졌군요. 비전 주문 목록에서 칸트립을 하나 선택합니다. 이 주문은 마음대로 비전 타고난 주문으로 시전할 수 있습니다. 주문은 반올림한 레벨의 절반에 해당하는 주문 등급으로 강화됩니다.</p>"
+      "description": "<p>아나디의 비전술 전통에 관심을 가졌군요. 비전 주문 목록에서 캔트립을 하나 선택합니다. 이 주문은 마음대로 비전 타고난 주문으로 시전할 수 있습니다. 주문은 반올림한 레벨의 절반에 해당하는 주문 등급으로 강화됩니다.</p>"
     },
     "Divine Wall": {
       "name": "신성한 벽",
@@ -16988,7 +16988,7 @@
     },
     "Runescarred Dedication": {
       "name": "룬의 상처 헌신",
-      "description": "<p><strong></strong> 접속 당신은 사가 땅에서 왔습니다.\n(바리시안, 쇼안티, 뉴 타실로니안인 경우) 피를 통해서든 룬 마법에 노출되어서든, 당신은 몸에 문신이나 흉터 형태로 빛나는 룬이 눈에 띄는 룬스카르드족이 되었습니다. 원형을 얻기 전에도 이러한 흔적을 가지고 있었을 수도 있지만, 룬을 연구하고 룬의 힘을 활용하기로 선택했을 때 비로소 진정한 룬흔이 생겼습니다. 주문학 전문가가 되면 타실론 지식에 대한 훈련도 받게 되고, 이미 타실론 지식을 훈련받았다면 타실론 지식 전문가가 됩니다. 아케인 목록에서 칸트립을 하나 선택합니다. 몸에 있는 룬 중 하나가 선택한 칸트립에 해당하며, 선택한 칸트립을 타고난 비전 주문으로 시전할 수 있습니다.특별 @UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.j5uZbCwoHOOEO1bC]{Runescarred} 원형에서 다른 두 재주를 획득할 때까지 다른 헌납 업적을 선택하지 못합니다.</p>\n<hr /><p></p>\n<p></p>\n<p><strong></strong></p>"
+      "description": "<p><strong></strong> 접속 당신은 사가 땅에서 왔습니다.\n(바리시안, 쇼안티, 뉴 타실로니안인 경우) 피를 통해서든 룬 마법에 노출되어서든, 당신은 몸에 문신이나 흉터 형태로 빛나는 룬이 눈에 띄는 룬스카르드족이 되었습니다. 원형을 얻기 전에도 이러한 흔적을 가지고 있었을 수도 있지만, 룬을 연구하고 룬의 힘을 활용하기로 선택했을 때 비로소 진정한 룬흔이 생겼습니다. 주문학 전문가가 되면 타실론 지식에 대한 훈련도 받게 되고, 이미 타실론 지식을 훈련받았다면 타실론 지식 전문가가 됩니다. 아케인 목록에서 캔트립을 하나 선택합니다. 몸에 있는 룬 중 하나가 선택한 캔트립에 해당하며, 선택한 캔트립을 타고난 비전 주문으로 시전할 수 있습니다.특별 @UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.j5uZbCwoHOOEO1bC]{Runescarred} 원형에서 다른 두 재주를 획득할 때까지 다른 헌납 업적을 선택하지 못합니다.</p>\n<hr /><p></p>\n<p></p>\n<p><strong></strong></p>"
     },
     "Gigavolt": {
       "name": "기가볼트",
@@ -17368,7 +17368,7 @@
     },
     "Runelord Dedication": {
       "name": "룬군주 헌신",
-      "description": "<p>룬 마법이 증가하며, 문파의 관련 무기로 연습합니다. 선택한 비전 문파의 칸트립을 추가로 획득하고, 이 레벨을 포함해 레벨을 한 단계 올릴 때마다 선택한 비전 문파의 주문 하나를 주문서에 추가하며, 일반적으로 추가하는 두 주문과 동일한 제한이 적용됩니다.</p>\n<hr />\n<p><strong>특별</strong> @UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.09VwtSsYldMkVzU1]{Runelord} 원형에서 다른 두 재주를 획득할 때까지 다른 헌신 업적을 선택할 수 없습니다.</p>"
+      "description": "<p>룬 마법이 증가하며, 문파의 관련 무기로 연습합니다. 선택한 비전 문파의 캔트립을 추가로 획득하고, 이 레벨을 포함해 레벨을 한 단계 올릴 때마다 선택한 비전 문파의 주문 하나를 주문서에 추가하며, 일반적으로 추가하는 두 주문과 동일한 제한이 적용됩니다.</p>\n<hr />\n<p><strong>특별</strong> @UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.09VwtSsYldMkVzU1]{Runelord} 원형에서 다른 두 재주를 획득할 때까지 다른 헌신 업적을 선택할 수 없습니다.</p>"
     },
     "Force Fang": {
       "name": "포스 팽",
@@ -18204,7 +18204,7 @@
     },
     "Sanguivolent Roots": {
       "name": "잔인한 뿌리",
-      "description": "<p>피를 빨아먹는 덩굴이 땅속에서 120피트 이내의 @Template[type:burst|distance:15] 범위에서 자랍니다. 해당 구역에 있는 살아있는 적 한 마리당 피가 흡수됨으로써 @Damage[(floor((@actor.level -8)/2)+3)d6[piercing]|특성:광역 피해] 피해를 입히고 @Check[type:fortitude|dc:resolve(@actor.시스템.전문성.classDCs.kineticist.dc)|basic:true] 저항로 자신의 클래스 DC에 대한 피해를 입힙니다. 덩굴이 피를 마실 때마다 해당 지역에 있는 적이 아닌 생명체는 한 생물이 받은 피해의 절반만큼 생명력을 회복합니다(한 생물이 받은 피해 중 가장 높은 피해로 계산합니다). 이것은 생명력 회복 효과입니다. 해당 지역에 공허 치유력을 가진 적들은 치유력과 같은 양의 생명력 피해를 받습니다.</p>\n<p>덩굴은 다음 턴이 끝날 때까지 지속되며, 당신은 충동을 지속할 수 있습니다. 이후 턴에 처음으로 충동을 지속하면 효과를 반복할 수 있습니다.</p>\n<hr />\n<p><strong>레벨 (+2)</strong> 피해가 1d6만큼 증가합니다.</p>"
+      "description": "<p>피를 빨아먹는 덩굴이 땅속에서 120피트 이내의 @Template[burst|distance:15] 범위에서 자랍니다. 해당 구역에 있는 살아있는 적 한 마리당 피가 흡수됨으로써 @Damage[(floor((@actor.level -8)/2)+3)d6[piercing]|특성:광역 피해] 피해를 입히고 @Check[type:fortitude|dc:resolve(@actor.시스템.전문성.classDCs.kineticist.dc)|basic:true] 저항로 자신의 클래스 DC에 대한 피해를 입힙니다. 덩굴이 피를 마실 때마다 해당 지역에 있는 적이 아닌 생명체는 한 생물이 받은 피해의 절반만큼 생명력을 회복합니다(한 생물이 받은 피해 중 가장 높은 피해로 계산합니다). 이것은 생명력 회복 효과입니다. 해당 지역에 공허 치유력을 가진 적들은 치유력과 같은 양의 생명력 피해를 받습니다.</p>\n<p>덩굴은 다음 턴이 끝날 때까지 지속되며, 당신은 충동을 지속할 수 있습니다. 이후 턴에 처음으로 충동을 지속하면 효과를 반복할 수 있습니다.</p>\n<hr />\n<p><strong>레벨 (+2)</strong> 피해가 1d6만큼 증가합니다.</p>"
     },
     "One with the Wild": {
       "name": "야생과 하나",
@@ -18604,7 +18604,7 @@
     },
     "Garland Spell": {
       "name": "가랜드 주문",
-      "description": "<p>다음 액션이 균류 또는 식물 특성을 가진 주문을 시전하는 것이라면, 주문 범위 내에 @Template[type:burst|distance:10]의 식물 화환이 자랍니다. 식물은 가시나 독 덩굴로 뒤덮인 어려운 지형과 위험한 지형에서 자라며, 원하는 가시나 독 덩굴로 덮여 있습니다. 이 사각형 중 하나로 이동하거나 이 사각형에서 턴이 끝나는 모든 생물은 2d6만큼 피해를 받습니다(@Damage[(삼원(gte(@actor.level,20),4,삼원(gte(@actor.level,16),3,2)))d6[piercing]] 피해를 입히고, 가시에 @Damage[(삼원(gte(@actor.level,20),4,삼원(gte(@actor.level,16),3,2)))d6[poison]] 피해를 입힙니다(덩굴에). 생물은 턴당 한 번만 이 피해를 받을 수 있습니다. 당신과 당신의 패밀리어는 이 피해에 면역입니다.</p>\n<p>식물은 1분 동안 또는 당신이 다른 화환 주문을 시전할 때까지, 둘 중 먼저 도달하는 시점까지 지속됩니다.</p>\n<p>피해는 16레벨에서 3d6, 20레벨에서 4d6으로 증가합니다.</p>"
+      "description": "<p>다음 액션이 균류 또는 식물 특성을 가진 주문을 시전하는 것이라면, 주문 범위 내에 @Template[burst|distance:10]의 식물 화환이 자랍니다. 식물은 가시나 독 덩굴로 뒤덮인 어려운 지형과 위험한 지형에서 자라며, 원하는 가시나 독 덩굴로 덮여 있습니다. 이 사각형 중 하나로 이동하거나 이 사각형에서 턴이 끝나는 모든 생물은 2d6만큼 피해를 받습니다(@Damage[(삼원(gte(@actor.level,20),4,삼원(gte(@actor.level,16),3,2)))d6[piercing]] 피해를 입히고, 가시에 @Damage[(삼원(gte(@actor.level,20),4,삼원(gte(@actor.level,16),3,2)))d6[poison]] 피해를 입힙니다(덩굴에). 생물은 턴당 한 번만 이 피해를 받을 수 있습니다. 당신과 당신의 패밀리어는 이 피해에 면역입니다.</p>\n<p>식물은 1분 동안 또는 당신이 다른 화환 주문을 시전할 때까지, 둘 중 먼저 도달하는 시점까지 지속됩니다.</p>\n<p>피해는 16레벨에서 3d6, 20레벨에서 4d6으로 증가합니다.</p>"
     },
     "Consolidated Overlay Panopticon": {
       "name": "통합 오버레이 파놉티콘",
@@ -18844,7 +18844,7 @@
     },
     "Tremor": {
       "name": "떨림",
-      "description": "<p>30피트 범위 내에 작은 국지적 진동을 @Template[type:burst|distance:10]으로 방출합니다. 범위 내의 모든 생물이 자신의 클래스 DC에 대한 @Check[type:fortitude|dc:resolve(@actor.attributes.classDC.value)|basic:true] 저항로 @Damage[(1d8+(floor((@actor.level -1)/2))d10)[bludgeoning]|특성:범위 피해]를 받습니다. 치명타에 실패한 생물은 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드린}에 걸립니다. 이 지역의 흙과 돌은 다음 턴이 시작될 때까지 어려운 지형입니다.</p>\n<hr />\n<p><strong>레벨 (+2)</strong> 피해가 1d10 증가합니다.</p>"
+      "description": "<p>30피트 범위 내에 작은 국지적 진동을 @Template[burst|distance:10]으로 방출합니다. 범위 내의 모든 생물이 자신의 클래스 DC에 대한 @Check[type:fortitude|dc:resolve(@actor.attributes.classDC.value)|basic:true] 저항로 @Damage[(1d8+(floor((@actor.level -1)/2))d10)[bludgeoning]|특성:범위 피해]를 받습니다. 치명타에 실패한 생물은 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드린}에 걸립니다. 이 지역의 흙과 돌은 다음 턴이 시작될 때까지 어려운 지형입니다.</p>\n<hr />\n<p><strong>레벨 (+2)</strong> 피해가 1d10 증가합니다.</p>"
     },
     "Far Shot": {
       "name": "원거리 촬영",
@@ -19488,7 +19488,7 @@
     },
     "Rain of Rust": {
       "name": "녹의 비",
-      "description": "<p>60피트 이내에 붉은 비구름을 @Template[type:burst|distance:10] 범위로 소환하여 그 바로 아래에 녹색 비를 쏟아냅니다. 금속 특성을 가지고 있거나 금속으로 만들어졌거나 금속 갑옷을 입고 있는 빗속의 생물은 모두 부식성 물질로 덮입니다. 이러한 생물은 해당 지역에 남아 있는 한 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1}입니다. 해당 생물이 자신의 턴 시작 시 빗속에 있다면, @Check[type:fortitude|dc:resolve(@actor.system.proficiencies.classDCs.kineticist.dc)|basic:true] 저항에 @Damage[(floor((@actor.level -4)/2)+3)d6[type없음]] 피해를 받고 실패하면 @Damage[1d6[persistent,유형없음]] 피해를 추가로 받습니다. 이 충동으로 받는 피해는 경도를 무시합니다.</p>\n<hr />\n<p><strong>레벨 (+2)</strong> 초기 피해가 1d6만큼 증가합니다.</p>"
+      "description": "<p>60피트 이내에 붉은 비구름을 @Template[burst|distance:10] 범위로 소환하여 그 바로 아래에 녹색 비를 쏟아냅니다. 금속 특성을 가지고 있거나 금속으로 만들어졌거나 금속 갑옷을 입고 있는 빗속의 생물은 모두 부식성 물질로 덮입니다. 이러한 생물은 해당 지역에 남아 있는 한 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1}입니다. 해당 생물이 자신의 턴 시작 시 빗속에 있다면, @Check[type:fortitude|dc:resolve(@actor.system.proficiencies.classDCs.kineticist.dc)|basic:true] 저항에 @Damage[(floor((@actor.level -4)/2)+3)d6[type없음]] 피해를 받고 실패하면 @Damage[1d6[persistent,유형없음]] 피해를 추가로 받습니다. 이 충동으로 받는 피해는 경도를 무시합니다.</p>\n<hr />\n<p><strong>레벨 (+2)</strong> 초기 피해가 1d6만큼 증가합니다.</p>"
     },
     "Towering Presence": {
       "name": "우뚝 솟은 존재감",
@@ -20076,7 +20076,7 @@
     },
     "Solar Detonation": {
       "name": "태양 폭발",
-      "description": "<p>눈이 먼 화염이 소용돌이치는 구체에서 폭발합니다! 폭발은 60피트 내의 @Template[type:burst|distance:20]을 가득 채웁니다. 범위 내의 모든 생물이 @Damage[(floor((@actor.level -8)/2)+6)d6[fire],(floor((@actor.level -8)/2)+2)d6[vitality]|특성:범위 피해] 피해를 받고, @UUID[Compendium.pf2e.conditionitems.Item]이 될 수 있습니다.@Check[type:reflex|dc:resolve(@actor.system.proficiencies.classDCs.kineticist.dc)] 내성 결과에 따라 {눈부신} 또는 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명}이 됩니다. 태양 폭발의 빛은 햇빛에 특히 취약한 생물에게는 햇빛입니다. 내성을 시도하는 각 생물은 10분 동안 일시적으로 태양 폭발로 인한 눈부심이나 눈이 먼 상태에 면역이 되지만, 충동의 다른 효과는 받지 않습니다.</p>\n<hr />\n<p><strong>대성공</strong> 생물은 영향을 받지 않습니다.</p>\n<p><strong> 성공</strong> 생물은 절반의 피해를 받고 다음 턴이 시작될 때까지 눈부신 상태입니다.</p>\n<p><strong> 실패</strong> 생물은 전체 피해를 받고 다음 턴이 시작될 때까지 눈이 먼 상태입니다.</p>\n<p><strong> 치명적 실패</strong> 생물은 두 배의 피해를 받고 1분 동안 눈이 먼 상태입니다.</p>\n<hr />\n<p><strong>레벨 (+2)</strong> 화염 피해가 1d6 증가하고 생명력 피해가 1d6 증가합니다.</p>"
+      "description": "<p>눈이 먼 화염이 소용돌이치는 구체에서 폭발합니다! 폭발은 60피트 내의 @Template[burst|distance:20]을 가득 채웁니다. 범위 내의 모든 생물이 @Damage[(floor((@actor.level -8)/2)+6)d6[fire],(floor((@actor.level -8)/2)+2)d6[vitality]|특성:범위 피해] 피해를 받고, @UUID[Compendium.pf2e.conditionitems.Item]이 될 수 있습니다.@Check[type:reflex|dc:resolve(@actor.system.proficiencies.classDCs.kineticist.dc)] 내성 결과에 따라 {눈부신} 또는 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명}이 됩니다. 태양 폭발의 빛은 햇빛에 특히 취약한 생물에게는 햇빛입니다. 내성을 시도하는 각 생물은 10분 동안 일시적으로 태양 폭발로 인한 눈부심이나 눈이 먼 상태에 면역이 되지만, 충동의 다른 효과는 받지 않습니다.</p>\n<hr />\n<p><strong>대성공</strong> 생물은 영향을 받지 않습니다.</p>\n<p><strong> 성공</strong> 생물은 절반의 피해를 받고 다음 턴이 시작될 때까지 눈부신 상태입니다.</p>\n<p><strong> 실패</strong> 생물은 전체 피해를 받고 다음 턴이 시작될 때까지 눈이 먼 상태입니다.</p>\n<p><strong> 치명적 실패</strong> 생물은 두 배의 피해를 받고 1분 동안 눈이 먼 상태입니다.</p>\n<hr />\n<p><strong>레벨 (+2)</strong> 화염 피해가 1d6 증가하고 생명력 피해가 1d6 증가합니다.</p>"
     },
     "Acclimatization": {
       "name": "적응",
@@ -20384,7 +20384,7 @@
     },
     "Seeker of Truths": {
       "name": "진실의 탐구자",
-      "description": "<p>난해한 진리를 발견하고 수집하는 당신의 헌신은 광신도에 가까울 정도이며, 당신은 이러한 헌신을 실현할 수 있습니다. 성직자의 @UUID[Compendium.pf2e.feats-srd.Item.hT4INKGtly4QY8KN]{권역 개시} 재주를 얻되, 지식, 비밀 또는 진실을 자신의 권역으로 선택해야 합니다. 해당 영역의 영역 주문을 엘드리치 연구자 헌신의 칸트립과 같은 전통의 포커스 주문으로 시전하며, 신에게 기도하는 대신 난해한 신비를 관조하는 방식으로 재집중합니다. 능력으로 신성한 상징이 나타날 때(예: @UUID[Compendium.pf2e.spells-srd.Item.aF7RiG7c8GzSQLYt]{진리의 말씀} 포커스 주문), 그 대신 기하학을 무시하는 듯한 나만의 이상한 모양으로 나타납니다.</p>\n<hr />\n<p><strong>특별</strong> 이 재주는 최대 세 번까지 사용할 수 있으며, 매번 다른 영역을 선택합니다.</p>"
+      "description": "<p>난해한 진리를 발견하고 수집하는 당신의 헌신은 광신도에 가까울 정도이며, 당신은 이러한 헌신을 실현할 수 있습니다. 성직자의 @UUID[Compendium.pf2e.feats-srd.Item.hT4INKGtly4QY8KN]{권역 개시} 재주를 얻되, 지식, 비밀 또는 진실을 자신의 권역으로 선택해야 합니다. 해당 영역의 영역 주문을 엘드리치 연구자 헌신의 캔트립과 같은 전통의 포커스 주문으로 시전하며, 신에게 기도하는 대신 난해한 신비를 관조하는 방식으로 재집중합니다. 능력으로 신성한 상징이 나타날 때(예: @UUID[Compendium.pf2e.spells-srd.Item.aF7RiG7c8GzSQLYt]{진리의 말씀} 포커스 주문), 그 대신 기하학을 무시하는 듯한 나만의 이상한 모양으로 나타납니다.</p>\n<hr />\n<p><strong>특별</strong> 이 재주는 최대 세 번까지 사용할 수 있으며, 매번 다른 영역을 선택합니다.</p>"
     },
     "Rocky Flesh": {
       "name": "록키 살",
@@ -20748,7 +20748,7 @@
     },
     "Sacral Lord": {
       "name": "성스러운 군주",
-      "description": "<p>의례적인 권리 또는 순수한 고집으로 땅의 지배권을 주장했습니다. 숲이나 강의 작은 구역 또는 대도시의 한 구역과 같이 정해진 영토를 주장할 수 있습니다. 해당 영토 내에서 @UUID[Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl]{마법 탐지}, @UUID[Compendium.pf2e.spells-srd.Item.izcxFQFwf3woCnFs]{안내} 및 @UUID[Compendium.pf2e.spells-srd.Item을 시전할 수 있습니다.AUctDF2fqPZN2w4W]{인장}을 타고난 신성한 칸트립으로 사용하면 천족, 악마, 페이, 감시자, 정령 특성을 가진 생물에게 @UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{인상 만들기}에 +1 상황 보너스를 얻습니다.</p>\n<hr />\n<p><strong>특별</strong> 당신과 당신의 땅은 연결되어 있습니다. 한 쪽의 변화는 다른 쪽에도 영향을 미치며, 우울한 기분이 들면 회색 비와 축축한 안개가 내릴 수 있습니다. 이러한 효과는 즉각적인 기계적인 영향은 없지만, 대지를 괴롭히는 문제에 대한 단서를 제공할 수 있습니다.</p>"
+      "description": "<p>의례적인 권리 또는 순수한 고집으로 땅의 지배권을 주장했습니다. 숲이나 강의 작은 구역 또는 대도시의 한 구역과 같이 정해진 영토를 주장할 수 있습니다. 해당 영토 내에서 @UUID[Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl]{마법 탐지}, @UUID[Compendium.pf2e.spells-srd.Item.izcxFQFwf3woCnFs]{안내} 및 @UUID[Compendium.pf2e.spells-srd.Item을 시전할 수 있습니다.AUctDF2fqPZN2w4W]{인장}을 타고난 신성한 캔트립으로 사용하면 천족, 악마, 페이, 감시자, 정령 특성을 가진 생물에게 @UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{인상 만들기}에 +1 상황 보너스를 얻습니다.</p>\n<hr />\n<p><strong>특별</strong> 당신과 당신의 땅은 연결되어 있습니다. 한 쪽의 변화는 다른 쪽에도 영향을 미치며, 우울한 기분이 들면 회색 비와 축축한 안개가 내릴 수 있습니다. 이러한 효과는 즉각적인 기계적인 영향은 없지만, 대지를 괴롭히는 문제에 대한 단서를 제공할 수 있습니다.</p>"
     },
     "Secret Speech": {
       "name": "비밀 연설",
@@ -21112,7 +21112,7 @@
     },
     "Holy Light": {
       "name": "성스러운 빛",
-      "description": "<p>하늘을 향해 두 팔을 들고 간절히 기도하며 성스러운 빛으로 자신을 감쌉니다. 봉화는 다음 턴이 시작될 때까지 자신을 중심으로 @Template[type:burst|distance:30]{반경 30피트, 높이 100피트 원기둥}의 밝은 빛을 비춥니다. 해당 구역에 있는 악마 생물은 자신의 클래스 DC 또는 주문 DC(둘 중 높은 값)만큼의 @Check[type:will|dc:resolve(@actor.attributes.classOrSpellDC.value)] 내성을 성공하거나 1라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{눈부신}이 되어야 합니다.</p>"
+      "description": "<p>하늘을 향해 두 팔을 들고 간절히 기도하며 성스러운 빛으로 자신을 감쌉니다. 봉화는 다음 턴이 시작될 때까지 자신을 중심으로 @Template[burst|distance:30]{반경 30피트, 높이 100피트 원기둥}의 밝은 빛을 비춥니다. 해당 구역에 있는 악마 생물은 자신의 클래스 DC 또는 주문 DC(둘 중 높은 값)만큼의 @Check[type:will|dc:resolve(@actor.attributes.classOrSpellDC.value)] 내성을 성공하거나 1라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{눈부신}이 되어야 합니다.</p>"
     },
     "Winter Sleet": {
       "name": "겨울 진눈깨비",
@@ -21132,7 +21132,7 @@
     },
     "Worldsphere Gravity": {
       "name": "월드스피어 중력",
-      "description": "<p><strong>빈도</strong> 한 시간에 한 번</p>\n<hr />\n<p>보통 이면체를 만들려면 긴 의식이 필요하지만, 신다라의 걸작을 모방하여 사소한 평면 효과를 설정하는 방법을 알고 있습니다. 다음 액션이 주문 슬롯에서 특정 지역에 영향을 주는 5등급 이상의 주문을 시전하는 것이라면, 주문이 있는 지역을 중심으로 @Template[type:burst|distance:20]에 다음 평면 효과 중 하나를 적용할 수 있습니다. 효과는 1분 동안 지속됩니다.</p>\n<p><strong> 중력 모라스</strong> 중력의 힘이 증폭되어 더욱 어려운 지형이 만들어집니다. 이 지역을 통과하는 비행 생명체는 주문 DC에 대한 반사 구제에 성공하지 못하면 땅에 떨어져 떨어진 거리의 절반에 해당하는 둔기 피해를 받습니다.</p>\n<p><strong> 흐르는 시간</strong> 불규칙한 시간 흐름이 이 공간 내에서 플레이어를 돕습니다. 폭발 속에서 자신의 턴을 시작하는 생물은 해당 턴에 @UUID[Compendium.pf2e.spells-srd.Item.o6YCGx4lycsYpww4]{속력}의 영향을 받습니다.</p>"
+      "description": "<p><strong>빈도</strong> 한 시간에 한 번</p>\n<hr />\n<p>보통 이면체를 만들려면 긴 의식이 필요하지만, 신다라의 걸작을 모방하여 사소한 평면 효과를 설정하는 방법을 알고 있습니다. 다음 액션이 주문 슬롯에서 특정 지역에 영향을 주는 5등급 이상의 주문을 시전하는 것이라면, 주문이 있는 지역을 중심으로 @Template[burst|distance:20]에 다음 평면 효과 중 하나를 적용할 수 있습니다. 효과는 1분 동안 지속됩니다.</p>\n<p><strong> 중력 모라스</strong> 중력의 힘이 증폭되어 더욱 어려운 지형이 만들어집니다. 이 지역을 통과하는 비행 생명체는 주문 DC에 대한 반사 구제에 성공하지 못하면 땅에 떨어져 떨어진 거리의 절반에 해당하는 둔기 피해를 받습니다.</p>\n<p><strong> 흐르는 시간</strong> 불규칙한 시간 흐름이 이 공간 내에서 플레이어를 돕습니다. 폭발 속에서 자신의 턴을 시작하는 생물은 해당 턴에 @UUID[Compendium.pf2e.spells-srd.Item.o6YCGx4lycsYpww4]{속력}의 영향을 받습니다.</p>"
     },
     "Targeted Redirection": {
       "name": "타겟 리디렉션",
@@ -21188,7 +21188,7 @@
     },
     "Witch Dedication": {
       "name": "마녀의 헌신",
-      "description": "<p>마녀처럼 주문을 시전합니다. 패밀리어를 선택하면, 선택한 수호자의 전통 중 원하는 두 가지 일반 칸트립을 가진 패밀리어를 얻지만, 전통을 제외하고는 수호자가 일반적으로 부여하는 다른 효과는 얻지 못합니다. 당신의 패밀리어는 마녀 패밀리어가 일반적으로 얻는 능력 대신 패밀리어의 일반적인 능력 개수를 얻습니다.</p>\n<p>당신은 @UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]{주문 시전} 활동을 얻습니다. 매일 패밀리어로부터 캔트립을 하나씩 준비할 수 있습니다. 주문 공격 수정치와 주문 DC 통계에 대해 훈련되어 있습니다. 마녀 원형 주문의 주요 주문 시전 속성은 지능이며, 해당 주문은 수호자의 전통 마녀 주문입니다.</p>\n<p>수호자의 전통과 관련된 기술을 훈련받게 되며, 이미 해당 기술을 훈련받았다면 대신 원하는 기술을 훈련받게 됩니다.</p>\n<hr />\n<p><strong>특별</strong> @UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.eNTStXeuABNPSLjw]{마녀} 원형에서 다른 두 가지 재주를 획득할 때까지 다른 헌납 재주를 선택할 수 없습니다.</p>"
+      "description": "<p>마녀처럼 주문을 시전합니다. 패밀리어를 선택하면, 선택한 수호자의 전통 중 원하는 두 가지 일반 캔트립을 가진 패밀리어를 얻지만, 전통을 제외하고는 수호자가 일반적으로 부여하는 다른 효과는 얻지 못합니다. 당신의 패밀리어는 마녀 패밀리어가 일반적으로 얻는 능력 대신 패밀리어의 일반적인 능력 개수를 얻습니다.</p>\n<p>당신은 @UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]{주문 시전} 활동을 얻습니다. 매일 패밀리어로부터 캔트립을 하나씩 준비할 수 있습니다. 주문 공격 수정치와 주문 DC 통계에 대해 훈련되어 있습니다. 마녀 원형 주문의 주요 주문 시전 속성은 지능이며, 해당 주문은 수호자의 전통 마녀 주문입니다.</p>\n<p>수호자의 전통과 관련된 기술을 훈련받게 되며, 이미 해당 기술을 훈련받았다면 대신 원하는 기술을 훈련받게 됩니다.</p>\n<hr />\n<p><strong>특별</strong> @UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.eNTStXeuABNPSLjw]{마녀} 원형에서 다른 두 가지 재주를 획득할 때까지 다른 헌납 재주를 선택할 수 없습니다.</p>"
     },
     "Blind-Fight": {
       "name": "눈먼 싸움",
@@ -21272,7 +21272,7 @@
     },
     "First World Magic": {
       "name": "퍼스트 월드 매직",
-      "description": "<p>첫 번째 세계와 연결되면 페이와 마찬가지로 원시 타고난 주문이 부여됩니다. 원시 주문 목록에서 칸트립을 하나 선택합니다. 이 주문은 원시 타고난 주문으로 마음대로 시전할 수 있습니다. 주문은 자신의 레벨을 반올림한 값의 절반에 해당하는 주문 등급으로 강화됩니다.</p>"
+      "description": "<p>첫 번째 세계와 연결되면 페이와 마찬가지로 원시 타고난 주문이 부여됩니다. 원시 주문 목록에서 캔트립을 하나 선택합니다. 이 주문은 원시 타고난 주문으로 마음대로 시전할 수 있습니다. 주문은 자신의 레벨을 반올림한 값의 절반에 해당하는 주문 등급으로 강화됩니다.</p>"
     },
     "Refined Motion in Darkness": {
       "name": "어둠 속에서도 세련된 모션",
@@ -21336,7 +21336,7 @@
     },
     "Trick Shot": {
       "name": "트릭 샷",
-      "description": "<p><strong>요구 조건</strong> 장전된 석궁 또는 총기를 휘두르고 있습니다.</p>\n<hr />\n<p>적이 아닌 근처의 물체를 향해 사격합니다. 자신의 레벨에 맞는 쉬운 DC와 같은 AC에 총기로 공격합니다. 공격이 성공하면 적을 명중시키는 대신 목표물의 뒤쪽이나 측면에 있는 물체를 명중시켜 다음 효과 중 하나를 생성합니다. GM은 다른 AC가 적절하다고 판단하거나, 전장에 폭발물 통 옵션이 없는 경우 폭발물 통 옵션을 사용하는 등 특정 효과가 유효하지 않다고 판단할 수 있습니다. 훈련된 눈은 느슨하거나 불안정한 물체를 쉽게 알아볼 수 있으므로, GM은 액션을 사용하기 전에 트릭 사격이 가능한지 알려주어야 합니다.</p>\n<ul>\n<li><strong>물체 밀어내기</strong> 이 공격은 2벌크 이하의 무인 물체를 제자리에서 밀어내어 원하는 방향으로 최대 10피트까지 이동시킵니다. 예를 들어, 이 무기로 마법사의 수정 구슬을 테이블에서 떨어뜨릴 수 있습니다.</li>\n<li><strong> 폭발물 통</strong> 비싼 럼주 통, 휘발성 연금술 액체가 담긴 병, 땅에서 분출하는 악마의 농포 또는 기타 폭발물 통을 공격합니다. 물체가 @Template[type:burst|distance:20] 범위에서 폭발하고, 해당 범위의 생물은 기본 반사 피해가 6d6, 클래스 DC에 대한 기본 방어력만큼 받습니다. 피해 유형은 폭발하는 물체에 따라 GM이 선택합니다. 10위 이상의 레벨이 2 증가할 때마다 피해량이 1d6 증가합니다.</li>\n</ul>"
+      "description": "<p><strong>요구 조건</strong> 장전된 석궁 또는 총기를 휘두르고 있습니다.</p>\n<hr />\n<p>적이 아닌 근처의 물체를 향해 사격합니다. 자신의 레벨에 맞는 쉬운 DC와 같은 AC에 총기로 공격합니다. 공격이 성공하면 적을 명중시키는 대신 목표물의 뒤쪽이나 측면에 있는 물체를 명중시켜 다음 효과 중 하나를 생성합니다. GM은 다른 AC가 적절하다고 판단하거나, 전장에 폭발물 통 옵션이 없는 경우 폭발물 통 옵션을 사용하는 등 특정 효과가 유효하지 않다고 판단할 수 있습니다. 훈련된 눈은 느슨하거나 불안정한 물체를 쉽게 알아볼 수 있으므로, GM은 액션을 사용하기 전에 트릭 사격이 가능한지 알려주어야 합니다.</p>\n<ul>\n<li><strong>물체 밀어내기</strong> 이 공격은 2벌크 이하의 무인 물체를 제자리에서 밀어내어 원하는 방향으로 최대 10피트까지 이동시킵니다. 예를 들어, 이 무기로 마법사의 수정 구슬을 테이블에서 떨어뜨릴 수 있습니다.</li>\n<li><strong> 폭발물 통</strong> 비싼 럼주 통, 휘발성 연금술 액체가 담긴 병, 땅에서 분출하는 악마의 농포 또는 기타 폭발물 통을 공격합니다. 물체가 @Template[burst|distance:20] 범위에서 폭발하고, 해당 범위의 생물은 기본 반사 피해가 6d6, 클래스 DC에 대한 기본 방어력만큼 받습니다. 피해 유형은 폭발하는 물체에 따라 GM이 선택합니다. 10위 이상의 레벨이 2 증가할 때마다 피해량이 1d6 증가합니다.</li>\n</ul>"
     },
     "Robust Health": {
       "name": "튼튼한 생명력",
