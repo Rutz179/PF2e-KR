@@ -4192,7 +4192,7 @@
     },
     "Toughness": {
       "name": "강인함 (Toughness)",
-      "description": "<p>몸은 굴복하기 전에 더 많은 처벌을 견뎌낼 수 있습니다. 최대 HP가 레벨만큼 증가합니다. 회복 체크의 DC가 1 감소합니다.</p>"
+      "description": "<p>몸은 굴복하기 전에 더 많은 피해를 견뎌낼 수 있습니다. 최대 HP가 레벨만큼 증가합니다. 죽음 내성 체크의 DC가 1 감소합니다.</p>"
     },
     "Redirect Elements": {
       "name": "요소 리디렉션 (Redirect Elements)",
@@ -5856,7 +5856,7 @@
     },
     "Impervious Vehicle": {
       "name": "불침투성 차량 (Impervious Vehicle)",
-      "description": "<p>장갑 도금과 유연한 구성품부터 강화 재료와 예비 예비 기능까지, 전차를 혹독한 전투로부터 보호하기 위한 안전장치를 구축했습니다. 대표 전차는 AC와 인내 내성량에 상황 보너스 +1을 받고, 명중률이 레벨의 두 배만큼 증가합니다.</p>"
+      "description": "<p>장갑 도금과 유연한 구성품부터 강화 재료와 예비 예비 기능까지, 전차를 혹독한 전투로부터 보호하기 위한 안전장치를 구축했습니다. 대표 전차는 AC와 인내 내성량에 상황 보너스 +1을 받고, 체력이 레벨의 두 배만큼 증가합니다.</p>"
     },
     "Bat Form": {
       "name": "박쥐 형태 (Bat Form)",
@@ -7960,7 +7960,7 @@
     },
     "Medic Dedication": {
       "name": "의료진 헌신 (Medic Dedication)",
-      "description": "<p>의학 전문가가 됩니다.</p>\n<p>@UUID[Compendium.pf2e.feats-srd.Item.wYerMk6F1RZb0Fwt]{전투 의학} 또는 @UUID[Compendium.pf2e.actionspf2e.Item.1에 성공할 때kGNdIIhuglAjIp9]{부상입은 생명체 치료}를 사용하면, 대상은 DC 20이면 5, DC 30이면 10, DC 40이면 15 HP를 추가로 회복합니다.</p>\n<p>하루에 한 번, 일시적으로 면역 상태인 생명체에게 전투 약을 사용할 수 있습니다. 의학 마스터인 경우, 한 시간에 한 번만 사용할 수 있습니다.</p>\n<hr />\n<p><strong>특별</strong> @UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.XWkyCVISmVtJ0ZY3]{Medic} 원형에서 다른 두 가지 재주를 얻을 때까지 다른 헌납 재주를 선택할 수 없습니다.</p>"
+      "description": "<p>의학 전문가가 됩니다.</p>\n<p>@UUID[Compendium.pf2e.feats-srd.Item.wYerMk6F1RZb0Fwt]{전투 의학} 또는 @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{상처 치료}를 사용하면, 대상은 DC 20이면 5, DC 30이면 10, DC 40이면 15 HP를 추가로 회복합니다.</p>\n<p>하루에 한 번, 일시적으로 면역 상태인 생명체에게 전투 약을 사용할 수 있습니다. 의학 마스터인 경우, 한 시간에 한 번만 사용할 수 있습니다.</p>\n<hr />\n<p><strong>특별</strong> @UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.XWkyCVISmVtJ0ZY3]{Medic} 원형에서 다른 두 가지 재주를 얻을 때까지 다른 헌납 재주를 선택할 수 없습니다.</p>"
     },
     "Domain Embodiment": {
       "name": "도메인 구현 (Domain Embodiment)",
@@ -9092,7 +9092,7 @@
     },
     "Death's Door": {
       "name": "죽음의 문 (Death's Door)",
-      "description": "<p><strong>빈도</strong> 10분에 한 번</p>\n<p><strong> 트리거</strong> HP가 0으로 감소하는 피해를 받습니다.</p>\n<hr />\n<p>다른 플레이어가 쓰러질 때에도 계속 싸웁니다. 트리거 피해를 받기 직전에 자신의 레벨의 두 배에 해당하는 일시적인 HP를 얻습니다. 이 임시 체력률을 얻은 후에도 명중률이 남아 있으면 무의식 상태에 빠지지 않으며, 명중률이 0으로 감소하는 다른 효과도 받지 않습니다. 피해를 입힌 후 남은 일시적 HP는 최대 4라운드까지 지속됩니다.</p>"
+      "description": "<p><strong>빈도</strong> 10분에 한 번</p>\n<p><strong> 트리거</strong> HP가 0으로 감소하는 피해를 받습니다.</p>\n<hr />\n<p>다른 플레이어가 쓰러질 때에도 계속 싸웁니다. 트리거 피해를 받기 직전에 자신의 레벨의 두 배에 해당하는 일시적인 HP를 얻습니다. 이 임시 체력을 얻은 후에도 체력이 남아 있으면 무의식 상태에 빠지지 않으며, 체력이 0으로 감소하는 다른 효과도 받지 않습니다. 피해를 입힌 후 남은 일시적 HP는 최대 4라운드까지 지속됩니다.</p>"
     },
     "Entwined Energy Ki": {
       "name": "얽힌 에너지 기 (Entwined Energy Ki)",
@@ -9223,7 +9223,7 @@
       "description": "<p><strong>트리거</strong> 적이 몸의 일부를 사용하여 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속} 상태를 부여합니다.</p>\n<hr />\n<p>누군가가 당신을 붙잡을 때마다 본능적으로 세게 물게 됩니다. 때로는 상대를 놓아주기도 하고 때로는 화를 내기도 하지만, 어느 쪽이든 만족스럽고 맛있어요. 트리거를 일으킨 적에게 턱 공격을 가합니다. 치명타가 적중하면 더 이상 잡히지 않습니다. 이 타격은 다중 공격 페널티에 포함되지 않으며, 다중 공격 페널티도 이 타격에 적용되지 않습니다.</p>"
     },
     "Natural Ambition": {
-      "name": "자연스러운 야망 (Natural Ambition)",
+      "name": "타고난 야망 (Natural Ambition)",
       "description": "<p>당신은 야망을 품고 항상 별을 향해 달려가도록 자랐기 때문에 선택한 분야에서 빠르게 성장할 수 있습니다. 해당 클래스의 1레벨 클래스 재주를 얻습니다. 전제 조건을 충족해야 하지만, 캐릭터 생성 과정에서 나중에 재주를 선택하여 어떤 전제 조건을 충족할지 결정할 수 있습니다.</p>"
     },
     "Cheek Pouches": {
@@ -10260,7 +10260,7 @@
     },
     "Witch's Hut": {
       "name": "마녀의 오두막 (Witch's Hut)",
-      "description": "<p>당신의 집은 당신의 명령에 복종하는 움직이는 구조물입니다. 하루가 걸리는 의식을 수행하여 오두막, 작은 집, 지붕이 있는 마차, 텐트 또는 이와 유사한 최대 크기의 거대한 구조물에서 움직이는 물체를 만듭니다.</p>\n<p>오두막은 자신의 AC, 내성 굴림 수정치, 지각 수정치를 사용하며 HP 150, 경도 10을 가집니다. 오두막은 구조물 갑옷 능력을 가지고 있어 명중률이 절반 이하로 감소하거나 치명타로 피해를 입으면 즉시 회복될 때까지 AC가 4 감소합니다.</p>\n<p>오두막은 공격하거나 기술 체크를 시도할 수 없습니다. 오두막에 청각과 집중 특성이 있는 명령을 한 번의 액션으로 내릴 수 있으며, 1라운드 동안 재구성한 후 다른 명령을 내릴 때까지 오두막은 해당 명령을 따릅니다.</p>\n<ul>\n<li><strong>경비</strong> 이 오두막은 지각 수정치를 사용하여 120피트 이내에 침입자가 있는지 감시하고, 발견하면 비명을 지릅니다.</li>\n<li><strong> 숨김</strong> 이 오두막은 평범한 평범한 물체처럼 보입니다. 10급 환영 효과입니다.</li>\n<li><strong> 도약</strong> 오두막이 빙글빙글 돌거나 공중으로 도약한 다음, 10급 @UUID[Compendium.pf2e.spells-srd.Item.69L70wKfGDY66Mk9]{텔레포트}를 시전하여 자신과 그 안에 있는 모든 생물을 이동시킵니다.</li>\n<li><strong> 잠금</strong> 한 번 내리치면 오두막의 각 입구가 잠금 주문으로 봉인됩니다. 이 명령을 다시 내리면 입구를 열 수 있습니다.</li>\n<li><strong> 이동</strong> 이 오두막은 60피트의 속도를 얻고, 필요한 경우 거대한 새나 뼈다리가 자라며, \"날 따라와\" 또는 \"저쪽으로 이동\" 등 매우 기본적인 이동 명령을 내리면 따릅니다. 육로 이동에는 적합하지만, 오두막의 넓은 움직임과 1라운드 지연 반응 시간은 너무 부정확하여 전투 인카운터나 정확한 위치가 중요한 상황에서 예측하기에는 무리가 따릅니다.</li>\n</ul>\n<p>마녀의 오두막은 한 번에 하나만 가질 수 있습니다. 새 오두막에 애니메이션을 적용하면 이전 오두막은 즉시 원래의 평범한 형태로 되돌아갑니다. 플레이어가 죽어감으로써 오두막은 마지막으로 내린 명령에 따라 무기한 계속됩니다.</p>"
+      "description": "<p>당신의 집은 당신의 명령에 복종하는 움직이는 구조물입니다. 하루가 걸리는 의식을 수행하여 오두막, 작은 집, 지붕이 있는 마차, 텐트 또는 이와 유사한 최대 크기의 거대한 구조물에서 움직이는 물체를 만듭니다.</p>\n<p>오두막은 자신의 AC, 내성 굴림 수정치, 지각 수정치를 사용하며 HP 150, 경도 10을 가집니다. 오두막은 구조물 갑옷 능력을 가지고 있어 체력이 절반 이하로 감소하거나 치명타로 피해를 입으면 즉시 회복될 때까지 AC가 4 감소합니다.</p>\n<p>오두막은 공격하거나 기술 체크를 시도할 수 없습니다. 오두막에 청각과 집중 특성이 있는 명령을 한 번의 액션으로 내릴 수 있으며, 1라운드 동안 재구성한 후 다른 명령을 내릴 때까지 오두막은 해당 명령을 따릅니다.</p>\n<ul>\n<li><strong>경비</strong> 이 오두막은 지각 수정치를 사용하여 120피트 이내에 침입자가 있는지 감시하고, 발견하면 비명을 지릅니다.</li>\n<li><strong> 숨김</strong> 이 오두막은 평범한 평범한 물체처럼 보입니다. 10급 환영 효과입니다.</li>\n<li><strong> 도약</strong> 오두막이 빙글빙글 돌거나 공중으로 도약한 다음, 10급 @UUID[Compendium.pf2e.spells-srd.Item.69L70wKfGDY66Mk9]{텔레포트}를 시전하여 자신과 그 안에 있는 모든 생물을 이동시킵니다.</li>\n<li><strong> 잠금</strong> 한 번 내리치면 오두막의 각 입구가 잠금 주문으로 봉인됩니다. 이 명령을 다시 내리면 입구를 열 수 있습니다.</li>\n<li><strong> 이동</strong> 이 오두막은 60피트의 속도를 얻고, 필요한 경우 거대한 새나 뼈다리가 자라며, \"날 따라와\" 또는 \"저쪽으로 이동\" 등 매우 기본적인 이동 명령을 내리면 따릅니다. 육로 이동에는 적합하지만, 오두막의 넓은 움직임과 1라운드 지연 반응 시간은 너무 부정확하여 전투 인카운터나 정확한 위치가 중요한 상황에서 예측하기에는 무리가 따릅니다.</li>\n</ul>\n<p>마녀의 오두막은 한 번에 하나만 가질 수 있습니다. 새 오두막에 애니메이션을 적용하면 이전 오두막은 즉시 원래의 평범한 형태로 되돌아갑니다. 플레이어가 죽어감으로써 오두막은 마지막으로 내린 명령에 따라 무기한 계속됩니다.</p>"
     },
     "Basic Fury": {
       "name": "기본 분노 (Basic Fury)",
@@ -13376,7 +13376,7 @@
     },
     "Sacrifice Armor": {
       "name": "희생 갑옷 (Sacrifice Armor)",
-      "description": "<p><strong>트리거</strong> 물리 피해를 주는 타격에 맞았습니다.</p>\n<hr />\n<p>신성한 자각을 통해 몸을 비틀어 공격의 충격을 줄입니다. 받는 피해가 방어력 레벨의 두 배만큼 감소합니다. 방어구가 @UUID[Compendium.pf2e.conditionitems.Item.6dNUvdb1dhToNDj3]{부서진}이 되어, 부러진 한계치만큼 명중률이 감소합니다. 갑옷이 이미 손상되었다면 대신 파괴됩니다.</p>"
+      "description": "<p><strong>트리거</strong> 물리 피해를 주는 타격에 맞았습니다.</p>\n<hr />\n<p>신성한 자각을 통해 몸을 비틀어 공격의 충격을 줄입니다. 받는 피해가 방어력 레벨의 두 배만큼 감소합니다. 방어구가 @UUID[Compendium.pf2e.conditionitems.Item.6dNUvdb1dhToNDj3]{부서진}이 되어, 부러진 한계치만큼 체력이 감소합니다. 갑옷이 이미 손상되었다면 대신 파괴됩니다.</p>"
     },
     "Replicate": {
       "name": "복제 (Replicate)",
@@ -13584,7 +13584,7 @@
     },
     "Continual Recovery": {
       "name": "지속적인 복구 (Continual Recovery)",
-      "description": "<p>환자의 치료 경과를 열심히 모니터링하여 더 빨리 치료를 시행합니다. 부상입은 환자 치료]를 @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]하면 환자는 1시간이 아닌 10분 동안만 면역이 됩니다. 이는 환자가 받는 다른 활동에는 적용되지 않고 부상입은 치료 활동에만 적용됩니다.</p>"
+      "description": "<p>환자의 치료 경과를 열심히 모니터링하여 더 빨리 치료를 시행합니다. @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{상처 치료}하면 환자는 1시간이 아닌 10분 동안만 면역이 됩니다. 이는 환자가 받는 다른 활동에는 적용되지 않고 부상입은 치료 활동에만 적용됩니다.</p>"
     },
     "Feather Step": {
       "name": "깃털 발걸음 (Feather Step)",
@@ -15419,7 +15419,7 @@
       "description": "<p><strong>요구 조건</strong> 당신은 비무장 상태입니다.</p>\n<hr />\n<p>몸과 마음을 단단히 다져 흔들림 없이 마법을 사용할 수 있습니다. 이 자세를 취하고 있는 동안 집중 또는 조작 특성을 가진 액션을 사용하여 트리거되는 리액션에 대해 AC에 +4의 상황 보너스를 받습니다. 또한, 이 자세에서 하나 이상의 액션이 필요한 주문을 시전할 때 비무장 상태의 타격은 피해에 +1의 상황 보너스를 받습니다.</p>"
     },
     "Domain Initiate": {
-      "name": "권역 초기화 (Domain Initiate)",
+      "name": "권역 입문 (Domain Initiate)",
       "description": "<p>당신의 신은 그들의 힘과 관련된 특별한 주문을 부여합니다. 신의 목록에서 종교 내에서 특별히 관심 있는 주제인 권역을 하나 선택합니다. 다른 성직자는 사용할 수 없고 해당 권역에 고유한 주문인 초기 권역 주문을 얻습니다.</p>\n<p>권역 주문은 포커스 주문의 일종입니다. 포커스 주문을 시전하려면 포커스 포인트 1점이 필요하며, 포커스 포인트가 1점인 포커스 풀로 시작합니다. 매일 준비하는 동안 포커스 풀을 채우고, 10분 동안 집중력 재충전 활동을 통해 신에게 기도하거나 신을 위해 봉사하면 포커스 포인트 1점을 회복할 수 있습니다.</p>\n<p>포커스 주문은 캔트립과 마찬가지로 반올림한 레벨의 절반으로 자동 강화됩니다. 포커스 주문은 주문 슬롯이 필요하지 않으며, 주문 슬롯을 사용해 시전할 수 없습니다. 포커스 풀에는 포커스 주문 하나당 최대 3점까지 포커스 포인트를 보유할 수 있습니다.</p>\n<hr />\n<p><strong>특별</strong> 이 재주는 여러 번 선택할 수 있으며, 매번 다른 권역을 선택하고 해당 권역 주문을 획득할 수 있습니다.</p>"
     },
     "Withstand the Storm": {
@@ -16527,7 +16527,7 @@
       "description": "<p>자신의 초능력 잠재력을 더 깊이 탐구합니다. 일반 주문이나 자신이 사용할 수 있는 1등급 오컬트 주문 중 하나를 선택합니다. 해당 주문은 하루에 한 번 타고난 오컬트 주문으로 시전할 수 있습니다.</p>"
     },
     "Raise Symbol": {
-      "name": "기호 올리기 (Raise Symbol)",
+      "name": "상징 보이기 (Raise Symbol)",
       "description": "<p><strong>요구 조건</strong> 종교적 상징을 지니고 있습니다.</p>\n<hr />\n<p>종교적 상징을 힘차게 내보입니다. 다음 턴이 시작될 때까지 내성 굴림에 +2의 상황 보너스를 받습니다. 종교 상징을 들고 있는 동안, 활력 또는 무효화 효과에 대한 내성 굴림에서 성공하면 대신 대성공을 얻습니다. 제기하는 종교적 상징이 방패인 경우, 예를 들어 @UUID[Compendium.pf2e.feats-srd.Item.7RFjTTzznsdPcaYB]{Emblazon Armaments}와 같이 이 행동을 사용할 때 방패 제기 효과를, 방패를 올리면 이 액션의 효과를 얻습니다.</p>"
     },
     "Eldritch Reload": {
@@ -20339,7 +20339,7 @@
       "description": "<p><strong>요구 조건</strong> 장전된 총기를 휘두르고 있습니다.</p>\n<hr />\n<p>점프하면서 무기를 발사하고 반동을 이용해 더 멀리 이동합니다. 도약]하고 총기를 발사하여 이동한 거리에 10피트 상태 이상 보너스를 추가합니다[@UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Leap}. 화약 부스트에 액션을 2번 사용하면 @UUID[Compendium.pf2e.actionspf2e.Item.2HJ4yuEFY1Cast4h]{높이뛰기} 또는 @UUID[Compendium.pf2e.actionspf2e.Item.JUvAvruz7yRQXfz2]{ 멀리뛰기} 대신</p>\n<p><strong> 특수</strong> 한 번의 액션으로 높이뛰기 또는 멀리뛰기를 할 수 있는 능력(예: @UUID[Compendium.pf2e.feats-srd.Item.ZBhvJ9O8MvBFAlhq]{퀵 점프} 기술 재주와 같이) 해당 점프에도 검은 가루 부스트를 한 번의 액션으로 사용할 수 있습니다.</p>"
     },
     "Expanded Domain Initiate": {
-      "name": "확장 권역 초기화 (Expanded Domain Initiate)",
+      "name": "확장 권역 입문 (Expanded Domain Initiate)",
       "description": "<p>당신은 오랫동안 당신의 신의 잘 알려지지 않은 측면 중 하나를 숭배해 왔습니다. 신의 대체 권역 중에서 하나의 권역을 선택합니다. 해당 권역에 대한 액세스 권한과 해당 권역의 초기 권역 주문을 얻습니다.</p>"
     },
     "Warding Jewel": {
