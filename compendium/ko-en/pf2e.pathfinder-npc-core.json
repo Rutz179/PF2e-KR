@@ -20,7 +20,7 @@
         },
         "tAmUn1fmHBzAZrMX": {
           "name": "화살 연발 사격 (Arrow Volley)",
-          "description": "<p>헬나이트들은 장궁을 당기거나 재장전한 후, 연발 사격 형태의 원거리 공격을 발사합니다. 이 화살은 100피트 이내의 @Template[type:burst|distance:10] 범위 내에서 @Damage[3d8[piercing]|options:area-damage]의 피해를 입힙니다 (@Check[reflex|dc:23|basic|options:area-effect] 내성). 부대가 2개 이하로 줄어들면 이 영역은 @Template[type:burst|distance:5]로 줄어듭니다. </p>"
+          "description": "<p>헬나이트들은 장궁을 당기거나 재장전한 후, 연발 사격 형태의 원거리 공격을 발사합니다. 이 화살은 100피트 이내의 @Template[burst|distance:10] 범위 내에서 @Damage[3d8[piercing]|options:area-damage]의 피해를 입힙니다 (@Check[reflex|dc:23|basic|options:area-effect] 내성). 부대가 2개 이하로 줄어들면 이 영역은 @Template[burst|distance:5]로 줄어듭니다. </p>"
         },
         "89ujLImiUz00Zomc": {
           "name": "랜스 돌격 (Lance Charge)",
@@ -207,7 +207,7 @@
         },
         "hPm8yFM9mgIGHYL6": {
           "name": "Boxing Ears",
-          "description": "<p><span class=\"action-glyph\">1</span> ~ <span class=\"action-glyph\">3</span></p>\n<p><strong>빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 옥수수 레시는 굳어진 옥수수 속대로 자신의 공간과 @Template[type:emanation|거리: 5]에 있는 각 적을 공격합니다. 피해는 행동 횟수에 따라 달라집니다. @Check[reflex|dc:18|basic|options:area-effect] 내성.area-damage] 피해</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d6+4)[bludgeoning]|options:area-damage] 피해</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(2d6+8)[bludgeoning]|options:area-damage] 피해</p>"
+          "description": "<p><span class=\"action-glyph\">1</span> ~ <span class=\"action-glyph\">3</span></p>\n<p><strong>빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 옥수수 레시는 굳어진 옥수수 속대로 자신의 공간과 @Template[type:emanation|distance: 5]에 있는 각 적을 공격합니다. 피해는 행동 횟수에 따라 달라집니다. @Check[reflex|dc:18|basic|options:area-effect] 내성.area-damage] 피해</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d6+4)[bludgeoning]|options:area-damage] 피해</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(2d6+8)[bludgeoning]|options:area-damage] 피해</p>"
         },
         "56TBiiZbleUC5RaS": {
           "name": "커널 바레 (Kernel Barrage)",
@@ -475,7 +475,7 @@
         },
         "kq0HhnkVCZAPSlRb": {
           "name": "Fire Shortbows!",
-          "description": "<p><span class=\"action-glyph\">1 </span>to<span class=\"action-glyph\"> 3</span></p>\n<p><strong>Frequency</strong> once per round</p><hr /><p><strong>Effect</strong> The watchmages fire a volley against each enemy in a @Template[type:burst|distance:10] within 150 feet, @Check[reflex|dc:26|basic] 내성 체크를 합니다. 피해는 행동 횟수에 따라 달라집니다. 분대가 2개 이하로 줄어들면, 이 영역은 @Template[type:burst|distance:5]로 줄어듭니다. </p>\n<p><span class=\"action-glyph\">1</span> 1d6+3 관통 + @Damage[1d6[force]] 피해</p>\n<p><span class=\"action-glyph\">2</span> 3d6+6 관통 + @Damage[1d6[force]] 피해</p>\n<p><span class=\"action-glyph\">3</span> 4d6+6 관통 + @Damage[1d6[force]] 피해</p>"
+          "description": "<p><span class=\"action-glyph\">1 </span>to<span class=\"action-glyph\"> 3</span></p>\n<p><strong>Frequency</strong> once per round</p><hr /><p><strong>Effect</strong> The watchmages fire a volley against each enemy in a @Template[burst|distance:10] within 150 feet, @Check[reflex|dc:26|basic] 내성 체크를 합니다. 피해는 행동 횟수에 따라 달라집니다. 분대가 2개 이하로 줄어들면, 이 영역은 @Template[burst|distance:5]로 줄어듭니다. </p>\n<p><span class=\"action-glyph\">1</span> 1d6+3 관통 + @Damage[1d6[force]] 피해</p>\n<p><span class=\"action-glyph\">2</span> 3d6+6 관통 + @Damage[1d6[force]] 피해</p>\n<p><span class=\"action-glyph\">3</span> 4d6+6 관통 + @Damage[1d6[force]] 피해</p>"
         },
         "LLbhMo87QsyrDt3v": {
           "name": "부대 마법 사용 (Troop Spellcasting)",
@@ -697,7 +697,7 @@
         },
         "bRiKeKsEQaZtQcG0": {
           "name": "장궁을 발사하라! (Fire Longbows!)",
-          "description": "<p>아레스터 소대는 150피트 이내의 @Template[type:burst|distance:10] 내에 있는 각 적에게 장궁으로 협동 사격을 가해 @Damage[3d8[piercing]|options:area-damage]의 피해를 입히고, @Check[reflex|dc:23|basic|options:area-effect] 내성 체크를 합니다. 체포대가 2개 이하로 줄어들면 이 범위는 @Template[type:burst|distance:5]로 줄어듭니다.</p>"
+          "description": "<p>아레스터 소대는 150피트 이내의 @Template[burst|distance:10] 내에 있는 각 적에게 장궁으로 협동 사격을 가해 @Damage[3d8[piercing]|options:area-damage]의 피해를 입히고, @Check[reflex|dc:23|basic|options:area-effect] 내성 체크를 합니다. 체포대가 2개 이하로 줄어들면 이 범위는 @Template[burst|distance:5]로 줄어듭니다.</p>"
         },
         "7plqqmq49cE7a6PQ": {
           "name": "그들을 붙잡아라! (Seize Them!)",
@@ -705,7 +705,7 @@
         },
         "0UCymBNVsiBKsKbM": {
           "name": "지역 청소 (Sweep the Area)",
-          "description": "<p>체포자 @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek}가 @Template[type:burst|distance:40] 또는 @Template[type:cone|distance:80] 범위 내에서 최대 4개의 목표물을 지목합니다.</p>"
+          "description": "<p>체포자 @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek}가 @Template[burst|distance:40] 또는 @Template[type:cone|distance:80] 범위 내에서 최대 4개의 목표물을 지목합니다.</p>"
         }
       }
     },
@@ -900,7 +900,7 @@
         },
         "zCAnyZMXYvnXxyYI": {
           "name": "폭죽 일제 사격 (Firecracker Salvo)",
-          "description": "<p><strong>빈도</strong> 라운드당 한 번</p><hr /><p><strong>효과</strong> 빌 밴드는 불이 붙은 폭죽을 일제히 발사하고, 폭죽이 충돌하면 빛과 소리가 터집니다. 60피트 이내의 @Template[type:burst|distance:10]에 있는 모든 생물은 @Damage[1d12[sonic]|options:area-damage]의 피해를 받고 @Check[reflex|dc:19|basic|options:area-effect] 내성을 사용합니다. 내성에 실패한 생물은 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} 상태가 됩니다. 빌 밴드가 2개 이하로 줄어들면 이 영역은 @Template[type:burst|distance:5]로 줄어듭니다. </p>"
+          "description": "<p><strong>빈도</strong> 라운드당 한 번</p><hr /><p><strong>효과</strong> 빌 밴드는 불이 붙은 폭죽을 일제히 발사하고, 폭죽이 충돌하면 빛과 소리가 터집니다. 60피트 이내의 @Template[burst|distance:10]에 있는 모든 생물은 @Damage[1d12[sonic]|options:area-damage]의 피해를 받고 @Check[reflex|dc:19|basic|options:area-effect] 내성을 사용합니다. 내성에 실패한 생물은 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} 상태가 됩니다. 빌 밴드가 2개 이하로 줄어들면 이 영역은 @Template[burst|distance:5]로 줄어듭니다. </p>"
         },
         "LzpGUvNElpSBZsqU": {
           "name": "압도적인 스크럼 (Overwhelming Scrum)",
@@ -1206,7 +1206,7 @@
         },
         "R6tTnGeB0AtI33Ow": {
           "name": "화물 던지기 (Throw Cargo)",
-          "description": "<p>토디는 보스의 명령으로 무거운 보급품을 운반합니다. 그들은 들고 있는 무거운 물건을 던져, 충돌 시 폭발하여 @Damage[1d10[bludgeoning]|options:area-damage]의 피해를 @Template[type:burst|distance:5]에 있는 모든 생물에게 입힙니다. @Check[reflex|dc:14|basic|options:area-effect] 내성을 가지고 있습니다."
+          "description": "<p>토디는 보스의 명령으로 무거운 보급품을 운반합니다. 그들은 들고 있는 무거운 물건을 던져, 충돌 시 폭발하여 @Damage[1d10[bludgeoning]|options:area-damage]의 피해를 @Template[burst|distance:5]에 있는 모든 생물에게 입힙니다. @Check[reflex|dc:14|basic|options:area-effect] 내성을 가지고 있습니다."
         }
       }
     },
@@ -1282,7 +1282,7 @@
         },
         "aDXHrskG3ZwyBg6q": {
           "name": "산란 블록 (Scatter Blocks)",
-          "description": "<p>장난감 제작자는 다양한 크기의 장난감 블록을 20피트 떨어진 곳으로 @Template[type:burst|distance:5]로 던집니다. 이 지역은 어려운 지형과 위험한 지형이 됩니다. 이 지역을 지상으로 이동하는 생물은 이동한 칸 수에 따라 @Damage[1[piercing]]의 피해를 받습니다."
+          "description": "<p>장난감 제작자는 다양한 크기의 장난감 블록을 20피트 떨어진 곳으로 @Template[burst|distance:5]로 던집니다. 이 지역은 어려운 지형과 위험한 지형이 됩니다. 이 지역을 지상으로 이동하는 생물은 이동한 칸 수에 따라 @Damage[1[piercing]]의 피해를 받습니다."
         },
         "C0kPBmJmXuQOu7wN": {
           "name": "태엽 병사 (Wind-Up Soldier)",
@@ -1313,7 +1313,7 @@
         },
         "o7RippHQ22wnFDkR": {
           "name": "신성한 일제 사격 (Sacred Salvo)",
-          "description": "<p>스컬 크러셔들은 언데드를 파괴하기 위해 생명 에너지로 마법이 걸린 슬링 총알을 연발합니다. 이 사격은 50 피트 이내의 @Template[type:burst|distance:10] 범위 내에서 @Damage[3d6[bludgeoning]|options:area-damage] 피해와 언데드에게 @Damage[1d6[vitality]|options:area-damage] 피해를 입히며, @Check[reflex|dc:22|basic|options:area-effect] 내성을 적용합니다. 부대가 2개 이하의 세그먼트로 줄어들면 이 영역은 @Template[type:burst|distance:5]로 축소됩니다.</p>"
+          "description": "<p>스컬 크러셔들은 언데드를 파괴하기 위해 생명 에너지로 마법이 걸린 슬링 총알을 연발합니다. 이 사격은 50 피트 이내의 @Template[burst|distance:10] 범위 내에서 @Damage[3d6[bludgeoning]|options:area-damage] 피해와 언데드에게 @Damage[1d6[vitality]|options:area-damage] 피해를 입히며, @Check[reflex|dc:22|basic|options:area-effect] 내성을 적용합니다. 부대가 2개 이하의 세그먼트로 줄어들면 이 영역은 @Template[burst|distance:5]로 축소됩니다.</p>"
         }
       }
     },
@@ -1393,7 +1393,7 @@
         },
         "axHGPBgPqDgvP4Ej": {
           "name": "폭격 (Bombard)",
-          "description": "<p>포병은 어깨에 장착된 포병 무기를 활성화하여 최대 120피트 떨어진 곳에 폭발하는 폭발성 포탄을 발사합니다. 이 포탄은 @Template[type:burst|distance:10] 범위 내에서 폭발합니다. 폭발 범위 내의 생물은 @Damage[2d6[piercing],2d6[fire]|options:area-damage]의 피해를 받고 @Check[reflex|dc:19|basic|options:area-effect] 내성을 체크합니다. 내성에 실패한 생물은 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}으로 쓰러집니다. 포병은 2회의 상호 작용 행동으로 포병을 재장전할 때까지 폭격기를 다시 사용할 수 없습니다. 이 행동은 연속으로 수행할 필요는 없습니다."
+          "description": "<p>포병은 어깨에 장착된 포병 무기를 활성화하여 최대 120피트 떨어진 곳에 폭발하는 폭발성 포탄을 발사합니다. 이 포탄은 @Template[burst|distance:10] 범위 내에서 폭발합니다. 폭발 범위 내의 생물은 @Damage[2d6[piercing],2d6[fire]|options:area-damage]의 피해를 받고 @Check[reflex|dc:19|basic|options:area-effect] 내성을 체크합니다. 내성에 실패한 생물은 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}으로 쓰러집니다. 포병은 2회의 상호 작용 행동으로 포병을 재장전할 때까지 폭격기를 다시 사용할 수 없습니다. 이 행동은 연속으로 수행할 필요는 없습니다."
         }
       }
     },
@@ -1792,7 +1792,7 @@
         },
         "cEC3FjTPb84L7Any": {
           "name": "포커스 발사 (Focused Volley)",
-          "description": "<p>호브고블린 대대의 궁수들은 석궁을 당기거나 재장전 한 다음, 일제 사격을 하는 형태로 원거리 공격을 합니다. 이 일제 사격은 120피트 이내의 @Template[type:burst|distance:10] 범위 내에서 @Damage[2d8[piercing]|options:area-damage]의 피해를 입히고, @Check[reflex|dc:21|basic|options:area-effect] 내성을 적용합니다. 호브고블린 대대가 2개 이하로 줄어들면, 이 영역은 @Template[type:burst|distance:5]로 줄어듭니다. </p>"
+          "description": "<p>호브고블린 대대의 궁수들은 석궁을 당기거나 재장전 한 다음, 일제 사격을 하는 형태로 원거리 공격을 합니다. 이 일제 사격은 120피트 이내의 @Template[burst|distance:10] 범위 내에서 @Damage[2d8[piercing]|options:area-damage]의 피해를 입히고, @Check[reflex|dc:21|basic|options:area-effect] 내성을 적용합니다. 호브고블린 대대가 2개 이하로 줄어들면, 이 영역은 @Template[burst|distance:5]로 줄어듭니다. </p>"
         },
         "Tffn3VziTZohT4pV": {
           "name": "완벽한 대형 (Perfect Formation)",
@@ -1975,7 +1975,7 @@
         },
         "r6LO8ir3PNpVTR5g": {
           "name": "다이너마이트 던지기 (Toss Dynamite)",
-          "description": "<p>폭파 전문가는 최대 20피트 떨어진 곳에 다이너마이트를 빠르게 던져 @Template[type:burst|distance:5] 범위 내에서 폭발시킵니다. 폭발 범위 내에 있는 생물은 @Damage[4d4[fire]|options:area-damage]의 피해를 받고 @Check[reflex|dc:21|basic|options:area-effect] 내성 굴림에 성공해야 합니다."
+          "description": "<p>폭파 전문가는 최대 20피트 떨어진 곳에 다이너마이트를 빠르게 던져 @Template[burst|distance:5] 범위 내에서 폭발시킵니다. 폭발 범위 내에 있는 생물은 @Damage[4d4[fire]|options:area-damage]의 피해를 받고 @Check[reflex|dc:21|basic|options:area-effect] 내성 굴림에 성공해야 합니다."
         },
         "L3ZG758QkjjpEMSL": {
           "name": "벽 폭파 (Wall Charge)",
@@ -2006,7 +2006,7 @@
         },
         "cwnXsW9qJWhtOoS5": {
           "name": "장궁 포격 (Longbow Barrage)",
-          "description": "<p>정찰병들은 장궁을 당기거나 재장전 한 다음, 화살을 연발합니다. 이 사격은 100 피트 이내의 @Template[type:burst|distance:10] 범위 내에서 @Damage[3d8[piercing]|options:area-damage]의 피해를 입히고, @Check[reflex|dc:24|basic|options:area-effect] 내성을 적용합니다. 정찰병이 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} 상태이거나 감지되지 않은 경우, 추가 2d6의 정밀 피해가 발생합니다. 부대가 2개 이하로 줄어들면, 이 영역은 @Template[type:burst|distance:5]로 줄어듭니다."
+          "description": "<p>정찰병들은 장궁을 당기거나 재장전 한 다음, 화살을 연발합니다. 이 사격은 100 피트 이내의 @Template[burst|distance:10] 범위 내에서 @Damage[3d8[piercing]|options:area-damage]의 피해를 입히고, @Check[reflex|dc:24|basic|options:area-effect] 내성을 적용합니다. 정찰병이 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} 상태이거나 감지되지 않은 경우, 추가 2d6의 정밀 피해가 발생합니다. 부대가 2개 이하로 줄어들면, 이 영역은 @Template[burst|distance:5]로 줄어듭니다."
         },
         "db6ey2Hs2tBrUrq9": {
           "name": "은밀한 대형 (Stealthy Formation)",
@@ -2137,7 +2137,7 @@
         },
         "CPAf0t8RHrhhckSd": {
           "name": "거울의 방 (Hall of Mirrors)",
-          "description": "<p><strong>빈도</strong> 하루에 한 번</p><hr /><p><strong>효과</strong> 거울 예언자는 100피트 이내의 @Template[type:burst|distance:30] 내 모든 표면을 1분 동안 반사면으로 변환합니다. 이 영역에 있거나 나중에 이 영역에 들어오는 모든 생물은 @Check[will|dc:27] 내성 체크에 성공하지 않으면 반사 및 굴절로 인해 @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{혼란} 상태가 됩니다. 생물이 해당 지역을 벗어나면 혼란 상태는 종료되며, 생물은 자신의 턴이 끝날 때마다 새로운 내성 검사를 시도하여 효과를 종료할 수 있습니다. 생물에 대한 효과가 종료되면, 해당 생물은 10분 동안 일시적으로 면역이 됩니다."
+          "description": "<p><strong>빈도</strong> 하루에 한 번</p><hr /><p><strong>효과</strong> 거울 예언자는 100피트 이내의 @Template[burst|distance:30] 내 모든 표면을 1분 동안 반사면으로 변환합니다. 이 영역에 있거나 나중에 이 영역에 들어오는 모든 생물은 @Check[will|dc:27] 내성 체크에 성공하지 않으면 반사 및 굴절로 인해 @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{혼란} 상태가 됩니다. 생물이 해당 지역을 벗어나면 혼란 상태는 종료되며, 생물은 자신의 턴이 끝날 때마다 새로운 내성 검사를 시도하여 효과를 종료할 수 있습니다. 생물에 대한 효과가 종료되면, 해당 생물은 10분 동안 일시적으로 면역이 됩니다."
         }
       }
     },
@@ -3055,7 +3055,7 @@
         },
         "AmPtA9dgeeJH41nu": {
           "name": "창을 던지다 (Hurl Javelins)",
-          "description": "<p>부대원들이 창을 일제히 던집니다. 부대에서 30피트 이내의 @Template[type:burst|distance:10] 내에 있는 모든 생물은 @Damage[(2d6+5)[piercing]|options:area-damage]의 피해를 받고 @Check[reflex|dc:21|basic|options:area-effect] 내성 굴림을 합니다. 파란스 형성이 2개 이하의 세그먼트로 줄어들면 이 영역은 @Template[type:burst|distance:5]로 축소됩니다.</p>"
+          "description": "<p>부대원들이 창을 일제히 던집니다. 부대에서 30피트 이내의 @Template[burst|distance:10] 내에 있는 모든 생물은 @Damage[(2d6+5)[piercing]|options:area-damage]의 피해를 받고 @Check[reflex|dc:21|basic|options:area-effect] 내성 굴림을 합니다. 파란스 형성이 2개 이하의 세그먼트로 줄어들면 이 영역은 @Template[burst|distance:5]로 축소됩니다.</p>"
         },
         "Z4cFBG25p2j5acgR": {
           "name": "방패를 들어라! (Shields Up!)",
@@ -3097,7 +3097,7 @@
       "items": {
         "ma0kNlN1eN2YPKXO": {
           "name": "무거운 상자 (Heft Crate)",
-          "description": "<p><strong>요구 조건</strong> 도크 노동자가 상자 옆에 있습니다</p><hr /><p><strong>효과</strong> 도크 노동자가 상자를 들어 올려 최대 15피트까지 던집니다. 상자가 땅에 떨어지면 @Template[type:burst|distance:5] 범위 내에서 폭발합니다. 이 영역에 있는 모든 생물은 @Damage[2d6[bludgeoning]|options:area-damage]의 피해를 받고, @Check[reflex|dc:13|basic|options:area-effect] 내성을 체크해야 합니다. 이 영역은 정리될 때까지 어려운 지형이 됩니다."
+          "description": "<p><strong>요구 조건</strong> 도크 노동자가 상자 옆에 있습니다</p><hr /><p><strong>효과</strong> 도크 노동자가 상자를 들어 올려 최대 15피트까지 던집니다. 상자가 땅에 떨어지면 @Template[burst|distance:5] 범위 내에서 폭발합니다. 이 영역에 있는 모든 생물은 @Damage[2d6[bludgeoning]|options:area-damage]의 피해를 받고, @Check[reflex|dc:13|basic|options:area-effect] 내성을 체크해야 합니다. 이 영역은 정리될 때까지 어려운 지형이 됩니다."
         },
         "FmriI9fZfj3I2QS1": {
           "name": "Swig",
@@ -3570,7 +3570,7 @@
         },
         "aEZR3IjhkqAzFTzg": {
           "name": "쓰레기를 던지기 (Throw Detritus)",
-          "description": "<p>망상에 빠진 무리는 30피트 이내의 @Template[type:burst|distance:10]에 잔해를 던져 @Damage[2d8[bludgeoning]|options:area-damage]의 피해를 입히고 @Check[reflex|dc:18|basic|options:area-effect] 내성을 적용합니다. 폭도 수가 2개 이하로 줄어들면 이 영역은 @Template[type:burst|distance:5]로 줄어듭니다. </p>"
+          "description": "<p>망상에 빠진 무리는 30피트 이내의 @Template[burst|distance:10]에 잔해를 던져 @Damage[2d8[bludgeoning]|options:area-damage]의 피해를 입히고 @Check[reflex|dc:18|basic|options:area-effect] 내성을 적용합니다. 폭도 수가 2개 이하로 줄어들면 이 영역은 @Template[burst|distance:5]로 줄어듭니다. </p>"
         }
       }
     },
@@ -3767,7 +3767,7 @@
         },
         "dSa8OQfOz63lYKQ2": {
           "name": "다재다능한 연기 (Versatile Performance)",
-          "description": "<p>마스터마인드는 외교 대신 퍼포먼스를 사용하여 [[/act make-an-impression skill=performance]]{인상 남기기}를 수행할 수 있으며, 속임수 대신 퍼포먼스를 사용하여 [[/act impersonate skill=performance]]{변장}을 수행할 수 있습니다.</p>"
+          "description": "<p>마스터마인드는 외교 대신 공연를 사용하여 [[/act make-an-impression skill=performance]]{인상 남기기}를 수행할 수 있으며, 속임수 대신 공연를 사용하여 [[/act impersonate skill=performance]]{변장}을 수행할 수 있습니다.</p>"
         },
         "v3VQfpzwMQ3vAQCU": {
           "name": "사기꾼의 속임수 (Scoundrel's Feint)",
@@ -4130,7 +4130,7 @@
         },
         "ZPXu4TvscTOjN44e": {
           "name": "화살 발사 (Bolt Salvo)",
-          "description": "<p>선형 보병은 석궁을 꺼내 장전하고 일제 사격을 합니다. 일제 사격은 120피트 이내의 @Template[type:burst|distance:10] 범위에서 @Damage[2d8[piercing]|options:area-damage]의 피해를 입힙니다 (@Check[reflex|dc:21|basic|options:area-effect] 내성). 보병 부대가 2개 이하의 세그먼트로 줄어들면 이 영역은 @Template[type:burst|distance:5]로 줄어듭니다.</p>"
+          "description": "<p>선형 보병은 석궁을 꺼내 장전하고 일제 사격을 합니다. 일제 사격은 120피트 이내의 @Template[burst|distance:10] 범위에서 @Damage[2d8[piercing]|options:area-damage]의 피해를 입힙니다 (@Check[reflex|dc:21|basic|options:area-effect] 내성). 보병 부대가 2개 이하의 세그먼트로 줄어들면 이 영역은 @Template[burst|distance:5]로 줄어듭니다.</p>"
         },
         "dT41anVs1Byhwbok": {
           "name": "강철의 충돌 (Clash of Steel)",
@@ -4192,7 +4192,7 @@
         },
         "cLFteTTZ1b4O3AoI": {
           "name": "석궁을 쏴라! (Shoot Crossbows!)",
-          "description": "<p>도시 경비대는 석궁을 꺼내거나 재장전 한 다음, 일제 사격을 하는 원거리 공격을 합니다. 이 일제 사격은 120 피트 이내의 @Template[type:burst|distance:10] 범위 내에서 @Damage[2d8[piercing]]의 피해를 입히고, @Check[reflex|dc:19|basic] 내성 체크를 합니다. 도시 경비대가 2개 이하의 세그먼트로 줄어들면 이 영역은 @Template[type:burst|distance:5]로 축소됩니다.</p>"
+          "description": "<p>도시 경비대는 석궁을 꺼내거나 재장전 한 다음, 일제 사격을 하는 원거리 공격을 합니다. 이 일제 사격은 120 피트 이내의 @Template[burst|distance:10] 범위 내에서 @Damage[2d8[piercing]]의 피해를 입히고, @Check[reflex|dc:19|basic] 내성 체크를 합니다. 도시 경비대가 2개 이하의 세그먼트로 줄어들면 이 영역은 @Template[burst|distance:5]로 축소됩니다.</p>"
         }
       }
     },
@@ -4242,7 +4242,7 @@
         },
         "fGxEd4o5r4hXlUtn": {
           "name": "가젯 제작 (Create Gadget)",
-          "description": "<p>가젯 제작자는 자신의 쓰레기 가방과 주변의 폐품으로 다음 중 하나의 가젯을 제작합니다. 이 방법으로 만든 가젯은 한 번 사용하거나 1시간이 지나면 분해됩니다. </p><ul><li><strong>플래시 방</strong> <span class=\"action-glyph\">1</span> (조작) 가젯 제작자는 최대 20피트 떨어진 곳에 플래시 방을 던져 @Template[type:burst|distance:5] 범위 내에서 폭발시킵니다. 폭발에 포함된 생물은 @Check[fortitude|dc:24] 내성 체크에 성공하지 않으면 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명} 상태가 됩니다.</li><li><strong>글라이더</strong> <span class=\"action-glyph\">1</span> (이동) 가제티어는 글라이더를 손에 들고 절벽에서 뛰어내립니다. 그들은 라운드당 60피트만 떨어지며, 10피트 떨어질 때마다 5피트 앞으로 이동할 수 있습니다.</li><li><strong>임시 열쇠</strong> <span class=\"action-glyph\">1</span> (조작) 가제티어는 체크에 +4의 아이템 보너스를 받고 자물쇠 따기를 시도합니다. 이 기기를 활성화하면 녹음된 말을 한 번 반복한 후 분해되거나, 최대 10분 동안 메시지를 반복 재생한 후 분해됩니다.</li><li><p><strong>충격 막대</strong> <span class=\"action-glyph\">1</span> (조작) 인접한 생물은 @Damage[3d12[전기]]의 피해를 받고 @Check[reflex|dc:24|basic] 내성을 가지고 있습니다. </p>\n</li></ul>"
+          "description": "<p>가젯 제작자는 자신의 쓰레기 가방과 주변의 폐품으로 다음 중 하나의 가젯을 제작합니다. 이 방법으로 만든 가젯은 한 번 사용하거나 1시간이 지나면 분해됩니다. </p><ul><li><strong>플래시 방</strong> <span class=\"action-glyph\">1</span> (조작) 가젯 제작자는 최대 20피트 떨어진 곳에 플래시 방을 던져 @Template[burst|distance:5] 범위 내에서 폭발시킵니다. 폭발에 포함된 생물은 @Check[fortitude|dc:24] 내성 체크에 성공하지 않으면 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명} 상태가 됩니다.</li><li><strong>글라이더</strong> <span class=\"action-glyph\">1</span> (이동) 가제티어는 글라이더를 손에 들고 절벽에서 뛰어내립니다. 그들은 라운드당 60피트만 떨어지며, 10피트 떨어질 때마다 5피트 앞으로 이동할 수 있습니다.</li><li><strong>임시 열쇠</strong> <span class=\"action-glyph\">1</span> (조작) 가제티어는 체크에 +4의 아이템 보너스를 받고 자물쇠 따기를 시도합니다. 이 기기를 활성화하면 녹음된 말을 한 번 반복한 후 분해되거나, 최대 10분 동안 메시지를 반복 재생한 후 분해됩니다.</li><li><p><strong>충격 막대</strong> <span class=\"action-glyph\">1</span> (조작) 인접한 생물은 @Damage[3d12[전기]]의 피해를 받고 @Check[reflex|dc:24|basic] 내성을 가지고 있습니다. </p>\n</li></ul>"
         }
       }
     },
@@ -4529,7 +4529,7 @@
         },
         "HLSb3Hxa9yNvAbbN": {
           "name": "진동 (Tremor)",
-          "description": "<p>산 수호자는 자연의 흙이나 돌을 밟아 국부적인 진동을 일으킵니다. 30 피트 이내의 @Template[type:burst|distance:10]에 있는 모든 생물은 @Damage[3d10[bludgeoning]|options:area-damage]의 피해를 받고 @Check[fortitude|dc:24|basic|options:area-effect] 내성을 사용합니다. 대실패한 생물은 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} 상태가 됩니다. 이 지역의 흙과 돌은 산의 수호자의 다음 턴이 시작될 때까지 어려운 지형이 됩니다."
+          "description": "<p>산 수호자는 자연의 흙이나 돌을 밟아 국부적인 진동을 일으킵니다. 30 피트 이내의 @Template[burst|distance:10]에 있는 모든 생물은 @Damage[3d10[bludgeoning]|options:area-damage]의 피해를 받고 @Check[fortitude|dc:24|basic|options:area-effect] 내성을 사용합니다. 대실패한 생물은 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} 상태가 됩니다. 이 지역의 흙과 돌은 산의 수호자의 다음 턴이 시작될 때까지 어려운 지형이 됩니다."
         }
       }
     },
@@ -4661,7 +4661,7 @@
         },
         "8WG4O0u4doC3cN4f": {
           "name": "부비 트랩 (Booby-Trapped)",
-          "description": "<p>코볼트 사냥꾼은 배낭에 있는 물건을 부비 트랩으로 보호합니다. 이 부비 트랩을 발견하려면 @Check[perception|dc:18] 체크에 성공해야 하고, 해제하려면 @Check[thievery|dc:15] 체크에 두 번 성공해야 합니다.</p>\n<p>트랩을 해제하지 않고 배낭에 접근하면 배낭의 내용물이 파괴되고, 배낭을 중심으로 @Template[type:burst|distance:10] 범위 내에 파편이 폭발하여 @Damage[3d6[piercing]|options:area-damage] 피해 (@Check[reflex|dc:15|basic|options:area-effect] 내성)를 입힙니다."
+          "description": "<p>코볼트 사냥꾼은 배낭에 있는 물건을 부비 트랩으로 보호합니다. 이 부비 트랩을 발견하려면 @Check[perception|dc:18] 체크에 성공해야 하고, 해제하려면 @Check[thievery|dc:15] 체크에 두 번 성공해야 합니다.</p>\n<p>트랩을 해제하지 않고 배낭에 접근하면 배낭의 내용물이 파괴되고, 배낭을 중심으로 @Template[burst|distance:10] 범위 내에 파편이 폭발하여 @Damage[3d6[piercing]|options:area-damage] 피해 (@Check[reflex|dc:15|basic|options:area-effect] 내성)를 입힙니다."
         },
         "Y9FN1CneGrmbNatQ": {
           "name": "+1 모든 방어력에 대한 함정 (+1 Circumstance to All Defenses vs. Traps)",
@@ -4688,11 +4688,11 @@
         },
         "MsrrFoKurdqAnnPb": {
           "name": "그들에게 맡기세요! (Let 'em Have It!)",
-          "description": "<p><span class=\"action-glyph\">1</span> ~ <span class=\"action-glyph\">3</span></p><hr /><p><strong>사용 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 용병단은 다양한 근접 무기를 사용하여 @Template[type:emanation|거리: 5]에 있는 각 적에게 @Check[reflex|dc:25|basic|options:area-effect] 내성을 가진 공격을 합니다. 피해는 행동 횟수에 따라 달라집니다.area-damage]{piercing}, 또는 @Damage[(1d8+2)[slashing]|options:area-damage]{slashing}</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(3d8+4)[bludgeoning]|options:area-damage], @Damage[(3d8+4)[piercing]|options:area-damage]{piercing}, 또는 @Damage[(3d8+4)[slashing]|options:area-damage]{slashing}</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(4d8+6)[bludgeoning]|options:area-damage], @Damage[(4d8+6)[piercing]|options:area-damage]{piercing}, or @Damage[(4d8+6)[slashing]|options:area-damage]{slashing}</p>"
+          "description": "<p><span class=\"action-glyph\">1</span> ~ <span class=\"action-glyph\">3</span></p><hr /><p><strong>사용 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 용병단은 다양한 근접 무기를 사용하여 @Template[type:emanation|distance: 5]에 있는 각 적에게 @Check[reflex|dc:25|basic|options:area-effect] 내성을 가진 공격을 합니다. 피해는 행동 횟수에 따라 달라집니다.area-damage]{piercing}, 또는 @Damage[(1d8+2)[slashing]|options:area-damage]{slashing}</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(3d8+4)[bludgeoning]|options:area-damage], @Damage[(3d8+4)[piercing]|options:area-damage]{piercing}, 또는 @Damage[(3d8+4)[slashing]|options:area-damage]{slashing}</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(4d8+6)[bludgeoning]|options:area-damage], @Damage[(4d8+6)[piercing]|options:area-damage]{piercing}, or @Damage[(4d8+6)[slashing]|options:area-damage]{slashing}</p>"
         },
         "8BepGIHpY5yY5uZf": {
           "name": "준비... 발사! (Ready... Fire!)",
-          "description": "<p>용병단은 활, 석궁, 슬링을 꺼내거나 재장전 한 다음, 일제 사격을 하는 원거리 공격을 합니다. 이 일제 사격은 120 피트 이내의 @Template[type:burst|distance:10] 범위 내에서 @Damage[(2d8+4)[piercing]|options:area-damage] 또는 @Damage[(2d8+4)[bludgeoning]|options:area-damage]{bludgeoning}의 피해를 입힙니다. @Check[reflex|dc:25|basic|options:area-effect] 내성을 통과해야 합니다. 용병단이 2개 이하로 줄어들면, 이 영역은 @Template[type:burst|distance:5]로 줄어듭니다."
+          "description": "<p>용병단은 활, 석궁, 슬링을 꺼내거나 재장전 한 다음, 일제 사격을 하는 원거리 공격을 합니다. 이 일제 사격은 120 피트 이내의 @Template[burst|distance:10] 범위 내에서 @Damage[(2d8+4)[piercing]|options:area-damage] 또는 @Damage[(2d8+4)[bludgeoning]|options:area-damage]{bludgeoning}의 피해를 입힙니다. @Check[reflex|dc:25|basic|options:area-effect] 내성을 통과해야 합니다. 용병단이 2개 이하로 줄어들면, 이 영역은 @Template[burst|distance:5]로 줄어듭니다."
         },
         "J5IIQDWJiT0KX2ed": {
           "name": "전쟁의 전리품 (Spoils of War)",
@@ -4879,7 +4879,7 @@
         },
         "nydeMYmeBrzWte4x": {
           "name": "고블린 불태우기와 고블린 탄화! (Goblins Burn and Goblins Char!)",
-          "description": "<p>부대원들은 불타는 횃불을 마구 던집니다. 부대에서 30피트 이내의 @Template[type:burst|distance:10]에 있는 모든 생물은 @Damage[2d8[fire]|options:area-damage]의 피해를 받고, @Check[reflex|dc:20|basic|options:area-effect] 내성 굴림에 성공해야 합니다. 부대가 2개 이하로 줄어들면 이 영역은 @Template[type:burst|distance:5]로 줄어듭니다.</p>"
+          "description": "<p>부대원들은 불타는 횃불을 마구 던집니다. 부대에서 30피트 이내의 @Template[burst|distance:10]에 있는 모든 생물은 @Damage[2d8[fire]|options:area-damage]의 피해를 받고, @Check[reflex|dc:20|basic|options:area-effect] 내성 굴림에 성공해야 합니다. 부대가 2개 이하로 줄어들면 이 영역은 @Template[burst|distance:5]로 줄어듭니다.</p>"
         },
         "9PPJKcSTyWJ1Csi6": {
           "name": "고블린 베기 및 고블린 상처! (Goblins Slash and Goblins Scar!)",
@@ -5066,7 +5066,7 @@
         },
         "FQgyTPeSS1DpQsYQ": {
           "name": "허리케인 망토 (Hurricane Cloak)",
-          "description": "<p>10 피트. 이 영역에 들어가는 생물은 @Check[athletics|dc:38] 체크 (지상에 있는 경우) 또는 비행 중 기동 아크로바틱스 체크 (비행 중인 경우)에 성공하지 않으면 이동을 종료합니다. 대실패한 생물은 5 피트 뒤로 밀려나 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}에 쓰러집니다. 이 지역을 통과하는 원거리 투사체 및 투척 공격을 하는 생물은 @Check[flat|dc:5]에 성공하지 않으면 공격이 실패합니다. 던진 바위와 같은 거대한 투사체는 영향을 받지 않습니다. 폭풍의 화신은 집중 특성을 가진 단일 행동으로 이 능력을 활성화하거나 비활성화할 수 있습니다."
+          "description": "<p>10 피트. 이 영역에 들어가는 생물은 @Check[athletics|dc:38] 체크 (지상에 있는 경우) 또는 비행 중 기동 곡예 체크 (비행 중인 경우)에 성공하지 않으면 이동을 종료합니다. 대실패한 생물은 5 피트 뒤로 밀려나 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}에 쓰러집니다. 이 지역을 통과하는 원거리 투사체 및 투척 공격을 하는 생물은 @Check[flat|dc:5]에 성공하지 않으면 공격이 실패합니다. 던진 바위와 같은 거대한 투사체는 영향을 받지 않습니다. 폭풍의 화신은 집중 특성을 가진 단일 행동으로 이 능력을 활성화하거나 비활성화할 수 있습니다."
         },
         "atpJ2mtaJeJ9UzZC": {
           "name": "위협적인 폭풍 (Intimidating Storm)",
@@ -5097,7 +5097,7 @@
         },
         "esZ7IFO1aPcIn4T5": {
           "name": "다재다능한 공연 (Versatile Performance)",
-          "description": "<p>미메는 외교 대신 퍼포먼스를 사용하여 [[/act make-an-impression statistic=performance]], 협박 대신 퍼포먼스를 사용하여 [[/act demoralize statistic=performance]], 그리고 사기 대신 퍼포먼스를 사용하여 [[/act impersonate statistic=performance]]를 수행할 수 있습니다.</p>"
+          "description": "<p>미메는 외교 대신 공연를 사용하여 [[/act make-an-impression statistic=performance]], 협박 대신 공연를 사용하여 [[/act demoralize statistic=performance]], 그리고 사기 대신 공연를 사용하여 [[/act impersonate statistic=performance]]를 수행할 수 있습니다.</p>"
         },
         "I6oggW1yXL9bI8Iz": {
           "name": "미메 공격 (Mimic Assault)",
@@ -5257,7 +5257,7 @@
     },
     "Razzle Dazzler": {
       "name": "라즐 다즐러 (Razzle Dazzler)",
-      "description": "<p>라즐 다즐러는 환상과 화려한 퍼포먼스로 관객을 매료시키는 특별한 종류의 엔터테이너입니다. 환상적인 분신이나 적절한 타이밍의 불꽃 놀이를 통해, 그들은 관객의 시선을 한 가지 쇼에 집중시켜 마법의 비밀을 드러내지 않는 데에 매우 능숙합니다. 그들의 조상이 제 1 세계에서 왔기 때문에, 노움들은 본질적으로 요정의 세계와 밀접한 관련이 있으며 신비롭고 예측할 수 없는 것을 갈망합니다. 그들은 대담한 예술 작품을 만들고, 새로운 곳을 여행하며, 이전에 경험하지 못한 경험을 하고자 합니다. 그렇지 않으면, 그들만의 색깔뿐만 아니라 영혼까지 흡수하는 끔찍한 병인 '표백'에 걸릴 수 있습니다.",
+      "description": "<p>라즐 다즐러는 환상과 화려한 공연로 관객을 매료시키는 특별한 종류의 엔터테이너입니다. 환상적인 분신이나 적절한 타이밍의 불꽃 놀이를 통해, 그들은 관객의 시선을 한 가지 쇼에 집중시켜 마법의 비밀을 드러내지 않는 데에 매우 능숙합니다. 그들의 조상이 제 1 세계에서 왔기 때문에, 노움들은 본질적으로 요정의 세계와 밀접한 관련이 있으며 신비롭고 예측할 수 없는 것을 갈망합니다. 그들은 대담한 예술 작품을 만들고, 새로운 곳을 여행하며, 이전에 경험하지 못한 경험을 하고자 합니다. 그렇지 않으면, 그들만의 색깔뿐만 아니라 영혼까지 흡수하는 끔찍한 병인 '표백'에 걸릴 수 있습니다.",
       "hpdetails": "",
       "items": {
         "16GapaocUFBhDvDr": {
@@ -5606,7 +5606,7 @@
       "items": {
         "hRgSJclrdYkLuHrx": {
           "name": "영혼의 간섭 (Spirit's Interference)",
-          "description": "<p>영혼 사제는 현지 영혼을 불러 사제의 적을 공격하도록 명령합니다. 영혼은 바위 폭풍을 일으키거나 덩굴로 공격하거나 환경의 다른 적절한 부분을 이용해 사제로부터 30피트 이내에 있는 모든 생물에게 @Template[type:burst|distance:10] 범위 내의 피해를 입힙니다. 이 공격은 @Damage[6d6[bludgeoning]|options:area-damage]의 피해를 입히고, @Check[reflex|dc:18|basic|options:area-effect]의 내성을 적용합니다. 영혼 사제는 [[/gmr 1d4 #rounds]]{1d4 라운드} 동안 영혼의 간섭을 사용할 수 없습니다. GM은 이 능력이 지역 영혼에 따라 다른 피해 유형을 입히도록 할 수 있습니다(예: 불의 영혼을 부를 때 불 피해).</p>"
+          "description": "<p>영혼 사제는 현지 영혼을 불러 사제의 적을 공격하도록 명령합니다. 영혼은 바위 폭풍을 일으키거나 덩굴로 공격하거나 환경의 다른 적절한 부분을 이용해 사제로부터 30피트 이내에 있는 모든 생물에게 @Template[burst|distance:10] 범위 내의 피해를 입힙니다. 이 공격은 @Damage[6d6[bludgeoning]|options:area-damage]의 피해를 입히고, @Check[reflex|dc:18|basic|options:area-effect]의 내성을 적용합니다. 영혼 사제는 [[/gmr 1d4 #rounds]]{1d4 라운드} 동안 영혼의 간섭을 사용할 수 없습니다. GM은 이 능력이 지역 영혼에 따라 다른 피해 유형을 입히도록 할 수 있습니다(예: 불의 영혼을 부를 때 불 피해).</p>"
         },
         "KZRrUi16iTJeV3Cz": {
           "name": "영적 가장자리 (Spiritual Edge)",
@@ -5685,7 +5685,7 @@
         },
         "HK3El8JaNgkSuAIQ": {
           "name": "폭격 (Bombing Barrage)",
-          "description": "<p>드워프 대대는 연금술 폭탄을 꺼내 멀리 있는 적들에게 던집니다. 이 포격은 60피트 이내의 @Template[type:burst|distance:10] 범위 내에서 @Damage[3d6[@item.flags.pf2e.rulesSelections.bombingBarrage]|options:area-damage]의 피해를 입히고, @Check[reflex|dc:21|basic|options:area-effect] 내성을 적용합니다. 피해는 대대가 사용한 폭탄의 종류에 따라 산성, 화염, 또는 전기 피해 중 하나입니다. 드워프 대대가 2개 이하로 줄어들면, 이 영역은 @Template[type:burst|distance:5]로 줄어듭니다. </p>"
+          "description": "<p>드워프 대대는 연금술 폭탄을 꺼내 멀리 있는 적들에게 던집니다. 이 포격은 60피트 이내의 @Template[burst|distance:10] 범위 내에서 @Damage[3d6[@item.flags.pf2e.rulesSelections.bombingBarrage]|options:area-damage]의 피해를 입히고, @Check[reflex|dc:21|basic|options:area-effect] 내성을 적용합니다. 피해는 대대가 사용한 폭탄의 종류에 따라 산성, 화염, 또는 전기 피해 중 하나입니다. 드워프 대대가 2개 이하로 줄어들면, 이 영역은 @Template[burst|distance:5]로 줄어듭니다. </p>"
         },
         "ajOvxZZwNfyldDXc": {
           "name": "Coordinated Pummel",
@@ -5762,7 +5762,7 @@
         },
         "Bi5rajlTE3v50VDg": {
           "name": "벽은 무너져야 한다 (The Wall Must Fall)",
-          "description": "<p><strong>요구 조건</strong> 시즈브레이커는 요새화된 벽의 기저부에 있습니다</p><hr /><p><strong>효과</strong> 시즈브레이커는 수년간 연구를 통해 수류탄에 사용되는 알케미컬 성분을 결합하여 그 힘을 지수적으로 증폭시키는 방법을 정확히 습득했습니다. 이로써 도시 벽을 파괴할 수 있는 공포의 공성 파괴 폭탄을 만들 수 있습니다. 공성 파괴자는 선택한 9개의 다른 알케미 그레네이드에서 재료를 결합하는 데 10분을 소비합니다. 공성 파괴자는 이후 1분 길이의 폭탄 타이머를 설정합니다. 시간이 만료되면 폭탄이 집중된 @Template[type:burst|distance:20]에서 폭발하여 @Damage[20d6[acid]|options:area-damage], @Damage[20d6[cold]|options:area-damage]{cold}, 또는 @Damage[20d6[fire]|options:area-damage]{fire} 피해는 구조물의 경도 10까지 무시합니다. 이 영역에 있는 모든 생물은 @Check[reflex|dc:37|basic|options:area-effect] 내성 체크로 받는 피해를 줄일 수 있습니다."
+          "description": "<p><strong>요구 조건</strong> 시즈브레이커는 요새화된 벽의 기저부에 있습니다</p><hr /><p><strong>효과</strong> 시즈브레이커는 수년간 연구를 통해 수류탄에 사용되는 알케미컬 성분을 결합하여 그 힘을 지수적으로 증폭시키는 방법을 정확히 습득했습니다. 이로써 도시 벽을 파괴할 수 있는 공포의 공성 파괴 폭탄을 만들 수 있습니다. 공성 파괴자는 선택한 9개의 다른 알케미 그레네이드에서 재료를 결합하는 데 10분을 소비합니다. 공성 파괴자는 이후 1분 길이의 폭탄 타이머를 설정합니다. 시간이 만료되면 폭탄이 집중된 @Template[burst|distance:20]에서 폭발하여 @Damage[20d6[acid]|options:area-damage], @Damage[20d6[cold]|options:area-damage]{cold}, 또는 @Damage[20d6[fire]|options:area-damage]{fire} 피해는 구조물의 경도 10까지 무시합니다. 이 영역에 있는 모든 생물은 @Check[reflex|dc:37|basic|options:area-effect] 내성 체크로 받는 피해를 줄일 수 있습니다."
         }
       }
     },

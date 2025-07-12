@@ -83,7 +83,7 @@
     },
     "High Jump": {
       "name": "높이뛰기 (High Jump)",
-      "description": "<p>보폭을 넓힌 다음 DC 30 <span data-pf2-action=\"highJump\" data-pf2-glyph=\"D\" data-pf2-dc=\"30\">운동</span> 수직 점프 체크를 시도합니다. 10피트 이상 보폭을 내지 못하면 자동으로 실패합니다. 이 DC는 GM의 판단에 따라 상황에 따라 증가하거나 감소할 수 있습니다.</p>\n<hr />\n<p><strong>대성공</strong> 당신은 수직으로 8피트, 수평으로 10피트까지 @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{도약}합니다.</p>\n<p><strong>성공</strong> 수직 5피트, 수평 5피트까지 도약합니다.</p>\n<p><strong> 실패</strong> 일반적으로 도약합니다.</p>\n<p><strong> 대실패</strong> 자신의 공간에서 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드린 상태}로 추락합니다.</p>"
+      "description": "<p>보폭을 넓힌 다음 DC 30 <span data-pf2-action=\"highJump\" data-pf2-glyph=\"D\" data-pf2-dc=\"30\">운동</span> 수직 점프 체크를 시도합니다. 10피트 이상 보폭을 내지 못하면 자동으로 실패합니다. 이 DC는 GM의 판단에 따라 상황에 따라 증가하거나 감소할 수 있습니다.</p>\n<hr />\n<p><strong>대성공</strong> 당신은 수직으로 8피트, 수평으로 10피트까지 @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{도약}합니다.</p>\n<p><strong>성공</strong> 수직 5피트, 수평 5피트까지 도약합니다.</p>\n<p><strong> 실패</strong> 일반적으로 도약합니다.</p>\n<p><strong> 대실패</strong> 자신의 공간에서 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드린}로 추락합니다.</p>"
     },
     "Act Together": {
       "name": "함께 행동 (Act Together)",
@@ -359,7 +359,7 @@
     },
     "Heavy is the Crown": {
       "name": "무거운 왕관 (Heavy is the Crown)",
-      "description": "<p>권위의 무게가 당신과 주변 생물들에게 무겁게 내려앉습니다. 60 피트 이내의 @Template[type:burst|distance:15]에 있는 모든 적들은 @Damage[(@actor.level)[spirit]|options:area-damage]{spirit damage damage equal to your level}의 피해를 받고, 당신의 직업 DC에 대한 @Check[will|against:exemplar|basic|options:area-effect] 내성 체크를 합니다. 내성에 실패한 모든 적들은 즉시 무릎을 꿇고 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드린}을 자유 행동으로 떨어뜨립니다.</p>"
+      "description": "<p>권위의 무게가 당신과 주변 생물들에게 무겁게 내려앉습니다. 60 피트 이내의 @Template[burst|distance:15]에 있는 모든 적들은 @Damage[(@actor.level)[spirit]|options:area-damage]{spirit damage damage equal to your level}의 피해를 받고, 당신의 직업 DC에 대한 @Check[will|against:exemplar|basic|options:area-effect] 내성 체크를 합니다. 내성에 실패한 모든 적들은 즉시 무릎을 꿇고 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드린}을 자유 행동으로 떨어뜨립니다.</p>"
     },
     "Reactive Falsehood": {
       "name": "즉각적 허위 (Reactive Falsehood)",
@@ -419,7 +419,7 @@
     },
     "Perform": {
       "name": "공연 (Perform)",
-      "description": "<p>노래 한 곡, 간단한 춤, 농담 등 짧은 공연을 할 때는 공연하기 액션을 사용합니다. 이 액션은 자신의 능력을 증명하거나 상대방에게 빠르게 깊은 인상을 남기고 싶을 때 가장 유용합니다. 공연은 그 자체로는 거의 영향을 미치지 않지만, 관찰자에 대한 후속 외교 체크의 DC에 영향을 미치거나 GM이 적절하다고 판단하면 관찰자의 태도를 바꿀 수도 있습니다.</p>\n<table>\n<tbody>\n<tr>\n<th>퍼포먼스</th>\n<th>추가 특성</th>\n<th>예시</th>\n</tr>\n<tr>\n<td><span data-pf2-action=\"perform\" data-pf2-variant=\"acting\" data-pf2-glyph=\"A\">연기</span></td>\n<td>청각, 언어, 시각</td>\n<td>드라마, 무언극, 인형극</td>\n</tr>\n<tr>\n<td><span data-pf2-action=\"perform\" data-pf2-variant=\"comedy\" data-pf2-glyph=\"A\">코미디</span></td>\n<td>청각, 언어, 시각</td>\n<td>버푸너리, 농담, 리머릭</td>\n</tr>\n<tr>\n<td><span data-pf2-action=\"perform\" data-pf2-variant=\"dance\" data-pf2-glyph=\"A\">댄스</span></td>\n<td>움직임 및 시각</td>\n<td>발레, 후아라, 지그, 마크루</td>\n</tr>\n<tr>\n<td><span data-pf2-action=\"perform\" data-pf2-variant=\"keyboards\" data-pf2-glyph=\"A\">키보드 연주</span></td>\n<td>청각 및 조작</td>\n<td>하프시코드, 오르간, 피아노</td>\n</tr>\n<tr>\n<td><span data-pf2-action=\"perform\" data-pf2-variant=\"oratory\" data-pf2-glyph=\"A\">웅변</span></td>\n<td>청각 및 언어</td>\n<td>서사시, 송가, 시, 스토리텔링</td>\n</tr>\n<tr>\n<td><span data-pf2-action=\"perform\" data-pf2-variant=\"percussion\" data-pf2-glyph=\"A\">타악기 연주하기</span></td>\n<td>청각 및 조작</td>\n<td>차임벨, 드럼, 징, 실로폰</td>\n</tr>\n<tr>\n<td><span data-pf2-action=\"perform\" data-pf2-variant=\"singing\" data-pf2-glyph=\"A\">노래 부르기</span></td>\n<td>청각 및 언어</td>\n<td>발라드, 성가, 멜로디, 운율</td>\n</tr>\n<tr>\n<td><span data-pf2-action=\"perform\" data-pf2-variant=\"strings\" data-pf2-glyph=\"A\">현악기 연주하기</span></td>\n<td>청각 및 조작</td>\n<td>바이올린, 하프, 류트, 바이올린</td>\n</tr>\n<tr>\n<td><span data-pf2-action=\"perform\" data-pf2-variant=\"winds\" data-pf2-glyph=\"A\">관악기 연주하기</span></td>\n<td>청각 및 조작</td>\n<td>백파이프, 플루트, 리코더, 트럼펫</td>\n</tr>\n</tbody>\n</table>\n<hr />\n<p><strong>대성공</strong> 당신의 연주는 관찰자들에게 깊은 인상을 주며, 그들은 당신의 능력에 대한 이야기를 나눌 가능성이 높습니다.</p>\n<p><strong> 성공</strong> 당신은 자신을 증명하고, 관찰자들은 당신의 연주의 질을 높이 평가합니다.</p>\n<p><strong> 실패</strong> 당신의 연주는 평평하게 떨어집니다.</p>\n<p><strong> 대실패</strong> 당신은 무능력만 보여줍니다.</p>\n<h2 class=\"title\">샘플 과제 수행하기</h2>\n<ul>\n<li><strong>훈련되지 않은</strong> 평민 관객</li>\n<li><strong> 훈련된</strong> 장인 관객</li>\n<li><strong> 전문가</strong> 상인 또는 소귀족 관객</li>\n<li><strong> 마스터</strong> 고위 귀족 또는 소왕족 관객</li>\n<li><strong> 전설적</strong> 주요 왕족 또는 기타 존재 관객</li>\n</ul>"
+      "description": "<p>노래 한 곡, 간단한 춤, 농담 등 짧은 공연을 할 때는 공연하기 액션을 사용합니다. 이 액션은 자신의 능력을 증명하거나 상대방에게 빠르게 깊은 인상을 남기고 싶을 때 가장 유용합니다. 공연은 그 자체로는 거의 영향을 미치지 않지만, 관찰자에 대한 후속 외교 체크의 DC에 영향을 미치거나 GM이 적절하다고 판단하면 관찰자의 태도를 바꿀 수도 있습니다.</p>\n<table>\n<tbody>\n<tr>\n<th>공연</th>\n<th>추가 특성</th>\n<th>예시</th>\n</tr>\n<tr>\n<td><span data-pf2-action=\"perform\" data-pf2-variant=\"acting\" data-pf2-glyph=\"A\">연기</span></td>\n<td>청각, 언어, 시각</td>\n<td>드라마, 무언극, 인형극</td>\n</tr>\n<tr>\n<td><span data-pf2-action=\"perform\" data-pf2-variant=\"comedy\" data-pf2-glyph=\"A\">코미디</span></td>\n<td>청각, 언어, 시각</td>\n<td>버푸너리, 농담, 리머릭</td>\n</tr>\n<tr>\n<td><span data-pf2-action=\"perform\" data-pf2-variant=\"dance\" data-pf2-glyph=\"A\">댄스</span></td>\n<td>움직임 및 시각</td>\n<td>발레, 후아라, 지그, 마크루</td>\n</tr>\n<tr>\n<td><span data-pf2-action=\"perform\" data-pf2-variant=\"keyboards\" data-pf2-glyph=\"A\">키보드 연주</span></td>\n<td>청각 및 조작</td>\n<td>하프시코드, 오르간, 피아노</td>\n</tr>\n<tr>\n<td><span data-pf2-action=\"perform\" data-pf2-variant=\"oratory\" data-pf2-glyph=\"A\">웅변</span></td>\n<td>청각 및 언어</td>\n<td>서사시, 송가, 시, 스토리텔링</td>\n</tr>\n<tr>\n<td><span data-pf2-action=\"perform\" data-pf2-variant=\"percussion\" data-pf2-glyph=\"A\">타악기 연주하기</span></td>\n<td>청각 및 조작</td>\n<td>차임벨, 드럼, 징, 실로폰</td>\n</tr>\n<tr>\n<td><span data-pf2-action=\"perform\" data-pf2-variant=\"singing\" data-pf2-glyph=\"A\">노래 부르기</span></td>\n<td>청각 및 언어</td>\n<td>발라드, 성가, 멜로디, 운율</td>\n</tr>\n<tr>\n<td><span data-pf2-action=\"perform\" data-pf2-variant=\"strings\" data-pf2-glyph=\"A\">현악기 연주하기</span></td>\n<td>청각 및 조작</td>\n<td>바이올린, 하프, 류트, 바이올린</td>\n</tr>\n<tr>\n<td><span data-pf2-action=\"perform\" data-pf2-variant=\"winds\" data-pf2-glyph=\"A\">관악기 연주하기</span></td>\n<td>청각 및 조작</td>\n<td>백파이프, 플루트, 리코더, 트럼펫</td>\n</tr>\n</tbody>\n</table>\n<hr />\n<p><strong>대성공</strong> 당신의 연주는 관찰자들에게 깊은 인상을 주며, 그들은 당신의 능력에 대한 이야기를 나눌 가능성이 높습니다.</p>\n<p><strong> 성공</strong> 당신은 자신을 증명하고, 관찰자들은 당신의 연주의 질을 높이 평가합니다.</p>\n<p><strong> 실패</strong> 당신의 연주는 평평하게 떨어집니다.</p>\n<p><strong> 대실패</strong> 당신은 무능력만 보여줍니다.</p>\n<h2 class=\"title\">샘플 과제 수행하기</h2>\n<ul>\n<li><strong>훈련되지 않은</strong> 평민 관객</li>\n<li><strong> 훈련된</strong> 장인 관객</li>\n<li><strong> 전문가</strong> 상인 또는 소귀족 관객</li>\n<li><strong> 마스터</strong> 고위 귀족 또는 소왕족 관객</li>\n<li><strong> 전설적</strong> 주요 왕족 또는 기타 존재 관객</li>\n</ul>"
     },
     "Final Surge": {
       "name": "파이널 서지 (Final Surge)",
@@ -575,7 +575,7 @@
     },
     "Manifest Realm": {
       "name": "창조 영역 (Manifest Realm)",
-      "description": "<p><strong>빈도</strong> 1시간에 한 번</p><hr /><p><strong>효과</strong> 당신은 주변 지역을 당신을 중심으로 @Template[type:burst|distance:20]{20피트 반경의 폭발}의 범위 내에 당신의 영역으로 변형시킵니다. 당신의 창조된 영역은 적들에게 어려운 지형으로 간주되며, 적들은 당신의 창조된 영역에 있는 동안 체력 내성 굴림에 -1의 페널티를 받습니다. </p> <p>@UUID[Compendium.pf2e.feat-effects.Item.VrTaP6BcXo6sizn6]{효과: 영역 창조}</p> <p>다음 라운드에 한 번씩 창조한 영역을 유지할 수 있으며, 유지하지 않으면 창조한 영역의 반경이 5피트씩 감소합니다. 창조된 영역의 반경이 0피트로 줄어들거나 창조된 영역의 경계에서 100피트 이상 멀어지면 창조된 영역은 자동으로 해제됩니다. </p>"
+      "description": "<p><strong>빈도</strong> 1시간에 한 번</p><hr /><p><strong>효과</strong> 당신은 주변 지역을 당신을 중심으로 @Template[burst|distance:20]{20피트 반경의 폭발}의 범위 내에 당신의 영역으로 변형시킵니다. 당신의 창조된 영역은 적들에게 어려운 지형으로 간주되며, 적들은 당신의 창조된 영역에 있는 동안 체력 내성 굴림에 -1의 페널티를 받습니다. </p> <p>@UUID[Compendium.pf2e.feat-effects.Item.VrTaP6BcXo6sizn6]{효과: 영역 창조}</p> <p>다음 라운드에 한 번씩 창조한 영역을 유지할 수 있으며, 유지하지 않으면 창조한 영역의 반경이 5피트씩 감소합니다. 창조된 영역의 반경이 0피트로 줄어들거나 창조된 영역의 경계에서 100피트 이상 멀어지면 창조된 영역은 자동으로 해제됩니다. </p>"
     },
     "Life Block": {
       "name": "라이프 블록 (Life Block)",
@@ -1067,7 +1067,7 @@
     },
     "Blazing Conflagration": {
       "name": "불타는 화염 (Blazing Conflagration)",
-      "description": "<p><strong>요건</strong> 이 피트에 의해 부여된 괴물 형태 주문으로 불사조 형태로 변신합니다. @Template[type:burst|distance:10]에 있는 모든 생물은 @Damage[max(16,(2*(floor(@actor.level/2))))d6[fire]|options:area-damage]의 피해를 입으며, 당신의 주문 DC에 대해 @Check[fortitude|against:spell|basic|options:area-effect] 내성을 체크합니다. 대실패한 생물은 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명} 상태가 됩니다. 당신은 8d6의 임시 체력을 얻습니다. 18 레벨과 20 레벨에 도달하면, 폭발은 추가 2d6의 화염 피해를 입히고, 당신은 추가 1d6의 임시 체력을 얻습니다.</p>"
+      "description": "<p><strong>요건</strong> 이 피트에 의해 부여된 괴물 형태 주문으로 불사조 형태로 변신합니다. @Template[burst|distance:10]에 있는 모든 생물은 @Damage[max(16,(2*(floor(@actor.level/2))))d6[fire]|options:area-damage]의 피해를 입으며, 당신의 주문 DC에 대해 @Check[fortitude|against:spell|basic|options:area-effect] 내성을 체크합니다. 대실패한 생물은 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명} 상태가 됩니다. 당신은 8d6의 임시 체력을 얻습니다. 18 레벨과 20 레벨에 도달하면, 폭발은 추가 2d6의 화염 피해를 입히고, 당신은 추가 1d6의 임시 체력을 얻습니다.</p>"
     },
     "Blinding of the Needle": {
       "name": "바늘로 눈을 멀게 하기 (Blinding of the Needle)",
@@ -1075,7 +1075,7 @@
     },
     "Break the Sun's Legs": {
       "name": "태양의 다리를 부러뜨리다 (Break the Sun's Legs)",
-      "description": "<p>당신은 횃불이나 하늘의 태양과 같은 가장 밝은 빛의 원천 위로 베는 동작을 합니다. 빛의 원천 위에 모든 이가 볼 수 있는 상처가 생기고, 그 빛을 삼켜버립니다. 당신 주변 @Template[type:burst|distance:120] 범위 내 전체 지역이 9등급 @UUID[Compendium.pf2e.spells-srd.Item.4GE2ZdODgIQtg51c]{Darkness} 마법에 1분 동안 영향을 받습니다. 훔친 빛은 당신의 눈으로 전달되어 효과 지속 동안 어둠 시야가 강화됩니다.</p>"
+      "description": "<p>당신은 횃불이나 하늘의 태양과 같은 가장 밝은 빛의 원천 위로 베는 동작을 합니다. 빛의 원천 위에 모든 이가 볼 수 있는 상처가 생기고, 그 빛을 삼켜버립니다. 당신 주변 @Template[burst|distance:120] 범위 내 전체 지역이 9등급 @UUID[Compendium.pf2e.spells-srd.Item.4GE2ZdODgIQtg51c]{Darkness} 마법에 1분 동안 영향을 받습니다. 훔친 빛은 당신의 눈으로 전달되어 효과 지속 동안 어둠 시야가 강화됩니다.</p>"
     },
     "Drifter's Wake": {
       "name": "드리프터 웨이크 (Drifter's Wake)",
@@ -1403,7 +1403,7 @@
     },
     "Goblin Jubilee": {
       "name": "고블린 주빌리 (Goblin Jubilee)",
-      "description": "<p><strong>비용</strong> 주입 시약 3배치</p>\n<hr />\n<p><strong>효과</strong> 혼돈이 120피트 내의 @Template[type:burst|distance:20] 을 가득 채웁니다. 범위 내의 모든 생물이@Damage[3d6[fire],3d6[sonic]]{화염 피해 3d6, 음파 피해 3d6}를 받고 인내 저항을 시도해야 합니다. 고블린 주빌리 전시에는 주입된 시약이 1개가 아니라 3개가 필요합니다.</p>\n<hr />\n<p><strong>대성공</strong> 생명체는 영향을 받지 않습니다.</p>\n<p><strong> 성공</strong> 생명체는 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{눈부신} 및 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{귀가 먼}상태이며 절반의 피해를 입습니다.</p>\n<p><strong> 실패</strong> 이 생물은 1분 동안 눈부시고 귀가 멀며 전체 피해를 받습니다.</p>\n<p><strong>대실패</strong> 이 생물은 1라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명}상태가 되어 1분 동안 눈부시고 귀가 먼 상태로 피해를 두 배로 받습니다.</p>"
+      "description": "<p><strong>비용</strong> 주입 시약 3배치</p>\n<hr />\n<p><strong>효과</strong> 혼돈이 120피트 내의 @Template[burst|distance:20] 을 가득 채웁니다. 범위 내의 모든 생물이@Damage[3d6[fire],3d6[sonic]]{화염 피해 3d6, 음파 피해 3d6}를 받고 인내 저항을 시도해야 합니다. 고블린 주빌리 전시에는 주입된 시약이 1개가 아니라 3개가 필요합니다.</p>\n<hr />\n<p><strong>대성공</strong> 생명체는 영향을 받지 않습니다.</p>\n<p><strong> 성공</strong> 생명체는 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{눈부신} 및 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{귀가 먼}상태이며 절반의 피해를 입습니다.</p>\n<p><strong> 실패</strong> 이 생물은 1분 동안 눈부시고 귀가 멀며 전체 피해를 받습니다.</p>\n<p><strong>대실패</strong> 이 생물은 1라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명}상태가 되어 1분 동안 눈부시고 귀가 먼 상태로 피해를 두 배로 받습니다.</p>"
     },
     "Mark the Center": {
       "name": "중심을 표시 (Mark the Center)",
@@ -1467,7 +1467,7 @@
     },
     "Squeeze": {
       "name": "비집고 나아가기 (Squeeze)",
-      "description": "<p>몸을 비틀어 겨우 지나갈 수 있을 정도로 좁은 공간을 <span data-pf2-action=\"squeeze\">비집고 나아갑니다</span>. 이 액션은 매우 좁은 통로를 통과할 때 사용되며, 일반적인 좁은 지형은 별도 판정 없이 느린 속도로 지나갈 수 있는 <strong>어려운 지형</strong>입니다.</p>\n<hr />\n<p><strong>대성공</strong> 좁은 공간을 10피트당 1분 만에 통과합니다.</p>\n<p><strong>성공</strong> 좁은 공간을 5피트당 1분 만에 통과합니다.</p>\n<p><strong>대실패</strong> 통로에 끼어 갇히게 됩니다. 갇혀 있는 동안 매 1분마다 같은 DC로 새로운 운동(아크로바틱) 판정을 시도할 수 있습니다. 대실패가 아닌 결과가 나오면 갇힘에서 벗어납니다.</p>\n<h2 class=\"title\">스퀴즈 예시</h2>\n<ul>\n<li><strong>숙련</strong>: 어깨가 간신히 들어갈 정도의 통로</li>\n<li><strong>마스터</strong>: 머리가 간신히 들어갈 정도의 틈</li>\n</ul>"
+      "description": "<p>몸을 비틀어 겨우 지나갈 수 있을 정도로 좁은 공간을 <span data-pf2-action=\"squeeze\">비집고 나아갑니다</span>. 이 액션은 매우 좁은 통로를 통과할 때 사용되며, 일반적인 좁은 지형은 별도 판정 없이 느린 속도로 지나갈 수 있는 <strong>어려운 지형</strong>입니다.</p>\n<hr />\n<p><strong>대성공</strong> 좁은 공간을 10피트당 1분 만에 통과합니다.</p>\n<p><strong>성공</strong> 좁은 공간을 5피트당 1분 만에 통과합니다.</p>\n<p><strong>대실패</strong> 통로에 끼어 갇히게 됩니다. 갇혀 있는 동안 매 1분마다 같은 DC로 새로운 운동(곡예) 판정을 시도할 수 있습니다. 대실패가 아닌 결과가 나오면 갇힘에서 벗어납니다.</p>\n<h2 class=\"title\">스퀴즈 예시</h2>\n<ul>\n<li><strong>숙련</strong>: 어깨가 간신히 들어갈 정도의 통로</li>\n<li><strong>마스터</strong>: 머리가 간신히 들어갈 정도의 틈</li>\n</ul>"
     },
     "Recall the Teachings": {
       "name": "가르침 회상 (Recall the Teachings)",
@@ -1583,7 +1583,7 @@
     },
     "Dragon Breath": {
       "name": "드래곤 브레스 (Dragon Breath)",
-      "description": "<p><strong>빈도</strong> 한 시간에 한 번</p>\n<hr />\n<p><strong>효과</strong> 숨을 깊게 들이마시고, 계약을 맺은 용처럼 강력한 숨을 선 또는 원뿔 모양으로 내뱉습니다. 드래곤이 원뿔 모양의 호흡 무기를 가졌다면, 당신의 호흡 무기는 @Template[type:cone|distance:30]입니다. 드래곤이 선 모양의 숨결 무기를 가지고 있었다면, 당신의 숨결 무기는 @Template[type:line|distance:60]이 됩니다. 상대가 폭발 형태의 숨결 무기를 가지고 있다면, 당신의 숨결 무기는 60피트 범위 내의 @Template[type:burst|distance:10]이 됩니다. 형태와 상관없이 드래곤의 숨결 무기와 같은 피해 유형인 [[/r (@actor.level)d6]]{레벨당 1d6 피해}를 @Check[type:reflex|dc:resolve(@actor.system.attributes.classOrSpellDC.value)|basic:true] 반사 내성으로 자신의 클래스 DC와 주문 DC 중 더 큰 값으로 사용합니다. 이 액션은 계약을 맺은 드래곤의 숨결 무기와 동일한 특성을 가집니다.</p>"
+      "description": "<p><strong>빈도</strong> 한 시간에 한 번</p>\n<hr />\n<p><strong>효과</strong> 숨을 깊게 들이마시고, 계약을 맺은 용처럼 강력한 숨을 선 또는 원뿔 모양으로 내뱉습니다. 드래곤이 원뿔 모양의 호흡 무기를 가졌다면, 당신의 호흡 무기는 @Template[type:cone|distance:30]입니다. 드래곤이 선 모양의 숨결 무기를 가지고 있었다면, 당신의 숨결 무기는 @Template[type:line|distance:60]이 됩니다. 상대가 폭발 형태의 숨결 무기를 가지고 있다면, 당신의 숨결 무기는 60피트 범위 내의 @Template[burst|distance:10]이 됩니다. 형태와 상관없이 드래곤의 숨결 무기와 같은 피해 유형인 [[/r (@actor.level)d6]]{레벨당 1d6 피해}를 @Check[type:reflex|dc:resolve(@actor.system.attributes.classOrSpellDC.value)|basic:true] 반사 내성으로 자신의 클래스 DC와 주문 DC 중 더 큰 값으로 사용합니다. 이 액션은 계약을 맺은 드래곤의 숨결 무기와 동일한 특성을 가집니다.</p>"
     },
     "Mark for Death": {
       "name": "죽음의 표식 (Mark for Death)",
@@ -1731,7 +1731,7 @@
     },
     "Giant-Felling Comet": {
       "name": "거인 쓰러뜨리는 혜성 (Giant-Felling Comet)",
-      "description": "<p>당신은 @UUID[Compendium.pf2e.classfeatures.Item.LC8i3ZJjhhKEHSLI]{Starshot}을 발사하여 60피트 이내의 @Template[type:burst|distance:5] 범위 내에서 폭발을 일으킵니다. 이 영역에 있는 모든 생물은 당신의 직업 DC에 대한 @Check[reflex|against:exemplar|basic|options:area-effect] 내성 굴림에 성공하지 않으면, 스타샷으로 인한 일반 공격 피해와 동일한 영적 피해를 받습니다. 당신보다 큰 생물은 내성 굴림에 -2의 상황 페널티를 받습니다. 이 사격에는 무기에 일반적으로 필요한 모든 탄약이 필요합니다.</p>"
+      "description": "<p>당신은 @UUID[Compendium.pf2e.classfeatures.Item.LC8i3ZJjhhKEHSLI]{Starshot}을 발사하여 60피트 이내의 @Template[burst|distance:5] 범위 내에서 폭발을 일으킵니다. 이 영역에 있는 모든 생물은 당신의 직업 DC에 대한 @Check[reflex|against:exemplar|basic|options:area-effect] 내성 굴림에 성공하지 않으면, 스타샷으로 인한 일반 공격 피해와 동일한 영적 피해를 받습니다. 당신보다 큰 생물은 내성 굴림에 -2의 상황 페널티를 받습니다. 이 사격에는 무기에 일반적으로 필요한 모든 탄약이 필요합니다.</p>"
     },
     "Draconic Frenzy": {
       "name": "드라코닉 광란 (Draconic Frenzy)",

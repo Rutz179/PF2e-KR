@@ -954,7 +954,7 @@
     },
     "Chilling Spray": {
       "name": "쿨링 스프레이 (Chilling Spray)",
-      "description": "<p>펼친 손에서 얼음 조각 원뿔이 터져 나와 대상에게 서리 층을 덮어 씌웁니다. 범위 내에 있는 모든 생물에게 2d4 냉기 피해를 입히고 각각 반사 방어를 시도해야 합니다.</p>\n<hr />\n<p><strong>대성공</strong> 생명체는 피해를 받지 않습니다.</p>\n<p><strong> 성공</strong> 생명체는 절반의 피해를 받습니다.</p>\n<p><strong> 실패</strong> 생명체는 전체 피해를 받고 2라운드 동안 이동 속도에 -5피트 상태이상의 불이익을 받습니다.</p>\n<p><strong> 치명타 실패</strong> 생명체는 두 배의 피해를 받고 2라운드 동안 이동 속도에 -10피트 상태이상의 불이익을 받습니다.</p>\n<hr />\n<p><strong>강화(+1)</strong> 공격력이 2d4만큼 증가합니다.</p>"
+      "description": "<p>펼친 손에서 얼음 조각 원뿔이 터져 나와 대상에게 서리 층을 덮어 씌웁니다. 범위 내에 있는 모든 생물에게 2d4 냉기 피해를 입히고 각각 반사 방어를 시도해야 합니다.</p>\n<hr />\n<p><strong>대성공</strong> 생명체는 피해를 받지 않습니다.</p>\n<p><strong> 성공</strong> 생명체는 절반의 피해를 받습니다.</p>\n<p><strong> 실패</strong> 생명체는 전체 피해를 받고 2라운드 동안 이동 속도에 -5피트 상태이상의 불이익을 받습니다.</p>\n<p><strong> 대실패</strong> 생명체는 두 배의 피해를 받고 2라운드 동안 이동 속도에 -10피트 상태이상의 불이익을 받습니다.</p>\n<hr />\n<p><strong>강화(+1)</strong> 공격력이 2d4만큼 증가합니다.</p>"
     },
     "Spellwrack": {
       "name": "스펠크랙 (Spellwrack)",
@@ -1434,7 +1434,7 @@
     },
     "Confetti Cloud": {
       "name": "색종이 클라우드 (Confetti Cloud)",
-      "description": "<p>소용돌이치는 색종이 폭풍을 불러일으킵니다. 폭풍우 영역 내의 모든 생물이 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진}이 되고, 폭풍우 바깥의 모든 생물이 폭풍우 영역 내의 생물에게 은폐됩니다. 또한, 폭풍우 영역에 있는 생물은 파티나 축제의 시끌벅적한 소리를 계속 듣고 지각 체크에서 -2 상황 패널티를 받습니다. 이 주문을 시전할 때 사용한 액션의 수에 따라 그 범위가 결정됩니다. 주문을 해제할 수 있습니다.</p>\n<hr />\n<p><span class=\"action-glyph\">1</span> (육체) 주문의 범위는 @Template[burst|distance:5]입니다.</p>\n<p><span class=\"action-glyph\"> 2</span> (육체, 언어) 주문의 범위는 @Template[burst|distance:10]입니다.</p>\n<p><span class=\"action-glyph\">3</span> (물질, 체질, 언어) 주문의 범위는 @Template[type:burst|distance:15]입니다.</p>"
+      "description": "<p>소용돌이치는 색종이 폭풍을 불러일으킵니다. 폭풍우 영역 내의 모든 생물이 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진}이 되고, 폭풍우 바깥의 모든 생물이 폭풍우 영역 내의 생물에게 은폐됩니다. 또한, 폭풍우 영역에 있는 생물은 파티나 축제의 시끌벅적한 소리를 계속 듣고 지각 체크에서 -2 상황 패널티를 받습니다. 이 주문을 시전할 때 사용한 액션의 수에 따라 그 범위가 결정됩니다. 주문을 해제할 수 있습니다.</p>\n<hr />\n<p><span class=\"action-glyph\">1</span> (육체) 주문의 범위는 @Template[burst|distance:5]입니다.</p>\n<p><span class=\"action-glyph\"> 2</span> (육체, 언어) 주문의 범위는 @Template[burst|distance:10]입니다.</p>\n<p><span class=\"action-glyph\">3</span> (물질, 체질, 언어) 주문의 범위는 @Template[burst|distance:15]입니다.</p>"
     },
     "Warding Aggression": {
       "name": "공격성 방어 (Warding Aggression)",
@@ -1858,7 +1858,7 @@
     },
     "Undeath's Blessing": {
       "name": "언더스의 축복 (Undeath's Blessing)",
-      "description": "<p>생물에게 무덤의 손길을 심어줍니다. 지속시간 동안 @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{해치} 및 @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{힐} 주문은 해당 생물을 언데드로 취급합니다. 또한, 해치 주문은 대상에게 회복되는 HP에 상태 보너스 +2를 부여합니다.</p>\n<p>대상이 주문을 피하고 싶으면 의지 내성을 시도하여 효과를 줄일 수 있습니다.</p>\n<hr />\n<p><strong>대성공</strong> 대상은 영향을 받지 않습니다.</p>\n<p><strong> 성공</strong> 대상은 1라운드 동안 <em>치유</em> 의 절반만큼 치유되고 <em>해악</em> 의 절반만큼 피해를 받습니다.</p>\n<p><strong> 실패</strong> 본문에 설명된 대로 효과가 적용됩니다.</p>\n<hr />\n<p><strong>강화 (+1)</strong> 회복되는 HP에 대한 상태 보너스가 2 증가합니다.</p>"
+      "description": "<p>생물에게 무덤의 손길을 심어줍니다. 지속시간 동안 @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{해치} 및 @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{힐} 주문은 해당 생물을 언데드로 취급합니다. 또한, 해악 (harm) 주문은 대상에게 회복되는 HP에 상태 보너스 +2를 부여합니다.</p>\n<p>대상이 주문을 피하고 싶으면 의지 내성을 시도하여 효과를 줄일 수 있습니다.</p>\n<hr />\n<p><strong>대성공</strong> 대상은 영향을 받지 않습니다.</p>\n<p><strong> 성공</strong> 대상은 1라운드 동안 <em>치유</em> 의 절반만큼 치유되고 <em>해악</em> 의 절반만큼 피해를 받습니다.</p>\n<p><strong> 실패</strong> 본문에 설명된 대로 효과가 적용됩니다.</p>\n<hr />\n<p><strong>강화 (+1)</strong> 회복되는 HP에 대한 상태 보너스가 2 증가합니다.</p>"
     },
     "Chromatic Image": {
       "name": "크로마틱 이미지 (Chromatic Image)",
@@ -1949,7 +1949,7 @@
       "description": "<p>작고 푹신한 흰 뭉게구름을 소환하여 지상 10피트 상공에 떠서 기분 좋게 따뜻한 성수를 내립니다. 이 비는 자신의 턴이 끝날 때 해당 지역의 악마, 언데드, 신성화에 약점을 가진 생물에게 @Damage[5d6[spirit]] 피해를 줍니다. 주문을 지속하면 주문 범위 내 어디든 15피트의 비행 속도로 구름을 이동할 수 있습니다. 물은 어떤 생물이나 표면과 접촉하면 사라지고 그 자리에 약간의 습기만 남습니다.</p>\n<hr />\n<p><strong>강화 (+1)</strong> 공격력이 1d6 증가합니다.</p>"
     },
     "Sure Strike": {
-      "name": "슈어 스트라이크 (Sure Strike)",
+      "name": "확실한 일격 (Sure Strike)",
       "description": "<p>미래를 내다보면 다음 공격이 적중할 확률이 높아집니다. 다음 턴이 끝나기 전에 공격 주사위를 굴릴 때, 두 번 공격 주사위를 굴려 더 좋은 결과를 사용합니다. 이 공격은 공격 주사위에 대한 상황 페널티와 대상이 @UUID[Compendium.pf2e.conditionitems.DmAIPqOBomZ7H95W]{가려진} 또는 @UUID[Compendium.pf2e.conditionitems.iU0fEDdBp3rXpTMC]{숨은 Hidden} 으로 인한 모든 플랫 체크를 무시합니다.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.fpGDAz2v5PG0zUSl]{주문 효과: 확실한 일격}</p>"
     },
     "Wilding Word": {
@@ -2826,7 +2826,7 @@
     },
     "Timely Tutor": {
       "name": "시기적절한 튜터 (Timely Tutor)",
-      "description": "<p>당신은 당신의 에이돌론 또는 패밀리어와 아카식 기록(종합적인 심령 도서관으로 구성된 이면체) 사이의 아스트랄 연결자 역할을 하며, 그 생물에게 조언을 구합니다. 이 주문을 당신의 친밀한 존재에게 시전하면, 당신의 친밀한 존재는 아크로바틱과 은신과 마찬가지로 선택한 지식 기술로 지식 회상 체크에 주문 시전 능력 수정치를 추가합니다. 패밀리어가 학습한 정보를 나와 공유하려면 패밀리어에게 말하기 친숙 능력이 있어야 합니다. 이 주문을 에이돌론에게 시전하면, 대신 지식 기술을 훈련받게 됩니다.</p>\n<p>대상과 신체 접촉이 끊어지면 아카식 기록과의 연결이 끊어지고 적시 교사가 즉시 종료됩니다.</p>"
+      "description": "<p>당신은 당신의 에이돌론 또는 패밀리어와 아카식 기록(종합적인 심령 도서관으로 구성된 이면체) 사이의 아스트랄 연결자 역할을 하며, 그 생물에게 조언을 구합니다. 이 주문을 당신의 친밀한 존재에게 시전하면, 당신의 친밀한 존재는 곡예과 은신과 마찬가지로 선택한 지식 기술로 지식 회상 체크에 주문 시전 능력 수정치를 추가합니다. 패밀리어가 학습한 정보를 나와 공유하려면 패밀리어에게 말하기 친숙 능력이 있어야 합니다. 이 주문을 에이돌론에게 시전하면, 대신 지식 기술을 훈련받게 됩니다.</p>\n<p>대상과 신체 접촉이 끊어지면 아카식 기록과의 연결이 끊어지고 적시 교사가 즉시 종료됩니다.</p>"
     },
     "Quandary": {
       "name": "딜레마 (Quandary)",
@@ -3190,7 +3190,7 @@
     },
     "Bountiful Oasis": {
       "name": "풍요로운 오아시스 (Bountiful Oasis)",
-      "description": "<p>지하 호수 및 기타 인근 수원의 흐름을 바꾸어 땅에서 무성한 자연 샘이 솟아나도록 합니다. 샘의 물은 식수, 농업용수, 모든 형태의 생명체 유지에 완벽한 깨끗한 담수 공급원입니다. 이 샘은 매일 아침 새벽에 스스로 정화하여 독소와 오염 물질을 제거합니다.</p>\n<p>이 의식은 의식이 행해지는 지형에 지리적으로 적합한 샘을 만듭니다. 예를 들어 모래가 많고 건조한 지역에는 사막의 오아시스를, 산맥에는 천연 온천을 만듭니다.</p>\n<hr />\n<p><strong>대성공</strong> 작은 연못이나 오아시스가 나타나며, 작은 정착지를 지탱할 수 있을 만큼 깨끗한 식수를 배출하는 천연 샘이 공급합니다. 샘을 둘러싼 @Template[type:burst|distance:20]의 땅이 샘의 관개에 의해 활기를 띠며 생명으로 터져 나옵니다. 이 지역에 적합한 다양한 열매를 맺는 식물과 다른 작물들이 즉시 뿌리를 내리고 번성합니다.</p>\n<p><strong> 성공</strong> 대성공이지만, 오아시스는 주변에 식물이 자라지 않고 대략 12명이 지낼 수 있을 만큼의 순수한 식수를 배출하는 작은 웅덩이에 불과합니다.</p>\n<p><strong>실패</strong> 물의 흐름을 바꿀 수 없습니다.</p>\n<p><strong> 대실패</strong> 마르지 않는 악취가 나고 고인 물로 작은 연못을 만들어 질병을 옮기는 곤충과 병든 생물을 끌어들여 그 물을 섭취하게 합니다.</p>"
+      "description": "<p>지하 호수 및 기타 인근 수원의 흐름을 바꾸어 땅에서 무성한 자연 샘이 솟아나도록 합니다. 샘의 물은 식수, 농업용수, 모든 형태의 생명체 유지에 완벽한 깨끗한 담수 공급원입니다. 이 샘은 매일 아침 새벽에 스스로 정화하여 독소와 오염 물질을 제거합니다.</p>\n<p>이 의식은 의식이 행해지는 지형에 지리적으로 적합한 샘을 만듭니다. 예를 들어 모래가 많고 건조한 지역에는 사막의 오아시스를, 산맥에는 천연 온천을 만듭니다.</p>\n<hr />\n<p><strong>대성공</strong> 작은 연못이나 오아시스가 나타나며, 작은 정착지를 지탱할 수 있을 만큼 깨끗한 식수를 배출하는 천연 샘이 공급합니다. 샘을 둘러싼 @Template[burst|distance:20]의 땅이 샘의 관개에 의해 활기를 띠며 생명으로 터져 나옵니다. 이 지역에 적합한 다양한 열매를 맺는 식물과 다른 작물들이 즉시 뿌리를 내리고 번성합니다.</p>\n<p><strong> 성공</strong> 대성공이지만, 오아시스는 주변에 식물이 자라지 않고 대략 12명이 지낼 수 있을 만큼의 순수한 식수를 배출하는 작은 웅덩이에 불과합니다.</p>\n<p><strong>실패</strong> 물의 흐름을 바꿀 수 없습니다.</p>\n<p><strong> 대실패</strong> 마르지 않는 악취가 나고 고인 물로 작은 연못을 만들어 질병을 옮기는 곤충과 병든 생물을 끌어들여 그 물을 섭취하게 합니다.</p>"
     },
     "Restoration": {
       "name": "복원 (Restoration)",
@@ -3214,7 +3214,7 @@
     },
     "Sign of Conviction": {
       "name": "신념의 표시 (Sign of Conviction)",
-      "description": "<p>자신이 서 있는 공간에서 자신의 신을 상징하는 종교적 상징을 공중에 불러내어 신앙의 힘을 휘둘러 적을 공격합니다. 이 종교적 상징은 순수한 마법의 힘으로 만들어져 움직이지 않으며 손상되지 않습니다. 신념의 징표를 유지하는 동안에는 공격력과 내성 굴림에 +1 상태 보너스를 얻고 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{고정된} 상태가 됩니다. 자신의 공간에서 강제로 이동하게 하는 효과(예: @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{밀치기} 액션)의 DC는 주문 DC 또는 일반 DC 중 더 높은 값과 같습니다. 움직이지 않거나 자신의 공간 밖으로 이동하면, <em>신념의 징표</em> 는 즉시 종료됩니다.</p>\n<p>주문을 시전할 때와 주문을 지속할 때마다 종교 상징이 100피트 내의 대상에게 에너지를 폭발적으로 방출합니다. 주문 공격 주사위를 굴려 성공하면 2d10의 피해를 입히고(피해 유형 결정은 아래 참조), 대성공하면 피해량이 두 배가 됩니다. 주문을 같은 라운드에 여러 번 지속하여 여러 차례 폭발을 일으킬 수 있습니다.</p>\n<p>선한 신을 숭배하면 주문이 선과 빛 특성을 얻고, 불 또는 영혼 중 원하는 피해를 입히며, 밝은 빛을 @Template[burst|distance:20] 범위에서 발산합니다. 악의 신을 숭배하면 주문이 악과 어둠 특성을 얻고, 냉기 또는 영혼 피해 중 원하는 피해를 입히며, 더 밝을 경우 @Template[type:burst|distance:20]의 빛 레벨을 희미한 빛으로 감소시킵니다. 중립 신을 숭배하면 주문이 힘 특성을 얻고 힘 피해를 입힙니다.</p>\n<hr />\n<p><strong>강화(+2)</strong> 피해가 1d10만큼 증가합니다.</p>"
+      "description": "<p>자신이 서 있는 공간에서 자신의 신을 상징하는 종교적 상징을 공중에 불러내어 신앙의 힘을 휘둘러 적을 공격합니다. 이 종교적 상징은 순수한 마법의 힘으로 만들어져 움직이지 않으며 손상되지 않습니다. 신념의 징표를 유지하는 동안에는 공격력과 내성 굴림에 +1 상태 보너스를 얻고 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{고정된} 상태가 됩니다. 자신의 공간에서 강제로 이동하게 하는 효과(예: @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{밀치기} 액션)의 DC는 주문 DC 또는 일반 DC 중 더 높은 값과 같습니다. 움직이지 않거나 자신의 공간 밖으로 이동하면, <em>신념의 징표</em> 는 즉시 종료됩니다.</p>\n<p>주문을 시전할 때와 주문을 지속할 때마다 종교 상징이 100피트 내의 대상에게 에너지를 폭발적으로 방출합니다. 주문 공격 주사위를 굴려 성공하면 2d10의 피해를 입히고(피해 유형 결정은 아래 참조), 대성공하면 피해량이 두 배가 됩니다. 주문을 같은 라운드에 여러 번 지속하여 여러 차례 폭발을 일으킬 수 있습니다.</p>\n<p>선한 신을 숭배하면 주문이 선과 빛 특성을 얻고, 불 또는 영혼 중 원하는 피해를 입히며, 밝은 빛을 @Template[burst|distance:20] 범위에서 발산합니다. 악의 신을 숭배하면 주문이 악과 어둠 특성을 얻고, 냉기 또는 영혼 피해 중 원하는 피해를 입히며, 더 밝을 경우 @Template[burst|distance:20]의 빛 레벨을 희미한 빛으로 감소시킵니다. 중립 신을 숭배하면 주문이 힘 특성을 얻고 힘 피해를 입힙니다.</p>\n<hr />\n<p><strong>강화(+2)</strong> 피해가 1d10만큼 증가합니다.</p>"
     },
     "Shepherd of Souls": {
       "name": "영혼의 목자 (Shepherd of Souls)",
@@ -3906,7 +3906,7 @@
     },
     "Summon Oliphaunt of Jandelay": {
       "name": "잔델레이의 올리펀트 소환 (Summon Oliphaunt of Jandelay)",
-      "description": "<p>당신은 신화 속의 Jandelay의 Oliphaunt를 잠시 소환하여, 그 앞에 서 있는 모든 것을 파괴하는 순수한 파괴의 창조물을 풀어 놓습니다. 소환된 Oliphaunt는 거대한 생물의 공간을 차지합니다. 이 생물의 이동 속도는 200 피트입니다.</p> <p><strong>도착</strong> <em>(force) 파괴적인 이동</em> 숨겨진 마법과 오래 전 사라진 기술을 사용해 Jandelay로 통하는 거대한 문을 소환하며, 올리펀트를 그 문을 통해 들어오도록 강요합니다. 올리펀트는 @Template[type:burst|distance:60] 범위 내에 도착합니다. 이 영역에 있는 모든 생물은 @Damage[8d10[force]]의 피해를 받습니다 (기본 반사 내성). 실패하면, 그 생물은 올리펀트에서 60 피트 떨어진 곳으로 밀려납니다. </p> <p><strong>이탈 <em>파괴의 짓밟기</em> 올리펀트는 자신이 멸망의 위기에 처한 세계가 아닌 다른 세계로 소환되었다는 것을 깨닫습니다. 올리펀트는 자신 앞 200피트 앞에 또 다른 거대한 문을 소환합니다. 올리펀트는 문을 통해 앞으로 돌진하며 경로에 있는 모든 것을 짓밟고, 문을 닫은 후 사라집니다. 올리펀트는 @Template[line|distance:200|width:80]{80피트 폭의 파괴 경로}를 생성합니다. 이 영역에 있는 모든 생물과 차량은 @Damage[8d8[bludgeoning]]의 피해를 받습니다 (기본 체력 내성). 체력이 0으로 감소한 생물이나 차량은 가루로 부서지고, 장비, 승객, 화물은 남아 있습니다. 이 영역에 있는 무인 물체는 경도나 유물 또는 파괴하기 어려운 물체가 아닌 한, 체력 내성에 성공하지 않으면 파괴됩니다. 이 짓밟기는 힘의 벽과 같은 모든 힘의 효과를 자동으로 파괴합니다.</p>"
+      "description": "<p>당신은 신화 속의 Jandelay의 Oliphaunt를 잠시 소환하여, 그 앞에 서 있는 모든 것을 파괴하는 순수한 파괴의 창조물을 풀어 놓습니다. 소환된 Oliphaunt는 거대한 생물의 공간을 차지합니다. 이 생물의 이동 속도는 200 피트입니다.</p> <p><strong>도착</strong> <em>(force) 파괴적인 이동</em> 숨겨진 마법과 오래 전 사라진 기술을 사용해 Jandelay로 통하는 거대한 문을 소환하며, 올리펀트를 그 문을 통해 들어오도록 강요합니다. 올리펀트는 @Template[burst|distance:60] 범위 내에 도착합니다. 이 영역에 있는 모든 생물은 @Damage[8d10[force]]의 피해를 받습니다 (기본 반사 내성). 실패하면, 그 생물은 올리펀트에서 60 피트 떨어진 곳으로 밀려납니다. </p> <p><strong>이탈 <em>파괴의 짓밟기</em> 올리펀트는 자신이 멸망의 위기에 처한 세계가 아닌 다른 세계로 소환되었다는 것을 깨닫습니다. 올리펀트는 자신 앞 200피트 앞에 또 다른 거대한 문을 소환합니다. 올리펀트는 문을 통해 앞으로 돌진하며 경로에 있는 모든 것을 짓밟고, 문을 닫은 후 사라집니다. 올리펀트는 @Template[line|distance:200|width:80]{80피트 폭의 파괴 경로}를 생성합니다. 이 영역에 있는 모든 생물과 차량은 @Damage[8d8[bludgeoning]]의 피해를 받습니다 (기본 체력 내성). 체력이 0으로 감소한 생물이나 차량은 가루로 부서지고, 장비, 승객, 화물은 남아 있습니다. 이 영역에 있는 무인 물체는 경도나 유물 또는 파괴하기 어려운 물체가 아닌 한, 체력 내성에 성공하지 않으면 파괴됩니다. 이 짓밟기는 힘의 벽과 같은 모든 힘의 효과를 자동으로 파괴합니다.</p>"
     },
     "Tesseract Tunnel": {
       "name": "테세랙트 터널 (Tesseract Tunnel)",
@@ -3954,7 +3954,7 @@
     },
     "Inner Upheaval": {
       "name": "내면의 격변 (Inner Upheaval)",
-      "description": "<p>당신은 기를 집중하여 강력한 마법 공격을 가합니다. 비무장 공격 또는 @UUID[Compendium.pf2e.classfeatures.Item.NLHHHiAcdnZ5ohc2]{일격의 연속}을 시도합니다(이것이 턴당 한 번만 사용할 수 있는 특수 공격의 제한을 변경하지 않습니다). 공격 굴림에 +1 상태 보너스를 얻으며, 공격 시 1d6 추가 피해를 줍니다. 이 피해는 당신이 선택한 마법 전통과 관련된 다음 유형 중 하나로 선택할 수 있습니다: <strong>비전</strong> 힘, <strong>신성</strong> 영혼, <strong>신비</strong> 정신, 또는 <strong>자연</strong> 불.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.8olfnTmWh0GGPDqX]{주문 효과: 내면의 격변}</p><hr /><p><strong>강화 (+4)</strong> 추가 피해가 1d6 증가합니다.</p>"
+      "description": "<p>당신은 기를 집중하여 강력한 마법 공격을 가합니다. 비무장 공격 또는 @UUID[Compendium.pf2e.classfeatures.Item.NLHHHiAcdnZ5ohc2]{일격의 연속}을 시도합니다(이것이 턴당 한 번만 사용할 수 있는 특수 공격의 제한을 변경하지 않습니다). 공격 굴림에 +1 상태 보너스를 얻으며, 공격 시 1d6 추가 피해를 줍니다. 이 피해는 당신이 선택한 마법 전통과 관련된 다음 유형 중 하나로 선택할 수 있습니다: <strong>비전</strong> 힘, <strong>신성</strong> 영혼, <strong>신비</strong> 정신, 또는 <strong>공허</strong></p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.8olfnTmWh0GGPDqX]{주문 효과: 내면의 격변}</p><hr /><p><strong>강화 (+4)</strong> 추가 피해가 1d6 증가합니다.</p>"
     },
     "Shields of the Spirit": {
       "name": "영혼의 방패 (Shields of the Spirit)",
@@ -4370,7 +4370,7 @@
     },
     "Voice on the Breeze": {
       "name": "보이스 온 더 브리즈 (Voice on the Breeze)",
-      "description": "<p>바람을 향해 비밀 메시지나 소리를 속삭이면 지정된 장소로 전달됩니다. 바람과 사용자 사이에 바람이 따라갈 수 있는 경로가 있다면, 메시지는 사용자에게 익숙한 범위 내의 특정 @Template[type:burst|distance:10]으로 이동합니다. 부드러운 바람은 목적지에 도달할 때까지 눈에 띄지 않고 속삭이듯 조용히 메시지를 전달합니다. 메시지를 듣는 사람이나 대상에 상관없이, 심지어 아무도 듣지 못하더라도 메시지는 전달됩니다. 메시지가 전달되면 주문이 종료됩니다.</p>\n<p>메시지에는 25단어 이하, 1라운드 분량의 다른 소리 또는 대상 위치의 공기에서 바스락거리는 단순한 소리만 포함할 수 있습니다. 시속 1마일에서 10분당 1마일 사이에서 사용자가 선택한 속도로 이동하며, 메시지가 도착하면 바람이 해당 지역을 돌면서 전체 메시지를 속삭입니다. 바람에 실린 목소리는 음성으로 트리거되는 마법 효과를 활성화할 수 없습니다.</p>\n<hr />\n<p><strong>강화(4차)</strong> 범위가 1,000마일로 증가하고 메시지에는 최대 100단어를 포함할 수 있습니다.</p>"
+      "description": "<p>바람을 향해 비밀 메시지나 소리를 속삭이면 지정된 장소로 전달됩니다. 바람과 사용자 사이에 바람이 따라갈 수 있는 경로가 있다면, 메시지는 사용자에게 익숙한 범위 내의 특정 @Template[burst|distance:10]으로 이동합니다. 부드러운 바람은 목적지에 도달할 때까지 눈에 띄지 않고 속삭이듯 조용히 메시지를 전달합니다. 메시지를 듣는 사람이나 대상에 상관없이, 심지어 아무도 듣지 못하더라도 메시지는 전달됩니다. 메시지가 전달되면 주문이 종료됩니다.</p>\n<p>메시지에는 25단어 이하, 1라운드 분량의 다른 소리 또는 대상 위치의 공기에서 바스락거리는 단순한 소리만 포함할 수 있습니다. 시속 1마일에서 10분당 1마일 사이에서 사용자가 선택한 속도로 이동하며, 메시지가 도착하면 바람이 해당 지역을 돌면서 전체 메시지를 속삭입니다. 바람에 실린 목소리는 음성으로 트리거되는 마법 효과를 활성화할 수 없습니다.</p>\n<hr />\n<p><strong>강화(4차)</strong> 범위가 1,000마일로 증가하고 메시지에는 최대 100단어를 포함할 수 있습니다.</p>"
     },
     "Ancestral Touch": {
       "name": "조상의 손길 (Ancestral Touch)",
@@ -4582,7 +4582,7 @@
     },
     "Uplifting Overture": {
       "name": "고양되는 서곡 (Uplifting Overture)",
-      "description": "<p>당신의 활약으로 아군은 무엇이든 성공할 수 있다고 느끼게 됩니다. 이는 선택한 기술 체크에서 아군을 지원할 준비를 한 것으로 간주합니다. 나중에 원조 리액션을 사용할 때 일반 기술 체크 대신 퍼포먼스를 굴릴 수 있으며, 실패를 굴리면 대신 성공을 얻습니다. 전설적인 성능이라면 자동으로 치명타 성공입니다.</p>\n<p>아군을 격려하는 행위가 기술 점검을 방해하는 경우(예: @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{은밀 이동}에 체크하는 경우) GM이 이 능력을 사용할 수 없다고 판단할 수 있습니다. 조용히 또는 변장 유지).</p>"
+      "description": "<p>당신의 활약으로 아군은 무엇이든 성공할 수 있다고 느끼게 됩니다. 이는 선택한 기술 체크에서 아군을 지원할 준비를 한 것으로 간주합니다. 나중에 원조 리액션을 사용할 때 일반 기술 체크 대신 공연를 굴릴 수 있으며, 실패를 굴리면 대신 성공을 얻습니다. 전설적인 성능이라면 자동으로 치명타 성공입니다.</p>\n<p>아군을 격려하는 행위가 기술 점검을 방해하는 경우(예: @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{은밀 이동}에 체크하는 경우) GM이 이 능력을 사용할 수 없다고 판단할 수 있습니다. 조용히 또는 변장 유지).</p>"
     },
     "Evil Eye": {
       "name": "이블 아이 (Evil Eye)",
@@ -4718,7 +4718,7 @@
     },
     "Personal Blizzard": {
       "name": "개인 블리자드 (Personal Blizzard)",
-      "description": "<p>수호자의 입김이 눈보라가 되어 대상을 뒤덮는 눈부신 얼음으로 변합니다. 대상이 인내 내성을 시도합니다.</p>\n<hr />\n<p><strong>대성공</strong> 대상은 영향을 받지 않습니다.</p>\n<p><strong> 성공</strong> 대상이 @Damage[1d6[cold]] 피해를 받고 주문이 종료됩니다.</p>\n<p><strong> 실패</strong> 대상이 @Damage[1d6[cold]] 피해와 @Damage[1d6[persistent,cold] 피해를 받습니다. 지속 피해는 주문이 끝나면 자동으로 종료됩니다. 다른 생물에게는 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진}이며, 다른 생물은 이 주문에 은폐됩니다.</p>\n<p><strong> 대실패</strong> 실패로 처리되지만 냉기 피해와 지속 냉기 피해가 모두 2d6으로 증가합니다.</p>\n<hr />\n<p><strong>강화(+1)</strong> 냉기 피해와 지속 냉기 피해가 1 증가합니다(대실패 시 2).</p>"
+      "description": "<p>수호자의 입김이 눈보라가 되어 대상을 뒤덮는 눈부신 얼음으로 변합니다. 대상이 인내 내성을 시도합니다.</p>\n<hr />\n<p><strong>대성공</strong> 대상은 영향을 받지 않습니다.</p>\n<p><strong> 성공</strong> 대상이 @Damage[1d6[cold]] 피해를 받고 주문이 종료됩니다.</p>\n<p><strong> 실패</strong> 대상이 @Damage[1d6[cold]] 피해와 @Damage[1d6[persistent,cold]]피해를 받습니다. 지속 피해는 주문이 끝나면 자동으로 종료됩니다. 다른 생물에게는 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진}이며, 다른 생물은 이 주문에 은폐됩니다.</p>\n<p><strong> 대실패</strong> 실패로 처리되지만 냉기 피해와 지속 냉기 피해가 모두 2d6으로 증가합니다.</p>\n<hr />\n<p><strong>강화(+1)</strong> 냉기 피해와 지속 냉기 피해가 1 증가합니다(대실패 시 2).</p>"
     },
     "Gust of Wind": {
       "name": "돌풍의 바람 (Gust of Wind)",
@@ -5010,7 +5010,7 @@
     },
     "Guidance": {
       "name": "안내 (Guidance)",
-      "description": "<p>초자연적 존재의 인도를 요청하여 지속시간이 끝나기 전에 대상에게 한 번의 공격 굴림, 지각 확인, 내성 굴림, 기술 체크 시도에 상태 보너스 +1을 부여합니다. 대상은 주사위를 굴리기 전에 보너스를 사용할 주사위를 선택합니다. 대상이 보너스를 사용하면 주문이 종료됩니다. 어느 쪽이든, 대상은 1시간 동안 일시적으로 면역 상태가 됩니다.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.3qHKBDF7lrHw8jFK]{주문 효과: 안내}</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.3LyOkV25p7wA181H]{효과: 유도 면역}</p>"
+      "description": "<p>초자연적 존재의 인도를 요청하여 지속시간이 끝나기 전에 대상에게 한 번의 공격 굴림, 지각 확인, 내성 굴림, 기술 체크 시도에 상태 보너스 +1을 부여합니다. 대상은 주사위를 굴리기 전에 보너스를 사용할 주사위를 선택합니다. 대상이 보너스를 사용하면 주문이 종료됩니다. 어느 쪽이든, 대상은 1시간 동안 일시적으로 면역 상태가 됩니다.</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.3qHKBDF7lrHw8jFK]{주문 효과: 안내}</p>\n<p>@UUID[Compendium.pf2e.spell-effects.Item.3LyOkV25p7wA181H]{효과: 안내 면역}</p>"
     },
     "Mantle of the Magma Heart": {
       "name": "마그마 심장의 맨틀 (Mantle of the Magma Heart)",
@@ -5202,7 +5202,7 @@
     },
     "Summon Elemental Herald": {
       "name": "원소 전령 소환 (Summon Elemental Herald)",
-      "description": "<p>여러 원소의 차원으로 명상하면 그들과 깊이 연결되며, 이 연결을 통해 원소 군주의 전령을 소환할 수 있습니다. 전령은 적에게 집중된 자연 재해의 형태로 나타납니다. 전령은 거대한 생물의 공간을 차지합니다. 이 주문을 시전할 때 아래 원소 전령 중 하나를 선택하여 소환합니다. 원소 군주를 숭배하는 신성한 주문술사라면, 자신의 신과 일치하는 옵션을 선택해야 합니다. 이 주문은 선택한 원소에 맞는 특성(공기, 대지, 불, 금속, 물, 나무)을 얻습니다.</p>\n<ul>\n<li><strong>공기</strong> 60피트 속도 비행; <strong>도착</strong>(공기) <em>슈퍼셀 전선</em> 공기의 전령이 고속의 바람을 동반한 뒤틀린 토네이도 형태로 나타나 적을 덮칩니다. @Template[emanation|distance:100] 안에 있는 적 하나당 @Damage[10d8[bludgeoning]]의 피해를 기본으로 받고 인내를 내성 굴림합니다; <strong>출발</strong> (공중) <em>트위스터 다운드래프트</em> @Template[line|distance:60] 안에 있는 적 하나당 인내를 내성 굴림해야 합니다. 실패한 생물은 지상에 있을 경우 쓰러지고, 공중에 있을 경우 40피트 하강합니다. </li>\n<li> <strong> 대지</strong> 속도 50피트, 굴착 30피트; <strong>도착</strong>(대지) <em>지각 상승</em> 대지의 전령이 땅에서 분출하여 @Template[emanation|distance:50]으로 쪼개집니다. 기운에 휩싸인 적 하나당 기본 반사 내성과 함께 날아오는 파편으로 @Damage[10d6[slashing]] 피해를 받습니다. 대실패한 적은 30피트 아래로 떨어져 낙하 피해를 받습니다(균열의 측면은 @Check[type:운동|dc:15]에 체크해야 상승); <strong>출발</strong> (음파)<em> 판 충돌 </em>대지의 전령이 다시 땅 속으로 가라앉고, 크레바스의 측면이 귀를 찢는 타격과 함께 부딪혀 @Template[emanation|distance:30] 내의 모든 적에게 기본 인내력만큼 @Damage[5d10[음파]] 피해를 줍니다. 대실패하는 적은 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{귀가 먼}에 10분 동안 빠집니다.</li>\n<li><strong>불</strong> 속도 60피트, 비행 40피트; <strong>도착</strong>(불) <em>마그마 흐름</em> 불의 전령이 살아있는 마그마가 되어 범위 내의 모든 적에게 @Damage[10d6[fire]] 피해와 @Damage[3d6[persistent,fire] 피해를 주는 @Template[emanation|거리]의 화염을 방출합니다:60], 기본 반사 저항 적용; <strong>출발</strong>(불) <em>화염 소용돌이</em> 불의 전령이 불기둥으로 휘몰아치면서 60피트 선 안에 있는 모든 적에게 @Damage[6d6[fire]]의 피해를 주고 기본 반사 저항 적용으로 @Damage[3d6[persistent,fire] 피해를 입힌 뒤 사라집니다.</li>\n<li><strong>금속</strong> 속도 50피트, 50피트 비행; <strong>도착</strong>(금속)<em> 파편 구름</em> 금속의 전령이 금속 파편과 정전기 구름이 되어 도착하여 @Template[emanation|거리 내의 모든 적에게 @Damage[4d8[slashing]] 피해와 @Damage[4d12[electricity] 피해를 줍니다:50], 기본 반사 저항; <strong>출발</strong>(금속) <em>녹 안개 </em>구름 속의 파편이 빠르게 녹슬어 @Template[emanation|distance:50] 내의 적에게 달라붙어, 기본 반사 저항이 있는 범위 내의 금속 생물과 물체에 경도를 무시하고 10d6만큼 피해를 줍니다. </li>\n<li> <strong> 물</strong> 속도 40피트, 헤엄쳐 60피트; <strong>도착</strong>(추위, 물) <em>허리케인 형성</em> 물의 전령이 소형 허리케인으로 형성됩니다. @Template[emanation|거리]에 있는 적 하나당 @Template[emanation|거리60]이 기본 인내 저항으로 쏟아지는 빗줄기로 @Damage[4d10[bludgeoning]] 피해를, 떨어지는 우박으로 @Damage[4d10[cold]] 피해를 받습니다; <strong>출발</strong>(냉기, 물) <em>대홍수</em> 허리케인이 급류로 붕괴하여 @Template[type] 내의 모든 적에게 @Damage[6d8[bludgeoning]] 피해를 줍니다:원뿔|distance:120]의 피해를 입히고 인내를 기본으로 내성 굴림합니다. 방어력에 실패한 생물은 전령으로부터 20피트(대실패 시 40피트) 밀려납니다.</li>\n<li><strong> 나무</strong> 속도 50피트, 굴착 30피트; <strong>도착</strong>(식물, 나무) <em>유리한 뿌리</em> 나무의 전령이 복잡한 뿌리 시스템으로 땅에서 솟구칩니다. 뿌리[emanation|distance:50]에 있는 적 한 마리당 사지와 몸을 뿌리가 관통하여 기본 반사 피해가 @Damage[6d10[piercing]]로 적용됩니다. 전령이 출발할 때까지 내성에 실패한 적 하나당 이동 속도에 -10피트 상태이상의 피해를 입습니다; <strong>출발</strong>(식물, 나무) <em>흙으로 후퇴</em> 뿌리가 땅속으로 후퇴하여 각 적에게 기본 반사 피해가 있는 @Template[emanation|distance:50] 만큼의 피해를 @Damage[6d10[piercing] 피해를 줍니다. 최초 방어 시 속도에 페널티가 있는 모든 생명체는 자동으로 @Damage[2d6[persistent,bleed]] 피해를 받습니다. 발산의 땅은 뿌리가 후퇴한 후의 어려운 지형입니다.</li>\n</ul>"
+      "description": "<p>여러 원소의 차원으로 명상하면 그들과 깊이 연결되며, 이 연결을 통해 원소 군주의 전령을 소환할 수 있습니다. 전령은 적에게 집중된 자연 재해의 형태로 나타납니다. 전령은 거대한 생물의 공간을 차지합니다. 이 주문을 시전할 때 아래 원소 전령 중 하나를 선택하여 소환합니다. 원소 군주를 숭배하는 신성한 주문술사라면, 자신의 신과 일치하는 옵션을 선택해야 합니다. 이 주문은 선택한 원소에 맞는 특성(공기, 대지, 불, 금속, 물, 나무)을 얻습니다.</p>\n<ul>\n<li><strong>공기</strong> 60피트 속도 비행; <strong>도착</strong>(공기) <em>슈퍼셀 전선</em> 공기의 전령이 고속의 바람을 동반한 뒤틀린 토네이도 형태로 나타나 적을 덮칩니다. @Template[emanation|distance:100] 안에 있는 적 하나당 @Damage[10d8[bludgeoning]]의 피해를 기본으로 받고 인내를 내성 굴림합니다; <strong>출발</strong> (공중) <em>트위스터 다운드래프트</em> @Template[line|distance:60] 안에 있는 적 하나당 인내를 내성 굴림해야 합니다. 실패한 생물은 지상에 있을 경우 쓰러지고, 공중에 있을 경우 40피트 하강합니다. </li>\n<li> <strong> 대지</strong> 속도 50피트, 굴착 30피트; <strong>도착</strong>(대지) <em>지각 상승</em> 대지의 전령이 땅에서 분출하여 @Template[emanation|distance:50]으로 쪼개집니다. 기운에 휩싸인 적 하나당 기본 반사 내성과 함께 날아오는 파편으로 @Damage[10d6[slashing]] 피해를 받습니다. 대실패한 적은 30피트 아래로 떨어져 낙하 피해를 받습니다(균열의 측면은 @Check[type:운동|dc:15]에 체크해야 상승); <strong>출발</strong> (음파)<em> 판 충돌 </em>대지의 전령이 다시 땅 속으로 가라앉고, 크레바스의 측면이 귀를 찢는 타격과 함께 부딪혀 @Template[emanation|distance:30] 내의 모든 적에게 기본 인내력만큼 @Damage[5d10[음파]] 피해를 줍니다. 대실패하는 적은 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{귀가 먼}에 10분 동안 빠집니다.</li>\n<li><strong>불</strong> 속도 60피트, 비행 40피트; <strong>도착</strong>(불) <em>마그마 흐름</em> 불의 전령이 살아있는 마그마가 되어 범위 내의 모든 적에게 @Damage[10d6[fire]] 피해와 @Damage[3d6[persistent,fire]] 피해를 주는 @Template[emanation|distance:60]의 화염을 방출합니다, 기본 반사 저항 적용; <strong>출발</strong>(불) <em>화염 소용돌이</em> 불의 전령이 불기둥으로 휘몰아치면서 60피트 선 안에 있는 모든 적에게 @Damage[6d6[fire]]의 피해를 주고 기본 반사 저항 적용으로 @Damage[3d6[persistent,fire]] 피해를 입힌 뒤 사라집니다.</li>\n<li><strong>금속</strong> 속도 50피트, 50피트 비행; <strong>도착</strong>(금속)<em> 파편 구름</em> 금속의 전령이 금속 파편과 정전기 구름이 되어 도착하여 @Template[emanation|distance:50] 내의 모든 적에게 @Damage[4d8[slashing]] 피해와 @Damage[4d12[electricity] 피해를 줍니다, 기본 반사 저항; <strong>출발</strong>(금속) <em>녹 안개 </em>구름 속의 파편이 빠르게 녹슬어 @Template[emanation|distance:50] 내의 적에게 달라붙어, 기본 반사 저항이 있는 범위 내의 금속 생물과 물체에 경도를 무시하고 10d6만큼 피해를 줍니다. </li>\n<li> <strong> 물</strong> 속도 40피트, 헤엄쳐 60피트; <strong>도착</strong>(추위, 물) <em>허리케인 형성</em> 물의 전령이 소형 허리케인으로 형성됩니다. @Template[emanation|distance:60]에 있는 적 하나당 @Template[emanation|distance:60]이 기본 인내 저항으로 쏟아지는 빗줄기로 @Damage[4d10[bludgeoning]] 피해를, 떨어지는 우박으로 @Damage[4d10[cold]] 피해를 받습니다; <strong>출발</strong>(냉기, 물) <em>대홍수</em> 허리케인이 급류로 붕괴하여 @Template[type] 내의 모든 적에게 @Damage[6d8[bludgeoning]] 피해를 줍니다:원뿔|distance:120]의 피해를 입히고 인내를 기본으로 내성 굴림합니다. 방어력에 실패한 생물은 전령으로부터 20피트(대실패 시 40피트) 밀려납니다.</li>\n<li><strong> 나무</strong> 속도 50피트, 굴착 30피트; <strong>도착</strong>(식물, 나무) <em>유리한 뿌리</em> 나무의 전령이 복잡한 뿌리 시스템으로 땅에서 솟구칩니다. 뿌리[emanation|distance:50]에 있는 적 한 마리당 사지와 몸을 뿌리가 관통하여 기본 반사 피해가 @Damage[6d10[piercing]]로 적용됩니다. 전령이 출발할 때까지 내성에 실패한 적 하나당 이동 속도에 -10피트 상태이상의 피해를 입습니다; <strong>출발</strong>(식물, 나무) <em>흙으로 후퇴</em> 뿌리가 땅속으로 후퇴하여 각 적에게 기본 반사 피해가 있는 @Template[emanation|distance:50] 만큼의 피해를 @Damage[6d10[piercing] 피해를 줍니다. 최초 방어 시 속도에 페널티가 있는 모든 생명체는 자동으로 @Damage[2d6[persistent,bleed]] 피해를 받습니다. 발산의 땅은 뿌리가 후퇴한 후의 어려운 지형입니다.</li>\n</ul>"
     },
     "Burning Blossoms": {
       "name": "불타는 꽃 (Burning Blossoms)",
@@ -5574,7 +5574,7 @@
     },
     "Sleep": {
       "name": "수면 (Sleep)",
-      "description": "<p>이 지역에 있는 모든 생물이 졸음에 빠져 잠들 수 있습니다. 이 주문으로 졸음에 빠진 생물은 @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{무의식}에 빠지거나 들고 있는 것을 놓지 않습니다[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{약해져}. 이 주문은 지각 체크 성공으로 인한 생물의 각성을 막지 못하므로, 전투에서의 유용성이 제한됩니다.</p>\n<hr />\n<p><strong>대성공</strong> 생물은 영향을 받지 않습니다.</p>\n<p><strong> 성공</strong> 생물은 1라운드 동안 지각 체크에 -1 상태 패널티를 받습니다.</p>\n<p><strong> 실패</strong> 생물은 의식을 잃습니다. 1분 후에도 여전히 의식불명 상태이면 자동으로 깨어납니다.</p>\n<p><strong> 대실패</strong> 생물이 의식불명 상태에 빠집니다. 1시간 후에도 여전히 의식불명 상태이면 자동으로 깨어납니다.</p>\n<hr />\n<p><strong>강화 (4차)</strong> 이 생명체는 대실패 시 1라운드 동안, 치명타 실패 시 1분 동안 의식을 잃습니다. 이 생명체는 엎드려서 들고 있던 것을 놓으며, 깨어나기 위한 지각 체크를 시도할 수 없습니다. 지속시간이 끝나면 생명체는 자동으로 깨어나지 않고 정상적으로 수면 상태가 됩니다.</p>"
+      "description": "<p>이 지역에 있는 모든 생물이 졸음에 빠져 잠들 수 있습니다. 이 주문으로 졸음에 빠진 생물은 @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{무의식}에 빠지지만 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드린}상태가 되거나 들고 있는 것을 놓지 않습니다. 주변의 큰 소음으로 인해 깨어날 수 있습니다. 자신의 턴이 시작될 때, 소음의 DC (또는 소음이 여러 개인 경우 가장 낮은 DC)에 대해 지각력 체크를 자동으로 시도하며, 성공하면 깨어납니다.</p>\n<hr />\n<p><strong>대성공</strong> 생물은 영향을 받지 않습니다.</p>\n<p><strong> 성공</strong> 생물은 1라운드 동안 지각 체크에 -1 상태 패널티를 받습니다.</p>\n<p><strong> 실패</strong> 생물은 의식을 잃습니다. 1분 후에도 여전히 의식불명 상태이면 자동으로 깨어납니다.</p>\n<p><strong> 대실패</strong> 생물이 의식불명 상태에 빠집니다. 1시간 후에도 여전히 의식불명 상태이면 자동으로 깨어납니다.</p>\n<hr />\n<p><strong>강화 (4차)</strong> 이 생명체는 실패 시 1라운드 동안, 대실패 시 1분 동안 의식을 잃습니다. 이 생명체는 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드린} 상태가 되고 들고 있던 것을 놓치며, 깨어나기 위한 지각 체크를 시도할 수 없습니다. 지속시간이 끝나도 생명체는 자동으로 깨어나지 않고 정상적으로 수면 상태가 됩니다.</p>"
     },
     "Haste": {
       "name": "신속 (Haste)",
@@ -6314,7 +6314,7 @@
     },
     "Heat Metal": {
       "name": "열 금속 (Heat Metal)",
-      "description": "<p>이 주문은 대상 금속을 가열하여 잠시 동안 붉게 달아오르게 합니다. 일반적으로 방치된 금속 아이템에는 무해하며 내성 굴림이 적용되지 않지만, GM이 물체에 연결된 가연성 물질에 불이 붙거나 녹는다고 판단할 수 있습니다. 생물이 착용하거나 들고 있는 아이템을 대상으로 하거나 주로 금속으로 만들어진 생물을 대상으로 하는 경우, 열은 해당 생물에게 @Damage[4d6[fire]] 피해와 @Damage[2d4[persistent,fire] 피해를 입히며, 해당 생물은 반드시 반사 내성 굴림를 시도해야 합니다.</p>\n<p>생물이 들고 있는 아이템을 목표로 삼는 경우, 해당 생물은 @UUID[Compendium.pf2e.actionspf2e.Item.wQYmDStjdjn0I26t]{해제}하여 해당 아이템을 내성 굴림의 결과보다 한 단계 성공 확률을 높일 수 있습니다. 지속적인 피해는 물체와 연관되어 있으며, 물체를 들고 있거나 착용하고 있는 생물에게 피해를 줍니다. 아무도 아이템을 들고 있지 않으면 효과가 없지만, 아이템은 여전히 뜨겁고 아이템을 집어 든 사람을 수색할 수 있으므로 평평한 체크를 계속 시도하여 정상적으로 지속 피해를 종료합니다.</p>\n<hr />\n<p><strong>대성공</strong> 생물은 영향을 받지 않습니다.</p>\n<p><strong> 성공</strong> 생물은 절반의 피해를 받고 물체는 지속 피해를 입지 않습니다.</p>\n<p><strong> 실패</strong> 생물은 전체 피해를 받고 물체는 전체 지속 피해를 입습니다.</p>\n<p><strong> 대실패</strong> 실패로, 생물은 두 배의 피해를 받고 물체는 두 배의 지속 피해를 입습니다.</p>\n<hr />\n<p><strong>강화(+1)</strong> 초기 피해가 2d6 증가하고 지속 피해가 1d4 증가합니다.</p>"
+      "description": "<p>이 주문은 대상 금속을 가열하여 잠시 동안 붉게 달아오르게 합니다. 일반적으로 방치된 금속 아이템에는 무해하며 내성 굴림이 적용되지 않지만, GM이 물체에 연결된 가연성 물질에 불이 붙거나 녹는다고 판단할 수 있습니다. 생물이 착용하거나 들고 있는 아이템을 대상으로 하거나 주로 금속으로 만들어진 생물을 대상으로 하는 경우, 열은 해당 생물에게 @Damage[4d6[fire]] 피해와 @Damage[2d4[persistent,fire]] 피해를 입히며, 해당 생물은 반드시 반사 내성 굴림를 시도해야 합니다.</p>\n<p>생물이 들고 있는 아이템을 목표로 삼는 경우, 해당 생물은 @UUID[Compendium.pf2e.actionspf2e.Item.wQYmDStjdjn0I26t]{해제}하여 해당 아이템을 내성 굴림의 결과보다 한 단계 성공 확률을 높일 수 있습니다. 지속적인 피해는 물체와 연관되어 있으며, 물체를 들고 있거나 착용하고 있는 생물에게 피해를 줍니다. 아무도 아이템을 들고 있지 않으면 효과가 없지만, 아이템은 여전히 뜨겁고 아이템을 집어 든 사람을 수색할 수 있으므로 평평한 체크를 계속 시도하여 정상적으로 지속 피해를 종료합니다.</p>\n<hr />\n<p><strong>대성공</strong> 생물은 영향을 받지 않습니다.</p>\n<p><strong> 성공</strong> 생물은 절반의 피해를 받고 물체는 지속 피해를 입지 않습니다.</p>\n<p><strong> 실패</strong> 생물은 전체 피해를 받고 물체는 전체 지속 피해를 입습니다.</p>\n<p><strong> 대실패</strong> 실패로, 생물은 두 배의 피해를 받고 물체는 두 배의 지속 피해를 입습니다.</p>\n<hr />\n<p><strong>강화(+1)</strong> 초기 피해가 2d6 증가하고 지속 피해가 1d4 증가합니다.</p>"
     },
     "Powerful Inhalation": {
       "name": "강력한 흡입 (Powerful Inhalation)",
