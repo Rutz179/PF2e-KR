@@ -31,7 +31,7 @@
       "items": {
         "NEFPwQtJW3PaG1vO": {
           "name": "위장",
-          "description": "<p>돌고기는 자연 환경에서 은폐물이 없어도 @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Hide} 상태로 숨을 수 있습니다.</p>"
+          "description": "<p>돌고기는 자연 환경에서 은폐물이 없어도 @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{숨기} 상태로 숨을 수 있습니다.</p>"
         },
         "1f2PgrJfd3BP5KWT": {
           "name": "방어용 가시",
@@ -900,7 +900,7 @@
         },
         "SFUExku7yyhLDUFH": {
           "name": "숲의 울부짖음",
-          "description": "<p><strong>요구 조건</strong> 피어나는 수호자가 완전한 꽃망울 상태입니다</p>\n<hr />\n<p><strong>효과</strong> 피어나는 수호자는 자신의 죽음을 직면하며, 꽃이 터져 꽃가루를 분사합니다. @Template[cone|distance:40]에 있는 모든 생물은 @Damage[10d10[void]]의 피해를 받고 @Check[fortitude|dc:36] 내성을 체크합니다. 그런 다음 피어나는 수호자는 만개 상태에서 벗어나 [[/gmr 1d4 #Recharge 만개]]{1d4 라운드} 동안 다시 만개 상태에 들어갈 수 없습니다. </p>\n<hr />\n<p><strong>대성공</strong> 효과 없음. </p>\n<p><strong>성공</strong> 생물은 절반의 피해를 받습니다.</p>\n<p><strong>실패</strong> 생물은 전체 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 1} 상태가 됩니다. @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된} 상태인 생물은 그 상태를 잃고 흡수 상태가 같은 값만큼 증가합니다. </p>\n<p><strong>대실패</strong> 실패와 동일하지만 피해가 두 배가 됩니다."
+          "description": "<p><strong>요구 조건</strong> 피어나는 수호자가 완전한 꽃망울 상태입니다</p>\n<hr />\n<p><strong>효과</strong> 피어나는 수호자는 자신의 죽음을 직면하며, 꽃이 터져 꽃가루를 분사합니다. @Template[cone|distance:40]에 있는 모든 생물은 @Damage[10d10[void]]의 피해를 받고 @Check[fortitude|dc:36] 내성을 체크합니다. 그런 다음 피어나는 수호자는 만개 상태에서 벗어나 [[/gmr 1d4 #Recharge 만개]]{1d4 라운드} 동안 다시 만개 상태에 들어갈 수 없습니다. </p>\n<hr />\n<p><strong>대성공</strong> 효과 없음. </p>\n<p><strong>성공</strong> 생물은 절반의 피해를 받습니다.</p>\n<p><strong>실패</strong> 생물은 전체 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1} 상태가 됩니다. @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된} 상태인 생물은 그 상태를 잃고 흡수 상태가 같은 값만큼 증가합니다. </p>\n<p><strong>대실패</strong> 실패와 동일하지만 피해가 두 배가 됩니다."
         }
       }
     },
@@ -1090,7 +1090,7 @@
         },
         "H3F0cDhkmIXQwrao": {
           "name": "스타일렛",
-          "description": "<p>무리의 공간에 있는 모든 적들은 @Damage[4d8[piercing]]의 피해를 받습니다 (@Check[reflex|dc:32|basic] 내성). 내성에 실패한 생물은 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 1}이 되거나 흡수 상태가 1 증가하며, 최대 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 4}까지 증가합니다."
+          "description": "<p>무리의 공간에 있는 모든 적들은 @Damage[4d8[piercing]]의 피해를 받습니다 (@Check[reflex|dc:32|basic] 내성). 내성에 실패한 생물은 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1}이 되거나 흡수 상태가 1 증가하며, 최대 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 4}까지 증가합니다."
         }
       }
     },
@@ -1221,7 +1221,7 @@
         },
         "8R6BDkL9QLaWq6eP": {
           "name": "유독한 숨결",
-          "description": "<p>타이라프디르는 모든 입에서 유독한 안개를 내뿜어 @Template[emanation|distance:20] 범위로 확산시켜 해당 영역에 있는 생물에게 @Damage[4d10[poison]]의 피해를 입힙니다 (@Check[reflex|dc:24|basic] 내성). 내성 체크에 실패한 모든 생물은 @Check[will|dc:24] 내성 체크를 시도하거나 24시간 동안 정신력에 10의 약점을 받고 의지력 내성 체크에 -1의 상태 페널티를 받습니다. 타이라프디르는 [[/gmr 1d4 #Recharge Noxious Exhalation]]{1d4 라운드} 동안 독기 분출을 다시 사용할 수 없습니다.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.G1pvduwOVRz4YFUF]{효과: 독기 분출}</p>"
+          "description": "<p>타이라프디르는 모든 입에서 유독한 안개를 내뿜어 @Template[emanation|distance:20] 범위로 확산시켜 해당 영역에 있는 생물에게 @Damage[4d10[poison]]의 피해를 입힙니다 (@Check[reflex|dc:24|basic] 내성). 내성 체크에 실패한 모든 생물은 @Check[will|dc:24] 내성 체크를 시도하거나 24시간 동안 정신력에 10의 약점을 받고 의지 내성 체크에 -1의 상태 페널티를 받습니다. 타이라프디르는 [[/gmr 1d4 #Recharge Noxious Exhalation]]{1d4 라운드} 동안 독기 분출을 다시 사용할 수 없습니다.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.G1pvduwOVRz4YFUF]{효과: 독기 분출}</p>"
         }
       }
     },
@@ -1634,7 +1634,7 @@
         },
         "Ua8oTkrC5K1ndhsu": {
           "name": "비전의 소비",
-          "description": "<p>헥스모스는 인접한 마법 효과나 무인 마법 아이템의 마법을 흡수하려고 합니다. 대상에 대해 +16 수정자를 적용한 대항 체크를 시도합니다. 성공하면 마법 효과가 종료됩니다. 대신 마법 아이템은 1 라운드 동안 평범한 아이템이 됩니다. 헥스모스는 @Damage[2d8[치유]] 체력을 얻습니다."
+          "description": "<p>헥스모스는 인접한 마법 효과나 무인 마법 아이템의 마법을 흡수하려고 합니다. 대상에 대해 +16 수정자를 적용한 대항 체크를 시도합니다. 성공하면 마법 효과가 종료됩니다. 대신 마법 아이템은 1 라운드 동안 평범한 아이템이 됩니다. 헥스모스는 @Damage[2d8[healing]] 체력을 얻습니다."
         },
         "VA9TdUI8uJQGwOOF": {
           "name": "아카노타시스",
@@ -1657,7 +1657,7 @@
         },
         "ZCJsvwGlqNS9EnMM": {
           "name": "맨티코어의 맹독",
-          "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:32]</p>\n<p><strong>최대 지속 시간</strong> 6 라운드</p>\n<p><strong>1단계</strong> @Damage[3d8[poison]] 피해와 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 1} (1 라운드)</p>\n<p><strong>2단계</strong> @Damage[4d8[poison]] 피해 및 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 2} (1 라운드)</p>\n<p><strong>3단계</strong> @Damage[5d8[poison]] 피해 및 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 3} (1 라운드)</p>"
+          "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:32]</p>\n<p><strong>최대 지속 시간</strong> 6 라운드</p>\n<p><strong>1단계</strong> @Damage[3d8[poison]] 피해와 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1} (1 라운드)</p>\n<p><strong>2단계</strong> @Damage[4d8[poison]] 피해 및 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 2} (1 라운드)</p>\n<p><strong>3단계</strong> @Damage[5d8[poison]] 피해 및 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 3} (1 라운드)</p>"
         },
         "HejwVuqegoT2EPTQ": {
           "name": "전갈의 독침",
@@ -1696,7 +1696,7 @@
         },
         "S3o54Lnee9IO7n9L": {
           "name": "비명 소리",
-          "description": "<p>동굴 다람쥐는 끔찍한 비명을 지릅니다. @Template[emanation|distance:30]{30 피트} 내에 있는 동굴 다람쥐가 아닌 생물은 @Check[fortitude|dc:22] 내성 체크에 성공하지 않으면 @Damage[2d10[sonic]] 피해를 받습니다. 대실패 시, 생물은 1분 동안 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{귀가 먹게 됩니다. 동굴 다람쥐는 [[/gmr 1d4 #Recharge Screaming Force]]{1d4 라운드} 동안 Screaming Force를 다시 사용할 수 없습니다."
+          "description": "<p>동굴 다람쥐는 끔찍한 비명을 지릅니다. @Template[emanation|distance:30]{30 피트} 내에 있는 동굴 다람쥐가 아닌 생물은 @Check[fortitude|dc:22] 내성 체크에 성공하지 않으면 @Damage[2d10[sonic]] 피해를 받습니다. 대실패 시, 생물은 1분 동안 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{귀가 먼}. 동굴 다람쥐는 [[/gmr 1d4 #Recharge Screaming Force]]{1d4 라운드} 동안 Screaming Force를 다시 사용할 수 없습니다."
         },
         "ZU7Vt4UaCrzEFYgt": {
           "name": "붙잡기",
@@ -1936,7 +1936,7 @@
         },
         "43omV52GL7Hlo6rl": {
           "name": "내장 파열",
-          "description": "<p><strong>요건</strong> 상승한 그리폰은 발톱에 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}를 들고 있습니다. 공격이 적중하면, 그 생물은 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 1}이 됩니다 (또는 흡수 값이 1 증가하여 최대 4까지 증가합니다).</p>"
+          "description": "<p><strong>요건</strong> 상승한 그리폰은 발톱에 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}를 들고 있습니다. 공격이 적중하면, 그 생물은 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1}이 됩니다 (또는 흡수 값이 1 증가하여 최대 4까지 증가합니다).</p>"
         },
         "ETE17tmPQayEs1cw": {
           "name": "날카로운 날개",
@@ -2082,7 +2082,7 @@
         },
         "fTN4TsTSO1TZ0TDT": {
           "name": "소화",
-          "description": "<p><strong>조건</strong> 매머드 랜드 스타가 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 상태의 목표를 가지고 있습니다.</p><hr /><p><strong>효과</strong> 매머드 랜드 스타는 위장을 사냥감 위에 내밀어 살아있는 채로 소화합니다. 대상은 @Damage[(2d12+6)[acid]]의 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 1}이 됩니다."
+          "description": "<p><strong>조건</strong> 매머드 랜드 스타가 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 상태의 목표를 가지고 있습니다.</p><hr /><p><strong>효과</strong> 매머드 랜드 스타는 위장을 사냥감 위에 내밀어 살아있는 채로 소화합니다. 대상은 @Damage[(2d12+6)[acid]]의 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1}이 됩니다."
         },
         "CD5zD0yBK4gwgKyE": {
           "name": "글라이드",
@@ -2121,7 +2121,7 @@
         },
         "beRBWWg6xwZiT840": {
           "name": "치유 펄스",
-          "description": "<p>번개 거북은 치유를 촉진하기 위해 몸에서 저강도 전기를 방출합니다. 이로 인해 거북과 10피트 이내의 모든 살아있는 아군(전기에 면역이 있는 생물도 포함)의 체력이 @Damage[5d8[치유]]만큼 회복됩니다. 거북이는 1분 동안 치유 펄스를 다시 사용할 수 없으며, 1분 동안 모든 번개 거북이의 치유 펄스에 일시적으로 면역이 됩니다.</p>"
+          "description": "<p>번개 거북은 치유를 촉진하기 위해 몸에서 저강도 전기를 방출합니다. 이로 인해 거북과 10피트 이내의 모든 살아있는 아군(전기에 면역이 있는 생물도 포함)의 체력이 @Damage[5d8[healing]]만큼 회복됩니다. 거북이는 1분 동안 치유 펄스를 다시 사용할 수 없으며, 1분 동안 모든 번개 거북이의 치유 펄스에 일시적으로 면역이 됩니다.</p>"
         },
         "auQMbsuySkuEV640": {
           "name": "스파크 쉘",

@@ -58,11 +58,11 @@
         },
         "e3MsLR0uK5l51Zvg": {
           "name": "생명 흡수",
-          "description": "<p>와이트가 발톱 공격으로 살아있는 생물에게 피해를 입히면, 와이트는 [[/r 3 #Temporary Hit Points]]{3 임시 체력}을 얻고, 해당 생물은 @Check[fortitude|dc:25] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}이 됩니다. 위크가 추가 피해를 입힐 때마다, 내성 실패 시 흡수량이 1씩 증가하며, 최대 흡수량은 4입니다."
+          "description": "<p>와이트가 발톱 공격으로 살아있는 생물에게 피해를 입히면, 와이트는 [[/r 3 #Temporary Hit Points]]{3 임시 체력}을 얻고, 해당 생물은 @Check[fortitude|dc:25] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1}이 됩니다. 위크가 추가 피해를 입힐 때마다, 내성 실패 시 흡수량이 1씩 증가하며, 최대 흡수량은 4입니다."
         },
         "odphWSrdvx0b9PQE": {
           "name": "뼈 벽 세우기",
-          "description": "<p><strong>사용 빈도</strong> 하루에 한 번</p>\n<p><strong>요구 조건</strong> Drazmorg가 Droskar의 Crucible의 하층 금고에 있을 때</p>\n<hr />\n<p><strong>효과</strong> Drazmorg는 지역을 가득 채운 네크로맨틱 에너지를 끌어내어 땅에서 얽힌 뼈의 벽이 솟아오르게 합니다. 벽의 두께는 5피트, 폭은 10피트, 높이는 10피트이며, 일단 생성되면 드라즈모르그가 이 능력을 다시 사용할 때까지 영구적으로 유지됩니다. 이 능력을 다시 사용하면 이전에 생성된 뼈 벽(예: 영역 <strong>G2</strong>에 있는 벽)이 무너집니다. 뼈 벽의 AC는 10, 경도는 10, 체력은 25입니다. 이 벽은 치명타와 정밀 피해에 면역이며, 라운드 종료 시 @Damage[2d6[치유]]{2d6 체력}의 속도로 자신의 피해를 치유합니다. 벽의 양쪽에는 반대편에 있는 생물들로부터 더 큰 엄폐물이 있으며, 벽을 통과할 수 없습니다. 파괴된 뼈 벽의 부분은 자유롭게 통과할 수 있으며 더 이상 피해를 치유하지 않습니다. 뼈 벽이 생성될 때 그 공간에 갇힌 생물은 @Check[reflex|dc:25|traits:damaging-effect] 내성 체크를 시도해야 합니다.</p>\n<p><strong>성공</strong> 뼈의 벽이 이전 공간에 형성되면서 생물은 자신이 선택한 인접한 칸으로 밀려납니다.</p>\n<p><strong>대실패 실패와 동일하지만, 그 생물은 뼈 벽에 부딪혀 @Damage[4d6[piercing],4d6[bludgeoning]]{4d6 관통 및 4d6 타격 피해}의 피해를 받습니다. </p>"
+          "description": "<p><strong>사용 빈도</strong> 하루에 한 번</p>\n<p><strong>요구 조건</strong> Drazmorg가 Droskar의 Crucible의 하층 금고에 있을 때</p>\n<hr />\n<p><strong>효과</strong> Drazmorg는 지역을 가득 채운 네크로맨틱 에너지를 끌어내어 땅에서 얽힌 뼈의 벽이 솟아오르게 합니다. 벽의 두께는 5피트, 폭은 10피트, 높이는 10피트이며, 일단 생성되면 드라즈모르그가 이 능력을 다시 사용할 때까지 영구적으로 유지됩니다. 이 능력을 다시 사용하면 이전에 생성된 뼈 벽(예: 영역 <strong>G2</strong>에 있는 벽)이 무너집니다. 뼈 벽의 AC는 10, 경도는 10, 체력은 25입니다. 이 벽은 치명타와 정밀 피해에 면역이며, 라운드 종료 시 @Damage[2d6[healing]]{2d6 체력}의 속도로 자신의 피해를 치유합니다. 벽의 양쪽에는 반대편에 있는 생물들로부터 더 큰 엄폐물이 있으며, 벽을 통과할 수 없습니다. 파괴된 뼈 벽의 부분은 자유롭게 통과할 수 있으며 더 이상 피해를 치유하지 않습니다. 뼈 벽이 생성될 때 그 공간에 갇힌 생물은 @Check[reflex|dc:25|traits:damaging-effect] 내성 체크를 시도해야 합니다.</p>\n<p><strong>성공</strong> 뼈의 벽이 이전 공간에 형성되면서 생물은 자신이 선택한 인접한 칸으로 밀려납니다.</p>\n<p><strong>대실패 실패와 동일하지만, 그 생물은 뼈 벽에 부딪혀 @Damage[4d6[piercing],4d6[bludgeoning]]{4d6 관통 및 4d6 타격 피해}의 피해를 받습니다. </p>"
         },
         "U6xYGQ1hJXlEuh1T": {
           "name": "와이트 스폰",
@@ -487,7 +487,7 @@
       "items": {
         "TehURl8rT4BuCGV2": {
           "name": "후퇴 금지",
-          "description": "<p><strong>발동 빈도</strong> 하루에 한 번</p>\n<p><strong>요건</strong> 다크 탈론 코볼트가 적어도 한 명의 적과 인접해 있고, 다크 탈론의 체력이 12 미만인 경우</p><hr /><p><strong>효과</strong> 다크 탈론이 분노에 찬 비명을 지르며 @Damage[2d6[치유]] 체력을 회복합니다."
+          "description": "<p><strong>발동 빈도</strong> 하루에 한 번</p>\n<p><strong>요건</strong> 다크 탈론 코볼트가 적어도 한 명의 적과 인접해 있고, 다크 탈론의 체력이 12 미만인 경우</p><hr /><p><strong>효과</strong> 다크 탈론이 분노에 찬 비명을 지르며 @Damage[2d6[healing]] 체력을 회복합니다."
         },
         "UE9mEDc1fPQ7EFV7": {
           "name": "암습",

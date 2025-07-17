@@ -118,3 +118,9 @@ span.adjusted.criticalFailure {
   text-decoration: none;
   color: #8b0000;
 }
+
+/* ── NPC·PC 시트 내부에서도 무조건 아이콘 폰트 적용 ───────────────────── */
+.window-app .action-glyph,
+.window-app .pf2-icon      { font-family: "Pathfinder2eActions" !important; }
+
+

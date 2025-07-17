@@ -66,7 +66,7 @@
       "items": {
         "7m7b3dwyednyhqtu": {
           "name": "이단자 배반 (Denounce Heretic)",
-          "description": "<p><strong>트리거</strong> 불멸의 제자가 볼 수 있고 우르가토아를 숭배하지 않는 60 피트 이내의 생물이 신성한 주문을 시전합니다</p>\n<hr />\n<p><strong>효과</strong> 불멸의 제자는 자신의 주문 공격 수정자와 2의 대응 등급을 사용하여 트리거 주문을 무효화하려고 시도합니다. 불멸의 제자가 주문을 무효화하지 못하면, 시전자는 24시간 동안 이단자 비난의 추가 사용에 대해 일시적으로 면역이 됩니다."
+          "description": "<p><strong>트리거</strong> 불멸의 제자가 볼 수 있고 우르가토아를 숭배하지 않는 60 피트 이내의 생물이 신성한 주문을 시전합니다</p>\n<hr />\n<p><strong>효과</strong> 불멸의 제자는 자신의 주문 공격 수정자와 2의 반격 등급을 사용하여 트리거 주문을 무효화하려고 시도합니다. 불멸의 제자가 주문을 무효화하지 못하면, 시전자는 24시간 동안 이단자 비난의 추가 사용에 대해 일시적으로 면역이 됩니다."
         },
         "csccddk7b6n1491u": {
           "name": "불사의 영역 (Field of Undeath)",
@@ -198,7 +198,7 @@
         },
         "Uc4DijFU9ApvpWFZ": {
           "name": "육체 섭취 (Consume Flesh)",
-          "description": "<p><strong>요건</strong> 레이세돈이 지난 1시간 이내에 죽은 생물의 시체에 인접해 있습니다. </p>\n<hr />\n<p><strong>효과</strong> 레이세돈은 시체의 일부를 먹어 @Damage[2d6[치유]] 체력을 회복합니다. 특정 시체에서 체력을 회복할 수 있는 횟수는 한 번뿐입니다. </p>"
+          "description": "<p><strong>요건</strong> 레이세돈이 지난 1시간 이내에 죽은 생물의 시체에 인접해 있습니다. </p>\n<hr />\n<p><strong>효과</strong> 레이세돈은 시체의 일부를 먹어 @Damage[2d6[healing]] 체력을 회복합니다. 특정 시체에서 체력을 회복할 수 있는 횟수는 한 번뿐입니다. </p>"
         },
         "MYPGBIYRPHho61zG": {
           "name": "구울 열병 (Ghoul Fever)",
@@ -295,7 +295,7 @@
         },
         "3spjg2szu482ix18": {
           "name": "흡수 마법 (Drain Magic)",
-          "description": "<p><strong>요구 조건</strong> 바니버의 마지막 행동이 생물, 물체, 또는 주문 효과에 대한 턱 공격이었습니다.</p>\n<hr />\n<p><strong>효과</strong> 반이버는 동일한 대상에게 내재된 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic}을 사용합니다. 대상이 생물인 경우, 반이버는 해당 생물을 영향을 받는 주문 대신 다른 주문을 대상으로 지정할 수 있습니다. 주문 효과나 아이템이 성공적으로 무효화되면, 바니버는 무효화된 효과의 무효화 등급의 두 배에 해당하는 임시 체력을 얻습니다."
+          "description": "<p><strong>요구 조건</strong> 바니버의 마지막 행동이 생물, 물체, 또는 주문 효과에 대한 턱 공격이었습니다.</p>\n<hr />\n<p><strong>효과</strong> 반이버는 동일한 대상에게 내재된 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}을 사용합니다. 대상이 생물인 경우, 반이버는 해당 생물을 영향을 받는 주문 대신 다른 주문을 대상으로 지정할 수 있습니다. 주문 효과나 아이템이 성공적으로 무효화되면, 바니버는 무효화된 효과의 무효화 등급의 두 배에 해당하는 임시 체력을 얻습니다."
         },
         "htqhazfmsy64d5iz": {
           "name": "엔트로피의 그림자 (Entropy's Shadow)",
@@ -362,7 +362,7 @@
         },
         "0jGEzNSvC3mj1gAv": {
           "name": "통째로 삼키기 (Swallow Whole)",
-          "description": "<p>거대, @Damage[(2d10+9)[bludgeoning]], Rupture 40</p>\n<p>나스르게스에 의해 통째로 삼켜진 상태로 턴을 끝낸 생물은 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1} 또는 흡수 상태가 1 증가하고, 나스루게스는 20의 임시 체력을 얻습니다. 이런 식으로 흡수 상태가 5로 증가한 생물은 사망합니다. </p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
+          "description": "<p>거대, @Damage[(2d10+9)[bludgeoning]], Rupture 40</p>\n<p>나스르게스에 의해 통째로 삼켜진 상태로 턴을 끝낸 생물은 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1} 또는 흡수 상태가 1 증가하고, 나스루게스는 20의 임시 체력을 얻습니다. 이런 식으로 흡수 상태가 5로 증가한 생물은 사망합니다. </p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
         },
         "0cJtxKvPeAJC8lOc": {
           "name": "향상된 붙잡기 (Improved Grab)",
@@ -548,7 +548,7 @@
         },
         "3gvb9wq37oq21be3": {
           "name": "생명력 흡수 (Drain Life)",
-          "description": "<p>사냥꾼 유령이 비무장 공격이나 결박된 무기로 살아있는 생물에게 피해를 입히면, 7의 임시 체력을 얻고, 해당 생물은 @Check[fortitude|dc:22] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}이 됩니다. 헌터 와이트의 무기 및 결속된 무기로 추가 피해를 입히면, 내성 체크에 실패할 때마다 흡수된 생명력이 1씩 증가하며, 최대 흡수 생명력은 4까지 증가합니다."
+          "description": "<p>사냥꾼 유령이 비무장 공격이나 결박된 무기로 살아있는 생물에게 피해를 입히면, 7의 임시 체력을 얻고, 해당 생물은 @Check[fortitude|dc:22] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1}이 됩니다. 헌터 와이트의 무기 및 결속된 무기로 추가 피해를 입히면, 내성 체크에 실패할 때마다 흡수된 생명력이 1씩 증가하며, 최대 흡수 생명력은 4까지 증가합니다."
         },
         "4z31tccif8f7qaq7": {
           "name": "스폰 헌터 와이트 (Spawn Hunter Wight)",
@@ -571,7 +571,7 @@
         },
         "TDyZOrJxLY1hcPKJ": {
           "name": "생명 흡수 (Drain Life)",
-          "description": "<p>사냥꾼 와이트가 비무장 공격이나 결박된 무기로 살아있는 생물에게 피해를 입히면, 9의 임시 체력을 얻고, 그 생물은 @Check[fortitude|dc:25] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}이 됩니다. 사냥꾼 와이트의 무기 및 결속 무기로 추가 피해를 입히면, 내성 체크에 실패할 때마다 흡수된 생명력이 1씩 증가하며, 최대 흡수 생명력은 4까지 증가합니다."
+          "description": "<p>사냥꾼 와이트가 비무장 공격이나 결박된 무기로 살아있는 생물에게 피해를 입히면, 9의 임시 체력을 얻고, 그 생물은 @Check[fortitude|dc:25] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1}이 됩니다. 사냥꾼 와이트의 무기 및 결속 무기로 추가 피해를 입히면, 내성 체크에 실패할 때마다 흡수된 생명력이 1씩 증가하며, 최대 흡수 생명력은 4까지 증가합니다."
         },
         "apx5l6z5p09xanhv": {
           "name": "죽은 척하기 (Feign Death)",
@@ -738,7 +738,7 @@
         },
         "RvTQTNsY192UMAWY": {
           "name": "기 흡수 (Drain Qi)",
-          "description": "<p><strong>요건</strong> @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 잃음}, 또는 의지 있는 생물이 강시의 도달 범위 내에 있음</p>\n<hr />\n<p><strong>효과</strong> 강시는 숨을 통해 희생자의 생명 에너지, 즉 기를 흡수합니다. 이 효과는 피해자가 잡힌 경우 피해자의 체력 DC에 대해 @Check[athletics|defense:fortitude] 체크를 해야 하며, 그 외의 조건에서는 자동으로 적용됩니다. 피해자는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1} 상태가 되고, 강시는 @Damage[19[healing]] HP를 회복하고, 초과분은 임시 체력으로 얻습니다. 이미 기가 흡수된 생물에게 기를 흡수해도 강시의 HP는 회복되지 않지만, 피해자의 기 흡수 상태 값이 1 증가하며, 기 흡수 상태가 5에 도달하면 피해자는 사망합니다. 피해자가 기 주문을 시전할 수 있는 능력이 있다면, 포커스 포인트 1을 소비하여 기 흡수를 피할 수 있습니다. 이는 현재의 공격에만 적용되며, 이후의 기 흡수 시도는 막을 수 없습니다. 피해자의 흡수 상태 값은 매주 1씩 감소합니다. 생물이 최소 1일 동안 찹쌀로만 식사를 제한하고 10분 동안 춤을 추거나 조깅을 하거나 @Check[athletics|dc:25] 체크에 성공하여 격렬한 신체 활동을 하면 흡수된 상태가 1 감소합니다."
+          "description": "<p><strong>요건</strong> @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 잃음}, 또는 의지 있는 생물이 강시의 도달 범위 내에 있음</p>\n<hr />\n<p><strong>효과</strong> 강시는 숨을 통해 희생자의 생명 에너지, 즉 기를 흡수합니다. 이 효과는 피해자가 잡힌 경우 피해자의 체력 DC에 대해 @Check[athletics|defense:fortitude] 체크를 해야 하며, 그 외의 조건에서는 자동으로 적용됩니다. 피해자는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1} 상태가 되고, 강시는 @Damage[19[healing]] HP를 회복하고, 초과분은 임시 체력으로 얻습니다. 이미 기가 흡수된 생물에게 기를 흡수해도 강시의 HP는 회복되지 않지만, 피해자의 기 흡수 상태 값이 1 증가하며, 기 흡수 상태가 5에 도달하면 피해자는 사망합니다. 피해자가 기 주문을 시전할 수 있는 능력이 있다면, 포커스 포인트 1을 소비하여 기 흡수를 피할 수 있습니다. 이는 현재의 공격에만 적용되며, 이후의 기 흡수 시도는 막을 수 없습니다. 피해자의 흡수 상태 값은 매주 1씩 감소합니다. 생물이 최소 1일 동안 찹쌀로만 식사를 제한하고 10분 동안 춤을 추거나 조깅을 하거나 @Check[athletics|dc:25] 체크에 성공하여 격렬한 신체 활동을 하면 흡수된 상태가 1 감소합니다."
         },
         "2ccxczu33z7f67dc": {
           "name": "사망 예감 (Premonition of Death)",
@@ -789,7 +789,7 @@
         },
         "jQEBpMjZVXEPDHQy": {
           "name": "생각 흡수 (Drain Thoughts)",
-          "description": "<p><strong>요구 조건</strong> @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비된}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 상실}, 또는 의지가 있는 생물이 베타라라나의 도달 범위 내에 있습니다. </p>\n<hr />\n<p><strong>효과</strong> 베타라라나는 생물을 붙잡고 그 기억을 흡수합니다. 이 효과는 피해자가 붙잡힌 경우 피해자의 체력 DC에 대해 @Check[athletics|defense:fortitude] 체크를 해야 하며, 그 외의 조건에서는 자동으로 적용됩니다. 피해자는 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1} 상태가 되고, 베타라라나는 @Damage[10[치유]] HP를 회복하고, 초과분은 임시 체력으로 얻습니다. 이미 혼미 상태인 생물에게서 생각을 흡수해도 베타라라나는 HP를 회복하지 않지만, 피해자의 혼미 값이 1 증가합니다. 또한 베타라라나는 피해자의 기억 중 하나를 볼 수 있습니다.</p>\n<p>피해자의 혼미 상태 값은 매주 1씩 감소합니다. </p>\n<p>이 방법으로 혼미 상태가 5가 된 피해자는 혼수 상태가 되어 영구적으로 @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 불명}이 됩니다. 베타라라나가 살아있는 한, 혼수 상태에 빠진 피해자는 의식을 되찾을 수 없으며, 혼미 상태도 감소하지 않습니다. "
+          "description": "<p><strong>요구 조건</strong> @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비된}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 상실}, 또는 의지가 있는 생물이 베타라라나의 도달 범위 내에 있습니다. </p>\n<hr />\n<p><strong>효과</strong> 베타라라나는 생물을 붙잡고 그 기억을 흡수합니다. 이 효과는 피해자가 붙잡힌 경우 피해자의 체력 DC에 대해 @Check[athletics|defense:fortitude] 체크를 해야 하며, 그 외의 조건에서는 자동으로 적용됩니다. 피해자는 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1} 상태가 되고, 베타라라나는 @Damage[10[healing]] HP를 회복하고, 초과분은 임시 체력으로 얻습니다. 이미 혼미 상태인 생물에게서 생각을 흡수해도 베타라라나는 HP를 회복하지 않지만, 피해자의 혼미 값이 1 증가합니다. 또한 베타라라나는 피해자의 기억 중 하나를 볼 수 있습니다.</p>\n<p>피해자의 혼미 상태 값은 매주 1씩 감소합니다. </p>\n<p>이 방법으로 혼미 상태가 5가 된 피해자는 혼수 상태가 되어 영구적으로 @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 불명}이 됩니다. 베타라라나가 살아있는 한, 혼수 상태에 빠진 피해자는 의식을 되찾을 수 없으며, 혼미 상태도 감소하지 않습니다. "
         },
         "JxEmM6BuyP2WDNYs": {
           "name": "붙잡기 (Grab)",
@@ -824,7 +824,7 @@
         },
         "jmhsum5l0sk7d9ru": {
           "name": "폴롱 점령 (Polong Possession)",
-          "description": "<p>폴롱은 인접한 실체 생물을 점령하려고 시도합니다. 이것은 @UUID[Compendium.pf2e.spells-srd.Item.wU6hNzK8Yfqdmc8m]{Possession} 주문 (@Check[will|dc:26])과 동일한 효과를 가지지만, 지속 시간이 24시간이고, 폴롱은 물리적 신체가 없기 때문에 주문의 제한을 받지 않습니다. 대상 생물이 이전에 내성 검사에 대실패하여 폴롱에 완전히 소유된 적이 있다면, 굴림 결과보다 1 단계 낮은 내성 결과를 얻습니다.</p>\n<p>폴롱에 소유된 생물은 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 1} 및 @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{죽음 1}이 됩니다. 이 상태는 폴롱이 하루 동안 그 생물을 소유하지 않는 한 자연적으로 감소하지 않습니다. 폴롱이 돌아와 그 생물을 소유할 수 있는 날이 계속되는 동안, 흡수 및 파멸 값은 각각 1씩 증가하며, 최대 4까지 증가합니다. 폴롱이 다른 생물을 소유하면, 이전에 소유했던 모든 생물에 대한 상태는 종료됩니다."
+          "description": "<p>폴롱은 인접한 실체 생물을 점령하려고 시도합니다. 이것은 @UUID[Compendium.pf2e.spells-srd.Item.wU6hNzK8Yfqdmc8m]{Possession} 주문 (@Check[will|dc:26])과 동일한 효과를 가지지만, 지속 시간이 24시간이고, 폴롱은 물리적 신체가 없기 때문에 주문의 제한을 받지 않습니다. 대상 생물이 이전에 내성 검사에 대실패하여 폴롱에 완전히 소유된 적이 있다면, 굴림 결과보다 1 단계 낮은 내성 결과를 얻습니다.</p>\n<p>폴롱에 소유된 생물은 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1} 및 @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{죽음 1}이 됩니다. 이 상태는 폴롱이 하루 동안 그 생물을 소유하지 않는 한 자연적으로 감소하지 않습니다. 폴롱이 돌아와 그 생물을 소유할 수 있는 날이 계속되는 동안, 흡수 및 파멸 값은 각각 1씩 증가하며, 최대 4까지 증가합니다. 폴롱이 다른 생물을 소유하면, 이전에 소유했던 모든 생물에 대한 상태는 종료됩니다."
         },
         "k55F7rzQpnXtBEJV": {
           "name": "찢기 (Rend)",
@@ -847,7 +847,7 @@
         },
         "yarojxhc6r3jba98": {
           "name": "창백한 전염병 (Pallid Plague)",
-          "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:26]</p>\n<hr />\n<p><strong>1단계</strong> 보균자 (3일)</p>\n<p><strong>2단계</strong> @Damage[3d8[void]] 피해 및 @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 1} (1일)</p>\n<p><strong>3단계</strong> @Damage[3d8[void]] 피해, 파멸 1, @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 1} (1일)</p>\n<p><strong>4단계</strong> @Damage[4d8[void]] 피해, @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{파멸 2}, 흡수 1 (1일)</p>\n<p><strong>5단계</strong> @Damage[4d8[void]] 피해, @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 3}, 및 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 2} (1일)</p>\n<p><strong>6단계</strong> 사망. 창백한 전염병에 감염된 상태에서 사망한 생물은 @UUID[Compendium.pf2e.book-of-the-dead-bestiary.Actor.8o27tdIZFp0eTs5N]{좀비 군주}로 부활합니다. </p>"
+          "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:26]</p>\n<hr />\n<p><strong>1단계</strong> 보균자 (3일)</p>\n<p><strong>2단계</strong> @Damage[3d8[void]] 피해 및 @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 1} (1일)</p>\n<p><strong>3단계</strong> @Damage[3d8[void]] 피해, 파멸 1, @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1} (1일)</p>\n<p><strong>4단계</strong> @Damage[4d8[void]] 피해, @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{파멸 2}, 흡수 1 (1일)</p>\n<p><strong>5단계</strong> @Damage[4d8[void]] 피해, @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 3}, 및 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 2} (1일)</p>\n<p><strong>6단계</strong> 사망. 창백한 전염병에 감염된 상태에서 사망한 생물은 @UUID[Compendium.pf2e.book-of-the-dead-bestiary.Actor.8o27tdIZFp0eTs5N]{좀비 군주}로 부활합니다. </p>"
         },
         "164uke5yf2ifcf8e": {
           "name": "수확 (Reap)",
@@ -1226,7 +1226,7 @@
         },
         "u35onovz82ogkm7o": {
           "name": "뿌리 내리기 (Take Root)",
-          "description": "<p><strong>빈도</strong> 라운드당 1회</p>\n<p><strong>요구 조건</strong> 시체 뿌리가 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 상태의 생물을 가지고 있습니다. 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속}</p>\n<hr />\n<p><strong>효과</strong> 시체 뿌리는 생물에게 뿌리를 박아 @Damage[(1d6+11)[piercing]] 피해를 주고 대상의 생명력을 흡수합니다 (@Check[fortitude|dc:30|basic]). 실패하면, 생물체는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 1} (또는 이미 흡수된 경우 값이 1 증가)되고, 시체 뿌리는 @Damage[10[healing]] HP를 회복합니다. 이로 인해 생물의 흡수량이 5가 되면, 그 생물은 죽습니다."
+          "description": "<p><strong>빈도</strong> 라운드당 1회</p>\n<p><strong>요구 조건</strong> 시체 뿌리가 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 상태의 생물을 가지고 있습니다. 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속}</p>\n<hr />\n<p><strong>효과</strong> 시체 뿌리는 생물에게 뿌리를 박아 @Damage[(1d6+11)[piercing]] 피해를 주고 대상의 생명력을 흡수합니다 (@Check[fortitude|dc:30|basic]). 실패하면, 생물체는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1} (또는 이미 흡수된 경우 값이 1 증가)되고, 시체 뿌리는 @Damage[10[healing]] HP를 회복합니다. 이로 인해 생물의 흡수량이 5가 되면, 그 생물은 죽습니다."
         },
         "3qz1msK40lJzzqhO": {
           "name": "붙잡기 (Grab)",
@@ -1253,7 +1253,7 @@
         },
         "mjju0x3kql87c8d3": {
           "name": "신성 모독의 오라 (Sacrilegious Aura)",
-          "description": "<p>30 피트. 오라에 있는 생물이 생명력 주문을 사용하거나 능력을 사용하면, 무덤 기사는 자동으로 [[/r 1d20+23 #Counteract]]{+23 반작용 수정자}로 반작용을 시도합니다."
+          "description": "<p>30 피트. 오라에 있는 생물이 생명력 주문을 사용하거나 능력을 사용하면, 무덤 기사는 자동으로 [[/r 1d20+23 #Counteract]]{+23 반격 수정자}로 반격을 시도합니다."
         },
         "eO23hQJnoj5vQUSL": {
           "name": "공허의 치유 (Void Healing)",
@@ -1316,7 +1316,7 @@
         },
         "sE93R44GXNoE5W3Y": {
           "name": "기 흡수 (Drain Qi)",
-          "description": "<p><strong>요건</strong> @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 잃음}, 또는 의지 있는 생물이 강시의 도달 범위 내에 있음</p>\n<hr />\n<p><strong>효과</strong> 강시는 숨을 통해 희생자의 생명 에너지, 즉 기를 흡수합니다. 이 효과는 피해자가 잡힌 경우 피해자의 체력 DC에 대해 @Check[athletics|defense:fortitude] 체크를 해야 하며, 그 외의 조건에서는 자동으로 발동합니다. 피해자는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1} 상태가 되고, 강시는 @Damage[13[healing]] HP를 회복하고, 초과분은 임시 체력으로 얻습니다. 이미 기가 흡수된 생물에게 기를 흡수해도 강시의 HP는 회복되지 않지만, 피해자의 흡수 상태 값이 1 증가하며, 흡수 상태가 5에 도달하면 피해자는 사망합니다. 피해자가 기 주문을 시전할 수 있는 능력이 있다면, 포커스 포인트 1을 소비하여 기가 흡수되는 것을 피할 수 있습니다. 이는 현재의 공격에만 적용되며, 이후의 기 흡수 시도는 막을 수 없습니다. 희생자의 흡수 상태 값은 매주 1씩 감소합니다. 생물이 최소 1일 동안 찹쌀로만 식사를 제한하고, 10분 동안 춤을 추거나 조깅을 하거나, @Check[athletics|dc:25] 체크에 성공하여 격렬한 신체 활동을 하면, 흡수된 상태가 1 감소합니다."
+          "description": "<p><strong>요건</strong> @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 잃음}, 또는 의지 있는 생물이 강시의 도달 범위 내에 있음</p>\n<hr />\n<p><strong>효과</strong> 강시는 숨을 통해 희생자의 생명 에너지, 즉 기를 흡수합니다. 이 효과는 피해자가 잡힌 경우 피해자의 체력 DC에 대해 @Check[athletics|defense:fortitude] 체크를 해야 하며, 그 외의 조건에서는 자동으로 발동합니다. 피해자는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1} 상태가 되고, 강시는 @Damage[13[healing]] HP를 회복하고, 초과분은 임시 체력으로 얻습니다. 이미 기가 흡수된 생물에게 기를 흡수해도 강시의 HP는 회복되지 않지만, 피해자의 흡수 상태 값이 1 증가하며, 흡수 상태가 5에 도달하면 피해자는 사망합니다. 피해자가 기 주문을 시전할 수 있는 능력이 있다면, 포커스 포인트 1을 소비하여 기가 흡수되는 것을 피할 수 있습니다. 이는 현재의 공격에만 적용되며, 이후의 기 흡수 시도는 막을 수 없습니다. 희생자의 흡수 상태 값은 매주 1씩 감소합니다. 생물이 최소 1일 동안 찹쌀로만 식사를 제한하고, 10분 동안 춤을 추거나 조깅을 하거나, @Check[athletics|dc:25] 체크에 성공하여 격렬한 신체 활동을 하면, 흡수된 상태가 1 감소합니다."
         },
         "hGLTi7qRn9Hbn8VM": {
           "name": "Rigor Mortis",
@@ -1425,7 +1425,7 @@
         },
         "uovpjaklzm8wgqbt": {
           "name": "스펙트럴 차지 (Spectral Charge)",
-          "description": "<p>마지막 경비병들이 적들을 향해 몰려듭니다. 부대는 속도를 두 배로 늘려 이동하며, 이동하는 공간에 있는 모든 생물에게 @Damage[4d8[void]]의 피해를 입힙니다 (@Check[reflex|dc:40|basic]). 내성에 실패한 모든 생물은 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 1} (대실패 시 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 2}) 상태가 됩니다. 이 부대는 스펙트럴 차지(Spectral Charge)를 한 번 사용하면 각 생물에게 한 번만 영향을 미칠 수 있습니다."
+          "description": "<p>마지막 경비병들이 적들을 향해 몰려듭니다. 부대는 속도를 두 배로 늘려 이동하며, 이동하는 공간에 있는 모든 생물에게 @Damage[4d8[void]]의 피해를 입힙니다 (@Check[reflex|dc:40|basic]). 내성에 실패한 모든 생물은 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1} (대실패 시 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 2}) 상태가 됩니다. 이 부대는 스펙트럴 차지(Spectral Charge)를 한 번 사용하면 각 생물에게 한 번만 영향을 미칠 수 있습니다."
         },
         "IvNNdk1lrY4Xyd5o": {
           "name": "부대 이동 (Troop Movement)",
@@ -1472,7 +1472,7 @@
         },
         "aqutya2asmrp8wxy": {
           "name": "Soul Theft",
-          "description": "<p><strong>요구 조건</strong> 여왕은 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속} 로 창조물을 붙잡고 있습니다</p>\n<hr />\n<p><strong>효과</strong> 여왕은 창조물의 영혼의 일부를 삼키고 그 능력의 일부를 훔칩니다. 창조물은 @Damage[5d8[void]]의 피해를 받습니다 (@Check[fortitude|dc:41] 내성). 여왕은 대상이 잃은 HP의 총량과 흡수된 HP를 합한 만큼의 임시 HP를 얻습니다.</p>\n<hr />\n<p><strong>대성공</strong> 생물은 영향을 받지 않습니다. </p>\n<p><strong>성공</strong> 생물은 절반의 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 1}을 받습니다.</p>\n<p><strong>실패</strong> 생물은 전체 피해를 받고 흡수 1과 @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 1}을 받습니다. 여왕은 주문 슬롯이나 훈련을 훔칩니다. 준비된 시전자에게서 주문을 훔친 경우, 그 주문을 자신에게 옮기고, 즉석 시전자에게서 훔친 경우, 해당 등급의 준비된 주문을 얻고 그 생물의 해당 등급 주문 슬롯 중 하나를 소모합니다. 훈련을 훔친 경우, 지각력, 공격 수정자 또는 모든 스킬 중 하나를 선택합니다. 24시간 동안, 그녀는 해당 능력치에 +2의 상태 보너스를 얻고, 그 생물은 -2의 상태 페널티를 받습니다. 여왕은 여러 개의 능력을 훔칠 수 있지만, 각 생물로부터는 하나만 훔칠 수 있습니다. </p>\n<p><strong>대실패</strong> 실패와 동일하지만 피해는 두 배입니다."
+          "description": "<p><strong>요구 조건</strong> 여왕은 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속} 로 창조물을 붙잡고 있습니다</p>\n<hr />\n<p><strong>효과</strong> 여왕은 창조물의 영혼의 일부를 삼키고 그 능력의 일부를 훔칩니다. 창조물은 @Damage[5d8[void]]의 피해를 받습니다 (@Check[fortitude|dc:41] 내성). 여왕은 대상이 잃은 HP의 총량과 흡수된 HP를 합한 만큼의 임시 HP를 얻습니다.</p>\n<hr />\n<p><strong>대성공</strong> 생물은 영향을 받지 않습니다. </p>\n<p><strong>성공</strong> 생물은 절반의 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1}을 받습니다.</p>\n<p><strong>실패</strong> 생물은 전체 피해를 받고 흡수 1과 @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 1}을 받습니다. 여왕은 주문 슬롯이나 훈련을 훔칩니다. 준비된 시전자에게서 주문을 훔친 경우, 그 주문을 자신에게 옮기고, 즉석 시전자에게서 훔친 경우, 해당 등급의 준비된 주문을 얻고 그 생물의 해당 등급 주문 슬롯 중 하나를 소모합니다. 훈련을 훔친 경우, 지각력, 공격 수정자 또는 모든 스킬 중 하나를 선택합니다. 24시간 동안, 그녀는 해당 능력치에 +2의 상태 보너스를 얻고, 그 생물은 -2의 상태 페널티를 받습니다. 여왕은 여러 개의 능력을 훔칠 수 있지만, 각 생물로부터는 하나만 훔칠 수 있습니다. </p>\n<p><strong>대실패</strong> 실패와 동일하지만 피해는 두 배입니다."
         },
         "gsUuAStZr4pb7zis": {
           "name": "향상된 붙잡기 (Improved Grab)",
@@ -2063,7 +2063,7 @@
         },
         "ombjfkyxjmwbb9xc": {
           "name": "생명 흡수 (Drain Life)",
-          "description": "<p>사냥꾼 와이트가 비무장 공격이나 결박된 무기로 살아있는 생물에게 피해를 입히면, 12의 임시 체력을 얻고, 그 생물은 @Check[fortitude|dc:29] 내성 체크에 성공하지 못하면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}이 됩니다. 사냥꾼 와이트의 무기 및 결박된 무기로 추가 피해를 입히면, 내성 체크에 실패할 때마다 흡수된 체력이 1씩 증가하며, 최대 흡수 체력은 4까지 증가합니다."
+          "description": "<p>사냥꾼 와이트가 비무장 공격이나 결박된 무기로 살아있는 생물에게 피해를 입히면, 12의 임시 체력을 얻고, 그 생물은 @Check[fortitude|dc:29] 내성 체크에 성공하지 못하면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1}이 됩니다. 사냥꾼 와이트의 무기 및 결박된 무기로 추가 피해를 입히면, 내성 체크에 실패할 때마다 흡수된 체력이 1씩 증가하며, 최대 흡수 체력은 4까지 증가합니다."
         },
         "581dy5lnt449p866": {
           "name": "스폰 웨이트 솔저 (Spawn Wight Soldier)",
@@ -2102,7 +2102,7 @@
         },
         "6FVQCXo7u4wEwCcA": {
           "name": "압착 (Constrict)",
-          "description": "<p>@Damage[(1d10+7)[bludgeoning]] + @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 1}, @Check[fortitude|dc:36|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p>"
+          "description": "<p>@Damage[(1d10+7)[bludgeoning]] + @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1}, @Check[fortitude|dc:36|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p>"
         },
         "6yud3tv7zitkw9k9": {
           "name": "미끄러지는 공격 (Slithering Strike)",
@@ -2110,7 +2110,7 @@
         },
         "3G8FEWYsLeMf6cAv": {
           "name": "통째로 삼키기 (Swallow Whole)",
-          "description": "<p>중형, @Damage[4d6[void]] + @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 1}, 파열 32</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
+          "description": "<p>중형, @Damage[4d6[void]] + @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1}, 파열 32</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
         },
         "8O9kWQZrwnaEV85K": {
           "name": "향상된 붙잡기 (Improved Grab)",
@@ -2315,7 +2315,7 @@
         },
         "pQh6aSqjZQoy6EAa": {
           "name": "어퍼 핸드 (The Upper Hand)",
-          "description": "<p><strong>요구 사항</strong> 시체 갈퀴의 마지막 행동이 치명타로 성공한 근접 공격이었습니다. </p>\n<hr />\n<p><strong>효과</strong> 시체 갈퀴 @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{무장 해제} 타격한 생물에게 무기를 빼앗는 데 대성공을 거두었습니다. 무기는 생물 옆의 공간에 떨어집니다 (레이크가 선택).</p>"
+          "description": "<p><strong>요구 사항</strong> 시체 갈퀴의 마지막 행동이 대성공한 근접 공격이었습니다. </p>\n<hr />\n<p><strong>효과</strong> 시체 갈퀴 @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{무장 해제} 타격한 생물에게 무기를 빼앗는 데 대성공을 거두었습니다. 무기는 생물 옆의 공간에 떨어집니다 (레이크가 선택).</p>"
         }
       }
     },
@@ -2392,7 +2392,7 @@
         },
         "6tism8ur5hq61x7v": {
           "name": "영혼을 훔치기 (Steal Soul)",
-          "description": "<p>슬루아 리퍼는 죽어가는 생물이나 지난 1시간 동안 죽은 생물을 만집니다. 대상이 죽어가는 생물인 경우, @Check[fortitude|dc:28] 내성 체크를 시도해야 합니다. 실패하면 죽어가는 값이 1 증가합니다 (대실패의 경우 2 증가). 대상은 내성을 받지 않으며, 슬루아는 훔친 영혼을 신선하게 보관하는 작고 더러운 자루에 영혼을 가두어. </p>\n<p>자루는 마법으로 잠겨 있어. 슬루아는 누구나 쉽게 열 수 있지만, 그 외의 존재는 @UUID[Compendium.pf2e.actionspf2e.Item.2EE4aF4SZpYf0R6H]{자물쇠 따기} (@Check[thievery|dc:35|traits:action:pick-a-lock])를 사용하거나 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (5th rank; counteract DC 32)를 사용해야 합니다. 생물은 잠금 해제된 가방을 비우기 위해 상호작용할 수 있으며, 이는 영혼을 해방하지만 생명을 되살리지 않습니다. 영혼이 감금되어 있는 동안에는 @UUID[Compendium.pf2e.spells-srd.Item.6dDtGIUerazSHIOu]{Wish} 또는 @UUID[Compendium.pf2e.spells-srd.Item.YfJTXyVGzLhM6V8U]{Miracle}를 제외한 어떤 수단으로도 부활시킬 수 없습니다. 이 가방은 한 번에 12개의 영혼을 보관할 수 있습니다. 슬라우 리퍼들은 일반적으로 영혼을 여왕에게 돌려보내 그녀가 그들을 삼키도록 시도합니다.</p>"
+          "description": "<p>슬루아 리퍼는 죽어가는 생물이나 지난 1시간 동안 죽은 생물을 만집니다. 대상이 죽어가는 생물인 경우, @Check[fortitude|dc:28] 내성 체크를 시도해야 합니다. 실패하면 죽어가는 값이 1 증가합니다 (대실패의 경우 2 증가). 대상은 내성을 받지 않으며, 슬루아는 훔친 영혼을 신선하게 보관하는 작고 더러운 자루에 영혼을 가두어. </p>\n<p>자루는 마법으로 잠겨 있어. 슬루아는 누구나 쉽게 열 수 있지만, 그 외의 존재는 @UUID[Compendium.pf2e.actionspf2e.Item.2EE4aF4SZpYf0R6H]{자물쇠 따기} (@Check[thievery|dc:35|traits:action:pick-a-lock])를 사용하거나 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제} (5th rank; counteract DC 32)를 사용해야 합니다. 생물은 잠금 해제된 가방을 비우기 위해 상호작용할 수 있으며, 이는 영혼을 해방하지만 생명을 되살리지 않습니다. 영혼이 감금되어 있는 동안에는 @UUID[Compendium.pf2e.spells-srd.Item.6dDtGIUerazSHIOu]{Wish} 또는 @UUID[Compendium.pf2e.spells-srd.Item.YfJTXyVGzLhM6V8U]{Miracle}를 제외한 어떤 수단으로도 부활시킬 수 없습니다. 이 가방은 한 번에 12개의 영혼을 보관할 수 있습니다. 슬라우 리퍼들은 일반적으로 영혼을 여왕에게 돌려보내 그녀가 그들을 삼키도록 시도합니다.</p>"
         }
       }
     },
@@ -2415,7 +2415,7 @@
         },
         "ipzqyff0deghe3l9": {
           "name": "장례의 손길 (Funereal Touch)",
-          "description": "<p>llorona에 접촉한 생물은 @Check[fortitude|dc:29] 내성 체크를 시도해야 합니다. 실패하면, 그 생물은 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1} (대실패 시 흡수 2)가 되거나 흡수 값이 1 (대실패 시 2) 증가하며, 최대 흡수 값은 4까지입니다. 이 방법으로 생물이 흡수될 때마다, llorona는 1시간 동안 임시 체력 10을 얻습니다."
+          "description": "<p>llorona에 접촉한 생물은 @Check[fortitude|dc:29] 내성 체크를 시도해야 합니다. 실패하면, 그 생물은 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1} (대실패 시 흡수 2)가 되거나 흡수 값이 1 (대실패 시 2) 증가하며, 최대 흡수 값은 4까지입니다. 이 방법으로 생물이 흡수될 때마다, llorona는 1시간 동안 임시 체력 10을 얻습니다."
         },
         "tult7kj40ygqn8tz": {
           "name": "유령의 손아귀 (Ghostly Grasp)",
@@ -2474,7 +2474,7 @@
         },
         "dIjjf4Tqor8DWWHu": {
           "name": "통째로 삼키기 (Swallow Whole)",
-          "description": "<p>거대, @Damage[(2d10+5)[bludgeoning]], 파열 35</p>\n<p>어르베스에 통째로 삼켜진 채로 턴을 끝낸 생명체는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 1} 또는 흡수 상태가 1 증가하고, 우르베스는 임시 체력이 10 증가합니다. 이런 방식으로 흡수 상태가 5로 증가한 생물은 사망합니다. </p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
+          "description": "<p>거대, @Damage[(2d10+5)[bludgeoning]], 파열 35</p>\n<p>어르베스에 통째로 삼켜진 채로 턴을 끝낸 생명체는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1} 또는 흡수 상태가 1 증가하고, 우르베스는 임시 체력이 10 증가합니다. 이런 방식으로 흡수 상태가 5로 증가한 생물은 사망합니다. </p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
         },
         "266u1f6h9sli518d": {
           "name": "우르베스의 맹독 (Urveth Venom)",
@@ -2501,7 +2501,7 @@
         },
         "wbqipaniohqje45s": {
           "name": "육체 삼키기 (Devour Flesh)",
-          "description": "<p><strong>요구 조건</strong> ghul은 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속} 상태의 생물을 가지고 있습니다.</p>\n<hr />\n<p><strong>효과</strong> 구울은 잡은 생물의 살을 먹으려 합니다. 잡은 생물에게 턱 공격을 합니다. 성공하면 구울은 살을 일부 먹어 @Damage[3d6[healing]] 체력을 회복합니다. 잡힌 생물은 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 1} (또는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 2} (턱 공격이 대성공인 경우))가 됩니다. 폭력적인 섭취로 인해 구울은 잔치를 즐기면서 생물을 놓아줘야 합니다. 구울은 1시간에 한 번만 특정 생물의 살을 섭취하여 체력을 회복할 수 있습니다. 이 시간 동안 추가 체력을 회복하려면 다른 생물의 살을 섭취해야 합니다."
+          "description": "<p><strong>요구 조건</strong> ghul은 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속} 상태의 생물을 가지고 있습니다.</p>\n<hr />\n<p><strong>효과</strong> 구울은 잡은 생물의 살을 먹으려 합니다. 잡은 생물에게 턱 공격을 합니다. 성공하면 구울은 살을 일부 먹어 @Damage[3d6[healing]] 체력을 회복합니다. 잡힌 생물은 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1} (또는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 2} (턱 공격이 대성공인 경우))가 됩니다. 폭력적인 섭취로 인해 구울은 잔치를 즐기면서 생물을 놓아줘야 합니다. 구울은 1시간에 한 번만 특정 생물의 살을 섭취하여 체력을 회복할 수 있습니다. 이 시간 동안 추가 체력을 회복하려면 다른 생물의 살을 섭취해야 합니다."
         },
         "bnge6fye2orz7wv1": {
           "name": "유혹의 웃음 (Luring Laugh)",

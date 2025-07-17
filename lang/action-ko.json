@@ -42,9 +42,9 @@
         "Title": "탈리스만 부착"
       },
       "Aid": {
-        "Description": "<p>당신은 아군의 작업을 도와주려고 합니다. 이 반응을 사용하려면 먼저 자신의 차례에 액션을 사용하여 도움을 줄 준비를 해야 합니다. 어떤 방식으로 아군을 도우려는지 GM에게 정확히 설명해야 하며, GM이 아군을 도울 수 있는지 여부를 결정합니다.</p><p>원조 반응을 사용할 때는 GM이 결정한 유형의 스킬 체크 또는 공격 굴림을 시도합니다. 일반적인 DC는 15이지만, GM은 특별히 어렵거나 쉬운 작업에 대해 이 DC를 조정할 수 있습니다. GM은 상황에 따라 준비 행동이나 원조 반응에 관련 특성을 추가할 수 있으며, 스킬 체크와 공격 굴림 이외의 원조 체크도 허용할 수 있습니다.</p><p><strong>대성공</strong> 발동하는 체크에 +2의 상황 보너스를 아군에게 부여합니다. 자신이 시도한 체크의 통달인 경우 보너스는 +3, 전설인 경우 +4입니다.</p><p><strong>성공</strong> 아군에게 발동하는 체크에 +1 상황 보너스를 부여합니다.</p><p><strong>결정적 실패</strong> 아군은 발동하는 체크에 -1 상황 패널티를 받습니다.</p>",
+        "Description": "<p>당신은 아군의 작업을 도와주려고 합니다. 이 반응을 사용하려면 먼저 자신의 차례에 액션을 사용하여 도움을 줄 준비를 해야 합니다. 어떤 방식으로 아군을 도우려는지 GM에게 정확히 설명해야 하며, GM이 아군을 도울 수 있는지 여부를 결정합니다.</p><p>원조 반응을 사용할 때는 GM이 결정한 유형의 스킬 체크 또는 공격 굴림을 시도합니다. 일반적인 DC는 15이지만, GM은 특별히 어렵거나 쉬운 작업에 대해 이 DC를 조정할 수 있습니다. GM은 상황에 따라 준비 행동이나 원조 반응에 관련 특성을 추가할 수 있으며, 스킬 체크와 공격 굴림 이외의 원조 체크도 허용할 수 있습니다.</p><p><strong>대성공</strong> 발동하는 체크에 +2의 상황 보너스를 아군에게 부여합니다. 자신이 시도한 체크의 통달인 경우 보너스는 +3, 전설인 경우 +4입니다.</p><p><strong>성공</strong> 아군에게 발동하는 체크에 +1 상황 보너스를 부여합니다.</p><p><strong>결정적 실패</strong> 아군은 발동하는 체크에 -1 상황 페널티를 받습니다.</p>",
         "Notes": {
-          "criticalFailure": "아군은 발동 체크에 -1의 상황 패널티를 받습니다.",
+          "criticalFailure": "아군은 발동 체크에 -1의 상황 페널티를 받습니다.",
           "criticalSuccess": "당신은 아군에게 발동하는 체크에 +2의 상황 보너스를 부여합니다. 자신이 시도한 체크에 통달인 경우 보너스는 +3, 전설인 경우 +4가 됩니다.",
           "success": "아군에게 발동 체크에 +1 상황 보너스를 부여합니다."
         },
@@ -58,7 +58,7 @@
           "SizeDifference": "크기 차이"
         },
         "Notes": {
-          "NoTarget": "<strong>사이즈 차이</strong> 대상이 자신보다 한 사이즈 큰 경우 체크에 -2 상황 패널티를, 그보다 큰 경우 -4 상황 패널티를 받습니다. 대상이 나보다 한 사이즈 작으면 체크에 +2의 상황 보너스를 받고, 그보다 작으면 +4의 상황 보너스를 받습니다.",
+          "NoTarget": "<strong>사이즈 차이</strong> 대상이 자신보다 한 사이즈 큰 경우 체크에 -2 상황 페널티를, 그보다 큰 경우 -4 상황 페널티를 받습니다. 대상이 나보다 한 사이즈 작으면 체크에 +2의 상황 보너스를 받고, 그보다 작으면 +4의 상황 보너스를 받습니다.",
           "criticalFailure": "<strong>대실패</strong> 생물이 탈출하여 더 이상 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속} 상태에 놓이지 않게 됩니다.",
           "criticalSuccess": "<strong>대성공</strong> 적을 내리쳐서 마력의 기운이 적을 압도합니다. 대상은 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드린}하고, 1라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{눈부신} 상태가 되며, [[/r 2d6 + @abilities.str.mod # 피해: 비전 강타]]{2d6 + 자신의 힘 증폭기}만큼 피해를 받습니다. 적이 더 이상 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속} 적이 되지 않습니다.",
           "failure": "<strong>실패</strong> 생명체를 내리치는 데는 실패했지만, 생명체를 붙잡고 있는 상태는 유지됩니다.",
@@ -104,9 +104,9 @@
       },
       "BonMot": {
         "Notes": {
-          "criticalFailure": "<strong>대실패</strong> 당신의 말장난은 끔찍합니다. 성공했을 때 적이 받는 패널티와 동일한 패널티를 받습니다. 이 효과는 1분 후 또는 다른 빈정대기를 발동하여 성공하면 종료됩니다. @UUID[Compendium.pf2e.feat-effects.Item.GoSls6SKCFmSoDxT]{효과 : 빈정대기}",
-          "criticalSuccess": "<strong>대성공</strong> 대상은 주의가 산만해지고 지각에 -3 상태 패널티를 받으며 1분 동안 의지가 저장됩니다. 대상은 빈정대기에 대한 반격으로 효과를 조기에 종료할 수 있습니다. 반격은 집중 특성이 있는 단일 행동이거나 반격에 적합한 기술 행동 중 하나에 해당할 수 있습니다. 어떤 기술 행동이 적격인지는 GM이 결정하지만, 최소 1개 이상의 액션을 취해야 합니다. 일반적으로 반박은 언어 카리스마 기반 기술 액션을 사용해야 합니다. @UUID[Compendium.pf2e.feat-effects.Item.CtrZFI3RV0yPNzTv]{효과 : 빈정대기 (대성공)}",
-          "success": "<strong>성공</strong> 대상은 주의가 산만해지고 지각에 -2 상태 패널티를 받으며 1분 동안 의지가 저장됩니다. 대상은 빈정대기에 대한 반격으로 효과를 조기에 종료할 수 있습니다. 반격은 집중 특성이 있는 단일 행동 또는 적절한 기술 행동으로 구성할 수 있습니다. 어떤 기술 행동이 적격인지는 GM이 결정하지만, 최소 1개 이상의 액션을 취해야 합니다. 일반적으로 반박은 언어 카리스마 기반 기술 액션을 사용해야 합니다. @UUID[Compendium.pf2e.feat-effects.Item.GoSls6SKCFmSoDxT]{효과 : 빈정대기}"
+          "criticalFailure": "<strong>대실패</strong> 당신의 말장난은 끔찍합니다. 성공했을 때 적이 받는 페널티와 동일한 페널티를 받습니다. 이 효과는 1분 후 또는 다른 빈정대기를 발동하여 성공하면 종료됩니다. @UUID[Compendium.pf2e.feat-effects.Item.GoSls6SKCFmSoDxT]{효과 : 빈정대기}",
+          "criticalSuccess": "<strong>대성공</strong> 대상은 주의가 산만해지고 지각에 -3 상태 페널티를 받으며 1분 동안 의지가 저장됩니다. 대상은 빈정대기에 대한 반격으로 효과를 조기에 종료할 수 있습니다. 반격은 집중 특성이 있는 단일 행동이거나 반격에 적합한 기술 행동 중 하나에 해당할 수 있습니다. 어떤 기술 행동이 적격인지는 GM이 결정하지만, 최소 1개 이상의 액션을 취해야 합니다. 일반적으로 반박은 언어 카리스마 기반 기술 액션을 사용해야 합니다. @UUID[Compendium.pf2e.feat-effects.Item.CtrZFI3RV0yPNzTv]{효과 : 빈정대기 (대성공)}",
+          "success": "<strong>성공</strong> 대상은 주의가 산만해지고 지각에 -2 상태 페널티를 받으며 1분 동안 의지가 저장됩니다. 대상은 빈정대기에 대한 반격으로 효과를 조기에 종료할 수 있습니다. 반격은 집중 특성이 있는 단일 행동 또는 적절한 기술 행동으로 구성할 수 있습니다. 어떤 기술 행동이 적격인지는 GM이 결정하지만, 최소 1개 이상의 액션을 취해야 합니다. 일반적으로 반박은 언어 카리스마 기반 기술 액션을 사용해야 합니다. @UUID[Compendium.pf2e.feat-effects.Item.GoSls6SKCFmSoDxT]{효과 : 빈정대기}"
         },
         "Title": "빈정대기"
       },
@@ -210,7 +210,7 @@
         "Title": "기어가기"
       },
       "CreateADiversion": {
-        "Description": "<p>제스처, 기만 또는 주의를 돌리는 말로 생물들의 주의를 다른 곳으로 돌릴 수 있습니다. 제스처나 기만를 사용하면 이 행동은 조작 특성을 얻습니다. 주의를 돌리는 말을 사용하면 청각 및 언어 특성을 얻습니다. </p><p>단일 기만 체크를 시도하고, 주의를 돌리려는 생물들의 지각 DC와 비교합니다. 성공 여부와 관계없이, 주의력을 분산시키려는 생물들은 1분 동안 당신의 주의력 분산 시도에 대한 지각 DC에 +4 상황 보너스를 얻습니다.</p><p><strong>성공</strong> 당신은 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨은} 상태가 됩니다. 이 상태는 지각 DC가 당신의 결과와 같거나 낮은 모든 생물에게 적용됩니다. (숨겨진 조건은 @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{은밀 이동}로 도망갈 수 있게 합니다.) 이 효과는 당신의 턴이 끝날 때까지 또는 @UUID[Compendium.pf2e.actionspf2e.Item.UHpkTuCtyaPqiCAB]{신중한 발걸음}을 사용하거나 Stealth 기술을 사용하여 @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Hide} 또는 Sneak을 사용할 때까지 지속됩니다. @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Strike}를 사용하면, 그 생물은 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프-가드} 상태가 유지되며 해당 공격에 대해 방어할 수 없게 되며, 당신은 @UUID[Compendium.pf2e.conditionitems.Item.1wQY3JYyhMYeeV2G]{관찰됨} 상태가 됩니다. 다른 행동을 취하면, GM이 달리 결정하지 않는 한 행동 직전에 관찰된 상태가 됩니다.<br><strong>실패</strong> 당신의 결과보다 지각 DC가 높은 생물의 주의를 돌리지 못하며, 해당 생물들은 당신이 속이려고 시도했다는 것을 알게 됩니다.</p>",
+        "Description": "<p>제스처, 기만 또는 주의를 돌리는 말로 생물들의 주의를 다른 곳으로 돌릴 수 있습니다. 제스처나 기만를 사용하면 이 행동은 조작 특성을 얻습니다. 주의를 돌리는 말을 사용하면 청각 및 언어 특성을 얻습니다. </p><p>단일 기만 체크를 시도하고, 주의를 돌리려는 생물들의 지각 DC와 비교합니다. 성공 여부와 관계없이, 주의력을 분산시키려는 생물들은 1분 동안 당신의 주의력 분산 시도에 대한 지각 DC에 +4 상황 보너스를 얻습니다.</p><p><strong>성공</strong> 당신은 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨은} 상태가 됩니다. 이 상태는 지각 DC가 당신의 결과와 같거나 낮은 모든 생물에게 적용됩니다. (숨겨진 조건은 @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{은밀 이동}로 도망갈 수 있게 합니다.) 이 효과는 당신의 턴이 끝날 때까지 또는 @UUID[Compendium.pf2e.actionspf2e.Item.UHpkTuCtyaPqiCAB]{신중한 발걸음}을 사용하거나 Stealth 기술을 사용하여 @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{숨기} 또는 Sneak을 사용할 때까지 지속됩니다. @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{Strike}를 사용하면, 그 생물은 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프-가드} 상태가 유지되며 해당 공격에 대해 방어할 수 없게 되며, 당신은 @UUID[Compendium.pf2e.conditionitems.Item.1wQY3JYyhMYeeV2G]{관찰됨} 상태가 됩니다. 다른 행동을 취하면, GM이 달리 결정하지 않는 한 행동 직전에 관찰된 상태가 됩니다.<br><strong>실패</strong> 당신의 결과보다 지각 DC가 높은 생물의 주의를 돌리지 못하며, 해당 생물들은 당신이 속이려고 시도했다는 것을 알게 됩니다.</p>",
         "DistractingWords": {
           "Title": "주의 분산 - 산만한 단어"
         },
@@ -219,7 +219,7 @@
         },
         "Notes": {
           "failure": "<strong>실패</strong> 당신은 지각 DC가 당신의 결과를 초과하는 생물의 주의를 돌리지 못했고, 그 생물은 당신이 그들을 속이려 했다는 것을 알고 있습니다.",
-          "success": "<strong>성공</strong> 당신은 지각 DC가 당신의 결과보다 낮거나 같은 각 생물에게 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨은}이 됩니다. (숨겨짐 조건은 @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{은밀 이동} 멀리 달아날 수 있게 해 줍니다.) 이 효과는 자신의 턴이 끝날 때까지, 또는 발걸음을 내딛거나 은신 스킬의 @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{숨기기} 또는 @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{은밀 이동} 액션을 제외한 모든 액션을 사용할 때까지 지속됩니다. 생물을 공격하면, 그 생물은 해당 공격에 대해 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프-가드} 상태를 유지하고, 당신은 @UUID[Compendium.pf2e.conditionitems.Item.1wQY3JYyhMYeeV2G]{관찰됨} 상태가 됩니다. 그 외 다른 액션을 하면, GM이 달리 결정하지 않는 한 행동하기 직전에 @UUID[Compendium.pf2e.conditionitems.Item.1wQY3JYyhMYeeV2G]{관찰됨} 상태가 됩니다."
+          "success": "<strong>성공</strong> 당신은 지각 DC가 당신의 결과보다 낮거나 같은 각 생물에게 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨은}이 됩니다. (숨겨짐 조건은 @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{은밀 이동} 멀리 달아날 수 있게 해 줍니다.) 이 효과는 자신의 턴이 끝날 때까지, 또는 발걸음을 내딛거나 은신 스킬의 @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{숨기} 또는 @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{은밀 이동} 액션을 제외한 모든 액션을 사용할 때까지 지속됩니다. 생물을 공격하면, 그 생물은 해당 공격에 대해 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프-가드} 상태를 유지하고, 당신은 @UUID[Compendium.pf2e.conditionitems.Item.1wQY3JYyhMYeeV2G]{관찰됨} 상태가 됩니다. 그 외 다른 액션을 하면, GM이 달리 결정하지 않는 한 행동하기 직전에 @UUID[Compendium.pf2e.conditionitems.Item.1wQY3JYyhMYeeV2G]{관찰됨} 상태가 됩니다."
         },
         "Title": "주의 분산",
         "Trick": {
@@ -248,11 +248,11 @@
         "UnspecificHandwriting": "특정되지 않은 손글씨"
       },
       "DecipherWriting": {
-        "Description": "<p>모호한 주제에 대한 복잡한 글이나 문헌을 해독하려고 시도합니다. 보통 텍스트 한 페이지당 1분 정도 걸리지만, 암호 해독 등의 경우 더 오래 걸릴 수도 있습니다(일반적으로 한 페이지당 1시간 정도 소요). 텍스트는 반드시 읽을 수 있는 언어로 작성되어야 하지만, GM이 익숙하지 않은 언어로 작성된 텍스트의 해독을 사회로 대신 시도하도록 허용할 수도 있습니다.</p><p>DC는 문서의 상태나 복잡성에 따라 GM이 결정합니다. GM은 짧은 텍스트에 대해 한 번만 체크하게 하거나 큰 텍스트의 각 섹션에 대해 한 번씩 체크하게 할 수 있습니다.</p><p><strong>대성공</strong> 텍스트의 진정한 의미를 이해했습니다.</p><p><strong>성공</strong> 텍스트의 진정한 의미를 이해했습니다. 암호화된 문서인 경우, 일반적인 의미는 알지만 단어 단위로 번역하지 못했을 수 있습니다.</p><p><strong>실패</strong> 텍스트를 이해하지 못하고 해독을 위한 추가 체크에 -2 상황 패널티를 받습니다.</p><p><strong>대실패</strong> 해당 페이지의 텍스트를 이해했다고 생각하지만 실제로는 메시지를 잘못 해석한 경우입니다.</p><section class=\"sample-tasks\"><h2>샘플 해독 작업</h2><p><strong>훈련</strong> 초급 철학 논문</p><p><strong>전문</strong> 암호와 같은 복잡한 코드</p><p><strong>스파이 마스터의 코드 또는 고급 연구 노트</p><p><strong>전설적인</strong> 고대 천사가 은유로 쓴 난해한 차원 텍스트</p></p></section>",
+        "Description": "<p>모호한 주제에 대한 복잡한 글이나 문헌을 해독하려고 시도합니다. 보통 텍스트 한 페이지당 1분 정도 걸리지만, 암호 해독 등의 경우 더 오래 걸릴 수도 있습니다(일반적으로 한 페이지당 1시간 정도 소요). 텍스트는 반드시 읽을 수 있는 언어로 작성되어야 하지만, GM이 익숙하지 않은 언어로 작성된 텍스트의 해독을 사회로 대신 시도하도록 허용할 수도 있습니다.</p><p>DC는 문서의 상태나 복잡성에 따라 GM이 결정합니다. GM은 짧은 텍스트에 대해 한 번만 체크하게 하거나 큰 텍스트의 각 섹션에 대해 한 번씩 체크하게 할 수 있습니다.</p><p><strong>대성공</strong> 텍스트의 진정한 의미를 이해했습니다.</p><p><strong>성공</strong> 텍스트의 진정한 의미를 이해했습니다. 암호화된 문서인 경우, 일반적인 의미는 알지만 단어 단위로 번역하지 못했을 수 있습니다.</p><p><strong>실패</strong> 텍스트를 이해하지 못하고 해독을 위한 추가 체크에 -2 상황 페널티를 받습니다.</p><p><strong>대실패</strong> 해당 페이지의 텍스트를 이해했다고 생각하지만 실제로는 메시지를 잘못 해석한 경우입니다.</p><section class=\"sample-tasks\"><h2>샘플 해독 작업</h2><p><strong>훈련</strong> 초급 철학 논문</p><p><strong>전문</strong> 암호와 같은 복잡한 코드</p><p><strong>스파이 마스터의 코드 또는 고급 연구 노트</p><p><strong>전설적인</strong> 고대 천사가 은유로 쓴 난해한 차원 텍스트</p></p></section>",
         "Notes": {
           "criticalFailure": "<strong>대실패</strong> 해당 페이지의 텍스트를 이해했다고 생각하지만 실제로는 해당 페이지의 메시지를 잘못 해석한 것입니다.",
           "criticalSuccess": "<strong>대성공</strong> 텍스트의 진정한 의미를 이해합니다.",
-          "failure": "<strong>실패</strong> 텍스트를 이해할 수 없으며, 해독을 위한 추가 체크에서 -2 상황 패널티를 받습니다.",
+          "failure": "<strong>실패</strong> 텍스트를 이해할 수 없으며, 해독을 위한 추가 체크에서 -2 상황 페널티를 받습니다.",
           "success": "<strong>성공</strong> 텍스트의 진정한 의미를 이해했습니다. 코딩된 문서인 경우 일반적인 의미는 알지만 단어 단위로 번역되지 않았을 수 있습니다."
         },
         "SampleTasks": {
@@ -271,7 +271,7 @@
         "Title": "지연"
       },
       "Demoralize": {
-        "Description": "<p>갑작스러운 외침, 적절한 타이밍의 도발, 또는 칼질로 적의 결의를 흔들 수 있습니다. 자신과 30피트 이내에 있는 생물 중 자신이 알고 있는 생물을 선택합니다. 그 대상의 의지 내성 DC에 대해 협박 체크를 시도합니다. 대상이 당신의 언어를 이해하지 못하거나, 당신이 언어를 사용하지 않거나, 당신의 말을 듣지 못하면, 당신은 체크에 -4의 상황 패널티를 받습니다. 체크 결과에 상관없이, 대상은 10분 동안 사기를 떨어뜨리려는 시도에 일시적으로 면역이 됩니다.</p><p><strong>대성공</strong> 대상은 겁에 질려 2.<br><strong>성공</strong> 대상은 겁에 질려 1.</p>",
+        "Description": "<p>갑작스러운 외침, 적절한 타이밍의 도발, 또는 칼질로 적의 결의를 흔들 수 있습니다. 자신과 30피트 이내에 있는 생물 중 자신이 알고 있는 생물을 선택합니다. 그 대상의 의지 내성 DC에 대해 협박 체크를 시도합니다. 대상이 당신의 언어를 이해하지 못하거나, 당신이 언어를 사용하지 않거나, 당신의 말을 듣지 못하면, 당신은 체크에 -4의 상황 페널티를 받습니다. 체크 결과에 상관없이, 대상은 10분 동안 사기를 떨어뜨리려는 시도에 일시적으로 면역이 됩니다.</p><p><strong>대성공</strong> 대상은 겁에 질려 2.<br><strong>성공</strong> 대상은 겁에 질려 1.</p>",
         "Notes": {
           "criticalSuccess": "<strong>대성공</strong> 대상은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 2}가 됩니다.",
           "success": "<strong>성공</strong> 대상은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 1}이 됩니다."
@@ -293,7 +293,7 @@
         "Notes": {
           "criticalFailure": "<strong>대실패</strong> 균형을 잃고 다음 턴이 시작될 때까지 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프-가드}가 됩니다.",
           "criticalSuccess": "<strong>대성공</strong> 상대의 손아귀에서 아이템을 밀어냅니다. 아이템이 상대방의 공간에서 땅에 떨어집니다.",
-          "success": "<strong>성공</strong> 대상의 아이템에 대한 장악력이 약화됩니다. 해당 아이템의 대상에게 무장해제를 추가로 시도하면 상황 +2 보너스를 얻고, 대상은 해당 아이템으로 공격하거나 아이템을 단단히 잡아야 하는 다른 체크에 -2 상황 패널티를 받습니다. 해당 생물은 상호작용을 통해 아이템에 대한 그립을 변경하여 효과를 종료할 수 있으며, 그렇지 않으면 해당 생물이 아이템을 들고 있는 동안 지속됩니다.<br>@UUID[Compendium.pf2e.other-effects.Item.PuDS0DEq0CnaSIFV]{효과 : 무장 해제 (성공)}"
+          "success": "<strong>성공</strong> 대상의 아이템에 대한 장악력이 약화됩니다. 해당 아이템의 대상에게 무장해제를 추가로 시도하면 상황 +2 보너스를 얻고, 대상은 해당 아이템으로 공격하거나 아이템을 단단히 잡아야 하는 다른 체크에 -2 상황 페널티를 받습니다. 해당 생물은 상호작용을 통해 아이템에 대한 그립을 변경하여 효과를 종료할 수 있으며, 그렇지 않으면 해당 생물이 아이템을 들고 있는 동안 지속됩니다.<br>@UUID[Compendium.pf2e.other-effects.Item.PuDS0DEq0CnaSIFV]{효과 : 무장 해제 (성공)}"
         },
         "Title": "무장 해제"
       },
@@ -376,7 +376,7 @@
         "Description": "<p>몸, 레버 또는 다른 도구를 사용하여 문, 창문, 용기 또는 무거운 문을 강제로 열려고 시도합니다. 결과가 충분히 높으면 벽을 부술 수도 있습니다. 크로바가 없으면 무언가를 열기 위해 운동 능력 체크에 -2의 아이템 페널티가 적용됩니다.</p><p><strong>대성공</strong> 문, 창문, 용기 또는 문을 열고 그 과정에서 피해를 입히지 않습니다. <br><strong>성공</strong> 문, 창문, 용기 또는 문을 부수고 열면 @UUID[Compendium.pf2e.conditionitems.Item.6dNUvdb1dhToNDj3]{부서진} 상태가 적용됩니다. 특히 튼튼한 경우, GM은 피해는 입히지만 부수지 않을 수도 있습니다. <br><strong>대실패</strong> 당신의 시도로 문, 창문, 컨테이너 또는 문이 걸려 버리고, 이후에 강제 열기 시도에 -2의 상황 페널티가 적용됩니다.</p>",
         "NoCrowbarPenalty": "크로우바 없음",
         "Notes": {
-          "criticalFailure": "<strong>대실패</strong> 이 시도로 문, 창문, 컨테이너 또는 게이트가 닫히고, 이후 강제로 열려고 시도할 때 -2 상황 패널티가 부과됩니다.",
+          "criticalFailure": "<strong>대실패</strong> 이 시도로 문, 창문, 컨테이너 또는 게이트가 닫히고, 이후 강제로 열려고 시도할 때 -2 상황 페널티가 부과됩니다.",
           "criticalSuccess": "<strong>대성공</strong> 문, 창문, 컨테이너 또는 게이트를 열면 그 과정에서 손상을 피할 수 있습니다.",
           "success": "<strong>성공</strong> 문, 창문, 컨테이너, 성문을 부수고 열면 해당 문, 창문, 컨테이너, 성문은 @UUID[Compendium.pf2e.conditionitems.Item.6dNUvdb1dhToNDj3]{부서진} 상태를 얻습니다. 특히 튼튼하다면 GM이 피해를 받지만 부서지지 않게 할 수도 있습니다."
         },
@@ -668,7 +668,7 @@
         "Title": "방패 올리기"
       },
       "Ready": {
-        "Description": "<p>자신의 차례가 아닐 때 사용할 액션을 준비합니다. 사용할 수 있는 행동 하나 또는 자유 액션을 선택하고 트리거를 지정합니다. 그러면 자신의 차례가 끝납니다. 지정한 트리거가 다음 턴이 시작되기 전에 발생하면, 선택한 액션을 반응으로 사용할 수 있습니다(사용 요건을 충족하는 경우). 이미 트리거가 있는 프리 액션은 준비할 수 없습니다.</p><p>다중 공격 패널티가 있고 준비된 행동이 공격 행동인 경우, 준비된 공격은 준비를 사용할 당시의 다중 공격 패널티를 받습니다. 이것은 내 차례가 아닐 때 다중 공격 패널티가 적용되는 몇 안 되는 경우 중 하나입니다.</p>",
+        "Description": "<p>자신의 차례가 아닐 때 사용할 액션을 준비합니다. 사용할 수 있는 행동 하나 또는 자유 액션을 선택하고 트리거를 지정합니다. 그러면 자신의 차례가 끝납니다. 지정한 트리거가 다음 턴이 시작되기 전에 발생하면, 선택한 액션을 반응으로 사용할 수 있습니다(사용 요건을 충족하는 경우). 이미 트리거가 있는 프리 액션은 준비할 수 없습니다.</p><p>다중 공격 페널티가 있고 준비된 행동이 공격 행동인 경우, 준비된 공격은 준비를 사용할 당시의 다중 공격 페널티를 받습니다. 이것은 내 차례가 아닐 때 다중 공격 페널티가 적용되는 몇 안 되는 경우 중 하나입니다.</p>",
         "Title": "준비"
       },
       "RecallKnowledge": {
@@ -755,7 +755,7 @@
         "Title": "요청"
       },
       "Seek": {
-        "Description": "<p>당신은 생물이나 물체의 징후, 그리고 비밀 문이나 위험 요소 등을 찾아 해당 지역을 탐색합니다. 탐색할 지역을 선택하십시오. GM은 한 번의 @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{탐색} 행동으로 탐색할 수 있는 지역을 결정합니다. 거의 항상 30피트 이내의 범위입니다. GM은 당신이 멀리서 탐색하려 하거나 특히 혼잡한 지역을 탐색할 때 행동의 수를 조정하거나 패널티를 부여할 수 있습니다.</p><p>GM은 당신을 대신하여 비밀적인 인식(Perception) 판정을 수행하고, 그 결과를 해당 지역의 감지되지 않은(@UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨은}) 생물이나 물체를 탐지하기 위한 난이도(DC)와 비교합니다(감추어진 물체는 GM이나 물체를 감추려는 누군가에 의해 결정됨). 당신이 감지한 생물은 은밀하게 남아 있을 수 있으며, 불완전한 감각을 사용하거나 투명화와 같은 효과로 인해 관찰이 불가능한 경우도 있습니다.</p><p><strong>대성공</strong> 감지되지 않거나 숨겨진 생물을 감지하면 해당 생물이 당신에게 관찰됨 상태가 됩니다. 해당 지역의 물체의 위치를 파악합니다.</p><p><strong>성공</strong> 감지되지 않은 생물은 숨겨진 상태로 바뀌고, 숨겨진 생물은 당신에게 관찰됨 상태가 됩니다. GM이 결정한 바에 따라 물체의 위치를 파악하거나 단서가 제공됩니다.</p>",
+        "Description": "<p>당신은 생물이나 물체의 징후, 그리고 비밀 문이나 위험 요소 등을 찾아 해당 지역을 탐색합니다. 탐색할 지역을 선택하십시오. GM은 한 번의 @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{탐색} 행동으로 탐색할 수 있는 지역을 결정합니다. 거의 항상 30피트 이내의 범위입니다. GM은 당신이 멀리서 탐색하려 하거나 특히 혼잡한 지역을 탐색할 때 행동의 수를 조정하거나 페널티를 부여할 수 있습니다.</p><p>GM은 당신을 대신하여 비밀적인 인식(Perception) 판정을 수행하고, 그 결과를 해당 지역의 감지되지 않은(@UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨은}) 생물이나 물체를 탐지하기 위한 난이도(DC)와 비교합니다(감추어진 물체는 GM이나 물체를 감추려는 누군가에 의해 결정됨). 당신이 감지한 생물은 은밀하게 남아 있을 수 있으며, 불완전한 감각을 사용하거나 투명화와 같은 효과로 인해 관찰이 불가능한 경우도 있습니다.</p><p><strong>대성공</strong> 감지되지 않거나 숨겨진 생물을 감지하면 해당 생물이 당신에게 관찰됨 상태가 됩니다. 해당 지역의 물체의 위치를 파악합니다.</p><p><strong>성공</strong> 감지되지 않은 생물은 숨겨진 상태로 바뀌고, 숨겨진 생물은 당신에게 관찰됨 상태가 됩니다. GM이 결정한 바에 따라 물체의 위치를 파악하거나 단서가 제공됩니다.</p>",
         "Notes": {
           "criticalSuccess": "<strong>대성공</strong> 당신이 대성공한 감지되지 않은(@UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{탐지 불가}) 또는 숨겨진(@UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨은}) 생물은 당신에게 @UUID[Compendium.pf2e.conditionitems.Item.1wQY3JYyhMYeeV2G]{관찰됨} 상태가 됩니다. 해당 지역의 물체의 위치를 파악합니다.",
           "success": "<strong>성공</strong> 감지되지 않은(@UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{탐지 불가}) 생물은 숨겨진 상태(@UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨은})로 변경되며, 숨겨진 생물은 당신에게 @UUID[Compendium.pf2e.conditionitems.Item.1wQY3JYyhMYeeV2G]{관찰됨} 상태가 됩니다. GM이 결정한 바에 따라 물체의 위치를 파악하거나 단서를 제공합니다."
@@ -763,7 +763,7 @@
         "Title": "찾기"
       },
       "SenseDirection": {
-        "Description": "<p>별, 태양의 위치, 지형이나 동식물의 특징, 동물의 액션을 이용하면 야생에서 방향을 잃지 않고 생존할 수 있습니다. 일반적으로 생존 확인은 하루에 한 번만 시도하지만, 일부 환경이나 변화에 따라 더 자주 굴려야 할 수도 있습니다.  특이한 지역이나 익숙하지 않은 지역에서는 방향 감각에 최소 숙련도 등급이 필요할 수 있습니다. 나침반이 없으면 방향 감각 체크에 -2 아이템 패널티를 받습니다.</p><hr /><p><strong>대성공</strong> 현재 위치를 정확하게 파악할 수 있습니다. 기본 방향 감각이 있는 환경이라면 정확히 알고 있습니다.</p><p><strong>성공</strong> 절망적으로 길을 잃지 않을 만큼의 방향 감각을 얻습니다. 기본 방향이 있는 환경에 있다면, 당신은 그 방향에 대한 감각을 가지고 있습니다.<section class=\"sample-tasks\"><h2>방향 감각 과제</h2><p>><strong>비숙련자</strong> 태양을 이용해 기본 방향 결정하기</p><p><strong>숙련자</strong> 숲에서 무성하게 자란 길 찾기</p><p><p><strong>전문</strong> 울타리 미로 탐색하기</p><p><strong>고수</strong> 비잔틴 미로 또는 비교적 특징이 없는 사막 탐색하기</p><p><strong>전설적</strong> 끊임없이 변화하는 꿈의 영역 탐색하기변화하는 꿈의 영역</p></section>",
+        "Description": "<p>별, 태양의 위치, 지형이나 동식물의 특징, 동물의 액션을 이용하면 야생에서 방향을 잃지 않고 생존할 수 있습니다. 일반적으로 생존 확인은 하루에 한 번만 시도하지만, 일부 환경이나 변화에 따라 더 자주 굴려야 할 수도 있습니다.  특이한 지역이나 익숙하지 않은 지역에서는 방향 감각에 최소 숙련도 등급이 필요할 수 있습니다. 나침반이 없으면 방향 감각 체크에 -2 아이템 페널티를 받습니다.</p><hr /><p><strong>대성공</strong> 현재 위치를 정확하게 파악할 수 있습니다. 기본 방향 감각이 있는 환경이라면 정확히 알고 있습니다.</p><p><strong>성공</strong> 절망적으로 길을 잃지 않을 만큼의 방향 감각을 얻습니다. 기본 방향이 있는 환경에 있다면, 당신은 그 방향에 대한 감각을 가지고 있습니다.<section class=\"sample-tasks\"><h2>방향 감각 과제</h2><p>><strong>비숙련자</strong> 태양을 이용해 기본 방향 결정하기</p><p><strong>숙련자</strong> 숲에서 무성하게 자란 길 찾기</p><p><p><strong>전문</strong> 울타리 미로 탐색하기</p><p><strong>고수</strong> 비잔틴 미로 또는 비교적 특징이 없는 사막 탐색하기</p><p><strong>전설적</strong> 끊임없이 변화하는 꿈의 영역 탐색하기변화하는 꿈의 영역</p></section>",
         "Modifier": {
           "NoCompass": "컴파스에서"
         },
@@ -829,7 +829,7 @@
         "Title": "일어서기"
       },
       "Steal": {
-        "Description": "<p>다른 생물에게 들키지 않고 작은 물건을 훔치려고 합니다. 일반적으로 무시할 수 있는 부피의 물건만 훔칠 수 있으며, 물건을 가진 생물이 전투 중이거나 경계 중이면 자동으로 실패합니다.</p><p>도둑질 체크를 시도하여 물건 훔치는 데 성공했는지 확인합니다. DC는 보통 그 물건을 착용한 생물의 지각 DC입니다. 착용하고 있지만 단단히 지키고 있지 않은 물건(예: 동전으로 가득 찬 느슨하게 메고 있는 주머니나 주머니 안에 있는 물건)을 훔치는 것이 가장 쉽습니다. 물건이 보호되어 있거나 물건의 특성상 훔치기 어려운 경우(예: 큰 가방 안에 아주 작은 물건이 들어 있거나 다른 문서와 섞여 있는 양피지 등) GM은 DC를 높일 수 있습니다. 예를 들어, 물건이 주머니에 있거나, 생물이 손에 쥐고 있거나, 이와 비슷하게 보호되어 있다면 일반적으로 DC가 5 더 높습니다.</p><p>또한, 도둑질 체크 결과를 물건을 든 사람 이외의 관찰자의 지각 DC와 비교해야 할 수도 있습니다. 주의를 산만하게 하는 관찰자의 DC에 상황 패널티를 부과할 수 있습니다.</p><p>p>성공</p><p>물건 소지자가 눈치채지 못한 채 아이템을 훔치거나, 관찰자가 아이템을 가져가거나 가져가려는 모습을 보지 못합니다.</p><p>p>실패</p><p>물건 소지자가 아이템을 가져가기 전에 당신의 시도를 알아채거나, 관찰자가 아이템을 가져가거나 가져가려는 모습을 목격합니다. 도난을 알아차린 생물의 반응은 GM이 결정합니다.</p>",
+        "Description": "<p>다른 생물에게 들키지 않고 작은 물건을 훔치려고 합니다. 일반적으로 무시할 수 있는 부피의 물건만 훔칠 수 있으며, 물건을 가진 생물이 전투 중이거나 경계 중이면 자동으로 실패합니다.</p><p>도둑질 체크를 시도하여 물건 훔치는 데 성공했는지 확인합니다. DC는 보통 그 물건을 착용한 생물의 지각 DC입니다. 착용하고 있지만 단단히 지키고 있지 않은 물건(예: 동전으로 가득 찬 느슨하게 메고 있는 주머니나 주머니 안에 있는 물건)을 훔치는 것이 가장 쉽습니다. 물건이 보호되어 있거나 물건의 특성상 훔치기 어려운 경우(예: 큰 가방 안에 아주 작은 물건이 들어 있거나 다른 문서와 섞여 있는 양피지 등) GM은 DC를 높일 수 있습니다. 예를 들어, 물건이 주머니에 있거나, 생물이 손에 쥐고 있거나, 이와 비슷하게 보호되어 있다면 일반적으로 DC가 5 더 높습니다.</p><p>또한, 도둑질 체크 결과를 물건을 든 사람 이외의 관찰자의 지각 DC와 비교해야 할 수도 있습니다. 주의를 산만하게 하는 관찰자의 DC에 상황 페널티를 부과할 수 있습니다.</p><p>p>성공</p><p>물건 소지자가 눈치채지 못한 채 아이템을 훔치거나, 관찰자가 아이템을 가져가거나 가져가려는 모습을 보지 못합니다.</p><p>p>실패</p><p>물건 소지자가 아이템을 가져가기 전에 당신의 시도를 알아채거나, 관찰자가 아이템을 가져가거나 가져가려는 모습을 목격합니다. 도난을 알아차린 생물의 반응은 GM이 결정합니다.</p>",
         "Notes": {
           "failure": "<strong>실패</strong> 당신이 물건을 가져가기 전에 물건의 소유자가 당신의 시도를 알아차리거나, 관찰자가 당신이 물건을 가져가거나 가져가려고 하는 것을 목격합니다. 도난을 눈치챈 생물의 반응은 GM이 결정합니다.",
           "success": "<strong>성공</strong> 소지자가 눈치채지 못하게 아이템을 훔치거나, 관찰자가 아이템을 가져가거나 가져가려고 시도하는 것을 보지 못합니다."
@@ -863,9 +863,9 @@
       },
       "Subsist": {
         "AfterExplorationPenalty": "탐험 후",
-        "Description": "<p>자신은 물론 다른 사람에게도 생활 수준을 유지할 수 있는 식량과 거처를 제공하려고 노력합니다. 일반적으로 정착지에 있을 때는 사회, 야생에 있을 때는 생존을 사용합니다. GM은 생존을 시도하는 장소의 특성에 따라 DC를 결정합니다. 특히 낯선 환경에서 생존하려면 최소 숙련도 등급이 필요할 수 있습니다. 대부분의 다운타임 활동과 달리, 8시간 이하의 탐험 후에도 생존할 수 있지만, 그렇게 하면 -5의 패널티를 받습니다.</p><section class=\"sample-tasks\"><h2>샘플 생존 과제</h2><p><strong>비훈련자</strong> 날씨가 잔잔한 울창한 숲이나 자원이 풍부한 대도시</p><p><strong>훈련자</strong> 일반적인 언덕이나 마을</p><p><strong>전문</strong> 일반적인 산이나 외딴 섬 촌락</p><p><strong>주인</strong> 전형적인 사막 또는 포위된 도시</p><p><strong>전설</strong> 황량한 황무지 또는 언데드 도시</p></section><hr /><p><strong>대성공</strong> 자신과 추가 생물 한 마리에게 생계 수단을 제공해야 합니다, 아니면 자신의 의식주를 개선하여 편안한 생활을 영위할 수 있습니다.</p><p><strong>성공</strong> 비바람으로부터 기본적인 보호를 받을 수 있는 충분한 식량과 은신처를 찾아 생계를 유지합니다.</p><p><strong>실패</strong> 비바람에 노출되어 충분한 식량을 얻지 못하여 @UUID[Compendium]가 됩니다.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{피곤}이 되어 충분한 식량과 은신처를 확보할 때까지 지칩니다.</p><p><strong>대실패</strong> 문제를 일으키거나, 먹지 말아야 할 것을 먹거나, 기타 방식으로 상황을 악화시킵니다. 1주일 동안 생존 체크에 -2의 상황 패널티를 받습니다. 음식을 전혀 찾지 못하고, 저장한 음식이 없다면 계속 실패하면 굶주리거나 목마름으로 죽을 위험에 처합니다.</p>",
+        "Description": "<p>자신은 물론 다른 사람에게도 생활 수준을 유지할 수 있는 식량과 거처를 제공하려고 노력합니다. 일반적으로 정착지에 있을 때는 사회, 야생에 있을 때는 생존을 사용합니다. GM은 생존을 시도하는 장소의 특성에 따라 DC를 결정합니다. 특히 낯선 환경에서 생존하려면 최소 숙련도 등급이 필요할 수 있습니다. 대부분의 다운타임 활동과 달리, 8시간 이하의 탐험 후에도 생존할 수 있지만, 그렇게 하면 -5의 페널티를 받습니다.</p><section class=\"sample-tasks\"><h2>샘플 생존 과제</h2><p><strong>비훈련자</strong> 날씨가 잔잔한 울창한 숲이나 자원이 풍부한 대도시</p><p><strong>훈련자</strong> 일반적인 언덕이나 마을</p><p><strong>전문</strong> 일반적인 산이나 외딴 섬 촌락</p><p><strong>주인</strong> 전형적인 사막 또는 포위된 도시</p><p><strong>전설</strong> 황량한 황무지 또는 언데드 도시</p></section><hr /><p><strong>대성공</strong> 자신과 추가 생물 한 마리에게 생계 수단을 제공해야 합니다, 아니면 자신의 의식주를 개선하여 편안한 생활을 영위할 수 있습니다.</p><p><strong>성공</strong> 비바람으로부터 기본적인 보호를 받을 수 있는 충분한 식량과 은신처를 찾아 생계를 유지합니다.</p><p><strong>실패</strong> 비바람에 노출되어 충분한 식량을 얻지 못하여 @UUID[Compendium]가 됩니다.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{피곤}이 되어 충분한 식량과 은신처를 확보할 때까지 지칩니다.</p><p><strong>대실패</strong> 문제를 일으키거나, 먹지 말아야 할 것을 먹거나, 기타 방식으로 상황을 악화시킵니다. 1주일 동안 생존 체크에 -2의 상황 페널티를 받습니다. 음식을 전혀 찾지 못하고, 저장한 음식이 없다면 계속 실패하면 굶주리거나 목마름으로 죽을 위험에 처합니다.</p>",
         "Notes": {
-          "criticalFailure": "<strong>대실패</strong> 문제를 일으키거나, 먹지 말아야 할 것을 먹거나, 기타 방식으로 상황을 악화시켰습니다. 1주일 동안 생존 체크에 -2의 상황 패널티를 받습니다. 음식을 전혀 찾지 못했고, 저장해둔 음식이 없다면 계속 실패하면 굶주리거나 목마름으로 죽을 위험에 처합니다. @UUID[Compendium.pf2e.other-effects.Item.wHWWHkjDXmJl4Ia6]{효과 : 불리한 생존 상황}",
+          "criticalFailure": "<strong>대실패</strong> 문제를 일으키거나, 먹지 말아야 할 것을 먹거나, 기타 방식으로 상황을 악화시켰습니다. 1주일 동안 생존 체크에 -2의 상황 페널티를 받습니다. 음식을 전혀 찾지 못했고, 저장해둔 음식이 없다면 계속 실패하면 굶주리거나 목마름으로 죽을 위험에 처합니다. @UUID[Compendium.pf2e.other-effects.Item.wHWWHkjDXmJl4Ia6]{효과 : 불리한 생존 상황}",
           "criticalSuccess": "<strong>임계 성공</strong> 자신과 추가 생명체 한 마리의 생계를 책임지거나 자신의 식량과 은신처를 개선하여 편안한 생활을 누릴 수 있습니다.",
           "failure": "<strong>실패</strong> 비바람에 노출되고 충분한 음식을 얻지 못해 충분한 음식과 쉼터를 얻을 때까지 피곤해집니다.",
           "success": "<strong>성공</strong> 생계를 유지할 수 있을 만큼의 식량과 쉼터, 그리고 기본적인 보호 시설을 찾았습니다."
@@ -916,7 +916,7 @@
       "Tamper": {
         "Notes": {
           "criticalFailure": "<strong>대실패</strong> 변조가 극적인 역효과를 일으켜 자신의 도구나 장비에서 작은 폭발을 일으킵니다. 캐릭터는 [[/r (@actor.level)[fire]] #변조 역효과]]로 {레벨에 해당하는 화염 피해를 받습니다}.",
-          "criticalSuccess": "<strong>대성공</strong> 변조가 매우 효과적입니다. 무기를 조작했다면, 적은 해당 무기로 공격 굴림과 피해 굴림을 할 때 -2의 상황 패널티를 받습니다. 갑옷을 조작했다면, 갑옷이 적의 움직임을 방해하여 적을 방심하게 만들고 이동 속도에 -10피트 패널티를 줍니다. 이 효과는 어떤 갑옷을 사용했는지와 상관없이 적이 상호작용을 통해 갑옷을 제거할 때까지 지속됩니다. @UUID[Compendium.pf2e.feat-effects.Item.rzcpTJU9MvW1x1gz]{효과 : 변조된 갑옷 (대성공)} @UUID[Compendium.pf2e.feat-effects.Item.o7qm13OmaYOMwgib]{효과 : 변조된 무기 (대성공)}",
+          "criticalSuccess": "<strong>대성공</strong> 변조가 매우 효과적입니다. 무기를 조작했다면, 적은 해당 무기로 공격 굴림과 피해 굴림을 할 때 -2의 상황 페널티를 받습니다. 갑옷을 조작했다면, 갑옷이 적의 움직임을 방해하여 적을 방심하게 만들고 이동 속도에 -10피트 페널티를 줍니다. 이 효과는 어떤 갑옷을 사용했는지와 상관없이 적이 상호작용을 통해 갑옷을 제거할 때까지 지속됩니다. @UUID[Compendium.pf2e.feat-effects.Item.rzcpTJU9MvW1x1gz]{효과 : 변조된 갑옷 (대성공)} @UUID[Compendium.pf2e.feat-effects.Item.o7qm13OmaYOMwgib]{효과 : 변조된 무기 (대성공)}",
           "success": "<strong>성공</strong> 당신의 조작이 일시적으로 효과를 발휘합니다. 대성공으로, 적이 상호작용을 통해 효과를 종료하지 않더라도 다음 턴이 시작될 때 효과가 종료됩니다. @UUID[Compendium.pf2e.feat-effects.Item.IfRkgjyh0JzGalIy]{효과 : 변조된 갑옷 (성공)} @UUID[Compendium.pf2e.feat-effects.Item.4QWayYR3JSL9bk2T]{효과 : 변조된 무기 (성공)}"
         },
         "Title": "조작"
@@ -938,18 +938,18 @@
         "Title": "추적"
       },
       "TreatDisease": {
-        "Description": "<p>병에 걸린 생물을 돌보는 데 최소 8시간을 소비합니다. 질병의 DC에 대한 의학 체크를 시도합니다. 생물에게 질병 치료를 시도한 후에는 그 생물이 다음번 질병에 대한 구출을 시도할 때까지 다시 시도할 수 없습니다.</p><p><strong>대성공</strong> 당신은 그 생물이 다음번 질병에 대한 구출을 시도할 때 상황 보너스 +4를 부여합니다.<br><strong>성공</strong> 이 생물이 다음번 질병에 대한 구사일생에 +2 상황 보너스를 받습니다.<br><strong>중대실패</strong> 이 노력으로 인해 대상은 다음번 질병에 대한 구사일생에 -2 상황 패널티를 받습니다.</p>",
+        "Description": "<p>병에 걸린 생물을 돌보는 데 최소 8시간을 소비합니다. 질병의 DC에 대한 의학 체크를 시도합니다. 생물에게 질병 치료를 시도한 후에는 그 생물이 다음번 질병에 대한 구출을 시도할 때까지 다시 시도할 수 없습니다.</p><p><strong>대성공</strong> 당신은 그 생물이 다음번 질병에 대한 구출을 시도할 때 상황 보너스 +4를 부여합니다.<br><strong>성공</strong> 이 생물이 다음번 질병에 대한 구사일생에 +2 상황 보너스를 받습니다.<br><strong>중대실패</strong> 이 노력으로 인해 대상은 다음번 질병에 대한 구사일생에 -2 상황 페널티를 받습니다.</p>",
         "Notes": {
-          "criticalFailure": "<strong>대실패</strong> 당신의 노력으로 인해 생물은 다음번 질병 치료 시 -2의 상황 패널티를 받습니다.<br/>@UUID[Compendium.pf2e.equipment-effects.Item.5oYKYXAexr0vhx84]{효과 : 질병 치료 (대실패)}",
+          "criticalFailure": "<strong>대실패</strong> 당신의 노력으로 인해 생물은 다음번 질병 치료 시 -2의 상황 페널티를 받습니다.<br/>@UUID[Compendium.pf2e.equipment-effects.Item.5oYKYXAexr0vhx84]{효과 : 질병 치료 (대실패)}",
           "criticalSuccess": "<strong>대성공</strong> 이 생물에게 다음번 질병에 대한 구출 시도에 +4의 상황 보너스를 부여합니다.<br/>@UUID[Compendium.pf2e.equipment-effects.Item.id20P4pj7zDKeLmy]{효과 : 질병 치료(대성공)}",
           "success": "<strong>성공</strong> 당신은 그 생물에게 다음번 질병에 대한 구출 시도에 +2의 상황 보너스를 부여합니다.<br/>@UUID[Compendium.pf2e.equipment-effects.Item.Ee2xfKX1yyqGIDZj]{효과 : 질병 치료 (성공)}"
         },
         "Title": "질병 치료"
       },
       "TreatPoison": {
-        "Description": "<p>독이 퍼지는 것을 막기 위해 환자를 치료합니다. 독의 DC에 대한 의학 체크를 시도합니다. 당신이 생물에 대해 독 치료를 시도한 후에는, 그 생물이 다음에 독에 대한 내성을 시도할 때까지 다시 시도할 수 없습니다.</p><p><strong>대성공</strong> 당신은 그 생물에게 다음번 독에 대한 내성을 시도할 때 +4의 상황 보너스를 부여합니다.<BR><STRONG>성공</STRONG> 그 생물이 다음번 독에 대한 구출 시도에 +2 상황 보너스를 받습니다.<br><STRONG>대실패</STRONG> 당신의 노력으로 그 생물은 다음번 독에 대한 구출 시도에 -2 상황 패널티를 받습니다.</p>",
+        "Description": "<p>독이 퍼지는 것을 막기 위해 환자를 치료합니다. 독의 DC에 대한 의학 체크를 시도합니다. 당신이 생물에 대해 독 치료를 시도한 후에는, 그 생물이 다음에 독에 대한 내성을 시도할 때까지 다시 시도할 수 없습니다.</p><p><strong>대성공</strong> 당신은 그 생물에게 다음번 독에 대한 내성을 시도할 때 +4의 상황 보너스를 부여합니다.<BR><STRONG>성공</STRONG> 그 생물이 다음번 독에 대한 구출 시도에 +2 상황 보너스를 받습니다.<br><STRONG>대실패</STRONG> 당신의 노력으로 그 생물은 다음번 독에 대한 구출 시도에 -2 상황 페널티를 받습니다.</p>",
         "Notes": {
-          "criticalFailure": "<strong>대실패</strong> 당신의 노력으로 인해 생물은 독에 대한 다음 내성 굴림에서 -2의 상황 패널티를 받습니다.<br/>@UUID[Compendium.pf2e.equipment-effects.Item.ESuBosh3t1pXEcBj]{효과 : 독 치료 (대실패)}",
+          "criticalFailure": "<strong>대실패</strong> 당신의 노력으로 인해 생물은 독에 대한 다음 내성 굴림에서 -2의 상황 페널티를 받습니다.<br/>@UUID[Compendium.pf2e.equipment-effects.Item.ESuBosh3t1pXEcBj]{효과 : 독 치료 (대실패)}",
           "criticalSuccess": "<strong>대성공</strong> 이 생물에게 다음번 독에 대한 구출 시도에 +4의 상황 보너스를 부여합니다.<br/>@UUID[Compendium.pf2e.equipment-effects.Item.XwCBalKJf3CiEiFa]{효과 : 독 치료 (대성공)}",
           "success": "<strong>성공</strong> 당신은 그 생물에게 다음번 독에 대한 구출 시도에 +2의 상황 보너스를 부여합니다.<br/>@UUID[Compendium.pf2e.equipment-effects.Item.XWenziR7J3mwKV4W]{효과 : 독 치료 (성공)}"
         },

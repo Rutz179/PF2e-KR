@@ -144,7 +144,7 @@
         },
         "mkwN7Fgq3DRnThOV": {
           "name": "육체 흡수",
-          "description": "<p><strong>요구 사항</strong> 가스트는 지난 1시간 동안 죽은 생물의 시체 옆에 있습니다. </p>\n<hr />\n<p><strong>효과</strong> 가스트는 시체의 일부를 먹어 @Damage[3d6[치유]] 체력을 회복합니다. </p>\n<p>주어진 시체에서 체력을 회복할 수 있는 횟수는 한 번뿐입니다."
+          "description": "<p><strong>요구 사항</strong> 가스트는 지난 1시간 동안 죽은 생물의 시체 옆에 있습니다. </p>\n<hr />\n<p><strong>효과</strong> 가스트는 시체의 일부를 먹어 @Damage[3d6[healing]] 체력을 회복합니다. </p>\n<p>주어진 시체에서 체력을 회복할 수 있는 횟수는 한 번뿐입니다."
         },
         "IdfK6A7UpGkscuOG": {
           "name": "가스트 피버",
@@ -547,7 +547,7 @@
         },
         "YwidZ8QmOJ85iLcw": {
           "name": "피 흡수",
-          "description": "<p><strong>요건</strong> 블러드시커가 생물에게 붙어 있습니다. </p>\n<hr />\n<p><strong>효과</strong> 블러드시커는 입을 사용하여 붙어 있는 생물의 피를 흡수합니다. 이로 인해 [[/r 1d8]]{1d8 피해}가 발생하고, 블러드시커는 가한 피해량과 동일한 임시 체력을 얻습니다.</p>\n<p>블러드시커에 의해 피를 흡수당한 생물은 치유(모든 종류 및 양)를 받기 전까지 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 1} 상태가 됩니다. "
+          "description": "<p><strong>요건</strong> 블러드시커가 생물에게 붙어 있습니다. </p>\n<hr />\n<p><strong>효과</strong> 블러드시커는 입을 사용하여 붙어 있는 생물의 피를 흡수합니다. 이로 인해 [[/r 1d8]]{1d8 피해}가 발생하고, 블러드시커는 가한 피해량과 동일한 임시 체력을 얻습니다.</p>\n<p>블러드시커에 의해 피를 흡수당한 생물은 치유(모든 종류 및 양)를 받기 전까지 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1} 상태가 됩니다. "
         }
       }
     },
@@ -992,7 +992,7 @@
         },
         "KTxjm0shb9zyrh0z": {
           "name": "생명 흡수",
-          "description": "<p>케언 웨이트가 비무장 공격이나 바운드 무기를 사용하여 근접 공격으로 생명체에게 피해를 입힐 경우, 케언 웨이트는 [[/r 5 #임시 체력]]{5 임시 체력}을 얻습니다. 그리고 그 생물은 @Check[fortitude|dc:18] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}이 됩니다. 케언 웨이트가 추가 피해를 입힐 때마다 내성 체크에 실패하면 흡수 상태의 값이 1씩 증가하며, 최대 흡수 상태는 4까지 증가합니다."
+          "description": "<p>케언 웨이트가 비무장 공격이나 바운드 무기를 사용하여 근접 공격으로 생명체에게 피해를 입힐 경우, 케언 웨이트는 [[/r 5 #임시 체력]]{5 임시 체력}을 얻습니다. 그리고 그 생물은 @Check[fortitude|dc:18] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1}이 됩니다. 케언 웨이트가 추가 피해를 입힐 때마다 내성 체크에 실패하면 흡수 상태의 값이 1씩 증가하며, 최대 흡수 상태는 4까지 증가합니다."
         },
         "eG5iE2SpiXdvquWh": {
           "name": "장례의 애가",
@@ -1279,7 +1279,7 @@
           "description": "<p><strong>트리거</strong> 피 묻은 이발사 리더가 전쟁용 면도칼 공격을 성공시키고 한 손이 자유로운 상태입니다</p>\n<hr />\n<p><strong>효과</strong> 트리거링 전쟁용 면도칼 공격의 대상은 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 리더의 다음 턴 시작 시점이나 리더의 범위에서 벗어나기 전까지, 둘 중 먼저 발생하는 시점까지 유지됩니다.</p>"
         },
         "srbrb11wvfjUPrFU": {
-          "name": "잔혹한 구타",
+          "name": "잔혹한 타격",
           "description": "<p>피 묻은 이발사 리더의 잔혹함이 적들의 신뢰를 흔들습니다.</p>\n<p>피의 이발사 리더가 치명타로 피해를 입힐 때, 대상은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1} 상태가 되고, 리더는 대상을 최대 15피트까지 밀어낼 수 있습니다 (강제 이동).</p>"
         },
         "MjS5NSdzq8Y5gqYr": {
@@ -1777,7 +1777,7 @@
         },
         "YwidZ8QmOJ85iLcw": {
           "name": "피 흡수",
-          "description": "<p><strong>요건</strong> 블러드시커가 생물에게 붙어 있습니다. </p>\n<hr />\n<p><strong>효과</strong> 블러드시커는 입을 사용하여 붙어 있는 생물의 피를 흡수합니다. 이로 인해 [[/r 1d8]]{1d8 피해}가 발생하고, 블러드시커는 가한 피해량과 동일한 임시 체력을 얻습니다.</p>\n<p>블러드시커에 의해 피를 흡수당한 생물은 치유(모든 종류 및 양)를 받을 때까지 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 1} 상태가 됩니다. </p>"
+          "description": "<p><strong>요건</strong> 블러드시커가 생물에게 붙어 있습니다. </p>\n<hr />\n<p><strong>효과</strong> 블러드시커는 입을 사용하여 붙어 있는 생물의 피를 흡수합니다. 이로 인해 [[/r 1d8]]{1d8 피해}가 발생하고, 블러드시커는 가한 피해량과 동일한 임시 체력을 얻습니다.</p>\n<p>블러드시커에 의해 피를 흡수당한 생물은 치유(모든 종류 및 양)를 받을 때까지 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1} 상태가 됩니다. </p>"
         }
       }
     },
@@ -1791,7 +1791,7 @@
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>"
         },
         "1gLrx7OTMtRPbK9N": {
-          "name": "잔인한 구타",
+          "name": "잔인한 타격",
           "description": "<p>무법자의 잔인함은 적의 자신감을 흔들게 합니다.</p>\n<p>러피안이 크리티컬 히트로 피해를 입힐 때, 대상은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}이 되고, 러피안은 대상을 최대 10피트까지 밀어낼 수 있습니다 (강제 이동).</p>"
         },
         "qy60SQR1jiyW4CXc": {
@@ -1819,7 +1819,7 @@
         },
         "BnV5C1pWHXYbRm3g": {
           "name": "귀청이 터지는 에코",
-          "description": "<p>뿔의 반향 공격으로 치명타를 입힌 경우, 대상은 1분 동안 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{귀가 먹게 됩니다."
+          "description": "<p>뿔의 반향 공격으로 치명타를 입힌 경우, 대상은 1분 동안 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{귀가 먼}."
         },
         "oqWh2XGsZhrhNY89": {
           "name": "지배력 과시",
@@ -3060,7 +3060,7 @@
       "items": {
         "bKkmonWLmkkxYnh2": {
           "name": "카모플라주",
-          "description": "<p>그림스탈커는 자연 환경에서 @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Hide}를 사용할 수 있으며, 커버가 없어도 가능합니다.</p>"
+          "description": "<p>그림스탈커는 자연 환경에서 @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{숨기}를 사용할 수 있으며, 커버가 없어도 가능합니다.</p>"
         },
         "vKcQxEXLQx45iyeq": {
           "name": "그림스탈커 사프",
@@ -3121,7 +3121,7 @@
         },
         "xz2zppQgQtgwnNtp": {
           "name": "비명",
-          "description": "<p>히에라코스핑크스는 귀를 찢는 날카로운 비명을 지릅니다. @Template[emanation|distance:60] 내에 있는 스핑크스가 아닌 모든 생물은 @Check[fortitude|dc:22] 내성 체크를 시도해야 합니다. 내성 체크에 성공한 생물은 24시간 동안 일시적으로 면역이 됩니다.</p>\n<hr />\n<p><strong>대성공</strong> 그 생물은 24시간 동안 히에라코스핑크스의 비명 소리에 일시적으로 면역이 됩니다. </p>\n<p><strong>성공</strong> 그 생물은 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{귀가 먹게 됩니다.</p>\n<p><strong>실패</strong> 생물은 1분 동안 귀가 먹게 되고 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{기절 1} 상태가 됩니다.</p>"
+          "description": "<p>히에라코스핑크스는 귀를 찢는 날카로운 비명을 지릅니다. @Template[emanation|distance:60] 내에 있는 스핑크스가 아닌 모든 생물은 @Check[fortitude|dc:22] 내성 체크를 시도해야 합니다. 내성 체크에 성공한 생물은 24시간 동안 일시적으로 면역이 됩니다.</p>\n<hr />\n<p><strong>대성공</strong> 그 생물은 24시간 동안 히에라코스핑크스의 비명 소리에 일시적으로 면역이 됩니다. </p>\n<p><strong>성공</strong> 그 생물은 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{귀가 먼}.</p>\n<p><strong>실패</strong> 생물은 1분 동안 귀가 먹게 되고 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{기절 1} 상태가 됩니다.</p>"
         }
       }
     },
@@ -3514,7 +3514,7 @@
         },
         "BwcbTdrmpudvgEvg": {
           "name": "Protean Anatomy",
-          "description": "<p>Protean의 중요한 장기는 끊임없이 모양과 위치를 변화시킵니다. Protean이 산, 전기 또는 음파 피해를 받은 직후, 그 피해 유형에 대해 나열된 저항력을 얻습니다. 이 효과는 1시간 동안 지속되거나, 프로테안이 다른 유형의 피해를 입을 때까지 지속됩니다(이 경우 저항력이 해당 유형에 맞게 변경됩니다). 프로테안은 자발적인 대상이 아닌 한, 다형 효과에 면역입니다. @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명} 또는 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened} 상태일 경우, 프로테안은 다음 턴 종료 시 손상된 감각 기관을 대체하는 새로운 감각 기관이 성장하여 자동으로 회복됩니다.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.c6SiBB3mzV8lZUQr]{효과: Protean Anatomy}</p>"
+          "description": "<p>Protean의 중요한 장기는 끊임없이 모양과 위치를 변화시킵니다. Protean이 산, 전기 또는 음파 피해를 받은 직후, 그 피해 유형에 대해 나열된 저항력을 얻습니다. 이 효과는 1시간 동안 지속되거나, 프로테안이 다른 유형의 피해를 입을 때까지 지속됩니다(이 경우 저항력이 해당 유형에 맞게 변경됩니다). 프로테안은 자발적인 대상이 아닌 한, 다형 효과에 면역입니다. @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명} 또는 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{귀가 먼} 상태일 경우, 프로테안은 다음 턴 종료 시 손상된 감각 기관을 대체하는 새로운 감각 기관이 성장하여 자동으로 회복됩니다.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.c6SiBB3mzV8lZUQr]{효과: Protean Anatomy}</p>"
         },
         "mPFdR2sjyu6j0vdi": {
           "name": "Constrict",
@@ -3522,7 +3522,7 @@
         },
         "q36nSnzcaSWmF3UH": {
           "name": "Inflict Lesser Warpwave",
-          "description": "<p>펠라가스트의 꼬리는 30 피트 이내의 생물에게 약한 워프 웨이브를 가합니다 (@Check[fortitude|dc:22] 내성 체크).</p>\n<hr />\n<h2>[[/r 1d8 #약한 워프 웨이브 효과]]{약한 워프 웨이브 효과}</h2>\n<table class=\"pf2e\">\n<thead>\n<tr>\n<th>D8</th>\n<th>소규모 워프웨이브 효과</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1}(@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 2} 대실패 시)</td>\n</tr>\n<tr>\n<td>2</td>\n<td>@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 및 @Damage[1d6[치유]]를 얻습니다. 체력</td>\n</tr>\n<tr>\n<td>3</td>\n<td>@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{눈부심}</td>\n</tr>\n<tr>\n<td>4</td>\n<td>@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{쇠약 1}(@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7])</td>\n</tr>\n<tr>\n<td>5</td>\n<td>@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{쇠약e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 1}(@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 2} 대실패 시)</td>\n</tr>\n<tr>\n<td>5</td>\n<td>@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} 에너지 필라멘트에 의해</td>\n</tr>\n<tr>\n<td>6</td>\n<td>@UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{속도 증가}(보폭, 걸음, 또는 공격만 해당)</td>\n</tr>\n<tr>\n<td>7</td>\n<td>@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1}</td>\n</tr>\n<tr>\n<td>8</td>\n<td>@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1}(@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{대실패 시 혼미 2}</td>\n</tr>\n</tbody>\n</table>"
+          "description": "<p>펠라가스트의 꼬리는 30 피트 이내의 생물에게 약한 워프 웨이브를 가합니다 (@Check[fortitude|dc:22] 내성 체크).</p>\n<hr />\n<h2>[[/r 1d8 #약한 워프 웨이브 효과]]{약한 워프 웨이브 효과}</h2>\n<table class=\"pf2e\">\n<thead>\n<tr>\n<th>D8</th>\n<th>소규모 워프웨이브 효과</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1}(@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 2} 대실패 시)</td>\n</tr>\n<tr>\n<td>2</td>\n<td>@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 및 @Damage[1d6[healing]]를 얻습니다. 체력</td>\n</tr>\n<tr>\n<td>3</td>\n<td>@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{눈부심}</td>\n</tr>\n<tr>\n<td>4</td>\n<td>@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{쇠약 1}(@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7])</td>\n</tr>\n<tr>\n<td>5</td>\n<td>@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{쇠약e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 1}(@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 2} 대실패 시)</td>\n</tr>\n<tr>\n<td>5</td>\n<td>@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} 에너지 필라멘트에 의해</td>\n</tr>\n<tr>\n<td>6</td>\n<td>@UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{속도 증가}(보폭, 걸음, 또는 공격만 해당)</td>\n</tr>\n<tr>\n<td>7</td>\n<td>@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1}</td>\n</tr>\n<tr>\n<td>8</td>\n<td>@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1}(@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{대실패 시 혼미 2}</td>\n</tr>\n</tbody>\n</table>"
         },
         "EOUfKUDs5vwWwrJ5": {
           "name": "워핑 스퀴즈",
@@ -3549,7 +3549,7 @@
         },
         "mkwN7Fgq3DRnThOV": {
           "name": "육체 섭취",
-          "description": "<p><strong>요구 사항</strong> 가스트는 지난 1시간 동안 죽은 생물의 시체 옆에 있습니다. </p>\n<hr />\n<p><strong>효과</strong> 가스트는 시체의 일부를 먹어 @Damage[3d6[치유]] 체력을 회복합니다. </p>\n<p>주어진 시체에서 체력을 회복할 수 있는 횟수는 한 번뿐입니다."
+          "description": "<p><strong>요구 사항</strong> 가스트는 지난 1시간 동안 죽은 생물의 시체 옆에 있습니다. </p>\n<hr />\n<p><strong>효과</strong> 가스트는 시체의 일부를 먹어 @Damage[3d6[healing]] 체력을 회복합니다. </p>\n<p>주어진 시체에서 체력을 회복할 수 있는 횟수는 한 번뿐입니다."
         },
         "IdfK6A7UpGkscuOG": {
           "name": "가스트 열병",
@@ -3587,7 +3587,7 @@
         },
         "1B06MXaKnsLFHT2T": {
           "name": "혈액 흡수",
-          "description": "<p><strong>요건</strong> 거대 거머리가 생물을 잡거나 제압하고 있어야 합니다</p>\n<hr />\n<p><strong>효과</strong> 거대 거머리는 잡은 생물의 피를 흡수합니다. 이로 인해 [[/r {2d4}]]{2d4 피해}가 발생합니다. 거대 거머리에게 피를 흡수당한 생물은 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1} 상태가 되어, 어떤 종류나 양의 치유를 받기 전까지 피가 흡수된 상태가 유지됩니다."
+          "description": "<p><strong>요건</strong> 거대 거머리가 생물을 잡거나 제압하고 있어야 합니다</p>\n<hr />\n<p><strong>효과</strong> 거대 거머리는 잡은 생물의 피를 흡수합니다. 이로 인해 [[/r {2d4}]]{2d4 피해}가 발생합니다. 거대 거머리에게 피를 흡수당한 생물은 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1} 상태가 되어, 어떤 종류나 양의 치유를 받기 전까지 피가 흡수된 상태가 유지됩니다."
         },
         "H5pKmDQnqSb6s6bW": {
           "name": "붙잡기",
@@ -3645,7 +3645,7 @@
         },
         "BwcbTdrmpudvgEvg": {
           "name": "Protean Anatomy",
-          "description": "<p>Protean의 중요한 장기는 끊임없이 모양과 위치를 변화합니다. Protean이 산, 전기, 또는 음파 피해를 받은 직후, 그 피해 유형에 대해 나열된 양의 저항력을 얻습니다. 이 효과는 1시간 동안 지속되거나, 프로테안이 다른 유형의 피해를 입을 때까지 지속됩니다(이 경우 저항력이 해당 유형에 맞게 변경됩니다). 프로테안은 자발적인 대상이 아닌 한, 다형 효과에 면역입니다. @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명} 또는 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened} 상태일 경우, 프로테안은 다음 턴 종료 시 손상된 감각 기관을 대체하는 새로운 감각 기관이 성장하여 자동으로 회복됩니다.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.c6SiBB3mzV8lZUQr]{효과: Protean Anatomy}</p>"
+          "description": "<p>Protean의 중요한 장기는 끊임없이 모양과 위치를 변화합니다. Protean이 산, 전기, 또는 음파 피해를 받은 직후, 그 피해 유형에 대해 나열된 양의 저항력을 얻습니다. 이 효과는 1시간 동안 지속되거나, 프로테안이 다른 유형의 피해를 입을 때까지 지속됩니다(이 경우 저항력이 해당 유형에 맞게 변경됩니다). 프로테안은 자발적인 대상이 아닌 한, 다형 효과에 면역입니다. @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명} 또는 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{귀가 먼} 상태일 경우, 프로테안은 다음 턴 종료 시 손상된 감각 기관을 대체하는 새로운 감각 기관이 성장하여 자동으로 회복됩니다.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.c6SiBB3mzV8lZUQr]{효과: Protean Anatomy}</p>"
         },
         "mPFdR2sjyu6j0vdi": {
           "name": "Constrict",
@@ -3653,7 +3653,7 @@
         },
         "q36nSnzcaSWmF3UH": {
           "name": "Inflict Lesser Warpwave",
-          "description": "<p>펠라가스트의 꼬리는 30 피트 이내의 생물에게 약한 워프웨이브를 가합니다 (@Check[fortitude|dc:20] 내성 체크).</p>\n<hr />\n<h2>[[/r 1d8 #약한 워프웨이브 효과]]{약한 워프웨이브 효과}</h2>\n<table class=\"pf2e\">\n<thead>\n<tr>\n<th>D8</th>\n<th>소형 워프웨이브 효과</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1}(@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 2} 대실패 시)</td>\n</tr>\n<tr>\n<td>2</td>\n<td>@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 및 @Damage[1d6[치유]]를 얻습니다. 체력</td>\n</tr>\n<tr>\n<td>3</td>\n<td>@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{눈부심}</td>\n</tr>\n<tr>\n<td>4</td>\n<td>@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{쇠약 1}(@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7])</td>\n</tr>\n<tr>\n<td>5</td>\n<td>@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{쇠약e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 1}(@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 2} 대실패 시)</td>\n</tr>\n<tr>\n<td>5</td>\n<td>@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} 에너지 필라멘트에 의해</td>\n</tr>\n<tr>\n<td>6</td>\n<td>@UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened}(보폭, 걸음, 공격에만 적용)</td>\n</tr>\n<tr>\n<td>7</td>\n<td>@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1}</td>\n</tr>\n<tr>\n<td>8</td>\n<td>@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1}(@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{대실패 시 혼미 2}</td>\n</tr>\n</tbody>\n</table>"
+          "description": "<p>펠라가스트의 꼬리는 30 피트 이내의 생물에게 약한 워프웨이브를 가합니다 (@Check[fortitude|dc:20] 내성 체크).</p>\n<hr />\n<h2>[[/r 1d8 #약한 워프웨이브 효과]]{약한 워프웨이브 효과}</h2>\n<table class=\"pf2e\">\n<thead>\n<tr>\n<th>D8</th>\n<th>소형 워프웨이브 효과</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1}(@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 2} 대실패 시)</td>\n</tr>\n<tr>\n<td>2</td>\n<td>@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 및 @Damage[1d6[healing]]를 얻습니다. 체력</td>\n</tr>\n<tr>\n<td>3</td>\n<td>@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{눈부심}</td>\n</tr>\n<tr>\n<td>4</td>\n<td>@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{쇠약 1}(@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7])</td>\n</tr>\n<tr>\n<td>5</td>\n<td>@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{쇠약e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 1}(@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 2} 대실패 시)</td>\n</tr>\n<tr>\n<td>5</td>\n<td>@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} 에너지 필라멘트에 의해</td>\n</tr>\n<tr>\n<td>6</td>\n<td>@UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened}(보폭, 걸음, 공격에만 적용)</td>\n</tr>\n<tr>\n<td>7</td>\n<td>@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1}</td>\n</tr>\n<tr>\n<td>8</td>\n<td>@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1}(@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{대실패 시 혼미 2}</td>\n</tr>\n</tbody>\n</table>"
         },
         "EOUfKUDs5vwWwrJ5": {
           "name": "워핑 스퀴즈",

@@ -8,7 +8,7 @@
       "items": {
         "sTnyQQeOWiyHDhNt": {
           "name": "수호 나가 맹독 (Guardian Naga Venom)",
-          "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:33]</p><hr /><p><strong>최대 지속 시간</strong> 6 라운드</p>\n<p><strong>1단계</strong> @Damage[3d6[poison]] (1 라운드)</p>\n<p><strong>2단계</strong> @Damage[3d6[poison]] 및 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 1} (1 라운드)</p>"
+          "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:33]</p><hr /><p><strong>최대 지속 시간</strong> 6 라운드</p>\n<p><strong>1단계</strong> @Damage[3d6[poison]] (1 라운드)</p>\n<p><strong>2단계</strong> @Damage[3d6[poison]] 및 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1} (1 라운드)</p>"
         }
       }
     },
@@ -404,7 +404,7 @@
         },
         "CHKrjbjG2iuM6dGa": {
           "name": "블랙 아포시아 (Black Apoxia)",
-          "description": "<p>대상은질병이 치료될 때까지 검은 아포시아로 인한 피로 상태에서 회복할 수 없습니다</p>\n<p><strong>내성 굴림</strong> @Check[fortitude|dc:24]</p>\n<hr />\n<p><strong>1단계</strong> 아무런 영향이 없는 보균자 (1일)</p>\n<p><strong>2단계</strong> @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 1} 및 @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{피로} (1일)</p>\n<p><strong>3단계</strong> @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 2} 및 피로 (1일)</p>\n<p><strong>4단계</strong> 사망</p>"
+          "description": "<p>대상은질병이 치료될 때까지 검은 아포시아로 인한 피로 상태에서 회복할 수 없습니다</p>\n<p><strong>내성 굴림</strong> @Check[fortitude|dc:24]</p>\n<hr />\n<p><strong>1단계</strong> 아무런 영향이 없는 보균자 (1일)</p>\n<p><strong>2단계</strong> @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1} 및 @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{피로} (1일)</p>\n<p><strong>3단계</strong> @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 2} 및 피로 (1일)</p>\n<p><strong>4단계</strong> 사망</p>"
         },
         "zTFuXpu6BuPdbg6N": {
           "name": "Brawling Critical",
@@ -523,7 +523,7 @@
         },
         "sfWdhP3dRBdtmiol": {
           "name": "혈액 흡수 (Blood Drain)",
-          "description": "<p><strong>요구 조건</strong> 발아한 만드라고라는 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 상태의 생물을 가지고 있습니다.</p>\n<hr />\n<p><strong>효과</strong> 발아한 만드라고라는 잡은 생물에게서 피를 흡수하여 @Damage[1d6[untyped]]의 피해를 입힙니다. 생물이 악마, 페이, 소서러인 경우, 발아한 만드라고라는 입힌 피해량과 동일한 임시 체력을 얻습니다. 발아한 만드라고라에 의해 피를 흡수당한 생물은 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 1} 상태가 되며, 어떤 종류의 치유도 받지 않으면 이 상태가 지속됩니다."
+          "description": "<p><strong>요구 조건</strong> 발아한 만드라고라는 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 상태의 생물을 가지고 있습니다.</p>\n<hr />\n<p><strong>효과</strong> 발아한 만드라고라는 잡은 생물에게서 피를 흡수하여 @Damage[1d6[untyped]]의 피해를 입힙니다. 생물이 악마, 페이, 소서러인 경우, 발아한 만드라고라는 입힌 피해량과 동일한 임시 체력을 얻습니다. 발아한 만드라고라에 의해 피를 흡수당한 생물은 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1} 상태가 되며, 어떤 종류의 치유도 받지 않으면 이 상태가 지속됩니다."
         },
         "wrisTXltKN2ggF1B": {
           "name": "만드라고라의 맹독 (Mandragora Venom)",
@@ -575,7 +575,7 @@
         },
         "Uc4DijFU9ApvpWFZ": {
           "name": "육체 섭취 (Consume Flesh)",
-          "description": "<p><strong>요건</strong> 레이세돈은 지난 1시간 이내에 죽은 생물의 시체 옆에 있습니다. </p>\n<hr />\n<p><strong>효과</strong> 레이세돈은 시체의 일부를 먹어 @Damage[2d6[치유]] 체력을 회복합니다. 특정 시체에서 체력을 회복할 수 있는 횟수는 한 번뿐입니다. </p>"
+          "description": "<p><strong>요건</strong> 레이세돈은 지난 1시간 이내에 죽은 생물의 시체 옆에 있습니다. </p>\n<hr />\n<p><strong>효과</strong> 레이세돈은 시체의 일부를 먹어 @Damage[2d6[healing]] 체력을 회복합니다. 특정 시체에서 체력을 회복할 수 있는 횟수는 한 번뿐입니다. </p>"
         },
         "MYPGBIYRPHho61zG": {
           "name": "구울 열병 (Ghoul Fever)",
@@ -1002,7 +1002,7 @@
         },
         "bvx1dx28ijDBiYhD": {
           "name": "불카리키의 속임수 (Vulkariki Tricks)",
-          "description": "<p>불카리키 에이돌론은 도둑질 대신 곡예를 사용하여 @UUID[Compendium.pf2e.actionspf2e.Item.ijZ0DDFpMkWqaShd]{물건을 손바닥으로 잡기} 또는 @UUID[Compendium.pf2e.actionspf2e.Item.RDXXE7wMrSPCLv5k]{도둑질}을 할 수 있습니다.</p>"
+          "description": "<p>불카리키 에이돌론은 도둑질 대신 곡예를 사용하여 @UUID[Compendium.pf2e.actionspf2e.Item.ijZ0DDFpMkWqaShd]{슬쩍하기} 또는 @UUID[Compendium.pf2e.actionspf2e.Item.RDXXE7wMrSPCLv5k]{도둑질}을 할 수 있습니다.</p>"
         }
       }
     },
@@ -1333,7 +1333,7 @@
         },
         "19Ayra6rX2M49iPG": {
           "name": "혈액 흡수 (Blood Drain)",
-          "description": "<p><strong>요건</strong> 공허 좀비의 이전 행동이 대상 생물에게 성공적인 먹이 덩굴 공격이었던 경우. </p>\n<hr />\n<p><strong>효과</strong> 공허 좀비는 먹이 덩굴을 사용하여 공격한 생물의 피를 흡수합니다. 이것은 @Damage[2d4[bleed]]의 피해를 입히고, 이 피해를 받은 생물은 치유(모든 종류 및 양)를 받기 전까지 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1} 상태가 됩니다. </p>"
+          "description": "<p><strong>요건</strong> 공허 좀비의 이전 행동이 대상 생물에게 성공적인 먹이 덩굴 공격이었던 경우. </p>\n<hr />\n<p><strong>효과</strong> 공허 좀비는 먹이 덩굴을 사용하여 공격한 생물의 피를 흡수합니다. 이것은 @Damage[2d4[bleed]]의 피해를 입히고, 이 피해를 받은 생물은 치유(모든 종류 및 양)를 받기 전까지 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1} 상태가 됩니다. </p>"
         }
       }
     },
@@ -1440,7 +1440,7 @@
         },
         "L17R2FDChGWE5pgD": {
           "name": "공허의 죽음 (Void Death)",
-          "description": "<p>아카타는 물린 생물에게 기생하는 유충을 심지만, 중형 또는 소형 인간형 생물만 적합한 숙주가 됩니다. 다른 모든 생물은 이 질병에 면역입니다</p>\n<p><strong>내성 굴림</strong> @Check[fortitude|dc:17]</p>\n<p><strong>1단계</strong> 아무런 영향도 받지 않는 보균자 1 (1일)</p>\n<p><strong>2단계</strong> @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 1} (1일)</p>\n<p><strong>3단계</strong> 2단계와 동일 (1일)</p>\n<p><strong>4단계</strong> 흡수 2 및 @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{피로} (1일)</p>\n<p><strong>단계 5</strong> 단계 4와 동일 (1일)</p>\n<p><strong>단계 6</strong> 사망 후 시체가 [[/br 2d4 #hours]]{2d4 시간} 후에 void 좀비로 부활합니다</p>"
+          "description": "<p>아카타는 물린 생물에게 기생하는 유충을 심지만, 중형 또는 소형 인간형 생물만 적합한 숙주가 됩니다. 다른 모든 생물은 이 질병에 면역입니다</p>\n<p><strong>내성 굴림</strong> @Check[fortitude|dc:17]</p>\n<p><strong>1단계</strong> 아무런 영향도 받지 않는 보균자 1 (1일)</p>\n<p><strong>2단계</strong> @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1} (1일)</p>\n<p><strong>3단계</strong> 2단계와 동일 (1일)</p>\n<p><strong>4단계</strong> 흡수 2 및 @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{피로} (1일)</p>\n<p><strong>단계 5</strong> 단계 4와 동일 (1일)</p>\n<p><strong>단계 6</strong> 사망 후 시체가 [[/br 2d4 #hours]]{2d4 시간} 후에 void 좀비로 부활합니다</p>"
         },
         "slgTQcfeywPDsCKZ": {
           "name": "붙잡기 (Grab)",
@@ -1585,7 +1585,7 @@
         },
         "L17R2FDChGWE5pgD": {
           "name": "공허의 죽음 (Void Death)",
-          "description": "<p>아카타는 물린 생물에게 기생하는 유충을 심지만, 중형 또는 소형 인간형 생물만 적합한 숙주가 됩니다. 다른 모든 생물은 이 질병에 면역입니다</p>\n<p><strong>내성 굴림</strong> @Check[fortitude|dc:17]</p>\n<p><strong>1단계</strong> 아무런 영향이 없는 보균자 1 (1일)</p>\n<p><strong>2단계</strong> @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 1} (1일)</p>\n<p><strong>3단계</strong> 2단계와 동일 (1일)</p>\n<p><strong>4단계</strong> 흡수 2 및 @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{피로} (1일)</p>\n<p><strong>단계 5</strong> 단계 4와 동일 (1일)</p>\n<p><strong>단계 6</strong> 사망 후 시체가 [[/br 2d4 #hours]]{2d4 시간} 후에 void 좀비로 부활합니다</p>"
+          "description": "<p>아카타는 물린 생물에게 기생하는 유충을 심지만, 중형 또는 소형 인간형 생물만 적합한 숙주가 됩니다. 다른 모든 생물은 이 질병에 면역입니다</p>\n<p><strong>내성 굴림</strong> @Check[fortitude|dc:17]</p>\n<p><strong>1단계</strong> 아무런 영향이 없는 보균자 1 (1일)</p>\n<p><strong>2단계</strong> @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1} (1일)</p>\n<p><strong>3단계</strong> 2단계와 동일 (1일)</p>\n<p><strong>4단계</strong> 흡수 2 및 @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{피로} (1일)</p>\n<p><strong>단계 5</strong> 단계 4와 동일 (1일)</p>\n<p><strong>단계 6</strong> 사망 후 시체가 [[/br 2d4 #hours]]{2d4 시간} 후에 void 좀비로 부활합니다</p>"
         },
         "slgTQcfeywPDsCKZ": {
           "name": "붙잡기 (Grab)",
@@ -1929,7 +1929,7 @@
       "items": {
         "J8d6vqQrqGXi53bU": {
           "name": "Verdant Burst",
-          "description": "<p>잎 레시가 죽으면, 원초적인 에너지가 몸에서 폭발하여 @Damage[1d4[치유]] 체력을 @Template[emanation|distance:30] 내의 모든 식물 생물에게 회복시킵니다. 이 지역은 나무 묘목으로 가득 차게 되어, 어려운 지형이 됩니다. 이 지형이 나무들이 자랄 수 없는 환경이라면, 나무들은 24시간 후에 시들어 버립니다."
+          "description": "<p>잎 레시가 죽으면, 원초적인 에너지가 몸에서 폭발하여 @Damage[1d4[healing]] 체력을 @Template[emanation|distance:30] 내의 모든 식물 생물에게 회복시킵니다. 이 지역은 나무 묘목으로 가득 차게 되어, 어려운 지형이 됩니다. 이 지형이 나무들이 자랄 수 없는 환경이라면, 나무들은 24시간 후에 시들어 버립니다."
         },
         "LqM7JU0cOL7itoch": {
           "name": "형태 변화 (Change Shape)",
@@ -1937,7 +1937,7 @@
         },
         "WPtFVQLHQ2T2WxY7": {
           "name": "귀청이 터지는 일격 (Deafening Blow)",
-          "description": "<p>리프 레시가 씨앗 주머니 공격으로 타격을 입히면, 대상은 @Check[fortitude|dc:14] 내성 체크를 시도해야 합니다.</p>\n<p><strong>실패</strong> 대상은 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened} 상태가 됩니다.</p>\n<p><strong>대실패</strong> 대상은 1분 동안 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{귀가 먹게 됩니다."
+          "description": "<p>리프 레시가 씨앗 주머니 공격으로 타격을 입히면, 대상은 @Check[fortitude|dc:14] 내성 체크를 시도해야 합니다.</p>\n<p><strong>실패</strong> 대상은 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{귀가 먼} 상태가 됩니다.</p>\n<p><strong>대실패</strong> 대상은 1분 동안 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{귀가 먼}."
         },
         "4vfOgL2x3vJgpsBu": {
           "name": "글라이드 (Glide)",
@@ -2236,7 +2236,7 @@
         },
         "bvx1dx28ijDBiYhD": {
           "name": "불카리키의 속임수 (Vulkariki Tricks)",
-          "description": "<p>Vulkariki Eidolon은 도둑질 대신 곡예를 사용하여 @UUID[Compendium.pf2e.actionspf2e.Item.ijZ0DDFpMkWqaShd]{물건을 손바닥으로 훔치기} 또는 @UUID[Compendium.pf2e.actionspf2e.Item.RDXXE7wMrSPCLv5k]{Steal}을 사용할 수 있습니다. "
+          "description": "<p>Vulkariki Eidolon은 도둑질 대신 곡예를 사용하여 @UUID[Compendium.pf2e.actionspf2e.Item.ijZ0DDFpMkWqaShd]{슬쩍하기} 또는 @UUID[Compendium.pf2e.actionspf2e.Item.RDXXE7wMrSPCLv5k]{Steal}을 사용할 수 있습니다. "
         }
       }
     },
@@ -2469,7 +2469,7 @@
         },
         "19Ayra6rX2M49iPG": {
           "name": "피 흡수 (Blood Drain)",
-          "description": "<p><strong>요건</strong> 공허 좀비의 이전 행동이 대상 생물에게 성공적인 먹이 덩굴 공격이었던 경우. </p>\n<hr />\n<p><strong>효과</strong> 공허 좀비는 먹이 덩굴을 사용하여 공격한 생물의 피를 흡수합니다. 이 공격은 @Damage[2d4[bleed]]의 피해를 입히고, 이 피해를 받은 생물은 치유 (모든 종류 및 양)를 받을 때까지 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 1} 상태가 됩니다. </p>"
+          "description": "<p><strong>요건</strong> 공허 좀비의 이전 행동이 대상 생물에게 성공적인 먹이 덩굴 공격이었던 경우. </p>\n<hr />\n<p><strong>효과</strong> 공허 좀비는 먹이 덩굴을 사용하여 공격한 생물의 피를 흡수합니다. 이 공격은 @Damage[2d4[bleed]]의 피해를 입히고, 이 피해를 받은 생물은 치유 (모든 종류 및 양)를 받을 때까지 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1} 상태가 됩니다. </p>"
         }
       }
     },
@@ -2618,7 +2618,7 @@
         },
         "wBew28GMjk01ZMf1": {
           "name": "물 흡수 (Drain Water)",
-          "description": "<p><strong>요건</strong> 히아신스 램프리는 생물체에 부착되어 있습니다</p>\n<hr />\n<p><strong>효과</strong> 히아신스 램프리는 부착된 생물체의 물을 흡수합니다. 이것은 [[/r 1d4]]의 피해를 주고, 히아신스 램프리는 가한 피해량과 동일한 임시 체력을 얻습니다. 히아신스 램프리에게 물을 흡수당한 생물은 치유(모든 종류 및 양)를 받기 전까지 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1} 상태가 됩니다."
+          "description": "<p><strong>요건</strong> 히아신스 램프리는 생물체에 부착되어 있습니다</p>\n<hr />\n<p><strong>효과</strong> 히아신스 램프리는 부착된 생물체의 물을 흡수합니다. 이것은 [[/r 1d4]]의 피해를 주고, 히아신스 램프리는 가한 피해량과 동일한 임시 체력을 얻습니다. 히아신스 램프리에게 물을 흡수당한 생물은 치유(모든 종류 및 양)를 받기 전까지 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1} 상태가 됩니다."
         }
       }
     },
@@ -2815,7 +2815,7 @@
         },
         "CHKrjbjG2iuM6dGa": {
           "name": "블랙 아포시아 (Black Apoxia)",
-          "description": "<p>대상은질병이 치료될 때까지 검은 아포시아로 인한 피로 상태에서 회복할 수 없습니다</p>\n<p><strong>내성 굴림</strong> @Check[fortitude|dc:24]</p>\n<hr />\n<p><strong>1단계</strong> 아무런 영향이 없는 보균자 (1일)</p>\n<p><strong>2단계</strong> @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 1} 및 @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{피로} (1일)</p>\n<p><strong>3단계</strong> @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 2} 및 피로 (1일)</p>\n<p><strong>4단계</strong> 사망</p>"
+          "description": "<p>대상은질병이 치료될 때까지 검은 아포시아로 인한 피로 상태에서 회복할 수 없습니다</p>\n<p><strong>내성 굴림</strong> @Check[fortitude|dc:24]</p>\n<hr />\n<p><strong>1단계</strong> 아무런 영향이 없는 보균자 (1일)</p>\n<p><strong>2단계</strong> @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1} 및 @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{피로} (1일)</p>\n<p><strong>3단계</strong> @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 2} 및 피로 (1일)</p>\n<p><strong>4단계</strong> 사망</p>"
         },
         "zTFuXpu6BuPdbg6N": {
           "name": "싸움 크리티컬 (Brawling Critical)",
@@ -2898,7 +2898,7 @@
         },
         "19Ayra6rX2M49iPG": {
           "name": "혈액 흡수 (Blood Drain)",
-          "description": "<p><strong>요건</strong> 공허 좀비의 이전 행동이 대상 생물에게 성공적인 먹이 덩굴 공격이었던 경우</p>\n<hr />\n<p><strong>효과</strong> 공허 좀비는 먹이 덩굴을 사용하여 공격한 생물의 피를 흡수합니다. 이것은 @Damage[2d4[bleed]]의 피해를 입히고, 이 피해를 받은 생물은 치유 (모든 종류 및 양)를 받을 때까지 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 1} 상태가 됩니다. </p>"
+          "description": "<p><strong>요건</strong> 공허 좀비의 이전 행동이 대상 생물에게 성공적인 먹이 덩굴 공격이었던 경우</p>\n<hr />\n<p><strong>효과</strong> 공허 좀비는 먹이 덩굴을 사용하여 공격한 생물의 피를 흡수합니다. 이것은 @Damage[2d4[bleed]]의 피해를 입히고, 이 피해를 받은 생물은 치유 (모든 종류 및 양)를 받을 때까지 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1} 상태가 됩니다. </p>"
         },
         "r9RovRP6Rt1zWUyy": {
           "name": "붙잡기 (Grab)",
@@ -3259,7 +3259,7 @@
         },
         "bvx1dx28ijDBiYhD": {
           "name": "불카리키의 속임수 (Vulkariki Tricks)",
-          "description": "<p>불카리키 에이돌론은 도둑질 대신 곡예를 사용하여 @UUID[Compendium.pf2e.actionspf2e.Item.ijZ0DDFpMkWqaShd]{물건을 손바닥으로 훔치기} 또는 @UUID[Compendium.pf2e.actionspf2e.Item.RDXXE7wMrSPCLv5k]{Steal}을 사용할 수 있습니다. "
+          "description": "<p>불카리키 에이돌론은 도둑질 대신 곡예를 사용하여 @UUID[Compendium.pf2e.actionspf2e.Item.ijZ0DDFpMkWqaShd]{슬쩍하기} 또는 @UUID[Compendium.pf2e.actionspf2e.Item.RDXXE7wMrSPCLv5k]{Steal}을 사용할 수 있습니다. "
         }
       }
     },
@@ -3285,7 +3285,7 @@
       "items": {
         "sTnyQQeOWiyHDhNt": {
           "name": "수호 나가 맹독 (Guardian Naga Venom)",
-          "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:29]</p>\n<hr />\n<p><strong>최대 지속 시간</strong> 6 라운드</p>\n<p><strong>1단계</strong> @Damage[3d6[poison]] (1 라운드)</p>\n<p><strong>2단계</strong> @Damage[3d6[poison]] 및 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 1} (1 라운드)</p>"
+          "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:29]</p>\n<hr />\n<p><strong>최대 지속 시간</strong> 6 라운드</p>\n<p><strong>1단계</strong> @Damage[3d6[poison]] (1 라운드)</p>\n<p><strong>2단계</strong> @Damage[3d6[poison]] 및 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1} (1 라운드)</p>"
         }
       }
     },

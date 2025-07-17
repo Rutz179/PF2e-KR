@@ -153,7 +153,7 @@
         },
         "9boiwlXx7yggBu6F": {
           "name": "심연의 치유 (Abyssal Healing)",
-          "description": "<p><strong>빈도</strong> 라운드당 한 번</p><hr /><p><strong>효과</strong> 콰이스트는 자신에게 @Damage[1d6[치유]] 체력을 회복합니다."
+          "description": "<p><strong>빈도</strong> 라운드당 한 번</p><hr /><p><strong>효과</strong> 콰이스트는 자신에게 @Damage[1d6[healing]] 체력을 회복합니다."
         },
         "PJbq8TKDuFGf9n7l": {
           "name": "무덤 콰이스트의 맹독 (Barrow Quasit Venom)",
@@ -517,7 +517,7 @@
         },
         "3WqEPpUcLFd5pJv6": {
           "name": "Protean Anatomy 6",
-          "description": "<p>아키젠드리족의 중요한 장기는 끊임없이 모양과 위치를 변화시킵니다. 학자가 산, 전기, 음파 피해를 받은 직후, 해당 피해 유형에 대해 나열된 양의 저항력을 얻습니다. 이 효과는 1시간 동안 지속되거나, 프로테안이 다른 유형의 피해를 입을 때까지 지속됩니다 (이 경우 저항력이 해당 유형에 맞게 변경됩니다). 둘 중 먼저 발생하는 것이 우선합니다. @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명} 또는 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened} 상태일 경우, 학자는 다음 턴 종료 시 손상된 감각 기관을 대체하는 새로운 감각 기관이 자라나 자동으로 회복됩니다.</p>"
+          "description": "<p>아키젠드리족의 중요한 장기는 끊임없이 모양과 위치를 변화시킵니다. 학자가 산, 전기, 음파 피해를 받은 직후, 해당 피해 유형에 대해 나열된 양의 저항력을 얻습니다. 이 효과는 1시간 동안 지속되거나, 프로테안이 다른 유형의 피해를 입을 때까지 지속됩니다 (이 경우 저항력이 해당 유형에 맞게 변경됩니다). 둘 중 먼저 발생하는 것이 우선합니다. @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명} 또는 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{귀가 먼} 상태일 경우, 학자는 다음 턴 종료 시 손상된 감각 기관을 대체하는 새로운 감각 기관이 자라나 자동으로 회복됩니다.</p>"
         },
         "tH3f4GsDerHRNPik": {
           "name": "모양 변경 (Change Shape)",
@@ -1091,7 +1091,7 @@
         },
         "zazvlexa126sfvu3": {
           "name": "생명력 흡수 (Drain Life)",
-          "description": "<p>악마의 영혼이 유령의 발톱 공격으로 살아있는 생물에게 피해를 입히면, 영혼은 10의 임시 체력을 얻고, 대상은 @Check[fortitude|dc:28] 내성 체크에 성공하지 못하면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}이 됩니다. 영혼이 추가 피해를 입힐 때마다, 내성 체크에 실패하면 흡수 상태 값이 1씩 증가하며, 최대 흡수 상태는 4까지 증가합니다."
+          "description": "<p>악마의 영혼이 유령의 발톱 공격으로 살아있는 생물에게 피해를 입히면, 영혼은 10의 임시 체력을 얻고, 대상은 @Check[fortitude|dc:28] 내성 체크에 성공하지 못하면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1}이 됩니다. 영혼이 추가 피해를 입힐 때마다, 내성 체크에 실패하면 흡수 상태 값이 1씩 증가하며, 최대 흡수 상태는 4까지 증가합니다."
         },
         "izo7ei7hmq9d8ljk": {
           "name": "의식 변형 (Ritual Transformation)",
@@ -1137,7 +1137,7 @@
         },
         "c87n4u0cndk6ckmm": {
           "name": "생명 흡수 (Drain Life)",
-          "description": "<p>악마의 영혼이 유령의 발톱 공격으로 살아있는 생물에게 피해를 입힐 경우, 영혼은 10의 임시 체력을 얻고, 대상은 @Check[fortitude|dc:30] 내성 체크에 성공하지 못하면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}이 됩니다. 영혼이 추가 피해를 입힐 때마다, 내성 체크에 실패하면 흡수 상태 값이 1씩 증가하며, 최대 흡수 4까지 증가합니다."
+          "description": "<p>악마의 영혼이 유령의 발톱 공격으로 살아있는 생물에게 피해를 입힐 경우, 영혼은 10의 임시 체력을 얻고, 대상은 @Check[fortitude|dc:30] 내성 체크에 성공하지 못하면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1}이 됩니다. 영혼이 추가 피해를 입힐 때마다, 내성 체크에 실패하면 흡수 상태 값이 1씩 증가하며, 최대 흡수 4까지 증가합니다."
         },
         "jFofYzlVMR2wgqmU": {
           "name": "의식 변형 (Ritual Transformation)",
@@ -1433,7 +1433,7 @@
         },
         "8JUE6Z13hTUpIAbJ": {
           "name": "얼음 숨결 (Gelid Breath)",
-          "description": "<p>타츠르름은 인접한 생물에게 차가운 증기를 내뿜습니다. 인접한 생물은 @Check[fortitude|dc:15|traits:damaging-effect] 내성 체크를 시도해야 합니다. 이 내성 체크에 실패하면 -2의 상황 페널티를 받습니다.UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 또는 UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태인 경우, 이 저축에 -2 상황 페널티를 받습니다. 타츠루름은 2 라운드 동안 얼음 숨결을 다시 사용할 수 없습니다.</p>\n<hr />\n<p><strong>대성공</strong> 대상은 영향을 받지 않습니다.</p>\n<p><strong>실패</strong> 대상은 @Damage[2d6[cold]]의 피해를 받고 1 라운드 동안 서투른 상태가 됩니다."
+          "description": "<p>타츠르름은 인접한 생물에게 차가운 증기를 내뿜습니다. 인접한 생물은 @Check[fortitude|dc:15|traits:damaging-effect] 내성 체크를 시도해야 합니다. 이 내성 체크에 실패하면 -2의 상황 페널티를 받습니다.UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 또는 UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태인 경우, 이 내성에 -2 상황 페널티를 받습니다. 타츠루름은 2 라운드 동안 얼음 숨결을 다시 사용할 수 없습니다.</p>\n<hr />\n<p><strong>대성공</strong> 대상은 영향을 받지 않습니다.</p>\n<p><strong>실패</strong> 대상은 @Damage[2d6[cold]]의 피해를 받고 1 라운드 동안 서투른 상태가 됩니다."
         }
       }
     },
@@ -1460,7 +1460,7 @@
         },
         "3WqEPpUcLFd5pJv6": {
           "name": "변형 해부학 8 (Protean Anatomy 8)",
-          "description": "<p>아키젠드리족의 중요한 장기는 끊임없이 모양과 위치를 변화합니다. 학자가 산, 전기, 음파 피해를 받은 직후, 해당 피해 유형에 대해 나열된 양의 저항력을 얻습니다. 이 효과는 1시간 동안 지속되거나, 프로테안이 다른 유형의 피해를 입을 때까지 지속됩니다(이 경우 저항력이 해당 유형에 맞게 변경됩니다). 둘 중 먼저 발생하는 것이 우선합니다. @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명} 또는 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened} 상태일 경우, 학자는 다음 턴 종료 시 손상된 감각 기관을 대체하는 새로운 감각 기관이 자라나 자동으로 회복됩니다.</p>"
+          "description": "<p>아키젠드리족의 중요한 장기는 끊임없이 모양과 위치를 변화합니다. 학자가 산, 전기, 음파 피해를 받은 직후, 해당 피해 유형에 대해 나열된 양의 저항력을 얻습니다. 이 효과는 1시간 동안 지속되거나, 프로테안이 다른 유형의 피해를 입을 때까지 지속됩니다(이 경우 저항력이 해당 유형에 맞게 변경됩니다). 둘 중 먼저 발생하는 것이 우선합니다. @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명} 또는 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{귀가 먼} 상태일 경우, 학자는 다음 턴 종료 시 손상된 감각 기관을 대체하는 새로운 감각 기관이 자라나 자동으로 회복됩니다.</p>"
         },
         "tH3f4GsDerHRNPik": {
           "name": "모양 변경 (Change Shape)",
@@ -1709,7 +1709,7 @@
         },
         "eTTWHexqpmKAYC0k": {
           "name": "피 흡수 (Blood Drain)",
-          "description": "<p><strong>요구 사항</strong> 만드라고라는 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 생물을 가지고 있습니다. </p>\n<hr />\n<p><strong>효과</strong> 만드라고라는 잡은 생물에게서 피를 흡수하여 [[/r {2d6}]]{2d6 피해}를 입힙니다. 생물이 악마, 페이, 소서러인 경우, 만드라고라는 입힌 피해량만큼 임시 체력을 얻습니다. </p>\n<p>만드라고라에게 피를 흡수당한 생물은 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 1} 상태가 되며, 어떤 종류의 치유도 받지 않으면 이 상태가 유지됩니다."
+          "description": "<p><strong>요구 사항</strong> 만드라고라는 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 생물을 가지고 있습니다. </p>\n<hr />\n<p><strong>효과</strong> 만드라고라는 잡은 생물에게서 피를 흡수하여 [[/r {2d6}]]{2d6 피해}를 입힙니다. 생물이 악마, 페이, 소서러인 경우, 만드라고라는 입힌 피해량만큼 임시 체력을 얻습니다. </p>\n<p>만드라고라에게 피를 흡수당한 생물은 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1} 상태가 되며, 어떤 종류의 치유도 받지 않으면 이 상태가 유지됩니다."
         },
         "Xlbal6st53Tv5z83": {
           "name": "브루오르시비 수액 주입 (Bruorsivi Sap Infusion)",
@@ -2358,7 +2358,7 @@
         },
         "oqTdJ8GgyPpxj0Gs": {
           "name": "생명 흡수 (Drain Life)",
-          "description": "<p>발고모루스가 발톱 공격으로 생명체에게 피해를 입히면, 그는 3의 임시 체력을 얻고, 그 생명체는 @Check[fortitude|dc:16] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}이 됩니다.</p>\n<p>추가적인 발톱 공격이 성공하면, 내성 실패 시 흡수되는 생명력이 1씩 증가하며, 최대 흡수 생명력은 4까지 증가합니다."
+          "description": "<p>발고모루스가 발톱 공격으로 생명체에게 피해를 입히면, 그는 3의 임시 체력을 얻고, 그 생명체는 @Check[fortitude|dc:16] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1}이 됩니다.</p>\n<p>추가적인 발톱 공격이 성공하면, 내성 실패 시 흡수되는 생명력이 1씩 증가하며, 최대 흡수 생명력은 4까지 증가합니다."
         },
         "Z7w9qFdE3oh67V3D": {
           "name": "스윕 (Swipe)",
@@ -2428,7 +2428,7 @@
         },
         "f42OKdvtvGvdcunj": {
           "name": "생명 흡수 (Drain Life)",
-          "description": "<p>레이지웨이트가 발톱 공격으로 살아있는 생물에게 피해를 입히면, 레이지웨이트는 3의 임시 체력을 얻고, 그 생물은 @Check[fortitude|dc:18] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}이 됩니다. 레이그웨이트가 생물에게 추가 피해를 입힐 때마다, 내성 실패 시 흡수량이 1씩 증가하며, 최대 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 4}까지 증가합니다. </p>"
+          "description": "<p>레이지웨이트가 발톱 공격으로 살아있는 생물에게 피해를 입히면, 레이지웨이트는 3의 임시 체력을 얻고, 그 생물은 @Check[fortitude|dc:18] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1}이 됩니다. 레이그웨이트가 생물에게 추가 피해를 입힐 때마다, 내성 실패 시 흡수량이 1씩 증가하며, 최대 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 4}까지 증가합니다. </p>"
         },
         "NsZlYqlD0rycOyOo": {
           "name": "격렬한 잡기 (Furious Grab)",
@@ -2630,7 +2630,7 @@
       "items": {
         "zPvpFOVRVK0Tm89S": {
           "name": "그렇게 하지 말았으면 좋았을 텐데 (I Wish You Hadn't Done That)",
-          "description": "<p><strong>트리거</strong> 생물이 공격 굴림으로 코르비우스를 명중하거나, 코르비우스가 내성 굴림에 실패합니다</p>\n<p><strong>사용 빈도</strong> 1회 사용</p>\n<hr />\n<p><strong>효과</strong> 과거의 소원이 코르비우스에게 유리한 방향으로 현실을 왜곡합니다. 공격 굴림에 성공한 경우, 그 공격 굴림은 대신 치명타로 실패합니다. 코르비우스의 내성 굴림에 사용된 경우, 코르비우스는 대신 내성 굴림에 치명타로 성공합니다."
+          "description": "<p><strong>트리거</strong> 생물이 공격 굴림으로 코르비우스를 명중하거나, 코르비우스가 내성 굴림에 실패합니다</p>\n<p><strong>사용 빈도</strong> 1회 사용</p>\n<hr />\n<p><strong>효과</strong> 과거의 소원이 코르비우스에게 유리한 방향으로 현실을 왜곡합니다. 공격 굴림에 성공한 경우, 그 공격 굴림은 대신 대실패합니다. 코르비우스의 내성 굴림에 사용된 경우, 코르비우스는 대신 내성 굴림에 대성공합니다."
         }
       }
     },
@@ -2672,7 +2672,7 @@
         },
         "ZGaQjs8d0aeyJrg7": {
           "name": "생명 흡수 (Drain Life)",
-          "description": "<p>발고모루스가 발톱 공격으로 생명체에게 피해를 입힐 때, 그는 3의 임시 체력을 얻고, 그 생명체는 @Check[fortitude|dc:19] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}이 됩니다.</p>\n<p>그 후 발톱 공격이 성공할 때마다, 내성 실패 시 흡수되는 생명력이 1씩 증가하며, 최대 흡수 생명력은 4까지 증가합니다."
+          "description": "<p>발고모루스가 발톱 공격으로 생명체에게 피해를 입힐 때, 그는 3의 임시 체력을 얻고, 그 생명체는 @Check[fortitude|dc:19] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1}이 됩니다.</p>\n<p>그 후 발톱 공격이 성공할 때마다, 내성 실패 시 흡수되는 생명력이 1씩 증가하며, 최대 흡수 생명력은 4까지 증가합니다."
         },
         "cf7ANCTMyOtyXFkW": {
           "name": "스윕 (Swipe)",
@@ -2758,7 +2758,7 @@
         },
         "mrR6xPNV4YFujksa": {
           "name": "피 빨기 (Blood Siphon)",
-          "description": "<p><strong>트리거</strong> 60 피트 내의 생물이 @UUID[Compendium.pf2e.conditionitems.Item.lDVqvLKA6eF3Df60]{지속 출혈 피해}를 받습니다. </p><hr /><p><strong>효과</strong> 흘린 피는 미세한 안개로 흩어져 Qxal이 입으로 빨아들입니다. Qxal은 @Damage[14[치유]] 체력을 회복합니다."
+          "description": "<p><strong>트리거</strong> 60 피트 내의 생물이 @UUID[Compendium.pf2e.conditionitems.Item.lDVqvLKA6eF3Df60]{지속 출혈 피해}를 받습니다. </p><hr /><p><strong>효과</strong> 흘린 피는 미세한 안개로 흩어져 Qxal이 입으로 빨아들입니다. Qxal은 @Damage[14[healing]] 체력을 회복합니다."
         },
         "dAAfkCznVNT1SBH9": {
           "name": "환각을 일으키는 비늘 가루 (Hallucinatory Scale Dust)",
@@ -2869,7 +2869,7 @@
         },
         "eTTWHexqpmKAYC0k": {
           "name": "피 흡수 (Blood Drain)",
-          "description": "<p><strong>요구 사항</strong> 만드라고라는 생물 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}</p>\n<hr />\n<p><strong>효과</strong> 만드라고라는 잡은 생물에게서 피를 흡수하여 [[/r {1d6}]]{1d6 피해}의 피해를 입힙니다. 이 생물이 악마, 페이, 소서러인 경우, 만드라고라는 입힌 피해량과 동일한 임시 체력을 얻습니다. 만드라고라에게 피를 흡수당한 생물은 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1} 상태가 되며, 어떤 종류의 치유도 받지 않으면 이 상태가 유지됩니다."
+          "description": "<p><strong>요구 사항</strong> 만드라고라는 생물 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}</p>\n<hr />\n<p><strong>효과</strong> 만드라고라는 잡은 생물에게서 피를 흡수하여 [[/r {1d6}]]{1d6 피해}의 피해를 입힙니다. 이 생물이 악마, 페이, 소서러인 경우, 만드라고라는 입힌 피해량과 동일한 임시 체력을 얻습니다. 만드라고라에게 피를 흡수당한 생물은 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1} 상태가 되며, 어떤 종류의 치유도 받지 않으면 이 상태가 유지됩니다."
         },
         "Xlbal6st53Tv5z83": {
           "name": "브루오르시비 수액 주입 (Bruorsivi Sap Infusion)",
@@ -3189,7 +3189,7 @@
           "description": "<p>코시투스의 딸 터프는 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태의 생물에게 추가 1d6의 정밀 피해를 입힙니다."
         },
         "VMpe0Uf0ZyQ89FMY": {
-          "name": "끊임없는 구타 (Unrelenting Beating)",
+          "name": "끊임없는 타격 (Unrelenting Beating)",
           "description": "<p>코시투스의 딸의 잔인함은 적의 자신감을 흔들고 방향 감각을 잃게 할 수 있습니다. </p>\n<p>코시투스의 딸이 치명타로 피해를 입힐 경우, 대상은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}가 됩니다. @Check[fortitude|dc:20] 내성에 성공하지 못하면 터프의 다음 턴이 끝날 때까지 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1} 상태가 됩니다."
         }
       }
@@ -3461,7 +3461,7 @@
         },
         "yX383dEhKhkqSvA2": {
           "name": "부패에 의존 (Blight Dependent)",
-          "description": "<p>이버리는 특정 나무에 묶여 있지 않고, 아비스에 의해 파괴된 블라이트 지역과 연결되어 있습니다. 그녀가 블라이트된 나무로부터 300피트 이내에 머물지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} 상태가 되고 회복할 수 없습니다. 그녀는 매시간 @Check[fortitude|dc:25] 내성 체크를 시도하거나 병든 값을 1씩 증가시켜야 합니다 (최대 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 4}까지). 24시간이 지나면, 그녀는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 1}이 되고, 이 값은 24시간마다 1씩 증가합니다."
+          "description": "<p>이버리는 특정 나무에 묶여 있지 않고, 아비스에 의해 파괴된 블라이트 지역과 연결되어 있습니다. 그녀가 블라이트된 나무로부터 300피트 이내에 머물지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} 상태가 되고 회복할 수 없습니다. 그녀는 매시간 @Check[fortitude|dc:25] 내성 체크를 시도하거나 병든 값을 1씩 증가시켜야 합니다 (최대 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 4}까지). 24시간이 지나면, 그녀는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1}이 되고, 이 값은 24시간마다 1씩 증가합니다."
         },
         "1L2j9nKYiWTY3CzC": {
           "name": "기생 결합 (Parasitic Bond)",
@@ -3496,7 +3496,7 @@
         },
         "ZgCTtYIP3bHhvsfZ": {
           "name": "죽음의 시선 (Death Gaze)",
-          "description": "<p>사이클롭스 보닥은 @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.sebk9XseMCRkDqRg]{Lifesense}로 감지할 수 있는 30피트 이내의 살아있는 생물을 응시합니다. 그 생물은 @Check[fortitude|dc:25] 내성 체크를 시도해야 합니다. 대상이 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수} 상태가 되면, 보닥은 대상이 얻은 흡수 상태의 값의 5배에 해당하는 임시 체력을 얻습니다. 이 능력에 여러 번 노출되면, 생물의 흡수 상태는 최대 4까지 증가할 수 있습니다. 사이클롭스 보닥이 파괴되면, Death Gaze로부터 획득한 모든 @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed} 상태가 제거됩니다.</p>\n<hr />\n<p><strong>대성공</strong> 생물은 영향을 받지 않습니다.</p>\n<p><strong>실패</strong> 크리처는 @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 1} 및 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 2}가 됩니다.</p>\n<p><strong>대실패 생물은 파멸 1 상태가 되고 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 4} 상태가 됩니다. </p>"
+          "description": "<p>사이클롭스 보닥은 @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.sebk9XseMCRkDqRg]{Lifesense}로 감지할 수 있는 30피트 이내의 살아있는 생물을 응시합니다. 그 생물은 @Check[fortitude|dc:25] 내성 체크를 시도해야 합니다. 대상이 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수} 상태가 되면, 보닥은 대상이 얻은 흡수 상태의 값의 5배에 해당하는 임시 체력을 얻습니다. 이 능력에 여러 번 노출되면, 생물의 흡수 상태는 최대 4까지 증가할 수 있습니다. 사이클롭스 보닥이 파괴되면, Death Gaze로부터 획득한 모든 @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed} 상태가 제거됩니다.</p>\n<hr />\n<p><strong>대성공</strong> 생물은 영향을 받지 않습니다.</p>\n<p><strong>실패</strong> 크리처는 @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 1} 및 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 2}가 됩니다.</p>\n<p><strong>대실패 생물은 파멸 1 상태가 되고 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 4} 상태가 됩니다. </p>"
         }
       }
     },
@@ -3568,7 +3568,7 @@
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>"
         },
         "1gLrx7OTMtRPbK9N": {
-          "name": "잔인한 구타 (Brutal Beating)",
+          "name": "잔인한 타격 (Brutal Beating)",
           "description": "<p>코시투스의 딸 그렁크의 잔인함은 적의 자신감을 흔들게 합니다.</p>\n<p>코시투스의 딸 그렁그렁이 치명타로 피해를 입힐 때, 대상은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}이 되고, 코시투스의 딸 그렁그렁은 대상을 최대 10피트까지 밀어낼 수 있습니다 (강제 이동).</p>"
         },
         "qy60SQR1jiyW4CXc": {
@@ -3878,7 +3878,7 @@
       "items": {
         "qbn93YsujSFI6TMZ": {
           "name": "위장 (Camouflage)",
-          "description": "<p>거대 카멜레온은 주변 환경에 맞게 색을 바꿀 수 있습니다. 은폐물 없이도 은신 체크를 통해 @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{은신}을 시도할 수 있습니다."
+          "description": "<p>거대 카멜레온은 주변 환경에 맞게 색을 바꿀 수 있습니다. 은폐물 없이도 은신 체크를 통해 @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{숨기}을 시도할 수 있습니다."
         },
         "iF2j8ZpPVcS7dRD7": {
           "name": "전방위 시야 (All-Around Vision)",
@@ -3990,7 +3990,7 @@
         },
         "ATs94SggOJoPD71u": {
           "name": "사악한 치유 (Diabolic Healing)",
-          "description": "<p><strong>빈도</strong> 라운드당 1회. </p><hr /><p><strong>효과</strong> 임프는 @Damage[1d6[치유]] 체력을 회복합니다. </p>"
+          "description": "<p><strong>빈도</strong> 라운드당 1회. </p><hr /><p><strong>효과</strong> 임프는 @Damage[1d6[healing]] 체력을 회복합니다. </p>"
         },
         "hwvMSx3qTN1uk4iN": {
           "name": "임프의 맹독 (Imp Venom)",
@@ -4143,7 +4143,7 @@
         },
         "yX383dEhKhkqSvA2": {
           "name": "부패에 의존 (Blight Dependent)",
-          "description": "<p>이버리는 특정 나무에 묶여 있는 것이 아니라, 아비스에 의해 파괴된 블라이트 지역과 연결되어 있습니다. 그녀가 블라이트된 나무로부터 300피트 이내에 머물지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} 상태가 되고 회복할 수 없습니다. 그녀는 매시간 @Check[fortitude|dc:20] 내성 체크를 시도하거나 병에 걸린 값을 1씩 증가시켜야 합니다 (최대 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 4}까지). 24시간이 지나면, 그녀는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 1}이 되고, 이 값은 24시간마다 1씩 증가합니다."
+          "description": "<p>이버리는 특정 나무에 묶여 있는 것이 아니라, 아비스에 의해 파괴된 블라이트 지역과 연결되어 있습니다. 그녀가 블라이트된 나무로부터 300피트 이내에 머물지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} 상태가 되고 회복할 수 없습니다. 그녀는 매시간 @Check[fortitude|dc:20] 내성 체크를 시도하거나 병에 걸린 값을 1씩 증가시켜야 합니다 (최대 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 4}까지). 24시간이 지나면, 그녀는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1}이 되고, 이 값은 24시간마다 1씩 증가합니다."
         },
         "1L2j9nKYiWTY3CzC": {
           "name": "기생 결합 (Parasitic Bond)",
@@ -4250,7 +4250,7 @@
         },
         "f42OKdvtvGvdcunj": {
           "name": "생명 흡수 (Drain Life)",
-          "description": "<p>레이지웨이트가 발톱 공격으로 생명체에게 피해를 입힐 경우, 레이지웨이트는 3의 임시 체력을 얻고, 해당 생명체는 @Check[fortitude|dc:21] 내성 체크에 성공하지 못하면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}이 됩니다. 레이지웨이트가 생물에게 추가 피해를 입힐 때마다, 내성 실패 시 흡수량이 1씩 증가하며, 최대 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 4}까지 증가합니다. </p>"
+          "description": "<p>레이지웨이트가 발톱 공격으로 생명체에게 피해를 입힐 경우, 레이지웨이트는 3의 임시 체력을 얻고, 해당 생명체는 @Check[fortitude|dc:21] 내성 체크에 성공하지 못하면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1}이 됩니다. 레이지웨이트가 생물에게 추가 피해를 입힐 때마다, 내성 실패 시 흡수량이 1씩 증가하며, 최대 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 4}까지 증가합니다. </p>"
         },
         "NsZlYqlD0rycOyOo": {
           "name": "격노의 잡기 (Furious Grab)",

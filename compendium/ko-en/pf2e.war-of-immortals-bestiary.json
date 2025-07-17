@@ -165,7 +165,7 @@
         },
         "PAcGRRR6FuPF8d0W": {
           "name": "필멸자와의 유대 (Bond with Mortals)",
-          "description": "<p><strong>빈도</strong> 하루에 한 번</p><hr /><p><strong>효과</strong> 불멸의 트릭스터는 필멸의 생물과 유대 관계를 형성합니다. 결속이 존재하는 동안, 불멸의 트릭스터와 결속된 필멸의 생물은 현재 및 최대 체력이 10 증가하고, 공격 및 피해 굴림과 속임수, 은신, 도둑질 스킬 체크에 +2의 상태 보너스를 받습니다. 불멸의 트릭스터는 자신과 결속된 필멸의 생물과 같은 차원에 있는 한, 그들과 텔레파시로 소통할 수 있습니다. 트릭스터와 연결된 상태로 한 주가 지나면 연결된 인간들의 운명 값이 1씩 증가합니다. 이 능력으로 인해 운명 값은 3을 초과할 수 없으며, 트릭스터와 연결된 상태에서는 운명 값이 감소하지 않습니다. 불멸의 트릭스터는 한 번에 최대 6명의 인간과 연결될 수 있으며, 이 행동을 다시 수행하여 연결을 종료하거나 새로운 연결을 형성할 수 있습니다. 필멸자가 사망하면 결속도 종료됩니다. 결속된 필멸자 중 하나가 사망할 때마다, 불멸의 트릭스터는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 1}이 되거나 흡수 상태의 값이 1 증가하며, 트릭스터는 다음에 시도하는 공격 굴림 또는 스킬 체크에 +2의 상태 보너스를 얻습니다."
+          "description": "<p><strong>빈도</strong> 하루에 한 번</p><hr /><p><strong>효과</strong> 불멸의 트릭스터는 필멸의 생물과 유대 관계를 형성합니다. 결속이 존재하는 동안, 불멸의 트릭스터와 결속된 필멸의 생물은 현재 및 최대 체력이 10 증가하고, 공격 및 피해 굴림과 속임수, 은신, 도둑질 스킬 체크에 +2의 상태 보너스를 받습니다. 불멸의 트릭스터는 자신과 결속된 필멸의 생물과 같은 차원에 있는 한, 그들과 텔레파시로 소통할 수 있습니다. 트릭스터와 연결된 상태로 한 주가 지나면 연결된 인간들의 운명 값이 1씩 증가합니다. 이 능력으로 인해 운명 값은 3을 초과할 수 없으며, 트릭스터와 연결된 상태에서는 운명 값이 감소하지 않습니다. 불멸의 트릭스터는 한 번에 최대 6명의 인간과 연결될 수 있으며, 이 행동을 다시 수행하여 연결을 종료하거나 새로운 연결을 형성할 수 있습니다. 필멸자가 사망하면 결속도 종료됩니다. 결속된 필멸자 중 하나가 사망할 때마다, 불멸의 트릭스터는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1}이 되거나 흡수 상태의 값이 1 증가하며, 트릭스터는 다음에 시도하는 공격 굴림 또는 스킬 체크에 +2의 상태 보너스를 얻습니다."
         },
         "5gKrafzz4AlrGGlD": {
           "name": "형태 변화 (Change Shape)",
@@ -299,7 +299,7 @@
         },
         "IBX7Tix58PNMLskp": {
           "name": "생명 흡수 (Siphon Life)",
-          "description": "<p>리치의 형태는 접촉하는 모든 생물로부터 생명을 흡수합니다. 리치가 비무장 공격으로 살아있는 생물에게 피해를 입히면, 리치는 5의 임시 체력을 얻고, 그 생물은 @Check[fortitude|dc:34] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 1}이 됩니다.</p>\n<p>리치가 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속} 에 있는 경우, 그 리치를 잡거나 제압하고 있는 각 크리처는 체력 저항에 성공하지 않으면 1의 흡수를 받습니다. 리치가 크리처의 생명력을 다시 흡수하면, 흡수된 생명력은 1씩 증가하며, 최대 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 4}까지 증가합니다."
+          "description": "<p>리치의 형태는 접촉하는 모든 생물로부터 생명을 흡수합니다. 리치가 비무장 공격으로 살아있는 생물에게 피해를 입히면, 리치는 5의 임시 체력을 얻고, 그 생물은 @Check[fortitude|dc:34] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1}이 됩니다.</p>\n<p>리치가 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속} 에 있는 경우, 그 리치를 잡거나 제압하고 있는 각 크리처는 체력 저항에 성공하지 않으면 1의 흡수를 받습니다. 리치가 크리처의 생명력을 다시 흡수하면, 흡수된 생명력은 1씩 증가하며, 최대 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 4}까지 증가합니다."
         },
         "5TLoRDxeWBDh6a6e": {
           "name": "꾸준한 주문 시전 (Steady Spellcasting)",
@@ -358,7 +358,7 @@
         },
         "SZPK1jhXDeTIsaJD": {
           "name": "파괴적인 발사 (Devastating Launch)",
-          "description": "<p><strong>비용</strong> 1 신화 포인트</p><hr /><p><strong>효과</strong> Jandelay의 Oliphaunt는 자신의 상아를 @Template[burst|distance:15]로 지면에 박아 넣으며, 그 중심으로부터 20피트 이내의 모든 것을 수집합니다. 그 중에는 현재 그 상아 공격으로 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 상태인 모든 생물도 포함되며, 모든 것을 최대 120피트 떨어진 곳으로 날려보냅니다. 모든 것은 @Template[burst|distance:30]에 떨어지며, 그 영역에 있는 각 생물에게 @Damage[12d6[bludgeoning]]의 피해를 입힙니다 (@Check[reflex|dc:51|basic] 내성). 이 피해는 올리파운트가 던진 모든 생물, 차량, 물건에도 적용됩니다. 던져진 영역에 있는 생물 중 반사 내성에 성공하거나 치명적으로 성공한 생물은 원래 있던 칸에 남아 있습니다. 올리파운트가 던진 모든 물체는 GM이 결정한 폭발 영역의 칸에 떨어집니다."
+          "description": "<p><strong>비용</strong> 1 신화 포인트</p><hr /><p><strong>효과</strong> Jandelay의 Oliphaunt는 자신의 상아를 @Template[burst|distance:15]로 지면에 박아 넣으며, 그 중심으로부터 20피트 이내의 모든 것을 수집합니다. 그 중에는 현재 그 상아 공격으로 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 상태인 모든 생물도 포함되며, 모든 것을 최대 120피트 떨어진 곳으로 날려보냅니다. 모든 것은 @Template[burst|distance:30]에 떨어지며, 그 영역에 있는 각 생물에게 @Damage[12d6[bludgeoning]]의 피해를 입힙니다 (@Check[reflex|dc:51|basic] 내성). 이 피해는 올리파운트가 던진 모든 생물, 차량, 물건에도 적용됩니다. 던져진 영역에 있는 생물 중 반사 내성에 성공하거나 대성공한 생물은 원래 있던 칸에 남아 있습니다. 올리파운트가 던진 모든 물체는 GM이 결정한 폭발 영역의 칸에 떨어집니다."
         },
         "MGlsEYwduFGAn3fE": {
           "name": "신화적 힘 (Mythic Power)",
@@ -370,7 +370,7 @@
         },
         "Kvj9gEu0opp2KIbx": {
           "name": "트럼펫 소리 (Trumpeting Blast)",
-          "description": "<p>Jandelay의 Oliphaunt는 @Template[type:cone|distance:120] 범위 내에서 코로 불협화음 같은 소리를 냅니다. 이 범위 내에 있는 모든 생물은 @Check[fortitude|dc:49] 내성 체크를 시도해야 합니다. 올리펀트가 활동의 일부로 신화 포인트 1점을 사용하면 DC는 51이 되고 피해 주사위는 d12로 증가합니다. Jandelay의 올리펀트는 [[/gmr 1d4 #Recharge Trumpeting Blast]]{1d4 라운드} 동안 트럼펫 소리를 다시 사용할 수 없습니다.</p>\n<p><strong>성공</strong> 생물은 @Damage[7d10[sonic]]의 피해를 받고 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened} 상태가 됩니다.</p>\n<p><strong>실패</strong> 생물은 @Damage[14d10[sonic]]의 피해를 받고, 2 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1} 상태가 되고, 2 라운드 동안 귀가 먹게 됩니다.</p>\n<p><strong>대실패 생물은 @Damage[28d10[sonic]]의 피해를 받고, 2 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 2} 상태가 되고, 4 라운드 동안 귀가 먹게 됩니다."
+          "description": "<p>Jandelay의 Oliphaunt는 @Template[type:cone|distance:120] 범위 내에서 코로 불협화음 같은 소리를 냅니다. 이 범위 내에 있는 모든 생물은 @Check[fortitude|dc:49] 내성 체크를 시도해야 합니다. 올리펀트가 활동의 일부로 신화 포인트 1점을 사용하면 DC는 51이 되고 피해 주사위는 d12로 증가합니다. Jandelay의 올리펀트는 [[/gmr 1d4 #Recharge Trumpeting Blast]]{1d4 라운드} 동안 트럼펫 소리를 다시 사용할 수 없습니다.</p>\n<p><strong>성공</strong> 생물은 @Damage[7d10[sonic]]의 피해를 받고 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{귀가 먼} 상태가 됩니다.</p>\n<p><strong>실패</strong> 생물은 @Damage[14d10[sonic]]의 피해를 받고, 2 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1} 상태가 되고, 2 라운드 동안 귀가 먹게 됩니다.</p>\n<p><strong>대실패 생물은 @Damage[28d10[sonic]]의 피해를 받고, 2 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 2} 상태가 되고, 4 라운드 동안 귀가 먹게 됩니다."
         }
       }
     },
@@ -507,7 +507,7 @@
         },
         "tyORXsrZpDl68qjz": {
           "name": "신화적 회복력 (Mythic Resilience)",
-          "description": "<p>Agyra는 Fortitude 및 Reflex 내성 굴림에 대해 실제보다 한 단계 더 높은 것으로 취급합니다 (즉, 대실패는 실패, 실패는 성공, 성공은 대성공이 됩니다). 캐릭터가 Agyra에 대해 크리티컬 히트를 굴릴 때마다, 공격 굴림을 다시 굴리고 새로운 결과를 받아야 합니다."
+          "description": "<p>Agyra는 Fortitude 및 반사 내성 굴림에 대해 실제보다 한 단계 더 높은 것으로 취급합니다 (즉, 대실패는 실패, 실패는 성공, 성공은 대성공이 됩니다). 캐릭터가 Agyra에 대해 크리티컬 히트를 굴릴 때마다, 공격 굴림을 다시 굴리고 새로운 결과를 받아야 합니다."
         },
         "e7l4EXmShMIlfCfe": {
           "name": "눈부신 섬광 (Blinding Flash)",
@@ -535,7 +535,7 @@
         },
         "I5ft0MrsCOlxysfk": {
           "name": "천둥 같은 출발 (Thunderous Departure)",
-          "description": "<p><strong>빈도</strong> 하루에 한 번</p><hr /><p><strong>효과</strong> 아기라는 직선으로 놀라운 속도로 날아갑니다. 최소 120피트에서 최대 1마일까지 이동합니다. 이 이동은 반응을 유발하지 않습니다. 그녀가 떠날 때 천둥 같은 음속파가 남으며, 출발 지점을 중심으로 @Template[burst|distance:100]의 @Damage[15d10[sonic]|options:area-damage] 피해가 발생합니다 (@Check[fortitude|dc:46|basic|options:area-effect] 내성). 저항에 실패한 생물은 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} 상태가 되고, 대실패한 생물은 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened} 상태가 되어 영구적으로 귀가 먹게 됩니다."
+          "description": "<p><strong>빈도</strong> 하루에 한 번</p><hr /><p><strong>효과</strong> 아기라는 직선으로 놀라운 속도로 날아갑니다. 최소 120피트에서 최대 1마일까지 이동합니다. 이 이동은 반응을 유발하지 않습니다. 그녀가 떠날 때 천둥 같은 음속파가 남으며, 출발 지점을 중심으로 @Template[burst|distance:100]의 @Damage[15d10[sonic]|options:area-damage] 피해가 발생합니다 (@Check[fortitude|dc:46|basic|options:area-effect] 내성). 저항에 실패한 생물은 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} 상태가 되고, 대실패한 생물은 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{귀가 먼} 상태가 되어 영구적으로 귀가 먹게 됩니다."
         }
       }
     },

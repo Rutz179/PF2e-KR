@@ -88,7 +88,7 @@
       "hpdetails": "",
       "items": {
         "5QycBrEi0tfFUCvK": {
-          "name": "피해 효과에 대한 반사력 +16",
+          "name": "피해 효과에 대한 반사 +16",
           "description": ""
         },
         "wmNaIfVGh5fJU56O": {
@@ -253,7 +253,7 @@
         },
         "5lWzxa4oDKBEY6Bv": {
           "name": "호블",
-          "description": "<p><strong>요구 사항</strong> 생물이 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속} interrogator에 의해 잡히거나 제압된 경우</p><hr /><p><strong>효과</strong> interrogator에 의해 잡히거나 제압된 크리처는 @Damage[2d6[bludgeoning]]의 피해를 받고 @Check[fortitude|dc:23|basic] 내성을 체크합니다. 생물이 내성을 실패하면 심문자가 선택한 상태도 얻습니다: @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 2} 1분 동안, @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 2} 1분 동안, 또는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 1}.</p>"
+          "description": "<p><strong>요구 사항</strong> 생물이 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속} interrogator에 의해 잡히거나 제압된 경우</p><hr /><p><strong>효과</strong> interrogator에 의해 잡히거나 제압된 크리처는 @Damage[2d6[bludgeoning]]의 피해를 받고 @Check[fortitude|dc:23|basic] 내성을 체크합니다. 생물이 내성을 실패하면 심문자가 선택한 상태도 얻습니다: @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 2} 1분 동안, @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 2} 1분 동안, 또는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1}.</p>"
         },
         "9sEjcGcCgW3dkPKD": {
           "name": "고문",
@@ -1244,7 +1244,7 @@
         },
         "vUdceUlCZdmoJ5ZC": {
           "name": "죽음의 파도",
-          "description": "<p><strong>요건</strong> 네크로맨서는 흡수되지 않았고, 적어도 하나의 언데드 엔티티가 활성화되어 있습니다. 각 엔티티는 파괴되며, @Template[type:emanation|distance:10] 내에 있는 모든 생물에게 @Damage[4d12[void]|options:area-damage]의 피해를 입히고, @Check[fortitude|dc:23|basic|options:area-effect] 내성을 적용합니다. 두 개 이상의 폭발에 노출된 생물은 한 번만 피해를 입습니다. 네크로맨서는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 1}이 됩니다. </p>"
+          "description": "<p><strong>요건</strong> 네크로맨서는 흡수되지 않았고, 적어도 하나의 언데드 엔티티가 활성화되어 있습니다. 각 엔티티는 파괴되며, @Template[type:emanation|distance:10] 내에 있는 모든 생물에게 @Damage[4d12[void]|options:area-damage]의 피해를 입히고, @Check[fortitude|dc:23|basic|options:area-effect] 내성을 적용합니다. 두 개 이상의 폭발에 노출된 생물은 한 번만 피해를 입습니다. 네크로맨서는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1}이 됩니다. </p>"
         }
       }
     },
@@ -1408,7 +1408,7 @@
         },
         "s0t39CToxCO0bv1k": {
           "name": "악마의 계약",
-          "description": "<p>피엔드 콜러는 1일의 다운타임을 사용하여, 자신이 잘 아는 피엔드와 필멸의 생물 사이의 거래를 성사시킵니다. 피엔드 콜러는 피엔드의 @Check[legal-lore|against:will]{의지 DC} 또는 @Check[legal-lore|against:diplomacy]{외교 DC} 중 더 높은 쪽에 대해 법률 지식 체크를 시도합니다.</p><hr /><p><strong>성공</strong> 인간 파티는 악마로부터 한 가지 은혜를 받거나, 악마가 같은 차원에 있다면 [[/gmr 1d4 #days]]{1d4 days} 동안 인간의 부하가 됩니다. GM이 허용할 경우, 인간은 악마의 레벨 이하의 협상 계약을 받을 수 있습니다.</p>\n<p><strong>실패</strong> 악마 소환자는 거래를 성사시키지 못합니다. </p>\n<p><strong>대실패</strong> 과정이 실패하고, 마법의 반발로 악마 소환자는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 2}가 됩니다. </p>"
+          "description": "<p>피엔드 콜러는 1일의 다운타임을 사용하여, 자신이 잘 아는 피엔드와 필멸의 생물 사이의 거래를 성사시킵니다. 피엔드 콜러는 피엔드의 @Check[legal-lore|against:will]{의지 DC} 또는 @Check[legal-lore|against:diplomacy]{외교 DC} 중 더 높은 쪽에 대해 법률 지식 체크를 시도합니다.</p><hr /><p><strong>성공</strong> 인간 파티는 악마로부터 한 가지 은혜를 받거나, 악마가 같은 차원에 있다면 [[/gmr 1d4 #days]]{1d4 days} 동안 인간의 부하가 됩니다. GM이 허용할 경우, 인간은 악마의 레벨 이하의 협상 계약을 받을 수 있습니다.</p>\n<p><strong>실패</strong> 악마 소환자는 거래를 성사시키지 못합니다. </p>\n<p><strong>대실패</strong> 과정이 실패하고, 마법의 반발로 악마 소환자는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 2}가 됩니다. </p>"
         },
         "hbvWnnuQXeSYbh5d": {
           "name": "악마의 의식사",
@@ -2160,7 +2160,7 @@
         },
         "MeBdzrbLiBNsKGFP": {
           "name": "패치 및 설정",
-          "description": "<p><strong>사용 빈도</strong> 하루에 한 번</p>\n<p><strong>요건</strong> 전쟁광이 손이 하나 자유롭다</p><hr /><p><strong>효과</strong> 전쟁광은 이를 악물고 상처를 묶거나 뼈나 관절을 고정합니다. @Damage[20[치유]] 체력을 회복합니다."
+          "description": "<p><strong>사용 빈도</strong> 하루에 한 번</p>\n<p><strong>요건</strong> 전쟁광이 손이 하나 자유롭다</p><hr /><p><strong>효과</strong> 전쟁광은 이를 악물고 상처를 묶거나 뼈나 관절을 고정합니다. @Damage[20[healing]] 체력을 회복합니다."
         },
         "IdqR8gAWKJ0Jevp4": {
           "name": "힘으로 돌파",
@@ -2275,7 +2275,7 @@
         },
         "Yd7AfIigOJ1wFY1W": {
           "name": "공허의 덩굴",
-          "description": "<p>30 피트.</p>\n<p>오라에 있는 생물이 생명력 효과로 치유될 때, 치유량이 15 감소하고 신성한 그릇은 @Damage[15[치유]] 체력을 회복합니다."
+          "description": "<p>30 피트.</p>\n<p>오라에 있는 생물이 생명력 효과로 치유될 때, 치유량이 15 감소하고 신성한 그릇은 @Damage[15[healing]] 체력을 회복합니다."
         },
         "6ZsxIxGeLF5aLgdy": {
           "name": "시간을 빌리다",
@@ -2505,7 +2505,7 @@
         },
         "3Hm6leMnzYN43EE9": {
           "name": "야생 영혼의 선물",
-          "description": "<p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 피부 변형자는 4등급 @UUID[Compendium.pf2e.spells-srd.Item.NzXpEzcZAjuDTZjK]{공중 형태}, @UUID[Compendium.pf2e.spells-srd.Item.wp09USMB3GIW1qbp]{동물 형태}, @UUID[Compendium.pf2e.spells-srd.Item.KhM8MhoUgoUjBMIz]{공룡 형태}, 또는 @UUID[Compendium.pf2e.spells-srd.Item.gfPjmG6Fe6D3MFjl]{해충 형태} 주문. 그들은 지난 24시간 이내에 본 동물로 변신해야 합니다. 그들은 '야생 영혼의 선물'로 캐스트된 주문으로부터 10분 동안 일시적 HP를 다시 얻을 수 없습니다. 해충 형태 이외의 형태로 공격을 할 경우, 공격 범위는 10피트, 공격 수정자는 +20, 피해 보너스는 +13(공중 형태는 +9)이 됩니다. 그 외의 능력치 변경 사항은 위에서 설명한 바와 같습니다. 다형화 상태에서도 스킨 쉬프터는 야생의 영혼의 은총을 사용할 수 있지만, 다른 주문은 평소와 같이 시전할 수 없습니다."
+          "description": "<p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 피부 변형자는 4등급 @UUID[Compendium.pf2e.spells-srd.Item.NzXpEzcZAjuDTZjK]{공중 형태}, @UUID[Compendium.pf2e.spells-srd.Item.wp09USMB3GIW1qbp]{동물 형태}, @UUID[Compendium.pf2e.spells-srd.Item.KhM8MhoUgoUjBMIz]{공룡 형태}, 또는 @UUID[Compendium.pf2e.spells-srd.Item.gfPjmG6Fe6D3MFjl]{해충 형태} 주문. 그들은 지난 24시간 이내에 본 동물로 변신해야 합니다. 그들은 '야생 영혼의 선물'로 캐스트된 주문으로부터 10분 동안 임시 체력을 다시 얻을 수 없습니다. 해충 형태 이외의 형태로 공격을 할 경우, 공격 범위는 10피트, 공격 수정자는 +20, 피해 보너스는 +13(공중 형태는 +9)이 됩니다. 그 외의 능력치 변경 사항은 위에서 설명한 바와 같습니다. 다형화 상태에서도 스킨 쉬프터는 야생의 영혼의 은총을 사용할 수 있지만, 다른 주문은 평소와 같이 시전할 수 없습니다."
         }
       }
     },
@@ -3013,7 +3013,7 @@
         },
         "GQG8SpRzw32r0PWq": {
           "name": "불꽃놀이 폭격",
-          "description": "<p><strong>요건</strong> 고블린 쓰레기꾼이 손이 자유롭습니다. </p><hr /><p><strong>효과</strong> 고블린 쓰레기꾼은 불꽃놀이를 한 묶음 꺼내 60피트 이내의 지점을 향해 발사합니다. 불꽃놀이는 폭발하여 @Damage[1d10[fire],1d10[sonic]|options:area-damage]의 피해를 입습니다. 이 영역에 있는 모든 생물은 @Check[reflex|dc:21|options:area-effect,damaging-effect] 내성 체크를 시도해야 합니다. </p><hr /><p><strong>대성공</strong> 생물은 영향을 받지 않습니다. 고블린 청소부는 그 이유가 발밑에 불꽃놀이가 떨어졌기 때문이라는 것을 깨닫고, 불꽃이 얼굴에서 폭발하면서 @Damage[2[fire]]의 피해를 입습니다.</p>\n<p><strong>실패</strong> 생물은 전체 피해를 받고 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{눈부심} 및 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{귀머거리} 상태가 됩니다.</p>\n<p><strong>대실패</strong> 실패와 동일하지만, 생물은 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{기절 1} 상태가 됩니다. </p>"
+          "description": "<p><strong>요건</strong> 고블린 쓰레기꾼이 손이 자유롭습니다. </p><hr /><p><strong>효과</strong> 고블린 쓰레기꾼은 불꽃놀이를 한 묶음 꺼내 60피트 이내의 지점을 향해 발사합니다. 불꽃놀이는 폭발하여 @Damage[1d10[fire],1d10[sonic]|options:area-damage]의 피해를 입습니다. 이 영역에 있는 모든 생물은 @Check[reflex|dc:21|options:area-effect,damaging-effect] 내성 체크를 시도해야 합니다. </p><hr /><p><strong>대성공</strong> 생물은 영향을 받지 않습니다. 고블린 청소부는 그 이유가 발밑에 불꽃놀이가 떨어졌기 때문이라는 것을 깨닫고, 불꽃이 얼굴에서 폭발하면서 @Damage[2[fire]]의 피해를 입습니다.</p>\n<p><strong>실패</strong> 생물은 전체 피해를 받고 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{눈부심} 및 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{귀가 먼} 상태가 됩니다.</p>\n<p><strong>대실패</strong> 실패와 동일하지만, 생물은 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{기절 1} 상태가 됩니다. </p>"
         },
         "reNJDXnKDqqioJhK": {
           "name": "한 사람의 쓰레기",
@@ -3398,7 +3398,7 @@
       "items": {
         "WGBYwG2C4eElCrPd": {
           "name": "공동 절도",
-          "description": "<p>부랑자는 @UUID[Compendium.pf2e.actionspf2e.Item.RDXXE7wMrSPCLv5k]{Steal}에 +1의 상황 보너스를 얻습니다. 또는 @UUID[Compendium.pf2e.actionspf2e.Item.ijZ0DDFpMkWqaShd]{Palm an Object}를 사용할 때, 도둑질 능력을 가진 동맹이 10피트 이내에 있을 경우. </p>"
+          "description": "<p>부랑자는 @UUID[Compendium.pf2e.actionspf2e.Item.RDXXE7wMrSPCLv5k]{Steal}에 +1의 상황 보너스를 얻습니다. 또는 @UUID[Compendium.pf2e.actionspf2e.Item.ijZ0DDFpMkWqaShd]{슬쩍하기}를 사용할 때, 도둑질 능력을 가진 동맹이 10피트 이내에 있을 경우. </p>"
         },
         "lC7KFntiTwd1FRo7": {
           "name": "도둑질",
@@ -3677,7 +3677,7 @@
         },
         "KuGIBA2MsSUgCODF": {
           "name": "내가 여기 있다고 말하면",
-          "description": "<p>화려한 도둑을 드러내는 탐지, 폭로, 또는 투시 마법이 발동될 때마다, 도둑은 이를 인식하고 8레벨의 대응 능력으로, 그리고 자신의 은신력을 대응 수정자로 사용하여 마법을 무효화할 수 있습니다."
+          "description": "<p>화려한 도둑을 드러내는 탐지, 폭로, 또는 투시 마법이 발동될 때마다, 도둑은 이를 인식하고 8레벨의 대응 능력으로, 그리고 자신의 은신력을 반격 수정자로 사용하여 마법을 무효화할 수 있습니다."
         },
         "2QybfIWuFFyqMTcf": {
           "name": "민첩한 회피",
@@ -3909,7 +3909,7 @@
         },
         "TsIMe0two808SLOk": {
           "name": "징벌적인 집행",
-          "description": "<p>훈련소 상사는 흔들리는 동료에게 엄한 말로 훈계하고, 30피트 이내의 한 아군의 의지 DC에 대해 @Check[intimidation|against:will] 체크를 시도합니다. 성공하면 대상의 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened} 상태가 2 감소하고 훈련 교관은 [[/r 1d20+18 #Counteract]]{+18} 반작용 수정자로 그 아군이 받고 있는 정신 효과 중 하나를 무효화할 수 있습니다. 대성공 시, 훈련 교관은 대상 주변 @Template[type:emanation|distance:10] 내에 있는 다른 아군들의 겁에 질린 상태를 1씩 감소시킵니다."
+          "description": "<p>훈련소 상사는 흔들리는 동료에게 엄한 말로 훈계하고, 30피트 이내의 한 아군의 의지 DC에 대해 @Check[intimidation|against:will] 체크를 시도합니다. 성공하면 대상의 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened} 상태가 2 감소하고 훈련 교관은 [[/r 1d20+18 #Counteract]]{+18} 반격 수정자로 그 아군이 받고 있는 정신 효과 중 하나를 무효화할 수 있습니다. 대성공 시, 훈련 교관은 대상 주변 @Template[type:emanation|distance:10] 내에 있는 다른 아군들의 겁에 질린 상태를 1씩 감소시킵니다."
         },
         "ikCCX8LvQEbJMvmB": {
           "name": "나를 따라와!",
@@ -4008,7 +4008,7 @@
         },
         "NB8rrYFoNfUs3S6Z": {
           "name": "로프 장력 스프링",
-          "description": "<p><strong>요구 조건</strong> 리거는 선박 내의 수직 로프에 인접해 있으며 단검을 들고 있습니다.</p><hr /><p><strong>효과</strong> 리거는 로프를 한 팔에 감고 단검으로 로프를 자릅니다. 반작용력과 장력이 리거를 20피트 직상으로 끌어올립니다.</p>"
+          "description": "<p><strong>요구 조건</strong> 리거는 선박 내의 수직 로프에 인접해 있으며 단검을 들고 있습니다.</p><hr /><p><strong>효과</strong> 리거는 로프를 한 팔에 감고 단검으로 로프를 자릅니다. 반격력과 장력이 리거를 20피트 직상으로 끌어올립니다.</p>"
         }
       }
     },
@@ -4076,7 +4076,7 @@
         },
         "5c8aHhTBn3er6vtq": {
           "name": "심해 폭탄",
-          "description": "<p>머라우더는 슈트의 릴리즈 밸브를 당겨 @Damage[3d6[sonic], 3d6[bludgeoning]]의 피해를 (@Check[fortitude|dc:22|basic] 내성) @Template[type:emanation|distance:10] 내의 모든 생물에게 가합니다. 내성에 실패한 생물은 내이가 손상되어 1분 동안 곡예 체크에 -2의 상황 페널티를 받고, @UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]{균형} 및 운동 체크에 페널티를 받습니다. 내성에 대실패한 생물은 1분 동안 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{귀머거리} 상태가 됩니다. 머라우더는 [[/gmr 1d4 #재충전 Depth Charge]]{1d4 라운드} 동안 Depth Charge를 다시 사용할 수 없습니다. </p>"
+          "description": "<p>머라우더는 슈트의 릴리즈 밸브를 당겨 @Damage[3d6[sonic], 3d6[bludgeoning]]의 피해를 (@Check[fortitude|dc:22|basic] 내성) @Template[type:emanation|distance:10] 내의 모든 생물에게 가합니다. 내성에 실패한 생물은 내이가 손상되어 1분 동안 곡예 체크에 -2의 상황 페널티를 받고, @UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]{균형} 및 운동 체크에 페널티를 받습니다. 내성에 대실패한 생물은 1분 동안 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{귀가 먼} 상태가 됩니다. 머라우더는 [[/gmr 1d4 #재충전 Depth Charge]]{1d4 라운드} 동안 Depth Charge를 다시 사용할 수 없습니다. </p>"
         },
         "XBt9rKjZc8zqJsL8": {
           "name": "Retract",
@@ -4261,7 +4261,7 @@
         },
         "V0CjsWwxhKynsJi3": {
           "name": "내 걸작을 복원하라",
-          "description": "<p><strong>요구 사항</strong> 플레시워퍼는 치료사의 도구 키트를 들고 있거나 착용하고 있습니다. </p><hr /><p><strong>효과</strong> 플레시워퍼는 인접한, 의지가 있는 변형체 또는 플레시워핑으로 변형한 생물의 상처를 봉합합니다. 생물은 @Damage[20[치유]] HP를 회복하고 1일 동안 일시적으로 면역이 됩니다."
+          "description": "<p><strong>요구 사항</strong> 플레시워퍼는 치료사의 도구 키트를 들고 있거나 착용하고 있습니다. </p><hr /><p><strong>효과</strong> 플레시워퍼는 인접한, 의지가 있는 변형체 또는 플레시워핑으로 변형한 생물의 상처를 봉합합니다. 생물은 @Damage[20[healing]] HP를 회복하고 1일 동안 일시적으로 면역이 됩니다."
         }
       }
     },
@@ -4460,7 +4460,7 @@
       "items": {
         "200EAKoQUarAGH6x": {
           "name": "치료 불가능한 저주",
-          "description": "<p>저주 상인은 영구적으로 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1}, @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 1}, @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 1}, 또는 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1]로, 어떤 방법으로도 제거할 수 없는 저주에 걸립니다. GM은 상태를 선택하고 저주가 마법, 신성, 오컬트, 또는 원시적인 것 중 어느 것인지 결정합니다.</p>"
+          "description": "<p>저주 상인은 영구적으로 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1}, @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1}, @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 1}, 또는 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1]로, 어떤 방법으로도 제거할 수 없는 저주에 걸립니다. GM은 상태를 선택하고 저주가 마법, 신성, 오컬트, 또는 원시적인 것 중 어느 것인지 결정합니다.</p>"
         },
         "4u8iXfXC13rONcRj": {
           "name": "저주된 오라",
@@ -4513,7 +4513,7 @@
         },
         "8vsZl6kXGembKqhs": {
           "name": "바위의 무게",
-          "description": "<p>산 수호자는 직경 20피트, 높이 80피트의 원통형 영역 내에 바위를 떨어뜨립니다. 이 영역에 있는 모든 생물은 @Damage[4d8[bludgeoning]]의 피해를 받고 @Check[reflex|dc:24|basic] 내성을 체크해야 합니다. 저축에 실패한 생물은 낙하 피해 없이 40피트(대실패의 경우 80피트) 아래로 밀려나며, 1 라운드 동안 지면을 떠날 수 없습니다."
+          "description": "<p>산 수호자는 직경 20피트, 높이 80피트의 원통형 영역 내에 바위를 떨어뜨립니다. 이 영역에 있는 모든 생물은 @Damage[4d8[bludgeoning]]의 피해를 받고 @Check[reflex|dc:24|basic] 내성을 체크해야 합니다. 내성에 실패한 생물은 낙하 피해 없이 40피트(대실패의 경우 80피트) 아래로 밀려나며, 1 라운드 동안 지면을 떠날 수 없습니다."
         },
         "bebHn8ZDmnBLO13f": {
           "name": "기본 운동",

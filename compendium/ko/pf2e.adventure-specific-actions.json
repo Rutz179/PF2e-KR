@@ -8,7 +8,7 @@
   "entries": {
     "Flickering Figure": {
       "name": "깜빡이는 형상",
-      "description": "<p><strong>발동 빈도</strong> 하루에 한 번</p> <hr /> <p>당신의 몸이 투명해지는 것처럼 변형되어 외관이 주변 환경과 어우러지며 반짝입니다. 당신은 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진} 상태가 되며, 이 은폐 효과를 사용하여 @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Hide}를 사용할 수 있습니다. 이 효과는 10분 동안 지속됩니다.</p>"
+      "description": "<p><strong>발동 빈도</strong> 하루에 한 번</p> <hr /> <p>당신의 몸이 투명해지는 것처럼 변형되어 외관이 주변 환경과 어우러지며 반짝입니다. 당신은 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진} 상태가 되며, 이 은폐 효과를 사용하여 @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{숨기}를 사용할 수 있습니다. 이 효과는 10분 동안 지속됩니다.</p>"
     },
     "Repository of Knowledge": {
       "name": "지식의 보고",
@@ -44,7 +44,7 @@
     },
     "Little Ripple's Blessing": {
       "name": "리틀 리플의 축복",
-      "description": "<p><strong>사용 빈도</strong> 1회</p> <hr /> <p>리틀 리플과의 유대감을 활용하여 물 정령을 일시적으로 창조합니다. 반쯤 실체적인 물의 구슬이 당신을 둘러싸고, 마법처럼 당신의 영혼을 정화하고 몸에서 독을 제거합니다. 리틀 리플은 당신이 영향을 받은 단일 질병이나 독에 대해 [[/r 1d20+21 #Counteract]]{+21}의 대응 수정자와 10의 대응 등급으로 대응을 시도합니다. 리틀 리플의 존재는 당신의 영혼에 진정 효과를 줍니다. 1분 동안 의지 내성 보너스 +1을 얻습니다. </p> <p>@UUID[Compendium.pf2e.campaign-effects.Item.GBaN8XZrzFp7C7fL]{효과: 리틀 리플의 축복}</p>"
+      "description": "<p><strong>사용 빈도</strong> 1회</p> <hr /> <p>리틀 리플과의 유대감을 활용하여 물 정령을 일시적으로 창조합니다. 반쯤 실체적인 물의 구슬이 당신을 둘러싸고, 마법처럼 당신의 영혼을 정화하고 몸에서 독을 제거합니다. 리틀 리플은 당신이 영향을 받은 단일 질병이나 독에 대해 [[/r 1d20+21 #Counteract]]{+21}의 반격 수정자와 10의 반격 등급으로 반격을 시도합니다. 리틀 리플의 존재는 당신의 영혼에 진정 효과를 줍니다. 1분 동안 의지 내성 보너스 +1을 얻습니다. </p> <p>@UUID[Compendium.pf2e.campaign-effects.Item.GBaN8XZrzFp7C7fL]{효과: 리틀 리플의 축복}</p>"
     },
     "Smooth the Path": {
       "name": "길을 평탄하게",
@@ -108,7 +108,7 @@
     },
     "Perception Filter": {
       "name": "지각 필터",
-      "description": "<p><strong>측면</strong> 마음</p> <p><strong>활성화</strong> <span class=\\“action-glyph\\”>2</span> 상상</p> <p><strong>빈도</strong> 하루에 한 번</p> <hr /> <p><strong>효과</strong> 당신의 유물이 주변 생물들의 마음에 도달하여 당신의 존재를 그들의 지각에서 차단합니다. 다음 10분 동안, 당신을 중심으로 @Template[emanation|distance:120]에 들어가는 생물은 비밀 @Check[will|against:class-spell|traits:secret] 내성 체크를 시도해야 하며, 그 후 1일 동안 일시적으로 면역이 됩니다.</p> <p><strong>성공</strong> 생물은 @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} 또는 다른 방법으로 당신을 감지하기 위한 지각 체크에 -2의 상태 페널티를 받습니다. </p> <p><strong>실패</strong> 당신은 생물의 모든 감각을 필터링하여 생물이 당신을 알아차리기 어렵게 만듭니다. 당신이 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨은} 또는 생물에게 탐지되지 않은 상태일 때, 당신은 @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Hide}, @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{은밀 이동}, 또는 Step을 제외한 어떤 행동을 취해도 생물은 당신을 즉시 관찰하지 않습니다. 그 생물이 당신을 찾거나 다른 방법으로 감지하기 위해 지각 체크를 굴림, 그 결과는 굴린 결과보다 1단계 낮은 성공으로 처리되며, 당신이 숨기거나 몰래 움직이거나 그 생물의 주의를 피하기 위해 은신 체크를 굴림, 그 결과는 그 생물에 대해 굴린 결과보다 1단계 높은 성공으로 처리됩니다. 그 생물에게 적대적인 행동을 사용하면, 당신의 적대적인 행동이 완료된 후 그 생물에 대한 효과가 종료됩니다.</p>"
+      "description": "<p><strong>측면</strong> 마음</p> <p><strong>활성화</strong> <span class=\\“action-glyph\\”>2</span> 상상</p> <p><strong>빈도</strong> 하루에 한 번</p> <hr /> <p><strong>효과</strong> 당신의 유물이 주변 생물들의 마음에 도달하여 당신의 존재를 그들의 지각에서 차단합니다. 다음 10분 동안, 당신을 중심으로 @Template[emanation|distance:120]에 들어가는 생물은 비밀 @Check[will|against:class-spell|traits:secret] 내성 체크를 시도해야 하며, 그 후 1일 동안 일시적으로 면역이 됩니다.</p> <p><strong>성공</strong> 생물은 @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} 또는 다른 방법으로 당신을 감지하기 위한 지각 체크에 -2의 상태 페널티를 받습니다. </p> <p><strong>실패</strong> 당신은 생물의 모든 감각을 필터링하여 생물이 당신을 알아차리기 어렵게 만듭니다. 당신이 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨은} 또는 생물에게 탐지되지 않은 상태일 때, 당신은 @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{숨기}, @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{은밀 이동}, 또는 Step을 제외한 어떤 행동을 취해도 생물은 당신을 즉시 관찰하지 않습니다. 그 생물이 당신을 찾거나 다른 방법으로 감지하기 위해 지각 체크를 굴림, 그 결과는 굴린 결과보다 1단계 낮은 성공으로 처리되며, 당신이 숨기거나 몰래 움직이거나 그 생물의 주의를 피하기 위해 은신 체크를 굴림, 그 결과는 그 생물에 대해 굴린 결과보다 1단계 높은 성공으로 처리됩니다. 그 생물에게 적대적인 행동을 사용하면, 당신의 적대적인 행동이 완료된 후 그 생물에 대한 효과가 종료됩니다.</p>"
     },
     "Fey Luck": {
       "name": "페이의 행운",
@@ -128,7 +128,7 @@
     },
     "Seasonal Boon (Outskirt Dweller)": {
       "name": "계절의 축복 (외곽 거주자)",
-      "description": "<p><strong>발동 빈도</strong> 시즌당 1회만 발동됩니다. <p><strong>발동 조건</strong> 이니셔티브 굴림을 할 예정입니다. <hr /> <p><strong>효과</strong> 상황으로 인해 방어 본능이 발동되어 갑작스러운 위험에 더 빠르게 대응할 수 있습니다. 유령의 계절을 시작한 이후의 계절 수에 해당하는 이니셔티브 굴림에 상태 보너스를 얻습니다 (첫 번째 모험에서는 +1, 네 번째이자 마지막 모험에서는 최대 +4까지). 다른 PC에게 경고를 전달할 수 있다면, 그 PC들도 이니셔티브에 이 보너스를 얻습니다.</p>"
+      "description": "<p><strong>발동 빈도</strong> 시즌당 1회만 발동됩니다. <p><strong>발동 조건</strong> 이니셔티브 굴림을 할 예정입니다. <hr /> <p><strong>효과</strong> 상황으로 인해 방어 본능이 발동되어 갑작스러운 위험에 더 빠르게 반격할 수있습니다. 유령의 계절을 시작한 이후의 계절 수에 해당하는 이니셔티브 굴림에 상태 보너스를 얻습니다 (첫 번째 모험에서는 +1, 네 번째이자 마지막 모험에서는 최대 +4까지). 다른 PC에게 경고를 전달할 수 있다면, 그 PC들도 이니셔티브에 이 보너스를 얻습니다.</p>"
     },
     "Shootist's Draw": {
       "name": "사격수의 뽑기",
@@ -328,7 +328,7 @@
     },
     "Heat Haze": {
       "name": "열기",
-      "description": "<p><strong>속성</strong> fire</p> <hr /> <p>유물의 열이 주변 공기를 쾌적하게 따뜻하게 유지합니다. 유물을 들고 있거나 착용하고 있는 동안에는 극심한 추위로부터 당신을 보호합니다. 9레벨이 되면 극한의 추위도 막아주고, 17레벨이 되면 믿을 수 없을 정도의 추위도 막아줍니다. 4 레벨이 되면 유물은 다음 활성화 효과도 얻습니다. </p> <p><strong>활성화</strong> <span class=\\“action-glyph\\”>2</span> (집중)</p> <p><strong>빈도</strong> 하루에 한 번</p> <p><strong>효과</strong> 유물이 주변의 기온을 불규칙적으로 상승시켜 열의 흔들림을 생성하여 당신의 모습을 왜곡시키고 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진} 상태를 1분 동안 부여합니다. 이 효과의 특성상您的位置이 여전히 노출되므로, 이 은폐 효과를 @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{숨기기} 또는 @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{은밀 이동}에 사용할 수 없습니다.</p>"
+      "description": "<p><strong>속성</strong> fire</p> <hr /> <p>유물의 열이 주변 공기를 쾌적하게 따뜻하게 유지합니다. 유물을 들고 있거나 착용하고 있는 동안에는 극심한 추위로부터 당신을 보호합니다. 9레벨이 되면 극한의 추위도 막아주고, 17레벨이 되면 믿을 수 없을 정도의 추위도 막아줍니다. 4 레벨이 되면 유물은 다음 활성화 효과도 얻습니다. </p> <p><strong>활성화</strong> <span class=\\“action-glyph\\”>2</span> (집중)</p> <p><strong>빈도</strong> 하루에 한 번</p> <p><strong>효과</strong> 유물이 주변의 기온을 불규칙적으로 상승시켜 열의 흔들림을 생성하여 당신의 모습을 왜곡시키고 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진} 상태를 1분 동안 부여합니다. 이 효과의 특성상您的位置이 여전히 노출되므로, 이 은폐 효과를 @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{숨기} 또는 @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{은밀 이동}에 사용할 수 없습니다.</p>"
     },
     "Wind Barrier": {
       "name": "바람의 장벽",
@@ -464,7 +464,7 @@
     },
     "Obscure": {
       "name": "모호함",
-      "description": "<p><strong>특징</strong> 그림자</p> <hr /> <p>당신의 유물은 빛을 흡수하고 당신을 그림자로 감싸, 어둠 속에 숨겨줍니다. 그림자가 있는 어두운 곳에 있는 한, 당신은 @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{숨기다}를 시도할 수 있습니다. 당신이 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진} 상태가 아닌 경우에도, 예를 들어 암시력을 가진 생물에게도 적용됩니다.</p>"
+      "description": "<p><strong>특징</strong> 그림자</p> <hr /> <p>당신의 유물은 빛을 흡수하고 당신을 그림자로 감싸, 어둠 속에 숨겨줍니다. 그림자가 있는 어두운 곳에 있는 한, 당신은 @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{숨기}를 시도할 수 있습니다. 당신이 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진} 상태가 아닌 경우에도, 예를 들어 암시력을 가진 생물에게도 적용됩니다.</p>"
     },
     "Dispel a Disguise": {
       "name": "변장 해제",

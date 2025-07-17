@@ -250,7 +250,7 @@
         },
         "3gvb9wq37oq21be3": {
           "name": "생명력 흡수 (Drain Life)",
-          "description": "<p>데드아이 와이트가 비무장 공격이나 바운드 무기로 살아있는 생물에게 피해를 입힐 때, 10의 임시 체력을 얻고, 그 생물은 @Check[fortitude|dc:27] 내성 체크에 성공하지 못하면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}이 됩니다. 데드아이 와이트의 무기 및 결박된 무기로 추가 피해를 입히면, 내성 체크에 실패할 때마다 흡수된 체력이 1씩 증가하며, 최대 흡수 체력은 4까지 증가합니다."
+          "description": "<p>데드아이 와이트가 비무장 공격이나 바운드 무기로 살아있는 생물에게 피해를 입힐 때, 10의 임시 체력을 얻고, 그 생물은 @Check[fortitude|dc:27] 내성 체크에 성공하지 못하면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1}이 됩니다. 데드아이 와이트의 무기 및 결박된 무기로 추가 피해를 입히면, 내성 체크에 실패할 때마다 흡수된 체력이 1씩 증가하며, 최대 흡수 체력은 4까지 증가합니다."
         },
         "4z31tccif8f7qaq7": {
           "name": "데드아이 와이트 생성 (Spawn Deadeye Wight)",
@@ -341,7 +341,7 @@
         },
         "3gvb9wq37oq21be3": {
           "name": "생명력 흡수 (Drain Life)",
-          "description": "<p>데드아이 웨이트가 비무장 공격이나 결박된 무기로 살아있는 생물에게 피해를 입힐 경우, 9의 임시 체력을 얻고, 해당 생물은 @Check[fortitude|dc:25] 내성 체크에 성공하지 못하면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}이 됩니다. 데드아이 와이트의 무기 및 결박된 무기로 추가 피해를 입히면, 내성 체크에 실패할 때마다 흡수된 생명력이 1씩 증가하며, 최대 흡수 생명력은 4까지 증가합니다."
+          "description": "<p>데드아이 웨이트가 비무장 공격이나 결박된 무기로 살아있는 생물에게 피해를 입힐 경우, 9의 임시 체력을 얻고, 해당 생물은 @Check[fortitude|dc:25] 내성 체크에 성공하지 못하면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1}이 됩니다. 데드아이 와이트의 무기 및 결박된 무기로 추가 피해를 입히면, 내성 체크에 실패할 때마다 흡수된 생명력이 1씩 증가하며, 최대 흡수 생명력은 4까지 증가합니다."
         },
         "4z31tccif8f7qaq7": {
           "name": "데드아이 와이트 생성 (Spawn Deadeye Wight)",
@@ -574,7 +574,7 @@
         },
         "TtHWPEo9yNwmFVFG": {
           "name": "회복형 친숙한 생물 (Restorative Familiar)",
-          "description": "<p><strong>빈도</strong> 하루에 한 번</p>\n<hr />\n<p><strong>효과</strong> 런트는 자신의 생명력 에너지를 일부 포기하고 수코를 치료합니다. 이를 위해 수코의 공간에 있어야 합니다. Runt는 Suhko의 체력을 @Damage[2d8[치유]]{2d8 체력}만큼 회복합니다. Suhko는 Runt에게 Restorative Familiar를 사용하기 위해 필요한 2의 행동을 부여하기 위해 1의 행동을 사용해야 합니다."
+          "description": "<p><strong>빈도</strong> 하루에 한 번</p>\n<hr />\n<p><strong>효과</strong> 런트는 자신의 생명력 에너지를 일부 포기하고 수코를 치료합니다. 이를 위해 수코의 공간에 있어야 합니다. Runt는 Suhko의 체력을 @Damage[2d8[healing]]{2d8 체력}만큼 회복합니다. Suhko는 Runt에게 Restorative Familiar를 사용하기 위해 필요한 2의 행동을 부여하기 위해 1의 행동을 사용해야 합니다."
         }
       }
     },
@@ -588,7 +588,7 @@
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>"
         },
         "1gLrx7OTMtRPbK9N": {
-          "name": "잔인한 구타 (Brutal Beating)",
+          "name": "잔인한 타격 (Brutal Beating)",
           "description": "<p>러피안의 잔인함이 적의 자신감을 흔들습니다.</p>\n<p>루피안이 크리티컬 히트로 피해를 입힐 경우, 대상은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1} 상태가 되고, 루피안은 대상을 최대 10피트까지 밀어낼 수 있습니다 (강제 이동).</p>"
         },
         "qy60SQR1jiyW4CXc": {
@@ -665,7 +665,7 @@
         },
         "0eCHhLgu7JC3do8q": {
           "name": "시체 버리기 (Abandon Body)",
-          "description": "<p><strong>요건</strong> 웜 악마가 시체를 점령하고 있습니다</p>\n<hr />\n<p><strong>효과</strong> 웜 악마는 점령한 시체에서 기어 나와 시체의 남은 살을 대부분 먹어 치우고, 그 과정에서 @Damage[10[치유]] 체력을 회복합니다. 그가 남긴 시체는 껍데기나 다름없습니다.</p>"
+          "description": "<p><strong>요건</strong> 웜 악마가 시체를 점령하고 있습니다</p>\n<hr />\n<p><strong>효과</strong> 웜 악마는 점령한 시체에서 기어 나와 시체의 남은 살을 대부분 먹어 치우고, 그 과정에서 @Damage[10[healing]] 체력을 회복합니다. 그가 남긴 시체는 껍데기나 다름없습니다.</p>"
         },
         "yVbYX4gSvL0pm4Py": {
           "name": "몸에 기생 (Inhabit Body)",
@@ -776,7 +776,7 @@
         },
         "KESgZ7EFPclSlLY8": {
           "name": "피를 마시기 (Drink Blood)",
-          "description": "<p><strong>요구 사항</strong> @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비된}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식이 없는}, 또는 의지가 있는 생물이 뱀파이어의 손이 닿는 거리에 있습니다.</p>\n<hr />\n<p><strong>효과</strong> 뱀파이어는 그 생물에게 송곳니를 박아 피를 마십니다. 이 효과는 피해자가 잡힌 경우 피해자의 체력 DC에 대해 @Check[athletics|defense:fortitude] 체크를 해야 하며, 그 외의 조건에서는 자동으로 적용됩니다.</p>\n<p>피해자는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 2} 상태가 되고, 뱀파이어는 @Damage[10[치유]] 체력을 회복하고, 초과 HP는 임시 체력으로 얻습니다. 이미 흡수된 생물에게서 피를 마셔도 뱀파이어의 HP는 회복되지 않지만, 피해자의 흡수 값이 1 증가합니다. 뱀파이어는 영양을 공급하기 위해 용기에 담겨진 피도 마실 수 있지만, 그렇게 해도 HP는 회복되지 않습니다. 피해자의 흡수 상태는 매주 1씩 감소합니다. @Check[medicine|dc:20|name:Blood Transfusion] 체크와 충분한 혈액 또는 헌혈자가 필요한 수혈을 받으면 10분 후에 흡수량이 1 감소합니다."
+          "description": "<p><strong>요구 사항</strong> @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비된}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식이 없는}, 또는 의지가 있는 생물이 뱀파이어의 손이 닿는 거리에 있습니다.</p>\n<hr />\n<p><strong>효과</strong> 뱀파이어는 그 생물에게 송곳니를 박아 피를 마십니다. 이 효과는 피해자가 잡힌 경우 피해자의 체력 DC에 대해 @Check[athletics|defense:fortitude] 체크를 해야 하며, 그 외의 조건에서는 자동으로 적용됩니다.</p>\n<p>피해자는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 2} 상태가 되고, 뱀파이어는 @Damage[10[healing]] 체력을 회복하고, 초과 HP는 임시 체력으로 얻습니다. 이미 흡수된 생물에게서 피를 마셔도 뱀파이어의 HP는 회복되지 않지만, 피해자의 흡수 값이 1 증가합니다. 뱀파이어는 영양을 공급하기 위해 용기에 담겨진 피도 마실 수 있지만, 그렇게 해도 HP는 회복되지 않습니다. 피해자의 흡수 상태는 매주 1씩 감소합니다. @Check[medicine|dc:20|name:Blood Transfusion] 체크와 충분한 혈액 또는 헌혈자가 필요한 수혈을 받으면 10분 후에 흡수량이 1 감소합니다."
         },
         "JUgPxjF2b7DYZwEu": {
           "name": "붙잡기 (Grab)",
@@ -803,7 +803,7 @@
         },
         "TDyZOrJxLY1hcPKJ": {
           "name": "생명 흡수 (Drain Life)",
-          "description": "<p>사냥꾼 와이트가 비무장 공격이나 결박된 무기로 살아있는 생물에게 피해를 입히면, 10의 임시 체력을 얻고, 그 생물은 @Check[fortitude|dc:27] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}이 됩니다. 사냥꾼 와이트의 무기 및 결박된 무기로 추가 피해를 입히면, 내성 체크에 실패할 때마다 흡수된 생명력이 1씩 증가하며, 최대 흡수 생명력은 4까지 증가합니다."
+          "description": "<p>사냥꾼 와이트가 비무장 공격이나 결박된 무기로 살아있는 생물에게 피해를 입히면, 10의 임시 체력을 얻고, 그 생물은 @Check[fortitude|dc:27] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1}이 됩니다. 사냥꾼 와이트의 무기 및 결박된 무기로 추가 피해를 입히면, 내성 체크에 실패할 때마다 흡수된 생명력이 1씩 증가하며, 최대 흡수 생명력은 4까지 증가합니다."
         },
         "apx5l6z5p09xanhv": {
           "name": "사망 위장 (Feign Death)",
@@ -923,7 +923,7 @@
         },
         "ombjfkyxjmwbb9xc": {
           "name": "생명 흡수 (Drain Life)",
-          "description": "<p>와이트 캡틴이 비무장 공격이나 결박된 무기로 살아있는 생물에게 피해를 입히면, 11의 임시 체력을 얻고, 그 생물은 @Check[fortitude|dc:28] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}이 됩니다. 헌터 와이트의 무기 및 결박 무기로 추가 피해를 입히면, 내성 체크에 실패할 때마다 흡수된 생명력이 1씩 증가하며, 최대 흡수 생명력은 4까지 증가합니다."
+          "description": "<p>와이트 캡틴이 비무장 공격이나 결박된 무기로 살아있는 생물에게 피해를 입히면, 11의 임시 체력을 얻고, 그 생물은 @Check[fortitude|dc:28] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1}이 됩니다. 헌터 와이트의 무기 및 결박 무기로 추가 피해를 입히면, 내성 체크에 실패할 때마다 흡수된 생명력이 1씩 증가하며, 최대 흡수 생명력은 4까지 증가합니다."
         },
         "581dy5lnt449p866": {
           "name": "와이트 병사 생성 (Spawn Wight Soldier)",
@@ -1005,7 +1005,7 @@
       "items": {
         "jxmONdR97WrExGJ9": {
           "name": "미완성 (Unfinished)",
-          "description": "<p>Vrisk의 매끄러운 머리에는 귀가 없기 때문에 그는 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{귀머거리}입니다. 그는 청각이 필요한 모든 지각 체크에 자동으로 대실패를 하고, 청각 효과에 면역입니다. 그는 주문을 시전하기 위한 언어적 구성 요소와 마법 아이템을 활성화하기 위한 명령 구성 요소를 제공할 수 있지만, 익숙하지 않은 청각적 요소가 포함된 행동을 수행할 경우, @Check[flat|dc:5]에 성공하지 않으면 그 행동은 실패합니다. 그는 @UUID[Compendium.pf2e.feats-srd.Item.aAoFc10cOpxGypOY]{수화}와 @UUID[Compendium.pf2e.feats-srd.Item.yUuU9xyotrpwpTyC]{입술 읽기} 스킬 피트를 모두 가지고 있습니다."
+          "description": "<p>Vrisk의 매끄러운 머리에는 귀가 없기 때문에 그는 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{귀가 먼}입니다. 그는 청각이 필요한 모든 지각 체크에 자동으로 대실패를 하고, 청각 효과에 면역입니다. 그는 주문을 시전하기 위한 언어적 구성 요소와 마법 아이템을 활성화하기 위한 명령 구성 요소를 제공할 수 있지만, 익숙하지 않은 청각적 요소가 포함된 행동을 수행할 경우, @Check[flat|dc:5]에 성공하지 않으면 그 행동은 실패합니다. 그는 @UUID[Compendium.pf2e.feats-srd.Item.aAoFc10cOpxGypOY]{수화}와 @UUID[Compendium.pf2e.feats-srd.Item.yUuU9xyotrpwpTyC]{입술 읽기} 스킬 피트를 모두 가지고 있습니다."
         },
         "IrJCzZfE66Y6S88d": {
           "name": "골렘 안티매직 (Golem Antimagic)",
@@ -1320,7 +1320,7 @@
         },
         "dFO4VUU2D6u32L0j": {
           "name": "사악한 물기 (Wicked Bite)",
-          "description": "<p><strong>요건</strong> 우르데판이 마지막 행동으로 턱으로 생물을 공격하여 피해를 입혔습니다. 어드판은 두 가지 옵션 중 하나를 선택하며, 두 옵션 모두 내성 체크가 필요합니다. 턱 공격이 치명타인 경우, 생물은 두 효과 모두를 받으며, 두 효과에 대해 동일한 내성 체크 결과가 적용됩니다. </p>\n<ul>\n<li><strong>피 흡수</strong> @Check[fortitude|dc:26] 어드판은 생물의 피를 일부 마십니다. 내성 검사에 실패하면, 생물은 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}이 되고, 우르데판은 @Damage[10[healing]] HP를 회복합니다 (또는 대실패 시, @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 2}가 되고, 우르데판은 @Damage[20[치유]]를 회복합니다 HP).</li>\n<li><strong>Drain Vitality</strong> (necromancy) @Check[fortitude|dc:26|traits:necromancy] 우르데판은 생물의 생명력을 일부 빼앗습니다. 생물은 내성 실패 시 1시간 동안 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 1} 상태가 됩니다 (대실패 시 1시간 동안 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 2} 상태가 됩니다).</li>\n</ul>"
+          "description": "<p><strong>요건</strong> 우르데판이 마지막 행동으로 턱으로 생물을 공격하여 피해를 입혔습니다. 어드판은 두 가지 옵션 중 하나를 선택하며, 두 옵션 모두 내성 체크가 필요합니다. 턱 공격이 치명타인 경우, 생물은 두 효과 모두를 받으며, 두 효과에 대해 동일한 내성 체크 결과가 적용됩니다. </p>\n<ul>\n<li><strong>피 흡수</strong> @Check[fortitude|dc:26] 어드판은 생물의 피를 일부 마십니다. 내성 검사에 실패하면, 생물은 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1}이 되고, 우르데판은 @Damage[10[healing]] HP를 회복합니다 (또는 대실패 시, @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 2}가 되고, 우르데판은 @Damage[20[healing]]를 회복합니다 HP).</li>\n<li><strong>Drain Vitality</strong> (necromancy) @Check[fortitude|dc:26|traits:necromancy] 우르데판은 생물의 생명력을 일부 빼앗습니다. 생물은 내성 실패 시 1시간 동안 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 1} 상태가 됩니다 (대실패 시 1시간 동안 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 2} 상태가 됩니다).</li>\n</ul>"
         }
       }
     },
@@ -1393,7 +1393,7 @@
         },
         "ombjfkyxjmwbb9xc": {
           "name": "생명력 흡수 (Drain Life)",
-          "description": "<p>사냥꾼 와이트가 비무장 공격이나 결박된 무기로 살아있는 생물에게 피해를 입히면, 13의 임시 체력을 얻고, 그 생물은 @Check[fortitude|dc:31] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}이 됩니다. 헌터 와이트의 무기 및 결박된 무기로 추가 피해를 입히면, 내성 체크에 실패할 때마다 흡수된 체력이 1씩 증가하며, 최대 흡수 체력은 4까지 증가합니다."
+          "description": "<p>사냥꾼 와이트가 비무장 공격이나 결박된 무기로 살아있는 생물에게 피해를 입히면, 13의 임시 체력을 얻고, 그 생물은 @Check[fortitude|dc:31] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1}이 됩니다. 헌터 와이트의 무기 및 결박된 무기로 추가 피해를 입히면, 내성 체크에 실패할 때마다 흡수된 체력이 1씩 증가하며, 최대 흡수 체력은 4까지 증가합니다."
         },
         "581dy5lnt449p866": {
           "name": "와이트 병사 생성 (Spawn Wight Soldier)",
@@ -1482,7 +1482,7 @@
         },
         "KESgZ7EFPclSlLY8": {
           "name": "피를 마시기 (Drink Blood)",
-          "description": "<p><strong>요구 사항</strong> @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비된}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 잃은}, 또는 기꺼이 피를 마실 생물이 뱀파이어의 손이 닿는 거리에 있습니다.</p>\n<hr />\n<p><strong>효과</strong> 뱀파이어는 그 생물에게 송곳니를 박아 피를 마십니다. 이 효과는 피해자가 잡힌 경우 피해자의 체력 DC에 대해 @Check[athletics|defense:fortitude] 체크를 해야 하며, 그 외의 조건에서는 자동으로 적용됩니다.</p>\n<p>피해자는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 2} 상태가 되고, 뱀파이어는 @Damage[10[healing]] 체력을 회복하며, 초과 HP는 임시 체력으로 얻습니다. 이미 피가 흡수된 생물체에서 피를 마셔도 뱀파이어의 HP는 회복되지 않지만, 피해자의 흡수 값이 1 증가합니다. 뱀파이어는 생명을 유지하기 위해 용기에 담겨진 피도 마실 수 있지만, 그렇게 해도 HP는 회복되지 않습니다. 피해자의 흡수 상태는 매주 1씩 감소합니다. @Check[medicine|dc:20|name:Blood Transfusion] 체크와 충분한 혈액 또는 헌혈자가 필요한 수혈은 10분 후에 흡수량을 1 감소시킵니다."
+          "description": "<p><strong>요구 사항</strong> @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비된}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 잃은}, 또는 기꺼이 피를 마실 생물이 뱀파이어의 손이 닿는 거리에 있습니다.</p>\n<hr />\n<p><strong>효과</strong> 뱀파이어는 그 생물에게 송곳니를 박아 피를 마십니다. 이 효과는 피해자가 잡힌 경우 피해자의 체력 DC에 대해 @Check[athletics|defense:fortitude] 체크를 해야 하며, 그 외의 조건에서는 자동으로 적용됩니다.</p>\n<p>피해자는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 2} 상태가 되고, 뱀파이어는 @Damage[10[healing]] 체력을 회복하며, 초과 HP는 임시 체력으로 얻습니다. 이미 피가 흡수된 생물체에서 피를 마셔도 뱀파이어의 HP는 회복되지 않지만, 피해자의 흡수 값이 1 증가합니다. 뱀파이어는 생명을 유지하기 위해 용기에 담겨진 피도 마실 수 있지만, 그렇게 해도 HP는 회복되지 않습니다. 피해자의 흡수 상태는 매주 1씩 감소합니다. @Check[medicine|dc:20|name:Blood Transfusion] 체크와 충분한 혈액 또는 헌혈자가 필요한 수혈은 10분 후에 흡수량을 1 감소시킵니다."
         },
         "JUgPxjF2b7DYZwEu": {
           "name": "붙잡기 (Grab)",
@@ -1526,7 +1526,7 @@
           "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>"
         },
         "1gLrx7OTMtRPbK9N": {
-          "name": "잔인한 구타 (Brutal Beating)",
+          "name": "잔인한 타격 (Brutal Beating)",
           "description": "<p>스카웃의 잔인함은 적의 자신감을 흔들게 합니다. 스카웃이 치명타로 피해를 입힐 경우, 대상은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1} 상태가 되고, 스카웃은 대상을 최대 10피트까지 밀어낼 수 있습니다 (강제 이동).</p>"
         },
         "qy60SQR1jiyW4CXc": {
@@ -1832,7 +1832,7 @@
         },
         "KESgZ7EFPclSlLY8": {
           "name": "피를 마시기 (Drink Blood)",
-          "description": "<p><strong>요구 사항</strong> @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비된}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 잃은}, 또는 기꺼이 피를 마실 생물이 뱀파이어의 손이 닿는 거리에 있습니다.</p>\n<hr />\n<p><strong>효과</strong> 뱀파이어는 그 생물에게 송곳니를 박아 피를 마십니다. 이 경우, 피해자가 잡혀 있는 경우 피해자의 체력 DC에 대해 @Check[athletics|defense:fortitude] 체크가 필요하며, 그 외의 조건에서는 자동으로 성공합니다.</p>\n<p>피해자는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 2} 상태가 되고, 뱀파이어는 @Damage[10[healing]] 체력을 회복하며, 초과 HP는 임시 체력으로 얻습니다. 이미 피가 흡수된 생물체에서 피를 마셔도 뱀파이어의 HP는 회복되지 않지만, 피해자의 흡수 값이 1 증가합니다. 뱀파이어는 영양을 공급하기 위해 용기에 담겨진 피도 마실 수 있지만, 그렇게 해도 HP는 회복되지 않습니다. 피해자의 흡수 상태는 매주 1씩 감소합니다. @Check[medicine|dc:20|name:Blood Transfusion] 체크와 충분한 혈액 또는 헌혈자가 필요한 수혈을 받으면 10분 후에 흡수량이 1 감소합니다."
+          "description": "<p><strong>요구 사항</strong> @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비된}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 잃은}, 또는 기꺼이 피를 마실 생물이 뱀파이어의 손이 닿는 거리에 있습니다.</p>\n<hr />\n<p><strong>효과</strong> 뱀파이어는 그 생물에게 송곳니를 박아 피를 마십니다. 이 경우, 피해자가 잡혀 있는 경우 피해자의 체력 DC에 대해 @Check[athletics|defense:fortitude] 체크가 필요하며, 그 외의 조건에서는 자동으로 성공합니다.</p>\n<p>피해자는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 2} 상태가 되고, 뱀파이어는 @Damage[10[healing]] 체력을 회복하며, 초과 HP는 임시 체력으로 얻습니다. 이미 피가 흡수된 생물체에서 피를 마셔도 뱀파이어의 HP는 회복되지 않지만, 피해자의 흡수 값이 1 증가합니다. 뱀파이어는 영양을 공급하기 위해 용기에 담겨진 피도 마실 수 있지만, 그렇게 해도 HP는 회복되지 않습니다. 피해자의 흡수 상태는 매주 1씩 감소합니다. @Check[medicine|dc:20|name:Blood Transfusion] 체크와 충분한 혈액 또는 헌혈자가 필요한 수혈을 받으면 10분 후에 흡수량이 1 감소합니다."
         },
         "JUgPxjF2b7DYZwEu": {
           "name": "붙잡기 (Grab)",
@@ -1879,7 +1879,7 @@
         },
         "ombjfkyxjmwbb9xc": {
           "name": "생명 흡수 (Drain Life)",
-          "description": "<p>사냥꾼 와이트가 비무장 공격이나 결박된 무기로 살아있는 생물에게 피해를 입히면, 12의 임시 체력을 얻고, 그 생물은 @Check[fortitude|dc:29] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}이 됩니다. 헌터 와이트의 무기 및 결박된 무기로 추가 피해를 입히면, 내성 체크에 실패할 때마다 흡수된 생명력이 1씩 증가하며, 최대 흡수 생명력은 4까지 증가합니다."
+          "description": "<p>사냥꾼 와이트가 비무장 공격이나 결박된 무기로 살아있는 생물에게 피해를 입히면, 12의 임시 체력을 얻고, 그 생물은 @Check[fortitude|dc:29] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1}이 됩니다. 헌터 와이트의 무기 및 결박된 무기로 추가 피해를 입히면, 내성 체크에 실패할 때마다 흡수된 생명력이 1씩 증가하며, 최대 흡수 생명력은 4까지 증가합니다."
         },
         "581dy5lnt449p866": {
           "name": "와이트 병사 생성 (Spawn Wight Soldier)",
@@ -1974,7 +1974,7 @@
         },
         "TDyZOrJxLY1hcPKJ": {
           "name": "생명 흡수 (Drain Life)",
-          "description": "<p>사냥꾼 와이트가 비무장 공격이나 결박된 무기로 살아있는 생물에게 피해를 입히면, 9의 임시 체력을 얻고, 그 생물은 @Check[fortitude|dc:25] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}이 됩니다. 사냥꾼 와이트의 무기 및 결속 무기로 추가 피해를 입히면, 내성 체크에 실패할 때마다 흡수된 생명력이 1씩 증가하며, 최대 흡수 생명력은 4까지 증가합니다."
+          "description": "<p>사냥꾼 와이트가 비무장 공격이나 결박된 무기로 살아있는 생물에게 피해를 입히면, 9의 임시 체력을 얻고, 그 생물은 @Check[fortitude|dc:25] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1}이 됩니다. 사냥꾼 와이트의 무기 및 결속 무기로 추가 피해를 입히면, 내성 체크에 실패할 때마다 흡수된 생명력이 1씩 증가하며, 최대 흡수 생명력은 4까지 증가합니다."
         },
         "apx5l6z5p09xanhv": {
           "name": "사망 위장 (Feign Death)",
@@ -2070,7 +2070,7 @@
         },
         "3gvb9wq37oq21be3": {
           "name": "생명력 흡수 (Drain Life)",
-          "description": "<p>사냥꾼 유령이 비무장 공격이나 결박된 무기로 살아있는 생물에게 피해를 입히면, 8의 임시 체력을 얻고, 그 생물은 @Check[fortitude|dc:24] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}이 됩니다. 헌터 와이트의 무기 및 결박된 무기로 추가 피해를 입히면, 내성 체크에 실패할 때마다 흡수된 생명력이 1씩 증가하며, 최대 흡수 생명력은 4까지 증가합니다."
+          "description": "<p>사냥꾼 유령이 비무장 공격이나 결박된 무기로 살아있는 생물에게 피해를 입히면, 8의 임시 체력을 얻고, 그 생물은 @Check[fortitude|dc:24] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1}이 됩니다. 헌터 와이트의 무기 및 결박된 무기로 추가 피해를 입히면, 내성 체크에 실패할 때마다 흡수된 생명력이 1씩 증가하며, 최대 흡수 생명력은 4까지 증가합니다."
         },
         "4z31tccif8f7qaq7": {
           "name": "헌터 와이트 생성 (Spawn Hunter Wight)",
@@ -2093,7 +2093,7 @@
         },
         "TtHWPEo9yNwmFVFG": {
           "name": "회복형 친숙한 생물 (Restorative Familiar)",
-          "description": "<p><strong>빈도</strong> 하루에 한 번</p>\n<hr />\n<p><strong>효과</strong> 런트는 자신의 생명력을 일부 포기하고 수코를 치료합니다. 이를 위해 수코의 공간에 있어야 합니다. Runt는 Suhko의 체력을 @Damage[1d8[치유]]{1d8 체력}만큼 회복합니다. Suhko는 Runt에게 Restorative Familiar를 사용하기 위해 필요한 2개의 행동을 명령하기 위해 1개의 행동을 사용해야 합니다. "
+          "description": "<p><strong>빈도</strong> 하루에 한 번</p>\n<hr />\n<p><strong>효과</strong> 런트는 자신의 생명력을 일부 포기하고 수코를 치료합니다. 이를 위해 수코의 공간에 있어야 합니다. Runt는 Suhko의 체력을 @Damage[1d8[healing]]{1d8 체력}만큼 회복합니다. Suhko는 Runt에게 Restorative Familiar를 사용하기 위해 필요한 2개의 행동을 명령하기 위해 1개의 행동을 사용해야 합니다. "
         }
       }
     },
@@ -2253,7 +2253,7 @@
         },
         "hn5GBufYeA5C1oOg": {
           "name": "피 마시기 (Drink Blood)",
-          "description": "<p><strong>요구 조건</strong> @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비된}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 잃은}, 또는 의지대로 행동할 수 없는 생물이 뱀파이어의 손이 닿는 거리에 있습니다.</p>\n<hr />\n<p><strong>효과</strong> 뱀파이어는 그 생물에게 송곳니를 박아 피를 마십니다. 이 효과는 피해자가 잡힌 경우 피해자의 체력 DC에 대해 @Check[athletics|defense:fortitude] 체크를 해야 하며, 그 외의 조건에서는 자동으로 적용됩니다.</p>\n<p>피해자는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1} 상태가 되고, 뱀파이어는 @Damage[5[healing]] 체력을 회복하며, 초과 HP는 임시 체력으로 얻습니다. 이미 피가 흡수된 생물에게서 피를 마셔도 뱀파이어의 HP는 회복되지 않지만, 피해자의 흡수 값이 1 증가합니다. 뱀파이어는 영양을 공급하기 위해 용기에 담겨진 피도 마실 수 있지만, 그렇게 해도 HP는 회복되지 않습니다. 피해자의 흡수 상태는 매주 1씩 감소합니다. @Check[medicine|dc:20|name:Blood Transfusion] 체크와 충분한 혈액 또는 헌혈자가 필요한 수혈을 받으면 10분 후에 흡수량이 1 감소합니다."
+          "description": "<p><strong>요구 조건</strong> @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비된}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 잃은}, 또는 의지대로 행동할 수 없는 생물이 뱀파이어의 손이 닿는 거리에 있습니다.</p>\n<hr />\n<p><strong>효과</strong> 뱀파이어는 그 생물에게 송곳니를 박아 피를 마십니다. 이 효과는 피해자가 잡힌 경우 피해자의 체력 DC에 대해 @Check[athletics|defense:fortitude] 체크를 해야 하며, 그 외의 조건에서는 자동으로 적용됩니다.</p>\n<p>피해자는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1} 상태가 되고, 뱀파이어는 @Damage[5[healing]] 체력을 회복하며, 초과 HP는 임시 체력으로 얻습니다. 이미 피가 흡수된 생물에게서 피를 마셔도 뱀파이어의 HP는 회복되지 않지만, 피해자의 흡수 값이 1 증가합니다. 뱀파이어는 영양을 공급하기 위해 용기에 담겨진 피도 마실 수 있지만, 그렇게 해도 HP는 회복되지 않습니다. 피해자의 흡수 상태는 매주 1씩 감소합니다. @Check[medicine|dc:20|name:Blood Transfusion] 체크와 충분한 혈액 또는 헌혈자가 필요한 수혈을 받으면 10분 후에 흡수량이 1 감소합니다."
         },
         "T0aFMtDJ5aZm7aQG": {
           "name": "암습 (Sneak Attack)",
@@ -2358,7 +2358,7 @@
         },
         "TDyZOrJxLY1hcPKJ": {
           "name": "생명 흡수 (Drain Life)",
-          "description": "<p>스토커 와이트가 비무장 공격이나 바인딩된 무기로 살아있는 생물에게 피해를 입히면, 8의 임시 체력을 얻고, 해당 생물은 @Check[fortitude|dc:24] 내성 체크에 성공하지 못하면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}이 됩니다. 스토커 웨이트의 무기 및 결박된 무기로 추가 피해를 입히면, 내성 체크에 실패할 때마다 흡수된 상태의 값이 1씩 증가하며, 최대 흡수 4까지 증가합니다."
+          "description": "<p>스토커 와이트가 비무장 공격이나 바인딩된 무기로 살아있는 생물에게 피해를 입히면, 8의 임시 체력을 얻고, 해당 생물은 @Check[fortitude|dc:24] 내성 체크에 성공하지 못하면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1}이 됩니다. 스토커 웨이트의 무기 및 결박된 무기로 추가 피해를 입히면, 내성 체크에 실패할 때마다 흡수된 상태의 값이 1씩 증가하며, 최대 흡수 4까지 증가합니다."
         },
         "apx5l6z5p09xanhv": {
           "name": "사망 위장 (Feign Death)",
@@ -2488,7 +2488,7 @@
       "items": {
         "jxmONdR97WrExGJ9": {
           "name": "미완성 (Unfinished)",
-          "description": "<p>Vrisk의 매끄러운 머리에는 귀가 없기 때문에 그는 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{귀머거리}입니다. 그는 청각이 필요한 모든 지각 체크에 자동으로 대실패를 하고, 청각 효과에 면역입니다. 그는 주문을 시전하기 위한 언어적 구성 요소와 마법 아이템을 활성화하기 위한 명령 구성 요소를 제공할 수 있지만, 익숙하지 않은 청각적 요소가 포함된 행동을 수행할 경우, @Check[flat|dc:5]에 성공하지 못하면 그 행동은 실패합니다. 그는 @UUID[Compendium.pf2e.feats-srd.Item.aAoFc10cOpxGypOY]{수화}와 @UUID[Compendium.pf2e.feats-srd.Item.yUuU9xyotrpwpTyC]{입술 읽기} 스킬 피트를 모두 가지고 있습니다."
+          "description": "<p>Vrisk의 매끄러운 머리에는 귀가 없기 때문에 그는 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{귀가 먼}입니다. 그는 청각이 필요한 모든 지각 체크에 자동으로 대실패를 하고, 청각 효과에 면역입니다. 그는 주문을 시전하기 위한 언어적 구성 요소와 마법 아이템을 활성화하기 위한 명령 구성 요소를 제공할 수 있지만, 익숙하지 않은 청각적 요소가 포함된 행동을 수행할 경우, @Check[flat|dc:5]에 성공하지 못하면 그 행동은 실패합니다. 그는 @UUID[Compendium.pf2e.feats-srd.Item.aAoFc10cOpxGypOY]{수화}와 @UUID[Compendium.pf2e.feats-srd.Item.yUuU9xyotrpwpTyC]{입술 읽기} 스킬 피트를 모두 가지고 있습니다."
         },
         "IrJCzZfE66Y6S88d": {
           "name": "골렘 안티매직 (Golem Antimagic)",
@@ -2552,7 +2552,7 @@
         },
         "TDyZOrJxLY1hcPKJ": {
           "name": "생명 흡수 (Drain Life)",
-          "description": "<p>스토커 웨이트가 비무장 공격이나 결박된 무기로 살아있는 생물에게 피해를 입히면, 7의 임시 체력을 얻고, 그 생물은 @Check[fortitude|dc:22] 내성 체크에 성공하지 못하면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}이 됩니다. 스토커 와이트의 무기 및 결박된 무기로 추가 피해를 입히면, 내성 실패 시 흡수 상태의 값이 1씩 증가하며, 최대 흡수 4까지 증가합니다."
+          "description": "<p>스토커 웨이트가 비무장 공격이나 결박된 무기로 살아있는 생물에게 피해를 입히면, 7의 임시 체력을 얻고, 그 생물은 @Check[fortitude|dc:22] 내성 체크에 성공하지 못하면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1}이 됩니다. 스토커 와이트의 무기 및 결박된 무기로 추가 피해를 입히면, 내성 실패 시 흡수 상태의 값이 1씩 증가하며, 최대 흡수 4까지 증가합니다."
         },
         "apx5l6z5p09xanhv": {
           "name": "사망 위장 (Feign Death)",
@@ -2756,7 +2756,7 @@
         },
         "HhkalK1aMfqDSiWQ": {
           "name": "피를 마신다 (Drink Blood)",
-          "description": "<p><strong>요구 사항</strong> @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비된}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious}, 또는 의지가 있는 생물이 뱀파이어의 손이 닿는 거리에 있습니다.</p>\n<hr />\n<p><strong>효과</strong> 뱀파이어는 그 생물에게 송곳니를 박아 피를 마십니다. 이 효과는 피해자가 잡힌 경우 피해자의 체력 DC에 대해 @Check[athletics|defense:fortitude] 체크를 해야 하며, 그 외의 조건에서는 자동으로 적용됩니다.</p>\n<p>피해자는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 2} 상태가 되고, 뱀파이어는 @Damage[10[healing]] 체력을 회복하며, 초과 HP는 임시 체력으로 얻습니다. 이미 피가 흡수된 생물체에서 피를 마셔도 뱀파이어의 HP는 회복되지 않지만, 피해자의 흡수 값이 1 증가합니다. 뱀파이어는 생명을 유지하기 위해 용기에 담겨진 피도 마실 수 있지만, 그렇게 해도 HP는 회복되지 않습니다. 피해자의 흡수 상태는 매주 1씩 감소합니다. @Check[medicine|dc:20|name:Blood Transfusion] 체크와 충분한 혈액 또는 헌혈자가 필요한 수혈은 10분 후에 흡수량을 1 감소시킵니다."
+          "description": "<p><strong>요구 사항</strong> @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비된}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious}, 또는 의지가 있는 생물이 뱀파이어의 손이 닿는 거리에 있습니다.</p>\n<hr />\n<p><strong>효과</strong> 뱀파이어는 그 생물에게 송곳니를 박아 피를 마십니다. 이 효과는 피해자가 잡힌 경우 피해자의 체력 DC에 대해 @Check[athletics|defense:fortitude] 체크를 해야 하며, 그 외의 조건에서는 자동으로 적용됩니다.</p>\n<p>피해자는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 2} 상태가 되고, 뱀파이어는 @Damage[10[healing]] 체력을 회복하며, 초과 HP는 임시 체력으로 얻습니다. 이미 피가 흡수된 생물체에서 피를 마셔도 뱀파이어의 HP는 회복되지 않지만, 피해자의 흡수 값이 1 증가합니다. 뱀파이어는 생명을 유지하기 위해 용기에 담겨진 피도 마실 수 있지만, 그렇게 해도 HP는 회복되지 않습니다. 피해자의 흡수 상태는 매주 1씩 감소합니다. @Check[medicine|dc:20|name:Blood Transfusion] 체크와 충분한 혈액 또는 헌혈자가 필요한 수혈은 10분 후에 흡수량을 1 감소시킵니다."
         },
         "DD9mP7VmHRk4Lm97": {
           "name": "꾸준한 주문 시전 (Steady Spellcasting)",
@@ -2972,7 +2972,7 @@
         },
         "L6SWQmnHWcKt4MuR": {
           "name": "파워 그립 (Grasp Power)",
-          "description": "<p><strong>요구 사항</strong> Nathatel의 마지막 행동이 성공적인 주먹 공격이었습니다</p>\n<hr />\n<p><strong>효과</strong> Nathatel은 생물에게 영향을 미치는 단일 주문에 대해 대응 체크를 시도합니다 (대응 등급 4, 대응 수정자 [[/r 1d20+17 #Counter]]{+17}). 체크에 성공하면, 그 생물은 @Damage[6d6[정신]]의 피해를 받습니다 (@Check[will|dc:25|basic]).</p>"
+          "description": "<p><strong>요구 사항</strong> Nathatel의 마지막 행동이 성공적인 주먹 공격이었습니다</p>\n<hr />\n<p><strong>효과</strong> Nathatel은 생물에게 영향을 미치는 단일 주문에 대해 반격 체크를 시도합니다 (반격 등급 4, 반격 수정자 [[/r 1d20+17 #Counter]]{+17}). 체크에 성공하면, 그 생물은 @Damage[6d6[정신]]의 피해를 받습니다 (@Check[will|dc:25|basic]).</p>"
         }
       }
     },
@@ -3178,7 +3178,7 @@
         },
         "3gvb9wq37oq21be3": {
           "name": "생명 흡수 (Drain Life)",
-          "description": "<p>사냥꾼 유령이 비무장 공격이나 결박된 무기로 살아있는 생물에게 피해를 입히면, 7의 임시 체력을 얻고, 그 생물은 @Check[fortitude|dc:22] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}이 됩니다. 헌터 웨이트의 무기 및 결박된 무기로 추가 피해를 입히면, 내성 체크에 실패할 때마다 흡수된 생명력이 1씩 증가하며, 최대 흡수 생명력은 4까지 증가합니다."
+          "description": "<p>사냥꾼 유령이 비무장 공격이나 결박된 무기로 살아있는 생물에게 피해를 입히면, 7의 임시 체력을 얻고, 그 생물은 @Check[fortitude|dc:22] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1}이 됩니다. 헌터 웨이트의 무기 및 결박된 무기로 추가 피해를 입히면, 내성 체크에 실패할 때마다 흡수된 생명력이 1씩 증가하며, 최대 흡수 생명력은 4까지 증가합니다."
         },
         "4z31tccif8f7qaq7": {
           "name": "헌터 웨이트 생성 (Spawn Hunter Wight)",
@@ -3242,7 +3242,7 @@
         },
         "ombjfkyxjmwbb9xc": {
           "name": "생명 흡수 (Drain Life)",
-          "description": "<p>와이트 캡틴이 비무장 공격이나 결박된 무기로 살아있는 생물에게 피해를 입히면, 10의 임시 체력을 얻고, 그 생물은 @Check[fortitude|dc:26] 내성 체크에 성공하지 못하면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}이 됩니다. 헌터 와이트의 무기 및 결속 무기로 추가 피해를 입히면, 내성 체크에 실패할 때마다 흡수된 생명력이 1씩 증가하며, 최대 흡수 생명력은 4까지 증가합니다."
+          "description": "<p>와이트 캡틴이 비무장 공격이나 결박된 무기로 살아있는 생물에게 피해를 입히면, 10의 임시 체력을 얻고, 그 생물은 @Check[fortitude|dc:26] 내성 체크에 성공하지 못하면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1}이 됩니다. 헌터 와이트의 무기 및 결속 무기로 추가 피해를 입히면, 내성 체크에 실패할 때마다 흡수된 생명력이 1씩 증가하며, 최대 흡수 생명력은 4까지 증가합니다."
         },
         "581dy5lnt449p866": {
           "name": "와이트 병사 생성 (Spawn Wight Soldier)",
@@ -3437,7 +3437,7 @@
         },
         "hn5GBufYeA5C1oOg": {
           "name": "피 마시기 (Drink Blood)",
-          "description": "<p><strong>요구 조건</strong> @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비된}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 잃은}, 또는 의지 있는 생물이 뱀파이어의 손이 닿는 거리에 있습니다.</p>\n<hr />\n<p><strong>효과</strong> 뱀파이어는 그 생물에게 송곳니를 박아 피를 마십니다. 이 효과는 피해자가 잡힌 경우 피해자의 체력 DC에 대해 @Check[athletics|defense:fortitude] 체크를 해야 하며, 그 외의 조건에서는 자동으로 적용됩니다.</p>\n<p>피해자는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1} 상태가 되고, 뱀파이어는 @Damage[5[healing]] 체력을 회복하며, 초과 HP는 임시 체력으로 얻습니다. 이미 피가 흡수된 생물에게서 피를 마셔도 뱀파이어의 HP는 회복되지 않지만, 피해자의 흡수 값이 1 증가합니다. 뱀파이어는 영양을 공급하기 위해 용기에 담겨진 피도 마실 수 있지만, 그렇게 해도 HP는 회복되지 않습니다. 피해자의 흡수 상태는 매주 1씩 감소합니다. @Check[medicine|dc:20|name:Blood Transfusion] 체크와 충분한 혈액 또는 헌혈자가 필요한 수혈을 받으면 10분 후에 흡수량이 1 감소합니다."
+          "description": "<p><strong>요구 조건</strong> @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비된}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 잃은}, 또는 의지 있는 생물이 뱀파이어의 손이 닿는 거리에 있습니다.</p>\n<hr />\n<p><strong>효과</strong> 뱀파이어는 그 생물에게 송곳니를 박아 피를 마십니다. 이 효과는 피해자가 잡힌 경우 피해자의 체력 DC에 대해 @Check[athletics|defense:fortitude] 체크를 해야 하며, 그 외의 조건에서는 자동으로 적용됩니다.</p>\n<p>피해자는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1} 상태가 되고, 뱀파이어는 @Damage[5[healing]] 체력을 회복하며, 초과 HP는 임시 체력으로 얻습니다. 이미 피가 흡수된 생물에게서 피를 마셔도 뱀파이어의 HP는 회복되지 않지만, 피해자의 흡수 값이 1 증가합니다. 뱀파이어는 영양을 공급하기 위해 용기에 담겨진 피도 마실 수 있지만, 그렇게 해도 HP는 회복되지 않습니다. 피해자의 흡수 상태는 매주 1씩 감소합니다. @Check[medicine|dc:20|name:Blood Transfusion] 체크와 충분한 혈액 또는 헌혈자가 필요한 수혈을 받으면 10분 후에 흡수량이 1 감소합니다."
         },
         "T0aFMtDJ5aZm7aQG": {
           "name": "암습 (Sneak Attack)",
@@ -3499,7 +3499,7 @@
         },
         "NFPV2IK6zYWCTJbC": {
           "name": "열정적인 키스 (Passionate Kiss)",
-          "description": "<p><strong>빈도</strong> 라운드당 1회. </p>\n<hr />\n<p><strong>효과</strong> 서큐버스는 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 생물을 포옹이나 다른 열정적인 행동으로 끌어당겨 그 생명의 정수를 흡수합니다. 키스를 받은 생물은 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 1} 상태가 되거나, 흡수 상태가 1 증가하며, 최대 4까지 증가할 수 있습니다. 생물은 @Damage[2d6[void]]의 피해를 받고, 서큐버스는 그 피해량만큼 체력을 회복합니다. 대상은 @Check[will|dc:22] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.spells-srd.Item.qwlh6aDgi86U3Q7H]{Suggestion} @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape}로 탈출하려고 시도하는 대신 더 많은 열정적인 행동에 복종하게 됩니다."
+          "description": "<p><strong>빈도</strong> 라운드당 1회. </p>\n<hr />\n<p><strong>효과</strong> 서큐버스는 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 생물을 포옹이나 다른 열정적인 행동으로 끌어당겨 그 생명의 정수를 흡수합니다. 키스를 받은 생물은 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1} 상태가 되거나, 흡수 상태가 1 증가하며, 최대 4까지 증가할 수 있습니다. 생물은 @Damage[2d6[void]]의 피해를 받고, 서큐버스는 그 피해량만큼 체력을 회복합니다. 대상은 @Check[will|dc:22] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.spells-srd.Item.qwlh6aDgi86U3Q7H]{Suggestion} @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape}로 탈출하려고 시도하는 대신 더 많은 열정적인 행동에 복종하게 됩니다."
         },
         "vgbSuZiK389nv7Tm": {
           "name": "모독적인 선물 (Profane Gift)",
@@ -3831,7 +3831,7 @@
         },
         "fQBkHuE4KEzg86Bk": {
           "name": "사악한 물기 (Wicked Bite)",
-          "description": "<p><strong>요건</strong> 어드판이 마지막 행동으로 턱으로 생물을 공격하여 피해를 입혔습니다. 어드판은 두 가지 옵션 중 하나를 선택하며, 두 옵션 모두 @Check[fortitude|dc:29] 내성 체크가 필요합니다. 턱 공격이 치명타인 경우, 생물은 두 효과 모두를 받으며, 두 효과에 동일한 내성 체크 결과가 적용됩니다. </p>\n<ul>\n<li><strong>피 흡수</strong> 어드판은 생물의 피를 일부 마십니다. 내성 실패 시, 생물은 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}을 받고, 우르데판은 @Damage[10[healing]]을 회복합니다. HP를 회복합니다 (또는 대실패 시, @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 2}가 되고, 우르데판은 @Damage[20[치유]] HP로 감소합니다).</li>\n<li><strong>생명력 흡수</strong> (네크로맨시) 우르데판은 생물의 생명력을 일부 흡수합니다. 생물은 내성 실패 시 1시간 동안 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 1} 상태가 됩니다 (대실패 시 1시간 동안 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 2} 상태가 됩니다).</li>\n</ul>"
+          "description": "<p><strong>요건</strong> 어드판이 마지막 행동으로 턱으로 생물을 공격하여 피해를 입혔습니다. 어드판은 두 가지 옵션 중 하나를 선택하며, 두 옵션 모두 @Check[fortitude|dc:29] 내성 체크가 필요합니다. 턱 공격이 치명타인 경우, 생물은 두 효과 모두를 받으며, 두 효과에 동일한 내성 체크 결과가 적용됩니다. </p>\n<ul>\n<li><strong>피 흡수</strong> 어드판은 생물의 피를 일부 마십니다. 내성 실패 시, 생물은 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1}을 받고, 우르데판은 @Damage[10[healing]]을 회복합니다. HP를 회복합니다 (또는 대실패 시, @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 2}가 되고, 우르데판은 @Damage[20[healing]] HP로 감소합니다).</li>\n<li><strong>생명력 흡수</strong> (네크로맨시) 우르데판은 생물의 생명력을 일부 흡수합니다. 생물은 내성 실패 시 1시간 동안 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 1} 상태가 됩니다 (대실패 시 1시간 동안 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 2} 상태가 됩니다).</li>\n</ul>"
         }
       }
     },
@@ -3842,7 +3842,7 @@
       "items": {
         "61RVU0BzmvnLofFj": {
           "name": "소환 흡수 (Absorb Evocation)",
-          "description": "<p>로일링 인칸트는 소환 에너지로 만들어집니다. 다른 생물의 캔트립이 아닌 소환 주문에 영향을 받을 때마다, 면역이 적용된 후 @Damage[5[치유]] 체력을 회복합니다."
+          "description": "<p>로일링 인칸트는 소환 에너지로 만들어집니다. 다른 생물의 캔트립이 아닌 소환 주문에 영향을 받을 때마다, 면역이 적용된 후 @Damage[5[healing]] 체력을 회복합니다."
         },
         "hfbHiFnMOX2vWG3b": {
           "name": "삼키기 (Engulf)",

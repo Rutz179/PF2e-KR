@@ -1185,7 +1185,7 @@
         },
         "e2LjiAVfVfUif95F": {
           "name": "로완 수호대의 등대 (Beacon of the Rowan Guard)",
-          "description": "<p>40 피트.</p>\n<p>로완의 쌍둥이가 들고 있는 랜턴에는 모든 나무 정령과 공명하고 그들에게 힘을 실어주는 순수한 정령의 생명 에너지가 담겨 있습니다. 이 에너지의 영향권 내에 있는 정령 특성과 식물 특성 또는 나무 특성을 가진 생물은 빠른 치유 10과 모든 공격 및 피해 굴림에 +2의 상황 보너스를 얻습니다. 이 오라는 DC 30 체크로 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic}으로 무효화할 수 있습니다. 이렇게 하면 오라는 [[/gmr 1d6 #Rounds Deactivated]] 라운드 동안 비활성화됩니다."
+          "description": "<p>40 피트.</p>\n<p>로완의 쌍둥이가 들고 있는 랜턴에는 모든 나무 정령과 공명하고 그들에게 힘을 실어주는 순수한 정령의 생명 에너지가 담겨 있습니다. 이 에너지의 영향권 내에 있는 정령 특성과 식물 특성 또는 나무 특성을 가진 생물은 빠른 치유 10과 모든 공격 및 피해 굴림에 +2의 상황 보너스를 얻습니다. 이 오라는 DC 30 체크로 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}으로 무효화할 수 있습니다. 이렇게 하면 오라는 [[/gmr 1d6 #Rounds Deactivated]] 라운드 동안 비활성화됩니다."
         },
         "JnqnY6RCeQsgMGJZ": {
           "name": "후속 콤보 (Follow-Up Combo)",
@@ -1281,11 +1281,11 @@
         },
         "VWfouijDuiF46BuT": {
           "name": "방어적 위장 (Defensive Camouflage)",
-          "description": "<p>살아있는 숲은 @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{Hide}를 사용하여 자연 환경에서 은폐물이 없어도 숨을 수 있습니다. 숨어 있는 동안, 그 뿌리 시스템은 흙으로 안전하게 덮여 있어 숲에 AC에 +3의 상태 보너스를 부여합니다. 치명타를 맞으면 이 보호층이 깨져 바람에 흩어져 효과가 종료됩니다."
+          "description": "<p>살아있는 숲은 @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{숨기}를 사용하여 자연 환경에서 은폐물이 없어도 숨을 수 있습니다. 숨어 있는 동안, 그 뿌리 시스템은 흙으로 안전하게 덮여 있어 숲에 AC에 +3의 상태 보너스를 부여합니다. 치명타를 맞으면 이 보호층이 깨져 바람에 흩어져 효과가 종료됩니다."
         },
         "R3nQMIctYNinJLgl": {
           "name": "삼키기 (Engulf)",
-          "description": "<p>@Check[reflex|dc:22], @Damage[5d8[bludgeoning]] 피해, 탈출 DC 20, 파열 10</p>\n<p>살아있는 숲에 삼켜진 생물은 얇고 촘촘하게 얽힌 나무 줄기 사이에서 구타를 당하기 때문에 @Check[fortitude|dc:22|basic] 내성을 시도해야 합니다.</p>\n<p><strong>대성공</strong> 생물은 영향을 받지 않습니다.</p>\n<p><strong>실패 생물은 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 2} 상태가 됩니다.</p>\n<p><strong>대실패 생물은 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{기절 4} 상태가 됩니다."
+          "description": "<p>@Check[reflex|dc:22], @Damage[5d8[bludgeoning]] 피해, 탈출 DC 20, 파열 10</p>\n<p>살아있는 숲에 삼켜진 생물은 얇고 촘촘하게 얽힌 나무 줄기 사이에서 타격를 당하기 때문에 @Check[fortitude|dc:22|basic] 내성을 시도해야 합니다.</p>\n<p><strong>대성공</strong> 생물은 영향을 받지 않습니다.</p>\n<p><strong>실패 생물은 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 2} 상태가 됩니다.</p>\n<p><strong>대실패 생물은 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{기절 4} 상태가 됩니다."
         }
       }
     },
@@ -1474,7 +1474,7 @@
         },
         "64G8CZ8e4CLIjV1E": {
           "name": "Scream",
-          "description": "<p>멜로마치는 목을 찢는 듯한 귀를 찢는 울부짖음을 내뱉습니다. @Template[cone|distance:120]에 있는 모든 생물은 @Damage[7d12[sonic]]의 피해를 받고 @Check[fortitude|dc:32] 내성을 체크합니다.</p>\n<p>멜로마치는 [[/gmr 1d4 #Recharge Scream]]{1d4 라운드} 동안 다시 비명을 지를 수 없습니다. </p>\n<hr />\n<p><strong>대성공</strong> 생물은 영향을 받지 않습니다. </p>\n<p><strong>성공</strong> 생물은 절반의 피해를 받습니다.</p>\n<p><strong>실패</strong> 생물은 전체 피해를 받고, @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{기절 1} 상태가 되고, 1분 동안 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{귀머거리} 상태가 됩니다.</p>\n<p><strong>대실패</strong> 생물은 두 배의 피해를 받고, @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{기절 3} 상태가 되고, 영구적으로 귀가 먹게 됩니다."
+          "description": "<p>멜로마치는 목을 찢는 듯한 귀를 찢는 울부짖음을 내뱉습니다. @Template[cone|distance:120]에 있는 모든 생물은 @Damage[7d12[sonic]]의 피해를 받고 @Check[fortitude|dc:32] 내성을 체크합니다.</p>\n<p>멜로마치는 [[/gmr 1d4 #Recharge Scream]]{1d4 라운드} 동안 다시 비명을 지를 수 없습니다. </p>\n<hr />\n<p><strong>대성공</strong> 생물은 영향을 받지 않습니다. </p>\n<p><strong>성공</strong> 생물은 절반의 피해를 받습니다.</p>\n<p><strong>실패</strong> 생물은 전체 피해를 받고, @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{기절 1} 상태가 되고, 1분 동안 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{귀가 먼} 상태가 됩니다.</p>\n<p><strong>대실패</strong> 생물은 두 배의 피해를 받고, @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{기절 3} 상태가 되고, 영구적으로 귀가 먹게 됩니다."
         }
       }
     },
