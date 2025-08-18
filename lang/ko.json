@@ -63,21 +63,21 @@
     "AbilityWis": "지혜",
     "AccessoryPropertyRuneCalled": "호출",
     "AccessoryPropertyRuneDragonsBreath": "드래곤 브레스",
-    "AccessoryPropertyRuneGreaterPaired": "향상된 한 쌍",
-    "AccessoryPropertyRuneGreaterWindCatcher": "향상된 윈드 캐쳐",
-    "AccessoryPropertyRuneMajorPaired": "메이저 페어링",
-    "AccessoryPropertyRunePaired": "페어링",
-    "AccessoryPropertyRunePresentable": "프레젠트에이블",
-    "AccessoryPropertyRuneSnagging": "스내깅",
-    "AccessoryPropertyRuneSoftLanding": "소프트-랜딩",
+    "AccessoryPropertyRuneGreaterPaired": "연결 (상급)",
+    "AccessoryPropertyRuneGreaterWindCatcher": "윈드 캐쳐 (중급)",
+    "AccessoryPropertyRuneMajorPaired": "연결 (중급)",
+    "AccessoryPropertyRunePaired": "연결",
+    "AccessoryPropertyRunePresentable": "인상적인",
+    "AccessoryPropertyRuneSnagging": "붙잡는",
+    "AccessoryPropertyRuneSoftLanding": "가벼운 착지",
     "AccessoryPropertyRuneSpellBastion": "주문 요새",
-    "AccessoryPropertyRuneWindCatcher": "윈드 캐처",
+    "AccessoryPropertyRuneWindCatcher": "윈드 캐쳐",
     "Action": {
       "RestForTheNight": {
         "Label": "밤동안 휴식",
         "Message": {
           "Awakens": "{actor}가 충분한 휴식을 취한 상태에서 깨어납니다.",
-          "CraftingSlots": "Crafting slots restored.",
+          "CraftingSlots": "제작 슬롯이 복구되었습니다.",
           "ConditionReduced": "{condition}이 1 감소했습니다.",
           "ConditionRemoved": "더 이상 {condition}이 없습니다.",
           "FocusPoints": "집중 포인트가 회복되었습니다.",
@@ -140,14 +140,14 @@
       },
       "Attacks": "공격",
       "Character": {
-        "ABCPicker": {
-          "SearchPlaceholder": "Search {items}",
-          "Title": "{type} Selection",
-          "Tooltip": {
-            "ConfirmSelection": "Confirm Selection",
-            "ViewSheet": "View Sheet"
-          }
-        },
+                "ABCPicker": {
+                    "SearchPlaceholder": "{items} 검색",
+                    "Title": "{type} 선택",
+                    "Tooltip": {
+                        "ConfirmSelection": "선택 확인",
+                        "ViewSheet": "시트 보기"
+                    }
+                },
         "Attribute": {
           "Apex": "능력 정점",
           "Boosts": "능력 부스트",
@@ -210,19 +210,15 @@
         },
         "Crafting": {
           "Action": {
-            "Hint": "Select an item to craft using {resource} ({value}/{max})",
-            "HintResourceless": "Select an item to craft"
+            "Hint": "{resource}을(를) 사용해 제작할 아이템을 선택하세요 ({value}/{max})",
+            "HintResourceless": "제작할 아이템을 선택하세요"
           },
           "BatchQuantity": "x{quantity}",
           "Cost": "코스트",
-          "Create": "Create",
+          "Create": "제작",
           "Daily": {
-            "Complete": {
-              "OneConsumed": "일일 제작 완료: 시약 하나를 소모했습니다.",
-              "NConsumed": "일일 제작을 완료했습니다: 시약 {quantity}을 소모했습니다.",
-              "ZeroConsumed": "일일 제작 완료."
-            },
-            "Perform": "일일 제작 수행"
+              "Complete": "일일 제작이 완료되었습니다.",
+              "Perform": "일일 제작 수행"
           },
           "DecreaseQuantity": "수량 감소",
           "FreeCrafting": "무료 제작",
@@ -283,7 +279,7 @@
             "Title": "방어",
             "Unarmored": "비무장 방어"
           },
-          "HigherUpgrade": "{ability} has upgraded this proficiency's rank to {rank}."
+          "HigherUpgrade": "{ability}이(가) 이 숙련도의 등급을 {rank}(으)로 상승시켰습니다."
         },
         "Rest": {
           "Label": "밤동안 휴식"
@@ -340,7 +336,7 @@
           "drooni": "드루니",
           "dwarven": "드워븐",
           "dziriak": "디지리악",
-          "ekujae": "에쿠재 모양 스크립트",
+          "ekujae": "에쿠재",
           "elder-thing": "엘더 씽",
           "elven": "엘븐",
           "empyrean": "엠피리언",
@@ -371,7 +367,7 @@
           "kibwani": "키브와니",
           "kitsune": "키츠네",
           "kovintal": "코빈탈",
-          "lashunta": "Lashunta",
+          "lashunta": "라슌타",
           "lirgeni": "리르게니",
           "mahwek": "마웩",
           "migo": "미-고",
@@ -410,7 +406,7 @@
           "skald": "스칼드",
           "sphinx": "스핑크스",
           "strix": "스트릭스",
-          "surki": "Surki",
+          "surki": "수르키",
           "sussuran": "수수란",
           "taldane": "탈다네",
           "talican": "탈리칸",
@@ -444,8 +440,8 @@
           },
           "Label": "감각",
           "NoRangeLimit": "제한 없음",
-          "NoVision": "No Vision",
-          "Plural": "Senses",
+          "NoVision": "시야 없음",
+          "Plural": "감각들",
           "RangeLabel": "범위",
           "Type": {
             "Bloodsense": "혈액 감지",
@@ -456,15 +452,15 @@
             "InfraredVision": "적외선 시야",
             "Lifesense": "생명 감지",
             "LowLightVision": "저조도 시야",
-            "Magicsense": "Magicsense",
-            "MotionSense": "Motion Sense",
+            "Magicsense": "마법 감지",
+            "MotionSense": "동작 감지",
             "Scent": "후각",
-            "SeeInvisibility": "보이지 않는 부분 보기",
+            "SeeInvisibility": "투명체 감지",
             "Spiritsense": "스피릿센스",
             "Thoughtsense": "생각 감지",
             "Tremorsense": "진동 감지",
             "Truesight": "진시야",
-            "Vision": "Vision",
+            "Vision": "시야",
             "Wavesense": "파동 감지"
           },
           "WithAcuity": "{sense}({acuity})",
@@ -507,8 +503,8 @@
       "Dead": "죽음",
       "Familiar": {
         "Blurb": "{master}의 패밀리어",
-        "MinimumAttributeModifier": "Minimum Attribute Modifier",
-        "NoAttribute": "None (Pet)",
+        "MinimumAttributeModifier": "최소 능력치 보정치",
+        "NoAttribute": "없음 (펫)",
         "Master": {
           "ArmorClass": "마스터 아머 클래스",
           "Perception": "마스터 지각"
@@ -535,10 +531,10 @@
       },
       "Inventory": {
         "CarryType": {
-          "OpenMenu": "Change Carry Type"
+          "OpenMenu": "소지 유형 변경"
         },
         "DistributeCoins": "코인 분배",
-        "Encumbrance": "인커맨드",
+        "Encumbrance": "과적",
         "ItemQuantity": {
           "Decrease": {
             "Click": "[클릭] 1만큼 감소",
@@ -703,17 +699,17 @@
         "Resolve": "결의",
         "MythicPoints": "신화 포인트"
       },
-      "Resources": "Resources",
-      "ResourceRatio": "{value}/{max} {resource}",
-      "Vehicle": {
-        "EmitsSound": {
-          "Encounter": "During Encounters",
-          "False": "No",
-          "Hint": "Whether this vehicle is emitting sound and can be sensed via hearing.",
-          "Title": "Emitting Sound?",
-          "True": "Yes"
+        "Resources": "자원",
+        "ResourceRatio": "{value}/{max} {resource}",
+        "Vehicle": {
+          "EmitsSound": {
+            "Encounter": "전투 중",
+            "False": "아니오",
+            "Hint": "이 차량이 소리를 내어 청각으로 감지될 수 있는지 여부입니다.",
+            "Title": "소리 방출 여부",
+            "True": "예"
+          }
         }
-      }
     },
     "ActorSizeGargantuan": "매우 거대한",
     "ActorSizeHuge": "거대한",
@@ -739,21 +735,21 @@
     "AncestryFeatures": "조상 특징",
     "AncestryHP": "조상 HP",
     "Area": {
-      "InFeet": "Area (Feet)",
-      "Label": "Area",
+      "InFeet": "범위 (피트)",
+      "Label": "범위",
       "Shape": {
-        "burst": "burst",
-        "cone": "cone",
-        "cube": "cube",
-        "cylinder": "cylinder",
-        "emanation": "emanation",
-        "line": "line",
-        "square": "square"
+        "burst": "폭발",
+        "cone": "원뿔",
+        "cube": "정육면체",
+        "cylinder": "원기둥",
+        "emanation": "방출",
+        "line": "선",
+        "square": "정사각형"
       },
       "Size": {
-        "Half": "half",
-        "Mile": "mile",
-        "Quarter": "quarter"
+        "Half": "절반",
+        "Mile": "마일",
+        "Quarter": "4분의 1"
       }
     },
     "ArmorArmorLabel": "AC 보너스",
@@ -763,7 +759,6 @@
     "ArmorClassLabel": "아머 클래스",
     "ArmorClassShortLabel": "AC",
     "ArmorDexLabel": "민첩 수정치 캡",
-
     "ArmorGroupChain": "체인",
     "ArmorGroupCloth": "천",
     "ArmorGroupComposite": "합성",
@@ -771,69 +766,53 @@
     "ArmorGroupLeather": "가죽",
     "ArmorGroupPlate": "플레이트",
     "ArmorGroupSkeletal": "스켈레탈",
-    "ArmorGroupWood": "목재",
-    
+    "ArmorGroupWood": "목재",    
     "ArmorResilientRune": "내구성",
     "ArmorGreaterResilientRune": "내구성 (중급)",
     "ArmorMajorResilientRune": "내구성 (상급)",
     "ArmorMythicResilientRune": "내구성 (신화적)",
-
     "ArmorPotencyRune1": "방어력 강화(+1)",
     "ArmorPotencyRune2": "방어력 강화(+2)",
     "ArmorPotencyRune3": "방어력 강화(+3)",
     "ArmorPotencyRune4": "방어력 강화(+4)",
-
     "ArmorPropertyRuneAcidResistant": "저항_산성",
     "ArmorPropertyRuneColdResistant": "저항_냉기",
     "ArmorPropertyRuneFireResistant": "저항_화염",
     "ArmorPropertyRuneElectricityResistant": "저항_전기",
-
     "ArmorPropertyRuneGreaterAcidResistant": "저항_산성 (중급)",
     "ArmorPropertyRuneGreaterFireResistant": "저항_화염 (중급)",
     "ArmorPropertyRuneGreaterColdResistant": "저항_냉기 (중급)",
     "ArmorPropertyRuneGreaterElectricityResistant": "저항_전기 (중급)",
-
     "ArmorPropertyRuneQuenching": "담금질",    
     "ArmorPropertyRuneGreaterQuenching": "담금질 (중급)",
     "ArmorPropertyRuneMajorQuenching": "담금질 (상급)",
     "ArmorPropertyRuneTrueQuenching": "담금질 (최상급)",
-    
     "ArmorPropertyRuneAdvancing": "전진",
     "ArmorPropertyRuneGreaterAdvancing": "전진 (중급)",
-
     "ArmorPropertyRuneFortification": "요새화",
     "ArmorPropertyRuneGreaterFortification": "요새화 (중급)",
-
     "ArmorPropertyRuneInvisibility": "투명",
     "ArmorPropertyRuneGreaterInvisibility": "투명 (중급)",
-
     "ArmorPropertyRuneLesserDread": "공포 (하급)",    
     "ArmorPropertyRuneModerateDread": "공포 (보통)",
     "ArmorPropertyRuneGreaterDread": "공포 (중급)",
-
     "ArmorPropertyRuneReady": "준비",
     "ArmorPropertyRuneGreaterReady": "준비 (중급)",
-
     "ArmorPropertyRuneShadow": "그림자",
     "ArmorPropertyRuneGreaterShadow": "그림자 (중급)", 
     "ArmorPropertyRuneMajorShadow": "그림자 (상급)",
-
     "ArmorPropertyRuneSlick": "매끄러운",
     "ArmorPropertyRuneGreaterSlick": "매끄러운 (중급)",    
     "ArmorPropertyRuneMajorSlick": "매끄러운 (상급)",
-
     "ArmorPropertyRuneStanching": "봉합",
     "ArmorPropertyRuneGreaterStanching": "봉합 (중급)",   
     "ArmorPropertyRuneMajorStanching": "봉합 (상급)",    
     "ArmorPropertyRuneTrueStanching": "봉합 (최상급)",
-
     "ArmorPropertyRuneSwallowSpike": "가시",
     "ArmorPropertyRuneGreaterSwallowSpike": "가시 (중급)",
     "ArmorPropertyRuneMajorSwallowSpike": "가시 (상급)",
-
     "ArmorPropertyRuneWinged": "날개",
     "ArmorPropertyRuneGreaterWinged": "날개 (중급)",
-
     "ArmorPropertyRuneImmovable": "고정",
     "ArmorPropertyRuneImplacable": "탈출",
     "ArmorPropertyRuneMagnetizing": "자기화",
@@ -902,7 +881,7 @@
     "BiographyCampaignNotesHeader": "캠페인",
     "BiographyCatchphrases": "캐치프레이즈",
     "BiographyDislikes": "싫어하는 것",
-    "BiographyEdicts": "Edicts",
+    "BiographyEdicts": "율법",
     "BiographyEnemies": "적",
     "BiographyLikes": "좋아하는 것",
     "BiographyOrganizations": "단체",
@@ -926,6 +905,7 @@
       "dropped": "떨어뜨림",
       "held1": "한손 들기",
       "held2": "두손 들기",
+      "implanted": "삽입됨",
       "stowed": "보관",
       "worn": "착용",
       "worn-in-slot": "착용(슬롯 내)"
@@ -950,10 +930,10 @@
     "CharacterTraitsHeader": "특성 및 기타 세부 정보",
     "ChatRollDetails": {
       "ContextualOptions": {
-        "postRoll": "Post Roll Options"
+        "postRoll": "굴림 후 옵션"
       },
-      "DiceAndModifiers": "Dice and Modifiers",
-      "DiceRollOptionsHint": "Dice and modifier roll options are used when predicating DamageAlteration rule elements.",
+      "DiceAndModifiers": "주사위와 수정치",
+      "DiceRollOptionsHint": "주사위와 수정치 굴림 옵션은 피해 변경 규칙 요소를 판정할 때 사용됩니다.",
       "FlatCheckNoModifiers": "플랫 체크에는 수정치, 보너스 또는 페널티가 포함되지 않습니다.",
       "RollOptions": "롤 옵션",
       "Select": "롤 검사",
@@ -1058,15 +1038,15 @@
         "CreateDialogText": "{count} 결과로 롤 테이블을 생성하시겠습니까?",
         "CreateLabel": "롤 테이블 만들기",
         "SelectTableTitle": "롤 테이블 선택",
-        "TooManyResults": "The result list of size {size} is too large. Maximum size is {maxSize}",
+        "TooManyResults": "결과 목록 크기 {size}이(가) 너무 큽니다. 최대 크기는 {maxSize}입니다.",
         "WeightLabel": "무게"
       },
       "Settings": {
-        "OpenSettings": "Open Settings",
+        "OpenSettings": "설정 열기",
         "PacksLabel": "팩",
-        "Saved": "Settings have been saved",
+        "Saved": "설정이 저장되었습니다.",
         "SourcesLabel": "출처",
-        "Title": "Compendium Browser Settings"
+        "Title": "컴펜디엄 브라우저 설정"
       },
       "TabAction": "액션",
       "TabBestiary": "괴물 도감",
@@ -1075,8 +1055,8 @@
       "TakeLabel": "아이템 가져오기",
       "Title": "컴펜디엄 브라우저",
       "TraitsComponent": {
-        "Empty": "No options",
-        "NoMatch": "No matching options"
+        "Empty": "선택지 없음",
+        "NoMatch": "일치하는 선택지가 없습니다."
       }
     },
     "CompendiumMigrationStatus": {
@@ -1227,8 +1207,8 @@
           "ignored": "{type}에 대한 저항이 무시되었습니다!",
           "immunity": "{type}에 면역입니다: {adjustment}",
           "redirect": {
-            "immunity": "Immune to {type} (treated as {redirect}): {adjustment}",
-            "resistance": "Resistant to {type} (treated as {redirect}): {adjustment}"
+            "immunity": "{type}에 면역(→ {redirect}으로 처리): {adjustment}",
+            "resistance": "{type}에 저항(→ {redirect}으로 처리): {adjustment}"
           },
           "reduction": "{type}때문에 감소했습니다: {adjustment}",
           "resistance": "{type}에 저항력이 있습니다: {adjustment}",
@@ -1237,15 +1217,15 @@
         },
         "CompositeLabel": {
           "Simple": "{type} {value}",
-          "DoubleVs": "{type} {value} (double resistance vs. {doubleVs})",
-          "Exceptions": "{type} {value} (except {exceptions})",
-          "ExceptionsDoubleVs": "{type} {value} (except {exceptions}; double resistance vs. {doubleVs})"
+          "DoubleVs": "{type} {value} ({doubleVs}에 대해 2배 저항)",
+          "Exceptions": "{type} {value} ({exceptions} 제외)",
+          "ExceptionsDoubleVs": "{type} {value} ({exceptions} 제외; {doubleVs}에 대해 2배 저항)"
         },
         "Type": {
           "abysium": "어비슘",
           "adamantine": "아다만틴",
           "alchemical": "연금술",
-          "all-damage": "모든 대미지",
+          "all-damage": "모든 데미지",
           "arcane": "주문학",
           "area-damage": "면적 피해",
           "arrow-vulnerability": "화살 취약점",
@@ -1333,6 +1313,7 @@
           "stupefied": "혼미",
           "swarm-attacks": "군집 공격",
           "swarm-mind": "군체 의식",
+          "time": "시간",
           "trip": "넘어짐",
           "unarmed-attacks": "비무장 공격",
           "unconscious": "무의식",
@@ -1357,7 +1338,7 @@
       "IncreasedFrom": "{original}에서 최소 1로 증가했습니다",
       "Kind": {
         "Both": {
-          "Label": "Both",
+          "Label": "모두",
           "Roll": {
             "Noun": "피해/치유 굴림",
             "Verb": "굴리기 피해/치유"
@@ -1568,24 +1549,24 @@
     },
     "Environment": {
       "Type": {
-        "Aquatic": "Aquatic",
-        "Arctic": "Arctic",
-        "Desert": "Desert",
-        "Forest": "Forest",
-        "Mountain": "Mountain",
-        "Plains": "Plains",
-        "Swamp": "Swamp",
-        "Underground": "Underground",
-        "Urban": "Urban"
-      },
-      "Feature": {
-        "Crowd": "Crowd",
-        "Ice": "Ice",
-        "Lava": "Lava",
-        "Rubble": "Rubble",
-        "Sand": "Sand",
-        "Sewer": "Sewer",
-        "Snow": "Snow"
+          "Aquatic": "수중",
+          "Arctic": "극지",
+          "Desert": "사막",
+          "Forest": "숲",
+          "Mountain": "산악",
+          "Plains": "평원",
+          "Swamp": "늪지",
+          "Underground": "지하",
+          "Urban": "도시"
+        },
+        "Feature": {
+          "Crowd": "군중",
+          "Ice": "얼음",
+          "Lava": "용암",
+          "Rubble": "잔해",
+          "Sand": "모래",
+          "Sewer": "하수도",
+          "Snow": "눈"
       }
     },
     "ErrorMessage": {
@@ -1698,12 +1679,12 @@
     "InlineAction": {
       "Check": {
         "DC": "DC {dc}",
-        "StatisticVsDefense": "{statistic} vs {defense}",
-        "VsDefense": "vs {defense}"
+        "StatisticVsDefense": "{statistic} 대 {defense}",
+        "VsDefense": "{defense}에 대항"
       },
       "Warning": {
-        "InvalidAction": "Invalid Action: {slug}",
-        "UnresolvableAction": "Unresolvable Action: {slug}"
+        "InvalidAction": "잘못된 행동: {slug}",
+        "UnresolvableAction": "해결할 수 없는 행동: {slug}"
       }
     },
     "InlineCheck": {
@@ -1720,7 +1701,7 @@
       }
     },
     "InlineDamage": {
-      "Base": "Base: 기본: {formula}"
+      "Base": "기본: {formula}"
     },
     "InlineTemplateErrors": {
       "DistanceMissing": "@Template에서 오류 발생: 거리 매개변수는 필수입니다.",
@@ -1732,42 +1713,42 @@
     "InvestedLabel": "인베스팅",
     "Item": {
       "ABC": {
-        "Add": "Add",
-        "Features": "Features",
-        "InvalidDrop": "{badType}은 여기에 놓을 수 없습니다({goodType}이어야 함)"
+        "Add": "추가",
+        "Features": "특징",
+        "InvalidDrop": "{badType}은(는) 여기에 놓을 수 없습니다. {goodType}이어야 합니다."
       },
       "Ability": {
         "Category": {
-          "None": "None",
-          "Defensive": "Defensive",
-          "Interaction": "Interaction",
-          "Offensive": "Offensive",
-          "Familiar": "Familiar Ability"
+          "None": "없음",
+          "Defensive": "방어",
+          "Interaction": "상호작용",
+          "Offensive": "공격",
+          "Familiar": "펫 능력"
         },
         "CraftedItem": {
-          "Crafted": "{item} was crafted.",
-          "CraftedWithoutResources": "Crafted without required resources"
+          "Crafted": "{item}이(가) 제작되었습니다.",
+          "CraftedWithoutResources": "필요한 자원 없이 제작되었습니다."
         },
         "FIELDS": {
           "deathNote": {
-            "label": "Death Note"
+            "label": "죽음 기록"
           },
           "selfEffect": {
-            "hint": "A single effect item to be applied to the actor that uses this action",
-            "label": "Self-Applied Effect"
+            "hint": "이 행동을 사용하는 액터에게 적용되는 단일 효과 아이템",
+            "label": "자기 적용 효과"
           }
         },
-        "Plural": "Abilities",
+        "Plural": "능력",
         "SelfAppliedEffect": {
-          "Applied": "{effect} was applied.",
-          "Delete": "Delete Reference",
-          "Drop": "Drop Effect"
+          "Applied": "{effect}이(가) 적용되었습니다.",
+          "Delete": "참조 삭제",
+          "Drop": "효과 제거"
         },
         "Type": {
-          "Activity": "Activity",
-          "Free": "Free Action",
-          "Single": "Single Action",
-          "Reaction": "Reaction"
+          "Activity": "활동",
+          "Free": "자유 행동",
+          "Single": "단일 행동",
+          "Reaction": "반응"
         }
       },
       "Activation": {
@@ -1792,14 +1773,14 @@
         },
         "OnsetLabel": "습격",
         "OnsetActive": "습격 활성",
-        "Plural": "Afflictions",
+        "Plural": "고통(여러 개)",
         "SaveLabel": "내성 DC",
         "Stage": "스테이지 {stage}",
         "StageLabel": "스테이지"
       },
       "Ancestry": {
-        "DropFeatures": "Drop ancestry features here.",
-        "Plural": "Ancestries",
+        "DropFeatures": "조상 재주를 이곳에 두십시오.",
+        "Plural": "조상들",
         "Vision": {
           "Label": "시야",
           "Normal": "일반 시야"
@@ -1824,8 +1805,8 @@
           "hellknight-breastplate": "헬나이트 브레스트 플레이트",
           "hellknight-half-plate": "헬나이트 하프 플레이트",
           "hellknight-plate": "헬나이트 플레이트",
-          "hide-armor": "갑옷 숨기기",
-          "kilted-breastplate": "Kilted Breastplate",
+          "hide-armor": "가죽 갑옷",
+          "kilted-breastplate": "킬트형 가슴갑옷",
           "lamellar-breastplate": "라멜라 브레스트 플레이트",
           "lattice-armor": "격자 갑옷",
           "leaf-weave": "리프 위브",
@@ -1837,7 +1818,7 @@
           "padded-armor": "패딩 아머",
           "power-suit": "파워 슈트",
           "quilted-armor": "퀼트 아머",
-          "rattan-armor": "Rattan Armor",
+          "rattan-armor": "라탄 갑옷",
           "sankeit": "산케이트",
           "scale-mail": "스케일 메일",
           "scroll-robes": "스크롤 로브",
@@ -1848,8 +1829,9 @@
         },
         "Category": {
           "heavy-barding": "무거운 마갑",
-          "light-barding": "빛의 마갑"
+          "light-barding": "가벼운 마갑"
         },
+        "GradeOption": "{grade} (+{bonus}; 내구성 +{resilient})",
         "Rune": {
           "Resilient": {
             "Label": "내구성 룬"
@@ -1862,89 +1844,89 @@
         "UnequippedHint": "이 방어구는 장착하지 않았기 때문에 부피가 더 큽니다."
       },
       "Background": {
-        "Plural": "Backgrounds"
+        "Plural": "배경"
       },
       "CampaignFeature": {
         "CampaignLabel": "캠페인",
-        "Plural": "Campaign Features"
+        "Plural": "캠페인 기능"
       },
       "CannotAddType": "{type} 항목은 이 액터에 추가할 수 없습니다.",
       "Class": {
         "FIELDS": {
           "hp": {
-            "label": "Hit Points"
+            "label": "체력"
           },
           "perception": {
-            "label": "Perception"
+            "label": "지각"
           },
           "savingThrows": {
             "fortitude": {
-              "label": "Fortitude"
+              "label": "인내"
             },
             "reflex": {
-              "label": "Reflex"
+              "label": "반사"
             },
             "will": {
-              "label": "Will"
+              "label": "의지"
             }
           },
           "attacks": {
             "simple": {
-              "label": "Simple Weapons"
+              "label": "단순무기"
             },
             "martial": {
-              "label": "Martial Weapons"
+              "label": "무술무기"
             },
             "advanced": {
-              "label": "Advanced Weapons"
+              "label": "고급무기"
             },
             "unarmed": {
-              "label": "Unarmed Attacks"
+              "label": "비무장 공격"
             }
           },
           "defenses": {
             "light": {
-              "label": "Light Armor"
+              "label": "경갑옷"
             },
             "medium": {
-              "label": "Medium Armor"
+              "label": "평갑옷"
             },
             "heavy": {
-              "label": "Heavy Armor"
+              "label": "중갑옷"
             },
             "unarmored": {
-              "label": "Unarmored Defense"
+              "label": "비무장 방어"
             }
           },
           "spellcasting": {
-            "label": "Spell Attack Modifiers & DCs"
+            "label": "주문 공격 수정자 & DCs"
           },
           "trainedSkills": {
             "additional": {
-              "label": "Additional Skills"
+              "label": "추가 스킬들"
             }
           }
         },
-        "Plural": "Classes"
+        "Plural": "클래스들"
       },
       "Condition": {
         "Chat": {
-          "Current": "Current Conditions"
+          "Current": "현재 상태"
         },
-        "Flanked": "오프-가드(측면)",
+        "Flanked": "오프-가드",
         "PersistentDamage": {
-          "AssistedRecovery": "굴림 보조 복구",
+          "AssistedRecovery": "도움받은 복구 체크",
           "Chat": {
             "Recover": "굴림 복구 체크",
             "RecoverLabel": "회복: {name}"
           },
           "Dialog": {
             "Add": "지속 피해 추가",
-            "DamageType": "Damage Type",
+            "DamageType": "피해 유형",
             "DC": "DC",
-            "Edit": "Edit Persistent Damage",
-            "Formula": "Formula",
-            "Invalid": "Formula is invalid.",
+            "Edit": "지속 피해 수정",
+            "Formula": "공식",
+            "Invalid": "공식이 불완전합니다.",
             "Remove": "지속 피해 제거",
             "Title": "지속 피해 ({actor})"
           },
@@ -1958,27 +1940,27 @@
       },
       "Consumable": {
         "Damage": {
-          "Add": "Add Damage/Healing",
-          "Label": "Damage/Healing",
-          "Remove": "Remove Damage/Healing"
+          "Add": "피해/치유 추가",
+          "Label": "피해/치유",
+          "Remove": "피해/치유 제거"
         },
         "Category": {
-          "ammo": "Ammunition",
-          "catalyst": "Catalyst",
-          "drug": "Drug",
-          "elixir": "Elixir",
-          "fulu": "Fulu",
-          "gadget": "Gadget",
-          "mutagen": "Mutagen",
-          "oil": "Oil",
-          "other": "Other",
-          "poison": "Poison",
-          "potion": "Potion",
-          "scroll": "Scroll",
-          "snare": "Snare",
-          "talisman": "Talisman",
-          "toolkit": "Toolkit",
-          "wand": "Wand"
+          "ammo": "탄약",
+          "catalyst": "촉매",
+          "drug": "약물(Drug)",
+          "elixir": "엘릭서",
+          "fulu": "부적(풀루)",
+          "gadget": "장치",
+          "mutagen": "변이 혈청",
+          "oil": "오일",
+          "other": "기타",
+          "poison": "독",
+          "potion": "물약(포션)",
+          "scroll": "두루마리",
+          "snare": "덫",
+          "talisman": "탈리스만",
+          "toolkit": "도구 세트(툴킷)",
+          "wand": "완드"
         },
         "Plural": "소모품",
         "Uses": {
@@ -2032,7 +2014,7 @@
         "Domain": {
           "Abomination": {
             "Description": "주변 사람들에게 혐오와 공포를 심어주려고 합니다.",
-            "Label": "가증스러운"
+            "Label": "혐오"
           },
           "Air": {
             "Description": "바람과 날씨를 제어할 수 있습니다.",
@@ -2188,7 +2170,7 @@
           },
           "Might": {
             "Description": "당신의 육체적 힘은 신성한 근력에 의해 강화됩니다.",
-            "Label": "마이트"
+            "Label": "괴력"
           },
           "MightApocryphal": {
             "Description": "당신의 육체적 힘은 신성한 근력에 의해 강화됩니다. 모든 성직자 전통이 정통으로 전해지는 것은 아닙니다. 일부는 비밀리에 속삭이거나, 사제가 믿을 만한 제자에게 전수하거나, 분파가 남긴 책에 기록되어 있기도 합니다.",
@@ -2256,11 +2238,11 @@
           },
           "Sun": {
             "Description": "태양과 다른 광원의 힘을 이용해 언데드를 처치합니다.",
-            "Label": "Sun"
+            "Label": "태양"
           },
           "Swarm": {
             "Description": "수많은 생물을 제어할 수 있습니다.",
-            "Label": "스웜"
+            "Label": "무리"
           },
           "Time": {
             "Description": "시간의 흐름을 지배합니다.",
@@ -2268,7 +2250,7 @@
           },
           "Toil": {
             "Description": "끊임없이 일하고 그 어떤 것도 방해하지 않습니다.",
-            "Label": "토일"
+            "Label": "근면"
           },
           "Travel": {
             "Description": "이동과 여정에 대한 권한이 있습니다.",
@@ -2280,7 +2262,7 @@
           },
           "Trickery": {
             "Description": "다른 사람을 속이고 장난을 치는 행위입니다.",
-            "Label": "트릭"
+            "Label": "속임수"
           },
           "Truth": {
             "Description": "거짓을 꿰뚫고 진실을 발견합니다.",
@@ -2338,7 +2320,7 @@
           "Hint": "거의 모든 신은 하나의 주무기만 가지고 있지만, 몇몇 신은 주무기와 비무장 공격을 모두 가지고 있습니다.",
           "Label": "선호 무기"
         },
-        "Plural": "Deities",
+        "Plural": "신들",
         "Sanctification": {
           "Can": {
             "Holy": "신성을 선택할 수 있습니다.",
@@ -2371,7 +2353,7 @@
           },
           "Range": "범위",
           "ReevaluateFormula": {
-            "InitiativeRoll": "On Initiative Roll",
+            "InitiativeRoll": "이니셔티브를 굴릴 때",
             "Label": "재평가?",
             "Never": "절대",
             "TurnEnd": "턴 엔드",
@@ -2384,35 +2366,40 @@
           }
         },
         "Disintegrated": {
-          "Description": "Maybe it's a treatable condition.",
-          "Name": "Disintegrated"
+          "Description": "아마 치료 가능한 상태일지도 모릅니다.",
+          "Name": "분해됨"
         },
-        "Looping": "Loop back to start?",
-        "Plural": "Effects",
+        "Looping": "처음으로 되돌리겠습니까?",
+        "Plural": "효과",
         "ShowTokenIcon": "토큰 아이콘을 표시하시겠습니까?",
-        "Unidentified": "미확인?"
+        "Unidentified": "미확인"
+      },
+      "Equipment": {
+        "Category": {
+            "upgrade": "업그레이드"
+        }
       },
       "FIELDS": {
         "category": {
-          "label": "Category"
+          "label": "카테고리"
         }
       },
       "Feat": {
         "Category": {
-          "Ancestry": "Ancestry Feat",
-          "AncestryFeature": "Ancestry Feature",
-          "Bonus": "Bonus Feat",
-          "Calling": "Mythic Calling",
-          "Class": "Class Feat",
-          "ClassFeature": "Class Feature",
-          "Curse": "Deity Curse",
-          "DeityBoon": "Deity Boon",
-          "General": "General Feat",
-          "PfsBoon": "Society Boon",
-          "Skill": "Skill Feat"
+          "Ancestry": "종족 재주",
+          "AncestryFeature": "종족 특징",
+          "Bonus": "보너스 재주",
+          "Calling": "신화적 소명",
+          "Class": "클래스 재주",
+          "ClassFeature": "클래스 특징",
+          "Curse": "신의 저주",
+          "DeityBoon": "신의 은총",
+          "General": "일반 재주",
+          "PfsBoon": "협회 은총",
+          "Skill": "기술 재주"
         },
         "Info": {
-          "Added": "{item}이 {category}에 추가되었습니다."
+          "Added": "{item}이(가) {category}에 추가되었습니다."
         },
         "LevelLabel": "재주",
         "LevelN": "재주 {level}",
@@ -2420,26 +2407,26 @@
         "Plural": "재주",
         "Subfeatures": {
           "KeyAbilityOptions": {
-            "Label": "Key Attribute Options",
-            "Hint": "Key attribute options in addition to those provided by a class"
+            "Label": "핵심 능력치 선택",
+            "Hint": "클래스가 제공하는 것 외에 추가로 선택할 수 있는 핵심 능력치 옵션"
           },
-          "Label": "Subfeatures",
+          "Label": "하위 특징",
           "Languages": {
-            "OpenSlots": "Open Slots"
+            "OpenSlots": "사용 가능한 언어 슬롯"
           },
           "Proficiencies": {
-            "Label": "Proficiencies",
-            "NoOptionSelected": "Select a statistic to which the increase will be applied."
+            "Label": "숙련도",
+            "NoOptionSelected": "상승을 적용할 능력치를 선택하세요."
           },
           "SuppressedFeatures": {
-            "Label": "Suppressed Class Features",
-            "Hint": "To remove a feature from data preparation and the feats tab, drag and drop one onto this sheet."
+            "Label": "비활성화된 클래스 특징",
+            "Hint": "데이터 준비 및 재주 탭에서 특징을 제거하려면 이 시트로 끌어다 놓으세요."
           },
           "Senses": {
             "Darkvision": {
-              "Ancestry": "Grant if the character's ancestry has low-light vision.",
-              "LLV": "Grant if the character has low-light vision from any prior source.",
-              "Second": "Grant if this feat is taken a second time."
+              "Ancestry": "캐릭터 종족이 희명시야를 갖고 있다면 부여합니다.",
+              "LLV": "캐릭터가 다른 출처로 희명시야를 가지고 있다면 부여합니다.",
+              "Second": "이 재주를 두 번째로 취득했을 경우 부여합니다."
             }
           }
         },
@@ -2480,28 +2467,33 @@
         "Hint": "아이템을 분류하는 데 도움이 되는 특성 이외의 추가 태그"
       },
       "Physical": {
-        "Attach": {
-          "CraftingCheck": "Crafting Check",
-          "Detach": {
-            "Label": "Detach Item",
-            "Prompt": "Are you sure you want to detach {attachable}?"
+          "FIELDS": {
+              "grade": {
+                  "label": "등급"
+              }
           },
-          "Label": "Attach",
-          "Outcome": {
-            "Failure": "You were unable to attach {attachable}.",
-            "Success": "{attachable} is now attached to {target}."
+          "Attach": {
+            "CraftingCheck": "제작 판정",
+            "Detach": {
+              "Label": "아이템 분리",
+              "Prompt": "{attachable}을(를) 정말로 분리하시겠습니까?"
+            },
+            "Label": "부착",
+            "Outcome": {
+              "Failure": "{attachable}을(를) 부착하지 못했습니다.",
+              "Success": "{attachable}이(가) 이제 {target}에 부착되었습니다."
+            },
+            "PromptTitle": "{item} 부착",
+            "NoEligibleItem": "{attachable}을(를) 부착할 수 있는 아이템을 찾을 수 없습니다.",
+            "SidebarContextMenuOption": "아이템에 부착"
           },
-          "PromptTitle": "Attach {item}",
-          "NoEligibleItem": "No item was found that can accept {attachable} as an attachment.",
-          "SidebarContextMenuOption": "Attach to Item"
-        },
-        "Attachments": "Attachments",
-        "Base": "기본",
-        "Broken": "부러진",
-        "BrokenThreshold": {
-          "Label": "파괴 임계값",
-          "ShortLabel": "BT"
-        },
+          "Attachments": "부착물",
+          "Base": "기본",
+          "Broken": "파손됨",
+          "BrokenThreshold": {
+            "Label": "파손 임계값",
+            "ShortLabel": "BT"
+          },
         "Bulk": {
           "HeldOrStowed": "벌크(보유/보관)",
           "Label": "벌크",
@@ -2515,6 +2507,11 @@
           },
           "NLight": "{light}L",
           "WithLight": "{bulk}, {light}L"
+        },
+        "ChangeEquipmentSystem": {
+          "Title": "시스템 변경",
+          "ToPathfinder": "{removedTrait} 특성을 제거하면 이 {type}이(가) 스타파인더에서 패스파인더로 변경됩니다. 등급이 사라집니다. 계속하시겠습니까? 또는 {otherTrait}(으)로 교체할 수도 있습니다.",
+          "ToStarfinder": "{newTrait} 특성을 추가하면 이 {type}이(가) 패스파인더에서 스타파인더로 변경됩니다. 모든 룬이 사라집니다. 계속하시겠습니까?"
         },
         "Destroyed": "파괴됨",
         "FromSpell": {
@@ -2531,6 +2528,8 @@
           "Material": "{material} {base}",
           "OneProperty": "{property1} {base}",
           "OnePropertyMaterial": "{property1} {material} {base}",
+          "Grade": "{grade} {base}",
+          "GradeMaterial": "{grade} {material} {base}",
           "Potency": "+{potency} {base}",
           "PotencyFourProperties": "+{potency} {property1} {property2} {property3} {property4} {base}",
           "PotencyFourPropertiesMaterial": "+{potency} {property1} {property2} {property3} {property4} {material} {base}",
@@ -2557,6 +2556,15 @@
           "ThreePropertiesMaterial": "{property1} {property2} {property3} {material} {base}",
           "TwoProperties": "{property1} {property2} {base}",
           "TwoPropertiesMaterial": "{property1} {property2} {material} {base}"
+        },
+        "Grade": {
+            "commercial": "상용",
+            "tactical": "전술",
+            "advanced": "고급",
+            "superior": "우수",
+            "elite": "정예",
+            "ultimate": "궁극",
+            "paragon": "패러곤"
         },
         "LevelLabel": "아이템 {level}",
         "OtherTag": {
@@ -2587,14 +2595,14 @@
             "belt": "벨트",
             "beltpouch": "벨트 파우치",
             "bracelet": "팔찌",
-            "bracers": "브레이서",
+            "bracers": "팔 보호대",
             "circlet": "서클릿",
             "cloak": "망토",
             "clothing": "의류",
             "collar": "목줄",
             "crown": "크라운",
             "epaulet": "견장",
-            "eyeglasses": "Eyeglasses",
+            "eyeglasses": "안경",
             "eyepiece": "접안 렌즈",
             "footwear": "신발",
             "garment": "겉옷",
@@ -2603,7 +2611,7 @@
             "horseshoes": "말굽",
             "mask": "마스크",
             "necklace": "목걸이",
-            "onbelt": "벨트 위",
+            "onbelt": "벨트 걸이",
             "ring": "반지",
             "saddle": "안장",
             "shoes": "신발",
@@ -2613,14 +2621,14 @@
       },
       "Plural": "아이템",
       "RefreshFromCompendium": {
-        "DifferentItemType": "The compendium source for {item} ({uuid}) is of a different type than what is present on this actor.",
+        "DifferentItemType": "{item} ({uuid})의 컴펜디엄 원본이 현재 액터에 있는 아이템 유형과 다릅니다.",
         "Label": "새로 고침",
-        "SourceNotFound": "{item}(소스 ID: {sourceId})에 대한 개요 소스를 찾을 수 없습니다.",
-        "SubitemFailure": "One or more subitems on {item} ({uuid}) were unable to be refreshed.",
-        "Success": "Item \"{item}\" has been refreshed.",
+        "SourceNotFound": "{item}(소스 ID: {sourceId})의 원본 항목을 찾을 수 없습니다.",
+        "SubitemFailure": "{item} ({uuid})의 하나 이상의 하위 아이템을 새로 고칠 수 없습니다.",
+        "Success": "아이템 \"{item}\"이(가) 새로 고쳐졌습니다.",
         "Tooltip": {
-          "Disabled": "아이템 새로 고침 불가: 액터에 추가할 때 저장된 데이터를 포함합니다.",
-          "Enabled": "이 아이템의 데이터를 원래 개요의 최신 데이터로 새로 고칩니다."
+          "Disabled": "아이템을 새로 고칠 수 없음: 액터에 추가될 때 저장된 데이터를 포함합니다.",
+          "Enabled": "이 아이템의 데이터를 원래 원본의 최신 데이터로 새로 고칩니다."
         }
       },
       "RemovalPrevented": "{item}의 제거가 {preventer}에 의해 방지되었습니다.",
@@ -2638,24 +2646,24 @@
         "RegenerateSlug": "슬러그 (재)생성",
         "Remove": "규칙 요소 제거",
         "Tab": "규칙",
-        "ViewRollOptions": "View Roll Options"
+        "ViewRollOptions": "롤 옵션 보기"
       },
       "Shield": {
         "Base": {
           "buckler": "버클러",
           "casters-targe": "캐스터의 타지",
-          "dart-shield": "다트 쉴드",
+          "dart-shield": "다트 실드",
           "fortress-shield": "포트리스 실드",
           "gauntlet-buckler": "건틀릿 버클러",
-          "harnessed-shield": "하네스 쉴드",
+          "harnessed-shield": "하네스 실드",
           "heavy-rondache": "헤비 론다케",
-          "hide-shield": "하이드 쉴드",
+          "hide-shield": "하이드 실드",
           "klar": "클라르",
-          "meteor-shield": "메테오 쉴드",
+          "meteor-shield": "메테오 실드",
           "razor-disc": "레이저 디스크",
-          "salvo-shield": "살보 쉴드",
+          "salvo-shield": "살보 실드",
           "steel-shield": "강철 방패",
-          "swordstealer-shield": "소드 스틸러 쉴드",
+          "swordstealer-shield": "소드 스틸러 실드",
           "tower-shield": "타워 실드",
           "wooden-shield": "나무 방패"
         },
@@ -2699,7 +2707,8 @@
         "LineSplit": ";",
         "MeasuredTemplate": {
           "Clear": "배치된 템플릿 지우기",
-          "Place": "{area} 배치"
+          "Place": "{area} 배치",
+          "PlacementTooltip": "<strong>왼쪽 클릭</strong>: 캔버스에 위치를 고정하고 회전을 활성화합니다. 다시 클릭하면 배치됩니다.<br><strong>오른쪽 클릭</strong>: 잠금 해제 또는 취소.<br><strong>Shift</strong> 누름: 회전 없이 바로 배치.<br><strong>Ctrl</strong> 누름: 회전 중 격자 스냅 비활성화."
         },
         "Plural": "주문",
         "Rank": {
@@ -2714,8 +2723,8 @@
           "SecondaryCasters": "보조 캐스터"
         },
         "Sustained": {
-          "Duration": "Sustained for up to {maximum}",
-          "Label": "Sustained"
+          "Duration": "최대 {maximum}만큼 지속 가능",
+          "Label": "지속된"
         },
         "Variants": {
           "DeleteDialogText": "{variantName}을 삭제하시겠습니까?",
@@ -2726,13 +2735,19 @@
           "SheetTitle": "{originalName} (변형)"
         },
         "Warning": {
-          "CantripToRankedSlots": "{spell} is a cantrip and must be added to a cantrips list.",
-          "InvalidRank": "{spell} is {spellRank}, but these slots are for {targetRank}.",
-          "NonCantripToCantrips": "{spell} is not a cantrip and cannot be added to a cantrips list.",
-          "WrongSpellType": "이 시전 항목에 {type} 주문을 추가할 수 없습니다."
+            "CantripToRankedSlots": "{spell}은(는) 캔트립이므로 캔트립 목록에 추가해야 합니다.",
+            "InvalidRank": "{spell}은(는) {spellRank}이지만, 이 슬롯은 {targetRank}용입니다.",
+            "NonCantripToCantrips": "{spell}은(는) 캔트립이 아니므로 캔트립 목록에 추가할 수 없습니다.",
+            "WrongSpellType": "이 시전 항목에는 {type} 주문을 추가할 수 없습니다."
         }
       },
       "Weapon": {
+          "FIELDS": {
+              "expend": {
+                  "hint": "이 값은 해당 무기로 원거리 공격을 할 때 소비되는 탄약의 양을 나타냅니다. 다른 능력에서 행동을 완수하는 데 필요한 탄약량을 '소모'로 명시할 수 있습니다.",
+                  "label": "소모"
+              }
+          },
         "CanBeAmmo": {
           "Label": "탄약으로 사용 가능",
           "Hint": "이 무기를 다른 무기에 탄약으로 장전할 수 있음을 표시합니다."
@@ -2756,11 +2771,12 @@
           "DiceNumber": "주사위 수"
         },
         "Forceful": {
-          "Second": "Forceful 2nd Attack",
-          "Third": "Forceful 3rd+ Attack"
+          "Second": "기세(Forceful) 두번째 공격",
+          "Third": "기세(Forceful) 세번째 공격"
         },
         "FromABP": "자동 보너스 진행률이 이 무기의 {property}을 {value}으로 조정했습니다.",
         "FromMaterialAndRunes": "이 아이템의 귀중한 재료와 룬의 {property}이 {value}으로 조정되었습니다.",
+        "GradeOption": "{grade} (+{tracking}; {dice} damage dice)",
         "HandsLabel": "손",
         "MandatoryMelee": "이 무기는 근접 무기로만 사용할 수 있는 특성을 가지고 있습니다.",
         "MaterialAndRunes": {
@@ -2796,17 +2812,18 @@
         "ThrownUsage": {
           "Label": "던져진 사용법"
         },
+        "Tracking": "트래킹",
         "Twin": {
           "SecondPlus": "Twin 2nd+ Attack"
         }
       },
-      "WorldItemWarning": "이 항목은 월드 아이템이며 전서에 저장하면 작동하지 않습니다."
+      "WorldItemWarning": "이 항목은 월드 아이템이며 컴펜디움에 저장하면 작동하지 않습니다."
     },
     "ItemBonus0": "0",
     "ItemBonus1": "무기 위력 +1",
     "ItemBonus2": "무기 위력 +2",
     "ItemBonus3": "무기 위력 +3",
-    "ItemBonus4": "+4 Weapon Potency",
+    "ItemBonus4": "무기 위력 +4",
     "ItemBonusLabel": "아이템 보너스",
     "ItemBonusMinus2": "조잡한 (-2)",
     "ItemBonusShortLabel": "아이템",
@@ -2828,8 +2845,12 @@
         "Label": "GM 시야"
       },
       "PlaceWaypoint": {
-        "Hint": "Place a waypoint while using drag measurement.",
-        "Label": "Place Waypoint (Drag Measurement)"
+        "Hint": "드래그 측정을 사용하는 동안 경유지를 배치합니다.",
+        "Label": "경유지 배치 (드래그 측정)"
+      },
+      "OpenCompendiumBrowser": {
+          "Hint": "컴펜디엄 브라우저를 열거나 닫습니다.",
+          "Label": "컴펜디엄 브라우저 토글"
       },
       "TogglePartySheet": {
         "Hint": "활성 또는 (플레이어인 경우) 할당된 파티의 시트를 열거나 닫습니다.",
@@ -2840,6 +2861,10 @@
     "KitWorldItem": "이 아이템은 개요에서 찾을 수 없으며 다른 세계에서는 작동하지 않습니다",
     "LackCastConsumableCapability": "{actor}는 {spell}를 사용할 수 있는 숙련도가 부족하고 트릭 매직 아이템 재주가 없습니다.",
     "LanguagesAdditional": "추가 언어",
+    "LegalNotice": {
+        "Title": "법적 고지",
+        "Text": "이 Foundry Virtual Tabletop 시스템은 Paizo Inc.가 보유한 상표와 저작권을 사용하며, Paizo의 커뮤니티 이용 정책(<a href=\"https://paizo.com/community/communityuse\" target=\"_blank\">paizo.com/communityuse</a>)에 따라 사용됩니다. 우리는 여러분이 이 콘텐츠를 사용하거나 접근하는 데 요금을 부과하는 것이 명시적으로 금지되어 있습니다. 이 FoundryVTT 시스템은 Paizo에 의해 출판, 보증 또는 공식 승인된 것이 아닙니다. Paizo Inc. 및 그 제품에 대한 더 많은 정보를 원하시면 <a href=\"https://paizo.com/\" target=\"_blank\">paizo.com</a>을 방문하세요."
+    },
     "Level1": "레벨 1",
     "Level10": "레벨 10",
     "Level11": "레벨 11",
@@ -2853,11 +2878,11 @@
     "Level19": "레벨 19",
     "Level2": "레벨 2",
     "Level20": "20레벨",
-    "Level21": "Level 21",
-    "Level22": "Level 22",
-    "Level23": "Level 23",
-    "Level24": "Level 24",
-    "Level25": "Level 25",
+    "Level21": "레벨 21",
+    "Level22": "레벨 22",
+    "Level23": "레벨 23",
+    "Level24": "레벨 24",
+    "Level25": "레벨 25",
     "Level3": "레벨 3",
     "Level4": "레벨 4",
     "Level5": "레벨 5",
@@ -2868,10 +2893,6 @@
     "LevelLabel": "레벨",
     "LevelN": "레벨 {level}",
     "LevelRange": "{minLevel} - {level} 레벨",
-    "LicenseViewer": {
-      "Label": "법적 고지",
-      "LandingPageText": "위의 탭을 사용하여 법률 정보를 읽어보세요."
-    },
     "ListPartsAnd": {
       "end": "{first} 및 {second}",
       "middle": "{first}, {second}",
@@ -2895,21 +2916,21 @@
         "On": "ON"
       },
       "Plural": "매크로",
-      "NoCompendiumItem": "효과나 조건이 아닌 개요 항목에서는 매크로를 만들 수 없습니다."
+      "NoCompendiumItem": "효과나 조건이 아닌 컴펜디엄에서는 매크로를 만들 수 없습니다."
     },
     "MacroActionNoActionError": "이 액션은 더 이상 존재하지 않습니다!",
     "MacroActionNoActorError": "이 액터는 더 이상 존재하지 않습니다!",
     "MagicTraditionLabel": "마법 전통",
     "MagicTraditionUseSpellLabel": "주문 전통 사용",
     "MasterAbility": {
-      "cha": "마스터 카리스마",
+      "cha": "마스터 매력",
       "con": "마스터 건강",
       "dex": "마스터 민첩",
       "int": "마스터 지능",
       "str": "마스터 근력",
       "wis": "마스터 지혜"
     },
-    "MasterArmorClass": "마스터 아머 클래스 {base}",
+    "MasterArmorClass": "마스터 방어력 {base}",
     "MasterLevel": "마스터 레벨",
     "MasterSavingThrow": {
       "fortitude": "마스터 인내",
@@ -3178,8 +3199,8 @@
     "PreciousMaterialDjezetDescription": "이 녹붉은 금속은 상온에서 액체이기 때문에 가장 숙련된 야금술사 외에는 다루기 어렵고, 일부 지역에서는 '퀵아이언'이라는 별명을 얻기도 했습니다. 또한 디제트는 단단하고 가공 가능한 합금 형태일지라도 마법에 매우 민감하게 반응합니다. 마법의 대상이 되면 빛을 발하며, 디제트 합금으로 제작한 물체는 주홍색 줄무늬로 빛나기 때문에 일부 대장장이들은 \"호랑이 철\"이라는 별명을 붙였습니다. 주문의 대상이 되면 디제트 합금으로 제작한 물체는 1라운드 또는 주문 지속 시간 중 더 긴 시간 동안 이 빛나는 붉은 표시가 나타납니다. 디제트 덩어리에는 최대 두 번의 디제트로 정제할 수 있을 만큼의 디제트가 들어 있습니다.",
     "PreciousMaterialDragonhide": "드래곤가죽",
     "PreciousMaterialDragonhideDescription": "용의 가죽과 비늘은 보통 일반 가죽이나 가죽으로 만든 모든 아이템을 제작하는 데 사용할 수 있습니다. 드래곤 가죽은 드래곤에 따라 푸른색부터 반짝이는 금색까지 다양한 색을 띠고 있습니다. 비늘의 탄력성 덕분에 보통 플레이트(브레스트 플레이트, 하프 플레이트, 풀 플레이트 등)로 제작하는 방어구에도 사용할 수 있어, 금속 없이도 방어구를 제작할 수 있습니다. 드래곤 가죽 물체는 드래곤의 종류에 따라 한 가지 피해 유형에 면역입니다.",
-    "PreciousMaterialDreamweb": "Dreamweb",
-    "PreciousMaterialDreamwebDescription": "Made from the webs spun from the thorax of the Weaver of Webs herself, dreamweb offers a number of mystic benefits. Cloth items and rope made from dream web have Hardness 4 with 12 HP per inch and a break DC of 16. Light armor made from dream web is lighter than normal cloth or leather: the armor's Bulk is reduced by 1 (reduced to light Bulk if the armor's normal Bulk is 1, with no effect on an item that normally has light Bulk). Light armor made from dream web grants the wearer poison resistance equal to 3 plus the value of its armor potency rune.",
+    "PreciousMaterialDreamweb": "드림웹",
+    "PreciousMaterialDreamwebDescription": "거미줄의 직조자 자신이 가슴에서 뽑아내는 실로 만들어진 드림웹은 여러 가지 신비한 효과를 제공합니다. 드림웹으로 만든 옷감 아이템과 밧줄은 경도 4, 인치당 HP 12, 파괴 DC 16을 가집니다. 드림웹으로 만든 경갑은 일반 천이나 가죽보다 가볍습니다. 방어구의 부피가 1만큼 줄어들며(기존 부피가 1이라면 가벼운 부피로 감소하며, 이미 가벼운 부피인 경우에는 변화가 없습니다). 드림웹으로 만든 경갑은 착용자에게 '방어구 강화 룬'의 수치에 3을 더한 만큼의 독 저항을 부여합니다.",
     "PreciousMaterialDuskwood": "더스크우드",
     "PreciousMaterialDuskwoodDescription": "더스크우드는 아비스탄 중남부의 오래된 숲에서 주로 발견되는 매우 가벼운 목재로, 흑단처럼 어둡지만 약간의 보라색을 띠고 있습니다. 더스크우드 아이템의 부피는 1 감소합니다(또는 일반 부피가 1인 경우 가벼운 부피로 감소하며, 일반 부피가 가벼운 아이템에는 영향을 미치지 않습니다). 더스크우드로 만든 아이템의 가격은 더스크우드로 만들어져 감소한 부피가 아닌 아이템의 일반 부피를 기준으로 책정되지만, 아이템의 크기에 따라 부피를 추가로 조정하기 전에 먼저 부피를 줄이세요.",
     "PreciousMaterialGradeLabel": "귀중한 소재 등급",
@@ -3206,8 +3227,8 @@
     "PreciousMaterialSisterstoneDescription": "자매석은 처녀의 들판에서 영적 유출에 의해 주입된 밀접한 관련이 있는 두 광석, 황혼의 자매석과 주홍의 자매석을 일컫는 용어입니다. 황혼 자매석은 옅은 주황색이고 주홍 자매석은 주황색-빨간색이라는 색상을 제외하면 물리적 특성은 동일합니다. 다른 유형의 자매석으로 만들어진 물체 근처에 있으면 둘 다 언데드를 격퇴하는 영적인 에너지를 발산하기 시작합니다.",
     "PreciousMaterialSisterstoneDusk": "자매석 (황혼)",
     "PreciousMaterialSisterstoneScarlet": "자매석 (주홍색)",
-    "PreciousMaterialSloughstone": "Sloughstone",
-    "PreciousMaterialSloughstoneDescription": "Weapons made from sloughstone exploit Verex-That-Was's hatred of his unwilling transformation, turning his own flesh against him. Processing sloughstone is difficult and unpleasant, increasing the DC to craft an item with the material by 4. Structures can't be made out of sloughstone.",
+    "PreciousMaterialSloughstone": "슬라우스톤",
+    "PreciousMaterialSloughstoneDescription": "슬라우스톤으로 제작된 무기는 베렉스-댓-워즈가 강제로 겪은 변신에 대한 증오를 이용하여, 그의 살을 그 자신에게 맞서게 만듭니다. 슬라우스톤을 가공하는 것은 어렵고 불쾌하여, 이 소재로 아이템을 제작할 때의 DC가 4만큼 증가합니다. 건축물은 슬라우스톤으로 만들 수 없습니다.",
     "PreciousMaterialSovereignSteel": "소버린 스틸",
     "PreciousMaterialSovereignSteelDescription": "블랙 소버린 케보스 쿨이 만든 이 독특한 콜드 아이언과 스카이메탈 노퀄의 합금은 마법의 공격으로부터 보호할 수 있습니다. 두 재료를 함께 냉간 단조하는 과정은 매우 복잡하고 정밀합니다. 소버린 스틸 무기와 방어구를 찾는 캐릭터는 이 희귀 합금으로 만든 장비를 구하기 위해 스타폴로 이동해야 할 것입니다. 소버린 스틸로 방패도 만들 수 있다고 믿는 사람도 있지만, 케보스 쿨은 소버린 스틸 방패는 쓸모가 없다고 소리치며 누구도 그런 방패를 만들지 못하도록 금지했습니다. 지금까지 그의 대장장이들은 너무 두려워서 농담인지 아닌지 확인하지 못했습니다. 모든 주권 강철 아이템(아래 무기 및 방어구 포함)은 아이템이 만드는 마법에 대한 방어력에 상황 보너스 +4를 부여하며, 소유자가 마법으로부터 아이템을 보호하기 위해 특별히 만드는 방어력(예: 녹슨 손아귀 주문에 대한 방어력)에도 보너스를 부여합니다.",
     "PreciousMaterialStandardGrade": "표준 등급",
@@ -3266,24 +3287,7 @@
       "LoreVeryEasy": "적용 가능한 지식(매우 쉬움)",
       "SecondAttempt": "2nd DC",
       "SixthAttempt": "6th DC",
-      "Skill": {
-        "Acrobatics": "곡예",
-        "Arcana": "주문학",
-        "Athletics": "운동",
-        "Crafting": "제작",
-        "Deception": "기만",
-        "Diplomacy": "외교",
-        "Intimidation": "협박",
-        "Medicine": "의료",
-        "Nature": "자연",
-        "Occultism": "오컬티즘",
-        "Performance": "공연",
-        "Religion": "종교학",
-        "Society": "사회학",
-        "Stealth": "은신",
-        "Survival": "생존",
-        "Thievery": "도둑질"
-      },
+      "Skill": "기술",
       "ThirdAttempt": "3rd DC"
     },
     "Recovery": {
@@ -3297,36 +3301,36 @@
       "Environment": {
         "Mode": {
           "Add": {
-            "Label": "Add"
+            "Label": "추가"
           },
-          "Hint": "Set the mode for this terrain behavior. Either adds the selected types to the existing environment types, removes the selected types from the existing types or overrides the existing types with the selected types.",
-          "Label": "Mode",
+          "Hint": "이 지형 동작의 모드를 설정합니다. 선택한 유형을 기존 환경 유형에 추가하거나, 기존 유형에서 제거하거나, 선택한 유형으로 기존 유형을 덮어씁니다.",
+          "Label": "모드",
           "Override": {
-            "Label": "Override"
+            "Label": "덮어쓰기"
           },
           "Remove": {
-            "Label": "Remove"
+            "Label": "제거"
           }
         },
-        "Label": "Environment",
+        "Label": "환경",
         "RegionLegend": {
-          "Header": "Scene Defaults",
-          "SceneRegionsHeader": "Scene Regions"
+          "Header": "장면 기본값",
+          "SceneRegionsHeader": "장면 영역"
         },
         "Type": {
-          "Hint": "One or more environment types for this scene region.",
-          "Label": "Environment",
-          "SceneHint": "Specify one or more environment types for the entire scene."
+          "Hint": "이 장면 영역에 하나 이상의 환경 유형을 지정합니다.",
+          "Label": "환경",
+          "SceneHint": "장면 전체에 적용할 하나 이상의 환경 유형을 지정합니다."
         }
       },
       "EnvironmentFeature": {
-        "Label": "Environment Feature",
+        "Label": "환경 요소",
         "Terrain": {
           "Difficult": {
-            "Difficult": "Difficult",
-            "Greater": "Greater Difficult",
-            "Label": "Difficult Terrain",
-            "None": "None"
+            "Difficult": "어려운",
+            "Greater": "더 어려운",
+            "Label": "험난한 지형",
+            "None": "없음"
           }
         }
       }
@@ -3354,6 +3358,8 @@
         "new": "리롤하고 새 결과 유지",
         "lower": "리롤하여 더 낮은 결과 유지"
       },
+      "MessageMythicPoints": "신화 포인트를 사용해 다시 굴렸습니다.",
+      "MythicPoint": "신화 포인트를 사용해 다시 굴리기",
       "WarnNoHeroPoint": "{name}에 영웅 포인트가 없습니다."
     },
     "ResistancesLabel": "저항",
@@ -3488,11 +3494,11 @@
         "Name": "죽음 아이콘"
       },
       "DragMeasurement": {
-        "Always": "Always",
-        "Encounters": "During Encounters",
-        "Hint": "Measure distance traveled when dragging a token without the need for holding down another key. Waypoints are placed by pressing the \"{key}\" key and removed by right-clicking.",
-        "Name": "Drag Measurement",
-        "Never": "Never"
+        "Always": "항상",
+        "Encounters": "전투 중",
+        "Hint": "토큰을 드래그할 때 다른 키를 누르지 않고도 이동 거리를 측정합니다. \"{key}\" 키를 눌러 경유지를 배치하고, 오른쪽 클릭으로 제거합니다.",
+        "Name": "드래그 측정",
+        "Never": "사용 안 함"
       },
       "EnabledDisabled": {
         "Enabled": "활성화됨",
@@ -3501,12 +3507,12 @@
       },
       "Homebrew": {
         "ArmorGroups": {
-          "Hint": "The mid level of Pathfinder 2e armor taxonomy (e.g, Plate, Chain)",
-          "Name": "Armor Groups"
+        "Hint": "패스파인더 2판 방어구 분류의 중간 단계 (예: 판금, 사슬)",
+        "Name": "방어구 그룹"
         },
-        "BaseArmors": {
-          "Hint": "The bottom level of Pathfinder 2e armor taxonomy (e.g, Full Plate, Chain Mail)",
-          "Name": "Armor Base Types"
+      "BaseArmors": {
+        "Hint": "패스파인더 2판 방어구 분류의 하위 단계 (예: 풀 플레이트, 체인 메일)",
+        "Name": "방어구 기본 유형"
         },
         "BaseWeapons": {
           "Hint": "패스파인더 2e 무기 분류의 최하위 레벨(예: 중쇠뇌, 롱소드)",
@@ -3515,6 +3521,10 @@
         "ConfirmDelete": {
           "Message": "홈브루 요소 삭제 <strong>{element}</strong>?",
           "Title": "홈브루 요소를 삭제하시겠습니까?"
+        },
+        "ClassTraits": {
+        "Hint": "개별 클래스를 참조하는 특성",
+        "Name": "클래스 특성"
         },
         "CreatureTraits": {
           "Hint": "모든 생물과 일부 아이템 유형(예: 드래곤, 노움)에 적용할 수 있는 특성입니다.",
@@ -3546,31 +3556,31 @@
           "Hint": "캐릭터가 알거나 배울 수 있는 언어(예: 드라코닉, 노미쉬)",
           "Name": "언어",
           "Rarities": {
-            "Common": "<rarity>Common</rarity> Languages",
-            "Name": "Language Rarities",
-            "Rare": "<rarity>Rare</rarity> Languages",
-            "Secret": "<rarity>Secret</rarity> Languages",
+            "Common": "<rarity>일반</rarity> 언어",
+            "Name": "언어 희귀도",
+            "Rare": "<rarity>희귀</rarity> 언어",
+            "Secret": "<rarity>비밀</rarity> 언어",
             "Unavailable": {
-              "Hint": "Languages not available for use on any creature in this world",
-              "Label": "Unavailable Languages"
+              "Hint": "이 세계의 어떤 크리처도 사용할 수 없는 언어",
+              "Label": "사용 불가 언어"
             },
-            "Uncommon": "<rarity>Uncommon</rarity> Languages"
+            "Uncommon": "<rarity>비일반</rarity> 언어"
           }
         },
         "Name": "홈브루 요소",
         "ReservedTerm": "\"{term}\"는 예약 용어입니다.",
         "ShieldTraits": {
-          "Hint": "Traits that can be applied to shields",
-          "Name": "Shield Traits"
+            "Hint": "방패에 적용할 수 있는 특성",
+            "Name": "방패 특성"
         },
         "SpellTraits": {
           "Hint": "모든 주문에 적용할 수 있는 특성(예: 저주 묶음, 치유)",
           "Name": "주문 특성"
         },
         "Tabs": {
-          "Campaign": "Campaign",
+          "Campaign": "캠페인",
           "Damage": "피해 유형",
-          "Taxonomies": "Gear Taxonomies",
+          "Taxonomies": "장비 분류",
           "Traits": "특성 및 카테고리"
         },
         "WeaponCategories": {
@@ -3601,8 +3611,8 @@
         "Label": "메타게임 정보 제한",
         "Name": "메타게임 정보",
         "SecretChecks": {
-          "Hint": "Players can see rolls with the Secret trait in chat.",
-          "Name": "Show Secret Checks"
+          "Hint": "플레이어가 채팅에서 비밀 특성이 붙은 굴림을 볼 수 있습니다.",
+          "Name": "비밀 판정 표시"
         },
         "ShowDC": {
           "Hint": "플레이어는 NPC 및 기타 플레이어 소유가 아닌 소스에 대한 체크의 DC를 확인할 수 있습니다.",
@@ -3613,8 +3623,8 @@
           "Name": "체크 아웃 결과 보기"
         },
         "ShowBreakdowns": {
-          "Hint": "Players can see the constituent and total modifiers of rolls made by NPCs and other non-player-owned actors.",
-          "Name": "Show Roll Breakdowns"
+          "Hint": "플레이어가 NPC 및 다른 비플레이어 소유 액터의 굴림에 대한 구성 요소와 총 수정치를 볼 수 있습니다.",
+          "Name": "굴림 내역 표시"
         },
         "SecretCondition": {
           "Hint": "GM만 NPC 및 기타 플레이어 소유가 아닌 액터의 상태 업데이트 및 알림 메시지를 볼 수 있습니다.",
@@ -3638,8 +3648,8 @@
         }
       },
       "MinimumRulesUI": {
-        "Hint": "The minimum role required to see and utilize the rule elements panel on item sheets.",
-        "Name": "Minimum Rule Elements Access Role"
+        "Hint": "아이템 시트에서 규칙 요소 패널을 보고 활용하기 위해 필요한 최소 역할입니다.",
+        "Name": "규칙 요소 접근 최소 역할"
       },
       "NathMode": {
         "Hint": "더 나은 기본 토큰 아이콘 사용",
@@ -3695,11 +3705,11 @@
         "Label": "변형 규칙 토글",
         "Mythic": {
           "Hint": "신화적 소명, 피트, 운명을 할당할 수 있게 합니다. Alternate Mythic Rules에 발표된 Alternate Mythic Progression은 캐릭터가 레벨을 올리는 것과 별개로 독립적으로 발전하도록 설정합니다.",
-          "Name": "Mythic Rules",
+          "Name": "신화 규칙",
           "Choices": {
-            "disabled": "Disabled",
-            "enabled": "Enabled",
-            "variant-tiers": "Alternate Mythic Progression"
+            "disabled": "비활성화",
+            "enabled": "활성화",
+            "variant-tiers": "대체 신화 진행"
           }
         },
         "Name": "변형 규칙",
@@ -3716,10 +3726,10 @@
       },
       "WorldClock": {
         "DateThemes": {
-          "AD": "Earth (Gregorian Calendar)",
-          "AR": "Golarion (Absalom Reckoning)",
-          "CE": "Unthemed (Gregorian Calendar)",
-          "IC": "Golarion (Imperial Calendar)"
+            "AD": "지구 (그레고리력)",
+            "AR": "골라리온 (앱살롬 연호)",
+            "CE": "테마 없음 (그레고리력)",
+            "IC": "골라리온 (제국력)"
         },
         "Hint": "세계 시계 애플리케이션의 모양을 구성합니다.",
         "Label": "세계 시계 구성",
@@ -3739,24 +3749,24 @@
         },
         "FIELDS": {
           "dateTheme": {
-            "hint": "Set the theme of the World Clock application.",
-            "label": "Date Theme"
+            "hint": "월드 시계 애플리케이션의 테마를 설정합니다.",
+            "label": "날짜 테마"
           },
           "playersCanView": {
-            "hint": "Set whether players can view the World Clock.",
-            "label": "Player Access"
+            "hint": "플레이어가 월드 시계을 볼 수 있는지 여부를 설정합니다.",
+            "label": "플레이어 접근"
           },
           "showClockButton": {
-            "hint": "Set whether to show the clock button at all (requires refresh).",
-            "label": "Show Clock Button"
+            "hint": "시계 버튼을 표시할지 여부를 설정합니다 (새로 고침 필요).",
+            "label": "시계 버튼 표시"
           },
           "syncDarkness": {
-            "hint": "Set whether any scene's Darkness Level will reflect the time of day.",
-            "label": "Synchronize Darkness"
+            "hint": "장면의 어둠 수준이 시간대에 반영되도록 설정합니다.",
+            "label": "어둠 동기화"
           },
           "timeConvention": {
-            "hint": "Display either a 24-hour or 12-hour clock.",
-            "label": "Time Convention"
+            "hint": "24시간제 또는 12시간제를 표시합니다.",
+            "label": "시간 표기 방식"
           }
         }
       },
@@ -3803,8 +3813,9 @@
         "Unlimited": "무제한"
       },
       "SyncDarkness": {
-        "Label": "Synchronize Darkness to Time",
-        "Hint": "When the time of day changes in this scene, automatically adjust the darkness level to match (darker toward evening hours, lighter toward daytime)."
+        "Label": "시간과 어둠 동기화",
+        "ManagedBy": "<wt>월드 시간</wt>과 동기화됨.",
+        "Hint": "이 장면의 시간대가 변경되면, 어둠 수준이 자동으로 조정되어 저녁에는 더 어둡게, 낮 시간대에는 더 밝게 설정됩니다."
       }
     },
     "ScoreTitle": "점수",
@@ -3972,6 +3983,7 @@
     "Token": {
       "ActorLinkForced": "{type} actors cannot be unlinked.",
       "Appearance": "모양",
+      "Distance": "거리: {distance}ft",
       "Flanking": "측면",
       "SecretDisposition": {
         "Label": "비밀 처리",
@@ -4001,14 +4013,15 @@
     "TraitAdjustment": "조정",
     "TraitAeon": "이온",
     "TraitAesir": "아지르",
+    "TraitAffixedOrHeldInOneHand": "부착하거나 한손으로 들어야 합니다",
     "TraitAffixedToAMetalWeapon": "금속 무기에 부착",
-    "TraitAffixedToAOneHandedFirearmOrHandCrossbow": "Affixed to a One-Handed Firearm or Hand Crossbow",
+    "TraitAffixedToAOneHandedFirearmOrHandCrossbow": "한 손으로 사용하는 화기 또는 손에 들고 사용하는 활에 부착된",
     "TraitAffixedToARangedWeapon": "원거리 무기에 부착",
     "TraitAffixedToAShield": "방패에 부착",
     "TraitAffixedToAShieldOrWeapon": "방패 또는 무기에 부착됨",
     "TraitAffixedToATwoHandedFirearmOrCrossbow": "양손 총기 또는 쇠뇌에 부착 가능",
     "TraitAffixedToArmor": "갑옷에 부착",
-    "TraitAffixedToArmorShieldOrWeapon": "Affixed to Armor, Shield, or Weapon",
+    "TraitAffixedToArmorShieldOrWeapon": "갑옷, 방패, 또는 무기에 부착된",
     "TraitAffixedToArmorOrAWeapon": "방어구 또는 무기에 부착됨",
     "TraitAffixedToArmorOrTravelersClothing": "갑옷 또는 여행자 의복에 부착 가능",
     "TraitAffixedToCreature": "생물에 부착",
@@ -4028,14 +4041,14 @@
     "TraitAffixedToMediumHeavyArmor": "중갑옷 또는 평갑옷에 부착",
     "TraitAffixedToMediumHeavyMetalArmor": "미디움 또는 해비 메탈 어미에 부착 가능",
     "TraitAffixedToMeleeWeapon": "근접 무기에 부착",
-    "TraitAffixedToMetalArmorOrAWeapon": "Affixed to Metal Armor or a Weapon",
+    "TraitAffixedToMetalArmorOrAWeapon": "금속 갑옷이나 무기에 부착된",
     "TraitAffixedToMetalWeapon": "금속 무기에 부착",
-    "TraitAffixedToNMArmorOrAWeapon": "Affixed to Non-Metal Armor or a Weapon",
+    "TraitAffixedToNMArmorOrAWeapon": "비금속 방어구 또는 무기에 부착된",
     "TraitAffixedToObjectOrStructure": "개체 또는 구조물에 부착",
     "TraitAffixedToStructureObjectOrCreature": "구조물, 개체 또는 생물에 부착됨",
     "TraitAffixedToThrownWeapon": "투척 무기에 부착",
     "TraitAffixedToUnarmoredItem": "비무장 방어 아이템에 부착",
-    "TraitAffixedToWall": "Affixed to Wall",
+    "TraitAffixedToWall": "벽에 부착",
     "TraitAffixedToWeapon": "무기에 부착",
     "TraitAftermath": "여파",
     "TraitAgathion": "아가시온",
@@ -4047,14 +4060,15 @@
     "TraitAmp": "증폭",
     "TraitAmphibious": "수륙양용",
     "TraitAnadi": "아나디",
+    "TraitAnalog": "아날로그",
     "TraitAndroid": "안드로이드",
     "TraitAngel": "천사",
     "TraitAnimal": "동물",
-    "TraitAnimist": "Animist",
+    "TraitAnimist": "애니미스트",
     "TraitAnugobu": "아누고부",
     "TraitApex": "에이펙스",
     "TraitAphorite": "아포라이트",
-    "TraitApparition": "Apparition",
+    "TraitApparition": "출현",
     "TraitAppliedToANoninjectionMeleePiercingWeapon": "관통 피해를 주는 비주사식 근접 무기에 적용됩니다.",
     "TraitAppliedToAWindPoweredVehicle": "풍력 차량에 적용",
     "TraitAppliedToAWeapon": "무기에 적용",
@@ -4074,13 +4088,13 @@
     "TraitAquatic": "아쿠아틱",
     "TraitArcane": "아케인",
     "TraitArchetype": "아키타입",
-    "TraitArchon": "집정관",
+    "TraitArchon": "아콘",
     "TraitArdande": "아르단드",
     "TraitAreaDamage": "면적 피해",
     "TraitArtifact": "아티팩트",
     "TraitAstral": "아스트랄",
     "TraitAsura": "아수라",
-    "TraitAthamaru": "Athamaru",
+    "TraitAthamaru": "아타마루",
     "TraitAttached": "부착됨",
     "TraitAttachedToAThrownWeapon": "투척 무기에 부착",
     "TraitAttachedToCrossbowOrFirearm": "쇠뇌 또는 총기에 부착",
@@ -4089,14 +4103,14 @@
     "TraitAttachedToFirearm": "총기에 부착",
     "TraitAttachedToFirearmFiringMechanism": "총기에 부착(발사 메커니즘)",
     "TraitAttachedToFirearmScope": "총기에 부착(조준경)",
-    "TraitAttachedToMeleeWeapon": "Attached to a Melee Weapon",
+    "TraitAttachedToMeleeWeapon": "근접 무기에 부착",
     "TraitAttachedToShield": "방패에 부착",
     "TraitAttachedToShipsBow": "선박의 뱃머리에 부착",
     "TraitAttack": "공격",
     "TraitAuditory": "청각",
     "TraitAura": "아우라",
     "TraitAutomaton": "오토마톤",
-    "TraitAwakenedAnimal": "Awakened Animal",
+    "TraitAwakenedAnimal": "깨어난 동물",
     "TraitAzarketi": "아자케티",
     "TraitAzata": "아자타",
     "TraitBackstabber": "백스태버",
@@ -4108,18 +4122,19 @@
     "TraitBeastkin": "비스트킨",
     "TraitBleed": "출혈",
     "TraitBludgeoning": "타격",
-    "TraitBlight": "Blight",
+    "TraitBlight": "병해",
     "TraitBoggard": "보가드",
     "TraitBomb": "폭탄",
     "TraitBonded": "유대",
     "TraitBottledBreath": "보틀 브레스",
     "TraitBrace": "부목",
+    "TraitBrandish": "Brandish",
     "TraitBravado": "Bravado",
     "TraitBrutal": "잔인한",
-    "TraitBugbear": "Bugbear",
+    "TraitBugbear": "버그베어",
     "TraitBulwark": "방어벽",
     "TraitCaligni": "칼리니",
-    "TraitCalling": "Calling",
+    "TraitCalling": "호출",
     "TraitCantrip": "캔트립",
     "TraitCapacity": "용량",
     "TraitCapacity2": "용량 2",
@@ -4131,7 +4146,7 @@
     "TraitCatfolk": "캣포크",
     "TraitCelestial": "셀레스티얼",
     "TraitCenser": "향로",
-    "TraitCentaur": "Centaur",
+    "TraitCentaur": "켄타우루스",
     "TraitCertainKill": "Certain Kill",
     "TraitChampion": "챔피언",
     "TraitChangeling": "체인질링",
@@ -4141,10 +4156,11 @@
     "TraitClimbing": "클라이밍",
     "TraitClockwork": "시계장치",
     "TraitCobbled": "코볼드",
-    "TraitCoagulant": "Coagulant",
+    "TraitCoagulant": "응고제",
     "TraitCoda": "코다",
     "TraitCold": "추위",
     "TraitColdiron": "콜드 아이언",
+    "TraitCommander": "커맨더",
     "TraitCombination": "조합",
     "TraitComfort": "편안함",
     "TraitCommon": "흔한",
@@ -4211,6 +4227,7 @@
     "TraitDescriptionAmp": "증폭은 초능력의 속성을 수정치 않는 특별한 사고방식입니다. 사이 캔트립은 각각 고유한 앰프를 가지고 있으며, 앰프 특성을 가진 재주는 일반 앰프를 대신해 사이 캔트립에 적용할 수 있는 다른 앰프를 제공합니다.",
     "TraitDescriptionAmphibious": "수륙양용 생물은 물과 공기 중에서 호흡할 수 있으며, 선호하는 환경이 아닌 곳에서도 보통 무한정, 적어도 몇 시간 동안 호흡할 수 있습니다. 이 생명체는 종종 수영 속도가 빠릅니다. 비무장 상태에서 내리치기와 베기 공격은 물속에 있을 때 받는 일반적인 -2 불이익을 받지 않습니다.",
     "TraitDescriptionAnadi": "거미를 닮았으며 인간의 모습을 취할 수 있는 가룬드 출신의 은둔형 외톨이 민족입니다.",
+    "TraitDescriptionAnalog": "이 무기는 첨단 전자 장치, 컴퓨터 시스템 및 전기 동력원을 사용하지 않지만, 첨단 기술을 사용하여 제조 및 보정되었습니다. 이 무기는 기술을 대상으로 하는 능력에 영향을 받지 않습니다. 이 무기에 고대 특성이 없는 한, 무기 룬은 이 무기에 작동하지 않습니다.",
     "TraitDescriptionAndroid": "인공적인 방법으로 만들어진 합성 휴머노이드 조상. 누메리아에서 가장 흔합니다.",
     "TraitDescriptionAngel": "이 천사족은 메신저이자 전사입니다. 대부분의 천사들은 성스럽고 어둠 시야를 가지고 있으며, 성스럽지 않은 것에 약점을 가지고 있습니다.",
     "TraitDescriptionAnimal": "동물은 지능이 비교적 낮은 생물입니다. 일반적으로 지능 속성 수정자가 -4 이상은 아니며, 언어를 말하지 못하고, 지능 기반 스킬을 훈련받을 수 없습니다.",
@@ -4226,6 +4243,7 @@
     "TraitDescriptionArchetype": "이 재주는 아키타입에 속합니다.",
     "TraitDescriptionArtifact": "이 특성을 가진 아이템은 아티팩트입니다. 이러한 마법 아이템은 일반적인 방법으로 제작할 수 없으며, 일반적인 방법으로 손상시킬 수도 없습니다. 아티팩트는 항상 희귀하거나 고유합니다.",
     "TraitDescriptionAstral": "아스트랄 생물은 아스트랄 평면에 원주민으로 존재합니다. 그들은 아스트랄 평면의 기본 환경 효과에 견딜 수 있습니다.",
+    "TraitDescriptionAsura": "이 질서 정연한 악마들은 신의 우연의 물리적 표현입니다. 아수라는 일반적으로 암흑 시야를 가지고 있으며, 저주에 면역이 있고, 선에 약합니다.",
     "TraitDescriptionAthamaru": "아타마루스는 물고기 모양의 수생 인간형 생물입니다.",
     "TraitDescriptionAttached": "부착된 무기는 다른 장비와 결합해야 사용할 수 있습니다. 특성에는 무기를 부착해야 하는 아이템의 종류가 나와 있습니다. 무기로 공격하려면 무기가 부착된 아이템을 휘두르거나 착용하고 있어야 합니다. 예를 들어 방패에 방패 가시가 부착되어 있으면 방패를 내려치는 대신 가시로 공격할 수 있지만, 방패를 휘두르고 있을 때만 가능합니다. 부착 무기는 일반적으로 아이템에 볼트로 고정되거나 아이템에 내장되어 있으며, 일반적으로 아이템에는 하나의 무기만 부착할 수 있습니다. 부착 무기는 10분의 작업 시간과@Check[type:crafting|dc:10]체크 성공으로 아이템에 부착할 수 있으며, 여기에는 이전 아이템에서 무기를 제거하는 데 필요한 시간도 포함됩니다. 아이템이 파괴된 경우, 부착된 무기는 일반적으로 회수할 수 있습니다.",
     "TraitDescriptionAttack": "이 특성을 가진 능력은 공격을 수반합니다. 자신의 턴에 첫 번째 공격 이후 공격할 때마다 공격 횟수만큼 페널티를 받습니다.",
@@ -4263,7 +4281,8 @@
     "TraitDescriptionCertainKill": "빛의 수호자는 유리 등대 내부에 있을 때만 특정 살상 기술을 사용할 수 있습니다. 이 기술들은 ‘특정 살상’ 특성을 지니며, 사용자가 기술을 발동할 때 등대의 구조에 명백한 왜곡을 일으킵니다. 그러나 각 기술은 빛의 수호자 중 한 명이 팀의 나머지 구성원으로부터 반차원 공간의 통제권을 일시적으로 넘겨받아야 하기 때문에, 한 라운드 동안 빛의 수호자 중 누구도 특정 살상 기술을 두 번 이상 사용할 수 없습니다.",
     "TraitDescriptionChampion": "챔피언 클래스의 능력을 나타냅니다.",
     "TraitDescriptionChangeling": "이 특성을 가진 생물은 체인질링 조상의 일원입니다.",
-    "TraitDescriptionClass": "수업 특성이 있는 원형은 근본적으로 클래스의 전문 분야와 다르지만 수업의 주제에는 여전히 부합합니다. 클래스가 아키타입의 전제 조건에 나열된 기준을 충족하는 경우에만 클래스 아키타입을 선택할 수 있습니다. 클래스 원형은 항상 클래스의 정적인 클래스 특징 중 일부를 변경하거나 대체하며, 새로운 재주도 추가합니다. 클래스 원형이 클래스의 초기 클래스 특징중 일부를 변경하거나 대체하는 경우, 1레벨에 해당 원형을 선택할 수 있습니다. 1레벨 능력은 클래스 특징과 비슷하게 표시되며, 클래스 원형의 전제 조건과 클래스를 변화시키는 규칙이 포함되어 있습니다. 이 능력을 선택하면 2레벨에 해당 원형의 헌신 재주를 선택해야 하며, 이후에는 정상적으로 진행합니다. 클래스 원형을 두 개 이상 가질 수는 없습니다.",
+    "TraitDescriptionCharauKa": "만드릴과 유사한 인간형 생물로, 잔인한 전사들입니다. 많은 차라우-카가 우사로에 살고 있습니다.",
+    "TraitDescriptionClass": "클래스 특성이 있는 원형은 근본적으로 클래스의 전문 분야와 다르지만 수업의 주제에는 여전히 부합합니다. 클래스가 아키타입의 전제 조건에 나열된 기준을 충족하는 경우에만 클래스 아키타입을 선택할 수 있습니다. 클래스 원형은 항상 클래스의 정적인 클래스 특징 중 일부를 변경하거나 대체하며, 새로운 재주도 추가합니다. 클래스 원형이 클래스의 초기 클래스 특징중 일부를 변경하거나 대체하는 경우, 1레벨에 해당 원형을 선택할 수 있습니다. 1레벨 능력은 클래스 특징과 비슷하게 표시되며, 클래스 원형의 전제 조건과 클래스를 변화시키는 규칙이 포함되어 있습니다. 이 능력을 선택하면 2레벨에 해당 원형의 헌신 재주를 선택해야 하며, 이후에는 정상적으로 진행합니다. 클래스 원형을 두 개 이상 가질 수는 없습니다.",
     "TraitDescriptionCleric": "클래스 클래스의 능력을 나타냅니다.",
     "TraitDescriptionClimbing": "무기를 휘두르는 손은 오르기에 사용할 수 있습니다.",
     "TraitDescriptionClockwork": "시계장치는 특정 기능을 수행하도록 프로그래밍할 수 있는 복잡하고 복잡한 구조물입니다.",
@@ -4310,11 +4329,13 @@
     "TraitDescriptionDinosaur": "이 파충류들은 선사 시대부터 살아남아 왔습니다.",
     "TraitDescriptionDisarm": "이 무기는 한 손이 없어도 운동 기술로 무장 해제할 수 있습니다. 이 경우 무기의 사거리(자신의 사거리와 다른 경우)를 사용하며, 무기의 아이템 보너스가 있는 경우 공격 굴림에 대한 아이템 보너스를 운동 체크에 아이템 보너스로 추가합니다. 무기를 사용하여 무장 해제 체크에서 대실패하면, 무기를 떨어뜨려 대실패 대신 실패의 효과를 받을 수 있습니다. 대성공을 거둔 경우에도 아이템을 획득하려면 한 손이 자유로워야 합니다.",
     "TraitDescriptionDisease": "이 특성을 가진 효과는 하나 이상의 질병을 적용합니다. 질병은 일반적으로 고통을 의미합니다.",
+    "TraitDescriptionDiv": "디브는 아바돈의 황폐한 땅에서 사악한 지니의 영혼에서 태어난 악마의 일족입니다. 대부분의 디브는 중립 악입니다. 이들은 일반적으로 암흑 시야가 뛰어나고, 냉철에 약하고, 피해가 큽니다.",
     "TraitDescriptionDivine": "이 마법은 디바인 전통에서 유래한 것으로, 신 또는 이와 유사한 출처에서 힘을 끌어옵니다. 이 특성을 가진 것은 무엇이든 마법입니다.",
     "TraitDescriptionDoubleBarrel": "이 무기에는 각각 따로 장전되는 두 개의 탄창이 있습니다. 더블 배럴 무기의 두 포신을 한 번에 발사하면 무기 피해량이 한 단계 증가합니다. 무기에 치명타 특성이 있는 경우 치명타 사망률이 한 단계 증가합니다.",
     "TraitDescriptionDowntime": "이 특성이 있는 활동은 하루 이상 소요되며 다운타임 중에만 사용할 수 있습니다.",
     "TraitDescriptionDragon": "용은 파충류형 생물로, 대부분 날개가 있거나 비행 능력을 갖추고 있습니다. 대부분의 용은 마법 에너지를 내뿜을 수 있으며, 수면과 마비에 면역입니다.",
     "TraitDescriptionDragonblood": "이 특성을 가진 생물은 드래곤블러드 다목적 유산을 지니고 있습니다. 이 생물들은 드래곤 혈통에서 태어나며 종종 드래곤의 외형을 지니고 있습니다.",
+    "TraitDescriptionDream": "꿈의 차원에 원주민으로 존재하는 생물들은 다양한 능력을 지닐 수 있지만, 렌의 악몽 차원과 관련된 능력은 거의 항상 불경스럽고 그 차원의 얼어붙는 온도에 면역입니다.",
     "TraitDescriptionDromaar": "이 특성을 가진 생물은 드로마르의 다재다능한 혈통을 가집니다. 드로마르는 오크나 다른 드로마르와 같은 혼합 혈통입니다. 이 특성을 가진 능력은 드로마르만 사용하거나 선택할 수 있습니다.",
     "TraitDescriptionDrug": "이 특성을 가진 아이템은 단기적인 이득과 함께 해로운 부작용과 장기적인 결과를 가져오는 독인 약물입니다. 생물이 특정 약물을 사용할 때마다 해당 약물에 중독되지 않도록 내성 굴림을 시도해야 합니다.",
     "TraitDescriptionDruid": "드루이드 클래스의 능력을 나타냅니다.",
@@ -4333,8 +4354,8 @@
     "TraitDescriptionEthereal": "에테리얼 생물은 에테리얼 평면의 원주민입니다. 그들은 에테리얼 평면의 기본 환경 효과를 견딜 수 있습니다.",
     "TraitDescriptionEvolution": "이 특성을 가진 재주는 보통 플레이어 대신 에이돌론에게 추가적인 물리 능력을 부여하는 방식으로 영향을 미칩니다.",
     "TraitDescriptionExpandable": "확장 가능한 특성을 가진 아이템은 활성화하면 특정 크기로 증가합니다. 별도의 설명이 없는 한, 이 공간은 자신과 지면에 인접해야 하며, 아이템이 확장할 수 있는 충분한 공간이 있어야 하며 그렇지 않으면 활성화 효과가 적용되지 않습니다. 효과가 종료되면, 확장된 아이템은 소모품인 경우 분해되고 소모품이 아닌 경우 원래 크기로 다시 축소됩니다.",
-    "TraitDescriptionExemplar": "This indicates abilities from the exemplar class.",
-    "TraitDescriptionExperiment": "An experimental cryptid has been purposefully altered through alchemy, engineering, magic, or ritual to contain some degree of construct components. Although powerful, the process is volatile and imperfect.",
+    "TraitDescriptionExemplar": "이는 예시 클래스의 능력을 나타냅니다.",
+    "TraitDescriptionExperiment": "실험용 크립티드가 알케미, 공학, 마법, 또는 의식을 통해 일부 구성 요소 요소를 포함하도록 의도적으로 변형되었습니다. 강력한 힘을 지니고 있지만, 이 과정은 불안정하고 불완전합니다.",
     "TraitDescriptionExploration": "이 특성을 가진 활동은 사용하는 데 턴이 한 번 이상 걸리며, 일반적으로 탐험 모드에서만 사용할 수 있습니다.",
     "TraitDescriptionExtradimensional": "이 효과 또는 아이템은 초차원 공간을 생성합니다. 다른 초차원 공간 안에 배치된 초차원 효과는 제거할 때까지 작동이 중지됩니다.",
     "TraitDescriptionFatal": "치명적인 특성에는 주사위 크기가 포함됩니다. 치명타 발생 시, 무기의 피해 주사위는 일반 주사위 크기 대신 해당 주사위 크기로 증가하고, 무기는 나열된 크기의 피해 주사위 하나를 추가합니다.",
@@ -4342,7 +4363,7 @@
     "TraitDescriptionFear": "공포 이펙트는 공포라는 감정을 불러일으킵니다. 이 특성이 있는 효과에는 항상 정신 및 감정 특성도 있습니다.",
     "TraitDescriptionFetchling": "이 특성을 가진 생명체는 페츨링 조상의 일원입니다. 페츨링은 한때 인간이었지만, 네더월드에서 여러 세대에 걸쳐 살면서 변모했습니다.",
     "TraitDescriptionFey": "제1세계의 생명체는 페이라고 불립니다.",
-    "TraitDescriptionFiend": "Creatures that hail from or have a strong connection to the unholy planes are called fiends. Fiends can survive the basic environmental effects of planes in the Outer Sphere.",
+    "TraitDescriptionFiend": "부정한 차원에서 유래하거나 그곳과 밀접한 관련이 있는 생물들을 피엔드라고 합니다. 피엔드는 외부 영역의 기본 환경 효과에서 살아남을 수 있습니다.",
     "TraitDescriptionFighter": "파이터 클래스의 능력을 나타냅니다.",
     "TraitDescriptionFigurehead": "많은 선박이 장식 조각으로 장식되어 있지만, 대담한 선원들은 때때로 선박에 마법의 선수상을 장식하기도 합니다.",
     "TraitDescriptionFinesse": "이 근접 무기로 공격 굴림을 할 때 근력 수정치 대신 민첩 수정치를 사용할 수 있습니다. 피해를 계산할 때는 여전히 근력 수정치를 사용합니다.",
@@ -4379,6 +4400,7 @@
     "TraitDescriptionGrapple": "이 무기를 사용하면 양손이 자유롭지 않아도 운동 기술로 격투할 수 있습니다. 이 경우 무기의 사정거리(자신의 사정거리와 다른 경우)를 사용하며, 무기의 아이템 보너스를 운동 기술 체크에 아이템 보너스로 추가하여 공격 굴림에 추가합니다. 무기를 사용하여 격투 체크에서 대실패하면 무기를 떨어뜨려 대실패 대신 실패의 효과를 받을 수 있습니다.",
     "TraitDescriptionGremlin": "잔인하고 장난기 많은 요정인 그렘린은 우주에서의 삶에 적응해 왔습니다.",
     "TraitDescriptionGrimoire": "주문서는 마법 사용자라면 누구나 주문과 힘의 룬을 적을 수 있는 유용한 도구이지만, 대부분의 주문서가 양피지에 잉크를 적는 것에 불과하다면, 마도서는 주문에 대한 지식이 풍부한 마법사가 주문을 강화하는 데 사용할 수 있는 마법 속 마법을 흡수했습니다.",
+    "TraitDescriptionGrioth": "그리오스는 오컬트 힘을 휘두르고 어두운 우주의 진공 상태에서도 존재할 수 있는 박쥐와 같은 외계인입니다. 암흑 시야와 반향 위치 파악 능력이 있습니다.",
     "TraitDescriptionGrippli": "그리플리는 개구리를 닮은 휴머노이드입니다.",
     "TraitDescriptionGunslinger": "건슬링어 클래스의 능력을 나타냅니다.",
     "TraitDescriptionHag": "이 사악한 마녀들은 마녀회를 형성합니다.",
@@ -4388,7 +4410,8 @@
     "TraitDescriptionHaunt": "이 특성을 가진 유령은 종종 비극적인 죽음을 맞이한 사람의 영적 메아리입니다. 유령을 잠재우려면 유령의 미완의 숙제를 해결해야 하는 경우가 많습니다. 제대로 잠재우지 못한 유령은 시간이 지나면 항상 다시 나타납니다.",
     "TraitDescriptionHealing": "치유 효과는 생물의 몸을 회복시키는 효과로, 일반적으로 HP를 회복시키지만 때로는 질병이나 기타 쇠약화 효과를 제거하기도 합니다.",
     "TraitDescriptionHefty": "무거운 방패는 너무 무거워서 올리려면 더 많은 노력이 필요합니다. 근력 점수가 해당 특성이 있는 수치와 같거나 그 이상이면 무거운 방패를 올리는 데 2번의 액션이 필요합니다.",
-    "TraitDescriptionHex": "헥스는 마녀가 시전할 수 있는 일종의 집중 주문입니다.",
+    "TraitDescriptionHerald": "거의 모든 신들은 특정 대표자로 알려진 '헤럴드'를 가지고 있습니다. 헤럴드들은 신들만큼이나 외모와 능력에서 다양합니다. 헤럴드 유형을 가진 생물은 항상 유일무이합니다.",
+    "TraitDescriptionHex": "헥스는 마녀가 시전할 수 있는 일종의 포커스 주문입니다.",
     "TraitDescriptionHindering": "이 갑옷은 너무 무겁고 부피가 커서 무슨 일이 있어도 속도가 느려집니다. 모든 이동 속도에 -5의 페널티를 받습니다(최소 5피트 이동 속도까지). 이는 방어구의 속도 감소 효과와는 별개이며, 근력이나 능력으로 방어구의 속도 감소 효과를 줄이거나 무시할 수 있는 경우에도 영향을 받습니다.",
     "TraitDescriptionHobgoblin": "이 특성을 가진 생물은 키가 크고 군사적인 고블린족입니다. 호브고블린은 어둠 시야를 가지고 있습니다.",
     "TraitDescriptionHoly": "성스러운 특성을 가진 효과는 자비와 미덕의 강력한 마법력과 관련이 있습니다. 종종 부정한 생물에게 더 강력한 효과를 발휘합니다. 이 특성을 가진 생물은 성스러운 일에 강하게 헌신하며, 종종 부정한 것에 약합니다. 신성함에 약점을 가진 생물이 신성 아이템이나 효과를 사용하면, 그 약점으로 인한 피해를 받습니다",
@@ -4402,6 +4425,7 @@
     "TraitDescriptionIncapacitation": "이 특성을 가진 능력은 캐릭터를 전투에서 완전히 배제하거나 심지어 죽일 수도 있으며, 더 강력한 캐릭터에게는 사용하기가 더 어렵습니다. 주문에 무력화 특성이 있는 경우, 주문 등급이 두 배 이상인 생물은 주문에 무력화되지 않기 위한 체크 결과를 한 단계 더 좋게, 주문사용자가 무력화하기 위해 체크한 결과를 한 단계 더 나쁘게 취급합니다. 다른 효과에 무력화 특성이 있는 경우, 효과를 생성하는 아이템, 생물, 위험보다 높은 레벨의 생물이 동일한 이점을 얻습니다.",
     "TraitDescriptionIncarnate": "화신 특성이 있는 주문은 생물을 소환하는 주문과 주제는 비슷하지만, 소환된 특성을 가진 하수인을 소환하지 않습니다. 대신, 소환된 육화된 생물은 주문 시전이 끝나면 도착 액션을 취합니다. 당신의 다음 턴이 끝날 때, 육화된 생물은 걸음마, 보폭, 또는 자신이 가진 다른 이동 유형(예: 오르기 또는 굴진)의 액션을 취한 다음 출발 액션을 취합니다. 그러면 주문이 종료됩니다. 특정 도착 및 출발 액션의 이름은 각각 \"도착\" 또는 \"출발\" 단어 뒤에 이탤릭체로 표시되며, 특성이 함께 표시됩니다. 화신 주문으로 소환된 생물은 플레이어의 이익을 위해 행동하고, 가능한 한 플레이어와 아군에게서 효과를 멀리 떨어뜨리며, 플레이어의 요청을 듣기도 하지만 궁극적으로는 스스로 결정을 내립니다. 주문이 화신이 결정을 내리도록 지시하는 경우, GM은 화신이 어떻게 행동할지 결정합니다. 심지어 여러 번의 소환을 통해 원하는 대로 정확하게 행동하는 경향이 강해질 수도 있습니다. 화신은 완전한 생물이 아닙니다. 다른 액션을 취할 수 없으며, 주문 효과(예: 마법 해제)의 대상이 되거나 종료되지 않는 한 타격, 주문 또는 기타 효과의 대상이 되거나 피해를 입을 수 없습니다. 효과의 위치를 결정하기 위한 목적으로 크기가 정해져 있지만, 이동을 막지는 않습니다. 해당되는 경우, 효과는 주문 DC와 주문 공격 굴림 수정치를 사용합니다.",
     "TraitDescriptionIncorporeal": "무형의 생명체 또는 물체는 물리적 형태가 없습니다. 벽을 포함한 단단한 물체를 통과할 수 있습니다. 물체 안에 있는 무형 생물은 물체 외부를 인식하거나 공격하거나 상호작용할 수 없으며, 물체 안에서 자신의 차례를 시작하면 1만큼 둔화됩니다. 무형 생물은 무형 생물을 통과할 수 있지만 그 공간에서 자신의 이동을 끝낼 수는 없습니다. 무형 생물은 물체가 유령 접촉 속성 룬을 가지고 있지 않는 한, 물리 생물이나 물체에 대해 근력 기반 체크를 시도할 수 없으며 무형 생물에 대해서만 시도할 수 있습니다. 마찬가지로, 육체 생명체는 무체 생명체나 물체에 대해 근력 기반 체크를 시도할 수 없습니다. 무형 생명체는 일반적으로 질병, 독, 정밀 피해와 같이 물리적인 몸을 필요로 하는 효과나 조건에 면역이 있습니다. 일반적으로 모든 피해(힘 피해와 유령 접촉 속성 룬이 있는 공격으로 인한 피해 제외)에 대한 저항이 있으며, 비마법 피해에 대한 저항은 두 배로 증가합니다.",
+    "TraitDescriptionInevitable": "이 구조화된 영원은 공리주의자들에 의해 만들어졌습니다. 각 유형의 불가피는 특정 임무에 전념합니다. 대부분의 불가피는 카오스 피해에 약합니다.",
     "TraitDescriptionInfused": "주입한 시약을 사용해 주입된 특성을 가진 연금 아이템을 만들었으며, 이 아이템은 비활성 상태가 되기까지 제한된 시간이 있습니다. 주입한 연금술 아이템의 모든 비영구적 효과는 느리게 작용하는 독과 같은 고통을 제외하고는 매일 다시 준비할 때 종료됩니다.",
     "TraitDescriptionInfusion": "주입 특성이 있는 액션은 키네키스트 충동을 조정합니다. 변경하려는 충동 액션 바로 전에 주입 액션을 사용해야 합니다. 충동 행동 바로 뒤에 충동 행동이 아닌 다른 액션(자유 액션 및 리액션 포함)을 사용하면 주입 행동의 효과를 낭비하게 됩니다. 주입 액션으로 추가된 추가 효과는 주입 액션 자체가 아니라 충동 효과의 일부입니다.",
     "TraitDescriptionIngested": "이 독은 마시거나 먹으면 감염됩니다.",
@@ -4415,17 +4439,19 @@
     "TraitDescriptionInvested": "캐릭터는 인베스팅된 특성이 있는 마법 아이템을 10개까지만 착용할 수 있습니다. 캐릭터가 아이템을 인베스팅 하지 않은 경우에는 아이템의 마법 효과가 적용되지 않으며 활성화할 수도 없지만, 캐릭터는 물리 아이템 착용으로 얻을 수 있는 일반적인 혜택(예: 비를 막아주는 모자)은 계속 받을 수 있습니다.",
     "TraitDescriptionInvestigator": "이는 조사자 클래스의 능력을 나타냅니다.",
     "TraitDescriptionJousting": "이 무기는 마구 또는 이와 유사한 수단으로 기마 전투에 적합합니다. 기마 상태일 때 공격 전 액션에서 10피트 이상 움직였다면 해당 공격의 피해에 무기의 피해 주사위 수만큼의 상황 보너스가 추가됩니다. 또한, 탈것에 탑승한 상태에서 무기를 한 손으로 휘두르면 피해 주사위가 나열된 값으로 바뀝니다.",
+    "TraitDescriptionKami": "카미는 물질계에 속한 영혼으로, 특정 물체나 장소와 결합하는 존재입니다.",
     "TraitDescriptionKashrishi": "독특한 수정 뿔과 타고난 초능력을 지닌 강인한 혈통입니다.",
-    "TraitDescriptionKholo": "Kholos are humanoids that resemble hyenas.",
+    "TraitDescriptionKholo": "콜로스는 하이에나와 닮은 인간형 생물입니다.",
     "TraitDescriptionKickback": "반동 무기는 매우 강력하지만 반동이 커서 사용하기가 어렵습니다. 반동 무기는 모든 공격에 추가 피해 1을 줍니다. 반동 무기를 발사하면 공격 주사위에 -2의 상황 페널티가 부여되지만, 근력이 14 이상인 캐릭터는 페널티를 무시합니다. 반동 무기를 배치된 바이포드, 삼각대, 기타 안정 장치에 부착하면 이 페널티를 낮추거나 무효화할 수 있습니다.",
     "TraitDescriptionKineticist": "키네티스트 클래스의 능력을 나타냅니다.",
     "TraitDescriptionKitsune": "실제 모습은 여우를 닮은 변신 휴머노이드입니다.",
     "TraitDescriptionKobold": "이 특성을 가진 생물은 코볼트 혈통의 일원입니다.",
+    "TraitDescriptionKovintus": "은둔적인 인간형 생물인 코빈투스는 선천적인 지리학의 재능을 지니고 있으며, 자연과 마법 모두와 본질적인 연결고리를 가지고 있습니다.",
     "TraitDescriptionLaminar": "갑옷은 겹겹이 쌓인 부분으로 구성되어 있어 부러져도 큰 문제가 되지 않습니다. 갑옷이 부러졌을 때 받는 상태 이상 페널티는 중형 갑옷이 부러진 경우 -1, 중갑옷이 부러진 경우 -2, 경갑옷이 부러진 경우 페널티가 없습니다.",
     "TraitDescriptionLaunching": "방패에 있는 메커니즘이 투사체를 발사하여 방패를 원거리 무기로도 사용할 수 있습니다. 특성에는 \"발사 다트\"와 같은 무기의 종류가 나열되어 있습니다. 발사기로 공격할 때는 평소와 같은 수의 손이 필요하지만, 방패를 들고 있는 손도 이 총계에 포함되므로 한손 원거리 무기는 한 손만 있으면 됩니다. 재장전에는 일반적인 인터랙트 액션 횟수인 최소 1회의 액션이 필요하며, 방패를 들고 있는 손으로는 재장전할 수 없습니다.",
     "TraitDescriptionLeshy": "이 특성을 가진 생물은 레쉬 혈통의 일원입니다.",
     "TraitDescriptionLight": "빛 효과는 해당 지역의 비마법적인 어둠을 극복하고, 마법 어둠을 반격할 수 있습니다. 일반적으로 어둠 마법을 반격하려면 빛 마법으로 직접 어둠 마법을 공격해야 하지만, 일부 빛 주문은 자동으로 어둠 마법을 반격하려고 시도합니다.",
-    "TraitDescriptionLineage": "A feat with this trait indicates a character's descendance from a particular type of creature. You can have only one lineage feat. You can select a lineage feat only at 1st level, and you can't retrain into or out of these feats.",
+    "TraitDescriptionLineage": "이 특성을 가진 피트는 캐릭터가 특정 유형의 생물에서 유래했음을 나타냅니다. 계통 피트는 하나만 선택할 수 있습니다. 계통 피트는 1레벨에서만 선택할 수 있으며, 이 피트를 재훈련하거나 다른 피트로 변경할 수 없습니다.",
     "TraitDescriptionLinguistic": "이 특성을 가진 효과는 언어 이해도에 따라 달라집니다. 생물을 대상으로 하는 언어 효과는 대상이 내가 사용하는 언어를 이해하는 경우에만 작동합니다.",
     "TraitDescriptionLitany": "기도문은 일반적으로 챔피언이 사용하는 특별한 헌신 주문으로, 한 번의 액션을 필요로 하며, 보통 추가 기도문에 일시적인 면역 효과를 부여합니다.",
     "TraitDescriptionLizardfolk": "이루시라고도 불리는 이 파충류 휴머노이드는 적응력이 뛰어나고 인내심이 강합니다.",
@@ -4435,26 +4461,29 @@
     "TraitDescriptionManipulate": "이 특성을 가진 액션을 사용하려면 아이템을 물리적으로 조작하거나 제스처를 취해야 합니다. 적절한 부속물이 없는 생물은 이 특성을 가진 액션을 수행할 수 없습니다. 조작 액션은 종종 리액션을 트리거합니다.",
     "TraitDescriptionMechanical": "이 특성을 지닌 위험 요소는 구성된 물리적 물체입니다.",
     "TraitDescriptionMental": "정신 효과는 대상의 마음을 바꿀 수 있습니다. 물체나 정신이 없는 생명체에는 영향을 미치지 않습니다.",
-    "TraitDescriptionMerfolk": "These aquatic humanoids have an upper body similar to a human and a lower body similar to a fish.",
+    "TraitDescriptionMerfolk": "이 수생 인간형 생물은 상체는 인간과 유사하고 하체는 물고기와 유사합니다.",
     "TraitDescriptionMetal": "금속 특성을 가진 효과는 금속을 조작하거나 소환합니다. 금속을 조작하는 효과는 금속이 없는 지역에서는 효과가 없습니다. 이 특성을 가진 생물은 주로 금속으로 이루어져 있거나 해당 원소와 마법적으로 연결되어 있습니다.",
     "TraitDescriptionMindless": "무의식 생명체는 프로그래밍된 정신 속성 또는 초보적인 정신 속성을 가지고 있습니다. 전부는 아니더라도 대부분의 정신 속성 수정치는 -5입니다. 이들은 모든 정신 효과에 면역입니다.",
     "TraitDescriptionMindshift": "이 특성이 있는 액션은 언제든지 정신의 원초적인 힘을 사용하도록 변경할 수 있습니다. 이 액션을 사용할 때, 이 액션이 주는 모든 피해를 정신 피해로 바꾸고, 정신 특성을 부여하고, 필요한 저항을 의지 저항으로 바꿀 수 있습니다. 이 액션은 더 이상 입히지 않는 피해 유형과 일치하는 특성을 잃습니다.",
     "TraitDescriptionMinion": "하수인은 다른 생물을 직접적으로 섬기는 생물입니다. 이 특성을 가진 생물은 턴당 액션을 두 번만 사용할 수 있고, 리액션이 없으며, 내 차례가 아닐 때는 행동할 수 없습니다. 당신의 하수인은 전투에서 턴당 한 번, 당신이 액션을 사용해 명령을 내릴 때 당신의 턴에 행동합니다. 동물 동반자의 경우, 당신은 동물에게 명령을 내리고, 소환된 하수인처럼 주문이나 마법 아이템 효과를 받는 하수인이라면 주문 지속 또는 활성화 지속을, 달리 지정되지 않은 경우 청각과 집중 특성을 가진 하수인에게 한 번의 액션으로 구두 명령을 내립니다. 명령을 내리지 않으면 하수인은 자신을 방어하거나 명백한 위험을 피하는 것 외에는 아무 액션도 사용하지 않습니다. 보통 1분 정도 충분히 오래 방치하면 무의미한 하수인은 아무 행동도 하지 않고, 동물은 본능을 따르며, 영리한 하수인은 자신이 원하는 대로 행동합니다. 하수인은 다른 생물을 조종할 수 없습니다.",
-    "TraitDescriptionMinotaur": "Minotaurs are horned, bovine humanoids with a mastery of mazes and puzzles.",
+    "TraitDescriptionMinotaur": "미노타우르는 뿔이 난 소 모양의 인간형 생물로, 미로와 퍼즐에 능숙합니다.",
     "TraitDescriptionMisfortune": "불행 효과는 주사위를 굴리는 방식에 불이익을 줍니다. 한 번의 주사위 굴림에 두 가지 이상의 불행 효과가 적용될 수는 없습니다. 불행 효과가 여러 개 적용될 경우, GM이 어떤 것이 더 나쁜지 결정하여 적용합니다. 행운 효과와 불행 효과가 같은 주사위에 적용될 경우, 두 효과는 서로 반격되고 정상적으로 주사위를 굴립니다.",
     "TraitDescriptionMissive": "미시브는 마법 문구류로, 반드시 제작하고 구성해야 활성화할 수 있습니다. 모든 미시브에는 미시브와 소모품 특성이 있습니다. 미시브는 보통 종이, 양피지, 모피지로 제작되지만, 글이나 엠보싱을 넣을 수 있는 얇고 휴대가 간편한 재료라면 무엇이든 미시브로 제작할 수 있습니다. 미시브를 제작한 후에는 그 위에 메시지를 작성하여 마법을 완성하기 전까지는 빈 종이입니다.",
     "TraitDescriptionModification": "이 특성의 재주는 혁신의 구성을 변경합니다. 재구성 클래스 특징이 있으면 이러한 재주를 더 쉽게 재교육할 수 있습니다.",
     "TraitDescriptionModular": "무기에는 인터랙트 액션을 사용하여 전환할 수 있는 여러 가지 구성이 있습니다. 일반적으로 모듈형 무기의 구성을 전환하면 다양한 유형의 피해를 입힐 수 있지만(예: \"모듈형 B, P 또는 S\"와 같이 특성에 나열됨), 모듈형 무기 설명에 더 복잡한 구성이 나열될 수도 있습니다.",
-    "TraitDescriptionMonitor": "Creatures that hail from or have a strong connection to Axis, the Boneyard, or the Maelstrom are called monitors. Monitors can survive the basic environmental effects of planes in the Outer Sphere.",
+    "TraitDescriptionMonitor": "본야드, 메일스트롬에서 유래하거나 그곳과 밀접한 관련이 있는 생물들을 모니터라고 합니다. 모니터는 외부 영역의 기본 환경 효과에서 살아남을 수 있습니다.",
     "TraitDescriptionMonk": "이 특성을 가진 능력은 몽크 클래스에 속합니다. 이 특성을 가진 무기는 주로 몽크가 사용합니다.",
     "TraitDescriptionMonkWeapon": "많은 몽크들이 이 무기를 배웁니다.",
+    "TraitDescriptionMorlock": "모록스는 수 세기 전에 일반 인간이었던 창백한 지하 거주 인간형 생물 종족입니다.",
     "TraitDescriptionMorph": "생물의 형태를 약간 변경하는 효과에는 변신 특성이 있습니다. 변신 효과에 의해 특별히 부여되는 모든 타격은 마법입니다. 한 번에 여러 개의 변신 주문의 영향을 받을 수 있지만, 같은 신체 부위를 두 번 이상 변신하면 두 번째 변신 효과는 첫 번째 효과를 반격하려고 시도합니다(해당 특성에 설명된 두 개의 다형성 효과와 같은 방식으로). 또한, 형상변환 중인 상태에서 형상변환 효과가 자신의 형상변환 효과를 무효화하거나 무시하는 경우에도 형상변환 효과가 종료될 수 있습니다. GM이 함께 사용할 수 있는 변신 효과와 사용할 수 없는 효과를 결정합니다.",
+    "TraitDescriptionMortic": "모티크는 언데드와 밀접한 관련이 있는 살아있는 인간형 생물입니다. 암흑 시야, 치유력 상실, 신성한 땅에 대한 취약성을 가지고 있으며, 숨을 참으면 언데드가 될 수 있습니다.",
     "TraitDescriptionMounted": "기갑 공성 무기는 일정한 크기와 공간을 차지하며, 일반적으로 공격할 수 있는 통계가 있습니다. 대규모 전쟁에 사용됩니다.",
     "TraitDescriptionMove": "이 특성이 있는 액션은 한 공간에서 다른 공간으로 이동하는 것을 포함합니다.",
     "TraitDescriptionMulticlass": "멀티 클래스 특성을 가진 아키타입은 다른 클래스의 전문 분야로 훈련을 다양화하는 것을 나타냅니다. 같은 이름의 클래스에 소속되어 있는 경우 멀티 클래스 아키타입의 헌신 재주를 선택할 수 없습니다.",
-    "TraitDescriptionMummy": "A mummy is an undead creature created from a preserved corpse.",
+    "TraitDescriptionMummy": "미라는 보존된 시체에서 만들어진 언데드 생물입니다.",
+    "TraitDescriptionMunavri": "다크랜드에 사는 친근한 인간형 생물인 무나브리스는 강력한 염력과 사이킥 능력을 가지고 있습니다.",
     "TraitDescriptionMutagen": "돌연변이 유발 물질 특성을 가진 엘릭서는 대상의 신체를 일시적으로 변형시키고 정신을 변화시킵니다. 돌연변이 유발제는 항상 하나 이상의 유익한 효과와 하나 이상의 해로운 효과를 함께 전달합니다. 돌연변이 유발제는 다형성 효과이므로 한 번에 하나만 혜택을 받을 수 있습니다.",
-    "TraitDescriptionMutant": "The monster has mutated or evolved, granting it unusual benefits, drawbacks, or both.",
+    "TraitDescriptionMutant": "몬스터가 변이하거나 진화하여 특이한 장점, 단점, 또는 둘 다를 얻었습니다.",
     "TraitDescriptionMythic": "이 특성을 가진 옵션은 신화적 힘을 부여하거나 활용합니다. 신화적 특성을 가진 피트는 신화적 소명을 가진 신화적 캐릭터만 선택할 수 있습니다. 신화적 특성을 가진 몬스터는 신화 포인트 풀을 사용할 수 있으며, 같은 레벨의 다른 생물보다 특히 강합니다. 많은 신화적 몬스터는 신화적이지 않은 생물이나 무기의 공격에 대해 저항력이나 완전히 면역입니다.</p><p>신화적 특성을 가진 주문은 발동하기 위해 신화 포인트를 소모해야 하며, 신화적 특성을 가진 아이템은 활성화된 능력을 사용하기 위해 신화 포인트를 소모해야 합니다.</p><p>신화적 특성을 가진 무기는 신화적 몬스터의 저항력과 면역력을 무력화합니다.",
     "TraitDescriptionNagaji": "파충류의 특징과 뱀의 머리를 가진 전통주의 조상입니다.",
     "TraitDescriptionNephilim": "이 특성을 가진 생물은 네피림의 다재다능한 유산을 가지고 있습니다. 네피림은 다른 행성에서 온 불멸의 존재의 후손인 차원 자손입니다. 이 특성을 가진 능력은 네피림만 사용하거나 선택할 수 있습니다.",
@@ -4462,29 +4491,30 @@
     "TraitDescriptionNoisy": "이 갑옷은 시끄러워서 주목 피하기 탐험 활동을 사용할 때 다른 플레이어에게 자신의 존재를 알릴 가능성이 높습니다. 이 갑옷의 체크 페널티는 요구 조건인 근력 점수를 충족하더라도 은신 체크에 적용됩니다.",
     "TraitDescriptionNone": "이 특성은 설명이 없습니다.",
     "TraitDescriptionNonlethal": "이 무기를 사용한 공격은 치명적이지 않으며 생물을 죽이는 대신 무의식으로 만드는 데 사용됩니다. 치명적이지 않은 무기를 사용하여 -2 상황 페널티를 받고 치명적인 공격을 할 수 있습니다.",
-    "TraitDescriptionNymph": "This family of beautiful fey creatures has strong ties to natural locations.",
+    "TraitDescriptionNymph": "이 아름다운 요정 생물들은 자연과 밀접한 관련이 있습니다.",
     "TraitDescriptionOath": "맹세는 코드에 추가 원칙을 추가합니다. 이 특성은 보통 한 가지 재주만 가질 수 있습니다.",
     "TraitDescriptionOccult": "이 마법은 오컬트 전통에서 유래한 것으로, 기괴하고 일시적인 신비를 불러일으킵니다. 이 특성을 가진 것은 무엇이든 마법입니다.",
     "TraitDescriptionOil": "오일은 일반적으로 물체에 바르고 그 과정에서 소진되는 마법의 젤, 연고, 페이스트 또는 연고입니다.",
     "TraitDescriptionOlfactory": "후각 효과는 냄새를 맡을 수 있는 생물에게만 영향을 줄 수 있습니다. 이는 GM이 결정하는 대로 후각 효과의 일부에만 적용됩니다.",
-    "TraitDescriptionOni": "Oni are a family of brutal, shapechanging giants who were once kami.",
-    "TraitDescriptionOoze": "Oozes are creatures with simple anatomies. They tend to have low mental attribute modifiers and immunity to mental effects and precision damage.",
+    "TraitDescriptionOni": "오니는 잔인하고 형태를 바꾸는 거인족으로, 과거에 신이었던 존재들입니다.",
+    "TraitDescriptionOoze": "우즈는 해부학적으로 단순한 생물입니다. 정신 속성 수정자가 낮고, 정신 효과 및 정밀 피해에 면역이 있는 경향이 있습니다.",
     "TraitDescriptionOracle": "오라클 클래스의 능력을 나타냅니다.",
     "TraitDescriptionOrc": "이 특성을 가진 생물은 오크 혈통의 일원입니다. 이 특성을 가진 무기는 오크가 제작하여 사용하는 무기입니다.",
     "TraitDescriptionOread": "대지 차원에서 온 존재의 후손인 지니킨의 일종입니다.",
     "TraitDescriptionOverflow": "강력한 충동은 일시적으로 키네틱 게이트의 에너지를 넘치게 합니다. 오버플로 특성이 있는 임펄스를 사용하면 키네틱 오라가 다시 활성화될 때까지 비활성화됩니다(일반적으로 채널 원소를 사용합니다). 원소를 이렇게 심하게 소진하는 것은 부담스럽기 때문에 키네틱 게이트를 다시 활성화하더라도 라운드당 오버플로 임펄스는 한 번만 사용할 수 있습니다.",
-    "TraitDescriptionPalinthanos": "When a cosmic event like Godsrain disturbs all that exists, the River of Souls sometimes flows backward for a brief moment, literally, from the shockwave. Unwilling and confused souls that are forced back far enough can have the agonizing experience of enduring death in reversed time. Some of these souls manage to re-enter the river once the flow returns to normal, but those who are stranded on the metaphorical shores of the living can become palinthanos: powerful undead born from their reversed demise who struggle futilely until their predestined banishment back to the River.",
+    "TraitDescriptionPaaridar": "파아리다르는 부패한 마법 의식을 통해 강력한 야수의 신체적 특징과 능력을 얻은 인간형 존재입니다.",
+    "TraitDescriptionPalinthanos": "신들의 비와 같은 우주적 사건이 존재하는 모든 것을 뒤흔들 때, 영혼의 강은 충격파로 인해 일시적으로 역류하는 현상이 발생합니다. 충격파에 의해 강제로 멀리 밀려난 영혼들은 역류하는 시간 속에서 죽음을 겪는 고통스러운 경험을 할 수 있습니다. 이 중 일부는 흐름이 정상으로 돌아오면 다시 강으로 들어갈 수 있지만, 살아있는 자들의 해안에 좌초된 영혼들은 팔린타노스가 될 수 있습니다. 팔린타노스는 역행한 죽음에서 태어난 강력한 언데드로, 운명적으로 강으로 추방될 때까지 헛된 투쟁을 계속합니다.",
     "TraitDescriptionParry": "이 무기는 방어적으로 사용하여 공격을 막을 수 있습니다. 이 무기를 사용하는 동안 훈련된 숙련도 이상이면 한 번의 액션을 사용하여 무기를 방어적으로 배치하고 다음 턴이 시작될 때까지 AC에 +1의 상황 보너스를 얻을 수 있습니다.",
     "TraitDescriptionPeachwood": "피치우드 무기는 직사광선을 받으면 특히 황갈색으로 빛납니다. 피치우드는 더스크우드와 관련된 언데드 생물의 저항이나 약점에 대해 더스크우드로 취급됩니다(예를 들어, 피치우드 무기는 강시의 저항을 우회할 수 있습니다). 또한, 피치우드 무기는 언데드 생물의 저항 중 일부를 우회합니다. 피치우드 무기로 공격하면 언데드의 물리 피해에 대한 저항이 일반 등급 피치우드는 2, 고급 등급은 4 낮게 적용됩니다.",
-    "TraitDescriptionPersonaFlirt": "The public perceives you as the most romantic of the group, and you may be thought of as a seducer or vapid pretender who gets by on their looks and brings nothing of value to the party.",
-    "TraitDescriptionPersonaGuardian": "The public perceives you as the healer and protector of the group, but some may also consider you too soft-hearted and meek to be a \"true hero.\"",
-    "TraitDescriptionPersonaLeader": "The public perceives you as the leader of the group, but some likewise consider you too brash or even pompous.",
-    "TraitDescriptionPersonaScholar": "The public considers you the problem-solver and brains of the group, though some also perceive you as arrogant or incapable of physical tasks.",
-    "TraitDescriptionPersonaScoundrel": "The public is convinced you are the \"bad boy/bad girl\" of the group who gets the distasteful but necessary things done, but who is at times thought of as a criminal or potential traitor to the party.",
-    "TraitDescriptionPersonaUnderdog": "The public perceives you as a \"fish out of water\"—someone who accidently got swept up by the group and still manages to triumph, but who is sometimes thought of as a weak link or loser.",
-    "TraitDescriptionPersonaWarrior": "The public believes you are the strong-arm of the group, the person who excels in a fight but is also at times considered cruel, uncouth, or even a bully.",
-    "TraitDescriptionPersonaWildcard": "The public perceives you as a source of whimsy, outlandish ideas, and comedy in the group, but that reputation is a double-edged sword, as some also consider you a liability or unreliable.",
-    "TraitDescriptionPhantom": "A phantom is soul that has diverged from the River of Souls on the Ethereal Plane before being judged. They typically retain memories of their life before death but are not undead.",
+    "TraitDescriptionPersonaFlirt": "대중은 당신을 그룹에서 가장 로맨틱한 사람으로 인식하며, 외모에 의존해 살아가는 유혹자나 텅 빈 허세꾼으로 여겨질 수 있습니다.",
+    "TraitDescriptionPersonaGuardian": "대중은 당신을 그룹의 치유자이자 보호자로 인식하지만, 일부는 당신을 \"진정한 영웅\"으로 보기에는 너무 마음이 약하고 소심하다고 생각할 수도 있습니다.",
+    "TraitDescriptionPersonaLeader": "대중은 당신을 그룹의 리더로 인식하지만, 일부는 당신을 너무 과격하거나 심지어 교만하다고 생각합니다.",
+    "TraitDescriptionPersonaScholar": "대중은 당신을 문제 해결자이자 그룹의 두뇌로 여기지만, 일부는 당신을 교만하거나 신체적 업무에 능숙하지 못하다고 생각합니다.",
+    "TraitDescriptionPersonaScoundrel": "대중은 당신이 그룹의 \"나쁜 남자/나쁜 여자\"로, 불쾌하지만 필요한 일을 처리하는 인물로 믿고 있습니다. 하지만 때로는 당에 대한 범죄자나 잠재적 배신자로 여겨지기도 합니다.",
+    "TraitDescriptionPersonaUnderdog": "대중은 당신을 \"물 밖의 물고기\"로 인식합니다—우연히 그룹에 휘말려 들어갔지만 여전히 성공을 거두는 사람으로, 때로는 약한 고리나 패배자로 여겨지는 인물입니다.",
+    "TraitDescriptionPersonaWarrior": "대중은 당신을 그룹의 강자, 싸움에 능한 사람으로 인식하지만, 때로는 잔인하고 무례하며 심지어 괴롭힘을 일삼는 사람으로 생각하기도 합니다.",
+    "TraitDescriptionPersonaWildcard": "대중은 당신을 그룹 내에서 유머러스하고 독특한 아이디어의 원천으로 인식하지만, 그 명성은 양날의 검과도 같습니다. 일부는 당신을 부담스러운 존재나 신뢰할 수 없는 사람으로 여기기 때문입니다.",
+    "TraitDescriptionPhantom": "유령은 심판을 받기 전에 에테리얼 플레인의 영혼의 강에서 분리된 영혼입니다. 일반적으로 죽음 전의 기억을 유지하고 있지만 언데드는 아닙니다.",
     "TraitDescriptionPlant": "식물성 생물은 식물 특성을 가지고 있습니다. 식물은 일반 식물과 구별됩니다. 이 특성을 가진 마법 효과는 어떤 식으로든 식물이나 식물 물질을 조작하거나 만들어냅니다. 식물을 조작하는 효과는 식물이 없는 지역에서는 효과가 없습니다.",
     "TraitDescriptionPoison": "이 특성을 가진 효과는 독을 전달하거나 독 피해를 입힙니다. 이 특성이 있는 아이템은 독성이 있으며 고통을 유발할 수 있습니다.",
     "TraitDescriptionPolymorph": "이 효과는 대상을 새로운 형태로 변화시킵니다. 대상은 한 번에 두 개 이상의 다형성 효과의 영향을 받을 수 없습니다. 대상이 두 번째 다형체 효과의 영향을 받는 경우, 두 번째 다형체 효과는 첫 번째 다형체 효과를 반격하려고 시도합니다. 성공하면 효과가 적용되고, 실패하면 해당 주문은 해당 대상에게 효과가 없습니다. 다형체 효과에 의해 특별히 부여되는 모든 타격은 마법입니다. 달리 명시되지 않는 한, 다형체 주문은 대상이 특정 개별 생물의 모습을 취하는 것이 아니라 일반적인 유형이나 혈통의 일반 생물의 모습을 취하게 합니다. 다형성 주문으로 전투 형태를 취하면 특수 능력치는 상황 보너스, 상태 보너스, 페널티에 의해서만 조정할 수 있습니다. 별도의 설명이 없는 한, 전투 형태에서는 주문 시전, 말하기, 손이 필요한 대부분의 조작 액션을 사용할 수 없습니다. (액션을 사용할 수 있는지 여부는 GM이 결정합니다.) 장비는 자신에게 흡수되며, 장비의 상시 능력은 계속 작동하지만 아이템은 활성화할 수 없습니다.",
@@ -4499,14 +4529,14 @@
     "TraitDescriptionPrimal": "이 마법은 자연과 본능에 연결되는 프라이멀 전통에서 비롯됩니다. 이 특성을 가진 것은 무엇이든 마술적입니다.",
     "TraitDescriptionProcessed": "가공 특성을 가진 연금술 소모품은 빠른 연금술로 만들 수 있지만, 한 번의 액션으로 만들기에는 너무 복잡합니다.",
     "TraitDescriptionPropulsive": "추진력 원거리 무기로 굴려서 주는 피해에 근력 수정치의 절반(양수일 경우)을 더합니다. 근력 수정치가 음수인 경우, 대신 자신의 근력 수정치 전체를 더합니다.",
-    "TraitDescriptionProtean": "A family of monitors spawned within the Maelstrom, these creatures are guardians of disorder. They typically have darkvision, an amorphous anatomy, and abilities that create magical warpwaves.",
+    "TraitDescriptionProtean": "메일스트롬에서 탄생한 모니터의 일족으로, 이 생물들은 무질서의 수호자입니다. 이들은 일반적으로 암흑 시야, 무정형 해부학적 구조, 마법적인 워프파를 생성하는 능력을 가지고 있습니다.",
     "TraitDescriptionPsyche": "정신 특성을 가진 능력을 사용하려면 정신이 해방되어야 하며, 해방된 정신이 가라앉으면 자동으로 종료됩니다.",
     "TraitDescriptionPsychic": "이것은 심령술사 클래스의 능력을 나타냅니다.",
-    "TraitDescriptionPsychopomp": "A family of monitors spawned within the Boneyard to convey souls to the Outer Planes. They typically have darkvision, lifesense, and shepherd's touch, and they are immune to death effects.",
-    "TraitDescriptionQlippoth": "A family of fiends hailing from the Outer Rifts, most qlippoth are unholy. Their appearance affects the minds of non-qlippoth that view them.",
+    "TraitDescriptionPsychopomp": "본야드에서 태어난 모니터의 일족으로, 영혼을 외부 차원으로 전달하는 역할을 합니다. 이들은 일반적으로 암흑 시야, 생명 감지, 목자의 손길을 가지고 있으며, 죽음의 효과에 면역입니다.",
+    "TraitDescriptionQlippoth": "외곽 균열에서 온 악마의 일족인 클리포스는 대부분 불경스러운 존재입니다. 그들의 모습은 그들을 보는 비클리포스의 정신에 영향을 미칩니다.",
     "TraitDescriptionRadiation": "일반적으로 방사성 광물에서 발생하는 위험하고 일반적으로 유독한 방출입니다.",
     "TraitDescriptionRage": "분노 특성을 가진 능력을 사용하려면 반드시 분노 상태여야 하며, 분노를 멈추면 자동으로 종료됩니다.",
-    "TraitDescriptionRakshasa": "Rakshasas are divine spirits who exemplify the profane. They can typically Change Shape and have a weakness to holy.",
+    "TraitDescriptionRakshasa": "라크샤사스는 신성한 영혼이지만 세속적인 것을 상징합니다. 그들은 일반적으로 형태를 변환할 수 있으며 성스러운 것에 약점을 가지고 있습니다.",
     "TraitDescriptionRange": "이러한 공격은 범위 증가에 대한 일반적인 규칙을 따르는 유한 범위 또는 범위 증가를 나열합니다.",
     "TraitDescriptionRangedTrip": "이 무기는 무기의 첫 번째 사거리 증가분까지 거리에서 운동 기술로 넘어뜨리는 데 사용할 수 있습니다. 기술 체크에는 -2의 상황 페널티가 적용됩니다. 무기의 아이템 보너스를 공격 주사위에 보너스로 추가하여 체크할 수 있습니다. 근접 무기로 넘어뜨릴 때와 마찬가지로 원거리 넘어뜨림은 넘어뜨릴 때 피해를 입히지 않습니다.",
     "TraitDescriptionRanger": "레인저 클래스의 능력을 나타냅니다.",
@@ -4516,7 +4546,7 @@
     "TraitDescriptionReach": "이 특성을 가진 자연 공격은 인접한 생물만 공격하는 대신 나열된 거리까지 멀리 있는 생물을 공격하는 데 사용할 수 있습니다. 이 특성이 있는 무기는 길이가 길며, 인접한 생물만 공격하는 대신 최대 10피트 떨어진 생물까지 공격할 수 있습니다. 이미 무기를 휘두르는 팔다리의 범위가 있는 생물의 경우, 무기의 범위가 5피트 증가합니다.",
     "TraitDescriptionReckless": "무모한 특성이 있는 액션은 조종사가 기체에 대한 통제권을 잃을 위험이 있습니다. 무모한 액션을 수행할 때 파일럿은 먼저 적절한 파일럿 체크를 시도하여 차량 제어권을 유지해야 합니다.",
     "TraitDescriptionRecovery": "복원 무기는 던진 무기가 목표물을 빗나갔을 때 던진 사람에게 돌아오도록 설계된 무기입니다. 이 무기로 던진 공격이 실패하면, 공격이 완료된 후 무기는 다시 내 손으로 날아와 다시 시도할 수 있습니다. 무기가 돌아올 때 손이 가득 차 있으면 무기는 내 공간의 바닥에 떨어집니다.",
-    "TraitDescriptionReincarnated": "This ancestry feat is available to any character who has reincarnated at least once, either as part of their backstory or because of a reincarnation that took place during play.",
+    "TraitDescriptionReincarnated": "이 조상 피트는 배경 스토리에서 또는 플레이 중에 환생한 적이 한 번 이상 있는 모든 캐릭터가 사용할 수 있습니다.",
     "TraitDescriptionReflection": "이 특성을 가진 생물은 리플렉션 다재다능한 유산을 가지고 있습니다. 리플렉션은 복제, 평면 복제, 또는 다른 메커니즘을 통해 살아있는 사람의 복사본이 된 존재입니다. 이 특성을 가진 능력은 리플렉션만 사용하거나 선택할 수 있습니다.",
     "TraitDescriptionRelic": "유물 특성을 가진 아이템은 착용자와 함께 위력이 증가합니다.",
     "TraitDescriptionReload": "모든 무기는 장전하는 데 어느 정도 시간이 필요하지만, 원거리 무기는 장전하고 재장전하는 데도 많은 시간이 필요합니다. 이 항목은 해당 무기를 재장전하는 데 필요한 인터랙트 액션 수를 나타냅니다. 탄약을 뽑는 것과 무기를 발사하는 것이 동일한 액션의 일부인 경우 0이 될 수 있습니다. 아이템 재장전에 2개 이상의 액션이 필요한 경우, GM은 이 액션들을 하나의 활동으로 함께 수행해야 하는지 아니면 한 턴에 일부만 사용하고 나머지는 다음 턴에 사용할 수 있는지를 결정합니다.",
@@ -4525,42 +4555,51 @@
     "TraitDescriptionRevelation": "이 특성을 가진 효과는 사물을 있는 그대로 보여줍니다.",
     "TraitDescriptionRogue": "이것은 로그 클래스의 능력을 나타냅니다.",
     "TraitDescriptionSaggorak": "사그고락의 고대 드워프 대장장이들은 놀랍도록 강력한 일련의 룬을 설계했습니다. 전설적인 제작 숙련도를 가진 사람 또는 코블라 도시의 숙련된 드워프 장인만이 사그고락 특성을 가진 룬을 적용, 이전 또는 제거할 수 있습니다. 모든 사그고락 룬은 상당한 위력 때문에 특성 룬 슬롯 두 개를 차지하므로, 최소 +2 강화 룬이 있는 방어구와 무기에만 적용할 수 있습니다.",
+    "TraitDescriptionSahkil": "사킬은 필멸의 생물들에게 공포와 불안감을 퍼뜨리는 것을 즐기는 악마입니다. 이들은 일반적으로 암흑 시야를 가지고 있으며, 공포에 면역이 있고, 선에 약합니다.",
+    "TraitDescriptionSamsaran": "지 하(Zi Ha) 출신으로 파란 피부를 가진 사람들로서, 죽은 후 환생하며 과거 생애의 일부를 기억하는 종족.",
     "TraitDescriptionSanctified": "당신이 성스럽거나 불경한 경우, 당신의 정화된 행동과 주문은 동일한 특성을 얻습니다.",
     "TraitDescriptionScatter": "이 무기는 넓은 범위의 알갱이 덩어리를 발사합니다. 흩뿌리기에는 항상 분사 반경을 나타내는 영역이 나열되어 있습니다. 적중 시, 분사형 무기를 사용한 공격의 주요 대상은 나열된 피해를 입고, 대상과 그 주위에 나열된 반경 내에 있는 다른 모든 생물은 무기 피해 주사위당 1점의 방사 피해를 입습니다.",
     "TraitDescriptionScroll": "주문 주문서에는 주문 슬롯 없이 시전할 수 있는 주문이 하나 들어 있습니다.",
     "TraitDescriptionScrying": "점술 효과는 자신의 눈과 귀가 아닌 센서나 장치를 사용하여 먼 거리에서 보고, 듣고, 감각 정보를 얻을 수 있게 해줍니다.",
+    "TraitDescriptionSeaDevil": "사악한 바다에 사는 인간형 생물인 바다 악마는 보통 암흑 시야와 파도 감지 능력을 가지고 있습니다.",
     "TraitDescriptionSecret": "이 능력은 GM이 비밀리에 체크합니다.",
-    "TraitDescriptionSedacthy": "Ocean-dwelling humanoids who communicate with sea life and usually have darkvision and wavesense.",
-    "TraitDescriptionSerpentfolk": "Serpentfolk are a family of serpentine humanoids.",
-    "TraitDescriptionShade": "Shades are mortal souls who have been judged and then transformed into creatures native to other planes. Petitioners can survive the basic environmental effects of their home plane.",
+    "TraitDescriptionSedacthy": "바다에 사는 인간형 생물로, 해양 생물과 소통할 수 있으며, 보통 암흑 시야와 파도 감지 능력을 가지고 있습니다.",
+    "TraitDescriptionSerpentfolk": "뱀족은 뱀 모양의 인간형 생물 종족입니다.",
+    "TraitDescriptionShabti": "샤비티는 죽은 생물의 죄를 대신해 심판을 받기 위해 만들어진 인공 인간형 존재입니다.",
+    "TraitDescriptionShade": "쉐이드는 심판을 받은 후 다른 차원의 원주민으로 변환된 불멸의 영혼들입니다. 청원자들은 자신의 고향 차원의 기본 환경 효과를 견딜 수 있습니다.",
     "TraitDescriptionShadow": "이 마법에는 그림자 또는 네더월드의 에너지가 사용됩니다.",
     "TraitDescriptionShieldThrow": "이 특성이 있는 방패는 원거리 공격으로 던지도록 설계되었습니다.",
     "TraitDescriptionShisk": "지하에 서식하는 뼈의 깃털로 덮인 비밀스러운 휴머노이드입니다.",
     "TraitDescriptionShoony": "이 특성을 가진 생물은 슈니 혈통의 일원입니다.",
     "TraitDescriptionShove": "이 무기는 양손이 자유롭지 않아도 운동 기술로 밀기 기술을 사용할 수 있습니다. 이 경우 무기의 사정거리(자신의 사정거리와 다른 경우)를 사용하며, 무기의 아이템 보너스를 운동 기술 체크에 아이템 보너스로 추가하여 공격 굴림에 추가합니다. 무기를 사용하여 밀치기 체크에서 대실패하면 무기를 떨어뜨려 대실패 대신 실패의 효과를 받을 수 있습니다.",
     "TraitDescriptionSkeleton": "이 언데드는 죽은 생물의 해골에 공허의 기운을 불어넣어 만듭니다. 이 특성을 가진 능력은 스켈레톤만 사용하거나 선택할 수 있습니다.",
+    "TraitDescriptionSkelm": "이 생물들은 흉악하고 분노에 차 있는 인간 혐오자로, 분노와 증오를 통해 타인을 지배하려 합니다.",
     "TraitDescriptionSkill": "기술 특성이 있는 일반 재주는 기술과 해당 기술의 액션을 향상시키거나 기술에 새로운 액션을 부여합니다. 이 특성을 가진 업적은 클래스가 기술 업적 또는 일반 재주를 획득할 때 선택할 수 있습니다. 기술 특성을 가진 아키타입 재주는 해당 원형의 헌신 재주가 있는 경우 기술 재주 대신 선택할 수 있습니다.",
+    "TraitDescriptionSkulk": "스컬크스는 피부 색상을 변화시켜 은밀함을 돕는 인간형 생물 종족입니다.",
     "TraitDescriptionSleep": "이 효과는 생물을 잠들게 하거나 졸음을 유발할 수 있습니다.",
     "TraitDescriptionSnare": "일반적으로 레인저가 만드는 함정인 올무는 전장에서 빠르게 건설하고 사용할 수 있는 특별한 규칙을 따릅니다.",
     "TraitDescriptionSocial": "사회적 특성이 있는 액션과 능력은 비질란테가 사회적 신분을 유지하고 있는 동안에만 사용할 수 있습니다.",
     "TraitDescriptionSonic": "음파 특성이 있는 효과는 소리를 낼 때만 작동하므로 고요한 공간이나 진공 상태에서는 효과가 없습니다. 이는 대상이 들을 수 있을 때만 효과가 있는 청각 주문과는 다릅니다. 음파 효과는 음파 피해를 입힐 수 있습니다.",
     "TraitDescriptionSorcerer": "소서러 클래스의 능력을 나타냅니다.",
-    "TraitDescriptionSoulbound": "These constructs are mentally augmented by a fragment of a once-living creature's soul.",
+    "TraitDescriptionSoulbound": "이 구조물은 한때 살아있던 생물의 영혼의 파편에 의해 정신적으로 강화되었습니다.",
     "TraitDescriptionSpellgun": "주문총 특성은 총알처럼 날아가는 마법 효과를 생성할 수 있는 아이템에 나타납니다. 주문 총으로 주문 공격 주사위를 굴리거나 간단한 총기 숙련도를 사용해 원거리 공격 주사위를 굴릴 수 있습니다. 주문 총에는 사거리 증가 효과가 있으며, 이는 어떤 유형의 공격 굴림을 하든 적용됩니다. 단순 총기에 수정치를 사용할 수 있지만, 주문총은 실제로 총기가 아닙니다. 총기 일격의 피해나 치명타 전문화 같은 다른 혜택을 받을 수 없습니다. 마찬가지로 주문 총을 장전하거나 재장전할 수 없으며, 주문 총에 부적을 부착하거나 총기 일격을 가할 수 있는 액션의 일부로 주문 총 일격을 가하는 등의 행동을 할 수 없습니다.",
     "TraitDescriptionSpellheart": "주문심장은 부적과 유사한 효과를 지닌 영구 아이템입니다. 주문심장 부착하기 활동을 통해 주문심장을 부착할 수 있으며, 그 외에는 부적 부착과 동일합니다. 아이템당 부적 1개 제한은 그대로 유지되며, 아이템에는 주문심장 하나 또는 부적 하나만 부착할 수 있고 둘 다 부착할 수는 없습니다. 주문심장으로 캔트립을 시전할 때는 주문 공격력 주사위를 사용하거나 주문 DC가 더 높을 경우 사용할 수 있습니다. 주문심장을 제작하려면 주문 심장이 시전할 수 있는 주문이 필요합니다. 예를 들어, 주요 다섯 깃털 화환을 만들려면 공중 보행, 강풍 폭발, 바람의 벽이 필요합니다.",
     "TraitDescriptionSpellshape": "주문형상 액션은 주문의 속성을 변경합니다. 주문형상 액션은 변경하려는 주문을 시전하기 바로 전에 사용해야 합니다. 주문 시전 직후에 주문을 시전하는 것 외에 다른 액션(자유 액션 및 리액션 포함)을 사용하면 주문형상 액션의 이점을 잃게 됩니다. 주문을 시전하기 전에 자신의 턴이 끝나면 이 혜택도 사라집니다. 주문형상 액션으로 추가되는 모든 효과는 주문 효과의 일부이지 주문형상 액션 자체의 일부가 아닙니다.",
     "TraitDescriptionSpirit": "이 특성이 있는 효과는 영적 본질을 가진 생물에게 영향을 미칠 수 있으며 영혼 피해를 입힐 수도 있습니다. 이 특성을 가진 생물은 영적 본질로 정의됩니다. 정령 생물은 종종 물질적 형태를 갖지 않습니다.",
     "TraitDescriptionSplash": "방사 특성이 있는 투척 무기를 사용할 때는 피해 굴림에 자신의 근력 수정치를 더하지 않습니다. 방사무기로 공격이 실패하거나, 성공하거나, 대성공하면 대상(대상 포함)으로부터 5피트 이내에 있는 모든 생물이 나열된 방사 피해를 받습니다. 공격이 실패해도(대실패는 아님) 공격 대상은 여전히 방사 피해를 받습니다. 방사 피해는 대상의 약점이나 저항을 적용하기 전에 대상에 대한 초기 피해와 합산합니다. 치명타에 대한 방사 피해는 곱하지 않습니다.",
     "TraitDescriptionSplash10": "방사 특성이 있는 투척 무기를 사용할 때는 피해 굴림에 자신의 근력 수정치를 더하지 않습니다. 방사 무기로 공격이 실패하거나, 성공하거나, 대성공하면 대상(대상 포함)으로부터 10피트 이내에 있는 모든 생물이 나열된 방사 피해를 받습니다. 공격이 실패해도(대실패는 아님) 공격 대상은 여전히 방사 피해를 받습니다. 방사 피해는 대상의 약점이나 저항을 적용하기 전에 대상에 대한 초기 피해와 합산합니다. 치명타에 대한 방사 피해는 곱하지 않습니다.",
+    "TraitDescriptionSpriggan": "노움과 친척인 스프리건은 사악한 성향을 가지고 있으며, 거인처럼 커질 수도 있습니다.",
     "TraitDescriptionSprite": "프라이멀 마법과 밀접한 관련이 있는 작은 날개 달린 페이족입니다.",
     "TraitDescriptionStaff": "이 마법 아이템은 특정 테마의 주문을 담고 있으며, 주문 시전자가 지팡이를 준비하여 추가 주문을 시전할 수 있습니다.",
     "TraitDescriptionStance": "자세는 자세 특성이 있는 액션을 사용해 들어가서 일정 시간 동안 유지하는 일반적인 전투 전략입니다. 자세는 쓰러질 때까지, 요구 조건이 위반될 때까지, 인카운터가 종료될 때까지, 또는 새로운 자세를 취할 때까지 중 먼저 도래하는 시점까지 지속됩니다. 자세 특성이 있는 액션을 사용한 후에는 1라운드 동안 다른 액션을 사용할 수 없습니다. 인카운터 모드에서만 자세에 들어가거나 자세에 있을 수 있습니다.",
     "TraitDescriptionSteam": "이 특성을 가진 아이템은 물을 끓여 증기를 생성하고 부품을 이동시키는 엔진으로 구동됩니다.",
+    "TraitDescriptionStheno": "스테노는 메두사와 관련된 인간형 생물로, 머리카락 대신 뱀을 가지고 있습니다.",
     "TraitDescriptionStrix": "날개 달린 휴머노이드는 대부분 첼리아스와 그 주변에 서식합니다.",
     "TraitDescriptionStructure": "구조물 특성이 있는 아이템은 활성화하면 마법 건물이나 다른 구조물을 생성합니다. 아이템은 다른 구조물이 없는 대지에서 활성화해야 합니다. 구조물은 자연 지형에 적응하여 그곳에 건설할 수 있는 구조 요구 조건을 적용합니다. 구조물은 연못이나 바위 첨탑과 같은 작은 특징을 중심으로 조정되지만, 물이나 기타 단단한 표면에는 생성할 수 없습니다. 눈, 모래 언덕 또는 아래에 단단한 표면이 있는 기타 부드러운 표면에서 활성화하면 구조물의 기초(있는 경우)가 단단한 지면에 닿게 됩니다. 이 특성이 있는 아이템이 늪이나 지진이 자주 발생하는 지역처럼 단단하지만 불안정한 표면에서 활성화되면 매일 @Check[type:flat|dc:3]을 굴려 실패하면 구조물이 가라앉거나 붕괴하기 시작합니다. 구조물이 나타날 때 해당 지역 내의 생물에게는 해를 끼치지 않으며, 군중이나 인구 밀집 지역에는 구조물을 만들 수 없습니다. 아이템이 활성화되었을 때 실수로 구조물 안에 갇힌 생명체는 전체 구조물 안에서 무사히 탈출할 수 있으며, 항상 탈출 경로가 명확합니다. 활성화가 종료될 때 구조물 안에 있던 생명체는 해를 입지 않으며, 구조물의 위층에 있었다면 무사히 바닥에 떨어집니다.",
+    "TraitDescriptionSubjectiveGravity": "모든 질량을 가진 물체는 동일한 힘으로 중력의 중심이 될 수 있지만, 지각이 없는 생물이 의지를 발휘한 경우에만 가능합니다. 무인 물건, 사물 및 지각이 없는 생물은 평면을 미세 중력이 있는 것으로 취급합니다. 주관적 중력이 있는 평면상의 생물은 발 근처에 ‘아래'를 상상함으로써 고체 표면에서 정상적으로 이동할 수 있습니다. 이 아래 방향을 지정하는 것은 집중 특성을 가진 무료 행동입니다. 공중에 떠 있는 생물은 '아래’ 방향을 선택하고 그 방향으로 떨어지며, 속도나 비행 속도로 위로 이동함으로써 비행과 유사한 움직임을 재현할 수 있습니다. 이 가짜 비행은 비행 행동을 사용합니다.",
     "TraitDescriptionSubtle": "미묘한 특성을 가진 주문은 주문 없이 시전할 수 있으며 뚜렷한 효과가 나타나지 않습니다.",
     "TraitDescriptionSuli": "술리는 지니의 후손인 차원 자손입니다.",
-    "TraitDescriptionSurki": "Surkis are a subterranean insectile ancestry that absorb ambient magic and evolve unique adaptations.",
+    "TraitDescriptionSurki": "수르키는 지하에 서식하는 곤충형 조상 종으로, 주변의 마법을 흡수하여 독특한 적응력을 진화시킨 종입니다.",
     "TraitDescriptionSummon": "소환 특성이 있는 주문은 일반적으로 특정 특성을 가진 생물을 소환할 수 있습니다. 이러한 생물은 몬스터 코어와 유사한 책에서 찾을 수 있습니다. 특별한 언급이 없는 한, 해당 생물은 일반 생물이어야 하고, 소환 특성을 얻어야 하며, 해당 생물을 포함할 수 있을 만큼 넓은 범위의 비어 있는 공간에 나타나야 합니다. 주문으로 소환할 수 있는 최고 레벨의 생물은 주문의 등급에 따라 아래 목록과 같이 달라집니다. 주문은 원하는 경우 더 낮은 레벨의 생물을 소환할 수도 있습니다. 이 규칙은 소환 특성이 있는 주문에만 적용되며, 소환 도구처럼 아이템이나 존재를 부르거나 소환하지만 해당 특성이 없는 다른 주문은 주문에 설명된 대로 작동합니다.",
     "TraitDescriptionSummoned": "주문 또는 효과에 의해 호출된 생물은 소환된 특성을 얻습니다. 소환된 생물은 다른 생물을 소환하거나, 가치 있는 물건을 만들거나, 비용이 필요한 주문을 시전할 수 없습니다. 하수인 특성이 있습니다. 소환된 생물이 자신을 소환한 주문과 같거나 더 높은 등급의 주문을 시전하려고 하면, 소환 마법을 무력화하여 자신의 주문이 실패하고 소환 주문이 종료됩니다. 그렇지 않으면, 소환된 생물은 같은 종류의 생물에 대한 표준 능력을 사용합니다. 소환된 생물은 일반적으로 최선을 다해 적을 공격합니다. 소환수와 의사소통이 가능하다면 소환수에게 명령을 내릴 수 있지만, 소환수가 당신의 명령을 얼마나 따를지는 GM이 결정합니다. 주문 시전이 끝나는 즉시, 소환된 생물은 해당 턴에 자신의 액션 2장을 사용합니다. 소환된 생물로부터 생성된 스폰 또는 다른 생물은 소환된 생물이 사라진 후 변경되지 않은 상태(스폰의 경우 보통 시체)로 돌아갑니다. 이 상태가 무엇인지 불분명할 경우, GM이 결정합니다. 소환된 생물은 다양한 주문과 효과에 의해 추방될 수 있습니다. HP가 0으로 감소하거나 소환한 주문이 끝나면 자동으로 추방됩니다.",
     "TraitDescriptionSummoner": "소환사 클래스의 능력을 나타냅니다.",
@@ -4571,7 +4610,8 @@
     "TraitDescriptionTalisman": "부적은 갑옷, 방패 또는 무기에 부착하는 작은 물체(부착 아이템이라고 함)입니다. 부착된 부적을 활성화하려면 아이템을 휘두르거나 착용하고 있어야 합니다. 부적이 활성화되면 영구적으로 소멸됩니다.",
     "TraitDescriptionTalos": "탈로스는 주라의 후손인 차원 자손입니다.",
     "TraitDescriptionTandem": "이 특성이 있는 액션은 자신과 에이돌론이 함께 행동하는 것입니다. 자신이나 에이돌론 중 한 명이 행동할 수 없거나, 에이돌론을 발현하지 않았거나, 에이돌론이 별도의 개체가 아닌 방식으로 발현한 경우(예: 에이돌론에 녹아들기 재주)에는 탠덤 액션을 사용할 수 없습니다. 탠덤 액션을 사용하면 자신과 에이돌론이 각각 별도의 액션을 취할 수 있지만, 이는 반드시 자신과 에이돌론이 각각 따로 취하는 액션이어야 하며, 탠덤 액션을 사용하여 다른 탠덤 액션을 취할 수 없습니다.",
-    "TraitDescriptionTane": "The Tane are powerful creatures created eons ago by the Eldest of the First World. All of the Tane treat whatever plane they happen to be on as their home plane.",
+    "TraitDescriptionTane": "타네는 첫 번째 세계의 가장 오래된 존재에 의해 수억 년 전에 창조된 강력한 생물체입니다. 모든 타네는 자신이 속한 차원을 자신의 고향 차원으로 여깁니다.",
+    "TraitDescriptionTanggal": "이 식인성 변종 종족은 사냥 중 몸체를 두 조각으로 분리할 수 있는 다양한 인간형 생물들로 구성되어 있습니다.",
     "TraitDescriptionTattoo": "문신은 동물의 피부에 그리거나 자르는 일종의 아이템으로, 일반적으로 이미지나 상징의 형태를 취합니다.",
     "TraitDescriptionTea": "<p>마법의 차는 일종의 물약입니다. 마시면 활성화되어 물약이 소진됩니다. 마법 차에는 물약과 차의 특성이 있습니다. 마법 차를 제작할 때 공급하는 원료는 특이하고 값비싼 찻잎의 형태입니다. 마법 차를 만드는 과정에는 찻잎에 마법 시약을 주입하고, 물을 정화하고, 차를 물에 담그는 과정이 포함되며, 그 결과 특별한 맛의 물약이 만들어집니다. 마법의 차를 마실 때 상호작용 액션으로 활성화하거나 다른 생물에게 먹이면 물약처럼 마법의 차를 활성화할 수 있습니다. 또한, 10분의 활동으로 마법의 차를 활성화할 수 있는데, 이 활동은 최대 4명이 동시에 공유할 수 있는 고급 다기(장인의 도구)를 사용해 차를 준비한 다음 짧은 다도를 통해 차를 마시거나 누군가에게 선물하면 마법의 차의 효과가 시작되며, 이 방법으로 마법의 차를 활성화하면 각 항목의 다도에 설명된 대로 효과가 강화됩니다.</p><p>마법의 차를 한 번 마시면 24시간 동안 해당 마법의 차에 일시적으로 면역이 됩니다.</p>",
     "TraitDescriptionTearing": "이 무기는 구부러진 이빨로 가장자리가 날카로워 출혈을 일으키는 상처를 남깁니다. 이 무기로 생물을 공격하면 추가적으로 1의 지속 출혈 피해가 발생합니다. 이 무기에 더 큰 타격 룬이 장착되어 있으면 지속 출혈 피해가 2로 증가합니다.",
@@ -4582,11 +4622,13 @@
     "TraitDescriptionTethered": "이 무기는 긴 밧줄이나 사슬에 연결되어 있어 무기가 손에서 떨어졌을 때 되찾을 수 있습니다. 이 무기를 휘두르는 동안 한 손이 자유롭다면, 원거리 공격으로 무기를 던진 후 또는 무기가 해제된 후 (다른 생물이 들고 있지 않는 한) 상호작용 액션을 사용하여 무기를 다시 잡을 수 있습니다.",
     "TraitDescriptionThaumaturge": "이것은 쏘마터지 클래스의 능력을 나타냅니다.",
     "TraitDescriptionThrown": "이 무기는 원거리 공격으로 던질 수 있습니다. 던진 무기는 근접 무기와 마찬가지로 공격력에 근력 수정치가 추가됩니다. 이 특성이 근접 무기에 나타나면 사거리 증가 효과도 포함됩니다.",
+    "TraitDescriptionTitan": "타이탄은 신에 가까운 힘을 지닌 거대한 원시적 생물로, 인간 종족보다 훨씬 오래 전에 존재해 왔습니다.",
     "TraitDescriptionTraining": "훈련 무기는 동물이 공격할 대상을 식별하여 전투에 참여하도록 훈련시킬 때 사용합니다. 훈련 무기로 생물을 공격하면 동반자 또는 반려 동물이 해당 대상에 대한 다음 공격 굴림에 +1 상황 보너스를 받습니다.",
     "TraitDescriptionTranscendence": "초월은 모범의 신성한 불꽃의 힘을 그들의 아이콘 중 하나를 통해 전달하여 인간을 초월하고 기적적인 행위를 수행합니다. 각 아이콘은 ‘초월’ 특성을 가진 행동을 가지고 있으며, 이를 사용하는 것을 '스파크 초월'이라고 합니다. 이 행동을 사용하려면, 신성한 불꽃이 그 아이콘에 힘을 부여하고 있어야 하며, 아이콘을 사용할 준비가 되어 있어야 합니다(일반적으로 무기 아이콘을 들고 있거나 착용한 아이콘을 착용하고 있어야 함). 초월을 발동한 직후, 신성한 불꽃이 그 아이콘에서 강제로 배출되어, 당신이 선택한 다른 아이콘에 머무르게 됩니다. 초월은 라운드당 한 번만 발동할 수 있습니다. 신성한 불꽃에서 발동된 초월 행동은 신성한 특성을 가지고 있습니다.",
     "TraitDescriptionTrap": "이 특성을 가진 위험물이나 아이템은 침입자를 방해하도록 제작됩니다.",
     "TraitDescriptionTrip": "이 무기는 양손이 자유롭지 않더라도 운동 기술로 넘어뜨릴 때 사용할 수 있습니다. 이 경우 무기의 사거리(자신의 사거리와 다른 경우)를 사용하며, 무기의 아이템 보너스를 운동 체크에 아이템 보너스로 추가하여 공격 굴림에 추가합니다. 무기를 사용하여 넘어지기 체크에서 대실패하면 무기를 떨어뜨려 대실패 대신 실패의 효과를 받을 수 있습니다.",
     "TraitDescriptionTroll": "트롤은 거대하고 야만적인 생물로서, 무생물 재료로 변신하는 것으로 유명합니다.",
+    "TraitDescriptionTroop": "부대는 일반적으로 소형 또는 중형 크기의 구성 생물들로 조직된 집단으로, 응집력 있는 전체로 작동합니다. 충분한 공격을 받거나 동료들이 쓰러지면 부대의 크기가 줄어듭니다. 부대는 일반적으로 부대 방어력과 부대 이동 능력을 가지고 있으며, 대부분의 부대는 면적 피해와 방사 피해에 약합니다. 여러 개의 개별 생물들로 구성되어 있기 때문에 소환할 수 없습니다.",
     "TraitDescriptionTrueName": "특정 주문, 재주, 아이템에는 실명 특성이 있습니다. 이 특성은 해당 생물의 실제 이름을 알아야만 사용할 수 있다는 뜻입니다.",
     "TraitDescriptionTwin": "이 무기는 한 쌍으로 사용하며 서로를 보완합니다. 쌍둥이 무기로 공격할 때, 이번 턴에 같은 종류의 다른 무기로 공격한 적이 있다면 무기의 피해 주사위 수와 같은 상황 보너스를 피해 주사위에 추가합니다. 이 특성의 혜택을 받으려면 무기의 종류가 같아야 하지만, 같은 룬을 사용할 필요는 없습니다.",
     "TraitDescriptionTwoHand": "이 무기는 양손으로 휘두를 수 있습니다. 이렇게 하면 무기 공격력이 표시된 값으로 변경됩니다. 이 변화는 일격 룬으로 인한 피해 등 무기의 모든 피해 주사위에 적용됩니다.",
@@ -4597,11 +4639,14 @@
     "TraitDescriptionUnholy": "불경한 특성을 가진 효과는 잔인함과 죄악의 강력한 마법과 관련이 있습니다. 성스러운 생물에게 더 강력한 효과를 주는 경우가 많습니다. 이 특성을 가진 생물은 부정한 목적에 강하게 헌신하며, 종종 성스러운 것에 약합니다. 부정한 것에 약점을 가진 생물이 불경한 아이템이나 효과를 사용하면 그 약점으로 인해 피해를 받습니다.",
     "TraitDescriptionUnique": "이 특성을 가진 규칙 요소는 유일무이합니다. 이 특성을 가진 생물과 관련된 지식 회상 체크의 DC가 10 증가합니다.",
     "TraitDescriptionUnstable": "불안정한 액션은 본인도 완전히 예측할 수 없는 혁신의 실험적 기능에 의존합니다. 혁신에 불안정한 액션을 사용한 후 다른 액션을 사용하는 것은 위험합니다.",
-    "TraitDescriptionVampire": "Undead creatures who thirst for blood, vampires are notoriously versatile and hard to destroy.",
+    "TraitDescriptionUrdefhan": "우르데프한스는 악마와 계약을 맺은 인간형 생물로, 투명한 피부를 가지고 있으며 피를 마십니다.",
+    "TraitDescriptionVampire": "피에 굶주린 언데드 생물인 뱀파이어는 다재다능하고 파괴하기 어려운 것으로 악명 높습니다.",
     "TraitDescriptionVanara": "영장류와 같은 특징과 날카로운 꼬리를 가진 호기심 많은 조상입니다.",
     "TraitDescriptionVehicular": "차량용 무기는 차량에 부착하거나 탈것에 착용하며, 일반적으로 차량 운전자 또는 탈것의 주 탑승자만 사용할 수 있습니다. 운전자 또는 탑승자는 차량을 조종하거나 탈것을 안내할 때 사용하는 것과 같은 손으로 차량 무기를 제어할 수 있습니다. 차량 무기는 조작 장치(일반적으로 탈것의 고삐 또는 차량의 조향 장치)를 착용자의 손에서 떼어내면 무장 해제할 수 있습니다.",
+    "TraitDescriptionVelstrac": "그림자 차원에서 온 악마의 일족으로, 고통과 고난과 연관된 존재들입니다. 모든 벨스트라크는 어떤 형태의 끔찍한 시선을 지니고 있습니다.",
     "TraitDescriptionVenomous": "이 무기는 타격할 때마다 독을 주입합니다. 이 무기로 생물을 타격하면 1의 지속 독 피해가 추가로 발생합니다. 이 무기에 더 큰 타격 룬이 장착되어 있으면 지속 독 피해가 2로 증가합니다.",
     "TraitDescriptionVersatile": "다목적 무기는 피해 항목에 나열된 것과는 다른 유형의 피해를 입히는 데 사용할 수 있습니다. 이 특성은 대체 피해 유형을 나타냅니다. 예를 들어, 다용도 S인 관통 무기는 관통 또는 베기 피해를 주는 데 사용할 수 있습니다. 공격할 때마다 피해 유형을 선택합니다.",
+    "TraitDescriptionVigilante": "클래스 피트와 자경단 피트는 자경단 신분과 관련이 있으며, 사회 신분으로 활동하는 동안 이러한 피트를 사용하면 자경단 신분이 드러날 위험이 있습니다. 신분이 공개되면, 자신을 위장하는 데에 대한 자경단 헌신의 이점을 잃게 되지만, 1주간의 다운타임을 사용하여 새로운 사회 신분을 만들 수 있습니다.",
     "TraitDescriptionVirulent": "독성 특성을 가진 고통은 제거하기가 더 어렵습니다. 두 번 연속으로 저항에 성공해야 독성 괴물의 단계가 1 감소하며, 대성공하면 독성 고통의 단계가 2가 아닌 1만 감소합니다.",
     "TraitDescriptionVishkanya": "뱀과 같은 특징과 강력한 독을 가진 혈통입니다.",
     "TraitDescriptionVisual": "시각 효과는 볼 수 있는 생물에게만 영향을 줄 수 있습니다. 이는 GM이 결정한 대로 효과의 눈에 보이는 부분에만 적용됩니다.",
@@ -4611,16 +4656,19 @@
     "TraitDescriptionWand": "완드에는 하루에 한 번 시전할 수 있는 주문이 하나 들어 있습니다.",
     "TraitDescriptionWandering": "방랑은 특정 유형의 유령에 적응한 애니미스트의 특기를 식별합니다. 이 특기를 선택하려면, 선택 시 전제 조건에 맞는 유령에 적응해야 하며, 그 특정 유령과의 유대 관계에서 얻은 지식과 능력을 나타냅니다. 일일 준비를 할 때, 교환한 특기를 배웠을 때의 레벨에서 사용할 수 있는 다른 방랑 특기로 알고 있는 방랑 특기를 재훈련할 수 있습니다 (평소와 같이, 더 낮은 레벨의 방랑 특기도 포함). 새로운 특기의 다른 전제 조건을 모두 충족해야 합니다.",
     "TraitDescriptionWater": "물 특성을 가진 효과는 물을 조작하거나 생성합니다. 물을 조작하는 효과는 물이 없는 지역에서는 효과가 없습니다. 이 특성을 가진 생물은 주로 물로 구성되어 있거나 물과 마법적으로 연결되어 있습니다.",
+    "TraitDescriptionWayang": "네더월드에 사는 작은 민족. 어스폴 이후 골라리온으로 이주했다.",
     "TraitDescriptionWerecreature": "이 변신 생물들은 동물형, 인간형, 그리고 하이브리드 형태 사이를 자유롭게 변신할 수 있습니다.",
+    "TraitDescriptionWhetstone": "마법으로 강화된 소모품으로, 무기의 효과를 높이기 위해 설계된 연마석입니다.",
     "TraitDescriptionWight": "와이트는 생명을 흡수하는 언데드 생물이며, 무덤을 지키고 있는 존재입니다.",
     "TraitDescriptionWildHunt": "야생 사냥 특성을 가진 생물은 14레벨 이하가 아닙니다. 향상된 암흑 시야, 녹색 시력, 차원 적응, 야생 시선, 본능적 협력, 콜드 아이언에 약함, 동식물과의 대화 능력, 고유한 야생 사냥 고리를 가지고 있습니다.",
     "TraitDescriptionWitch": "윗치 클래스의 능력을 나타냅니다.",
     "TraitDescriptionWizard": "위자드 클래스의 능력을 나타냅니다.",
     "TraitDescriptionWraith": "와이트는 공허의 에너지로 충만해져 모든 생명에 대한 증오로 움직이는 무형의 불사체입니다.",
     "TraitDescriptionWood": "나무 특성을 가진 효과는 나무를 소환하거나 조작합니다. 나무를 조종하는 효과는 나무가 없는 지역에서는 효과가 없습니다. 이 특성을 가진 생물은 주로 나무로 이루어져 있거나 마법의 나무와 관련이 있습니다.",
+    "TraitDescriptionWyrwood": "Wyrwood는 나무로 만들어지고 에온 스톤이나 유사한 마법의 돌로 구동되는 작은 지각 있는 생명체입니다.",
     "TraitDescriptionXulgath": "이 지하에 사는 파충류 생물들은 어둠을 볼 수 있고 냄새가 매우 나쁘다.",
     "TraitDescriptionZombie": "이 언데드는 살아있는 살을 갈망하는 무의식적인 썩은 시체들입니다.",
-    "TraitDestiny": "Destiny",
+    "TraitDestiny": "운명",
     "TraitDetection": "탐지",
     "TraitDeviant": "비정상",
     "TraitDevil": "데빌",
@@ -4633,7 +4681,7 @@
     "TraitDoubleBarrel": "더블 배럴",
     "TraitDowntime": "다운타임",
     "TraitDragon": "드래곤",
-    "TraitDragonblood": "Dragonblood",
+    "TraitDragonblood": "용혈",
     "TraitDream": "꿈",
     "TraitDromaar": "드로마르",
     "TraitDrow": "드로우",
@@ -4679,8 +4727,8 @@
     "TraitEthereal": "에테리얼",
     "TraitEvolution": "진화",
     "TraitExpandable": "확장 가능",
-    "TraitExemplar": "Exemplar",
-    "TraitExperiment": "Experiment",
+    "TraitExemplar": "이그젬플러",
+    "TraitExperiment": "실험적",
     "TraitExploration": "탐색",
     "TraitExtradimensional": "초차원적",
     "TraitFatal": "치명적",
@@ -4707,7 +4755,7 @@
     "TraitFocused": "집중된",
     "TraitFoldaway": "접이식",
     "TraitForce": "포스",
-    "TraitForceful": "강제",
+    "TraitForceful": "기세",
     "TraitFormian": "포미안",
     "TraitFortune": "행운",
     "TraitFreeHand": "프리 핸드",
@@ -4723,18 +4771,20 @@
     "TraitGhoul": "구울",
     "TraitGhul": "굴",
     "TraitGiant": "자이언트",
+    "TraitGigas": "기가스",
     "TraitGnoll": "콜로",
     "TraitGnome": "노움",
     "TraitGoblin": "고블린",
     "TraitGolem": "골렘",
     "TraitGoloma": "골로마",
-    "TraitGraft": "Graft",
-    "TraitGrapple": "그래플",
-    "TraitGraveknight": "Graveknight",
+    "TraitGraft": "그래프트",
+    "TraitGrapple": "붙잡기",
+    "TraitGraveknight": "무덤기사",
     "TraitGremlin": "그렘린",
     "TraitGrimoire": "마도서",
     "TraitGrioth": "그리오스",
-    "TraitGrippli": "그리플리",
+    "TraitGrippli": "트립키",
+    "TraitGuardian": "가디언",
     "TraitGunslinger": "건슬링어",
     "TraitHag": "해그",
     "TraitHalcyon": "할시온",
@@ -4748,7 +4798,7 @@
     "TraitHefty2": "무거운 2",
     "TraitHeldOneHand": "한 손으로 잡기",
     "TraitHeldOneHandFreeStanding": "한 손으로 잡거나 독립형으로 사용 가능",
-    "HeldInOneHandHungOnACordOrAttachedToClothing": "Held in 1 hand, hung on a cord, or attached to clothing",
+    "HeldInOneHandHungOnACordOrAttachedToClothing": "한 손에 잡을 수 있으며, 줄에 걸거나 옷에 부착할 수 있습니다.",
     "TraitHeldOneTwoHands": "한 손 또는 두 손으로 잡기",
     "TraitHeldTwoHands": "두 손으로 잡기",
     "TraitHerald": "헤럴드",
@@ -4760,12 +4810,23 @@
     "TraitHryngar": "흐린가",
     "TraitHuman": "인간",
     "TraitHumanoid": "휴머노이드",
-    "TraitHungerseed": "Hungerseed",
+    "TraitHungerseed": "헝거시드",
     "TraitIfrit": "아이프릿",
     "TraitIkeshti": "이케슈티",
-    "TraitIkon": "Ikon",
+    "TraitIkon": "이콘",
     "TraitIllusion": "환상",
-    "TraitImplanted": "Implanted",
+    "TraitImplanted": "삽입된",
+    "TraitInstalledInAGrenadeLauncherOrTwoHandedWeaponWithAnUndermoundedGrenadeLauncher": "유탄발사기 또는 언더마운트 유탄발사기가 장착된 양손 무기에 설치됨",
+    "TraitInstalledInArmor": "방어구에 설치됨",
+    "TraitInstalledInArmorWithTheEnergyShieldingUpgrade": "에너지 차폐 업그레이드가 적용된 방어구에 설치됨",
+    "TraitInstalledInArmorWithTheExposedTrait": "노출 특성이 있는 방어구에 설치됨",
+    "TraitInstalledInAWeapon": "무기에 설치됨",
+    "TraitInstalledInAWeaponSight": "무기에 설치됨 (조준경)",
+    "TraitInstalledInAWeaponWithTheKickbackTrait": "반동 특성이 있는 무기에 설치됨",
+    "TraitInstalledInOneHandedWeaponGrip": "한손 무기(손잡이)에 설치됨",
+    "TraitInstalledInRangedWeaponWithoutALoudener": "소음 증폭기 없는 원거리 무기에 설치됨",
+    "TraitInstalledInTwoHandedWeapon": "양손 무기에 설치됨",
+    "TraitInstalledOnAWeaponWithoutASilencer": "소음기 없는 무기에 설치됨",        
     "TraitImpulse": "임펄스",
     "TraitIncapacitation": "무력화",
     "TraitIncarnate": "화신",
@@ -4787,11 +4848,12 @@
     "TraitInventor": "발명가",
     "TraitInvested": "인베스팅",
     "TraitInvestigator": "조사자",
+    "TraitJotunborn": "요툰본",
     "TraitJousting": "마상",
-    "TraitJoustingD4": "Jousting d4",
+    "TraitJoustingD4": "마상 d4",
     "TraitJoustingD6": "마상 d6",
-    "TraitJoustingD8": "Jousting d8",
-    "TraitJoustingD10": "Jousting d10",
+    "TraitJoustingD8": "마상 d8",
+    "TraitJoustingD10": "마상 d10",
     "TraitKaiju": "카이주",
     "TraitKami": "카미",
     "TraitKashrishi": "카쉬리시",
@@ -4823,7 +4885,7 @@
     "TraitMindless": "무심한",
     "TraitMindshift": "마인드 시프트",
     "TraitMinion": "하수인",
-    "TraitMinotaur": "Minotaur",
+    "TraitMinotaur": "미노타우루스",
     "TraitMisfortune": "불행",
     "TraitMisfortuneEffects": "불행 효과",
     "TraitMissive": "미시브",
@@ -4835,7 +4897,7 @@
     "TraitMorph": "모프",
     "TraitMortic": "모틱",
     "TraitMounted": "마운트",
-    "TraitMountedOnATripodOrBracket": "Mounted on a tripod or bracket",
+    "TraitMountedOnATripodOrBracket": "삼각대나 브라켓에 고정되어 있습니다.",
     "TraitMove": "이동",
     "TraitMulticlass": "멀티클래스",
     "TraitMummy": "미라",
@@ -4859,19 +4921,19 @@
     "TraitOracle": "오라클",
     "TraitOrc": "오크",
     "TraitOread": "오레드",
-    "TraitOther": "Other",
+    "TraitOther": "기타",
     "TraitOverflow": "오버플로",
     "TraitPaaridar": "파리다르",
-    "TraitPalinthanos": "Palinthanos",
+    "TraitPalinthanos": "팔린타노스",
     "TraitParry": "패리",
-    "TraitPersonaFlirt": "Persona: Flirt",
-    "TraitPersonaGuardian": "Persona: Guardian",
-    "TraitPersonaLeader": "Persona: Leader",
-    "TraitPersonaScholar": "Persona: Scholar",
-    "TraitPersonaScoundrel": "Persona: Scoundrel",
-    "TraitPersonaUnderdog": "Persona: Underdog",
-    "TraitPersonaWarrior": "Persona: Warrior",
-    "TraitPersonaWildcard": "Persona: Wildcard",
+    "TraitPersonaFlirt": "페르소나: 유혹자",
+    "TraitPersonaGuardian": "페르소나: 수호자",
+    "TraitPersonaLeader": "페르소나: 지도자",
+    "TraitPersonaScholar": "페르소나: 학자",
+    "TraitPersonaScoundrel": "페르소나: 불량배",
+    "TraitPersonaUnderdog": "페르소나: 언더독",
+    "TraitPersonaWarrior": "페르소나: 전사",
+    "TraitPersonaWildcard": "페르소나: 와일드카드",
     "TraitPervasiveMagic": "퍼베이시브 매직",
     "TraitPetitioner": "청원자",
     "TraitPhantom": "팬텀",
@@ -4899,43 +4961,43 @@
     "TraitRadiation": "방사",
     "TraitRage": "분노",
     "TraitRakshasa": "락샤사",
-    "TraitRange": "범위",
-    "TraitRange10": "범위 10피트",
-    "TraitRange100": "범위 100피트",
-    "TraitRange110": "범위 110피트",
-    "TraitRange120": "범위 120피트",
-    "TraitRange130": "범위 130피트",
-    "TraitRange140": "범위 140피트",
-    "TraitRange15": "범위 15피트",
-    "TraitRange150": "범위 150피트",
-    "TraitRange160": "범위 160피트",
-    "TraitRange170": "범위 170피트",
-    "TraitRange180": "범위 180피트",
-    "TraitRange190": "범위 190피트",
-    "TraitRange20": "범위 20피트",
-    "TraitRange200": "범위 200피트",
-    "TraitRange210": "범위 210피트",
-    "TraitRange220": "범위 220피트",
-    "TraitRange230": "범위 230피트",
-    "TraitRange240": "범위 240피트",
-    "TraitRange25": "범위 25피트",
-    "TraitRange250": "범위 250피트",
-    "TraitRange260": "범위 260피트",
-    "TraitRange270": "범위 270피트",
-    "TraitRange280": "범위 280피트",
-    "TraitRange290": "범위 290피트",
-    "TraitRange30": "범위 30피트",
-    "TraitRange300": "범위 300피트",
-    "TraitRange310": "범위 310피트",
-    "TraitRange320": "범위 320피트",
-    "TraitRange40": "범위 40피트",
-    "TraitRange5": "범위 5피트",
-    "TraitRange50": "범위 50피트",
-    "TraitRange500": "범위 500피트",
-    "TraitRange60": "범위 60피트",
-    "TraitRange70": "범위 70피트",
-    "TraitRange80": "범위 80피트",
-    "TraitRange90": "범위 90피트",
+    "TraitRange": "사거리",
+    "TraitRange10": "사거리 10피트",
+    "TraitRange100": "사거리 100피트",
+    "TraitRange110": "사거리 110피트",
+    "TraitRange120": "사거리 120피트",
+    "TraitRange130": "사거리 130피트",
+    "TraitRange140": "사거리 140피트",
+    "TraitRange15": "사거리 15피트",
+    "TraitRange150": "사거리 150피트",
+    "TraitRange160": "사거리 160피트",
+    "TraitRange170": "사거리 170피트",
+    "TraitRange180": "사거리 180피트",
+    "TraitRange190": "사거리 190피트",
+    "TraitRange20": "사거리 20피트",
+    "TraitRange200": "사거리 200피트",
+    "TraitRange210": "사거리 210피트",
+    "TraitRange220": "사거리 220피트",
+    "TraitRange230": "사거리 230피트",
+    "TraitRange240": "사거리 240피트",
+    "TraitRange25": "사거리 25피트",
+    "TraitRange250": "사거리 250피트",
+    "TraitRange260": "사거리 260피트",
+    "TraitRange270": "사거리 270피트",
+    "TraitRange280": "사거리 280피트",
+    "TraitRange290": "사거리 290피트",
+    "TraitRange30": "사거리 30피트",
+    "TraitRange300": "사거리 300피트",
+    "TraitRange310": "사거리 310피트",
+    "TraitRange320": "사거리 320피트",
+    "TraitRange40": "사거리 40피트",
+    "TraitRange5": "사거리 5피트",
+    "TraitRange50": "사거리 50피트",
+    "TraitRange500": "사거리 500피트",
+    "TraitRange60": "사거리 60피트",
+    "TraitRange70": "사거리 70피트",
+    "TraitRange80": "사거리 80피트",
+    "TraitRange90": "사거리 90피트",
     "TraitRangeIncrement10": "사거리 증가 10피트",
     "TraitRangeIncrement100": "사거리 증가 100피트",
     "TraitRangeIncrement110": "사거리 증가 110 피트",
@@ -4961,7 +5023,7 @@
     "TraitRangeIncrement280": "사거리 증가 280 피트",
     "TraitRangeIncrement290": "사거리 증가 290피트",
     "TraitRangeIncrement30": "사거리 증가 30피트",
-    "TraitRangeIncrement35": "Range Increment 35 feet",
+    "TraitRangeIncrement35": "사거리 증가 35 feet",
     "TraitRangeIncrement300": "사거리 증가 300피트",
     "TraitRangeIncrement310": "사거리 증가 310 피트",
     "TraitRangeIncrement320": "사거리 증가 320피트",
@@ -4996,7 +5058,7 @@
     "TraitReckless": "무모한",
     "TraitRecovery": "복원",
     "TraitReflection": "리플렉션",
-    "TraitReincarnated": "Reincarnated",
+    "TraitReincarnated": "환생",
     "TraitRelic": "유물",
     "TraitReload": "재장전",
     "TraitReload0": "재장전 0",
@@ -5011,7 +5073,7 @@
     "TraitSahkil": "사킬",
     "TraitSamsaran": "삼사란",
     "TraitSanctified": "성화",
-    "TraitSarangay": "Sarangay",
+    "TraitSarangay": "사랑가이",
     "TraitScatter": "분산",
     "TraitScatter10": "흩어짐 10",
     "TraitScatter15": "흩어짐 15",
@@ -5021,7 +5083,7 @@
     "TraitScrying": "점술",
     "TraitSeaDevil": "씨 데빌",
     "TraitSecret": "비밀",
-    "TraitSedacthy": "Sedacthy",
+    "TraitSedacthy": "진정제",
     "TraitSerpentfolk": "서펜트포크",
     "TraitSeugathi": "서가티",
     "TraitSewnIntoClothing": "의류에 재봉",
@@ -5070,21 +5132,22 @@
     "TraitSummon": "소환",
     "TraitSummoned": "소환된",
     "TraitSummoner": "소환사",
-    "TraitSurki": "Surki",
+    "TraitSurki": "수르키",
     "TraitSwarm": "스웜",
     "TraitSwashbuckler": "스워시버클러",
     "TraitSweep": "스윕",
     "TraitSylph": "실프",
+    "TraitTactic": "전략",
     "TraitTalisman": "탈리스만",
     "TraitTalos": "탈로스",
     "TraitTandem": "탠덤",
     "TraitTane": "테인",
     "TraitTanggal": "탕갈",
-    "TraitTanuki": "Tanuki",
+    "TraitTanuki": "타누키",
     "TraitTattoo": "타투",
     "TraitTattooedOnTheBody": "몸에 새긴 타투",
     "TraitTea": "차",
-    "TraitTearing": "Tearing",
+    "TraitTearing": "찢어짐",
     "TraitTech": "기술",
     "TraitTechnological": "기술적",
     "TraitTelepathy": "텔레파시",
@@ -5100,16 +5163,19 @@
     "TraitThrown200": "던지기 200피트.",
     "TraitThrown30": "던지기 30피트.",
     "TraitThrown40": "던지기 40피트.",
-    "TraitThrown50": "Thrown 50 ft.",
+    "TraitThrown50": "던지기 50 ft.",
     "TraitThrown60": "던지기 60피트.",
     "TraitThrown80": "던지기 80피트.",
     "TraitTime": "시간",
     "TraitTitan": "티탄",
     "TraitTouched": "감동",
+    "TraitTracking1": "추적 +1",
+    "TraitTracking2": "추적 +2",
+    "TraitTracking3": "추적 +3",
     "TraitTraining": "교육",
-    "TraitTranscendence": "Transcendence",
-    "TraitTrap": "트랩",
-    "TraitTrial": "Trial",
+    "TraitTranscendence": "초월",
+    "TraitTrap": "함정",
+    "TraitTrial": "시험",
     "TraitTrip": "넘어뜨리기",
     "TraitTroll": "트롤",
     "TraitTroop": "부대",
@@ -5133,7 +5199,7 @@
     "TraitVanara": "바나라",
     "TraitVehicular": "차량용",
     "TraitVelstrac": "벨스트렉",
-    "TraitVenomous": "Venomous",
+    "TraitVenomous": "유독한",
     "TraitVersatile": "다용도",
     "TraitVersatileAcid": "다용도 산",
     "TraitVersatileB": "다용도 B",
@@ -5141,7 +5207,7 @@
     "TraitVersatileElectricity": "다용도 전기",
     "TraitVersatileFire": "다용도 화염",
     "TraitVersatileForce": "다용도 포스",
-    "TraitVersatileMental": "Versatile Mental",
+    "TraitVersatileMental": "다용도 정신",
     "TraitVersatileP": "다용도 P",
     "TraitVersatilePoison": "다용도 독",
     "TraitVersatileS": "다용도 S",
@@ -5160,14 +5226,15 @@
     "TraitVolley20": "발리 20 피트.",
     "TraitVolley30": "발리 30 피트.",
     "TraitVolley50": "발리 50 피트.",
-    "TraitVolley60": "Volley 60 ft.",
+    "TraitVolley60": "발리 60 피트.",
     "TraitVorpalFear": "보팔 공포",
     "TraitWand": "완드",
-    "TraitWandering": "Wandering",
+    "TraitWandering": "떠도는",
     "TraitWater": "물",
     "TraitWayang": "와양",
     "TraitWeapons": "무기",
     "TraitWerecreature": "웨어크리처",
+    "TraitWhetstone": "연마석",
     "TraitWight": "와이트",
     "TraitWildHunt": "와일드 헌트",
     "TraitWitch": "윗치",
@@ -5211,15 +5278,15 @@
     "TraitWornShoes": "착용 신발",
     "TraitWornUnderArmor": "가벼운 갑옷이나 옷 안에 착용",
     "TraitWraith": "레이쓰",
-    "TraitWraithvine": "Wraithvine",
+    "TraitWraithvine": "와이트바인",
     "TraitWyrwood": "와이어우드",
     "TraitXulgath": "줄가스",
-    "TraitYaksha": "Yaksha",
-    "TraitYaoguai": "Yaoguai",
+    "TraitYaksha": "야크샤",
+    "TraitYaoguai": "야오과이",
     "TraitZombie": "좀비",
     "Traits": "특성",
     "TraitsLabel": "특성",
-    "Trap": "트랩",
+    "Trap": "함정",
     "TravelSpeed": {
       "Days": "일수",
       "DetectBeforeRunningIntoIt": "모든 것을 미리 알림",
@@ -5244,7 +5311,7 @@
       "ExplorationSpeed": "탐색 속도",
       "Feet": "피트",
       "FeetAcronym": "피트",
-      "FeetPerMinute": "Feet per Minute",
+      "FeetPerMinute": "분당 피트",
       "GreaterDifficultTerrain": "향상된 고난이도 지형 속도",
       "HexplorationActivities": "헥사플로레이션 활동",
       "Hours": "시간",
@@ -5253,8 +5320,8 @@
       "Journey": "여정",
       "Label": "여행 속도",
       "Miles": "마일",
-      "MilesPerDay": "Miles per Day",
-      "MilesPerHour": "Miles per Hour",
+      "MilesPerDay": "일일 이동 거리 (마일)",
+      "MilesPerHour": "시속 마일",
       "Name": "이름",
       "None": "최고 속도",
       "NormalTerrain": "일반 지형 속도",
@@ -5327,6 +5394,7 @@
         "bladed-gauntlet": "블레이드 건틀렛",
         "bladed-hoop": "블레이드 후프",
         "bladed-scarf": "블레이드 스카프",
+        "bladesweeper": "블레이드 스위퍼",
         "blowgun": "블로우건",
         "blowgun-darts": "블로우건 다트",
         "blunderbuss": "블런더버스",
@@ -5342,17 +5410,17 @@
         "butterfly-sword": "버터플라이 소드",
         "buugeng": "부갱",
         "cane-pistol": "케인 피스톨",
-        "capturing-spetum": "Capturing Spetum",
+        "capturing-spetum": "포획의 스페툼(장창)",
         "chain-sword": "체인 소드",
         "chakram": "차크람",
         "chakri": "차크리",
         "clan-dagger": "클랜 단검",
         "clan-pistol": "클랜 피스톨",
-        "claw": "클로",
+        "claw": "발톱",
         "claw-blade": "클로 블레이드",
         "club": "클럽",
         "coat-pistol": "코트 피스톨",
-        "combat-fishing-pole": "Combat Fishing Pole",
+        "combat-fishing-pole": "전투 낚싯대",
         "combat-grapnel": "전투 그래프넬",
         "combat-lure": "전투 미끼",
         "composite-longbow": "합성 장궁",
@@ -5409,15 +5477,15 @@
         "gauntlet": "건틀렛",
         "gauntlet-bow": "건틀렛 보우",
         "gill-hook": "길 후크",
-        "gladius": "Gladius",
+        "gladius": "글라디우스",
         "glaive": "글레이브",
         "gnome-amalgam-musket": "노움 아말감 머스킷",
         "gnome-flickmace": "노움 플릭메이스",
         "gnome-hooked-hammer": "노움 갈고리 망치",
-        "greataxe": "그레이트액스",
+        "greataxe": "그레이트 엑스",
         "greatclub": "그레이트 클럽",
         "greatpick": "그레이트 픽",
-        "greatsword": "그레이트소드",
+        "greatsword": "그레이트 소드",
         "griffon-cane": "그리폰 케인",
         "guisarme": "기사르메",
         "gun-sword": "건 소드",
@@ -5459,7 +5527,7 @@
         "light-mace": "라이트 메이스",
         "light-pick": "라이트 픽",
         "lion-scythe": "사자 낫",
-        "liuyedao": "Liuyedao",
+        "liuyedao": "류예도",
         "long-air-repeater": "롱 에어 리피터",
         "long-hammer": "롱 해머",
         "longbow": "장궁",
@@ -5468,16 +5536,17 @@
         "mace": "메이스",
         "mace-multipistol": "메이스 멀티피스톨",
         "machete": "마체테",
-        "macuahuitl": "Macuahuitl",
+        "macuahuitl": "마쿠아우이틀",
         "main-gauche": "메인 고쉬",
         "mambele": "맘벨레",
         "maul": "마울",
+        "maul-spade": "망치-삽",
         "meteor-hammer": "유성 망치",
         "mikazuki": "미카즈키",
         "mithral-tree": "미트랄 트리",
         "monkeys-fist": "몽키 피스트",
         "morningstar": "모닝스타",
-        "nails": "Nails",
+        "nails": "손톱",
         "naginata": "나기나타",
         "nightstick": "나이트스틱",
         "nodachi": "노다치",
@@ -5485,8 +5554,8 @@
         "ogre-hook": "오우거 후크",
         "orc-knuckle-dagger": "오크 너클 대거",
         "orc-necksplitter": "오크 넥 스플리터",
-        "orc-skewermaul": "Orc Skewermaul",
-        "palstave": "Palstave",
+        "orc-skewermaul": "오크 스키어머울",
+        "palstave": "팔스타브",
         "panabas": "파나바스",
         "pepperbox": "페퍼박스",
         "phalanx-piercer": "지골 피어싱",
@@ -5500,10 +5569,10 @@
         "rapier": "레이피어",
         "rapier-pistol": "레이피어 피스톨",
         "reinforced-wheels": "강화 바퀴",
-        "reinforced-stock": "Reinforced Stock",
-        "repeating-crossbow": "반복 쇠뇌",
-        "repeating-hand-crossbow": "반복 손 쇠뇌",
-        "repeating-heavy-crossbow": "반복 중 쇠뇌",
+        "reinforced-stock": "강화 개머리판",
+        "repeating-crossbow": "자동 쇠뇌",
+        "repeating-hand-crossbow": "자동 손 쇠뇌",
+        "repeating-heavy-crossbow": "자동 중 쇠뇌",
         "rhoka-sword": "로카 소드",
         "rope-dart": "로프 다트",
         "rotary-bow": "로터리 보우",
@@ -5527,7 +5596,7 @@
         "shobhad-longrifle": "쇼바드 롱리플",
         "shortbow": "숏보우",
         "shortsword": "숏소드",
-        "shuan-ji": "Shuan Ji",
+        "shuan-ji": "슈안지",
         "shuriken": "수리검",
         "sickle": "시클",
         "sickle-saber": "시클-세이버",
@@ -5538,7 +5607,7 @@
         "spiked-chain": "스파이크 체인",
         "spiked-gauntlet": "스파이크 건틀릿",
         "spiral-rapier": "스파이럴 레이피어",
-        "spirit-thresher": "Spirit Thresher",
+        "spirit-thresher": "영혼 도리깨",
         "spoon-gun": "스푼 건",
         "spraysling": "스프레이 링",
         "staff": "스태프",
@@ -5554,7 +5623,7 @@
         "tekko-kagi": "테코카기",
         "temple-sword": "템플 소드",
         "tengu-gale-blade": "텐구 게일 블레이드",
-        "tetsubo": "Tetsubo",
+        "tetsubo": "테츠보",
         "thorn-whip": "가시 채찍",
         "three-peaked-tree": "쓰리 피크 트리",
         "three-section-naginata": "3섹션 나기나타",
@@ -5570,9 +5639,9 @@
         "visap": "비자프",
         "wakizashi": "와키자시",
         "war-flail": "워 플레일",
-        "war-gavel": "War Gavel",
-        "war-javelin": "War Javelin",
-        "war-lance": "워 랜스",
+        "war-gavel": "전쟁 망치",
+        "war-javelin": "전쟁 창",
+        "war-lance": "전쟁 랜스",
         "war-razor": "전쟁 면도날",
         "warhammer": "워해머",
         "wheel-blades": "휠 블레이드",
@@ -5585,7 +5654,7 @@
         "wooden-taws": "나무 발톱",
         "wrecker": "레커",
         "wrist-launcher": "리스트 런처",
-        "zhuazhi-bang": "Zhuazhi Bang",
+        "zhuazhi-bang": "가지잡이봉",
         "zulfikar": "줄피카"
       }
     },
@@ -5658,6 +5727,9 @@
           "criticalSuccess": "@UUID[Compendium.pf2e.conditionitems.Item.lDVqvLKA6eF3Df60]{지속 출혈 피해}를 받고 있는 대상에게 치명타를 가하면, 대상은 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수됨 1}이 됩니다."
         }
       },
+      "bolkasBlessing": {
+          "Name": "볼카의 축복"
+      },  
       "brilliant": {
         "Name": "브릴리언트",
         "Note": {
@@ -5692,7 +5764,7 @@
         "Name": "춤"
       },
       "decaying": {
-        "Name": "Decaying"
+        "Name": "부식"
       },
       "deathdrinking": {
         "Name": "죽음을 마시는"
@@ -5725,9 +5797,9 @@
         }
       },
       "flickering": {
-        "Name": "Flickering",
+        "Name": "깜박이는",
         "Note": {
-          "criticalSuccess": "On a critical hit, the weapon flashes bright pulses of color into the creature's eyes, @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzling} the creature for 1 round (this effect has the visual trait)."
+          "criticalSuccess": "치명타를 입히면 무기가 생물의 눈에 밝은 색의 섬광을 발산하여 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzling} 효과를 1 라운드 동안 적용합니다 (이 효과는 시각적 특성이 있습니다)."
         }
       },
       "flurrying": {
@@ -5772,6 +5844,9 @@
       "greaterBloodbane": {
         "Name": "향상된 블러드베인"
       },
+      "greaterBolkasBlessing": {
+          "Name": "볼카의 축복 (중급)"
+      },
       "greaterBrilliant": {
         "Name": "향상된 찬란한",
         "Note": {
@@ -5793,7 +5868,7 @@
         }
       },
       "greaterDecaying": {
-        "Name": "Greater Decaying"
+        "Name": "향상된 부식"
       },
       "greaterDisrupting": {
         "Name": "향상된 활력 증진",
@@ -5843,6 +5918,9 @@
           "criticalSuccess": "치명타가 적중하면 대상에게 @Check[type:fortitude|dc:37|name:향상된 영향력 룬] 내성에 성공하도록 하거나 자신으로부터 10피트 떨어진 곳으로 밀려나도록 선택할 수 있습니다."
         }
       },
+      "greaterKolssOath": {
+          "Name": "향상된 콜스의 서약"
+      },
       "greaterRooting": {
         "Name": "향상된 루팅",
         "Note": {
@@ -5862,6 +5940,9 @@
           "criticalSuccess": "이 무기로 주는 음파 피해는 대상의 음파 저항을 무시합니다. 치명타가 적중하면 대상은 @Check[type:fortitude|dc:34|name:향상된 천둥 룬] 저항에 성공하거나 영구적으로 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{귀가 먼} 상태가 됩니다..",
           "success": "이 무기로 주는 음파 피해는 대상의 음파 저항을 무시합니다."
         }
+      },
+      "greaterTruddsStrength": {
+          "Name": "향상된 트루드의 힘"
       },
       "grievous": {
         "Name": "고통",
@@ -5920,8 +6001,11 @@
       "kinWarding": {
         "Name": "친족 보호"
       },
+      "kolssOath": {
+          "Name": "콜스의 서약"
+        },
       "majorRooting": {
-        "Name": "주요 루팅",
+        "Name": "향상된 뿌리",
         "Note": {
           "criticalSuccess": "이 무기로 적에게 치명타를 가하면 대상에서 뿌리가 자랍니다. 1라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{고정된 1} (<span data-pf2-action=\"escape\" data-pf2-glyph=\"A\" data-pf2-dc=\"34\">탈출 DC 34</span>) 및 고정 상태가 지속되는 동안, @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1}이 됩니다."
         }
@@ -5930,12 +6014,12 @@
         "Name": "자비"
       },
       "majorFanged": {
-        "Name": "메이저 송곳니"
+        "Name": "향상된 송곳니"
       },
       "nightmare": {
-        "Name": "Nightmare",
+        "Name": "악몽",
         "Note": {
-          "criticalSuccess": "On a critical hit, the target becomes @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1} by overwhelming visions in their mind of personal horrors that linger. If you critically hit a creature that's already stupefied, it becomes @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 2} as well. These critical hit effects have the emotion, fear, and mental traits."
+          "criticalSuccess": "치명타를 입힌 대상은 마음속에 남아있는 개인적인 공포의 환상에 압도되어 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1} 상태가 됩니다. 이미 혼미 상태인 생물에게 치명타를 입히면, 그 생물은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 2} 상태가 됩니다. 이 치명타 효과는 감정, 공포, 정신 특성을 가지고 있습니다."
         }
       },
       "pacifying": {
@@ -5943,14 +6027,14 @@
       },
       "speed": {
         "Name": "속도",
-        "Note": "While wielding a quickstrike weapon, you gain the @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{신속} condition, but you can use the additional action granted only to make a Strike with the etched weapon."
+        "Note": "빠른 공격 무기를 사용하면 @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{신속} 상태가 적용되지만, 추가 행동은 새겨진 무기로 공격을 하는 데에만 사용할 수 있습니다."
       },
       "returning": {
         "Name": "반환",
         "Note": "이 무기로 투척 공격을 하면, 공격이 완료된 후 무기가 내 손으로 돌아옵니다. 무기가 돌아올 때 양손에 무기가 가득 차 있으면, 무기는 내 공간의 바닥에 떨어집니다."
       },
       "rooting": {
-        "Name": "루팅",
+        "Name": "뿌리",
         "Note": {
           "criticalSuccess": "이 무기로 적에게 치명타를 가하면 대상에서 뿌리가 자랍니다. 1라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{고정된 1}(<span data-pf2-action=\"escape\" data-pf2-glyph=\"A\" data-pf2-dc=\"23\">탈출 DC 23</span>) 및 고정 상태가 지속되는 동안, @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1}이 됩니다."
         }
@@ -5968,8 +6052,8 @@
         }
       },
       "shockwave": {
-        "Name": "Shockwave",
-        "Note": "The attacker is immune to the splash damage."
+        "Name": "충격파",
+        "Note": "공격자는 방사 피해에 면역입니다."
       },
       "spellStoring": {
         "Name": "주문 저장"
@@ -5982,6 +6066,9 @@
         "Note": {
           "criticalSuccess": "치명타 시, 대상은 1분 동안(대실패 시 1시간) @Check[type:fortitude|dc:24|name:천둥 룬] 내성에 성공하거나 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{귀가 먼} 상태가 되어야 합니다."
         }
+      },
+      "truddsStrength": {
+          "Name": "트루드의 힘"
       },
       "trueRooting": {
         "Name": "트루 루팅",
@@ -6349,7 +6436,7 @@
       "Unidentified": "미확인",
       "UnidentifiedDescription": "이 {item}의 속성이 불분명합니다.",
       "UnidentifiedHint": "이 아이템이 식별되지 않을 때 플레이어에게 표시되는 기본 세부 정보를 변경합니다.",
-      "UnidentifiedItem": "비정상 {item}",
+      "UnidentifiedItem": "특이한 {item}",
       "UnidentifiedType": {
         "Amulet": "부적",
         "Anklets": "발찌",
@@ -6396,6 +6483,7 @@
       "LootDescription": "플레이어 간 코인 분배 허용",
       "LootLabel": "전리품",
       "LootMessage": "{looter}가 {corpse}에서 {quantity} × {item}을 가져갑니다.",
+      "LootUnknownNPCMessage": "미확인 생물체",
       "LootNPCsLabel": "선택된 토큰 전리품",
       "LootNPCsPopupHeader": "전리품으로 획득할 토큰 선택",
       "LootNamePlaceholder": "전리품",
@@ -6409,9 +6497,9 @@
       "PermissionError": "아이템을 약탈하거나 보관하려면 GM이 온라인 상태여야 합니다.",
       "PlantMessage": "{planter}는 {corpse}에 {quantity} × {item}을(를) 넣었습니다.",
       "PlantSubtitle": "아이템 넣기",
-      "Purchase": "Purchase",
-      "PurchaseLootPrompt": "Does {buyer} want to purchase this item?",
-      "PurchasePrice": "Purchase Price",
+      "Purchase": "구매",
+      "PurchaseLootPrompt": "{buyer}님이 이 아이템을 구매하시겠습니까?",
+      "PurchasePrice": "구매 가격",
       "Quantity": "수량",
       "SellMessage": "{seller}가 {buyer}에게 {quantity} × {item}을 판매합니다.",
       "SellSubtitle": "아이템 판매",

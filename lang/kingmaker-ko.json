@@ -19,7 +19,7 @@
       },
       "Ammunition": "탄약",
       "Armor": "방어구",
-      "Base": "기본",
+      "BasicWarActions": "Basic War Actions",
       "Condition": {
         "concealed": {
           "name": "숨겨진"
@@ -30,52 +30,62 @@
         "InvalidTacticType": "전술 {이름}은 {유형} 군대에 의해 지원되지 않습니다."
       },
       "Gear": {
+        "GearInfo": "Show Gear Info",
+        "ItemLevel": "Item {level}",
         "Label": "장비",
-        "Weapons": {
-          "name": "마법 무기",
-          "level": "아이템 3+",
-          "description": "군대의 무기는 마법입니다. 군대가 근접 무기와 원거리 무기를 모두 가지고 있다면, 이 장비를 구매할 때 어느 쪽을 마법으로 만들지 선택하세요. 이 장비를 두 번 구매할 수 있습니다. 한 번은 근접 무기에, 다른 한 번은 원거리 무기에 구매할 수 있습니다. 더 강력한 버전을 구매하면 이전 버전이 대체되고, 더 강력한 버전의 RP 비용은 대체된 무기의 RP 비용만큼 감소합니다.",
-          "rank0.name": "Mundane Weapons",
+        "LevelLabel": "Level {level}",
+        "AdditionalWeapon": {
+            "Name": "Additional Weapon",
+            "Description": "Most armies have only one weapon—a melee or a ranged weapon. This gear outfits an army with an additional weapon of the other type. The army gains a melee or ranged Strike (as appropriate) at the basic modifier for their level."
+        },
+        "MagicWeapons": {
+          "Name": "마법 무기",
+          "Description": "군대의 무기는 마법입니다. 군대가 근접 무기와 원거리 무기를 모두 가지고 있다면, 이 장비를 구매할 때 어느 쪽을 마법으로 만들지 선택하세요. 이 장비를 두 번 구매할 수 있습니다. 한 번은 근접 무기에, 다른 한 번은 원거리 무기에 구매할 수 있습니다. 더 강력한 버전을 구매하면 이전 버전이 대체되고, 더 강력한 버전의 RP 비용은 대체된 무기의 RP 비용만큼 감소합니다.",
           "rank1": {
-            "name": "마법 무기",
-            "desc": "이 무기는 해당 무기로 군대의 공격력을 1 증가시킵니다."
+            "Name": "마법 무기",
+            "Description": "이 무기는 해당 무기로 군대의 공격력을 1 증가시킵니다."
           },
           "rank2": {
-            "name": "강력한 마법 무기",
-            "desc": "이 무기는 해당 무기로 군대의 공격력을 2 증가시킵니다."
+            "Name": "강력한 마법 무기",
+            "Description": "이 무기는 해당 무기로 군대의 공격력을 2 증가시킵니다."
           },
           "rank3": {
-            "name": "주요 마법 무기",
-            "desc": "이 무기는 해당 무기로 군대의 공격력을 3 증가시킵니다."
+            "Name": "주요 마법 무기",
+            "Description": "이 무기는 해당 무기로 군대의 공격력을 3 증가시킵니다."
           }
         },
         "Potions": {
-          "name": "치유 물약",
-          "level": "아이템 1",
-          "description": "치유 물약을 장착한 군대(이 규칙은 군대에 연금술 치유 엘릭서를 공급하는 경우에도 동일하게 적용됩니다)는 모든 기동 행동의 일부로 1회 분량을 사용할 수 있습니다. 군대가 치유 물약 1 회분을 사용하면 HP가 1 회복됩니다. 군대는 한 번에 최대 3 회분의 치유 물약을 장착할 수 있습니다. 원거리 공격과 달리, 치유 물약은 전쟁이 끝난 후 자동으로 보충되지 않으므로, 새로운 물약을 구매해야 합니다.",
-          "price": "<strong>가격</strong> 1 회분당 15 RP"
+          "Name": "치유 물약",
+          "Description": "치유 물약을 장착한 군대(이 규칙은 군대에 연금술 치유 엘릭서를 공급하는 경우에도 동일하게 적용됩니다)는 모든 기동 행동의 일부로 1회 분량을 사용할 수 있습니다. 군대가 치유 물약 1 회분을 사용하면 HP가 1 회복됩니다. 군대는 한 번에 최대 3 회분의 치유 물약을 장착할 수 있습니다. 원거리 공격과 달리, 치유 물약은 전쟁이 끝난 후 자동으로 보충되지 않으므로, 새로운 물약을 구매해야 합니다."
         },
         "Armor": {
-          "name": "마법 갑옷",
-          "level": "아이템 5+",
-          "description": "마법 갑옷은 마법으로 강화되어 병사들에게 더 강력한 보호력을 제공합니다.",
-          "rank0.name": "Mundane Armor",
+          "Name": "마법 갑옷",
+          "Description": "마법 갑옷은 마법으로 강화되어 병사들에게 더 강력한 보호력을 제공합니다.",
           "rank1": {
-            "name": "마법 갑옷",
-            "desc": "이 갑옷은 군대의 AC를 1 증가시킵니다."
+            "Name": "마법 갑옷",
+            "Description": "이 갑옷은 군대의 AC를 1 증가시킵니다."
           },
           "rank2": {
-            "name": "고급 마법 갑옷",
-            "desc": "이 갑옷은 군대의 AC를 2 증가시킵니다."
+            "Name": "고급 마법 갑옷",
+            "Description": "이 갑옷은 군대의 AC를 2 증가시킵니다."
           },
           "rank3": {
-            "name": "대마법 갑옷",
-            "desc": "이 갑옷은 군대의 AC를 3 증가시킵니다."
+            "Name": "대마법 갑옷",
+            "Description": "이 갑옷은 군대의 AC를 3 증가시킵니다."
           }
         }
       },
+      "Label": "군대",
       "NamePlaceholder": "군대 이름",
       "Potency": "효능",
+      "Potions": {
+          "FullHP": "Army HP is already full",
+          "Label": "Potions",
+          "OutOfPotions": "No more Potions available",
+          "UsePotion": "Use Potion (+1 HP)",
+          "UsedPotionHeader": "Potion Consumed",
+          "UsedPotionContent": "Army gained +1 HP. Can be used during Maneuver actions."
+      },
       "RecruitmentDC": "모집 DC",
       "RoutedDescription": "군대의 HP가 패배 임계치 이하입니다!",
       "RoutThreshold": "패배 임계치",
@@ -84,6 +94,7 @@
         "morale": "사기"
       },
       "Scouting": "정찰",
+      "SendToChat": "Send to Chat",
       "Stats": "통계",
       "Strikes": {
         "CurrentAmmo": "{현재} / {최대} 사격<br/>전쟁 전투가 끝날 때 회복됩니다.",
@@ -96,14 +107,12 @@
         "ranged": "원거리"
       },
       "Tactics": "전술",
-      "WarActions": "전쟁 행동",
-      "ammunitionMax": "최대 탄약",
-      "Potions": {
-        "label": "포션",
-        "drinkTooltip": "포션 사용 (+1 HP)",
-        "drinkErrorNoPotions": "포션이 없습니다",
-        "drinkErrorFullHP": "HP가 이미 가득 차 있습니다."
-      }
+      "TacticsFree": "전술 (Free)",
+      "Toggles": {
+          "LiveOffTheLand": "In hex without settlement",
+          "KeepUpThePressure": "Attacking same target"
+      },
+      "TacticalWarActions": "Tactical War Actions"
     },
     "Confirm": "확인",
     "Consumption": {
@@ -150,6 +159,7 @@
     },
     "Kingdom": {
       "Activities": "왕국 활동",
+      "ArmyConsumption": "Army Consumption",
       "Aspiration": {
         "fame": "명성",
         "infamy": "악명"
@@ -166,7 +176,8 @@
         "Title": "자원 수집",
         "Header": "유지비: 자원 수집",
         "Description": "{주사위} 자원을 굴리고 다음을 생성할까요?",
-        "Disclaimer": "이 자원은 현재 자원 포인트(경험치로 변환되었을 것임)를 대체합니다. 초과 상품은 소멸됩니다. 게임 마스터만 자원을 수집할 수 있습니다."
+        "Disclaimer": "이 자원은 현재 자원 포인트(경험치로 변환되었을 것임)를 대체합니다. 초과 상품은 소멸됩니다. 게임 마스터만 자원을 수집할 수 있습니다.",
+        "NewResourcePoints": "New Resource Points"
       },
       "Commodity": {
         "food": "식량",
@@ -181,6 +192,11 @@
       "ImportDialog": {
         "Title": "수입 활동",
         "Content": "{추가된} 활동이 추가되고 {업데이트된} 활동이 업데이트됩니다: 괜찮으신가요?"
+      },
+      "FeatSlot": {
+        "Features": "Kingdom Features",
+        "Feats": "Kingdom Feats",
+        "Bonus": "Bonus Feats"
       },
       "Leaders": "지도자",
       "LeaderMissing": "없음 (새로운 배우를 드래그하세요)",
@@ -279,6 +295,7 @@
       "Blocks": "블록",
       "Details": "정착지 세부 정보",
       "Header": "왕국 정착지",
+      "Label": "Settlement",
       "LevelRange": "레벨 범위",
       "Name": "정착지 이름",
       "Overcrowded": "과밀",
