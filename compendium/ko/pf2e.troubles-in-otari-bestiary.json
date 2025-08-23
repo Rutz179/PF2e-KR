@@ -1,212 +1,371 @@
 {
-  "label": "Troubles in Otari",
+  "label": "오타리의 문제",
   "entries": {
+    "Collapsing Porch": {
+      "name": "Collapsing Porch",
+      "desc (hazard)": "<p>부서지고 썩은 바닥판의 일부가 생물을 6피트 아래로 떨어뜨려 불규칙한 바위와 날카로운 목재 조각에 부딪히게 합니다.</p>",
+      "disable": "<p>@Check[crafting|dc:15] (훈련된) 약한 바닥 부분을 교체하거나 덮거나, @Check[survival|dc:15] (훈련된) 안전한 거리에서 썩은 바닥판을 부수기</p>",
+      "reset": "<p>이 현관의 이 부분이 무너지면, 현관이 수리될 때까지 생물들은 구멍을 통해 떨어질 수 있습니다.</p>",
+      "stealth": "<p>(또는 위험이 발생 후 0)</p>",
+      "items": {
+        "71j8rIykcKntxLJQ": {
+          "name": "붕괴",
+          "description": "<p>생물이 지도에 표시된 지역에 걸어 들어가면 약해진 바닥판을 통해 불규칙한 바위와 날카로운 목재 조각 위에 떨어지며 @Damage[1d4[piercing],1d6[타격]]{1d4 관통 피해와 1d6 타격 피해}를 입습니다. 생물은 @UUID[Compendium.pf2e.actionspf2e.Item.3yoajuKjwHZ9ApUY]{가장자리를 잡기} 반응을 사용하여 추락과 피해를 피할 수 있습니다.</p>"
+        }
+      }
+    },
     "Brimstone Rat": {
       "name": "유황 쥐",
-      "description": "",
-      "hpdetails": "",
-      "items": {}
+      "items": {
+        "WqgfgkwqUVMJK44b": {
+          "name": "턱"
+        }
+      },
+      "AthleticsVariants": {
+        "0": {
+          "label": "등반 또는 수영"
+        }
+      }
     },
     "Kurnugian Jackal": {
       "name": "쿠르누기안 자칼",
-      "description": "<p>특정 평면 결합 하에서, 라마슈투는 물질계에 있는 자칼에게 부정한 선물을 내려줍니다. 그 자칼이 새끼를 낳으면, 한 마리의 새끼는 이마 중앙에 세 번째 눈이 생깁니다. 이 새끼가 성체까지 살아남으면, 이 자칼은 뛰어난 지능과 사이킥 능력을 얻게 되어, 괴물의 어머니의 심연의 영역에서 이름을 따서 쿠르누기안 자칼이 됩니다. 지능이 높아지면 라마슈투의 이름으로 혼란을 일으키고 싶은 욕망이 생깁니다. 쿠르누기안 자칼이 힘의 정점에 도달하면, 일반 자칼보다 두 배나 커지고 훨씬 더 재치로워집니다. 쿠르누기안 자칼은 정착지 외곽을 배회하며 매복할 수 있는 혼자 있는 사람을 찾습니다. 먹이감을 발견하면 세 번째 눈을 뜨고 최면으로 유인합니다. 종종 쿠르누기안 자칼은 희생자를 야생으로 이끌고 나서 잡은 손을 놓아, 희생자들은 어떻게 그곳에 도착했는지 기억하지 못한 채 길을 잃게 됩니다. 대부분은 추위나 현지 야생 동물의 위험에 굴복하며, 자칼은 이를 즐겁게 지켜봅니다. 그들은 희생자의 처지에서 영양분을 얻는 것 같지만, 죽은 희생자의 살을 먹기도 합니다. 만약 희생자가 안전에 도달하면, 쿠르누기안 자칼은 다음 밤에 같은 과정을 반복합니다.</p>\n<p>일부 쿠르누기안 자칼은 라마슈탄 교파에 의해 숭배의 대상으로 채택되며, 다른 일부는 스스로 추종자를 모읍니다. 라마슈투의 종교적 상징과 닮아 있기 때문에 많은 숭배를 받고 있으며, 때로는 괴물의 어머니를 대신해 말한다고 주장하기도 합니다. 쿠르누기안 자칼을 숭배하는 컬트는 그렇지 않은 컬트보다 더 대담하게 행동하는 경향이 있습니다.",
-      "hpdetails": "",
+      "description": "<p>특정 차원 결합 시, 라마슈투는 물질계에 있는 자칼에게 불경한 선물을 부여합니다. 그 자칼이 새끼를 낳을 때, 한 마리의 새끼는 이마 중앙에 세 번째 눈을 가지고 태어납니다. 이 새끼가 성체로 성장하면 이 자칼은 우수한 지능과 사이킥 능력을 얻어, 몬스터의 어머니의 아비스 영역에서 이름을 딴 완전한 쿠르누기안 자칼이 됩니다. 지능이 증가함에 따라 라마슈투의 이름으로 혼란을 퍼뜨리려는 욕구가 생깁니다. 쿠르누기안 자칼이 힘의 정점에 달하면, 일반 자칼의 두 배 크기로 나타나며 훨씬 더 재치가 넘칩니다.</p>\n<p>쿠르누기안 자칼은 정착지의 외곽을 배회하며 단독으로 있는 목표물을 노립니다. 목표물을 발견하면 세 번째 눈을 열어 최면으로 유인합니다. 종종 쿠르누기안 자칼은 피해자를 야생으로 이끌고 나서 통제력을 풀어버려, 피해자는 어떻게 그곳에 도착했는지 기억하지 못한 채 방황하게 됩니다. 대부분은 노출이나 현지 야생 동물의 위험에 굴복하며, 자칼은 이를 즐겁게 지켜봅니다. 그들은 희생자의 처지에서 영양분을 얻는 것 같지만, 사망한 희생자의 고기도 먹습니다. 만약 사냥감이 안전하게 도망친다면, 쿠르누기안 자칼은 다음 밤에 같은 과정을 반복합니다.</p>\n<p>일부 쿠르누기안 자칼은 라마슈탄 교파에 의해 숭배의 대상으로 채택되며, 다른 일부는 스스로 추종자를 모읍니다. 그들은 라마슈투의 종교적 상징과 닮았기 때문에 큰 존경을 받으며, 때로는 '몬스터의 어머니'를 직접 대변한다고 주장합니다. 쿠르누기안 자칼을 가진 교파는 그렇지 않은 교파보다 더 대담하게 행동합니다.</p>",
       "items": {
+        "YB4lJDTFGnMJZxPX": {
+          "name": "Jaws"
+        },
         "c6BnmJR85HoUuFbA": {
-          "name": "고통을 가하다",
-          "description": "<p>쿠르누기안 자칼의 최면 시선 능력에 영향을 받은 대상이 피해를 입으면, 자칼은 제3의 눈의 힘을 집중하여 이 피해의 고통을 강화할 수 있으며, 이로 인해 [[/r 1d6]]{1d6}의 피해가 추가됩니다."
+          "name": "Inflict Pain",
+          "description": "<p>Kurnugian 자칼의 최면 시선 능력에 영향을 받은 대상이 피해를 입을 때, 자칼은 세 번째 눈의 힘을 포커스시켜 이 피해의 통증을 강화할 수 있으며, 이로 인해 입히는 피해가 [[/r 1d6]]{1d6}.</p>"
         },
         "73fsCGNUERkE3I1S": {
-          "name": "최면 시선",
-          "description": "<p>쿠르누기안 자칼은 제3의 눈을 뜨고 자칼을 볼 수 있는 30피트 이내의 대상을 응시합니다. 그 대상은 쿠르누기안 자칼의 다음 턴이 끝날 때까지 의지 내성 굴림에 -2의 페널티를 받습니다. 쿠르누기안 자칼은 한 번에 한 명의 상대에게만 이 응시를 유지할 수 있습니다. 자칼이 두 번째 대상에게 이 능력을 사용하면 첫 번째 대상에 대한 응시는 종료됩니다. 잭얼은 이 능력을 자유 행동으로 해제할 수 있으며, 원할 경우 기억 지우기 능력을 사용할 수 있습니다.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.qFDiWpzk8cuwQGyH]{효과: 최면 시선}</p>"
+          "name": "Hypnotic Stare",
+          "description": "<p>쿠르누기안 자칼은 30피트 이내에 있는 자신을 볼 수 있는 목표를 향해 세 번째 눈을 엽니다. 해당 목표는 쿠르누기안 자칼의다음 차례가 끝날 때까지 대상은 의지 저항 검사에서 -2 페널티를 받습니다. 쿠르누기안 자칼은 한 번에 한 명의 상대에게만 이 시선을 유지할 수 있습니다. 만약 자칼이 두 번째 대상에게 이 능력을 사용하면 첫 번째 대상에 대한 시선은 종료됩니다. 잭얼은 이 능력을 무료 행동으로 해제하고, 원할 경우 기억 지우기 능력을 사용할 수 있습니다.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.qFDiWpzk8cuwQGyH]{효과: 최면 시선}</p>"
         },
         "Nc23oEL8srJURx0P": {
           "name": "기억 지우기",
-          "description": "<p>쿠르누기안은 최면 시선을 조기에 종료하고, 이 효과가 발생하기 직전에 대상은 @Check[will|dc:24] 내성 굴림에 성공하지 않으면 쿠르누기안 자칼이 자신에게 행한 모든 적대적인 행동을 잊게 됩니다."
+          "description": "<p>커르누기안은 최면 시선을 조기에 종료하며, 이 전에 대상은 @Check[will|dc:24] 내성 굴림에 성공하지 못하면 커르누기안 자칼이 자신에게 가한 모든 적대적 행동을 잊게 됩니다.</p>"
         },
         "hyIUDH9G8UlF3pne": {
-          "name": "넉다운",
-          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Knockdown]</p>"
+          "name": "Knockdown"
         }
       }
     },
     "Bugbear Marauder": {
-      "name": "버그베어 머라우더",
-      "description": "",
-      "hpdetails": "",
+      "name": "Bugbear Marauder",
       "items": {
+        "wBuoAb6EXYtmwPmo": {
+          "name": "Longsword"
+        },
+        "z7UOnDRw58SSvHLY": {
+          "name": "Fist"
+        },
+        "UMd6rwUlzKFS3lvJ": {
+          "name": "Javelin"
+        },
         "iIaK3retIHJkXgrh": {
-          "name": "부시왁",
-          "description": "<p>버그베어 머라우더는 최대 10피트까지 달려가, 자신을 볼 수 없고 자신의 위치를 모르는 생물을 @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple}로 잡으려고 시도합니다. 버그베어가 성공하면, 그 생물에게 주먹 피해도 입힙니다."
+          "name": "Bushwhack",
+          "description": "<p>버그베어 마라더는 10피트까지 이동하며, 자신을 볼 수 없고 위치도 모르는 생물을 @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{그랩}하려고 시도합니다. 버그베어가 성공하면 해당 생물에게 주먹 피해를 입힙니다.</p>"
         },
         "i74S7XGGuuWnr88J": {
           "name": "마울러",
-          "description": "<p>버그베어 머라우더는 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}한 생물에게 가하는 피해 굴림에 +3의 상황 보너스를 얻습니다."
+          "description": "<p>버그베어 마라더는 자신이 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{그랩}한 생물체에 대한 피해 굴림에 +3 상황 보너스를 얻습니다.</p>"
         }
       }
     },
     "Hargrit Leadbuster": {
-      "name": "하그릿 리드버스터",
-      "description": "",
-      "hpdetails": "",
+      "name": "Hargrit Leadbuster",
       "items": {
+        "qEbFimPOeE5aFvE7": {
+          "name": "Dagger"
+        },
+        "8hva3s7KDSqeUTKh": {
+          "name": "Dagger"
+        },
         "9Nve1oYElRWcJhIh": {
-          "name": "Unburdened Iron",
-          "description": "<p>Hargrit은 갑옷으로 인한 속도 감소 효과를 무시하고, 자신의 속도에 적용되는 모든 페널티(예: 주문으로 인한 페널티)에서 5피트를 차감합니다."
+          "name": "무거운 철",
+          "description": "<p>하그리트는 갑옷으로 인한 이동 속도 감소 효과를 무시하며, 이동 속도에 적용되는 어떤 페널티(예: 마법 효과)에서도 5피트를 추가로 감산합니다.</p>"
+        },
+        "2uDTTLnPGGNUafjb": {
+          "name": "악마 로어"
+        }
+      },
+      "DiplomacyVariants": {
+        "0": {
+          "label": "악마에 대한"
         }
       }
     },
     "Orc Scrapper": {
-      "name": "Orc Scrapper",
-      "description": "",
-      "hpdetails": "",
+      "name": "오크 스크래퍼",
       "items": {
+        "b200ENWSAzXNlSMf": {
+          "name": "전투 도끼"
+        },
+        "symt5PZrNoJWeIqe": {
+          "name": "주먹"
+        },
+        "MKiOmYkknzLyP0Am": {
+          "name": "창"
+        },
         "8mPErkHbf2ju6RgN": {
-          "name": "Ferocity",
-          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Ferocity]</p>"
+          "name": "잔혹함"
+        }
+      }
+    },
+    "Viper Urn": {
+      "name": "비퍼 유르",
+      "desc (hazard)": "<p>A 도자기 유르에 감긴 비퍼의 끝이 트립 와이어가 당겨지면 부서집니다.</p>",
+      "disable": "<p>@Check[thievery|dc:15|traits:action:disable-a-device] (훈련된)으로 항아리를 안정시키거나, @Check[athletics|dc:15]로 무거운 항아리를 조심스럽게 내립니다.</p>",
+      "items": {
+        "dwvQyKJ9gUWC4S3f": {
+          "name": "넘어뜨리기",
+          "description": "<p>누군가가 트립 와이어를 당기면, 관이 문턱에 있는 생물에게 부딪혀 부서지며, 그 생물에게 부서지는 관 공격을 가한 후, @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.1uVwkGlqYzyWaDMy]{비퍼}를 방출 구역에 방출합니다. 비퍼는 감지한 모든 식물이 아닌 생물을 공격합니다.</p>"
+        },
+        "0SzWuQBdiVOEj4WC": {
+          "name": "파열하는 관"
         }
       }
     },
     "Kotgar Leadbuster": {
       "name": "코트가르 리드버스터",
-      "description": "",
-      "hpdetails": "",
       "items": {
+        "aADQJA0W9vAaOmXT": {
+          "name": "마울"
+        },
+        "gqjrPshyFW4Y4vrS": {
+          "name": "자벨린"
+        },
         "VePco7JeJmUM7ijK": {
-          "name": "기회 공격",
-          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>"
+          "name": "기회 공격"
         },
         "ll1kYssjNZ4S5vnd": {
-          "name": "잔인한 밀치기",
-          "description": "<p>코트가 이번 턴에 이미 공격을 하고 양손 근접 무기를 들고 있는 경우, 양손 근접 무기로 공격을 할 수 있습니다. 중형 이하의 대상을 명중하면 5피트, 치명타를 기록한 경우 10피트 뒤로 밀어낼 수 있습니다. 코트는 대상을 따라 이동할 수 있습니다. 타격이 성공하거나 실패한 경우, 대상은 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 됩니다. 대실패를 하지 않는 한, 이 상태는 현재 턴이 끝날 때까지 지속됩니다."
+          "name": "야만적인 밀치기",
+          "description": "<p>코트가르가 이번 턴에 이미 공격을 했고 양손 근접 무기를 들고 있다면, 그는 두 손으로 공격을 할 수 있습니다.손으로 공격을 수행할 수 있습니다. 목표물이 중간 크기 이하일 경우 5피트 뒤로 밀어낼 수 있으며, 공격이 치명타일 경우 10피트 뒤로 밀어낼 수 있습니다. Kotgar는 목표물을 따라 이동할 수 있습니다. 공격이 성공하거나 실패하더라도, 목표물은 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 되며, 자신의 현재 턴이 끝날 때까지 이 상태가 유지됩니다. 대실패를 제외합니다.</p>"
         },
         "I0AZeY12ooiFLuuW": {
-          "name": "강력한 밀기",
-          "description": "<p>코트가 밀친 생물이 물체에 부딪혀서 이동을 멈춰야 할 경우, @Damage[4[bludgeoning]]의 피해를 받습니다."
+          "name": "강력한 밀치기",
+          "description": "<p>코트가르가 밀친 생물이 물체와 충돌하여 움직임을 멈춰야 할 경우, 해당 생물은 @Damage[4[bludgeoning]]의 피해를 입습니다.</p>"
         },
         "di2qBg3DVoOSKzDk": {
-          "name": "무거운 짐을 내려놓은 철",
-          "description": "<p>코트는 갑옷으로 인한 속도 감소 효과를 무시하고, 자신의 속도에 적용되는 모든 페널티(예: 주문으로 인한 페널티)에서 5피트를 차감합니다."
+          "name": "부담 없는 철",
+          "description": "<p>Kotgar는 갑옷으로 인한 속도 감소 효과를 무시하고, 속도에 적용되는 모든 페널티 중 하나에서 5피트를 차감합니다. (예: 주문으로 인한 것).</p>"
+        }
+      },
+      "AthleticsVariants": {
+        "0": {
+          "label": "밀치기"
         }
       }
     },
     "Stinkweed Shambler": {
-      "name": "스팅크위드 샴블러",
-      "description": "<p>스팅크위드 샴블러는 가스트, 질병에 걸린 좀비, 또는 다른 부패한 언데드 생물들이 쓰러진 부패한 토양에서 자라는 생명의 식물 덩어리입니다. 수많은 언데드 생물들이 파괴된 장소에서는 최대 12마리의 스팅크위드 샴블러가 출몰할 수 있습니다. 이러한 “부패의 동료들”은 초자연적인 협동심을 발휘하며 잘 협력합니다. 스틴크위드 샬블러는 빠르게 성장하며, 처음에는 밝은 녹색 잎을 가진 빠르게 자라는 녹색 싹으로 나타나지만 곧 인간형 형태로 성장해 땅에서 벗어나 스스로 움직일 수 있게 됩니다. 스틴크위드 샬블러의 잎은 불쾌한 냄새의 원천이며, 잎이 으깨지거나 눌릴 때 가장 강하게 풍깁니다. 스틴크위드 샬블러는 여러 개의 작은 흰색 꽃으로 덮여 있으며, 각 꽃은 작은 두개골 모양으로 자랍니다.</p>\n<p>스틴크위드 샬블러는 혐오스러운 생물이지만, 그들의 방법은 단순합니다. 그들은 가축이나 인간형 생물과 같은 더 큰 생물을 포획하고 고문하는 것을 좋아합니다. 자신이 특별히 강하지 않다는 것과 냄새로 인해 노출될 수 있다는 것을 알고 있기 때문에, 스틴크위드 샬블러는 함정이나 구덩이와 같은 간단한 함정을 설치하는 것을 선호합니다. 그들의 변태적인 즐거움은 희생물이 수많은 상처로 인해 죽을 때까지 계속됩니다. 스팅크위드 샴블러는 희생자를 먹지 않으며, 사실 입도 없습니다. 햇빛에서 필요한 모든 영양분을 얻지만, 고통을 주는 것으로 영양을 얻는 듯한 느낌도 듭니다. 대부분의 스팅크위드 샴블러는 키가 약 3피트, 무게는 30파운드 정도입니다.",
-      "hpdetails": "",
+      "name": "냄새풀 좀비",
+      "description": "<p>Stinkweed shamblers는 가스트, 질병에 감염된 좀비, 또는 다른 부패한 언데드 생물이 떨어진 부패한 토양에서 자라는 악취 나는 식물의 움직이는 덩어리입니다. 수많은 언데드 생물이 파괴된 장소에서는 최대 12마리의 Stinkweed Shambler가 발생할 수 있습니다. 이러한 '썩은 동료들'은 초자연적인 협동성을 발휘해 함께 움직입니다. 스틴크위드 샬블러는 빠르게 성장하며, 처음에는 밝은 녹색 잎을 가진 빠르게 자라는 녹색 싹으로 나타나지만, 곧 인간형 형태로 성장해 땅에서 벗어나 스스로 움직일 수 있게 됩니다. 스틴크위드 샬블러의 잎은 불쾌한 냄새의 원천으로, 잎이 으깨지거나 눌릴 때 가장 강하게 풍깁니다. 스틴크위드 샬블러는 여러 개의 작은 흰색 꽃으로 덮여 있으며, 각 꽃은 작은 두개골 모양으로 자랍니다.</p>\n<p>악취풀 좀비는 흉악한 생물이지만, 그들의 방법은 단순합니다. 그들은 가축이나 인간형 생물과 같은 더 큰 생물을 포획하고 고문하는 것을 좋아합니다. 자신이 특별히 강하지 않다는 것과 냄새로 인해 노출될 수 있다는 것을 알고 있기 때문에, 악취풀 좀비는 함정이나 구덩이와 같은 간단한 함정을 설치하는 것을 선호합니다. 그들의 변태적인 즐거움은 희생물이 수많은 상처로 인해 죽을 때까지 계속됩니다. 스틴크위드 샬블러는 희생물을 먹지 않으며 실제로 입이 없습니다. 그들은 필요한 모든 영양분을 햇빛에서 얻지만, 고문으로 인한 고통에서 영양적 만족감을 얻는 듯합니다.</p>\n<p>대부분의 스틴크위드 샬블러는 약 3피트 높이에 30파운드의 무게를 가집니다.</p>",
+      "languages": "(어떤 언어라도 말할 수 없음)",
       "items": {
+        "56wLde8SVEfys89N": {
+          "name": "Vine"
+        },
+        "Wigs6zeZoSmogj8P": {
+          "name": "Seedpod"
+        },
         "0gQuuCA2OyaQRNwR": {
-          "name": "악취",
-          "description": "<p>10 피트. 오라에 들어오거나 오라에서 턴을 시작하는 생물은 @Check[fortitude|dc:14] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1} (대실패 시 1 라운드 동안). 내성에 성공한 생물은 1분 동안 일시적으로 면역이 됩니다."
+          "name": "Stench",
+          "description": "<p>10 feet. aura에 들어가는 생물이나 aura 내에서 자신의 턴을 시작하는 생물은 @Check[fortitude|dc:14] 내성에 성공해야 하며, 실패 시 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 1 라운드 동안 지속됩니다 (대실패 시 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1} 상태가 1 라운드 동안 추가로 적용됩니다)). 내성에 성공한 생물은 1분 동안 일시적으로 면역이 됩니다.</p>"
         },
         "742oUZV30i6otpgL": {
-          "name": "악취가 나는 잎",
-          "description": "<p>악취를 풍기는 샴블러가 잎을 으깨거나 태우면 악취가 더 강해집니다. 악취를 풍기는 샴블러가 타격 또는 화염 피해를 받으면, 그 악취 능력의 DC가 18로 증가하고 은신 보너스가 +4로 감소합니다. 이 두 효과는 1분 동안 지속됩니다."
+          "name": "악취 나는 잎",
+          "description": "<p>악취풀 걸어다니는 생물이 내뿜는 악취는 잎이 부서지거나 타면 더 강해집니다. 냄새풀 걸어다니는 괴물이 둔기나 불로 피해를 입으면, 그 냄새 능력의 DC가 18로 증가하고 은신 보너스가 +4로 감소합니다. 이 두 효과는 1분 동안 지속됩니다.</p>"
         },
         "H8wipabcGbcu7thF": {
-          "name": "흔들리는 잡초",
-          "description": "<p>냄새풀 걸어다니는 괴물은 자신의 속도의 절반까지 이동합니다. 이 이동은 반응을 유발하지 않습니다.</p>"
+          "name": "흔들리는 풀",
+          "description": "<p>악취풀 샥블러는 자신의 속도의 절반까지 이동합니다. 이 이동은 반응을 유발하지 않습니다.</p>"
         },
         "zNOKH6cGU4FaspAX": {
-          "name": "숲길 걸음",
+          "name": "숲길 이동",
           "description": "<p>냄새풀 걸어다니는 괴물은 마법이 아닌 식물에서 발생하는 어려운 지형과 더 어려운 지형을 무시합니다.</p>"
         }
       }
     },
-    "Kobold Trapmaster": {
-      "name": "코볼트 함정 마스터",
-      "description": "<p>코볼트 트랩마스터는 코볼트의 소굴에 교활한 함정을 만들고 실행하는 배후의 주모자이며, 동족들 사이에서 널리 존경받고 있습니다.",
-      "hpdetails": "",
+    "Tongues of Flame": {
+      "name": "불꽃의 혀",
+      "hpdetails": "단일 노즐을 파괴하려면; <strong>문</strong> 경도 6, <strong>HP</strong> 22 (BT 11)로 문을 부수고 복도에서 탈출할 수 있습니다.",
+      "desc (hazard)": "<p>네 개의 복도로 이어지는 천장에 숨겨진 노즐은 함정이 발동될 때 길이에 따라 불꽃 분사구를 분사합니다.</p>",
+      "disable": "<p>@Check[thievery|dc:22|traits:action:disable-a-device] 단일 노즐을 무력화하거나, @Check[thievery|dc:21|traits:action:pick-a-lock] 두 번 눌러 문을 열거나, @Check[thievery|dc:25|traits:action:disable-a-device] 제어 패널에서 함정을 해제합니다. 도둑질 기술이 없는 영웅은 이 체크에서 자동으로 실패합니다.</p>",
+      "reset": "<p> 트랩은 10분 후에 비활성화되고 재설정됩니다. 트랩이 네 번째로 활성화되면 연료가 소진되어 수동으로 재설정해야 합니다.</p>",
+      "routine": "<p>(4 행동) 트랩은 비활성화된 노즐마다 매 턴마다 1개의 행동을 잃습니다. 각 행동마다 다른 노즐이 다른 복도로 불꽃을 fire하며, 교차점 이후 첫 10피트 이내의 복도에 있는 각 생물에게 @Damage[3d6[fire]]의 피해를 입힙니다 (@Check[reflex|dc:22|basic]).</p>\n<p>복도 교차점에 서 있는 생물은 한 라운드에 불꽃 분사 한 번만 맞을 수 있으며, 여러 불꽃 분사 범위 내에 있더라도 마찬가지입니다. 해당 생물은 한 라운드에 한 번만 내성 굴림을 시도하지만, 내성 굴림에는 -2 상황 페널티가 적용됩니다.</p>",
       "items": {
+        "Fk4R8F6Vr2Lr7mZZ": {
+          "name": "문 봉쇄",
+          "description": "<p>생물이 복도 교차점에 들어서면 이 교차점에서 나가는 네 개의 문이 닫히고 잠기며, 함정은 이니셔티브를 위해 은신 (+13) 굴림을 합니다.</p>"
+        }
+      }
+    },
+    "Web Lurker Noose": {
+      "name": "거미줄 루커 노즈",
+      "desc (hazard)": "<p>목 수준에 있는 눈에 띄지 않는 거미줄이 그 안으로 들어오는 생물을 걸어 잡습니다.</p>",
+      "disable": "<p>@Check[survival|dc:18] (훈련된) 또는 @Check[thievery|dc:18|traits:action:disable-a-device] (전문가)로 거미줄을 재배치합니다.</p>",
+      "items": {
+        "NoYQle3HJatFQcgH": {
+          "name": "올가미",
+          "description": "<p> 대상은 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{잡힌} 상태가 되고 땅에서 끌어올려집니다 (@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{탈출} DC 22).</p>"
+        },
+        "l8f0B8czvLKLsc06": {
+          "name": "거미줄",
+          "description": "<p>생물이 거미줄 트립 와이어가 있는 칸에 들어서면 거미줄 루커 노스가 해당 생물에게 노스 스트라이크를 시도합니다.</p>"
+        }
+      }
+    },
+    "Kobold Trapmaster": {
+      "name": "코볼드 트랩마스터",
+      "description": "<p>코볼드 트랩마스터는 코볼드 굴에서 교활한 함정을 제작하고 설치하는 주모자로, 그들의 종족 내에서 널리 존경받습니다.</p>",
+      "items": {
+        "QfWg8mYxqbJly84b": {
+          "name": "단검"
+        },
+        "u4infcHTr2ku9Uxi": {
+          "name": "창"
+        },
         "BH97LqHtuqNlighQ": {
-          "name": "급한 후퇴",
-          "description": "<p>코볼트가 적어도 한 명의 적과 인접해 있는 경우, 코볼트는 최대 30피트까지 이동하고 이 이동으로 촉발된 반응에 대해 AC에 +2의 상황 보너스를 얻습니다. 코볼트는 적과 인접하지 않은 공간에서 이 이동을 종료해야 합니다."
+          "name": "급히 후퇴",
+          "description": "<p>코볼드가 적과 인접해 있다면, 코볼드는 최대 30피트까지 이동하며 이 이동으로 인해 유발된 반응에 대해 AC에 +2 상황 보너스를 얻습니다. 이 이동은 적과 인접하지 않은 공간에서 종료되어야 합니다.</p>"
         },
         "QfnsBk0XQ6x9wJSe": {
           "name": "빠른 함정",
-          "description": "<p>코볼트 트랩마스터는 인접한 칸에 스파이크 함정 하나를 설치합니다."
+          "description": "<p>코볼드 함정 마스터는 인접한 칸에 스파이크 함정을 배치합니다.</p>"
         },
         "Fges35T0kVykR3rl": {
           "name": "암습",
-          "description": "<p>코볼트 트랩 마스터는 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태인 생물에게 추가 1d6의 피해를 입힙니다."
+          "description": "<p>코볼드 트랩마스터는 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태를 가진 생물에게 추가로 1d6의 피해를 입힙니다.</p>"
         },
         "ccosYJxMalM6rfN8": {
           "name": "스파이크 트랩",
-          "description": "<p>이 함정이 배치되면, 그 칸에 발을 딛는 모든 사람은 @Damage[2d8[piercing]]의 피해를 받고 @Check[reflex|dc:17|basic] 내성 굴림을 시도해야 합니다."
+          "description": "<p>이 함정이 설치되면 해당 칸에 발을 딛는 모든 생물은 @Damage[2d8[piercing]] 피해를 받고 @Check[reflex|dc:17|basic] 내성 굴림을 시도해야 합니다.</p>"
+        }
+      }
+    },
+    "Nightmare Terrain": {
+      "name": "악몽의 지형",
+      "desc (hazard)": "<p>무해해 보이는 땅이 침입자에게 끔찍한 환상으로 공격합니다.</p>",
+      "disable": "<p>@Check[arcana|dc:22], @Check[nature|dc:22], @Check[occultism|dc:22], 또는 @Check[religion|dc:22] (해당 기술에 전문가급 숙련도를 가진 영웅에 의해) 세 번 사용해 마법을 일시적으로 방해하거나 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제} (3단계, DC 25)</p>",
+      "reset": "<p>모든 생물이 영향을 받은 지역을 떠난 후 끔찍한 환상이 사라지지만, 위험은 즉시 다음에 들어오는 생물에게 환상을 가하기 위해 준비됩니다.</p>",
+      "routine": "<p>(1 행동) 영향을 받은 지역 내의 모든 생물의 마음에 끔찍한 환상이 들이닥칩니다. 각 생물은 @Check[will|dc:24] 내성 굴림을 시도해야 합니다.</p>\n<hr />\n<p><strong>대성공</strong> 생물은 영향을 받지 않습니다.</p>\n<p><strong>성공</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 2} 상태가 됩니다.</p>\n<p><strong>실패</strong> 생물은 @Damage[(2d8+9)[mental]]의 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 3} 상태가 됩니다.</p>\n<p><strong>대실패</strong> 생물은 @Damage[(4d8+18)[mental]]의 피해를 입으며 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 4} 상태가 됩니다.</p>",
+      "stealth": "<p>@Check[perception|dc:22|traits:action:seek] 땅의 미묘한 마법적 기운을 감지하기 위해</p>",
+      "items": {
+        "Fk4R8F6Vr2Lr7mZZ": {
+          "name": "악몽 속으로 들어간다",
+          "description": "<p>시야를 가진 생물이 영향을 받은 지역으로 10피트 이동하면, 위험은 이니셔티브를 위해 은신 (+16)을 굴립니다.</p>"
         }
       }
     },
     "Scalliwing": {
       "name": "스칼리윙",
-      "description": "<p>쿠아틀은 크고 밝은 색의 깃털 날개를 가진 뱀입니다. 친절한 성격을 지닌 이 생물들은 인간을 돕고 악을 반대하지만, 이들을 목격하는 것은 중요한 사건입니다—이 화려하지만 은둔적인 생물들은 매우 드물게 나타납니다.</p>\n<p>쿠아틀 가족 중 가장 작은 종인 스칼리윙은 큰 친척들과 유사하지만 집고양이와 비슷한 크기로, 친절한 성격을 지닌 동시에 짜증나고 장난스러운 성향이 있습니다. 대부분의 쿠아틀은 세상의 불의를 바로잡거나 인간 문명을 사회적 진보로 이끌기 위해 노력하지만, 스칼리윙스는 더 개인적인 수준에서 활동합니다. 그들은 선량한 마법사들에게 마법의 길을 가르치는 것이 자신의 역할이라고 주장하며, 실제로 때로는 마법사들의 동반자로서 봉사하거나—그들이 빠르게 정정하듯—“도움을 주는” 역할을 합니다.</p>\n<p>무지갯빛 비늘과 밝은 깃털을 가진 스칼리윙스는 놀랍도록 아름다운 생물입니다. 이들은 이 사실을 잘 알고 있으며, 외모를 이용해 타인에게 호감을 사려고 합니다. 이 아름다움은 일부 스칼리윙을 약간 자아도취적으로 만들지만, 다른 스칼리윙들은 작은 체구와 상대적으로 약한 방어력 때문에 잔인한 대형 생물들에게 포로로 잡혀 아름다운 반려동물이나 전리품으로 삼히려는 위협에 노출되어 있습니다. 스칼리윙은 자신의 의지로 한 곳에 영원히 즐겁게 살 수도 있지만, 포로로 잡힌 스칼리윙은 다른 생물들과 협력하여 화려한 재산 피해를 입히는 교활한 탈출을 계획하기도 합니다. 스칼리윙은 코에서 꼬리까지 길이가 약 2피트이고 날개 길이는 그와 비슷합니다. 수명은 인간과 거의 비슷합니다. 스칼리윙은 더 크고 은둔적인 친척들보다 약간 더 흔하게 보이지만, 많은 인간들은 평생 스칼리윙을 한 번도 만나지 않고 살아갑니다.",
-      "hpdetails": "",
+      "description": "<p>쿠아틀은 화려한 색상의 깃털 날개를 가진 대형 뱀입니다. 친절한 성격을 지닌 이 생물들은 인간을 돕고 악당을 반대하지만, 이들을 목격하는 것은 중요한 사건입니다-이 화려하지만 은둔적인 생물들은 매우 드물게 나타납니다.</p>\n<p>쿠아틀 종족 중 가장 작은 구성원인 스칼리윙은 큰 친척들과 닮았지만 집고양이와 비슷한 크기로, 친절한 성격을 지닌 동시에 짜증나고 장난기 많은 면모를 지니고 있습니다. 대부분의 쿠아틀은 세상의 불의를 바로잡거나 인간 문명을 사회적 진보로 이끌기 위해 노력하지만, 스칼리윙은 개인적인 수준에서 활동합니다. 그들은 선량한 마법사들에게 마법의 길을 가르치는 것이 자신의 역할이라고 주장하며, 실제로 때로는 마법사들의 패밀리어로서 봉사하거나-그들이 빠르게 정정하듯이-\"도움을 주는\" 역할을 합니다.</p>\n<p>무지갯빛 비늘과 화려한 깃털을 가진 스칼리윙은 매우 아름다운 생물입니다. 그들은 이 사실을 잘 알고 있으며, 외모를 이용해 타인에게 호감을 사려고 합니다. 이 아름다움은 일부 스칼리윙을 약간 자아도취적으로 만들지만, 다른 스칼리윙들은 작은 체구와 상대적으로 약한 방어력 때문에 잔인한 대형 생물들에게 포로로 잡혀 아름다운 반려동물이나 전리품으로 삼히려는 위협에 처해 있습니다. 스칼리윙은 자신의 의지로 단일 거주지에서 영원히 행복하게 살 수 있지만, 포로로 잡힌 스칼리윙은 다른 생물들과 협력해 화려한 재산 피해를 입히며 교묘한 탈출을 계획하기도 합니다.</p>\n<p>스칼리윙은 코부터 꼬리까지 약 2피트 길이에 날개폭도 비슷한 길이를 가집니다. 수명은 인간과 거의 같은 길이를 가집니다. 스칼리윙은 더 큰 은둔형 친척보다 약간 더 흔해 보이지만, 많은 인간은 평생 동안 스칼리윙을 한 번도 만나지 않고 살아갑니다.</p>",
       "items": {
+        "Ihvi8o6Gm4pwbhph": {
+          "name": "이빨"
+        },
         "qunm5Cfit6Q1T4dI": {
-          "name": "날개 플래시",
-          "description": "<p>스칼리윙은 무지개빛 날개를 펼치고 최면과 같은 패턴으로 날개를 파닥거립니다. 스칼리윙을 볼 수 있는 30피트 내의 모든 생물은 @Check[will|dc:20] 내성 체크를 시도해야 합니다.</p>\n<hr />\n<p><strong>대성공</strong> 생물은 영향을 받지 않습니다.</p>\n<p><strong>실패</strong> 크리처는 다음 턴이 시작될 때까지 오프 가드 상태가 되고, 다음 턴의 첫 번째 액션을 스칼리윙을 감탄하며 보내야 합니다. 1분 동안, 이 생물은 매 턴 첫 번째 행동을 스칼리윙을 감탄하며 보내야 합니다. 이 효과는 스칼리윙이 영향을 받은 생물에게 공격을 하거나 다른 적대적인 행동을 하는 경우 종료됩니다."
+          "name": "날개 번쩍임",
+          "description": "<p>스칼리윙은 화려한 날개를 펼치고 최면 같은 패턴으로 흔들며 날갯짓을 합니다. 30피트 이내에 있는 모든 생물은 스칼리윙을 볼 수 있다면 @Check[will|dc:20] 내성을 시도해야 합니다.</p>\n<hr />\n<p><strong>대성공</strong> 생물은 영향을 받지 않습니다.</p>\n<p><strong>성공</strong> 생물은 다음 차례 시작까지 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 됩니다.</p>\n<p><strong>실패</strong> 생물은 다음 턴 시작까지 오프 가드 상태가 되며, 다음 턴의 첫 번째 행동을 스칼리윙을 감상하는 데 사용해야 합니다.</p>\n<p><strong>대실패</strong> 해당 생물은 다음 턴 시작까지 오프 가드를 유지하게 됩니다. 1분 동안 해당 생물은 각 턴의 첫 번째 행동을 스칼리윙을 감상하는 데 사용해야 합니다. 이 효과는 스칼리윙이 영향을 받은 생물에게 공격하거나 다른 적대적 행동을 사용할 경우 종료됩니다.</p>"
         }
       }
     },
     "Morgrym Leadbuster": {
-      "name": "모그림 리드버스터",
-      "description": "",
-      "hpdetails": "",
+      "name": "모르그림 리드버스터",
       "items": {
+        "QZb6NNceGC3aMTMO": {
+          "name": "지팡이"
+        },
         "W6XkoyVR7QH9Z8lg": {
           "name": "네크로맨틱 방어",
-          "description": "<p>모그림이 공격의 대상이 되고, 그에게 인접한 언데드 생물 중 레벨이 낮은 것이 있다면, 모그림과 그 언데드가 위치를 바꾼다. 그리고 그 언데드가 공격의 대상이 된다."
+          "description": "<p>모그림이 공격의 표적이 되고 그 옆에 낮은 레벨의 언데드 생물이 있다면, 모그림과 언데드가 자리를 바꾸며 언데드가 공격의 표적이 됩니다.</p>"
         },
         "7TD5aX6vNauxTw5T": {
-          "name": "비전의 속박",
-          "description": "<p>하루에 한 번, 모그림은 자신의 결합된 아이템의 힘을 흡수하여 오늘 이미 시전한 주문 중 하나를 선택하여 다시 시전할 수 있습니다. 이 주문을 다시 시전하는 것은 즉시 이루어지지만, 주문을 시전하기 위해서는 여전히 행동력을 소모해야 합니다."
+          "name": "아케인 본드",
+          "description": "<p>하루에 한 번, 모그림은 결합된 아이템의 힘을 흡수하여 오늘 이미 사용한 마법을 선택하고 다시 사용할 수 있습니다. 이 마법을 소환하는 것은 즉각적이지만, 마법을 사용하기 위해 여전히 행동을 소비해야 합니다.</p>"
         },
         "vlVKxFijTHI7cMPh": {
           "name": "네크로맨서",
-          "description": "<p>모그림은 생과 사의 냉혹한 힘을 다루며, 이 일을 돕기 위해 자신의 마법을 집중했습니다. 그는 @UUID[Compendium.pf2e.spells-srd.Item.4koZzrnMXhhosn0D]{Fear}를 학교 주문으로 시전할 수 있습니다."
+          "description": "<p>모그림은 생명과 죽음의 어두운 힘을 다루며, 이 목표를 위해 마법을 포커스시켰습니다. 그는 @UUID[Compendium.pf2e.spells-srd.Item.4koZzrnMXhhosn0D]{공포}를 학파 마법으로 사용할 수 있습니다.</p>"
+        },
+        "ahXVih7AtAIrRV01": {
+          "name": "Demon Lore"
+        }
+      },
+      "DiplomacyVariants": {
+        "0": {
+          "label": "against Demons"
         }
       }
     },
     "Omblin Leadbuster": {
-      "name": "옴블린 리드버스터",
-      "description": "",
-      "hpdetails": "",
+      "name": "Omblin Leadbuster",
       "items": {
+        "QVjozo4fqxCzzccc": {
+          "name": "Rapier"
+        },
+        "088hXYj7GIHJtlm7": {
+          "name": "Hand Crossbow"
+        },
         "STheFAvLWD42KLo9": {
-          "name": "민첩한 회피",
-          "description": "<p><strong>트리거</strong> 생물이 당신을 공격 대상으로 삼고, 당신이 공격자를 볼 수 있습니다. </p>\n<p><strong>요건</strong> 당신은 짐을 지지 않습니다. </p>\n<hr />\n<p>당신은 재빠르게 피하여, 트리거 공격에 대해 AC에 +2의 상황 보너스를 얻습니다. </p>"
+          "name": "Nimble Dodge",
+          "description": "<p><strong>트리거</strong> 적 생물이 당신을 공격 대상으로 삼고, 당신은 공격자를 볼 수 있습니다.</p>\n<p><strong>요건</strong> 당신은 부담 상태가 아닙니다.</p>\n<hr />\n<p>당신은 재빨리 피하여, 트리거 공격에 대해 AC에 +2 상황 보너스를 얻습니다.</p>"
         },
         "1on1nKLods5yCirm": {
           "name": "암습",
-          "description": "<p>옴블린은 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태인 생물에게 추가 1d6의 피해를 입힙니다."
+          "description": "<p>옴블린은 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태인 생물에게 추가로 1d6의 피해를 입힙니다.</p>"
         },
         "I6Vb3uZRlv6pkiNj": {
-          "name": "균형 무너뜨리는 일격",
-          "description": "<p>옴블린이 대상에게 치명타를 입히고 피해를 입히면, 대상은 다음 턴이 끝날 때까지 옴블린의 공격에 대해 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 됩니다."
+          "name": "균형 파괴 타격",
+          "description": "<p>옴블린이 목표를 치명타로 공격하고 피해를 입히면, 해당 목표는 그의 다음 차례가 끝날 때까지 그의 공격에 대해 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 됩니다.</p>"
         },
         "wyzsbdPo28UWUYTD": {
-          "name": "무거운 짐을 내려놓은 철",
-          "description": "<p>옴블린은 갑옷으로 인한 속도 감소 효과를 무시하고, 자신의 속도에 적용된 모든 페널티(예: 주문으로 인한 페널티)에서 5피트를 차감합니다."
+          "name": "부담 없는 철",
+          "description": "<p>옴블린은 갑옷으로 인한 속도 감소 효과를 무시하고, 속도에 적용된 페널티 중 하나(예: 주문으로 인한 페널티)에서 5피트를 차감합니다.</p>"
         }
       }
     },
     "Orc Commander": {
-      "name": "오크 사령관",
-      "description": "",
-      "hpdetails": "",
+      "name": "오크 지휘관",
       "items": {
+        "lLR6EoZxZTWifZUj": {
+          "name": "마울"
+        },
+        "ZhDg0uKQhEzdCReZ": {
+          "name": "주먹"
+        },
+        "uGR730eqkGcdJEfo": {
+          "name": "창"
+        },
         "J08BqvSNQN7R2E9v": {
-          "name": "사나움",
-          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Ferocity]</p>"
+          "name": "잔혹함"
         },
         "d5T3nJCRgqqqQvzD": {
-          "name": "전투의 함성",
-          "description": "<p>지휘관은 강력한 함성을 지르며, 자신과 @Template[emanation|distance:60]{60 피트} 범위 내에서 그 소리를 들을 수 있는 모든 오크 아군에게 오크 지휘관의 다음 턴이 시작될 때까지 공격 및 피해 굴림에 +1 상태 보너스를 부여합니다.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.Yqq4AkZ9lrm4CcID]{효과: 전투 함성}</p>"
+          "name": "전투 함성",
+          "description": "<p>강력하게 포효하며, 지휘관은 자신과 @Template[emanation|distance:60]{60 피트} 이내에 있는 모든 오크 동맹군에게 공격과 피해 굴림에 +1 상태 보너스를 부여합니다. 이 효과는 오크 지휘관의 다음 턴 시작까지 지속됩니다.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.Yqq4AkZ9lrm4CcID]{Effect: Battle Cry}</p>"
+        }
+      }
+    },
+    "Magic Starknives Trap": {
+      "name": "Magic Starknives Trap",
+      "desc (hazard)": "<p>스타크나이프 상징이 여섯 기둥에서 빛나며 방 안으로 날아갑니다.</p>",
+      "disable": "<p>@Check[thievery|dc:21|traits:action:disable-a-device] (전문가) 또는 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}를 여섯 기둥 중 네 개에 사용하면 전체 함정이 무력화됩니다 (이 함정은 2등급 마법이며, 해제 난이도는 21입니다). 6개의 기둥 중 4개를 파괴해도 함정이 무력화됩니다.</p>",
+      "reset": "<p>함정은 목표 생물이 없을 경우 1 라운드 후에 비활성화되며, 매일 일몰 시 재설정됩니다.</p>",
+      "routine": "<p>(3 행동) 자신의 턴마다 다른 기둥의 조각이 빛나며 범위 내의 무작위 생물에게 마법적 스타크나이프 원거리 공격을 가합니다. 이 공격은 방 내의 기둥 등에서 오는 은폐로 인해 차단될 수 있습니다.</p>",
+      "stealth": "<p>기둥에 울려 퍼지는 마법 에너지를 감지하기 위해</p>",
+      "items": {
+        "dwvQyKJ9gUWC4S3f": {
+          "name": "스타크나이프 공격",
+          "description": "<p>생물이 기둥의 중간 쌍을 지나면 방에서 나가는 두 문이 갑자기 닫히고 잠깁니다. 함정이 활성화된 동안 문은 성공적인 @Check[athletics|dc:23|name:Batter Open Door|traits:action:force-open] 체크나 충분한 피해(경도 12; HP 48 [BT 24])로 부수어야 열 수 있습니다. 날카로운 칼로 조각된 조각 중 하나가 빛을 발하며 기둥에서 분리되어 밖으로 날아가, 범위 내의 무작위 생물에게 마법적인 스타크나이프 원거리 공격을 가합니다. 함정은 스텔스 수정자 +12를 적용한 이니셔티브를 굴립니다.</p>"
+        },
+        "O9himtaJvrfCALhE": {
+          "name": "마법적인 스타크나이프"
         }
       }
     }
   },
   "mapping": {
-    "name": "name",
     "description": "system.details.publicNotes",
     "gm": "system.details.privateNotes",
     "blurb": "system.details.blurb",
@@ -216,7 +375,7 @@
     "perception": "system.perception.details",
     "saves": "system.attributes.allSaves.value",
     "speeds": "system.attributes.speed.details",
-    "desc": "system.details.description",
+    "desc (hazard)": "system.details.description",
     "disable": "system.details.disable",
     "reset": "system.details.reset",
     "routine": "system.details.routine",

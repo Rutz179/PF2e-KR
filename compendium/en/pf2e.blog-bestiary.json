@@ -1,11 +1,18 @@
 {
-  "label": "Paizo Blog",
+  "label": "pf2e.blog-bestiary",
   "entries": {
     "Nonsequitaur": {
       "name": "Nonsequitaur",
-      "description": "",
-      "hpdetails": "",
       "items": {
+        "aAz28ikVagrtGovT": {
+          "name": "Hoof"
+        },
+        "IZIVL3MCsYjKlihz": {
+          "name": "Spear"
+        },
+        "LB1zJ5tXsdunl12V": {
+          "name": "Spear"
+        },
         "FULbe6P6eRnkjuht": {
           "name": "Centaur out of Nowhere",
           "description": "<p><strong>Trigger</strong> The PCs round a corner, open a chest or door, unmask a villain, or draw back a particularly plush curtain</p>\n<p><strong>Requirements</strong> The PCs are not thinking about centaurs</p>\n<hr />\n<p><strong>Effect</strong> A nonsequitaur appears whenever it is least expected. A nonsequitaur comes into being and everyone rolls initiative.</p>"
@@ -34,9 +41,13 @@
     },
     "Blarghest": {
       "name": "Blarghest",
-      "description": "",
-      "hpdetails": "",
       "items": {
+        "MDFU6LGYXpTlmDQx": {
+          "name": "Jaws"
+        },
+        "98S38JTe1McR1KUY": {
+          "name": "Claw"
+        },
         "qms3AjRVkI7AZNUR": {
           "name": "Slack of Opportunity",
           "description": "<p><strong>Trigger</strong> A creature targets the blarghest with a hostile action</p>\n<hr />\n<p><strong>Effect</strong> The blarghest rolls its eyes and sighs, imposing a deep sense of... blargh... upon the attacker. The attacker must attempt a @Check[will|dc:18] save; on a failure, it decides its action is too much work and the triggering action is lost. On a critical failure, the creature is also overcome with lethargy, becoming @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned} until the start of its next turn</p>"
@@ -53,9 +64,16 @@
     },
     "Wendlyn": {
       "name": "Wendlyn",
-      "description": "",
-      "hpdetails": "",
       "items": {
+        "upOhTApNZPrIzdNj": {
+          "name": "Shortsword"
+        },
+        "srFFOfv4iZ6vgNpB": {
+          "name": "Shortbow"
+        },
+        "utn4yOrnwqi57v4m": {
+          "name": "Lesser Alchemist's Fire"
+        },
         "f24PVMNIo9AfosxT": {
           "name": "Mobility",
           "description": "<p>Wendlyn doesn't trigger reactions from movement when she Strides half her Speed or less.</p>"
@@ -71,17 +89,24 @@
         "3et97BbDxYLbxItl": {
           "name": "Surprise Attack",
           "description": "<p>On the first round of combat, if Wendlyn rolls Deception or Stealth for initiative, creatures that haven't acted yet are @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} to her.</p>"
+        },
+        "9PAwsBxjX8pVaE39": {
+          "name": "Otari Lore"
         }
       }
     },
     "Squirrelwind": {
       "name": "Squirrelwind",
-      "description": "",
-      "hpdetails": "",
+      "speeds": "swiftness",
       "items": {
+        "aVgSZ3Tcm2Jf4q9X": {
+          "name": "Gust"
+        },
+        "nLHzVt5YdMCS4uBW": {
+          "name": "Squirrel"
+        },
         "XdlnKjNzla0as6hI": {
-          "name": "Swarm Mind",
-          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.SwarmMind]</p>"
+          "name": "Swarm Mind"
         },
         "AwXosQK4z2DtvBfG": {
           "name": "Chittering",
@@ -96,16 +121,19 @@
           "description": "<p>The squirrelwind's movement doesn't trigger reactions.</p>"
         },
         "a8E0TrS1n19iC36h": {
-          "name": "Push 10 feet",
-          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Push]</p>"
+          "name": "Push 10 feet"
         }
       }
     },
     "Mari Lwyd": {
       "name": "Mari Lwyd",
-      "description": "",
-      "hpdetails": "",
       "items": {
+        "MnSUoytut0GW0m5T": {
+          "name": "Jaws"
+        },
+        "ie4gmd2VHGos4LQH": {
+          "name": "Hoof"
+        },
         "SDgyxBou81j2AyWb": {
           "name": "Mostly Harmless",
           "description": "<p>The Mari Lwyd is out simply to enjoy the season. The Mari Lwyd's attacks have the nonlethal trait when attacking creatures, unless those creatures attempt a hostile action on the Mari Lwyd first.</p>"
@@ -126,9 +154,16 @@
     },
     "Chea": {
       "name": "Chea",
-      "description": "",
-      "hpdetails": "",
       "items": {
+        "XowxFumTWRh8y5Ek": {
+          "name": "Fist"
+        },
+        "7UBVimaEEErBZhia": {
+          "name": "Jaws"
+        },
+        "zaw9x45HWPiQ6dMB": {
+          "name": "Wind Crash"
+        },
         "pd9PCWlCBKlBNUFz": {
           "name": "Change Shape",
           "description": "<p>Chea changes between her humanoid shape or hybrid shape. She gains a jaws unarmed Strike while in her hybrid shape.</p>"
@@ -156,14 +191,26 @@
         "uzl5fVQMZi3OIitf": {
           "name": "Powerful Fists",
           "description": "<p>Chea's fist Strikes are treated as cold iron and silver and don't take penalties when making lethal attacks.</p>"
+        },
+        "5AMlR8gQp1MtridU": {
+          "name": "Lore"
         }
       }
     },
     "Ailuran": {
       "name": "Ailuran",
-      "description": "",
-      "hpdetails": "",
+      "perception": "silversense (imprecise) 30 feet",
+      "saves": "+1 status to all vs. poison",
       "items": {
+        "UStJ3WVC6m7ukGim": {
+          "name": "Club"
+        },
+        "45LnygYrhpEK9DE3": {
+          "name": "Claw"
+        },
+        "9K5zE6swnZBhKWWb": {
+          "name": "Boomerang"
+        },
         "16vByRWOpO6CwcKY": {
           "name": "Silversense",
           "description": "<p>Silversense allows the ailurian to sense the presence of silver objects.</p>"
@@ -179,14 +226,24 @@
         "mB9cyFPm4Vs1yPtA": {
           "name": "Sneak Attack",
           "description": "<p>The ailuran deals 1d6 extra precision damage to @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} creatures.</p>"
+        },
+        "VCYO7ZtMK4WjWYDN": {
+          "name": "Lore"
         }
       }
     },
     "Rt5rrmn": {
       "name": "Rt5rrmn",
       "description": "<p>The rt5rrmn is a catlike creature that loves to purr at those they encounter, convincing others to pamper them instead of fight. It would rather be friends than enemies, but if spooked it will viciously attack whoever is in its sights. If they aren't able to make friends, the rt5rrmn will quickly grow defensive, and leap to attack.</p>",
-      "hpdetails": "",
+      "gm": "<p><em>Note - Paizo did not provide an attack modifier for any of the attacks. We used the moderate Strike Attack Bonus for the creature level (GM Core pg. 120).</em></p>",
+      "languages": "(can't speak any language)",
       "items": {
+        "TlIYVxeBYcRJdfrn": {
+          "name": "b9000"
+        },
+        "YuLLGwfp6AR3yMfK": {
+          "name": "g7ujik"
+        },
         "4MVd3IEx1LY2YkgL": {
           "name": "But I'm Adorable",
           "description": "<p><strong>Trigger</strong> An enemy targets the rt5rrmn with a melee attack</p><hr /><p><strong>Effect</strong> The rt5rrmn erkijs, the vibrating sound convincing the enemy to stop hurting it. The target must attempt a @Check[will|dc:26] save.</p><hr /><p><strong>Critical Success</strong> The target is unaffected, ignoring the seduction of the erkij.</p>\n<p><strong>Success</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated} by the rt5rrmn's erkij until the end of the rt5rrmn's next turn.</p>\n<p><strong>Failure</strong> As success, and the target is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} as it focuses on the rt5rrmn's erkij.</p>\n<p><strong>Critical Failure</strong> As failure, but the target is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 2}.</p>"
@@ -207,9 +264,11 @@
     },
     "Morlibint": {
       "name": "Morlibint",
-      "description": "",
-      "hpdetails": "",
+      "blurb": "Male human wizard",
       "items": {
+        "d4Zm6uzd7PdSkPZe": {
+          "name": "Staff"
+        },
         "9YzpuGAd3hRkExm8": {
           "name": "Call Bonded Item",
           "description": "<p>Morlibint teleports his scholarly journal into his hand from up to 1 mile away.</p>"
@@ -217,14 +276,25 @@
         "DOAqWLQqt4gV4zUR": {
           "name": "Drain Bonded Item",
           "description": "<p><strong>Frequency</strong> twice per day</p>\n<p><strong>Requirements</strong> Morlibint hasn't acted yet on his turn</p>\n<hr />\n<p><strong>Effect</strong> Morlibint draws some of the power in his scholarly journal. He gains the ability to cast one spell he prepared today and already cast, without spending a spell slot. He must still Cast the Spell and meet the spell's other requirements.</p>"
+        },
+        "3CcZ4NZDgsEdhfdR": {
+          "name": "Academia Lore"
         }
       }
     },
     "Pr'rall": {
       "name": "Pr'rall",
-      "description": "",
-      "hpdetails": "",
       "items": {
+        "Mbp6WtHfMwW7RZE5": {
+          "name": "+1 Striking Temple Sword"
+        },
+        "mwQwM7asul48nORT": {
+          "name": "+1 Temple Sword"
+        },
+        "I66cRgwXS4Ixyzse": {
+          "name": "Bola",
+          "description": "<p>(nonlethal, ranged trip, thrown 20-feet)</p>"
+        },
         "2pGPnr34t26ZxCS5": {
           "name": "Light Paws",
           "description": "<p>Pr'rall can balance on his toes to step carefully over obstructions. He Strides and then Steps, or Steps and then Strides, ignoring difficult terrain during this movement.</p>"
@@ -244,14 +314,19 @@
         "GmAHYv2dujVSeLg2": {
           "name": "Flensing Slice",
           "description": "<p><strong>Requirements</strong> Pr'rall's last action was a Double Slice, and both attacks hit the target</p>\n<hr />\n<p><strong>Effect</strong> When Pr'rall hits with both attacks with Double Slice, he flenses the target, making it bleed and creating a weak spot. The target takes @Damage[2d8[bleed]], becomes <strong>@UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard}</strong>, and its resistances to any physical damage types are reduced by 5; these two effects last until the beginning of Pr'rall's next turn.</p>"
+        },
+        "7bBlWAGn0wM9LPKc": {
+          "name": "Hunting Lore"
         }
       }
     },
     "Lisavet": {
       "name": "Lisavet",
-      "description": "",
-      "hpdetails": "",
       "items": {
+        "Zvktbcswdkomd1zh": {
+          "name": "Staff",
+          "description": "<p>(two-hand d8)</p>"
+        },
         "TEufxXdgg0ZOII3y": {
           "name": "Healing Hands",
           "description": "<p>When Lisavet casts @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Heal}, she rolls d10s instead of d8s.</p>"
@@ -259,14 +334,27 @@
         "7R0kyhJFaNBVoD7Q": {
           "name": "Turn Undead",
           "description": "<p>When Lisavet uses heal to damage undead, each level 2 or lower undead that critically fails its save gains the fleeing condition for 1 round.</p>"
+        },
+        "ifZ4nchz8e3IwuPd": {
+          "name": "Lore"
         }
       }
     },
     "Gristleburst": {
       "name": "Gristleburst",
-      "description": "",
-      "hpdetails": "",
       "items": {
+        "qtitqUWLk197Ri3j": {
+          "name": "Dagger"
+        },
+        "iSIORMoKGVEC1H5G": {
+          "name": "Dagger"
+        },
+        "rHpLdDEBsHQQvZ3y": {
+          "name": "Lesser Alchemist's Fire"
+        },
+        "KKt1a6u7JRMuYAkq": {
+          "name": "Lesser Acid Flask"
+        },
         "MyZJ1M6wCRpYv4xH": {
           "name": "Infused Items",
           "description": "<p>Gristleburst carries the following infused items, which last for 24 hours or until the next time he makes his daily preparations:</p>\n<p>@UUID[Compendium.pf2e.equipment-srd.Item.M1k5QQc1qQLxzyCK]{Acid Flask (Lesser)} (2)</p>\n<p>@UUID[Compendium.pf2e.equipment-srd.Item.yd3kEK21YknZLlcT]{Alchemist's Fire (Lesser)} (4)</p>\n<p>@UUID[Compendium.pf2e.equipment-srd.Item.7Y2yOr4ltpP2tyuL]{Eagle Eye Elixir (Lesser)} (2)</p>"
@@ -283,12 +371,19 @@
     },
     "Nosferotter": {
       "name": "Nosferotter",
-      "description": "",
       "hpdetails": "void healing",
       "items": {
+        "NayNXOpEc0DYSxcy": {
+          "name": "Claw"
+        },
+        "RqVB4iwIEVMu6zJf": {
+          "name": "Jaw"
+        },
+        "2ui6e1qMJaWKesy0": {
+          "name": "Throw Rock and/or Skull"
+        },
         "SATUmquYZJjYAnOZ": {
-          "name": "Void Healing",
-          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>"
+          "name": "Void Healing"
         },
         "gFhjA0vgY0HDCWGa": {
           "name": "Aquatic Ambush",
@@ -307,11 +402,19 @@
     "Whispering Way Medusa": {
       "name": "Whispering Way Medusa",
       "description": "<p>Monstrous humanoids that resemble humans with snakes instead of hair, medusas are best known for their petrifying gazes that-if lingered upon-can permanently transform mortals to stone. Medusas are shrewd and manipulative adversaries who collect and covet secrets, and who use threats and guile to exploit the fears of weaker creatures. A medusa may seek out powerful magic items, use divination magic to discover secret knowledge and unlock forbidden power, or infiltrate a society to beguile influential politicians. Their ability to worm their way into powerful organizations makes them natural leaders of criminal outfits and thieves' guilds, and their interest in magical phenomena leads some to pursue careers as oracles who offer to help adventurers find what they seek-for a price. Of course, if wit and deception proves insufficient, a medusa can always simply turn rivals into ornate stone decorations with little more than a glare.</p>\n<p>Exceptionally agile and surprisingly hardy, a medusa rarely backs down from a conflict even when cornered. Many adventurers who thought themselves readied to resist the effects of a medusa's gaze have nevertheless fallen to a medusa, as these creatures are also often deadly archers able to riddle their foes with venom-coated arrows from a distance. Still, a medusa may barter for their life if no alternatives remain, and the secrets carried by these powerful villains often make it more than worth sparing the monster's life.</p>",
-      "hpdetails": "",
+      "cadetails": "all-around vision",
       "items": {
+        "z9bTah65DoASEDhP": {
+          "name": "Shortsword"
+        },
+        "ltvMN7K0itu2l3WZ": {
+          "name": "Snake Fangs"
+        },
+        "F8wXzsUNliJVU8bv": {
+          "name": "Composite Shortbow"
+        },
         "MKxUE1dKQtKxK6VH": {
-          "name": "All-Around Vision",
-          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.AllAroundVision]</p>"
+          "name": "All-Around Vision"
         },
         "zGXZKhk95VPsSdKN": {
           "name": "Biting Snakes",
@@ -328,17 +431,24 @@
         "FuDdgAP7wwq6LCFO": {
           "name": "Serpent Venom",
           "description": "<p><strong>Saving Throw</strong> @Check[fortitude|dc:27]</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> @Damage[1d6[poison]] damage and @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1} (1 round)</p>\n<p><strong>Stage 2</strong> @Damage[2d6[poison]] damage and @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 2} (1 round)</p>"
+        },
+        "WtmFehFfeOlfwS68": {
+          "name": "Undead Lore"
         }
       }
     },
     "Demom": {
       "name": "Demom",
-      "description": "",
-      "hpdetails": "",
+      "languages": "telepathy 100 feet (knows what you're thinking)",
       "items": {
+        "Fc1g9hWVe9d2pASs": {
+          "name": "Hug"
+        },
+        "GGPUJgrJUj61SNgR": {
+          "name": "Stern Look"
+        },
         "gpP338rO1YLABo8y": {
-          "name": "Telepathy 100 feet",
-          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Telepathy]</p>"
+          "name": "Telepathy 100 feet"
         },
         "ONyQyXi2sQKGNI5x": {
           "name": "Maternal Aura",
@@ -360,9 +470,14 @@
     },
     "Edolpho Phinelli": {
       "name": "Edolpho Phinelli",
-      "description": "",
-      "hpdetails": "",
+      "blurb": "Male half-elf charlatan",
       "items": {
+        "p5U1PHx54bTfgTYT": {
+          "name": "Shortsword"
+        },
+        "d7yetnVgXrSME2AX": {
+          "name": "Sap"
+        },
         "hshaYWr40KtMapWR": {
           "name": "Versatile Performance",
           "description": "<p>Edolpho can use Performance instead of Diplomacy to Make an Impression and instead of Intimidation to Demoralize. He can also use an acting Performance instead of Deception to Impersonate.</p>"
@@ -370,14 +485,21 @@
         "cQIOQMe8hOeHIJGT": {
           "name": "Sneak Attack",
           "description": "<p>Edolpho deals an extra 1d6 precision damage to @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} creatures.</p>"
+        },
+        "xoqY0o5kLsdoDNRJ": {
+          "name": "Lore"
         }
       }
     },
     "Zhang Yong": {
       "name": "Zhang Yong",
-      "description": "",
-      "hpdetails": "",
       "items": {
+        "spPHzxtAcopBa1PJ": {
+          "name": "Soul Strike"
+        },
+        "MvzTLbrPUs7oyrhS": {
+          "name": "Greater Ghost Charge"
+        },
         "bJ5oXZ8aJu6fvfWq": {
           "name": "Grit Teeth",
           "description": "<p>Zhang Yong fails or critically fails a saving throw against an enchantment or fear effect Effect Zhang Yong succeeds on the saving throw instead and takes @Damage[2d6[mental]] damage. If he critically failed on the triggering saving throw, he also takes @Damage[2d6[persistent,mental]] and cannot use this ability again while taking persistent mental damage.</p>"
@@ -393,14 +515,24 @@
         "rIToi4siQWggGlIn": {
           "name": "Soul Dance Stance",
           "description": "<p>Zhang Yong begins a stance that aligns him with the River of Souls and he can make soul strike attacks that seem almost incorporeal. These deal 1d8 bludgeoning damage; are in the brawling group; and have the agile, finesse, nonlethal, and unarmed traits. Soul Strikes treat cover against living and incorporeal undead targets as degree less severe (greater cover becomes standard cover, standard cover becomes lesser cover, and lesser cover is ignored).</p>"
+        },
+        "scdigHH4N8znqHVU": {
+          "name": "Haunt Lore"
         }
       }
     },
     "Hellknight Centaur": {
       "name": "Hellknight Centaur",
-      "description": "",
-      "hpdetails": "",
       "items": {
+        "77UKo4JhB8SMHh0a": {
+          "name": "Hoof"
+        },
+        "wdINerDvu3cYr9n9": {
+          "name": "Halberd"
+        },
+        "6x1ifYyHfPuozXyM": {
+          "name": "Spear"
+        },
         "PxRnakh4fibfcGeL": {
           "name": "Trample",
           "description": "<p>Medium or smaller, hoof, @Check[reflex|dc:20|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Trample]</p>"
@@ -410,15 +542,24 @@
     "Firebrand Brass Dragon (Ancient)": {
       "name": "Firebrand Brass Dragon (Ancient)",
       "description": "<p>Brass dragons are whimsical tricksters who delight in humor and play. They particularly enjoy conversations with humans and other civilized humanoids, delighting in the naive customs of these diminutive races without showing them haughtiness or scorn. While they may seem merely curious, brass dragons engage in this sort of conversation with the goal of keeping up to date on regional politics so they can anticipate future conflicts. Along the way, they create extensive information networks that begin with their own allies but stretch across all levels of humanoid society-networks which the brass dragon then uses to subtly assist settlements near their lair. Unlike the schemes and manipulations of blue dragons, brass dragons use their informant networks to establish justice and equality.</p>\n<p>These carefree dragons value independence and feel that all creatures deserve to live as they please, provided they don't harm others. They are emotional creatures and tend to have short attention spans, sometimes falling victim to depression in their twilight years. To combat this, some brass dragons keep pets and houseplants that they can care for.</p>\n<p>Though they may seem childlike in their curiosity concerning mortal affairs, a brass dragon's prowess in battle is no laughing matter. A brass dragon whose territory or allies are threatened is a terrifying foe indeed, quick to shed their innocent guise and unleash their terrifying might upon evildoers.</p>\n<p>Most brass dragons live in desert climates, and while they keep their lairs hidden, they often build near humanoid settlements.</p>",
-      "hpdetails": "",
+      "languages": "speak with animals",
+      "saves": "+1 status to all saves vs. magic",
       "items": {
+        "4k5fQuKObwYhz1PU": {
+          "name": "Jaws"
+        },
+        "fMWLAq5jGWQRA55Z": {
+          "name": "Claw"
+        },
+        "BtBJ8FVnBLJgGYxG": {
+          "name": "Wing"
+        },
         "YM8en3kYUjCokI3f": {
           "name": "Battle Cry",
           "description": "<p><strong>Trigger</strong> The Brass Dragon rolls initiative.</p>\n<hr />\n<p><strong>Effect</strong> The Brass Dragon roars out a mighty challenge and attempts to [[/act demoralize]] a creature it can see.</p>"
         },
         "YirbCqgC6ni49Xqu": {
-          "name": "+1 Status to All Saves vs. Magic",
-          "description": ""
+          "name": "+1 Status to All Saves vs. Magic"
         },
         "omOIOaQDioTcsMIC": {
           "name": "Bravo's Determination",
@@ -434,11 +575,11 @@
         },
         "7Hcv7QQPQAQcct0I": {
           "name": "Breath Weapon",
-          "description": "<p>The brass dragon breathes in one of two ways.</p>\n<p>The dragon can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>\n<ul>\n<li><strong>Flame</strong> The dragon breathes fire in a @Template[line|distance:100] that deals @Damage[16d6[fire]|options:area-damage] damage (@Check[reflex|dc:41|basic] save).</li>\n<li><strong>Sleep Gas</strong> The dragon breathes an @Template[cone|distance:80] of sleep gas. Each creature within the cone must succeed at a @Check[fortitude|dc:41] save or fall @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious} for [[/gmr 1d6 #rounds]]{1d6 rounds}, or 1 minute on a critical failure.</li></ul>"
+          "description": "<p>The brass dragon breathes in one of two ways.</p>\n<p>The dragon can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>\n<ul>\n<li><strong>Flame</strong> The dragon breathes fire in a @Template[line|distance:100] that deals @Damage[16d6[fire]|options:area-damage] damage (@Check[reflex|dc:41|basic|options:area-effect] save).</li>\n<li><strong>Sleep Gas</strong> The dragon breathes an @Template[cone|distance:80] of sleep gas. Each creature within the cone must succeed at a @Check[fortitude|dc:41|options:area-effect,inflicts:unconscious] save or fall @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious} for [[/gmr 1d6 #rounds]]{1d6 rounds}, or 1 minute on a critical failure.</li></ul>"
         },
         "WX7zOVpbKUqeICJ0": {
           "name": "Desert Wind",
-          "description": "<p><strong>Frequency</strong> three times per day.</p>\n<hr />\n<p><strong>Effect</strong> The dragon calls upon the desert wind. This has the same effect as @UUID[Compendium.pf2e.spells-srd.Item.g8QqHpv2CWDwmIm1]{Gust of Wind} (@Check[fortitude|dc:39]) but in a @Template[cone|distance:60]. A creature that fails its save is also blinded until the end of its next turn (or for 1 minute on a critical failure).</p>"
+          "description": "<p><strong>Frequency</strong> three times per day.</p>\n<hr />\n<p><strong>Effect</strong> The dragon calls upon the desert wind. This has the same effect as @UUID[Compendium.pf2e.spells-srd.Item.g8QqHpv2CWDwmIm1]{Gust of Wind} (@Check[fortitude|dc:39|options:area-effect,inflicts:blinded]) but in a @Template[cone|distance:60]. A creature that fails its save is also @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} until the end of its next turn (or for 1 minute on a critical failure).</p>"
         },
         "YAjAjrcDtGXjLBD7": {
           "name": "Draconic Frenzy",
@@ -453,7 +594,6 @@
     "Dust Bunny Swarm": {
       "name": "Dust Bunny Swarm",
       "description": "<p>Dust bunnies in particular are prone to swarming. This can occur when a large number are left alone for a long period of time and are then disturbed by adventurers or a returning wizard. Other times, a singular dust bunny familiar grows in such numbers (and they will rapidly reproduce!) that a wizard cannot hope to keep them all placated with food and attention. In this situation, they will unionize in rebellion against their master.</p>\n<p>It is paramount that you do not allow a dust bunny to multiply, for once a swarm has formed, they are nigh impossible to get rid of. While relatively easy to disperse and unlikely to kill anyone, they will re-form within the week unless the area is immaculately cleaned.</p>",
-      "hpdetails": "",
       "items": {
         "F4YsaMzZsgKzc6Xi": {
           "name": "Cloud of Allergens",
@@ -471,12 +611,20 @@
     },
     "Weredigo": {
       "name": "Weredigo",
-      "description": "",
-      "hpdetails": "",
+      "languages": "telepathy 1 mile",
+      "perception": "hungersight",
       "items": {
+        "w64mGgzpaYg1RAbg": {
+          "name": "Jaws"
+        },
+        "BbdsFNbMDtMBdwVZ": {
+          "name": "Fork"
+        },
+        "LVjUvaGjXdcTQ2OM": {
+          "name": "Knife"
+        },
         "Z2YFBhPR8PxcKF90": {
-          "name": "Telepathy (1 mile)",
-          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Telepathy]</p>"
+          "name": "Telepathy (1 mile)"
         },
         "yxb37QHZ4RqNpk63": {
           "name": "Coven",
@@ -495,16 +643,19 @@
           "description": "<p>A creature affected by weredigo torment can't recover beyond stage 1 until it has been restored to full HP.</p>\n<p><strong>Saving Throw</strong> @Check[will|dc:35]</p>\n<p><strong>Stage 1</strong> @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 4} (1 day)</p>\n<p><strong>Stage 2</strong> As stage 1 (1 day)</p>\n<p><strong>Stage 3</strong> The creature becomes permanently afflicted with analysis paralysis, unable to make even the simplest of dining decisions, absentmindedly sipping their water whenever asked for their order.</p>"
         },
         "6s0qKpsktuEdGlgX": {
-          "name": "Grab",
-          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
+          "name": "Grab"
+        },
+        "xpbwAQyGKoyrg0LO": {
+          "name": "Restaurant Lore"
         }
       }
     },
     "Floolf": {
       "name": "Floolf",
-      "description": "",
-      "hpdetails": "",
       "items": {
+        "dejQYTAxiY4smNZO": {
+          "name": "Jaws"
+        },
         "U3ko77Ip12zOsdtU": {
           "name": "Cute Aggression",
           "description": "<p>Floolf pups are so adorable that any creature that is either a mammal, or has an Intelligence above 3 that sees or touches a floolf pup must succeed at a @Check[will|dc:27] save or it will defend the floolf pup with its life. This effect ends when the creature is no longer able to perceive the pup.</p>\n<p>If the creature can speak, anytime it remembers the floolf pup, it feels a compulsion (@Check[will|dc:15] save) to tell their story of the encounter, invariably ending with the phrase, \"I would die for that floolf.\"</p>"
@@ -517,9 +668,13 @@
     },
     "Psstpsstmitl": {
       "name": "Psstpsstmitl",
-      "description": "",
-      "hpdetails": "",
       "items": {
+        "g9fG2YxUC2N5FDmG": {
+          "name": "Jaws"
+        },
+        "WsH2HadR4csvipXA": {
+          "name": "Claw"
+        },
         "kzOMzDqvFauAPuca": {
           "name": "Dander",
           "description": "<p>30 feet. Any time a nonfeline creature within the aura attempts to use an action that has the concentrate trait, it must attempt a @Check[flat|dc:5] check. On a failure, the action is lost as the creature is too distracted by sneezing to act.</p>"
@@ -537,16 +692,20 @@
           "description": "<p>The psstpsstmitl swipes one giant paw across the battlefield in a @Template[cone|distance:30]. All creatures in the cone must attempt a Reflex save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected.</p>\n<p><strong>Success</strong> The target is pushed 10 feet away from the psstpsstmitl and is knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}</p>\n<p><strong>Failure</strong> The target is pushed 20 feet away from the psstpsstmitl and is knocked prone.</p>\n<p><strong>Critical Failure</strong> As failure, and the target is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 2}</p>"
         },
         "Oj0V8DnWczLydVGo": {
-          "name": "Grab",
-          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
+          "name": "Grab"
         }
       }
     },
     "Urok": {
       "name": "Urok",
-      "description": "",
-      "hpdetails": "",
+      "blurb": "Male aphorite kobold infiltrator",
       "items": {
+        "xQ7zCt6xdKapkAWh": {
+          "name": "Dagger"
+        },
+        "xlHrE616WwNf6Ddf": {
+          "name": "Dagger"
+        },
         "RJ4FwNaWPeNPEzid": {
           "name": "Draconic Exemplar (Green Dragon)",
           "description": "<p>Urok draws minor powers from his green draconic exemplar. This determines his scale color and appearance, and dragons sometimes look more favorably upon those kobolds who resemble them, at the GM's discretion. His exemplar also determines details of other abilities:</p>\n<p><strong>Breath weapon</strong> cone <strong>Damage type</strong> poison <strong>Saving throw</strong> Fortitude</p>"
@@ -561,7 +720,7 @@
         },
         "DPYhPyUeXmHwHcVv": {
           "name": "Kobold Breath",
-          "description": "<p>Urok breathes a poisonous mist that deals @Damage[5d4[poison]|options:area-damage] damage in a @Template[cone|distance:15] (@Check[fortitude|dc:25|basic] save).</p>\n<p>He can't use Kobold Breath again for [[/gmr 1d4 #Recharge Kobold Breath]]{1d4 rounds}.</p>"
+          "description": "<p>Urok breathes a poisonous mist that deals @Damage[5d4[poison]|options:area-damage] damage in a @Template[cone|distance:15] (@Check[fortitude|dc:25|basic|options:area-effect] save).</p>\n<p>He can't use Kobold Breath again for [[/gmr 1d4 #Recharge Kobold Breath]]{1d4 rounds}.</p>"
         },
         "gXU4OpTzyZCe0vQR": {
           "name": "Mastermind",
@@ -574,44 +733,69 @@
         "sdZrUKnICrQ0r0Dz": {
           "name": "Sneak Attack",
           "description": "<p>Urok deals an extra 2d6 precision damage to @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} creatures.</p>"
+        },
+        "LPHqRt80Stp0mHDP": {
+          "name": "Lore"
+        },
+        "XucAzPdyjIt2KtKJ": {
+          "name": "Lore"
         }
       }
     },
     "Kobold Tunnelrunner": {
       "name": "Kobold Tunnelrunner",
-      "description": "",
-      "hpdetails": "",
       "items": {
+        "8HSBkWhpaNC8N8fC": {
+          "name": "Light Pick"
+        },
         "IOnxXvo1IMijmIVC": {
           "name": "Sneak Attack",
           "description": "<p>The kobold tunnelrunner deals an extra 1d4 precision damage to @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} creatures.</p>"
+        },
+        "PihM6WX0ymwQxab0": {
+          "name": "Lore"
+        }
+      },
+      "CraftingVariants": {
+        "0": {
+          "label": "traps"
         }
       }
     },
     "Eleukas": {
       "name": "Eleukas",
-      "description": "",
-      "hpdetails": "",
       "items": {
+        "Qw0Nc9ihPSaA8u37": {
+          "name": "Visperath"
+        },
+        "WdsJsf0Gh1AWZ6K5": {
+          "name": "Dagger"
+        },
+        "4nMkd7NjtPzRnE56": {
+          "name": "Dagger"
+        },
         "UTjJ506ltDs5H6lD": {
-          "name": "Attack of Opportunity",
-          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>"
+          "name": "Attack of Opportunity"
         },
         "4AiIogXjqLCa7Zul": {
           "name": "Lunge",
           "description": "<p>Eleukas makes a Strike with a melee weapon, increasing the reach of the Strike by 5 feet.</p>"
         },
         "JlgHa4PpxhzNImV0": {
-          "name": "Power Attack",
-          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.PowerAttack]</p>"
+          "name": "Power Attack"
         }
       }
     },
     "Duhgik": {
       "name": "Duhgik",
-      "description": "",
-      "hpdetails": "",
       "items": {
+        "EuRaJ2wLZZZFWhlA": {
+          "name": "Dagger"
+        },
+        "55Q4gjTfhrbX7BaS": {
+          "name": "Sling",
+          "description": "<p>(range 50 feet, reload 1)</p>"
+        },
         "3qkHfy6hKYgnYBYw": {
           "name": "Cringe",
           "description": "<p><strong>Trigger</strong> A creature Duhgik is aware of critically succeeds on a Strike against her and would deal damage to her</p>\n<hr />\n<p><strong>Effect</strong> With pitiful posturing, she causes her foe to pull back a deadly attack. The attacking creature takes a -8 circumstance penalty to the damage of the triggering Strike. This penalty applies after doubling the damage for a critical hit. The attacker is then immune to Duhgik's for 24 hours.</p>"
@@ -627,14 +811,23 @@
         "JuWPTpWhm5timqoG": {
           "name": "Surprise Snare",
           "description": "<p>Duhgik installs one of her snares prepared for quick deployment in a space that's occupied by an opponent. It must be a snare that normally takes 1 minute or less to Craft. The snare automatically triggers, but it takes a -2 circumstance penalty to any applicable save DC, as well as any attack rolls or other checks the snare attempts.</p>"
+        },
+        "RjEtycioPCzUAsxF": {
+          "name": "Lore"
         }
       }
     },
     "Goblin Zombie": {
       "name": "Goblin Zombie",
-      "description": "",
       "hpdetails": "void healing",
       "items": {
+        "tNetWKZ95MXVBhYE": {
+          "name": "Fist"
+        },
+        "TCUGjags5kwxafd3": {
+          "name": "Jaws",
+          "description": "<p><strong>Requirement</strong> The goblin zombie has a creature @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}</p>"
+        },
         "p85ZUnF3OvuizDNc": {
           "name": "Alchemical Rupture",
           "description": "<p>When the goblin zombie is reduced to 0 Hit Points, an alchemical device jammed in its belly ruptures. Roll 1d4 and consult the following for the effect:</p><table class=\"pf2e\"><thead><tr><th>[[/gmr 1d4 #Alchemical Rupture]]</th><th>Alchemical Effect</th></tr></thead><tbody><tr><td>1</td><td>creatures in a @Template[emanation|distance:5] take @Damage[1d3[persistent,acid]|options:area-damage] damage</td></tr><tr><td>2</td><td>creatures in a 5-foot emanation take @Damage[1d4[fire]|options:area-damage] damage (@Check[reflex|dc:16|basic|options:area-effect] save)</td></tr><tr><td>3</td><td>creatures in a 5-foot emanation take @Damage[1d4[poison]|options:area-damage] damage (@Check[fortitude|dc:16|basic|options:area-effect] save)</td></tr><tr><td>4</td><td>smoke billows out in a 5-foot emanation for 1 round (creatures in that area are @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed}, and all other creatures are concealed to them)</td></tr></tbody></table>"
@@ -644,20 +837,25 @@
           "description": "<p>A goblin zombie is permanently @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} and can't use reactions.</p>"
         },
         "mVnV2vaiWeiuhseF": {
-          "name": "Void Healing",
-          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>"
+          "name": "Void Healing"
         },
         "Ejvc6732v1GG8Mvd": {
-          "name": "Grab",
-          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
+          "name": "Grab"
         }
       }
     },
     "Ogre Hurler": {
       "name": "Ogre Hurler",
-      "description": "",
-      "hpdetails": "",
       "items": {
+        "jKva43dNqkZSi02z": {
+          "name": "Fist"
+        },
+        "BnLBzgDLTbRcg9U8": {
+          "name": "Spear"
+        },
+        "v0flMbrFL0bTFlZP": {
+          "name": "Spear"
+        },
         "bLQjhjNeQRRFMpRV": {
           "name": "Toss Kobold",
           "description": "<p><strong>Requirements</strong> A kobold is within 10 feet of the ogre</p>\n<hr />\n<p><strong>Effect</strong> The ogre picks up the kobold and hurls it at another creature within 30 feet. This ranged Strike has a [[/r 1d20 #Hurl Kobold]]{+14} attack modifier and deals @Damage[(2d8+6)[bludgeoning]] damage. The kobold takes half the damage dealt to the target and is @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p>"
@@ -666,12 +864,13 @@
     },
     "Cacaodaemon": {
       "name": "Cacaodaemon",
-      "description": "",
-      "hpdetails": "",
+      "languages": "telepathy 100 feet",
       "items": {
+        "397ggaqWwpvwUX4X": {
+          "name": "Nib Teeth"
+        },
         "JDeVXzew9W8MmDim": {
-          "name": "Telepathy 100 feet",
-          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Telepathy]</p>"
+          "name": "Telepathy 100 feet"
         },
         "RO8nM1pfHkCiTrt9": {
           "name": "Aromatic",
@@ -681,13 +880,25 @@
           "name": "Bitter Heart",
           "description": "<p>The dissonance between the cacaodaemon's sweet scent and bitter inside drains the victim's spirit</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:17]</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> @Damage[1d8[mental]] damage and @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} (1 round).</p>\n<p><strong>Stage 2</strong> @Damage[1d8[mental]] damage and @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} (1 round)</p>\n<p><strong>Stage 3</strong> @Damage[1d12[mental]] damage and @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 2} (1 round)</p>"
         }
+      },
+      "DeceptionVariants": {
+        "0": {
+          "label": "to appear as an inanimate object"
+        }
       }
     },
     "Wordsmith": {
       "name": "Wordsmith",
       "description": "<p>With every strike of a wordsmith's hammer, a new onomatopoeia is formed. They swiftly grab the word as it flies off the anvil before nailing it to the pages of our favorite comics. POW! WHAM! SPLAT! The hammer crafts each and every sound. The humble wordsmith is often overlooked by their artisan peers, whose pictures are the primary focus of readers. However, many don't realize that while pictures can be sent to the printing press, sounds are not captured so easily on the page and must be hammered into place by a skilled wordsmith.</p>\n<p>While most wordsmiths are content to forge their words out of sight of the public, they are fierce defenders of their work and are quick to fight anyone who belittles it. They know the pen is mightier than the sword, but the hammer is mightiest of all, and they use it mercilessly to SMASH! through their foes.</p>\n<p>Though many wordsmiths are dwarves, they come from all kinds of backgrounds, each bringing their own unique sounds and noises from their culture. Tengu wordsmiths particularly favor onomatopoeias similar to bird calls like caw for crows or okalee for red-winged blackbirds. Meanwhile, leshy wordsmiths favor sounds inaudible to most non-plant creatures, such as the tr-tr-tr that reflects the sound of a plant growing.</p>",
-      "hpdetails": "",
+      "languages": "truespeech",
+      "perception": "hearing (precise) 60 feet",
       "items": {
+        "2bVVykPpFwdVQqAE": {
+          "name": "Hammer"
+        },
+        "ybJy9jc4WlHbHZeG": {
+          "name": "TWANG!"
+        },
         "Hy1zWWkAdsbBOtJz": {
           "name": "Word Warp",
           "description": "<p><strong>Trigger</strong> The wordsmith is the target of a linguistic effect</p>\n<hr />\n<p><strong>Effect</strong> The wordsmith twists the words and attempts to counter their foe's utterances with their hammer (counteract [[/gmr 1d20+16 #Councteract]]{+16}, 3rd rank).</p>"
@@ -699,12 +910,14 @@
         "cjxJCNra3kJme6vO": {
           "name": "Mightier than the Sword",
           "description": "<p>Any hammer gains the forceful trait, can't be disarmed, and becomes a +1 striking hammer while the Wordsmith wields it.</p>"
+        },
+        "Ht7EIYg1l6G8dm2W": {
+          "name": "Scribing Lore"
         }
       }
     }
   },
   "mapping": {
-    "name": "name",
     "description": "system.details.publicNotes",
     "gm": "system.details.privateNotes",
     "blurb": "system.details.blurb",
@@ -714,7 +927,7 @@
     "perception": "system.perception.details",
     "saves": "system.attributes.allSaves.value",
     "speeds": "system.attributes.speed.details",
-    "desc": "system.details.description",
+    "desc (hazard)": "system.details.description",
     "disable": "system.details.disable",
     "reset": "system.details.reset",
     "routine": "system.details.routine",

@@ -1,11 +1,15 @@
 {
-  "label": "Night of the Gray Death",
+  "label": "pf2e.night-of-the-gray-death-bestiary",
   "entries": {
     "Gray Gardener Assassin": {
       "name": "Gray Gardener Assassin",
-      "description": "",
-      "hpdetails": "",
       "items": {
+        "y10vkkw7utqnhf0u": {
+          "name": "Kukri"
+        },
+        "atdl6oxpua7a8ti1": {
+          "name": "Hand Crossbow"
+        },
         "UU9cOQ3GJiiJ0y2t": {
           "name": "Anonymity",
           "description": "<p>The Gray Gardener assassin has a +2 circumstance bonus to Deception checks and saving throws to conceal their identity and a +2 circumstance bonus to their Deception DC against effects that ferret out information about the Gray Gardener's identity.</p>"
@@ -38,20 +42,25 @@
           "name": "Surprise Attack",
           "description": "<p>On the first round of combat, creatures that haven't acted yet are @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} to the Gray Gardener assassin.</p>"
         }
+      },
+      "StealthVariants": {
+        "0": {
+          "label": "to hide"
+        }
       }
     },
     "Tumblak": {
       "name": "Tumblak",
-      "description": "",
-      "hpdetails": "",
+      "languages": "telepathy 100 feet",
       "items": {
+        "k4da2l4o15qntzes": {
+          "name": "Fist"
+        },
         "MudC8GBQciwNzqbi": {
-          "name": "Telepathy 100 feet",
-          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Telepathy]</p>"
+          "name": "Telepathy 100 feet"
         },
         "cPZGmHSfsoLl1Nki": {
-          "name": "Constant Spells",
-          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ConstantSpells]</p>"
+          "name": "Constant Spells"
         },
         "64ianM5ftP3OaVMU": {
           "name": "Easy to Call",
@@ -80,14 +89,21 @@
         "WAGi6iHW6Q93uHQj": {
           "name": "Skip Between",
           "description": "<p>Tumblak moves from the Material Plane to the Ethereal Plane or vice versa, with the effects of @UUID[Compendium.pf2e.spells-srd.Item.D2nPKbIS67m9199U]{Ethereal Jaunt} except the effect has an unlimited duration and can be Dismissed. A summoned sahkil can't use Skip Between.</p>"
+        },
+        "5tvak462ebfuckwx": {
+          "name": "Grave Lore"
         }
       }
     },
     "Keznin Nevarmo": {
       "name": "Keznin Nevarmo",
-      "description": "",
-      "hpdetails": "",
       "items": {
+        "w6fomxc651aiuj19": {
+          "name": "Beak"
+        },
+        "juuni7wi8xeycsfg": {
+          "name": "Staff"
+        },
         "Gsp6SyiR5bBRNQWO": {
           "name": "Invaded",
           "description": "<p>Keznin is subject to the conqueror worm's Mental Invader effect, but she doesn't realize it. (Note: This is only effective in Chapter 3)</p>"
@@ -104,16 +120,16 @@
     },
     "Gray Death": {
       "name": "Gray Death",
-      "description": "",
-      "hpdetails": "",
+      "languages": "telepathy 100 feet",
       "items": {
+        "duz24h3ca6ibyeh0": {
+          "name": "Hand"
+        },
         "1HHQzlsedjpTcEfq": {
-          "name": "Telepathy 100 feet",
-          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Telepathy]</p>"
+          "name": "Telepathy 100 feet"
         },
         "hupKxv9RWzNfoW3Z": {
-          "name": "Lifesense 1,000 feet",
-          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Lifesense]</p>"
+          "name": "Lifesense 1,000 feet"
         },
         "rd8g0sujo4faxyxg": {
           "name": "Soul Bleed",
@@ -141,18 +157,17 @@
       "name": "Pageant Troupe",
       "description": "<p>Terra-cotta warriors guard the tombs of ancient rulers, where they stand vigil, animating only when intruders break in to pilfer riches or defile the tomb itself. Each warrior is meticulously crafted from clay and given unique features.</p>\n<hr />\n<p>These constructed warriors can work together as a trained group to repel intruders.</p>",
       "hpdetails": "troop defenses",
+      "languages": "(can't speak any language)",
       "items": {
         "SlKd6WmjF0C4lXGp": {
-          "name": "Form Up",
-          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.FormUp]</p>"
+          "name": "Form Up"
         },
         "zqId4tqfbUrRgpwQ": {
           "name": "Performers",
           "description": "<p>The automatons don't have shields or weapons. Their Strike as One ability uses their fists and deals bludgeoning damage instead of slashing damage.</p>"
         },
         "YfW3hmqsouC0M5an": {
-          "name": "Attack of Opportunity",
-          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ShieldBlock]</p>"
+          "name": "Attack of Opportunity"
         },
         "ncklibzh6Dfp2LTc": {
           "name": "Shield Block",
@@ -164,7 +179,7 @@
         },
         "Vx9iqVf4ismUN743": {
           "name": "Strike as One",
-          "description": "<p><span class=\"action-glyph\">A</span> to <span class=\"action-glyph\">3</span></p>\n<p><strong>Frequency</strong> once per round</p>\n<hr />\n<p><strong>Effect</strong> The garrison makes a melee attack against each enemy in a @Template[emanation|distance:5] (@Check[reflex|dc:30|basic] save). The damage depends on the number of actions.</p>\n<p><span class=\"action-glyph\">A</span> @Damage[(2d8+2)[bludgeoning]] damage.</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(8d8+12)[bludgeoning]] damage.</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(4d8+15)[bludgeoning]] damage.</p>"
+          "description": "<p><span class=\"action-glyph\">A</span> to <span class=\"action-glyph\">3</span></p>\n<p><strong>Frequency</strong> once per round</p>\n<hr />\n<p><strong>Effect</strong> The garrison makes a melee attack against each enemy in a @Template[emanation|distance:5] (@Check[reflex|dc:30|basic|options:area-effect] save). The damage depends on the number of actions.</p>\n<p><span class=\"action-glyph\">A</span> @Damage[(2d8+2)[bludgeoning]|options:area-damage] damage.</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(8d8+12)[bludgeoning]|options:area-damage] damage.</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(4d8+15)[bludgeoning]|options:area-damage] damage.</p>"
         },
         "4y0Im0eAbj4YFOII": {
           "name": "Troop Movement",
@@ -172,11 +187,30 @@
         }
       }
     },
+    "Planar Eviction Trap": {
+      "name": "Planar Eviction Trap",
+      "desc (hazard)": "<p>An invisible magic rune emits a burst of psychic static and sends extraplanar creatures to Pharasma's realm.</p>",
+      "disable": "<p>@Check[religion|dc:42|name:Discharge Glyph|traits:uncommon,trap,magical] (master) or @Check[thievery|dc:42|name:Discharge Glyph|traits:uncommon,trap,magical] (master) to discharge the glyph's power harmlessly, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (8th rank; counteract DC 40) to counteract the glyph</p>",
+      "stealth": "<p>(master)</p>",
+      "items": {
+        "9lc94kalk84ogmt3": {
+          "name": "Wracking Eviction",
+          "description": "<p><strong>Trigger</strong> A creature that isn't openly wearing a religious symbol of Pharasma passes over the glyph at the midpoint of the landing</p><hr />\n<p><strong>Effect</strong> The glyph flares and discharges its energy. Each creature within 30 feet of the glyph takes @Damage[(8d12+24)[mental]] damage and must attempt a @Check[will|dc:40|traits:magical,trap,uncommon] saving throw.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature takes no damage.</p>\n<p><strong>Success</strong> The creature takes half damage and, if not on its home plane, is @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} for 1 minute.</p>\n<p><strong>Failure</strong> The creature takes full damage and is stupefied 1 for 1 minute. If not on its home plane, the creature is sent to a random location in the Boneyard.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage and is @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 2} for 1 minute. If not on its home plane, the creature is sent to a random location in the Boneyard and can't return to the Material Plane until it receives permission to do so from a psychopomp of a higher level than the creature's level.</p>"
+        }
+      }
+    },
     "Mateena Lumlin": {
       "name": "Mateena Lumlin",
-      "description": "",
-      "hpdetails": "",
       "items": {
+        "gisajuqawsk7xxwt": {
+          "name": "Sword Cane"
+        },
+        "rsp6nogzj2kz23u2": {
+          "name": "Dagger"
+        },
+        "rp14drt56uex8ex7": {
+          "name": "Dagger"
+        },
         "K6FLOVNca07pIkf5": {
           "name": "Invaded",
           "description": "<p>Mateena is subject to the conqueror worm's Mental Invader effect, but she doesn't realize it.</p>"
@@ -209,20 +243,19 @@
     },
     "Chakanaj": {
       "name": "Chakanaj",
-      "description": "",
-      "hpdetails": "",
+      "languages": "telepathy 100 feet",
       "items": {
+        "3iamp1tcd13edsf3": {
+          "name": "Leg"
+        },
         "Zs370DSVx92Fm8ZN": {
-          "name": "Telepathy 100 feet",
-          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Telepathy]</p>"
+          "name": "Telepathy 100 feet"
         },
         "xYJYmPCRaY4WEe9c": {
-          "name": "Constant Spells",
-          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ConstantSpells]</p>"
+          "name": "Constant Spells"
         },
         "PCpYbybUdhkg72Y4": {
-          "name": "+4 to Perception to Sense Motive",
-          "description": ""
+          "name": "+4 to Perception to Sense Motive"
         },
         "diy6u3a10bnj98gf": {
           "name": "Ear for Secrets",
@@ -252,13 +285,25 @@
           "name": "Skip Between",
           "description": "<p>The chakanaj sahkil moves from the Material Plane to the Ethereal Plane or vice versa, with the effects of @UUID[Compendium.pf2e.spells-srd.Item.D2nPKbIS67m9199U]{Ethereal Jaunt} except the effect has an unlimited duration and can be Dismissed. A summoned sahkil can't use Skip Between.</p>"
         }
+      },
+      "DeceptionVariants": {
+        "0": {
+          "label": "to impersonate clothing"
+        }
       }
     },
     "Gray Gardener Director General": {
       "name": "Gray Gardener Director General",
-      "description": "",
-      "hpdetails": "",
       "items": {
+        "gisajuqawsk7xxwt": {
+          "name": "Sword Cane"
+        },
+        "rsp6nogzj2kz23u2": {
+          "name": "Dagger"
+        },
+        "rp14drt56uex8ex7": {
+          "name": "Dagger"
+        },
         "JklgmRLJ4Ie3Edu0": {
           "name": "Anonymity",
           "description": "<p>The Gray Gardener Director General has a +2 circumstance bonus to Deception checks and saving throws to conceal their identity and a +2 circumstance bonus to their Deception DC against effects that ferret out information about the Gray Gardener's identity.</p>"
@@ -287,9 +332,10 @@
     },
     "Guillotine Golem": {
       "name": "Guillotine Golem",
-      "description": "",
-      "hpdetails": "",
       "items": {
+        "yoxrqmin47qk0etl": {
+          "name": "Blade"
+        },
         "GjFzfXhsM4SnB7cI": {
           "name": "Golem Antimagic",
           "description": "<p>Harmed by acid (@Damage[9d10[untyped]], @Damage[3d8[untyped]] from areas or persistent damage); healed by electricity (area @Damage[3d8[healing]] HP); slowed by fire</p><hr /><p>@Localize[PF2E.NPC.Abilities.Glossary.GolemAntimagic]</p>"
@@ -320,14 +366,40 @@
         }
       }
     },
+    "Pendulum Pit": {
+      "name": "Pendulum Pit",
+      "desc (hazard)": "<p>Several swinging pendulums of force cleave through the room across the platforms, knocking people into the pit.</p>",
+      "disable": "<p>@Check[arcana|dc:48|name:Deactivate a Pendulum Blade|traits:complex,magical,mechanical,trap] (legendary), @Check[thievery|dc:44|name:Deactivate a Pendulum Blade|traits:complex,magical,mechanical,trap] (master), or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (9th rank; counteract DC 44) on a platform to deactivate its pendulum blade; once all five platforms have been deactivated, the trap is disabled and the room rotates back into position along the exits. @Check[thievery|dc:48|name:Rotate the Room Open|traits:complex,magical,mechanical,trap] (legendary) from any blocked exit to activate the rotating mechanism and rotate the room back into position before the trap has been disabled.</p>",
+      "reset": "<p>The trap resets after 1 hour. If the @UUID[Compendium.pf2e.spells-srd.Item.4GE2ZdODgIQtg51c]{Darkness} throughout the room has been dispelled, the <em>darkness</em> in the room returns when the trap resets.</p>",
+      "routine": "<p>(5 actions) For each active platform, the trap uses an action to create a pendulum of force to swing down along a straight line between the platform and one other creature in the room that isn't on the platform (if any). The trap makes a pendulum blade attack against any creature in that line. For each platform deactivated, reduce the number of actions the trap takes in its routine by 1.</p>",
+      "stealth": "<p>(legendary) to realize the chamber is a complex rotating trap before it triggers. No check is necessary to notice the platforms and the pit.</p>",
+      "items": {
+        "u88o2ifaxgilrm3b": {
+          "name": "Locking Room",
+          "description": "<p><strong>Trigger</strong> A creature disturbs any of the platforms, or anything falls into the pit</p><hr /><p><strong>Effect</strong> The room rotates 45 degrees, closing off the room by shifting its exits to face bare walls. A pendulum of force swings across the platform with the armor on it, knocking the armor into the pit and making a pendulum blade Strike against a creature on that platform (if any). The trap then rolls for initiative.</p>"
+        },
+        "b85yl00yvz9yloj9": {
+          "name": "Pendulum Blade",
+          "description": "<p>No MAP applies to strikes made by pendulum blade attacks</p>"
+        },
+        "dsys01koviayuuf4": {
+          "name": "Pendulum Shove",
+          "description": "<p>A creature hit by a pendulum blade must succeed at a @Check[reflex|dc:44] save or be moved 5 feet along the line of the pendulum's swing. This is forced movement.</p>"
+        },
+        "tfCSRvXxmrtunFjE": {
+          "name": "No MAP",
+          "description": "<p>The Pendulum Blade is unaffected by Multiple Attack Penalty</p>"
+        }
+      }
+    },
     "Riekanoy": {
       "name": "Riekanoy",
-      "description": "",
-      "hpdetails": "",
       "items": {
+        "szbyxffeheqcajmn": {
+          "name": "Hair"
+        },
         "RmdaktfumPEM4R7q": {
-          "name": "Constant Spells",
-          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ConstantSpells]</p>"
+          "name": "Constant Spells"
         },
         "m8okrt5p2n41726w": {
           "name": "Sinuous Initiative",
@@ -354,16 +426,20 @@
           "description": "<p>The riekanoy attempts an Acrobatics check against each @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} creature's Reflex DC. The riekanoy moves each creature they succeed against up to 10 feet and each creature they critically succeed against up to 20 feet. This movement must all be within reach of its hair.</p>"
         },
         "uzvjse6FjVHlNmbW": {
-          "name": "Improved Grab",
-          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ImprovedGrab]</p>"
+          "name": "Improved Grab"
         }
       }
     },
     "Gray Gardener Enforcer": {
       "name": "Gray Gardener Enforcer",
-      "description": "",
       "hpdetails": "void healing",
       "items": {
+        "qms9afvipchhcdgp": {
+          "name": "Spiked Chain"
+        },
+        "w0tv5iepsahol5p3": {
+          "name": "Fist"
+        },
         "zdnavpfqin8dkh7j": {
           "name": "Anonymity",
           "description": "<p>The Gray Gardener enforcer has a +2 circumstance bonus to Deception checks and saving throws to conceal their identity and a +2 circumstance bonus to their Deception DC against effects that ferret out information about the Gray Gardener's identity.</p>"
@@ -385,8 +461,7 @@
           "description": "<p>Any creature that hits the Gray Gardener enforcer with an unarmed attack, tries to Grapple them, or otherwise touches the gurgist is covered with rotten flesh and putrid fluids. The creature must succeed at a @Check[fortitude|dc:36] save or become @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} (@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2} on a critical failure).</p>"
         },
         "hx1yYAXXEsBnBk6s": {
-          "name": "Void Healing",
-          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>"
+          "name": "Void Healing"
         },
         "c7xmf5hqlj4c7gk2": {
           "name": "Chain Garotte",
@@ -401,16 +476,19 @@
           "description": "<p>@Damage[(3d8+7)[slashing]] damage, @Check[fortitude|dc:38|basic|name:Chain Garotte Constrict|traits:disarm,trip]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.GreaterConstrict]</p>"
         },
         "DCGj6wBryfo6dU2v": {
-          "name": "Grab",
-          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
+          "name": "Grab"
         }
       }
     },
     "Zintaya Calbieste": {
       "name": "Zintaya Calbieste",
-      "description": "",
-      "hpdetails": "",
       "items": {
+        "y10vkkw7utqnhf0u": {
+          "name": "Kukri"
+        },
+        "atdl6oxpua7a8ti1": {
+          "name": "Hand Crossbow"
+        },
         "UU9cOQ3GJiiJ0y2t": {
           "name": "Anonymity",
           "description": "<p>The Gray Gardener assassin has a +2 circumstance bonus to Deception checks and saving throws to conceal their identity and a +2 circumstance bonus to their Deception DC against effects that ferret out information about the Gray Gardener's identity.</p>"
@@ -443,13 +521,22 @@
           "name": "Surprise Attack",
           "description": "<p>On the first round of combat, creatures that haven't acted yet are @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} to the Gray Gardener assassin.</p>"
         }
+      },
+      "StealthVariants": {
+        "0": {
+          "label": "to hide"
+        }
       }
     },
     "Worm Prophet": {
       "name": "Worm Prophet",
-      "description": "",
-      "hpdetails": "",
       "items": {
+        "c7ckip1vh0gt8ipy": {
+          "name": "Dagger"
+        },
+        "y699l2b8caiseqf5": {
+          "name": "Dagger"
+        },
         "l3VBs0xOvAxRlsA8": {
           "name": "Anonymity",
           "description": "<p>The worm prophet has a +2 circumstance bonus to Deception checks and saving throws to conceal their identity and a +2 circumstance bonus to their Deception DC against effects that ferret out information about the worm prophet's identity.</p>"
@@ -474,24 +561,22 @@
     },
     "Conqueror Worm": {
       "name": "Conqueror Worm",
-      "description": "",
-      "hpdetails": "",
+      "languages": "telepathy 200 feet",
       "items": {
+        "fnnqe2race4pxbs9": {
+          "name": "Jaws"
+        },
         "2I4qA3cOx8bMmRjL": {
-          "name": "Greater Darkvision",
-          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.GreaterDarkvision]</p>"
+          "name": "Greater Darkvision"
         },
         "qOqmjTlxe8O2y4mw": {
-          "name": "Tremorsense (Imprecise) 100 feet",
-          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Tremorsense]</p>"
+          "name": "Tremorsense (Imprecise) 100 feet"
         },
         "UpaQDxLX39uLoHzQ": {
-          "name": "Telepathy 200 feet",
-          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Telepathy]</p>"
+          "name": "Telepathy 200 feet"
         },
         "nDkt46wDZ0uSOcsk": {
-          "name": "Constant Spells",
-          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ConstantSpells]</p>"
+          "name": "Constant Spells"
         },
         "sTwosLv59wI120s7": {
           "name": "Air Walk",
@@ -530,23 +615,29 @@
           "description": "<p>Huge, @Damage[(4d10+10)[bludgeoning],2d6[acid]]{4d10+10 bludgeoning plus 2d6 acid}, Rupture 44</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
         },
         "301a83AKqydcAu0f": {
-          "name": "Improved Grab",
-          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ImprovedGrab]</p>"
+          "name": "Improved Grab"
         }
       }
     },
     "Miss Whisper": {
       "name": "Miss Whisper",
       "description": "<p>Ages ago, when this cycle of the multiverse was still adolescent, a cabal of psychopomps who already felt bored and restrained in their role of ushering souls to their ultimate resting place rebelled against their station. It was this corruption of the cycle of souls that spawned the first sahkils.</p>\n<p>Ambivalent to the prescribed order of the multiverse and spiteful of mortals, sahkils delight in spreading fear and unease to all beings, clogging up the metaphysical cycle with anxiety-ridden mortals too scared to achieve their potential. These fiends have drastically changed from their dedicated psychopomp predecessors. They are creatures of spite and torment, fear and disgust. They exploit the most common and rare fears for their own perverse satisfaction, and they want nothing more than to frighten mortals and make them quetion their reason for existence.</p>\n<p>Most sahkils lurk on the Ethereal Plane, but they frequently invade the Material Plane to torment mortals and spread terror. They use their innate ability to slip between the veils of the Ethereal and Material effortlessly, often stalking their targets for days or weeks before enacting their devious plots.</p>\n<hr />\n<p>Pakalchis strive to intensify their preys' inherent insecurity over personal and emotional bonds, playing on the threat of those relationships falling into ruin. These sahkils are among the most manipulative of their kind, pulling strings both literal and figurative on their victims over stretched-out periods of time, exhilarating in the despair and fear for as long as possible.</p>",
-      "hpdetails": "",
+      "languages": "telepathy 100 feet, tongues",
       "items": {
+        "vPiD83jHe3pfnCGb": {
+          "name": "Vine"
+        },
+        "KD9WyZyMHgs07nLa": {
+          "name": "Claw"
+        },
+        "X5iRzpgvcVsGqbsr": {
+          "name": "Thorn"
+        },
         "lPHcKkQiBqbtQQ8z": {
-          "name": "Telepathy 100 feet",
-          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Telepathy]</p>"
+          "name": "Telepathy 100 feet"
         },
         "l2ymfoz6uzs9Q7vM": {
-          "name": "Constant Spells",
-          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ConstantSpells]</p>"
+          "name": "Constant Spells"
         },
         "txI3yFBFe03WbSW7": {
           "name": "Bound",
@@ -572,7 +663,6 @@
     }
   },
   "mapping": {
-    "name": "name",
     "description": "system.details.publicNotes",
     "gm": "system.details.privateNotes",
     "blurb": "system.details.blurb",
@@ -582,7 +672,7 @@
     "perception": "system.perception.details",
     "saves": "system.attributes.allSaves.value",
     "speeds": "system.attributes.speed.details",
-    "desc": "system.details.description",
+    "desc (hazard)": "system.details.description",
     "disable": "system.details.disable",
     "reset": "system.details.reset",
     "routine": "system.details.routine",

@@ -1,18 +1,24 @@
 {
-  "label": "War of Immortals",
+  "label": "pf2e.war-of-immortals-bestiary",
   "entries": {
     "Mythic Gogiteth": {
       "name": "Mythic Gogiteth",
       "description": "<p>Gogiteths are horrific nightmares with grasping, spiderlike legs; vicious, gnashing teeth; and far too many eyes. Of all the creatures on Golarion for whom the acquisition of mythic power might prove a nightmare for others, the gogiteth is arguably one of the most terrible.</p>\n<p>Normally, a gogiteth's victims at least have the possible salvation of hearing the horrible crackling and popping of its joints as it clambers towards them through the dark, an opportunity to flee the slavering nightmare seeking them. Mythic ambusher gogiteths are unnaturally silent, however. The first sound a creature might hear when being hunted by such a monstrosity is the sharp wheeze of their own fleeting breath as the gogiteth's jaws snap shut around them, or the tearing of their flesh and clothing as one of its legs pierces them through.</p>\n<p>Though little is known about the origins of gogiteths, mythic gogiteths generally acquire mythic power in the same way that other creatures do. Golarion has no shortage of vile deities who might take cruel delight in bestowing a sliver of mythic power upon a creature as frightful and terrible as a gogiteth. Their traditional hive homes in the Darklands make it unlikely that they would be affected by the Godsrain, but it is not impossible that droplets of Gorum's spilled blood could seep through cracks and make their way down into the thirsty jaws of one of these nightmarish monstrosities.</p>",
-      "hpdetails": "",
+      "cadetails": "all-around vision",
+      "languages": "(Can't Speak)",
       "items": {
+        "YEfhznRCKL956Fzx": {
+          "name": "Jaws"
+        },
+        "Bj9AvzdEeKXM1Lpy": {
+          "name": "Leg"
+        },
         "DU6qEQAoJyHOTOaM": {
           "name": "Remove a Condition",
           "description": "<p><strong>Cost</strong> 1 Mythic Point</p><hr /><p><strong>Effect</strong> The creature ends one condition affecting it.</p>"
         },
         "7EDZA6PRAkgmOYfB": {
-          "name": "All-Around Vision",
-          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.AllAroundVision]</p>"
+          "name": "All-Around Vision"
         },
         "U9YqCD8jxDiah3Yi": {
           "name": "Hazard Immunity",
@@ -40,23 +46,46 @@
         },
         "nfVMAEAuNWL4LEII": {
           "name": "Mythic Skill",
-          "description": "<p><strong>Cost</strong> 1 Mythic Point</p><hr /><p><strong>Effect</strong> The Mythic Gogiteth attempts its next Athletics or Stealth skill check with a +4 bonus and is considered to have mythic proficiency for that check. This applies to one skill when this ability is gained and a second skill if the creature is 12th level or higher.</p>"
+          "description": "<p><strong>Cost</strong> 1 Mythic Point</p><hr /><p><strong>Effect</strong> The Mythic Gogiteth attempts its next Athletics or Stealth skill check with a +4 bonus and is considered to have mythic proficiency for that check.</p>"
         },
         "fRkzUI9I50wuPJvX": {
           "name": "Skittering Assault",
           "description": "<p>The gogiteth Strides three times. Once per Stride, it can attempt a leg Strike against a creature in its reach at any point during the Stride; it must make each attack against a different creature, but it doesn't apply its multiple attack penalty until after making all its Strikes. If any of the Strikes result in a critical failure, Skittering Assault ends.</p>"
         },
         "zK2aR7Xwx6ctIIxv": {
-          "name": "Improved Grab",
-          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ImprovedGrab]</p>"
+          "name": "Improved Grab"
+        }
+      },
+      "SurvivalVariants": {
+        "0": {
+          "label": "to Track"
+        }
+      }
+    },
+    "Primal Chaos Aura": {
+      "name": "Primal Chaos Aura",
+      "desc (hazard)": "<p>Primal magic becomes unpredictable near areas where Agyra lairs, sometimes to hazardous effect.</p>",
+      "disable": "<p>@Check[nature|dc:22|name:Draw Off Excess Power] to negate the aura's effect for 1 round by temporarily drawing off the excess power and channeling it back into surrounding terrain, @Check[nature|dc:26|name:Disperse Lingering Magic] (expert) to completely disperse the lingering magic</p>",
+      "reset": "<p>The hazard deactivates and immediately resets if it has no targets for 1 round; it also resets if Agyra slumbers for 1 week within 100 feet.</p>",
+      "routine": "<p>(2 actions) On its initiative, the hazard gathers primal energy from the surroundings as its first action. Roll [[/gmr 1d6 #Energy Gathered]] to determine the type of energy gathered. The hazard uses its second action to replicate the associated spell (2nd rank, DC 23, spell attack modifier [[/r 1d20+15 #Spell Attack]]{+15}). The spell's target or targets are chosen randomly from creatures in the area. Any spell cast by this hazard is primal. <strong>1</strong> air (@UUID[Compendium.pf2e.spells-srd.Item.g8QqHpv2CWDwmIm1]{Gust of Wind}); <strong>2</strong> electricity (@UUID[Compendium.pf2e.spells-srd.Item.zDJS8E66UI0himqV]{Thunderstrike}); <strong>3</strong> fire (@UUID[Compendium.pf2e.spells-srd.Item.ZxHC7V7HtjUsB8zH]{Blazing Bolt}); <strong>4</strong> poison (@UUID[Compendium.pf2e.spells-srd.Item.DYdvMZ8G2LiSLVWw]{Spider Sting}); <strong>5</strong> sonic (@UUID[Compendium.pf2e.spells-srd.Item.1xbFBQDRs0hT5xZ9]{Shatter}); <strong>6</strong> water (@UUID[Compendium.pf2e.spells-srd.Item.jfVCuOpzC6mUrf6f]{Hydraulic Push})</p>",
+      "stealth": "<p>or @Check[perception|dc:26|traits:action:seek] to feel a tingle in the air and smell a rich, chlorophyll-green fragrance with no discernible source</p>",
+      "items": {
+        "mvL1ARPDkTinsFt4": {
+          "name": "Wild Surge",
+          "description": "<p><strong>Trigger</strong> A character casts a primal spell within the hazard's area</p><hr /><p><strong>Effect</strong> Each living creature in the area gains [[/r 2d4 #Temporary Hit Points]] temporary Hit Points that last for 1 minute as life energy wells up around them, and the hazard rolls initiative.</p>"
         }
       }
     },
     "Mythic Ogre Boss": {
       "name": "Mythic Ogre Boss",
       "description": "<p>For ogres, the biggest, strongest, and most violent among them are the ones who claim the right to lead. When such a creature gains mythic power, its cruelty is likely to be matched only by its immense durability. Mythic ogre bosses are capable of felling even mighty and enormous prey like gigantic dinosaurs with their ogre hooks, using preposterously unbelievable strength to drag them down and rend them asunder. If a group of mythic ogre bosses were to band together, they could prove a terrifying threat, conquering villages or even a small city with relative ease. Fortunately, their philosophies of violence and strength over all else means that whenever such beings come into contact, they are far more likely to immediately war with each other to prove who is the strongest.</p>",
-      "hpdetails": "",
       "items": {
+        "K8rZwgv45XvIe8vL": {
+          "name": "Ogre Hook"
+        },
+        "BXuDhj7X68wG6zma": {
+          "name": "Javelin"
+        },
         "KsRzjvgnKEGVQcLO": {
           "name": "Titanic Might",
           "description": "<p>A mythic brute ignores size limitations when performing actions like @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple} or @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Trip}.</p>"
@@ -66,8 +95,7 @@
           "description": "<p><strong>Cost</strong> 1 Mythic Point</p>\n<p><strong>Trigger</strong> The monster is reduced to 0 HP</p><hr /><p><strong>Effect</strong> The monster avoids being knocked out and remains at half its maximum HP, but its wounded value increases by 1. When it is @UUID[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2]{Wounded 3}, it can no longer use this ability.</p>"
         },
         "DqDajSBQROiv8iPO": {
-          "name": "Reactive Strike",
-          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ReactiveStrike]</p>"
+          "name": "Reactive Strike"
         },
         "KxNiF9bYl6kA6FRd": {
           "name": "Bellowing Command",
@@ -90,8 +118,16 @@
     "Vulot": {
       "name": "Vulot",
       "description": "<h3>The All or None</h3><p>Vulot is nascent demon lord of lies, loss of identity, and suffocation. If one of their forms is ever destroyed, they are able to reincorporate as one of their many stolen identities a day later.</p>",
-      "hpdetails": "",
+      "cadetails": "mythic immunity",
+      "languages": "all languages spoken by their collective identities; telepathy 200 feet (unlimited range to other stolen identities worn by cultists of Vulot)",
+      "perception": "many eyes in many places, truesight",
       "items": {
+        "yMaQCaf9JtO8gDwp": {
+          "name": "Claw"
+        },
+        "9B2azhtpVgbbXIsL": {
+          "name": "Thought Spike"
+        },
         "Gy0EDiZwlGfdqcoC": {
           "name": "Absolute Surety",
           "description": "<p>Vulot is dependent on deception and charm to achieve their goals. If Vulot fails to deceive someone, for example failing the Deception check associated with a mislead spell to convince an observer that an action came from the duplicate, Vulot takes @Damage[4d6[mental]] damage. This damage ignores Vulot's usual immunity.</p>"
@@ -138,10 +174,28 @@
         }
       }
     },
+    "Lightning's Dance": {
+      "name": "Lightning's Dance",
+      "desc (hazard)": "<p>Electricity suffuses an area where Agyra has used her lightning breath multiple times.</p>",
+      "disable": "<p>@Check[crafting|dc:35|name:Fashion Makeshift Lightning Rod] (master) to fashion a makeshift lightning rod, @Check[nature|dc:33|name:Dissipate Electrical Charge] (expert) to dissipate the electrical charge harmlessly into the air.</p>",
+      "reset": "<p>The hazard deactivates and immediately resets if has no targets for 1 round; it also resets if Agyra uses her lightning breath multiple times in a single combat in the area.</p>",
+      "routine": "<p>(2 actions) Bolts of lightning flash out. The hazard makes two lightning bolt Strikes at two different creatures within 120 feet of the hazard's center. If only one creature is in range, the hazard makes only one Strike.</p>",
+      "stealth": "<p>(expert) or @Check[perception|dc:33] (master) to notice sparks dancing around normally non-conductive surfaces</p>",
+      "items": {
+        "q9e86796VNlfO0AO": {
+          "name": "Static Shock",
+          "description": "<p><strong>Trigger</strong> A creature approaches within 10 feet of the hazard's center</p><hr /><p><strong>Effect</strong> Electricity wells up from the ground and nearby material. Each creature in the hazard's area must attempt a @Check[fortitude|dc:33] save, and the hazard then rolls initiative. A character wearing metal armor or wielding a metal shield or weapon of at least 1 Bulk treats the result of their saving throw as one step worse.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} for 1 round.</p>\n<p><strong>Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 2} for 2 rounds.</p>\n<p><strong>Critical Failure</strong> The creature is clumsy 2 for 4 rounds and @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1} for 1 round.</p>"
+        },
+        "N1D8hURJDHF5lxLa": {
+          "name": "Lightning Bolt"
+        }
+      }
+    },
     "Immortal Trickster": {
       "name": "Immortal Trickster",
       "description": "<h3>The Immortal Trickster</h3><p>The Immortal Trickster is an immortal spirit guide who always returns to life no matter how he's killed. After his death, he often recorporates in the same area, though if his body is destroyed in its entirety, he sometimes awakens in an entirely different continent.</p>",
-      "hpdetails": "",
+      "cadetails": "mythic resistance 11",
+      "languages": "truespeech",
       "items": {
         "PeFjJ2NEjzAyuFwe": {
           "name": "Recklessly Overconfident",
@@ -188,24 +242,44 @@
           "description": "<p><strong>Cost</strong> 1 Mythic Point</p><hr /><p><strong>Effect</strong> The Immortal Trickster can spend a Mythic Point whenever he makes a check using Deception or Thievery to make the check at mythic proficiency.</p>"
         },
         "4aNFUfifqGJV2XWK": {
-          "name": "Pull",
-          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Pull]</p>"
+          "name": "Pull"
         },
         "CUPUSYeMCdxHQvDS": {
           "name": "Recharge Spell",
           "description": "<p><strong>Cost</strong> 1 Mythic Point</p><hr /><p><strong>Effect</strong> The Immortal Trickster gains an additional casting of any of his innate primal spells that he has already cast.</p>"
         },
         "LH4KEUD3H4VjzPPp": {
-          "name": "Push",
-          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Push]</p>"
+          "name": "Push"
+        }
+      }
+    },
+    "Boneburst": {
+      "name": "Boneburst",
+      "hpdetails": "(BT 45)",
+      "desc (hazard)": "<p>A low howl rises from the ground, gathering strength as scraps of ancient armor, bone fragments, and clumps of earth rise into the air. Crimson vapor holds the faceless shape together, never coalescing into an identifiable form, but merely writhing through ever-changing images of torment and destruction.</p>",
+      "disable": "<p>@Check[occultism|dc:38|name:Negate Psychic Resonances] (master) to temporarily negate the psychic resonances around each fragment, causing the agglomeration to fall apart, or @Check[religion|dc:33|name:Interrupt Unholy Power] (expert) to temporarily interrupt Verex-That-Was's unholy power with divine energy from another source. If a boneburst takes 40 points of damage from a single source and it isn't destroyed, it is rendered dormant for 1 round.</p>",
+      "reset": "<p>If the boneburst spends 5 consecutive rounds without coalescing around a living creature, it falls dormant, sinking back into the earth. After it falls dormant or is disabled, the boneburst gathers energy over the course of the next hour, after which it can be triggered again.</p>",
+      "routine": "<p>(2 actions) An awakened boneburst occupies a @Template[square|distance:20]; it is reduced to a @Template[square|distance:10] when it reaches its BT. It can occupy the same space as other creatures, but not other bonebursts. On its initiative, the boneburst Flies up to 30 feet toward the nearest living creature as its first action. As its second action, the boneburst then coalesces around any living creature within its space, invisible shards of bone tearing at their flesh. Each living creature in its space takes @Damage[(2d10+18)[slashing],1d10[spirit]|options:area-damage]{2d10+18 slashing damage and 1d10 spirit damage} (@Check[reflex|dc:35|basic|options:area-effect] save). If no living creatures are within its space, the boneburst can use its second action to Fly up to 30 feet.</p>",
+      "stealth": "<p>(master) to notice that clouds of debris are coalescing into swirling, faceless shapes held together by rust-red fog and spectral, dripping clots of gore</p>",
+      "items": {
+        "6mJensA5MorOvpQq": {
+          "name": "Gathering Mist",
+          "description": "<p><strong>Trigger</strong> A living creature approaches within 50 feet of a dormant boneburst</p><hr /><p><strong>Effect</strong> The boneburst awakens, roiling up from the ground, and rolls initiative.</p>"
         }
       }
     },
     "Sublime Breath": {
       "name": "Sublime Breath",
       "description": "<h3>Bringers of Inspiration</h3><p>A sublime breath seeks to perfect their craft, or, when they see the seed of potential in a worthy mortal, to inspire them to new heights.</p>",
-      "hpdetails": "",
+      "languages": "truespeech",
+      "saves": "+2 status to all saves vs. emotion; mythic resilience (Will)",
       "items": {
+        "FjjfoDyvJckiUgUc": {
+          "name": "Soft Touch"
+        },
+        "TdUL9zuWhYsufaej": {
+          "name": "Feigned Strike"
+        },
         "84g0thmX6mrQpAXG": {
           "name": "Artistic Specialist",
           "description": "<p>In a recital, competition, or other measure of artistic skill, a sublime breath is a 12th-level challenge.</p>"
@@ -223,8 +297,7 @@
           "description": "<p>The sublime breath's ephemeral lightness makes them impossible to grasp. They use their Performance modifier to @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape}, @UUID[Compendium.pf2e.actionspf2e.Item.21WIfSu7Xd7uKqV8]{Tumble Through}, @UUID[Compendium.pf2e.actionspf2e.Item.2HJ4yuEFY1Cast4h]{High Jump}, or @UUID[Compendium.pf2e.actionspf2e.Item.JUvAvruz7yRQXfz2]{Long Jump}. When they @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Leap}, High Jump, or Long Jump, the movement does not provoke reactions.</p>"
         },
         "2M0ZAFZ1m0Dr915i": {
-          "name": "+2 Status to All Saves vs. Emotion",
-          "description": ""
+          "name": "+2 Status to All Saves vs. Emotion"
         },
         "Uk0LHniv3eiGclv0": {
           "name": "Mythic Resilience",
@@ -252,11 +325,29 @@
         }
       }
     },
+    "Trump of the Oliphaunt": {
+      "name": "Trump of the Oliphaunt",
+      "desc (hazard)": "<p>An overwhelming trumpeting sound vibrates and suffuses the area, causing everything to slow.</p>",
+      "disable": "<p>@Check[arcana|dc:38|name:Shore Up the Area] (expert), @Check[maelstrom-lore|dc:38|name:Shore Up the Area] (expert), @Check[occultism|dc:38|name:Shore Up the Area] (master), @Check[religion|dc:38|name:Shore Up the Area] (master) to recognize and shore up the area against the localized planar instability causing a connection to the Oliphaunt of Jandelay. Four successes are needed to strengthen the area enough against the instability to end the hazard.</p>",
+      "reset": "<p>The area becomes unstable again after 24 hours.</p>",
+      "routine": "<p>(1 action) Each creature in the area must attempt a @Check[fortitude|dc:36] save. A creature with the slowed condition from this hazard takes a –2 circumstance penalty on further saves against this effect.</p><hr><p><strong>Critical Success</strong> The creature is unaffected.</p><p><strong>Success</strong> The creature takes @Damage[(2d6+6)[sonic]] damage and is @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened} for 1 round.</p><p><strong>Failure</strong> The creature takes @Damage[(4d6+13)[sonic]] damage and is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} for 2 rounds.</p><p><strong>Critical Failure</strong> The creature takes @Damage[(8d6+26)[sonic]] damage and is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 2} for 2 rounds.</p>",
+      "stealth": "<p>(master) to notice the tension of a low vibration forming in the area from the imminent release of the Oliphaunt's trumpet</p>",
+      "items": {
+        "13cgAF6tdEDdUGZg": {
+          "name": "Bone-Shattering Rhythms",
+          "description": "<p><strong>Trigger</strong> Three or more characters enter the area of planar instability</p><hr /><p><strong>Effect</strong> Pent-up magical energy from another world begins to release in waves of overwhelming sound. The hazard rolls initiative.</p>"
+        }
+      }
+    },
     "Mythic Lich": {
       "name": "Mythic Lich",
       "description": "<p>A mythic lich could be a lich who came into contact with a source of mythic power after their transformation—or one whose transformation was designed to instill mythic power in them. Such rituals might entail using a mythic artifact as a soul cage, slaying a mythic creature, or luring a mythic being into striking the killing blow against the spellcaster. Among adherents of the Whispering Way, it is commonly believed that the Whispering Tyrant tricked the god Aroden into killing him as a mortal so he could siphon some of Aroden's power into creating his soul cage and allowing him to become a mythic lich.</p>",
       "hpdetails": "void healing, rejuvenation",
+      "saves": "+1 status to all saves vs. vitality; mythic resilience (Ref and Will)",
       "items": {
+        "M05pu8jIHs0qEKzP": {
+          "name": "Hand"
+        },
         "Bih7st41Mudf9FWL": {
           "name": "Recharge Spell",
           "description": "<p><strong>Cost</strong> 1 Mythic Point</p><hr /><p>The mythic lich regains one spell.</p>"
@@ -266,8 +357,7 @@
           "description": "<p><strong>Cost</strong> 1 Mythic Point</p><hr /><p><strong>Effect</strong> The mythic lich ends one condition affecting it.</p>"
         },
         "gakDYFEsPKyFUdIg": {
-          "name": "+1 Status to All Saves vs. Vitality",
-          "description": ""
+          "name": "+1 Status to All Saves vs. Vitality"
         },
         "gSG1OZxFHX2zLrNP": {
           "name": "Counterspell",
@@ -286,8 +376,7 @@
           "description": "<p>When a lich is destroyed, its soul immediately transfers to their <em>@UUID[Compendium.pf2e.equipment-srd.Item.NEbr7nKuiluJgBHT]{Lich Soul Cage}</em>. A lich can be permanently destroyed only if their <em>soul cage</em> is found and destroyed.</p>"
         },
         "Jxw7RvEERHGRzycq": {
-          "name": "Void Healing",
-          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>"
+          "name": "Void Healing"
         },
         "m6CbK52GoU471gez": {
           "name": "Drain Soul Cage",
@@ -310,15 +399,28 @@
     "Oliphaunt of Jandelay": {
       "name": "Oliphaunt of Jandelay",
       "description": "<h3>Harbinger of Annihilation</h3><p>The Oliphaunt of Jandelay is drawn to worlds that are hurtling toward imminent annihilation.</p>",
-      "hpdetails": "",
+      "languages": "(can't speak any language)",
+      "saves": "mythic resilience (all saves)",
+      "speeds": "legendary vigor, unfettered movement",
       "items": {
+        "4Jhl2RR490RdwQHK": {
+          "name": "Tusk"
+        },
+        "IHp0ijMt8U8oZOcY": {
+          "name": "Foot"
+        },
+        "J2tE5i0AEs8vrir6": {
+          "name": "Trunk"
+        },
+        "2dPopGUG3ZmSG1cd": {
+          "name": "Debris Toss"
+        },
         "B3zBOwUNfu3bLg2P": {
           "name": "Remove a Condition",
           "description": "<p><strong>Cost</strong> 1 Mythic Point</p><hr /><p><strong>Effect</strong> The Oliphaunt of Jandelay removes any one condition currently affecting it.</p>"
         },
         "vtpTwsmfwcfLp9Eg": {
-          "name": "Regeneration",
-          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Regeneration]</p>"
+          "name": "Regeneration"
         },
         "4vuIn0FH90IAXJZF": {
           "name": "Frightful Presence",
@@ -341,12 +443,11 @@
           "description": "<p>The Oliphaunt of Jandelay gains 3 reactions each round. It can still use only one reaction per trigger.</p>"
         },
         "kBfKLrEg8pYRwhjs": {
-          "name": "Reactive Strike",
-          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ReactiveStrike]</p>"
+          "name": "Reactive Strike"
         },
         "bhysfIDJlRE46p1X": {
           "name": "Undying Myth",
-          "description": "<p><strong>Cost</strong> all the creature's Mythic Points</p>\n<p><strong>Trigger</strong> The creature would die and has at least 1 Mythic Point</p><hr /><p><strong>Effect</strong> When the Oliphaunt of Jandelay would die, as long as it has at least 1 Mythic Point, it immediately expends all remaining Mythic Points it has, remains standing and conscious, and recovers 50% of its maximum Hit Points.</p>"
+          "description": "<p><strong>Cost</strong> all the creature's Mythic Points</p>\n<p><strong>Trigger</strong> The creature would die and has at least 1 Mythic Point</p><hr /><p><strong>Effect</strong> When the Oliphaunt of Jandelay would die, as long as it has at least 1 Mythic Point, it immediately expends all remaining Mythic Points it has, remains standing and conscious, and recovers @Damage[(floor(@actor.system.attributes.hp.max/2))[healing]]{50% of its maximum Hit Points}.</p>"
         },
         "0iTTc5eoCUpSjskp": {
           "name": "Brutal Drag",
@@ -358,7 +459,7 @@
         },
         "SZPK1jhXDeTIsaJD": {
           "name": "Devastating Launch",
-          "description": "<p><strong>Cost</strong> 1 Mythic Point</p><hr /><p><strong>Effect</strong> The Oliphaunt of Jandelay buries its tusks into the ground in a @Template[type:burst|distance:15] centered within 20 feet of it, collecting everything in that area, including any creature currently @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} by its tusk attack, and flinging it all up to 120 feet away. Everything lands in a @Template[type:burst|distance:30], dealing @Damage[12d6[bludgeoning]] damage to each creature in the area (@Check[reflex|dc:51|basic] save). This damage also applies to any creatures, vehicles, or objects the Oliphaunt flung as well. A creature in the area being flung that succeeds or critically succeeds on their Reflex save remains in the square they started in. Anything launched by the Oliphaunt lands in a square in the burst as determined by the GM.</p>"
+          "description": "<p><strong>Cost</strong> 1 Mythic Point</p><hr /><p><strong>Effect</strong> The Oliphaunt of Jandelay buries its tusks into the ground in a @Template[type:burst|distance:15] centered within 20 feet of it, collecting everything in that area, including any creature currently @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} by its tusk attack, and flinging it all up to 120 feet away. Everything lands in a @Template[type:burst|distance:30], dealing @Damage[12d6[bludgeoning]|options:area-damage] damage to each creature in the area (@Check[reflex|dc:51|basic|options:area-effect] save). This damage also applies to any creatures, vehicles, or objects the Oliphaunt flung as well. A creature in the area being flung that succeeds or critically succeeds on their Reflex save remains in the square they started in. Anything launched by the Oliphaunt lands in a square in the burst as determined by the GM.</p>"
         },
         "MGlsEYwduFGAn3fE": {
           "name": "Mythic Power",
@@ -370,7 +471,7 @@
         },
         "Kvj9gEu0opp2KIbx": {
           "name": "Trumpeting Blast",
-          "description": "<p>The Oliphaunt of Jandelay emits a cacophonous blast from its trunk in a @Template[type:cone|distance:120]. Each creature in the area must attempt a @Check[fortitude|dc:49] save. If the Oliphaunt spends 1 Mythic Point as part of the activity, the DC becomes 51 and the damage dice are increased to d12s. The Oliphaunt of Jandelay can't use Trumpeting Blast again for [[/gmr 1d4 #Recharge Trumpeting Blast]]{1d4 rounds}.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes @Damage[7d10[sonic]] damage and is @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened} for 1 round.</p>\n<p><strong>Failure</strong> The creature takes @Damage[14d10[sonic]] damage, is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} for 2 rounds, and is deafened for 2 rounds.</p>\n<p><strong>Critical Failure</strong> The creature takes @Damage[28d10[sonic]] damage, is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 2} for 2 rounds, and is deafened for 4 rounds.</p>"
+          "description": "<p>The Oliphaunt of Jandelay emits a cacophonous blast from its trunk in a @Template[type:cone|distance:120]. Each creature in the area must attempt a @Check[fortitude|dc:49|options:area-effect,damaging-effect,inflicts:deafened,inflicts:slowed] save. If the Oliphaunt spends 1 Mythic Point as part of the activity, the DC becomes 51 and the damage dice are increased to d12s. The Oliphaunt of Jandelay can't use Trumpeting Blast again for [[/gmr 1d4 #Recharge Trumpeting Blast]]{1d4 rounds}.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes @Damage[7d10[sonic]|options:area-damage] damage and is @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened} for 1 round.</p>\n<p><strong>Failure</strong> The creature takes @Damage[14d10[sonic]|options:area-damage] damage, is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} for 2 rounds, and is deafened for 2 rounds.</p>\n<p><strong>Critical Failure</strong> The creature takes @Damage[28d10[sonic]|options:area-damage] damage, is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 2} for 2 rounds, and is deafened for 4 rounds.</p>"
         }
       }
     },
@@ -378,7 +479,19 @@
       "name": "Weaver of Webs",
       "description": "<h3>Herald of the Web</h3><p>Once a servitor of an ancient god of secrets, the Weaver of Webs now seeks to attain her own godhood.</p>",
       "hpdetails": "regeneration 10 (deactivated by bright light)",
+      "languages": "truespeech",
+      "perception": "all-around vision, greater web sense",
+      "saves": "+1 status to all saves vs. magic",
       "items": {
+        "STNb3MjelKgZTBpI": {
+          "name": "Fangs"
+        },
+        "NHPSXIzu0nsTH2vx": {
+          "name": "Tarsal Claw"
+        },
+        "Q5GbqZP2ibD42L0D": {
+          "name": "Web"
+        },
         "N5IBiBCtlhoTJOHN": {
           "name": "Countless Eyes",
           "description": "<p>The Weaver of Webs can see through the eyes of any spider, living or dead, in one of her many lairs. When the Weaver casts her @UUID[Compendium.pf2e.spells-srd.Item.r784cIz17eWujtQj]{Scrying} spell and targets a spider in her lair, the spell is not expended, and the spider automatically critically fails its saving throw.</p>"
@@ -396,12 +509,10 @@
           "description": "<p><strong>Requirements</strong> The Weaver is within 15 feet of a creature @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed} in her nightmare cocoon</p><hr /><p><strong>Effect</strong> The Weaver grabs the paralyzed target, webs them to her back or one of her legs, and then Strides. As long as the creature is @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} by the Weaver's nightmare cocoon, it shares the Weaver's space and moves with her. The DC to [[/act escape dc=36]]{Escape} the nightmare cocoon increases to 36.</p>"
         },
         "vr1193FbzgbslN1N": {
-          "name": "+1 Status to All Saves vs. Magic",
-          "description": ""
+          "name": "+1 Status to All Saves vs. Magic"
         },
         "HBsI0TF2SoQZJFjt": {
-          "name": "Regeneration (Deactivated by Bright Light)",
-          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Regeneration]</p>"
+          "name": "Regeneration (Deactivated by Bright Light)"
         },
         "SD2UsS1GCg4rmAB6": {
           "name": "Adopted Brood",
@@ -433,10 +544,22 @@
       "name": "Verex-That-Was",
       "description": "<h3>A Bloody Spawn of Rovagug</h3><p>Once an orc god, Verex-That-Was has been reshaped into a towering creature of mangled flesh and bone.</p>",
       "hpdetails": "regeneration 30 (deactivated by sloughstone weapons)",
+      "saves": "mythic resilience (all saves)",
       "items": {
+        "rh3d7LdJAYjTZRYM": {
+          "name": "Claw"
+        },
+        "o0CSk2eMpM5SUUaF": {
+          "name": "Jaws"
+        },
+        "90VlEvjgRHXiJg8o": {
+          "name": "Tail"
+        },
+        "qASNHKaPm9S4XmC7": {
+          "name": "Teeth"
+        },
         "GXv0fK0nlpiW9eRS": {
-          "name": "Regeneration (Deactivated by Sloughstone Weapons)",
-          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Regeneration]</p>"
+          "name": "Regeneration (Deactivated by Sloughstone Weapons)"
         },
         "dGKajIVY53lSwxaH": {
           "name": "Frightful Presence",
@@ -452,7 +575,7 @@
         },
         "1odL3qIXeArH9g8O": {
           "name": "Undying Myth",
-          "description": "<p><strong>Cost</strong> all the creature's Mythic Points</p>\n<p><strong>Trigger</strong> Verex-That-Was would die and has at least 1 Mythic Point</p><hr /><p><strong>Effect</strong> Verex remains standing and conscious, and recovers 50% of his maximum Hit Points.</p>"
+          "description": "<p><strong>Cost</strong> all the creature's Mythic Points</p>\n<p><strong>Trigger</strong> Verex-That-Was would die and has at least 1 Mythic Point</p><hr /><p><strong>Effect</strong> Verex remains standing and conscious, and @Damage[(floor(@actor.system.attributes.hp.max/2))[healing]]{50% of its maximum Hit Points}.</p>"
         },
         "OuHFKcjzJlzQTflP": {
           "name": "Battlefield Eruption",
@@ -480,11 +603,37 @@
         }
       }
     },
+    "Wind Surge": {
+      "name": "Wind Surge",
+      "desc (hazard)": "<p>Hurricane-force winds rip through the area as Agyra flies past.</p>",
+      "disable": "<p>@Check[athletics|dc:27|name:Crouch and Contort] (expert) or @Check[acrobatics|dc:27|name:Crouch and Contort] (expert) to crouch and contort out of the wind's way (disables the hazard for only yourself), @Check[survival|dc:30|name:Point Out a Safe Space] to point out a safe space from the winds for up to 3 creatures.</p>",
+      "stealth": "<p>(expert) to note stirrings in the wind</p>",
+      "items": {
+        "En76ig0d6noawf3J": {
+          "name": "Hurricane Flyby",
+          "description": "<p><strong>Trigger</strong> Agyra flies overhead for at least 120 feet in a straight line</p><hr /><p><strong>Effect</strong> Supernaturally powerful winds batter the area in a line that is @Template[line|distance:120|width:30]{120 feet long and 30 feet wide and 30 feet tall}. Each creature in the line must attempt a @Check[reflex|dc:29] save. Moving above ground against the direction of the line is greater difficult terrain for 1 minute.</p><hr /><p><strong>Critical Success</strong> The creature is pushed 10 feet along the line.</p>\n<p><strong>Success</strong> The creature takes @Damage[5d6[bludgeoning]] damage and is pushed 15 along the line.</p>\n<p><strong>Failure</strong> The creatures takes @Damage[10d6[bludgeoning]] damage, is pushed 30 feet along the line, and is knocked @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p>\n<p><strong>Critical Failure</strong> The creature takes @Damage[20d6[bludgeoning]] damage, is pushed 45 feet along the line, is knocked prone, and is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1} for 1 round.</p>\n<p>If the line overlaps a body of water, the winds cause massive waves that deal @Damage[6d6[bludgeoning]] damage to creatures in the water or within 15 feet of the waterline (@Check[reflex|dc:29|basic] save). On a critical failure, a creature is also swept 30 feet away from the waterline and 15 feet beneath the water's surface.</p>"
+        }
+      }
+    },
     "Agyra": {
       "name": "Agyra",
       "description": "<h3>The Forever Storm</h3><p>Agyra is a massive kaiju who protects Spinescar Island and its inhabitants.</p>",
-      "hpdetails": "",
+      "languages": "(can't speak any language)",
+      "perception": "stormsight",
+      "saves": "mythic resilience (Fort and Ref)",
       "items": {
+        "Y7AJ4eWSGKUcPBbp": {
+          "name": "Talon"
+        },
+        "O7Y8m2HEl1XatWW8": {
+          "name": "Jaws"
+        },
+        "des3C0uRIBkg98Gt": {
+          "name": "Tail"
+        },
+        "3yVevLb8KUTnEyOi": {
+          "name": "Spike"
+        },
         "do4wjbcTNPYd9aN3": {
           "name": "Remove a Condition",
           "description": "<p><strong>Cost</strong> 1 Mythic Point</p><hr /><p><strong>Effect</strong> Agyra removes any one condition currently affecting her.</p>"
@@ -494,8 +643,7 @@
           "description": "<p>Wind, precipitation, and clouds don't impair Agyra's vision; she ignores the @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} condition from storms, mist, precipitation, and the like.</p>"
         },
         "0Dkm3fkoph5mYGDZ": {
-          "name": "Regeneration",
-          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Regeneration]</p>"
+          "name": "Regeneration"
         },
         "nqaKv0W54jagF4tQ": {
           "name": "Electrified Rebirth",
@@ -542,8 +690,16 @@
     "Mythic Griffon": {
       "name": "Mythic Griffon",
       "description": "<p>Griffons are regal beasts revered as symbols of freedom and strength in many cultures. They are physically striking, with the hindquarters of a lion and the head, wings, and forelimbs of a great bird of prey—typically an eagle, but some instead bear the features of a hawk, falcon, or even an osprey or vulture. In rare cases, the griffon's hindquarters may resemble those of a different great cat, such as a leopard or tiger. The variations seem to conform to the griffon's environment—for instance, especially rare griffons of northern Avistan have the hindquarters of a Grungir lynx and the upper body of a snowy owl.</p>\n<p>Wild griffons rely on their powerful wings to hold them aloft and their keen eyesight to spy out prey. The speed with which they plunge toward the ground and snatch up victims is astonishing. They often tear apart a kill's flesh with razor-sharp beaks but not before alighting to secluded location where they can enjoy their meal without interruption. Griffons hunting to feed their chicks are more cautious, tearing apart prey rather than risking bringing a living creature back to their nests.</p>\n<p>Skilled animal trainers long ago learned how to raise griffons as mounts for military forces or powerful individuals. Such mounts are known for their strength, bravery, and unfailing loyalty. They are among the smartest of animals, and many griffon variants are considered intelligent beasts instead; it's thought that a griffon chooses its rider as much as a rider chooses the griffon. The process of training a griffon to accept and carry a rider in flight is a long and expensive ordeal. Griffon trainers charge rich sums for their services, and a ruler who can boast of owning a stable of griffons is the subject of great respect and envy.</p>",
-      "hpdetails": "",
       "items": {
+        "oN5KE37Rg66tMPMp": {
+          "name": "Beak"
+        },
+        "hTNAzHRu1qlREBai": {
+          "name": "Talon"
+        },
+        "r9cb3wi4i5kmkIVZ": {
+          "name": "Wing"
+        },
         "KW0x3Cl4mTqJiDHP": {
           "name": "Deadly Striker",
           "description": "<p>A mythic striker deals an additional 1d6 precision damage on its next Strike whenever it uses an action to Stride 10 or more feet (or to Burrow, Climb, or Fly 10 or more feet).</p>"
@@ -558,7 +714,7 @@
         },
         "dbNX6N5owjlagLLT": {
           "name": "Mythic Skill (Acrobatics)",
-          "description": "<p><strong>Cost</strong> 1 Mythic Point</p><hr /><p><strong>Effect</strong> The Mythic Griffon attempts its next Acrobatics skill check with a +4 bonus and is considered to have mythic proficiency for that check. This applies to one skill when this ability is gained and a second skill if the creature is 12th level or higher.</p>"
+          "description": "<p><strong>Cost</strong> 1 Mythic Point</p><hr /><p><strong>Effect</strong> The Mythic Griffon attempts its next Acrobatics skill check with a +4 bonus and is considered to have mythic proficiency for that check.</p>"
         },
         "OAt8guQQNXMQRYHW": {
           "name": "Pounce",
@@ -576,7 +732,6 @@
     }
   },
   "mapping": {
-    "name": "name",
     "description": "system.details.publicNotes",
     "gm": "system.details.privateNotes",
     "blurb": "system.details.blurb",
@@ -586,7 +741,7 @@
     "perception": "system.perception.details",
     "saves": "system.attributes.allSaves.value",
     "speeds": "system.attributes.speed.details",
-    "desc": "system.details.description",
+    "desc (hazard)": "system.details.description",
     "disable": "system.details.disable",
     "reset": "system.details.reset",
     "routine": "system.details.routine",

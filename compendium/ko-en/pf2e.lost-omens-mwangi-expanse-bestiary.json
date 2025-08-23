@@ -1,0 +1,859 @@
+{
+  "label": "pf2e.lost-omens-mwangi-expanse-bestiary",
+  "entries": {
+    "Rompo": {
+      "name": "롬포 (Rompo)",
+      "description": "<p>롬포는 시체를 먹는 특이한 생물입니다. 그들은 뼈만 남은 듯한 얇은 몸에 곰의 뒷다리와 같은 강한 뒷다리, 너구리의 앞다리와 같은 앞다리, 토끼의 머리와 인간형 귀를 가지고 있습니다. 롬포는 혼자 있을 때는 소심하며, 다른 생물을 피하고 큰 동물 앞에서 보통 도망칩니다. 다른 야수보다 지능이 높지 않지만, 극도의 경계심을 보여 함정이나 매복을 피하는 데 놀라운 직감을 발휘합니다. 위험이 감지되면 큰 소리를 내어 도망갈 공간을 확보한 후, 몸의 자연스러운 색상 변화 털을 이용해 위장합니다.</p>\n<p>롬포는 포식자로서 완벽한 신체적 특징을 갖추고 있지만, 주로 혼자서 사체의 잔해를 먹는 독거성 청소동물로 살아갑니다. 롬포는 사냥 과정에서 부상을 입을 위험이 있기 때문에 스스로 사냥을 피하는 경향이 있습니다. 다른 포식자를 수 시간 동안 따라다니며 사냥의 잔해를 먹기 위해 기회를 노리는 것은 드문 일이 아닙니다.</p>\n<p>로모스가 식사에 접근하면, 주변이 안전하다는 것을 확인하기 위해 시체 주변을 몇 분간 돌며 순찰합니다. 식사를 시작할 때, 다른 생물들이 멀리 떨어지도록 유인하는 신비로운 울음소리를 내며, 이 소리는 다른 생물들을 매료시켜 로모스가 평화롭게 식사할 수 있도록 합니다. 부패한 고기를 지속적으로 섭취하기 때문에, 로모스의 입은 부패물, 기생충, 그리고 치명적인 병원체로 가득 차 있습니다. 그 물기는 이 모든 감염을 결합한 위험한 질병인 '롬포 추위'를 전파합니다. 이 질병은 피해자가 통제할 수 없이 떨기 시작하며, 처음에는 가볍게 시작되지만 결국 격렬한 경련으로 발전해 피해자의 죽음으로 이어집니다. 조심스러운 성향에도 불구하고, 롬포는 자신이 롬포 칠로 감염시킨 생물 근처에 항상 머무르는 듯합니다. 피해자가 살아있을 때는 보이지 않지만, 피해자가 결국 사망하면 시체를 먹기 위해 나타납니다.</p>",
+      "items": {
+        "tJTwWiHQordmLTR4": {
+          "name": "턱 (Jaws)"
+        },
+        "IHVmUejGVzUcWtIG": {
+          "name": "발톱 (Claws)"
+        },
+        "5ijBHOJkiKaEC6s2": {
+          "name": "위장 (Camouflage)",
+          "description": "<p>롬포는 주변 환경과 색상을 맞출 수 있습니다. 은신 체크를 시도할 때 은폐물이 필요 없습니다.</p>"
+        },
+        "1miPsRSIcintuJOE": {
+          "name": "Crooning Cry",
+          "description": "<p>60 피트. 롬포는 낮은 목소리로 콧노래를 부릅니다. 발산 범위 내의 모든 생물은 @Check[will|dc:19] 내성 검사에 성공하지 못하면 @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{매료됨} 상태가 되어 롬포로부터 멀어지도록 강제되며, 발산 범위의 가장 먼 가장자리로 이동합니다. 매료된 생물은 또한 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 됩니다.</p>\n<p>이 효과는 1 라운드 동안 지속되지만, 롬포가 후속 라운드에서 단일 행동을 사용하면 영향을 받은 모든 생물의 지속 시간을 1 라운드 연장할 수 있습니다. 롬포가 공격하면 매료된 상태는 공격받은 생물에게만 종료됩니다.</p>\n<p>성공적인 내성 검사에는 24시간 동안 Crooning Cry에 일시적으로 면역됩니다.</p>"
+        },
+        "xBis9ZRZVsgcF0Ns": {
+          "name": "Rompo Chills",
+          "description": "<p>Rompo Chills의 영향을 받는 동안 대상은 병든 상태를 줄일 수 없습니다.</p>\n<p><strong>내성 굴림</strong> @Check[fortitude|dc:19]</p>\n<p><strong>Onset</strong> 1 day</p>\n<hr />\n<p><strong>Stage 1</strong> @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1} (1일)</p>\n<p><strong>단계 2</strong>서투른 1과 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{구토감 1} (1일)</p>\n<p><strong>단계 3</strong> @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 2} 및 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 2} (1 day)</p>\n<p><strong>Stage 4</strong> @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious} (1 day)</p>\n<p><strong>Stage 5</strong> dead</p>"
+        }
+      }
+    },
+    "Crystal Xorn": {
+      "name": "크리스탈 조른 (Crystal Xorn)",
+      "description": "<p>이 뚱뚱하고 둥근 원소체들은 세 다리, 세 팔, 세 눈, 그리고 거대한 입을 가지고 있으며, 이 입으로 그들이 맛있다고 생각하는 보석과 금속을 가득 채웁니다.</p>\n<hr />\n<p>땅의 원소체는 모험적인 동굴 탐험가들의 훌륭한 경호원으로 적합하며, 금고나 보물창고와 같은 중요한 지하 장소의 보호자로도 이상적입니다.</p>",
+      "cadetails": "전방위 시야",
+      "speeds": "땅 미끄러짐",
+      "items": {
+        "1P2Kly3ELf2X8jdv": {
+          "name": "턱 (Jaw)"
+        },
+        "Ho2TRxPdMdaTfr2V": {
+          "name": "발톱 (Claw)"
+        },
+        "hbdeUFe3D16BSKa0": {
+          "name": "진동 감지 (불확실) 60 피트 (Tremorsense (Imprecise) 60 feet)"
+        },
+        "VWI6L5E7GsAtSrfF": {
+          "name": "전방위 시야 (All-Around Vision)"
+        },
+        "jvmfyWcZp1aZiZqS": {
+          "name": "발톱 광란 (Claw Frenzy)",
+          "description": "<p> 조른은 세 번의 발톱 공격을 수행합니다. 동일한 대상에 대해 두 번 이상 공격할 수 없습니다.\n 이 공격은 조른의 다중 공격 페널티에 포함되지만, 모든 공격이 완료될 때까지 페널티는 증가하지 않습니다.</p>"
+        },
+        "yDgga876ek5etpwA": {
+          "name": "크리스탈 부패 (Crystal Corruption)",
+          "description": "<p>이 상태 이상으로 인한 병들음, 느려짐, 마비 상태는 이 상태 이상이 제거될 때까지 제거될 수 없습니다.</p>\n<p>크리스탈 부패에 영향을 받은 생물은 서서히 크리스탈로 변해 결국 화석화됩니다. 땅과 원소 속성을 모두 가진 생물은 대신 운반체가 되며, 소닉 공격에 대한 취약성 외에는 다른 부정적 효과를 받지 않습니다.</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:22]</p><hr /><p><strong>단계 1</strong> @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1} (1시간)</p>\n<p><strong>단계 2</strong> 취약 5 (음파) 및 병약 1 (1일)</p>\n<p><strong>단계 3</strong> 취약 5 소닉 및 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1} (1일)</p>\n<p><strong>단계 4</strong> 취약 10 소닉 및 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비} (1일)</p>\n<p><strong>단계 5</strong> 취약 10 소닉이며, 생물은 영구적으로 @UUID[Compendium.pf2e.conditionitems.Item.dTwPJuKgBQCMxixg]{화석화}됩니다.</p>"
+        },
+        "ypKdaBzYAIDgW2KT": {
+          "name": "땅 미끄러짐 (Earth Glide)",
+          "description": "<p>조른은 바위를 포함한 모든 땅 물질 속으로 파고들 수 있습니다. 이 때 조른은 파고드는 속도로 이동하며, 터널이나 흔적을 남기지 않습니다.</p>"
+        },
+        "xmfPKEjapaeysAHV": {
+          "name": "Geology Lore"
+        }
+      }
+    },
+    "Asanbosam": {
+      "name": "Asanbosam",
+      "description": "<p>Asanbosams are monstrous, 털이 많은 인간형 생물로, 차가운 철 이빨과 근육질의 사지가 강력한 갈고리 발톱으로 끝납니다. 그들은 갈고리 발로 나무 꼭대기에 매달려 아래를 지나가는 생물을 기다립니다. 아산보삼은 위에서 먹이를 잡아서 불쌍한 희생자의 목에 달라붙어 피를 흡수합니다. 그들은 침입을 감지하면 공격적으로 반응하며, 높은 가지에서 방문자를 추적합니다. 현지인들은 이 '피를 빨아먹는 나무 인간'에 대한 공포 이야기를 전하며, 경험 많은 탐험가들은 아산보삼의 영토 내 나무 꼭대기를 주의 깊게 감시합니다. 확장 지역을 방문하는 사람들은 아산보삼을 흡혈귀와 비교하지만, 이 공포의 존재들은 언데드가 아니며 어떤 관계도 없습니다.</p>\n<p>아산보삼의 식단은 거대한 차가운 철 이빨의 강도를 유지하기 위해 대량의 철분(주로 피의 형태)을 필요로 합니다. 사냥이나 번식 외의 시간에는 특정 종류의 바위를 씹어 이빨을 갈아댑니다.</p>\n<p>일부 민담에 따르면 아산보삼은 시간과 함께 태어난 존재로, 차가운 철의 원천이며, 땅에 있는 금속의 정맥은 실제로 고대 아산보삼의 무덤이라고 합니다. 용감한(또는 어리석은) 밀렵꾼들은 아산보삼의 영토에 침투해 이 괴물을 사냥해 귀중한 이빨을 모으려는 희망으로 활동합니다.</p>",
+      "items": {
+        "aMonCZ2HbKmRMGa4": {
+          "name": "차가운 철 이빨 (Cold Iron Jaws)"
+        },
+        "zK0CLdcqjHeldCOi": {
+          "name": "발톱 (Claw)"
+        },
+        "Ow5XxjlhLQfaOHU4": {
+          "name": "위에서 공격 (Attack from Above)",
+          "description": "<p><strong>요구 사항</strong> 아산보삼은 생물체 위에 위치해 있어야 합니다</p>\n<hr />\n<p><strong>효과</strong> 아산보삼은 도달 범위가 15피트로 증가된 발톱 공격을 수행합니다. 공격이 적중하면 해당 공격은 추가로 @Damage[1d6[slashing]]의 피해를 입히고, 아산보삼은 즉시 목표를 잡아서 자신과 인접한 공간으로 끌어당깁니다.</p>\n<p>이 공격은 아산보삼의 다중 공격 페널티에 두 번의 공격으로 계산됩니다.</p>"
+        },
+        "LGocfA4bhbnXFwea": {
+          "name": "Drink Blood",
+          "description": "<p><strong>Requirements</strong> A @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{잡힌}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비된}, @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{제압된}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 잃은} 또는 의지대로 움직일 수 없는 생물이 아산보삼의 이빨 범위 내에 있을 때</p>\n<hr />\n<p><strong>효과</strong> 아산보삼은 생물의 피를 마시기 위해 이빨을 박아 넣습니다. 피해자가 잡혀 있다면 이는 자동으로 발생하며, 그렇지 않은 경우 아산보삼은 피해자의 체력 저항력 DC에 대한 @Check[athletics|defense:fortitude] 체크에 성공해야 합니다. 피해자는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{체력 1 흡수} 상태가 되고, 아산보삼은 @Damage[10[healing]] HP를 회복하며, 최대 체력 초과분은 임시 체력으로 얻습니다. 이 임시 체력은 1분 동안 유지됩니다.</p>\n<p>이미 흡수된 생물로부터 피를 마시면 피해자의 흡수 값이 1 증가하며 최대 흡수 3까지 증가하지만, 아산보삼의 체력은 회복되지 않습니다.</p>\n<p>피해자의 흡혈 상태는 매주 1씩 감소합니다. 혈액 수혈은 성공적인 @Check[medicine|dc:20|name:Drink Blood Treatment] 체크 및 혈액 기부자나 충분한 혈액이 필요하며, 10분 후에 흡혈 값을 1 감소시킵니다.</p>"
+        },
+        "my79TeHUaRiixNX5": {
+          "name": "잡기 (Grab)"
+        }
+      }
+    },
+    "Charau-ka Acolyte of Angazhan": {
+      "name": "차라우-카 안가잔의 제자 (Charau-ka Acolyte of Angazhan)",
+      "description": "<p>고릴라 왕의 멸망에도 불구하고, 많은 차라우-카들은 여전히 신 안가잔의 끔찍한 힘을 숭배하고 있다. 이 아콜라이트들 중 가장 강력한 이들은 우사로의 고위 왕좌 계단을 지키며, 안가잔의 은총이나 적절한 신체적 능력을 갖추지 못한 자들이 거대한 돌 계단 피라미드의 정상에 접근하지 못하도록 막고 있습니다.</p>\n<hr />\n<p>전설에 따르면 차라우-카는 악마 군주 안가잔과 혈통을 공유한다고 합니다. 안가잔은 자신의 종교에 반란을 일으킨 인간의 시체를 변형시켜 만드릴 같은 인간형 생물로 부활시켰다고 전해집니다. 오랫동안 증명되지 않았지만, 차라우-카 사제들이 이 고대 전설을 기리기 위해 죽은 자들을 새로운 차라우-카로 환생시키는 끔찍한 의식을 완성했다는 소문이 계속되고 있습니다. 다른 전설에 따르면, 안가잔에게 헌정된 강력한 제단에는 이 힘이 담겨 있으며, 이 마법적인 유물 앞에서 제사 의식을 진행하면 죽은 자들의 영혼이 안가잔의 폭력적인 신도로 부활해 야만과 파괴를 즐기는 자들의 주인으로 돌아온다고 합니다.</p>\n<p>Mwangi Expanse에서 가장 큰 차라우카의 요새는 Ocota 호수 기슭에 위치한 Usaro 도시입니다. 고릴라 왕의 죽음으로 정치적 혼란이 일고 있지만, 차라우카는 이 지역의 모든 외부인을 납치하거나 살해하기 위해 기꺼이 단결할 것입니다.</p>",
+      "items": {
+        "GnPGkfl05VUeslvu": {
+          "name": "주먹 (Fist)"
+        },
+        "pkpGTujeKMf8YVxr": {
+          "name": "창 (Spear)"
+        },
+        "lADE1ey6PWQIbwr9": {
+          "name": "창 (Spear)"
+        },
+        "Aiel3i6qUCQzsBGi": {
+          "name": "투척 잔해 (Thrown Debris)"
+        },
+        "460N6IY9mz7Q5PMC": {
+          "name": "비명 지르는 광란 (Shrieking Frenzy)",
+          "description": "<p><strong>트리거</strong> 차라우-카의 차례가 시작됩니다.</p>\n<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p><strong>Effect</strong> 차라우-카는 @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{가속} 상태가 되며, 자신의 턴이 끝날 때까지 추가 행동으로 Stride 또는 공격할 수 있습니다.</p>\n<p>분노 상태에 있을 때, 차라우-카는 말할 수 없으며, 큰 울부짖음으로 인해 은신 체크에서 자동으로 대실패를 합니다.</p>"
+        },
+        "X52vV6cMtvVUfWAc": {
+          "name": "투척 무기 숙련 (Thrown Weapon Mastery)",
+          "description": "<p>차라우-카가 투척하는 모든 무기는 치명적인 d6 무기 특성을 얻습니다.</p>\n<p>또한, 차라우-카가 즉흥 무기를 던질 때 -2 페널티를 받지 않으며, 비치명적 특성을 가진 던진 즉흥 무기로 치명적 공격을 할 때도 페널티를 받지 않습니다.</p>"
+        }
+      }
+    },
+    "Pygmy Kaava": {
+      "name": "피그미 카바 (Pygmy Kaava)",
+      "description": "<p>카바 땅에 사는 카바 중 이례적으로 많은 수가 상대적으로 작으며, 약 3피트 높이에 약 30파운드의 체중을 가집니다. 피그미 카바는 더 큰 카바에 대한 경멸을 공개적으로 드러내며, 두 그룹은 거의 어울리지 않습니다. 피그미 카바는 훈련된 부시 비퍼나 블랙 마amba 뱀과 함께 사냥을 자주 합니다.</p>\n<hr />\n<p>카바는 짧은 깃털을 가진 정글에 사는 인간형 생물로, 멀리서 보면 털로 착각하기 쉽습니다. 이 깃털 아래에는 단단한 비늘이 있으며, 비늘과 깃털 모두 변색이 가능해 카멜레온처럼 주변 식물에 녹아들 수 있습니다.</p>",
+      "items": {
+        "7yIPG39mqoZpedtr": {
+          "name": "낫 (Sickle)"
+        },
+        "daC4rWyDfi9sD0eo": {
+          "name": "이빨 (Jaws)"
+        },
+        "MLiG1Vy1bvBLQC2p": {
+          "name": "창 (Spear)"
+        },
+        "pVcoUSO9BTdrR2o1": {
+          "name": "흔적 없음 (Trackless)",
+          "description": "<p>카바는 이동 속도의 절반 이하로 이동할 때 발자국을 거의 남기지 않을 정도로 가볍게 움직입니다. 카바를 추적하는 체크 DC는 10씩 증가합니다.</p>"
+        },
+        "bNWcouqx6SH8uAxF": {
+          "name": "숲길 걸음 (Woodland Stride)",
+          "description": "<p>카바는 마법이 아닌 식물에서 발생하는 어려운 지형과 더 어려운 지형을 무시합니다.</p>"
+        }
+      },
+      "StealthVariants": {
+        "0": {
+          "label": "숲이나 정글에서"
+        }
+      }
+    },
+    "Anadi Sage": {
+      "name": "아나디 현자 (Anadi Sage)",
+      "description": "<p>아나디 현자들은 자연과 교감하며 연습을 통해 마법을 연마합니다.</p>\n<hr />\n<p>아나디는 숲, 정글, 기타 야생의 미개척 지역 깊숙이 사는 평화롭고 은둔적인 인간형 생물입니다. 그들의 자연 형태는 다양한 색상의 아름다운 독특한 무늬로 덮인 인간형 거미와 유사합니다. 이 무늬는 다른 인간형 생물의 얼굴 특징, 선천적 표시, 기타 식별 요소와 마찬가지로 유일무이합니다.</p>\n<p>아나디스는 환상과 변환의 천부적인 재능을 지니고 있습니다. 그들은 오래 전부터 자신의 자연스러운 형태가 다른 인간형 생물에게 얼마나 거부감을 주는지 깨달았기 때문에, 자주 이 재능을 활용해 인간 형태를 취합니다. 그들이 인간 형태를 취할 때, 어두운 눈동자에 이상하면서도 아름다운 광채와 의도적인 움직임이 느린 제스처만이 아나디가 완전히 보이는 대로가 아니라는 것을 암시할 수 있습니다. 다른 인간형 생물들의 거미에 대한 민감한 감정을 잘 알고 있으며 배려하는 아나디들은 낯선 이에게 자연스러운 형태를 드러내는 것을 무례로 여깁니다. 대신, 대부분은 위협을 받을 때만 위협 수단으로 거미 같은 형태를 드러내거나, 신뢰하는 이들에게만 사생활에서 보여줍니다.</p>\n<p>대부분의 아나디는 수줍어하며, 버섯을 채집하고 아름다운 무늬의 실크 천을 짜는 조용한 삶을 추구합니다. 전투에 강제로 휘말릴 경우-대부분의 아나디가 혐오하는 상황-그들은 가능한 한 빨리 하이브리드 형태로 변신해 적에게 치명적인 자연 맹독을 퍼부을 수 있습니다.</p>",
+      "items": {
+        "ln0iflmlLphhU2dF": {
+          "name": "단검 (Shortsword)"
+        },
+        "gKhylYG9Kf6mCVUE": {
+          "name": "이빨 (Fangs)"
+        },
+        "XhoGkdNs2eBgo5bM": {
+          "name": "아나디 맹독 (Anadi Venom)",
+          "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:19]</p>\n<p><strong>Maximum Duration</strong> 4 rounds</p>\n<p><strong>단계 1</strong> @Damage[1d6[poison]] 피해와 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} (1 라운드)</p>\n<p><strong>단계 2</strong> @Damage[1d6[poison]] 피해, 오프 가드, 및 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1} (1 라운드)</p>"
+        },
+        "gETps6KlWUO9BOyL": {
+          "name": "형태 변경 (Change Shape)",
+          "description": "<p>아나디는 하이브리드 형태, 거미 형태, 또는 인간 형태로 변신합니다. 위 통계는 아나디가 하이브리드 형태일 때를 가정합니다. 인간 형태일 때, 아나디 사제는 이빨 공격을 사용할 수 없으며 등반 속도를 잃습니다. 거미 형태일 때, 무기를 사용할 수 없습니다.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
+        },
+        "gBLSXznhLW43fqlS": {
+          "name": "Spin Silk",
+          "description": "<p>아나디는 몇 분 동안 실크를 생산하여 천으로 된 물건을 만들 수 있습니다. 단일 아나디는 하루 동안 단일 의상을 만들 수 있는 충분한 실크를 생산할 수 있습니다.</p>"
+        }
+      },
+      "AthleticsVariants": {
+        "0": {
+          "label": "하이브리드 또는 거미 형태로 기어오르기"
+        }
+      },
+      "CraftingVariants": {
+        "0": {
+          "label": "직조"
+        }
+      }
+    },
+    "Aigamuxa": {
+      "name": "아이가무샤 (Aigamuxa)",
+      "description": "<p>아이가무샤는 사막을 배회하며 먹이를 찾는 거대한 인간형 생물입니다. 육식성으로 탐욕스러운 이들은 움직이는 모든 것을 사냥하지만, 특히 지능을 가진 생물을 먹이로 삼는 것을 즐깁니다. 많은 Mwangi 사람들은 Aigamuxas를 악마라고 잘못 부르지만, 다른 이들은 그들이 거인에서 진화했다고 더 정확히 설명합니다. Aigamuxas는 눈이 있어야 할 자리에 매끄러운 구멍이 있는 큰 인간과 유사하지만, 그들의 눈은 실제로 발바닥에 박혀 있습니다. 그들은 사냥감을 잡은 후 찢어먹기 위해 긴 날카로운 발톱과 이빨을 사용합니다. 움직이는 아이가무샤의 특이한 걸음걸이는 일반적인 걸음이나 달리기보다 춤을 추는 것처럼 보이지만, 그 속도는 놀랍도록 빠르며, 멀리서 정확히 측정하기 어렵습니다.</p>\n<p>아이가무샤의 독특한 생리 구조로 인해 사냥이 어렵기 때문에 대부분의 아이가무샤는 항상 배가 고프다. 사냥을 할 때 아이가무샤는 방향을 잡기 위해 가끔 발을 들어야 한다. 대부분의 아이가무샤는 주변을 둘러보며 손으로 서서, 즉시 뒤로 뒤집어 달리기로 전환할 수 있다. 아이가무샤의 눈은 고향 사막의 모래에 일반적으로 저항력이 있지만, 고추나 칼트롭스와 같은 자극물은 사냥 능력을 심각하게 저해할 수 있습니다. 사막 여행자들은 아이가무샤를 상대하기 위해 이러한 물질을 담은 가방을 소지하는 경우가 많습니다.</p>\n<p>지능적인 아가무샤는 방황하는 먹이를 공격하는 것이 매우 위험하다는 것을 알고 있습니다. 대신 강력한 손으로 모래 언덕이나 흙에 깊이 파고들어 지나가는 이들을 습격하기 위해 기다립니다. 아가무샤는 고향 환경에서 숨는 데 특히 능숙하며, 불운한 여행자들은 아가무샤의 거의 보이지 않는 눈을 너무 늦게까지 알아차리지 못합니다.</p>",
+      "items": {
+        "qCRYzxalKMvt2eOZ": {
+          "name": "Claw"
+        },
+        "kPGbuie2boUJmwwM": {
+          "name": "Jaws"
+        },
+        "AAqmK3Yvg7ChGpRl": {
+          "name": "Limited Vision",
+          "description": "<p>아이가무샤의 눈은 발바닥에 위치해 있어 시야가 제한됩니다. 아이가무샤는 일반적으로 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{시각 장애가 있습니다}. 만약 그들이 @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{탐색}을 하면, 자신의 턴이 끝날 때까지 정상적으로 볼 수 있습니다.</p>"
+        },
+        "5ptRIaj3SWZbrDDO": {
+          "name": "약한 발 (Weak Feet)",
+          "description": "<p>\naigamuxa가 위험한 지형이나 유사한 지면 위험이 있는 칸(예: 칼트롭)에 들어서거나 걸어 들어가는 것으로 인해 피해를 입으면, 다음 턴이 끝날 때까지 탐색을 할 수 없습니다.</p>"
+        },
+        "mBWCH69hMveboorN": {
+          "name": "땅속에 숨은 매복 (Burrowed Ambush)",
+          "description": "<p><strong>요건</strong> 아이가무샤는 @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{숨어 있음} 상태로 흙, 모래, 또는 다른 부드러운 표면에 숨어 있습니다.</p>\n<hr />\n<p><strong>효과</strong> 아이가무샤는 도달 범위 내의 생물에게 발톱 공격을 가합니다. 공격이 성공하면 아이가무샤는 자동으로 생물을 잡습니다. 공격이 성공했든 아니든, 아이가무샤는 그 다음에 이동합니다. 잡은 생물이 있는 경우, 그 생물은 아이가무샤와 함께 이동합니다.</p>"
+        },
+        "FH4V8Xw43HQPNctv": {
+          "name": "땅파기 은폐 (Burrowing Concealment)",
+          "description": "<p><strong>\n요구 조건</strong> 아이가무샤는 흙, 모래, 또는 다른 부드러운 표면에 서 있습니다</p>\n<hr />\n<p><strong>효과</strong> aigamuxa는 표면에 빠르게 파고들어 @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{숨는다}. 발을 부분적으로 노출시켜 표면 밖을 볼 수 있습니다. 이 방식으로 숨을 참을 수 있는 시간은 최대 10분입니다.</p>"
+        },
+        "2rc7rftQQ1MLECXG": {
+          "name": "통째로 삼키기 (Swallow Whole)",
+          "description": "<p>작은, @Damage[(2d12+4)[bludgeoning]] 피해, 파열 22</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
+        },
+        "NWWUgiN78Gu0F9Wh": {
+          "name": "Grab"
+        }
+      },
+      "StealthVariants": {
+        "0": {
+          "label": "in deserts"
+        }
+      }
+    },
+    "Grootslang": {
+      "name": "Grootslang",
+      "description": "<p>처음 보면 그루트스랑을 코끼리로 착각하기 쉽지만, 몸의 나머지 부분이 드러나면 이 생물은 건물 하나를 삼킬 수 있을 만큼 큰 뱀에 의해 내부에서 인형처럼 조종되는 기괴한 인형과 닮아 있습니다. 그루트스랑은 20피트 높이에 갑옷 같은 피부와 거대한 두 개의 앞다리를 가지고 있습니다. 그 몸에는 살과 뼈를 쉽게 뚫을 수 있는 여섯 개의 치명적인 이빨이 있습니다. 몸의 나머지 부분은 최대 60피트까지 뻗어 있습니다. 그루트슬랑의 얼굴은 코끼리와 유사하지만, 뱀과 같은 친척들처럼 아래턱을 분리해 먹이를 삼킬 수 있습니다.</p>\n<p>그루트슬랑을 만난 사람은 이 짐승과 협상하거나 뇌물을 주어 위험에서 벗어날 가능성이 있습니다. 그러나 보석의 산더미도 안전을 보장하지 않으며, 특히 잔인한 그루트슬랑은 제물을 받은 후에도 약속을 어길 가능성이 높습니다.</p>",
+      "items": {
+        "NvzyHxVeGqojn5EK": {
+          "name": "발 (Foot)"
+        },
+        "hhn6WCOoaWnJvopl": {
+          "name": "이빨 (Jaws)"
+        },
+        "igxLTKJFu59021Eh": {
+          "name": "꼬리 (Tail)"
+        },
+        "vLKTy929m3lP4HBw": {
+          "name": "이빨 (Tusk)"
+        },
+        "jAQWygxVNJjiKzIK": {
+          "name": "깊은 숨 (Deep Breath)",
+          "description": "<p>그루트스랑은 숨을 1시간 동안 참을 수 있습니다.</p>"
+        },
+        "Wape36Br9FSgTS2H": {
+          "name": "기회 공격 (Attack of Opportunity)"
+        },
+        "sCqDHZfsQ6odPwEq": {
+          "name": "수중 회피 (Aquatic Elusion)",
+          "description": "<p><strong>요구 조건</strong> 그루트슬랑은 물에 완전히 잠겨 있어야 합니다</p>\n<hr />\n<p><strong>효과</strong> 그루트슬랑은 1마일 이내에 있는 그루트슬랑을 수용할 수 있을 만큼 넓은 다른 물체로 순간이동합니다.</p>"
+        },
+        "CJSHuwoLNcLj6iWJ": {
+          "name": "방어적 감기 (Defensive Coil)",
+          "description": "<p>그루트슬랑은 몸을 감습니다. 다음 차례 시작까지 물리 공격에 대해 20의 저항력을 얻습니다.</p>"
+        },
+        "VMcwUvR4wlGflpeU": {
+          "name": "강화된 압박 (Greater Constrict)",
+          "description": "<p>꼬리만, @Damage[(2d12+12)[bludgeoning]] 피해, @Check[fortitude|dc:34|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.GreaterConstrict]</p>"
+        },
+        "EqiCFPbBB1kojE3q": {
+          "name": "Swallow Whole",
+          "description": "<p>턱만, 거대, @Damage[(3d12+10)[bludgeoning]] 피해, 파열 37</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
+        },
+        "NYKLnAalhc45FLgf": {
+          "name": "Thunderous Slam",
+          "description": "<p>그루트슬랑은 도달 범위 내의 생물에게 발 공격을 가합니다.</p>\n<p>공격이 적중하든 아니든, 그루트슬랑으로부터 10피트 이내의 모든 생물은 @Check[reflex|dc:37|traits:damaging-effect] 내성을 시도해야 합니다.</p>\n<hr />\n<p><strong>대성공</strong> 생물은 영향을 받지 않습니다.</p>\n<p><strong>성공</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 되며, 자신의 턴이 끝날 때까지 지속됩니다.</p>\n<p><strong>실패</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} 상태가 되고 @Damage[2d8[bludgeoning]]의 피해를 입습니다.</p>\n<p><strong>대실패</strong> 실패와 동일하지만, 생물은 @Damage[4d8[bludgeoning]]의 피해를 입습니다.</p>"
+        },
+        "8COse1lqtTma8FJd": {
+          "name": "Grab"
+        },
+        "wWsB5I4nHqsR3fBF": {
+          "name": "Improved Grab"
+        }
+      }
+    },
+    "Charau-ka Butcher": {
+      "name": "Charau-ka Butcher",
+      "description": "<p>차라우-카는 잔인함으로 악명 높지만, 폭력에 대한 집착으로 인해 심지어 자신의 종족조차 두려워하게 만드는 개체들도 존재합니다. 이 치명적인 도살자들은 적에게 잔인하고 피비린내 나는 상처를 입히는 기술에 능숙하며, 차라우-카가 아닌 모든 존재를 적으로 간주합니다. 적의 피 한 방울을 맛보는 것만으로도 끔찍한 힘을 얻을 수 있으며, 이는 차라우-카 도살자가 피해자의 고통에서 직접 힘을 얻는 것처럼 보입니다.</p>\n<hr />\n<p>전설에 따르면 차라우-카는 악마 군주 안가잔과 혈연 관계를 공유한다고 합니다. 안가잔은 자신의 종교에 반기를 든 인간의 시체를 변형시켜 만드릴 같은 인간형 생물로 부활시켰다고 전해집니다. 이 전설은 오랫동안 입증되지 않았지만, 차라우-카 사제들이 이 고대 전설을 기리기 위해 죽은 자들을 새로운 차라우-카로 환생시키는 끔찍한 의식을 완성했다는 소문이 계속되고 있습니다. 다른 이야기들은 안가잔에게 헌정된 강력한 제단 속에 이 힘이 존재하며, 이 마법적 유물 앞에서 제사 희생을 진행하면 죽은 자들의 영혼이 안가잔의 폭력적인 신도로 부활해 야만과 파괴를 즐기는 자들의 주인으로 돌아온다고 전합니다.</p>\n<p>Mwangi Expanse에서 가장 큰 차라우-카 요새는 오코타 호수 연안에 위치한 우사로 도시입니다. 그들의 고릴라 왕의 죽음으로 정치적 혼란이 일어나지만, 차라우-카는 지역 내의 외부인을 납치하거나 살해하기 위해 기꺼이 연합합니다.</p>",
+      "items": {
+        "uRYGVQ4dqfB4MbNY": {
+          "name": "Trident"
+        },
+        "MxjCTwDFZ03c5jVc": {
+          "name": "Fist"
+        },
+        "avyGW2UfQRziPWNZ": {
+          "name": "Trident"
+        },
+        "lNpwy4Rk5IKOxvvy": {
+          "name": "Thrown Debris"
+        },
+        "fGO6kbxeB5SJHFpV": {
+          "name": "혈의 분노 (Blood Fury)",
+          "description": "<p><strong>트리거</strong> 차라우-카 도살자는 생물에게 출혈 피해를 입힙니다.</p>\n<hr />\n<p><strong>효과</strong> 차라우-카는 무기에서 피를 핥아 분노합니다. HP를 @Damage[5[healing] 회복하고, 자신의 턴이 끝날 때까지 공격 굴림에 +1 상태 보너스를 얻습니다.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.LOLoQpaAp5cC0hbm]{Effect: Blood Fury}</p>"
+        },
+        "C733S6U2bTn8YXmm": {
+          "name": "Mauler",
+          "description": "<p>차라우카 도살자가 분노 상태일 때, 그 근접 공격은 @Damage[1d4[bleed]의 피해를 입힙니다.</p>"
+        },
+        "ODrCaowNXEHvNgn5": {
+          "name": "분노 (Rage)",
+          "description": "<p><strong>조건</strong> 차라우-카 도살자는 @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{피로} 상태가 아니거나 분노하지 않아야 합니다.</p>\n<p>차라우-카 도살자는 내면의 분노를 끌어내어 분노 상태에 들어갑니다. 차라우-카 도살자는 자신의 레벨에 체력 수정자를 더한 임시 체력을 얻습니다. 이 분노 상태는 1분 동안 지속되며, 적을 감지할 수 없게 되거나 의식을 잃을 때까지 계속됩니다. 분노 상태를 자발적으로 중단할 수 없습니다. 분노 상태 중에는:</p>\n<ul>\n<li>근접 공격 시 추가로 2의 피해를 입힙니다. 이 추가 피해는 무기나 비무장 공격이 민첩성 속성을 가질 경우 반으로 줄어듭니다.</li>\n<li> AC에 -1 페널티를 받습니다.</li>\n<li> 집중 특성을 가진 행동을 사용할 수 없습니다. 다만 분노 상태에서는 추적(Seek)을 사용할 수 있습니다.</li>\n</ul>\n<p>분노 상태가 끝나면 분노로 인해 남은 일시적 체력을 모두 잃으며, 1분 동안 다시 분노할 수 없습니다.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.z3uyCMBddrPK5umr]{효과: 분노}</p>"
+        },
+        "Uioct4jDb676vZCb": {
+          "name": "비명 지르는 광란 (Shrieking Frenzy)",
+          "description": "<p><strong>트리거</strong> 차라우-카의 턴이 시작됩니다.</p>\n<p><strong>Frequency</strong> once per hour</p>\n<hr />\n<p><strong>효과</strong> 차라우-카는 @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{가속} 상태가 해당 턴 종료 시까지 지속되며, 추가 행동을 사용하여 Stride 또는 공격할 수 있습니다.</p>\n<p>분노 상태에 있을 때, 차라우-카는 말할 수 없으며, 큰 울부짖음으로 인해 은신 체크에서 자동으로 대실패를 합니다.</p>"
+        },
+        "1wSANkYbvhM6Z2R2": {
+          "name": "투척 무기 숙련도 (Thrown Weapon Mastery)",
+          "description": "<p>차라우-카가 투척하는 모든 무기는 치명적인 d6 무기 특성을 얻습니다.</p>\n<p>또한, 차라우-카가 즉흥 무기를 던질 때 -2 페널티를 받지 않으며, 비치명적 특성을 가진 던진 즉흥 무기로 치명적 공격을 할 때도 페널티를 받지 않습니다.</p>"
+        }
+      }
+    },
+    "Solar Ibis": {
+      "name": "Solar Ibis",
+      "description": "<p>솔라 이비스는 빛의 존재로, 때로는 태양의 새나 학자들에 의해 \"날개 달린 빛의 존재\"라고도 불립니다. 그들은 성스러운 장소나 물건을 지키는 임무를 맡고 있지만, 때로는 살아있는 존재들을 엄청난 위험으로부터 보호하기도 합니다. 그들의 출현은 항상 머리에 노란색 점이 있는 작은 보라색 날개 가진 새들의 무리로 예고됩니다; 이들은 이비스가 보호하는 지역에서 둥지를 틀고 모이는 아바타입니다. 이 아바타들의 존재는 이 은둔적이고 단독으로 사는 생물을 추적하는 유일한 방법입니다. 태양 이비스가 나타나기로 결정하면, 이 작은 새들은 야생 새처럼 흩어집니다. 태양 새는 그 후 창조를 일으키며, 주변을 눈부신 빛의 폭포로 뒤덮어 경계하지 않은 생물들을 눈부시게 하고 놀라게 합니다.</p>\n<p>태양 이비스는 화려한 빛의 후광에 둘러싸인 거대한 새로 나타납니다. 검은 깃털은 스펙트럼의 모든 색상으로 빛나며, 깃털에 반짝이는 무지개를 드리웁니다. 그것은 예리한 통찰력을 지니고 있으며, 자신 앞에 있는 존재들이 자신이 지키는 것을 접근할 자격이 있는지 전체적으로 판단합니다. 자격이 없다고 판단된 존재에게는 정화하는 힘으로 벌을 내립니다.</p>\n<p>Mwangi Expanse의 대부분의 주민들은 이 새를 신성시하지만, 여전히 이 화려한 생물을 사냥하는 이들이 있습니다. 일부는 이비스가 지키는 보물을 찾기 위해, 다른 일부는 이비스 자체를 죽거나 살아서 잡기 위해 사냥합니다. 일부는 태양의 이비스의 깃털을 태우면 그 연기가 성스러운 힘을 부여하는 향을 만든다고 믿습니다. 다른 이들은 그 뼈와 발을 가루로 갈아 악마를 파괴하고 언데드를 정화할 수 있다고 믿습니다.</p>",
+      "languages": "(어떤 언어라도 말할 수 없음)",
+      "items": {
+        "uDVantmuNb4lHPSt": {
+          "name": "Beak"
+        },
+        "Wh9drGchO0qrVs4U": {
+          "name": "Talon"
+        },
+        "qg6EYfhHr4O83rA9": {
+          "name": "Blinding Halo",
+          "description": "<p>30 feet. 태양 이비스의 후광이 밝은 빛을 내뿜습니다. 후광 안에 있는 생물은 자신의 턴을 시작할 때 @Check[fortitude|dc:22] 내성 검사에 성공하지 못하면 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{눈부심} 상태가 1분 동안 지속됩니다. 내성 검사에 대실패한 생물은 대신 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} 상태가 됩니다.</p>\n<p>내성에 성공한 생물은 이 효과에 대해 24시간 동안 일시적으로 면역이 됩니다.</p>\n<p>태양 이비스는 후광의 빛을 단일 행동으로 소멸하거나 재개할 수 있으며, 이 행동은 집중 특성을 갖습니다.</p>"
+        },
+        "PBICMyxMv3Mp6NsM": {
+          "name": "회피 (Evasion)",
+          "description": "<p>태양 이비스가 반사 내성을 성공하면 대신 대성공을 얻습니다.</p>"
+        },
+        "8cKp6lKT5oL6dOn4": {
+          "name": "이비스 다이브 (Ibis Dive)",
+          "description": "<p>태양 이비스는 직선으로 비행 속도의 두 배까지 상승한 후 최소 10피트 내려가고, 그 다음 발톱 공격을 수행합니다.</p>"
+        },
+        "PwKGsTUERVGvk8dr": {
+          "name": "빛의 파편 (Light Shatter)",
+          "description": "<p>태양의 이비스는 자신의 후광을 폭발시켜 모든 방향으로 타는 빛의 파편을 발사하며, 이 파편은 @Damage[6d8[fire]|options:area-damage]의 피해를 모든 생물에게 입힙니다. @Template[emanation|distance:20] (@Check[reflex|dc:22|basic|options:area-effect] 내성) 범위 내의 모든 생물에게 피해를 입힙니다. 조각들은 악마와 언데드에게 추가로 @Damage[6d8[spirit]|options:area-damage] 피해를 입힙니다.</p>\n<p>태양 이비스는 [[/gmr 1d4 #Recharge Light Shatter]] 라운드 동안 Light Shatter를 다시 사용할 수 없으며, 이 기간 동안 Blinding Halo는 소멸됩니다. 1d4 라운드가 지나면 Halo는 자동으로 복원됩니다.</p>"
+        },
+        "n0nhkIEQ7tkTGxMA": {
+          "name": "잡기 (Grab)"
+        }
+      }
+    },
+    "Charau-ka Warrior": {
+      "name": "차라우-카 전사 (Charau-ka Warrior)",
+      "description": "<p>차라우-카 전사는 몸에 도끼, 단검, 유사한 무기를 소지합니다. 그들은 투척 무기가 떨어질 걱정을 하지 않습니다. 땅에서 뽑은 돌도 그들의 손에 들면 마찬가지로 치명적이기 때문입니다.</p>\n<hr />\n<p>전설에 따르면 차라우-카는 악마 군주 안가잔과 혈연을 공유한다고 합니다. 안가잔은 자신의 종교에 반란을 일으킨 인간의 시체를 변형시켜 만드릴 같은 인간형 생물로 부활시켰다고 전해집니다. 이 사실은 오랫동안 증명되지 않았지만, 전설은 차라우-카 사제들이 이 고대 전설을 기리기 위해 죽은 자를 새로운 차라우-카로 환생시키는 끔찍한 의식을 완성했다고 전합니다. 다른 이야기들은 안가잔에게 헌정된 강력한 제단 속에 이 힘이 존재하며, 이 마법적 유물 앞에서 의식적 희생을 행하면 죽은 자의 영혼이 안가잔의 폭력과 파괴를 즐기는 추종자로 부활한다고 말합니다.</p>\n<p>Mwangi Expanse에서 가장 큰 차라우-카 요새는 Ocota 호숫가에 위치한 Usaro 도시입니다. 그들의 고릴라 왕의 죽음으로 인해 정치적 혼란이 발생했지만, 차라우-카는 지역 내의 모든 외지인을 납치하거나 살해하기 위해 기꺼이 연합할 것입니다.</p>",
+      "items": {
+        "YfMTAuZV4ybrtDyc": {
+          "name": "도끼 (Hatchet)"
+        },
+        "zLBKa8fDq0OWU1hl": {
+          "name": "단검 (Dagger)"
+        },
+        "ls0qwCu7iDzfposG": {
+          "name": "주먹 (Fist)"
+        },
+        "wvCvk6evB2QuiIxb": {
+          "name": "도끼 (Hatchet)"
+        },
+        "FmJqPlmnFyGUsuhR": {
+          "name": "단검 (Dagger)"
+        },
+        "Y8WPnqV6kzFd4ZsF": {
+          "name": "Thrown Debris"
+        },
+        "SW82ptRgUxB88231": {
+          "name": "Shrieking Frenzy",
+          "description": "<p><strong>Trigger</strong> 차라우-카의 차례가 시작됩니다.</p>\n<p><strong>빈도</strong> 시간당 1회</p>\n<hr />\n<p><strong>효과</strong> 차라우-카는 @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{가속} 상태가 되며, 자신의 턴이 끝날 때까지 추가 행동으로 Stride 또는 Strike를 사용할 수 있습니다.</p>\n<p>분노 상태에 있는 동안 차라우-카는 말할 수 없으며, 큰 울부짖음으로 인해 은신 체크에서 자동으로 대실패를 합니다.</p>"
+        },
+        "sGDr2h4N12CW3LTU": {
+          "name": "투척 무기 숙련도 (Thrown Weapon Mastery)",
+          "description": "<p>차라우-카가 던지는 모든 무기는 치명적인 d6 무기 특성을 얻습니다.</p>\n<p>또한, 차라우-카가 즉흥 무기를 던질 때 -2 페널티를 받지 않으며, 비치명적 특성을 가진 던진 즉흥 무기로 치명적 공격을 할 때도 페널티를 받지 않습니다.</p>"
+        }
+      }
+    },
+    "K'nonna": {
+      "name": "K'nonna",
+      "description": "<p>K'nonna는 인간과 반씩, 가장 문자 그대로의 의미에서 반씩입니다. 그들은 대부분 인간의 오른쪽 반쪽과 닮았으며, 덜 자주 왼쪽 반쪽과 닮았으며, 머리의 정수리부터 완벽하게 중간에서 갈라져 있습니다. 따라서 그들은 한쪽 눈, 한쪽 귀, 한쪽 팔, 한쪽 다리, 반쪽 코, 그리고 날카로운 이빨로 가득 찬 반쪽 입을 가지고 있습니다. 공중에서 뜨거운 돌 위의 파도처럼 희미하게 빛나는 광채는 그들의 다른 반쪽이 있을 곳을 암시합니다.</p>\n<p>k'nonna의 기이한 외모에도 불구하고, 그들은 몸의 반쪽이 없는 것 때문에 방해받을 수 있는 균형 유지나 일상적인 작업을 수행하는 데 아무런 문제가 없습니다. 그들은 단 한 손만으로 복잡한 작업을 수행할 수 있을 정도로 매우 민첩합니다. 그들의 missing half의 본질은 지금까지 설명되지 않았습니다. 그것은 보이지 않는 것도 아니며, 다른 차원에 존재하는 것도 아닙니다. 그러나 k'nonna가 인간처럼 걸을 수 있을 만큼 충분한 힘을 발휘하는 것처럼 보입니다.</p>\n<p>k'nonna의 기원에 대해 확실히 아는 사람은 없습니다. 그들은 이 세계의 것이 아니며, 알려진 어떤 인간 종족의 후손도 아닙니다. 추방 마법은 그들에게 효과가 없으며, 이는 그들이 다른 차원에서 온 것이 아님을 암시합니다. 그들은 지능이 있지만 소통이 어렵습니다-반쪽 말만 하고, 다른 사람이 말하는 것의 반만 듣습니다. k'nonna는 말하기보다 먹는 것에 훨씬 더 관심이 있으며, 인간형 생물이 그들의 가장 좋아하는 식사입니다. k'nonna의 희생자의 시신은 그들이 몸의 반만 섭취하기 때문에 분명히 구분됩니다.</p>\n<p>전설에 따르면 반인반수들은 선물, 특히 보석에 대한 사랑을 가지고 있습니다. 반지나 목걸이를 선물로 주면 K'nonna를 충분히 오래 분산시켜 사냥감을 탈출하게 할 수 있습니다. 특히 대담한 피해자는 K'nonna가 착용하도록 팔찌를 속여 그들의 유일한 보이는 손목이나 발목을 묶어 움직이지 못하게 시도할 수 있지만, 이 전략은 완벽하지 않습니다. K'nonna는 선물에 불만을 품은 사람에게 평생 동안 사냥을 계속할 것입니다.</p>",
+      "languages": "반쪽 말꾼",
+      "items": {
+        "TQfSl3IbFAv26t8Q": {
+          "name": "주먹 (Fist)"
+        },
+        "6C2GqTT5fDsCyi7g": {
+          "name": "이빨 (Jaws)"
+        },
+        "qqYEHc1PVdtmltg3": {
+          "name": "금장 장식 (Gilded Fascination)",
+          "description": "<p>50 gp 이상의 선물을 받으면 k'nonna는 @Check[will|dc:20] 내성 굴림을 시도해야 합니다. 선물이 100 gp 이상인 경우 DC는 대신 @Check[will|dc:25|name:Gilded Fascination (Higher)]로 변경됩니다.</p>\n<p>내성 검사에서 실패하면 k'nonna는 선물을 받아들이고 다음 차례가 끝날 때까지 @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{매료됨} 상태가 되며, 매료된 동안 공격할 수 없습니다. 대실패 시 매료 상태는 1분 동안 지속됩니다.</p>\n<p>선물을 제공하는 것은 상호작용 행동이며, 같은 라운드에 여러 선물을 제공해도 추가 효과가 없습니다.</p>"
+        },
+        "tYIw3txzXdYOMvO4": {
+          "name": "반 걸음 (Half Steps)",
+          "description": "<p>k'nonna는 반으로 갈라져 있지만, 두 팔과 다리가 있는 것처럼 움직이고 Stride합니다. 그러나 한 손목이나 발목을 묶으면 해당 사지를 사용할 수 없게 되며, 다른 사지에 묶인 것처럼 됩니다.</p>"
+        },
+        "uFV9awWQUUTLzpt8": {
+          "name": "반쪽 말꾼 (Half-Speaker)",
+          "description": "<p>k'nonna는 다른 k'nonna와 쉽게 소통할 수 있지만, 다른 생물과 소통할 때는 말한 단어의 절반만 이해됩니다.</p>\n<p>k'nonna에게 정보를 전달하거나 그들이 말하는 것을 이해하려면, k'nonna가 아닌 존재는 @Check[perception|dc:20] 체커에 성공해야 합니다.</p>"
+        },
+        "tFpAHyH73IXBqT5F": {
+          "name": "돌진 (Pounce)",
+          "description": "<p>k'nonna는 이동 후 그 이동의 끝에서 공격을 가합니다. k'nonna가 이 행동을 숨은 상태로 시작했다면, 이 능력의 공격이 끝날 때까지 숨은 상태를 유지합니다.</p>"
+        },
+        "boazYiEU4yxCfnQA": {
+          "name": "잡기 (Grab)"
+        }
+      }
+    },
+    "Anadi Hunter": {
+      "name": "아나디 헌터 (Anadi Hunter)",
+      "description": "<p>아나디 헌터는 부족의 눈과 귀 역할을 하며, 주변 지역을 탐색하여 잠재적 침입자를 감시합니다.</p>\n<hr />\n<p>아나디는 숲, 정글, 기타 야생의 미개척 지역에 깊이 거주하는 평화롭고 은둔적인 인간형 생물입니다. 그들의 자연 형태는 다양한 색상의 아름다운 독특한 무늬로 덮인 인간형 거미와 유사합니다. 이 무늬는 다른 인간형 생물의 얼굴 특징, 출생 표식, 기타 식별 요소와 마찬가지로 유일무이합니다.</p>\n<p>아나디스는 환상과 변형의 천부적인 재능을 지니고 있습니다. 그들은 오래 전부터 자신의 자연스러운 형태가 다른 인간형 생물에게 불편함을 줄 수 있다는 것을 깨달았기 때문에, 이 재능을 활용해 인간 형태를 자주 취합니다. 이 때, 그들의 어두운 눈동자에 이상하고 아름다운 광채와 의도적인 움직임이 어색하게 느껴지는 것이 아나디가 완전히 인간이 아니라는 것을 암시할 수 있습니다. 다른 인간형 생물들이 거미류에 대한 민감한 감정을 잘 알고 있으며 이를 배려하기 때문에, 많은 아나디스는 낯선 이에게 자연스러운 모습을 드러내는 것을 무례한 행동으로 여깁니다. 대신 대부분의 아나디스는 위협을 받을 때만 거미 같은 모습을 위협 수단으로 드러내거나, 신뢰하는 이들에게만 사생활에서만 보여줍니다.</p>\n<p>대부분의 아나디는 수줍어하며 조용한 삶을 추구하며 버섯을 수확하고 아름다운 무늬의 실크 천을 짜는 것을 좋아합니다. 전투에 강제로 휘말리는 것은 대부분의 아나디가 혐오하는 상황이지만, 그런 경우 그들은 가능한 한 빨리 하이브리드 형태로 변신해 적에게 치명적인 자연 맹독을 퍼부을 수 있습니다.</p>",
+      "items": {
+        "s36n7hPAaYABVc0p": {
+          "name": "단검 (Shortsword)"
+        },
+        "OdUVWVv4ABHnNbsY": {
+          "name": "이빨 (Fangs)"
+        },
+        "X4o2Nohic2HhrQYb": {
+          "name": "복합 단궁 (Composite Shortbow)"
+        },
+        "ou1yl6f4qh1BkRPI": {
+          "name": "아나디 맹독 (Anadi Venom)",
+          "description": "<p><strong>Saving Throw</strong> @Check[fortitude|dc:16]</p>\n<p><strong>최대 지속 시간</strong> 4 라운드</p>\n<p><strong>단계 1</strong> @Damage[1d6[poison]] 피해와 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} (1 라운드)</p>\n<p><strong>단계 2</strong> @Damage[1d6[poison]] 피해, 오프 가드, 및 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1} (1 라운드)</p>"
+        },
+        "KPDIlbvK82mxxlkp": {
+          "name": "형태 변경 (Change Shape)",
+          "description": "<p>아나디는 하이브리드 형태, 거미 형태, 또는 인간 형태로 변신합니다. 위 통계는 아나디가 하이브리드 형태에 있을 때를 가정합니다. 인간 형태일 때, 아나디 헌터는 이빨 공격을 사용할 수 없으며 등반 속도를 잃습니다. 거미 형태일 때는 무기를 사용할 수 없습니다.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
+        },
+        "vvXU4PalVWLPjnDg": {
+          "name": "실을 짜기 (Spin Silk)",
+          "description": "<p>아나디는 몇 분 동안 시간을 소비하여 천으로 만든 아이템을 제작하기 위해 실을 생산할 수 있습니다. 단일 아나디는 하루 동안 단일 의상을 제작할 수 있는 충분한 실을 생산할 수 있습니다.</p>"
+        }
+      },
+      "AthleticsVariants": {
+        "0": {
+          "label": "하이브리드 또는 거미 형태로 등반하기"
+        }
+      },
+      "CraftingVariants": {
+        "0": {
+          "label": "직조하기"
+        }
+      }
+    },
+    "Anadi Elder": {
+      "name": "아나디 장로 (Anadi Elder)",
+      "description": "<p>아나디 장로들은 협상을 계속할지, 아니면 불화를 전면적인 갈등으로 확대할지 어려운 결정을 내려야 합니다.</p>\n<hr />\n<p>아나디는 숲, 정글, 기타 야생 지역 깊숙이 사는 평화롭고 은둔적인 인간형 생물입니다. 그들의 자연스러운 형태는 다양한 색상의 아름다운 독특한 무늬로 덮인 인간형 거미와 유사합니다. 이 무늬는 다른 인간형 생물의 얼굴 특징, 선천적 표시, 기타 식별 요소와 마찬가지로 유일무이합니다.</p>\n<p>아나디스는 환상과 변신에 대한 선천적인 재능을 지니고 있습니다. 그들은 오래 전부터 자신의 자연스러운 형태가 다른 인간형 생물에게 거부감을 줄 수 있다는 것을 깨달았기 때문에, 자주 이 재능을 활용해 인간 형태를 취합니다. 그들이 인간 형태를 취할 때, 어두운 눈동자에 이상하면서도 아름다운 광채와 의도적인 움직임이 느린 제스처만이 안아디가 완전히 인간이 아니라는 것을 암시할 수 있습니다. 안아디들은 다른 인간형 생물들이 거미에 대한 민감한 감정을 잘 알고 있으며, 이를 배려하기 때문에 낯선 이에게 자연스러운 모습을 드러내는 것을 예의에 어긋난다고 여깁니다. 대신 대부분의 아나디는 위협을 받을 때만 거미 같은 형태를 위협 수단으로 드러내거나, 신뢰하는 이들에게만 사생활에서 보여줍니다.</p>\n<p>대부분의 아나디는 수줍음이 많고, 버섯을 채집하고 아름다운 무늬의 실크 천을 짜며 조용한 삶을 추구합니다. 전투에 강제로 휘말릴 경우-대부분의 아나디가 혐오하는 상황-그들은 가능한 한 빨리 하이브리드 형태로 변신해 적에게 치명적인 자연 맹독을 퍼부을 수 있습니다.</p>",
+      "items": {
+        "0jVMpFdmLptitEg2": {
+          "name": "단검 (Shortsword)"
+        },
+        "RCJltuaZMaBLOV1s": {
+          "name": "이빨 (Fangs)"
+        },
+        "iNrdCRoNJNLvtTuA": {
+          "name": "Composite Longbow"
+        },
+        "pdnQW8Ct65O3JJGY": {
+          "name": "Anadi Venom",
+          "description": "<p><strong>Saving Throw</strong> @Check[fortitude|dc:22]</p>\n<p><strong>Maximum Duration</strong> 4 rounds</p>\n<p><strong>단계 1</strong> @Damage[2d6[poison]] 피해와 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} (1 라운드)</p>\n<p><strong>단계 2</strong> @Damage[1d6[poison]] 피해, 오프 가드, 및 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1} (1 라운드)</p>"
+        },
+        "fxQVtzxLK32xSoAF": {
+          "name": "형태 변경 (Change Shape)",
+          "description": "<p>아나디는 하이브리드 형태, 거미 형태, 또는 인간 형태로 변신합니다. 위 통계는 아나디가 하이브리드 형태일 때를 가정합니다. 인간 형태일 때, 아나디 장로는 이빨 공격을 사용할 수 없으며 등반 속도를 잃습니다. 거미 형태일 때는 무기를 사용할 수 없습니다.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
+        },
+        "NhEfmIq6aHHuARfT": {
+          "name": "실을 짜기 (Spin Silk)",
+          "description": "<p>안아디는 몇 분 동안 시간을 소비하여 실을 생산해 천으로 된 물품을 제작할 수 있습니다. 단일 안아디는 하루 동안 생산한 실로 단일 의상을 제작할 수 있습니다.</p>"
+        }
+      },
+      "AthleticsVariants": {
+        "0": {
+          "label": "하이브리드 또는 거미 형태로 기어오르기"
+        }
+      },
+      "CraftingVariants": {
+        "0": {
+          "label": "직조"
+        }
+      }
+    },
+    "Karina": {
+      "name": "카리나 (Karina)",
+      "description": "<p>카리나(전염병 새라고도 불림)는 어두운 붉은 깃털, 강력한 발톱, 불안감을 주는 눈을 가진 대형 올빼미 모양의 생물입니다. 넓은 날개 아래에는 인간형 팔이 숨겨져 있으며, 이 팔은 발톱이 달린 손가락으로 끝납니다. 이들은 무덤을 파헤쳐 시체를 찾아내는 데 이 팔을 사용합니다. 이들의 끔찍한 목적은 여전히 미스터리이지만, 대부분의 사람들은 카리나가 시체를 훔쳐서 자신의 굴에서 안전하게 먹기 위해 그렇게 한다고 믿습니다. 이 생물들을 추적하는 어려움과 위험성 때문에 정확한 사실을 알기 어렵습니다.</p>\n<p>카리나의 끔찍한 외모는 그들이 자연적인 생물이 아니라는 것을 암시합니다. 많은 전설은 카리나가 아바돈에서 물질계로 날아와 첫 번째 인간들의 시체를 먹기 위해 왔다고 주장하며, 다른 전설은 첫 번째 카리나가 첫 번째 인간이 인육을 먹은 영혼에서 태어났다고 말합니다. 선한 힘은 카리나를 밀어내며, 이는 악하거나 악마적인 기원을 암시합니다.</p>\n<p>카리나는 전염병의 매개체로, 자신의 개인적인 전염병을 퍼뜨리기 위해 의도적으로 생물을 공격합니다. 그들이 운반하는 초자연적 질병인 '무덤 역병'은 발열, 방향 상실, 그리고 후기 단계에서는 타인을 공격하고 질병을 전파하려는 본능적 욕구를 유발합니다. 카리나스는 마을의 서서히 붕괴되는 모습을 즐기며 주변 정글에 숨어 모든 비참한 순간을 관찰합니다. 현지인들이 시체를 묻을 때, 카리나스는 시체를 훔치기 위해 급습합니다.</p>\n<p>카리나는 끔찍한 질병을 옮기는 것 외에도 목소리를 모방하는 능력을 가지고 있습니다. 그들은 보통 들은 문장을 반복하지만, 원본의 목소리를 악마 같은 변형으로 왜곡합니다. 목표물의 친구나 가족을 인식할 만큼 지능이 높은 카리나는 사랑하는 사람의 조롱하는 목소리를 사용해 그들을 공포에 떨게 합니다. 마을을 공포에 빠뜨릴 때는 보통 두세 마리씩 무리를 지어 활동합니다.</p>",
+      "languages": "(언어를 말할 수 없음)",
+      "items": {
+        "NWjkzN3dNcZGRrg7": {
+          "name": "부리 (Beak)"
+        },
+        "0lzu6bfck0YarxR5": {
+          "name": "발톱 (Claws)"
+        },
+        "tOyviMr7BziJqKBH": {
+          "name": "발톱 (Talons)"
+        },
+        "GYJ6GHWDxvwvbLki": {
+          "name": "소리 모방 (Sound Imitation)",
+          "description": "<p>기만 체크에 성공한 카리나는 들은 어떤 목소리도 모방할 수 있습니다. 이 체크에는 +4 상황 보너스가 적용됩니다.</p>"
+        },
+        "H1PGojvxkIsvrHqR": {
+          "name": "무덤의 병 (Grave Blight)",
+          "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:19]</p>\n<p><strong>단계 1</strong> 운반체에 무해한 상태 (1일)</p>\n<p><strong>단계 2</strong> @Damage[1d6[poison]] 피해, @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1} (1일)</p>\n<p><strong>단계 3</strong> @Damage[1d8[poison]] 피해, 피해자는 매 시간마다 인내 내성 검사에 성공하지 못하면 @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{혼란} 상태가 1분 동안 지속되며, @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 2} (1일)</p>"
+        },
+        "efUGr9NzEDDkHLgh": {
+          "name": "조롱의 울음 (Mocking Cry)",
+          "description": "<p>카리나는 목소리를 모방하여 30피트 이내의 생물을 조롱합니다. 그들은 생물을 사기 저하시키기 위해 기만 체크를 시도합니다.</p>\n<p>체크가 성공하든 실패하든, 대상 생물은 카리나의 조롱의 울음소리에 대해 1시간 동안 일시적으로 면역이 됩니다.</p>"
+        },
+        "SUcSXRslpjPkGsMT": {
+          "name": "잡기 (Grab)"
+        }
+      }
+    },
+    "Mamlambo": {
+      "name": "마말람보 (Mamlambo)",
+      "description": "<p>맘람보는 최면 효과를 지닌 생물발광 피부를 가진 강물 포식자입니다. 그들은 악어와 유사하게 보이지만, 긴 목 끝의 좁은 머리는 말의 두개골을 닮았고, 네 다리는 땅 위 이동에 부적합한 짧은 다리를 가지고 있습니다. 그들의 녹색 빛은 낮이나 물속에서 겨우 눈에 띄지만, 이 빛은 저항하기 어려운 매력을 지니고 있습니다. 이로 인해 물고기, 새, 다른 강 생물들이 유혹적인 빛에 얽혀 따라다니는 경우가 자주 발생합니다.</p>\n<p>인간형 생물은 마말람보의 주요 먹이로, 특히 인간을 선호하지만, 이상하게도 피해자의 얼굴과 뇌만 먹는 것을 선호합니다. 마말람보는 지능은 낮지만 교활하며, 때로는 피해자를 물에 잠긴 바위나 나무 아래에 숨겨 발견을 어렵게 합니다. 마말람보는 존재가 발견되기 전까지 수일 또는 수주 동안 특정 지역에서 활동할 수 있습니다.</p>",
+      "items": {
+        "zIIyPgt8WGCYilod": {
+          "name": "턱 (Jaws)"
+        },
+        "f3pNQPzw0uoQMQm2": {
+          "name": "꼬리 (Tail)"
+        },
+        "cv6PTXyDI2kYqY3l": {
+          "name": "기회 공격 (꼬리만) (Attack of Opportunity (Tail Only))",
+          "description": "<p>꼬리만</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>"
+        },
+        "IpvCxCkYJzPHJu0M": {
+          "name": "Luminous Lure",
+          "description": "<p>30 피트. 마말람보는 피부에서 어두운 빛을 방출합니다. 이 빛의 범위 내에 들어오거나 자신의 턴을 시작하는 생물은 @Check[will|dc:23] 내성 굴림을 시도해야 합니다. 인간형 생물은 이 내성 굴림에서 -2 페널티를 받습니다.</p>\n<p>내성 검사 결과와 관계없이 생물은 10분 동안 일시적으로 면역 상태가 됩니다.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1} 상태가 1 라운드 동안 지속됩니다.</p>\n<p><strong>실패</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{매료됨} 상태가 되며, 오라 안에 있는 동안 각 턴마다 행동 중 최소 1개를 사용하여 가능한 한 빨리 마말람보에게 접근해야 하며, 명백한 위험을 피해야 합니다. 생물이 이동이나 턴을 마칠 때 마말람보와 인접한 위치에 있다면, 오라 밖으로 나가거나 마말람보가 그에게 공격을 가할 때까지 {느려짐} 1 상태가 유지됩니다.</p>\n<p>대상은 이후 각 턴의 시작에 새로운 의지 내성을 시도할 수 있으며, 성공 시 효과는 종료됩니다.</p>\n<p><strong>대실패</strong> 실패와 동일하지만, 해당 생물은 각 행동을 마말람보에게 더 가까이 이동하는 데 사용해야 하며, 이동이나 턴이 마말람보와 인접한 위치에서 끝날 경우 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비} 상태가 되며, 마말람보의 공격을 받을 때까지 지속됩니다.</p>"
+        },
+        "A93SkvxMG74AEH1p": {
+          "name": "Aquatic Ambush",
+          "description": "<p>50 feet</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.AquaticAmbush]</p>"
+        },
+        "2oevhXnu1QOT55BQ": {
+          "name": "Face Eater",
+          "description": "<p><strong>요구 사항</strong> 마말람보는 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{잡힌} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{제압된} 생물을 가지고 있거나, 마말람보의 범위 내에 @UUID[Compendium.pf2e.conditionitems.Item.yZRUzMqrMmfLu0V1]{Dying}, @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized}, 또는 @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious} 상태의 생물이 있습니다.</p>\n<hr />\n<p><strong>효과</strong> 마말람보는 생물에게 @Damage[(2d8+11)[piercing]]의 피해를 입힙니다 (@Check[fortitude|dc:28|basic] 내성).</p>\n<p>실패 시, 생물은 추가로 @Damage[2d6[bleed]]의 피해를 입으며, 대실패 시 @Damage[4d6[bleed]]의 피해를 입습니다.</p>"
+        },
+        "xwXKqYeS8wn01sOG": {
+          "name": "개선된 잡기 (Improved Grab)"
+        }
+      },
+      "SurvivalVariants": {
+        "0": {
+          "label": "추적"
+        }
+      }
+    },
+    "Sié Goluo": {
+      "name": "시에 골루오 (Sié Goluo)",
+      "description": "<p>시에 골루오(때로는 단순히 '할아버지'라고도 불림)는 Mwangi 광야의 백성들을 세대를 거쳐 지켜온 고대 영혼입니다. 대부분의 사람들은 그가 어둠의 시대에 Mwangi 사람들을 영원한 어둠의 가장 큰 위험으로부터 보호하기 위해 처음 나타났다고 믿습니다. Bekyar 이야기꾼들은 그가 첫 번째 사람들이 Golarion을 걷기 전 시대부터 존재했다고 주장합니다. 이 불멸의 영혼은 수천 년 동안 여러 형태로 현현해 왔습니다. 가장 오래된 전설에 따르면, Sié Goluo는 내성 있는 눈을 제외하면 보통의 소와 비슷하지만 크기가 매우 큰 모습이었다고 합니다. 최근에는 그가 여러 동물의 모습을 하고 있다고 전해지지만, 그의 형태를 구성하는 동물이 무엇인지에 대한 기록은 다양합니다.</p>\n<p>여행 중인 농부가 치명적인 야수에게 공격을 받거나 작은 마을이 진격하는 군대의 분노에 직면할 때, 시에 골루오는 그들을 가장 효과적으로 보호할 수 있는 형태로 창조합니다. 그가 창조할 수 있는 지리적 제한은 없는 듯하며, 티엔 샤와 아르카디아에 이르는 넓은 지역에서 Mwangi 모험가들을 내성한 이야기가 전해집니다.</p>",
+      "hpdetails": "재생",
+      "languages": "(어떤 언어라도 말할 수 없음)",
+      "items": {
+        "LpZh0be8ST6pqnTF": {
+          "name": "뿔 (Horn)"
+        },
+        "VxWzZiuP7fPGDfrw": {
+          "name": "영혼의 발걸음 (Spirit Steps)",
+          "description": "<p>시에는 골루오는 어려운 지형을 무시하며, 움직임으로 함정을 발동시키지 않습니다.</p>"
+        },
+        "KSytifn6WnHjPWok": {
+          "name": "상시 마법 (Constant Spells)"
+        },
+        "d4Is7XIdxwsvrjo1": {
+          "name": "조상의 응답 (Ancestral Response)",
+          "description": "<p><strong>트리거</strong> 물질계에 있는 생물이 시에 골루오를 부릅니다.</p>\n<hr />\n<p><strong>효과</strong> 시에 골루오가 트리거링 생물로부터 30피트 이내의 빈 공간에 즉시 나타나며, @Damage[8d8[healing]] 60피트 이내에 있는 그를 볼 수 있는 모든 동맹의 체력. 이 방법으로 치유된 동맹은 1분 동안 내성 굴림에서 +2 상황 보너스를 얻습니다.</p>\n<p>이 혜택을 받은 생물은 1년간 이 혜택에 일시적으로 면역이 됩니다.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.gxBjyPaYDdhjAImf]{Effect: Ancestral Response}</p>"
+        },
+        "EzPMWivQB9EDUszK": {
+          "name": "Ferocity"
+        },
+        "tL03vFbxhAvCc4lU": {
+          "name": "Rejuvenation",
+          "description": "<p>시에 골루오가 파괴되면, 그는 물질 평면상의 원하는 위치에서 [[/br 2d4 #days]]{2d4일} 후에 완전히 회복된 상태로 재구성됩니다. 만약 Mwangi 혈통의 모든 사람이 시에 골루오에 대한 믿음을 거부하면, 그 영혼은 영구히 파괴됩니다.</p>"
+        },
+        "rDWiy412rhlSZyK8": {
+          "name": "영혼의 충전 (Spirit Charge)",
+          "description": "<p>시 에 골루오는 두 번 걸어가며 뿔로 공격을 가합니다.\n 타격 시 시에 골루오는 충격파를 생성해 @Damage[4d12[force]|options:area-damage] 피해를 @Template[cone|distance:30] (@Check[reflex|dc:34|basic|options:area-effect,inflicts:forced-movement] 내성) 범위 내에 입힙니다.</p>\n<p>내성 검사에 실패한 생물은 5피트(대실패 시 10피트) 밀려납니다.</p>"
+        }
+      }
+    },
+    "Zinba": {
+      "name": "진바 (Zinba)",
+      "description": "<p>유령 뱀으로 알려진 진바는 치유 능력을 가진 희귀한 양서류 뱀입니다. 다른 대형 뱀과 비슷한 크기를 지니지만, 등 부분에 빨간색과 검은색 무늬가 있는 밝은 파란색 몸체가 특징입니다. 이 독특한 색상은 쉽게 눈에 띄지만, 진바는 습한 진흙과 부드러운 땅을 헤엄쳐 이동할 수 있어 가장 숙련된 추적자조차 추적하기 어렵습니다. 이 신비로움은 '유령 뱀'이라는 별명을 얻게 되었습니다.</p>\n<p>진바는 맹독에 독특한 첨가물을 대사해 치명적인 독을 치유제로 변환할 수 있습니다. 이로 인해 진바는 치유사들과 밀렵꾼들에게 특히 귀중한 존재입니다. 많은 시장에서 진바에 대한 수요가 높으며; 살아있는 뱀은 높은 가격에 거래되지만, 진바 알은 특히 귀중합니다. 사육된 진바는 야생보다 순종적이며 감금 상태에서 먹이를 먹는 경향이 있기 때문입니다. 그들의 신비로움은 그러나 많은 사람들이 대신 그들의 굴을 찾으려고 합니다. 이 굴은 원격 습지나 물 근처의 지하 동굴에 위치한 큰 물웅덩이입니다. 진바의 물웅덩이 물은 약간의 치유 효과를 지니지만, 굴에서 물을 빼면 몇 시간 후 치유 효과가 사라지기 때문에, 굴을 발견한 대부분의 사람들은 즉시 이를 활용하려고 시도합니다.</p>\n<p>굴을 찾는 것 자체가 어려운 일입니다. 진바는 동물 중에서도 특히 지능이 높아 선호하는 은신처 근처의 여행자 흔적을 인식할 수 있기 때문입니다. 위험 신호가 감지되면 진바는 굴을 무너뜨리고 다른 곳으로 도망쳐 새로운 굴을 만듭니다.</p>",
+      "languages": "(can't speak any language)",
+      "items": {
+        "QSi2DdjTxOroNGWQ": {
+          "name": "Jaws"
+        },
+        "SlxxoCfG3DRyP0Ay": {
+          "name": "Tail"
+        },
+        "Pdcp2VD4aE0psFww": {
+          "name": "코일을 조입니다 (Tighten Coils)",
+          "description": "<p><strong>트리거</strong> 진바에 의해 잡히거나 제압된 생물은 탈출을 시도합니다</p>\n<hr />\n<p><strong>효과</strong> 탈출 체크 DC가 2 증가합니다.</p>"
+        },
+        "8C3dwNbdW7Ck8njn": {
+          "name": "강화된 압박 (Greater Constrict)",
+          "description": "<p>@Damage[(2d10+6)[bludgeoning]] damage, @Check[fortitude|dc:29|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.GreaterConstrict]</p>"
+        },
+        "Vxy96kPKk88gz9Qe": {
+          "name": "미끄러지다 (Slither)",
+          "description": "<p>진바는 자신의 속도의 절반까지 달리고, 올라가거나 헤엄치며, 잡은 생물들을 끌고 갑니다.</p>"
+        },
+        "J32aRTXCa9FxIRIH": {
+          "name": "통째로 삼키기 (Swallow Whole)",
+          "description": "<p>중형, @Damage[(2d10+6)[bludgeoning]] 피해, 파열 23</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
+        },
+        "BibTvmqNq8t4WsxM": {
+          "name": "Zinba Restoration",
+          "description": "<p>진바는 도달 범위 내의 생물을 물고 맹독 대신 회복 치료제를 전달합니다. 해당 생물은 @Damage[1[piercing]]의 피해를 입지만, 그 후 1분 동안 빠른 회복 5를 얻습니다.</p>\n<p>또한, 회복 치료제는 해당 생물에게 영향을 미치는 독이나 질병에 대해 [[/r 1d20+22]]{+22}의 반격 수정자를 가진 반격 체크를 시도합니다.</p>\n<p>회복 효과를 받은 생물은 24시간 동안 진바의 회복 효과에 일시적으로 면역됩니다.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.dslTaCkliOH5lZ6k]{효과: 진바 회복}</p>"
+        },
+        "Pcwj9EhvjUW2YzwX": {
+          "name": "Zinba Venom",
+          "description": "<p><strong>Saving Throw</strong> @Check[fortitude|dc:29]</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>단계 1</strong> @Damage[3d6[poison]] 피해 (1 라운드)</p>\n<p><strong>단계 2</strong> @Damage[4d6[poison]] 피해와 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{체력 1 흡수}</p>"
+        },
+        "xi4Es6L6Nk3JiPqx": {
+          "name": "잡기 (Grab)"
+        },
+        "Y6s9VOKh7c0ctUPT": {
+          "name": "10피트 밀기 (Push 10 feet)"
+        }
+      }
+    },
+    "Kaava Stalker": {
+      "name": "카바 추적자 (Kaava Stalker)",
+      "description": "<p>카바 사냥 무리는 수십 마리로 구성될 수 있지만, 숲에 쉽게 녹아들며 이동 흔적을 모두 지웁니다. 커뮤니티 장로들은 사냥 무리에 식량 회수나 침입자 퇴치 등 다양한 임무를 할당하지만, 무리들은 이를 자신의 판단에 따라 수행해야 합니다.</p>\n<hr />\n<p>카바는 짧은 깃털을 가진 정글에 사는 인간형 생물로, 멀리서 보면 털로 착각하기 쉽습니다. 이 깃털 아래에는 단단한 비늘이 있으며, 비늘과 깃털 모두 변색이 가능해 카멜레온처럼 주변 식물과 융합할 수 있습니다.</p>",
+      "items": {
+        "cJG6eTtw6fybvkU1": {
+          "name": "낫 (Sickle)"
+        },
+        "9G5eprAsQmphgOR0": {
+          "name": "이빨 (Jaws)"
+        },
+        "bTQcoDwvxBEcR9n7": {
+          "name": "창 (Spear)"
+        },
+        "y8uixHmSwKHiGGut": {
+          "name": "흔적 없음 (Trackless)",
+          "description": "<p>카바가 이동 속도의 절반 이하로 움직일 때 발자국을 거의 남기지 않습니다. 카바를 추적하는 체크 DC는 10 증가합니다.</p>"
+        },
+        "aj4svCLsqg6Kl49n": {
+          "name": "숨어 공격 (Skulking Attack)",
+          "description": "<p>카바 추적자가 자신의 턴을 시작할 때 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨겨진} 상태이거나 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{발견되지 않은} 상태인 경우, 해당 생물은 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 되어 카바의 공격에 대해 방어 태세가 해제된 상태로 해당 턴이 끝날 때까지 유지됩니다.</p>"
+        }
+      },
+      "StealthVariants": {
+        "0": {
+          "label": "숲이나 정글에서"
+        }
+      }
+    },
+    "Eloko": {
+      "name": "엘로코 (Eloko)",
+      "description": "<p>빌로코가 마법사나 다른 선천적 마법 능력을 가진 생물을 여러 마리 섭취할 만큼 운이 좋다면, 1주 동안 점차적인 변형을 겪습니다. 이러한 페이는 엘로코로 알려져 있으며, 빌로코 기준으로도 놀라운 식욕 외에도 초자연적인 능력을 통해 엄청난 크기로 성장할 수 있습니다.</p>\n<hr />\n<p>빌로코는 망기 정글을 배회하며 인간형 생물의 고기를 먹이로 삼는 악어 코를 가진 페이입니다. 재치와 잔인함을 겸비한 빌로코는 치명적인 함정과 게릴라 사냥 전술을 사용해 사냥감을 포획합니다. 주로 무고한 탐험가나 가끔은 길을 잃은 마을 주민들이 희생양이 되며, 많은 이들은 빌로코를 잔인한 조상 영혼으로 믿습니다. 이 중 가장 강력한 존재인 엘로코는 강력한 변신 마법을 사용합니다.</p>\n<p>빌로코스는 종을 좋아하며, 종소리는 그들의 존재를 알리는 신호입니다. 사냥 중에는 종을 들고 흔들며, 때로는 강력한 마법으로 종을 마법으로 걸어두거나, 줄에 매달아 캠프의 경보 장치로 사용하기도 합니다.</p>\n<p>빌로코스는 가늘지만 튼튼한 인간형 생물로, 악어 같은 머리와 녹슨 색의 피부, 피처럼 붉은 눈을 가지고 있습니다. 그들은 인간형 생물의 고기만을 먹지만, 하지만 뱀 같은 능력으로 중간 크기의 인간형 생물을 통째로 삼킬 수 있어 단 한 끼로도 장시간 생존할 수 있습니다. 이들은 턱을 분리해 피해자를 머리부터 발끝까지 천천히 삼키며, 산성 타액과 날카로운 이빨로 음식을 소화하기 쉬운 퓌레로 분쇄합니다. 심지어 삼키는 동안에도 살과 뼈를 씹어 뭉친 퓌레로 만들 수 있습니다; 따라서 자신보다 두세 배 큰 식사를 삼킬 때도 움찔하지 않습니다.</p>\n<p>최근에 먹은 빌로코는 처진 배로 쉽게 구분할 수 있습니다. 그러나 그들의 느린 움직임에도 불구하고, 이 요정은 결코 덜 위험하지 않습니다. 그들은 살인을 즐기며, 근처에 배고픈 동료들이 숨어 있어 먹이를 기다리고 있을 수 있습니다.</p>",
+      "items": {
+        "HS2K7FagxIukdgY0": {
+          "name": "턱 (Jaws)"
+        },
+        "R8eOc6d3csgtd2S1": {
+          "name": "단검 (Dagger)"
+        },
+        "ZJ4VXfHFBFSDQBu3": {
+          "name": "Dagger"
+        },
+        "HaiCjx3LddeWTUTo": {
+          "name": "Blowgun"
+        },
+        "paoFQRpD7yc48lgn": {
+          "name": "Inspired Feast",
+          "description": "<p>빌로코가 인간 시체에서 1분 이상 식사를 하면, 1시간 동안 공격 굴림에 +1 상태 보너스와 피해 굴림에 +2 상태 보너스를 얻습니다.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.EM0VP31B8CyjFD15]{효과: 영감받은 잔치}</p>"
+        },
+        "Qm04XnmcECPmSr9k": {
+          "name": "크기 변환 (Size Alteration)",
+          "description": "<p>엘로코는 4등급 @UUID[Compendium.pf2e.spells-srd.Item.wzctak6BxOW8xvFV]{확대} 마법에 영향을 받습니다. 이 효과는 1분 동안 지속되며, 엘로코는 마법을 해제할 수 있습니다.</p>"
+        },
+        "aCFzrVFHI5hMNIww": {
+          "name": "Sneak Attack",
+          "description": "<p>엘로코는 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태의 생물에게 2d6 추가 정밀도 피해를 입힙니다.</p>"
+        }
+      }
+    },
+    "Biloko Warrior": {
+      "name": "빌로코 전사 (Biloko Warrior)",
+      "description": "<p>빌로코는 어두운 고립된 숲의 구역에서 작은 무리로 은밀하게 이동합니다. 빌로코 무리가 적합한 사냥터를 발견하면 해당 지역을 독점적으로 차지하며, 구덩이 함정을 파고 덩굴로 올가미를 만들고 나무 위에 숨을 수 있는 은신처를 건설합니다.</p>\n<hr />\n<p>빌로코는 크로코다일 같은 주둥이를 가진 요정으로, Mwangi 정글을 배회하며 인간형 생물의 고기를 먹이로 삼습니다. 재치와 잔인함을 겸비한 빌로코스는 치명적인 함정과 게릴라 사냥 전술을 사용해 사냥감을 포획합니다. 주로 무방비한 탐험가나 가끔은 길을 잃은 마을 주민들이 표적이 되며, 많은 이들은 빌로코스를 잔인한 조상 영혼으로 믿습니다. 이 생물 중 가장 강력한 존재인 엘로코스는 강력한 변신 마법을 사용합니다.</p>\n<p>빌로코스는 종을 좋아하며, 종소리는 그들의 존재를 알리는 신호입니다. 사냥 중에는 종을 들고 흔들며, 때로는 강력한 마법으로 종을 마법으로 걸어두거나 줄에 매달아 캠프의 경보 장치로 사용합니다.</p>\n<p>빌로코스는 가늘지만 튼튼한 인간형 생물로, 악어 같은 머리와 녹슨 색의 피부, 피처럼 붉은 눈을 가지고 있습니다. 그들은 인간형 생물의 고기만을 먹지만, 뱀 같은 능력으로 중간 크기의 인간형 생물을 통째로 삼킬 수 있어 단 한 번의 식사로도 장기간 생존할 수 있습니다. 이를 위해 턱을 분리하고 피해자를 머리부터 발끝까지 천천히 삼킵니다. 산성 타액과 날카로운 이빨로 인해 빌로코는 음식을 소화하기 쉬운 퓌레로 씹어낼 수 있으며, 삼키는 동안에도 살과 뼈를 밀가루처럼 곱게 갈아냅니다. 따라서 자신보다 두세 배 큰 식사를 삼킬 때도 움찔하지 않습니다.</p>\n<p>최근에 먹은 빌로코는 처진 배로 쉽게 구분할 수 있습니다. 그러나 느린 움직임에도 불구하고, 이 요정은 여전히 위험하며, 살인을 즐기며 근처에 배고픈 동료들이 숨어 있어 먹이를 기다리고 있을 수 있습니다.</p>",
+      "cadetails": "(방패를 든 18마리)",
+      "items": {
+        "JbwMg2BBvURlzLdX": {
+          "name": "이빨 (Jaws)"
+        },
+        "rQUeALtgRWTTwU1P": {
+          "name": "창 (Spear)"
+        },
+        "IDeS7HR5rJH6G6Dn": {
+          "name": "창 (Spear)"
+        },
+        "ZS2Z05Guj9JmlrVd": {
+          "name": "방패 방어 (Shield Block)"
+        },
+        "XDCJ3PGz2z4zo3Fo": {
+          "name": "영감받은 잔치 (Inspired Feast)",
+          "description": "<p>빌로코가 인간 시체에서 1분 이상 잔치를 벌이면, 1시간 동안 공격 굴림에 +1 상태 보너스와 피해 굴림에 +2 상태 보너스를 얻습니다.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.EM0VP31B8CyjFD15]{Effect: Inspired Feast}</p>"
+        }
+      }
+    },
+    "Biloko Veteran": {
+      "name": "빌로코 베테랑 (Biloko Veteran)",
+      "description": "<p>성공적인 사냥을 충분히 이끌어낸 빌로코는 동료들로부터 존경(과 두려움)을 얻습니다.</p>\n<hr />\n<p>빌로코는 Mwangi 정글을 배회하며 인간형 생물의 고기를 먹이로 삼는 악어 코를 가진 페이입니다. 재치와 잔인함을 겸비한 이들은 치명적인 함정과 게릴라 사냥 전술을 사용해 사냥감을 포획합니다. 주로 무방비한 탐험가나 가끔은 길을 잃은 마을 주민들이 표적이 되며, 많은 이들은 빌로코를 잔인한 조상 영혼으로 믿습니다. 이 생물들 중 가장 강력한 존재인 엘로코스는 강력한 변신 마법을 사용합니다.</p>\n<p>빌로코스는 종을 좋아하며, 종의 소리는 그들의 존재를 알리는 신호입니다. 사냥 중에는 종을 들고 흔들며, 때로는 강력한 마법으로 종을 마법으로 걸어두거나 줄에 걸어 캠프의 경보 장치로 사용합니다.</p>\n<p>빌로코스는 가늘지만 튼튼한 인간형 생물로, 악어 같은 머리와 녹슨 색깔의 피부, 피처럼 붉은 눈을 가지고 있습니다. 그들은 인간형 생물의 고기만을 먹지만, 뱀 같은 능력으로 중간 크기의 인간형 생물을 통째로 삼킬 수 있어 단 한 끼로도 장시간 생존할 수 있습니다. 이를 위해 턱을 분리하고 피해자를 머리부터 발끝까지 천천히 삼킵니다. 산성 타액과 날카로운 이빨로 인해 빌로코는 음식을 소화하기 쉬운 퓌레로 씹어낼 수 있으며, 삼키는 동안에도 살과 뼈를 밀가루처럼 곱게 갈아냅니다. 따라서 자신보다 두세 배 큰 식사를 삼킬 때도 움찔하지 않습니다.</p>\n<p>최근에 먹이를 먹은 빌로코는 처진 배로 쉽게 구분할 수 있습니다. 그러나 느린 움직임에도 불구하고, 이 요정은 여전히 위험하며, 살인을 즐기며 근처에 배고픈 동료들이 숨어 있어 먹이를 기다리고 있을 수 있습니다.</p>",
+      "items": {
+        "2IlYOWVCX2TfmEcN": {
+          "name": "이빨 (Jaws)"
+        },
+        "sPkpudP9OSY9jDE7": {
+          "name": "장창 (Longspear)"
+        },
+        "MFbGTQDbPN1fqij6": {
+          "name": "단궁 (Shortbow)"
+        },
+        "xuwxzfEavsTyRQX2": {
+          "name": "기회 공격 (Attack of Opportunity)"
+        },
+        "u74JAOvwMJtUTYIo": {
+          "name": "영감받은 잔치 (Inspired Feast)",
+          "description": "<p>빌로코가 인간 시체에 1분 이상 먹이를 먹으면, 1시간 동안 공격 굴림에 +1 상태 보너스와 피해 굴림에 +2 상태 보너스를 얻습니다.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.EM0VP31B8CyjFD15]{Effect: Inspired Feast}</p>"
+        },
+        "6mxWk9oM7RspRKLc": {
+          "name": "Swipe",
+          "description": "<p>베테랑은 근접 공격을 수행하고, 공격 롤 결과를 최대 두 명의 적의 AC와 비교합니다. 각 적은 베테랑의 근접 범위 내에 있으며 서로 인접해 있어야 합니다. 피해 굴림은 한 번만 수행하고, 맞은 각 생물에게 적용합니다.</p>\n<p>스위프는 베테랑의 다중 공격 페널티에 두 번의 공격으로 계산됩니다.</p>"
+        }
+      }
+    },
+    "Maliadi": {
+      "name": "말리아디 (Maliadi)",
+      "description": "<p>말리아디는 불꽃으로 둘러싸인 거대한 하마와 유사합니다. 말리아디는 교만하고 독재적이며, 만나는 모든 이들에게-독행자든 전체 마을이든-파괴를 피하기 위해 공물을 요구합니다. 많은 사람들이 그들에게 뇌물을 바칩니다. 말리아디는 불꽃으로 둘러싸인 목의 일부를 던져 불의 분수나 불의 벽을 만들 수 있으며, 강력한 변신 능력도 가지고 있습니다.</p>",
+      "items": {
+        "B5JZXq3ugCwVNY5I": {
+          "name": "턱 (Jaws)"
+        },
+        "tyMNSMyHuAJTj3oz": {
+          "name": "발 (Foot)"
+        },
+        "kPYpreLipQjheZzj": {
+          "name": "깊은 숨 (Deep Breath)",
+          "description": "<p>말리아디는 숨을 1일 동안 참을 수 있습니다.</p>"
+        },
+        "ivuFT4BbZ4OnFdby": {
+          "name": "지속적인 마법 (Constant Spells)"
+        },
+        "JmuzVgN41rKZWAEP": {
+          "name": "불의 목걸이 (Collar of Fire)",
+          "description": "<p>말리아디는 화염 목걸이를 통해 마법적으로 편향되는 화살, 화살촉, 창, 투척된 돌 등 물리적 원거리 공격에 대해 20의 저항력을 가집니다.</p>\n<p>이 능력에 영향을 받은 마법이 아닌 무기와 탄약은 소각되어 파괴됩니다.</p>"
+        },
+        "GCzfafuOop1VOwxg": {
+          "name": "반마법 벽 (Counterspelling Wall)",
+          "description": "<p><strong>트리거</strong> 말리아디가 볼 수 있는 범위 내 100피트 이내에 있는 생물이 말리아디를 대상으로 하는 주문을 시전합니다.</p>\n<hr />\n<p><strong>효과</strong> 말리아디는 자신의 본능적인 @UUID[Compendium.pf2e.spells-srd.Item.IarZrgCeaiUqOuRu]{불의 벽} 주문을 하나 발동합니다. 지속 시간은 1 라운드입니다.</p>\n<p>이 반응을 유발한 주문이 불의 벽을 통과하면, 벽은 이를 반격하려고 시도하며, 반격 수정자는 [[/r 1d20+28]]{+28}입니다.</p>"
+        },
+        "lzXJgjHA96IOH3zF": {
+          "name": "전복 (Capsize)",
+          "description": "<p>말리아디는 인접한 수중 선박 중 자신과 같은 크기나 더 작은 선박을 전복시키려고 시도합니다.</p>\n<p>말리아디는 @Check[athletics|dc:35] 체크(선박의 크기가 말리아디보다 작을 때마다 5씩 감소) 또는 선장의 항해 로어 DC 중 높은 쪽을 성공해야 합니다.</p>"
+        },
+        "kvJNya3qy945t3jp": {
+          "name": "형태 변경 (Change Shape)",
+          "description": "<p>말리아디는 대형, 초대형, 또는 거대 동물로 변신할 수 있습니다. 이 변신은 속도나 공격 횟수를 변경하지 않습니다.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
+        },
+        "fkAJ3wwmp65qoaGo": {
+          "name": "강 형태 (River Form)",
+          "description": "<p>말리아디는 강 구간으로 변신하며, @UUID[Compendium.pf2e.spells-srd.Item.U0hL0LLaprcnAyzC]{이동}의 효과를 갖지만, 말리아디는 자신에게만 영향을 미치며, 흐르는 강 구간으로 나타나 말리아디와 동일한 공간을 차지하며, 지면을 떠날 수 없습니다.</p>"
+        },
+        "Ias9P7r19TNysvO6": {
+          "name": "삼키기 (Swallow Whole)",
+          "description": "<p>거대, @Damage[(3d10+17)[bludgeoning]] 피해, 파열 35</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
+        },
+        "zltKri0RdONGiYzp": {
+          "name": "Trample",
+          "description": "<p>거대하거나 더 작은, 발, @Check[reflex|dc:38|traits:damaging-effect]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Trample]</p>"
+        },
+        "8jzHYf5Au02zQV5j": {
+          "name": "개선된 잡기 (Improved Grab)"
+        }
+      }
+    }
+  },
+  "mapping": {
+    "description": "system.details.publicNotes",
+    "gm": "system.details.privateNotes",
+    "blurb": "system.details.blurb",
+    "cadetails": "system.attributes.ac.details",
+    "hpdetails": "system.attributes.hp.details",
+    "languages": "system.details.languages.details",
+    "perception": "system.perception.details",
+    "saves": "system.attributes.allSaves.value",
+    "speeds": "system.attributes.speed.details",
+    "desc (hazard)": "system.details.description",
+    "disable": "system.details.disable",
+    "reset": "system.details.reset",
+    "routine": "system.details.routine",
+    "stealth": "system.attributes.stealth.details",
+    "target": "system.target.value",
+    "items": {
+      "path": "items",
+      "converter": "translateActorItems"
+    },
+    "AcrobaticsVariants": {
+      "path": "system.skills.acrobatics.special",
+      "converter": "translateSkillVariants"
+    },
+    "ArcanaVariants": {
+      "path": "system.skills.arcana.special",
+      "converter": "translateSkillVariants"
+    },
+    "AthleticsVariants": {
+      "path": "system.skills.athletics.special",
+      "converter": "translateSkillVariants"
+    },
+    "CraftingVariants": {
+      "path": "system.skills.crafting.special",
+      "converter": "translateSkillVariants"
+    },
+    "DeceptionVariants": {
+      "path": "system.skills.deception.special",
+      "converter": "translateSkillVariants"
+    },
+    "DiplomacyVariants": {
+      "path": "system.skills.diplomacy.special",
+      "converter": "translateSkillVariants"
+    },
+    "IntimidationVariants": {
+      "path": "system.skills.intimidation.special",
+      "converter": "translateSkillVariants"
+    },
+    "MedicineVariants": {
+      "path": "system.skills.medicine.special",
+      "converter": "translateSkillVariants"
+    },
+    "NatureVariants": {
+      "path": "system.skills.nature.special",
+      "converter": "translateSkillVariants"
+    },
+    "OccultismVariants": {
+      "path": "system.skills.occultism.special",
+      "converter": "translateSkillVariants"
+    },
+    "PerformanceVariants": {
+      "path": "system.skills.performance.special",
+      "converter": "translateSkillVariants"
+    },
+    "ReligionVariants": {
+      "path": "system.skills.religion.special",
+      "converter": "translateSkillVariants"
+    },
+    "SocietyVariants": {
+      "path": "system.skills.society.special",
+      "converter": "translateSkillVariants"
+    },
+    "StealthVariants": {
+      "path": "system.skills.stealth.special",
+      "converter": "translateSkillVariants"
+    },
+    "SurvivalVariants": {
+      "path": "system.skills.survival.special",
+      "converter": "translateSkillVariants"
+    },
+    "ThieveryVariants": {
+      "path": "system.skills.thievery.special",
+      "converter": "translateSkillVariants"
+    }
+  }
+}

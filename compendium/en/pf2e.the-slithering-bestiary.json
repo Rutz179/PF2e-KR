@@ -1,11 +1,19 @@
 {
-  "label": "The Slithering",
+  "label": "pf2e.the-slithering-bestiary",
   "entries": {
     "Croakchief Globblit Skink-eater": {
       "name": "Croakchief Globblit Skink-eater",
-      "description": "",
-      "hpdetails": "",
+      "speeds": "swamp stride",
       "items": {
+        "20s5xwmmUrVZXQGk": {
+          "name": "Greatclub"
+        },
+        "gaqgJOkS4fe1hBAv": {
+          "name": "Tongue"
+        },
+        "JArJm7Gb1nXV88dp": {
+          "name": "Javelin"
+        },
         "9KFtQW1EMEigUmiV": {
           "name": "Bounding Leap",
           "description": "<p>Globblit @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{Leaps} twice; this movement doesn't provoke reactions. If he ends his movement within melee reach of at least one enemy, he can make a melee Strike against that enemy.</p>"
@@ -25,14 +33,24 @@
         "S3GpERUDI1eSnKFX": {
           "name": "Tongue Grab",
           "description": "<p>If Globblit hits a creature with his tongue, that creature becomes @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} by him. Unlike a normal grab, the creature isn't @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized}, but it can't move beyond the reach of Globblit's tongue.</p>\n<p>A creature can sever the tongue by succeeding at an AC 18 Strike and dealing at least 6 slashing damage. Though this doesn't deal any damage to Globblit, it prevents him from using his tongue Strike until it regrows, which takes a week.</p>"
+        },
+        "oeYKwhlmgcXjLNhA": {
+          "name": "Swamp Lore"
         }
       }
     },
     "Aspis Technician": {
       "name": "Aspis Technician",
-      "description": "",
-      "hpdetails": "",
       "items": {
+        "djr3DCK9SyrtAEMu": {
+          "name": "Rapier"
+        },
+        "AnEOzRaYxcafZL1X": {
+          "name": "Acid Flask"
+        },
+        "DmC596bzLG6sbySE": {
+          "name": "Alchemist's Fire"
+        },
         "q130PaxstauzJP9k": {
           "name": "Infused Items",
           "description": "<p>An Aspis technician carries the following infused items:</p>\n<ul>\n<li>2 - @UUID[Compendium.pf2e.equipment-srd.Item.ktjFOp3U0wQD9t0Z]{Lesser Antidotes}</li>\n<li>2 - @UUID[Compendium.pf2e.equipment-srd.Item.SgtqZxt26BdjUmEB]{Moderate Acid Flasks}</li>\n<li>2 - @UUID[Compendium.pf2e.equipment-srd.Item.gWr4q4HiyGhETA8H]{Moderate Alchemist's Fires}</li>\n<li>2 - @UUID[Compendium.pf2e.equipment-srd.Item.TZUskLT7yvP7N2co]{Lesser Elixirs of Life}</li>\n</ul>\n<p>These items last for 24 hours or until the next time the technician makes their daily preparations.</p>"
@@ -52,25 +70,37 @@
         "54RP2fDqmOErvH6M": {
           "name": "Sneak Attack",
           "description": "<p>The Aspis technician deals an extra 2d6 precision precision damage to @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} creatures.</p>"
+        },
+        "6YXq2jFHzFt5asYY": {
+          "name": "Aspis Consortium Lore"
         }
       }
     },
     "Aspis Guard": {
       "name": "Aspis Guard",
-      "description": "",
-      "hpdetails": "",
+      "speeds": "unburdened iron",
       "items": {
+        "PjrxNxvYYwSeE4mc": {
+          "name": "Battle Axe"
+        },
+        "zTcg1Ycv5amzrasg": {
+          "name": "Dagger"
+        },
+        "pyAEAdB7VBq7RSb5": {
+          "name": "Dagger"
+        },
+        "gJAVtOubM33rYN5I": {
+          "name": "Crossbow"
+        },
         "aj9xWzicWkb94nWu": {
-          "name": "Attack of Opportunity",
-          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>"
+          "name": "Attack of Opportunity"
         },
         "eyIsTZFeRLHCjdCl": {
           "name": "Bravery",
           "description": "<p>When the guard rolls a success on a Will save against a fear effect, they get a critical success instead. In addition, any time they gain the @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened} condition, reduce its value by 1.</p>"
         },
         "F4gVsdAonp1xmlhG": {
-          "name": "Shield Block",
-          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ShieldBlock]</p>"
+          "name": "Shield Block"
         },
         "koz2XaLl9upQ6tP4": {
           "name": "Powerful Swing",
@@ -79,14 +109,85 @@
         "KD228pTR8seugdVW": {
           "name": "Unburdened Iron",
           "description": "<p>The guard ignores Speed reduction from armor. In addition, any time the guard takes a penalty to their Speed, deduct 5 feet from the penalty.</p>"
+        },
+        "bv3Ek49Xr06NrhMR": {
+          "name": "Aspis Consortium Lore"
+        }
+      }
+    },
+    "Angazhan's Rake Trap": {
+      "name": "Angazhan's Rake Trap",
+      "desc (hazard)": "<p>Six metal talons concealed in the walls swing out and rake across the room.</p>",
+      "disable": "<p>@Check[thievery|dc:25|name:Disable a Talon|traits:action:disable-a-device] (expert) to disable each talon</p>",
+      "reset": "<p>The trap resets after 1 minute.</p>",
+      "stealth": "<p>(expert)</p>",
+      "items": {
+        "ekyAVhOS1kB49Mgy": {
+          "name": "Raking Strike",
+          "description": "<p><strong>Trigger</strong> one of the pressure plates is depressed</p>\n<hr />\n<p><strong>Effect</strong> Six talons swing out from the walls, each striking a different random creature in the room. No creature can be struck by more than one talon until every creature in the room has been attacked by at least one talon.</p>"
+        },
+        "gojRpM3TkqCZ6AP8": {
+          "name": "Talon",
+          "description": "<p>No multiple attack penalty.</p>"
+        }
+      }
+    },
+    "Scroll Shock Trap": {
+      "name": "Scroll Shock Trap",
+      "hpdetails": "See Symbol and Panel Stats",
+      "desc (hazard)": "<p>Five scroll symbols shoot electricity bolts around the room.</p>",
+      "disable": "<p>@Check[thievery|dc:25|name:Counteract Magic|traits:action:disable-a-device] (expert) or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (3rd rank; counteract DC 24)</p>\n<p>@Check[thievery|dc:29|name:Disable Trap (Control Panel)|traits:action:disable-a-device] (master) to disable the entire trap from the hidden control panel beneath the central slab.</p>",
+      "reset": "<p>The trap deactivates 1 round after it has no target creatures and resets after 1 minute.</p>",
+      "routine": "<p>(5 actions) Each disabled symbol reduces the trap's number of actions by 1.</p>\n<p>For each of its actions, a different symbol shoots an electricity bolt at a random creature in the room. The trap doesn't take multiple attack penalties.</p>",
+      "stealth": "<p>(expert) or @Check[perception|dc:29|traits:action:seek] (expert) to spot the control panel</p>",
+      "items": {
+        "YKm4JByteFxgMLrc": {
+          "name": "Symbol Stats (Each)",
+          "description": "<p><strong>Hardness</strong> 16</p>\n<p><strong>HP</strong> 64 (BT 32)</p>\n<p><strong>Resistances</strong> Electricity 15</p>\n<p><strong>Immunities</strong> Critical Hits, Object Immunities, Precision Damage</p>"
+        },
+        "y1EDMIPZrSGC7wRz": {
+          "name": "Control Panel Stats",
+          "description": "<p><strong>Hardness</strong> 18</p>\n<p><strong>HP</strong> 72 (BT 36)</p>\n<p><strong>Resistances</strong> Electricity 15</p>\n<p><strong>Immunities</strong> Critical Hits, Object Immunities, Precision Damage</p>"
+        },
+        "enJ4VkXbDUV56rwT": {
+          "name": "Reactive Charge",
+          "description": "<p><strong>Trigger</strong> A creature without an Aspis Consortium badge approaches within 5 feet of a slab</p>\n<hr />\n<p><strong>Effect</strong> Both double doors leading out of the room shut and lock. While the trap is active, the doors must be battered open (Hardness 18; Panel HP 72 [BT 36]; @Check[athletics|dc:29|name:Batter Down Doors|traits:action:force-open] to @UUID[Compendium.pf2e.actionspf2e.Item.SjmKHgI7a5Z9JzBx]{Force Open}). The closest symbol to the triggering creature shoots an electricity bolt attack at it. The trap then rolls initiative.</p>"
+        },
+        "r4GLtMTPNISHccTL": {
+          "name": "No Multiple Attack Penalty"
+        },
+        "GKCraZhfHY73oosv": {
+          "name": "Electrical Bolt"
+        }
+      }
+    },
+    "Stalker Summoning Rune": {
+      "name": "Stalker Summoning Rune",
+      "desc (hazard)": "<p>The sand conceals a rune that summons an invisible stalker into this yard.</p>",
+      "disable": "<p>@Check[acrobatics|dc:25|name:Approach Rune] to approach without triggering the trap followed by @Check[arcana|dc:25|name:Erase Rune] (expert) or @Check[thievery|dc:27|name:Erase Rune|traits:action:disable-a-device] (expert) to erase the rune, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (4th rank; counteract DC 25) to counteract the rune</p>",
+      "reset": "<p>The trap resets after 24 hours.</p>",
+      "stealth": "<p>(expert)</p>",
+      "items": {
+        "BpGTOxzPDky6DhhE": {
+          "name": "Summon Monster",
+          "description": "<p><strong>Trigger</strong> A creature that isn't openly bearing an Aspis Consortium badge crosses the center of the yard</p><hr /><p><strong>Effect</strong> The trap summons an @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.HKXa9E91WLy6dAZA]{Invisible Stalker}. The invisible stalker rolls initiative and remains for [[/gmr 2d6 #rounds]]{2d6 rounds}, after which the spell ends and the invisible stalker disappears. The invisible stalker also disappears if someone disables the trap before the duration expires.</p>\n<p>The invisible stalker can use 3 actions each round and can use reactions, unlike most summoned creatures.</p>"
         }
       }
     },
     "Paga Nikohian": {
       "name": "Paga Nikohian",
-      "description": "",
-      "hpdetails": "",
+      "blurb": "Female halfling Aspis silver agent",
+      "perception": "keen eyes",
       "items": {
+        "WKIFBo0eRmZ1W3ZQ": {
+          "name": "Slime Whip"
+        },
+        "IlWKl19AMjb0wKSS": {
+          "name": "Dagger"
+        },
+        "VXibStVptgeqYJHW": {
+          "name": "Dagger"
+        },
         "Nyl6q47yoCS2hMGf": {
           "name": "Keen Eyes",
           "description": "<p>Paga gains a +2 circumstance bonus when using the @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} action to find @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} or @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{Undetected} creatures within 30 feet of her.</p>\n<p>When she targets an opponent that is @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealed} from her or hidden, she reduces the DC of the flat check to @Check[flat|dc:3] for a concealed target or @Check[flat|dc:9] for a hidden one.</p>"
@@ -102,14 +203,19 @@
         "i8YSE30xTgZRMBV9": {
           "name": "Unbreakable Concentration",
           "description": "<p>Paga's spells are disrupted by reactions only if she is critically hit.</p>"
+        },
+        "1RfDZ8raYURfP891": {
+          "name": "Aspis Consortium Lore"
         }
       }
     },
     "Cursebreaker": {
       "name": "Cursebreaker",
-      "description": "",
-      "hpdetails": "",
+      "blurb": "Variant stone golem",
       "items": {
+        "PqRogFZRMSDSuBh2": {
+          "name": "Fist"
+        },
         "BIFXG8tlrggVbQZ0": {
           "name": "Golem Antimagic",
           "description": "<p>Harmed by cold and water (@Damage[5d8[untyped]], @Damage[2d6[untyped]] from areas or persistent damage); healed by acid (area @Damage[2d6[healing]] HP); slowed by earth</p><hr /><p>@Localize[PF2E.NPC.Abilities.Glossary.GolemAntimagic]</p>"
@@ -133,33 +239,53 @@
         "rl2d3yDbUo9Wxxil": {
           "name": "Undo Curse",
           "description": "<p>Cursebreaker can cast a 10th-rank @UUID[Compendium.pf2e.spells-srd.Item.SUKaxVZW2TlM8lu0]{Cleanse Affliction} spell at will, targeting every resident of the city of Kibwe. Cursebreaker must be stationed in the upper level of the Archive of the Sun with its sun symbols activated to use this ability.</p>"
+        },
+        "GVVKOsZuVemnbHBU": {
+          "name": "Kibwe Lore"
         }
       }
     },
     "Angazhani Cultist": {
       "name": "Angazhani Cultist",
-      "description": "",
-      "hpdetails": "",
       "items": {
+        "PLRq9zcxBdNsG42H": {
+          "name": "Spear"
+        },
+        "A5u30htgkNCqE7Pl": {
+          "name": "Spear"
+        },
         "pTekS4C4K3Du058G": {
           "name": "Bloody Fanaticism",
           "description": "<p><strong>Trigger</strong> The cultist rolls a failure (but not a critical failure) on a Will save against an effect with the mental or fear trait</p>\n<hr />\n<p><strong>Effect</strong> The cultist takes @Damage[2d8[mental]] damage, and the saving throw is a success.</p>"
         },
         "rw3IP1MVTvOslgEM": {
-          "name": "Shield Block",
-          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ShieldBlock]</p>"
+          "name": "Shield Block"
         },
         "fPpIcm2oqCp5ZV1O": {
           "name": "Demonic Strength",
           "description": "<p>Angazhani cultists inflict an extra 1d6 damage with their spears, and any spear gains the fatal d10 trait while the cultist is using it (both the extra weapon damage die and the fatal trait have already been included in the cultist's spear Strikes above).</p>"
+        },
+        "HF5KiIttEkegCnDY": {
+          "name": "Demon Lore"
+        }
+      },
+      "DiplomacyVariants": {
+        "0": {
+          "label": "against demons"
         }
       }
     },
     "Fuming Sludge": {
       "name": "Fuming Sludge",
       "description": "<p>The slurry from alchemical experiments is often as flammable as it is toxic. In especially volatile cases, a fuming sludge can form from ignited pools of unstable alchemical runoff. It resembles a charcoal-colored slurry studded with tiny embers, and it continually emits a thin haze of accelerant that amplifies the fires it starts.</p>\n<p>A fuming sludge must consume the base chemicals of living creatures to survive and can instinctively identify the complex molecules found in most animate creatures. The first meal of many a fuming sludge is its accidental creator, but it soon moves on to hunt in lush forests or densely populated settlements. A fuming sludge can extrude a powerful pseudopod to strike its victims, but it can also eject portions of its body with peristaltic contractions. These rapidly-cooling globs of goo slow down fleeing prey, but the cold, crusty residue can also alert canny explorers to their presence.</p>",
-      "hpdetails": "",
+      "perception": "chemical sense 60 feet",
       "items": {
+        "Du91OUMOM9tEFeHW": {
+          "name": "Pseudopod"
+        },
+        "kCyXMIBiD1pCe8OY": {
+          "name": "Ejected Glob"
+        },
         "FwCskT2YJAzM7cuk": {
           "name": "Chemical Sense 60 feet",
           "description": "<p>A fuming sludge detects nearby living and undead creatures by their complex chemical compositions, but it can't detect elementals or other creatures composed of a single element.</p>"
@@ -169,8 +295,7 @@
           "description": "<p>15 feet. The fuming sludge constantly emits incendiary smoke that creates @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{Concealment} around it. The smoke doesn't impair the fuming sludge's chemical sense. A creature that enters the aura or begins its turn in the aura becomes @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} (@Check[fortitude|dc:25] negates) and cannot recover from @UUID[Compendium.pf2e.conditionitems.Item.lDVqvLKA6eF3Df60]{Persistent Fire Damage} for 1 round. It is then temporarily immune to the sickening effect of the smoldering haze for 1 minute.</p>\n<p>A creature that is currently holding its breath, that doesn't need to breathe, or that's immune to poison is immune to the aura's sickened effect but not the concealment or inability to recover from persistent fire damage.</p>"
         },
         "TviS4FKgAVZclQXJ": {
-          "name": "Attack of Opportunity",
-          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>"
+          "name": "Attack of Opportunity"
         },
         "13trzJnUCoLSgNW2": {
           "name": "Constrict",
@@ -181,19 +306,36 @@
           "description": "<p>A fuming sludge's ejected globs cling to targets.</p>\n<p>A creature hit by an ejected glob Strike is @UUID[Compendium.pf2e.conditionitems.Item.D5mg6Tc7Jzrj6ro7]{Encumbered} for 1 round.</p>\n<p>If the attack was a critical hit, the creature is instead @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} for 1 round (@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} DC 24).</p>"
         },
         "mYYUv0CwgDAzzCBO": {
-          "name": "Grab",
-          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.Grab]</p>"
+          "name": "Grab"
+        }
+      }
+    },
+    "Fiendripping Blast Trap": {
+      "name": "Fiendripping Blast Trap",
+      "desc (hazard)": "<p>A blast of energy damages all creatures within 20 feet, with particularly severe damage to fiends.</p>",
+      "disable": "<p>@Check[thievery|dc:27|name:Identify Button Sequence|traits:action:disable-a-device] (expert) to identify the proper sequence of buttons in the divots, or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (4th rank; counteract DC 25) to suppress the magical effect for 1 hour</p>",
+      "reset": "<p>The trap resets after 1 hour.</p>",
+      "stealth": "<p>(expert)</p>",
+      "items": {
+        "qnGVlOvfyHP5LeK0": {
+          "name": "Forceful Blast",
+          "description": "<p><strong>Trigger</strong> The door is touched without first pressing the correct sequence of buttons</p>\n<hr />\n<p><strong>Effect</strong> A blast of energy ripples outward from the door, dealing @Damage[4d10[force]] damage to all creatures within @Template[emanation|distance:20]{20 feet} and forcing them to make a @Check[fortitude|dc:25] save.</p>\n<p>Fiends treat the result of their saving throw as one degree worse.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> The creature takes full damage and is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}.</p>\n<p><strong>Critical Failure</strong> The creature takes double damage and is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}; while it is sickened, it's also @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1}.</p>"
         }
       }
     },
     "Nyamat Mshwe": {
       "name": "Nyamat Mshwe",
-      "description": "",
-      "hpdetails": "",
+      "blurb": "Male human cult master",
+      "perception": "(+18 to sense motive)",
       "items": {
+        "xQs97Biy7wEySTCs": {
+          "name": "Spear"
+        },
+        "LpHRMLwL7HQwhQTy": {
+          "name": "Spear"
+        },
         "0yKRnftFe83aCEEx": {
-          "name": "+2 to Sense Motive",
-          "description": ""
+          "name": "+2 to Sense Motive"
         },
         "QuRmNgkHRsoPGlzC": {
           "name": "Protect the Master",
@@ -205,22 +347,38 @@
         },
         "0Uc5vldza5NMQl4c": {
           "name": "Steady Spellcasting",
-          "description": "<p>If a would disrupt Nyamat's spellcasting action, on a successful @Check[flat|dc:15], the action isn't disrupted.</p>"
+          "description": "<p>If a reaction would disrupt Nyamat's spellcasting action, on a successful @Check[flat|dc:15], the action isn't disrupted.</p>"
+        },
+        "7QW95G6cREoyTpd1": {
+          "name": "Demon Lore"
+        }
+      },
+      "DiplomacyVariants": {
+        "0": {
+          "label": "against demons"
         }
       }
     },
     "Ahvothian": {
       "name": "Ahvothian",
       "description": "<p>Ahvothians are feral and cunning fiends from an Abyssal realm of jungles, dinosaurs, and relentless brutality. They resemble humanoid dinosaurs with narrow, fanged heads similar to raptors and solid, heavy legs like sauropods. Relentless trackers and survivalists, ahvothians are skilled at navigating jungles and are most commonly encountered stalking prey or operating out of fortified ruins. Ahvothians have an uncanny affinity with reptiles, and they often use dinosaurs-particularly carnivores such as allosauruses or deinonychuses-as hunting companions or guard animals. Although dangerous in large groups, ahvothians have such a strong desire to assert dominance over others that ahvothian armies frequently fall to infighting and bloody battles for dominance within days, or even hours. The mightiest ahvothians might lead dozens of their kin and herds of carnivorous dinosaurs.</p>",
-      "hpdetails": "",
+      "languages": "speak with animals",
+      "speeds": "freedom of movement",
       "items": {
+        "7GOoRsbrE9UaDr1e": {
+          "name": "Jaws"
+        },
+        "aXVkoRdPUFm0chi2": {
+          "name": "Longspear"
+        },
+        "Xk4mAJsQXmo4Abnd": {
+          "name": "Javelin"
+        },
         "mbsMNMc4Ko20wyxU": {
-          "name": "Constant Spells",
-          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.ConstantSpells]</p>"
+          "name": "Constant Spells"
         },
         "5I3RhiAu5JJ8xYWB": {
-          "name": "Attack of Opportunity",
-          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>"
+          "name": "Attack of Opportunity"
         },
         "E7RPGCghR7RuRFmy": {
           "name": "Reptile Master",
@@ -230,11 +388,15 @@
           "name": "Wicked Trophies",
           "description": "<p>An ahvothian chooses a creature type (such as animal, celestial, or humanoid) from which they currently carry a trophy from a past kill.</p>\n<p>Their weapon Strikes against creatures of that type deal an additional [[/r 1d10]] damage and they gain a +2 status bonus on Intimidation checks against creatures of that type.</p>\n<p>The ahvothian doesn't lose these bonuses if they lose the trophies. Once per day, an ahvothian can change the creature type of their wicked trophies in a ritual that takes 1 hour.</p>\n<p>Nearly all ahvothians encountered on the Material Plane have selected humanoids as the focus of their wicked trophies.</p>"
         }
+      },
+      "IntimidationVariants": {
+        "0": {
+          "label": "against humanoids"
+        }
       }
     }
   },
   "mapping": {
-    "name": "name",
     "description": "system.details.publicNotes",
     "gm": "system.details.privateNotes",
     "blurb": "system.details.blurb",
@@ -244,7 +406,7 @@
     "perception": "system.perception.details",
     "saves": "system.attributes.allSaves.value",
     "speeds": "system.attributes.speed.details",
-    "desc": "system.details.description",
+    "desc (hazard)": "system.details.description",
     "disable": "system.details.disable",
     "reset": "system.details.reset",
     "routine": "system.details.routine",

@@ -1,105 +1,252 @@
 {
-  "label": "Introductions",
+  "label": "Introduction",
   "entries": {
+    "Befuddled Thoughts": {
+      "name": "혼란스러운 생각 (Befuddled Thoughts)",
+      "desc (hazard)": "<p>이빨이 난 두개골 룬이 달콤한 꿀 같은 목소리로 영원한 생명을 이야기하기 시작한다.</p>",
+      "disable": "<p>@Check[religion|dc:20|name:Exorcise Spirit|traits:complex,haunt] (훈련된) 영혼을 쫓아내기 위해, @Check[religion|dc:21|name:Sever Spiritual Connection|traits:complex,haunt] 또는 @Check[occultism|dc:21|name:Sever Spiritual Connection|traits:complex,haunt] (훈련된) <em>굶주림의 부름</em>과 사원, 또는 @Check[athletics|dc:21|name:Crack the Wall|traits:complex,haunt]로 벽을 여러 곳에서 깨뜨려야 합니다. 총 3번의 성공이 필요하며, 이를 통해 유령의 출현을 차단할 수 있습니다.</p>",
+      "reset": "<p>모자이크는 모든 생물이 계단에서 보이지 않게 된 후 2 라운드 후에 루틴을 중단합니다. 6시간 후 유령 현상은 다시 발동 준비가 됩니다.</p>",
+      "routine": "<p>(3 행동) 벽에서 붉은 에너지 공이 박동하며 날아와 방 안에서 음의 에너지로 폭발합니다. 방 안에 있는 모든 사람은 @Damage[(1d10+4)[void]]의 피해를 입습니다 (@Check[reflex|dc:20|basic|name:Avoid the Energy|traits:complex,haunt,void] 내성).</p>",
+      "stealth": "<p>(훈련된)</p>",
+      "items": {
+        "7I3VRoq3OcchxAAS": {
+          "name": "Hunger's Possession",
+          "description": "<p><strong>트리거</strong> 배고픔의 부름을 지닌 살아있는 생물이 출구 계단으로부터 30피트 이내에 이동할 때</p>\n<hr />\n<p><strong>효과</strong> 생물의 정신이 흐릿하고 안개 낀 상태가 되며, 보이지 않는 목소리가 유물을 버리고 떠나라고 말한다. 생물은 @Check[will|dc:20|name:Resist Hunger's Possession|traits:haunt,complex] 내성을 시도해야 하며, 유령은 그 후 이니셔티브를 굴립니다.</p>\n<hr />\n<p><strong>대성공</strong> 대상은 영향을 받지 않습니다.</p>\n<p><strong>성공</strong> 대상은 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{눈이 부신 상태}로 1 라운드 동안 지속됩니다.</p>\n<p><strong>실패</strong> 대상은 1분 동안 눈이 부시게 됩니다.</p>\n<p><strong>대실패</strong> 대상은 정신을 잃고 다음 라운드에 <em>배고픔의 부름</em>을 바닥에 설정하고 유물에서 멀어지는 방향으로 이동 속도를 사용해야 합니다. 이로 인해 유물은 D1 지역으로 순간이동합니다. 만약 대상이 남은 행동이 있다면, 해당 행동을 잃게 됩니다. 대상의 턴이 끝날 때, 대상은 정신을 되찾습니다.</p>"
+        }
+      }
+    },
     "Ghoul (PFS Intro 2)": {
-      "name": "구울 (PFS 소개 2) (Ghoul (PFS Intro 2))",
-      "description": "<p>구울은 묘지를 떠돌며 시체를 먹는 탐욕스러운 언데드입니다. </p>\n<hr />\n<p>외로운 묘지나 폐허가 된 지하실과 같은 불길한 장소에서 구울로 알려진 육식을 하는 언데드보다 더 흔하게 볼 수 있는 생물은 거의 없습니다. </p>",
+      "name": "구울 (PFS Intro 2) (Ghoul (PFS Intro 2))",
+      "description": "<p>구울은 묘지를 배회하며 시체를 먹는 탐욕스러운 언데드입니다.</p>\n<hr />\n<p>고독한 묘지나 파괴된 묘실 같은 음산한 장소에서 구울보다 더 흔히 볼 수 있는 언데드는 없습니다.</p>",
       "hpdetails": "공허 치유",
       "items": {
+        "XJHXZOImLOORwInT": {
+          "name": "턱 (Jaws)"
+        },
+        "A97t9GcQF8k7V7By": {
+          "name": "발톱 (Claw)"
+        },
         "6fGqptenx9qEegwS": {
-          "name": "공허 치유 (Void Healing)",
-          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>"
+          "name": "공허 치유 (Void Healing)"
         },
         "Ev6vuAb8rqAKu6ss": {
           "name": "고기 섭취 (Consume Flesh)",
-          "description": "<p><strong>요구 사항</strong> 구울은 지난 1시간 이내에 죽은 생물의 시체에 인접해 있습니다. 체력을 회복합니다.</p>\n<p>주어진 시체에서 체력을 회복할 수 있는 횟수는 한 번뿐입니다."
+          "description": "<p><strong>요구 조건</strong> 구울은 지난 1시간 이내에 사망한 생물의 시체와 인접해 있습니다.</p>\n<hr />\n<p><strong>효과</strong> 구울은 시체의 일부를 먹어치우고 @Damage[1d6[healing]] 체력을 회복합니다.</p>\n<p>이 괴물은 주어진 시체에서 체력을 한 번만 회복할 수 있습니다.</p>"
         },
         "TwoYirIOl1z1WbOZ": {
-          "name": "구울의 열병 (Ghoul Fever)",
-          "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:15]</p>\n<hr />\n<p><strong>1단계</strong> 아무런 영향도 받지 않는 보균자 (1일)</p>\n<p><strong>2단계</strong> @Damage[3d8[void]] 피해를 받고 모든 치유로 체력의 절반을 회복합니다 (1일)</p>\n<p><strong>3단계 2단계와 동일 (1일)</p>\n<p><strong>4단계 @Damage[3d8[무효]] 피해 및 치유로 인한 이득 없음 (1일)</p>\n<p><strong>5단계</strong> 4단계와 동일 (1일)</p>\n<p><strong>6단계</strong> 사망, 다음 자정에 @UUID[Compendium.pf2e.pathfinder-bestiary.Actor.LHHgGSs0ELCR4CYK]{구울}로 부활.</p>"
+          "name": "구울 열병 (Ghoul Fever)",
+          "description": "<p><strong>Saving Throw</strong> @Check[fortitude|dc:15]</p>\n<hr />\n<p><strong>Stage 1</strong> 운반체에 부작용 없이 (1일)</p>\n<p><strong>단계 2</strong> @Damage[3d8[void]] 피해와 모든 치료로 회복되는 체력의 절반을 회복합니다 (1일)</p>\n<p><strong>단계 3</strong> 단계 2와 동일 (1일)</p>\n<p><strong>단계 4</strong> @Damage[3d8[void]] 피해를 받고 치유로부터 어떤 이점도 얻지 못합니다 (1일)</p>\n<p><strong>단계 5</strong> 단계 4와 동일 (1일)</p>\n<p><strong>단계 6</strong> 사망하며, 다음 자정에 @UUID[Compendium.pf2e.pathfinder-bestiary.Actor.LHHgGSs0ELCR4CYK]{구울}로 부활합니다.</p>"
         },
         "rLNDBZSXuC3QhpxX": {
           "name": "마비 (Paralysis)",
-          "description": "<p>구울의 공격을 받은 모든 살아있는 비엘프 생물은 @Check[fortitude|dc:15] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비} 상태가 됩니다. 각 턴이 끝날 때마다 새로운 내성 체크를 시도할 수 있으며, 이러한 내성 체크에 성공할 때마다 DC는 1씩 누적적으로 감소합니다."
+          "description": "<p>구울의 공격을 받은 모든 살아있는 엘프가 아닌 생물은 @Check[fortitude|dc:15] 저항 내성에 성공하지 못하면 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비} 상태가 됩니다. 각 턴의 끝마다 새로운 저항 내성을 시도할 수 있으며, 각 내성마다 DC가 1씩 감소합니다.</p>"
         },
         "OVvzGRkQ4BEgGtYw": {
-          "name": "빠른 도약 (Swift Leap)",
-          "description": "<p>구울은 자신의 속도의 절반까지 점프합니다. 이 이동은 반응을 유발하지 않습니다."
+          "name": "빠른 점프 (Swift Leap)",
+          "description": "<p>구울은 자신의 속도의 절반까지 점프합니다. 이 이동은 반응을 유발하지 않습니다.</p>"
+        }
+      }
+    },
+    "Swampy Quicksand": {
+      "name": "습지 모래톱 (Swampy Quicksand)",
+      "desc (hazard)": "<p>15피트 너비의 물과 모래로 된 지역이 그 위에 발을 딛는 생물을 물에 잠기게 시도합니다.</p>",
+      "disable": "<p>@Check[survival|dc:16|name:Disturb Surface|traits:environmental] (훈련된) 표면을 교란시키기 위해</p>",
+      "reset": "<p>위험은 여전히 들어서는 모든 생물을 잠기게 하지만, 표면은 24시간 동안 안정될 때까지 다시 숨겨지지 않습니다.</p>",
+      "routine": "<p>(1 행동) 모래는 자신의 이니셔티브에 따라 그 안에 있는 모든 생물을 끌어내립니다. 허리까지 잠긴 생물은 목까지 잠기며, 목까지 잠긴 생물은 물속으로 끌려 들어가 숨을 참아야 질식하지 않습니다.</p>\n<p>모래사장에 있는 생물은 @Check[athletics|dc:18|name:Swim out of Quicksand|traits:action:swim,environmental] 수영 체크를 시도할 수 있습니다. 체크에 성공하면 목까지 잠긴 경우 한 단계 올라가고, 허리까지 잠긴 경우 5피트 이동할 수 있습니다. 목까지 잠긴 경우, 또는 허리까지 잠긴 경우 5피트 이동합니다. 대실패 시 생물은 한 단계 아래로 끌려갑니다. 퀵샌드에서 수영으로 탈출한 생물은 위험에서 벗어나 퀵샌드 패치에 인접한 공간에 엎드린 상태가 됩니다. 다른 생물은 로프나 유사한 도구를 사용하거나 자신의 @Check[athletics|dc:18|name:Aid Another Creature in Quicksand] 체크를 시도할 수 있으며, 결과는 생물이 직접 체크를 시도한 것과 동일합니다.</p>",
+      "stealth": "<p>(훈련된), 또는 표면이 교란된 경우 DC 0 및 최소 숙련도 없음.</p>",
+      "items": {
+        "U7YTe3fsfiaFtVPC": {
+          "name": "잠수 (Submerge)",
+          "description": "<p><strong>트리거</strong> 거대하거나 더 작은 생물이 모래사장에 들어섭니다</p>\n<hr />\n<p><strong>효과</strong> 트리거링 생물이 허리까지 모래에 침수됩니다. 모래는 이미 이니셔티브를 결정하지 않았다면 이니셔티브를 굴림합니다.</p>"
+        }
+      }
+    },
+    "Spite of the Righteous": {
+      "name": "의로운 자의 분노 (Spite of the Righteous)",
+      "desc (hazard)": "<p>성스러운 상징에서 피가 흐르고 부정적인 에너지로 맥동하는 유령 같은 전사의 모습이 벽에서 걸어 나와 모든 살아있는 생물을 죽이려 합니다.</p>",
+      "disable": "<p>@Check[religion|dc:20|name:Exorcise Spirit|traits:complex,haunt] (훈련된) 영혼을 쫓아내기 위해, @Check[religion|dc:21|name:Sever Spiritual Connection|traits:complex,haunt] 또는 @Check[occultism|dc:21|name:Sever Spiritual Connection|traits:complex,haunt] (훈련된) 사원과 연결된 <em>굶주림의 부름</em>과 사원 사이의 연결을 끊기 위해, 또는 @Check[thievery|dc:21|name:Scratch Eyes out of the Mural|traits:complex,haunt] (훈련된) 벽화에 그려진 눈을 긁어내는 것; 유령을 무력화하려면 총 3번의 성공이 필요합니다.</p>",
+      "reset": "<p>영적 전사가 벽으로 돌아가며, 계단에서 모든 살아있는 생물이 시야에서 사라진 후 2 라운드 후에 활동을 중단합니다. 6시간 후 유령 현상은 다시 발동 준비가 됩니다.</p>",
+      "routine": "<p>(3 행동) 전사의 검이 출구 계단 시야 내의 모든 살아있는 생물의 몸을 스치며, 각각 @Damage[(1d10+4)[slashing]]의 피해를 입습니다 (@Check[fortitude|dc:20|basic|name:Avoid the Warrior's Blade|traits:complex,haunt,slashing] 내성). 해당 지역 내의 언데드 생물은 5의 임시 체력을 얻습니다.</p>",
+      "stealth": "<p>(trained)</p>",
+      "items": {
+        "OsRJ9mpFyuDME5oa": {
+          "name": "Racing Blood",
+          "description": "<p><strong>트리거</strong> <em>굶주림의 부름</em>를 지닌 살아있는 생물이 출구 계단으로부터 30피트 이내로 이동합니다.</p>\n<hr />\n<p><strong>효과</strong> 타겟의 몸속에서 피가 쿵쾅거리며 심장이 통제 불가능하게 뛰기 시작합니다. 생물은 @Check[will|dc:20|name:Resist Racing Blood|traits:complex] 내성 검사를 시도해야 하며, 그 후 유령이 이니셔티브를 굴립니다.</p>\n<hr />\n<p><strong>대성공</strong> 대상은 영향을 받지 않습니다.</p>\n<p><strong>성공</strong> 대상은 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1}.</p>\n<p><strong>실패</strong> 대상은 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 2}.</p>\n<p><strong>대실패</strong> 실패로 처리되며, 대상의 이동 속도가 1분 동안 10 감소합니다.</p>"
+        }
+      }
+    },
+    "Cheerful Tune": {
+      "name": "즐거운 멜로디 (Cheerful Tune)",
+      "desc (hazard)": "<p>즐거운 말 없는 멜로디가 방을 가득 채우며 모두를 일하게 합니다.</p>",
+      "disable": "<p>@Check[religion|dc:20|name:Exorcise Spirits|traits:complex,haunt] (훈련된) 영혼을 쫓아내기 위해, 또는 @Check[intimidation|dc:21|name:Take a Break|traits:complex,haunt] 영혼들에게 휴식 시간이 되었다고 설득하기 위해; 총 3번의 성공이 필요하며, 이를 통해 유령의 출현을 차단할 수 있습니다.</p>",
+      "reset": "<p>유령 노동자들은 모든 살아있는 존재가 방을 떠난 후 2 라운드 후에 작업을 중단하며, 6시간 후에 재설정됩니다.</p>",
+      "routine": "<p>(3 행동) 유령 노동자들이 방에 나타나 주변의 모든 대상에게 긁고, 닦고, 청소 화학 물질을 뿌리기 시작합니다. 방 내의 모든 생물은 @Damage[(1d4+2)[slashing]]과 @Damage[(1d4+2)[acid]]의 피해를 입습니다 (@Check[reflex|dc:20|basic|name:Avoid Workers|traits:haunt,complex] 내성; 두 가지 모두에 대해 한 번만 굴립니다).</p>",
+      "stealth": "<p>(trained)</p>",
+      "items": {
+        "0kWS6tRTbUUXlA6N": {
+          "name": "코를 갈고닦다 (Nose to the Grindstone)",
+          "description": "<p><strong>트리거</strong> 살아있는 생물이 북쪽 벽 중앙의 미소 짓는 얼굴로부터 10피트 이내에 접근합니다</p>\n<hr />\n<p><strong>효과</strong> 휘파람 소리가 고통스러운 음높이로 커지며 @Damage[(1d8+4)[sonic]]의 피해를 입힙니다. 영향을 받은 생물은 @Check[will|dc:20|traits:damaging-effect] 내성 검사를 시도해야 하며, 유령은 그 후 이니셔티브를 굴립니다.</p>\n<hr />\n<p><strong>대성공</strong> 대상은 피해를 받지 않습니다.</p>\n<p><strong>성공</strong> 생물은 반의 피해를 입습니다.</p>\n<p><strong>실패</strong> 생물은 전체 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{청각 상실} 상태가 1분 동안 지속됩니다.</p>\n<p><strong>대실패</strong> 생물은 두 배의 피해를 입으며, @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 1} 상태가 되고, 2분 동안 청각을 잃습니다.</p>"
         }
       }
     },
     "Sun-Scorched Shadow Drake": {
-      "name": "태양에 그을린 그림자 드레이크 (Sun-Scorched Shadow Drake)",
-      "description": "<p>섀도우 드레이크는 일반적으로 그 종족 중 가장 작고 가장 힘이 약한 종입니다. 대부분은 집 고양이만큼 크고 길며, 숯색 비늘과 그림자처럼 반투명한 막질 날개를 가지고 있습니다. 빛나는 물건에 끌리는 이들은 속임수, 팀워크, 심지어는 초보적인 함정을 사용하여 부당하게 얻은 물건을 빼앗아 달아날 기회를 만듭니다. 섀도우 드레이크는 드레이크와 드래곤의 일반적인 특성과는 달리, 섀도우 드래곤에 대해 특별한 매력과 존경심을 가지고 있습니다.",
-      "hpdetails": "",
+      "name": "Sun-Scorched Shadow Drake",
+      "description": "<p>그림자 드레이크는 일반적으로 그 종족 중에서 가장 작고 약한 편에 속합니다. 대부분 집고양이와 비슷한 크기와 길이를 가지고 있으며, 석탄색 비늘과 투명도가 적당해 그림자처럼 보이는 막질 날개를 지니고 있습니다. 반짝이는 물체에 끌리며, 기만, 협력, 심지어 원시적인 함정을 사용해 불법으로 얻은 재물을 훔쳐 달아나는 기회를 만들습니다. 그림자 드레이크는 드레이크와 드래곤의 일반적인 특성과 달리 어둠의 드래곤에 대한 특별한 매료와 존경을 가지고 있습니다.</p>",
       "items": {
+        "C6LpIB1Gy5mjBk2G": {
+          "name": "턱 (Jaws)"
+        },
+        "i1qGIf7bGKRu3RUq": {
+          "name": "꼬리 (Tail)"
+        },
         "hg3lMJ6qrkw8WpZ3": {
-          "name": "빛에 대한 실명 (Light Blindness)",
-          "description": "<p>@Localize[PF2E.NPC.Abilities.Glossary.LightBlindness]</p>"
+          "name": "빛 눈부심 (Light Blindness)"
         },
         "QNy9Hrx2ib5tkQKt": {
-          "name": "그림자 혼합 (Shadow Blend)",
-          "description": "<p>섀도우 드레이크의 형태는 반사적으로 주변의 그림자와 혼합되어 변합니다. 섀도우 드레이크는 매 라운드마다 추가 반응을 얻지만, 이 반응은 섀도우 회피에만 사용할 수 있습니다."
+          "name": "그림자 융합 (Shadow Blend)",
+          "description": "<p>그림자 드레이크의 형태는 주변 그림자와 반사적으로 변형되고 융합됩니다. 그림자 드레이크는 각 라운드마다 추가 반응을 얻지만, 이 반응은 그림자 회피에만 사용할 수 있습니다.</p>"
         },
         "0VNX7MbrCqRSKYkE": {
-          "name": "섀도우 회피 (Shadow Evade)",
-          "description": "<p><strong>트리거</strong> 어두운 빛이 비치는 영역에 있는 섀도우 드레이크를 생물이 공격합니다</p>\n<hr />\n<p><strong>효과</strong> 섀도우 드레이크는 자신의 위치를 더욱 모호하게 만듭니다. 공격자는 그림자 드레이크에게 영향을 미치기 위해 @Check[flat|dc:11] 체크에 성공해야 합니다. 마치 드레이크가 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden}인 것처럼 트리거 공격에 대한 반응입니다."
+          "name": "그림자 회피 (Shadow Evade)",
+          "description": "<p><strong>트리거</strong> 그림자 드레이크가 어두운 빛의 영역에 있을 때 생물이 그림자 드레이크를 공격합니다</p>\n<hr />\n<p><strong>Effect</strong> 그림자 드레이크는 자신의 위치를 더욱 흐리게 합니다. 공격자는 그림자 드레이크에게 영향을 미치기 위해 @Check[flat|dc:11] 체커에 성공해야 하며, 이는 드레이크가 트리거 공격 시 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨겨짐} 상태인 것처럼 처리됩니다.</p>"
         },
         "wnZi8QCOMG86Db4l": {
-          "name": "드래곤의 광란 (Draconic Frenzy)",
-          "description": "<p>그림자 드레이크는 한 번의 턱 공격과 두 번의 꼬리 공격을 임의의 순서로 수행합니다."
+          "name": "드레이크의 광란 (Draconic Frenzy)",
+          "description": "<p>그림자 드레이크는 턱 공격 1회와 꼬리 공격 2회를 임의의 순서로 수행합니다.</p>"
         },
         "usIKpszaYrCWfN8r": {
-          "name": "그림자 숨결 (Shadow Breath)",
-          "description": "<p>그림자 드레이크는 검은 액체 덩어리를 뱉어내어 차가운 검은 그림자 구름으로 폭발합니다. 이 공격의 사거리는 40피트이며, 반경 5피트 범위에서 폭발합니다. 폭발 범위 내에 있는 생물은 @Damage[2d6[cold]]의 피해를 받습니다 (@Check[reflex|dc:16|basic] 내성). 그림자의 폭발은 횃불, 랜턴 또는 그보다 작은 크기의 평범한 광원을 소멸시키고, +8의 무효화 수정자로 마법의 빛을 무효화하려고 시도합니다. </p>\n<p>그림자 드레이크는 [[/gmr 1d6]] 라운드 동안 그림자 숨결을 다시 사용할 수 없습니다. </p>"
+          "name": "Shadow Breath",
+          "description": "<p>그림자 드레이크는 검은 액체로 된 공을 뱉어내어 차가운 검은 그림자의 구름으로 폭발합니다. 이 공격의 범위는 40피트이며, @Template[burst|distance:5]{5피트 반경 폭발}로 폭발합니다. 폭발 범위 내의 생물은 @Damage[2d6[cold]|options:area-damage]의 피해를 입습니다 (@Check[reflex|dc:16|basic|options:area-effect] 내성). 그림자의 폭발은 횃불, 랜턴 크기나 그보다 작은 일반적인 빛 소스를 꺼뜨리며, 마법적인 빛에 대해 [[/r 1d20+8 #Counteract Light]]{+8}의 반격 수정자를 적용해 반격을 시도합니다.</p>\n<p>그림자 드레이크는 [[/gmr 1d6 #Recharge Shadow Breath]] 라운드 동안 그림자 숨결을 다시 사용할 수 없습니다.</p>"
         },
         "5IixHzakyftZgS0g": {
           "name": "속도 급증 (Speed Surge)",
-          "description": "<p><strong>빈도</strong> 하루에 세 번</p>\n<hr />\n<p><strong>효과</strong> 그림자 드레이크가 두 번의 이동 또는 비행 능력을 사용합니다."
+          "description": "<p><strong>빈도</strong> 하루에 세 번</p>\n<hr />\n<p><strong>효과</strong> 그림자 드레이크가 두 번 걸어다니거나 날아다닌다.</p>"
+        }
+      }
+    },
+    "Blood Hunger": {
+      "name": "피의 갈망 (Blood Hunger)",
+      "desc (hazard)": "<p>이빨이 난 두개골 룬에서 피가 열린 상처처럼 흘러나온다.</p>",
+      "disable": "<p>@Check[religion|dc:20|name:Exorcise Spirit|traits:complex,haunt] (훈련된) 영혼을 쫓아내기 위해, @Check[religion|dc:21|name:Sever Spiritual Connection|traits:complex,haunt] 또는 @Check[occultism|dc:21|name:Sever Spiritual Connection|traits:complex,haunt] (훈련된) <em>배고픔의 부름</em>과 사원 사이의 연결을 끊기 위해, 또는 @Check[crafting|dc:21|name:Break up the Mural|traits:complex,haunt] (훈련된) 벽화의 패턴을 깨기 위해; 총 3번의 성공이 필요하며, 이를 통해 유령의 저주를 해제할 수 있습니다.</p>",
+      "reset": "<p>모자이크는 모든 생물이 계단에서 시야에서 사라진 후 2 라운드 후에 그 활동을 중단합니다. 6시간 후 유령의 저주는 다시 발동 준비가 됩니다.</p>",
+      "routine": "<p>(3 행동) 피 묻은 모자이크는 동쪽 벽에서 10피트 이내에 있는 모든 대상에게 색상 유리 조각을 발사하며, 각 대상은 @Damage[1d10[slashing]] 피해와 @Damage[1[bleed]] 피해(@Check[reflex|dc:20|basic|name:Avoid the Glass Shards|traits:complex,haunt,slashing] 내성; 대성공 시 출혈 피해를 무효화합니다).</p>",
+      "stealth": "<p>(훈련된)</p>",
+      "items": {
+        "JsNsn20QeaTd0P3Q": {
+          "name": "굶주림의 지배 (Hunger's Possession)",
+          "description": "<p><strong>트리거</strong> 굶주림의 부름을 지닌 살아있는 생물이 출구 계단으로부터 30피트 이내로 이동할 때</p>\n<hr />\n<p><strong>효과</strong> 속삭이는 목소리가 트리거링 생물의 마음에 살아있는 자의 피에 대한 강박감을 채웁니다. 생물은 @Check[will|dc:20|name:Resist Hunger's Possession|traits:mental,occult,haunt,complex] 내성을 시도해야 하며, 그 후 유령이 이니셔티브를 굴립니다.</p>\n<hr />\n<p><strong>대성공</strong> 대상은 영향을 받지 않습니다.</p>\n<p><strong>Success</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1}.</p>\n<p><strong>실패</strong> 대상은 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 2}.</p>\n<p><strong>Critical Failure</strong> 목표는 정신을 잃고 다음 턴에 가장 가까운 동맹으로 이동하여 비무장 물기 공격을 수행해야 합니다. 이 공격에 대해 동맹은 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태입니다. 물기 공격은 @Damage[1d4[piercing]]의 피해를 입히며, 치명타 시 추가로 @Damage[1[bleed]]의 피해를 입힙니다. 대상은 자신의 턴이 끝날 때 정신을 되찾습니다.</p>"
         }
       }
     },
     "Rain In Cloudy Day": {
-      "name": "흐린 날의 비 (Rain In Cloudy Day)",
-      "description": "",
-      "hpdetails": "",
+      "name": "구름 낀 날의 비 (Rain In Cloudy Day)",
+      "languages": "식물과 대화하기 (균류만 해당)",
       "items": {
+        "cuIO5yrbqlbeRoTo": {
+          "name": "주먹 (Fist)"
+        },
+        "wZ1AstdLPhm6Qgw9": {
+          "name": "포자 포드 (Spore Pod)"
+        },
         "PSd8ZUnIEeTZZ3Qc": {
-          "name": "초록빛 폭발 (Verdant Burst)",
-          "description": "<p>흐린 날의 비가 죽으면, 원초적인 에너지가 그의 몸에서 폭발하여 @Damage[2d8[healing]] 체력을 @Template[emanation|distance:30] 내의 모든 식물 생물에게 회복시킵니다. 이 지역은 곰팡이로 가득 차게 되어, 어려운 지형이 됩니다. 이 지형이 이 곰팡이가 살기 어려운 환경인 경우, 24시간 후에 시들어 죽습니다."
+          "name": "녹색 폭발 (Verdant Burst)",
+          "description": "<p>구름 낀 날의 비가 죽을 때, 그의 몸에서 원시 에너지가 폭발하며 @Damage[2d8[healing]]의 모든 식물 생물에게 @Template[emanation|distance:30]의 체력을 회복합니다. 이 지역은 곰팡이로 가득 차서 이동이 어려운 지형이 됩니다. 이 지형이 이 곰팡이에게 적합한 환경이 아니라면 24시간 후에 시들게 됩니다.</p>"
         },
         "f4Bxn2vuVItRYQrZ": {
           "name": "형태 변화 (Change Shape)",
-          "description": "<p>구름 속의 비는 작은 거대 버섯이나 버섯 군락으로 변신합니다. 이 능력은 @UUID[Compendium.pf2e.spells-srd.Item.dileJ0Yxqg76LMvu]{식물과의 일체감}의 효과를 사용합니다.</p>"
+          "description": "<p>구름 날씨에 내리는 비는 작은 거대 버섯이나 버섯 군락으로 변형됩니다. 이 능력은 otherwise @UUID[Compendium.pf2e.spells-srd.Item.dileJ0Yxqg76LMvu]{식물과의 일체감}의 효과를 사용합니다.</p>"
         },
         "Ln8ZtQy8JZzqvbgp": {
           "name": "포자 구름 (Spore Cloud)",
-          "description": "<p>Rain in Cloudy Day는 @Template[emanation|distance:15] 범위 내에 있는 곰팡이가 아닌 생물들의 눈과 목을 자극하는 포자 구름을 방출합니다. 각 생물은 @Check[fortitude|dc:16] 내성 체크에 성공하지 않으면 @Damage[1[persistent,poison]]의 피해를 입습니다. 지속적인 피해가 지속되는 동안 생물의 시야가 감소하고 20피트(대실패 시 10피트) 이내에서만 볼 수 있습니다. </p>"
+          "description": "<p>구름 속의 비는 @Template[emanation|distance:15] 범위 내의 비균류 생물의 눈과 목을 자극하는 포자 구름을 방출합니다. 각 생물은 @Check[fortitude|dc:16|options:area-effect,damaging-effect] 내성 검사에서 성공하지 못하면 @Damage[1[persistent,poison]|options:area-damage]의 피해를 입습니다. 생물은 지속되는 피해가 계속되는 동안 시야가 감소하며, 20피트(대실패 시 10피트) 이내에서만 볼 수 있습니다.</p>"
         },
         "Qo6Zya98KMBBIXlg": {
           "name": "포자 (Spores)",
-          "description": "<p>흐린 날의 비의 포자 포드 공격으로 피해를 입은 생물은 자신의 포자 구름 능력과 동일한 DC 및 효과로 내성 굴림을 시도해야 합니다."
+          "description": "<p>구름 날씨에 비로 인한 피해를 입은 생물은 포자 포드 공격으로부터 동일한 DC와 효과를 가진 내성 굴림을 시도해야 합니다.</p>"
+        },
+        "sgeuc2q697WrSku2": {
+          "name": "패스파인더 소사이어티 로어 (Pathfinder Society Lore)"
+        }
+      }
+    },
+    "Spiked Pit": {
+      "name": "가시 구덩이 (Spiked Pit)",
+      "desc (hazard)": "<p>나무로 된 함정이 10피트 칸의 크기에 20피트 깊이의 구덩이를 덮고 있습니다. 구덩이 바닥에는 날카로운 가시가 줄지어 있습니다.</p>",
+      "disable": "<p>@Check[thievery|dc:14|name:Remove Trap Door|traits:mechanical,trap] 함정 문을 제거하려면</p>",
+      "reset": "<p>생물들은 여전히 함정에 빠질 수 있지만, 함정이 다시 숨겨지려면 함정 문이 수동으로 재설정되어야 합니다.</p>",
+      "stealth": "<p>(훈련된, 또는 트랩문이 비활성화되거나 고장난 경우 0)</p>",
+      "items": {
+        "Dtg1uXMVG1kcNoI2": {
+          "name": "함정 (Pitfall)",
+          "description": "<p><strong>트리거</strong> 생물이 함정 문 위에 걸어갑니다</p>\n<hr />\n<p><strong>효과</strong> 트리거를 발동시킨 생물이 함정에 떨어지며 @Damage[10[bludgeoning]|options:fall-damage]의 피해를 입으며, 함정 바닥의 날카로운 도구로부터 @Damage[2d6[piercing]]의 추가 피해를 입습니다. 해당 생물은 @UUID[Compendium.pf2e.actionspf2e.Item.3yoajuKjwHZ9ApUY]{가장자리를 잡기} 반응을 사용하여 떨어지는 것을 피할 수 있습니다.</p>"
+        }
+      }
+    },
+    "Cleaning Agents": {
+      "name": "세제 (Cleaning Agents)",
+      "desc (hazard)": "<p>\n{공학 로어} (숙련) 또는  (숙련)로 제어 패널을 비활성화하거나,  또는 로 화학 물질을 방출하는 노즐을 막아야 합니다. 함정을 무력화하려면 3번의 성공이 필요합니다.</p>",
+      "disable": "<p>@Check[engineering-lore|dc:20|name:Disable Control Panel|traits:mechanical,complex]{Engineering Lore} (trained) or @Check[thievery|dc:20|name:Disable Control Panel|traits:mechanical,complex] (trained) to deactivate the control panel, or @Check[athletics|dc:21|name:Plug the Spouts|traits:mechanical,complex] or @Check[acrobatics|dc:21|name:Plug the Spouts|traits:mechanical,complex] to plug the spouts that release the chemicals; three successes are required to disable the trap.</p>",
+      "reset": "<p>트랩은 1분 후 비활성화되며 1시간 후에 재설정됩니다.</p>",
+      "routine": "<p>(3 행동) 함정은 방을 부식성 증기로 가득 채우고 해당 지역(@Check[fortitude|dc:20|basic|name:Cleaning Agent|traits:acid]) 내 모든 생물에게 @Damage[(2d6+2)[acid]]의 피해를 입힙니다.</p>",
+      "stealth": "<p>(훈련된)</p>",
+      "items": {
+        "BoGoZuSpMu8ehH3i": {
+          "name": "오염 제거 스프레이 (Decontamination Spray)",
+          "description": "<p><strong>트리거</strong> 생물이 방에 들어갑니다.</p>\n<hr />\n<p><strong>Effect</strong> 트랩이 트리거링 생물에게 청소 화학 물질을 분사하여 @Damage[(1d8+4)[acid]]의 피해를 입힙니다. 생물은 @Check[reflex|dc:20|traits:acid,damaging-effect]의 내성 검사를 시도해야 하며, 트랩은 이후 이니셔티브를 굴립니다.</p>\n<hr />\n<p><strong>대성공</strong> 생물은 영향을 받지 않습니다.</p>\n<p><strong> 성공</strong> 생물은 반의 피해를 입습니다.</p>\n<p><strong>실패</strong> 생물은 전체 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{눈이 부신} 상태가 1 라운드 동안 지속됩니다.</p>\n<p><strong>대실패</strong> 생물은 두 배의 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{눈이 멀다} 상태가 1 라운드 동안 지속됩니다.</p>"
         }
       }
     },
     "Swamp Ooze": {
-      "name": "늪 우즈 (Swamp Ooze)",
-      "description": "<p>이 무형의 하수 및 기타 쓰레기 덩어리는 크고 작은 도시 아래의 더러운 배수관을 통해 이동합니다. </p>\n<hr />\n<p>슬라임, 곰팡이 및 기타 우즈는 습한 던전과 그늘진 숲에서 볼 수 있습니다. 반드시 악한 것은 아니지만, 일부는 거대한 크기로 성장하고 만족할 줄 모르는 식욕을 보입니다.",
-      "hpdetails": "",
+      "name": "습지 우즈 (Swamp Ooze)",
+      "description": "<p>이 무형의 오물과 쓰레기 덩어리는 크고 작은 도시 아래의 더러운 배수로를 통해 이동합니다.</p>\n<hr />\n<p>점액체, 곰팡이, 기타 우즈는 습한 지하 감옥과 어두운 숲에서 발견됩니다. 악의적이지 않을 수 있지만, 일부는 거대한 크기로 성장하며 끝없는 식욕을 지니고 있습니다.</p>",
       "items": {
+        "YXsM6AcguDWAwVIt": {
+          "name": "가짜 다리 (Pseudopod)"
+        },
         "VwrlDdZczBGO5Ps4": {
-          "name": "움직임 감지 60 피트 (Motion Sense 60 feet)",
-          "description": "<p>늪 우즈는 진동과 공기의 움직임을 통해 주변의 움직임을 감지할 수 있습니다."
+          "name": "움직임 감지 60피트 (Motion Sense 60 feet)",
+          "description": "<p>늪지 우즈는 진동과 공기 흐름을 통해 근처의 움직임을 감지할 수 있습니다.</p>"
         },
         "mdqK7RuSjtezVyS8": {
-          "name": "늪의 파도 (Swamp Wave)",
-          "description": "<p><strong>빈도</strong> 1분에 한 번</p>\n<hr />\n<p><strong>효과</strong> 늪 우즈는 날카로운 파편으로 가득 찬 늪의 진흙을 @Template[emanation|distance:20] 범위 내의 모든 생물에게 뿌립니다. 이 영역에 있는 모든 생물은 @Check[reflex|dc:17|name:Filth Wave|traits:damaging-effect] 내성 체크에 성공하지 않으면 @Damage[1d4[piercing]] 피해를 받고 1분 동안 속도가 -10피트 감소합니다 (대실패 시, 생물은 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} 상태가 됩니다).</p>\n<p>생물은 상호작용 행동을 사용해 누군가를 닦아낼 수 있으며, 각 행동마다 속도 페널티를 5피트씩 감소시킵니다.</p>"
+          "name": "늪 파도 (Swamp Wave)",
+          "description": "<p><strong>주파수</strong> 분당 1회</p>\n<hr />\n<p><strong>효과</strong> 습지 우즈가 날카로운 파편으로 가득 찬 습지 진흙 파도를 방출하여 반경 @Template[emanation|distance:20]. 해당 지역 내의 모든 생물은 @Check[reflex|dc:17|options:area-effect,damaging-effect] 내성 검사에 성공해야 하며, 실패 시 @Damage[1d4[piercing]|options:area-damage]의 피해를 받고 1분 동안 이동 속도에 -10피트 페널티를 받습니다 (대실패 시 해당 생물은 넘어집니다) @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} 상태가 됩니다).</p>\n<p>생물은 상호작용 행동을 사용해 누군가를 늪에서 청소할 수 있으며, 각 행동마다 속도 페널티를 5피트씩 감소시킵니다.</p>"
+        }
+      },
+      "StealthVariants": {
+        "0": {
+          "label": "늪지대"
+        }
+      }
+    },
+    "Ancient Summoning Rune": {
+      "name": "고대 소환 룬 (Ancient Summoning Rune)",
+      "desc (hazard)": "<p>방의 중앙 기둥을 둘러싸는 10피트 반경의 투명 마법 센서 구름이 존재합니다.</p>",
+      "disable": "<p>@Check[acrobatics|dc:15|name:Approach the Rune|traits:magical,trap] 함정을 발동시키지 않고 접근하려면 @Check[thievery|dc:17|name:Erase the Rune|traits:action:disable-a-device,magical,trap] (훈련된)으로 룬을 지우거나, @Check[athletics|dc:19|name:Remove Stones|traits:magical,trap]으로 기둥에서 마법을 방해할 만큼의 돌을 제거하거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제} (1단계; 반격 DC 15)로 룬을 무효화해야 합니다.</p>",
+      "reset": "<p>함정은 매일 새벽에 재설정됩니다.</p>",
+      "stealth": "<p>(훈련된)</p>",
+      "items": {
+        "wz43EsdDh8PtPAEO": {
+          "name": "약한 몬스터 소환 (Summon Weak Monster)",
+          "description": "<p><strong>트리거</strong> 마법 센서 구름에 생물이 들어갑니다</p>\n<hr />\n<p><strong>효과</strong> 함정이 영역 B에서 이전에 만난 생물 중 하나를 약화 조정된 상태로 소환합니다. 소환된 생물은 이니셔티브를 굴리고 7 라운드 동안 머무르며, 그 후 주문이 종료되고 생물이 사라집니다. 소환된 생물은 지속 시간이 끝나기 전에 함정이 무력화되면 사라집니다. 소환된 생물은 대부분의 소환된 생물과 달리 각 라운드에 3개의 행동을 사용할 수 있으며 반응을 사용할 수 있습니다.</p>"
+        }
+      }
+    },
+    "Encouraging Supervision": {
+      "name": "격려하는 감독 (Encouraging Supervision)",
+      "desc (hazard)": "<p>벽에 있는 아즐란티 감독관의 얼굴이 움직이며 방 안에 있는 사람들에게 업무 태도가 나쁘다고 꾸짖기 시작합니다.</p>",
+      "disable": "<p>@Check[deception|dc:20|name:Fake a Smile|traits:complex,haunt] 즐거운 태도를 가장하거나, @Check[crafting|dc:21|name:Show Skill at a Task|traits:complex,haunt] (훈련된) 특정 작업에 능숙함을 보여야 합니다. 유령의 효과를 해제하려면 세 번의 성공적인 체크가 필요합니다.</p>",
+      "reset": "<p>모든 생명체가 방을 떠난 후 2 라운드 후에 유령의 목소리가 멈추고 6시간 후에 재설정됩니다.</p>",
+      "routine": "<p>(3 행동) 감독자의 목소리가 방을 가득 채우고 방 안에 있는 모든 이들이 미소를 짓도록 강요합니다. 방 안에 있는 각 생물은 @Damage[(1d8+4)[mental]] 피해를 입으며, @Check[will|dc:20|name:Try Not to Smile too Hard|traits:complex,haunt] 내성 검사를 시도해야 합니다.</p>\n<hr />\n<p><strong>대성공</strong> 대상은 피해를 받지 않습니다.</p>\n<p><strong>성공</strong> 대상은 반의 피해를 입습니다.</p>\n<p><strong>실패</strong> 생물은 전체 피해를 입습니다.</p>\n<p><strong>대실패</strong> 생물은 전체 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 1} 상태가 됩니다.</p>",
+      "stealth": "<p>(훈련됨)</p>",
+      "items": {
+        "krjZ9lqVkGcDTbNl": {
+          "name": "웃어! 웃어! (Smile! Smile!)",
+          "description": "<p><strong>트리거</strong> 북쪽 벽 중앙의 웃는 얼굴로부터 10피트 이내에 살아있는 생물이 접근합니다</p>\n<hr />\n<p><strong>효과</strong> 얼굴이 아즐란티어로 생물에게 미소를 지으라고 소리치며 일로 돌아가라고 명령합니다. 생물은 @Damage[(1d8+4)[mental]]의 피해를 입으며 @Check[will|dc:20|name:Resist Loud Yelling|traits:complex,haunt] 내성 검사를 시도해야 합니다. 유령은 그 다음에 이니셔티브를 굴립니다.</p>\n<hr />\n<p><strong>대성공</strong> 대상은 피해를 받지 않습니다.</p>\n<p><strong>성공</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> 생물은 전체 피해를 받습니다.</p>\n<p><strong>대실패</strong> 생물은 전체 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{기절 1} 상태가 됩니다.</p>"
         }
       }
     }
   },
   "mapping": {
-    "name": "name",
     "description": "system.details.publicNotes",
     "gm": "system.details.privateNotes",
     "blurb": "system.details.blurb",
@@ -109,7 +256,7 @@
     "perception": "system.perception.details",
     "saves": "system.attributes.allSaves.value",
     "speeds": "system.attributes.speed.details",
-    "desc": "system.details.description",
+    "desc (hazard)": "system.details.description",
     "disable": "system.details.disable",
     "reset": "system.details.reset",
     "routine": "system.details.routine",

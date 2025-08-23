@@ -1,0 +1,444 @@
+{
+  "label": "The-enmity-Cycle",
+  "entries": {
+    "Scorching Sun Cultist": {
+      "name": "불타는 태양의 신도",
+      "items": {
+        "tK1F4laIpRTelcMk": {
+          "name": "시미터"
+        },
+        "2QU4tOSu9tR38Ro9": {
+          "name": "스콜피온 채찍"
+        },
+        "N5oTdCVRhrTfOkNo": {
+          "name": "단궁"
+        }
+      }
+    },
+    "Mechanical Assistant": {
+      "name": "기계 보조 장치",
+      "items": {
+        "HNyPPQQNvgFOnMLp": {
+          "name": "Fist"
+        },
+        "0grfiYAJ2NOSZt9G": {
+          "name": "Retractable Blade"
+        },
+        "nyTcR9Gj5Ckmlaqy": {
+          "name": "Inspired Recitation",
+          "description": "<p>기계 보조원은 영감을 주는 시를 낭송하여 동맹군에게 결의와 활력을 불어넣습니다. @Template[emanation|distance:60]{60 피트} 이내의 모든 동맹군은 1분 동안 내성 굴림에 +1 상태 보너스와 10 임시 체력을 얻습니다. 이 능력의 혜택을 받은 동맹군은 10분 동안 영감의 낭송에 일시적으로 면역됩니다.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.MT5gxuuxBaN2RdYf]{Effect: Inspired Recitation}</p>"
+        },
+        "rQmhmhuTVH5AiYN7": {
+          "name": "Poetry Lore"
+        }
+      }
+    },
+    "Entangling Shredder Trap": {
+      "name": "Entangling Shredder Trap",
+      "hpdetails": "가시 밧줄을 자르고 함정을 무력화합니다.",
+      "desc (hazard)": "<p>벽에서 강철 가시가 박힌 수십 개의 밧줄이 두 마리 이상의 생물이 러그 위에 발을 딛자 튀어나옵니다.</p>",
+      "disable": "<p>@Check[thievery|dc:24|traits:action:disable-a-device] (전문가) 압력판 위에 서세요.</p>",
+      "reset": "<p>수동</p>",
+      "stealth": "<p>(전문가) 러그 아래의 압력판을 확인하십시오.</p>",
+      "items": {
+        "oj4X2MYRgm5gUKYT": {
+          "name": "얽힌 로프",
+          "description": "<p><strong>트리거</strong> 두 생물이 복도에 들어오거나 복도에서 턴을 종료할 때</p>\n<hr />\n<p><strong>효과</strong> 함정이 가시 밧줄을 발동 시킨 생물에게 공격합니다. 이 함정은 다중 공격 페널티를 받지 않습니다.</p>"
+        },
+        "TfW9LKBoEvQYFHOu": {
+          "name": "가시 밧줄"
+        },
+        "P4xO2tdYE2joExgv": {
+          "name": "잡는 줄",
+          "description": "<p>줄이 목표물의 사지를 휘감습니다. 목표물은 @Check[reflex|dc:25] 내성 검사를 시도해야 합니다.</p>\n<hr />\n<p><strong>성공</strong> 대상은 영향을 받지 않습니다.</p>\n<p><strong>실패</strong> 대상은 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 되며, 줄을 자르거나 @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{탈출}할 때까지 지속됩니다. (DC 25).</p>\n<p><strong>대실패</strong> 실패와 동일하지만, 대상은 또한 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{이동 불가} 상태가 됩니다.</p>"
+        },
+        "FIXLSmd8Mru8STsR": {
+          "name": "지도 없음",
+          "description": "<p>이 함정은 다중 공격 페널티를 받지 않습니다.</p>"
+        }
+      }
+    },
+    "Krashk": {
+      "name": "Krashk",
+      "items": {
+        "E0s2jeqU7yrIlbs6": {
+          "name": "Falchion"
+        },
+        "U8p4b6jmLdTrDe4s": {
+          "name": "Jaws"
+        },
+        "eKwU3JNxz5DedrUc": {
+          "name": "Pack Attack",
+          "description": "<p>Krashk는 그녀의 동맹군 중 두 명 이상이 도달 범위 내에 있는 모든 생물에게 추가로 1d4의 피해를 입힙니다.</p>"
+        },
+        "dKMfAMjDZdmIHr7L": {
+          "name": "험난한 여행",
+          "description": "<p>Krashk는 걸음이나 걸음걸이로 이동할 때마다 처음 들어가는 어려운 지형의 첫 번째 칸을 무시합니다.</p>"
+        }
+      }
+    },
+    "Clockwork Dancers": {
+      "name": "시계장치 댄서",
+      "desc (hazard)": "<p>회전하는 칼날을 든 시계장치 인간형 존재들이 지역 곳곳을 이동합니다.</p>",
+      "disable": "<p>@Check[thievery|dc:25|traits:action:disable-a-device] (전문가) 제어 패널에서 시계 장치를 비활성화합니다. 함정을 비활성화하려면 두 번의 성공이 필요합니다.</p>",
+      "reset": "<p> 함정은 4 라운드 후에 비활성화되며 1분 후에 재설정됩니다.</p>",
+      "routine": "<p>(1 행동) 시계 장치 댄서들은 기둥에서 10피트 이내의 무대 위에 있는 모든 생물을 회전하는 칼날로 공격합니다.</p>",
+      "stealth": "<p>(expert)</p>",
+      "items": {
+        "MCD0B0cSb8Ch2SKo": {
+          "name": "Spring Attack",
+          "description": "<p><strong>트리거</strong> 생물이 <strong>F2</strong></p>\n<hr />\n<p><strong>효과</strong> 시계 장치로 된 인형들이 기둥에서 튀어나와 무대 위의 모든 대상에게 회전하는 칼날로 공격합니다. 함정은 이후 이니셔티브를 굴림합니다.</p>"
+        },
+        "V4iUIyuyHcob97ps": {
+          "name": "회전하는 칼날"
+        }
+      }
+    },
+    "The Enmity Cycle": {
+      "name": "적대감의 순환",
+      "desc (hazard)": "<p> 불협화음의 음악, 춤, 시가 결합되어 낯선 이들에 대한 깊은 의심과 불신을 조성합니다.</p>",
+      "disable": "<p>@Check[performance|dc:26] 공연의 반격을 수행하거나 @Check[religion|dc:27] 또는 @Check[occult|dc:27] 영적 에너지를 방해합니다. 함정을 무력화하려면 총 3회의 성공이 필요합니다.</p>",
+      "reset": "<p><em>The Enmity Cycle</em>의 새로운 제작을 준비해야 합니다. 이 과정은 보통 최소 1주일이 소요됩니다.</p>",
+      "routine": "<p>(1 행동) 공연은 그 범위 내의 대상들에게 적대감, 불화, 불신의 씨앗을 계속 뿌립니다. Zridi를 제외한 모든 참석 생물은 @Check[will|dc:25] 내성 검사를 시도해야 합니다.</p>\n<hr>\n<p><strong>Critical Success</strong> 대상은 영향을 받지 않으며 1일 동안 해당 효과에 면역됩니다.</p>\n<p><strong>성공</strong> 대상은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 1} 상태가 2 라운드 동안 지속됩니다.</p>\n<p><strong>실패</strong> 대상은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 2} 상태가 1분 동안 지속되며, 이 공포의 원인이 자신의 동포, 특히 고향 이외의 지역 출신인 사람들에게 있다는 것을 확신합니다. 1주 동안 대상은 다른 투비안 도시 출신 사람들에 대한 모든 외교 기술 체크에서 &ndash;2 페널티를 받고, 해당 도시 중 하나에 있을 때마다 공포 2 상태를 다시 얻습니다.</p>\n<p><strong>대실패</strong> 실패와 동일하지만, 대상은 다음 주 동안 <em>The Enmity Cycle</em>의 전파자가 됩니다. 대상은 노출된 도시가 아닌 다른 도시로 여행해야 하며, 기억할 수 있는 한 많은 안바리트의 구절을 암송해야 합니다. 이 공연을 듣거나 목격한 이들은 <em>The Enmity Cycle</em>의 공연에 참석한 것으로 간주되지만, @Check[will|dc:23] 내성</p>",
+      "stealth": "<p>(expert) or @UUID[Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl]{Detect Magic}</p>",
+      "items": {
+        "Sx078ND9MugfxEIm": {
+          "name": "Discordant Performance",
+          "description": "<p><strong>트리거</strong> Zridi는 영역 <strong>F2</strong></p> 내에 있을 때 <em>The Enmity Cycle</em>를 활성화하기 위해 행동을 소비합니다.\n<hr />\n<p><strong>효과</strong> <strong>F2</strong> 지역에 있는 Zridi를 제외한 모든 생물이 @Damage[(2d8+9)[mental]]의 피해를 입습니다 (@Check[will|dc:25|basic] 내성). 함정은 이후 이니셔티브를 굴립니다.</p>"
+        }
+      }
+    },
+    "Seddek": {
+      "name": "세덱",
+      "blurb": "남성 자니 집행자",
+      "items": {
+        "9vq43VZaedYDQcDg": {
+          "name": "시미터"
+        },
+        "Crs2IbTJDC4SgSNC": {
+          "name": "주먹"
+        },
+        "zwIIXTWKiWxc0HQI": {
+          "name": "복합 단궁"
+        },
+        "Uh6PzrwRpiHFbs57": {
+          "name": "원소 내구성",
+          "description": "<p>자니는 어떤 원소 평면에서도 최대 48시간 동안 생존할 수 있으며, 그 후에는 떠나거나 죽을 때까지 시간당 [[/r 1]]{1 피해}를 받습니다.</p>"
+        },
+        "ExArN3kiUKJOadE8": {
+          "name": "크기 변경",
+          "description": "<p><strong>빈도</strong> 하루에 한 번</p>\n<hr />\n<p><strong>효과</strong> 자니는 생물의 크기를 변경합니다. 이는 4등급 @UUID[Compendium.pf2e.spells-srd.Item.wzctak6BxOW8xvFV]{확대} 또는 @UUID[Compendium.pf2e.spells-srd.Item.PjhUmyKnq6K5uDby]{축소} 마법과 동일하지만, 의지하지 않는 생물을 대상으로 할 수 있습니다 (@Check[fortitude|dc:24] 내성 성공 시 무효화).</p>"
+        }
+      }
+    },
+    "Deadly Workshop": {
+      "name": "치명적인 작업장",
+      "hpdetails": "사슬을 파괴하고 함정을 무력화합니다",
+      "desc (hazard)": "<p>날카로운 사슬이 휘감아 작업장 전체를 휘젓습니다.</p>",
+      "disable": "<p>@Check[thievery|dc:20|traits:action:disable-a-device] (전문가)가 높게 설치된 플랫폼의 제어 패널에서 함정을 무력화합니다.</p>",
+      "reset": "<p>트랩은 1분 후 비활성화되고 재설정됩니다.</p>",
+      "routine": "<p>(1 행동) 함정은 작업장 내 모든 생물에게 1 행동으로 한 개의 베는 칼날을 휘두릅니다. 베는 체인의 수로 인해 작업장 전체가 어려운 지형으로 간주됩니다. 이 함정은 다중 공격 페널티를 받지 않습니다.</p>",
+      "stealth": "<p>(전문가) 사슬에 박힌 칼날과 그들을 연결하는 복잡한 훅 시스템에 주의합니다.</p>",
+      "items": {
+        "vKCIt7XaOuoahYj4": {
+          "name": "휘두르는 칼날",
+          "description": "<p><strong>트리거</strong> 두 개 이상의 생물이 작업실에 들어오거나 작업실에서 턴을 종료합니다</p>\n<hr />\n<p><strong>효과</strong> 함정이 트리거된 생물에게 베는 칼날을 공격하게 한 후 이니셔티브를 굴립니다.</p>"
+        },
+        "0c0oBsEpkYrULGK2": {
+          "name": "베는 칼날"
+        },
+        "7Cf5jaxHyo1eYibk": {
+          "name": "지도 없음",
+          "description": "<p>이 함정은 다중 공격 페널티를 받지 않습니다.</p>"
+        }
+      }
+    },
+    "Noolik": {
+      "name": "누올릭",
+      "blurb": "진킨 리더",
+      "items": {
+        "VgrSRyAc5yo8oEDH": {
+          "name": "단검"
+        },
+        "q3mCqdHIM3h7Dygf": {
+          "name": "암습",
+          "description": "<p>누올릭은 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태의 생물에게 추가로 2d6 정밀도 피해를 입힙니다.</p>"
+        },
+        "7QPS7Bzoo5c8BwL3": {
+          "name": "틴커",
+          "description": "<p>6명의 진킨스가 1시간 동안 협력하여 60피트 범위 내의 아이템에 저주를 부여할 수 있습니다. 이 과정은 시간이 오래 걸리지만, 눈에 띄지 않으며 @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{숨어 있는} 상태에서도 수행할 수 있습니다. 진킨스는 이 능력을 마법 아이템에 사용하는 것을 선호합니다. 저주는 아이템을 신뢰할 수 없게 만들거나(@Check[flat|dc:5] 또는 아이템과 상호작용하거나 활성화하는 데 모든 행동을 소모해야 함), 아이템 사용에 이상한 조건을 추가하거나, 유사한 수준의 다른 저주를 부여합니다.</p>"
+        },
+        "TfpnMepCP7CcT5q0": {
+          "name": "트랩 틴커",
+          "description": "<p>누올릭은 복잡한 기계적 함정이 정상적인 지속 시간보다 더 오래 지속되도록 만들 수 있습니다. 그녀는 자신의 이동 속도만큼 이동한 후 함정과 상호작용합니다. 함정은 다음 라운드에서 반응을 사용할 수 있으며, 루틴도 사용할 수 있지만, 이니셔티브는 변경되지 않습니다.</p>"
+        }
+      },
+      "CraftingVariants": {
+        "0": {
+          "label": "함정"
+        }
+      }
+    },
+    "Sand Wolf": {
+      "name": "모래 늑대",
+      "description": "<p>모래 늑대는 원소 대지의 모래 사막에 거주하는 원소 생물로, 공중으로 떠다니거나 소환된 평면으로 이동합니다. 공기 평면으로 떠다니거나 소환된 원소 땅의 모래 사막에 서식하는 원소 생물입니다. 이 생물들은 평면 균열을 통해 스며들거나 물질 평면에서 원소술사에 의해 소환되기도 합니다. 모래 늑대는 상대적으로 높은 지능, 예리한 감각, 그리고 모래 지형에서 변형되어 숨을 수 있는 능력으로 인해 수호자로 귀중히 여겨집니다. 재치 있고 민첩한 이들은 습격한 모든 생물을 맹렬히 추격하며, 사냥감의 민첩성에 관계없이 공격합니다. 모래 늑대는 아름다운, 서글픈 노래를 부르는 놀라운 능력을 가지고 있으며, 그 음악은 공기 평면에 거주하는 지니들 사이에서 높은 수준의 오락으로 여겨집니다. 많은 지니 비지르와 심지어 물질 평면의 일부 통치자들은 동료들의 주목을 끌기 위해 이 생물 중 하나를 고용해 특별한 행사나 의식에서 자랑으로 삼습니다. 늑대들의 말 없는 노래는 땅의 힘과 그 땅을 깎아내는 바람의 힘을 동시에 불러일으킵니다.</p>\n<h2>The Eternal Hourglass</h2>\n<p>지구 평면의 깊은 동굴 속에 작은 도시 크기의 거대한, 파괴할 수 없는 듯한 모래시계가 있습니다. 그 상단에는 수천 마리의 모래 늑대가 가득 차 있으며, 각 늑대가 하단으로 흘러내릴 때마다 모래로 변해 재형성되지 않고 거대한 산처럼 쌓입니다. 이 모래시계를 누가 만들었는지, 모래 늑대가 어떻게 거기에 도착했는지, 그리고 모래가 흘러내릴 때-만약 있다면-무엇이 시간을 측정하는지 명확하지 않습니다.-모래시계가 무엇을 측정하고 있는지 명확하지 않습니다. 일부는 모래가 다 떨어지면 모래 늑대들이 풀려나 자유롭게 난폭해질 것이라고 주장하며, 다른 이들은 모래시계가 시간의 끝을 카운트다운하고 있다고 믿습니다.</p>",
+      "languages": "(언어를 말할 수 없음)",
+      "items": {
+        "EiWfNYaOT81z5MOH": {
+          "name": "턱"
+        },
+        "5g3dFwJlNyf7l5pp": {
+          "name": "모래 폭풍"
+        },
+        "BINQnRb17qHO6cFr": {
+          "name": "진동 감지 30피트"
+        },
+        "k4UJqygV0IIOz6gu": {
+          "name": "Collapse Into Sand",
+          "description": "<p><strong>Trigger</strong> 모래 늑대가 공격을 받습니다</p>\n<hr />\n<p><strong>효과</strong> 모래 늑대의 몸이 모래 구름으로 분해됩니다. 트리거 공격으로부터 피해를 받지 않으며, 저항력이 8로 증가합니다. 모래 늑대는 움직이거나 공격하기 전에 몸체를 재구성하기 위해 한 번의 행동을 소비해야 합니다.</p>"
+        },
+        "CSxBQgkOH3OC3Wpm": {
+          "name": "물 취약성",
+          "description": "<p>모래 늑대는 물 속성을 가진 공격이나 효과로부터 추가로 5의 피해를 받습니다.</p>"
+        },
+        "Qwa6uCGVwCVxgKZg": {
+          "name": "질식하는 모래",
+          "description": "<p>모래 늑대는 회전하는 모래 구름으로 분해됩니다. 이는 Stride 능력을 사용해 점유된 공간을 자유롭게 이동할 수 있습니다. 해당 공간 내의 모든 생물은 [[/r 2d10]]의 피해를 받고 @Check[reflex|dc:19|traits:damaging-effect] 내성을 시도해야 합니다.</p>\n<hr />\n<p><strong>대성공</strong> 대상은 피해를 받지 않습니다.</p>\n<p><strong>성공</strong> 대상은 반의 피해를 입습니다.</p>\n<p><strong>실패</strong> 대상은 전체 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1} 상태가 됩니다.</p>\n<p><strong>대실패</strong> 실패와 동일하지만 효과가 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 3}로 증가합니다.</p>"
+        },
+        "WkSKKlly7gJ0yJlm": {
+          "name": "속삭이는 노래",
+          "description": "<p>모래 늑대가 짧은 매혹적인 노래를 부릅니다. 모래 늑대 이외의 모든 생물은 30피트 이내에 있을 경우 @Check[will|dc:19] 내성 검사를 시도해야 합니다.</p>\n<hr />\n<p><strong>대성공</strong> 대상은 영향을 받지 않으며, 24시간 동안 추가적인 속삭이는 노래 노출에 일시적으로 면역이 됩니다.</p>\n<p><strong>Success</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1}.</p>\n<p><strong>Failure</strong> 목표는 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 2}입니다.</p>\n<p><strong>대실패</strong> 실패로, 목표는 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1}입니다.</p>"
+        },
+        "MbyCGuh3pY2i7iG0": {
+          "name": "Grab"
+        }
+      },
+      "StealthVariants": {
+        "0": {
+          "label": "in deserts"
+        }
+      }
+    },
+    "Scrapborn": {
+      "name": "Scrapborn",
+      "description": "<p>마법, 알케미, 공학이 교차하는 곳에서는 환경과 그 주민들에게 예상치 못한 부작용이 자주 발생합니다. 스크랩본은 이러한 이상한 교차점에서 때로는 발생합니다. 대부분 스크랩본은 다양한 쓰레기로 이루어진 걸어다니는 쓰레기 더미처럼 보이며, 무작위로 조립된 것처럼 보입니다. 그들의 실제 몸은 희미하게 인간형이며, 섬세하고 스펀지 같은 녹색 피부를 가지고 있습니다. 그들은 보호를 위해 쓰레기를 모아 몸에 붙일 수 있는 접착물을 분비합니다. 이 쓰레기가 결국 떨어지면, 스크랩본은 이를 다시 붙이거나 새로운 것으로 교체합니다. 결과적으로 부피가 커지지만, 스크랩본은 여전히 강력한 수영 능력을 유지하며 물속에서 민첩성을 거의 잃지 않습니다. 스크랩본은 중앙집권적인 사회를 갖추지 않았지만, 생존을 위해 작은 무리를 형성해 협력하기도 합니다. 일반적으로 이는 주변 정착지에 대한 공격이 점차 격화되는 결과로 이어지며, 이 생물들은 서로의 분노를 자극하며 광란 상태로 몰아갑니다. 그들은 생존 확률을 높이기 위해 고품질 갑옷이 있는 장소를 우선적으로 공격합니다.</p>\n<h2>가짜 기사</h2>\n<p>일부 스크랩본은 점착성 피부 위에 부착할 갑옷 조각과 기타 부품을 신중하게 선택하는 데 많은 시간을 보냅니다. 특정 색상이나 재질을 선호해 컬렉션을 키워가며, 시간이 지나면서 일관된 디자인을 추구합니다. 매우 성실하고 인내심이 강하거나, 특히 부유한 스크랩본은 이 방법으로 완전한 갑옷 세트를 제작할 수 있으며, 도시나 성을 걸어다니며 자신을 기사라고 속이고 위협할 수 있을 만큼 두꺼운 갑옷 형태를 활용할 수도 있습니다.</p>",
+      "items": {
+        "VQJA1YBZSal2ryC7": {
+          "name": "Claw"
+        },
+        "6Dw2y2wTjQtAwZrH": {
+          "name": "Thrown Scrap"
+        },
+        "uyPLq5ud3u2abZOm": {
+          "name": "희생 갑옷",
+          "description": "<p><strong>트리거</strong> 스크랩본이 물리적 피해를 입히는 공격을 받을 때</p>\n<hr />\n<p><strong>효과</strong> 스크랩본은 몸에 부착된 스크랩 조각 중 하나에 피해를 전달하고 트리거 공격에 대해 저항력 15를 얻습니다. 하지만 AC가 24시간 동안 2 감소합니다. 이 방법으로 스크랩본의 AC는 16 이하로 감소할 수 없습니다.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.1wCgwFLJByW8YKyM]{효과: 방어구 희생}</p>"
+        },
+        "NMF7f7BxrI9NQtIA": {
+          "name": "Rebuild Armor",
+          "description": "<p><strong>Requirements</strong> 스크랩본의 이전 행동이 갑옷을 착용한 대상에 대한 성공적인 발톱 공격이었고, 그 갑옷이 파손되지 않았습니다.</p>\n<hr />\n<p><strong>효과</strong> 스크랩본은 대상의 갑옷을 잡아당기고 찢어댑니다. 대상은 @Check[reflex|dc:20] 내성을 시도해야 합니다.</p>\n<hr />\n<p><strong>대성공</strong> 대상은 영향을 받지 않습니다.</p>\n<p><strong>성공</strong> 대상의 갑옷은 @Damage[1d8[piercing]]의 피해를 입으며, 갑옷의 경도를 무시합니다.</p>\n<p><strong>Failure</strong> The target's armor takes @Damage[2d8[piercing]]의 피해를 입으며, 이 피해는 방어구의 경도를 무시합니다. 이로 인해 방어구가 파손되면, 스크랩본은 제거된 방어구 조각을 자신의 몸에 흡수하여 AC를 1 증가시킬 수 있습니다(최대 22까지).</p>\n<p><strong>대실패</strong> 실패와 동일하지만, 피해 대신 대상의 방어구가 자동으로 BT로 감소되며 스크랩본은 AC를 2 증가시킵니다.</p>"
+        }
+      },
+      "StealthVariants": {
+        "0": {
+          "label": "하수구와 폐차장"
+        }
+      }
+    },
+    "Corrupted Draft": {
+      "name": "부패한 초안",
+      "desc (hazard)": "<p>불협화음의 음악, 춤, 시가 결합되어 낯선 사람에 대한 깊은 의심과 불신을 조성합니다.</p>",
+      "disable": "<p>@Check[performance|dc:28]를 사용하여 성능을 반격하거나 @Check[religion|dc:28] 또는 @Check[occult|dc:28] 영적 에너지를 방해합니다. 함정을 무력화하려면 두 번의 성공이 필요합니다. 기계 머리 부분은 Inspired Recitation을 두 번 사용하면 함정을 자동으로 무력화할 수 있습니다.</p>",
+      "reset": "<p>위험은 영역 <strong>E3</strong>에 의식 있는 생물이 없을 때 중단되며, 1분 후 재설정됩니다.</p>",
+      "routine": "<p>(1 행동; 감정, 공포, 정신, 초자연적) 에코가 계속 울려 퍼지며 지역 내 생물들을 찢어발기고 타인에 대한 불신을 심어줍니다. 지역 내 모든 생물은 @Damage[(2d10+11)[mental]] 피해를 입으며 @Check[will|dc:28|traits:emotion,fear,mental,occult,damaging-effect] 내성 검사를 시도해야 합니다.</p>\n<hr>\n<p><strong>대성공</strong> 대상은 영향을 받지 않으며 1분 동안 효과에 면역이 됩니다.</p>\n<p><strong>Success</strong> The target takes half damage.</p>\n<p><strong>실패</strong> 대상은 전체 피해를 입으며, 불신과 불안감으로 인해 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1} 상태가 됩니다.</p>\n<p><strong>대실패</strong> 대상은 두 배의 피해를 입으며 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 2} 상태가 됩니다.</p>",
+      "stealth": "<p>(expert) or @UUID[Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl]{Detect Magic}</p>",
+      "items": {
+        "mPAzQkbngGpRu3L1": {
+          "name": "Sickening Performance",
+          "description": "<p><strong>트리거</strong> 두 명 이상의 캐릭터가 영역 <strong>E3</strong>에 들어가고 어떤 소리라도 내면</p>\n<hr />\n<p><strong>효과</strong> 소리가 증폭되고 왜곡되어 끔찍한 비명 소리로 변합니다. 해당 지역 내 모든 생물은 @Damage[(2d10+11)[mental]]의 피해를 입습니다 (@Check[will|dc:28|basic] 내성). 함정은 이후 이니셔티브를 굴립니다.</p>"
+        }
+      }
+    },
+    "Vulpinal Twin": {
+      "name": "Vulpinal Twin",
+      "blurb": "Variant vulpinal",
+      "languages": "speak with animals, tongues",
+      "items": {
+        "MYkjO6RpnPJnSkIl": {
+          "name": "이빨"
+        },
+        "RLb0ZTw2qZPk6632": {
+          "name": "발톱"
+        },
+        "9lwUFHn5fGEZ1bha": {
+          "name": "상시 마법"
+        },
+        "kpbrWPglhL7JPNCJ": {
+          "name": "여우의 재치",
+          "description": "<p>볼피날의 핵심 가치는 재치이다. 그들은 광범위한 여행에서 얻은 지식과 이야기를 거의 모든 상황에 즉시 적용할 수 있다. 자신의 턴에서 다른 행동을 수행하기 전에, 볼피날은 @UUID[Compendium.pf2e.actionspf2e.Item.1OagaWtBpVXExToo]{지식 회상}을 무료 행동으로 사용할 수 있다.</p>"
+        },
+        "leYdA2DMrvlgvy19": {
+          "name": "Nirvana Lore"
+        }
+      }
+    },
+    "Usij Cultist": {
+      "name": "Usij Cultist",
+      "items": {
+        "RfQ92lJeVbJ6OXDs": {
+          "name": "Scimitar"
+        },
+        "OFLLirqKTnoPcrbj": {
+          "name": "Whip"
+        },
+        "g6fEsZWFGgN3qMQy": {
+          "name": "트리핑 채찍",
+          "description": "<p><strong>요구 조건</strong> 우시 교단은 손에 채찍을 들고 있어야 합니다</p>\n<p><strong>트리거</strong> 위협받는 칸에서 생물이 이동할 때</p>\n<hr />\n<p><strong>효과</strong> 우시지 숭배자는 채찍으로 트리거링 생물에게 @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Trip} 시도를 합니다.</p>"
+        }
+      }
+    },
+    "Amar": {
+      "name": "Amar",
+      "items": {
+        "6kWMv2asNCVXpweA": {
+          "name": "Rapier"
+        },
+        "3jpOaMVqNFkPk4GY": {
+          "name": "Cruel Performance",
+          "description": "<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> The bard 잔인하고 날카로운 말을 내뱉어 피를 흘리게 합니다. 30피트 이내의 모든 적들은 @Damage[7d6[slashing]] 피해를 입습니다 (@Check[fortitude|dc:24|basic] 내성).</p>"
+        }
+      }
+    },
+    "Jimbilin": {
+      "name": "짐빌린",
+      "blurb": "아흐리만 신의 남성 하플링 사제",
+      "items": {
+        "qo8OoIR8eJk2KzZj": {
+          "name": "스콜피온 채찍"
+        },
+        "giy28Fg04joyCqnc": {
+          "name": "망각의 기도",
+          "description": "<p>제사장은 신에게 기도하며 무의 힘들을 소환합니다.</p>\n<p><strong>빈도</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> @Template[emanation|distance:30]{30 피트} 내의 모든 적에게 @Damage[5d6[void]|options:area-damage]의 피해 (@Check[will|dc:21|basic|options:area-effect] 내성)를 입힙니다.</p>"
+        }
+      }
+    },
+    "Zridi": {
+      "name": "Zridi",
+      "blurb": "여성 파이라카",
+      "languages": "텔레파시 100 피트",
+      "saves": "마법 내성 +1",
+      "items": {
+        "esW1tqtfAQ8q94YU": {
+          "name": "발톱"
+        },
+        "vw7CqLS1fQ7CXlLL": {
+          "name": "마법 내성 검사 모든에 +1 상태"
+        },
+        "UGUWALd2VlYF2YHm": {
+          "name": "빨간색에 대한 증오",
+          "description": "<p>파이라카는 빨간색을 증오합니다. Zridi는 빨간색을 입지 않으며, 빨간색으로 칠해진 장소에 자발적으로 들어가지 않습니다. 선택의 여지가 있다면, 그녀는 빨간색을 입은 생물을 먼저 공격합니다. 힘이나 마법 효과로 인해 빨간색에 대한 불만을 표현할 수 없을 경우, 그녀의 턴 종료 시 @Damage[2d6[mental]] 피해를 입습니다.</p>"
+        },
+        "4NDYGQ0N2hZuDmLa": {
+          "name": "Bubonic Plague",
+          "description": "<p>감염된 생물은 피로 상태를 제거할 수 없습니다</p>\n<p><strong>내성 굴림</strong> @Check[fortitude|dc:24]</p>\n<hr />\n<p><strong>Onset</strong> 1 day</p>\n<p><strong>Stage 1</strong> @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{피로감} (1일)</p>\n<p><strong>단계 2</strong> @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 2} 및 피로감 (1 day)</p>\n<p><strong>Stage 3</strong> @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 3}, 피로, 그리고 [U0005]를 [[/br 1d20 #지속적 피해 간격]]{1d20 분}마다 받음 (1일)</p>"
+        },
+        "4FWJV0JycabbbM9J": {
+          "name": "형태 변경",
+          "description": "<p>Zridi는 작은 또는 중간 크기의 인간형 또는 동물의 모습을 취할 수 있습니다. 이는 그녀의 속도나 스트라이크 공격 및 피해 수정자를 변경하지 않지만, 스트라이크가 입히는 피해 유형을 변경할 수 있습니다.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
+        },
+        "osoaSGKfsC1ynbq1": {
+          "name": "Compelled Performance",
+          "description": "<p><strong>빈도</strong> 하루에 한 번</p>\n<hr />\n<p><strong>효과</strong> Zridi는 대상에게 1주 동안 성능 검사에서 +2 상태 보너스를 부여합니다. 대상은 @Check[will|dc:26] 내성을 시도해야 합니다.</p>\n<p><strong>대성공</strong> 추가 효과 없음.</p>\n<p><strong>성공</strong> 대상은 다음 턴에 1 행동 동안 @UUID[Compendium.pf2e.actionspf2e.Item.EEDElIyin4z60PXx]{Perform}을 수행해야 합니다.</p>\n<p><strong>실패</strong> 대상은 다음 턴에 3번의 행동을 수행해야 하며, Zridi가 지정한 퍼포먼스 임무를 수행해야 합니다.</p>\n<p><strong>대실패</strong> 실패와 동일하지만, Zridi는 효과를 지연시키고 다음 주 내 언제든지 반응으로 발동할 수 있습니다.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.Yb5rg3MEojIHQX8H]{Effect: Compelled Performance}</p>"
+        },
+        "u6YxDEh3edTAjJSk": {
+          "name": "Tormenting Dreams",
+          "description": "<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>효과</strong> Zridi는 100피트 이내의 잠든 생물에게 사랑하는 사람과 친구들의 배신 장면을 보여주는 악몽을 일으킵니다. 대상은 @Check[will|dc:26] 내성을 시도해야 하며, @UUID[Compendium.pf2e.spells-srd.Item.Uqj344bezBq3ESdq]{악몽} 주문의 효과가 적용됩니다.</p>"
+        }
+      }
+    }
+  },
+  "mapping": {
+    "description": "system.details.publicNotes",
+    "gm": "system.details.privateNotes",
+    "blurb": "system.details.blurb",
+    "cadetails": "system.attributes.ac.details",
+    "hpdetails": "system.attributes.hp.details",
+    "languages": "system.details.languages.details",
+    "perception": "system.perception.details",
+    "saves": "system.attributes.allSaves.value",
+    "speeds": "system.attributes.speed.details",
+    "desc (hazard)": "system.details.description",
+    "disable": "system.details.disable",
+    "reset": "system.details.reset",
+    "routine": "system.details.routine",
+    "stealth": "system.attributes.stealth.details",
+    "target": "system.target.value",
+    "items": {
+      "path": "items",
+      "converter": "translateActorItems"
+    },
+    "AcrobaticsVariants": {
+      "path": "system.skills.acrobatics.special",
+      "converter": "translateSkillVariants"
+    },
+    "ArcanaVariants": {
+      "path": "system.skills.arcana.special",
+      "converter": "translateSkillVariants"
+    },
+    "AthleticsVariants": {
+      "path": "system.skills.athletics.special",
+      "converter": "translateSkillVariants"
+    },
+    "CraftingVariants": {
+      "path": "system.skills.crafting.special",
+      "converter": "translateSkillVariants"
+    },
+    "DeceptionVariants": {
+      "path": "system.skills.deception.special",
+      "converter": "translateSkillVariants"
+    },
+    "DiplomacyVariants": {
+      "path": "system.skills.diplomacy.special",
+      "converter": "translateSkillVariants"
+    },
+    "IntimidationVariants": {
+      "path": "system.skills.intimidation.special",
+      "converter": "translateSkillVariants"
+    },
+    "MedicineVariants": {
+      "path": "system.skills.medicine.special",
+      "converter": "translateSkillVariants"
+    },
+    "NatureVariants": {
+      "path": "system.skills.nature.special",
+      "converter": "translateSkillVariants"
+    },
+    "OccultismVariants": {
+      "path": "system.skills.occultism.special",
+      "converter": "translateSkillVariants"
+    },
+    "PerformanceVariants": {
+      "path": "system.skills.performance.special",
+      "converter": "translateSkillVariants"
+    },
+    "ReligionVariants": {
+      "path": "system.skills.religion.special",
+      "converter": "translateSkillVariants"
+    },
+    "SocietyVariants": {
+      "path": "system.skills.society.special",
+      "converter": "translateSkillVariants"
+    },
+    "StealthVariants": {
+      "path": "system.skills.stealth.special",
+      "converter": "translateSkillVariants"
+    },
+    "SurvivalVariants": {
+      "path": "system.skills.survival.special",
+      "converter": "translateSkillVariants"
+    },
+    "ThieveryVariants": {
+      "path": "system.skills.thievery.special",
+      "converter": "translateSkillVariants"
+    }
+  }
+}
