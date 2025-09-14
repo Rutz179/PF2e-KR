@@ -1,0 +1,1226 @@
+{
+  "label": "pf2e.strength-of-thousands-bestiary-book-6-shadows-of-the-ancients",
+  "entries": {
+    "Tatterthread": {
+      "name": "Tatterthread",
+      "blurb": "Variant norn",
+      "hpdetails": "regeneration 15 (deactivated by cold iron)",
+      "languages": "tongues",
+      "perception": "detect magic",
+      "saves": "+1 status to all saves vs. magic",
+      "items": {
+        "e0qp2aa4wivx00co": {
+          "name": "Caustic Shears"
+        },
+        "sivgnwartsges412": {
+          "name": "Acid Stream"
+        },
+        "KJUC17A4duZNX206": {
+          "name": "Greater Darkvision"
+        },
+        "TS5wUrDyVybMs4vs": {
+          "name": "Lifesense 120 feet"
+        },
+        "xlecIVCiS77b5FNs": {
+          "name": "Constant Spells"
+        },
+        "oAGJWUpa1L5RVlbd": {
+          "name": "+1 Status to All Saves vs. Magic"
+        },
+        "0PymuqUh4TyqB3Ij": {
+          "name": "Regeneration 15 (Deactivated by Cold Iron)"
+        },
+        "518te1yujw43d3x5": {
+          "name": "Deny Fate",
+          "description": "<p>When Tatterthread rolls initiative, enemies she can see within 120 feet that are also rolling initiative automatically roll a 1.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.1UHjPz8hgdnrN3zL]{Effect: Deny Fate}</p>"
+        },
+        "5wzebnl4wgdnomnz": {
+          "name": "Fated",
+          "description": "<p>When a creature is subject to a fortune effect from a norn and a misfortune effect from any source other than a norn (or vice versa), the norn's effect automatically counteracts the other effect and then takes place normally, rather than the two effects canceling each other out. If both the fortune and misfortune effect are from a norn, then the two cancel each other out as normal. At the GM's discretion, powerful entities related to fate or luck, like Desna, Magdh, or Pharasma, count as a norn for the purpose of this ability.</p>"
+        },
+        "hrw36t1rizoo7ehh": {
+          "name": "Shadow Corrosion",
+          "description": "<p>When Tatterthread deals acid damage with a Strike, she regains @Damage[10[healing]] Hit Points. The target must succeed at a @Check[fortitude|dc:39] save or become @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 1} (@UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 2} on a critical failure).</p>"
+        },
+        "291km5v3jjb679dn": {
+          "name": "Shadow Snip",
+          "description": "<p><strong>Frequency</strong> three times per day</p>\n<hr />\n<p><strong>Effect</strong> Tatterthread produces a scrap of shadow linked to the fate of a creature within 100 feet of her, then snips it with her caustic shears. The target takes @Damage[100[acid]] damage (@Check[fortitude|dc:42|basic]). If the target is reduced to 0 Hit Points from this damage, it melts into a puddle of fetid acid and dies immediately. If the target failed the saving throw, it loses any acid resistance it has for 1 minute (1 day on a critical failure). A creature slain by Shadow Snip can't be restored to life except by miracle, wish, or similarly powerful magic, or by divine intervention. Regardless of the outcome of its save, a creature targeted by Shadow Snip becomes temporarily immune for 24 hours. The norn can't use Shadow Snip again for [[/gmr 1d4 #Recharge Shadow Snip]]{1d4 rounds}.</p>"
+        },
+        "2uz3cp2ye4ku791n": {
+          "name": "Shift Fate",
+          "description": "<p><strong>Trigger</strong> A creature within 120 feet attempts a saving throw</p>\n<hr />\n<p><strong>Effect</strong> The creature rolls the save twice, and then Tatterthread decides which result applies. If she chooses the lower roll, this is a misfortune effect; if she chooses the higher roll, it's a fortune effect; if they're the same, she decides which trait to apply.</p>"
+        },
+        "ysmzzia5hydnicen": {
+          "name": "Lore (all)"
+        }
+      }
+    },
+    "Stinger Ward Trap": {
+      "name": "Stinger Ward Trap",
+      "desc (hazard)": "<p>A ghostly stinger appears in the air and jabs at anyone moving through the opening.</p>",
+      "disable": "<p>@Check[thievery|dc:36|name:Prevent Ghostly Stinger from Forming|traits:uncommon,magical,trap] (master) to prevent the ghostly stinger from forming or @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (6th rank; counteract DC 34).</p>",
+      "reset": "<p>The trap resets after 24 hours.</p>",
+      "stealth": "<p>(expert)</p>",
+      "items": {
+        "5v0abcv7hftaq55z": {
+          "name": "Deadly Sting",
+          "description": "<p><strong>Trigger</strong> A creature who isn't wearing a religious symbol of Norgorber moves the trapdoor</p><hr />\n<p><strong>Effect</strong> The trap targets the creature with <em>@UUID[Compendium.pf2e.equipment-srd.Item.iRDCa4OVSTGUD3vi]{Purple Worm} sting</em> (@Check[fortitude|dc:30|traits:trap,uncommon,magical] save).</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> @Damage[5d6[poison]] damage and @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 2} (1 round)</p>\n<p><strong>Stage 2</strong> @Damage[6d6[poison]] damage and enfeebled 2 (1 round)</p>\n<p><strong>Stage 3</strong> @Damage[8d6[poison]] damage and enfeebled 2 (1 round)</p>"
+        }
+      }
+    },
+    "Aspect of Immortality": {
+      "name": "Aspect of Immortality",
+      "description": "<p>The Grim Reaper is the unflinching personification of death. Silent as the grave and as inevitable as time itself, this legendary being hunts down and finishes creatures that have evaded death for far too long. Sometimes the Grim Reaper comes without warning, while at others it comes to finish the work that other creatures could not. The Grim Reaper serves no god, fiend, or aeon. It is both despised and feared by psychopomps and celestials, but few-if any-dare to stand in its way. Like some eternal plague, it kills those who try to cure the multiverse of its presence. It stands alone and holds only its own council, and the pleading and reasoning of mortals and immortals alike fall on deaf ears once the Grim Reaper closes on its quarry. Its own reasoning is silent to mortal ears and inscrutable to the mortal mind, but no matter the reason, the result is unyielding and final.</p>\n<p>While some legends hold that the Grim Reaper appears before everyone as they die, the truth is quite a bit more disturbing. Such vigils in fact lie within the providence of the psychopomps, a race of immortals charged with the protection and guidance of mortal souls through the afterlife. The Grim Reaper has little interest in protecting souls or guiding them. It is instead compelled by sinister agendas arising within the nighted realm of Abaddon, where the Horsemen of the Apocalypse rule. Indeed there are many similarities in shape and form between the Grim Reaper and Charon, the Horseman of Death, but no recorded instance exists of these two powerful entities working together. Instead, the Grim Reaper serves as something of a manifestation of Abaddon itself, and in this regard is believed by some to be an incarnation of the mysterious First Horseman. When the Grim Reaper comes to a world, it does so not as an angel of mercy, but as a relentless harvester of life. Those who fall to the Grim Reaper were not destined to die as much as they were selected, hunted, and murdered.</p>\n<p>Perhaps the most frightening legends surrounding the Grim Reaper concern its nature as a singular entity, for some believe that more than one grim reaper exists in the Great Beyond. These whispers tell of a cabal of at least nine of these creatures that stalk reality, culling the living as inexplicable servants of true entropy. According to the teaching of some death cults, the final goal of the Grim Reaper is to end the entire cycle of life and death and serve as a silent lord of an empty universe.</p>",
+      "blurb": "Variant grim reaper",
+      "hpdetails": "void healing",
+      "saves": "+1 status to all saves vs. magic",
+      "items": {
+        "1nw27q1yzi9jiohx": {
+          "name": "Quickened",
+          "description": "<p>You gain 1 additional action at the start of your turn each round. Many effects that make you quickened specify the types of actions you can use with this additional action. If you become quickened from multiple sources, you can use the extra action you've been granted for any single action allowed by any of the effects that made you quickened. Because quickened has its effect at the start of your turn, you don't immediately gain actions if you become quickened during your turn.</p>"
+        },
+        "qqpgMalbjoAykhjP": {
+          "name": "Keen Scythe"
+        },
+        "xDzg2v4rQ9wNAK3b": {
+          "name": "Death's Grace",
+          "description": "<p>The Aspect of Immortality can choose whether or not it counts as undead for effects that affect undead differently. Even if it does not count as undead, the Aspect of Immortality still never counts as a living creature.</p>"
+        },
+        "SWo4EQT4exBUG1zV": {
+          "name": "Status Sight",
+          "description": "<p>The Aspect of Immortality automatically knows the Hit Points, conditions, afflictions, and emotions of all creatures it can see.</p>"
+        },
+        "doHZQiWCurTpCiMw": {
+          "name": "Constant Spells"
+        },
+        "dWgrFKYnx0FM8zl3": {
+          "name": "+1 Status to All Saves vs. Magic"
+        },
+        "6aClhFTvO5NOf1iA": {
+          "name": "Aura of Misfortune",
+          "description": "<p>20 feet. Living creatures in the aura must roll twice on all d20 rolls and use the lower result.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.QoneHsjZKtGHWlam]{Effect: Aura of Misfortune}</p>"
+        },
+        "skqRE7JS8Ge3jlfR": {
+          "name": "Key Weakness",
+          "description": "<p>Jatembe's history of vanquishing the King of Biting Ants survives in the halcyon legacy of the Magaambya. The Aspect of Immortality has a key weakness to both arcane spells and primal spells.</p>"
+        },
+        "ei3nQVCq6MHIPrMy": {
+          "name": "Lurking Death",
+          "description": "<p><strong>Trigger</strong> A creature within 100 feet makes a ranged attack or uses an action that has the concentrate, manipulate, or move trait.</p>\n<hr />\n<p><strong>Effect</strong> The Aspect of Immortality teleports to a square adjacent to the triggering creature and makes a melee Strike against it. If the Strike hits, the Aspect of Immortality disrupts the triggering action.</p>"
+        },
+        "YMwe0HIrPrtpRdsx": {
+          "name": "Void Healing",
+          "description": "<p>The Aspect of Immortality can choose whether or not it takes vitality damage.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.NegativeHealing]</p>"
+        },
+        "TzBbRiqiSDZj6VdK": {
+          "name": "Death Strike",
+          "description": "<p>A creature critically hit by any of the Aspect of Immortality's attacks or that critically fails against any of its spells must succeed at a @Check[fortitude|dc:47] save or die.</p>"
+        },
+        "W3a4Bkc73B2bUZDE": {
+          "name": "Energy Drain",
+          "description": "<p>When the Aspect of Immortality hits and deals damage with its scythe, it regains @Damage[20[healing]] Hit Points, and the target must succeed at a @Check[fortitude|dc:43] save or become @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 1}. If the target is already doomed, the doomed value increases by 1 (to a maximum of doomed 3).</p>"
+        },
+        "Zp7ozjV5uBLnBo41": {
+          "name": "Final Death",
+          "description": "<p>A creature killed by the Aspect of Immortality can't be brought back to life by any means short of divine intervention.</p>"
+        },
+        "0qVGuAvlfZ7EplZ5": {
+          "name": "Infuse Weapon",
+          "description": "<p>Any scythe gains the agile trait, can't be disarmed, and becomes a <em>+3 Major Striking Keen scythe</em> while the Aspect of Immortality wields it. If the Aspect of Immortality Strikes a creature with a weakness to any specific type of damage, the scythe's damage counts as that type of damage, in addition to slashing.</p>"
+        }
+      }
+    },
+    "Unshadowed Okoro": {
+      "name": "Unshadowed Okoro",
+      "items": {
+        "vl4j6ohxzsc9s9g1": {
+          "name": "Fist"
+        },
+        "wm6me1vq97mokyf6": {
+          "name": "Composite Shortbow"
+        },
+        "xfqu4h4qvq9m5jap": {
+          "name": "Shadow's Displeasure",
+          "description": "<p>When Okoro has fewer than 150 Hit Points, his shadow pulls at his essence to show the <em>Vesicant Egg's</em> displeasure. He looks pained and confused, and he becomes @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} and @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} until healed to 150 Hit Points or more. These conditions increase to 2 when below 100 Hit Points. When below 50 Hit Points, he falls @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious}.</p>"
+        },
+        "rt2r6pmpylk7004h": {
+          "name": "Vesicated Shadow",
+          "description": "<p>Okoro's shadow has become corrupted via the power of the <em>Vesicant Egg</em>. His shredded shadow grants him some control over acid and shadows. He gains a +4 status bonus to resist acid and shadow effects.</p>"
+        },
+        "jvm0dsaowmfz1zgn": {
+          "name": "Observe Weakness",
+          "description": "<p>Okoro studies a creature within 30 feet to find an opening to attack. On his next attack roll against the creature this turn, he rolls twice and uses the higher result, and his attack gains the fortune trait. The target becomes temporarily immune for [[/r 1d4 #Observe Weakness Immunity]]{1d4 rounds}.</p>"
+        },
+        "mds3qf6b45mnbotm": {
+          "name": "Rupture Shadow",
+          "description": "<p>Okoro can create immense blisters on a creature's shadow, which immediately burst, dealing @Damage[20d6[acid]] damage. He targets a creature within 60 feet that is casting a shadow, which must attempt a @Check[will|dc:37] save. Okoro can't use Rupture Shadow again for [[/gmr 1d4 #Recharge Rupture Shadow]]{1d4 rounds}.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected and becomes temporarily immune for 1 day.</p>\n<p><strong>Success</strong> The target takes half damage. The bursting shadow deals @Damage[(5[splash])[acid]]{5 acid splash} damage to all creatures within 5 feet of the target.</p>\n<p><strong>Failure</strong> The target takes full damage, and the bursting shadow deals @Damage[(10[splash])[acid]]{10 acid splash} damage.</p>\n<p><strong>Critical Failure</strong> The target takes double damage, the bursting shadow deals @Damage[(20[splash])[acid]]{20 acid splash} damage, and the target also takes @Damage[4d6[persistent,acid]] damage.</p>"
+        },
+        "1hjoyx9fc8r2v9tx": {
+          "name": "Push My Luck",
+          "description": "<p><strong>Trigger</strong> Okoro targets a creature with an attack</p>\n<p><strong>Requirements</strong> The triggering creature was the target of Observe Weakness this turn</p>\n<hr />\n<p><strong>Effect</strong> Okoro draws upon his future luck to guarantee his attack. When he makes his attack roll, if he rolls lower than 10 on the die, he treats that attack roll as a 10 instead. This is in addition to rolling twice and taking the higher result from Observe Weakness. Afterward, Okoro's luck is temporarily spent, and he must roll twice and use the lower result of his next 3 checks; this is a misfortune effect. He can't use Push My Luck again until he's completed these 3 checks.</p>"
+        },
+        "3cjpriCfkD5mQ2YL": {
+          "name": "Academia Lore"
+        },
+        "klXwJoSCbnT2fdTc": {
+          "name": "Games Lore"
+        }
+      }
+    },
+    "Shianshi Waymaker": {
+      "name": "Shianshi Waymaker",
+      "blurb": "Female variant sumbreiva",
+      "hpdetails": "(void healing)",
+      "items": {
+        "679rb2dqvxyxdoaa": {
+          "name": "Greatsword"
+        },
+        "hjm2smgzyij36lk0": {
+          "name": "Shadow Whip"
+        },
+        "J5YebMKHKiZiug9E": {
+          "name": "Greater Darkvision"
+        },
+        "131TjCXfzJb09ssm": {
+          "name": "Attack of Opportunity"
+        },
+        "zl9dx6km7pIVqu26": {
+          "name": "Void Healing"
+        },
+        "Qgr6aPoWv3z40lCF": {
+          "name": "Claim Trophy",
+          "description": "<p>Shianshi claims the soul of a creature she killed within the last minute. This works like @UUID[Compendium.pf2e.spells-srd.Item.GYmXvS9NJ7QwfWGg]{Seize Soul}, except that no black sapphire is required and the soul is turned into a glowing blue light called a soul trophy. Anyone who kills Shianshi can then free the soul from any soul trophy by touching it and speaking the word for \"freedom\" in any language.</p>"
+        },
+        "cygg7o7z0toswl57": {
+          "name": "Huntblade Brutality",
+          "description": "<p>Shianshi's greatsword Strikes have the death trait and deal an additional 2d8 damage to @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained}, @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard}, or @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened} creatures.</p>"
+        },
+        "2ydazja8ihmn5gye": {
+          "name": "Hunter's Leap",
+          "description": "<p><strong>Trigger</strong> Shianshi kills a creature</p>\n<hr />\n<p><strong>Effect</strong> Shianshi teleports up to 30 feet and makes a greatsword Strike; on a hit, the target of the Strike is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1} (@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 3} on a critical hit).</p>"
+        },
+        "y9l0m6fta3rgdp17": {
+          "name": "Whip Drain",
+          "description": "<p><strong>Requirements</strong> Shianshi has a creature @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} with her shadow whip</p>\n<hr />\n<p><strong>Effect</strong> The grabbed creature must succeed at a @Check[fortitude|dc:41] save or become @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 2} (@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 3} on a critical failure). If the creature is already drained, this increases its drained value instead, to a maximum of drained 4.</p>"
+        },
+        "8FiHZkupTCZdg1C5": {
+          "name": "Improved Grab"
+        }
+      }
+    },
+    "Slana": {
+      "name": "Slana",
+      "description": "<p>The rolling thunder before the rain provides the massive, leonine humanoids known as slanas with a tremendous power. These solitary and nomadic creatures primarily dwell in the jungles and savannas of the Mwangi Expanse, but they can range into nearby areas in search of prey or when drawn by strange primal forces only slanas can recognize. Slanas view each other as rivals who test each other's prowess, so when drawn together by this strange calling they nearly always fight to the death. A slana's roar echoes like thunder across the countryside, and denizens of the Mwangi fear a slana's approach whenever an oncoming storm's thunder seems more ferocious than its rain.</p>",
+      "hpdetails": "fast healing 20",
+      "speeds": "Freedom of Movement",
+      "items": {
+        "q6z4y2x8rb4rpvfg": {
+          "name": "Jaws"
+        },
+        "3l28k0lpbjg2q3gm": {
+          "name": "Claw"
+        },
+        "ee49164dvb6qdn8o": {
+          "name": "Thunderclap"
+        },
+        "ZU24HKZMECTYD4h9": {
+          "name": "Constant Spells"
+        },
+        "ETB4r2eJdiz14Y8t": {
+          "name": "Fast Healing 20"
+        },
+        "g1jzrlcfjodmehjj": {
+          "name": "Great Roar",
+          "description": "<p>The slana emits a deafening roar. All creatures within a @Template[cone|distance:100] take @Damage[16d8[sonic]|options:area-damage] damage (@Check[reflex|dc:44|basic|options:area-effect] saving throw). On a failed save, a creature is also @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened} for 1 minute and @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1} (or deafened permanently and @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 3} on a critical failure). The slana can't use Great Roar again for [[/gmr 1d4 #Recharge Great Roar]]{1d4 rounds}.</p>"
+        },
+        "jf7pxx8ohd0mik4h": {
+          "name": "Pounce",
+          "description": "<p>The slana Strides and makes a Strike at the end of that movement. If the slana began this action @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden}, they remain hidden until after the ability's Strike.</p>"
+        },
+        "kxvgkv6jremvktxm": {
+          "name": "Thunder Trap",
+          "description": "<p>A creature hit by the slana's thunderclap attack is @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} and held in place by reverberations of sound until it Escapes or Forces Open the bonds of thunder that constrain it (DC 44). The target is @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{Deafened} as long as it is immobilized by a thunder trap.</p>"
+        },
+        "myiVcCfzBQCDu3Os": {
+          "name": "Improved Grab"
+        }
+      }
+    },
+    "Clockwork Clock Tower": {
+      "name": "Clockwork Clock Tower",
+      "description": "<p>Clockworks are machines built by engineers and augmented with magic. A clock tower reconfigured as an animated clockwork can rotate slices of time.</p>",
+      "items": {
+        "1atnq5keexuv2dnt": {
+          "name": "Fist"
+        },
+        "vug88r4iw4rtn7bt": {
+          "name": "Foot"
+        },
+        "D5fap6jAbrTYxRzC": {
+          "name": "Wind-Up",
+          "description": "<p>1 week [[/act disable-device dc=40]]{DC 40 Thievery}</p>\n<p>For a clockwork to act, it must be wound with a unique key by another creature. This takes 1 minute. Once wound, it remains operational for the listed amount of time, usually 24 hours, after which time it becomes unaware of its surroundings and can't act until it's wound again. Some clockworks' abilities require them to spend some of their remaining operational time. They can't spend more than they have and shut down immediately once they have 0 time remaining. If it's unclear when a clockwork was last wound, most clockwork keepers wind all their clockworks at a set time, typically 8 a.m.</p>\n<p>A clockwork that lists standby in its wind-up entry can enter standby mode as a 3-action activity. Its operational time doesn't decrease in standby, but it can sense its surroundings (with a -2 penalty to Perception). It can't act, with one exception: when it perceives a creature, it can exit standby as a reaction (rolling initiative if appropriate).</p>\n<p>A creature can attempt to Disable a Device to wind a clockwork down (with a DC listed in the wind-up entry). For each success, the clockwork loses 1 hour of operational time. This can be done even if the clockwork is in standby mode.</p>"
+        },
+        "yaqehvxmvhkp5fxd": {
+          "name": "Doleful Tolling",
+          "description": "<p><strong>Trigger</strong> The clockwork clock tower rolls initiative</p>\n<hr />\n<p><strong>Effect</strong> The clock tower chimes, and all non-clockwork creatures within 300 feet who can hear it must succeed at a @Check[will|dc:42|options:inflicts:slowed] save or be @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} for 1 round (@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 2} on a critical failure).</p>"
+        },
+        "9v8rq139qt9yru0f": {
+          "name": "Durable Exterior",
+          "description": "<p>When a clockwork clock tower is reduced to fewer than 200 HP or is damaged by a critical hit, its exterior shatters to reveal internal mechanisms, reducing its AC to 44 until it recovers enough HP to reach 200 HP or more.</p>"
+        },
+        "de6tbnvg9wd9cn40": {
+          "name": "Overclock",
+          "description": "<p>The clockwork clock tower loses 1 day from its winding time and becomes @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} for 3 rounds. It can use this extra action to Step, Stride, or Strike. This quickened condition ends immediately if the clock tower is damaged by orichalcum.</p>"
+        },
+        "muwh6r24icy88fbd": {
+          "name": "Stutter Time",
+          "description": "<p>A creature struck by a clockwork clock tower's fist must make a @Check[will|dc:40] save as time flows unevenly around it.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} for 1 round and can use this extra action to Step, Stride, or Strike.</p>\n<p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> The creature is @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 3}.</p>\n<p><strong>Critical Failure</strong> The creature is knocked out of time, which ceases to flow around the creature for 1 round. It is invulnerable to all damage, it can't be targeted or affected by anything, and no rounds elapse for any timed durations, conditions, afflictions, and other effects it has. The target can't act and remains fixed in place, defying gravity if applicable. After time begins to flow again for it, the creature is stunned 3.</p>"
+        },
+        "v6WVrbixsdErrmki": {
+          "name": "Trample",
+          "description": "<p>Huge or smaller, foot, @Check[reflex|dc:42|basic] save</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Trample]</p>"
+        }
+      }
+    },
+    "Unshadowed Haibram": {
+      "name": "Unshadowed Haibram",
+      "items": {
+        "tldh8n1uqhn8kfua": {
+          "name": "Mambele"
+        },
+        "ik17ywnii0q6hf4p": {
+          "name": "Mambele"
+        },
+        "hEpxe1FfIjVaqxj4": {
+          "name": "Shadow's Displeasure",
+          "description": "<p>When Haibam has fewer than 150 Hit Points, his shadow pulls at his essence to show the <em>Vesicant Egg's</em> displeasure. He looks pained and confused, and he becomes @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} and @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} until healed to 150 Hit Points or more. These conditions increase to 2 when below 100 Hit Points. When below 50 Hit Points, he falls @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious}.</p>"
+        },
+        "skiRGL9UQGWGEdSZ": {
+          "name": "Vesicated Shadow",
+          "description": "<p>Haibam's shadow has become corrupted via the power of the <em>Vesicant Egg</em>. His shredded shadow grants him some control over acid and shadows. He gains a +4 status bonus to resist acid and shadow effects.</p>"
+        },
+        "8cIoZgJYjTSQNeqn": {
+          "name": "Rupture Shadow",
+          "description": "<p>Haibam can create immense blisters on a creature's shadow, which immediately burst, dealing @Damage[20d6[acid]] damage. He targets a creature within 60 feet that is casting a shadow, which must attempt a @Check[will|dc:37] save. Haibam can't use Rupture Shadow again for [[/gmr 1d4 #Recharge Rupture Shadow]]{1d4 rounds}.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected and becomes temporarily immune for 1 day.</p>\n<p><strong>Success</strong> The target takes half damage. The bursting shadow deals @Damage[(5[splash])[acid]]{5 acid splash} damage to all creatures within 5 feet of the target.</p>\n<p><strong>Failure</strong> The target takes full damage, and the bursting shadow deals @Damage[(10[splash])[acid]]{10 acid splash} damage.</p>\n<p><strong>Critical Failure</strong> The target takes double damage, the bursting shadow deals @Damage[(20[splash])[acid]]{20 acid splash} damage, and the target also takes @Damage[4d6[persistent,acid]] damage.</p>"
+        },
+        "smorxcoe1pndxktg": {
+          "name": "Wind Step",
+          "description": "<p>Haibram draws air around him to aid his movement. He Strides up to his Speed, gaining the effects of @UUID[Compendium.pf2e.spells-srd.Item.b5sGjGlBf58f8jn0]{Air Walk} and ignoring difficult terrain while moving. He can increase the number of actions to 3 to Stride up to three times his Speed instead. Haibram begins to fall immediately after using Wind Step but treats the fall as 60 feet shorter thanks to the supporting winds.</p>"
+        },
+        "g9ab3molowrdwii3": {
+          "name": "Wind Touch",
+          "description": "<p>Haibram imbues a weapon he's holding with the power of the wind until the start of his next turn. The wind's power allows Haibram to swing and hurl the weapon with great force, causing the weapon to deal an additional 2d10 damage. If the weapon does not have the thrown trait, it also gains the thrown 10 feet trait during this attack.</p>"
+        },
+        "lnlc59vc4irj54zw": {
+          "name": "Academia Lore"
+        }
+      }
+    },
+    "Cataclysm Beetle": {
+      "name": "Cataclysm Beetle",
+      "items": {
+        "jdq6sk4y2vgph7hh": {
+          "name": "Mandibles"
+        },
+        "3id1at0ia52fnd21": {
+          "name": "Bombardier's Spray",
+          "description": "<p>The cataclysm beetle sprays a @Template[cone|distance:60] of acid from its abdomen that deals @Damage[12d10[acid]|options:area-damage] damage (@Check[reflex|dc:40|basic|options:area-effect]). It can't use Bombardier's Spray or Burning Pool for [[/gmr 1d4 #Recharge Bombardier's Spray]]{1d4 rounds}.</p>"
+        },
+        "mcdudgr7o0sytxln": {
+          "name": "Burning Pool",
+          "description": "<p>The cataclysm beetle spills acid directly from its abdomen, creating a wave of acid that deals @Damage[10d12[acid]|options:area-damage] damage to all creatures in a @Template[emanation|distance:30] (@Check[fortitude|dc:40|basic|options:area-effect]). Creatures that fail this save are pushed back 10 feet from the cataclysm beetle (30 feet on a critical failure). It can't use Bombardier's Spray or Burning Pool for [[/gmr 1d4 #Recharge Acid Action]]{1d4 rounds}.</p>"
+        },
+        "eazkedYZ0R2jqf4h": {
+          "name": "Grab"
+        }
+      }
+    },
+    "Hivebound Arboreal": {
+      "name": "Hivebound Arboreal",
+      "blurb": "Variant arboreal regent",
+      "languages": "speak with plants",
+      "speeds": "Freedom of Movement",
+      "items": {
+        "h1cevfjxxre03qvw": {
+          "name": "Branch"
+        },
+        "eqcv1v81thoi9n12": {
+          "name": "Root"
+        },
+        "blcs07ocvi4u0g8b": {
+          "name": "Rock"
+        },
+        "Sj4Fb2B9ZAWW6Axx": {
+          "name": "Tremorsense 120 feet"
+        },
+        "Z1MdR48WRRSWr39R": {
+          "name": "Constant Spells"
+        },
+        "b8m3301u6voc54xx": {
+          "name": "Axe Vulnerability",
+          "description": "<p>The hivebound arboreal takes 15 additional from axes.</p>"
+        },
+        "imdm1852t7fcgfad": {
+          "name": "Swarm Host",
+          "description": "<p>20 feet. The hivebound arboreal is host to a cloud of flying ants that swarm around it and gnaw at any creature within the aura. Non-arboreal creatures that enter the aura or start their turn within it take @Damage[7d8[piercing]] damage from the bites (@Check[fortitude|dc:38|basic]). If the hivebound arboreal fails a saving throw against an area effect, the biting ants die off, and the aura is deactivated until new ants swarm out at the end of the hivebound arboreal's next turn (or after 1 minute, if the hivebound arboreal critically fails it saving throw).</p>"
+        },
+        "29LsTHqCXSCofSTG": {
+          "name": "Constrict",
+          "description": "<p>@Damage[(4d6+16)[bludgeoning]] damage, @Check[fortitude|dc:41|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p>"
+        },
+        "bqm225yruvrtoqii": {
+          "name": "Offered to the Swarm",
+          "description": "<p><strong>Trigger</strong> The arboreal Grabs or Constricts a foe</p>\n<strong>Requirements</strong> The hivebound arboreal's swarm host is active\n<hr />\n<p><strong>Effect</strong> The arboreal offers up the triggering creature to its ants to feed. The triggering creature takes damage as from the swarm host aura, but thereafter gains a +4 circumstance bonus to Escape the Grab until it Escapes.</p>"
+        },
+        "ui6C4yPnBdBzKwqZ": {
+          "name": "Throw Rock"
+        },
+        "kfbmbTeno3BQwPP7": {
+          "name": "Improved Grab"
+        }
+      }
+    },
+    "Venom Pool": {
+      "name": "Venom Pool",
+      "desc (hazard)": "A shallow, foul-smelling puddle of toxic acid blocks a narrow hall (marked with a dotted line on the map), and poison bursts from it when disturbed.",
+      "disable": "<p>@Check[crafting|dc:40|name:Neutralize the acid|traits:hazard,complex,environmental] (master) or @Check[survival|dc:42|name:Neutralize the acid|traits:hazard,complex,environmental] (legendary) to neutralize the acid while within reach of it. Three successes using either skill (or a combination of both) destroys the hazard.</p>",
+      "reset": "The hazard ends after 1 minute, contracting to its original size and keeping still until disturbed again.",
+      "routine": "<p>(2 actions) The hazard uses its first action to spread 10 feet down the hallway in both directions. Once out of the hall, each side spreads in a random direction each round, but they don't go through doors. The hazard uses its second action to move the center of the @UUID[Compendium.pf2e.spells-srd.Item.MlpbeZ61Euhl0d60]{Toxic Cloud} up to 20 feet in any direction to which any part of the pool has line of effect (normally, to encompass the greatest number of characters). If the <em>cloudkill</em> isn't present, it instead uses its second action to produce a new <em>cloudkill</em>, as Poison Puff.</p>",
+      "stealth": "<p>(legendary) to distinguish between the hazard and the oozes within it; @Check[perception|dc:0|traits:hazard,complex,environmental] to notice the pool</p>",
+      "items": {
+        "d8um494r4xk6f98a": {
+          "name": "Deadly Footing",
+          "description": "<p>The area of the venom pool is difficult terrain, and each creature moving through it takes @Damage[10[acid]]{10 acid} for every square of its area that it moves into.</p>"
+        },
+        "pdwzupwod8pa2gwn": {
+          "name": "Poison Puff",
+          "description": "<p><strong>Trigger</strong> A creature moves through any square in the hazard's space</p><hr />\n<p><strong>Effect</strong> The pool produces a 9th-rank @UUID[Compendium.pf2e.spells-srd.Item.MlpbeZ61Euhl0d60]{Toxic Cloud}; (@Check[fortitude|dc:40|traits:death,necromancy,poison]) at its center. It then rolls initiative.</p>"
+        }
+      }
+    },
+    "Red Queen": {
+      "name": "Red Queen",
+      "items": {
+        "2qxkr8n6kg1ycmgz": {
+          "name": "Mandible"
+        },
+        "ish9i7l27c7ktfnl": {
+          "name": "Stinger"
+        },
+        "cjYsKsh2HlnDrSEl": {
+          "name": "Attack of Opportunity"
+        },
+        "yyukj2oty9v0t7d4": {
+          "name": "Lead by Example",
+          "description": "<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> The Red Queen Strikes a creature with a vicious display that inspires her allies. Allies who can see the Red Queen can use a reaction to Step or Stride to a space adjacent to an enemy, or to Strike.</p>"
+        },
+        "g5zx6uy8n6fsqo49": {
+          "name": "Practiced Subterfuge",
+          "description": "<p>When the Red Queen makes a Deception check to @UUID[Compendium.pf2e.actionspf2e.Item.QNAVeNKtHA0EUw4X]{Feint}, she compares her result to the Will DC of each enemy within 30 feet to determine the effect against that enemy. On a critical success, the creature is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} to all melee attacks, not just melee attacks from the Red Queen, until the end of her next turn.</p>"
+        },
+        "hdm1kiqmn8pnbde9": {
+          "name": "Red Ant Venom",
+          "description": "<p><strong>Saving Throw</strong> @Check[fortitude|dc:40]</p>\n<p><strong>Maximum Duration</strong> 4 rounds</p>\n<p><strong>Stage 1</strong> @Damage[3d6[poison]] damage and @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1} (1 round)</p>\n<p><strong>Stage 2</strong> @Damage[4d6[poison]] damage and @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 2} (1 round)</p>\n<p><strong>Stage 3</strong> @Damage[6d6[poison]] damage and @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 3} (1 round)</p>"
+        }
+      }
+    },
+    "Unshadowed Mariama": {
+      "name": "Unshadowed Mariama",
+      "items": {
+        "jkf5qebzu5ssl82o": {
+          "name": "Fist"
+        },
+        "lPBT22qKUXpUirSM": {
+          "name": "Shadow's Displeasure",
+          "description": "<p>When Mariama has fewer than 150 Hit Points, her shadow pulls at her essence to show the <em>Vesicant Egg's</em> displeasure. She looks pained and confused. When below 50 Hit Points, she falls @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious}.</p>"
+        },
+        "zhDB5m3eSThKE4Cc": {
+          "name": "Vesicated Shadow",
+          "description": "<p>Mariama's shadow has become corrupted via the power of the <em>Vesicant Egg</em>. Her shredded shadow grants her some control over acid and shadows. She gains a +4 status bonus to resist acid and shadow effects.</p>"
+        },
+        "nx9wkk5vhucfm861": {
+          "name": "Weird Astrology",
+          "description": "<p>Perhaps because of Mariama's quirky nature, she has received all the effects of the astrological evaluator. When she gains any of the clumsy, drained, enfeebled, or stupefied conditions, she reduces the value by 1. This means her Shadow's Displeasure doesn't affect her until she has fewer than 50 Hit Points, when she falls @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious}.</p>"
+        },
+        "jpukmsf4fjjnmu64": {
+          "name": "Bind Destinies",
+          "description": "<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>Effect</strong> Mariama ties her fate with that of another creature within 30 feet. The creature must attempt a @Check[will|dc:40] save. Regardless of the result of its save, the creature is temporarily immune for 1 day.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The two fates are bound. Whenever Mariama takes damage, the creature takes damage of the same type equal to half the damage Mariama took (@Check[fortitude|dc:37|basic]). Immunities, resistances, and weaknesses still apply as normal. The creature can attempt to sever the bond by spending an action, which has the concentrate trait, to attempt another @Check[will|dc:40] save. On a success, the bond is severed, and the effect ends. The bond also ends when Mariama falls @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious}, or if she actively ends the effect herself as a free action.</p>\n<p><strong>Failure</strong> As success, but the creature takes damage equal to the full amount Mariama took. Severing the bond requires a 2-action activity, which has the concentrate trait.</p>\n<p><strong>Critical Failure</strong> As failure, but @Check[fortitude|dc:40|basic]. Severing the bond requires a 3-action activity, which has the concentrate trait.</p>"
+        },
+        "F8cB9BOXSox2BLLk": {
+          "name": "Rupture Shadow",
+          "description": "<p>Mariama can create immense blisters on a creature's shadow, which immediately burst, dealing @Damage[20d6[acid]] damage. She targets a creature within 60 feet that is casting a shadow, which must attempt a @Check[will|dc:37] save. Mariama can't use Rupture Shadow again for [[/gmr 1d4 #Recharge Rupture Shadow]]{1d4 rounds}.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected and becomes temporarily immune for 1 day.</p>\n<p><strong>Success</strong> The target takes half damage. The bursting shadow deals @Damage[(5[splash])[acid]]{5 acid splash} damage to all creatures within 5 feet of the target.</p>\n<p><strong>Failure</strong> The target takes full damage, and the bursting shadow deals @Damage[(10[splash])[acid]]{10 acid splash} damage.</p>\n<p><strong>Critical Failure</strong> The target takes double damage, the bursting shadow deals @Damage[(20[splash])[acid]]{20 acid splash} damage, and the target also takes @Damage[4d6[persistent,acid]] damage.</p>"
+        },
+        "02tknutm5mb2qsq6": {
+          "name": "Academia Lore"
+        }
+      }
+    },
+    "Wereant Disciple": {
+      "name": "Wereant Disciple",
+      "description": "<p>Insectile werecreatures, such as wereants, only come about in unusual circumstances, such as powerful curses from inhuman gods or transformative magic run amok. Wereants work together with a natural cohesion that's rare in other types of werecreatures. The wereants presented here are more powerful than most wereants, as they've been warped by the forces contained within the Vesicant Egg.</p>\n<p>Some wereants have a religious zeal about training to protect their community and gladly give their lives for the hive.</p>",
+      "languages": "insect empathy, telepathy 120 feet",
+      "items": {
+        "jeGAxO4AbrzL7CRx": {
+          "name": "Telepathy 120 feet"
+        },
+        "RGtBKNN4KKbuVOt9": {
+          "name": "Insect Empathy",
+          "description": "<p>The wereant can communicate with insects.</p>"
+        },
+        "35g2fh9fmfp3anxh": {
+          "name": "Gnawing Retort",
+          "description": "<p><strong>Trigger</strong> A creature adjacent to the wereant critically misses the wereant with a melee Strike</p><hr />\n<p><strong>Effect</strong> The wereant makes a mandibles Strike against the triggering creature.</p>"
+        },
+        "fnmutsbmx35qyk3d": {
+          "name": "Hive Mind",
+          "description": "<p>Wereants operate with a shared hive intelligence. While within telepathic range of at least one other wereant, a wereant disciple gains a +2 circumstance bonus to initiative checks, Perception checks, and saving throws against mental effects. If one wereant is aware of a combatant, all members of the hive mind within telepathic range are aware of it.</p>"
+        },
+        "ky5U9PGQOWpgWpjC": {
+          "name": "Change Shape",
+          "description": "<p>The wereant changes into their humanoid, hybrid, or animal shape. Each shape has a specific, persistent appearance. A true wereant's natural form is their hybrid shape. In humanoid shape, they use their original humanoid size, lose their jaws and claw Strikes, and gain a melee fist Strike that deals bludgeoning damage equal to the slashing damage dealt by their mandibles. In animal shape, they take the form of a Medium giant ant, gain a climb Speed of 20 feet, gain Grab on their mandibles Strike, and lose their weapon Strikes.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
+        },
+        "dLLXCoWbblalgqjW": {
+          "name": "Curse of the Wereant",
+          "description": "<p>This curse affects only humanoids</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:34].</p>\n<p>On each full moon, the cursed creature must succeed at another Fortitude save or turn into a wereant until dawn.</p>\n<p>The creature is under the GM's control and goes on a rampage for half the night before falling @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious} until dawn.</p>"
+        },
+        "grw0iihgx50xog7f": {
+          "name": "Flying Leap",
+          "description": "<p><strong>Frequency</strong> once per round</p><hr />\n<p><strong>Effect</strong> The wereant disciple Flies and makes two Strikes against different targets at any point during that movement. These Strikes deal an additional 2d6 precision damage if the disciple is above the target. If the wereant began this action @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden}, they remain hidden until after this ability's Strikes. Both attacks count toward the disciple's multiple attack penalty, but the penalty doesn't increase until after both Strikes.</p>"
+        },
+        "o5kYgNvC941Wm7mn": {
+          "name": "Moon Frenzy",
+          "description": "<p>When a full moon appears in the night sky, the wereant must enter hybrid form, can't Change Shape thereafter, becomes one size larger, increases its reach by 5 feet, and increases the damage of their mandibles Strike by 2.</p>\n<p>When the moon sets or the sun rises, the werecreature returns to humanoid form and is @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued} for [[/br 2d4 #Fatigued duration]]{2d4 hours}.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.dRe8n1nBWMIXd8jh]{Effect: Moon Frenzy}</p>"
+        },
+        "or2jprf57tejx70c": {
+          "name": "Staggering Blow",
+          "description": "<p>A creature damaged by the wereant disciple's carapace fist Strike must succeed at a @Check[fortitude|dc:35] save or become @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1} (@UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 2} on a critical failure). If the Strike is a critical hit, a creature that fails the save is also @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed} for 1 round.</p>"
+        }
+      }
+    },
+    "Ta'apundo": {
+      "name": "Ta'apundo",
+      "description": "<p>The First World still holds the first rough draft of many creatures in the Material Plane, but it's hard to tell what sort of creature the ta'apundo was ever intended to be. Its bark poses significant danger to metallic objects, as it converts any metal touching it into wood as fibrous and as flexible as its own body. Capricious and skittish, ta'apundos make friends easily but consider anyone who wields or wears metal to be a hated enemy.</p>",
+      "perception": "greensight",
+      "speeds": "woodland stride",
+      "items": {
+        "uynv29u7cjppce2f": {
+          "name": "Branch"
+        },
+        "0jys5c0wzpevubc7": {
+          "name": "Greensight",
+          "description": "<p>Vegetation doesn't impair a ta'apundo's vision and doesn't provide a creature cover or concealment from a ta'apundo.</p>"
+        },
+        "rcm4aifrs5kq8gp5": {
+          "name": "Lignification",
+          "description": "<p><strong>Trigger</strong> a non-cold iron metal object damages the ta'apundo</p><hr />\n<p><strong>Effect</strong> The ta'apundo emits a jolt of magic into the object, transforming it into wood with an unlimited duration. A thrown weapon, ammunition, or other unattended item automatically transforms; the wielder of an attended object can resist this effect with a successful @Check[fortitude|dc:41] save. @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} can end the effect. While a weapon is wood, the ta'apundo's resistance applies. Once transformed, a formerly metal item's Hardness and HP change to those of wood. This typically inflicts a -2 circumstance penalty to attack rolls made with metal weapons and a -2 circumstance penalty to AC for those wearing metal armor; the GM might determine a different penalty for a specific weapon or armor.</p>"
+        },
+        "0u8ajvtxgwneihsd": {
+          "name": "Wood Resistance",
+          "description": "<p>A ta'apundo has resistance 20 against wooden objects and unarmed attacks from creatures made mostly of wood (such as arboreals).</p>"
+        },
+        "p1sbqkbkmmcbpn36": {
+          "name": "Branch Whip",
+          "description": "<p>The ta'apundo makes four branch Strikes against different targets, increasing its reach to 20 feet for these Strikes. These attacks count toward its multiple attack penalty, but this penalty doesn't increase until after all four attacks.</p>"
+        },
+        "syfoe4g6n1h382lz": {
+          "name": "Woodland Stride",
+          "description": "<p>The ta'apundo ignores difficult and greater difficult terrain from foliage.</p>"
+        }
+      }
+    },
+    "Red Commander Ant": {
+      "name": "Red Commander Ant",
+      "items": {
+        "q5y5afymfxc7hxtr": {
+          "name": "Mandibles"
+        },
+        "bu37zy3vvgw22oqg": {
+          "name": "Stinger"
+        },
+        "vTMQRVT6cAxg7t3I": {
+          "name": "Attack of Opportunity"
+        },
+        "q7j7M7uBQFtqjcJj": {
+          "name": "Constrict",
+          "description": "<p>@Damage[5d10[bludgeoning]] damage, @Check[fortitude|dc:38|basic].</p>\n<p>Before using Constrict, the ant can choose to smash one creature that it has @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} against the ground. That creature uses the result one degree of success worse than its Fortitude save result against Constrict, but it is then no longer Grabbed or restrained by the ant.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p>"
+        },
+        "y6osuhdlhe81ylrs": {
+          "name": "For the Queen!",
+          "description": "<p>The red commander ant gives a pheromone signal to spur other ants into a fury. All ants within 30 feet who can smell this signal gain a +1 status bonus to attack rolls, reduce their frightened condition to 0, and are immune to the frightened condition for 1 minute.</p>"
+        },
+        "lh29vfmsxvej89dh": {
+          "name": "Red Ant Venom",
+          "description": "<p><strong>Saving Throw</strong> @Check[fortitude|dc:38]</p>\n<p><strong>Maximum Duration</strong> 4 rounds</p>\n<p><strong>Stage 1</strong> @Damage[3d6[poison]] damage and @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1} (1 round)</p>\n<p><strong>Stage 2</strong> @Damage[4d6[poison]] damage and @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 2} (1 round)</p>\n<p><strong>Stage 3</strong> @Damage[6d6[poison]] damage and @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 3} (1 round)</p>"
+        },
+        "5zzsahgrf02p7stk": {
+          "name": "The Queen's Enemy",
+          "description": "<p>The red commander ant designates a single creature within 60 feet that it can see as its queen's enemy. All ants within 120 feet of the red commander ant deal an additional @Damage[1d8[bleed]] damage when they hit the target with mandibles Strikes. These effects last for 1 minute, or until the red commander ant uses The Queen's Enemy on a different creature.</p>"
+        },
+        "3F1O805zVrazN688": {
+          "name": "Improved Grab"
+        }
+      }
+    },
+    "Chromatic Ooze": {
+      "name": "Chromatic Ooze",
+      "description": "<p>Chromatic oozes result from the worst kind of alchemical mishaps: attempts to combine as many types of elemental damage as possible into a single alchemical substance. Although the source of these alchemical concatenations are as varied as the alchemists who attempt to distill them, one of the most common methods for creating them involves combining the essences of multiple types of chromatic dragons together using eldritch alchemical processes. When this type of experimentation goes dangerously wrong-as it often does-the result is a combination of terrible elemental power with the mindless destructive power of an ooze. A chromatic ooze is a rippling, seething substance that shifts through several different colors, but chemical reactions within the ooze can lock its energy and its color into a specific phase for a short time. Whether a chromatic ooze's destructive urges derive from the frustrated ingenuity of an alchemist creator or from the hunger of the chromatic dragons that so often constitute these oozes' forms, the best way to deal with a chromatic ooze is to stay out of its way.</p>",
+      "items": {
+        "xz9s0860l1kh3zda": {
+          "name": "Pseudopod"
+        },
+        "this19hyfsm7kz6n": {
+          "name": "Caustic Aura",
+          "description": "<p>90 feet. The chromatic ooze emanates noxious chemicals into the environment. A creature that enters the aura or starts its turn within it is @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} unless it succeeds at a @Check[fortitude|dc:37] save. Creatures with the scent ability or a particularly heightened sense of smell are @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}, or sickened 1 on a successful Fortitude save. Creatures in the aura can't recover from the sickened condition.</p>"
+        },
+        "kq3mkk3i18txw9r3": {
+          "name": "Chromatic Shift",
+          "description": "<p><strong>Trigger</strong> The chromatic ooze takes acid, cold, electricity, fire, or poison damage</p>\n<hr />\n<p><strong>Effect</strong> The chromatic ooze changes its color based on the triggering damage (to dark green, pale blue, dark blue, red, or light green, respectively) and gains resistance 20 to the triggering damage. If it already had resistance to another damage type from this ability, it loses the resistance to that damage type and gains weakness 20 to it. If it already had weakness to another damage type from this ability, it loses that weakness. After 1 minute, the chromatic ooze returns to its usual rippling, multicolored hue and loses the resistance and weakness from this ability.</p>"
+        },
+        "gnshnz0bk049fhry": {
+          "name": "Motion Sense",
+          "description": "<p>A chromatic ooze can sense nearby motion through vibration and air movement.</p>"
+        },
+        "0qxeu9phhkhnav6x": {
+          "name": "Chromatic Slam",
+          "description": "<p>The ooze's pseudopod Strikes deal an additional 2d10 damage of the same type it resists from its Chromatic Shift ability, if any.</p>"
+        },
+        "QrAKWrgiAEe28zhU": {
+          "name": "Greater Constrict",
+          "description": "<p>@Damage[(3d10+13)[bludgeoning]] damage, @Check[fortitude|dc:40|basic]</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.GreaterConstrict]</p>"
+        },
+        "9mxrf7zywmhqjtfd": {
+          "name": "Pseudopod Eruption",
+          "description": "<p>The chromatic ooze concentrates its mass into several pseudopods, increasing its reach to 30 feet until the end of its turn. It then Strikes at up to four different creatures within its reach. This counts as two attacks for the ooze's multiple attack penalty, but the penalty doesn't increase until after it makes all the attacks.</p>"
+        },
+        "B9nDqvKAIYIDltUs": {
+          "name": "Improved Grab"
+        }
+      }
+    },
+    "Alapolo": {
+      "name": "Alapolo",
+      "description": "<p>Short-lived, strange creatures called alapolos cling to the shadows in eerie moonlight, inviting others to dance. Although these \"shadow dancers\" aren't actively malevolent, they become petulant when others won't dance with them.</p>",
+      "items": {
+        "56hve0lryyp78a6j": {
+          "name": "Shadow Claw"
+        },
+        "p6ariwootjhuhzph": {
+          "name": "Cloying Pull",
+          "description": "<p><strong>Trigger</strong> A creature within the alapolo's reach attempts to move away from the alapolo</p><hr />\n<p><strong>Effect</strong> The triggering creature must succeed at a @Check[reflex|dc:36] save or its movement ends before it leaves the alopolo's reach.</p>"
+        },
+        "1wz1s7apbs3fx6gk": {
+          "name": "One with Shadows",
+          "description": "<p>The alapolo isn't affected by darkness, light, or shadow effects</p>"
+        },
+        "48no5g4pib3t3ozt": {
+          "name": "Enticing Invitation",
+          "description": "<p>The alapolo whispers an invitation to a creature within 30 feet. The creature must attempt a @Check[will|dc:38] save.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected and temporarily immune to all Enticing Invitations for 24 hours.</p>\n<p><strong>Success</strong> The target must spend 1 action on its next turn dancing in place.</p>\n<p><strong>Failure</strong> The target becomes @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1}. It is also @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated} by the alapolo for 1 minute and can't attack the alapolo as long as it's fascinated. While fascinated, the target must spend 2 actions on each of its turns dancing in place.</p>\n<p><strong>Critical Failure</strong> As failure, except the target is @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 3} and must spend 3 actions on each of its turns dancing in place.</p>"
+        },
+        "4z9pfmd1svfbxufg": {
+          "name": "Shifting Shadows",
+          "description": "<p>An alapolo's movement doesn't trigger reactions.</p>"
+        },
+        "uepcp41y26k3ec6q": {
+          "name": "Weighty Shadow",
+          "description": "<p><strong>Requirements</strong> The alapolo is adjacent to a target creature, or the GM determines the alapolo is adjacent to that creature's shadow</p><hr />\n<p><strong>Effect</strong> The alapolo petulantly stomps on a target's shadow, making it incredibly heavy to drag around. The creature takes a -20-foot penalty to its Speeds for 1 minute. As normal, this penalty can't reduce a creature's Speed below 5 feet. Any creatures @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated} by the alapolo due to its Enticing Invitation are freed from their fascination when the alapolo uses this ability, jarred by the graceless stomping.</p>"
+        },
+        "x7rump5oexn83xiw": {
+          "name": "Shadow Lore"
+        }
+      },
+      "PerformanceVariants": {
+        "0": {
+          "label": "Dancing"
+        }
+      }
+    },
+    "Red Guard Ant": {
+      "name": "Red Guard Ant",
+      "items": {
+        "lmp90s874cpni3d6": {
+          "name": "Mandibles"
+        },
+        "zb1c9ki9dti45qx5": {
+          "name": "Stinger"
+        },
+        "1bqboZzmAIRfwYIX": {
+          "name": "Attack of Opportunity (Stinger Only)",
+          "description": "<p>Stinger only</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>"
+        },
+        "om9njgwuavce9rkj": {
+          "name": "Formic Acid Spray",
+          "description": "<p>The red guard ant sprays a @Template[cone|distance:15] of acid from its abdomen that deals @Damage[10d10[acid]|options:area-damage] damage (@Check[reflex|dc:34|basic|options:area-effect]). It can't use Formic Acid Spray again for [[/gmr 1d4 #Recharge Formic Acid Spray]]{1d4 rounds}.</p>"
+        },
+        "93srntgpyj5pkt2v": {
+          "name": "Haul Away",
+          "description": "<p><strong>Requirements</strong> The red guard ant has a Huge or smaller creature @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}</p>\n<hr />\n<p><strong>Effect</strong> The ant Strides up to its full Speed, carrying the grabbed creature with it. It's encumbered if the grabbed creature is Large or larger.</p>"
+        },
+        "nyyrw9no1m7cfik0": {
+          "name": "Pack Attack",
+          "description": "<p>A red guard ant deals an additional 2d6 precision damage to any creature within reach of at least two of the ant's allies.</p>"
+        },
+        "hfb023fkmu4js8af": {
+          "name": "Red Ant Venom",
+          "description": "<p><strong>Saving Throw</strong> @Check[fortitude|dc:36]</p>\n<p><strong>Maximum Duration</strong> 4 rounds</p>\n<p><strong>Stage 1</strong> @Damage[3d6[poison]] damage and @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1} (1 round)</p>\n<p><strong>Stage 2</strong> @Damage[4d6[poison]] damage and @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 2} (1 round)</p>\n<p><strong>Stage 3</strong> @Damage[6d6[poison]] damage and @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 3} (1 round)</p>"
+        },
+        "w571x6fpk5ala5vb": {
+          "name": "Swarming Flank",
+          "description": "<p>If at least three red guard ants have a creature within their reach, they flank the creature, even if they can't draw a line to each other that passes through opposite sides of the creature's space.</p>"
+        },
+        "W7rNXnEaaG0QBn0S": {
+          "name": "Grab"
+        }
+      }
+    },
+    "Alate Ant": {
+      "name": "Alate Ant",
+      "items": {
+        "t3k91hvis3imn5h9": {
+          "name": "Mandibles"
+        },
+        "qym9xz5k9ev5n1oo": {
+          "name": "Stinger"
+        },
+        "wt0f5nrj8qu0adwd": {
+          "name": "Darting Flight",
+          "description": "<p><strong>Requirements</strong> The alate ant is flying</p>\n<p><strong>Trigger</strong> The ant is targeted with an attack by an attacker it can see</p>\n<hr />\n<p><strong>Effect</strong> The ant gains a +2 circumstance bonus to AC against the triggering attack.</p>"
+        },
+        "73t0lwgb65wshnxy": {
+          "name": "Frenzy",
+          "description": "<p><strong>Frequency</strong> Once per day</p>\n<hr />\n<p><strong>Effect</strong> The alate ant enters a state of jittery agitation. It becomes @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{Quickened} for 3 rounds and can use the extra action only to Fly or Strike.</p>"
+        },
+        "uw75rdpieoabh6o1": {
+          "name": "Pack Attack",
+          "description": "<p>The alate ant deals an additional 3d6 precision damage to any creature within reach of at least two of the ant's allies.</p>"
+        },
+        "4u9dddirycdduzip": {
+          "name": "Pheromone Spray",
+          "description": "<p>The alate ant sprays a cloud of pheromones in a @Template[cone|distance:15]. Non-ant creatures in the cone must succeed at a @Check[will|dc:37] save or become @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused} for [[/gmr 1d4 #Recharge Pheremone Spray]]{1d4 rounds} (1 minute on a critical failure). It can't use Pheromone Spray again for [[/gmr 1d4 #Recharge Pheromone Spray]]{1d4 rounds}.</p>"
+        },
+        "uhko7ohh9nl411li": {
+          "name": "Red Ant Venom",
+          "description": "<p>While a creature is enfeebled from this poison, it is @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused} (this confusion is an emotion, enchantment, and mental effect).</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:37]</p>\n<p><strong>Maximum Duration</strong> 4 rounds</p>\n<p><strong>Stage 1</strong> @Damage[3d6[poison]] damage and @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1} (1 round)</p>\n<p><strong>Stage 2</strong> @Damage[4d6[poison]] damage and @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 2} (1 round)</p>\n<p><strong>Stage 3</strong> @Damage[6d6[poison]] damage and @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 3} (1 round)</p>"
+        },
+        "pATYRwD7jSGQDCXn": {
+          "name": "Grab"
+        }
+      }
+    },
+    "Wereant Sentinel": {
+      "name": "Wereant Sentinel",
+      "cadetails": "(45 with shield raised)",
+      "languages": "insect empathy, telepathy 120 feet",
+      "items": {
+        "o0i3jj5ct3b5vzrw": {
+          "name": "Khopesh"
+        },
+        "7bXHQaXSm1wkcS7B": {
+          "name": "Insect Empathy",
+          "description": "<p>The wereant can communicate with insects.</p>"
+        },
+        "fbpp6y4ku57wjrze": {
+          "name": "Gnawing Retort",
+          "description": "<p>[reaction] As wereant disciple.</p>"
+        },
+        "cOgYZNoEqQ0Ni017": {
+          "name": "Hive Mind",
+          "description": "<p>Wereants operate with a shared hive intelligence. While within telepathic range of at least one other wereant, a wereant disciple gains a +2 circumstance bonus to initiative checks, Perception checks, and saving throws against mental effects. If one wereant is aware of a combatant, all members of the hive mind within telepathic range are aware of it.</p>"
+        },
+        "op6gd7hr0h7gibpz": {
+          "name": "Retributive Strike",
+          "description": "<p><strong>Trigger</strong> An enemy damages the wereant sentinel's ally, and both are within 15 feet of the wereant sentinel</p><hr /><p><strong>Effect</strong> The ally gains resistance 20 against the triggering damage. If the foe is within reach, the wereant sentinel makes a melee Strike against it.</p>"
+        },
+        "Sp7WWm2pGV4gIgKP": {
+          "name": "Change Shape",
+          "description": "<p>The wereant changes into their humanoid, hybrid, or animal shape. Each shape has a specific, persistent appearance. A true wereant's natural form is their hybrid shape. In humanoid shape, they use their original humanoid size, lose their jaws and claw Strikes, and gain a melee fist Strike that deals bludgeoning damage equal to the slashing damage dealt by their mandibles. In animal shape, they take the form of a Medium giant ant, gain a climb Speed of 20 feet, gain Grab on their mandibles Strike, and lose their weapon Strikes.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
+        },
+        "NH2R71O3tCpg4TAc": {
+          "name": "Curse of the Wereant",
+          "description": "<p>This curse affects only humanoids</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:34].</p>\n<p>On each full moon, the cursed creature must succeed at another Fortitude save or turn into a wereant until dawn.</p>\n<p>The creature is under the GM's control and goes on a rampage for half the night before falling @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious} until dawn.</p>"
+        },
+        "an140aq05sh8og4u": {
+          "name": "Hasty Reposition",
+          "description": "<p><strong>Frequency</strong> once per round</p>\n<hr />\n<p><strong>Effect</strong> The wereant sentinel Steps, moving up to 15 feet.</p>"
+        },
+        "DulMJOAyRjcak9tj": {
+          "name": "Moon Frenzy",
+          "description": "<p>When a full moon appears in the night sky, the wereant must enter hybrid form, can't Change Shape thereafter, becomes one size larger, increases its reach by 5 feet, and increases the damage of their mandibles Strike by 2.</p>\n<p>When the moon sets or the sun rises, the werecreature returns to humanoid form and is @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued} for [[/br 2d4 #Fatigued duration]]{2d4 hours}.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.dRe8n1nBWMIXd8jh]{Effect: Moon Frenzy}</p>"
+        },
+        "5oy93mlwu2qa2pxi": {
+          "name": "Sentinel's Focus",
+          "description": "<p>The wereant sentinel plants its feet in defiance of those who would move it. It gains a +2 circumstance bonus to defenses against being Shoved or Tripped, and its melee Strikes deal an additional @Damage[2d8[mental]] damage. These effects end when it moves from its square using anything other than Hasty Reposition.</p>"
+        },
+        "UK0maAtOCLiXqpzy": {
+          "name": "Knockdown"
+        }
+      }
+    },
+    "Ironclad Annihilator Beetle": {
+      "name": "Ironclad Annihilator Beetle",
+      "items": {
+        "p64iark47gkj82ty": {
+          "name": "Mandible"
+        },
+        "4jqnkbetc588fsn6": {
+          "name": "Foot"
+        },
+        "wv35tcrb819nmop2": {
+          "name": "Carapace Deflection",
+          "description": "<p><strong>Trigger</strong> The ironclad annihilator beetle is targeted with an attack from an attacker it can see</p>\n<hr />\n<p><strong>Effect</strong> The ironclad annihilator pivots to place its tough carapace in the way of the attack, gaining a +2 circumstance bonus to its AC against the triggering attack. If the attack misses, the ironclad annihilator can Step after the attack.</p>"
+        },
+        "eTWDrS0nlRB9LTUk": {
+          "name": "Constrict",
+          "description": "<p>@Damage[(4d6+20)[bludgeoning]] damage, @Check[fortitude|dc:44|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p>"
+        },
+        "4rnpi3db0olu6yr4": {
+          "name": "Earthquake Stomp",
+          "description": "<p><strong>Frequency</strong> once per round</p>\n<hr />\n<p><strong>Effect</strong> The ironclad annihilator beetle stomps the ground. All creatures within a @Template[emanation|distance:30] must succeed at a @Check[fortitude|dc:44] saving throw or fall @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} and become @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1} (stunned for 1 round on a critical failure).</p>"
+        },
+        "upaegtrqpc4cwa5k": {
+          "name": "Oviposit",
+          "description": "<p><strong>Requirements</strong> The ironclad annihilator beetle has a creature @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed}</p><hr /><p><strong>Effect</strong> The ironclad annihilator injects its ovipositor under the grabbed creature's skin. The creature takes @Damage[(4d6+20)[bludgeoning]] damage (@Check[fortitude|dc:44|basic]). On a failed save, the beetle implants an egg, and the target creature takes @Damage[4d6[bleed]] that is unusually tenacious. The DC to stop the bleeding using Administer First Aid is @Check[medicine|dc:40|name:Administer First Aid|traits:action:administer-first-aid], and healing the creature to full Hit Points doesn't automatically stop the bleeding. If the target creature dies from this bleed damage, its body is destroyed and unrecoverable except with powerful magic such as @UUID[Compendium.pf2e.spells-srd.Item.YfJTXyVGzLhM6V8U]{Miracle} or @UUID[Compendium.pf2e.spells-srd.Item.6dDtGIUerazSHIOu]{Wish}, and an immature ironclad annihilator beetle (with statistics as a @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.MkupNnMKqDBElhhp]{Giant Stag Beetle}) bursts forth.</p>"
+        },
+        "esk4sj88f3v3cv4o": {
+          "name": "Sunder Objects",
+          "description": "<p>When an ironclad annihilator damages an item or structure, it deals an additional [[/r {2d10}]]{2d10 damage} to that item or structure.</p>"
+        },
+        "iMZAxVVANAC2Kz8Q": {
+          "name": "Trample",
+          "description": "<p>Huge or smaller, foot, @Check[reflex|dc:44|basic] save</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Trample]</p>"
+        },
+        "rWEEtWNPc0F0L9nc": {
+          "name": "Improved Grab"
+        }
+      }
+    },
+    "Lignified Adamantine Golem": {
+      "name": "Lignified Adamantine Golem",
+      "blurb": "Variant adamantine golem",
+      "hpdetails": "repair mode",
+      "items": {
+        "wjk251v8hn8yq30w": {
+          "name": "Staff"
+        },
+        "iOkGanVQLy28fFnI": {
+          "name": "Golem Antimagic",
+          "description": "<p>Harmed by acid (@Damage[9d10[untyped]], @Damage[2d10[untyped]] from areas or persistent damage); healed by plant (area @Damage[2d10[healing]] HP); slowed by electricity</p><hr /><p>@Localize[PF2E.NPC.Abilities.Glossary.GolemAntimagic]</p>"
+        },
+        "pjjx4azz3gsp6vh0": {
+          "name": "Repair Mode",
+          "description": "<p>When the golem is at 0 HP, it isn't destroyed. Instead, it enters repair mode, during which it is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1}, can't take reactions, and can take only the Self-Repair action. Once it has more than 30 HP, it can use any type of action and can use reactions, though it remains slowed 1 and can't take any reactions until the start of its next turn. If a critical hit with an adamantine weapon reduces the golem to 0 HP, or if such a weapon hits it while it's already at 0 HP, then the golem is destroyed.</p>"
+        },
+        "t0rg3oycgmd415fs": {
+          "name": "Vulnerable to Dispelling and Shape Wood",
+          "description": "<p>The golem can be targeted by @UUID[Compendium.pf2e.spells-srd.Item.ihbRf964JDXztcy3]{Disjunction}, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic}, and @UUID[Compendium.pf2e.spells-srd.Item.CXICME10TkEJxz0P]{Shape Wood}. If targeted by such a spell of 9th rank or higher, the golem has its resistance to physical damage lowered to 10 and is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} (or @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 2} if in repair mode) for [[/gmr 1d4 #Golem Vulnerability]]{1d4 rounds}. During this time, if the golem is reduced to 0 HP while already in repair mode, it is destroyed.</p>"
+        },
+        "ggjs0w79v0sr9ab8": {
+          "name": "Destructive Strike",
+          "description": "<p>On a critical hit, the golem's staff Strike breaks the target's armor, if any, in addition to dealing damage to the target. If the target has a shield raised, the golem breaks the shield instead.</p>"
+        },
+        "j9c0igc036qj9m4s": {
+          "name": "Inexorable March",
+          "description": "<p>The golem Strides up to its Speed, pushing back each creature whose space it moves into and damaging them if they try to stop its movement. A creature can try to bar the way by attempting a @Check[fortitude|dc:43] save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature takes no damage and its armor takes no damage.</p>\n<p><strong>Success</strong> The golem halts its movement and cannot enter the creature's square.</p>\n<p><strong>Failure</strong> The resisting creature is damaged and its armor takes damage as if hit by the golem's staff.</p>"
+        },
+        "broizkqu57k2yok4": {
+          "name": "Self-Repair",
+          "description": "<p>The golem repairs itself, regaining @Damage[30[healing]] Hit Points.</p>"
+        },
+        "l3ib5p5v8pohydvm": {
+          "name": "Vent Splinters",
+          "description": "<p>The golem vents a @Template[cone|distance:30] of fiery splinters from its internal forge. This deals @Damage[13d6[piercing]|options:area-damage] damage to all creatures in the cone (@Check[reflex|dc:38|basic|options:area-effect]). Creatures who fail the save also take @Damage[2d6[persistent,fire]] damage (@Damage[4d6[persistent,fire]] damage on a critical failure). The golem can't use Vent Splinters again for [[/gmr 1d4 #Recharge Vent Splinters]]{1d4 rounds}.</p>"
+        }
+      }
+    },
+    "Wereant Poisoner": {
+      "name": "Wereant Poisoner",
+      "description": "<p>Insectile werecreatures, such as wereants, only come about in unusual circumstances, such as powerful curses from inhuman gods or transformative magic run amok. Wereants work together with a natural cohesion that's rare in other types of werecreatures. The wereants presented here are more powerful than most wereants, as they've been warped by the forces contained within the Vesicant Egg.</p>\n<p>When overwhelming force is inadvisable, a wereant hive sends a poison-dripping assassin for murderous work. These poisoners love to terrify those dying in agony from their toxins.</p>",
+      "languages": "inset empathy; telepathy 120 feet",
+      "items": {
+        "frqc01yi9pgsvff5": {
+          "name": "Kukri"
+        },
+        "wwR9we9g1r6WsFHo": {
+          "name": "Telepathy 120 feet"
+        },
+        "8K5uLz57NoezXB6P": {
+          "name": "Insect Empathy",
+          "description": "<p>The wereant can communicate with insects.</p>"
+        },
+        "GyOwwVWZBfQazotf": {
+          "name": "Gnawing Retort",
+          "description": "<p><strong>Trigger</strong> A creature adjacent to the wereant critically misses the wereant with a melee Strike</p><hr />\n<p><strong>Effect</strong> The wereant makes a mandibles Strike against the triggering creature.</p>"
+        },
+        "rie44HhT6OCUQnCT": {
+          "name": "Hive Mind",
+          "description": "<p>Wereants operate with a shared hive intelligence. While within telepathic range of at least one other wereant, a wereant disciple gains a +2 circumstance bonus to initiative checks, Perception checks, and saving throws against mental effects. If one wereant is aware of a combatant, all members of the hive mind within telepathic range are aware of it.</p>"
+        },
+        "3ggScBH5xJRksjF0": {
+          "name": "Change Shape",
+          "description": "<p>The wereant changes into their humanoid, hybrid, or animal shape. Each shape has a specific, persistent appearance. A true wereant's natural form is their hybrid shape. In humanoid shape, they use their original humanoid size, lose their jaws and claw Strikes, and gain a melee fist Strike that deals bludgeoning damage equal to the slashing damage dealt by their mandibles. In animal shape, they take the form of a Medium giant ant, gain a climb Speed of 20 feet, gain Grab on their mandibles Strike, and lose their weapon Strikes.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
+        },
+        "vCBcq5X4CA3AdJAt": {
+          "name": "Curse of the Wereant",
+          "description": "<p>This curse affects only humanoids</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:34].</p>\n<p>On each full moon, the cursed creature must succeed at another Fortitude save or turn into a wereant until dawn.</p>\n<p>The creature is under the GM's control and goes on a rampage for half the night before falling @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious} until dawn.</p>"
+        },
+        "8nh48znq0ytxo14q": {
+          "name": "Envenomed Weapons",
+          "description": "<p>Weapons the wereant poisoner holds deal an additional @Damage[2d6[persistent,poison]] as poison seeps from the wereant's hands onto the weapon. Weapons cease to deal this persistent poison damage once the wereant lets them go. The kukri Strikes above include this persistent poison damage.</p>"
+        },
+        "c1Uo44lQWgOcY82g": {
+          "name": "Moon Frenzy",
+          "description": "<p>When a full moon appears in the night sky, the wereant must enter hybrid form, can't Change Shape thereafter, becomes one size larger, increases its reach by 5 feet, and increases the damage of their mandibles Strike by 2.</p>\n<p>When the moon sets or the sun rises, the werecreature returns to humanoid form and is @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{Fatigued} for [[/br 2d4 #Fatigued duration]]{2d4 hours}.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.dRe8n1nBWMIXd8jh]{Effect: Moon Frenzy}</p>"
+        },
+        "67nta5e94jefe99z": {
+          "name": "Poisonous Flurry",
+          "description": "<p>The wereant poisoner makes two kukri Strikes and a mandibles Strike in any order.</p>"
+        },
+        "o60iwfva1geln42u": {
+          "name": "Vitriolic Strikes",
+          "description": "<p>If the wereant critically hits a creature with a melee Strike, that creature can't recover from persistent poison damage for 1 round.</p>"
+        }
+      }
+    },
+    "Aspect of Insects": {
+      "name": "Aspect of Insects",
+      "description": "<p>Fearsome centipede-like creatures, mukradis are three-headed predators with a devastating array of breath weapons. A Darklands version of the mukradi is rumored to exist. It's said these variant mukradis have black scales, and all of their heads spew a black, acidic goo that animates before being reabsorbed by the mukradis.</p>",
+      "blurb": "Variant mukradi",
+      "cadetails": "all-around vision",
+      "items": {
+        "bhRfrSYjod5132GE": {
+          "name": "Acid Maw"
+        },
+        "soOhuJxyNNP6AHYc": {
+          "name": "Flame Maw"
+        },
+        "GvYWVCMKVWLO9jDK": {
+          "name": "Shock Maw"
+        },
+        "WqyBNiwVl76DPQYF": {
+          "name": "Leg"
+        },
+        "kB3jH0EObomim8bP": {
+          "name": "Tail Lash"
+        },
+        "Oqdlw7Axr5oYYU4m": {
+          "name": "Tremorsense (Imprecise) 60 feet"
+        },
+        "lJGzVTdIOY1p14kj": {
+          "name": "All-Around Vision"
+        },
+        "4sbtk4cjpySTiUck": {
+          "name": "Key Weakness",
+          "description": "<p>The King of Biting Ants has long used his force of will to keep his insectile form under control. It has a weakness to arcane spells and occult spells.</p>"
+        },
+        "GVNTgGaXcebR64nT": {
+          "name": "Partitioned Anatomy",
+          "description": "<p><strong>Trigger</strong> The Aspect of Insects would be @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{Confused}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed}, @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed}, or @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned}.</p>\n<hr />\n<p><strong>Effect</strong> The Aspect of Insects confines the debilitating effect to a certain portion of its nervous system, ignoring the effect but causing a maw of its choice to go dormant for the effect's duration. That maw can't be used for a Strike or Breath Weapon during that time. This ability can't be used if all the Aspect of Insects' heads are dormant.</p>"
+        },
+        "7JcMtxcKSyHdqEQX": {
+          "name": "Spitting Rage",
+          "description": "<p><strong>Trigger</strong> A creature scores a critical hit on the Aspect of Insects.</p>\n<hr />\n<p><strong>Effect</strong> The Aspect of Insects' Breath Weapon recharges. It can use its Breath Weapon immediately as part of this reaction. It can't use this reaction again until it recharges its Breath Weapon naturally.</p>"
+        },
+        "TwSJCzLZ4KcJKaWT": {
+          "name": "Breath Weapon",
+          "description": "<p>The Aspect of Insects breathes a blast of energy from one of its three heads; each creature in the area must attempt a basic Reflex save.</p>\n<p>The Aspect of Insects can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>\n<ul>\n<li><strong>Acid Maw</strong> (acid) @Template[line|distance:60|width:10]{10-Foot-Wide, 60-Foot Line} of acid dealing @Damage[16d8[acid]|options:area-damage] damage (@Check[reflex|dc:42|basic|traits:acid|options:area-effect] save).</li>\n<li><strong>Flame Maw</strong> (fire) @Template[cone|distance:60] of fire dealing @Damage[16d8[fire]|options:area-damage] damage (@Check[reflex|dc:42|basic|traits:fire|options:area-effect] save).</li>\n<li><strong>Shock Maw</strong> (electricity) @Template[line|distance:120] of electricity dealing @Damage[16d8[electricity]|options:area-damage] damage (@Check[reflex|dc:42|basic|traits:electricity|options:area-effect] save).</li>\n</ul>"
+        },
+        "MCe44ome2cf0lQ8W": {
+          "name": "Pull Apart",
+          "description": "<p>The Aspect of Insects makes two Strikes with different maws against the same target. If both hit, the target takes an extra @Damage[(2d12+13)[slashing]] damage, with a @Check[fortitude|dc:42|basic] save. On a critical failure, the creature is torn to pieces and dies. The Aspect of Insects' multiple attack penalty increases only after all the attacks are made.</p>"
+        },
+        "hk3y1r8nU2o8QA4C": {
+          "name": "Thrash",
+          "description": "<p>The Aspect of Insects Strikes once against each creature in its reach. It can Strike up to once with each maw, once with its tail lash, and any number of times with its legs. Each attack takes a -2 circumstance penalty and counts toward the Aspect of Insects' multiple attack penalty, but the multiple attack penalty doesn't increase until after all the attacks are made.</p>"
+        },
+        "Cp2wPvwVrx6QHzjb": {
+          "name": "Trample",
+          "description": "<p>Huge or smaller, leg, @Check[reflex|dc:42|basic] save</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Trample]</p>"
+        },
+        "reBqKuVcCW8B0Kfe": {
+          "name": "Knockdown"
+        }
+      }
+    },
+    "Apocalypse Ant Swarm": {
+      "name": "Apocalypse Ant Swarm",
+      "blurb": "Variant army ant swarm",
+      "items": {
+        "js6y1tz0yizjubtu": {
+          "name": "Cling",
+          "description": "<p><strong>Trigger</strong> A creature leaves the swarm's space</p>\n<hr />\n<p><strong>Effect</strong> The swarm loses [[/r 2d8]]{2d8 HP} as ants cling to the creature and continue biting, dealing @Damage[7d8[persistent,piercing]] damage. High winds or immersion in water reduces the DC of the flat check to end this persistent damage to 5. Any area damage dealt to the creature destroys these clinging ants.</p>"
+        },
+        "uc4njwket4raq8i9": {
+          "name": "Inexorable",
+          "description": "<p>The apocalypse ant swarm recovers from the slowed and stunned conditions at the end of its turn. It's immune to penalties to its Speeds and ignores difficult terrain and greater difficult terrain.</p>"
+        },
+        "e2sotcu0vxd8kydj": {
+          "name": "Swarming Bites",
+          "description": "<p>Each enemy in the swarm's space takes @Damage[7d8[piercing]] damage (@Check[fortitude|dc:39|basic]). A creature that fails its save against Swarming Bites becomes @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} for 1 round (1 minute on a critical failure). If the creature attempts a concentrate or manipulate action while affected, it must succeed at a @Check[flat|dc:5] or the action is lost; roll the check after spending the action, but before any effects are applied.</p>"
+        }
+      }
+    },
+    "Crawling Slurry": {
+      "name": "Crawling Slurry",
+      "description": "<p>Acid damage can scar stone and reduce flesh to pitted chunks, but some organic compounds are resistant to acid and respond by combining into a mass of roiling, living slurry. These scarred clumps hunger to consume anything they can sense. They move with quick, darting contractions that surprise those used to facing slow-moving oozes.</p>",
+      "items": {
+        "rctoymobqvh3kykc": {
+          "name": "Pseudopod"
+        },
+        "r7j0g2jiv48stp4g": {
+          "name": "Motion Sense",
+          "description": "<p>A crawling slurry can sense nearby motion through vibration and air movement.</p>"
+        },
+        "b3qyz6sezwbmg0li": {
+          "name": "Splatter",
+          "description": "<p><strong>Trigger</strong> The crawling slurry takes bludgeoning damage from a creature it can sense within 10 feet</p>\n<hr />\n<p><strong>Effect</strong> The crawling slurry ejects a splash of acid onto the creature, dealing acid damage equal to the bludgeoning damage dealt to the crawling slurry (@Check[reflex|dc:37|basic]).</p>"
+        },
+        "BHcnRv87o75fQh7z": {
+          "name": "Constrict",
+          "description": "<p>@Damage[(2d10+3)[bludgeoning],2d8[acid]]{2d10+3 bludgeoning damage plus 2d8 acid}, @Check[fortitude|dc:37|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p>"
+        },
+        "brj4p8cn1hcxtnzr": {
+          "name": "Crawling Slurry Acid",
+          "description": "<p>A crawling slurry's acid damages metals and organic materials but not stone.</p>"
+        },
+        "Hnu8sQjkICIDsSGc": {
+          "name": "Engulf",
+          "description": "<p>@Check[reflex|dc:37] save, @Damage[5d10[acid]] damage, [[/act escape dc=37]], Rupture 20. A crawling slurry regains @Damage[30[healing]] Hit Points if a living creature it is engulfing dies.</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Engulf]</p>"
+        },
+        "NJVwxKvOEFa9GACF": {
+          "name": "Grab"
+        }
+      },
+      "StealthVariants": {
+        "0": {
+          "label": "in Acidic Surroundings"
+        }
+      }
+    },
+    "Aspect of Hunger": {
+      "name": "Aspect of Hunger",
+      "description": "<p>Among the most dangerous cave worms are the fiery crimson worms. In addition to being even larger than azure or purple worms, the crimson worm has a penchant for burrowing through volcanic regions that, over the generations, have infused it with a supernatural link to the Elemental Plane of Fire. The molten heart of an active volcano is an attractive lair for a crimson worm, as are the sprawling fields of bubbling magma found in the deepest reaches of the Darklands. Legends from ancient peoples, precursor dwarven societies, and colonists of the Elemental Planes populated moats of lava with crimson worms likely have some basis in truth, although the methods such ancients used to keep these \"moat worms\" contained and prevented them from chewing their way through fortress foundations must have been significant.</p>\n<p>Crimson worms sometimes frequent areas on the surface where volcanism creates hot springs or other geothermal features, but even then they prefer to spend most of their time burrowing through the ground in their never-ending search for sustenance. Surface lands claimed by crimson worms are notable for the mound-shaped burrows these creatures leave behind as they dig.</p>\n<hr />\n<p>Cave worms are gigantic scavengers that bore through the depths of the world, eating whatever material they find. Named for their distinctive colorations, these worms are ravenous and display overwhelming destructive capabilities. Cave worms of different colors and abilities lurk in the more remote corners of the world-tales speak of white worms that dwell within immense glaciers or icebergs and gray worms that burrow through the boneyards of long-forgotten ruins, to name a few.</p>",
+      "blurb": "Variant crimson worm",
+      "hpdetails": "fire healing",
+      "items": {
+        "HGrl3b1F23RjZkR7": {
+          "name": "Jaws"
+        },
+        "0fQVIqLvgnfSP4JM": {
+          "name": "Stinger"
+        },
+        "yOxa8PKiBE6PbRBA": {
+          "name": "Body"
+        },
+        "IyKWWIgBkLnO2AXB": {
+          "name": "Tremorsense (Imprecise) 100 feet"
+        },
+        "tphsLfLbrYV16pth": {
+          "name": "Inexorable",
+          "description": "<p>The Aspect of Hunger recovers from the @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed}, @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed}, and @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned} conditions at the end of its turn. It's also immune to penalties to its Speeds and the @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} condition, and it ignores difficult terrain and greater difficult terrain.</p>"
+        },
+        "oH2dTqxjbFv3VNfs": {
+          "name": "Key Weakness",
+          "description": "<p>The Aspect of Hunger is foiled by the bounty of natural magic. It has a weakness to divine spells and primal spells.</p>"
+        },
+        "Y5momV4CWpuw5vhk": {
+          "name": "Shake It Off",
+          "description": "<p><strong>Frequency</strong> once per day</p>\n<p><strong>Trigger</strong> The Aspect of Hunger would be affected by a condition or adverse effect (such as @UUID[Compendium.pf2e.spells-srd.Item.dN8QBNuTiaBHCKUe]{Cursed Metamorphosis})</p>\n<hr />\n<p><strong>Effect</strong> The Aspect of Hunger negates the triggering condition or effect. Effects from artifacts, deities, or a similarly powerful source can't be avoided in this way.</p>"
+        },
+        "t1G2FbWy88tYUk7w": {
+          "name": "Aspect of Hunger Venom",
+          "description": "<p><strong>Saving Throw</strong> @Check[fortitude|dc:41]</p>\n<hr />\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> @Damage[1d6[poison]] damage and @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 1} (1 round)</p>\n<p><strong>Stage 2</strong> @Damage[2d6[poison]] damage and drained 1 (1 round)</p>\n<p><strong>Stage 3</strong> @Damage[2d6[poison]] damage and @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 2} (1 round).</p>"
+        },
+        "hdZW9dGdp8kUzUjv": {
+          "name": "Breath Weapon",
+          "description": "<p>The Aspect of Hunger breathes a blast of hunger in a @Template[cone|distance:60] that deals @Damage[18d6[mental]|options:area-damage] damage to all creatures in the area (@Check[reflex|dc:41|basic|options:area-effect] save).</p>\n<p>It can't use Breath Weapon again for [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 rounds}.</p>"
+        },
+        "5aIyCd7vJWNPQTe3": {
+          "name": "Essence of Hunger",
+          "description": "<p>The Aspect of Hunger doesn't have the fire trait, immunity to fire, weakness to cold, or fire healing. It instead has immunity to mental effects, and its attacks deal mental damage instead of fire damage.</p>"
+        },
+        "fifv91vxtwlIpzXx": {
+          "name": "Fast Swallow",
+          "description": "<p><strong>Trigger</strong> The Aspect of Hunger @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabs} a creature</p>\n<hr />\n<p><strong>Effect</strong> The Aspect of Hunger uses Swallow Whole.</p>"
+        },
+        "NBXY2jJ5QKUZlI60": {
+          "name": "Rock Tunneler",
+          "description": "<p>The Aspect of Hunger can burrow through solid stone at a Speed of 20 feet. It can leave a tunnel if it desires, and it usually does.</p>"
+        },
+        "8VCoSCtEbUqhtmnI": {
+          "name": "Swallow Whole",
+          "description": "<p>Huge, @Damage[(3d10+10)[bludgeoning],2d6[mental]]{3d10+10 bludgeoning damage plus 2d6 mental damage}, Rupture 36</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.SwallowWhole]</p>"
+        },
+        "D1ZUrE1107HIW39r": {
+          "name": "Thrash",
+          "description": "<p>The Aspect of Hunger makes a Strike once against each creature in its reach. It can Strike up to once with its jaws, up to once with its stinger, and any number of times with its body. Each attack counts toward the Aspect of Hunger's multiple attack penalty, but the multiple attack penalty doesn't increase until after it makes all the attacks.</p>"
+        },
+        "oCe57tAkaWpqe976": {
+          "name": "Improved Grab"
+        }
+      }
+    },
+    "Thorn Guardian": {
+      "name": "Thorn Guardian",
+      "blurb": "Variant tattoo guardian",
+      "items": {
+        "9or31vjclhnk94lz": {
+          "name": "Briar"
+        },
+        "vlWkMzxwVACi0RIY": {
+          "name": "Attack of Opportunity"
+        },
+        "xwlrc0y7m4gbb0aj": {
+          "name": "Extra Reaction",
+          "description": "<p>A thorn guardian gains an additional reaction each turn but can use this extra reaction only to Retaliate.</p>"
+        },
+        "sfko8ztlbbitvfik": {
+          "name": "Retaliate",
+          "description": "<p><strong>Trigger</strong> A creature within the thorn guardian's reach attacks the guardian's ward</p>\n<hr />\n<p><strong>Effect</strong> The thorn guardian makes a briar Strike against the triggering creature. If it hits, it deals an additional @Damage[2d6[bleed]].</p>"
+        },
+        "q5q18a8pjacvh8kh": {
+          "name": "Bond with Ward",
+          "description": "<p><strong>Requirements</strong> The thorn guardian is adjacent to its ward</p><hr />\n<p><strong>Effect</strong> The thorn guardian enters its ward's space and encases the creature. This doesn't interfere with its ward's senses or actions. The thorn guardian occupies the same space as its ward and moves with its ward.</p>\n<p>While worn, the thorn guardian establishes a constant @UUID[Compendium.pf2e.spells-srd.Item.d7Lwx6KAs47MtF0q]{Share Life} effect with its ward. Attacks that target the thorn guardian target the ward instead but use the higher AC or saving throw values between the thorn guardian and the ward. Area effects apply to both the thorn guardian and the ward, as normal for an area effect.</p>"
+        },
+        "y9n6o01btwmvgxlj": {
+          "name": "Fly Free",
+          "description": "<p><strong>Requirements</strong> The thorn guardian is Bonded with its Ward</p><hr /><p><strong>Effect</strong> The thorn guardian removes itself from the ward and enters an adjacent space.</p>"
+        },
+        "0jjczv5v33ef456x": {
+          "name": "Interpose",
+          "description": "<p><strong>Requirements</strong> The thorn guardian is Bonded with or adjacent to its ward</p>\n<hr />\n<p><strong>Effect</strong> The thorn guardian interposes itself between the ward and its foes, granting its ward a +2 circumstance bonus to AC until the start of the thorn guardian's next turn.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.7PjBr9LsVB0Jjzyu]{Effect: Interpose}</p>"
+        }
+      }
+    },
+    "Unshadowed Anchor Root": {
+      "name": "Unshadowed Anchor Root",
+      "items": {
+        "4olxoiitn5bvf8kk": {
+          "name": "Bite"
+        },
+        "XzWllQOTD8ZvW9Oi": {
+          "name": "Shadow's Displeasure",
+          "description": "<p>When Anchor Root has fewer than 150 Hit Points, her shadow pulls at her essence to show the <em>Vesicant Egg's</em> displeasure. She looks pained and confused, and she becomes @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} and @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} until healed to 150 Hit Points or more. These conditions increase to 2 when below 100 Hit Points. When below 50 Hit Points, she falls @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious}.</p>"
+        },
+        "Nv8YtW2xPTnP0KrJ": {
+          "name": "Vesicated Shadow",
+          "description": "<p>Anchor Root's shadow has become corrupted via the power of the <em>Vesicant Egg</em>. Her shredded shadow grants her some control over acid and shadows. She gains a +4 status bonus to resist acid and shadow effects.</p>"
+        },
+        "O7Nkcu4MCIufyEcJ": {
+          "name": "Rupture Shadow",
+          "description": "<p>Anchor Root can create immense blisters on a creature's shadow, which immediately burst, dealing @Damage[20d6[acid]] damage. She targets a creature within 60 feet that is casting a shadow, which must attempt a @Check[will|dc:37] save. Anchor Root can't use Rupture Shadow again for [[/gmr 1d4 #Recharge Rupture Shadow]]{1d4 rounds}.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected and becomes temporarily immune for 1 day.</p>\n<p><strong>Success</strong> The target takes half damage. The bursting shadow deals @Damage[(5[splash])[acid]]{5 acid splash} damage to all creatures within 5 feet of the target.</p>\n<p><strong>Failure</strong> The target takes full damage, and the bursting shadow deals @Damage[(10[splash])[acid]]{10 acid splash} damage.</p>\n<p><strong>Critical Failure</strong> The target takes double damage, the bursting shadow deals @Damage[(20[splash])[acid]]{20 acid splash} damage, and the target also takes @Damage[4d6[persistent,acid]] damage.</p>"
+        },
+        "28yg4yhg5sqairsx": {
+          "name": "Academia Lore"
+        }
+      }
+    },
+    "Unshadowed Koride": {
+      "name": "Unshadowed Koride",
+      "blurb": "Female human naturalist",
+      "items": {
+        "r5dzus2qdqdouyy6": {
+          "name": "Staff"
+        },
+        "IHURJGCRE1ctHuEN": {
+          "name": "Shadow's Displeasure",
+          "description": "<p>When Koride has fewer than 150 Hit Points, her shadow pulls at her essence to show the <em>Vesicant Egg's</em> displeasure. She looks pained and confused, and she becomes @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} and @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1} until healed to 150 Hit Points or more. These conditions increase to 2 when below 100 Hit Points. When below 50 Hit Points, she falls @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious}.</p>"
+        },
+        "XxMTTN80Z84ZwYsz": {
+          "name": "Vesicated Shadow",
+          "description": "<p>Koride's shadow has become corrupted via the power of the <em>Vesicant Egg</em>. Her shredded shadow grants her some control over acid and shadows. She gains a +4 status bonus to resist acid and shadow effects.</p>"
+        },
+        "aKVxowf3fUlcmJuc": {
+          "name": "Rupture Shadow",
+          "description": "<p>Koride can create immense blisters on a creature's shadow, which immediately burst, dealing @Damage[20d6[acid]] damage. She targets a creature within 60 feet that is casting a shadow, which must attempt a @Check[will|dc:37] save. Koride can't use Rupture Shadow again for [[/gmr 1d4 #Recharge Rupture Shadow]]{1d4 rounds}.</p>\n<hr />\n<p><strong>Critical Success</strong> The target is unaffected and becomes temporarily immune for 1 day.</p>\n<p><strong>Success</strong> The target takes half damage. The bursting shadow deals @Damage[(5[splash])[acid]]{5 acid splash} damage to all creatures within 5 feet of the target.</p>\n<p><strong>Failure</strong> The target takes full damage, and the bursting shadow deals @Damage[(10[splash])[acid]]{10 acid splash} damage.</p>\n<p><strong>Critical Failure</strong> The target takes double damage, the bursting shadow deals @Damage[(20[splash])[acid]]{20 acid splash} damage, and the target also takes @Damage[4d6[persistent,acid]] damage.</p>"
+        },
+        "eh4wif2i4bpghvlb": {
+          "name": "Academia Lore"
+        }
+      }
+    }
+  },
+  "mapping": {
+    "description": "system.details.publicNotes",
+    "gm": "system.details.privateNotes",
+    "blurb": "system.details.blurb",
+    "cadetails": "system.attributes.ac.details",
+    "hpdetails": "system.attributes.hp.details",
+    "languages": "system.details.languages.details",
+    "perception": "system.perception.details",
+    "saves": "system.attributes.allSaves.value",
+    "speeds": "system.attributes.speed.details",
+    "desc (hazard)": "system.details.description",
+    "disable": "system.details.disable",
+    "reset": "system.details.reset",
+    "routine": "system.details.routine",
+    "stealth": "system.attributes.stealth.details",
+    "target": "system.target.value",
+    "items": {
+      "path": "items",
+      "converter": "translateActorItems"
+    },
+    "AcrobaticsVariants": {
+      "path": "system.skills.acrobatics.special",
+      "converter": "translateSkillVariants"
+    },
+    "ArcanaVariants": {
+      "path": "system.skills.arcana.special",
+      "converter": "translateSkillVariants"
+    },
+    "AthleticsVariants": {
+      "path": "system.skills.athletics.special",
+      "converter": "translateSkillVariants"
+    },
+    "CraftingVariants": {
+      "path": "system.skills.crafting.special",
+      "converter": "translateSkillVariants"
+    },
+    "DeceptionVariants": {
+      "path": "system.skills.deception.special",
+      "converter": "translateSkillVariants"
+    },
+    "DiplomacyVariants": {
+      "path": "system.skills.diplomacy.special",
+      "converter": "translateSkillVariants"
+    },
+    "IntimidationVariants": {
+      "path": "system.skills.intimidation.special",
+      "converter": "translateSkillVariants"
+    },
+    "MedicineVariants": {
+      "path": "system.skills.medicine.special",
+      "converter": "translateSkillVariants"
+    },
+    "NatureVariants": {
+      "path": "system.skills.nature.special",
+      "converter": "translateSkillVariants"
+    },
+    "OccultismVariants": {
+      "path": "system.skills.occultism.special",
+      "converter": "translateSkillVariants"
+    },
+    "PerformanceVariants": {
+      "path": "system.skills.performance.special",
+      "converter": "translateSkillVariants"
+    },
+    "ReligionVariants": {
+      "path": "system.skills.religion.special",
+      "converter": "translateSkillVariants"
+    },
+    "SocietyVariants": {
+      "path": "system.skills.society.special",
+      "converter": "translateSkillVariants"
+    },
+    "StealthVariants": {
+      "path": "system.skills.stealth.special",
+      "converter": "translateSkillVariants"
+    },
+    "SurvivalVariants": {
+      "path": "system.skills.survival.special",
+      "converter": "translateSkillVariants"
+    },
+    "ThieveryVariants": {
+      "path": "system.skills.thievery.special",
+      "converter": "translateSkillVariants"
+    }
+  }
+}
