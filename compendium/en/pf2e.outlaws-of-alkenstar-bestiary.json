@@ -533,7 +533,7 @@
         },
         "Cuu0Ht0H7vuVvlT4": {
           "name": "Speak with Bats",
-          "description": "<p>Kreeth-Ni can communicate with bats and use Diplomacy to @UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{Make an Impression} on bats and Request things from bats.</p>"
+          "description": "<p>Kreeth-Ni can communicate with bats and use Diplomacy to [[/act make-an-impression]] on bats and [[/act request]] things from bats.</p>"
         },
         "NjRXA7pXTzgPWVhy": {
           "name": "Wrath of Spurned Hospitality",
@@ -847,15 +847,15 @@
         },
         "1KVCijz14rjhWH4s": {
           "name": "Cling",
-          "description": "<p><strong>Trigger</strong> A creature leaves the trapjaw tangle's space</p>\n<hr />\n<p><strong>Effect</strong> The swarm takes [[/r 1d6]]{1d6 damage} as individual traps cling to the creature and continue chewing, dealing @Damage[2d10[persistent,slashing]] damage. High winds or electricity damage reduces the DC of the flat check to end this persistent damage by 5. Any area damage dealt to the creature destroys these clinging trapjaws.</p>"
+          "description": "<p><strong>Trigger</strong> A creature leaves the trapjaw tangle's space</p>\n<hr />\n<p><strong>Effect</strong> The swarm takes @Damage[1d6[untyped]] damage as individual traps cling to the creature and continue chewing, dealing @Damage[2d10[persistent,slashing]] damage. High winds or electricity damage reduces the DC of the flat check to end this persistent damage by 5. Any area damage dealt to the creature destroys these clinging trapjaws.</p>"
         },
         "KzMaVpEg8SuAZnIC": {
           "name": "Snapping Jaws",
-          "description": "<p>Each enemy in the swarm's space takes @Damage[2d10[slashing]] damage (@Check[reflex|dc:22|basic]). Creatures that fail this save become @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} from the numerous painful wounds caused by the swarm.</p>"
+          "description": "<p>Each enemy in the swarm's space takes @Damage[2d10[slashing]] damage (@Check[reflex|dc:22|basic|options:inflicts:sickened]). Creatures that fail this save become @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} from the numerous painful wounds caused by the swarm.</p>"
         },
         "5wLXffcbq6o32892": {
           "name": "Trip and Tangle",
-          "description": "<p><strong>Requirements</strong> A creature in the trapjaw tangle's space took damage from the swarm during this round</p>\n<hr />\n<p><strong>Effect</strong> The trapjaw tangle attempts an @Check[athletics|traits:trip-tangle] check with a +10 modifier against the creature's Fortitude DC. On a success, the creature is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} until the start of the trapjaw tangle's next turn. On a critical success, the creature also falls @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p>"
+          "description": "<p><strong>Requirements</strong> A creature in the trapjaw tangle's space took damage from the swarm during this round</p>\n<hr />\n<p><strong>Effect</strong> The trapjaw tangle attempts an @Check[athletics|against:fortitude|options:trip-tangle] check with a +10 modifier against the creature's Fortitude DC. On a success, the creature is @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} until the start of the trapjaw tangle's next turn. On a critical success, the creature also falls @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p>"
         }
       },
       "AthleticsVariants": {
@@ -1735,7 +1735,6 @@
       "description": "<p>Necromancers most often create these mindless undead as obedient, expendable servitors. Left to its own devices, a zombie seeks only to consume the living, stopping only when its rotting body can no longer hold together.</p>\n<hr />\n<p>This shuffling mass of decaying flesh moves with dull but singular focus.</p>",
       "blurb": "Variant shambler troop",
       "hpdetails": "troop defenses",
-      "speeds": "troop movement",
       "items": {
         "74oiirtb81tj4la0": {
           "name": "Slowed 1",
@@ -1947,7 +1946,6 @@
       "name": "Mutant Desert Drake",
       "description": "<p>A mutant desert drake often dwells in regions where magic has transformed the desert sands into sheets of glass or growths of strangely growing crystals.</p>\n<hr />\n<p>The magic-warping effects of the Mana Wastes extend to the life forces of creatures unfortunate enough to become lost in the cursed desert. Those who undergo the wasteland's most dramatic metamorphoses are referred to as Mana Wastes mutants.</p>",
       "blurb": "Mana Wastes mutated desert drake",
-      "speeds": "burrow in sand only",
       "items": {
         "GKqHdxjQ69XZfp75": {
           "name": "Fangs"
@@ -2250,7 +2248,6 @@
     "Compromised Door Warden": {
       "name": "Compromised Door Warden",
       "description": "<p>This mechanical humanoid serves the role of a gatekeeper or even a greeter, but its strength also enables it to repel unwanted visitors.</p>\n<hr />\n<p>In the Grand Duchy of Alkenstar, the creation of constructs is complicated by the intermittent interference of the nearby Mana Wastes. Golems and animated objects depend on lengthy magical rituals that the magic-warping effects of the Wastes often disrupt, but clockwork constructs use far less magic in their creation. A clockwork device replaces magical intricacy with superb manufacturing skill, using magic only for the final acts of animating and powering the device. Skilled local creators and inventors rarely follow someone else's design, so most clockworks found in Alkenstar are custom creations with abilities designed for a specific purpose or individual's needs.</p>",
-      "speeds": "see Uncertain Operations",
       "items": {
         "YG1tPmAbV80KVaWu": {
           "name": "Fist"
@@ -2423,7 +2420,7 @@
         },
         "dSa8OQfOz63lYKQ2": {
           "name": "Versatile Performance",
-          "description": "<p>The mastermind can use Performance instead of Diplomacy to @UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{Make an Impression} and instead of Intimidation to @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{Demoralize}.</p>\n<p>The mastermind can also use an acting Performance instead of Deception to @UUID[Compendium.pf2e.actionspf2e.Item.AJstokjdG6iDjVjE]{Impersonate}.</p>"
+          "description": "<p>The mastermind can use Performance instead of Diplomacy to [[/act make-an-impression statistic=performance]] and instead of Intimidation to [[/act demoralize statistic=performance]].</p>\n<p>The mastermind can also use an acting Performance instead of Deception to [[/act impersonate statistic=performance]].</p>"
         },
         "v3VQfpzwMQ3vAQCU": {
           "name": "Scoundrel's Feint",
@@ -2589,7 +2586,7 @@
       "items": {
         "kXpBQyUqrKJNci5C": {
           "name": "Spinning Gears",
-          "description": "<p><strong>Trigger</strong> A creature Strides in the engine nacelle</p>\n<hr />\n<p><strong>Effect</strong> The creature's clothing or limbs get caught in the spinning gears and axles of the engine. The creature must attempt a @Check[reflex|dc:24] save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes @Damage[(2d8+9)[bludgeoning]] damage.</p>\n<p><strong>Failure</strong> The creature takes @Damage[(4d8+18)[bludgeoning]] damage.</p>\n<p><strong>Critical Failure</strong> The creature's clothing is pulled into the clockworks. The creature takes @Damage[(4d8+18)[bludgeoning]] damage and is @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}. Until the creature @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escapes} (DC 24), it takes @Damage[(2d8+9)[bludgeoning]] damage each round as it's pulled into the spinning rotors. A creature wearing clothing can automatically Escape by doffing its caught clothing; this destroys the doffed clothing.</p>"
+          "description": "<p><strong>Trigger</strong> A creature Strides in the engine nacelle</p>\n<hr />\n<p><strong>Effect</strong> The creature's clothing or limbs get caught in the spinning gears and axles of the engine. The creature must attempt a @Check[reflex|dc:24] save.</p>\n<hr />\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes @Damage[(2d8+9)[bludgeoning]] damage.</p>\n<p><strong>Failure</strong> The creature takes @Damage[(4d8+18)[bludgeoning]] damage.</p>\n<p><strong>Critical Failure</strong> The creature's clothing is pulled into the clockworks. The creature takes @Damage[(4d8+18)[bludgeoning]] damage and is @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}. Until the creature [[/act escape dc=24]]{Escapes}, it takes @Damage[(2d8+9)[bludgeoning]] damage each round as it's pulled into the spinning rotors. A creature wearing clothing can automatically Escape by doffing its caught clothing; this destroys the doffed clothing.</p>"
         }
       }
     },

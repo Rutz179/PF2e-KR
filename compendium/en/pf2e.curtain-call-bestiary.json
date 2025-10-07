@@ -155,7 +155,7 @@
         },
         "rgiPl5x0xcvlkVGJ": {
           "name": "Sticky Slime",
-          "description": "<p>A creature that's critically hit by a furnerico's acidic slime becomes @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} until they @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} (DC 34) or 1 minute passes, after which the slime dissolves.</p>"
+          "description": "<p>A creature that's critically hit by a furnerico's acidic slime becomes @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} until they [[/act escape dc=34]] or 1 minute passes, after which the slime dissolves.</p>"
         }
       },
       "StealthVariants": {
@@ -229,7 +229,7 @@
         },
         "FLY1h37SM1s6HQ3K": {
           "name": "Web Trap",
-          "description": "<p>A creature hit by the jorogumo's web attack is @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} and stuck to the nearest surface, preventing the creature from moving.</p>\n<p>The DC to @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} or @UUID[Compendium.pf2e.actionspf2e.Item.SjmKHgI7a5Z9JzBx]{Force Open} the web trap is 34.</p>"
+          "description": "<p>A creature hit by the jorogumo's web attack is @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} and stuck to the nearest surface, preventing the creature from moving.</p>\n<p>The DC to [[/act escape dc=34]] or [[/act force-open dc=34]] the web trap is 34.</p>"
         },
         "trI1v1yBqogjOcLL": {
           "name": "Whispered Revelation",
@@ -302,7 +302,7 @@
         },
         "qunFbwPiFJCGRCK7": {
           "name": "Web Restraints",
-          "description": "<p>A creature hit by the zimiezek's web Strike is @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} either to a surface or tethered to the zimiezek until it Escapes (DC 40). The zimiezek gains a +2 circumstance bonus to @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Trip} a tethered target and can Interact with the tether to pull a target 15 feet toward them.</p>"
+          "description": "<p>A creature hit by the zimiezek's web Strike is @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained} either to a surface or tethered to the zimiezek until it [[/act escape dc=40]]{Escapes}. The zimiezek gains a +2 circumstance bonus to [[/act trip options=web-restraints]] a tethered target and can Interact with the tether to pull a target 15 feet toward them.</p>"
         },
         "2lqcy5Jl7YSsy0Bf": {
           "name": "Zimiezek Infection",
@@ -374,7 +374,7 @@
         },
         "gQLOYE14O8X0o5o6": {
           "name": "Shed Manacle",
-          "description": "<p><strong>Trigger</strong> The Prince has grappled a creature with his manacle</p><hr /><p><strong>Effect</strong> The manacle clasps drop away from the chain the Prince holds. The creature remains grappled until they @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} (DC 44), at which point its manacles vanish. The Prince can't make manacle Strikes again until his next turn when his chain creates a new set of manacles at its end.</p>"
+          "description": "<p><strong>Trigger</strong> The Prince has grappled a creature with his manacle</p><hr /><p><strong>Effect</strong> The manacle clasps drop away from the chain the Prince holds. The creature remains grappled until they [[/act escape dc=44]], at which point its manacles vanish. The Prince can't make manacle Strikes again until his next turn when his chain creates a new set of manacles at its end.</p>"
         },
         "EyEJ79yMGiNSdOXR": {
           "name": "Sneak Attack",
@@ -419,7 +419,7 @@
     "Anguish Siktempora": {
       "name": "Anguish Siktempora",
       "hpdetails": "regeneration 40 (deactivated by mental, orichalcum, or spirit)",
-      "languages": "Can't Speak any Language, Telepathy 300 feet",
+      "languages": "(can't speak any language), telepathy 300 feet",
       "items": {
         "BtzEJj7yFqdnZcrt": {
           "name": "Jaws"
@@ -442,7 +442,7 @@
         },
         "kTEHZH6GAsdIYXOT": {
           "name": "Foster Fear",
-          "description": "<p>Creatures with the frightened condition are always @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} to the anguish siktempora.</p>"
+          "description": "<p>Creatures with the @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened} condition are always @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} to the anguish siktempora.</p>"
         },
         "sT0MtbPBIX2Sn0iD": {
           "name": "Uncanny Pounce",
@@ -454,7 +454,7 @@
         },
         "XnGst7KPeYFBNQlS": {
           "name": "Scream of Despair",
-          "description": "<p>The anguish siktempora emits a terrible scream in a @Template[emanation|distance:30]. Creatures in the area must attempt a @Check[will|dc:33|options:area-effect,damaging-effect,inflicts:frightened] save. The anguish siktempora can't use Scream of Despair for [[/gmr 1d4 #Recharge Scream of Despair]]{1d4 rounds}.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes @Damage[2d6[mental],2d6[sonic]|options:area-damage]{2d6 mental damage, 2d6 sonic damage}, and is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}.</p>\n<p><strong>Failure</strong> The creature takes @Damage[6d6[mental],6d6[sonic]|options:area-damage]{6d6 mental damage, 6d6 sonic damage}, and is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2}.</p>\n<p><strong>Critical Failure</strong> As failure, but @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 3} and the creature gains weakness to mental 15 (this weakness applies to this Scream of Despair).</p>"
+          "description": "<p>The anguish siktempora emits a terrible scream in a @Template[emanation|distance:30]. Creatures in the area must attempt a @Check[will|dc:33|options:area-effect,damaging-effect,inflicts:frightened] save. The anguish siktempora can't use Scream of Despair for [[/gmr 1d4 #Recharge Scream of Despair]]{1d4 rounds}.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> The creature takes @Damage[2d6[mental],2d6[sonic]|options:area-damage]{2d6 mental damage, 2d6 sonic damage}, and is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}.</p>\n<p><strong>Failure</strong> The creature takes @Damage[6d6[mental],6d6[sonic]|options:area-damage]{6d6 mental damage, 6d6 sonic damage}, and is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2}.</p>\n<p><strong>Critical Failure</strong> As failure, but @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 3} and the creature gains weakness to mental 15 (this weakness applies to this Scream of Despair).</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.TvctK2VAteHbnKXk]{Effect: Scream of Despair}</p>"
         },
         "CBooY71nYa7xo5Wh": {
           "name": "Wracking Despair",
@@ -1085,7 +1085,7 @@
         },
         "ZqeQGPmWGp44TEZg": {
           "name": "Dueling Riposte",
-          "description": "<p><strong>Trigger</strong> A creature critically fails a Strike against Vorens</p><hr /><p><strong>Effect</strong> Vorens makes a melee Strike against or attempts to @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{Disarm} the triggering creature.</p>"
+          "description": "<p><strong>Trigger</strong> A creature critically fails a Strike against Vorens</p><hr /><p><strong>Effect</strong> Vorens makes a melee Strike against or attempts to [[/act disarm]] the triggering creature.</p>"
         }
       }
     },
@@ -2259,7 +2259,7 @@
         },
         "FLY1h37SM1s6HQ3K": {
           "name": "Web Trap",
-          "description": "<p>A creature hit by the jorogumo's web attack is @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} and stuck to the nearest surface, preventing the creature from moving.</p>\n<p>The DC to @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} or @UUID[Compendium.pf2e.actionspf2e.Item.SjmKHgI7a5Z9JzBx]{Force Open} the web trap is 37.</p>"
+          "description": "<p>A creature hit by the jorogumo's web attack is @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{Immobilized} and stuck to the nearest surface, preventing the creature from moving.</p>\n<p>The DC to [[/act escape dc=37]] or [[/act force-open dc=37]] the web trap is 37.</p>"
         }
       }
     },
