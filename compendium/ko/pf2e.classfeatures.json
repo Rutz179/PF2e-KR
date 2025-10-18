@@ -5592,9 +5592,9 @@
         "alchemist"
       ]
     },
-    "Greater Weapon Specialization (Barbarian)": {
-      "name": "당신이 숙달한 무기는 당신의 손에서 진정으로 두려운 존재가 됩니다. 무기 숙련도로 인한 피해는 당신이 전문가인 무기 및 비무장 공격 시 4, 마스터인 경우 6, 전설적인 경우 8로 증가합니다.\n본능의 특화 능력에서 더 큰 이점을 얻습니다. 자세한 내용은 각 본능 설명을 참조하십시오.",
-      "description": "<p>The weapons you've mastered become truly fearsome in your hands. Your damage from weapon specialization increases to 4 with weapons and unarmed attacks in which you're an expert, 6 if you're a master, and 8 if you're legendary.</p>\n<p>You gain a greater benefit from your instinct's specialization ability. See specific instincts for more information.</p>",
+    "강화된 무기 숙련 (야만인)": {
+      "name": "고급 무기 전문화 (바바리안)",
+      "description": "<p>당신이 숙달한 무기는 당신의 손에서 진정으로 무시무시한 위력을 발휘합니다. 무기 전문화로 인한 피해는 전문가가 된 무기와 비무장 공격 시 4로 증가하며, 마스터가 되면 6, 전설적인 수준이 되면 8로 증가합니다.</p><p>본능의 전문화 능력으로부터 더 큰 혜택을 얻습니다. 자세한 내용은 각 본능 설명을 참조하십시오.</p>",
       "rules": [
         {
           "key": "AdjustModifier",
@@ -12287,8 +12287,8 @@
       ]
     },
     "Enhanced Damage": {
-      "name": "당신은 자신의 혁신 무기를 동종 무기보다 강력하게 만들었습니다. 혁신 무기의 무기 피해 주사위 크기를 한 단계 증가시킵니다(d4 → d6, d6 → d8, d8 → d10, d10 → d12). 일반적으로 주사위 크기를 한 단계 이상 올릴 수 없으므로, 이 수정 사항은 복합 단순화와 중첩되지 않습니다.",
-      "description": "<p>You've made your innovation more powerful than other weapons of its kind. Increase your innovation's weapon damage die by one step (d4 to d6, d6 to d8, d8 to d10, d10 to d12). As normal, you can't increase your die by more than one size, so this modification isn't cumulative with complex simplicity.</p>",
+      "name": "강화된 피해량",
+      "description": "<p>당신은 자신의 혁신을 동종 무기보다 더 강력하게 만들었습니다. 혁신의 무기 피해 주사위 크기를 한 단계 증가시킵니다(d4 → d6, d6 → d8, d8 → d10, d10 → d12). 평소와 마찬가지로 주사위 크기를 한 단계 이상 증가시킬 수 없으므로, 이 수정 효과는 복합적 단순화와 중첩되지 않습니다.</p>",
       "rules": [
         {
           "itemId": "{actor|flags.pf2e.trackedItems.weaponInnovation}",

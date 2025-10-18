@@ -1475,7 +1475,7 @@
       ]
     },
     "Define “Report”": {
-      "name": "\"보고\" 정의 (Define “Report”)",
+      "name": "\"보고\"란 무엇인가? (Define “Report”)",
       "description": "<p>자, 거짓말이 들통나는 건 모험가들의 수다 속에서 흔히 있는 일이지. 때로는 어색한 미소를 지으며 자신의 행동에 사과해야 할 때도 있다. 기만 체크 실패 시, 외교 수정자를 적용해 재굴림한다. 성공 시, 상대방의 감정이 상하지 않으며 태도 상태가 악화되지 않는다. 대성공 시, 아무런 불이익 없이 기만을 다시 시도할 수 있다.</p>",
       "traits": [
         "archetype",
@@ -7370,8 +7370,8 @@
       ]
     },
     "Cratering Drop": {
-      "name": "요구 사항 이전 행동이 근접 공격을 이용한 하늘에서 낚아채기였으며, 대상이 내성 굴림에서 실패하거나 대실패했을 때.당신은 적의 추락을 따라가며, 둘 다 유성처럼 땅으로 내리꽂힙니다. 당신은 직선으로 하강하며, 적의 추락 거리를 당신의 비행 속도만큼 증가시킵니다. 지면에 닿으면 적을 땅속으로 박아 넣어, 일반 낙하 피해의 두 배를 입힙니다. (Cratering Drop)",
-      "description": "<p><strong>Requirements</strong> Your previous action was Pluck from the Sky using a melee Strike, and the target failed or critically failed its saving throw.</p><hr /><p>You follow up your enemy's fall, driving you both to the earth in a meteoric descent. You Fly straight down, increasing the amount the enemy falls by your Fly speed. If you reach the ground, you drive the enemy into the ground, dealing double the normal falling damage.</p>",
+      "name": "급격한 하락 (Cratering Drop)",
+      "description": "<p><strong>요구 사항</strong> 이전 행동으로 근접 공격을 사용한 '하늘에서 뜯어내기(Pluck from the Sky)'를 수행했으며, 대상이 내성 굴림에서 실패하거나 대실패했습니다. </p><hr /><p>당신은 적의 추락을 따라가며, 둘 다 유성처럼 땅으로 내리꽂힙니다. 당신은 직선으로 내려가며, 적의 추락 거리를 당신의 비행 속도만큼 증가시킵니다. 지면에 닿으면 적을 땅속으로 박아 넣으며, 일반 낙하 피해의 두 배를 입힙니다.</p>",
       "traits": [
         "archetype"
       ]
@@ -13255,8 +13255,8 @@
       ]
     },
     "Declare Anathema": {
-      "name": "사용 빈도 10분마다 1회당신은 30피트 이내에 있는 인지한 생물을 저주받은 존재로 선포하여, 그 생물의 친구와 낯선 이들이 그로부터 멀어지게 합니다. 대상의 의지 DC에 대해  체크를 시도합니다.대성공 저주받은 생물에게 유익한 효과를 부여하려고 시도하는 모든 생물은 에 성공해야 하며, 실패 시 해당 행동이 방해받습니다. 이 저주는 {고통 정화}나 유사 효과, 또는 속죄 의식으로 제거될 때까지 지속됩니다. 추가로, 해당 생물은 1분 동안 영혼 피해에 대해 약화 10을 얻습니다.\n{효과: 저주 선포}\n성공 대성공과 동일하나 저주가 1분간 지속됩니다.\n실패 대성공과 동일하나, 저주가 1라운드 동안 지속되며 대상은 영혼 피해에 대한 약점을 얻지 않는다.\n대실패 대상은 영향을 받지 않는다. (Declare Anathema)",
-      "description": "<p><strong>Frequency</strong> once per 10 minutes</p><hr /><p>You declare a creature you are aware of within 30 feet anathema, causing their friends and strangers to shy away from them. Attempt a @Check[religion|against:will] check against the target's Will DC.</p><hr /><p><strong>Critical Success</strong> Any creature that attempts to target the anathema creature with a beneficial effect must succeed at a @Check[flat|dc:5|showDC:all] or the action is disrupted. This curse remains until removed by @UUID[Compendium.pf2e.spells-srd.Item.SUKaxVZW2TlM8lu0]{Cleanse Affliction} or a similar effect, or an atone ritual. In addition, the creature gains weakness 10 to spirit damage for 1 minute.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.gyfPLgqeIgW7fYD0]{Effect: Declare Anathema}</p>\n<p><strong>Success</strong> As critical success, but the curse lasts for 1 minute.</p>\n<p><strong>Failure</strong> As critical success, but the curse lasts for 1 round and the target doesn't gain weakness to spirit damage.</p>\n<p><strong>Critical Failure</strong> The target is unaffected.</p>",
+      "name": "저주 선포 (Declare Anathema)",
+      "description": "<p><strong>발동 빈도</strong> 10분에 한 번</p><hr /><p>당신은 30피트 이내에 있는, 당신이 인지하고 있는 한 생물을 저주받은 존재로 선언합니다. 이로 인해 그 생물의 친구와 낯선 이들이 그 생물을 피하게 됩니다. 대상의 의지 DC에 대해 @Check[종교|대항:의지] 체크를 시도하십시오. </p><hr /><p><strong>대성공</strong> 저주받은 생물에게 유익한 효과를 시도하는 모든 생물은 @Check[flat|dc:5|showDC:all]에 성공해야 하며, 실패 시 해당 행동이 방해받습니다. 이 저주는 @UUID[Compendium.pf2e.spells-srd.Item.SUKaxVZW2TlM8lu0]{Cleanse Affliction}이나 유사한 효과, 또는 속죄 의식으로 제거될 때까지 지속됩니다. 또한 해당 생물은 1분 동안 영혼 피해에 대해 약화 10을 얻습니다. </p><p>@UUID[Compendium.pf2e.feat-effects.Item.gyfPLgqeIgW7fYD0]{효과: 저주 선포}</p><p><strong>대성공</strong>이나, 저주가 1분 동안 지속됩니다. </p><p><strong>실패</strong> 대성공과 동일하나, 저주가 1라운드 동안 지속되며 대상은 영혼 피해에 대한 약점을 얻지 않습니다.</p><p><strong>대실패</strong> 대상은 영향을 받지 않습니다.</p>",
       "traits": [
         "archetype",
         "curse",
@@ -20219,7 +20219,7 @@
       ]
     },
     "Hidden Thorn": {
-      "name": "{숨겨진 가시 (Hidden Thorn)",
+      "name": "숨겨진 가시 (Hidden Thorn)",
       "description": "<p>어떤 꽃들은 가시를 숨길 수 있으며, 당신의 가시는 팔을 따라 숨겨져 있습니다. 당신은 1d6 관통 피해를 주는 비무장 공격을 얻습니다. 당신의 가시는 칼 무기 그룹에 속하며, 기교와 무기 특성을 지닙니다.</p>",
       "rules": [
         {
@@ -29764,8 +29764,8 @@
       ]
     },
     "Stalwart Chant": {
-      "name": "당신은 두려움과 혼란에 맞선 정신적 방벽이 된 불굴의 용맹한 드워프 영웅들의 이야기를 수없이 알고 있습니다. 정신 효과에 대한 내성 굴림을 시도할 때 {불굴의 노래}를 사용할 수 있으며, 굴림 실패 시 발생하는 정신 피해에 대해 레벨의 절반에 해당하는 내성을 얻습니다. (Stalwart Chant)",
-      "description": "<p>You know story after story of unyielding, valiant dwarven heroes whose minds were bulwarks against fear and confusion. You can use @UUID[Compendium.pf2e.feats-srd.Item.UPgxAYArllEBcuGS]{Stalwart Song} when attempting a saving throw against any mental effect, and if you fail the saving throw, you gain resistance to mental damage against any resulting effect equal to half your level.</p>",
+      "name": "불굴의 찬가 (Stalwart Chant)",
+      "description": "<p>두려움과 혼란에 맞선 마음의 요새가 된, 굴하지 않는 용맹한 드워프 영웅들의 이야기는 셀 수 없이 많습니다. 정신 효과에 대한 저항력 검사 시 @UUID[Compendium.pf2e.feats-srd.Item.UPgxAYArllEBcuGS]{Stalwart Song}을 사용할 수 있으며, 저항력 검사 실패 시 발생하는 모든 정신 피해에 대해 레벨의 절반에 해당하는 저항력을 얻습니다.</p>",
       "rules": [
         {
           "itemType": "feat",
@@ -30996,8 +30996,8 @@
       ]
     },
     "As in Life, So in Death": {
-      "name": "과거 생애의 구체적인 기억은 간직하기 어렵지만, 이유를 기억하지 못해도 어떤 것들은 알고 있습니다. {입양된 혈통} 피트를 얻습니다. 어떤 혈통이든 선택할 수 있지만, 당신의 해골 유산과 생전 정체성을 모두 반영하는 혈통일 가능성이 높습니다. 신체가 갑옷이나 의복으로 완전히 가려져 있는 한, 특정 혈통의 구성원으로 기만하기 위해 상대 생물의 지각 DC에 대한 기만 체크를 시도할 필요가 없습니다. 이는 점술에 대한 보호 효과가 없는 비마법적 변장입니다. 이 변장은 상대 생물이 당신을 대상으로 적극적으로 지각 체크를 시도할 때 어떠한 이점도 제공하지 않습니다. (As in Life, So in Death)",
-      "description": "<p>Specific memories of your old life are hard to hold onto, but you know things without remembering why. You gain the @UUID[Compendium.pf2e.feats-srd.Item.ihN8gkHSdPG9Trte]{Adopted Ancestry} feat. You can choose any ancestry, but it is likely to be one that matches both your skeleton heritage and who you were in life. As long as your body is completely covered by armor or clothing, you do not have to attempt Deception checks against a creature's Perception DC to successfully Impersonate yourself as a member of that ancestry. This is a non-magical disguise that doesn't protect against divination. This disguise doesn't provide any benefit against a creature actively attempting a Perception check against you.</p>",
+      "name": "죽어서도, 살아서와 같이 (As in Life, So in Death)",
+      "description": "<p>과거 삶의 구체적인 기억은 간직하기 어렵지만, 이유를 기억하지 못해도 어떤 것들은 알고 있습니다. 당신은 @UUID[Compendium.pf2e.feats-srd.Item.ihN8gkHSdPG9Trte]{입양된 혈통} 특기를 얻습니다. 어떤 혈통이든 선택할 수 있지만, 당신의 해골 유산과 생전 정체성을 모두 반영하는 혈통일 가능성이 높습니다. 신체가 갑옷이나 의복으로 완전히 가려져 있는 한, 특정 종족 구성원으로 위장하는 데 성공하기 위해 상대 생물의 지각 DC에 대한 속임수 검사 시도를 할 필요가 없습니다. 이는 점술에 대한 보호 효과가 없는 비마법적 변장입니다. 이 변장은 상대 생물이 당신을 대상으로 적극적으로 지각 검사를 시도할 때 어떠한 이점도 제공하지 않습니다.</p>",
       "rules": [
         {
           "key": "GrantItem",
@@ -33183,8 +33183,8 @@
       ]
     },
     "Swift Sneak": {
-      "name": "Swift {은밀 이동 (Swift Sneak)",
-      "description": "<p>{은밀 이동} 시 최대 이동 속도로 이동할 수 있다. 해당 이동 유형을 보유한 경우, 땅파기, 등반, 비행, 수영 시에도 '신속한 은신'을 '이동' 대신 사용할 수 있다.</p>",
+      "name": "재빠른 은밀 이동 (Swift Sneak)",
+      "description": "<p>@UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{은밀 이동} 시 최대 이동 속도로 이동할 수 있다. 해당 이동 유형을 보유한 경우, 땅파기, 등반, 비행, 수영 시에도 '신속한 은신'을 '이동' 대신 사용할 수 있다.</p>",
       "traits": [
         "general",
         "skill"
@@ -35575,7 +35575,7 @@
       ]
     },
     "Hidden Magic": {
-      "name": "{숨겨진 마법 (Hidden Magic)",
+      "name": "숨겨진 마법 (Hidden Magic)",
       "description": "<p>당신은 장비의 마법 오라를 숨기는 법을 익혔습니다. 매일 준비 시간 동안, 당신은 마법 아이템 전부 또는 일부를 비마법처럼 보이도록 세심하게 조정합니다. 이렇게 조정된 물건은 다음 준비 시간까지 그 상태를 유지합니다.</p>\n<p>@UUID[Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl]{마법 감지}나 @UUID[Compendium.pf2e.spells-srd.Item.OhD2Z6rIGGD5ocZA]{오라 읽기}를 사용하는 마법사는 당신의 기만 DC에 맞선 지각력 체크에서 성공해야 합니다.</p>",
       "traits": [
         "archetype",
@@ -37269,7 +37269,7 @@
       ]
     },
     "Hidden Paragon": {
-      "name": "{숨겨진 파라곤 (Hidden Paragon)",
+      "name": "숨겨진 파라곤 (Hidden Paragon)",
       "description": "<p><strong>발동 빈도</strong> 시간당 1회</p>\n<p><strong>발동</strong> 은신 기술을 성공해 @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{숨김} 상태가 되어 현재의 모든 적에게 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{은신} 상태가 되거나, 은신 기술을 사용해 @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{은밀 이동}하여 현재 모든 적에게 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{탐지되지 않음} 상태가 됩니다.</p>\n<hr />\n<p>시야에서 사라지면 당신은 1분 동안 @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{투명화} 상태가 됩니다. 적대적 행동을 사용해도 마찬가지입니다. @UUID[Compendium.pf2e.spells-srd.Item.0qaqksrGGDj74HXE]{발견의 빛}, @UUID[Compendium.pf2e.spells-srd.Item.jwK43yKsHTkJQvQ9]{보이지 않는 것 보기} 또는 유사한 효과조차도 당신을 드러낼 수 없지만, 생물들은 여전히 @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{찾기} 행동을 사용하여 평소처럼 당신을 찾을 수 있습니다.</p>",
       "traits": [
         "rogue"
@@ -53898,16 +53898,16 @@
       ]
     },
     "Twisting Petal Stance": {
-      "name": "요구 사항 갑옷을 착용하지 않은 상태여야 합니다.당신의 몸은 바람에 휘날리는 꽃잎처럼 움직이며, 상대의 에너지를 역이용해 혼란을 줍니다. 강풍의 꽃 타격을 가해 1d6 베기 피해를 입힐 수 있습니다. 이 공격은 격투 계열에 속하며 민첩성, 기교, 비살상, 밀치기, 비무장 특성을 가집니다. 비틀리는 꽃잎 자세를 취할 때, 다음 운동 체크에서 +1 상황 보너스를 얻습니다. {밀치기}에 +1 상황 보너스를, 밀치기 회피에 필요한 인내 DC에 +2 상황 보너스를 얻습니다. 또한 {페인트}에 대한 기만 체크 시 +1 상황 보너스를, 상대의 기만 시도를 저항하는 지각 DC에 +2 상황 보너스를 얻습니다. (Twisting Petal Stance)",
-      "description": "<p><strong>Requirements</strong> You're unarmored.</p><hr /><p>Your body moves like a petal twisting on the wind, confounding your opponents while using their energy against them. You can make gale blossom strikes that deal 1d6 slashing damage. These strikes are in the brawling group and have the agile, finesse, nonlethal, shove, and unarmed traits. While in Twisting Petal Stance, you gain a +1 circumstance bonus to Athletics checks to @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{Shove} and a +2 circumstance bonus to your Fortitude DC to avoid being Shoved. You also gain a +1 circumstance bonus to Deception checks to @UUID[Compendium.pf2e.actionspf2e.Item.QNAVeNKtHA0EUw4X]{Feint} and a +2 circumstance bonus to your Perception DC to resist an opponent's Feint attempt.</p>",
+      "name": "비틀린 꽃잎 자세 (Twisting Petal Stance)",
+      "description": "<p><strong>요구 사항</strong> 갑옷을 착용하지 않은 상태여야 합니다.</p><hr /><p>당신의 몸은 바람에 휘날리는 꽃잎처럼 움직이며, 상대의 에너지를 역이용해 혼란을 줍니다. 강풍 꽃잎 타격을 사용해 1d6 베기 피해를 입힐 수 있습니다. 이 타격은 격투 기술 그룹에 속하며 민첩성, 기교, 비살상, 밀치기, 비무장 공격 특성을 지닙니다. 비틀리는 꽃잎 자세 상태에서는 @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{밀치기} 운동 체크 시 +1 상황 보너스를 얻으며, 밀쳐짐을 피하기 위한 인내 DC에 +2 상황 보너스를 얻습니다. 또한 @UUID[Compendium.pf2e.actionspf2e.Item.QNAVeNKtHA0EUw4X]{Feint}에 대한 기만(Deception) 체크에는 +1 상황 보너스를, 상대의 @UUID[Compendium.pf2e.actionspf2e.Item.QNAVeNKtHA0EUw4X]{Feint} 시도를 저항하는 지각력(Perception) DC에는 +2 상황 보너스를 얻습니다.</p>",
       "traits": [
         "monk",
         "stance"
       ]
     },
     "Monstrous Inclinations": {
-      "name": "요구 사항 조율된 유령은 유령 기술 중 하나로 숲의 로어 또는 바다의 로어를 부여합니다.당신의 환영은 심해나 고대 숲에 서식하는 괴물들의 본성을 공유합니다. 당신은 {괴물 형태}를 유령의 주문 목록에 추가하여, 유령의 주문 시전으로 이를 시전할 수 있습니다.특수 어둠에 잠긴 가지의 스토커와 조율된 상태라면, 괴물 형태의 불사조 형태를 (8th)등급으로 강화된 주문을 시전할 때 사용할 수 있는 {어둠의 숲 형태} 옵션에 추가한다.\n삼켜버리는 어둠 속에 숨어있는 존재와 조화를 이루고 있다면, (8th)등급으로 강화된 이 주문을 시전할 때 동형변이 효과로 동굴 벌레와 바다뱀 형태를 {삼켜버리는 어둠 형태} 옵션에 추가한다. (Monstrous Inclinations)",
-      "description": "<p><strong>Requirements</strong> Your attuned apparition grants Forest Lore or Ocean Lore as one of its apparition skills.</p><hr /><p>Your apparitions share with you the monstrous nature of those creatures who dwell in deep seas or ancient woods. You add @UUID[Compendium.pf2e.spells-srd.Item.8AMvNVOUEtxBCDvJ]{Monstrosity Form} to your apparition spell repertoire, allowing you to cast it with your apparition spellcasting.</p><hr /><p><strong>Special</strong> If you are attuned to a stalker in darkened boughs, add the phoenix form from <em>monstrosity form</em> to your available @UUID[Compendium.pf2e.spells-srd.Item.BhJtCTLbngvZm8EA]{Darkened Forest Form} options when you cast the spell heightened to 8th rank.</p>\n<p>If you are attuned to a lurker in devouring dark, add the cave worm and sea serpent forms to your @UUID[Compendium.pf2e.spells-srd.Item.wTldMJx0vyBAehrI]{Devouring Dark Form} options as a polymorph effect when you cast the spell heightened to 8th rank.</p>",
+      "name": "괴물 같은 성향 (Monstrous Inclinations)",
+      "description": "<p><strong>요구 사항</strong> 당신의 조율된 환영은 숲의 로어 또는 바다의 로어를 환영 기술 중 하나로 부여합니다. </p><hr /><p>당신의 환영은 심해나 고대 숲에 서식하는 괴물들의 본성을 공유합니다. 환영 주문 목록에 @UUID[Compendium.pf2e.spells-srd.Item.8AMvNVOUEtxBCDvJ]{괴물 형태}를 추가하여, 환영의 주문 시전 능력으로 이를 발동할 수 있습니다. </p><hr /><p><strong>특수</strong> 어두운 나뭇가지에 숨어있는 스토커와 교감 상태라면, 8등급으로 강화된 상태에서 <em>괴물 형태</em>의 불사조 형태 옵션을 @UUID[Compendium.pf2e.spells-srd.Item.BhJtCTLbngvZm8EA] {어둠에 잠긴 숲의 형태} 옵션에 강화(8th)를 추가합니다. </p>\n<p>삼켜버리는 어둠 속에 숨어있는 존재와 교감 중일 경우, 8등급으로 강화된 상태에서 이 주문을 시전할 때 @UUID[Compendium.pf2e.spells-srd.Item.wTldMJx0vyBAehrI]{삼켜버리는 어둠 형태} 옵션에 동굴 벌레와 바다뱀 형태를 변형 효과로 추가합니다.</p>",
       "traits": [
         "animist",
         "apparition",
@@ -63975,8 +63975,8 @@
       ]
     },
     "Unbreaking Castle": {
-      "name": "요구 사항 방패나 패리 특성이 있는 무기를 장비하고 있어야 합니다.당신은 무너지지 않는 방벽이다. 신화 포인트 1점을 소모하고 방패를 들어 올리거나 패리할 무기를 위치시킨다. 이후 1분 동안, 당신이 방패를 들어 올리거나 패리할 무기를 위치시킬 때마다(이 능력을 처음 사용할 때 포함), 당신이 볼 수 있는 모든 아군이 해당 방패나 무기의 상황 보너스를 AC에 적용받는다. 이 효과가 활성화된 상태에서 방패를 올리거나 무기를 패리 자세로 취하면, 적들은 당신의 도달 범위 내 모든 칸을 어려운 지형으로 간주합니다. 방패 막기 반응을 사용할 때, 막기가 완료된 후 인접한 적을 대상으로 신화 숙련도로 방패로 치기 또는 부착된 무기(방패의 돌기나 가시 등)로 공격하는 것을 시도할 수 있습니다.\n무기를 패리 자세로 유지한 상태에서 적의 근접 공격이 빗나간 첫 번째 라운드에, 반응으로 해당 무기를 신화 숙련도로 사용하여 적을 강타할 수 있습니다. (Unbreaking Castle)",
-      "description": "<p><strong>Requirements</strong> You're wielding a shield or a weapon with the parry trait.</p><hr /><p>You're the bulwark that doesn't break. Spend a Mythic Point, and Raise a Shield or position the required weapon to parry; for the next minute, whenever you Raise a Shield or position a weapon to parry (including when you first use this ability), all allies you can see gain the shield or weapon's circumstance bonus to AC. When your shield is raised or your weapon is positioned to parry while this effect is active, enemies treat all squares within your reach as difficult terrain. When using the Shield Block reaction, after the block is complete, you can attempt a Strike with a shield bash or an attached weapon on the required shield (such as a shield boss or shield spikes) against an adjacent enemy at mythic proficiency.</p>\n<p>The first time each round an enemy misses you with a melee Strike while your weapon is positioned to parry, you can Strike them with that weapon at mythic proficiency as a reaction.</p>",
+      "name": "깨지지 않는 성 (Unbreaking Castle)",
+      "description": "<p><strong>요구 사항</strong> 방패나 ‘패리’ 특성이 있는 무기를 들고 있어야 합니다.</p><hr /><p>당신은 결코 무너지지 않는 방벽입니다. 신화 포인트 1점을 소모하고 방패를 들어 올리거나 패리할 무기를 위치시키면, 이후 1분 동안 방패를 들어 올리거나 패리할 무기를 위치시킬 때마다(이 능력을 처음 사용할 때 포함) 시야 내 모든 아군이 해당 방패나 무기의 상황 보너스를 AC에 적용받습니다. 이 효과가 활성화된 상태에서 방패를 들어 올리거나 패리할 무기를 위치시키면, 적들은 당신의 도달 범위 내 모든 칸을 어려운 지형으로 간주합니다. 방패 막기 반응을 사용한 후, 막기가 완료되면 신화 숙련도로 인접한 적을 상대로 방패로 치기 또는 부착된 무기(방패의 돌기나 방패의 가시 등)로 공격을 시도할 수 있습니다. 무기를 패리 자세로 배치한 상태에서 매 라운드 처음으로 적이 근접 공격으로 당신을 빗나갈 때, 반응으로 신화 숙련도로 해당 무기로 적을 공격할 수 있습니다.</p>",
       "traits": [
         "mythic"
       ]
@@ -79300,7 +79300,7 @@
       ]
     },
     "Spot Translate": {
-      "name": "Spot Translate",
+      "name": "즉석 번역 (Spot Translate)",
       "description": "<p><strong>발동</strong> 60피트 내의 다른 생물이 당신이 이해하는 언어로 언어적 효과를 사용한다.</p><hr /><p>당신은 언어 장벽을 넘어 메시지를 당신이 아는 다른 언어로 반복합니다. 메시지를 반복할 언어를 선택하세요 . 언어적 효과는 발동 생물이 사용하는 언어뿐만 아니라 두 언어 모두로 간주되어 더 넓은 범위의 생물에게 영향을 미칠 수 있습니다. 평소처럼 '발견 번역' 능력 없이도 반응을 사용하지 않고 일반 대화를 번역할 수 있지만, 이 반응은 '명령'이나 @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{사기 저하}와 같은 주문 및 행동에 번역의 이점을 적용할 수 있게 합니다.</p>",
       "traits": [
         "archetype",
@@ -89217,8 +89217,8 @@
       ]
     },
     "Quiet Allies": {
-      "name": "당신은 집단과 함께 움직이는 데 능숙합니다. 당신이 {주목 피하기} 상태이고 동료들이 {전문가 따르기} 상태일 때, 당신과 해당 동료들은 개별적으로 굴리지 않고 가장 낮은 수정자를 적용한 단일 은신 체크만 굴릴 수 있습니다. 이 효과는 인니셔티브 검사에는 적용되지 않습니다. (Quiet Allies)",
-      "description": "<p>You're skilled at moving with a group. When you are @UUID[Compendium.pf2e.actionspf2e.Item.IE2nThCmoyhQA0Jn]{Avoiding Notice} and your allies @UUID[Compendium.pf2e.actionspf2e.Item.tfa4Sh7wcxCEqL29]{Follow the Expert}, you and those allies can roll a single Stealth check, using the lowest modifier, instead of rolling separately. This doesn't apply for initiative rolls.</p>",
+      "name": "조용한 동맹 (Quiet Allies)",
+      "description": "<p>당신은 집단과 함께 움직이는 데 능숙합니다. 당신이 @UUID[Compendium.pf2e.actionspf2e.Item.IE2nThCmoyhQA0Jn]{Avoiding Notice} 상태이고, 동맹이 @UUID[Compendium.pf2e.actionspf2e.Item.tfa4Sh7wcxCEqL29] {전문가 따라가기}를 사용할 때, 당신과 해당 아군들은 개별적으로 굴리지 않고 가장 낮은 수정치를 적용하여 단일 은신 검사만 굴릴 수 있습니다. 이 효과는 선공 검사에는 적용되지 않습니다.</p>",
       "traits": [
         "general",
         "skill"
@@ -99636,8 +99636,8 @@
       ]
     },
     "Wild Winds Gust": {
-      "name": "요구 사항 당신은 {야생의 바람 자세} 상태에 있어야 합니다.반복적인 동작으로 공기 압력을 축적한 뒤, 거대한 초승달 모양의 돌풍을 방출합니다. 선택한  또는  영역 내 모든 생물에게 바람 충돌 강타를 가합니다. 이 공격들은 모두 다중 공격 페널티에 포함되지만, 페널티는 모든 공격을 완료한 후에야 증가합니다. (Wild Winds Gust)",
-      "description": "<p><strong>Requirements</strong> You are in @UUID[Compendium.pf2e.spells-srd.Item.SkarN4VlNxSJSJNw]{Wild Winds Stance}</p><hr /><p>You build air pressure with repeated motions, before releasing an enormous crescent of rushing wind strikes. Make a wind crash Strike against each creature in your choice of a @Template[cone|distance:30] or a @Template[line|distance:60]. These attacks all count toward your multiple attack penalty, but the penalty doesn't increase until after you make all the attacks.</p>",
+      "name": "야생의 바람 (Wild Winds Gust)",
+      "description": "<p><strong>요구 사항</strong> 당신은 @UUID[Compendium.pf2e.spells-srd.Item.SkarN4VlNxSJSJNw]{야생의 바람 자세} 상태입니다. </p><hr /><p>반복적인 동작으로 공기 압력을 축적한 후, 거대한 초승달 모양의 돌풍을 방출한다. 선택한 @Template[cone|distance:30] 또는 @Template[line|distance:60] 범위 내의 모든 생물에게 바람 충돌 공격을 가한다. 이 공격들은 모두 다중 공격 페널티에 포함되지만, 페널티는 모든 공격을 완료한 후에야 증가한다.</p>",
       "traits": [
         "air",
         "concentrate",
