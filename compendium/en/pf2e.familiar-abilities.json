@@ -1,20 +1,22 @@
 {
-  "label": "Familiar Abilities",
-  "mapping": {
-    "name": "name",
-    "description": "system.description.value"
-  },
-  "folders": {
-    "Specific Familiary Abilities": "Specific Familiary Abilities"
-  },
+  "label": "pf2e.familiar-abilities",
   "entries": {
     "Lightning Needles": {
       "name": "Lightning Needles",
-      "description": "<p><strong>Requirements</strong> You Cast a Spell that had the air or electricity traits this turn;</p><hr /><p><strong>Effect</strong> Your familiar absorbs excess electrical charge and unleashes a @Template[type:emanation|distance:5] of static electricity that flows into creatures' meridians. Creatures in the emanation that fail a @Check[fortitude|options:area-effect,damaging-effect] save against your spell DC become @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} until the end of their next turn. If a creature is soaked or standing over or in water inside the emanation, it also takes @Damage[1d4[persistent,electricity]|options:area-damage] damage on a failed save.</p>"
+      "description": "<p><strong>Requirements</strong> You Cast a Spell that had the air or electricity traits this turn;</p><hr /><p><strong>Effect</strong> Your familiar absorbs excess electrical charge and unleashes a @Template[type:emanation|distance:5] of static electricity that flows into creatures' meridians. Creatures in the emanation that fail a @Check[fortitude|options:area-effect,damaging-effect] save against your spell DC become @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} until the end of their next turn. If a creature is soaked or standing over or in water inside the emanation, it also takes @Damage[1d4[persistent,electricity]|options:area-damage] damage on a failed save.</p>",
+      "traits": [
+        "electricity"
+      ]
     },
     "Darkvision": {
       "name": "Darkvision",
-      "description": "<p>It gains darkvision.</p>"
+      "description": "<p>It gains darkvision.</p>",
+      "rules": [
+        {
+          "key": "Sense",
+          "selector": "darkvision"
+        }
+      ]
     },
     "Versatile Form": {
       "name": "Versatile Form",
@@ -42,7 +44,32 @@
     },
     "Elemental Familiar (Fire)": {
       "name": "Elemental Familiar (Fire)",
-      "description": "<p>Your familiar gains the fire elemental trait.</p>\n<p>Your familiar sheds bright light in a 20-foot radius (and dim light for the next 20 feet) and emits warmth. Creatures who remain within a @Template[emanation|distance:15] don't take damage from severe environmental cold.</p>"
+      "description": "<p>Your familiar gains the fire elemental trait.</p>\n<p>Your familiar sheds bright light in a 20-foot radius (and dim light for the next 20 feet) and emits warmth. Creatures who remain within a @Template[emanation|distance:15] don't take damage from severe environmental cold.</p>",
+      "rules": [
+        {
+          "key": "TokenLight",
+          "value": {
+            "animation": {
+              "intensity": 4,
+              "speed": 1,
+              "type": "torch"
+            },
+            "bright": 20,
+            "color": "#9b7337",
+            "dim": 40,
+            "shadows": 0.2
+          }
+        },
+        {
+          "add": [
+            "fire"
+          ],
+          "key": "ActorTraits"
+        }
+      ],
+      "traits": [
+        "fire"
+      ]
     },
     "Plant Form": {
       "name": "Plant Form",
@@ -50,7 +77,15 @@
     },
     "Construct": {
       "name": "Construct",
-      "description": "<p>Your familiar has the construct trait instead of the animal trait. The familiar is immune to death effects, disease, doomed, drained, fatigued, healing, nonlethal attacks, paralyzed, poison, sickened, spirit, unconscious, vitality, and void. Your familiar must have the @UUID[Compendium.pf2e.familiar-abilities.Item.Le8UWr5BU8rV3iBf]{Tough} pet ability to select this.</p>"
+      "description": "<p>Your familiar has the construct trait instead of the animal trait. The familiar is immune to death effects, disease, doomed, drained, fatigued, healing, nonlethal attacks, paralyzed, poison, sickened, spirit, unconscious, vitality, and void. Your familiar must have the @UUID[Compendium.pf2e.familiar-abilities.Item.Le8UWr5BU8rV3iBf]{Tough} pet ability to select this.</p>",
+      "rules": [
+        {
+          "add": [
+            "construct"
+          ],
+          "key": "ActorTraits"
+        }
+      ]
     },
     "Familiar of Balanced Luck": {
       "name": "Familiar of Balanced Luck",
@@ -90,15 +125,83 @@
     },
     "Amphibious": {
       "name": "Amphibious",
-      "description": "<p>It gains the amphibious trait, allowing it to breathe in both air and water, and has both a land Speed and a swim Speed, each equal to its highest land Speed or swim Speed.</p>"
+      "description": "<p>It gains the amphibious trait, allowing it to breathe in both air and water, and has both a land Speed and a swim Speed, each equal to its highest land Speed or swim Speed.</p>",
+      "rules": [
+        {
+          "key": "BaseSpeed",
+          "selector": "land",
+          "value": 25
+        },
+        {
+          "key": "BaseSpeed",
+          "selector": "swim",
+          "value": 25
+        },
+        {
+          "add": [
+            "amphibious"
+          ],
+          "key": "ActorTraits"
+        }
+      ]
     },
     "Wavesense": {
       "name": "Wavesense",
-      "description": "<p>Your familiar can sense vibrations in the water. It gains imprecise wavesense with a range of 30 feet.</p>"
+      "description": "<p>Your familiar can sense vibrations in the water. It gains imprecise wavesense with a range of 30 feet.</p>",
+      "rules": [
+        {
+          "acuity": "imprecise",
+          "key": "Sense",
+          "range": "30",
+          "selector": "wavesense"
+        }
+      ]
     },
     "Fast Movement": {
       "name": "Fast Movement",
-      "description": "<p>Increase one of your familiar's Speeds from 25 to 40 feet.</p>"
+      "description": "<p>Increase one of your familiar's Speeds from 25 to 40 feet.</p>",
+      "rules": [
+        {
+          "choices": [
+            {
+              "label": "PF2E.Actor.Speed.Type.Climb",
+              "predicate": [
+                "speed:climb"
+              ],
+              "value": "climb"
+            },
+            {
+              "label": "PF2E.Actor.Speed.Type.Fly",
+              "predicate": [
+                "speed:fly"
+              ],
+              "value": "fly"
+            },
+            {
+              "label": "PF2E.Actor.Speed.Type.Land",
+              "predicate": [
+                "speed:land"
+              ],
+              "value": "land"
+            },
+            {
+              "label": "PF2E.Actor.Speed.Type.Swim",
+              "predicate": [
+                "speed:swim"
+              ],
+              "value": "swim"
+            }
+          ],
+          "flag": "speed",
+          "key": "ChoiceSet",
+          "prompt": "PF2E.SpecificRule.Prompt.MovementType"
+        },
+        {
+          "key": "BaseSpeed",
+          "selector": "{item|flags.pf2e.rulesSelections.speed}",
+          "value": 40
+        }
+      ]
     },
     "Mask Freeze": {
       "name": "Mask Freeze",
@@ -110,7 +213,125 @@
     },
     "Resistance": {
       "name": "Resistance",
-      "description": "<p>Choose two of the following: acid, cold, electricity, fire, poison, or sonic. Your familiar gains resistance equal to half your level (minimum resistance 1) against the chosen damage types.</p>"
+      "description": "<p>Choose two of the following: acid, cold, electricity, fire, poison, or sonic. Your familiar gains resistance equal to half your level (minimum resistance 1) against the chosen damage types.</p>",
+      "rules": [
+        {
+          "choices": [
+            {
+              "label": "PF2E.TraitAcid",
+              "value": "acid"
+            },
+            {
+              "label": "PF2E.TraitCold",
+              "value": "cold"
+            },
+            {
+              "label": "PF2E.TraitElectricity",
+              "value": "electricity"
+            },
+            {
+              "label": "PF2E.TraitFire",
+              "value": "fire"
+            },
+            {
+              "label": "PF2E.TraitPoison",
+              "value": "poison"
+            },
+            {
+              "label": "PF2E.TraitSonic",
+              "value": "sonic"
+            }
+          ],
+          "flag": "resistanceOne",
+          "key": "ChoiceSet",
+          "prompt": "PF2E.SpecificRule.Prompt.Resistance",
+          "rollOption": "resistance"
+        },
+        {
+          "choices": [
+            {
+              "label": "PF2E.TraitAcid",
+              "predicate": [
+                {
+                  "not": "resistance:acid"
+                }
+              ],
+              "value": "acid"
+            },
+            {
+              "label": "PF2E.TraitCold",
+              "predicate": [
+                {
+                  "not": "resistance:cold"
+                }
+              ],
+              "value": "cold"
+            },
+            {
+              "label": "PF2E.TraitElectricity",
+              "predicate": [
+                {
+                  "not": "resistance:electricity"
+                }
+              ],
+              "value": "electricity"
+            },
+            {
+              "label": "PF2E.TraitFire",
+              "predicate": [
+                {
+                  "not": "resistance:fire"
+                }
+              ],
+              "value": "fire"
+            },
+            {
+              "label": "PF2E.TraitPoison",
+              "predicate": [
+                {
+                  "not": "resistance:poison"
+                }
+              ],
+              "value": "poison"
+            },
+            {
+              "label": "PF2E.TraitSonic",
+              "predicate": [
+                {
+                  "not": "resistance:sonic"
+                }
+              ],
+              "value": "sonic"
+            }
+          ],
+          "flag": "resistanceTwo",
+          "key": "ChoiceSet",
+          "prompt": "PF2E.SpecificRule.Prompt.Resistance",
+          "rollOption": "resistance"
+        },
+        {
+          "key": "Resistance",
+          "type": "{item|flags.pf2e.rulesSelections.resistanceOne}",
+          "value": "max(1,floor(@actor.level/2))"
+        },
+        {
+          "key": "Resistance",
+          "type": "{item|flags.pf2e.rulesSelections.resistanceTwo}",
+          "value": "max(1,floor(@actor.level/2))"
+        },
+        {
+          "key": "ActiveEffectLike",
+          "mode": "override",
+          "path": "flags.pf2e.resistance.resistanceOne",
+          "value": "{item|flags.pf2e.rulesSelections.resistanceOne}"
+        },
+        {
+          "key": "ActiveEffectLike",
+          "mode": "override",
+          "path": "flags.pf2e.resistance.resistanceTwo",
+          "value": "{item|flags.pf2e.rulesSelections.resistanceTwo}"
+        }
+      ]
     },
     "Familiar of Stalking Night": {
       "name": "Familiar of Stalking Night",
@@ -118,7 +339,15 @@
     },
     "Scent": {
       "name": "Scent",
-      "description": "<p>It can use scent as an imprecise sense within 30 feet.</p>"
+      "description": "<p>It can use scent as an imprecise sense within 30 feet.</p>",
+      "rules": [
+        {
+          "acuity": "imprecise",
+          "key": "Sense",
+          "range": 30,
+          "selector": "scent"
+        }
+      ]
     },
     "Familiar of Obscuring Snowfall": {
       "name": "Familiar of Obscuring Snowfall",
@@ -142,11 +371,27 @@
     },
     "Tough": {
       "name": "Tough",
-      "description": "<p>Your familiar's max HP increase by 2 per level.</p>"
+      "description": "<p>Your familiar's max HP increase by 2 per level.</p>",
+      "rules": [
+        {
+          "key": "FlatModifier",
+          "selector": "hp",
+          "type": "untyped",
+          "value": "2 * @actor.level"
+        }
+      ]
     },
     "Tremorsense": {
       "name": "Tremorsense",
-      "description": "<p>Your familiar is keenly aware of any vibrations traveling through a surface. It gains imprecise tremorsense with a range of 30 feet.</p>"
+      "description": "<p>Your familiar is keenly aware of any vibrations traveling through a surface. It gains imprecise tremorsense with a range of 30 feet.</p>",
+      "rules": [
+        {
+          "acuity": "imprecise",
+          "key": "Sense",
+          "range": "30",
+          "selector": "tremorsense"
+        }
+      ]
     },
     "Soul Bond": {
       "name": "Soul Bond",
@@ -162,7 +407,10 @@
     },
     "Path of the Tempest": {
       "name": "Path of the Tempest",
-      "description": "<p><strong>Frequency</strong> once per 10 minutes;</p><hr /><p><strong>Effect</strong> Your familiar summons winds that speed up and protect you. You gain a +10-foot status bonus to your Speed until the end of your turn. When you Stride this turn, you don't trigger reactions. In addition, you don't need to Stride before a @UUID[Compendium.pf2e.actionspf2e.Item.JUvAvruz7yRQXfz2]{Long Jump} this turn.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.2CJwgnCsYtk4R5sO]{Effect: Path of the Tempest}</p>"
+      "description": "<p><strong>Frequency</strong> once per 10 minutes;</p><hr /><p><strong>Effect</strong> Your familiar summons winds that speed up and protect you. You gain a +10-foot status bonus to your Speed until the end of your turn. When you Stride this turn, you don't trigger reactions. In addition, you don't need to Stride before a @UUID[Compendium.pf2e.actionspf2e.Item.JUvAvruz7yRQXfz2]{Long Jump} this turn.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.2CJwgnCsYtk4R5sO]{Effect: Path of the Tempest}</p>",
+      "traits": [
+        "air"
+      ]
     },
     "Focused Rejuvenation": {
       "name": "Focused Rejuvenation",
@@ -170,7 +418,10 @@
     },
     "Kick Up Dust": {
       "name": "Kick Up Dust",
-      "description": "<p><strong>Frequency</strong> once per hour</p><hr /><p><strong>Effect</strong> Your dust bunny shakes and kicks to stir up dust in a @Template[type:emanation|distance:5]. Each creature in the area must attempt a Fortitude save against the higher of your class DC or spell DC. A creature that fails its save begins sneezing uncontrollably and is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} and cannot take reactions for 1 round; on a critical failure they are @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 2}.</p>"
+      "description": "<p><strong>Frequency</strong> once per hour</p><hr /><p><strong>Effect</strong> Your dust bunny shakes and kicks to stir up dust in a @Template[type:emanation|distance:5]. Each creature in the area must attempt a Fortitude save against the higher of your class DC or spell DC. A creature that fails its save begins sneezing uncontrollably and is @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1} and cannot take reactions for 1 round; on a critical failure they are @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 2}.</p>",
+      "traits": [
+        "manipulate"
+      ]
     },
     "Restorative Familiar": {
       "name": "Restorative Familiar",
@@ -182,15 +433,33 @@
     },
     "Elemental Familiar (Air)": {
       "name": "Elemental Familiar (Air)",
-      "description": "<p>Your familiar gains the air elemental trait.</p>\n<p>If your familiar stays completely still for 1 round, it becomes @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible} until it next takes an action. Any motion, even being moved or carried by another creature, ends this effect.</p>"
+      "description": "<p>Your familiar gains the air elemental trait.</p>\n<p>If your familiar stays completely still for 1 round, it becomes @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible} until it next takes an action. Any motion, even being moved or carried by another creature, ends this effect.</p>",
+      "rules": [
+        {
+          "add": [
+            "air"
+          ],
+          "key": "ActorTraits"
+        }
+      ],
+      "traits": [
+        "air"
+      ]
     },
     "Medic": {
       "name": "Medic",
-      "description": "<p>Your familiar can draw upon the power of your deity to @UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]{Cast a Spell} once per day. The familiar can cast the 1-action version of @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Heal} at a level 2 levels lower than your highest-rank spell slot, which it can cast only on you. You must be able to cast 3rd-rank spells from spell slots to select this ability.</p>"
+      "description": "<p>Your familiar can draw upon the power of your deity to @UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]{Cast a Spell} once per day. The familiar can cast the 1-action version of @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Heal} at a level 2 levels lower than your highest-rank spell slot, which it can cast only on you. You must be able to cast 3rd-rank spells from spell slots to select this ability.</p>",
+      "rules": [
+        {
+          "key": "GrantItem",
+          "reevaluateOnUpdate": true,
+          "uuid": "Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs"
+        }
+      ]
     },
     "Alchemical Gut": {
       "name": "Alchemical Gut",
-      "description": "<p>Your familiar can act as a bomb coagulant alembic by swallowing the bomb to be affected, which takes two Interact actions from it and one from you. Your familiar regurgitates the concentrated item 1 minute later. If your familiar tries to distill a bomb that's level is higher than your own—1, it instead takes damage as though it were successfully struck with the bomb.</p>"
+      "description": "<p>Your familiar can act as a @UUID[Compendium.pf2e.equipment-srd.Item.B4wxZ7mvBDJPWPvZ]{Bomb Coagulant Alembic} by swallowing the bomb to be affected, which takes two Interact actions from it and one from you. Your familiar regurgitates the concentrated item 1 minute later. If your familiar tries to distill a bomb that's level is higher than your own –1, it instead takes damage as though it were successfully struck with the bomb.</p>"
     },
     "Verdant Burst": {
       "name": "Verdant Burst",
@@ -202,7 +471,18 @@
     },
     "Elemental Familiar (Wood)": {
       "name": "Elemental Familiar (Wood)",
-      "description": "<p>Your familiar gains the wood elemental trait.</p>\n<p>If your familiar remains in bright light for 1 round, it gains fast healing equal to half your level. Once it is out of bright light, this effect ends.</p>"
+      "description": "<p>Your familiar gains the wood elemental trait.</p>\n<p>If your familiar remains in bright light for 1 round, it gains fast healing equal to half your level. Once it is out of bright light, this effect ends.</p>",
+      "rules": [
+        {
+          "add": [
+            "wood"
+          ],
+          "key": "ActorTraits"
+        }
+      ],
+      "traits": [
+        "wood"
+      ]
     },
     "Spell Battery": {
       "name": "Spell Battery",
@@ -218,19 +498,68 @@
     },
     "Flier": {
       "name": "Flier",
-      "description": "<p>It gains a fly Speed of 25 feet.</p>"
+      "description": "<p>It gains a fly Speed of 25 feet.</p>",
+      "rules": [
+        {
+          "key": "BaseSpeed",
+          "selector": "fly",
+          "value": 25
+        }
+      ]
     },
     "Elemental Familiar (Metal)": {
       "name": "Elemental Familiar (Metal)",
-      "description": "<p>Your familiar gains the metal elemental trait.</p>\n<p>Your familiar gains resistance to physical damage from metal weapons equal to half your level.</p>"
+      "description": "<p>Your familiar gains the metal elemental trait.</p>\n<p>Your familiar gains resistance to physical damage from metal weapons equal to half your level.</p>",
+      "rules": [
+        {
+          "add": [
+            "metal"
+          ],
+          "key": "ActorTraits"
+        }
+      ],
+      "traits": [
+        "metal"
+      ]
     },
     "Elemental Familiar (Earth)": {
       "name": "Elemental Familiar (Earth)",
-      "description": "<p>Your familiar gains the earth elemental trait.</p>\n<p>Your familiar gains resistance to physical damage (except adamantine) equal to half your level.</p>"
+      "description": "<p>Your familiar gains the earth elemental trait.</p>\n<p>Your familiar gains resistance to physical damage (except adamantine) equal to half your level.</p>",
+      "rules": [
+        {
+          "exceptions": [
+            "adamantine"
+          ],
+          "key": "Resistance",
+          "type": "physical",
+          "value": "floor(@actor.level/2)"
+        },
+        {
+          "add": [
+            "earth"
+          ],
+          "key": "ActorTraits"
+        }
+      ],
+      "traits": [
+        "earth"
+      ]
     },
     "Extra Vial": {
       "name": "Extra Vial",
-      "description": "<p>Your familiar accretes alchemical liquids in its body. Once per day, you can Interact when your familiar is adjacent to you to gain a versatile vial. You must have the @UUID[Compendium.pf2e.classfeatures.Item.PBQh0amk1FlomV0r]{Versatile Vials} ability to select this ability.</p>"
+      "description": "<p>Your familiar accretes alchemical liquids in its body. Once per day, you can Interact when your familiar is adjacent to you to gain a versatile vial. You must have the @UUID[Compendium.pf2e.classfeatures.Item.PBQh0amk1FlomV0r]{Versatile Vials} ability to select this ability.</p>",
+      "rules": [
+        {
+          "key": "ActiveEffectLike",
+          "mode": "add",
+          "path": "system.resources.crafting.infusedReagents.max",
+          "predicate": [
+            "feature:infused-reagents"
+          ],
+          "priority": 41,
+          "value": 1
+        }
+      ]
     },
     "Threat Display": {
       "name": "Threat Display",
@@ -250,7 +579,60 @@
     },
     "Elemental": {
       "name": "Elemental",
-      "description": "<p>Your familiar has the elemental trait instead of the animal trait. Choose air, earth, fire, metal, water, or wood. Your familiar gains that trait. The familiar is immune to bleed, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed}, poison, sleep, and the element matching its trait. Your familiar must have the resistance familiar ability to select this.</p>"
+      "description": "<p>Your familiar has the elemental trait instead of the animal trait. Choose air, earth, fire, metal, water, or wood. Your familiar gains that trait. The familiar is immune to bleed, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{Paralyzed}, poison, sleep, and the element matching its trait. Your familiar must have the resistance familiar ability to select this.</p>",
+      "rules": [
+        {
+          "choices": [
+            {
+              "label": "PF2E.TraitAir",
+              "value": "air"
+            },
+            {
+              "label": "PF2E.TraitEarth",
+              "value": "earth"
+            },
+            {
+              "label": "PF2E.TraitFire",
+              "value": "fire"
+            },
+            {
+              "label": "PF2E.TraitMetal",
+              "value": "metal"
+            },
+            {
+              "label": "PF2E.TraitWater",
+              "value": "water"
+            },
+            {
+              "label": "PF2E.TraitWood",
+              "value": "wood"
+            }
+          ],
+          "flag": "element",
+          "key": "ChoiceSet",
+          "prompt": "PF2E.SpecificRule.Prompt.Element"
+        },
+        {
+          "add": [
+            "elemental",
+            "{item|flags.pf2e.rulesSelections.element}"
+          ],
+          "key": "ActorTraits",
+          "remove": [
+            "animal"
+          ]
+        },
+        {
+          "key": "Immunity",
+          "type": [
+            "bleed",
+            "paralyzed",
+            "poison",
+            "sleep",
+            "{item|flags.pf2e.rulesSelections.element}"
+          ]
+        }
+      ]
     },
     "Erudite": {
       "name": "Erudite",
@@ -258,7 +640,14 @@
     },
     "Climber": {
       "name": "Climber",
-      "description": "<p>It gains a climb Speed of 25 feet.</p>"
+      "description": "<p>It gains a climb Speed of 25 feet.</p>",
+      "rules": [
+        {
+          "key": "BaseSpeed",
+          "selector": "climb",
+          "value": 25
+        }
+      ]
     },
     "Lifelink": {
       "name": "Lifelink",
@@ -270,7 +659,15 @@
     },
     "Dragon": {
       "name": "Dragon",
-      "description": "<p>Your familiar has the dragon trait instead of the animal trait.</p>"
+      "description": "<p>Your familiar has the dragon trait instead of the animal trait.</p>",
+      "rules": [
+        {
+          "add": [
+            "dragon"
+          ],
+          "key": "ActorTraits"
+        }
+      ]
     },
     "Jet": {
       "name": "Jet",
@@ -290,7 +687,19 @@
     },
     "Major Resistance": {
       "name": "Major Resistance",
-      "description": "<p>Your familiar increases the resistance it gains from its @UUID[Compendium.pf2e.familiar-abilities.Item.FcQQLMAJMgOLjnSv]{Resistance} familiar ability to a value equal to your level. To select this you must be at least 8th level.</p>"
+      "description": "<p>Your familiar increases the resistance it gains from its @UUID[Compendium.pf2e.familiar-abilities.Item.FcQQLMAJMgOLjnSv]{Resistance} familiar ability to a value equal to your level. To select this you must be at least 8th level.</p>",
+      "rules": [
+        {
+          "key": "Resistance",
+          "type": "{actor|flags.pf2e.resistance.resistanceOne}",
+          "value": "@actor.level"
+        },
+        {
+          "key": "Resistance",
+          "type": "{actor|flags.pf2e.resistance.resistanceTwo}",
+          "value": "@actor.level"
+        }
+      ]
     },
     "Absorb Familiar": {
       "name": "Absorb Familiar",
@@ -314,19 +723,112 @@
     },
     "Skilled": {
       "name": "Skilled",
-      "description": "<p>Choose a skill other than Acrobatics or Stealth. Your familiar's modifier for that skill is equal to your level plus your spellcasting attribute modifier, rather than just your level. You can select this ability repeatedly, choosing a different skill each time.</p>"
+      "description": "<p>Choose a skill other than Acrobatics or Stealth. Your familiar's modifier for that skill is equal to your level plus your spellcasting attribute modifier, rather than just your level. You can select this ability repeatedly, choosing a different skill each time.</p>",
+      "rules": [
+        {
+          "choices": [
+            {
+              "label": "PF2E.Skill.Arcana",
+              "value": "arcana"
+            },
+            {
+              "label": "PF2E.Skill.Athletics",
+              "value": "athletics"
+            },
+            {
+              "label": "PF2E.Skill.Crafting",
+              "value": "crafting"
+            },
+            {
+              "label": "PF2E.Skill.Deception",
+              "value": "deception"
+            },
+            {
+              "label": "PF2E.Skill.Diplomacy",
+              "value": "diplomacy"
+            },
+            {
+              "label": "PF2E.Skill.Intimidation",
+              "value": "intimidation"
+            },
+            {
+              "label": "PF2E.Skill.Medicine",
+              "value": "medicine"
+            },
+            {
+              "label": "PF2E.Skill.Nature",
+              "value": "nature"
+            },
+            {
+              "label": "PF2E.Skill.Occultism",
+              "value": "occultism"
+            },
+            {
+              "label": "PF2E.Skill.Performance",
+              "value": "performance"
+            },
+            {
+              "label": "PF2E.Skill.Religion",
+              "value": "religion"
+            },
+            {
+              "label": "PF2E.Skill.Society",
+              "value": "society"
+            },
+            {
+              "label": "PF2E.Skill.Survival",
+              "value": "survival"
+            },
+            {
+              "label": "PF2E.Skill.Thievery",
+              "value": "thievery"
+            }
+          ],
+          "flag": "skill",
+          "key": "ChoiceSet"
+        },
+        {
+          "key": "FlatModifier",
+          "selector": "{item|flags.pf2e.rulesSelections.skill}",
+          "value": "@actor.masterAttributeModifier"
+        }
+      ]
     },
     "Fungus": {
       "name": "Fungus",
-      "description": "<p>Your familiar has the fungus trait instead of the animal trait.</p>"
+      "description": "<p>Your familiar has the fungus trait instead of the animal trait.</p>",
+      "rules": [
+        {
+          "add": [
+            "fungus"
+          ],
+          "key": "ActorTraits"
+        }
+      ]
     },
     "Echolocation": {
       "name": "Echolocation",
-      "description": "<p>It can use hearing as a precise sense within 20 feet.</p>"
+      "description": "<p>It can use hearing as a precise sense within 20 feet.</p>",
+      "rules": [
+        {
+          "acuity": "precise",
+          "key": "Sense",
+          "range": 20,
+          "selector": "echolocation"
+        }
+      ]
     },
     "Plant": {
       "name": "Plant",
-      "description": "<p>Your familiar has the plant trait instead of the animal trait.</p>"
+      "description": "<p>Your familiar has the plant trait instead of the animal trait.</p>",
+      "rules": [
+        {
+          "add": [
+            "plant"
+          ],
+          "key": "ActorTraits"
+        }
+      ]
     },
     "Gills": {
       "name": "Gills",
@@ -334,15 +836,60 @@
     },
     "Dazzling Show": {
       "name": "Dazzling Show",
-      "description": "<p><strong>Frequency</strong> once per minute</p><hr /><p><strong>Effect</strong> Your kinnara flashes his brilliant feathers. Each creature within a @Template[type:emanation|distance:30] must attempt a @Check[will|against:class-spell] save against your class DC or spell DC, whichever is higher, or be @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 2 rounds.</p>"
+      "description": "<p><strong>Frequency</strong> once per minute</p><hr /><p><strong>Effect</strong> Your kinnara flashes his brilliant feathers. Each creature within a @Template[type:emanation|distance:30] must attempt a @Check[will|against:class-spell] save against your class DC or spell DC, whichever is higher, or be @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 2 rounds.</p>",
+      "traits": [
+        "move",
+        "visual"
+      ]
     },
     "Elemental Familiar (Water)": {
       "name": "Elemental Familiar (Water)",
-      "description": "<p>Your familiar gains the water elemental trait.</p>\n<p>Your familiar can move through a gap at least 2 inches wide without Squeezing and can Squeeze through a gap at least 1 inch wide.</p>"
+      "description": "<p>Your familiar gains the water elemental trait.</p>\n<p>Your familiar can move through a gap at least 2 inches wide without Squeezing and can Squeeze through a gap at least 1 inch wide.</p>",
+      "rules": [
+        {
+          "add": [
+            "water"
+          ],
+          "key": "ActorTraits"
+        }
+      ],
+      "traits": [
+        "water"
+      ]
     },
     "Damage Avoidance": {
       "name": "Damage Avoidance",
-      "description": "<p>Choose one type of save. Your familiar takes no damage when it rolls a success on that type of save; this doesn't prevent effects other than damage.</p>"
+      "description": "<p>Choose one type of save. Your familiar takes no damage when it rolls a success on that type of save; this doesn't prevent effects other than damage.</p>",
+      "rules": [
+        {
+          "choices": [
+            {
+              "label": "PF2E.SavesFortitude",
+              "value": "fortitude"
+            },
+            {
+              "label": "PF2E.SavesReflex",
+              "value": "reflex"
+            },
+            {
+              "label": "PF2E.SavesWill",
+              "value": "will"
+            }
+          ],
+          "flag": "save",
+          "key": "ChoiceSet"
+        },
+        {
+          "key": "Note",
+          "outcome": [
+            "success",
+            "criticalSuccess"
+          ],
+          "selector": "{item|flags.pf2e.rulesSelections.save}",
+          "text": "{item|description}",
+          "title": "{item|name}"
+        }
+      ]
     },
     "Augury": {
       "name": "Augury",
@@ -354,7 +901,14 @@
     },
     "Vina Song": {
       "name": "Vina Song",
-      "description": "<p><strong>Frequency</strong> once per hour, see below</p><hr /><p><strong>Effect</strong> Your kinnari elegantly plays her instrument. Each creature within a @Template[type:emanation|distance:30] must attempt a Will save against your class DC or spell DC, whichever is higher, or be @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated} for 1 round. A kinnar can use this ability again on the next round to continue the song and force affected creatures to attempt another Will save; on a failure, a creature is fascinated for an additional round. Once the kinnar stops playing, they can't use this ability again for 1 hour. A creature that succeeds at any save or has its fascination broken is temporarily immune to that kinnar's Vina Song for 24 hours. Kinnars are immune to this ability.</p>"
+      "description": "<p><strong>Frequency</strong> once per hour, see below</p><hr /><p><strong>Effect</strong> Your kinnari elegantly plays her instrument. Each creature within a @Template[type:emanation|distance:30] must attempt a Will save against your class DC or spell DC, whichever is higher, or be @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{Fascinated} for 1 round. A kinnar can use this ability again on the next round to continue the song and force affected creatures to attempt another Will save; on a failure, a creature is fascinated for an additional round. Once the kinnar stops playing, they can't use this ability again for 1 hour. A creature that succeeds at any save or has its fascination broken is temporarily immune to that kinnar's Vina Song for 24 hours. Kinnars are immune to this ability.</p>",
+      "traits": [
+        "auditory",
+        "concentrate",
+        "divine",
+        "incapacitation",
+        "mental"
+      ]
     },
     "Spirit Touch": {
       "name": "Spirit Touch",
@@ -362,11 +916,23 @@
     },
     "Soul Sight": {
       "name": "Soul Sight",
-      "description": "<p>Your familiar gains @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.sebk9XseMCRkDqRg]{Lifesense} with a range of 30 feet.</p>"
+      "description": "<p>Your familiar gains @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.sebk9XseMCRkDqRg]{Lifesense} with a range of 30 feet.</p>",
+      "rules": [
+        {
+          "key": "Sense",
+          "range": 30,
+          "selector": "lifesense"
+        }
+      ]
     },
     "Stunning Flare": {
       "name": "Stunning Flare",
-      "description": "<p><strong>Frequency</strong> once per 10 minutes;</p><hr /><p><strong>Effect</strong> Your lantern wisp unleashes a large burst of flame, casting an unnaturally bright light. Each creature within a @Template[type:emanation|distance:15] must attempt a @Check[fortitude|against:class-spell] save against your class DC or spell DC, whichever is higher, or be @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} for 1 round and then @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 2 rounds after.</p>"
+      "description": "<p><strong>Frequency</strong> once per 10 minutes;</p><hr /><p><strong>Effect</strong> Your lantern wisp unleashes a large burst of flame, casting an unnaturally bright light. Each creature within a @Template[type:emanation|distance:15] must attempt a @Check[fortitude|against:class-spell] save against your class DC or spell DC, whichever is higher, or be @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{Blinded} for 1 round and then @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} for 2 rounds after.</p>",
+      "traits": [
+        "fire",
+        "light",
+        "magical"
+      ]
     },
     "Familiar of Keen Senses": {
       "name": "Familiar of Keen Senses",
@@ -374,7 +940,30 @@
     },
     "Luminous": {
       "name": "Luminous",
-      "description": "<p>Your familiar glows with a comforting light. It sheds bright light in a 30-foot radius and dim light for the next 30 feet. It can suppress or resume this light by using an action, which has the concentrate trait.</p>"
+      "description": "<p>Your familiar glows with a comforting light. It sheds bright light in a 30-foot radius and dim light for the next 30 feet. It can suppress or resume this light by using an action, which has the concentrate trait.</p>",
+      "rules": [
+        {
+          "key": "RollOption",
+          "option": "luminous",
+          "toggleable": true
+        },
+        {
+          "key": "TokenLight",
+          "predicate": [
+            "luminous"
+          ],
+          "value": {
+            "animation": {
+              "intensity": 4,
+              "speed": 1,
+              "type": "emanation"
+            },
+            "bright": 30,
+            "color-intensity": 0.2,
+            "dim": 60
+          }
+        }
+      ]
     },
     "Play Dead": {
       "name": "Play Dead",
@@ -402,7 +991,10 @@
     },
     "Pot of Tea": {
       "name": "Pot of Tea",
-      "description": "<p>Your tapir sage is trained in the art of herbal medication and can prepare a pot of healing tea. Once per day, your familiar can spend 10 minutes to brew fine tea leaves and herbs. The tapir sage must focus on the tea during this time—if it performs any other action, the tea is ruined, though the tapir sage can start over again. Once the pot of tea is brewed, the tapir sage can serve two cups of tea with each of the below actions; each time, it gives 1 cup to an adjacent ally, and it drinks 1 cup itself. The three infusions must be poured and offered in order (for example, the tapir sage can't serve the second infusion until it has served the first). The tea remains good for 1 hour after brewing; if not drunk by this point, the pot goes cold, and any remaining tea loses its power.</p><ul><li><strong>First Infusion</strong> <span class=\"action-glyph\">2</span> The infusion restores a number of Hit Points equal to 1d8 times half your level (minimum 1d8) and grants a +4 circumstance bonus to the next saving throw against disease or poison attempted within 24 hours.</li><li><strong>Second Infusion</strong> <span class=\"action-glyph\">2</span> The infusion restores a number of Hit Points equal to 1d4 times half your level (minimum 1d4) and grants a +2 circumstance bonus to the next saving throw against disease or poison attempted within 24 hours.</li><li><p><strong>Third Infusion</strong> <span class=\"action-glyph\">2</span> The infusion grants temporary Hit Points equal to your level for 1 hour.</p></li></ul>"
+      "description": "<p>Your tapir sage is trained in the art of herbal medication and can prepare a pot of healing tea. Once per day, your familiar can spend 10 minutes to brew fine tea leaves and herbs. The tapir sage must focus on the tea during this time—if it performs any other action, the tea is ruined, though the tapir sage can start over again. Once the pot of tea is brewed, the tapir sage can serve two cups of tea with each of the below actions; each time, it gives 1 cup to an adjacent ally, and it drinks 1 cup itself. The three infusions must be poured and offered in order (for example, the tapir sage can't serve the second infusion until it has served the first). The tea remains good for 1 hour after brewing; if not drunk by this point, the pot goes cold, and any remaining tea loses its power.</p><ul><li><strong>First Infusion</strong> <span class=\"action-glyph\">2</span> The infusion restores a number of Hit Points equal to 1d8 times half your level (minimum 1d8) and grants a +4 circumstance bonus to the next saving throw against disease or poison attempted within 24 hours.</li><li><strong>Second Infusion</strong> <span class=\"action-glyph\">2</span> The infusion restores a number of Hit Points equal to 1d4 times half your level (minimum 1d4) and grants a +2 circumstance bonus to the next saving throw against disease or poison attempted within 24 hours.</li><li><p><strong>Third Infusion</strong> <span class=\"action-glyph\">2</span> The infusion grants temporary Hit Points equal to your level for 1 hour.</p></li></ul>",
+      "traits": [
+        "healing"
+      ]
     },
     "Familiar of Nimble Flight": {
       "name": "Familiar of Nimble Flight",
@@ -414,7 +1006,14 @@
     },
     "Burrower": {
       "name": "Burrower",
-      "description": "<p>It gains a burrow Speed of 5 feet, allowing it to dig Tiny holes.</p>"
+      "description": "<p>It gains a burrow Speed of 5 feet, allowing it to dig Tiny holes.</p>",
+      "rules": [
+        {
+          "key": "BaseSpeed",
+          "selector": "burrow",
+          "value": 5
+        }
+      ]
     },
     "Partner in Crime": {
       "name": "Partner in Crime",
@@ -426,7 +1025,14 @@
     },
     "Animated": {
       "name": "Animated",
-      "description": "<p>With a bit of magic from your patron, your object familiar can move about on its own. It gains a Speed of 25 feet. You can select this ability only for object familiars.</p>"
+      "description": "<p>With a bit of magic from your patron, your object familiar can move about on its own. It gains a Speed of 25 feet. You can select this ability only for object familiars.</p>",
+      "rules": [
+        {
+          "key": "BaseSpeed",
+          "selector": "land",
+          "value": 25
+        }
+      ]
     },
     "Familiar of Overwhelming Tides": {
       "name": "Familiar of Overwhelming Tides",
@@ -438,19 +1044,42 @@
     },
     "Shadow Projection": {
       "name": "Shadow Projection",
-      "description": "<p>Your makhluk wayang projects its shadow into a larger silhouette of itself, allowing it to grasp things outside of its obvious reach. It increases its reach to 10 feet for the purposes of taking non-hostile Interact actions until the end of your turn.</p>"
+      "description": "<p>Your makhluk wayang projects its shadow into a larger silhouette of itself, allowing it to grasp things outside of its obvious reach. It increases its reach to 10 feet for the purposes of taking non-hostile Interact actions until the end of your turn.</p>",
+      "traits": [
+        "shadow"
+      ]
     },
     "Greater Resistance": {
       "name": "Greater Resistance",
-      "description": "<p>Your familiar increases the resistance it gains from its resistance familiar ability to 3 + half your level. Your familiar must have the @UUID[Compendium.pf2e.familiar-abilities.Item.FcQQLMAJMgOLjnSv]{Resistance} ability to select this.</p>"
+      "description": "<p>Your familiar increases the resistance it gains from its resistance familiar ability to 3 + half your level. Your familiar must have the @UUID[Compendium.pf2e.familiar-abilities.Item.FcQQLMAJMgOLjnSv]{Resistance} ability to select this.</p>",
+      "rules": [
+        {
+          "key": "Resistance",
+          "type": "{actor|flags.pf2e.resistance.resistanceOne}",
+          "value": "3 + floor(@actor.level/2)"
+        },
+        {
+          "key": "Resistance",
+          "type": "{actor|flags.pf2e.resistance.resistanceTwo}",
+          "value": "3 + floor(@actor.level/2)"
+        }
+      ]
     },
     "Lightning Armillary": {
       "name": "Lightning Armillary",
-      "description": "<p><strong>Effect</strong> Your familiar flies around and around an adjacent ally's weapon or hand, dissolving into multiple rings of lightning. Until the beginning of your next turn, the affected weapon or unarmed attack deals an additional 1d6 electricity damage, or 1d8 electricity damage if you Cast a Spell with the air or electricity trait this turn. Your familiar remains in lightning ring form, preventing it from being targeted or taking any actions.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.QVk0oRgc1pRwhG7U]{Effect: Lightning Armillary}</p>"
+      "description": "<p><strong>Effect</strong> Your familiar flies around and around an adjacent ally's weapon or hand, dissolving into multiple rings of lightning. Until the beginning of your next turn, the affected weapon or unarmed attack deals an additional 1d6 electricity damage, or 1d8 electricity damage if you Cast a Spell with the air or electricity trait this turn. Your familiar remains in lightning ring form, preventing it from being targeted or taking any actions.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.QVk0oRgc1pRwhG7U]{Effect: Lightning Armillary}</p>",
+      "traits": [
+        "electricity"
+      ]
     },
     "Speech": {
       "name": "Speech",
       "description": "<p>It understands and speaks a language you know.</p>"
     }
+  },
+  "mapping": {
+    "description": "system.description.value",
+    "rules": "system.rules",
+    "traits": "system.traits.value"
   }
 }
