@@ -1179,7 +1179,7 @@
     },
     "Salt Wound": {
       "name": "상처에 소금",
-      "description": "<p><strong>빈도</strong> 하루에 한 번</p>\n<p><strong> 트리거</strong> 피를 가지고 있고 최대 HP아닌 생물이 근접 공격으로 자신을 공격합니다.</p>\n<hr />\n<p><strong>효과</strong> 당신의 피에서 나온 소금과 염수를 생물의 상처에 흘려보냅니다. 생물은 자신의 클래스 DC 또는 주문 DC 중 높은 수치로 @Check[type:fortitude|dc:resolve(@actor.attributes.classOrSpellDC.value)]을 시도해야 합니다. 실패하면, 생물은 @Damage[1d6[persistent,산]] 피해를 받고 그 고통으로 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1} 상태가 됩니다. 대실패 시에는 대신 @Damage[2d6[persistent,산]] 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 2}가 됩니다.</p>"
+      "description": "<p><strong>빈도</strong> 하루에 한 번</p>\n<p><strong> 트리거</strong> 피를 가지고 있고 최대 HP아닌 생물이 근접 공격으로 자신을 공격합니다.</p>\n<hr />\n<p><strong>효과</strong> 당신의 피에서 나온 소금과 염수를 생물의 상처에 흘려보냅니다. 생물은 자신의 클래스 DC 또는 주문 DC 중 높은 수치로 @Check[type:fortitude|dc:resolve(@actor.attributes.classOrSpellDC.value)]을 시도해야 합니다. 실패하면, 생물은 @Damage[1d6[persistent,acid]] 피해를 받고 그 고통으로 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1} 상태가 됩니다. 대실패 시에는 대신 @Damage[2d6[persistent,acid]] 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 2}가 됩니다.</p>"
     },
     "Pistolero's Retort": {
       "name": "피스톨레로의 레토르트",
