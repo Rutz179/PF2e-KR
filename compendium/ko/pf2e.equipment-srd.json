@@ -1311,7 +1311,7 @@
     },
     "Blight Bomb (Moderate)": {
       "name": "병충 폭탄 (보통)",
-      "description": "<p><strong>활성화</strong> <span class=\"action-glyph\">A</span> 강타</p><hr /><p>부패 폭탄은 살을 썩게 하는 휘발성 독성 화학 물질을 함유하고 있습니다. 부패 폭탄은 2d4 독 피해, 2d4 지속 독 피해, 그리고 2 독 방사 피해를 입힙니다. 공격 굴림에 +1 아이템 보너스를 얻습니다.</p>",
+      "description": "<p><strong>활성화</strong> <span class=\"action-glyph\">A</span> 강타</p><hr /><p>괴사 폭탄은 살을 썩게 하는 휘발성 독성 화학 물질을 함유하고 있습니다. 괴사 폭탄은 2d4 독 피해, 2d4 지속 독 피해, 그리고 2 독 방사 피해를 입힙니다. 공격 굴림에 +1 아이템 보너스를 얻습니다.</p>",
       "traits": [
         "alchemical",
         "bomb",
@@ -9552,7 +9552,7 @@
       ]
     },
     "Necrotic Bomb (Lesser)": {
-      "name": "부패 폭탄 (하급)",
+      "name": "괴사 폭탄 (하급)",
       "description": "<p><strong>활성화</strong> <span class=\"action-glyph\">1</span> 타격</p>\n<hr />\n<p>괴사 폭탄은 대부분의 사람들이 기껏해야 역겹고 최악의 경우 불경하다고 여기는 시약을 조합하여 공기와 접촉하면 생명을 빨아들이는 악취를 생성합니다. 괴사 폭탄은 명시된 공허 피해와 방사 피해를 입히며, 치명타 시 주 대상에게 병약을 유발합니다. 이 피해는 살아있는 생명체에게만 적용됩니다.</p>\n<hr />\n<p>폭탄은 1d6 공허 피해와 1 공허 방사 피해를 입힙니다. 치명타 시 대상은 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1}이 됩니다.</p>",
       "rules": [
         {
@@ -10494,7 +10494,7 @@
       ]
     },
     "Biting Snare": {
-      "name": "물리는 올가미",
+      "name": "물어뜯는 올가미",
       "description": "<p>이 올가미는 생물의 다리를 꽉 조여 닫힌다. 덫은 자신의 칸에 들어온 첫 번째 생물에게 @Damage[5d6[piercing]]의 피해를 입힌다; 해당 생물은 @Check[reflex|showDC:all|dc:21] 내성을 시도해야 한다.</p><hr /><p><strong>대성공</strong> 생물은 영향을 받지 않습니다.</p>\n<p><strong>성공</strong> 생물은 절반의 피해를 입습니다.</p>\n<p><strong>실패</strong> 생물은 전체 피해를 받습니다.</p>\n<p><strong>대실패</strong> 생물은 두 배의 피해를 입으며, 최소 1 체력을 회복할 때까지 이동 속도에 -10피트 상태 페널티를 받습니다.</p>",
       "traits": [
         "consumable",
@@ -23904,8 +23904,8 @@
       ]
     },
     "Blight Bomb (Greater)": {
-      "name": "부패 폭탄 (중급)",
-      "description": "<p><strong>활성화</strong> <span class=\"action-glyph\">A</span> 강타</p><hr /><p>부패 폭탄은 살을 썩게 하는 휘발성 독성 화학 물질을 함유하고 있습니다. 부패 폭탄은 3d4 독 피해, 3d4 지속 독 피해, 그리고 3 독 방사 피해를 입힙니다. 공격 굴림에 +2 아이템 보너스를 얻습니다.</p>",
+      "name": "괴사 폭탄 (중급)",
+      "description": "<p><strong>활성화</strong> <span class=\"action-glyph\">A</span> 강타</p><hr /><p>괴사 폭탄은 살을 썩게 하는 휘발성 독성 화학 물질을 함유하고 있습니다. 괴사 폭탄은 3d4 독 피해, 3d4 지속 독 피해, 그리고 3 독 방사 피해를 입힙니다. 공격 굴림에 +2 아이템 보너스를 얻습니다.</p>",
       "traits": [
         "alchemical",
         "bomb",
@@ -25616,7 +25616,7 @@
     },
     "Spider Satchel (Lesser)": {
       "name": "거미 가방 (하급)",
-      "description": "<p><strong>활성화</strong> <span class=\"action-glyph\">A</span> 강타</p><hr /><p>베르두란 숲의 작은 텐트트랩 거미는 피라미드형 거미줄에 알을 낳으며, 그 알은 곤충이나 노래하는 새가 걸려 허우적대는 것과 같은 강한 진동에 반응할 때만 부화한다. 가학적인 연금술사들은 이 알들을 모아 강화한 뒤, 충격 시 수천 마리의 물리는 거미 새끼들을 쏟아내는 비단 주머니에 담아 운반한다.</p>\n<p>떨어뜨려 없애거나-절박한 대상의 경우 불태워 없애기 전까지-이 거미들은 무리에서 탈출하는 것 외에는 다른 것에 집중하기 어렵게 만든다. 대상에게 추가적인 적대적 행동을 취하면 매혹 효과가 자동으로 종료되지만, 대상의 아군에게 적대적 행동을 취해도 효과가 자동으로 끝나지는 않는다.</p>\n<p>폭탄은 1d6 지속 독 피해를 입히고, 1의 독 방사 피해를 입히며, 지속 피해가 지속되는 동안 표적을 매혹시킨다.</p>",
+      "description": "<p><strong>활성화</strong> <span class=\"action-glyph\">A</span> 강타</p><hr /><p>베르두란 숲의 작은 텐트트랩 거미는 피라미드형 거미줄에 알을 낳으며, 그 알은 곤충이나 노래하는 새가 걸려 허우적대는 것과 같은 강한 진동에 반응할 때만 부화한다. 가학적인 연금술사들은 이 알들을 모아 강화한 뒤, 충격 시 수천 마리의 물어뜯는 거미 새끼들을 쏟아내는 비단 주머니에 담아 운반한다.</p>\n<p>떨어뜨려 없애거나-절박한 대상의 경우 불태워 없애기 전까지-이 거미들은 무리에서 탈출하는 것 외에는 다른 것에 집중하기 어렵게 만든다. 대상에게 추가적인 적대적 행동을 취하면 매혹 효과가 자동으로 종료되지만, 대상의 아군에게 적대적 행동을 취해도 효과가 자동으로 끝나지는 않는다.</p>\n<p>폭탄은 1d6 지속 독 피해를 입히고, 1의 독 방사 피해를 입히며, 지속 피해가 지속되는 동안 표적을 매혹시킨다.</p>",
       "traits": [
         "alchemical",
         "bomb",
@@ -31444,7 +31444,7 @@
       ]
     },
     "Healer's Toolkit (Expanded)": {
-      "name": "확장형 치료사 도구 세트",
+      "name": "치유사의 도구 세트 (확장형)",
       "description": "<p>붕대, 약초, 봉합 도구로 구성된 이 키트는 Medicine 체킹을 위해 @UUID[Compendium.pf2e.actionspf2e.Item.MHLuKy4nQO2Z4Am1]{응급처치}, @UUID[Compendium.pf2e.actionspf2e.Item.TC7OcDa7JlWbqMaN]{질병 치료}까지 필요합니다. @UUID[Compendium.pf2e.actionspf2e.Item.KjoCEEmPGTeFE4hh]{독 치료}, 또는 @UUID[Compendium.pf2e.actionspf2e.Item.1kGNdIIhuglAjIp9]{상처 치료}에 필요한 필수품입니다. 확장된 치료사 도구 키트는 해당 체크 시 +1 아이템 보너스를 제공합니다. 치료사 도구 키트를 착용하면, 해당 도구를 사용하는 행동의 일부로 도구를 꺼내거나 다시 넣을 수 있습니다.</p>",
       "rules": [
         {
@@ -31515,8 +31515,8 @@
       ]
     },
     "Silkspinner's Shield": {
-      "name": "실크스피당신의 방패",
-      "description": "<p>이 이상하게 보송보송한 버클러는 거미의 복부를 닮았다. 방어면은 가는 털로 덮여 있으며, 테두리 아래쪽에서 두 개의 작은 방사구가 튀어나와 있다. 이 방사구는 <em>+2개의 강타 (중급) 방패 스파이크</em> 역할을 한다.</p>\n<hr />\n<p><strong>활성화</strong> <span class=\"action-glyph\">1</span> 명령</p>\n<p><strong>주파수</strong> 하루에 한 번</p>\n<hr />\n<p><strong>효과</strong> 실방적의 방패에 생명을 불어넣습니다. 방패 가장자리에서 여덟 개의 거미 다리가 솟아나, 다음 차례가 끝날 때까지 25피트의 등반 속도를 부여합니다. 또한 방적선이 움직이며 1분 동안 실을 생산합니다. 실방적의 방패로 이 시간 동안 성공적인 방패 강타 공격을 가하면 대상이 실에 얽힌다. 대상은 1라운드 동안 이동 속도에 -10피트 상황 페널티를 받는다. 만약 당신의 공격이 치명타였다면, 대상은 대신 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{고정된} 상태가 1라운드 동안 된다. 어떠한 경우에도 대상은 탈출(DC 30)을 시도하여 효과를 조기에 종료할 수 있습니다.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.dchlrZqQ2oEmgNlN]{효과: 실크스피당신의 방패 (애니메이티드 스트라이크)}</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.SbYcOry1cxbndSve]{효과: 실크스피당신의 방패 (등반)}</p>\n<table class=\"pf2e\">\n<thead>\n<tr>\n\n<th>HP</th>\n<th>BT</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>10</td>\n<td>60</td>\n<td>30</td>\n</tr>\n</tbody>\n</table>",
+      "name": "실크스피너의 방패",
+      "description": "<p>이 이상하게 보송보송한 버클러는 거미의 복부를 닮았다. 방어면은 가는 털로 덮여 있으며, 테두리 아래쪽에서 두 개의 작은 방사구가 튀어나와 있다. 이 방사구는 <em>+2개의 강타 (중급) 방패 스파이크</em> 역할을 한다.</p>\n<hr />\n<p><strong>활성화</strong> <span class=\"action-glyph\">1</span> 명령</p>\n<p><strong>주파수</strong> 하루에 한 번</p>\n<hr />\n<p><strong>효과</strong> 실방적의 방패에 생명을 불어넣습니다. 방패 가장자리에서 여덟 개의 거미 다리가 솟아나, 다음 차례가 끝날 때까지 25피트의 등반 속도를 부여합니다. 또한 방적선이 움직이며 1분 동안 실을 생산합니다. 실방적의 방패로 이 시간 동안 성공적인 방패 강타 공격을 가하면 대상이 실에 얽힌다. 대상은 1라운드 동안 이동 속도에 -10피트 상황 페널티를 받는다. 만약 당신의 공격이 치명타였다면, 대상은 대신 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{고정된} 상태가 1라운드 동안 된다. 어떠한 경우에도 대상은 탈출(DC 30)을 시도하여 효과를 조기에 종료할 수 있습니다.</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.dchlrZqQ2oEmgNlN]{효과: 실크스피너의 방패 (애니메이티드 스트라이크)}</p>\n<p>@UUID[Compendium.pf2e.equipment-effects.Item.SbYcOry1cxbndSve]{효과: 실크스피너의 방패 (등반)}</p>\n<table class=\"pf2e\">\n<thead>\n<tr>\n\n<th>HP</th>\n<th>BT</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>10</td>\n<td>60</td>\n<td>30</td>\n</tr>\n</tbody>\n</table>",
       "traits": [
         "light",
         "magical"
@@ -33010,7 +33010,7 @@
     },
     "Resonating Fork": {
       "name": "공명 포크",
-      "description": "<p>이 두 갈래의 금속 포크는 지속적인 낮은 윙윙거리는 소리를 내며, 만지면 살짝 진동한다. 이 아이템을 활성화하여 시전하는 모든 주문은 주문 공격 수정자가 +9이며, 주문 DC는 19입니다.</p><ul><li><strong>갑옷</strong> 음파 피해에 대한 저항력 2를 얻으며, 청각 또는 소닉 특성을 가진 효과에 대한 내성 굴림에 +1 아이템 보너스를 받습니다. </li> <li> <strong> 무기 </strong> 포크를 활성화하여 소닉 주문을 시전한 후, 무기는 갇힌 음파로 울려 퍼집니다. 다음 공격이 적중하면 대상은 1라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{귀머거림} 상태가 됩니다(치명타 시 3라운드). 다음 턴이 끝날 때까지 공격을 하지 않으면 음파는 소멸되어 효과가 사라집니다.</li></ul><p>@UUID[Compendium.pf2e.equipment-effects.Item.Plga97M3LVFZqhiP]{효과: 공명 포크 - 방어구}</p><hr /><p><strong>활성화</strong> 주문 시전</p>\n<p><strong>Effect</strong> 당신은 @UUID[Compendium.pf2e.spells-srd.Item.W02bHXylIpoXbO4e]{확성기}를 시전합니다.</p><hr /><p><strong>활성화</strong> 주문 시전</p>\n<p><strong>사용 빈도</strong> 하루에 한 번</p>\n<p><strong>효과</strong> 당신은 @UUID[Compendium.pf2e.spells-srd.Item.yafsV0ni7rFgqJBj]{물리는 말}을 시전합니다.</p>",
+      "description": "<p>이 두 갈래의 금속 포크는 지속적인 낮은 윙윙거리는 소리를 내며, 만지면 살짝 진동한다. 이 아이템을 활성화하여 시전하는 모든 주문은 주문 공격 수정자가 +9이며, 주문 DC는 19입니다.</p><ul><li><strong>갑옷</strong> 음파 피해에 대한 저항력 2를 얻으며, 청각 또는 소닉 특성을 가진 효과에 대한 내성 굴림에 +1 아이템 보너스를 받습니다. </li> <li> <strong> 무기 </strong> 포크를 활성화하여 소닉 주문을 시전한 후, 무기는 갇힌 음파로 울려 퍼집니다. 다음 공격이 적중하면 대상은 1라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{귀머거림} 상태가 됩니다(치명타 시 3라운드). 다음 턴이 끝날 때까지 공격을 하지 않으면 음파는 소멸되어 효과가 사라집니다.</li></ul><p>@UUID[Compendium.pf2e.equipment-effects.Item.Plga97M3LVFZqhiP]{효과: 공명 포크 - 방어구}</p><hr /><p><strong>활성화</strong> 주문 시전</p>\n<p><strong>Effect</strong> 당신은 @UUID[Compendium.pf2e.spells-srd.Item.W02bHXylIpoXbO4e]{확성기}를 시전합니다.</p><hr /><p><strong>활성화</strong> 주문 시전</p>\n<p><strong>사용 빈도</strong> 하루에 한 번</p>\n<p><strong>효과</strong> 당신은 @UUID[Compendium.pf2e.spells-srd.Item.yafsV0ni7rFgqJBj]{물어뜯는 말}을 시전합니다.</p>",
       "traits": [
         "magical",
         "sonic",
@@ -37040,7 +37040,7 @@
     },
     "Resonating Fork (Greater)": {
       "name": "공명 포크 (중급)",
-      "description": "<p>이 두 갈래의 금속 포크는 지속적인 낮은 윙윙거리는 소리를 내며, 만지면 살짝 진동한다. 이 아이템을 활성화하여 시전하는 모든 주문에 대한 주문 공격 수정자는 +13이며, 주문 DC는 23이다.</p><ul><li><strong>방어구</strong> 음파 피해에 대한 저항력 5를 얻으며, 청각 또는 소닉 특성을 가진 효과에 대한 내성 굴림에 +2 아이템 보너스를 받습니다. </li> <li> <strong> 무기 </strong> 포크를 활성화하여 소닉 주문을 시전한 후, 무기는 갇힌 음파로 울려 퍼집니다. 다음 공격이 적중하면 대상은 3라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{귀머거림} 상태가 됩니다(치명타 시 1분 동안). 다음 턴이 끝날 때까지 공격을 하지 않으면 음파는 소멸되어 효과가 사라집니다.</li></ul><p>@UUID[Compendium.pf2e.equipment-effects.Item.Plga97M3LVFZqhiP]{효과: 공명 포크 - 방어구}</p><hr /><p><strong>활성화</strong> 주문 시전</p>\n<p><strong>Effect</strong> 당신은 @UUID[Compendium.pf2e.spells-srd.Item.W02bHXylIpoXbO4e]{확성기}를 시전합니다.</p><hr /><p><strong>활성화</strong> 주문 시전</p>\n<p><strong>사용 빈도</strong> 하루에 한 번</p>\n<p><strong>Effect</strong> (2nd) @UUID[Compendium.pf2e.spells-srd.Item.yafsV0ni7rFgqJBj]{물리는 말}을 시전한다.</p><hr /><p><strong>활성화</strong> 주문 시전</p>\n<p><strong>발동 빈도</strong> 하루에 한 번</p>\n<p><strong>효과</strong> 당신은 @UUID[Compendium.pf2e.spells-srd.Item.wzLkNU3AAqOSKFPR]{소음 폭발}을 시전합니다.</p>",
+      "description": "<p>이 두 갈래의 금속 포크는 지속적인 낮은 윙윙거리는 소리를 내며, 만지면 살짝 진동한다. 이 아이템을 활성화하여 시전하는 모든 주문에 대한 주문 공격 수정자는 +13이며, 주문 DC는 23이다.</p><ul><li><strong>방어구</strong> 음파 피해에 대한 저항력 5를 얻으며, 청각 또는 소닉 특성을 가진 효과에 대한 내성 굴림에 +2 아이템 보너스를 받습니다. </li> <li> <strong> 무기 </strong> 포크를 활성화하여 소닉 주문을 시전한 후, 무기는 갇힌 음파로 울려 퍼집니다. 다음 공격이 적중하면 대상은 3라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{귀머거림} 상태가 됩니다(치명타 시 1분 동안). 다음 턴이 끝날 때까지 공격을 하지 않으면 음파는 소멸되어 효과가 사라집니다.</li></ul><p>@UUID[Compendium.pf2e.equipment-effects.Item.Plga97M3LVFZqhiP]{효과: 공명 포크 - 방어구}</p><hr /><p><strong>활성화</strong> 주문 시전</p>\n<p><strong>Effect</strong> 당신은 @UUID[Compendium.pf2e.spells-srd.Item.W02bHXylIpoXbO4e]{확성기}를 시전합니다.</p><hr /><p><strong>활성화</strong> 주문 시전</p>\n<p><strong>사용 빈도</strong> 하루에 한 번</p>\n<p><strong>Effect</strong> (2nd) @UUID[Compendium.pf2e.spells-srd.Item.yafsV0ni7rFgqJBj]{물어뜯는 말}을 시전한다.</p><hr /><p><strong>활성화</strong> 주문 시전</p>\n<p><strong>발동 빈도</strong> 하루에 한 번</p>\n<p><strong>효과</strong> 당신은 @UUID[Compendium.pf2e.spells-srd.Item.wzLkNU3AAqOSKFPR]{소음 폭발}을 시전합니다.</p>",
       "traits": [
         "magical",
         "sonic",
@@ -49259,7 +49259,7 @@
     },
     "Spider Satchel (Moderate)": {
       "name": "거미 가방 (보통)",
-      "description": "<p><strong>활성화</strong> <span class=\"action-glyph\">A</span> 강타</p><hr /><p>베르두란 숲의 작은 텐트트랩 거미는 피라미드형 거미줄에 알을 낳으며, 그 새끼들은 갇힌 곤충이나 심지어 노래하는 새의 몸부림 같은 강한 진동에 반응할 때만 부화한다. 가학적인 연금술사들은 이 알들을 모아 강화한 뒤, 충격 시 수천 마리의 물리는 거미 새끼들을 쏟아내는 비단 주머니에 담아 운반한다.</p>\n<p>떨어뜨려 없애거나-절박한 대상의 경우 불태워 없애기 전까지-이 거미들은 무리에서 탈출하는 것 외에는 다른 것에 집중하기 어렵게 만든다. 대상에게 추가적인 적대적 행동을 취하면 매혹 효과가 자동으로 종료되지만, 대상의 아군에게 적대적 행동을 취해도 효과가 자동으로 끝나지는 않는다.</p>\n<p>공격 굴림에 +1 아이템 보너스를 얻습니다. 폭탄은 2d6 지속 독 피해를 입히고, 2의 독 방사 피해를 입히며, 지속 피해가 지속되는 동안 표적을 매혹시킵니다.</p>",
+      "description": "<p><strong>활성화</strong> <span class=\"action-glyph\">A</span> 강타</p><hr /><p>베르두란 숲의 작은 텐트트랩 거미는 피라미드형 거미줄에 알을 낳으며, 그 새끼들은 갇힌 곤충이나 심지어 노래하는 새의 몸부림 같은 강한 진동에 반응할 때만 부화한다. 가학적인 연금술사들은 이 알들을 모아 강화한 뒤, 충격 시 수천 마리의 물어뜯는 거미 새끼들을 쏟아내는 비단 주머니에 담아 운반한다.</p>\n<p>떨어뜨려 없애거나-절박한 대상의 경우 불태워 없애기 전까지-이 거미들은 무리에서 탈출하는 것 외에는 다른 것에 집중하기 어렵게 만든다. 대상에게 추가적인 적대적 행동을 취하면 매혹 효과가 자동으로 종료되지만, 대상의 아군에게 적대적 행동을 취해도 효과가 자동으로 끝나지는 않는다.</p>\n<p>공격 굴림에 +1 아이템 보너스를 얻습니다. 폭탄은 2d6 지속 독 피해를 입히고, 2의 독 방사 피해를 입히며, 지속 피해가 지속되는 동안 표적을 매혹시킵니다.</p>",
       "traits": [
         "alchemical",
         "bomb",
@@ -51038,7 +51038,7 @@
     },
     "Blight Bomb (Lesser)": {
       "name": "블라이트 폭탄 (하급)",
-      "description": "<p><strong>활성화</strong> <span class=\"action-glyph\">A</span> 강타</p><hr /><p>부패 폭탄은 살을 썩게 하는 휘발성 독성 화학 물질을 함유하고 있습니다. 부패 폭탄은 1d4 독 피해, 1d4 지속 독 피해, 그리고 1 독 방사 피해를 입힙니다.</p>",
+      "description": "<p><strong>활성화</strong> <span class=\"action-glyph\">A</span> 강타</p><hr /><p>괴사 폭탄은 살을 썩게 하는 휘발성 독성 화학 물질을 함유하고 있습니다. 괴사 폭탄은 1d4 독 피해, 1d4 지속 독 피해, 그리고 1 독 방사 피해를 입힙니다.</p>",
       "traits": [
         "alchemical",
         "bomb",
@@ -55098,7 +55098,7 @@
       ]
     },
     "Necrotic Bomb (Moderate)": {
-      "name": "부패 폭탄 (보통)",
+      "name": "괴사 폭탄 (보통)",
       "description": "<p><strong>활성화</strong> <span class=\"action-glyph\">1</span> 강타</p>\n<hr />\n<p>괴사 폭탄은 대부분의 사람들이 기껏해야 역겹고 최악의 경우 불경하다고 여기는 시약을 조합하여 공기와 접촉 시 생명을 빨아들이는 악취를 생성합니다. 괴사 폭탄은 명시된 공허 피해와 방사 피해를 입히며, 치명타 시 주 대상에게 구토 상태를 유발합니다. 이 피해는 살아있는 생물체에게만 적용됩니다. </p>\n<hr />\n<p>공격 굴림에 +1 아이템 보너스를 얻습니다.</p>\n<p>폭탄은 2d6 공허 피해와 2 방사 피해를 입힙니다. 치명타 시 대상은 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 2} 상태가 됩니다.</p>",
       "rules": [
         {
@@ -60263,7 +60263,7 @@
     },
     "Spider Satchel (Greater)": {
       "name": "거미 가방 (중급)",
-      "description": "<p><strong>활성화</strong> <span class=\"action-glyph\">A</span> 강타</p><hr /><p>베르두란 숲의 작은 텐트트랩 거미는 피라미드형 거미줄에 알을 낳으며, 그 새끼들은 갇힌 곤충이나 심지어 노래하는 새의 몸부림 같은 강한 진동에 반응할 때만 부화한다. 가학적인 연금술사들은 이 알들을 모아 강화한 뒤, 충격 시 수천 마리의 물리는 거미 새끼들을 쏟아내는 비단 주머니에 담아 운반한다.</p>\n<p>떨어뜨려 없애거나-절박한 대상의 경우 불태워 없애기 전까지-이 거미들은 무리에서 탈출하는 것 외에는 다른 것에 집중하기 어렵게 만든다. 대상에게 추가적인 적대적 행동을 취하면 매혹 효과가 자동으로 종료되지만, 대상의 아군에게 적대적 행동을 취해도 효과가 자동으로 끝나지는 않는다.</p>\n<p>공격 굴림에 +2 아이템 보너스를 얻습니다. 폭탄은 3d6 지속 독 피해를 입히고, 3의 독 방사 피해를 입히며, 지속 피해가 지속되는 동안 대상을 매혹된 상태로 만듭니다.</p>",
+      "description": "<p><strong>활성화</strong> <span class=\"action-glyph\">A</span> 강타</p><hr /><p>베르두란 숲의 작은 텐트트랩 거미는 피라미드형 거미줄에 알을 낳으며, 그 새끼들은 갇힌 곤충이나 심지어 노래하는 새의 몸부림 같은 강한 진동에 반응할 때만 부화한다. 가학적인 연금술사들은 이 알들을 모아 강화한 뒤, 충격 시 수천 마리의 물어뜯는 거미 새끼들을 쏟아내는 비단 주머니에 담아 운반한다.</p>\n<p>떨어뜨려 없애거나-절박한 대상의 경우 불태워 없애기 전까지-이 거미들은 무리에서 탈출하는 것 외에는 다른 것에 집중하기 어렵게 만든다. 대상에게 추가적인 적대적 행동을 취하면 매혹 효과가 자동으로 종료되지만, 대상의 아군에게 적대적 행동을 취해도 효과가 자동으로 끝나지는 않는다.</p>\n<p>공격 굴림에 +2 아이템 보너스를 얻습니다. 폭탄은 3d6 지속 독 피해를 입히고, 3의 독 방사 피해를 입히며, 지속 피해가 지속되는 동안 대상을 매혹된 상태로 만듭니다.</p>",
       "traits": [
         "alchemical",
         "bomb",
@@ -61368,7 +61368,7 @@
     },
     "Blight Bomb (Major)": {
       "name": "블라이트 폭탄 (상급)",
-      "description": "<p><strong>활성화</strong> <span class=\"action-glyph\">A</span> 강타</p><hr /><p>부패 폭탄은 살을 썩게 하는 휘발성 독성 화학 물질을 함유하고 있습니다. 부패 폭탄은 4d4 독 피해, 4d4 지속 독 피해, 그리고 4 독 방사 피해를 입힙니다. 공격 굴림에 +3 아이템 보너스를 얻습니다.</p>",
+      "description": "<p><strong>활성화</strong> <span class=\"action-glyph\">A</span> 강타</p><hr /><p>괴사 폭탄은 살을 썩게 하는 휘발성 독성 화학 물질을 함유하고 있습니다. 괴사 폭탄은 4d4 독 피해, 4d4 지속 독 피해, 그리고 4 독 방사 피해를 입힙니다. 공격 굴림에 +3 아이템 보너스를 얻습니다.</p>",
       "traits": [
         "alchemical",
         "bomb",
