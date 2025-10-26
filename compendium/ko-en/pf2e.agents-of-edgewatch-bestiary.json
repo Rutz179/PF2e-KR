@@ -4997,7 +4997,7 @@
       "items": {
         "P2D3nIr4b8QtzEFx": {
           "name": "넘쳐흐르는 끓는 물 (Overflowing Boiling Water)",
-          "description": "<p><strong> 트리거</strong> 트립 와이어가 당겨지거나 절단됨</p>\n<hr />\n<p><strong>효과</strong> 산성 플라스크가 폭발하여 근처 생물들에게 산을 분사하고, 같은 방향으로 끓는 물 통이 터진다.</p>\n<p>발동된 끓는 물 통 트랩 동쪽에 있는 모든 생물은 @Template[cone|distance:5] 동쪽에 위치한 발동된 끓는 물통 함정에 걸린 모든 생물은 @Damage[3d6[persistent,acid],(3[비산])[산],(8d6+20)[화염]]{지속 산 피해 3d6, 산 방사 피해 3, 화염 피해 8d6+20} (@Check[reflex|dc:31|basic|traits:acid,fire] 내성 검사)를 받는다. </p>"
+          "description": "<p><strong> 트리거</strong> 트립 와이어가 당겨지거나 절단됨</p>\n<hr />\n<p><strong>효과</strong> 산성 플라스크가 폭발하여 근처 생물들에게 산을 분사하고, 같은 방향으로 끓는 물 통이 터진다.</p>\n<p>발동된 끓는 물 통 트랩 동쪽에 있는 모든 생물은 @Template[cone|distance:5] 동쪽에 위치한 발동된 끓는 물통 함정에 걸린 모든 생물은 @Damage[3d6[persistent,acid],(3[splash])[acid],(8d6+20)[화염]]{지속 산 피해 3d6, 산 방사 피해 3, 화염 피해 8d6+20} (@Check[reflex|dc:31|basic|traits:acid,fire] 내성 검사)를 받는다. </p>"
         }
       }
     },

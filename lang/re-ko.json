@@ -88,7 +88,13 @@
     },
     "BattleForm": {
       "AberrantForm": {
-        "GugSqueezeNote": "여러 개의 관절로 좁은 공간도 중형 생물처럼 통과할 수 있습니다."
+          "ChoiceSet": {
+                    "Chuul": "Chuul",
+                    "Gogiteth": "Gogiteth",
+                    "Gug": "Gug",
+                    "Otyugh": "Otyugh"
+                },
+            "GugSqueezeNote": "여러 개의 관절로 좁은 공간도 중형 생물처럼 통과할 수 있습니다."
       },
       "AngelForm": {
           "ChoiceSet": {
@@ -251,7 +257,13 @@
         "Shove": "타격 후 즉시 행동을 소비하여 성공적인 @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{밀치기}의 효과를 적용해 목표를 5피트 밀어낼 수 있습니다."
       },
       "OozeForm": {
-        "GelatinousCubeNote": "당신의 큐브 면 공격에 맞은 생물은 당신의 주문 DC에 대한 @Check[fortitude|against:spell|traits:incapacitation] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{기절 1} (또는 대실패 시 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비} 1 라운드) 이 내성은 무력화 특성을 가지고 있습니다."
+          "ChoiceSet": {
+              "BlackPudding": "Black Pudding",
+              "GelatinousCube": "Gelatinous Cube",
+              "GrayOoze": "Gray Ooze",
+              "OchreJelly": "Ochre Jelly"
+          },
+          "GelatinousCubeNote": "당신의 큐브 면 공격에 맞은 생물은 당신의 주문 DC에 대한 @Check[fortitude|against:spell|traits:incapacitation] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{기절 1} (또는 대실패 시 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비} 1 라운드) 이 내성은 무력화 특성을 가지고 있습니다."
       },
       "WormForm": {
         "Hybrid": "하이브리드",
@@ -753,7 +765,8 @@
         "AcidAndSpellsThatCauseRust": "산과 녹을 일으키는 주문",
         "AdamantineBludgeoning": "아다만틴 타격",
         "AlchemicalItems": "연금술 아이템",
-        "AllDamageFromArcaneSpells": "비전 주문의 모든 피해",
+        "AllDamageFromArcaneSpells": "아케인 주문의 모든 피해",
+        "AllDamageFromDivineSpells": "디바인 주문의 모든 피해",
         "AllDamageFromFungus": "곰팡이의 모든 피해",
         "AllDamageFromSpells": "주문의 모든 피해",
         "AllDamageFromUndead": "언데드의 모든 피해",
@@ -794,7 +807,8 @@
         "Spirits": "영혼",
         "Treerazer": "트리레이저",
         "UnholyBludgeoningPiercingSlashing": "부정한 타격, 관통 및 베기 피해",
-        "VoidZonKuthonFollowers": "존-쿠톤의 추종자로부터의 공허"
+        "VoidZonKuthonFollowers": "존-쿠톤의 추종자로부터의 공허",
+        "WispVulnerabilities": "위습 약점"
       }
     },
     "Mutagens": {
@@ -1005,6 +1019,21 @@
           "Zombie": "좀비"
         },
         "Label": "현재 형태"
+      },
+      "ChangeFormation": {
+          "Loose": {
+              "Drawback": "적들이 부대의 피해 효과에 대해 내는 내성 굴림 성공 확률은 실제 굴림 결과보다 한 단계 높다.",
+              "Label": "Loose"
+          },
+          "MarchingColumn": {
+              "Label": "행진 대열"
+          },
+          "TurtleShell": {
+              "Label": "거북이 방진"
+          },
+          "Wedge": {
+              "Label": "Wedge"
+          }
       },
       "Charge": {
         "AtLeastTen": "10피트 이상 이동"
@@ -1239,6 +1268,7 @@
           "BoneClub": {
             "Label": "창조 뼈 곤봉",
             "New": "새것",
+            "NewLabel": "뼈 곤봉",
             "Shattered": "부서진",
             "ShatteredLabel": "부서진 뼈 곤봉"
           }
@@ -1826,6 +1856,99 @@
         "success": "@Damage[4d6[persistent,poison]]"
       }
     },
+    "RULES": {
+        "Common": {
+            "FIELDS": {
+                "key": {
+                    "label": "Key"
+                },
+                "label": {
+                    "label": "Label"
+                },
+                "mode": {
+                    "choices": {
+                        "add": "Add",
+                        "downgrade": "Downgrade",
+                        "multiply": "Multiply",
+                        "override": "Override",
+                        "remove": "Remove",
+                        "subtract": "Subtract",
+                        "upgrade": "Upgrade"
+                    },
+                    "label": "Mode"
+                },
+                "predicate": {
+                    "label": "Predicate"
+                },
+                "selector": {
+                    "label": "Selector"
+                },
+                "selectors": {
+                    "label": "Selectors"
+                },
+                "slug": {
+                    "label": "Slug"
+                },
+                "value": {
+                    "label": "Value"
+                },
+                "relabel": {
+                    "label": "Relabel"
+                }
+            }
+        },
+        "DamageAlteration": {
+            "FIELDS": {
+                "property": {
+                    "choices": {
+                        "damage-type": "Damage Type",
+                        "dice-faces": "Dice Faces",
+                        "dice-number": "Dice Number",
+                        "tags": "Tags"
+                    },
+                    "label": "Property"
+                }
+            }
+        },
+        "Note": {
+            "FIELDS": {
+                "outcome": {
+                    "choices": {
+                        "criticalFailure": "대실패",
+                        "criticalSuccess": "대성공",
+                        "failure": "실패",
+                        "success": "성공"
+                    },
+                    "label": "결과"
+                },
+                "selector": {
+                    "label": "선택 옵션"
+                },
+                "text": {
+                    "label": "Text"
+                },
+                "title": {
+                    "label": "Title"
+                },
+                "visibility": {
+                    "choices": {
+                        "gm": "Gamemaster Only",
+                        "owner": "Item Owner"
+                    },
+                    "hint": "채팅에 게시될 때 이 메모가 표시되어야 하는 대상: 선택하지 않으면 모든 사용자에게 표시됩니다.",
+                    "label": "Visibility"
+                }
+            }
+        },
+        "TokenMark": {
+            "FIELDS": {
+                "uuid": {
+                    "hint": "The UUID of a marked token: automatically filled upon marking.",
+                    "label": "Token UUID"
+                }
+            }
+        }
+    },
     "RuleEditor": {
       "Aura": {
         "Appearance": {
@@ -1893,7 +2016,6 @@
       "General": {
         "Add": "추가",
         "Basics": "기본",
-        "Brackets": "괄호",
         "CriticalBehavior": {
           "false": "치명타 시 1배 피해",
           "null": "치명타 시 2배 피해",
@@ -1903,7 +2025,6 @@
         "Label": "라벨",
         "Opacity": "불투명도",
         "Predicate": "술어",
-        "Primitive": "기본",
         "PriorityHint": "우선 순위는 동일한 단계에서 규칙 요소가 실행되는 순서를 결정합니다. 우선 순위 값이 낮은 규칙 요소가 먼저 실행됩니다.",
         "Range": "범위",
         "Remove": "제거",
@@ -1930,7 +2051,7 @@
       }
     },
     "RuleElement": {
-      "ActiveEffectLike": "ActiveEffect와 유사",
+      "ActiveEffectLike": "ActiveEffect-Like",
       "ActorTraits": "액터 특성",
       "AdjustDegreeOfSuccess": "성공 정도 조정",
       "AdjustModifier": "수정자 조정",
@@ -1963,7 +2084,6 @@
       "SpecialResource": "특별 자원",
       "SpecialStatistic": "특별 통계",
       "Strike": "공격",
-      "Striking": "타격",
       "SubstituteRoll": "대체 굴림",
       "TempHP": "임시 체력",
       "TempHPShortLabel": "임시",
@@ -1973,8 +2093,7 @@
       "TokenMark": "토큰 마크",
       "TokenName": "토큰 이름",
       "Unrecognized": "알 수 없는 규칙 요소",
-      "Weakness": "약점",
-      "WeaponPotency": "무기 위력"
+      "Weakness": "약점"
     },
     "SkillVariant": {
       "AboutCaves": "동굴에 대해",
@@ -3172,7 +3291,10 @@
       },
       "Cleric": {
         "BattleHarbinger": {
-          "DivineFont": "@UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{Heal} 또는 @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{해로운 마법}을 준비하는 대신, 전투 폰트를 얻게 됩니다. 이 폰트는 전투 오라 마법을 준비할 수 있게 합니다. 매일 사제 마법 슬롯의 최고 등급에 따라 추가로 4개의 마법 슬롯을 얻습니다. 이 슬롯에는 @UUID[Compendium.pf2e.spells-srd.Item.7ZinJNzxq0XF0oMx]{Bane} 또는 @UUID[Compendium.pf2e.spells-srd.Item.XSujb7EsSwKl19Uu]{Bless}만 준비할 수 있습니다. 전투 오라를 참조하는 모든 피트와 효과는 표준 주문 슬롯으로 시전되었는지 신성한 글자 주문 슬롯으로 시전되었는지 여부에 관계없이 이 주문들을 참조합니다. 5레벨이 되면 추가 슬롯의 수가 5개로 증가하고, 15레벨이 되면 추가 슬롯의 총 수가 6개로 증가합니다. 전투 오라는 주문 DC 대신 직업 DC를 사용합니다."
+          "BattleFont": {
+              "Label": "전투의 샘"
+          },
+          "DivineFont": "@UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{치유} 또는 @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{해악}을 준비하는 대신, 전투 샘을 얻게 됩니다. 이 샘은 전투 오라 마법을 준비할 수 있게 합니다. 매일 사제 마법 슬롯의 최고 등급에 따라 추가로 4개의 마법 슬롯을 얻습니다. 이 슬롯에는 @UUID[Compendium.pf2e.spells-srd.Item.7ZinJNzxq0XF0oMx]{Bane} 또는 @UUID[Compendium.pf2e.spells-srd.Item.XSujb7EsSwKl19Uu]{Bless}만 준비할 수 있습니다. 전투 오라를 참조하는 모든 피트와 효과는 표준 주문 슬롯으로 시전되었는지 신성한 샘 주문 슬롯으로 시전되었는지 여부에 관계없이 이 주문들을 참조합니다. 5레벨이 되면 추가 슬롯의 수가 5개로 증가하고, 15레벨이 되면 추가 슬롯의 총 수가 6개로 증가합니다. 전투 오라는 주문 DC 대신 직업 DC를 사용합니다."
         },
         "CastigatingWeapon": {
           "Note": "신성한 징벌로 영적 피해를 입힌 후, 당신의 무기 또는 비무장 공격은 당신의 신성한 또는 부정한 특성을 얻고, 당신의 턴이 끝날 때까지 추가 영적 피해를 입힙니다. @UUID[Compendium.pf2e.feat-effects.Item.BTI4obxa5UmNltyU]{효과: 징벌의 무기}"
@@ -3236,6 +3358,9 @@
       "Commander": {
           "Banner": {
               "Label": "커맨더의 깃발"
+          },
+          "GloriousBanner": {
+              "ToggleLabel": "영광의 깃발 — 커맨더의 깃발이 시야에 들어오다"
           },
           "Tactics": {
               "CryHavoc": {
@@ -3510,6 +3635,9 @@
       "DubiousKnowledge": {
         "Note": "어떤 스킬을 사용하여 지식 회상 체크에 실패(대실패는 제외)하면, 정답과 오답을 모두 알게 되지만, 어느 것이 정답이고 어느 것이 오답인지 구분할 수 없습니다."
       },
+      "Duel": {
+          "Dueling": "듀얼"
+      },
       "Dwarf": {
         "BlastResistance": {
           "RollOptionLabel": "폭발 저항 — 눈부심이나 귀머거리에 대한 내성"
@@ -3628,7 +3756,7 @@
             "Note": "공격이 실패하면 주문이 시전자에게 반사되어 시전자는 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{Dazzled} 상태가 됩니다."
         },
         "BlackScorpionStingmace": {
-          "BlackScorpionVenomNote": "<p>치명타를 하면, 대상은 검은 전갈의 맹독에 노출됩니다.</p> <p><strong>검은 전갈의 맹독</strong> (독)</p> <p><strong>내성 굴림</strong> @Check[fortitude|dc:36]</p> <p><strong>최대 지속 시간</strong> 6 라운드</p> <p><strong>1단계</strong> @Damage[2d12[poison]] 피해 및 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 2} (1 라운드)</p> <p><strong>2단계</strong> @Damage[3d12[poison]] 피해, 서투른 2, @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1} (1 라운드)</p> <p><strong>3단계</strong> @Damage[4d12[poison]] 피해, @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 4}, @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 2} (1 라운드).</p>"
+          "BlackScorpionVenomNote": "<p>치명타시, 대상은 검은 전갈의 맹독에 노출됩니다.</p> <p><strong>검은 전갈의 맹독</strong> (독)</p> <p><strong>내성 굴림</strong> @Check[fortitude|dc:36]</p> <p><strong>최대 지속 시간</strong> 6 라운드</p> <p><strong>1단계</strong> @Damage[2d12[poison]] 피해 및 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 2} (1 라운드)</p> <p><strong>2단계</strong> @Damage[3d12[poison]] 피해, 서투른 2, @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1} (1 라운드)</p> <p><strong>3단계</strong> @Damage[4d12[poison]] 피해, @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 4}, @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 2} (1 라운드).</p>"
         },
         "BloodDrinkerBlade": {
           "Label": "피를 마시는 검 — 생명을 마셔라"
@@ -3653,13 +3781,13 @@
         },
         "BravosBrew": {
           "Greater": {
-            "FearLabel": "최상급 브라보의 양조주 (대 공포)"
+            "FearLabel": "최상급 브라보의 양조주 (Vs. Fear)"
           },
           "Lesser": {
-            "FearLabel": "하급 브라보의 양조주 (대 공포)"
+            "FearLabel": "하급 브라보의 양조주 (Vs. Fear)"
           },
           "Moderate": {
-            "FearLabel": "보통 브라보의 양조주 (공포에 대항)"
+            "FearLabel": "보통 브라보의 양조주 (Vs. Fear)"
           }
         },
         "BroadleafShield": {
@@ -5112,6 +5240,16 @@
         "DragonRoar": {
           "Label": "겁에 질린 생물에 대한 첫 번째 공격"
         },
+        "FiveGodsRam": {
+            "FailureNote": "당신은 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{기절 1} 상태가 됩니다..",
+            "FirstStrike": {
+                "Note": "당신은 즉시 목표를 10피트 뒤로 밀쳐낸다."
+            },
+            "RollOptionLabel": "오신(五神)의 램",
+            "SecondStrike": {
+                "Note": "당신은 즉시 대상을  @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{넘어뜨립}니다."
+            }
+        },
         "OneInchPunch": {
           "ThreeActionLabel": "1인치 펀치 (3 행동)",
           "TwoActionLabel": "1인치 펀치 (2액션)"
@@ -5516,6 +5654,9 @@
           },
           "WhisperingSteps": "주문의 대상이 될 적 하나를 선택합니다. 그 적이 내성을 갖지 못하거나 주문이 적을 명중시키면, 여러분은 그 생물의 마음속에 속삭임으로써, 선택한 방향으로 이동하도록 강요합니다; 이것은 강제 이동이기 때문에, 위험한 지형이나 벼랑 끝 등으로 이동하도록 강요할 수는 없습니다. 이동한 후에는, 그 생물은 24시간 동안 이 앰프에 일시적으로 면역이 됩니다."
         },
+        "Mindshift": {
+            "Addendum": "이 행동이 요구하는 모든 저항 검사를 @Check[will|against:occult] 저항 검사로 대체합니다."
+        },
         "OscillatingWave": {
           "AddEnergy": "에너지 추가",
           "ConservationOfEnergyLabel": "에너지 절약",
@@ -5593,6 +5734,10 @@
             "Label": "명장 사냥꾼",
             "Outwit": "당신의 숙련된 기술로 사냥감을 제압할 수 있습니다. 기만, 협박, 은신, 또는 사냥감에 대한 지식을 회상하는 데 사용하는 기술에 숙련도가 마스터인 경우, 해당 기술로 사냥감에 대한 상황 보너스가 +2에서 +4로 증가합니다. 갑옷에 숙련도가 마스터인 경우, 사냥감에 대한 AC의 상황 보너스가 +1에서 +2로 증가합니다.",
             "Precision": "무기 숙련도를 통해 사냥감의 중요한 부위를 여러 번 타격할 수 있습니다. 한 라운드에 사냥감을 두 번째로 타격할 때, 1d8의 정밀 피해를 추가로 입힙니다. 19레벨이 되면, 한 라운드에 사냥감을 두 번째로 타격할 때 2d8의 정밀 피해를 입히고, 세 번째로 타격할 때 1d8의 정밀 피해를 입힙니다."
+        },
+        "TheHarderTheyFall": {
+            "CriticalSuccess": "대성공 시, 대상은 @Damage[(ternary(gte(@actor.system.skills.athletics.rank,3),4,2))d8[bludgeoning]] 피해를 받습니다.",
+            "Success": "성공 시, 대상은 @Damage[(ternary(gte(@actor.system.skills.athletics.rank,3),2,1))d8[bludgeoning]] 피해를 받습니다."
         },
         "Vindicator": {
           "BenefitsAddendum": "사냥감에 대한 주문 공격 굴림에 +1 상태 보너스를 받고, 사냥감은 당신이 시전하는 신성 주문에 대한 내성 굴림에 -1 상태 페널티를 받습니다.",
@@ -5730,9 +5875,25 @@
         "Racket": {
           "Prompt": "라켓을 선택합니다."
         },
+        "TheHarderTheyFall": {
+            "CriticalSuccess": "대성공 시, 대상은 @Damage[1d6[bludgeoning],(((@actor.flags.pf2e.sneakAttackDamage.number)d(@actor.flags.pf2e.sneakAttackDamage.faces))[precision])[bludgeoning]]의 피해를 입습니다.",
+            "Success": "On a success, your target takes @Damage[1d6[bludgeoning]] damage."
+        },
         "TrainSkill": {
           "Prompt": "훈련할 스킬을 선택합니다."
         }
+      },
+      "Runelord": {
+          "School": {
+              "Envy": "질투",
+              "Gluttony": "폭식",
+              "Greed": "탐욕",
+              "Lust": "정욕",
+              "Pride": "오만",
+              "Prompt": "타실로니안 학파를 선택하세요",
+              "Sloth": "나태",
+              "Wrath": "분노"
+          }
       },
       "SaveCriticalFailureToFailure": {
         "FailureHalfDamage": {
@@ -6739,6 +6900,9 @@
       "WarriorOfLegend": {
         "CursedWeakness": {
           "Prompt": "저주받은 약점을 선택하세요."
+        },
+        "GriefsFury": {
+            "Toggle": "슬픔의 분노 — 대상이 당신의 결속된 파트너에게 입힌 피해"
         }
       },
       "Wayang": {

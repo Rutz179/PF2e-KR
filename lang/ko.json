@@ -86,7 +86,7 @@
           "HitPointsSingle": "{hitPoints}의 HP가 회복되었습니다.",
           "InfusedReagents": "주입된 시약이 복원되었습니다.",
           "Resolve": "결의가 회복되었습니다.",
-          "Resource": "{name} restored.",
+          "Resource": "{name}이 회복되었습니다.",
           "SpellSlots": "모든 주문 슬롯이 회복되었습니다.",
           "StaminaPoints": "스태미나 포인트가 회복되었습니다.",
           "TemporaryItems": "임시 아이템이 제거되었습니다.",
@@ -115,6 +115,7 @@
     "ActionsActionsHeader": "액션",
     "ActionsFreeActionsHeader": "프리 액션",
     "ActionsReactionsHeader": "리액션",
+    "ActionWithDC": "{label} (DC {dc})",
     "Actor": {
       "ApplyDamage": {
         "AtFullHealth": "<actor>{actor}</actor> 의 체력이 이미 최대 상태입니다.",
@@ -241,7 +242,7 @@
           "DivineIntercessions": "신성 개입",
           "GeneralHeader": "일반 특기",
           "MythicCallingPlaceholder": "신화적 소명",
-          "MythicCallingShort": "소",
+          "MythicCallingShort": "C",
           "MythicDestinyPlaceholder": "신화적 운명",
           "MythicHeader": "신화",
           "MythicFeatPlaceholder": "신화 특기",
@@ -312,6 +313,7 @@
           "DetailsPlaceholder": "주의 사항, 기타 특이한 사항",
           "Plural": "언어",
           "adlet": "고귀한",
+          "aishmayar": "아시마야",
           "akitonian": "아키토니안",
           "aklo": "아클로",
           "alghollthu": "알고투",
@@ -363,6 +365,7 @@
           "kaava": "카바",
           "kashrishi": "카쉬리시",
           "kelish": "켈리쉬",
+          "khattibi": "카티비",
           "kholo": "콜로",
           "kibwani": "키브와니",
           "kitsune": "키츠네",
@@ -378,9 +381,11 @@
           "mwangi": "므왕기",
           "mzunu": "음주누",
           "nagaji": "나가지",
+          "ninshaburian": "닌샤브리안",
           "necril": "네크릴",
           "ocotan": "오코탄",
           "okaiyan": "오카이얀",
+          "old-keleshite": "고대 켈레시테",
           "orcish": "오키쉬",
           "orvian": "오르비안",
           "osiriani": "오시리아니",
@@ -415,7 +420,9 @@
           "tekritanin": "테크리타닌",
           "tengu": "텐구",
           "thalassic": "탈라식",
-          "thassilonian": "태실로니안",
+          "thassilonian": "타실로니안",
+          "thokol": "토콜",
+          "tidespeech": "물결어",
           "tien": "티엔",
           "utopian": "유토피아",
           "vanara": "바나라",
@@ -565,6 +572,7 @@
       },
       "Speed": {
         "BaseLabel": "기본 {type} 속도",
+        "BaseWithSource": "{value}-Foot {type} Speed ({source})",
         "Plural": "속도",
         "Label": "속도",
         "LabelFeet": "속도(피트)",
@@ -578,6 +586,10 @@
         }
       },
       "NPC": {
+        "BonusLabel": {
+            "modifier": "Attack Modifier",
+            "save": "Save DC"
+        },
         "Configure": {
           "Lootable": {
             "DefaultLootable": "전역 기본값(루팅 가능)",
@@ -627,7 +639,7 @@
         "CheckPrompt": {
           "AdjustDifficulty": "난이도 조정",
           "ChooseLores": "지식 선택",
-          "ChooseSaves": "저항을 선택합니다.",
+          "ChooseSaves": "내성을 선택합니다.",
           "ChooseSkills": "기술/지각 선택",
           "LevelDC": "레벨 기반 DC",
           "Post": "프롬프트 생성",
@@ -684,7 +696,7 @@
           "Stash": "보관함"
         },
         "Total": "파티 합계",
-        "TravelHeader": "파티 여행 및 육각탐험",
+        "TravelHeader": "파티 여행 및 헥스타일 탐험",
         "Visibility": {
           "Restricted": "제한됨",
           "Unrestricted": "무제한"
@@ -740,7 +752,7 @@
       "Shape": {
         "burst": "폭발",
         "cone": "원뿔",
-        "cube": "정육면체",
+        "cube": "입방체",
         "cylinder": "원기둥",
         "emanation": "방출",
         "line": "선",
@@ -759,6 +771,7 @@
     "ArmorClassLabel": "아머 클래스",
     "ArmorClassShortLabel": "AC",
     "ArmorDexLabel": "민첩 수정치 캡",
+    "ArmorGreaterResilientRune": "내구성 (중급)",
     "ArmorGroupChain": "체인",
     "ArmorGroupCloth": "천",
     "ArmorGroupComposite": "합성",
@@ -766,74 +779,73 @@
     "ArmorGroupLeather": "가죽",
     "ArmorGroupPlate": "플레이트",
     "ArmorGroupSkeletal": "스켈레탈",
-    "ArmorGroupWood": "목재",    
-    "ArmorResilientRune": "내구성",
-    "ArmorGreaterResilientRune": "내구성 (중급)",
-    "ArmorMajorResilientRune": "내구성 (상급)",
+    "ArmorGroupWood": "목재",
+    "ArmorMajorResilientRune": "내구성 (상급)",    
     "ArmorMythicResilientRune": "내구성 (신화적)",
     "ArmorPotencyRune1": "방어력 강화(+1)",
     "ArmorPotencyRune2": "방어력 강화(+2)",
     "ArmorPotencyRune3": "방어력 강화(+3)",
     "ArmorPotencyRune4": "방어력 강화(+4)",
     "ArmorPropertyRuneAcidResistant": "저항_산성",
-    "ArmorPropertyRuneColdResistant": "저항_냉기",
-    "ArmorPropertyRuneFireResistant": "저항_화염",
-    "ArmorPropertyRuneElectricityResistant": "저항_전기",
-    "ArmorPropertyRuneGreaterAcidResistant": "저항_산성 (중급)",
-    "ArmorPropertyRuneGreaterFireResistant": "저항_화염 (중급)",
-    "ArmorPropertyRuneGreaterColdResistant": "저항_냉기 (중급)",
-    "ArmorPropertyRuneGreaterElectricityResistant": "저항_전기 (중급)",
-    "ArmorPropertyRuneQuenching": "담금질",    
-    "ArmorPropertyRuneGreaterQuenching": "담금질 (중급)",
-    "ArmorPropertyRuneMajorQuenching": "담금질 (상급)",
-    "ArmorPropertyRuneTrueQuenching": "담금질 (최상급)",
     "ArmorPropertyRuneAdvancing": "전진",
-    "ArmorPropertyRuneGreaterAdvancing": "전진 (중급)",
-    "ArmorPropertyRuneFortification": "요새화",
-    "ArmorPropertyRuneGreaterFortification": "요새화 (중급)",
-    "ArmorPropertyRuneInvisibility": "투명",
-    "ArmorPropertyRuneGreaterInvisibility": "투명 (중급)",
-    "ArmorPropertyRuneLesserDread": "공포 (하급)",    
-    "ArmorPropertyRuneModerateDread": "공포 (보통)",
-    "ArmorPropertyRuneGreaterDread": "공포 (중급)",
-    "ArmorPropertyRuneReady": "준비",
-    "ArmorPropertyRuneGreaterReady": "준비 (중급)",
-    "ArmorPropertyRuneShadow": "그림자",
-    "ArmorPropertyRuneGreaterShadow": "그림자 (중급)", 
-    "ArmorPropertyRuneMajorShadow": "그림자 (상급)",
-    "ArmorPropertyRuneSlick": "매끄러운",
-    "ArmorPropertyRuneGreaterSlick": "매끄러운 (중급)",    
-    "ArmorPropertyRuneMajorSlick": "매끄러운 (상급)",
-    "ArmorPropertyRuneStanching": "봉합",
-    "ArmorPropertyRuneGreaterStanching": "봉합 (중급)",   
-    "ArmorPropertyRuneMajorStanching": "봉합 (상급)",    
-    "ArmorPropertyRuneTrueStanching": "봉합 (최상급)",
-    "ArmorPropertyRuneSwallowSpike": "가시",
-    "ArmorPropertyRuneGreaterSwallowSpike": "가시 (중급)",
-    "ArmorPropertyRuneMajorSwallowSpike": "가시 (상급)",
-    "ArmorPropertyRuneWinged": "날개",
-    "ArmorPropertyRuneGreaterWinged": "날개 (중급)",
-    "ArmorPropertyRuneImmovable": "고정",
-    "ArmorPropertyRuneImplacable": "탈출",
-    "ArmorPropertyRuneMagnetizing": "자기화",
-    "ArmorPropertyRuneMalleable": "가단성",
-    "ArmorPropertyRuneMisleading": "환영",
-    "ArmorPropertyRunePortable": "휴대",
     "ArmorPropertyRuneAimAiding": "조준 보조",
     "ArmorPropertyRuneAntimagic": "안티매직",
     "ArmorPropertyRuneAssisting": "지원",
     "ArmorPropertyRuneBitter": "씁쓸한",
-    "ArmorPropertyRuneDeathless": "불멸",    
+    "ArmorPropertyRuneColdResistant": "저항_냉기",
+    "ArmorPropertyRuneDeathless": "불멸",  
+    "ArmorPropertyRuneElectricityResistant": "저항_전기",
     "ArmorPropertyRuneEnergyAdaptive": "에너지 적응",
     "ArmorPropertyRuneEthereal": "이계",
+    "ArmorPropertyRuneFireResistant": "저항_화염",
+    "ArmorPropertyRuneFortification": "요새화",
+    "ArmorPropertyRuneGlamered": "의복(레거시)",  
     "ArmorPropertyRuneGliding": "활강", 
-    "ArmorPropertyRuneGlamered": "의복(레거시)",    
+    "ArmorPropertyRuneGreaterAcidResistant": "저항_산성 (중급)",
+    "ArmorPropertyRuneGreaterAdvancing": "전진 (중급)",
+    "ArmorPropertyRuneGreaterColdResistant": "저항_냉기 (중급)",
+    "ArmorPropertyRuneGreaterDread": "공포 (중급)",
+    "ArmorPropertyRuneGreaterElectricityResistant": "저항_전기 (중급)",
+    "ArmorPropertyRuneGreaterFireResistant": "저항_화염 (중급)",
+    "ArmorPropertyRuneGreaterFortification": "요새화 (중급)",
+    "ArmorPropertyRuneGreaterInvisibility": "투명 (중급)",
+    "ArmorPropertyRuneGreaterQuenching": "담금질 (중급)",
+    "ArmorPropertyRuneGreaterReady": "준비 (중급)",
+    "ArmorPropertyRuneGreaterShadow": "그림자 (중급)", 
+    "ArmorPropertyRuneGreaterSlick": "매끄러운 (중급)",   
+    "ArmorPropertyRuneGreaterStanching": "봉합 (중급)",   
+    "ArmorPropertyRuneGreaterSwallowSpike": "가시 (중급)",
+    "ArmorPropertyRuneGreaterWinged": "날개 (중급)",
+    "ArmorPropertyRuneImmovable": "고정",
+    "ArmorPropertyRuneImplacable": "탈출",
+    "ArmorPropertyRuneInvisibility": "투명",
+    "ArmorPropertyRuneLesserDread": "공포 (하급)",    
+    "ArmorPropertyRuneMagnetizing": "자기화",
+    "ArmorPropertyRuneMajorQuenching": "담금질 (상급)",
+    "ArmorPropertyRuneMajorShadow": "그림자 (상급)",
+    "ArmorPropertyRuneMajorSlick": "매끄러운 (상급)",
+    "ArmorPropertyRuneMajorStanching": "봉합 (상급)",    
+    "ArmorPropertyRuneMajorSwallowSpike": "가시 (상급)",
+    "ArmorPropertyRuneMalleable": "가단성",
+    "ArmorPropertyRuneMisleading": "환영",
+    "ArmorPropertyRuneModerateDread": "공포 (보통)",
+    "ArmorPropertyRunePortable": "휴대",
+    "ArmorPropertyRuneQuenching": "담금질",
     "ArmorPropertyRuneRaiment": "의복",
+    "ArmorPropertyRuneReady": "준비",
     "ArmorPropertyRuneRockBraced": "바위 보호",
+    "ArmorPropertyRuneShadow": "그림자",
     "ArmorPropertyRuneSinisterKnight": "사악한 기사",
     "ArmorPropertyRuneSizeChanging": "신축성",
+    "ArmorPropertyRuneSlick": "매끄러운",
     "ArmorPropertyRuneSoaring": "급증",
-
+    "ArmorPropertyRuneSpellwatch": "주문보호",
+    "ArmorPropertyRuneStanching": "봉합",
+    "ArmorPropertyRuneSwallowSpike": "가시",
+    "ArmorPropertyRuneTrueQuenching": "담금질 (최상급)",    
+    "ArmorPropertyRuneTrueStanching": "봉합 (최상급)",
+    "ArmorPropertyRuneWinged": "날개",
+    "ArmorResilientRune": "내구성",    
     "ArmorSpeedLabel": "속도 페널티",
     "ArmorStrengthLabel": "근력 요구 조건",
     "ArmorTypeHeavy": "중갑옷",
@@ -911,17 +923,6 @@
       "worn-in-slot": "착용(슬롯 내)"
     },
     "CastLabel": "캐스트",
-    "CastingItemCreateDialog": {
-      "10thLevelWand": "10레벨 완드는 존재하지 않습니다",
-      "cantripDeck5": "캔트립 덱(5팩)",
-      "itemTypeLabel": "아이템 유형: ",
-      "label": "떨어뜨린 주문으로 주문 시전 아이템 만들기",
-      "scroll": "스크롤",
-      "spellLevelLabel": "계급 상승: ",
-      "submit": "아이템 만들기",
-      "title": "주문 시전 아이템 생성",
-      "wand": "완드"
-    },
     "Category": "카테고리",
     "CharacterDetails": "캐릭터 세부 정보",
     "CharacterLevelLabel": "레벨",
@@ -1048,10 +1049,13 @@
         "SourcesLabel": "출처",
         "Title": "컴펜디엄 브라우저 설정"
       },
-      "TabAction": "액션",
+      "TabAbilities": "능력",
       "TabBestiary": "괴물 도감",
       "TabCampaign": "캠페인",
+      "TabEquipment": "장비",
       "TabFeat": "재주/특징",
+      "TabHazard": "함정",
+      "TabSpell": "주문",
       "TakeLabel": "아이템 가져오기",
       "Title": "컴펜디엄 브라우저",
       "TraitsComponent": {
@@ -1083,7 +1087,7 @@
       "ValueLabel": "가치"
     },
     "ConditionTypeBlinded": "실명",
-    "ConditionTypeBroken": "부러진",
+    "ConditionTypeBroken": "부서진",
     "ConditionTypeClumsy": "서투른",
     "ConditionTypeConcealed": "가려진",
     "ConditionTypeConfused": "혼란",
@@ -1156,12 +1160,12 @@
       "CraftQuantityTitle": "수량",
       "ExpendFormula": "지출 공식",
       "NoEligibleEntry": "적격 제작 항목을 찾을 수 없습니다.",
-      "RemoveFormulaDialogQuestion": "{name}에 대한 수식을 제거하시겠습니까?",
+      "RemoveFormulaDialogQuestion": "{name}에 대한 공식을 제거하시겠습니까?",
       "RemoveFormulaDialogTitle": "공식 제거",
       "ToggleQuickAlchemy": "빠른 연금술",
       "UndeletableTooltip": "이 제작 공식은 다른 아이템의 일부이므로 개별적으로 삭제할 수 없습니다.",
-      "UnprepareFormulaDialogQuestion": "{name}에 대한 수식 준비를 취소하시겠습니까?",
-      "UnprepareFormulaDialogTitle": "수식 준비 해제"
+      "UnprepareFormulaDialogQuestion": "{name}에 대한 공식 준비를 취소하시겠습니까?",
+      "UnprepareFormulaDialogTitle": "공식 준비 해제"
     },
     "CreateActionTitle": "액션 만들기",
     "CreateAttackTitle": "공격 생성",
@@ -1180,7 +1184,8 @@
       "cp": "cp",
       "gp": "gp",
       "pp": "pp",
-      "sp": "sp"
+      "sp": "sp",
+      "credits": "크레딧"
     },
     "CurrencyCP": "동화",
     "CurrencyGP": "금화",
@@ -1381,7 +1386,7 @@
         "precision": "정밀",
         "slashing": "베기",
         "sonic": "음파",
-        "spirit": "스피릿",
+        "spirit": "영혼",
         "splash": "방사",
         "vitality": "활력",
         "void": "공허",
@@ -1626,7 +1631,8 @@
       "pointLabel": "포인트"
     },
     "Foot": {
-      "Label": "걸음",
+      "Abbreviation": "ft",
+      "Label": "foot",
       "Plural": "피트",
       "Preformatted": {
         "5": "5피트",
@@ -1635,9 +1641,9 @@
         "20": "20피트",
         "25": "25피트",
         "30": "30피트",
-        "40": "40 feet",
-        "50": "50 feet",
-        "60": "60 feet"
+        "40": "40피트",
+        "50": "50피트",
+        "60": "60피트"
       }
     },
     "FormulaKnownTitle": "알려진 공식",
@@ -1761,7 +1767,10 @@
         "Envision": "상상하다",
         "EnvisionSheetLabel": "상상하다",
         "Interact": "상호 작용",
-        "Label": "활성화"
+        "Label": "활성화",
+        "Warning": {
+                    "ItemDoesNotExist": "Item to activate does not exist"
+                }
       },
       "Affliction": {
         "AddStage": "스테이지 추가",
@@ -1780,6 +1789,17 @@
       },
       "Ancestry": {
         "DropFeatures": "조상 재주를 이곳에 두십시오.",
+        "FIELDS": {
+            "hands": {
+                "label": "Hands"
+            },
+            "reach": {
+                "label": "Reach"
+            },
+            "speed": {
+                "label": "Speed"
+            }
+        },
         "Plural": "조상들",
         "Vision": {
           "Label": "시야",
@@ -1963,6 +1983,10 @@
           "wand": "완드"
         },
         "Plural": "소모품",
+        "Spell": {
+                    "Empty": "Empty",
+                    "Label": "Embedded Spell"
+                },
         "Uses": {
           "AutoDestroy": "사용 시 파괴",
           "Label": "용도",
@@ -2635,6 +2659,7 @@
       "Rules": {
         "Apply": "적용",
         "Close": "닫기",
+        "CopyToClipboard": "Copy to Clipboard",
         "Edit": "JSON 편집",
         "Hint": {
           "Slug": "안정적이고 사람이 읽을 수 있는 식별자: 설정된 경우 아이템 이름이 바뀌더라도 그대로 유지됩니다.",
@@ -2687,7 +2712,10 @@
       "Spell": {
         "Area": "{size}-{unit} {shape}",
         "BaseValue": "Base: {value}",
-        "Cast": "캐스트",
+        "Cast": {
+            "Noun": "캐스트",
+            "Verb": "캐스트"
+        },
         "Cost": "비용",
         "Counteract": {
           "Hint": "고통에 대응하는 경우, DC는 고통의 능력치 블록에 있습니다. 주문인 경우, 시전자의 DC를 사용합니다. GM은 대상 효과의 레벨에 따라 DC를 계산할 수도 있습니다.",
@@ -2702,7 +2730,7 @@
           "BasicSave": "기본",
           "Label": "방어"
         },
-        "Heightening": "Heightening",
+        "Heightening": "강화",
         "LevelN": "주문 {level}",
         "LineSplit": ";",
         "MeasuredTemplate": {
@@ -2834,6 +2862,23 @@
     "ItemNotSupportedOnActor": "액터에서 지원되지 않는 아이템",
     "ItemRemoveRuleElement": "규칙 요소 제거",
     "ItemTitle": "아이템",
+    "ItemTransferDialog": {
+        "Button": {
+            "gift": "Give",
+            "move": "Transfer",
+            "purchase": "Purchase"
+        },
+        "Prompt": {
+            "gift": "Give this item to {actor}?",
+            "move": "Transfer this item to {actor}?",
+            "purchase": "Does {actor} wish to purchase this item?"
+        },
+        "Title": {
+            "gift": "Give {item}",
+            "move": "Transfer {item}",
+            "purchase": "Purchase {item}"
+        }
+    },
     "ItemsLabel": "아이템",
     "Keybinding": {
       "CycleTokenStack": {
@@ -3111,7 +3156,6 @@
     "NPCNotesTitle": "이 NPC에 대한 메모를 여기에 적습니다.",
     "NPCWeaponAddDamage": "부분 피해 추가",
     "NPCWeaponAttackEffect": "추가 공격 효과",
-    "NPCWeaponAttackLabel": "공격 수정치",
     "NPCWeaponDamageLabel": "피해 공식",
     "Nationality": "국적",
     "NewLabel": "신규",
@@ -3236,6 +3280,7 @@
     "PreciousMaterialWarpglassDescription": "이 기괴한 물질은 소용돌이의 날것과 혼돈의 정수로 만들어집니다. 무기와 아이템으로 제작할 수는 있지만, 너무 불안정하여 방어구나 방패로 사용하기는 어렵습니다. 원시 워프글라스는 놀라운 근력을 지닌 유백색의 유리 같은 재료입니다. 가공하면 외형은 변하지만 속성은 변하지 않으며, 다른 금속과 돌의 무작위 줄무늬로 나타납니다.",
     "PreparationTypeInnate": "내재된",
     "PreparationTypeItems": "아이템 전용",
+    "PreparationTypeFocus": "포커스",
     "PreparationTypePrepared": "준비됨",
     "PreparationTypeSpontaneous": "자발적",
     "Prerequisite1": "전제 조건 1",
@@ -3298,6 +3343,10 @@
       "success": "죽어감 수치를 1만큼 감소시킵니다."
     },
     "Region": {
+      "DifficultTerrain": {
+          "DifficultTerrain": "어려운 지형",
+          "GreaterDifficultTerrain": "매우 어려운 지형"
+      },
       "Environment": {
         "Mode": {
           "Add": {
@@ -3440,6 +3489,14 @@
           "Name": "전리품 획득 가능 NPC"
         },
         "Name": "자동화",
+        "ReachEnforcement": {
+            "corpses": "Corpses",
+            "doors": "Doors",
+            "Hint": "Enforce reach when players attempt to interact with certain objects on the canvas.",
+            "loot": "Loot",
+            "merchants": "Traders",
+            "Name": "Reach Enforcement"
+        },
         "RemoveExpiredEffects": {
           "Hint": "만료된 효과는 액터에서 자동으로 제거됩니다(GM이 로그인해야 합니다).",
           "Name": "만료된 효과 제거"
@@ -3714,9 +3771,17 @@
         },
         "Name": "변형 규칙",
         "Proficiency": {
-          "Hint": "GM 핵심 85페이지에서 레벨 변형 없이 숙련도 없이 플레이하세요.",
-          "ModifiersHint": "각 숙련도 등급에 대한 수정치 값을 설정합니다.",
-          "Name": "레벨 없는 숙련도"
+          "Hint": "GM 코어 85페이지의 ‘레벨 없이 숙련도 사용’ 변형을 적용합니다. 활성화 시 대체 숙련도 보너스도 설정할 수 있습니다(GM 코어 권장값 적용).",
+          "Legend": "레벨 없는 숙련도",
+          "ModifiersHint": "각 숙련도 등급에 대한 수정자 값 설정 (레벨이 없는 숙련도만 해당)",
+          "Name": "Enabled",
+          "Rank": {
+              "Expert": "E",
+              "Legendary": "L",
+              "Master": "M",
+              "Trained": "T",
+              "Untrained": "U"
+          }
         },
         "Stamina": {
           "Hint": "게임 마스터리 가이드 200페이지의 스테미나 변형으로 플레이하세요.",
@@ -3893,6 +3958,14 @@
     "SpellTraditionsLabel": "전통",
     "SpellUnlimitedLabel": "무제한",
     "SpellUsesLabel": "용도",
+    "SpellcastingItemCreator": {
+        "CantripDeck5": "Cantrip Deck (5-pack)",
+        "ItemType": "Item type",
+        "Label": "Create an item from {name}",
+        "NoValidRanks": "No Valid Ranks",
+        "Title": "Creating Spellcasting Item",
+        "ViewItem": "View Item"
+    },
     "SpellcastingSettings": {
       "AutoHeightenDefault": "기본값(액터 레벨 사용)",
       "AutoHeightenLabel": "자동 등급 강화",
@@ -3985,6 +4058,11 @@
       "Appearance": "모양",
       "Distance": "거리: {distance}ft",
       "Flanking": "측면",
+      "Mystified": {
+          "TheCreature": "The creature",
+          "TheObject": "The object"
+      },
+      "OutOfReach": "{token} is out of reach.",
       "SecretDisposition": {
         "Label": "비밀 처리",
         "Hint": "'비밀' 처리를 활성화하면 소유자에게는 보라색 테두리가 표시되고 다른 모든 사용자에게는 테두리나 커서 변경이 표시되지 않습니다."
@@ -4001,6 +4079,60 @@
     "TotalCoinage": "총 주화",
     "TotalTreasure": "총 보물",
     "TotalWealth": "총 자산",
+    "TradeDialog": {
+        "Aborted": "{user} has ended the trade: no items were exchanged.",
+        "Acceptance": {
+            "Accepted": "{user} has accepted your offer.",
+            "Accept": "Accept Offer",
+            "NotAccepted": "{user} has not accepted your offer.",
+            "Rescind": "Rescind Acceptance"
+        },
+        "Error": {
+            "Engaged": "{user} is currently engaged in a trade.",
+            "LoggedOut": "Ending trade: {user} is no longer logged in.",
+            "NotTrading": "Ending trade: {user} is not longer trading.",
+            "OutOfReach": "{self} and {trader} are not in reach of each other.",
+            "SelectToken": "Select exactly one token associated with a PC or NPC to represent you in a trade.",
+            "Timeout": "Ending trade: there was no response from {user} after {timeout} seconds",
+            "Unavailable": "Ending trade: {user} has become unavailable."
+        },
+        "Gift": {
+            "Accepted": "{trader} has received your item.",
+            "Declined": "{trader} has declined your item.",
+            "Prompt": {
+                "Content": "{trader} ({user}) would like to give {quantity}x {item} to {self}.",
+                "Title": "Receive Item(s)?"
+            },
+            "Received": "{self} has received the item from {trader}."
+        },
+        "ImgAlt": {
+            "Actor": "Portrait of {actor}, representing {user}",
+            "Item": "Icon for {item}"
+        },
+        "Quantity": {
+            "Decrement": "Decrement Item Quantity",
+            "Increment": "Increment Item Quantity",
+            "Label": "Quantity of {item}"
+        },
+        "Receiving": "Receiving: {list}",
+        "Request": {
+            "Declined": "{trader} ({user}) has declined your request to trade.",
+            "Requesting": "Requesting to trade with {trader} ...",
+            "Prompt": {
+                "Content": "{trader} ({user}) would like to trade with {self}.",
+                "Title": "Trade with {trader}?"
+            },
+            "MenuLabel": "Request Trade",
+            "Timeout": "There was no response from {user} to your trade request after 30 seconds."
+        },
+        "Sending": "Sending: {list}",
+        "Success": {
+            "Finished": "{self} has finished trading with {trader}.",
+            "NoItems": "The trade has concluded, but no items were exchanged."
+        },
+        "Title": "Trading With {trader}",
+        "You": "You"
+    },
     "TrainedSkillsLabel": "훈련된 기술",
     "TraitAberration": "변형",
     "TraitAcid": "산",
@@ -4090,6 +4222,7 @@
     "TraitArchetype": "아키타입",
     "TraitArchon": "아콘",
     "TraitArdande": "아르단드",
+    "TraitArea": "Area",
     "TraitAreaDamage": "면적 피해",
     "TraitArtifact": "아티팩트",
     "TraitAstral": "아스트랄",
@@ -4622,6 +4755,7 @@
     "TraitDescriptionTethered": "이 무기는 긴 밧줄이나 사슬에 연결되어 있어 무기가 손에서 떨어졌을 때 되찾을 수 있습니다. 이 무기를 휘두르는 동안 한 손이 자유롭다면, 원거리 공격으로 무기를 던진 후 또는 무기가 해제된 후 (다른 생물이 들고 있지 않는 한) 상호작용 액션을 사용하여 무기를 다시 잡을 수 있습니다.",
     "TraitDescriptionThaumaturge": "이것은 쏘마터지 클래스의 능력을 나타냅니다.",
     "TraitDescriptionThrown": "이 무기는 원거리 공격으로 던질 수 있습니다. 던진 무기는 근접 무기와 마찬가지로 공격력에 근력 수정치가 추가됩니다. 이 특성이 근접 무기에 나타나면 사거리 증가 효과도 포함됩니다.",
+    "TraitDescriptionTime": "시간 생물은 시간 차원의 원주민이다. 그들은 늙지 않으며, 초자연적인 갈망에 사로잡힌 개체도 있지만 생존을 위해 먹거나 마실 필요가 없다. 그들은 시간 차원의 기본적인 환경적 영향 속에서도 생존할 수 있다.",
     "TraitDescriptionTitan": "타이탄은 신에 가까운 힘을 지닌 거대한 원시적 생물로, 인간 종족보다 훨씬 오래 전에 존재해 왔습니다.",
     "TraitDescriptionTraining": "훈련 무기는 동물이 공격할 대상을 식별하여 전투에 참여하도록 훈련시킬 때 사용합니다. 훈련 무기로 생물을 공격하면 동반자 또는 반려 동물이 해당 대상에 대한 다음 공격 굴림에 +1 상황 보너스를 받습니다.",
     "TraitDescriptionTranscendence": "초월은 모범의 신성한 불꽃의 힘을 그들의 아이콘 중 하나를 통해 전달하여 인간을 초월하고 기적적인 행위를 수행합니다. 각 아이콘은 ‘초월’ 특성을 가진 행동을 가지고 있으며, 이를 사용하는 것을 '스파크 초월'이라고 합니다. 이 행동을 사용하려면, 신성한 불꽃이 그 아이콘에 힘을 부여하고 있어야 하며, 아이콘을 사용할 준비가 되어 있어야 합니다(일반적으로 무기 아이콘을 들고 있거나 착용한 아이콘을 착용하고 있어야 함). 초월을 발동한 직후, 신성한 불꽃이 그 아이콘에서 강제로 배출되어, 당신이 선택한 다른 아이콘에 머무르게 됩니다. 초월은 라운드당 한 번만 발동할 수 있습니다. 신성한 불꽃에서 발동된 초월 행동은 신성한 특성을 가지고 있습니다.",
@@ -5066,6 +5200,9 @@
     "TraitReload1Min": "재장전 1분",
     "TraitReload2": "재장전 2",
     "TraitRepeating": "리피팅",
+    "TraitResilient1": "Resilient +1",
+    "TraitResilient2": "Resilient +2",
+    "TraitResilient3": "Resilient +3",
     "TraitResonant": "공명",
     "TraitRevelation": "리벨리온",
     "TraitRogue": "로그",
@@ -5368,6 +5505,11 @@
       }
     },
     "ValueLabel": "가치",
+    "Wall": {
+        "Door": {
+            "OutOfReach": "The door is out of reach."
+        }
+    },
     "WeaknessesLabel": "약점",
     "Weapon": {
       "Base": {
@@ -6226,6 +6368,10 @@
         "rules": "<p>일반적으로 다른 사람이 명령을 받거나 마법에 의해 지배당하기 때문에 다른 사람이 대신 결정을 내립니다. 컨트롤러는 플레이어의 행동 방식을 지시하고 공격, 리액션 또는 지연을 포함한 모든 액션을 사용하도록 할 수 있습니다. 컨트롤러는 일반적으로 플레이어를 조종할 때 자신의 액션을 사용할 필요가 없습니다.</p>",
         "summary": "다른 생물이 당신의 액션을 결정합니다."
       },
+      "cursebound": {
+          "name": "저주에 묶인",
+          "rules": "<p>신비한 힘에 지나치게 깊이 의존한 대가로 신의 벌을 받으며, 오라클의 저주가 당신을 조여오고 있습니다. 저주에 묶임은 오직 오라클의 저주를 지닌 존재에게만 영향을 미치는 상태이며, 항상 수치를 동반합니다. 당신의 특정 오라클의 저주는 저주에 묶임 수치에 따라 고유한 부정적 효과를 가합니다. 재집중을 통해서만 저주에 묶임 상태를 해제할 수 있습니다.</p>"
+      },
       "dazzled": {
         "name": "눈부신",
         "rules": "<p>당신의 눈은 과도하게 자극받습니다. 시각이 당신의 유일한 정확한 감각이라면 모든 생물과 사물은 당신에게 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진} 상태 입니다.</p>",
@@ -6471,9 +6617,7 @@
       "DepositSubtitle": "보관 아이템",
       "EditLootLabel": "전리품을 구성하시겠습니까?",
       "GMSupervisionError": "{loot}과 상호작용하려면 GM이 온라인 상태여야 합니다.",
-      "Give": "Give",
       "GiveMessage": "{giver}는 {recipient}에게 {quantity} × {item}을(를) 제공합니다.",
-      "GiveSubtitle": "아이템 제공",
       "HiddenWhenEmpty": {
         "Hint": "인벤토리가 비어 있으면 이 액터의 토큰을 숨깁니다.",
         "Label": "비어있을 때 숨겨진"
@@ -6491,14 +6635,11 @@
       "MerchantDescription": "플레이어가 시트에서 직접 아이템을 구매할 수 있습니다.",
       "MerchantLabel": "판매자",
       "MoveLoot": "아이템 이동",
-      "MoveLootMessage": "몇 개의 아이템을 이동하시겠습니까?",
       "MoveLootPopupTitle": "아이템 수량",
       "PartyStash": "파티 보관함",
       "PermissionError": "아이템을 약탈하거나 보관하려면 GM이 온라인 상태여야 합니다.",
       "PlantMessage": "{planter}는 {corpse}에 {quantity} × {item}을(를) 넣었습니다.",
       "PlantSubtitle": "아이템 넣기",
-      "Purchase": "구매",
-      "PurchaseLootPrompt": "{buyer}님이 이 아이템을 구매하시겠습니까?",
       "PurchasePrice": "구매 가격",
       "Quantity": "수량",
       "SellMessage": "{seller}가 {buyer}에게 {quantity} × {item}을 판매합니다.",
@@ -6551,6 +6692,30 @@
   "SIDEBAR": {
     "TabCombat": "인카운터 추적기"
   },
+  "TOKEN": {
+      "MOVEMENT": {
+          "ACTIONS": {
+              "deploy": {
+                  "label": "Deploy"
+              },
+              "drive": {
+                  "label": "Drive"
+              },
+              "jump": {
+                  "label": "Leap"
+              },
+              "travel": {
+                  "label": "Travel"
+              },
+              "walk": {
+                  "label": "Stride"
+              },
+              "blink": {
+                  "label": "Teleport"
+              }
+          }
+      }
+  },
   "TYPES": {
     "Actor": {
       "army": "군대",
@@ -6588,6 +6753,9 @@
       "spellcastingEntry": "주문 시전 항목",
       "treasure": "보물",
       "weapon": "무기"
+    },
+    "RegionBehavior": {
+        "modifyMovementCost": "Difficult Terrain"
     }
   }
 }
