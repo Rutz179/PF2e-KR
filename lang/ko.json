@@ -231,6 +231,8 @@
           "Search": "제작식 검색"
         },
         "CreateFeat": "재주 만들기",
+        "EmptyLabel": "Empty",
+        "EmptyMultipleLabel": "{value} Empty",
         "FeatSlot": {
           "AncestryHeader": "족보 특기",
           "AncestryFeaturesHeader": "족보 특성",
@@ -1180,17 +1182,23 @@
     "CriticalDamageLabel": "크리티컬",
     "CriticalFumbleCardButtonTitle": "크리티컬 펌블 카드 드로우",
     "CriticalHitCardButtonTitle": "크리티컬 카드 드로우",
+    "CurrencyLabel": "통화",
     "CurrencyAbbreviations": {
       "cp": "cp",
       "gp": "gp",
       "pp": "pp",
       "sp": "sp",
-      "credits": "크레딧"
+      "credits": "크레딧",
+      "upb": "upb"
     },
-    "CurrencyCP": "동화",
-    "CurrencyGP": "금화",
-    "CurrencyPP": "백금화",
-    "CurrencySP": "은화",
+    "Currency": {
+      "cp": "동화",
+      "credits": "크레딧",
+      "gp": "금화",
+      "pp": "백금화",
+      "sp": "은화",
+      "upb": "UPB"
+    },
     "CurrentHitPointsShortLabel": "현재 HP",
     "CurrentStaminaPointsShortLabel": "현재 SP",
     "DCAdjustmentEasy": "쉬운",
@@ -1229,6 +1237,7 @@
         "Type": {
           "abysium": "어비슘",
           "adamantine": "아다만틴",
+          "aging": "노화",
           "alchemical": "연금술",
           "all-damage": "모든 데미지",
           "arcane": "주문학",
@@ -1292,6 +1301,7 @@
           "olfactory": "후각",
           "orichalcum": "오리칼쿰",
           "paralyzed": "마비",
+          "peachwood": "복숭아나무",
           "persistent-damage": "지속 대미지",
           "petrified": "석화",
           "physical": "물리적",
@@ -1299,6 +1309,7 @@
           "polymorph": "폴리모프",
           "possession": "소유",
           "primal": "프라이멀",
+          "prediction": "예측",
           "prone": "엎드린",
           "protean-anatomy": "프로테안 해부학",
           "radiation": "방사(빛)",
@@ -1579,6 +1590,7 @@
       "CantImportTooHighVersion": "{sourceName}을(를) 가져올 수 없습니다: 해당 스키마 버전({sourceSchemaVersion})이 이 월드의 버전({worldSchemaVersion})보다 높습니다.",
       "CantMoveItemDestination": "이 캐릭터에게는 아이템을 이동할 수 없습니다.",
       "CantMoveItemSource": "이 캐릭터의 아이템은 이동할 수 없습니다.",
+      "CantPurchaseContainerWithItems": "물품이 들어 있는 컨테이너는 구매할 수 없습니다.",
       "ItemNotFoundByUUID": "UUID가 \"{uuid}\"인 항목을 찾을 수 없습니다.",
       "MinimumProfLevelSetByFeatures": "선택한 숙련도는 특징별로 설정된 숙련도보다 낮습니다.",
       "NoCreatureTokenSelected": "생물과 관련된 토큰을 하나 이상 선택합니다.",
@@ -1787,17 +1799,109 @@
         "Stage": "스테이지 {stage}",
         "StageLabel": "스테이지"
       },
+      "Ammo": {
+          "FIELDS": {
+              "baseItem": {
+                  "label": "탄약 종류"
+              },
+              "craftableAs": {
+                  "label": "제작 가능",
+                  "hint": "이 아이템으로 제작 가능한 탄약 종류. 빈 경우, 탄창이 아닌 모든 탄약을 제작할 수 있습니다."
+              }
+          },
+          "Base": {
+              "8-round-magazine": "8-Round Magazine",
+              "arrows": "Arrows",
+              "backpack-ballista-bolts": "Backpack Ballista Bolts",
+              "backpack-catapult-stones": "Backpack Catapult Stones",
+              "battery": "Battery",
+              "blowgun-darts": "Blowgun Darts",
+              "bolts": "Bolts",
+              "chem-tank": "Chem Tank",
+              "cutlery": "Cutlery",
+              "magazine": "Magazine",
+              "magazine-with-6-pellets": "Magazine with 6 Pellets",
+              "magazine-with-8-pellets": "Magazine with 8 Pellets",
+              "projectile-ammo": "Projectile Ammo",
+              "repeating-crossbow-magazine": "Repeating Crossbow Magazine",
+              "repeating-hand-crossbow-magazine": "Repeating Hand Crossbow Magazine",
+              "repeating-heavy-crossbow-magazine": "Repeating Heavy Crossbow Magazine",
+              "rounds-alicorn-trigger": "Rounds (Alicorn Trigger)",
+              "rounds-arquebus": "Rounds (Arquebus)",
+              "rounds-axe-musket": "Rounds (Axe Musket)",
+              "rounds-black-powder-knuckle-dusters": "Rounds (Black Powder Knuckle Dusters)",
+              "rounds-blunderbuss": "Rounds (Blunderbuss)",
+              "rounds-breath-blaster": "Rounds (Breath Blaster)",
+              "rounds-cane-pistol": "Rounds (Cane Pistol)",
+              "rounds-clan-pistol": "Rounds (Clan Pistol)",
+              "rounds-coat-pistol": "Rounds (Coat Pistol)",
+              "rounds-dagger-pistol": "Rounds (Dagger Pistol)",
+              "rounds-double-barreled-musket": "Rounds (Double-Barreled Musket)",
+              "rounds-double-barreled-pistol": "Rounds (Double-Barreled Pistol)",
+              "rounds-dragon-mouth-pistol": "Rounds (Dragon Mouth Pistol)",
+              "rounds-drake-rifle": "Rounds (Drake Rifle)",
+              "rounds-dueling-pistol": "Rounds (Dueling Pistol)",
+              "rounds-dwarven-scattergun": "Rounds (Dwarven Scattergun)",
+              "rounds-explosive-dogslicer": "Rounds (Explosive Dogslicer)",
+              "rounds-fire-lance": "Rounds (Fire Lance)",
+              "rounds-flingflenser": "Rounds (Flingflenser)",
+              "rounds-flintlock-musket": "Rounds (Flintlock Musket)",
+              "rounds-flintlock-pistol": "Rounds (Flintlock Pistol)",
+              "rounds-fulmination-fang": "Rounds (Fulmination Fang)",
+              "rounds-gnome-amalgam-musket": "Rounds (Gnome Amalgam Musket)",
+              "rounds-gun-sword": "Rounds (Gun Sword)",
+              "rounds-hammer-gun": "Rounds (Hammer Gun)",
+              "rounds-hand-cannon": "Rounds (Hand Cannon)",
+              "rounds-harmona-gun": "Rounds (Harmona Gun)",
+              "rounds-howler-pistol": "Rounds (Howler Pistol)",
+              "rounds-jezail": "Rounds (Jezail)",
+              "rounds-leydroth-spellbreaker": "Rounds (Leydroth Spellbreaker)",
+              "rounds-mace-multipistol": "Rounds (Mace Multipistol)",
+              "rounds-mithral-tree": "Rounds (Dawnsilver Tree)",
+              "rounds-nightmares-lament": "Rounds (Nightmare's Lament)",
+              "rounds-pepperbox": "Rounds (Pepperbox)",
+              "rounds-petrification-cannon": "Rounds (Petrification Cannon)",
+              "rounds-piercing-wind": "Rounds (Piercing Wind)",
+              "rounds-rapier-pistol": "Rounds (Rapier Pistol)",
+              "rounds-screech-shooter": "Rounds (Screech Shooter)",
+              "rounds-shield-pistol": "Rounds (Shield Pistol)",
+              "rounds-shobhad-longrifle": "Rounds (Shobhad Longrifle)",
+              "rounds-slide-pistol": "Rounds (Slide Pistol)",
+              "rounds-spider-gun": "Rounds (Spider Gun)",
+              "rounds-spike-launcher": "Rounds (Spike Launcher)",
+              "rounds-tentacle-cannon": "Rounds (Tentacle Cannon)",
+              "rounds-three-peaked-tree": "Rounds (Three Peaked Tree)",
+              "rounds-triggerbrand": "Rounds (Triggerbrand)",
+              "rounds": "Rounds",
+              "sling-bullets": "Sling Bullets",
+              "spray-pellets": "Spray Pellets",
+              "wooden-taws": "Wooden Taws"
+          },
+          "IsSpecialAmmo": {
+              "label": "특수 탄약인가요?",
+              "hint": "마법 탄약이나 연금술 탄약과 같은 특수 탄약은 특정 유형의 탄약으로 제작할 수 있습니다."
+          },
+          "Groups": {
+              "General": "일반",
+              "OwnWeapons": "자신의 무기",
+              "Weapons": "무기",
+              "WeaponSpecific": "무기 전용"
+          },
+          "SpecialAmmoPicker": {
+              "Prompt": "이 아이템에 사용할 탄약 유형을 선택하세요"
+          }
+      },
       "Ancestry": {
         "DropFeatures": "조상 재주를 이곳에 두십시오.",
         "FIELDS": {
             "hands": {
-                "label": "Hands"
+                "label": "손"
             },
             "reach": {
-                "label": "Reach"
+                "label": "사거리"
             },
             "speed": {
-                "label": "Speed"
+                "label": "속도"
             }
         },
         "Plural": "조상들",
@@ -2486,6 +2590,22 @@
         "Label": "재료 피해 이펙트"
       },
       "NameLabel": "이름",
+      "NPCAttack": {
+          "FIELDS": {
+              "range": {
+                  "increment": {
+                      "label": "거리 증가"
+                  },
+                  "max": {
+                      "label": "최대 사거리"
+                  }
+              }
+          },
+          "Tags": {
+              "RangeN": "{n} 피트 사거리",
+              "RangeIncrementN": "{n} 피트 사거리 증가"
+          }
+      },
       "OtherTags": {
         "Label": "기타 태그",
         "Hint": "아이템을 분류하는 데 도움이 되는 특성 이외의 추가 태그"
@@ -2769,13 +2889,39 @@
             "WrongSpellType": "이 시전 항목에는 {type} 주문을 추가할 수 없습니다."
         }
       },
+      "Treasure": {
+          "FIELDS": {
+              "category": {
+                  "label": "카테고리",
+                  "choices": {
+                      "art-object": "예술품",
+                      "coin": "동전",
+                      "gem": "보석",
+                      "material": "재료",
+                      "credstick": "크레드스틱"
+                  }
+              }
+          }
+      },
       "Weapon": {
           "FIELDS": {
-              "expend": {
-                  "hint": "이 값은 해당 무기로 원거리 공격을 할 때 소비되는 탄약의 양을 나타냅니다. 다른 능력에서 행동을 완수하는 데 필요한 탄약량을 '소모'로 명시할 수 있습니다.",
-                  "label": "소모"
-              }
-          },
+            "expend": {
+                "hint": "이 값은 해당 무기로 원거리 공격을 할 때 소비되는 탄약의 양을 나타냅니다. 다른 능력에서 행동을 완수하는 데 필요한 탄약량을 '소모'로 명시할 수 있습니다.",
+                "label": "소모"
+            },
+            "ammo": {
+                "baseType": {
+                    "label": "탄약 종류"
+                },
+                "builtIn": {
+                    "label": "탄약은 내장되어 있습니다"
+                },
+                "capacity": {
+                    "label": "용량"
+                }
+            }
+        },
+        "AnyBasicAmmo": "기본 탄약",
         "CanBeAmmo": {
           "Label": "탄약으로 사용 가능",
           "Hint": "이 무기를 다른 무기에 탄약으로 장전할 수 있음을 표시합니다."
@@ -2821,8 +2967,13 @@
           "Label": "범위 증가 {range} 피트"
         },
         "Reload": {
-          "LabelN": "리로드 {value}",
+          "LabelN": "재장전 {value}",
           "OneMinute": "1분"
+        },
+        "Reloader": {
+            "EmptyMessage": "인벤토리에 호환되는 탄약이 없습니다",
+            "Reload1": "재장전",
+            "ReloadAll": "전부 재장전"
         },
         "Rune": {
           "Potency": "무기 위력",
@@ -2838,7 +2989,7 @@
           "Label": "특정 마법 무기"
         },
         "ThrownUsage": {
-          "Label": "던져진 사용법"
+          "Label": "던지는 사용법"
         },
         "Tracking": "트래킹",
         "Twin": {
@@ -2864,19 +3015,22 @@
     "ItemTitle": "아이템",
     "ItemTransferDialog": {
         "Button": {
-            "gift": "Give",
-            "move": "Transfer",
-            "purchase": "Purchase"
+            "gift": "선물",
+            "move": "전달",
+            "purchase": "구매",
+            "credits": "이전"
         },
         "Prompt": {
-            "gift": "Give this item to {actor}?",
-            "move": "Transfer this item to {actor}?",
-            "purchase": "Does {actor} wish to purchase this item?"
+            "gift": "이 아이템을 {actor}에게 주겠습니까?",
+            "move": "이 항목을 {actor}에게 전달하시겠습니까?",
+            "purchase": "{actor}가 이 아이템을 구매하시겠습니까?",
+            "credits": "{actor}에게 크레딧을 전달하시겠습니까?"
         },
         "Title": {
-            "gift": "Give {item}",
-            "move": "Transfer {item}",
-            "purchase": "Purchase {item}"
+            "gift": "{item} 선물",
+            "move": "{item} 이전",
+            "purchase": "{item} 구매",
+            "credits": "크레딧 이전"
         }
     },
     "ItemsLabel": "아이템",
@@ -3973,17 +4127,8 @@
     },
     "SpellcastingTypeLabel": "주문 시전 유형",
     "SpellsActionHeader": "액션",
-    "StackGroupArrows": "화살",
-    "StackGroupBlowgunDarts": "블로우건 다트",
-    "StackGroupBolts": "볼트",
-    "StackGroupCoins": "코인",
     "StackGroupGems": "보석",
     "StackGroupLabel": "스택 그룹",
-    "StackGroupRounds10": "라운드 (10)",
-    "StackGroupRounds5": "라운드 (5)",
-    "StackGroupSlingBullets": "슬링 탄환",
-    "StackGroupSprayPellets": "스프레이 펠릿",
-    "StackGroupWoodenTaws": "나무 발톱",
     "StaminaPointsHeader": "스태미나 포인트",
     "StaminaPointsShortLabel": "스태미나",
     "StatusBonusShortLabel": "상태",
@@ -4009,6 +4154,7 @@
       "Ranged": {
         "Description": "자신이 휘두르고 있는 무기로 공격하여 범위 내에 있는 생물 한 마리를 대상으로 합니다. 사용하는 무기에 대한 공격력 주사위를 굴려 그 결과를 대상 생물의 AC와 비교하여 효과를 결정합니다.",
         "NoAmmo": "{weapon}에 탄약이 할당되지 않았습니다. {actor}의 시트의 액션 탭을 확인하세요.",
+        "InsufficientAmmo": "{weapon}에 남은 탄약이 부족합니다. {actor}의 시트에서 ‘액션’ 탭을 체크하세요.",
         "Success": "무기에 따라 수정치, 보너스, 페널티를 포함한 피해를 입힙니다."
       },
       "Unarmed": {
@@ -4017,7 +4163,7 @@
       }
     },
     "StrikesLabel": "스트라이크",
-    "StrikingRuneLabel": "일격 룬",
+    "StrikingRuneLabel": "강타 룬",
     "Success": "<strong>성공</strong>",
     "TabActionsDowntimeLabel": "다운타임",
     "TabActionsEncounterLabel": "인카운터",
@@ -4077,66 +4223,67 @@
       }
     },
     "TotalCoinage": "총 주화",
+    "TotalCurrency": "총 통화",
     "TotalTreasure": "총 보물",
     "TotalWealth": "총 자산",
     "TradeDialog": {
-        "Aborted": "{user} has ended the trade: no items were exchanged.",
+        "Aborted": "{user}가 거래를 종료했습니다: 아이템이 교환되지 않았습니다.",
         "Acceptance": {
-            "Accepted": "{user} has accepted your offer.",
-            "Accept": "Accept Offer",
-            "NotAccepted": "{user} has not accepted your offer.",
-            "Rescind": "Rescind Acceptance"
+            "Accepted": "{user}가 귀하의 제안을 수락했습니다.",
+            "Accept": "제안 수락",
+            "NotAccepted": "{user}가 귀하의 제안을 수락하지 않았습니다.",
+            "Rescind": "수락 취소"
         },
         "Error": {
-            "Engaged": "{user} is currently engaged in a trade.",
-            "LoggedOut": "Ending trade: {user} is no longer logged in.",
-            "NotTrading": "Ending trade: {user} is not longer trading.",
-            "OutOfReach": "{self} and {trader} are not in reach of each other.",
-            "SelectToken": "Select exactly one token associated with a PC or NPC to represent you in a trade.",
-            "Timeout": "Ending trade: there was no response from {user} after {timeout} seconds",
-            "Unavailable": "Ending trade: {user} has become unavailable."
+            "Engaged": "{user}는 현재 거래 중입니다.",
+            "LoggedOut": "거래 종료: {user}가 더 이상 로그인되어 있지 않습니다.",
+            "NotTrading": "거래 종료: {user}는 더 이상 거래하지 않습니다.",
+            "OutOfReach": "{self}와 {trader}는 서로의 손이 닿지 않는 곳에 있습니다.",
+            "SelectToken": "거래에서 자신을 대표할 PC 또는 NPC와 연관된 토큰을 정확히 하나 선택하십시오.",
+            "Timeout": "거래 종료: {timeout} 초 동안 {user}로부터 응답이 없었습니다.",
+            "Unavailable": "거래 종료: {user}가 이용 불가 상태가 되었습니다."
         },
         "Gift": {
-            "Accepted": "{trader} has received your item.",
-            "Declined": "{trader} has declined your item.",
+            "Accepted": "{trader}가 귀하의 선물을 수령했습니다.",
+            "Declined": "{trader}가 귀하의 선물을 거절했습니다.",
             "Prompt": {
-                "Content": "{trader} ({user}) would like to give {quantity}x {item} to {self}.",
-                "Title": "Receive Item(s)?"
+                "Content": "{trader} ({user})가 {self}에게 {quantity}개의 {item}을 주고 싶어 합니다.",
+                "Title": "물품 수령하시겠습니까?"
             },
-            "Received": "{self} has received the item from {trader}."
+            "Received": "{self}가 {trader}로부터 아이템을 받았습니다."
         },
         "ImgAlt": {
-            "Actor": "Portrait of {actor}, representing {user}",
-            "Item": "Icon for {item}"
+            "Actor": "{user}가 조종하는 {actor}의 초상화",
+            "Item": "{item} 아이콘"
         },
         "Quantity": {
-            "Decrement": "Decrement Item Quantity",
-            "Increment": "Increment Item Quantity",
-            "Label": "Quantity of {item}"
+            "Decrement": "아이템 수량 감소",
+            "Increment": "항목 수량 증가",
+            "Label": "{item}의 수량"
         },
-        "Receiving": "Receiving: {list}",
+        "Receiving": "수신: {목록}",
         "Request": {
-            "Declined": "{trader} ({user}) has declined your request to trade.",
-            "Requesting": "Requesting to trade with {trader} ...",
+            "Declined": "{trader} ({user})가 귀하의 거래 요청을 거부하였습니다.",
+            "Requesting": "{trader}와의 거래 요청 중...",
             "Prompt": {
-                "Content": "{trader} ({user}) would like to trade with {self}.",
-                "Title": "Trade with {trader}?"
+                "Content": "{trader} ({user})가 {self}과 거래를 원합니다.",
+                "Title": "{trader}와 거래하시겠습니까?"
             },
-            "MenuLabel": "Request Trade",
-            "Timeout": "There was no response from {user} to your trade request after 30 seconds."
+            "MenuLabel": "거래 요청",
+            "Timeout": "{user}가 30초 이내에 귀하의 거래 요청에 응답하지 않았습니다."
         },
-        "Sending": "Sending: {list}",
+        "Sending": "발송: {list}",
         "Success": {
-            "Finished": "{self} has finished trading with {trader}.",
-            "NoItems": "The trade has concluded, but no items were exchanged."
+            "Finished": "{self}가 {trader}와의 거래를 완료했습니다.",
+            "NoItems": "거래는 완료되었으나, 물품은 교환되지 않았다."
         },
-        "Title": "Trading With {trader}",
-        "You": "You"
+        "Title": "{trader}와의 거래",
+        "You": "당신"
     },
     "TrainedSkillsLabel": "훈련된 기술",
     "TraitAberration": "변형",
     "TraitAcid": "산",
-    "TraitAdditive": "Additive",
+    "TraitAdditive": "첨가제",
     "TraitAdditive0": "추가 0",
     "TraitAdditive1": "추가 1",
     "TraitAdditive2": "추가 2",
@@ -4242,6 +4389,7 @@
     "TraitAttack": "공격",
     "TraitAuditory": "청각",
     "TraitAura": "아우라",
+    "TraitAutomatic": "오토매틱",
     "TraitAutomaton": "오토마톤",
     "TraitAwakenedAnimal": "깨어난 동물",
     "TraitAzarketi": "아자케티",
@@ -4525,6 +4673,7 @@
     "TraitDescriptionGhoul": "구울은 육체를 먹어 치우는 사악한 언데드 생물입니다.",
     "TraitDescriptionGhul": "원래 지니에서 태어난 탐욕스럽고 탐식적인 언데드입니다.",
     "TraitDescriptionGiant": "거인들은 거대한 인간형 생물체입니다..",
+    "TraitDescriptionGirtablilu": "기르타빌루스는 상반신은 인간형이고 하반신은 거대한 전갈의 모습을 하고 있다.",
     "TraitDescriptionGnoll": "놀은 하이에나를 닮은 휴머노이드입니다.",
     "TraitDescriptionGnome": "이 특성을 가진 생명체는 노움 혈통의 일원입니다. 노움은 새로운 경험을 추구하는 마법에 능숙한 작은 종족으로, 보통 저조도 시력을 가지고 있습니다. 이 특성을 가진 능력은 노움만 사용하거나 선택할 수 있습니다. 이 특성을 가진 무기는 노움이 만들어서 사용합니다.",
     "TraitDescriptionGoblin": "이 특성을 가진 생물은 고블린, 호브고블린, 버그베어 등 여러 부족의 생물에서 나올 수 있습니다. 고블린은 암흑시력을 가진 경향이 있습니다. 이 특성을 가진 능력은 고블린만 사용하거나 선택할 수 있습니다. 이 특성을 가진 무기는 고블린이 만들어서 사용합니다.",
@@ -4589,6 +4738,7 @@
     "TraitDescriptionLitany": "기도문은 일반적으로 챔피언이 사용하는 특별한 헌신 주문으로, 한 번의 액션을 필요로 하며, 보통 추가 기도문에 일시적인 면역 효과를 부여합니다.",
     "TraitDescriptionLizardfolk": "이루시라고도 불리는 이 파충류 휴머노이드는 적응력이 뛰어나고 인내심이 강합니다.",
     "TraitDescriptionLozenge": "연금술 사탕을 입에 넣으면 활성화됩니다. 시간이 지남에 따라 천천히 녹아 성분을 방출하면서 그 자리에 머물러 있습니다. 마름모꼴 사탕을 깨물면 보조 효과를 얻을 수 있습니다. 이것이 취하는 액션은 항목에 명시되어 있습니다. 이 보조 효과가 끝나면 마름모꼴 사탕이 소진되고 그 혜택이 종료됩니다. 엘릭서, 물약, 음료는 입에 사탕을 물고 마실 수 있지만, 한 번에 두 개 이상의 사탕의 혜택을 받을 수는 없습니다. 두 개의 마름모꼴 사탕을 동시에 입에 넣으면 둘 다 비활성 상태가 됩니다. 사탕을 한 번의 액션으로 뱉어 효과를 종료하고 비활성 상태로 만들 수도 있습니다. 사탕은 연금술 성분으로 인해 녹기 때문에 일반적으로 타액이 없어도 효과가 지속됩니다.",
+    "TraitDescriptionMaftet": "마프테츠는 상반신은 인간형이고 하반신은 사자형이며 매와 같은 날개를 지녔다.",
     "TraitDescriptionMagical": "마법 특성을 가진 무언가에는 특정 마법 전통과 관련이 없는 마법의 에너지가 스며들어 있습니다. 일부 아이템이나 효과는 특정 마법 전통과 밀접하게 연관되어 있습니다. 이러한 경우 아이템은 마법 특성 대신 아케인, 디바인, 오컬트 또는 프라이멀 특성을 갖습니다. 이러한 특성이 있으면 해당 아이템이 마법 아이템임을 나타냅니다.",
     "TraitDescriptionMagus": "메이거스 클래스의 능력을 나타냅니다.",
     "TraitDescriptionManipulate": "이 특성을 가진 액션을 사용하려면 아이템을 물리적으로 조작하거나 제스처를 취해야 합니다. 적절한 부속물이 없는 생물은 이 특성을 가진 액션을 수행할 수 없습니다. 조작 액션은 종종 리액션을 트리거합니다.",
@@ -4620,6 +4770,7 @@
     "TraitDescriptionMythic": "이 특성을 가진 옵션은 신화적 힘을 부여하거나 활용합니다. 신화적 특성을 가진 피트는 신화적 소명을 가진 신화적 캐릭터만 선택할 수 있습니다. 신화적 특성을 가진 몬스터는 신화 포인트 풀을 사용할 수 있으며, 같은 레벨의 다른 생물보다 특히 강합니다. 많은 신화적 몬스터는 신화적이지 않은 생물이나 무기의 공격에 대해 저항력이나 완전히 면역입니다.</p><p>신화적 특성을 가진 주문은 발동하기 위해 신화 포인트를 소모해야 하며, 신화적 특성을 가진 아이템은 활성화된 능력을 사용하기 위해 신화 포인트를 소모해야 합니다.</p><p>신화적 특성을 가진 무기는 신화적 몬스터의 저항력과 면역력을 무력화합니다.",
     "TraitDescriptionNagaji": "파충류의 특징과 뱀의 머리를 가진 전통주의 조상입니다.",
     "TraitDescriptionNephilim": "이 특성을 가진 생물은 네피림의 다재다능한 유산을 가지고 있습니다. 네피림은 다른 행성에서 온 불멸의 존재의 후손인 차원 자손입니다. 이 특성을 가진 능력은 네피림만 사용하거나 선택할 수 있습니다.",
+    "TraitDescriptionNightmare": "악몽의 위험은 렝에서만 발생하는 독특한 현상이다. 여러 면에서 악몽의 위험은 유령 출몰과 유사하며, 잠재적 희생자들은 퇴마를 통해 이를 무력화하려고 시도하다 효과가 없다는 사실을 깨닫기 전까지는 그 끔찍한 진실을 알지 못할 수도 있다.",
     "TraitDescriptionNindoru": "닌도루는 영혼이 환생하는 주기에 따라 타락하여 우주에 사는 혼돈의 사악한 악마입니다. 닌도루는 종종 언데드처럼 보이게 하는 요소를 가지고 있지만, 실제로는 살아있는 존재입니다. 대부분의 닌도루는 암흑 시야를 가지고 있으며, 죽음의 효과에 면역이 있고, 은에 약하며, 생각에서 사물이나 생물을 발현하는 힘을 가지고 있습니다.",
     "TraitDescriptionNoisy": "이 갑옷은 시끄러워서 주목 피하기 탐험 활동을 사용할 때 다른 플레이어에게 자신의 존재를 알릴 가능성이 높습니다. 이 갑옷의 체크 페널티는 요구 조건인 근력 점수를 충족하더라도 은신 체크에 적용됩니다.",
     "TraitDescriptionNone": "이 특성은 설명이 없습니다.",
@@ -4816,6 +4967,7 @@
     "TraitDowntime": "다운타임",
     "TraitDragon": "드래곤",
     "TraitDragonblood": "용혈",
+    "TraitDragonet": "드래고넷",
     "TraitDream": "꿈",
     "TraitDromaar": "드로마르",
     "TraitDrow": "드로우",
@@ -4906,6 +5058,7 @@
     "TraitGhul": "굴",
     "TraitGiant": "자이언트",
     "TraitGigas": "기가스",
+    "TraitGirtablilu": "기르타브릴루",
     "TraitGnoll": "콜로",
     "TraitGnome": "노움",
     "TraitGoblin": "고블린",
@@ -5008,6 +5161,7 @@
     "TraitLizardfolk": "리자드포크",
     "TraitLocathah": "아타마루",
     "TraitLozenge": "로젠지",
+    "TraitMaftet": "마프테트",
     "TraitMagic": "마법",
     "TraitMagical": "마법적",
     "TraitMagus": "메이거스",
@@ -5042,6 +5196,7 @@
     "TraitNaari": "나리",
     "TraitNagaji": "나가지",
     "TraitNephilim": "네피림",
+    "TraitNightmare": "악몽",
     "TraitNindoru": "닌도루",
     "TraitNoisy": "시끄러운",
     "TraitNonlethal": "치명적이지 않음",
@@ -5088,7 +5243,7 @@
     "TraitProcessed": "처리됨",
     "TraitPropulsive": "추진력",
     "TraitProtean": "프로테안",
-    "TraitPsyche": "싸이키",
+    "TraitPsyche": "사이키",
     "TraitPsychic": "사이킥",
     "TraitPsychopomp": "사이코펌프",
     "TraitQlippoth": "클리포스",
@@ -5096,79 +5251,6 @@
     "TraitRage": "분노",
     "TraitRakshasa": "락샤사",
     "TraitRange": "사거리",
-    "TraitRange10": "사거리 10피트",
-    "TraitRange100": "사거리 100피트",
-    "TraitRange110": "사거리 110피트",
-    "TraitRange120": "사거리 120피트",
-    "TraitRange130": "사거리 130피트",
-    "TraitRange140": "사거리 140피트",
-    "TraitRange15": "사거리 15피트",
-    "TraitRange150": "사거리 150피트",
-    "TraitRange160": "사거리 160피트",
-    "TraitRange170": "사거리 170피트",
-    "TraitRange180": "사거리 180피트",
-    "TraitRange190": "사거리 190피트",
-    "TraitRange20": "사거리 20피트",
-    "TraitRange200": "사거리 200피트",
-    "TraitRange210": "사거리 210피트",
-    "TraitRange220": "사거리 220피트",
-    "TraitRange230": "사거리 230피트",
-    "TraitRange240": "사거리 240피트",
-    "TraitRange25": "사거리 25피트",
-    "TraitRange250": "사거리 250피트",
-    "TraitRange260": "사거리 260피트",
-    "TraitRange270": "사거리 270피트",
-    "TraitRange280": "사거리 280피트",
-    "TraitRange290": "사거리 290피트",
-    "TraitRange30": "사거리 30피트",
-    "TraitRange300": "사거리 300피트",
-    "TraitRange310": "사거리 310피트",
-    "TraitRange320": "사거리 320피트",
-    "TraitRange40": "사거리 40피트",
-    "TraitRange5": "사거리 5피트",
-    "TraitRange50": "사거리 50피트",
-    "TraitRange500": "사거리 500피트",
-    "TraitRange60": "사거리 60피트",
-    "TraitRange70": "사거리 70피트",
-    "TraitRange80": "사거리 80피트",
-    "TraitRange90": "사거리 90피트",
-    "TraitRangeIncrement10": "사거리 증가 10피트",
-    "TraitRangeIncrement100": "사거리 증가 100피트",
-    "TraitRangeIncrement110": "사거리 증가 110 피트",
-    "TraitRangeIncrement120": "사거리 증가 120피트",
-    "TraitRangeIncrement130": "사거리 증가 130 피트",
-    "TraitRangeIncrement140": "사거리 증가 140피트",
-    "TraitRangeIncrement15": "사거리 증가 15피트",
-    "TraitRangeIncrement150": "사거리 증가 150 피트",
-    "TraitRangeIncrement160": "사거리 증가 160피트",
-    "TraitRangeIncrement170": "사거리 증가 170 피트",
-    "TraitRangeIncrement180": "사거리 증가 180피트",
-    "TraitRangeIncrement190": "사거리 증가 190피트",
-    "TraitRangeIncrement20": "사거리 증가 20피트",
-    "TraitRangeIncrement200": "사거리 증가 200피트",
-    "TraitRangeIncrement210": "사거리 증가 210 피트",
-    "TraitRangeIncrement220": "사거리 증가 220 피트",
-    "TraitRangeIncrement230": "사거리 증가 230 피트",
-    "TraitRangeIncrement240": "사거리 증가 240 피트",
-    "TraitRangeIncrement25": "사거리 증가 25피트",
-    "TraitRangeIncrement250": "사거리 증가 250피트",
-    "TraitRangeIncrement260": "사거리 증가 260 피트",
-    "TraitRangeIncrement270": "사거리 증가 270피트",
-    "TraitRangeIncrement280": "사거리 증가 280 피트",
-    "TraitRangeIncrement290": "사거리 증가 290피트",
-    "TraitRangeIncrement30": "사거리 증가 30피트",
-    "TraitRangeIncrement35": "사거리 증가 35 feet",
-    "TraitRangeIncrement300": "사거리 증가 300피트",
-    "TraitRangeIncrement310": "사거리 증가 310 피트",
-    "TraitRangeIncrement320": "사거리 증가 320피트",
-    "TraitRangeIncrement40": "사거리 증가 40피트",
-    "TraitRangeIncrement5": "사거리 증가 5피트",
-    "TraitRangeIncrement50": "사거리 증가 50피트",
-    "TraitRangeIncrement60": "사거리 증가 60피트",
-    "TraitRangeIncrement70": "사거리 증가 70피트",
-    "TraitRangeIncrement75": "사거리 증가 75피트",
-    "TraitRangeIncrement80": "사거리 증가 80피트",
-    "TraitRangeIncrement90": "사거리 증가 90피트",
     "TraitRangedTrip": "원거리 트립",
     "TraitRanger": "레인저",
     "TraitRare": "희귀",
@@ -5200,9 +5282,9 @@
     "TraitReload1Min": "재장전 1분",
     "TraitReload2": "재장전 2",
     "TraitRepeating": "리피팅",
-    "TraitResilient1": "Resilient +1",
-    "TraitResilient2": "Resilient +2",
-    "TraitResilient3": "Resilient +3",
+    "TraitResilient1": "내구성 +1",
+    "TraitResilient2": "내구성 +2",
+    "TraitResilient3": "내구성 +3",
     "TraitResonant": "공명",
     "TraitRevelation": "리벨리온",
     "TraitRogue": "로그",
@@ -5245,6 +5327,7 @@
     "TraitSonic": "음파",
     "TraitSorcerer": "소서러",
     "TraitSoulbound": "소울바운드",
+    "TraitSoulrider": "소울라이더",
     "TraitSpellDeflection": "주문 편향",
     "TraitSpellgun": "주문 총",
     "TraitSpellheart": "주문심장",
@@ -5507,7 +5590,7 @@
     "ValueLabel": "가치",
     "Wall": {
         "Door": {
-            "OutOfReach": "The door is out of reach."
+            "OutOfReach": "문은 닿을 수 없는 곳에 있다."
         }
     },
     "WeaknessesLabel": "약점",
@@ -5524,6 +5607,8 @@
         "asp-coil": "Asp 코일",
         "atlatl": "아틀라틀",
         "axe-musket": "액스 머스킷",
+        "backpack-ballista": "배낭 발리스타",
+        "backpack-catapult": "배낭 투석기",
         "barricade-buster": "바리케이드 버스터",
         "bastard-sword": "바스타드 소드",
         "battle-axe": "전투 도끼",
@@ -5628,6 +5713,7 @@
         "greatclub": "그레이트 클럽",
         "greatpick": "그레이트 픽",
         "greatsword": "그레이트 소드",
+        "grenade": "수류탄",
         "griffon-cane": "그리폰 케인",
         "guisarme": "기사르메",
         "gun-sword": "건 소드",
@@ -5903,7 +5989,7 @@
         "Name": "피의 비밀"
       },
       "dancing": {
-        "Name": "(구) 춤추는"
+        "Name": "살아난"
       },
       "decaying": {
         "Name": "부패"
@@ -6168,7 +6254,7 @@
         "Name": "진정"
       },
       "speed": {
-        "Name": "속도",
+        "Name": "신속 타격",
         "Note": "빠른 공격 무기를 사용하면 @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{신속} 상태가 적용되지만, 추가 행동은 새겨진 무기로 공격을 하는 데에만 사용할 수 있습니다."
       },
       "returning": {
@@ -6612,6 +6698,7 @@
       }
     },
     "loot": {
+      "AllowConversion": "코인 종류 변환 허용",
       "BuySubtitle": "아이템 구매",
       "DepositMessage": "{depositor}가 {container}에 {quantity} × {item}을(를) 보관합니다.",
       "DepositSubtitle": "보관 아이템",
@@ -6648,6 +6735,7 @@
       "SheetType": "시트 유형",
       "SplitCoinsLabel": "코인 배포",
       "SplitCoinsPopupHeader": "공유를 받을 배우 선택",
+      "NoPlayerCharacters": "배분할 플레이어 캐릭터가 없습니다.",
       "Stack": "새 스택을 생성하시겠습니까?",
       "TakeMessage": "{taker}는 {container}에서 {quantity} × {item}을 가져옵니다.",
       "TakeSubtitle": "아이템 가져오기",
@@ -6731,6 +6819,7 @@
     "Item": {
       "action": "능력",
       "affliction": "고통",
+      "ammo": "탄환",
       "ancestry": "조상",
       "armor": "갑옷",
       "background": "배경",
@@ -6755,7 +6844,7 @@
       "weapon": "무기"
     },
     "RegionBehavior": {
-        "modifyMovementCost": "Difficult Terrain"
+        "modifyMovementCost": "어려운 지형"
     }
   }
 }
