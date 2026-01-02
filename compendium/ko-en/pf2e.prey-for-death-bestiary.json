@@ -19,9 +19,9 @@
       }
     },
     "Einherji Host": {
-      "name": "에인헤르지 호스트 (Einherji Host)",
+      "name": "에인헤리야 호스트 (Einherji Host)",
       "cadetails": "방패를 든 37명",
-      "hpdetails": "문턱 180 (3 세그먼트), 90 (2 세그먼트)",
+      "hpdetails": "임계점 180 (3 세그먼트), 90 (2 세그먼트)",
       "saves": "공포에 대한 의지력 +4",
       "speeds": "부대 이동",
       "items": {
@@ -32,20 +32,20 @@
           "name": "의지력에 +4 (공포에 대한) (+4 to Will Vs. Fear)"
         },
         "1VkDrAMFDHLF2q2M": {
-          "name": "부대 방어력 (Troop Defenses)",
-          "description": "<p><strong> 임계값</strong> 180 (3 세그먼트), 90 (2 세그먼트)</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
+          "name": "부대 방어 (Troop Defenses)",
+          "description": "<p><strong> 임계점</strong> 180 (3 세그먼트), 90 (2 세그먼트)</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
         },
         "KvVWYvKRMGz2t86i": {
           "name": "단검 포격 (Dagger Volley)",
-          "description": "<p>에인헤르지 부대가 던진 단검의 연발 사격 형태로 원거리 공격을 발동합니다. 이 연발 사격은 @Template[cone|distance:30] 영역을 채웁니다; 해당 영역 내 모든 생물은 @Damage[(5d4+15)[piercing]|options:area-damage]의 피해를 입습니다 (@Check[reflex|dc:36|basic|options:area-effect] 내성). 부대가 2개 이하의 세그먼트로 줄어들면 이 영역은 @Template[cone|distance:15]로 축소됩니다.</p>"
+          "description": "<p>에인헤리야 부대가 던진 단검의 연발 사격 형태로 원거리 공격을 발동합니다. 이 연발 사격은 @Template[cone|distance:30] 영역을 채웁니다; 해당 영역 내 모든 생물은 @Damage[(5d4+15)[piercing]|options:area-damage]의 피해를 입습니다 (@Check[reflex|dc:36|basic|options:area-effect] 내성). 부대가 2개 이하의 세그먼트로 줄어들면 이 영역은 @Template[cone|distance:15]로 축소됩니다.</p>"
         },
         "Bhvcbklfc21fOw32": {
           "name": "요툰 사냥꾼 (Jotun Slayer)",
-          "description": "<p>에인헤르지 부대는 거인이나 거대 이상의 생물에게 가하는 'Strike as One' 피해 굴림에 +4 상황 보너스를 받습니다.</p>"
+          "description": "<p>에인헤리야 부대는 거인이나 거대 이상의 생물에게 가하는 'Strike as One' 피해 굴림에 +4 상황 보너스를 받습니다.</p>"
         },
         "a8CJCBitCQW29ThH": {
           "name": "인치당 대가를 치르다 (Pay For Every Inch)",
-          "description": "<p>에인헤르지 부대는 진형을 갖추고 방패를 들어 올리며 반격을 준비합니다. 부대의 다음 턴이 시작될 때까지, 적군이 부대 옆 공간을 통과하는 행동을 할 때마다 @Damage[(4d8+18)[slashing]]의 피해를 입습니다 (@Check[reflex|dc:36|basic] 내성).</p>"
+          "description": "<p>에인헤리야 부대는 진형을 갖추고 방패를 들어 올리며 반격을 준비합니다. 부대의 다음 턴이 시작될 때까지, 적군이 부대 옆 공간을 통과하는 행동을 할 때마다 @Damage[(4d8+18)[slashing]]의 피해를 입습니다 (@Check[reflex|dc:36|basic] 내성).</p>"
         },
         "AFmo4HuwTF2yuZN2": {
           "name": "방패를 들어올리다 (Raise Shields)",
@@ -57,7 +57,7 @@
         },
         "vmM05v5KSua0QmAu": {
           "name": "Strike as One",
-          "description": "<p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 에인헤르지 호스트는 @Template[emanation|distance:5] (@Check[reflex|dc:36|basic|options:area-effect] 구역 내의 모든 적에게 근접 공격을 가합니다. 피해량은 행동 횟수에 따라 결정됩니다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(2d8+7)[slashing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(3d8+14)[slashing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(4d8+14)[slashing]|options:area-damage] damage</p>"
+          "description": "<p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 에인헤리야 호스트는 @Template[emanation|distance:5] (@Check[reflex|dc:36|basic|options:area-effect] 구역 내의 모든 적에게 근접 공격을 가합니다. 피해량은 행동 횟수에 따라 결정됩니다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(2d8+7)[slashing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(3d8+14)[slashing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(4d8+14)[slashing]|options:area-damage] damage</p>"
         },
         "886l2wL20Ghh4jQT": {
           "name": "부대 이동 (Troop Movement)",
@@ -137,7 +137,7 @@
       }
     },
     "Red Mantis Conspirator": {
-      "name": "빨간 메뚜기 음모자 (Red Mantis Conspirator)",
+      "name": "레드 맨티스 음모자 (Red Mantis Conspirator)",
       "blurb": "인간 베르나이 음모자",
       "items": {
         "NNcbk26Kgjh1yP8j": {
@@ -152,15 +152,15 @@
         },
         "ZjESRQunTVjwTe9r": {
           "name": "Prayer Attack",
-          "description": "<p><strong>요구 사항</strong> 빨간 메뚜기 음모자가 양손에톱날 검을 휘두르고 있다</p><hr /><p><strong>효과</strong> 빨간 메뚜기 음모자는 @UUID[Compendium.pf2e.actionspf2e.Item.QNAVeNKtHA0EUw4X]{기만} 30피트 이내의 적을 기만합니다. 기만이 성공하면, 그 음모가는그 턴 내에 그 적에게 톱니 모양의 검으로 성공적인 공격을 가하면 대상에게 2d6 지속 출혈 피해를 입힙니다. 또한, 해당 적에게 가시范围内에 머물고 해당 적의 거리가 30피트 이내에 유지되는 한, 그 적에 대한 추가 기도 공격은 자동으로 해당 적을 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태로 만듭니다. 이 상태는 해당 적의 턴이 끝날 때까지 지속됩니다.</p>"
+          "description": "<p><strong>요구 사항</strong> 레드 맨티스 음모자가 양손에 톱날 검을 휘두르고 있다</p><hr /><p><strong>효과</strong> 레드 맨티스 음모자는 @UUID[Compendium.pf2e.actionspf2e.Item.QNAVeNKtHA0EUw4X]{기만} 30피트 이내의 적을 기만합니다. 기만이 성공하면, 그 음모가는 그 턴 내에 그 적에게 톱니 모양의 검으로 성공적인 공격을 가하면 대상에게 2d6 지속 출혈 피해를 입힙니다. 또한, 해당 적에게 보이는 영역에 머물고 해당 적의 거리가 30피트 이내에 유지되는 한, 그 적에 대한 추가 기도 공격은 자동으로 해당 적을 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태로 만듭니다. 이 상태는 해당 적의 턴이 끝날 때까지 지속됩니다.</p>"
         },
         "Jq0fBMKrpfIbsrdJ": {
           "name": "암습 (Sneak Attack)",
-          "description": "<p>붉은 메뚜기 음모자는 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태의 생물에게 추가로 2d6 정밀 피해를 입힙니다.</p>"
+          "description": "<p>레드 맨티스 음모자는 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태의 생물에게 추가로 2d6 정밀 피해를 입힙니다.</p>"
         },
         "1bm27ge1xUCTw8Ia": {
-          "name": "Vernai Training",
-          "description": "<p>붉은 메뚜기 음모가에 의해 살해된 생물을 부활시키려면, 생물은 음모가가 죽은 자의 시체에 미치는 영향을 마법이나 의식을 수행할 때 반격해야 합니다 (DC 34).</p>"
+          "name": "베르나이 훈련 (Vernai Training)",
+          "description": "<p>레드 맨티스 음모가에 의해 살해된 생물을 부활시키려면, 생물은 음모가가 죽은 자의 시체에 미치는 영향을 마법이나 의식을 수행할 때 반격해야 합니다 (DC 34).</p>"
         },
         "3C0qGq1pJK0OpVp1": {
           "name": "아차에케크 로어 (Achaekek Lore)"
@@ -216,7 +216,7 @@
         },
         "EcMvnSuecbLA4IvB": {
           "name": "기도 공격 (Prayer Attack)",
-          "description": "<p><strong>요구 사항</strong> 탈라로는 양손에톱니 모양의 검을 들고 있습니다</p><hr /><p><strong>효과</strong> 탈라로는 @UUID[Compendium.pf2e.actionspf2e.Item.QNAVeNKtHA0EUw4X]{위장 공격}을 시도합니다. 위장 공격이 성공하면, 해당 턴에 같은 손의 톱니 모양 검으로 다음 성공적인 공격이 대상에게 2d6 지속 출혈 피해를 입힙니다. 또한, 그가 해당 목표물에게 가시范围内에 머물고 해당 목표물이 그로부터 30피트 이내에 머물 경우, 해당 목표물에 대한 추가적인 기도 공격은 자동으로 해당 목표물이 Talaro의 공격에 대해 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 되도록 합니다. 이 상태는 해당 목표물의 턴이 끝날 때까지 지속됩니다.</p>"
+          "description": "<p><strong>요구 사항</strong> 탈라로는 양손에톱니 모양의 검을 들고 있습니다</p><hr /><p><strong>효과</strong> 탈라로는 @UUID[Compendium.pf2e.actionspf2e.Item.QNAVeNKtHA0EUw4X]{위장 공격}을 시도합니다. 위장 공격이 성공하면, 해당 턴에 같은 손의 톱니 모양 검으로 다음 성공적인 공격이 대상에게 2d6 지속 출혈 피해를 입힙니다. 또한, 그가 해당 목표물에게 가시 영역 안에 머물고 해당 목표물이 그로부터 30피트 이내에 머물 경우, 해당 목표물에 대한 추가적인 기도 공격은 자동으로 해당 목표물이 Talaro의 공격에 대해 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 되도록 합니다. 이 상태는 해당 목표물의 턴이 끝날 때까지 지속됩니다.</p>"
         },
         "OKMXk2YSv9O8szPh": {
           "name": "암습 (Sneak Attack)",
@@ -232,7 +232,7 @@
       }
     },
     "Red Mantis Assassin": {
-      "name": "붉은 메뚜기 암살자 (Red Mantis Assassin)",
+      "name": "레드 맨티스 암살자 (Red Mantis Assassin)",
       "blurb": "인간 암살자",
       "items": {
         "NNcbk26Kgjh1yP8j": {
@@ -247,11 +247,11 @@
         },
         "ZjESRQunTVjwTe9r": {
           "name": "기도 공격 (Prayer Attack)",
-          "description": "<p><strong>요구 사항</strong> 빨간 메뚜기 암살자는 양손에톱날 검을 휘두른다</p><hr /><p><strong>효과</strong> 레드 맨티스 암살자는 30피트 이내의 적을 대상으로 @UUID[Compendium.pf2e.actionspf2e.Item.QNAVeNKtHA0EUw4X]{위장}을 시도합니다. 위장 공격이 성공하면, 해당 턴 동안 암살자가 같은 손의톱 모양의 검으로 적에게 성공적인 공격을 가할 경우 대상에게 2d6 지속 출혈 피해를 입힙니다. 또한, 암살자가 대상에게 가시范围内에 있고 대상이 암살자로부터 30피트 이내에 머무는 한, 해당 대상에 대한 추가 기도 공격은 자동으로 대상이 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 됩니다.</p>"
+          "description": "<p><strong>요구 사항</strong> 레드 맨티스 암살자는 양손에톱날 검을 휘두른다</p><hr /><p><strong>효과</strong> 레드 맨티스 암살자는 30피트 이내의 적을 대상으로 @UUID[Compendium.pf2e.actionspf2e.Item.QNAVeNKtHA0EUw4X]{위장}을 시도합니다. 위장 공격이 성공하면, 해당 턴 동안 암살자가 같은 손의톱 모양의 검으로 적에게 성공적인 공격을 가할 경우 대상에게 2d6 지속 출혈 피해를 입힙니다. 또한, 암살자가 대상에게 가시 영역 안에 있고 대상이 암살자로부터 30피트 이내에 머무는 한, 해당 대상에 대한 추가 기도 공격은 자동으로 대상이 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 됩니다.</p>"
         },
         "Jq0fBMKrpfIbsrdJ": {
           "name": "암습 (Sneak Attack)",
-          "description": "<p>붉은 메뚜기 암살자는 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태의 생물에게 추가로 2d6 정밀도 피해를 입힙니다.</p>"
+          "description": "<p>레드 맨티스 암살자는 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태의 생물에게 추가로 2d6 정밀도 피해를 입힙니다.</p>"
         },
         "I2Or0WEkwOz7GPKE": {
           "name": "기습 공격 (Surprise Attack)",
@@ -376,7 +376,7 @@
         },
         "ZjESRQunTVjwTe9r": {
           "name": "기도 공격 (Prayer Attack)",
-          "description": "<p><strong>요구 조건</strong> 드론크는 양손에 톱니 모양의 검을 들고 있습니다.</p><hr /><p><strong>효과</strong> 드론욱의 공모자가 @UUID[Compendium.pf2e.actionspf2e.Item.QNAVeNKtHA0EUw4X]{위장} 30피트 이내의 적을 위장합니다. 위장이 성공하면 드론욱이 해당 턴에 같은 손의톱 모양의 검으로 다음 성공적인 공격을 가할 때 대상에게 2d6 지속 출혈 피해를 입힙니다. 또한, 드론욱이 해당 목표물에게 가시范围内에 있고 해당 목표물이 드론욱으로부터 30피트 이내에 머무는 한, 해당 목표물에 대한 추가적인 기도 공격은 자동으로 해당 목표물이 드론욱의 공격에 대해 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 되도록 합니다. 이 상태는 해당 목표물의 턴이 끝날 때까지 지속됩니다.</p>"
+          "description": "<p><strong>요구 조건</strong> 드론크는 양손에 톱니 모양의 검을 들고 있습니다.</p><hr /><p><strong>효과</strong> 드론욱의 공모자가 @UUID[Compendium.pf2e.actionspf2e.Item.QNAVeNKtHA0EUw4X]{위장} 30피트 이내의 적을 위장합니다. 위장이 성공하면 드론욱이 해당 턴에 같은 손의톱 모양의 검으로 다음 성공적인 공격을 가할 때 대상에게 2d6 지속 출혈 피해를 입힙니다. 또한, 드론욱이 해당 목표물에게 가시 영역 안에 있고 해당 목표물이 드론욱으로부터 30피트 이내에 머무는 한, 해당 목표물에 대한 추가적인 기도 공격은 자동으로 해당 목표물이 드론욱의 공격에 대해 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 되도록 합니다. 이 상태는 해당 목표물의 턴이 끝날 때까지 지속됩니다.</p>"
         },
         "u0Kt59xTkNBIyD9r": {
           "name": "You're Next",
@@ -675,7 +675,7 @@
         },
         "aGMOmLFBjmLdTvXg": {
           "name": "기도 공격 (Prayer Attack)",
-          "description": "<p><strong>요구 사항</strong> 사비야는 양손에톱니 모양의 검을 휘두릅니다</p><hr /><p><strong>효과</strong> 사비야는 30피트 이내의 적을 @UUID[Compendium.pf2e.actionspf2e.Item.QNAVeNKtHA0EUw4X]{위장} 시도합니다. Feint가 성공하면, 해당 턴에 사비야가 같은 손의톱톱 검으로 다음 성공적인 공격을 가할 경우 대상에게 2d6 지속 출혈 피해를 입힙니다. 또한, 사비야가 해당 대상에게 가시范围内에 있고 해당 대상이 사비야로부터 30피트 이내에 머무는 한, 해당 대상에 대한 추가 기도 공격은 자동으로 대상이 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 됩니다.</p>"
+          "description": "<p><strong>요구 사항</strong> 사비야는 양손에톱니 모양의 검을 휘두릅니다</p><hr /><p><strong>효과</strong> 사비야는 30피트 이내의 적을 @UUID[Compendium.pf2e.actionspf2e.Item.QNAVeNKtHA0EUw4X]{위장} 시도합니다. Feint가 성공하면, 해당 턴에 사비야가 같은 손의톱톱 검으로 다음 성공적인 공격을 가할 경우 대상에게 2d6 지속 출혈 피해를 입힙니다. 또한, 사비야가 해당 대상에게 가시 영역 안에 있고 해당 대상이 사비야로부터 30피트 이내에 머무는 한, 해당 대상에 대한 추가 기도 공격은 자동으로 대상이 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 됩니다.</p>"
         },
         "mdKo7Zuwghmmq3Qw": {
           "name": "Vernai Training",
@@ -1030,10 +1030,10 @@
       "blurb": "남성 인간 알케미스트",
       "items": {
         "16so9TCjtPPMdXex": {
-          "name": "알케미스트의 불꽃 (Alchemist's Fire)"
+          "name": "연금술사의 불 (Alchemist's Fire)"
         },
         "i849700ygaPzcllL": {
-          "name": "공포의 암풀 (Dread Ampoule)",
+          "name": "공포의 앰플 (Dread Ampoule)",
           "description": "<p>플러스 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 1}</p>"
         },
         "TvqKYL7C4Pb2wlN2": {
@@ -1048,7 +1048,7 @@
         },
         "8W4cMyLsaFY27rTo": {
           "name": "강화 아이템 (Infused Items)",
-          "description": "<p>시로나는 다음 강화 아이템을 소지하고 있으며, 이는 24시간 동안 또는 그가 다음 일일 준비를 할 때까지 지속됩니다:</p>\n<p>12 @UUID[Compendium.pf2e.equipment-srd.Item.n5yTlTs63o53n3k6]{Alchemist's Fire (Greater)}</p>\n<p>3 @UUID[Compendium.pf2e.equipment-srd.Item.PWh9oBvwMmItEmHH]{혈안의 엘릭서 (강화형)}</p>\n<p>12 @UUID[Compendium.pf2e.equipment-srd.Item.kpJmjm843vaMZjIu]{공포의 암풀 (강화형)}</p>\n<p>10 @UUID[Compendium.pf2e.equipment-srd.Item.AmxSqEoFhRLMYd1W]{생명 엘릭서 (대형)}</p>\n<p>5 @UUID[Compendium.pf2e.equipment-srd.Item.5Qkz4RVJr2Kx3RL6]{접착 폭탄 (강화)}</p>"
+          "description": "<p>시로나는 다음 강화 아이템을 소지하고 있으며, 이는 24시간 동안 또는 그가 다음 일일 준비를 할 때까지 지속됩니다:</p>\n<p>12 @UUID[Compendium.pf2e.equipment-srd.Item.n5yTlTs63o53n3k6]{Alchemist's Fire (Greater)}</p>\n<p>3 @UUID[Compendium.pf2e.equipment-srd.Item.PWh9oBvwMmItEmHH]{혈안의 엘릭서 (강화형)}</p>\n<p>12 @UUID[Compendium.pf2e.equipment-srd.Item.kpJmjm843vaMZjIu]{공포의 앰플 (강화형)}</p>\n<p>10 @UUID[Compendium.pf2e.equipment-srd.Item.AmxSqEoFhRLMYd1W]{생명 엘릭서 (대형)}</p>\n<p>5 @UUID[Compendium.pf2e.equipment-srd.Item.5Qkz4RVJr2Kx3RL6]{접착 폭탄 (강화)}</p>"
         },
         "mfCyLbBevVHA2r4o": {
           "name": "빠른 폭탄 투척자 (Quick Bomber)",
@@ -1139,7 +1139,7 @@
     },
     "Valkyrie Tempest": {
       "name": "발키리 폭풍 (Valkyrie Tempest)",
-      "hpdetails": "문턱 208 (3 세그먼트), 104 (2 세그먼트);",
+      "hpdetails": "임계점 208 (3 세그먼트), 104 (2 세그먼트);",
       "languages": "레이븐스피커, 트루스피치",
       "items": {
         "Ge5MRMK0YbZl08NH": {
@@ -1150,7 +1150,7 @@
         },
         "kfFXgHkKBK6ccz1L": {
           "name": "부대 방어 (Troop Defenses)",
-          "description": "<p><strong>임계값</strong> 208 (3 세그먼트), 104 (2 세그먼트)</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
+          "description": "<p><strong>임계점</strong> 208 (3 세그먼트), 104 (2 세그먼트)</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
         },
         "g1YVpuP2VrpAdcDq": {
           "name": "Bolster the Wounded",
@@ -1249,7 +1249,7 @@
       }
     },
     "Mantis Keeper": {
-      "name": "메뚜기 수호자 (Mantis Keeper)",
+      "name": "사마귀 수호자 (Mantis Keeper)",
       "blurb": "성별 없는 잎 레시 드루이드",
       "saves": "독에 대한 +1 상태",
       "items": {
@@ -1260,8 +1260,8 @@
           "name": "독에 대한 모든 내성 검사 +1 상태 (+1 Status to All Saves vs. Poison)"
         },
         "GLMC65Xb9zK4sC69": {
-          "name": "메뚜기 지휘관 (Mantis Commander)",
-          "description": "<p>Mantis Keeper는 동물 드루이드 계통에 속하지만 단 하나의 동물 동료도 없습니다. 대신 그들은 메디오갈티 섬에 서식하는 치명적인 메타리스에 의해 섬겨지며, 이들에 대한 통제력은 메타리스 돌로 강화됩니다. 어떤 순간에도 Mantis Keeper는 이 거대한 곤충 두 마리에 의해 동반됩니다. 각 곤충은 Mantis Keeper를 소중한 동맹으로 여깁니다. Mantis Keeper는 그들에게 Wildsong을 말함으로써 어떤 형태의 치명적인 메뚜기와도 소통할 수 있지만, 메뚜기들은 응답할 수 없습니다. 이 치명적인 메뚜기들은 부하 특성을 가지고 있지 않으며, Mantis Keeper는 동물 명령을 사용하지 않고도 그들을 지휘할 수 있습니다-단순히 Wildsong을 통해 명령을 내리는 것은 무료 행동입니다.</p>"
+          "name": "사마귀 지휘관 (Mantis Commander)",
+          "description": "<p>Mantis Keeper는 동물 드루이드 계통에 속하지만 단 하나의 동물 동료도 없습니다. 대신 그들은 메디오갈티 섬에 서식하는 치명적인 메타리스에 의해 섬겨지며, 이들에 대한 통제력은 메타리스 돌로 강화됩니다. 어떤 순간에도 Mantis Keeper는 이 거대한 곤충 두 마리에 의해 동반됩니다. 각 곤충은 Mantis Keeper를 소중한 동맹으로 여깁니다. Mantis Keeper는 그들에게 Wildsong을 말함으로써 어떤 형태의 치명적인 사마귀와도 소통할 수 있지만, 사마귀들은 응답할 수 없습니다. 이 치명적인 사마귀들은 부하 특성을 가지고 있지 않으며, Mantis Keeper는 동물 명령을 사용하지 않고도 그들을 지휘할 수 있습니다-단순히 Wildsong을 통해 명령을 내리는 것은 무료 행동입니다.</p>"
         },
         "Xa7rIljERPt7AqmZ": {
           "name": "Mantis Stone Stride",
@@ -1273,7 +1273,7 @@
         },
         "F1ncI2dON8l3re0H": {
           "name": "녹색 낫 (Verdant Scythe)",
-          "description": "<p>Mantis Keeper는 특별한 녹색 무기로 사용하기 위해 독특한 씨앗을 재배했습니다. 이 능력을 활성화하면 종자가 낫으로 변형되거나, 낫이 다시 종자로 변형됩니다. 이 낫은 완전히 나무로 만들어진 것처럼 보이며, 공격 시 짧은 상단 칼날이 메뚜기 같은 긴 팔로 연장됩니다. 나무로 만들어졌음에도 불구하고, 메뚜기 수호자의 녹색 낫은 칼날이 철로 만들어진 것처럼 기능합니다. 만약 그들이 죽으면 무기는 빠르게 썩어 없어지며, 무기의 특성이 새겨진 룬 문양이 새겨진 씨앗을 남깁니다.</p>"
+          "description": "<p>Mantis Keeper는 특별한 녹색 무기로 사용하기 위해 독특한 씨앗을 재배했습니다. 이 능력을 활성화하면 종자가 낫으로 변형되거나, 낫이 다시 종자로 변형됩니다. 이 낫은 완전히 나무로 만들어진 것처럼 보이며, 공격 시 짧은 상단 칼날이 사마귀 같은 긴 팔로 연장됩니다. 나무로 만들어졌음에도 불구하고, 사마귀 수호자의 녹색 낫은 칼날이 철로 만들어진 것처럼 기능합니다. 만약 그들이 죽으면 무기는 빠르게 썩어 없어지며, 무기의 특성이 새겨진 룬 문양이 새겨진 씨앗을 남깁니다.</p>"
         }
       }
     },
@@ -1414,7 +1414,7 @@
     },
     "Silver Saber": {
       "name": "Silver Saber",
-      "description": "<p>이 구조물은 수백 년 전에 레드 만티스 마법사들에 의해 제작되었으며, 암살자 교단이 라하두움을 떠난 직후 아차에케크의 사제들에 의해 신성한 보호자로 지능을 부여받았습니다. 실버 사버의 유일한 목적은 피의 여주인의 비밀을 자격 없는 자들로부터 지키는 것입니다.</p>\n<p>휴식 중에는 화려한 거울처럼 보이지만, 전투에서 맞서면 광택이 나는 거의 액체 같은 은으로 이루어진 기도하는 메뚜기 형태로 변형됩니다. 얼굴은 빈 인간형 얼굴을 가지고 있습니다.</p><h2>거울로서의 삶</h2><p>실버 세이버는 아차에케크의 추종자들을 수세기 동안 지켜봐 왔습니다. 금빛 프레임 속에 앉아 거울인 척하며 말이죠. 그들은 사르자리(Sarzari)에 기록된 것보다 레드 메뚜기의 비밀스러운 삶에 대해 더 많이 알고 있지만, 그들의 목적은 역사를 기록하는 것이 아니라 수호자로 기능하는 것뿐입니다-그 이상도 이하도 아닙니다.</p>",
+      "description": "<p>이 구조물은 수백 년 전에 레드 만티스 마법사들에 의해 제작되었으며, 암살자 교단이 라하두움을 떠난 직후 아차에케크의 사제들에 의해 신성한 보호자로 지능을 부여받았습니다. 실버 사버의 유일한 목적은 피의 여주인의 비밀을 자격 없는 자들로부터 지키는 것입니다.</p>\n<p>휴식 중에는 화려한 거울처럼 보이지만, 전투에서 맞서면 광택이 나는 거의 액체 같은 은으로 이루어진 기도하는 사마귀 형태로 변형됩니다. 얼굴은 빈 인간형 얼굴을 가지고 있습니다.</p><h2>거울로서의 삶</h2><p>실버 세이버는 아차에케크의 추종자들을 수세기 동안 지켜봐 왔습니다. 금빛 프레임 속에 앉아 거울인 척하며 말이죠. 그들은 사르자리(Sarzari)에 기록된 것보다 레드 맨티스의 비밀스러운 삶에 대해 더 많이 알고 있지만, 그들의 목적은 역사를 기록하는 것이 아니라 수호자로 기능하는 것뿐입니다-그 이상도 이하도 아닙니다.</p>",
       "items": {
         "c4ZDd6QzElgipauV": {
           "name": "다리 (Leg)"

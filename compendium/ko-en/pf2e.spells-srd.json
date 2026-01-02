@@ -54,7 +54,7 @@
       "time": "1"
     },
     "Achaekek's Clutch": {
-      "name": "아차에케크의 둥지 (Achaekek's Clutch)",
+      "name": "아차에케크의 손아귀 (Achaekek's Clutch)",
       "description": "<p>당신은 대상의 몸에 눈에 띄는 위치에 아차에케크의 성스러운 상징을 새깁니다.</p>\n<hr />\n<p><strong>대성공</strong> 대상은 영향을 받지 않습니다.</p>\n<p><strong>대성공</strong> 대상은 아차에케크의 상징으로 표시됩니다. 1분 동안, 대상이 라운드당 처음으로 @UUID[Compendium.pf2e.conditionitems.Item.lDVqvLKA6eF3Df60]{지속적 출혈 피해}를 입을 때마다, 사마귀 발톱이 상징에서 자라나 긁어내며 해당 절단 피해를 즉시 받는다.</p>\n<p><strong>실패</strong> 성공 시와 동일하나, 저주의 지속 시간이 무제한으로 연장됩니다.</p>\n<p><strong>대실패</strong> 실패 시와 동일하나, 대상이 지속 출혈 피해를 제거하기 위한 플랫 체크 난이도가 20으로 상승합니다 (특별히 효과적인 지원 시 15).</p>",
       "range": "30피트",
       "target": "1개 생물",
@@ -6159,7 +6159,7 @@
     },
     "Ignition": {
       "name": "점화 (Ignition)",
-      "description": "<p>손가락을 튕기며 목표물을 가리키면, 그곳에서 연기가 피어오르기 시작한다. 목표물의 AC를 상대로 주문 공격 굴림을 수행하여, 명중 시 2d4 화염 피해를 입힌다. 표적이 근접 공격 범위 내에 있다면, 원거리 주문 공격 대신 화염으로 근접 주문 공격을 선택할 수 있으며, 이 경우 모든 주문 피해 주사위가 d6으로 증가한다.</p><hr /><p><strong>대성공 </strong> 대상은 두 배의 피해를 받고 1d4 지속 화상 피해를 입습니다.</p>\n<p><strong>성공</strong> 대상은 전체 피해를 받습니다.</p><hr /><p><strong>강화 (+1) </strong> 초기 피해가 1d4 증가하고, 치명타 시 지속 화상 피해가 1d4 증가합니다.</p>\n<p>@Damage[(@item.rank)d4[persistent,fire]]{지속 화상 피해 스케일링}</p>\n⟬T0019 ⟭@Damage[(@item.rank)d6[persistent,fire]]{지속 화염 피해 확장 (근접)}</p>",
+      "description": "<p>손가락을 튕기며 목표물을 가리키면, 그곳에서 연기가 피어오르기 시작한다. 목표물의 AC를 상대로 주문 공격 굴림을 수행하여, 명중 시 2d4 화염 피해를 입힌다. 표적이 근접 공격 범위 내에 있다면, 원거리 주문 공격 대신 화염으로 근접 주문 공격을 선택할 수 있으며, 이 경우 모든 주문 피해 주사위가 d6으로 증가한다.</p><hr /><p><strong>대성공 </strong> 대상은 두 배의 피해를 받고 1d4 지속 화상 피해를 입습니다.</p>\n<p><strong>성공</strong> 대상은 전체 피해를 받습니다.</p><hr /><p><strong>강화 (+1) </strong> 초기 피해가 1d4 증가하고, 치명타 시 지속 화상 피해가 1d4 증가합니다.</p>\n<p>@Damage[(@item.rank)d4[persistent,fire]]{지속 화상 피해 스케일링}</p>@Damage[(@item.rank)d6[persistent,fire]]{스케일링 지속 화염 피해 (근접)}</p>",
       "range": "30피트",
       "target": "1개 생물",
       "time": "2",

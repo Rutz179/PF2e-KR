@@ -462,10 +462,10 @@
     "Beiran": {
       "name": "베이란",
       "description": "<p>창백한 푸른 피부와 흰 털을 가진 사악한 베이란 페이는 제1세계의 자식들 중 가장 뻔뻔하게 잔혹한 존재들이다. 흔히 얼음 페이라 불리는 이 겨울의 장난꾸러기들은 어디를 가든 추위를 퍼뜨리려는 욕망에 사디즘적이며 후회하지 않는다. 베이리안은 영하의 기온을 가장 쾌적하게 여긴다. 다른 생명체들이 그런 환경에서 고통받는다는 사실 자체가 그들에게는 즐거움의 일부다. 한 마리의 베이리안이 특정 공간의 온도를 몇 도 이상 변화시키기는 어렵지만, 이들은 매우 사회적인 생물이라 한 번에 수십 마리 미만으로 발견되는 경우는 드물다.</p>\n<p>베이란들은 무례한 성격을 전혀 부끄러워하지 않지만, 오직 한 종류의 생물 앞에서는 무조건 복종하며 명령을 따릅니다: 겨울 마녀들입니다. 알 수 없는 이유로 베이란들은 특히 이 마녀들에게 복종하며 종종 무리를 지어 한 명에게 몰려듭니다. 겨울 마녀의 지배 아래에서 이 페이들은 고통받는 마을에 닥친 혹독한 한파를 더욱 악화시킵니다. 불은 꺼지고, 나무는 망가지고, 식량은 도둑맞는다. 이 모든 것이 겨울 마녀의 신비로운 취향과 기쁨 없는 풍경을 선호하는 성향에 부합한다. 베이란이 이 관계에서 무엇을 얻는지는 불분명하지만, 일부 페이 학자들은 최초의 베이란이 겨울 마녀에 의해 창조되었을 가능성을 제기한다. 마치 녹색 인간이 레시를 창조한 방식과 유사하게 말이다.</p>\n<p>베이란은 이리젠이나 린노름 왕국 같은 북부 지방에서 가장 흔하지만, 놀랍게도 빛나는 왕국에도 존재한다. 이리젠의 엘바나 여왕이 이리젠의 영원한 겨울로 통하는 문을 열었을 때, 그들 중 몇몇이 탈도르의 헬드렌 마을에 도착했고, 오늘날까지도 일부는 그 주변 숲을 배회한다. 팔콘스 할로우에서는 18년 전, 특히 사악한 베이란 무리가 '눈물의 카니발'에 연루되었다. 이 얼음 서커스는 모험가들이 해체하기 전까지 수많은 마을 주민을 죽인 채 사라졌다. 쿄닌의 겨울은 종종 탱글브라이어에서 밀려드는 핀드-물든 베이란 떼로 예고되며, 와일더하트들은 수개월 동안 페이 퇴치 임무에 매달리게 된다.</p>",
-      "hpdetails": "(4개 구간); 문턱 36 (3개 구간), 18 (2개 구간)",
+      "hpdetails": "(4개 구간); 임계점 36 (3개 구간), 18 (2개 구간)",
       "items": {
         "y6OOfJKVywuuZxfY": {
-          "name": "부대 방어 체계"
+          "name": "부대 방어"
         },
         "10NIbFTHYeYJMem1": {
           "name": "부대 이동력"
@@ -475,8 +475,8 @@
           "description": "<p>서리사냥꾼이 가는 곳마다 겨울이 뒤따른다. 서리사냥꾼으로부터 1/4마일 이내의 기온은 온화한 추위로 떨어지며, 500피트 이내에서는 심한 추위로, 50피트 이내에서는 극한의 추위로 변한다.</p>"
         },
         "ZDzU7OGDwh9lQTjx": {
-          "name": "발동 빈도 라운드당 1회효과 베이란들은 먹잇감 위로 내려와  범위 내의 각 적을 물어뜯고 할퀴며,  내성 검사를 받는다. 피해량은 행동 횟수에 따라 달라진다.\n1 ,1[냉기]|옵션:범위-피해]{1d6 베기 피해 + 1 냉기 피해}\n2 ,1d4[냉기]|옵션:범위 피해]{2d6+2 베기 피해 + 1d4 냉기 피해}\n3 ,1d4[냉기]|옵션:범위 피해]{2d6+5 냉기 피해 + 1d4 냉기 피해}",
-          "description": "<p><strong>Frequency</strong> once per round</p><hr /><p><strong>Effect</strong> The beirans descend on their prey, biting and clawing at each enemy in a @Template[type:emanation|distance:5], with a @Check[reflex|dc:17|basic|options:area-effect] save. The damage depends on the number of actions.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[1d6[slashing],1[cold]|options:area-damage]{1d6 slashing damage plus 1 cold damage}</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d6+2)[slashing],1d4[cold]|options:area-damage]{2d6+2 slashing damage plus 1d4 cold damage}</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(2d6+5)[cold],1d4[cold]|options:area-damage]{2d6+5 cold damage plus 1d4 cold damage}</p>"
+          "name": "얼음 장난",
+          "description": "<p><strong>사용 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 베이란들이 먹잇감 위로 내려와 @Template[type:emanation|distance:5] 범위 내의 각 적을 물어뜯고 할퀴며, @Check[reflex|dc:17|basic|options:area-effect] 저항 검사를 수행합니다. 피해량은 행동 횟수에 따라 달라집니다.</p><p><span class=\"action-glyph\">1</span> @Damage[1d6[베기],1[냉기]|options:area-damage]{1d6 베기 피해 + 1 냉기 피해}</p><p><span class=\"action-glyph\">2</span> @Damage[ (2d6+2)[베기],1d4[냉기]|options:area-damage]{2d6+2 베기 피해 + 1d4 냉기 피해}</p><p><span class=\"action-glyph\">3</span> @Damage[(2d6+5)[냉기],1d4[냉기]|options:area-damage] {2d6+5 냉기 피해 + 1d4 냉기 피해}</p>"
         }
       }
     },
