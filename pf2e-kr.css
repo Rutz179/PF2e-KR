@@ -1,27 +1,80 @@
-/* ======================================================================== */
-/*  Foundry VTT – Korean UI + Font Awesome 호환 아이콘 + 취소선 문제 해결     */
-/* ======================================================================== */
+/* ------------------------------------------------------------------------ */
+/* 0. 폰트 불러오기                                                           */
+/* ------------------------------------------------------------------------ */
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap');
 
 /* ------------------------------------------------------------------------ */
-/* 0. 본문 글꼴 – 한글 + 라틴 계열 혼용                                      */
+/* 1. 시스템 전체 폰트 교체                                                    */
 /* ------------------------------------------------------------------------ */
-@import url("https://fonts.googleapis.com/css2?family=Noto+Sans+KR:wght@400;700&display=swap");
-
-body,
-button,
-input,
-select,
-textarea {
-  font-family: "Noto Sans KR", "Signika", sans-serif;
-  word-break: keep-all;
-  -webkit-font-smoothing: antialiased;
+body, div, p, span, select, button, input, label, header, a, li, option, textarea, .window-app {
+    font-family: 'Gowun Batang', serif !important;
+    font-weight: 700; 
+    text-shadow: 0 0 0.3px rgba(0,0,0,0.2); 
+    
+    word-break: keep-all;
+    -webkit-font-smoothing: antialiased;
 }
 
 /* ------------------------------------------------------------------------ */
-/* 1. Font Awesome 아이콘 – 클래스 전용 (태그 구분 없음)                     */
+/* 1-1.  볼드체 구분                                                          */
 /* ------------------------------------------------------------------------ */
+strong, b, h1, h2, h3, h4, h5, h6, th, .header {
+    font-family: 'Gowun Batang', serif !important;
+    font-weight: 700 !important; 
+    text-shadow: 0 0 0.5px rgb(0, 0, 0); 
+}
+
+/* ------------------------------------------------------------------------ */
+/* 1-2. 투명 태그(Transparent Tag) 색상 변경                                  */
+/* ------------------------------------------------------------------------ */
+span.tag.tag_transparent {
+    color: #1d4e89 !important;     
+    font-weight: 700 !important;
+    text-shadow: 0 0 0.3px #061220; 
+    font-size: 1.01em; /* 살짝 키움 */
+      background: rgba(252, 252, 252, 0.39) !important; 
+      border: 1px solid rgba(0,0,0,0.1) !important; 
+      border-radius: 3px; 
+}
+
+/* ------------------------------------------------------------------------ */
+/* 1-3. 아이템 이름                                                           */
+/* ------------------------------------------------------------------------ */
+span.tag.tag_transparent {
+    color: #1d4e89 !important;     
+    font-weight: 700 !important;
+    text-shadow: 0 0 0.3px #061220; 
+    font-size: 1.01em; /* 살짝 키움 */
+      background: rgba(252, 252, 252, 0.39) !important; 
+      border: 1px solid rgba(0,0,0,0.1) !important; 
+      border-radius: 3px; 
+}
+
+/* ------------------------------------------------------------------------ */
+/* 1-4. 트레잇 설명                                                           */
+/* ------------------------------------------------------------------------ */
+aside {
+    font-family: 'Gowun Batang', serif !important;
+    font-weight: 400; 
+    text-shadow: 0 0 0.3px rgba(0,0,0,0.2); 
+}
+
+/* ------------------------------------------------------------------------ */
+/* 2. Font Awesome 아이콘 보호 (기존 코드 유지)                               */
+/* ------------------------------------------------------------------------ */
+
 .fa, .fas, .far, .fal, .fab,
-.fa-solid, .fa-regular, .fa-light, .fa-duotone, .fa-brands {
+.fa-solid, .fa-regular, .fa-light, .fa-brands,
+button .fa, button .fas, button .far, button .fab,
+
+span.fa, span.fas, span.far, 
+i.fa, i.fas, i.far,
+
+span.fa-solid, span.fa-regular, span.fa-brands, span.fa-light, 
+i.fa-solid, i.fa-regular, i.fa-brands, i.fa-light, 
+
+span.icon, span.icon.fa-solid, i.icon
+{
   font-family:
     "Font Awesome 6 Pro",
     "Font Awesome 6 Free",
@@ -29,98 +82,68 @@ textarea {
     "Font Awesome 5 Free",
     "FontAwesome",
     sans-serif !important;
+  font-weight: 900 !important;
   font-style: normal !important;
-  -webkit-font-smoothing: antialiased;
+  text-decoration: none;
+  text-shadow: none !important; /* 아이콘엔 그림자 제거 */
 }
 
-/* 아이콘 weight 보정 */
-.fas, .fa-solid        { font-weight: 900 !important; } /* Solid */
-.far, .fa-regular      { font-weight: 400 !important; } /* Regular */
-.fal, .fa-light        { font-weight: 300 !important; } /* Light (Pro) */
-.fad, .fa-duotone      { font-weight: 900 !important; } /* Duotone */
-.fab, .fa-brands       { font-weight: 400 !important; } /* Brands */
-
-/* Duotone/Brands 전용 폰트 재정의 */
-.fad, .fa-duotone {
-  font-family: "Font Awesome 6 Duotone", sans-serif !important;
+/* (B) 듀오톤 아이콘 (Duotone) 전용 폰트 적용 */
+.fad, .fa-duotone, 
+span.fa-duotone, i.fa-duotone,
+span.fad, i.fad { 
+    font-family: "Font Awesome 6 Duotone", "Font Awesome 5 Duotone", sans-serif !important; 
+    font-weight: 900 !important;
+    font-style: normal !important;
+    text-shadow: none !important;
 }
 
-.fab, .fa-brands {
-  font-family: "Font Awesome 6 Brands", sans-serif !important;
+/* 브랜드 및 레귤러 아이콘 보정 */
+/* Regular (빈 동그라미 등) */
+.far, .fa-regular, 
+span.fa-regular, i.fa-regular,
+i.fa-regular.fa-circle { /* 콕 집어서 추가 */
+    font-weight: 400 !important; 
 }
 
-/* ::before 가상요소에도 상속 */
-.fa::before, .fas::before, .far::before,
-.fal::before, .fab::before, .fad::before {
-  font-family: inherit;
-  font-style: normal;
+/* Light (더 얇은 아이콘) */
+.fal, .fa-light, span.fa-light, i.fa-light { 
+    font-weight: 300 !important; 
+}
+
+/* Brands (페이스북, 트위터 로고 등) */
+.fab, .fa-brands, span.fa-brands, i.fa-brands { 
+    font-family: "Font Awesome 6 Brands", sans-serif !important; 
+    font-weight: 400 !important;
 }
 
 /* ------------------------------------------------------------------------ */
-/* 2. 아이콘이 아닌 일반 텍스트(span) 보호: 버튼 내부 텍스트 등             */
+/* 3. PF2e 시스템 전용 아이콘 보호                                           */
 /* ------------------------------------------------------------------------ */
-button span.fa,
-button span.fas,
-button span.far,
-button span.fal,
-button span.fab,
-button span.fa-solid,
-button span.fa-regular,
-button span.fa-light,
-button span.fa-brands,
-button span.fa-duotone {
-  font-family: inherit !important;
-  font-weight: inherit !important;
+.window-app .action-glyph, span.action-glyph,
+.window-app .pf2-icon {
+    font-family: "Pathfinder2eActions" !important;
+    text-shadow: none !important;
 }
 
 /* ------------------------------------------------------------------------ */
-/* 3. Foundry 결과 텍스트 스타일 복구 (성공/실패/조정 등)                    */
+/* 4. Foundry 결과 텍스트 색상 (성공/실패)                                    */
+/* ------------------------------------------------------------------------ */
+span.success, span.failure, span.adjusted, span.unadjusted, span[data-tooltip] {
+  font-family: 'Gowun Batang', serif !important;
+  font-weight: 700 !important;
+}
+span.unadjusted, span.failure.unadjusted { text-decoration: line-through; color: #d00; }
+span.adjusted.success { color: #080; }
+span.adjusted.criticalSuccess { color: #006400; }
+span.adjusted.failure { color: #b22222; }
+span.adjusted.criticalFailure { color: #8b0000; }
+
+/* ------------------------------------------------------------------------ */
+/* 5. Foundry 채팅창 조정                                                    */
 /* ------------------------------------------------------------------------ */
 
-/* 공통 텍스트 보호 및 색상 상속 */
-span.success,
-span.failure,
-span.adjusted,
-span.unadjusted,
-span[data-tooltip] {
-  font-family: "Noto Sans KR", "Signika", sans-serif !important;
-  font-weight: 600;
-  text-decoration: none;
+/* 채팅 메시지 내용의 줄 간격 조정 */
+.chat-message .message-content {
+    line-height: 1.6;  /* 숫자가 클수록 간격이 넓어집니다 (기본값은 보통 1.2~1.4) */
 }
-
-/* 조정 전 결과 (취소선 강조) */
-span.unadjusted,
-span.failure.unadjusted {
-  text-decoration: line-through;
-  color: #d00;  /* 실패 계열 강조색 */
-}
-
-/* 조정 후 성공 */
-span.adjusted.success {
-  text-decoration: none;
-  color: #080;
-}
-
-/* 조정 후 대성공 */
-span.adjusted.criticalSuccess {
-  text-decoration: none;
-  color: #006400;
-}
-
-/* 조정 후 실패 */
-span.adjusted.failure {
-  text-decoration: none;
-  color: #b22222;
-}
-
-/* 조정 후 대실패 */
-span.adjusted.criticalFailure {
-  text-decoration: none;
-  color: #8b0000;
-}
-
-/* ── NPC·PC 시트 내부에서도 무조건 아이콘 폰트 적용 ───────────────────── */
-.window-app .action-glyph,
-.window-app .pf2-icon      { font-family: "Pathfinder2eActions" !important; }
-
-
