@@ -81,7 +81,7 @@
       "name": "폭발성 크리스탈 구체",
       "hpdetails": "BT 27",
       "desc (hazard)": "<p>반짝이는 글리프가 새겨진 지름 2피트의 결정 구슬이 공중에서 반짝이며 응축되어 침입자에게 폭발적인 힘으로 발사됩니다.</p>",
-      "disable": "<p>@Check[thievery|dc:25] (전문가)로 수정 구체를 생성하는 여섯 위치 중 하나에 위치한 작은 활성화 룬을 찾아 파괴하거나, @Check[arcana|dc:28] (전문가) 또는 @Check[occultism|dc:28] (전문가)로 해당 위치의 마법 에너지를 조작하여 수정 구체를 무력화하거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제} (3단계; 저항 DC 22)를 사용하여 크리스탈 구형 생성 지점 중 하나를 반격합니다</p>",
+      "disable": "<p>@Check[thievery|dc:25] (전문가)로 수정 구체를 생성하는 여섯 위치 중 하나에 위치한 작은 활성화 룬을 찾아 파괴하거나, @Check[arcana|dc:28] (전문가) 또는 @Check[occultism|dc:28] (전문가)로 해당 위치의 마법 에너지를 조작하여 수정 구체를 무력화하거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(3단계; 저항 DC 22)를 사용하여 크리스탈 구형 생성 지점 중 하나를 반격합니다</p>",
       "routine": "<p>(6 행동) 함정의 각 행동 시, 해당 턴 동안 아직 행동을 취하지 않은 수정 구체는 외곽 고리 내 가장 가까운 생물에게 25피트 이동하거나, 25피트 이내의 가시 범위 내 생물을 공격합니다 (결정 구체는 암흑 시야로 목표물을 감지할 수 있습니다). 결정 구체가 목표물을 공격하면, 그 목표물은 구체가 충돌하고 폭발할 때 @Damage[1d6[force]]의 피해를 입습니다. 한 턴에 여러 구체가 같은 생물을 공격할 수 있지만, 구체는 항상 가장 가까운 목표물을 공격합니다. 구체가 공격하고 폭발하면 사라지지만, 다음 턴 시작 시 생성 지점에서 재생성되어 루틴을 계속합니다. 파괴되거나 생성 지점이 무력화된 구체는 사라지며 재생성되지 않고 공격을 계속하지 않으며, 이 방식으로 파괴되거나 무력화된 구체마다 함정은 1개의 행동을 잃습니다.</p>",
       "stealth": "<p>(expert)</p>",
       "items": {
@@ -126,11 +126,11 @@
         },
         "e3MsLR0uK5l51Zvg": {
           "name": "생명력 흡수",
-          "description": "<p>와이트가 발톱 공격으로 살아있는 생물을 피해할 때, 와이트는 3의 임시 체력을 얻고 해당 생물은 @Check[fortitude|dc:25|options:inflicts:drained] 내성 검사 실패 시 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{생명력 1 흡수} 상태가 됩니다. 와이트가 추가로 입힌 피해는 내성 검사 실패 시 흡수량에 1씩 증가하며, 최대 생명력 4까지 흡수됩니다.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.LRIYUFQ7FE9H4RWD]{효과: 생명력 흡수}</p>"
+          "description": "<p>와이트가 발톱 공격으로 살아있는 생물을 피해할 때, 와이트는 3의 임시 체력을 얻고 해당 생물은 @Check[fortitude|dc:25|options:inflicts:drained] 내성 굴림 실패 시 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{생명력 1 흡수} 상태가 됩니다. 와이트가 추가로 입힌 피해는 내성 굴림 실패 시 흡수량에 1씩 증가하며, 최대 생명력 4까지 흡수됩니다.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.LRIYUFQ7FE9H4RWD]{효과: 생명력 흡수}</p>"
         },
         "odphWSrdvx0b9PQE": {
           "name": "뼈 벽을 세우다",
-          "description": "<p><strong>빈도</strong> 하루에 한 번</p>\n<p><strong>요구 조건</strong> 드라즈모르그가 드로스카르의 용광로 하층에 위치해 있습니다</p>\n<hr />\n<p><strong>효과</strong> 드라즈모르는 지역을 감싸고 있는 네크로맨틱 에너지를 흡수해 땅에서 얽힌 뼈의 벽을 일으킵니다. 이 벽은 두께 5피트, 너비 10피트, 높이 10피트이며, 생성된 후에는 Drazmorg가 이 능력을 다시 사용할 때까지 영구적으로 유지됩니다. 이 경우 이전에 생성된 뼈 벽(예: 영역 <strong>G2</strong>에 있는 것)이 무너집니다. 뼈 벽은 AC 10, 경도 10, 25 체력을 가지고 있습니다. 이 벽은 치명타와 정밀 피해에 면역이며, 라운드 종료 시마다 @Damage[2d6[healing]]{2d6 체력}의 피해를 회복합니다. 벽의 양쪽에 있는 모든 것은 반대쪽의 생물로부터 더 큰 은폐 효과를 받으며, 벽은 통과할 수 없습니다. 뼈 벽의 파괴된 부분은 자유롭게 통과할 수 있으며 더 이상 피해를 회복하지 않습니다. 뼈 벽이 생성될 때 공간에 갇힌 생물은 @Check[reflex|dc:25|traits:damaging-effect] 내성 검사를 시도해야 합니다.</p>\n<hr />\n<p><strong>대성공</strong> 생물은 영향을 받지 않으며, 해당 생물이 차지한 어떤 칸에도 뼈 벽이 형성되지 않습니다.</p>\n<p><strong>성공</strong> 생물은 뼈 벽이 이전 위치에 형성되면서 자신의 선택한 인접한 칸으로 강제 이동됩니다.</p>\n<p><strong>실패</strong> 성공과 동일하지만, 생물은 또한 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p>\n<p><strong>대실패</strong> 실패와 동일하지만, 생물은 @Damage[4d6[piercing],4d6[bludgeoning]]{4d6 찌르기 및 4d6 둔기 피해}를 받습니다.</p>"
+          "description": "<p><strong>빈도</strong> 하루에 한 번</p>\n<p><strong>요구 조건</strong> 드라즈모르그가 드로스카르의 용광로 하층에 위치해 있습니다</p>\n<hr />\n<p><strong>효과</strong> 드라즈모르는 지역을 감싸고 있는 네크로맨틱 에너지를 흡수해 땅에서 얽힌 뼈의 벽을 일으킵니다. 이 벽은 두께 5피트, 너비 10피트, 높이 10피트이며, 생성된 후에는 Drazmorg가 이 능력을 다시 사용할 때까지 영구적으로 유지됩니다. 이 경우 이전에 생성된 뼈 벽(예: 영역 <strong>G2</strong>에 있는 것)이 무너집니다. 뼈 벽은 AC 10, 경도 10, 25 체력을 가지고 있습니다. 이 벽은 치명타와 정밀 피해에 면역이며, 라운드 종료 시마다 @Damage[2d6[healing]]{2d6 체력}의 피해를 회복합니다. 벽의 양쪽에 있는 모든 것은 반대쪽의 생물로부터 더 큰 은폐 효과를 받으며, 벽은 통과할 수 없습니다. 뼈 벽의 파괴된 부분은 자유롭게 통과할 수 있으며 더 이상 피해를 회복하지 않습니다. 뼈 벽이 생성될 때 공간에 갇힌 생물은 @Check[reflex|dc:25|traits:damaging-effect] 내성 굴림을 시도해야 합니다.</p>\n<hr />\n<p><strong>대성공</strong> 생물은 영향을 받지 않으며, 해당 생물이 차지한 어떤 칸에도 뼈 벽이 형성되지 않습니다.</p>\n<p><strong>성공</strong> 생물은 뼈 벽이 이전 위치에 형성되면서 자신의 선택한 인접한 칸으로 강제 이동됩니다.</p>\n<p><strong>실패</strong> 성공과 동일하지만, 생물은 또한 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p>\n<p><strong>대실패</strong> 실패와 동일하지만, 생물은 @Damage[4d6[piercing],4d6[bludgeoning]]{4d6 찌르기 및 4d6 둔기 피해}를 받습니다.</p>"
         },
         "U6xYGQ1hJXlEuh1T": {
           "name": "와이트 스폰",
@@ -171,7 +171,7 @@
         },
         "95JYmJT1NNzSvFzg": {
           "name": "우즈 조작",
-          "description": "<p><strong>주파수</strong> 턴당 1회</p>\n<p><strong>Effect</strong> 아이드 우즈는 자신과 같은 레벨 또는 그 이하의 무의식적 우즈 30피트 이내에 있는 우즈의 감각과 충동을 조작하여, 특정 행동을 수행하도록 텔레파시 명령을 내립니다. 명령은 단순해야 하며, 예를 들어 특정 목표를 다른 목표보다 우선하여 공격하라는 지시, 특정 위치에서 자리를 지키며 장소를 보호하라는 지시, 또는 위치와 몸을 조정하여 원시적인 형태나 기호를 형성하라는 지시 등이 포함될 수 있습니다. 조종된 우즈는 다음 차례에 명령을 최대한 수행한 후 정상적인 행동으로 돌아갑니다.</p>"
+          "description": "<p><strong>빈도</strong> 턴당 1회</p>\n<p><strong>Effect</strong> 아이드 우즈는 자신과 같은 레벨 또는 그 이하의 무의식적 우즈 30피트 이내에 있는 우즈의 감각과 충동을 조작하여, 특정 행동을 수행하도록 텔레파시 명령을 내립니다. 명령은 단순해야 하며, 예를 들어 특정 목표를 다른 목표보다 우선하여 공격하라는 지시, 특정 위치에서 자리를 지키며 장소를 보호하라는 지시, 또는 위치와 몸을 조정하여 원시적인 형태나 기호를 형성하라는 지시 등이 포함될 수 있습니다. 조종된 우즈는 다음 차례에 명령을 최대한 수행한 후 정상적인 행동으로 돌아갑니다.</p>"
         },
         "iSpBpe5vgp2lVYWo": {
           "name": "운동 감지 60피트",
@@ -223,15 +223,15 @@
         },
         "15JJzBZFMp6GVUwb": {
           "name": "끈질긴 상처",
-          "description": "<p>바르고일로부터 독 피해를 입은 생물은 @Check[fortitude|dc:18] 내성 검사에 성공하지 못하면 저주받습니다. 저주받은 생물은 마법으로만 HP를 회복할 수 있으며, 해당 생물을 치료하기 위해 주문을 사용하는 자는 DC 18의 반격 체크에 성공해야 합니다. 그렇지 않으면 치료 효과가 없습니다. 바르고일의 반격 등급은 그 생물의 생물 레벨과 동일합니다. 생물은 하루에 한 번 (일반적으로 일일 준비를 할 때) 새로운 @Check[fortitude|dc:18] 내성을 시도하여 이 저주를 해제할 수 있습니다. 저주는 생물이 최대 HP로 회복되면 자동으로 해제됩니다.</p>"
+          "description": "<p>바르고일로부터 독 피해를 입은 생물은 @Check[fortitude|dc:18] 내성 굴림에 성공하지 못하면 저주받습니다. 저주받은 생물은 마법으로만 HP를 회복할 수 있으며, 해당 생물을 치료하기 위해 주문을 사용하는 자는 DC 18의 반격 체크에 성공해야 합니다. 그렇지 않으면 치료 효과가 없습니다. 바르고일의 반격 등급은 그 생물의 생물 레벨과 동일합니다. 생물은 하루에 한 번 (일반적으로 일일 준비를 할 때) 새로운 @Check[fortitude|dc:18] 내성을 시도하여 이 저주를 해제할 수 있습니다. 저주는 생물이 최대 HP로 회복되면 자동으로 해제됩니다.</p>"
         },
         "qxqYcFMkTWTRqN62": {
           "name": "바르고일의 키스",
-          "description": "<p><strong>요구 사항</strong> 바르고일이 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비된}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 잃은}, 또는 동의한 인간형 생물체와 인접해 있습니다.</p>\n<p><strong>효과</strong> 바르고일은 무력하거나 자발적인 인간형 생물에게 연인의 키스를 흉내내며 얼굴을 비빕니다. 해당 생물은 내성 굴림을 시도해야 하며, 실패 시 불안정한 변형으로 바르고일로 변하기 시작합니다. 바르고일의 키스로 인해 발생한 병든, 혼미, 그리고 의식 잃은 상태는 바르고일의 키스에서 비롯된 질병이 치료될 때까지 자연스럽게 개선되지 않습니다. 이 질병은 피해자가 햇빛 아래에 있거나 3등급 이상의 빛 효과 범위 내에 있을 경우 단계가 진행되지 않습니다.</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:18]</p>\n<p><strong>단계 1</strong> 부작용 없음 (2시간)</p>\n<p><strong>단계 2</strong> 피해자의 머리카락이 빠집니다, @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1} (2시간)</p>\n<p><strong>단계 3</strong>피해자의 귀가 날개 모양으로 길어지고 이가 얽히고 날카로워집니다, @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1} (2시간)</p>\n<p><strong>단계 4</strong> 단계 3과 동일하지만, 피해자가 의식을 잃습니다 (2시간)</p>\n<p><strong>단계 5</strong> 사망, 피해자의 머리가 새로운 바르고일로 변형되어 몸에서 분리되어 날아올라 악을 퍼뜨리기 시작합니다.</p>"
+          "description": "<p><strong>요구 사항</strong> 바르고일이 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비된}, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 잃은}, 또는 동의한 인간형 생물체와 인접해 있습니다.</p>\n<p><strong>효과</strong> 바르고일은 무력하거나 자발적인 인간형 생물에게 연인의 키스를 흉내내며 얼굴을 비빕니다. 해당 생물은 내성 굴림을 시도해야 하며, 실패 시 불안정한 변형으로 바르고일로 변하기 시작합니다. 바르고일의 키스로 인해 발생한 병든, 혼미, 그리고 의식 잃은 상태는 바르고일의 키스에서 비롯된 질병이 치료될 때까지 자연스럽게 개선되지 않습니다. 이 질병은 피해자가 햇빛 아래에 있거나 3등급 이상의 빛 효과 범위 내에 있을 경우 단계가 진행되지 않습니다.</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:18]</p>\n<p><strong>단계 1</strong> 부작용 없음 (2시간)</p>\n<p><strong>단계 2</strong> 피해자의 머리카락이 빠집니다, @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1}(2시간)</p>\n<p><strong>단계 3</strong>피해자의 귀가 날개 모양으로 길어지고 이가 얽히고 날카로워집니다, @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1}(2시간)</p>\n<p><strong>단계 4</strong> 단계 3과 동일하지만, 피해자가 의식을 잃습니다 (2시간)</p>\n<p><strong>단계 5</strong> 사망, 피해자의 머리가 새로운 바르고일로 변형되어 몸에서 분리되어 날아올라 악을 퍼뜨리기 시작합니다.</p>"
         },
         "3Sr9g2tgDUZ4KkF5": {
           "name": "바르고일의 비명",
-          "description": "<p>바르고일은 턱을 끔찍하게 벌리며 불안감을 주는 비명을 지릅니다. 60피트 이내에 있는 모든 생물 중 바르고일을 보고 들을 수 있는 것은 @Check[fortitude|dc:15] 내성 검사를 시도해야 합니다.</p>\n<p><strong>성공</strong> 해당 생물은 영향을 받지 않으며, 24시간 동안 바르고일의 비명으로부터 일시적으로 면역됩니다.</p>\n<p><strong>실패</strong> 생물은 다음 차례가 끝날 때까지 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비} 상태가 됩니다.</p>\n<p><strong>대실패</strong> 생물은 마비됩니다. 각 턴 종료 시 새로운 내성 검사를 시도할 수 있으며, 각 검사 시 DC는 1씩 누적 감소합니다.</p>"
+          "description": "<p>바르고일은 턱을 끔찍하게 벌리며 불안감을 주는 비명을 지릅니다. 60피트 이내에 있는 모든 생물 중 바르고일을 보고 들을 수 있는 것은 @Check[fortitude|dc:15] 내성 굴림을 시도해야 합니다.</p>\n<p><strong>성공</strong> 해당 생물은 영향을 받지 않으며, 24시간 동안 바르고일의 비명으로부터 일시적으로 면역됩니다.</p>\n<p><strong>실패</strong> 생물은 다음 차례가 끝날 때까지 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비} 상태가 됩니다.</p>\n<p><strong>대실패</strong> 생물은 마비됩니다. 각 턴 종료 시 새로운 내성 굴림을 시도할 수 있으며, 각 검사 시 DC는 1씩 누적 감소합니다.</p>"
         }
       }
     },
@@ -250,9 +250,9 @@
       "name": "자석 돌 함정",
       "hpdetails": "BT 15",
       "desc (hazard)": "<p>마법적인 로드스톤이 방 안의 금속을 자화시키는 전기 화살을 발사합니다.</p>",
-      "disable": "<p>@Check[thievery|dc:18] 함정에서 압력판을 분리하거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제} (2단계, 저항 DC 18)로 함정을 반격합니다.</p>",
+      "disable": "<p>@Check[thievery|dc:18] 함정에서 압력판을 분리하거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(2단계, 저항 DC 18)로 함정을 반격합니다.</p>",
       "reset": "<p>바닥에 서 있거나 자석에 붙어 있는 생물이 없는 라운드의 끝에서 함정이 비활성화됩니다. 바르고일들은 알코브로 돌아가고 문이 닫힙니다. 함정은 1분 후에 자동으로 재설정됩니다.</p>",
-      "routine": "<p>(1 행동) 함정은 자신의 이니셔티브에 따라 문에 강한 자력으로 끌어당겨, 닫혀 있는 북쪽과 서쪽 문이 열리거나, 열려 있는 남쪽과 동쪽 문이 닫히게 합니다. 캐릭터는 이 끌어당김에 맞서 문을 열거나 닫기 위해 성공적인 @Check[athletics|dc:18] 체크를 수행해야 합니다. @UUID[Compendium.pf2e.actionspf2e.Item.SjmKHgI7a5Z9JzBx]{Force Open} 문. 동시에 방 안에 있는 금속 갑옷을 주로 입은 모든 캐릭터는 @Check[reflex|dc:18] 내성 검사를 시도해야 합니다(중간 금속 갑옷을 입은 캐릭터는 이 검사에서 -1 상황 페널티를 받으며, 중갑 금속 갑옷을 입은 캐릭터는 -2 상황 페널티를 받습니다).</p>\n<hr>\n<p><strong>대성공</strong> PC는 영향을 받지 않습니다.</p>\n<p><strong>대성공</strong> PC는 끌어당김을 저항하지만 방을 어려운 지형으로 처리합니다.</p>\n<p><strong>실패</strong> PC는 방을 어려운 지형으로 처리하고 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} 상태가 됩니다. 이미 Prone 상태인 PC는 대신 대실패를 겪습니다.</p>\n<p><strong>대실패</strong> 실패와 동일하지만, PC는 자석석 방향으로 5피트 끌려갑니다. 자석석에 인접한 PC는 대신 자석석에 붙어 고정되며, 함정이 루틴을 계속하는 동안 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{제약} 상태가 됩니다 ([[/act escape dc=18]]).</p>",
+      "routine": "<p>(1 행동) 함정은 자신의 이니셔티브에 따라 문에 강한 자력으로 끌어당겨, 닫혀 있는 북쪽과 서쪽 문이 열리거나, 열려 있는 남쪽과 동쪽 문이 닫히게 합니다. 캐릭터는 이 끌어당김에 맞서 문을 열거나 닫기 위해 성공적인 @Check[athletics|dc:18] 체크를 수행해야 합니다. @UUID[Compendium.pf2e.actionspf2e.Item.SjmKHgI7a5Z9JzBx]{Force Open} 문. 동시에 방 안에 있는 금속 갑옷을 주로 입은 모든 캐릭터는 @Check[reflex|dc:18] 내성 굴림을 시도해야 합니다(중간 금속 갑옷을 입은 캐릭터는 이 검사에서 -1 상황 페널티를 받으며, 중갑 금속 갑옷을 입은 캐릭터는 -2 상황 페널티를 받습니다).</p>\n<hr>\n<p><strong>대성공</strong> PC는 영향을 받지 않습니다.</p>\n<p><strong>대성공</strong> PC는 끌어당김을 저항하지만 방을 어려운 지형으로 처리합니다.</p>\n<p><strong>실패</strong> PC는 방을 어려운 지형으로 처리하고 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} 상태가 됩니다. 이미 Prone 상태인 PC는 대신 대실패를 겪습니다.</p>\n<p><strong>대실패</strong> 실패와 동일하지만, PC는 자석석 방향으로 5피트 끌려갑니다. 자석석에 인접한 PC는 대신 자석석에 붙어 고정되며, 함정이 루틴을 계속하는 동안 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{제약} 상태가 됩니다 ([[/act escape dc=18]]).</p>",
       "items": {
         "HOnVHGqqMyHncYZN": {
           "name": "자계 전기 펄스",
@@ -289,7 +289,7 @@
         },
         "5q62z2h5hdchg2s2": {
           "name": "끔찍한 접근",
-          "description": "<p>부활하지 않은 존재는 기괴한 형태를 변형하여 빠르게 이동합니다. 두 번의 걸음을 내딛습니다. 이 움직임 동안 부활하지 않은 것을 보는 모든 살아있는 생물은 @Check[fortitude|dc:22] 내성 검사에 성공해야 하며, 실패 시 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1} 상태가 됩니다 (대실패 시 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 2}). 이는 정신적 및 시각적 효과입니다. 부활한 존재는 [[/gmr 1d4 #Awful Approach 재충전]]{1d4 라운드} 동안 Awful Approach를 다시 사용할 수 없습니다.</p>"
+          "description": "<p>부활하지 않은 존재는 기괴한 형태를 변형하여 빠르게 이동합니다. 두 번의 걸음을 내딛습니다. 이 움직임 동안 부활하지 않은 것을 보는 모든 살아있는 생물은 @Check[fortitude|dc:22] 내성 굴림에 성공해야 하며, 실패 시 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1} 상태가 됩니다 (대실패 시 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 2}). 이는 정신적 및 시각적 효과입니다. 부활한 존재는 [[/gmr 1d4 #Awful Approach 재충전]]{1d4 라운드} 동안 Awful Approach를 다시 사용할 수 없습니다.</p>"
         }
       }
     },
@@ -320,7 +320,7 @@
     },
     "Grick": {
       "name": "그리크",
-      "description": "<p>벌레 같은 그리크는 거주하는 동굴과 터널을 공포에 떨게 하며, 지하 통로나 지하 도시의 번화한 지역 근처에 숨어 어둠에서 튀어나와 먹이를 잡을 기회를 노립니다. 그리크에게 쓰러진 생물은 현장에서 즉시 먹히지 않습니다. 대신 그릭스는 신선한 먹이를 좁은 굴이나 동굴의 높은 발판에 있는 은신처로 끌고 가며, 그곳에서 자신의 속도로 작은 조각으로 나누어 먹습니다.</p>\n<p>그릭스의 기원은 알려지지 않았습니다. 이 생물들은 원시적인 지능을 가지고 있지만, 사회적 구조는 전혀 없습니다. 대부분의 그리크는 단독으로 발견됩니다. 불운한 여행자들이 소규모 무리의 그리크를 만나더라도, 그 그리크들은 소통하거나 협력하지 않습니다. 각 그리크는 개별 목표를 공격하고 상대방을 쓰러뜨리자마자 전리품을 들고 후퇴합니다. 능숙한 포식자인 그리크는 이상하게도 무기에 저항하는 피부를 가지고 있어 준비가 되지 않은 상대에게 특히 위험합니다. 많은 초보 모험가들이 마법 무기가 없는 무기로 이 생물들을 피해 입히지 못해 그릭의 공격에 희생되었습니다. 그릭에 패밀리어한 자들(특히 드워프, 모록, 츄르가스)은 마법 무기가 없는 경우 가장 좋은 전략이 후퇴하여 더 강력한 또는 마법적인 지원군을 기다리는 것임을 알고 있습니다.</p>\n<p>그릭스는 어두운 색상과 벽을 기어오르는 능력을 이용해 적의 시야에서 벗어나 있다가 기습을 준비할 때까지 숨어 있습니다. 특정 지역에서 식량이 부족해지면 그리크스는 표면으로 이동해 야생에서 먹이를 찾아 돌아다니기도 하지만, 이러한 이동은 거의 항상 필요에 의해 이루어지며, 새로운 지하 굴로 들어갈 수 있는 입구를 찾을 때까지만 지속됩니다. 이 생물들은 어둠과 머리 위의 천장의 편안함을 선호하며, 열린 하늘을 피하고 나무, 낮은 구름, 또는 건물 사이의 그늘을 유지하기 위해 극단적인 노력을 기울입니다.</p>\n<p>어두운 땅의 일부 사회는 그리크를 수호자나 짐 짐승으로 모집하려고 시도했지만, 그들의 지능은 최상급은 아니지만, \"훈련\" 시도를 완강히 저항하고 심지어 원망할 만큼 충분합니다. 대부분의 사회가 할 수 있는 최선은 그리크 수호자가 잘 먹이고 편안하게 유지되도록 하는 것입니다.</p>",
+      "description": "<p>벌레 같은 그리크는 거주하는 동굴과 터널을 공포에 떨게 하며, 지하 통로나 지하 도시의 번화한 지역 근처에 숨어 어둠에서 튀어나와 먹이를 잡을 기회를 노립니다. 그리크에게 쓰러진 생물은 현장에서 즉시 먹히지 않습니다. 대신 그릭스는 신선한 먹이를 좁은 굴이나 동굴의 높은 발판에 있는 은신처로 끌고 가며, 그곳에서 자신의 속도로 작은 조각으로 나누어 먹습니다.</p>\n<p>그릭스의 기원은 알려지지 않았습니다. 이 생물들은 원시적인 지능을 가지고 있지만, 사회적 구조는 전혀 없습니다. 대부분의 그리크는 단독으로 발견됩니다. 불운한 여행자들이 소규모 무리의 그리크를 만나더라도, 그 그리크들은 소통하거나 협력하지 않습니다. 각 그리크는 개별 목표를 공격하고 상대방을 쓰러뜨리자마자 전리품을 들고 후퇴합니다. 능숙한 포식자인 그리크는 이상하게도 무기에 저항하는 피부를 가지고 있어 준비가 되지 않은 상대에게 특히 위험합니다. 많은 초보 모험가들이 마법 무기가 없는 무기로 이 생물들을 피해 입히지 못해 그릭의 공격에 희생되었습니다. 그릭에 익숙한 자들(특히 드워프, 모록, 츄르가스)은 마법 무기가 없는 경우 가장 좋은 전략이 후퇴하여 더 강력한 또는 마법적인 지원군을 기다리는 것임을 알고 있습니다.</p>\n<p>그릭스는 어두운 색상과 벽을 기어오르는 능력을 이용해 적의 시야에서 벗어나 있다가 기습을 준비할 때까지 숨어 있습니다. 특정 지역에서 식량이 부족해지면 그리크스는 표면으로 이동해 야생에서 먹이를 찾아 돌아다니기도 하지만, 이러한 이동은 거의 항상 필요에 의해 이루어지며, 새로운 지하 굴로 들어갈 수 있는 입구를 찾을 때까지만 지속됩니다. 이 생물들은 어둠과 머리 위의 천장의 편안함을 선호하며, 열린 하늘을 피하고 나무, 낮은 구름, 또는 건물 사이의 그늘을 유지하기 위해 극단적인 노력을 기울입니다.</p>\n<p>어두운 땅의 일부 사회는 그리크를 수호자나 짐 짐승으로 모집하려고 시도했지만, 그들의 지능은 최상급은 아니지만, \"훈련\" 시도를 완강히 저항하고 심지어 원망할 만큼 충분합니다. 대부분의 사회가 할 수 있는 최선은 그리크 수호자가 잘 먹이고 편안하게 유지되도록 하는 것입니다.</p>",
       "languages": "어떤 언어라도 말할 수 없습니다",
       "items": {
         "ApMfsHI0r4QcMdC0": {
@@ -433,14 +433,14 @@
         },
         "1ich4lSlipgnuhyC": {
           "name": "절망",
-          "description": "<p>30 피트. 미라 수호자의 절망 아우라 내에 있는 생물체는 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 1} 상태가 됩니다. 이 지역 내에 있는 동안 자연적으로 공포에서 회복될 수 없지만, 지역을 벗어나면 즉시 회복됩니다. 생물이 지역 내에 처음 들어갈 때, 공포로 인한 페널티를 적용한 후 @Check[will|dc:22] 내성 검사에 성공하지 못하면 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비} 상태가 1 라운드 동안 지속됩니다. 생물은 이후 24시간 동안 일시적으로 면역됩니다.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.1bOSJ2LbEC28aI9f]{효과: 절망}</p>"
+          "description": "<p>30 피트. 미라 수호자의 절망 아우라 내에 있는 생물체는 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 1} 상태가 됩니다. 이 지역 내에 있는 동안 자연적으로 공포에서 회복될 수 없지만, 지역을 벗어나면 즉시 회복됩니다. 생물이 지역 내에 처음 들어갈 때, 공포로 인한 페널티를 적용한 후 @Check[will|dc:22] 내성 굴림에 성공하지 못하면 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비} 상태가 1 라운드 동안 지속됩니다. 생물은 이후 24시간 동안 일시적으로 면역됩니다.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.1bOSJ2LbEC28aI9f]{효과: 절망}</p>"
         },
         "ADmvv8bwerUunNDn": {
           "name": "공허 치유"
         },
         "lWRMX2nvHXtnZwZM": {
           "name": "눈부신 썩음",
-          "description": "<p>Cilios의 주먹 공격은 피해를 입힌 대상에게 눈부신 썩음을 유발합니다. 이 질병과 그로 인한 피해는 이 저주가 제거될 때까지 치료할 수 없습니다. 눈먼 썩음에 의해 죽은 생물은 먼지로 변하며, 7등급 @UUID[Compendium.pf2e.spells-srd.Item.kqhPt9344UkcGVYO]{부활} 의식이나 유사한 마법으로만 부활할 수 있습니다.</p>\n<p><strong>내성 굴림</strong> @Check[fortitude|dc:22]</p>\n<hr />\n<p><strong>단계 1</strong> 운반체에 아무런 영향 없이 (1분)</p>\n<p><strong>단계 2</strong> @Damage[4d6[void]] 피해 및 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{눈부심} (1일)</p>\n<p><strong>단계 3</strong> @Damage[4d6[void]] 피해와 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{눈이 멀음} (1일)</p>"
+          "description": "<p>Cilios의 주먹 공격은 피해를 입힌 대상에게 눈부신 썩음을 유발합니다. 이 질병과 그로 인한 피해는 이 저주가 제거될 때까지 치료할 수 없습니다. 눈먼 썩음에 의해 죽은 생물은 먼지로 변하며, 7등급 @UUID[Compendium.pf2e.spells-srd.Item.kqhPt9344UkcGVYO]{부활} 의식이나 유사한 마법으로만 부활할 수 있습니다.</p>\n<p><strong>내성 굴림</strong> @Check[fortitude|dc:22]</p>\n<hr />\n<p><strong>단계 1</strong> 운반체에 아무런 영향 없이 (1분)</p>\n<p><strong>단계 2</strong> @Damage[4d6[void]] 피해 및 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{눈부심}(1일)</p>\n<p><strong>단계 3</strong> @Damage[4d6[void]] 피해와 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{눈이 멀음}(1일)</p>"
         }
       }
     },
@@ -535,7 +535,7 @@
         },
         "2f5j3CGL9JfnJVp2": {
           "name": "Drain Mind",
-          "description": "<p>그림발이 유령의 손으로 살아있는 생물을 공격할 때, 유령은 5의 임시 체력을 얻고, 해당 생물은 @Check[will|dc:24] 내성 검사에 성공하지 못하면 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1} 상태가 됩니다. 유령이 추가로 피해를 입힐 때마다, 내성 검사에 실패할 경우 혼미 값이 1씩 증가하며 최대 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 4}까지 증가합니다. drain mind의 영향을 받은 생물이 완전한 밤의 휴식을 취할 때마다, drain mind로 인한 혼미 값이 1씩 감소합니다.</p>"
+          "description": "<p>그림발이 유령의 손으로 살아있는 생물을 공격할 때, 유령은 5의 임시 체력을 얻고, 해당 생물은 @Check[will|dc:24] 내성 굴림에 성공하지 못하면 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1} 상태가 됩니다. 유령이 추가로 피해를 입힐 때마다, 내성 굴림에 실패할 경우 혼미 값이 1씩 증가하며 최대 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 4}까지 증가합니다. drain mind의 영향을 받은 생물이 완전한 밤의 휴식을 취할 때마다, drain mind로 인한 혼미 값이 1씩 감소합니다.</p>"
         }
       }
     },
@@ -624,7 +624,7 @@
         },
         "yKkkgO4Vj0Xe5cJ7": {
           "name": "스모키 리트리트",
-          "description": "<p><strong>발동 빈도</strong> 시간당 1회</p>\n<p><strong>요구 조건</strong> 제카자크가 적어도 한 명의 적과 인접해 있어야 합니다</p>\n<hr />\n<p><strong>효과</strong> 제카자크는 공포에 질려 독가스를 내뿜으며 비명을 지릅니다. 이 독가스는 그녀 주변에 @Template[emanation|distance:10] 크기의 구역을 채우며, 구역 내 모든 생물에게 은폐 효과를 부여합니다. 또한, 연기에 들어서서 자신의 턴을 시작하는 모든 코볼드가 아닌 생물은 @Check[fortitude|dc:21] 내성 검사에 성공하지 못하면 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1} 상태가 됩니다 (비판적 실패 시 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 2}가 됩니다). 연기는 생성된 후 이동하지 않으며 3 라운드 동안 지속됩니다. 제카자크는 자신의 이동 속도만큼 이동할 수 있지만, 이동을 끝낼 때는 적과 인접하지 않은 공간에 있어야 합니다. 이 주문은 2단계 주문으로 신체적 구성 요소가 필요합니다.</p>"
+          "description": "<p><strong>발동 빈도</strong> 시간당 1회</p>\n<p><strong>요구 조건</strong> 제카자크가 적어도 한 명의 적과 인접해 있어야 합니다</p>\n<hr />\n<p><strong>효과</strong> 제카자크는 공포에 질려 독가스를 내뿜으며 비명을 지릅니다. 이 독가스는 그녀 주변에 @Template[emanation|distance:10] 크기의 구역을 채우며, 구역 내 모든 생물에게 은폐 효과를 부여합니다. 또한, 연기에 들어서서 자신의 턴을 시작하는 모든 코볼드가 아닌 생물은 @Check[fortitude|dc:21] 내성 굴림에 성공하지 못하면 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1} 상태가 됩니다 (비판적 실패 시 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 2}가 됩니다). 연기는 생성된 후 이동하지 않으며 3 라운드 동안 지속됩니다. 제카자크는 자신의 이동 속도만큼 이동할 수 있지만, 이동을 끝낼 때는 적과 인접하지 않은 공간에 있어야 합니다. 이 주문은 2단계 주문으로 신체적 구성 요소가 필요합니다.</p>"
         }
       }
     },
@@ -660,7 +660,7 @@
         },
         "aOE7cRyxzNFEoxMc": {
           "name": "마비",
-          "description": "<p>구울의 공격을 받은 모든 살아있는 엘프가 아닌 생물은 @Check[fortitude|dc:22] 내성 검사에 성공하지 못하면 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비} 상태가 됩니다. 이 생물은 자신의 턴이 끝날 때마다 새로운 내성 검사를 시도할 수 있으며, 이러한 내성 검사마다 DC는 1씩 누적되어 감소합니다.</p>"
+          "description": "<p>구울의 공격을 받은 모든 살아있는 엘프가 아닌 생물은 @Check[fortitude|dc:22] 내성 굴림에 성공하지 못하면 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비} 상태가 됩니다. 이 생물은 자신의 턴이 끝날 때마다 새로운 내성 굴림을 시도할 수 있으며, 이러한 내성 굴림마다 DC는 1씩 누적되어 감소합니다.</p>"
         },
         "q6ky2MX1NHs8dR4W": {
           "name": "빠른 점프",
@@ -700,7 +700,7 @@
       "name": "노동의 구덩이",
       "desc (hazard)": "<p>유령 같은, 엑토플라즘이 흐르는 드워프들의 모습이 주변에서 일하며, 구덩이 속의 살아있는 생물의 몸은 수백 시간의 고된 노동으로 인한 통증으로 아파지기 시작합니다.</p>",
       "disable": "<p>@Check[crafting|dc:21] (전문가) 구덩이를 부끄럽게 만들기 위해 숙련된 예술 기술을 흉내 내거나, @Check[religion|dc:18] (훈련된) 유령을 쫓아내는 것.</p>",
-      "routine": "<p>(1 행동; 신성, 네크로맨시) 드워프들이 계속 노래를 부르고 살아있는 것을 움켜쥐자, 구덩이는 그 안의 모든 살아있는 생물에게 수 시간 동안의 끊임없는 노동으로 인한 고통과 아픔을 전달합니다. 구덩이 안의 모든 생물은 @Check[fortitude|dc:18|traits:divine,necromancy,damaging-effect] 내성 검사를 시도해야 합니다.</p>\n<hr>\n<p><strong>대성공</strong> 생물은 어떤 악영향도 받지 않으며, 이후로 노동의 구덩이의 일상적인 효과에 면역이 됩니다.</p>\n<p><strong>성공</strong> 생물은 어떤 악영향도 받지 않습니다.</p>\n<p><strong>실패</strong> 생물은 @Damage[2d6[void]]의 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 1} 상태가 1 라운드 동안 지속됩니다.</p>\n<p><strong>대실패</strong> 생물은 @Damage[4d6[void]]의 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{피로} 상태가 됩니다.</p>",
+      "routine": "<p>(1 행동; 신성, 네크로맨시) 드워프들이 계속 노래를 부르고 살아있는 것을 움켜쥐자, 구덩이는 그 안의 모든 살아있는 생물에게 수 시간 동안의 끊임없는 노동으로 인한 고통과 아픔을 전달합니다. 구덩이 안의 모든 생물은 @Check[fortitude|dc:18|traits:divine,necromancy,damaging-effect] 내성 굴림을 시도해야 합니다.</p>\n<hr>\n<p><strong>대성공</strong> 생물은 어떤 악영향도 받지 않으며, 이후로 노동의 구덩이의 일상적인 효과에 면역이 됩니다.</p>\n<p><strong>성공</strong> 생물은 어떤 악영향도 받지 않습니다.</p>\n<p><strong>실패</strong> 생물은 @Damage[2d6[void]]의 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 1} 상태가 1 라운드 동안 지속됩니다.</p>\n<p><strong>대실패</strong> 생물은 @Damage[4d6[void]]의 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{피로} 상태가 됩니다.</p>",
       "items": {
         "MkabEUHjU0jF7sU7": {
           "name": "Invite Toil",
@@ -746,7 +746,7 @@
         },
         "dCYLifyyGXBVIqsH": {
           "name": "반응형 몸부림",
-          "description": "<p><strong>트리거</strong> 토쿠아의 공격 범위 내의 생물이 토쿠아에게 근접 공격을 가합니다</p>\n<p><strong>효과</strong> 토크와는 본능적으로 공격으로 돌진하며, 녹아내리는 뜨거운 비늘을 앞으로 밀어냅니다. 공격자는 @Check[reflex|dc:15] 내성 검사를 시도해야 합니다.</p>\n<hr />\n<p><strong>Critical Success</strong> The attacker is unaffected.</p>\n<p><strong>Success</strong> 공격자는 @Damage[1d4[fire]]의 피해를 입습니다.</p>\n<p><strong>실패</strong> 공격자는 @Damage[2d4[fire]]의 피해를 입습니다.</p>\n<p><strong>대실패</strong> 실패와 동일하지만, thoqqua를 공격한 무기가 금속으로 만들어지지 않았거나, 경도가 10을 초과하지 않거나, 불에 저항하거나 불에 면역이 아닌 경우 해당 무기가 파손됩니다.</p>"
+          "description": "<p><strong>트리거</strong> 토쿠아의 공격 범위 내의 생물이 토쿠아에게 근접 공격을 가합니다</p>\n<p><strong>효과</strong> 토크와는 본능적으로 공격으로 돌진하며, 녹아내리는 뜨거운 비늘을 앞으로 밀어냅니다. 공격자는 @Check[reflex|dc:15] 내성 굴림을 시도해야 합니다.</p>\n<hr />\n<p><strong>Critical Success</strong> The attacker is unaffected.</p>\n<p><strong>Success</strong> 공격자는 @Damage[1d4[fire]]의 피해를 입습니다.</p>\n<p><strong>실패</strong> 공격자는 @Damage[2d4[fire]]의 피해를 입습니다.</p>\n<p><strong>대실패</strong> 실패와 동일하지만, thoqqua를 공격한 무기가 금속으로 만들어지지 않았거나, 경도가 10을 초과하지 않거나, 불에 저항하거나 불에 면역이 아닌 경우 해당 무기가 파손됩니다.</p>"
         },
         "9iQozfwhtbNEu8xk": {
           "name": "치명적 발화",
@@ -771,7 +771,7 @@
       "items": {
         "dribA3NvUND91MoC": {
           "name": "Pitfall",
-          "description": "<p><strong>트리거</strong> 생물이 큰 함정의 칸에 들어갈 때;</p>\n<p><strong>효과</strong> 트리거를 유발한 생물은 함정에 떨어지지만, @Check[reflex|dc:18] 내성 검사를 시도하여 @UUID[Compendium.pf2e.actionspf2e.Item.3yoajuKjwHZ9ApUY]{가장자리 잡기}를 시도해 떨어지는 것을 피할 수 있습니다. 실패 시 생물은 눈으로 가득 찬 구덩이로 20피트 떨어집니다. 눈들이 추락을 완화해 20피트 추락은 @Damage[5[bludgeoning]|options:fall-damage]의 피해를 입히지만, 시야를 완전히 가려 구덩이에 머무는 동안 캐릭터는 효과적으로 시력을 잃습니다. 구덩이의 벽은 미끄럽지만, 캐릭터는 성공적인 @Check[athletics|dc:25] 체크를 통과하면 @UUID[Compendium.pf2e.actionspf2e.Item.pprgrYQ1QnIDGZiy]{Climb}로 벽을 오를 수 있습니다.</p>"
+          "description": "<p><strong>트리거</strong> 생물이 큰 함정의 칸에 들어갈 때;</p>\n<p><strong>효과</strong> 트리거를 유발한 생물은 함정에 떨어지지만, @Check[reflex|dc:18] 내성 굴림을 시도하여 @UUID[Compendium.pf2e.actionspf2e.Item.3yoajuKjwHZ9ApUY]{가장자리 잡기}를 시도해 떨어지는 것을 피할 수 있습니다. 실패 시 생물은 눈으로 가득 찬 구덩이로 20피트 떨어집니다. 눈들이 추락을 완화해 20피트 추락은 @Damage[5[bludgeoning]|options:fall-damage]의 피해를 입히지만, 시야를 완전히 가려 구덩이에 머무는 동안 캐릭터는 효과적으로 시력을 잃습니다. 구덩이의 벽은 미끄럽지만, 캐릭터는 성공적인 @Check[athletics|dc:25] 체크를 통과하면 @UUID[Compendium.pf2e.actionspf2e.Item.pprgrYQ1QnIDGZiy]{Climb}로 벽을 오를 수 있습니다.</p>"
         },
         "GjTnh2euAcKlCNnN": {
           "name": "Trip",
@@ -788,7 +788,7 @@
         },
         "cZ5dTEuo59FxzHYb": {
           "name": "속삭이는 후퇴",
-          "description": "<p><strong>조건</strong> Kerrdremak은 적어도 한 명의 적과 인접해 있어야 합니다;</p>\n<p><strong>효과</strong> 케르드레마크는 속삭이며, 인접한 적 한 마리는 @Check[will|dc:17] 내성 검사를 실패하면 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 1} 상태가 됩니다. 이는 목표가 자신의 뒤에서 속삭이는 목소리를 듣고, 그 목소리가 목표가 언제 죽을지 알고 있다고 주장하기 때문입니다. 목표는 이후 1시간 동안 속삭이는 후퇴에 일시적으로 면역됩니다. Kerrdremak은 그 다음에 Strides를 사용하며, 이 이동은 두려움에 빠진 생물들의 반응을 유발하지 않습니다. 그는 이 이동을 적과 인접하지 않은 공간에서 종료해야 합니다.</p>"
+          "description": "<p><strong>조건</strong> Kerrdremak은 적어도 한 명의 적과 인접해 있어야 합니다;</p>\n<p><strong>효과</strong> 케르드레마크는 속삭이며, 인접한 적 한 마리는 @Check[will|dc:17] 내성 굴림을 실패하면 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 1} 상태가 됩니다. 이는 목표가 자신의 뒤에서 속삭이는 목소리를 듣고, 그 목소리가 목표가 언제 죽을지 알고 있다고 주장하기 때문입니다. 목표는 이후 1시간 동안 속삭이는 후퇴에 일시적으로 면역됩니다. Kerrdremak은 그 다음에 Strides를 사용하며, 이 이동은 두려움에 빠진 생물들의 반응을 유발하지 않습니다. 그는 이 이동을 적과 인접하지 않은 공간에서 종료해야 합니다.</p>"
         }
       }
     },

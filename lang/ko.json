@@ -115,7 +115,7 @@
     "ActionsActionsHeader": "액션",
     "ActionsFreeActionsHeader": "프리 액션",
     "ActionsReactionsHeader": "리액션",
-    "ActionWithDC": "{label} (DC {dc})",
+    "ActionWithDC": "{label}(DC {dc})",
     "Actor": {
       "ApplyDamage": {
         "AtFullHealth": "<actor>{actor}</actor> 의 체력이 이미 최대 상태입니다.",
@@ -473,7 +473,7 @@
             "Wavesense": "파동 감지"
           },
           "WithAcuity": "{sense}({acuity})",
-          "WithAcuityAndRange": "{sense} ({acuity}) {range} 피트",
+          "WithAcuityAndRange": "{sense}({acuity}) {range} 피트",
           "WithRange": "{sense} {range} Feet"
         },
         "Shield": {
@@ -533,7 +533,7 @@
         "Level": "위험 {level}",
         "Plural": "위험",
         "Simple": "심플",
-        "TitleEdit": "{name} (수정 모드)"
+        "TitleEdit": "{name}(수정 모드)"
       },
       "HitPoints": {
         "Unrecoverable": "현재 {value} HP는 회복할 수 없습니다."
@@ -617,7 +617,7 @@
             "Tooltip": "\"생물을 식별하는 데 사용되는 기술은 표 10-7에 표시된 것처럼 일반적으로 해당 생물의 특성에 따라 다르지만, 어떤 기술을 적용할지 결정할 여지가 있습니다.\" - CRB 506페이지"
           },
           "Lore": {
-            "Label": "적용 가능한 지식: DC {dc1}({adjustment1}) 또는 DC {dc2} ({adjustment2})",
+            "Label": "적용 가능한 지식: DC {dc1}({adjustment1}) 또는 DC {dc2}({adjustment2})",
             "Tooltip": "\"해당 지식을 사용하면 일반적으로 (희귀도를 조정하기 전에는) DC가 쉽거나 매우 쉽습니다.\" - CRB 506페이지"
           }
         },
@@ -1230,9 +1230,9 @@
         },
         "CompositeLabel": {
           "Simple": "{type} {value}",
-          "DoubleVs": "{type} {value} ({doubleVs}에 대해 2배 저항)",
-          "Exceptions": "{type} {value} ({exceptions} 제외)",
-          "ExceptionsDoubleVs": "{type} {value} ({exceptions} 제외; {doubleVs}에 대해 2배 저항)"
+          "DoubleVs": "{type} {value}({doubleVs}에 대해 2배 저항)",
+          "Exceptions": "{type} {value}({exceptions} 제외)",
+          "ExceptionsDoubleVs": "{type} {value}({exceptions} 제외; {doubleVs}에 대해 2배 저항)"
         },
         "Type": {
           "abysium": "어비슘",
@@ -1624,7 +1624,7 @@
       "Perception": "지각",
       "SelectMaster": "마스터를 선택하세요...",
       "Skills": "기술",
-      "TotalNumberFamiliarAbilities": "총# 패밀리어 능력 개수"
+      "TotalNumberFamiliarAbilities": "총 패밀리어 능력 개수"
     },
     "FeatActionTypeLabel": "액션 유형",
     "FeatActionsLabel": "액션 수",
@@ -1955,7 +1955,7 @@
           "heavy-barding": "무거운 마갑",
           "light-barding": "가벼운 마갑"
         },
-        "GradeOption": "{grade} (+{bonus}; 내구성 +{resilient})",
+        "GradeOption": "{grade}(+{bonus}; 내구성 +{resilient})",
         "Rune": {
           "Resilient": {
             "Label": "내구성 룬"
@@ -2765,10 +2765,10 @@
       },
       "Plural": "아이템",
       "RefreshFromCompendium": {
-        "DifferentItemType": "{item} ({uuid})의 컴펜디엄 원본이 현재 액터에 있는 아이템 유형과 다릅니다.",
+        "DifferentItemType": "{item}({uuid})의 컴펜디엄 원본이 현재 액터에 있는 아이템 유형과 다릅니다.",
         "Label": "새로 고침",
         "SourceNotFound": "{item}(소스 ID: {sourceId})의 원본 항목을 찾을 수 없습니다.",
-        "SubitemFailure": "{item} ({uuid})의 하나 이상의 하위 아이템을 새로 고칠 수 없습니다.",
+        "SubitemFailure": "{item}({uuid})의 하나 이상의 하위 아이템을 새로 고칠 수 없습니다.",
         "Success": "아이템 \"{item}\"이(가) 새로 고쳐졌습니다.",
         "Tooltip": {
           "Disabled": "아이템을 새로 고칠 수 없음: 액터에 추가될 때 저장된 데이터를 포함합니다.",
@@ -2880,7 +2880,7 @@
           "LabelPlural": "주문 변형",
           "SelectOtherVariantLabel": "다른 변형 선택",
           "SelectVariantLabel": "변형 선택",
-          "SheetTitle": "{originalName} (변형)"
+          "SheetTitle": "{originalName}(변형)"
         },
         "Warning": {
             "CantripToRankedSlots": "{spell}은(는) 캔트립이므로 캔트립 목록에 추가해야 합니다.",
@@ -2950,11 +2950,11 @@
         },
         "FromABP": "자동 보너스 진행률이 이 무기의 {property}을 {value}으로 조정했습니다.",
         "FromMaterialAndRunes": "이 아이템의 귀중한 재료와 룬의 {property}이 {value}으로 조정되었습니다.",
-        "GradeOption": "{grade} (+{tracking}; {dice} damage dice)",
+        "GradeOption": "{grade}(+{tracking}; {dice} damage dice)",
         "HandsLabel": "손",
         "MandatoryMelee": "이 무기는 근접 무기로만 사용할 수 있는 특성을 가지고 있습니다.",
         "MaterialAndRunes": {
-          "MaterialOption": "{type} ({grade})",
+          "MaterialOption": "{type}({grade})",
           "Title": "재료 구성 및 룬"
         },
         "MeleeUsage": {
@@ -3493,7 +3493,7 @@
       "critFailure": "죽어감의 수치가 2 증가합니다.",
       "critSuccess": "죽어감 수치를 2만큼 감소시킵니다.",
       "failure": "죽어감 수치가 1 증가합니다.",
-      "rollingDescription": "DC {dc} (죽어감 {dying})",
+      "rollingDescription": "DC {dc}(죽어감 {dying})",
       "success": "죽어감 수치를 1만큼 감소시킵니다."
     },
     "Region": {
@@ -3946,7 +3946,7 @@
       "WorldClock": {
         "DateThemes": {
             "AD": "지구 (그레고리력)",
-            "AR": "골라리온 (앱살롬 연호)",
+            "AR": "골라리온 (압살롬 연호)",
             "CE": "테마 없음 (그레고리력)",
             "IC": "골라리온 (제국력)"
         },
@@ -4247,7 +4247,7 @@
             "Accepted": "{trader}가 귀하의 선물을 수령했습니다.",
             "Declined": "{trader}가 귀하의 선물을 거절했습니다.",
             "Prompt": {
-                "Content": "{trader} ({user})가 {self}에게 {quantity}개의 {item}을 주고 싶어 합니다.",
+                "Content": "{trader}({user})가 {self}에게 {quantity}개의 {item}을 주고 싶어 합니다.",
                 "Title": "물품 수령하시겠습니까?"
             },
             "Received": "{self}가 {trader}로부터 아이템을 받았습니다."
@@ -4263,10 +4263,10 @@
         },
         "Receiving": "수신: {목록}",
         "Request": {
-            "Declined": "{trader} ({user})가 귀하의 거래 요청을 거부하였습니다.",
+            "Declined": "{trader}({user})가 귀하의 거래 요청을 거부하였습니다.",
             "Requesting": "{trader}와의 거래 요청 중...",
             "Prompt": {
-                "Content": "{trader} ({user})가 {self}과 거래를 원합니다.",
+                "Content": "{trader}({user})가 {self}과 거래를 원합니다.",
                 "Title": "{trader}와 거래하시겠습니까?"
             },
             "MenuLabel": "거래 요청",
@@ -4290,7 +4290,7 @@
     "TraitAdditive3": "추가 3",
     "TraitAdjusted": "조정됨",
     "TraitAdjustment": "조정",
-    "TraitAeon": "이온",
+    "TraitAeon": "에온",
     "TraitAesir": "아지르",
     "TraitAffixedOrHeldInOneHand": "부착하거나 한손으로 들어야 합니다",
     "TraitAffixedToAMetalWeapon": "금속 무기에 부착",
@@ -4369,7 +4369,7 @@
     "TraitArchetype": "아키타입",
     "TraitArchon": "아콘",
     "TraitArdande": "아르단드",
-    "TraitArea": "Area",
+    "TraitArea": "면적",
     "TraitAreaDamage": "면적 피해",
     "TraitArtifact": "아티팩트",
     "TraitAstral": "아스트랄",
@@ -4409,7 +4409,7 @@
     "TraitBonded": "유대",
     "TraitBottledBreath": "보틀 브레스",
     "TraitBrace": "보호대",
-    "TraitBrandish": "Brandish",
+    "TraitBrandish": "브랜디시",
     "TraitBravado": "브라바도",
     "TraitBrutal": "잔인한",
     "TraitBugbear": "버그베어",
@@ -4440,7 +4440,7 @@
     "TraitCoagulant": "응고제",
     "TraitCoda": "코다",
     "TraitCold": "추위",
-    "TraitColdiron": "콜드 아이언",
+    "TraitColdiron": "냉철",
     "TraitCommander": "커맨더",
     "TraitCombination": "조합",
     "TraitComfort": "편안함",
@@ -4529,7 +4529,7 @@
     "TraitDescriptionAttached": "부착된 무기는 다른 장비와 결합해야 사용할 수 있습니다. 특성에는 무기를 부착해야 하는 아이템의 종류가 나와 있습니다. 무기로 공격하려면 무기가 부착된 아이템을 휘두르거나 착용하고 있어야 합니다. 예를 들어 방패에 방패 가시가 부착되어 있으면 방패를 내려치는 대신 가시로 공격할 수 있지만, 방패를 휘두르고 있을 때만 가능합니다. 부착 무기는 일반적으로 아이템에 볼트로 고정되거나 아이템에 내장되어 있으며, 일반적으로 아이템에는 하나의 무기만 부착할 수 있습니다. 부착 무기는 10분의 작업 시간과@Check[type:crafting|dc:10]체크 성공으로 아이템에 부착할 수 있으며, 여기에는 이전 아이템에서 무기를 제거하는 데 필요한 시간도 포함됩니다. 아이템이 파괴된 경우, 부착된 무기는 일반적으로 회수할 수 있습니다.",
     "TraitDescriptionAttack": "이 특성을 가진 능력은 공격을 수반합니다. 자신의 턴에 첫 번째 공격 이후 공격할 때마다 공격 횟수만큼 페널티를 받습니다.",
     "TraitDescriptionAuditory": "청각 액션과 효과는 소리에 의존합니다. 청각 특성이 있는 액션은 해당 액션을 사용하는 생물이 말을 하거나 필요한 소리를 낼 수 있는 경우에만 성공적으로 수행할 수 있습니다. 청각 특성을 가진 주문이나 효과는 대상이 들을 수 있는 경우에만 효과가 적용됩니다. 이는 GM이 결정한 대로 효과의 소리 기반 부분에만 적용됩니다. 이는 효과 자체가 소리를 내는 한 청각 장애가 있는 대상 등 소리를 듣지 못하는 대상에게도 영향을 미치는 음향 효과와는 다릅니다.",
-    "TraitDescriptionAura": "오라란 나로부터 지속적으로 발산되어 일정 반경 내에 있는 생물에게 영향을 미치는 기운을 말합니다. 아우라는 강력한 성향을 가진 아이템이나 생물의 마법 기운을 의미하기도 합니다.",
+    "TraitDescriptionAura": "아우라란 나로부터 지속적으로 발산되어 일정 반경 내에 있는 생물에게 영향을 미치는 기운을 말합니다. 아우라는 강력한 성향을 가진 아이템이나 생물의 마법 기운을 의미하기도 합니다.",
     "TraitDescriptionAutomaton": "이 특성을 가진 생물은 오토마톤 조상의 일원입니다.",
     "TraitDescriptionAwakenedAnimal": "깨어난 동물들은 지능을 얻기 전에는 평범한 생물들이었습니다.",
     "TraitDescriptionAzarketi": "내해 지역의 바다에 사는 수륙양용 인간형 종족으로, 아즐란트족의 후손이라고 전해집니다. 길맨 또는 로우 아즐란티라고도 합니다.",
@@ -4848,7 +4848,7 @@
     "TraitDescriptionSeaDevil": "사악한 바다에 사는 인간형 생물인 바다 악마는 보통 암흑 시야와 파도 감지 능력을 가지고 있습니다.",
     "TraitDescriptionSecret": "이 능력은 GM이 비밀리에 체크합니다.",
     "TraitDescriptionSedacthy": "바다에 사는 인간형 생물로, 해양 생물과 소통할 수 있으며, 보통 암흑 시야와 파도 감지 능력을 가지고 있습니다.",
-    "TraitDescriptionSerpentfolk": "뱀족은 뱀 모양의 인간형 생물 종족입니다.",
+    "TraitDescriptionSerpentfolk": "서펀트포크는 뱀 모양의 인간형 생물 종족입니다.",
     "TraitDescriptionShabti": "샤비티는 죽은 생물의 죄를 대신해 심판을 받기 위해 만들어진 인공 인간형 존재입니다.",
     "TraitDescriptionShade": "쉐이드는 심판을 받은 후 다른 차원의 원주민으로 변환된 불멸의 영혼들입니다. 청원자들은 자신의 고향 차원의 기본 환경 효과를 견딜 수 있습니다.",
     "TraitDescriptionShadow": "이 마법에는 그림자 또는 네더월드의 에너지가 사용됩니다.",
@@ -6235,7 +6235,7 @@
       "majorRooting": {
         "Name": "뿌리내림 (상급)",
         "Note": {
-          "criticalSuccess": "이 무기로 적에게 치명타를 가하면 대상에서 뿌리가 자랍니다. 1라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{고정된 1} (<span data-pf2-action=\"escape\" data-pf2-glyph=\"A\" data-pf2-dc=\"34\">탈출 DC 34</span>) 및 고정 상태가 지속되는 동안, @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1}이 됩니다."
+          "criticalSuccess": "이 무기로 적에게 치명타를 가하면 대상에서 뿌리가 자랍니다. 1라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{고정된 1}(<span data-pf2-action=\"escape\" data-pf2-glyph=\"A\" data-pf2-dc=\"34\">탈출 DC 34</span>) 및 고정 상태가 지속되는 동안, @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1}이 됩니다."
         }
       },
       "merciful": {

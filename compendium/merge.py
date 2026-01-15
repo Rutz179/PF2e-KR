@@ -8,8 +8,8 @@ def merge_name(kor: str, eng: str, mode: str) -> str:
     if kor == eng:
         return eng
     return {
-        "ko-en": f"{kor} ({eng})",
-        "en-ko": f"{eng} ({kor})",
+        "ko-en": f"{kor}({eng})",
+        "en-ko": f"{eng}({kor})",
         "ko": kor,
         "en": eng,
     }[mode]

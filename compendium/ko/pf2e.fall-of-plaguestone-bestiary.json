@@ -221,11 +221,11 @@
         },
         "NRhJd4TWmu6ZArpW": {
           "name": "대규모 공격",
-          "description": "<p> 거대한 괴물은 근접 공격을 수행하며, 공격이 적중하면 대상 생물을 10피트 뒤로 밀어낼 수 있습니다 (크리티컬 히트 시 20피트). 대상은 @Check[fortitude|dc:19] 내성에 성공하지 못하면 이 공격으로 인해 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} 상태가 됩니다.</p>"
+          "description": "<p> 거대한 괴물은 근접 공격을 수행하며, 공격이 적중하면 대상 생물을 10피트 뒤로 밀어낼 수 있습니다 (대성공 시 20피트). 대상은 @Check[fortitude|dc:19] 내성에 성공하지 못하면 이 공격으로 인해 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} 상태가 됩니다.</p>"
         },
         "A1XwGa6RjEXJGJQJ": {
           "name": "발길질",
-          "description": "<p>거대한 괴물은 땅을 밟아 10피트 이내의 모든 생물을 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} (@Check[reflex|dc:19] 내성 성공 시 무효화).</p>"
+          "description": "<p>거대한 괴물은 땅을 밟아 10피트 이내의 모든 생물을 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}(@Check[reflex|dc:19] 내성 성공 시 무효화).</p>"
         }
       }
     },
@@ -234,10 +234,10 @@
       "items": {
         "c7Nqataf1AM755gt": {
           "name": "벌 쏘임",
-          "description": "<p>생물은 @Check[fortitude|dc:16|traits:damaging-effect] 내성 검사를 시도해야 합니다. 실패한 자는 @Damage[1d4[poison]]의 피해를 받고 1분 동안 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1} 상태가 됩니다.</p>"
+          "description": "<p>생물은 @Check[fortitude|dc:16|traits:damaging-effect] 내성 굴림을 시도해야 합니다. 실패한 자는 @Damage[1d4[poison]]의 피해를 받고 1분 동안 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1} 상태가 됩니다.</p>"
         },
         "iiDAJrnwPIwjETpY": {
-          "name": "떼의 공간에 있는 모든 적에게 ] 피해를 입히고 ( 내성). 각 라운드에 처음 내성 검사에서 실패하고 관통 피해를 입은 생물은 또한 벌침의 효과를 받습니다.\n벌 떼가 이 능력을 사용할 때마다 떼는 1의 피해를 입습니다.",
+          "name": "떼의 공간에 있는 모든 적에게 ] 피해를 입히고 ( 내성). 각 라운드에 처음 내성 굴림에서 실패하고 관통 피해를 입은 생물은 또한 벌침의 효과를 받습니다.\n벌 떼가 이 능력을 사용할 때마다 떼는 1의 피해를 입습니다.",
           "description": "<p>Each enemy in the swarm's space takes @Damage[1d4[piercing]] damage (@Check[reflex|dc:16|basic] save). The first time each round a creature fails the save and takes piercing damage, it also suffers the effect of beestings.</p>\n<p>Whenever the bee swarm uses this ability, the swarm takes 1 damage.</p>"
         }
       }
@@ -407,7 +407,7 @@
         },
         "NImIftzNflSehe9o": {
           "name": "Fleas",
-          "description": "<p>마른 늑대에 물린 사람은 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1} 상태가 1분 동안 지속되지만, @Check[fortitude|dc:14] 내성 검사에서 성공하면 면제됩니다. 그러나 상호작용 행동을 사용해 벼룩을 긁어내면 상태를 제거할 수 있습니다.</p>"
+          "description": "<p>마른 늑대에 물린 사람은 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1} 상태가 1분 동안 지속되지만, @Check[fortitude|dc:14] 내성 굴림에서 성공하면 면제됩니다. 그러나 상호작용 행동을 사용해 벼룩을 긁어내면 상태를 제거할 수 있습니다.</p>"
         }
       }
     },
@@ -470,7 +470,7 @@
       "items": {
         "HY2Pfqwkwhn3BmVF": {
           "name": "떨어지는 잔해",
-          "description": "<p><strong>트리거</strong> 바닥판에 압력이 가해집니다.</p>\n<hr />\n<p><strong>효과</strong> 크롤링 통로의 천장이 통로가 굽어지는 정사각형과 그 주변 두 개의 칸에서 무너집니다. 이 세 칸에 있는 모든 존재는 @Damage[3d6[bludgeoning]]의 피해를 입으며, 피해를 줄이기 위해 @Check[reflex|dc:14|traits:damaging-effect]의 내성 검사를 시도할 수 있습니다. 트랩이 발동된 중앙 칸에 있는 생물은 기본 내성을 수행합니다. 인접한 두 칸에 있는 생물은 성공 또는 대성공 시 떨어지는 잔해로부터 완전히 피하여 피해를 받지 않지만, 내성 검사에서 실패하면 전체 피해를 입으며, 대실패 시 두 배의 피해를 입습니다. 잔해로부터 피해를 입은 생물은 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{이동 불가} 상태가 되어 압박하는 무게 아래에 갇히게 됩니다.</p>\n<p>잔해로 막힌 칸을 정리하려면 성공적인 @Check[athletics|dc:17|name:Clear Debris] 기술 체크가 필요하며, 다음과 같은 효과가 적용됩니다.</p>\n<hr />\n<p><strong>대성공</strong> 1분 내에 정사가 칸이 정리됩니다.</p>\n<p><strong>성공</strong> 칸이 5분 내에 정리됩니다.</p>\n<p><strong>실패</strong> 칸이 10분 내에 정리됩니다.</p>\n<p><strong>대실패</strong> 칸 위의 천장이 더 무너져, 칸을 파내는 캐릭터와 그 칸에 갇힌 모든 캐릭터에게 추가로 @Damage[2d6[bludgeoning]]의 피해를 입힙니다. 이 과정은 1분 동안 진행되며 진행 상황이 없습니다.</p>"
+          "description": "<p><strong>트리거</strong> 바닥판에 압력이 가해집니다.</p>\n<hr />\n<p><strong>효과</strong> 크롤링 통로의 천장이 통로가 굽어지는 정사각형과 그 주변 두 개의 칸에서 무너집니다. 이 세 칸에 있는 모든 존재는 @Damage[3d6[bludgeoning]]의 피해를 입으며, 피해를 줄이기 위해 @Check[reflex|dc:14|traits:damaging-effect]의 내성 굴림을 시도할 수 있습니다. 트랩이 발동된 중앙 칸에 있는 생물은 기본 내성을 수행합니다. 인접한 두 칸에 있는 생물은 성공 또는 대성공 시 떨어지는 잔해로부터 완전히 피하여 피해를 받지 않지만, 내성 굴림에서 실패하면 전체 피해를 입으며, 대실패 시 두 배의 피해를 입습니다. 잔해로부터 피해를 입은 생물은 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{이동 불가} 상태가 되어 압박하는 무게 아래에 갇히게 됩니다.</p>\n<p>잔해로 막힌 칸을 정리하려면 성공적인 @Check[athletics|dc:17|name:Clear Debris] 기술 체크가 필요하며, 다음과 같은 효과가 적용됩니다.</p>\n<hr />\n<p><strong>대성공</strong> 1분 내에 정사가 칸이 정리됩니다.</p>\n<p><strong>성공</strong> 칸이 5분 내에 정리됩니다.</p>\n<p><strong>실패</strong> 칸이 10분 내에 정리됩니다.</p>\n<p><strong>대실패</strong> 칸 위의 천장이 더 무너져, 칸을 파내는 캐릭터와 그 칸에 갇힌 모든 캐릭터에게 추가로 @Damage[2d6[bludgeoning]]의 피해를 입힙니다. 이 과정은 1분 동안 진행되며 진행 상황이 없습니다.</p>"
         }
       }
     },

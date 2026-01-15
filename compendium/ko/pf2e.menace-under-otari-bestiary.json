@@ -14,7 +14,7 @@
         },
         "TnaXi3v3iBDjotwd": {
           "name": "비퍼 맹독",
-          "description": "<p>비퍼의 이빨에 의해 피해를 입은 대상은 @Check[fortitude|dc:16] 내성 검사에서 성공하지 못하면 @Damage[1d10[poison]] 피해를 입습니다.</p>"
+          "description": "<p>비퍼의 이빨에 의해 피해를 입은 대상은 @Check[fortitude|dc:16] 내성 굴림에서 성공하지 못하면 @Damage[1d10[poison]] 피해를 입습니다.</p>"
         }
       },
       "AthleticsVariants": {
@@ -76,7 +76,7 @@
         },
         "4NqTHQqAkLmiUovi": {
           "name": "악취",
-          "description": "<p> xulgath로부터 @Template[emanation|distance:30] 이내에 접근하고 xulgath의 냄새를 맡은 생물은 @Check[fortitude|dc:16] 내성 검사를 시도해야 합니다. 저항 체커에 실패하면 해당 생물은 모든 체크 및 DC에 -1 상태 페널티를 받으며, 구토 행동을 사용할 때까지 이 효과가 지속됩니다. 저항 내성에 성공한 생물은 1분 동안 모든 xulgath의 냄새에 영향을 받지 않습니다. <em>(@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1} 사용)</em>.</p>"
+          "description": "<p> xulgath로부터 @Template[emanation|distance:30] 이내에 접근하고 xulgath의 냄새를 맡은 생물은 @Check[fortitude|dc:16] 내성 굴림을 시도해야 합니다. 저항 체커에 실패하면 해당 생물은 모든 체크 및 DC에 -1 상태 페널티를 받으며, 구토 행동을 사용할 때까지 이 효과가 지속됩니다. 저항 내성에 성공한 생물은 1분 동안 모든 xulgath의 냄새에 영향을 받지 않습니다. <em>(@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1} 사용)</em>.</p>"
         }
       }
     },
@@ -117,7 +117,7 @@
         },
         "gV8plzH46OeVvlNG": {
           "name": "악취",
-          "description": "<p> xulgath로부터 @Template[emanation|distance:30] 이내에 접근하고 xulgath의 냄새를 맡은 생물은 @Check[fortitude|dc:19] 내성 검사를 시도해야 합니다. 저항 체커에 실패하면 해당 생물은 모든 체크 및 DC에 -1 상태 페널티를 받으며, 구토 행동을 사용할 때까지 이 효과가 지속됩니다. 저항 내성에 성공한 생물은 1분 동안 모든 xulgath의 냄새에 영향을 받지 않습니다. <em>(@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1} 사용)</em>.</p>"
+          "description": "<p> xulgath로부터 @Template[emanation|distance:30] 이내에 접근하고 xulgath의 냄새를 맡은 생물은 @Check[fortitude|dc:19] 내성 굴림을 시도해야 합니다. 저항 체커에 실패하면 해당 생물은 모든 체크 및 DC에 -1 상태 페널티를 받으며, 구토 행동을 사용할 때까지 이 효과가 지속됩니다. 저항 내성에 성공한 생물은 1분 동안 모든 xulgath의 냄새에 영향을 받지 않습니다. <em>(@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1} 사용)</em>.</p>"
         },
         "RX6HAClLi39MgLLI": {
           "name": "Swipe",
@@ -157,7 +157,7 @@
         },
         "mdqK7RuSjtezVyS8": {
           "name": "더러운 파도",
-          "description": "<p>하수구 점액체는 자신으로부터 @Template[emanation|distance:20]{20 피트} 이내의 모든 생물을 덮는 더러운 파도를 방출합니다. 해당 지역 내의 각 생물은 @Check[reflex|dc:17|options:area-effect,damaging-effect] 내성 검사에서 실패하면 @Damage[1d4[acid]|options:area-damage] 피해를 받고 속도에 -10피트 페널티를 1분 동안 받습니다 (대실패 시 생물은 넘어지고 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} 상태를 얻습니다). 생물은 상호작용을 통해 누군가를 청소할 수 있습니다. 이는 1 행동 후 속도 페널티를 -5 피트로 감소시키거나, 2 행동 후 페널티를 완전히 제거합니다. Filth Wave를 사용한 후, 우즈는 1분 동안 다시 사용할 수 없습니다.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.Qomp2EujVCbzJb4X]{효과: Filth Wave}</p>"
+          "description": "<p>하수구 점액체는 자신으로부터 @Template[emanation|distance:20]{20 피트} 이내의 모든 생물을 덮는 더러운 파도를 방출합니다. 해당 지역 내의 각 생물은 @Check[reflex|dc:17|options:area-effect,damaging-effect] 내성 굴림에서 실패하면 @Damage[1d4[acid]|options:area-damage] 피해를 받고 속도에 -10피트 페널티를 1분 동안 받습니다 (대실패 시 생물은 넘어지고 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} 상태를 얻습니다). 생물은 상호작용을 통해 누군가를 청소할 수 있습니다. 이는 1 행동 후 속도 페널티를 -5 피트로 감소시키거나, 2 행동 후 페널티를 완전히 제거합니다. Filth Wave를 사용한 후, 우즈는 1분 동안 다시 사용할 수 없습니다.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.Qomp2EujVCbzJb4X]{효과: Filth Wave}</p>"
         }
       },
       "StealthVariants": {
@@ -233,11 +233,11 @@
         },
         "vnaySgTDfC0slaHW": {
           "name": "거대 거미의 맹독",
-          "description": "<p> 거미의 이빨에 의해 피해를 입은 대상은 @Check[fortitude|dc:16] 내성 검사에 성공하지 못하면 @Damage[1d10[poison]] 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태를 1 라운드 동안 얻습니다.</p>"
+          "description": "<p> 거미의 이빨에 의해 피해를 입은 대상은 @Check[fortitude|dc:16] 내성 굴림에 성공하지 못하면 @Damage[1d10[poison]] 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태를 1 라운드 동안 얻습니다.</p>"
         },
         "KlwGH9hdWl3XpMYw": {
           "name": "Web Trap",
-          "description": "<p> 거대 거미줄 공격에 맞은 생물은 가장 가까운 표면에 붙어 움직일 수 없습니다. @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{탈출} (DC 17)에 성공할 때까지 움직일 수 없습니다.</p>"
+          "description": "<p> 거대 거미줄 공격에 맞은 생물은 가장 가까운 표면에 붙어 움직일 수 없습니다. @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{탈출}(DC 17)에 성공할 때까지 움직일 수 없습니다.</p>"
         }
       }
     },
@@ -258,7 +258,7 @@
         },
         "lqMgsu5wZAOsEwK2": {
           "name": "거대 비퍼의 맹독",
-          "description": "<p>뱀의 이빨에 의해 피해를 입은 대상은 @Check[fortitude|dc:17] 내성 검사에서 성공하지 못하면 @Damage[1d8[poison]] 피해를 입습니다.</p>"
+          "description": "<p>뱀의 이빨에 의해 피해를 입은 대상은 @Check[fortitude|dc:17] 내성 굴림에서 성공하지 못하면 @Damage[1d8[poison]] 피해를 입습니다.</p>"
         }
       }
     },
@@ -283,7 +283,7 @@
         },
         "WmxT51qlRDtAKJVg": {
           "name": "어두워지는 독",
-          "description": "<p> 사냥꾼이 단검 공격으로 피해를 입힐 때, 대상은 @Check[fortitude|dc:16|traits:damaging-effect] 내성 검사에 성공하지 못하면 @Damage[1d8[poison]] 피해를 받고 모든 생물을 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{은폐} 상태로 1 라운드 동안 처리합니다.</p>"
+          "description": "<p> 사냥꾼이 단검 공격으로 피해를 입힐 때, 대상은 @Check[fortitude|dc:16|traits:damaging-effect] 내성 굴림에 성공하지 못하면 @Damage[1d8[poison]] 피해를 받고 모든 생물을 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{은폐} 상태로 1 라운드 동안 처리합니다.</p>"
         }
       }
     },
@@ -304,7 +304,7 @@
         },
         "fIAhNhYo8hJML5xU": {
           "name": "마음 읽기",
-          "description": "<p>도플갱어는 30피트 이내의 한 생물의 표면 생각을 읽으려고 시도합니다. 대상은 @Check[will|dc:21] 내성 검사에 성공하면 저항합니다.</p>"
+          "description": "<p>도플갱어는 30피트 이내의 한 생물의 표면 생각을 읽으려고 시도합니다. 대상은 @Check[will|dc:21] 내성 굴림에 성공하면 저항합니다.</p>"
         }
       }
     },
@@ -389,7 +389,7 @@
         },
         "91iOrkVbzeP7cK2M": {
           "name": "접착력",
-          "description": "<p>미믹과 접촉하는 모든 생물(일반적으로 주먹 공격, 미믹의 가짜 다리, 또는 @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{그랩} 또는 @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{밀치기}로 인해)은 @Check[reflex|dc:23] 내성 검사에서 실패하면 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡기} 상태를 얻습니다. @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{탈출}의 DC는 23입니다. 근접 무기나 투척 무기가 미믹에 맞으면 그 무기가 미믹에 달라붙습니다. 캐릭터는 행동을 소비하여 @Check[athletics|dc:23] 체크를 시도할 수 있으며, 성공 시 무기를 제거할 수 있습니다. 접착력은 미믹이 죽은 후 1분 후에 녹아 없어집니다.</p>"
+          "description": "<p>미믹과 접촉하는 모든 생물(일반적으로 주먹 공격, 미믹의 가짜 다리, 또는 @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{그랩} 또는 @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{밀치기}로 인해)은 @Check[reflex|dc:23] 내성 굴림에서 실패하면 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡기} 상태를 얻습니다. @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{탈출}의 DC는 23입니다. 근접 무기나 투척 무기가 미믹에 맞으면 그 무기가 미믹에 달라붙습니다. 캐릭터는 행동을 소비하여 @Check[athletics|dc:23] 체크를 시도할 수 있으며, 성공 시 무기를 제거할 수 있습니다. 접착력은 미믹이 죽은 후 1분 후에 녹아 없어집니다.</p>"
         },
         "Ns2pok7e6UtuKUd6": {
           "name": "물체 교훈",
@@ -453,7 +453,7 @@
         },
         "v2Ifd6tb1IDRFqFO": {
           "name": "부패하는 악의",
-          "description": "<p>와이트가 발톱이나 단검 공격으로 살아있는 생물에게 피해를 입힐 때, 와이트는 @Damage[2[void,healing]|shortLabel] 체력을 회복하며, 대상은 @Check[fortitude|dc:17] 내성 검사에 성공하지 못하면 치유할 수 없는 2의 피해를 입습니다. 와이트는 부패하는 증오를 여러 번 사용할 수 있지만, 단일 생물은 치유할 수 없는 피해를 8 이상 입을 수 없습니다.</p>\n<p>완전한 밤의 휴식은 치유할 수 없는 피해를 2 회복하며, 완전한 하루의 침상 휴식은 회복량을 4로 증가시킵니다.</p>"
+          "description": "<p>와이트가 발톱이나 단검 공격으로 살아있는 생물에게 피해를 입힐 때, 와이트는 @Damage[2[void,healing]|shortLabel] 체력을 회복하며, 대상은 @Check[fortitude|dc:17] 내성 굴림에 성공하지 못하면 치유할 수 없는 2의 피해를 입습니다. 와이트는 부패하는 증오를 여러 번 사용할 수 있지만, 단일 생물은 치유할 수 없는 피해를 8 이상 입을 수 없습니다.</p>\n<p>완전한 밤의 휴식은 치유할 수 없는 피해를 2 회복하며, 완전한 하루의 침상 휴식은 회복량을 4로 증가시킵니다.</p>"
         }
       }
     },
@@ -548,7 +548,7 @@
         },
         "uYQrEbjjw3XIQ1cO": {
           "name": "공포의 신음",
-          "description": "<p>@Template[emanation|distance:30]{30 피트} 이내의 모든 살아있는 생물은 유령의 소리를 듣고 @Check[will|dc:21|options:area-effect,inflicts:frightened] 내성 검사를 시도해야 합니다. 실패 시 생물은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 2} 상태를 얻습니다(대실패 시 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 3} 상태).</p>\n<p>성공 시, 생물은 이 유령의 공포의 울음소리에 1분 동안 영향을 받지 않습니다.</p>"
+          "description": "<p>@Template[emanation|distance:30]{30 피트} 이내의 모든 살아있는 생물은 유령의 소리를 듣고 @Check[will|dc:21|options:area-effect,inflicts:frightened] 내성 굴림을 시도해야 합니다. 실패 시 생물은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 2} 상태를 얻습니다(대실패 시 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 3} 상태).</p>\n<p>성공 시, 생물은 이 유령의 공포의 울음소리에 1분 동안 영향을 받지 않습니다.</p>"
         }
       }
     },
@@ -703,11 +703,11 @@
         },
         "QC6Qfhm9C414P0oL": {
           "name": "조이기",
-          "description": "<p>리프클라우가 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡기} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{제압된} 상태의 생물을 가지고 있다면, 한 행동을 소비하여 그 생물을 자신의 코일로 압박할 수 있습니다. 생물은 @Damage[1d6[bludgeoning]]의 피해를 입으며, 이는 그 생물의 @Check[fortitude|dc:17|basic] 내성 검사 결과에 따라 결정됩니다.</p>"
+          "description": "<p>리프클라우가 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡기} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{제압된} 상태의 생물을 가지고 있다면, 한 행동을 소비하여 그 생물을 자신의 코일로 압박할 수 있습니다. 생물은 @Damage[1d6[bludgeoning]]의 피해를 입으며, 이는 그 생물의 @Check[fortitude|dc:17|basic] 내성 굴림 결과에 따라 결정됩니다.</p>"
         },
         "kExVKNRglkSawA2u": {
           "name": "리프클로 맹독",
-          "description": "<p>리프클로의 발톱 공격으로 베는 피해를 입은 대상은 @Check[fortitude|dc:17|traits:damaging-effect] 내성 검사에 성공하지 못하면 @Damage[1d6[poison]] 피해를 입습니다.</p>"
+          "description": "<p>리프클로의 발톱 공격으로 베는 피해를 입은 대상은 @Check[fortitude|dc:17|traits:damaging-effect] 내성 굴림에 성공하지 못하면 @Damage[1d6[poison]] 피해를 입습니다.</p>"
         },
         "mge8vQkbMqv0OxCE": {
           "name": "Grab",
@@ -758,7 +758,7 @@
     },
     "Orc Veteran (BB)": {
       "name": "오크 베테랑 (BB)",
-      "description": "<p>일반적인 오크 병사는 많은 모험가들에게 패밀리어한 폭력적인 전투원입니다. 오크 전사들은 자신의 요새를 위해, 부를 위해, 그리고 아마도 가장 중요한 것은 영광을 위해 싸웁니다. 자신의 힘을 증명하는 것은 오크 요새 내에서의 지위를 높이는 데 도움이 되므로, 전투는 언젠가 지도자가 되거나 역사에 이름을 남기기를 원하는 모든 오크에게 중요한 삶의 일부입니다.</p>",
+      "description": "<p>일반적인 오크 병사는 많은 모험가들에게 익숙한 폭력적인 전투원입니다. 오크 전사들은 자신의 요새를 위해, 부를 위해, 그리고 아마도 가장 중요한 것은 영광을 위해 싸웁니다. 자신의 힘을 증명하는 것은 오크 요새 내에서의 지위를 높이는 데 도움이 되므로, 전투는 언젠가 지도자가 되거나 역사에 이름을 남기기를 원하는 모든 오크에게 중요한 삶의 일부입니다.</p>",
       "items": {
         "mHS7Uj0GKGKhQiNo": {
           "name": "전투 도끼"
@@ -835,7 +835,7 @@
       }
     },
     "Horned Dragon (Juvenile, BB)": {
-      "name": "뿔 달린 용 (Juvenile, BB)",
+      "name": "혼드 드래곤 (Juvenile, BB)",
       "items": {
         "HAaABYYDbsq8LbrU": {
           "name": "Jaws"
@@ -879,7 +879,7 @@
         },
         "vTXaShzYmcNbRjzk": {
           "name": "피를 얼어붙게 하는 비명",
-          "description": "<p>올빼미 곰의 울음소리를 들은 @Template[emanation|distance:80]{80 피트} 이내의 모든 생물은 @Check[will|dc:20] 내성 검사를 시도해야 합니다. 이 생물들은 1분 동안 다른 울음소리에 영향을 받지 않습니다. 대성공 시 생물은 영향을 받지 않습니다; 성공 시 생물은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 1} 상태를 얻습니다; 실패 시 생물은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 2} 상태를 얻습니다; 대실패 시 생물은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 3} 상태를 얻고 다음 턴에 올베어로부터 도망가야 합니다.</p>"
+          "description": "<p>올빼미 곰의 울음소리를 들은 @Template[emanation|distance:80]{80 피트} 이내의 모든 생물은 @Check[will|dc:20] 내성 굴림을 시도해야 합니다. 이 생물들은 1분 동안 다른 울음소리에 영향을 받지 않습니다. 대성공 시 생물은 영향을 받지 않습니다; 성공 시 생물은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 1} 상태를 얻습니다; 실패 시 생물은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 2} 상태를 얻습니다; 대실패 시 생물은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 3} 상태를 얻고 다음 턴에 올베어로부터 도망가야 합니다.</p>"
         },
         "qCmKPruRObzVL1Dr": {
           "name": "비명 소리를 내며 전진",
@@ -968,7 +968,7 @@
         },
         "Re5HgCWQJTyzGewL": {
           "name": "거미줄 트랩",
-          "description": "<p>거미줄 루커의 거미줄 공격에 맞은 생물은 가장 가까운 표면에 붙어 움직일 수 없습니다. @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{탈출} (DC 20)에 성공할 때까지 움직일 수 없습니다.</p>"
+          "description": "<p>거미줄 루커의 거미줄 공격에 맞은 생물은 가장 가까운 표면에 붙어 움직일 수 없습니다. @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{탈출}(DC 20)에 성공할 때까지 움직일 수 없습니다.</p>"
         }
       }
     },
@@ -992,7 +992,7 @@
         },
         "AGjtcz0cAWzBXlEx": {
           "name": "불운의 오라",
-          "description": "<p>동물, 그렘린, 콜로가 아닌 생물들은 @Template[emanation|distance:20]{20 피트} 이내에 있는 모든 생물은 극도로 불운해집니다. 이들은 @Check[will|dc:16] 내성 검사를 시도해야 하며, 이 의지 내성을 두 번 굴림하고 더 나쁜 결과를 사용해야 합니다.</p>\n<p>내성 검사에 성공하면 해당 생물은pugwampi의 불운 오라에 영향을 받지 않습니다. 실패 시, 생물은 20피트 이내에 있는 한 모든 체크에서 두 번 굴리고 더 나쁜 결과를 사용해야 합니다.</p>\n<p>다수의 pugwampi는 추가 효과를 생성하지 않습니다.</p>"
+          "description": "<p>동물, 그렘린, 콜로가 아닌 생물들은 @Template[emanation|distance:20]{20 피트} 이내에 있는 모든 생물은 극도로 불운해집니다. 이들은 @Check[will|dc:16] 내성 굴림을 시도해야 하며, 이 의지 내성을 두 번 굴림하고 더 나쁜 결과를 사용해야 합니다.</p>\n<p>내성 굴림에 성공하면 해당 생물은pugwampi의 불운 오라에 영향을 받지 않습니다. 실패 시, 생물은 20피트 이내에 있는 한 모든 체크에서 두 번 굴리고 더 나쁜 결과를 사용해야 합니다.</p>\n<p>다수의 pugwampi는 추가 효과를 생성하지 않습니다.</p>"
         }
       }
     },
@@ -1083,7 +1083,7 @@
         },
         "iqkfB1nliXSkUpU4": {
           "name": "Stench",
-          "description": "<p>구울로부터 10피트 이내에 접근하고 구울의 냄새를 맡은 생물은 @Check[fortitude|dc:14] 내성 검사를 시도해야 합니다. 실패 시, 해당 생물은 모든 체크 및 DC에 -1 상태 페널티를 받으며, 구토 행동(@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1})을 사용할 때까지 이 페널티가 지속됩니다.. 내성 검사에서 성공한 생물은 1분 동안 어떤 구울의 냄새에도 영향을 받지 않습니다.</p>"
+          "description": "<p>구울로부터 10피트 이내에 접근하고 구울의 냄새를 맡은 생물은 @Check[fortitude|dc:14] 내성 굴림을 시도해야 합니다. 실패 시, 해당 생물은 모든 체크 및 DC에 -1 상태 페널티를 받으며, 구토 행동(@UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1})을 사용할 때까지 이 페널티가 지속됩니다.. 내성 굴림에서 성공한 생물은 1분 동안 어떤 구울의 냄새에도 영향을 받지 않습니다.</p>"
         },
         "7RTjFlVzsxhjtwX4": {
           "name": "고기 섭취",
@@ -1177,7 +1177,7 @@
         },
         "vf62uHn3Bh74svnk": {
           "name": "Giant Ant Venom",
-          "description": "<p>거대 개미의 침 공격으로 관통 피해를 입은 대상은 @Check[fortitude|dc:18|traits:damaging-effect] 내성 검사에 성공하지 못하면 @Damage[1d10[poison]] 피해를 입습니다.</p>"
+          "description": "<p>거대 개미의 침 공격으로 관통 피해를 입은 대상은 @Check[fortitude|dc:18|traits:damaging-effect] 내성 굴림에 성공하지 못하면 @Damage[1d10[poison]] 피해를 입습니다.</p>"
         },
         "IZMJ1l1EsTmncB5c": {
           "name": "끌고 가기",
@@ -1197,11 +1197,11 @@
         },
         "Nl15bkRTLq869IPi": {
           "name": "돌화 시선",
-          "description": "<p>바실리스크가 30피트 이내에 있는 생물이 자신의 턴을 시작할 때, 바실리스크는 반응을 사용해 그 생물을 쳐다볼 수 있습니다.</p>\n<p>생물은 @Check[fortitude|dc:20] 내성 검사를 시도해야 합니다. 실패하면 1분 동안 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1} 상태를 얻으며, 몸이 서서히 경직됩니다.</p>"
+          "description": "<p>바실리스크가 30피트 이내에 있는 생물이 자신의 턴을 시작할 때, 바실리스크는 반응을 사용해 그 생물을 쳐다볼 수 있습니다.</p>\n<p>생물은 @Check[fortitude|dc:20] 내성 굴림을 시도해야 합니다. 실패하면 1분 동안 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1} 상태를 얻으며, 몸이 서서히 경직됩니다.</p>"
         },
         "tOCS9mkYR5K1LuOZ": {
           "name": "석화 시선",
-          "description": "<p>바실리스크는 30피트 이내에 있는 볼 수 있는 생물을 응시합니다. 해당 생물이 바실리스크를 볼 수 있다면, 그 생물은 @Check[fortitude|dc:22] 내성 검사를 시도해야 합니다.</p>\n<p>저항 내성 검사에서 실패하고 이미 이 능력이나 석화 시선으로부터 '느려짐' 상태를 얻지 않았다면, 해당 생물은 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1} 상태를 얻습니다. 이 능력이나 석화 시선으로부터 이미 '느려짐' 상태를 가진 생물이 이 저항 내성 검사에서 실패하면, 생물은 영구적으로 @UUID[Compendium.pf2e.conditionitems.Item.dTwPJuKgBQCMxixg]{Stone}으로 변합니다.</p>\n<p>이 방식으로 화석화된 생물이 신선한 바실리스크 피로 덮여 있다면 즉시 육체로 회복됩니다. 단 하나의 바실리스크는 이 방식으로 최대 2개의 생물을 덮을 수 있는 피를 가지고 있습니다.</p>"
+          "description": "<p>바실리스크는 30피트 이내에 있는 볼 수 있는 생물을 응시합니다. 해당 생물이 바실리스크를 볼 수 있다면, 그 생물은 @Check[fortitude|dc:22] 내성 굴림을 시도해야 합니다.</p>\n<p>저항 내성 굴림에서 실패하고 이미 이 능력이나 석화 시선으로부터 '느려짐' 상태를 얻지 않았다면, 해당 생물은 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1} 상태를 얻습니다. 이 능력이나 석화 시선으로부터 이미 '느려짐' 상태를 가진 생물이 이 저항 내성 굴림에서 실패하면, 생물은 영구적으로 @UUID[Compendium.pf2e.conditionitems.Item.dTwPJuKgBQCMxixg]{Stone}으로 변합니다.</p>\n<p>이 방식으로 화석화된 생물이 신선한 바실리스크 피로 덮여 있다면 즉시 육체로 회복됩니다. 단 하나의 바실리스크는 이 방식으로 최대 2개의 생물을 덮을 수 있는 피를 가지고 있습니다.</p>"
         }
       }
     },
@@ -1325,18 +1325,18 @@
         },
         "X36hKYEWL0S6irBU": {
           "name": "악취",
-          "description": "<p>하피로부터 30피트 이내에 접근하고 하피의 냄새를 맡은 생물은 @Check[fortitude|dc:21] 내성 검사를 시도해야 합니다. 실패 시, 해당 생물은 구토를 위해 행동을 사용할 때까지 모든 체크 및 DC에 -1 상태 페널티를 받습니다. 내성에 성공한 생물은 1분 동안 하피의 악취에 영향을 받지 않습니다.</p>"
+          "description": "<p>하피로부터 30피트 이내에 접근하고 하피의 냄새를 맡은 생물은 @Check[fortitude|dc:21] 내성 굴림을 시도해야 합니다. 실패 시, 해당 생물은 구토를 위해 행동을 사용할 때까지 모든 체크 및 DC에 -1 상태 페널티를 받습니다. 내성에 성공한 생물은 1분 동안 하피의 악취에 영향을 받지 않습니다.</p>"
         },
         "IqOAXLLKjSYmNd2w": {
           "name": "배고픈 바람",
-          "description": "<p>하피는 바람을 이용해 먹이를 가까이 끌어당깁니다. 20피트 이내의 목표물은 @Check[fortitude|dc:21] 내성 검사에서 성공하지 못하면 하피 옆으로 끌려갑니다. 하피는 그 목표물에 대해 이빨 공격을 수행합니다. 목표물이 공중으로 끌려가서 날 수 없다면 정상적으로 떨어집니다.</p>"
+          "description": "<p>하피는 바람을 이용해 먹이를 가까이 끌어당깁니다. 20피트 이내의 목표물은 @Check[fortitude|dc:21] 내성 굴림에서 성공하지 못하면 하피 옆으로 끌려갑니다. 하피는 그 목표물에 대해 이빨 공격을 수행합니다. 목표물이 공중으로 끌려가서 날 수 없다면 정상적으로 떨어집니다.</p>"
         }
       }
     },
     "Mermaid Fountain (BB)": {
       "name": "메리드 분수 (BB)",
       "disable": "<p>@Check[thievery|dc:20|traits:complex,hazard|name:Disable Mechanism] 각 모서리 메커니즘에 적용 (모든 3개의 작동 중인 모서리를 무력화해야 함)</p>\n<p>각 모서리 메커니즘은 경도 8과 15 HP를 가집니다</p>",
-      "routine": "<p>각 턴마다 분수는 1 행동을 사용합니다. [[/r 1d10]]를 굴림{1d10}을 굴리고 다음 목록에서 결과를 확인하여 해당 라운드에 사용하는 행동을 결정합니다.</p>\n<ul>\n<li><strong>1-4 단일 대상</strong> 조각상이 회전하며 방 내의 무작위 단일 대상에게 물을 분사합니다. [[/r 1d4]]{1d4}를 굴리고, 왼쪽부터 시작해 굴린 숫자만큼 카운트하여 공격받는 영웅을 결정합니다. 분사 공격은 원거리 공격입니다.</li>\n<li><strong>5-7 모서리 분사</strong> 조각상이 회전하며 방 내부에 작동 중인 모서리 메커니즘이 있는 각 모서리에 물 분사 공격을 fire]합니다. 이 공격은 모서리 메커니즘에 인접한 모든 생물에게 @Damage[2d6[bludgeoning]]의 피해를 입힙니다. 각 영웅은 @Check[reflex|dc:15|basic|traits:hazard]를 시도해야 하며, 대성공 시 피해 없음, 성공 시 반 피해, 실패 시 전체 피해, 대실패 시 두 배의 피해를 입습니다.</li>\n<li><strong>8-9 반쪽 방</strong> 조각상이 회전하며 방의 반쪽에 물을 분사합니다. 주사위를 굴립니다. 결과가 짝수라면 서쪽 반쪽에 물을 뿌리고, 홀수라면 동쪽 반쪽에 물을 뿌립니다. 이 공격은 해당 반쪽의 모든 생물에게 @Damage[2d6[bludgeoning]]의 피해를 입히며, 각 영웅은 @Check[reflex|dc:15|basic|traits:hazard] 내성 검사를 시도해야 합니다.</li>\n<li><strong>10 전체 방</strong> 이 공격은 반쪽 방 공격과 동일하지만, 방 내 모든 대상에게 적용됩니다.</li>\n</ul>",
+      "routine": "<p>각 턴마다 분수는 1 행동을 사용합니다. [[/r 1d10]]를 굴림{1d10}을 굴리고 다음 목록에서 결과를 확인하여 해당 라운드에 사용하는 행동을 결정합니다.</p>\n<ul>\n<li><strong>1-4 단일 대상</strong> 조각상이 회전하며 방 내의 무작위 단일 대상에게 물을 분사합니다. [[/r 1d4]]{1d4}를 굴리고, 왼쪽부터 시작해 굴린 숫자만큼 카운트하여 공격받는 영웅을 결정합니다. 분사 공격은 원거리 공격입니다.</li>\n<li><strong>5-7 모서리 분사</strong> 조각상이 회전하며 방 내부에 작동 중인 모서리 메커니즘이 있는 각 모서리에 물 분사 공격을 fire]합니다. 이 공격은 모서리 메커니즘에 인접한 모든 생물에게 @Damage[2d6[bludgeoning]]의 피해를 입힙니다. 각 영웅은 @Check[reflex|dc:15|basic|traits:hazard]를 시도해야 하며, 대성공 시 피해 없음, 성공 시 반 피해, 실패 시 전체 피해, 대실패 시 두 배의 피해를 입습니다.</li>\n<li><strong>8-9 반쪽 방</strong> 조각상이 회전하며 방의 반쪽에 물을 분사합니다. 주사위를 굴립니다. 결과가 짝수라면 서쪽 반쪽에 물을 뿌리고, 홀수라면 동쪽 반쪽에 물을 뿌립니다. 이 공격은 해당 반쪽의 모든 생물에게 @Damage[2d6[bludgeoning]]의 피해를 입히며, 각 영웅은 @Check[reflex|dc:15|basic|traits:hazard] 내성 굴림을 시도해야 합니다.</li>\n<li><strong>10 전체 방</strong> 이 공격은 반쪽 방 공격과 동일하지만, 방 내 모든 대상에게 적용됩니다.</li>\n</ul>",
       "stealth": "<p><strong>Notice</strong> @Check[perception|dc:20|traits:complex,hazard] check</p>",
       "items": {
         "YfiKyZzHH0XtfjFx": {

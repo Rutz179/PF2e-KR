@@ -50,7 +50,7 @@
         },
         "P4xO2tdYE2joExgv": {
           "name": "잡는 줄",
-          "description": "<p>줄이 목표물의 사지를 휘감습니다. 목표물은 @Check[reflex|dc:25] 내성 검사를 시도해야 합니다.</p>\n<hr />\n<p><strong>성공</strong> 대상은 영향을 받지 않습니다.</p>\n<p><strong>실패</strong> 대상은 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 되며, 줄을 자르거나 @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{탈출}할 때까지 지속됩니다. (DC 25).</p>\n<p><strong>대실패</strong> 실패와 동일하지만, 대상은 또한 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{이동 불가} 상태가 됩니다.</p>"
+          "description": "<p>줄이 목표물의 사지를 휘감습니다. 목표물은 @Check[reflex|dc:25] 내성 굴림을 시도해야 합니다.</p>\n<hr />\n<p><strong>성공</strong> 대상은 영향을 받지 않습니다.</p>\n<p><strong>실패</strong> 대상은 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 되며, 줄을 자르거나 @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{탈출}할 때까지 지속됩니다. (DC 25).</p>\n<p><strong>대실패</strong> 실패와 동일하지만, 대상은 또한 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{이동 불가} 상태가 됩니다.</p>"
         },
         "FIXLSmd8Mru8STsR": {
           "name": "지도 없음",
@@ -99,7 +99,7 @@
       "desc (hazard)": "<p> 불협화음의 음악, 춤, 시가 결합되어 낯선 이들에 대한 깊은 의심과 불신을 조성합니다.</p>",
       "disable": "<p>@Check[performance|dc:26] 공연의 반격을 수행하거나 @Check[religion|dc:27] 또는 @Check[occult|dc:27] 영적 에너지를 방해합니다. 함정을 무력화하려면 총 3회의 성공이 필요합니다.</p>",
       "reset": "<p><em>The Enmity Cycle</em>의 새로운 제작을 준비해야 합니다. 이 과정은 보통 최소 1주일이 소요됩니다.</p>",
-      "routine": "<p>(1 행동) 공연은 그 범위 내의 대상들에게 적대감, 불화, 불신의 씨앗을 계속 뿌립니다. Zridi를 제외한 모든 참석 생물은 @Check[will|dc:25] 내성 검사를 시도해야 합니다.</p>\n<hr>\n<p><strong>Critical Success</strong> 대상은 영향을 받지 않으며 1일 동안 해당 효과에 면역됩니다.</p>\n<p><strong>성공</strong> 대상은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 1} 상태가 2 라운드 동안 지속됩니다.</p>\n<p><strong>실패</strong> 대상은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 2} 상태가 1분 동안 지속되며, 이 공포의 원인이 자신의 동포, 특히 고향 이외의 지역 출신인 사람들에게 있다는 것을 확신합니다. 1주 동안 대상은 다른 투비안 도시 출신 사람들에 대한 모든 외교 기술 체크에서 &ndash;2 페널티를 받고, 해당 도시 중 하나에 있을 때마다 공포 2 상태를 다시 얻습니다.</p>\n<p><strong>대실패</strong> 실패와 동일하지만, 대상은 다음 주 동안 <em>The Enmity Cycle</em>의 전파자가 됩니다. 대상은 노출된 도시가 아닌 다른 도시로 여행해야 하며, 기억할 수 있는 한 많은 안바리트의 구절을 암송해야 합니다. 이 공연을 듣거나 목격한 이들은 <em>The Enmity Cycle</em>의 공연에 참석한 것으로 간주되지만, @Check[will|dc:23] 내성</p>",
+      "routine": "<p>(1 행동) 공연은 그 범위 내의 대상들에게 적대감, 불화, 불신의 씨앗을 계속 뿌립니다. Zridi를 제외한 모든 참석 생물은 @Check[will|dc:25] 내성 굴림을 시도해야 합니다.</p>\n<hr>\n<p><strong>Critical Success</strong> 대상은 영향을 받지 않으며 1일 동안 해당 효과에 면역됩니다.</p>\n<p><strong>성공</strong> 대상은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 1} 상태가 2 라운드 동안 지속됩니다.</p>\n<p><strong>실패</strong> 대상은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 2} 상태가 1분 동안 지속되며, 이 공포의 원인이 자신의 동포, 특히 고향 이외의 지역 출신인 사람들에게 있다는 것을 확신합니다. 1주 동안 대상은 다른 투비안 도시 출신 사람들에 대한 모든 외교 기술 체크에서 &ndash;2 페널티를 받고, 해당 도시 중 하나에 있을 때마다 공포 2 상태를 다시 얻습니다.</p>\n<p><strong>대실패</strong> 실패와 동일하지만, 대상은 다음 주 동안 <em>The Enmity Cycle</em>의 전파자가 됩니다. 대상은 노출된 도시가 아닌 다른 도시로 여행해야 하며, 기억할 수 있는 한 많은 안바리트의 구절을 암송해야 합니다. 이 공연을 듣거나 목격한 이들은 <em>The Enmity Cycle</em>의 공연에 참석한 것으로 간주되지만, @Check[will|dc:23] 내성</p>",
       "stealth": "<p>(expert) or @UUID[Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl]{Detect Magic}</p>",
       "items": {
         "Sx078ND9MugfxEIm": {
@@ -207,7 +207,7 @@
         },
         "WkSKKlly7gJ0yJlm": {
           "name": "속삭이는 노래",
-          "description": "<p>모래 늑대가 짧은 매혹적인 노래를 부릅니다. 모래 늑대 이외의 모든 생물은 30피트 이내에 있을 경우 @Check[will|dc:19] 내성 검사를 시도해야 합니다.</p>\n<hr />\n<p><strong>대성공</strong> 대상은 영향을 받지 않으며, 24시간 동안 추가적인 속삭이는 노래 노출에 일시적으로 면역이 됩니다.</p>\n<p><strong>Success</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1}.</p>\n<p><strong>Failure</strong> 목표는 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 2}입니다.</p>\n<p><strong>대실패</strong> 실패로, 목표는 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1}입니다.</p>"
+          "description": "<p>모래 늑대가 짧은 매혹적인 노래를 부릅니다. 모래 늑대 이외의 모든 생물은 30피트 이내에 있을 경우 @Check[will|dc:19] 내성 굴림을 시도해야 합니다.</p>\n<hr />\n<p><strong>대성공</strong> 대상은 영향을 받지 않으며, 24시간 동안 추가적인 속삭이는 노래 노출에 일시적으로 면역이 됩니다.</p>\n<p><strong>Success</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 1}.</p>\n<p><strong>Failure</strong> 목표는 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 2}입니다.</p>\n<p><strong>대실패</strong> 실패로, 목표는 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1}입니다.</p>"
         },
         "MbyCGuh3pY2i7iG0": {
           "name": "Grab"
@@ -249,7 +249,7 @@
       "desc (hazard)": "<p>불협화음의 음악, 춤, 시가 결합되어 낯선 사람에 대한 깊은 의심과 불신을 조성합니다.</p>",
       "disable": "<p>@Check[performance|dc:28]를 사용하여 성능을 반격하거나 @Check[religion|dc:28] 또는 @Check[occult|dc:28] 영적 에너지를 방해합니다. 함정을 무력화하려면 두 번의 성공이 필요합니다. 기계 머리 부분은 Inspired Recitation을 두 번 사용하면 함정을 자동으로 무력화할 수 있습니다.</p>",
       "reset": "<p>위험은 영역 <strong>E3</strong>에 의식 있는 생물이 없을 때 중단되며, 1분 후 재설정됩니다.</p>",
-      "routine": "<p>(1 행동; 감정, 공포, 정신, 초자연적) 에코가 계속 울려 퍼지며 지역 내 생물들을 찢어발기고 타인에 대한 불신을 심어줍니다. 지역 내 모든 생물은 @Damage[(2d10+11)[mental]] 피해를 입으며 @Check[will|dc:28|traits:emotion,fear,mental,occult,damaging-effect] 내성 검사를 시도해야 합니다.</p>\n<hr>\n<p><strong>대성공</strong> 대상은 영향을 받지 않으며 1분 동안 효과에 면역이 됩니다.</p>\n<p><strong>Success</strong> The target takes half damage.</p>\n<p><strong>실패</strong> 대상은 전체 피해를 입으며, 불신과 불안감으로 인해 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1} 상태가 됩니다.</p>\n<p><strong>대실패</strong> 대상은 두 배의 피해를 입으며 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 2} 상태가 됩니다.</p>",
+      "routine": "<p>(1 행동; 감정, 공포, 정신, 초자연적) 에코가 계속 울려 퍼지며 지역 내 생물들을 찢어발기고 타인에 대한 불신을 심어줍니다. 지역 내 모든 생물은 @Damage[(2d10+11)[mental]] 피해를 입으며 @Check[will|dc:28|traits:emotion,fear,mental,occult,damaging-effect] 내성 굴림을 시도해야 합니다.</p>\n<hr>\n<p><strong>대성공</strong> 대상은 영향을 받지 않으며 1분 동안 효과에 면역이 됩니다.</p>\n<p><strong>Success</strong> The target takes half damage.</p>\n<p><strong>실패</strong> 대상은 전체 피해를 입으며, 불신과 불안감으로 인해 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1} 상태가 됩니다.</p>\n<p><strong>대실패</strong> 대상은 두 배의 피해를 입으며 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 2} 상태가 됩니다.</p>",
       "stealth": "<p>(expert) or @UUID[Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl]{Detect Magic}</p>",
       "items": {
         "mPAzQkbngGpRu3L1": {
@@ -331,7 +331,7 @@
           "name": "발톱"
         },
         "vw7CqLS1fQ7CXlLL": {
-          "name": "마법 내성 검사 모든에 +1 상태"
+          "name": "마법 내성 굴림 모든에 +1 상태"
         },
         "UGUWALd2VlYF2YHm": {
           "name": "빨간색에 대한 증오",
@@ -339,7 +339,7 @@
         },
         "4NDYGQ0N2hZuDmLa": {
           "name": "Bubonic Plague",
-          "description": "<p>감염된 생물은 피로 상태를 제거할 수 없습니다</p>\n<p><strong>내성 굴림</strong> @Check[fortitude|dc:24]</p>\n<hr />\n<p><strong>Onset</strong> 1 day</p>\n<p><strong>Stage 1</strong> @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{피로감} (1일)</p>\n<p><strong>단계 2</strong> @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 2} 및 피로감 (1 day)</p>\n<p><strong>Stage 3</strong> @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 3}, 피로, 그리고 [U0005]를 [[/br 1d20 #지속적 피해 간격]]{1d20 분}마다 받음 (1일)</p>"
+          "description": "<p>감염된 생물은 피로 상태를 제거할 수 없습니다</p>\n<p><strong>내성 굴림</strong> @Check[fortitude|dc:24]</p>\n<hr />\n<p><strong>Onset</strong> 1 day</p>\n<p><strong>Stage 1</strong> @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{피로감}(1일)</p>\n<p><strong>단계 2</strong> @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 2} 및 피로감 (1 day)</p>\n<p><strong>Stage 3</strong> @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 3}, 피로, 그리고 [U0005]를 [[/br 1d20 #지속적 피해 간격]]{1d20 분}마다 받음 (1일)</p>"
         },
         "4FWJV0JycabbbM9J": {
           "name": "형태 변경",

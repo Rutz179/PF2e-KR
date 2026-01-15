@@ -52,7 +52,7 @@
         },
         "3lJBv7HwAjkSPmgN": {
           "name": "향기 오라",
-          "description": "<p>5 피트. 향초 호문쿨루스의 라벤더 향기는 압도적으로 강렬합니다. 호문쿨루스의 주인이 아닌 모든 생물이 오라에 들어갈 경우 @Check[fortitude|dc:15] 내성 검사를 시도해야 합니다.</p>\n<hr />\n<p><strong>대성공</strong> 생물은 호무누쿠스의 아우라에 대해 24시간 동안 일시적으로 면역됩니다.</p>\n<p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1} 상태가 됩니다.</p>\n<p><strong>대실패</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1} 상태가 1 라운드 동안 지속되며 병약 1을 받습니다.</p>"
+          "description": "<p>5 피트. 향초 호문쿨루스의 라벤더 향기는 압도적으로 강렬합니다. 호문쿨루스의 주인이 아닌 모든 생물이 오라에 들어갈 경우 @Check[fortitude|dc:15] 내성 굴림을 시도해야 합니다.</p>\n<hr />\n<p><strong>대성공</strong> 생물은 호무누쿠스의 아우라에 대해 24시간 동안 일시적으로 면역됩니다.</p>\n<p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1} 상태가 됩니다.</p>\n<p><strong>대실패</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1} 상태가 1 라운드 동안 지속되며 병약 1을 받습니다.</p>"
         },
         "eSTtFDnAz2NbJSXY": {
           "name": "왁스에 담그기",
@@ -75,7 +75,7 @@
         },
         "ww3XNNjqDJOclXVx": {
           "name": "오래된 거대 말벌 맹독",
-          "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:22]</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<hr />\n<p><strong>Stage 1</strong> @Damage[2d6[poison]] 피해와 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1} (1 라운드)</p>\n<p><strong>단계 2</strong> @Damage[3d6[poison]] 피해와 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 2} (1 라운드)</p>\n<p><strong>단계 3</strong> @Damage[4d6[poison]] 피해 및 서투른 2 (1 라운드).</p>"
+          "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:22]</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<hr />\n<p><strong>Stage 1</strong> @Damage[2d6[poison]] 피해와 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1}(1 라운드)</p>\n<p><strong>단계 2</strong> @Damage[3d6[poison]] 피해와 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 2}(1 라운드)</p>\n<p><strong>단계 3</strong> @Damage[4d6[poison]] 피해 및 서투른 2 (1 라운드).</p>"
         }
       }
     },
@@ -113,7 +113,7 @@
         },
         "r6NeyXy7urudFlGz": {
           "name": "짓밟기",
-          "description": "<p>프린세스 선셋은 속도의 두 배로 이동하며, 소형 이하 크기의 생물의 공간을 통과할 수 있으며, 진입하는 각 생물을 트램플합니다. 프린세스 선셋은 트램플을 한 번 사용 중에는 동일한 생물을 트램플할 수 없습니다. 몬스터는 머리로 치는 공격의 피해를 입히지만, 트램플된 생물은 @Check[reflex|dc:14|basic]에서 기본 반사 내성 검사를 시도할 수 있습니다.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Trample]</p>"
+          "description": "<p>프린세스 선셋은 속도의 두 배로 이동하며, 소형 이하 크기의 생물의 공간을 통과할 수 있으며, 진입하는 각 생물을 트램플합니다. 프린세스 선셋은 트램플을 한 번 사용 중에는 동일한 생물을 트램플할 수 없습니다. 몬스터는 머리로 치는 공격의 피해를 입히지만, 트램플된 생물은 @Check[reflex|dc:14|basic]에서 기본 반사 내성 굴림을 시도할 수 있습니다.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Trample]</p>"
         }
       }
     },
@@ -133,7 +133,7 @@
         },
         "4HwflTBmGsWNVzQu": {
           "name": "강화된 사냥 거미 맹독",
-          "description": "<p><strong>Saving Throw</strong> @Check[fortitude|dc:23|basic]</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<hr />\n<p><strong>단계 1</strong> @Damage[1d10[poison]] 피해와 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} (1 라운드)</p>\n<p><strong>단계 2</strong> @Damage[1d12[poison]] 피해, @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1}, 및 오프 가드 (1 round)</p>\n<p><strong>단계 3</strong> @Damage[2d6[poison]] 피해, @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 2}, 오프 가드 (1 라운드).</p>\n<hr />\n<p><strong>참고</strong> 이 맹독으로 인한 서투른 상태는 24시간 후에 사라집니다.</p>"
+          "description": "<p><strong>Saving Throw</strong> @Check[fortitude|dc:23|basic]</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<hr />\n<p><strong>단계 1</strong> @Damage[1d10[poison]] 피해와 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드}(1 라운드)</p>\n<p><strong>단계 2</strong> @Damage[1d12[poison]] 피해, @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1}, 및 오프 가드 (1 round)</p>\n<p><strong>단계 3</strong> @Damage[2d6[poison]] 피해, @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 2}, 오프 가드 (1 라운드).</p>\n<hr />\n<p><strong>참고</strong> 이 맹독으로 인한 서투른 상태는 24시간 후에 사라집니다.</p>"
         }
       }
     },
@@ -179,7 +179,7 @@
       "items": {
         "VtHcDRIcr6uZeQFk": {
           "name": "붕괴",
-          "description": "<p><strong>트리거</strong> 생물이 벽을 기어오르거나 물체를 제거하려고 시도하거나 벽이 강한 충격을 받습니다</p>\n<hr />\n<p><strong>효과</strong> 벽이 붕괴되어 그 위에 있거나 10피트 이내의 생물에게 @Damage[2d8[bludgeoning]]의 피해를 입힙니다. 생물이 @Check[reflex|dc:18|traits:damaging-effect] 내성 검사에서 성공한 생물은 반의 피해를 받고 무작위 방향으로 굴림합니다. 대성공 시 피해는 받지 않으며 방향을 선택할 수 있습니다.</p>"
+          "description": "<p><strong>트리거</strong> 생물이 벽을 기어오르거나 물체를 제거하려고 시도하거나 벽이 강한 충격을 받습니다</p>\n<hr />\n<p><strong>효과</strong> 벽이 붕괴되어 그 위에 있거나 10피트 이내의 생물에게 @Damage[2d8[bludgeoning]]의 피해를 입힙니다. 생물이 @Check[reflex|dc:18|traits:damaging-effect] 내성 굴림에서 성공한 생물은 반의 피해를 받고 무작위 방향으로 굴림합니다. 대성공 시 피해는 받지 않으며 방향을 선택할 수 있습니다.</p>"
         }
       }
     },
@@ -196,7 +196,7 @@
         },
         "xaLR3kxqklsAogya": {
           "name": "변이제 대사",
-          "description": "<p>다리우스는 활성 변이제의 힘을 대사하여 @Damage[2d6[healing]] 체력을 회복합니다. 만약 그가 그렇게 한다(또는 변이제를 마시기 전에 은밀한 파티에게 공격을 받으면), 그는 비무장 공격으로 턱과 발톱을 잃으며, 운동 체크 보너스가 2 감소하고, AC가 1 증가하며, 반사 내성 검사 보너스가 2 증가합니다.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.wE4S9lwOhtaRAm9n]{Effect: Active Mutagen}</p>"
+          "description": "<p>다리우스는 활성 변이제의 힘을 대사하여 @Damage[2d6[healing]] 체력을 회복합니다. 만약 그가 그렇게 한다(또는 변이제를 마시기 전에 은밀한 파티에게 공격을 받으면), 그는 비무장 공격으로 턱과 발톱을 잃으며, 운동 체크 보너스가 2 감소하고, AC가 1 증가하며, 반사 내성 굴림 보너스가 2 증가합니다.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.wE4S9lwOhtaRAm9n]{Effect: Active Mutagen}</p>"
         },
         "1AYgyqie1Elv3mKg": {
           "name": "Crystaline Mutation",
@@ -204,7 +204,7 @@
         },
         "2KlbsyUe3x0xTxPs": {
           "name": "뜨거운 왁스 분사",
-          "description": "<p>다리우스는 즉흥적으로 만든 왁스 분사기로 @Template[cone|distance:15] 방향으로 뜨거운 왁스를 분사합니다. 해당 지역 내 모든 생물은 @Check[reflex|dc:20|options:area-effect,damaging-effect] 내성 검사를 시도해야 합니다. 해당 지역 내 향초 호모노쿨리(homonoculi)는 피해를 입지 않고 대신 @Damage[2d6[healing]] 피해를 회복합니다. 뜨거운 왁스 대포를 사용한 후, 다리우스는 끓는 왁스 가마솥 옆에 인접한 상태에서 두 번의 상호작용 행동을 수행하여 분사기를 재장전할 때까지 다시 사용할 수 없습니다.</p><hr /><p><strong>대성공</strong> 생물은 피해를 받지 않습니다.</p>\n<p><strong>성공</strong> 생물은 @Damage[2d6[fire]|options:area-damage]의 피해를 입습니다.</p>\n<p><strong>실패</strong> 생물은 @Damage[3d6[fire],1d6[지속적,불]|options:area-damage]{3d6 불 피해 + 1d6 지속적 불 피해}를 받습니다.</p>\n<p><strong>대실패</strong> 생물은 @Damage[5d6[fire],2d6[지속적,fire]|옵션:영역 피해]{5d6 불 피해 + 2d6 지속적 불 피해}를 받습니다.</p>"
+          "description": "<p>다리우스는 즉흥적으로 만든 왁스 분사기로 @Template[cone|distance:15] 방향으로 뜨거운 왁스를 분사합니다. 해당 지역 내 모든 생물은 @Check[reflex|dc:20|options:area-effect,damaging-effect] 내성 굴림을 시도해야 합니다. 해당 지역 내 향초 호모노쿨리(homonoculi)는 피해를 입지 않고 대신 @Damage[2d6[healing]] 피해를 회복합니다. 뜨거운 왁스 대포를 사용한 후, 다리우스는 끓는 왁스 가마솥 옆에 인접한 상태에서 두 번의 상호작용 행동을 수행하여 분사기를 재장전할 때까지 다시 사용할 수 없습니다.</p><hr /><p><strong>대성공</strong> 생물은 피해를 받지 않습니다.</p>\n<p><strong>성공</strong> 생물은 @Damage[2d6[fire]|options:area-damage]의 피해를 입습니다.</p>\n<p><strong>실패</strong> 생물은 @Damage[3d6[fire],1d6[지속적,불]|options:area-damage]{3d6 불 피해 + 1d6 지속적 불 피해}를 받습니다.</p>\n<p><strong>대실패</strong> 생물은 @Damage[5d6[fire],2d6[지속적,fire]|옵션:영역 피해]{5d6 불 피해 + 2d6 지속적 불 피해}를 받습니다.</p>"
         }
       }
     },
@@ -225,7 +225,7 @@
         },
         "We6LladGR4C687q0": {
           "name": "Crawfish Venom",
-          "description": "<p><strong>Saving Throw</strong> @Check[fortitude|dc:17]</p>\n<p><strong>Maximum Duration</strong> 4 rounds</p>\n<p><strong>단계 1</strong> @Damage[1d6[poison]] 피해와 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 1} (1 라운드)</p>\n<p><strong>단계 2</strong> @Damage[1d6[poison]] 피해와 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 2} (1 round).</p>"
+          "description": "<p><strong>Saving Throw</strong> @Check[fortitude|dc:17]</p>\n<p><strong>Maximum Duration</strong> 4 rounds</p>\n<p><strong>단계 1</strong> @Damage[1d6[poison]] 피해와 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 1}(1 라운드)</p>\n<p><strong>단계 2</strong> @Damage[1d6[poison]] 피해와 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 2}(1 round).</p>"
         },
         "xSrJboXYh6Bug0IV": {
           "name": "Grab",
@@ -280,7 +280,7 @@
       "name": "Pairaka (One-Shot #4)",
       "description": "<p>일부 악마들은 다중 우주를 파괴하려 하며, 다른 이들은 혼란과 학살을 일으키거나 철권으로 왕국을 지배하는 데 헌신합니다. 디브스는 다른 목표를 추구하지만, 마찬가지로 비열한 목표입니다-그들은 인간들의 계획과 업적을 방해하고 파괴하려는 것입니다.</p>\n<p>오래 전, 디브들은 영원히 사라진 고대 인간 제국에 종속된 지니들이었습니다. 초기에는 이 지니들은 창조물의 주인으로, 인간 파트너들과 협력해 세련된 디자인과 강력한 마법적 잠재력을 지닌 작품을 창조했습니다. 인간과의 협력이 점차 학대, 존중 부족, 심지어 노예화와 구속으로 변질되었습니다. 결국 이 지니들은 반란을 일으켰지만, 그 과정에서 허무주의적 반신 아흐리만(Ahriman)의 지배를 받게 되었습니다. 새로운 주인은 그들의 형태를 왜곡하고 인간 지배자들에게 복수할 힘을 부여했습니다. 이로써 첫 번째 디브가 탄생했습니다.</p>\n<p>첫 번째 부패의 파동 이후, 물질계에서 죽은 가장 악랄하고 증오에 찬 지니들의 영혼에서 새로운 디브가 탄생합니다. 또는 인간에게 배신당해 복수의 열망에 사로잡힌 자들의 영혼에서 탄생합니다. 이러한 죽음 후, 이 지니들의 영혼은 아바돈의 공포의 궤도에 갇히게 되며, 아흐리만은 그들을 디브로 재형성해 인간 세계로 되돌려 보내 복수를 자행하게 합니다.</p>\n<hr />\n<p>파이라카스는 종종 매력적이며 때로는 유혹적이어서 인간 관계에 침투해 감정적·육체적 부패와 전염병을 통해 우정과 사랑의 유대를 서서히 파괴합니다. 파이라카스는 아름다운 파란 피부와 큰 발진과 종기로 덮인 인간형 생물로 나타나지만, 진정한 모습을 드러내는 경우는 드뭅니다. 대신, 그들은 괴롭히고 부패시키려는 대상의 신뢰를 얻기 위해 충분한 관심을 끌 수 있는 형태를 취합니다.</p>",
       "languages": "텔레파시 100피트",
-      "saves": "마법 내성 검사 모든 내성 +1",
+      "saves": "마법 내성 굴림 모든 내성 +1",
       "items": {
         "9rWukglRKNo6c7Jk": {
           "name": "발톱"
@@ -303,7 +303,7 @@
         },
         "OnmLcXNYU1Jxp5ji": {
           "name": "흑사병",
-          "description": "<p>감염된 생물은 피로 상태를 제거할 수 없습니다.</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:23]</p>\n<hr />\n<p><strong>발병</strong> 1일</p>\n<p><strong>단계 1</strong> @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{피로} (1일)</p>\n<p><strong>단계 2</strong> @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 2} 및 피로 (1일)</p>\n<p><strong>단계 3</strong> @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 3}, 피로, 그리고 [U0005⟭]를 [[/br 1d20 #분]]{1d20분}마다 (1일)</p>"
+          "description": "<p>감염된 생물은 피로 상태를 제거할 수 없습니다.</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:23]</p>\n<hr />\n<p><strong>발병</strong> 1일</p>\n<p><strong>단계 1</strong> @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{피로}(1일)</p>\n<p><strong>단계 2</strong> @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 2} 및 피로 (1일)</p>\n<p><strong>단계 3</strong> @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 3}, 피로, 그리고 [U0005⟭]를 [[/br 1d20 #분]]{1d20분}마다 (1일)</p>"
         },
         "D4noCa8oJeJbAEEn": {
           "name": "형태 변경",
@@ -311,7 +311,7 @@
         },
         "VZlTraWqYIrTlPGW": {
           "name": "Tormenting Dreams",
-          "description": "<p><strong>빈도</strong> 하루에 한 번</p>\n<hr />\n<p><strong>효과</strong> 파이라카는 100피트 이내의 잠든 생물에게 사랑하는 사람과 친구들의 배신 장면을 보여주는 악몽으로 괴롭힌다. 대상은 @Check[will|dc:25] 내성 검사를 시도해야 하며, @UUID[Compendium.pf2e.spells-srd.Item.Uqj344bezBq3ESdq]{악몽} 주문의 효과가 적용됩니다.</p>"
+          "description": "<p><strong>빈도</strong> 하루에 한 번</p>\n<hr />\n<p><strong>효과</strong> 파이라카는 100피트 이내의 잠든 생물에게 사랑하는 사람과 친구들의 배신 장면을 보여주는 악몽으로 괴롭힌다. 대상은 @Check[will|dc:25] 내성 굴림을 시도해야 하며, @UUID[Compendium.pf2e.spells-srd.Item.Uqj344bezBq3ESdq]{악몽} 주문의 효과가 적용됩니다.</p>"
         }
       }
     },
@@ -413,7 +413,7 @@
       "items": {
         "GvNIHxShQxa9QiM0": {
           "name": "Exhale",
-          "description": "<p><strong>트리거</strong> 생물이 표시된 영역 중 하나에 들어오거나, 생물이 방에 1분 동안 머무르면</p>\n<hr />\n<p><strong>효과</strong> 함정이 차가운 숨을 내뿜어 트리거된 생물의 칸을 중심으로 @Template[burst|distance:15]{15피트 폭발} 범위를 감싸며, 이 공격은 @Damage[(4d8+18)[cold]]의 피해를 입힙니다 (@Check[reflex|dc:24|basic|traits:cold,evocation,magical,trap,hazard] 내성). 내성 검사에 대실패한 생물은 동상 때문에 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1} 상태가 10분 동안 지속됩니다.</p>"
+          "description": "<p><strong>트리거</strong> 생물이 표시된 영역 중 하나에 들어오거나, 생물이 방에 1분 동안 머무르면</p>\n<hr />\n<p><strong>효과</strong> 함정이 차가운 숨을 내뿜어 트리거된 생물의 칸을 중심으로 @Template[burst|distance:15]{15피트 폭발} 범위를 감싸며, 이 공격은 @Damage[(4d8+18)[cold]]의 피해를 입힙니다 (@Check[reflex|dc:24|basic|traits:cold,evocation,magical,trap,hazard] 내성). 내성 굴림에 대실패한 생물은 동상 때문에 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1} 상태가 10분 동안 지속됩니다.</p>"
         }
       }
     },
@@ -483,7 +483,7 @@
         },
         "KWfzW6wQi6tK0Btv": {
           "name": "민첩한 레시",
-          "description": "<p>허니서클 레시는 반사 및 인내 내성 검사 및 트립과 강제 이동에 대한 DC에 +1 상태 보너스를 얻습니다.</p>"
+          "description": "<p>허니서클 레시는 반사 및 인내 내성 굴림 및 트립과 강제 이동에 대한 DC에 +1 상태 보너스를 얻습니다.</p>"
         },
         "GHQR2PY6wyAAu2sb": {
           "name": "녹색 폭발",
@@ -499,7 +499,7 @@
       "name": "나쁜 진동",
       "hpdetails": "HP당 크리스탈",
       "desc (hazard)": "<p>테이블 위에 있는 세 개의 큰 크리스탈이 진동하기 시작하며 빠르게 커지는 소리를 내뿜습니다.</p>",
-      "disable": "<p>@Check[thievery|dc:17] (훈련된) 또는 @Check[occultism|dc:17] (훈련된)로 크리스탈 중 하나에 걸린 마법을 방해하거나, @Check[performance|dc:20] (훈련된) 캐릭터가 @UUID[Compendium.pf2e.spells-srd.Item.WILXkjU5Yq3yw10r]{Counter Performance}를 사용해 소리를 수정해 소리를 수정체로 되돌리거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (2단계, DC 18)로 수정체를 반격합니다.</span></p>",
+      "disable": "<p>@Check[thievery|dc:17] (훈련된) 또는 @Check[occultism|dc:17] (훈련된)로 크리스탈 중 하나에 걸린 마법을 방해하거나, @Check[performance|dc:20] (훈련된) 캐릭터가 @UUID[Compendium.pf2e.spells-srd.Item.WILXkjU5Yq3yw10r]{Counter Performance}를 사용해 소리를 수정해 소리를 수정체로 되돌리거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic}(2단계, DC 18)로 수정체를 반격합니다.</span></p>",
       "routine": "<p>(3 행동) 위험은 비활성화되거나 파괴된 각 크리스탈마다 1개의 행동을 잃습니다. 함정의 각 행동 시, 방 내의 작은 크기 이상의 생물 한 마리를 대상으로 크리스탈이 소리 폭격을 fire합니다. 대상은 무작위로 결정되며 @Damage[1d8[sonic]]의 피해를 입습니다 (@Check[fortitude|dc:20|basic]); 이 내성에 대실패한 대상은 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{청각 상실} 상태가 1분 동안 지속됩니다. 위험 요소의 루틴이 끝날 때 @Check[flat|dc:10|name:Destroy a Crystal]를 시도합니다. 성공 시 크리스탈 중 하나가 부서지고 파괴됩니다.</p>",
       "stealth": "<p>(expert)</p>",
       "items": {

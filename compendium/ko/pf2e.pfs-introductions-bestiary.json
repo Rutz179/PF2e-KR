@@ -71,7 +71,7 @@
       "items": {
         "OsRJ9mpFyuDME5oa": {
           "name": "Racing Blood",
-          "description": "<p><strong>트리거</strong> <em>굶주림의 부름</em>를 지닌 살아있는 생물이 출구 계단으로부터 30피트 이내로 이동합니다.</p>\n<hr />\n<p><strong>효과</strong> 타겟의 몸속에서 피가 쿵쾅거리며 심장이 통제 불가능하게 뛰기 시작합니다. 생물은 @Check[will|dc:20|name:Resist Racing Blood|traits:complex] 내성 검사를 시도해야 하며, 그 후 유령이 이니셔티브를 굴립니다.</p>\n<hr />\n<p><strong>대성공</strong> 대상은 영향을 받지 않습니다.</p>\n<p><strong>성공</strong> 대상은 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1}.</p>\n<p><strong>실패</strong> 대상은 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 2}.</p>\n<p><strong>대실패</strong> 실패로 처리되며, 대상의 이동 속도가 1분 동안 10 감소합니다.</p>"
+          "description": "<p><strong>트리거</strong> <em>굶주림의 부름</em>를 지닌 살아있는 생물이 출구 계단으로부터 30피트 이내로 이동합니다.</p>\n<hr />\n<p><strong>효과</strong> 타겟의 몸속에서 피가 쿵쾅거리며 심장이 통제 불가능하게 뛰기 시작합니다. 생물은 @Check[will|dc:20|name:Resist Racing Blood|traits:complex] 내성 굴림을 시도해야 하며, 그 후 유령이 이니셔티브를 굴립니다.</p>\n<hr />\n<p><strong>대성공</strong> 대상은 영향을 받지 않습니다.</p>\n<p><strong>성공</strong> 대상은 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1}.</p>\n<p><strong>실패</strong> 대상은 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 2}.</p>\n<p><strong>대실패</strong> 실패로 처리되며, 대상의 이동 속도가 1분 동안 10 감소합니다.</p>"
         }
       }
     },
@@ -85,7 +85,7 @@
       "items": {
         "0kWS6tRTbUUXlA6N": {
           "name": "코를 갈고닦다",
-          "description": "<p><strong>트리거</strong> 살아있는 생물이 북쪽 벽 중앙의 미소 짓는 얼굴로부터 10피트 이내에 접근합니다</p>\n<hr />\n<p><strong>효과</strong> 휘파람 소리가 고통스러운 음높이로 커지며 @Damage[(1d8+4)[sonic]]의 피해를 입힙니다. 영향을 받은 생물은 @Check[will|dc:20|traits:damaging-effect] 내성 검사를 시도해야 하며, 유령은 그 후 이니셔티브를 굴립니다.</p>\n<hr />\n<p><strong>대성공</strong> 대상은 피해를 받지 않습니다.</p>\n<p><strong>성공</strong> 생물은 반의 피해를 입습니다.</p>\n<p><strong>실패</strong> 생물은 전체 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{청각 상실} 상태가 1분 동안 지속됩니다.</p>\n<p><strong>대실패</strong> 생물은 두 배의 피해를 입으며, @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 1} 상태가 되고, 2분 동안 청각을 잃습니다.</p>"
+          "description": "<p><strong>트리거</strong> 살아있는 생물이 북쪽 벽 중앙의 미소 짓는 얼굴로부터 10피트 이내에 접근합니다</p>\n<hr />\n<p><strong>효과</strong> 휘파람 소리가 고통스러운 음높이로 커지며 @Damage[(1d8+4)[sonic]]의 피해를 입힙니다. 영향을 받은 생물은 @Check[will|dc:20|traits:damaging-effect] 내성 굴림을 시도해야 하며, 유령은 그 후 이니셔티브를 굴립니다.</p>\n<hr />\n<p><strong>대성공</strong> 대상은 피해를 받지 않습니다.</p>\n<p><strong>성공</strong> 생물은 반의 피해를 입습니다.</p>\n<p><strong>실패</strong> 생물은 전체 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{청각 상실} 상태가 1분 동안 지속됩니다.</p>\n<p><strong>대실패</strong> 생물은 두 배의 피해를 입으며, @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 1} 상태가 되고, 2분 동안 청각을 잃습니다.</p>"
         }
       }
     },
@@ -158,7 +158,7 @@
         },
         "Ln8ZtQy8JZzqvbgp": {
           "name": "포자 구름",
-          "description": "<p>구름 속의 비는 @Template[emanation|distance:15] 범위 내의 비균류 생물의 눈과 목을 자극하는 포자 구름을 방출합니다. 각 생물은 @Check[fortitude|dc:16|options:area-effect,damaging-effect] 내성 검사에서 성공하지 못하면 @Damage[1[persistent,poison]|options:area-damage]의 피해를 입습니다. 생물은 지속되는 피해가 계속되는 동안 시야가 감소하며, 20피트(대실패 시 10피트) 이내에서만 볼 수 있습니다.</p>"
+          "description": "<p>구름 속의 비는 @Template[emanation|distance:15] 범위 내의 비균류 생물의 눈과 목을 자극하는 포자 구름을 방출합니다. 각 생물은 @Check[fortitude|dc:16|options:area-effect,damaging-effect] 내성 굴림에서 성공하지 못하면 @Damage[1[persistent,poison]|options:area-damage]의 피해를 입습니다. 생물은 지속되는 피해가 계속되는 동안 시야가 감소하며, 20피트(대실패 시 10피트) 이내에서만 볼 수 있습니다.</p>"
         },
         "Qo6Zya98KMBBIXlg": {
           "name": "포자",
@@ -184,15 +184,15 @@
     },
     "Cleaning Agents": {
       "name": "세제",
-      "desc (hazard)": "<p>\n{공학 로어} (숙련) 또는  (숙련)로 제어 패널을 비활성화하거나,  또는 로 화학 물질을 방출하는 노즐을 막아야 합니다. 함정을 무력화하려면 3번의 성공이 필요합니다.</p>",
-      "disable": "<p>@Check[engineering-lore|dc:20|name:Disable Control Panel|traits:mechanical,complex]{Engineering Lore} (trained) or @Check[thievery|dc:20|name:Disable Control Panel|traits:mechanical,complex] (trained) to deactivate the control panel, or @Check[athletics|dc:21|name:Plug the Spouts|traits:mechanical,complex] or @Check[acrobatics|dc:21|name:Plug the Spouts|traits:mechanical,complex] to plug the spouts that release the chemicals; three successes are required to disable the trap.</p>",
+      "desc (hazard)": "<p>\n{공학 로어}(숙련) 또는  (숙련)로 제어 패널을 비활성화하거나,  또는 로 화학 물질을 방출하는 노즐을 막아야 합니다. 함정을 무력화하려면 3번의 성공이 필요합니다.</p>",
+      "disable": "<p>@Check[engineering-lore|dc:20|name:Disable Control Panel|traits:mechanical,complex]{Engineering Lore}(trained) or @Check[thievery|dc:20|name:Disable Control Panel|traits:mechanical,complex] (trained) to deactivate the control panel, or @Check[athletics|dc:21|name:Plug the Spouts|traits:mechanical,complex] or @Check[acrobatics|dc:21|name:Plug the Spouts|traits:mechanical,complex] to plug the spouts that release the chemicals; three successes are required to disable the trap.</p>",
       "reset": "<p>트랩은 1분 후 비활성화되며 1시간 후에 재설정됩니다.</p>",
       "routine": "<p>(3 행동) 함정은 방을 부식성 증기로 가득 채우고 해당 지역(@Check[fortitude|dc:20|basic|name:Cleaning Agent|traits:acid]) 내 모든 생물에게 @Damage[(2d6+2)[acid]]의 피해를 입힙니다.</p>",
       "stealth": "<p>(훈련된)</p>",
       "items": {
         "BoGoZuSpMu8ehH3i": {
           "name": "오염 제거 스프레이",
-          "description": "<p><strong>트리거</strong> 생물이 방에 들어갑니다.</p>\n<hr />\n<p><strong>Effect</strong> 트랩이 트리거링 생물에게 청소 화학 물질을 분사하여 @Damage[(1d8+4)[acid]]의 피해를 입힙니다. 생물은 @Check[reflex|dc:20|traits:acid,damaging-effect]의 내성 검사를 시도해야 하며, 트랩은 이후 이니셔티브를 굴립니다.</p>\n<hr />\n<p><strong>대성공</strong> 생물은 영향을 받지 않습니다.</p>\n<p><strong> 성공</strong> 생물은 반의 피해를 입습니다.</p>\n<p><strong>실패</strong> 생물은 전체 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{눈이 부신} 상태가 1 라운드 동안 지속됩니다.</p>\n<p><strong>대실패</strong> 생물은 두 배의 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{눈이 멀다} 상태가 1 라운드 동안 지속됩니다.</p>"
+          "description": "<p><strong>트리거</strong> 생물이 방에 들어갑니다.</p>\n<hr />\n<p><strong>Effect</strong> 트랩이 트리거링 생물에게 청소 화학 물질을 분사하여 @Damage[(1d8+4)[acid]]의 피해를 입힙니다. 생물은 @Check[reflex|dc:20|traits:acid,damaging-effect]의 내성 굴림을 시도해야 하며, 트랩은 이후 이니셔티브를 굴립니다.</p>\n<hr />\n<p><strong>대성공</strong> 생물은 영향을 받지 않습니다.</p>\n<p><strong> 성공</strong> 생물은 반의 피해를 입습니다.</p>\n<p><strong>실패</strong> 생물은 전체 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{눈이 부신} 상태가 1 라운드 동안 지속됩니다.</p>\n<p><strong>대실패</strong> 생물은 두 배의 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{눈이 멀다} 상태가 1 라운드 동안 지속됩니다.</p>"
         }
       }
     },
@@ -209,7 +209,7 @@
         },
         "mdqK7RuSjtezVyS8": {
           "name": "늪 파도",
-          "description": "<p><strong>주파수</strong> 분당 1회</p>\n<hr />\n<p><strong>효과</strong> 습지 우즈가 날카로운 파편으로 가득 찬 습지 진흙 파도를 방출하여 반경 @Template[emanation|distance:20]. 해당 지역 내의 모든 생물은 @Check[reflex|dc:17|options:area-effect,damaging-effect] 내성 검사에 성공해야 하며, 실패 시 @Damage[1d4[piercing]|options:area-damage]의 피해를 받고 1분 동안 이동 속도에 -10피트 페널티를 받습니다 (대실패 시 해당 생물은 넘어집니다) @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} 상태가 됩니다).</p>\n<p>생물은 상호작용 행동을 사용해 누군가를 늪에서 청소할 수 있으며, 각 행동마다 속도 페널티를 5피트씩 감소시킵니다.</p>"
+          "description": "<p><strong>빈도</strong> 분당 1회</p>\n<hr />\n<p><strong>효과</strong> 습지 우즈가 날카로운 파편으로 가득 찬 습지 진흙 파도를 방출하여 반경 @Template[emanation|distance:20]. 해당 지역 내의 모든 생물은 @Check[reflex|dc:17|options:area-effect,damaging-effect] 내성 굴림에 성공해야 하며, 실패 시 @Damage[1d4[piercing]|options:area-damage]의 피해를 받고 1분 동안 이동 속도에 -10피트 페널티를 받습니다 (대실패 시 해당 생물은 넘어집니다) @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} 상태가 됩니다).</p>\n<p>생물은 상호작용 행동을 사용해 누군가를 늪에서 청소할 수 있으며, 각 행동마다 속도 페널티를 5피트씩 감소시킵니다.</p>"
         }
       },
       "StealthVariants": {
@@ -221,7 +221,7 @@
     "Ancient Summoning Rune": {
       "name": "고대 소환 룬",
       "desc (hazard)": "<p>방의 중앙 기둥을 둘러싸는 10피트 반경의 투명 마법 센서 구름이 존재합니다.</p>",
-      "disable": "<p>@Check[acrobatics|dc:15|name:Approach the Rune|traits:magical,trap] 함정을 발동시키지 않고 접근하려면 @Check[thievery|dc:17|name:Erase the Rune|traits:action:disable-a-device,magical,trap] (훈련된)으로 룬을 지우거나, @Check[athletics|dc:19|name:Remove Stones|traits:magical,trap]으로 기둥에서 마법을 방해할 만큼의 돌을 제거하거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제} (1단계; 반격 DC 15)로 룬을 무효화해야 합니다.</p>",
+      "disable": "<p>@Check[acrobatics|dc:15|name:Approach the Rune|traits:magical,trap] 함정을 발동시키지 않고 접근하려면 @Check[thievery|dc:17|name:Erase the Rune|traits:action:disable-a-device,magical,trap] (훈련된)으로 룬을 지우거나, @Check[athletics|dc:19|name:Remove Stones|traits:magical,trap]으로 기둥에서 마법을 방해할 만큼의 돌을 제거하거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(1단계; 반격 DC 15)로 룬을 무효화해야 합니다.</p>",
       "reset": "<p>함정은 매일 새벽에 재설정됩니다.</p>",
       "stealth": "<p>(훈련된)</p>",
       "items": {
@@ -236,12 +236,12 @@
       "desc (hazard)": "<p>벽에 있는 아즐란티 감독관의 얼굴이 움직이며 방 안에 있는 사람들에게 업무 태도가 나쁘다고 꾸짖기 시작합니다.</p>",
       "disable": "<p>@Check[deception|dc:20|name:Fake a Smile|traits:complex,haunt] 즐거운 태도를 가장하거나, @Check[crafting|dc:21|name:Show Skill at a Task|traits:complex,haunt] (훈련된) 특정 작업에 능숙함을 보여야 합니다. 유령의 효과를 해제하려면 세 번의 성공적인 체크가 필요합니다.</p>",
       "reset": "<p>모든 생명체가 방을 떠난 후 2 라운드 후에 유령의 목소리가 멈추고 6시간 후에 재설정됩니다.</p>",
-      "routine": "<p>(3 행동) 감독자의 목소리가 방을 가득 채우고 방 안에 있는 모든 이들이 미소를 짓도록 강요합니다. 방 안에 있는 각 생물은 @Damage[(1d8+4)[mental]] 피해를 입으며, @Check[will|dc:20|name:Try Not to Smile too Hard|traits:complex,haunt] 내성 검사를 시도해야 합니다.</p>\n<hr />\n<p><strong>대성공</strong> 대상은 피해를 받지 않습니다.</p>\n<p><strong>성공</strong> 대상은 반의 피해를 입습니다.</p>\n<p><strong>실패</strong> 생물은 전체 피해를 입습니다.</p>\n<p><strong>대실패</strong> 생물은 전체 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 1} 상태가 됩니다.</p>",
+      "routine": "<p>(3 행동) 감독자의 목소리가 방을 가득 채우고 방 안에 있는 모든 이들이 미소를 짓도록 강요합니다. 방 안에 있는 각 생물은 @Damage[(1d8+4)[mental]] 피해를 입으며, @Check[will|dc:20|name:Try Not to Smile too Hard|traits:complex,haunt] 내성 굴림을 시도해야 합니다.</p>\n<hr />\n<p><strong>대성공</strong> 대상은 피해를 받지 않습니다.</p>\n<p><strong>성공</strong> 대상은 반의 피해를 입습니다.</p>\n<p><strong>실패</strong> 생물은 전체 피해를 입습니다.</p>\n<p><strong>대실패</strong> 생물은 전체 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 1} 상태가 됩니다.</p>",
       "stealth": "<p>(훈련됨)</p>",
       "items": {
         "krjZ9lqVkGcDTbNl": {
           "name": "웃어! 웃어!",
-          "description": "<p><strong>트리거</strong> 북쪽 벽 중앙의 웃는 얼굴로부터 10피트 이내에 살아있는 생물이 접근합니다</p>\n<hr />\n<p><strong>효과</strong> 얼굴이 아즐란티어로 생물에게 미소를 지으라고 소리치며 일로 돌아가라고 명령합니다. 생물은 @Damage[(1d8+4)[mental]]의 피해를 입으며 @Check[will|dc:20|name:Resist Loud Yelling|traits:complex,haunt] 내성 검사를 시도해야 합니다. 유령은 그 다음에 이니셔티브를 굴립니다.</p>\n<hr />\n<p><strong>대성공</strong> 대상은 피해를 받지 않습니다.</p>\n<p><strong>성공</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> 생물은 전체 피해를 받습니다.</p>\n<p><strong>대실패</strong> 생물은 전체 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{기절 1} 상태가 됩니다.</p>"
+          "description": "<p><strong>트리거</strong> 북쪽 벽 중앙의 웃는 얼굴로부터 10피트 이내에 살아있는 생물이 접근합니다</p>\n<hr />\n<p><strong>효과</strong> 얼굴이 아즐란티어로 생물에게 미소를 지으라고 소리치며 일로 돌아가라고 명령합니다. 생물은 @Damage[(1d8+4)[mental]]의 피해를 입으며 @Check[will|dc:20|name:Resist Loud Yelling|traits:complex,haunt] 내성 굴림을 시도해야 합니다. 유령은 그 다음에 이니셔티브를 굴립니다.</p>\n<hr />\n<p><strong>대성공</strong> 대상은 피해를 받지 않습니다.</p>\n<p><strong>성공</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> 생물은 전체 피해를 받습니다.</p>\n<p><strong>대실패</strong> 생물은 전체 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{기절 1} 상태가 됩니다.</p>"
         }
       }
     }

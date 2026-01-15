@@ -247,7 +247,7 @@
     "Nightmare Terrain": {
       "name": "악몽의 지형",
       "desc (hazard)": "<p>무해해 보이는 땅이 침입자에게 끔찍한 환상으로 공격합니다.</p>",
-      "disable": "<p>@Check[arcana|dc:22], @Check[nature|dc:22], @Check[occultism|dc:22], 또는 @Check[religion|dc:22] (해당 기술에 전문가급 숙련도를 가진 영웅에 의해) 세 번 사용해 마법을 일시적으로 방해하거나 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제} (3단계, DC 25)</p>",
+      "disable": "<p>@Check[arcana|dc:22], @Check[nature|dc:22], @Check[occultism|dc:22], 또는 @Check[religion|dc:22] (해당 기술에 전문가급 숙련도를 가진 영웅에 의해) 세 번 사용해 마법을 일시적으로 방해하거나 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(3단계, DC 25)</p>",
       "reset": "<p>모든 생물이 영향을 받은 지역을 떠난 후 끔찍한 환상이 사라지지만, 위험은 즉시 다음에 들어오는 생물에게 환상을 가하기 위해 준비됩니다.</p>",
       "routine": "<p>(1 행동) 영향을 받은 지역 내의 모든 생물의 마음에 끔찍한 환상이 들이닥칩니다. 각 생물은 @Check[will|dc:24] 내성 굴림을 시도해야 합니다.</p>\n<hr />\n<p><strong>대성공</strong> 생물은 영향을 받지 않습니다.</p>\n<p><strong>성공</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 2} 상태가 됩니다.</p>\n<p><strong>실패</strong> 생물은 @Damage[(2d8+9)[mental]]의 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 3} 상태가 됩니다.</p>\n<p><strong>대실패</strong> 생물은 @Damage[(4d8+18)[mental]]의 피해를 입으며 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 4} 상태가 됩니다.</p>",
       "stealth": "<p>@Check[perception|dc:22|traits:action:seek] 땅의 미묘한 마법적 기운을 감지하기 위해</p>",

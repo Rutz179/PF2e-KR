@@ -117,7 +117,7 @@
           "name": "상시 마법"
         },
         "i4jbUrRlPXHHy15s": {
-          "name": "마법 내성 검사 모든 내성 +1"
+          "name": "마법 내성 굴림 모든 내성 +1"
         },
         "XN9PqGr1Gft89U0v": {
           "name": "기적 변형",
@@ -129,7 +129,7 @@
         },
         "2oNUku2hW5pSquMS": {
           "name": "정신 약화",
-          "description": "<p>니카라르사는 60피트 이내의 한 생물에게 시선을 포커스합니다. 해당 대상은 @Check[will|dc:34] 내성 검사를 시도해야 합니다. 내성 굴림 결과에 관계없이, 대상은 1일 동안 일시적으로 면역 상태가 됩니다.</p>\n<hr />\n<p><strong>대성공</strong> 니카라르사는 대상의 저항의 강도에 의해 오프 가드 상태에 빠지며, 다음 차례가 끝날 때까지 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 2} 상태가 됩니다.</p>\n<p><strong>성공</strong> 목표는 니카라르사의 영향을 저항합니다.</p>\n<p><strong>실패</strong> 목표의 포커스와 의지가 흡수되어 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 2} 상태가 1분 동안 지속됩니다.</p>\n<p><strong>대실패</strong> 실패와 동일하지만, 대상은 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 3} 상태가 1시간 동안 지속됩니다.</p>"
+          "description": "<p>니카라르사는 60피트 이내의 한 생물에게 시선을 포커스합니다. 해당 대상은 @Check[will|dc:34] 내성 굴림을 시도해야 합니다. 내성 굴림 결과에 관계없이, 대상은 1일 동안 일시적으로 면역 상태가 됩니다.</p>\n<hr />\n<p><strong>대성공</strong> 니카라르사는 대상의 저항의 강도에 의해 오프 가드 상태에 빠지며, 다음 차례가 끝날 때까지 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 2} 상태가 됩니다.</p>\n<p><strong>성공</strong> 목표는 니카라르사의 영향을 저항합니다.</p>\n<p><strong>실패</strong> 목표의 포커스와 의지가 흡수되어 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 2} 상태가 1분 동안 지속됩니다.</p>\n<p><strong>대실패</strong> 실패와 동일하지만, 대상은 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 3} 상태가 1시간 동안 지속됩니다.</p>"
         },
         "4csEUCYiZOJmhWRo": {
           "name": "개선된 기절"
@@ -170,9 +170,9 @@
     "Trial of Tolerance": {
       "name": "관용의 시험",
       "desc (hazard)": "<p>번화한 시장 장면의 설득력 있는 환상이 빈 방을 채우며, 관찰자들에게 두려움을 일으킬 수 있는 다양성과 예상치 못한 만남을 직면하게 합니다.</p>",
-      "disable": "<p>@Check[thievery|dc:43] (마스터) 방 바닥에 잘 숨겨진 핵심 룬을 긁어내거나 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제} (9등급; 반격 DC 36)로 시험을 반격합니다</p>",
+      "disable": "<p>@Check[thievery|dc:43] (마스터) 방 바닥에 잘 숨겨진 핵심 룬을 긁어내거나 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(9등급; 반격 DC 36)로 시험을 반격합니다</p>",
       "reset": "<p>방에 생물이 없으면 시험이 비활성화되며, 1분이 지나면 재설정됩니다.</p>",
-      "routine": "<p>(1 행동; 감정, 공포, 환상, 정신) 예상치 못한 공격적인 또는 공포스러운 모습의 존재(예: 헬나이트, 악마, 해적, 가면 쓴 암살자)가 군중에서 갑자기 나타나 방 내의 임의로 결정된 캐릭터에게 빠르게 접근한 후, 그 캐릭터의 경로에 위협적으로 서서 라운드 종료까지 머무릅니다. 이후 흥미를 잃은 듯 군중으로 돌아갑니다. 대상이 특정 종류의 생물에 대한 공포나 증오를 가지고 있다면, 이 예상치 못한 인물은 그 두려움과 증오를 상징합니다. 대상은 @Check[will|dc:46|traits:emotion,fear,illusion,mental] 내성 검사에 성공해야 하며, 실패 시 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 1} 상태가 됩니다(대실패 시 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 2} 상태). 방 내의 어떤 생물이 위협적인 인물에게 적대적인 행동을 취하면, 관용의 시험은 반사 폭력 반응을 사용합니다. 관용의 시험이 반사 폭력을 사용하지 않고 3 라운드가 지나면 위험이 비활성화됩니다.</p>",
+      "routine": "<p>(1 행동; 감정, 공포, 환상, 정신) 예상치 못한 공격적인 또는 공포스러운 모습의 존재(예: 헬나이트, 악마, 해적, 가면 쓴 암살자)가 군중에서 갑자기 나타나 방 내의 임의로 결정된 캐릭터에게 빠르게 접근한 후, 그 캐릭터의 경로에 위협적으로 서서 라운드 종료까지 머무릅니다. 이후 흥미를 잃은 듯 군중으로 돌아갑니다. 대상이 특정 종류의 생물에 대한 공포나 증오를 가지고 있다면, 이 예상치 못한 인물은 그 두려움과 증오를 상징합니다. 대상은 @Check[will|dc:46|traits:emotion,fear,illusion,mental] 내성 굴림에 성공해야 하며, 실패 시 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 1} 상태가 됩니다(대실패 시 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 2} 상태). 방 내의 어떤 생물이 위협적인 인물에게 적대적인 행동을 취하면, 관용의 시험은 반사 폭력 반응을 사용합니다. 관용의 시험이 반사 폭력을 사용하지 않고 3 라운드가 지나면 위험이 비활성화됩니다.</p>",
       "stealth": "<p>(master)</p>",
       "items": {
         "UCAA3CpGZeQIHHmo": {
@@ -346,7 +346,7 @@
         },
         "AijMBZl9gTqlCcb0": {
           "name": "고문받은 포효",
-          "description": "<p>코코기악은 목소리 모방 능력을 사용하여 과거 희생자들의 끔찍한 비명을 내뱉습니다. @Template[emanation|distance:120]{120 피트} 이내의 모든 생물은 @Damage[4d6[mental]|options:area-damage] 피해를 받고 @Check[will|dc:33|options:area-effect,damaging-effect,inflicts:fleeing,inflicts:frightened,inflicts:off-guard] 내성 검사를 시도해야 합니다.</p>\n<p>이 능력에 의해 놀란 생물은 코코기악에게 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 됩니다.</p><hr /><p><strong>대성공</strong> 생물은 영향을 받지 않으며 1분 동안 일시적으로 면역 상태가 됩니다.</p>\n<p><strong>성공</strong> 생물은 반의 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 1} 상태가 됩니다.</p>\n<p><strong>실패</strong> 생물은 전체 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 2} 상태가 됩니다.</p>\n<p><strong>대실패</strong> 생물은 두 배의 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 3} 상태가 되며, @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{도주} 상태가 되어 다음 차례 끝까지 지속됩니다.</p>"
+          "description": "<p>코코기악은 목소리 모방 능력을 사용하여 과거 희생자들의 끔찍한 비명을 내뱉습니다. @Template[emanation|distance:120]{120 피트} 이내의 모든 생물은 @Damage[4d6[mental]|options:area-damage] 피해를 받고 @Check[will|dc:33|options:area-effect,damaging-effect,inflicts:fleeing,inflicts:frightened,inflicts:off-guard] 내성 굴림을 시도해야 합니다.</p>\n<p>이 능력에 의해 놀란 생물은 코코기악에게 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 됩니다.</p><hr /><p><strong>대성공</strong> 생물은 영향을 받지 않으며 1분 동안 일시적으로 면역 상태가 됩니다.</p>\n<p><strong>성공</strong> 생물은 반의 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 1} 상태가 됩니다.</p>\n<p><strong>실패</strong> 생물은 전체 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 2} 상태가 됩니다.</p>\n<p><strong>대실패</strong> 생물은 두 배의 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 3} 상태가 되며, @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{도주} 상태가 되어 다음 차례 끝까지 지속됩니다.</p>"
         },
         "vRX7fHLnwfVnMQMN": {
           "name": "흔적 없는 발걸음",
@@ -391,7 +391,7 @@
       "hpdetails": "빠른 치유 15",
       "languages": "텔레파시 100 피트, 트루스피치",
       "perception": "엔트로피 감지 (불확실) 60피트",
-      "saves": "마법 내성 검사 모든에 +1 상태",
+      "saves": "마법 내성 굴림 모든에 +1 상태",
       "speeds": "제약 없는 이동",
       "items": {
         "jt4PpVxiITWfM8ox": {
@@ -444,7 +444,7 @@
         },
         "0rf640gBxRc7gfuM": {
           "name": "공간 리프트",
-          "description": "<p>30 피트. 오라 내부에 순간이동 능력을 사용하거나 순간이동을 통해 도착한 생물은 @Check[fortitude|dc:41] 내성에 성공하지 못하면 [[/gmr 1d4 #라운드]] 라운드 동안 존재에서 사라집니다. 생물은 행동할 수 없으며, 어떤 것도 감지할 수 없으며, 표적이 될 수 없습니다. 내성 검사에 성공하면 생물은 순간이동을 정상적으로 완료하지만 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1} 상태가 됩니다. 케케타르는 이 효과에 면역입니다.</p>"
+          "description": "<p>30 피트. 오라 내부에 순간이동 능력을 사용하거나 순간이동을 통해 도착한 생물은 @Check[fortitude|dc:41] 내성에 성공하지 못하면 [[/gmr 1d4 #라운드]] 라운드 동안 존재에서 사라집니다. 생물은 행동할 수 없으며, 어떤 것도 감지할 수 없으며, 표적이 될 수 없습니다. 내성 굴림에 성공하면 생물은 순간이동을 정상적으로 완료하지만 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{Stunned 1} 상태가 됩니다. 케케타르는 이 효과에 면역입니다.</p>"
         },
         "AniyCnlqZmw3IO9L": {
           "name": "형태 변화",
@@ -460,11 +460,11 @@
         },
         "pGgcLL8aXDHqao4y": {
           "name": "워프웨이브",
-          "description": "<p>많은 프로테안은 환경에 워프웨이브라고 불리는 불안정한 현실의 파동을 생성하여 적에게 시간과 공간에서 혼란스러운 변화를 가할 수 있습니다. 생물이 워프웨이브에 영향을 받고 내성 굴림에 실패하면 [[/gmr 1d8 #워프웨이브]]{1d8}를 굴리고 아래 표를 참조하여 해당 생물에게 적용되는 구체적인 효과를 확인합니다. 별도 표시가 없는 한 워프웨이브 효과는 [[/gmr 1d4 #Duration Warpwave Effect]]{1d4 라운드} 동안 지속되며, 새로운 워프웨이브 효과가 생물에 이미 적용된 이전 워프웨이브 효과를 무효화합니다.</p>\n<table class=\"pf2e\">\n<thead>\n<tr>\n<th>[[/gmr 1d8 #Warpwave]]{1d8}</th>\n<th>Warpwave Effect</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 2} (@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 3} on a critical failure)</td>\n</tr>\n<tr>\n<td>2</td>\n<td>@UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{혼란} 상태가 되고 [[/r 4d6 #Temporary Hit Points]]{4d6 임시 체력}을 얻습니다.</td>\n</tr>\n<tr>\n<td>3</td>\n<td>@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{눈이 부신 상태} (대실패 시 영구적)</td>\n</tr>\n<tr>\n<td>4</td>\n<td>@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 2} (@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 3} 대실패 시)</td>\n</tr>\n<tr>\n<td>5</td>\n<td>@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{마비} 에너지 필라멘트에 의해</td>\n</tr>\n<tr>\n<td>6</td>\n<td>@UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{가속} (걸음, 공격, 또는 이동만)</td>\n</tr>\n<tr>\n<td>7</td>\n<td>@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1}</td>\n</tr>\n<tr>\n<td>8</td>\n<td>@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 2} (@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 3} (대실패 시)</td>\n</tr>\n</tbody>\n</table>"
+          "description": "<p>많은 프로테안은 환경에 워프웨이브라고 불리는 불안정한 현실의 파동을 생성하여 적에게 시간과 공간에서 혼란스러운 변화를 가할 수 있습니다. 생물이 워프웨이브에 영향을 받고 내성 굴림에 실패하면 [[/gmr 1d8 #워프웨이브]]{1d8}를 굴리고 아래 표를 참조하여 해당 생물에게 적용되는 구체적인 효과를 확인합니다. 별도 표시가 없는 한 워프웨이브 효과는 [[/gmr 1d4 #Duration Warpwave Effect]]{1d4 라운드} 동안 지속되며, 새로운 워프웨이브 효과가 생물에 이미 적용된 이전 워프웨이브 효과를 무효화합니다.</p>\n<table class=\"pf2e\">\n<thead>\n<tr>\n<th>[[/gmr 1d8 #Warpwave]]{1d8}</th>\n<th>Warpwave Effect</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 2}(@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 3} on a critical failure)</td>\n</tr>\n<tr>\n<td>2</td>\n<td>@UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{혼란} 상태가 되고 [[/r 4d6 #Temporary Hit Points]]{4d6 임시 체력}을 얻습니다.</td>\n</tr>\n<tr>\n<td>3</td>\n<td>@UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{눈이 부신 상태}(대실패 시 영구적)</td>\n</tr>\n<tr>\n<td>4</td>\n<td>@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 2}(@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 3} 대실패 시)</td>\n</tr>\n<tr>\n<td>5</td>\n<td>@UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{마비} 에너지 필라멘트에 의해</td>\n</tr>\n<tr>\n<td>6</td>\n<td>@UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{가속}(걸음, 공격, 또는 이동만)</td>\n</tr>\n<tr>\n<td>7</td>\n<td>@UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{Slowed 1}</td>\n</tr>\n<tr>\n<td>8</td>\n<td>@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{Stupefied 2}(@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 3}(대실패 시)</td>\n</tr>\n</tbody>\n</table>"
         },
         "BudK3JDDVjbWqw8G": {
           "name": "워프웨이브 스트라이크",
-          "description": "<p>케케타르의 이빨이나 발톱에 맞은 생물은 @Check[fortitude|dc:38] 내성 검사에 성공하지 못하면 @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.HKFoOZZV4WdjkeeJ]{워프웨이브}에 노출됩니다.</p>"
+          "description": "<p>케케타르의 이빨이나 발톱에 맞은 생물은 @Check[fortitude|dc:38] 내성 굴림에 성공하지 못하면 @UUID[Compendium.pf2e.bestiary-family-ability-glossary.Item.HKFoOZZV4WdjkeeJ]{워프웨이브}에 노출됩니다.</p>"
         },
         "QblhIHkvSph67WTI": {
           "name": "붙잡기"
@@ -569,7 +569,7 @@
       "blurb": "변종 여성 메즐란",
       "hpdetails": "재생 15 (산에 의해 비활성화됨)",
       "languages": "다언어 능력",
-      "saves": "마법 내성 검사 +1",
+      "saves": "마법 내성 굴림 +1",
       "items": {
         "dHCnMadBsh7HsABT": {
           "name": "변형 부속물"
@@ -589,7 +589,7 @@
         },
         "VZVdci43sd9eSYaO": {
           "name": "마법 흡수",
-          "description": "<p><strong>트리거</strong> 메즐란이 단일 대상 마법에 대한 내성 굴림에 성공합니다</p>\n<hr />\n<p><strong>효과</strong> 메즈란은 주문을 흡수하여 그 효과를 무효화하고 나중에 사용할 수 있도록 저장합니다. 그들은 원래 주문을 사용한 캐스터의 주문 공격 수정자와 DC를 사용하여 해당 주문을 사용할 수 있습니다. 한 번에 하나의 주문만 저장할 수 있지만, 현재 저장된 주문을 새로운 주문으로 대체하기 위해 새로운 주문을 흡수할 수 있습니다.</p>\n<p>의도적인 캐스터는 메즐란이 내성 검사 없이 주문을 흡수하도록 허용할 수 있습니다.</p>"
+          "description": "<p><strong>트리거</strong> 메즐란이 단일 대상 마법에 대한 내성 굴림에 성공합니다</p>\n<hr />\n<p><strong>효과</strong> 메즈란은 주문을 흡수하여 그 효과를 무효화하고 나중에 사용할 수 있도록 저장합니다. 그들은 원래 주문을 사용한 캐스터의 주문 공격 수정자와 DC를 사용하여 해당 주문을 사용할 수 있습니다. 한 번에 하나의 주문만 저장할 수 있지만, 현재 저장된 주문을 새로운 주문으로 대체하기 위해 새로운 주문을 흡수할 수 있습니다.</p>\n<p>의도적인 캐스터는 메즐란이 내성 굴림 없이 주문을 흡수하도록 허용할 수 있습니다.</p>"
         },
         "HX5VU8Xvb5yPZ2aH": {
           "name": "디스코퍼레이트",
@@ -617,7 +617,7 @@
         },
         "VPwJArBSwEFYQLmI": {
           "name": "점성 트랩",
-          "description": "<p>메즐란의 점액 우즈 구슬에 맞은 생물은 1분 동안 모든 이동 속도에 -15피트 상황 페널티를 받습니다. 크리티컬 히트 시, 단단한 표면에 서 있는 대상은 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{이동 불가} 상태가 되며, 날개로 비행 중인 대상은 땅으로 떨어지고 비행 능력을 상실합니다.</p>\n<p>대상은 @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{탈출} (DC 34) 또는 총 3개의 상호작용 행동을 소비하여 자신을 해방시킬 수 있습니다.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.iWLAcND0iyW4NUZm]{효과: 점성 함정}</p>"
+          "description": "<p>메즐란의 점액 우즈 구슬에 맞은 생물은 1분 동안 모든 이동 속도에 -15피트 상황 페널티를 받습니다. 대성공 시, 단단한 표면에 서 있는 대상은 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{이동 불가} 상태가 되며, 날개로 비행 중인 대상은 땅으로 떨어지고 비행 능력을 상실합니다.</p>\n<p>대상은 @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{탈출}(DC 34) 또는 총 3개의 상호작용 행동을 소비하여 자신을 해방시킬 수 있습니다.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.iWLAcND0iyW4NUZm]{효과: 점성 함정}</p>"
         },
         "20MkBoYwO58FNxkX": {
           "name": "Library Lore"
@@ -649,7 +649,7 @@
         },
         "Sq9DRtGnUldAM6H0": {
           "name": "신성한 무기",
-          "description": "<p><strong>주파수</strong> 턴당 1회</p>\n<p><strong>Trigger</strong> Sister Maeri finishes Casting a Spell</p><hr /><p><strong>효과</strong> 자매 마에리의 톱니 검은 그녀의 턴이 끝날 때까지 추가로 1d4 영혼 피해를 입힙니다.</p>"
+          "description": "<p><strong>빈도</strong> 턴당 1회</p>\n<p><strong>Trigger</strong> Sister Maeri finishes Casting a Spell</p><hr /><p><strong>효과</strong> 자매 마에리의 톱니 검은 그녀의 턴이 끝날 때까지 추가로 1d4 영혼 피해를 입힙니다.</p>"
         }
       }
     },
@@ -714,7 +714,7 @@
         },
         "jnPwDZEoWvaBHihS": {
           "name": "Jorogumo Venom",
-          "description": "<p><strong>Saving Throw</strong> @Check[fortitude|dc:32]</p>\n<hr />\n<p><strong>Maximum Duration</strong> 4 hours</p>\n<p><strong>단계 1</strong> @Damage[3d6[poison]] 피해와 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1} (1 라운드)</p>\n<p><strong>단계 2</strong> @Damage[3d6[poison]] 피해와 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 2} (1 라운드)</p>\n<p><strong>단계 3</strong> @Damage[4d6[poison]] 피해와 혼미 2 (1 라운드)</p>\n<p><strong>단계 4</strong> @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비} [[/gmr 1d4 #Duration 마비]]{1d4 시간}</p>"
+          "description": "<p><strong>Saving Throw</strong> @Check[fortitude|dc:32]</p>\n<hr />\n<p><strong>Maximum Duration</strong> 4 hours</p>\n<p><strong>단계 1</strong> @Damage[3d6[poison]] 피해와 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1}(1 라운드)</p>\n<p><strong>단계 2</strong> @Damage[3d6[poison]] 피해와 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 2}(1 라운드)</p>\n<p><strong>단계 3</strong> @Damage[4d6[poison]] 피해와 혼미 2 (1 라운드)</p>\n<p><strong>단계 4</strong> @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비} [[/gmr 1d4 #Duration 마비]]{1d4 시간}</p>"
         },
         "jd3HtosBbbWGDYMZ": {
           "name": "거미 다리",
@@ -742,7 +742,7 @@
           "name": "경량 망치"
         },
         "bLA7GlEL18ButVld": {
-          "name": "마법 내성 검사 +1"
+          "name": "마법 내성 굴림 +1"
         },
         "Gff43hDYHFlX5TTL": {
           "name": "무기 해제 취약점",
@@ -800,7 +800,7 @@
         },
         "BCsGqHil1Dziu3FX": {
           "name": "검을 들어라!",
-          "description": "<p><strong>Frequency</strong> once per round</p><hr /><p><strong>Effect</strong> 고루미트 보병은 10피트 이내의 모든 적에게 광란의 공격을 가하며, @Check[reflex|dc:31|basic] 내성 검사를 수행합니다. 피해량은 행동 횟수에 따라 결정됩니다.</p>\n<p><span class=\"action-glyph\">1</span> [U0002]의 피해를 입힙니다.</p>\n<p><span class=\"action-glyph\">2</span> [U0003]의 피해와 [U0004]의 피해를 입힙니다.</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(3d12+10)[slashing]] 피해와 @Damage[2d6[persistent,bleed]] 피해.</p>"
+          "description": "<p><strong>Frequency</strong> once per round</p><hr /><p><strong>Effect</strong> 고루미트 보병은 10피트 이내의 모든 적에게 광란의 공격을 가하며, @Check[reflex|dc:31|basic] 내성 굴림을 수행합니다. 피해량은 행동 횟수에 따라 결정됩니다.</p>\n<p><span class=\"action-glyph\">1</span> [U0002]의 피해를 입힙니다.</p>\n<p><span class=\"action-glyph\">2</span> [U0003]의 피해와 [U0004]의 피해를 입힙니다.</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(3d12+10)[slashing]] 피해와 @Damage[2d6[persistent,bleed]] 피해.</p>"
         },
         "aKXQLekTbiAqj1Id": {
           "name": "Troop Movement",
@@ -909,7 +909,7 @@
     "The Trial of Finality": {
       "name": "최종의 시험",
       "desc (hazard)": "<p>천장에서 바닥으로 빛의 기둥이 천천히 회전하는 연기의 고리 속에서 빛납니다.</p>",
-      "disable": "<p>@Check[thievery|dc:43] (마스터) 위에서 내려오는 빛을 주변 연기로 반사하고 포커스시켜 분산시키고 위험의 마법 에너지를 제거하기 위해 도구를 사용하거나 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제} (9단계; 저항 DC 36)를 사용하여 시험을 반격합니다</p>",
+      "disable": "<p>@Check[thievery|dc:43] (마스터) 위에서 내려오는 빛을 주변 연기로 반사하고 포커스시켜 분산시키고 위험의 마법 에너지를 제거하기 위해 도구를 사용하거나 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(9단계; 저항 DC 36)를 사용하여 시험을 반격합니다</p>",
       "reset": "<p>방에 살아있는 생물이 없으면 시험이 비활성화되며, 1분이 지나면 재설정됩니다.</p>",
       "routine": "<p>(1 또는 2 행동; 감정, 공포, 정신) 영역 <strong>B4</strong>에 있는 생물이 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비} 상태이거나 @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 상실} 상태인 경우, 시험의 첫 번째 행동은 해당 마비 또는 의식 상실 효과를 유지합니다. 마비되거나 의식 상실 상태인 생물은 이 시점에 이 효과에 대해 새로운 @Check[will|dc:38|traits:emotion,fear,mental] 내성을 시도할 수 있으며, 결과는 위에서 A Quick Death에 대해 설명된 것과 동일합니다. 이 내성마다 DC는 1씩 누적되어 감소합니다. 최종 시험의 두 번째 행동은 연기 속에서 끔찍한 유령 모양을 창조하여 <strong>B4</strong> 영역 내 모든 존재에게 정신적으로 위협을 가하며 그들의 죽음이 임박했음을 약속합니다. 마비되거나 의식 잃은 생물 중 A Quick Death를 겪고 있는 생물을 제외한 모든 생물은 @Check[will|dc:38|traits:emotion,fear,mental] 내성을 시도해야 합니다.</p><hr><p><strong>대성공</strong> 생물은 영향을 받지 않습니다.</p><p><strong>성공</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 1} 상태가 됩니다.</p><p><strong>실패</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 2}가 됩니다.</p><p><strong>대실패</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 3} 상태가 되며, 공포 상태가 지속되는 동안 @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{도주 중} 상태가 됩니다.</p>",
       "stealth": "<p>(master)</p>",
@@ -985,7 +985,7 @@
         },
         "VmbUFfyz2JFBZda2": {
           "name": "슬래그블레이드 투척",
-          "description": "<p>템퍼브랜드는 120피트 이내의 목표물을 향해 팔을 휘둘러 슬래그블레이드를 분리시켜 공중으로 날려보냅니다. 목표물은 @Check[reflex|dc:40|options:damaging-effect] 내성 검사를 시도해야 합니다. 템퍼브랜드는 즉시 새로운 슬래그블레이드를 재생하지만, [[/gmr 1d4 #재충전 Hurl Slag]]{1d4 라운드} 동안 Hurl Slag를 다시 사용할 수 없습니다.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>성공</strong> 생물은 @Damage[5d10[fire]]의 피해를 입습니다.</p>\n<p><strong>실패</strong> 생물은 @Damage[10d10[fire]]의 피해를 입으며, 그리고 슬래그가 굳어지며 생물이 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1} 상태가 되어 3 라운드 동안 움직일 수 없습니다. 생물은 탈출(DC 40)로 슬래그의 구속에서 벗어나면 느린 상태를 조기에 종료할 수 있습니다.</p>\n<p><strong>대실패</strong> 생물은 @Damage[20d10[fire]]의 피해를 입으며, 슬래그가 빠르게 그 자리를 고정시켜 생물이 [[/act escape dc=40]]까지 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{제압} 상태가 됩니다.</p>"
+          "description": "<p>템퍼브랜드는 120피트 이내의 목표물을 향해 팔을 휘둘러 슬래그블레이드를 분리시켜 공중으로 날려보냅니다. 목표물은 @Check[reflex|dc:40|options:damaging-effect] 내성 굴림을 시도해야 합니다. 템퍼브랜드는 즉시 새로운 슬래그블레이드를 재생하지만, [[/gmr 1d4 #재충전 Hurl Slag]]{1d4 라운드} 동안 Hurl Slag를 다시 사용할 수 없습니다.</p><hr /><p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>성공</strong> 생물은 @Damage[5d10[fire]]의 피해를 입습니다.</p>\n<p><strong>실패</strong> 생물은 @Damage[10d10[fire]]의 피해를 입으며, 그리고 슬래그가 굳어지며 생물이 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1} 상태가 되어 3 라운드 동안 움직일 수 없습니다. 생물은 탈출(DC 40)로 슬래그의 구속에서 벗어나면 느린 상태를 조기에 종료할 수 있습니다.</p>\n<p><strong>대실패</strong> 생물은 @Damage[20d10[fire]]의 피해를 입으며, 슬래그가 빠르게 그 자리를 고정시켜 생물이 [[/act escape dc=40]]까지 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{제압} 상태가 됩니다.</p>"
         },
         "5Z7ExxF7eeMMWGNg": {
           "name": "우즈 형태",
@@ -1073,7 +1073,7 @@
     },
     "Vatumledor": {
       "name": "바투멜도르",
-      "description": "<p>그림자와 사회의 상층부에 숨어 있는 음모의 용들입니다. 이 용들은 음모가들로, 개인적 이익을 위해든 단순히 자신의 음모가 펼쳐지는 것을 보는 즐거움을 위해든 타인을 조작하고 통제하려는 욕망을 지니고 있습니다. 음모가 용들은 자신을 타인보다 우월하다고 여기며, 보통 아이를 대하듯 말투와 단어를 사용합니다. 그러나 대부분의 음모가 용들은 변장 상태에서 타인과 만나기 때문에, 변장을 유지하기 위해 최선을 다합니다.</p>\n<hr />\n<p>용은 다양한 형태로 존재하며, 많은 용이 마법 능력이나 마법과의 연결고리를 가지고 있습니다. 일부 용은 마법으로부터 더 큰 힘을 끌어내어, 마법에 장시간 노출될 경우 능력을 창조하거나 신체 구조를 변형시킬 수 있습니다. 이러한 용들은 나이가 들수록 마법적 근원과의 연결고리를 강화하며 더 강력해집니다. 학자들은 이 용들의 분류에 대해 논쟁 중이며, 일부는 마법 용이라는 이름을 선호하고 다른 이들은 특정 마법 전통과의 연결고리 때문에 전통적인 용이라는 용어를 사용합니다. 이름에 관계없이 이 용들은 다음과 같은 공통된 특성을 공유합니다: 마법 에너지를 활용하는 능력, 나이가 들수록 강화되는 힘과 재치, 그리고 엄청난 양의 보물과 재물을 모으는 경향.</p>",
+      "description": "<p>그림자와 사회의 상층부에 숨어 있는 음모의 용들입니다. 이 용들은 음모가들로, 개인적 이익을 위해든 단순히 자신의 음모가 펼쳐지는 것을 보는 즐거움을 위해든 타인을 조작하고 통제하려는 욕망을 지니고 있습니다. 컨스피레이터 드래곤들은 자신을 타인보다 우월하다고 여기며, 보통 아이를 대하듯 말투와 단어를 사용합니다. 그러나 대부분의 컨스피레이터 드래곤들은 변장 상태에서 타인과 만나기 때문에, 변장을 유지하기 위해 최선을 다합니다.</p>\n<hr />\n<p>용은 다양한 형태로 존재하며, 많은 용이 마법 능력이나 마법과의 연결고리를 가지고 있습니다. 일부 용은 마법으로부터 더 큰 힘을 끌어내어, 마법에 장시간 노출될 경우 능력을 창조하거나 신체 구조를 변형시킬 수 있습니다. 이러한 용들은 나이가 들수록 마법적 근원과의 연결고리를 강화하며 더 강력해집니다. 학자들은 이 용들의 분류에 대해 논쟁 중이며, 일부는 마법 용이라는 이름을 선호하고 다른 이들은 특정 마법 전통과의 연결고리 때문에 전통적인 용이라는 용어를 사용합니다. 이름에 관계없이 이 용들은 다음과 같은 공통된 특성을 공유합니다: 마법 에너지를 활용하는 능력, 나이가 들수록 강화되는 힘과 재치, 그리고 엄청난 양의 보물과 재물을 모으는 경향.</p>",
       "blurb": "수컷 고대 음모 드래곤",
       "languages": "텔레파시 100 피트",
       "perception": "(+32 감각 판단)",
@@ -1095,7 +1095,7 @@
           "name": "텔레파시 100 피트"
         },
         "EHlHjhHk7jncKixn": {
-          "name": "모든 내성 검사에서 오컬트에 대한 상태 +2"
+          "name": "모든 내성 굴림에서 오컬트에 대한 상태 +2"
         },
         "OpdWoyPywj7o3f4N": {
           "name": "몸 수축",
@@ -1107,7 +1107,7 @@
         },
         "kK41S41L533fMggZ": {
           "name": "변장 폭발",
-          "description": "<p><strong>요구 조건</strong> 바투멜도르가 소환한 변장 장비를 착용하고 있습니다</p><hr /><p><strong>효과</strong> 바투멜도르가 변장으로부터 폭발적으로 튀어나와 이를 파괴합니다. 폭발적인 노출은 용과 인접한 생물들에게 @Damage[18d6[bludgeoning]|options:area-damage]의 피해를 입힙니다 (@Check[reflex|dc:39|basic|options:area-effect] 내성). 내성 검사에 실패한 생물은 변장으로부터 날아온 파편에 덮여 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{눈이 부신} 상태가 되며 1 라운드 동안 지속됩니다. 바투멜도르가 폭발한 후 그와 같은 공간에 있던 모든 생물은 가장 가까운 빈 공간으로 밀려납니다.</p>"
+          "description": "<p><strong>요구 조건</strong> 바투멜도르가 소환한 변장 장비를 착용하고 있습니다</p><hr /><p><strong>효과</strong> 바투멜도르가 변장으로부터 폭발적으로 튀어나와 이를 파괴합니다. 폭발적인 노출은 용과 인접한 생물들에게 @Damage[18d6[bludgeoning]|options:area-damage]의 피해를 입힙니다 (@Check[reflex|dc:39|basic|options:area-effect] 내성). 내성 굴림에 실패한 생물은 변장으로부터 날아온 파편에 덮여 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{눈이 부신} 상태가 되며 1 라운드 동안 지속됩니다. 바투멜도르가 폭발한 후 그와 같은 공간에 있던 모든 생물은 가장 가까운 빈 공간으로 밀려납니다.</p>"
         },
         "IUwmirxfv4K0PcJf": {
           "name": "드래곤의 광란",
@@ -1177,14 +1177,14 @@
     "Trial of the Gods": {
       "name": "신들의 시험",
       "desc (hazard)": "<p>천장 근처의 빛나는 구형체 안에 눈처럼 보이는 것이 열린다.</p>",
-      "disable": "<p>@Check[thievery|dc:43] (마스터) 빛나는 구체를 비활성화하고 방을 관찰하지 못하게 하려면, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제} (9등급; 반격 DC 36) 시험을 반격하기 위해, @Check[religion|dc:45] (마스터) 복잡한 5라운드 촛불 점화 의식을 수행하거나, 일반 오드울프의 종교적 상징을 벽의 빈 걸이에 상호작용 행동으로 배치하기</p>",
+      "disable": "<p>@Check[thievery|dc:43] (마스터) 빛나는 구체를 비활성화하고 방을 관찰하지 못하게 하려면, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(9등급; 반격 DC 36) 시험을 반격하기 위해, @Check[religion|dc:45] (마스터) 복잡한 5라운드 촛불 점화 의식을 수행하거나, 일반 오드울프의 종교적 상징을 벽의 빈 걸이에 상호작용 행동으로 배치하기</p>",
       "reset": "<p>방에 생물이 없으면 시험이 비활성화되며, 1분이 지나면 재설정됩니다.</p>",
       "routine": "<p>(1 행동; 죽음, 감정, 공포, 정신) 빨간 눈이 영역 <strong>B3</strong>에서 볼 수 있으며 촛불 점화 의식에 참여하지 않은 생물에게 9등급 @UUID[Compendium.pf2e.spells-srd.Item.Jmxru8zMdYMRuO5n]{죽음의 비전}을 시전합니다. 이 생물은 아차에케크가 땅에서 일어나 신들을 존중하지 않은 죄인들을 벌하기 위해 내려치는 모습을 목격합니다.</p>",
       "stealth": "<p>(master)</p>",
       "items": {
         "6LiQpVI3BRugIaiV": {
           "name": "Wrath of the Gods",
-          "description": "<p><strong>트리거</strong> 생물이 @UUID[Compendium.pf2e.actionspf2e.Item.SjmKHgI7a5Z9JzBx]{Force Open} 또는 @UUID[Compendium.pf2e.actionspf2e.Item.2EE4aF4SZpYf0R6H]{Pick the Lock}을 동쪽 문에 시도하거나, 촛불 점화 의식을 수행하지 않고 이 방에서 턴을 종료할 경우</p><hr /><p><strong>효과</strong> 천장에 설치된 구형 물체에 붉은 눈이 창조되어 트리거를 유발한 생물을 노려보며, 해당 생물은 @Check[will|dc:46] 내성에 성공하지 못하면 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 1} (@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 2}는 대실패 시). 신의 시험은 이후 이니셔티브를 굴립니다.</p>"
+          "description": "<p><strong>트리거</strong> 생물이 @UUID[Compendium.pf2e.actionspf2e.Item.SjmKHgI7a5Z9JzBx]{Force Open} 또는 @UUID[Compendium.pf2e.actionspf2e.Item.2EE4aF4SZpYf0R6H]{Pick the Lock}을 동쪽 문에 시도하거나, 촛불 점화 의식을 수행하지 않고 이 방에서 턴을 종료할 경우</p><hr /><p><strong>효과</strong> 천장에 설치된 구형 물체에 붉은 눈이 창조되어 트리거를 유발한 생물을 노려보며, 해당 생물은 @Check[will|dc:46] 내성에 성공하지 못하면 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 1}(@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 2}는 대실패 시). 신의 시험은 이후 이니셔티브를 굴립니다.</p>"
         }
       }
     },
@@ -1257,7 +1257,7 @@
           "name": "녹색 낫"
         },
         "loAtLPXim9F1WZnA": {
-          "name": "독에 대한 모든 내성 검사 +1 상태"
+          "name": "독에 대한 모든 내성 굴림 +1 상태"
         },
         "GLMC65Xb9zK4sC69": {
           "name": "사마귀 지휘관",
@@ -1289,7 +1289,7 @@
           "name": "창"
         },
         "3lJ4WMA6czW1Yhim": {
-          "name": "공포에 대한 모든 내성 검사 +2 상황 보너스"
+          "name": "공포에 대한 모든 내성 굴림 +2 상황 보너스"
         },
         "xqMfzGOiVbqxqDIU": {
           "name": "반응 공격"
@@ -1300,7 +1300,7 @@
         },
         "AWbTIiDzFaKKV5sq": {
           "name": "Greatsword Critical Specialization",
-          "description": "<p>대검으로 크리티컬 히트를 기록하면, 크리티컬 히트의 대상은 균형을 잃고 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 되며, 고루미트 베테랑의 다음 턴 시작까지 지속됩니다.</p>"
+          "description": "<p>대검으로 대성공을 띄우면, 대성공의 대상은 균형을 잃고 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 되며, 고루미트 베테랑의 다음 턴 시작까지 지속됩니다.</p>"
         },
         "jXfmvlrXDMMlTKlO": {
           "name": "강력한 휘두르기",
@@ -1308,7 +1308,7 @@
         },
         "hqannEuH2ydVss0r": {
           "name": "Pinning Throw",
-          "description": "<p>고루미트 베테랑이 창으로 원거리 공격을 시도합니다. @Damage[(3d6+22)[piercing]]의 피해를 입힙니다. 목표물이 단단한 표면과 인접해 있다면 창에 의해 그 표면에 고정됩니다. 목표물은 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{이동 불가} 상태가 됩니다. 이 상태는 @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{탈출} (DC 33)에 성공할 때까지 지속됩니다. 무형체, 액체 상태(물 요소나 일부 우즈와 같은)이거나 노력 없이 탈출할 수 있는 생물은 고정되지 않습니다.</p>"
+          "description": "<p>고루미트 베테랑이 창으로 원거리 공격을 시도합니다. @Damage[(3d6+22)[piercing]]의 피해를 입힙니다. 목표물이 단단한 표면과 인접해 있다면 창에 의해 그 표면에 고정됩니다. 목표물은 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{이동 불가} 상태가 됩니다. 이 상태는 @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{탈출}(DC 33)에 성공할 때까지 지속됩니다. 무형체, 액체 상태(물 요소나 일부 우즈와 같은)이거나 노력 없이 탈출할 수 있는 생물은 고정되지 않습니다.</p>"
         },
         "UnBMCYaEWK2NtvjL": {
           "name": "전쟁 로어"
@@ -1363,7 +1363,7 @@
         },
         "XHoJB1VJqkBybs76": {
           "name": "드래곤 브레스",
-          "description": "<p>성스러운 이빨은 두 가지 방법으로 숨을 쉰다. 그는 [[/gmr 1d4 #드래곤 브레스 재충전]]{1d4 라운드} 동안 드래곤 브레스를 다시 사용할 수 없습니다.</p>\n<p><strong>블레이드 브레스</strong> (마법) 그는 @Template[line|distance:100]의 날카로운 칼날을 내뿜어 @Damage[19d6[slashing]|options:area-damage]의 피해를 입힙니다. (@Check[reflex|dc:40|basic|options:area-effect] 내성). 이 숨결로 생성된 검은 라운드 종료 시 사라집니다.</p>\n<p><strong>불꽃 숨결</strong> (마법) 그는 거대한 용광로에서 뿜어져 나오는 듯한 불꽃과 연기의 폭풍을 내뿜습니다. @Template[cone|distance:40] 범위 내의 모든 생물은 @Damage[6d6[fire],12d6[독]|options:area-damage]{6d6 fire damage와 12d6 독 피해} (@Check[reflex|dc:40|basic|options:area-effect] 내성)을 입습니다. 연기는 성 fang의 다음 턴이 끝날 때까지 해당 지역에 남아 있으며, 연기 내의 모든 생물은 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{은폐} 상태가 되고, 연기 외부의 모든 생물은 연기 내의 생물에게 은폐 상태가 됩니다.</p>"
+          "description": "<p>성스러운 이빨은 두 가지 방법으로 숨을 쉰다. 그는 [[/gmr 1d4 #드래곤 브레스 재충전]]{1d4 라운드} 동안 드래곤 브레스를 다시 사용할 수 없습니다.</p>\n<p><strong>블레이드 브레스</strong> (마법) 그는 @Template[line|distance:100]의 날카로운 칼날을 내뿜어 @Damage[19d6[slashing]|options:area-damage]의 피해를 입힙니다. (@Check[reflex|dc:40|basic|options:area-effect] 내성). 이 숨결로 생성된 검은 라운드 종료 시 사라집니다.</p>\n<p><strong>불꽃 숨결</strong> (마법) 그는 거대한 용광로에서 뿜어져 나오는 듯한 불꽃과 연기의 폭풍을 내뿜습니다. @Template[cone|distance:40] 범위 내의 모든 생물은 @Damage[6d6[fire],12d6[독]|options:area-damage]{6d6 fire damage와 12d6 독 피해}(@Check[reflex|dc:40|basic|options:area-effect] 내성)을 입습니다. 연기는 성 fang의 다음 턴이 끝날 때까지 해당 지역에 남아 있으며, 연기 내의 모든 생물은 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{은폐} 상태가 되고, 연기 외부의 모든 생물은 연기 내의 생물에게 은폐 상태가 됩니다.</p>"
         },
         "ybzgsyibSbvcouov": {
           "name": "전쟁 로어"
@@ -1436,7 +1436,7 @@
         },
         "wnfmu5GVCsHatUbm": {
           "name": "포커스",
-          "description": "<p>실버 세이버는 30피트 이내에 있는 볼 수 있는 생물에게 시선을 포커스합니다. 대상은 즉시 '진실 반사'에 대한 의지 내성 검사를 시도해야 합니다. 해당 생물이 이미 해당 효과에 걸려 있다면 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{기절 1} 상태가 됩니다. 내성 검사를 시도한 후, 해당 생물은 실버 사버의 다음 턴 시작까지 일시적으로 면역 상태가 됩니다.</p>"
+          "description": "<p>실버 세이버는 30피트 이내에 있는 볼 수 있는 생물에게 시선을 포커스합니다. 대상은 즉시 '진실 반사'에 대한 의지 내성 굴림을 시도해야 합니다. 해당 생물이 이미 해당 효과에 걸려 있다면 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{기절 1} 상태가 됩니다. 내성 굴림을 시도한 후, 해당 생물은 실버 사버의 다음 턴 시작까지 일시적으로 면역 상태가 됩니다.</p>"
         },
         "eC4JAtK9eWRwAZcj": {
           "name": "액화",
@@ -1492,11 +1492,11 @@
         },
         "0hSL8u2ImY5BTyJo": {
           "name": "Drain Life",
-          "description": "<p>네마이트가 영혼 촉수로 살아있는 생물을 피해 공격할 때, 해당 생물은 @Check[fortitude|dc:36|options:inflicts:drained] 내성 검사에 성공하지 못하면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 2} 상태가 됩니다.</p>\n<p>네마이트가 추가 피해를 입힐 때마다 내성 검사에서 실패하면 상태 값이 1씩 증가하며, 최대 흡수 4까지 증가합니다.</p>"
+          "description": "<p>네마이트가 영혼 촉수로 살아있는 생물을 피해 공격할 때, 해당 생물은 @Check[fortitude|dc:36|options:inflicts:drained] 내성 굴림에 성공하지 못하면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 2} 상태가 됩니다.</p>\n<p>네마이트가 추가 피해를 입힐 때마다 내성 굴림에서 실패하면 상태 값이 1씩 증가하며, 최대 흡수 4까지 증가합니다.</p>"
         },
         "BVGtxqRvaiXmxNDG": {
           "name": "영혼의 분노",
-          "description": "<p>네마이트의 묶인 영혼들이 분노하며 @Template[emanation|distance:30]. 이 영역 내의 생물은 @Damage[4d6[sonic],4d6[void]|options:area-damage]{4d6 음파 피해와 4d6 void 피해} (@Check[fortitude|dc:36|basic|options:area-effect] 내성)을 받습니다.</p>"
+          "description": "<p>네마이트의 묶인 영혼들이 분노하며 @Template[emanation|distance:30]. 이 영역 내의 생물은 @Damage[4d6[sonic],4d6[void]|options:area-damage]{4d6 음파 피해와 4d6 void 피해}(@Check[fortitude|dc:36|basic|options:area-effect] 내성)을 받습니다.</p>"
         },
         "iXMM9LrLHQONVyO1": {
           "name": "Throw Spirits",

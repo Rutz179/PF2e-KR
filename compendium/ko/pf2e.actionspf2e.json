@@ -11,7 +11,7 @@
     },
     "Fling Magic": {
       "name": "마력 투척",
-      "description": "<p><strong>요구 사항</strong> 지팡이 도구를 들고 있어야 합니다.</p><hr /><p>60피트 내의 대상에게 마법 에너지를 날려, 대상에게 @Damage[ceil(@actor.level/2)d4 +@actor.abilities.cha.mod[untyped]]{1d4 + 당신의 카리스마 수정자}의 피해를 입힙니다. 대상은 당신의 클래스 DC에 대한 @Check[reflex|against:class|basic] 내성에 성공해야 합니다. 피해 유형은 지팡이 도구를 획득할 때 선택한 유형입니다. 3레벨과 이후 2레벨마다 피해량이 1d4씩 증가한다.</p>\n<p>평소보다 더 많은 에너지를 소모하여 마력 투척의 효과를 강화할 수 있으며, 이 경우 d4 대신 @Damage[ceil(@actor.level/2)d6 +@actor.abilities.cha.mod[untyped]]{d6의 피해}를 입힙니다. 그렇게 한 후, 지팡이는 [[/r 1d4 #Recharge Wand]]{1d4 라운드} 동안 재충전되며, 이 기간 동안 지팡이의 피해를 강화할 수는 없지만 마력 투척은 정상적으로 계속할 수 있습니다. 공격으로 크리티컬 히트를 기록하면, 지팡이는 충돌에서 힘을 끌어와 즉시 재충전됩니다.</p><hr /><p><strong>특수</strong> 이 활동은 선택한 피해 유형에 해당하는 특성을 가집니다.</p>",
+      "description": "<p><strong>요구 사항</strong> 지팡이 도구를 들고 있어야 합니다.</p><hr /><p>60피트 내의 대상에게 마법 에너지를 날려, 대상에게 @Damage[ceil(@actor.level/2)d4 +@actor.abilities.cha.mod[untyped]]{1d4 + 당신의 카리스마 수정자}의 피해를 입힙니다. 대상은 당신의 클래스 DC에 대한 @Check[reflex|against:class|basic] 내성에 성공해야 합니다. 피해 유형은 지팡이 도구를 획득할 때 선택한 유형입니다. 3레벨과 이후 2레벨마다 피해량이 1d4씩 증가한다.</p>\n<p>평소보다 더 많은 에너지를 소모하여 마력 투척의 효과를 강화할 수 있으며, 이 경우 d4 대신 @Damage[ceil(@actor.level/2)d6 +@actor.abilities.cha.mod[untyped]]{d6의 피해}를 입힙니다. 그렇게 한 후, 지팡이는 [[/r 1d4 #Recharge Wand]]{1d4 라운드} 동안 재충전되며, 이 기간 동안 지팡이의 피해를 강화할 수는 없지만 마력 투척은 정상적으로 계속할 수 있습니다. 치명타 공격을 성공시키면, 지팡이는 충돌에서 힘을 끌어와 즉시 재충전됩니다.</p><hr /><p><strong>특수</strong> 이 활동은 선택한 피해 유형에 해당하는 특성을 가집니다.</p>",
       "rules": [
         {
           "alwaysActive": true,
@@ -265,7 +265,7 @@
     },
     "Act Together": {
       "name": "공동 행동",
-      "description": "<p><strong>사용 빈도</strong> 라운드당 1회</p>\n<p>당신과 당신의 에이돌론은 하나로 행동합니다. 당신이나 에이돌론 중 한 쪽이 '함께 행동하기'와 동일한 행동 횟수를 사용하는 행동이나 활동을 수행하고, 다른 쪽은 액션 하나를 수행합니다.</p>\n<p>예를 들어, 함께 행동하기에 2개의 행동을 사용했다면, 당신은 @UUID[Compendium.pf2e.spells-srd.Item.y6rAdMK6EFlV6U0t]{불을 뿜다} (2 행동)를 시전하고 당신의 에이돌론이 공격(1 행동)을 할 수 있거나, 당신의 에이돌론이 그 불기둥 무기(2 행동)를 사용하고 당신이 이동(1 행동)을 할 수 있습니다.</p>\n<p>이를 통해 이동 중에도 각자 @UUID[Compendium.pf2e.actionspf2e.Item.IE2nThCmoyhQA0Jn]{발각 회피} 같은 별도의 탐색 활동을 사용할 수 있습니다.</p>",
+      "description": "<p><strong>사용 빈도</strong> 라운드당 1회</p>\n<p>당신과 당신의 에이돌론은 하나로 행동합니다. 당신이나 에이돌론 중 한 쪽이 '함께 행동하기'와 동일한 행동 횟수를 사용하는 행동이나 활동을 수행하고, 다른 쪽은 액션 하나를 수행합니다.</p>\n<p>예를 들어, 함께 행동하기에 2개의 행동을 사용했다면, 당신은 @UUID[Compendium.pf2e.spells-srd.Item.y6rAdMK6EFlV6U0t]{불을 뿜다}(2 행동)를 시전하고 당신의 에이돌론이 공격(1 행동)을 할 수 있거나, 당신의 에이돌론이 그 불기둥 무기(2 행동)를 사용하고 당신이 이동(1 행동)을 할 수 있습니다.</p>\n<p>이를 통해 이동 중에도 각자 @UUID[Compendium.pf2e.actionspf2e.Item.IE2nThCmoyhQA0Jn]{발각 회피} 같은 별도의 탐색 활동을 사용할 수 있습니다.</p>",
       "traits": [
         "summoner",
         "tandem"
@@ -476,7 +476,7 @@
     },
     "Daydream Trance": {
       "name": "백일몽 트랜스",
-      "description": "<p>반쯤 잠든 트랜스 상태에 빠진다. 이 상태는 1분 동안 지속되거나 @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식불명} 상태에 빠질 때까지 유지된다(둘 중 먼저 발생하는 경우). 자발적으로 트랜스를 종료하려면 집중 특성이 있는 액션 하나를 취하고, 자신의 클래스 DC 또는 주문 DC 중 더 높은 쪽에 대한 @Check[will|against:class-spell] 내성 검사에 성공해야 합니다. 트랜스가 종료되면 1분 동안 다시 백일몽 트랜스에 들어갈 수 없습니다. 트랜스 상태에서는 다음과 같은 효과를 얻습니다:</p>\n<ul>\n<li>의지 내성에 +1 상태 보너스를 얻습니다. 이 보너스는 정신 효과에 대해 +2로 증가합니다. 오컬트에 전설적인 지식을 가진 경우, 정신 효과에 대한 보너스가 +3으로 증가합니다.</li>\n<li>지각 체크 및 인니셔티브 굴림에 -1 페널티를 받습니다.</li>\n</ul>",
+      "description": "<p>반쯤 잠든 트랜스 상태에 빠진다. 이 상태는 1분 동안 지속되거나 @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식불명} 상태에 빠질 때까지 유지된다(둘 중 먼저 발생하는 경우). 자발적으로 트랜스를 종료하려면 집중 특성이 있는 액션 하나를 취하고, 자신의 클래스 DC 또는 주문 DC 중 더 높은 쪽에 대한 @Check[will|against:class-spell] 내성 굴림에 성공해야 합니다. 트랜스가 종료되면 1분 동안 다시 백일몽 트랜스에 들어갈 수 없습니다. 트랜스 상태에서는 다음과 같은 효과를 얻습니다:</p>\n<ul>\n<li>의지 내성에 +1 상태 보너스를 얻습니다. 이 보너스는 정신 효과에 대해 +2로 증가합니다. 오컬트에 전설적인 지식을 가진 경우, 정신 효과에 대한 보너스가 +3으로 증가합니다.</li>\n<li>지각 체크 및 인니셔티브 굴림에 -1 페널티를 받습니다.</li>\n</ul>",
       "traits": [
         "mental",
         "occult"
@@ -535,7 +535,7 @@
     },
     "Spinning Crush": {
       "name": "회전하는 압박",
-      "description": "<p><strong>요구 사항</strong> 장전된 화기나 장전된 석궁을 휘두르고 있어야 합니다.</p><hr /><p>당신은 사나운 회전을 하며 근처의 적들에게 무기를 내리치고 발사로 추진력을 높입니다. 인접한 모든 생물은 @Damage[(4d6+@actor.abilities.str.mod)[bludgeoning]|options:area-damage]{4d6 타격 피해 + 힘 능력치 수정자};를 받습니다. 이 피해는 화기에 강타 룬이 있을 경우 @Damage[(6d6+@actor.abilities.str.mod)[bludgeoning]|options:area-damage]{6d6}로 증가하며, @Damage[(8d6+@actor.abilities.str.mod)[bludgeoning]|options:area-damage]{8d6} (강타 룬 장착 시), @Damage[(10d6+@actor.abilities.str.mod)[bludgeoning]|options:area-damage]{10d6} (강타 (상급) 룬 장착 시). 이 능력은 무기 전문화 등 화기 공격의 피해를 증가시키는 다른 효과를 적용하지 않습니다. 이 공격에 영향을 받은 생물은 @Check[reflex|against:gunslinger|basic|options:area-effect,forced-movement] 내성 검사를 시도해야 합니다. 내성 검사에서 실패한 생물은 당신으로부터 10피트(약 3m) 직선 거리만큼 밀려납니다.</p>"
+      "description": "<p><strong>요구 사항</strong> 장전된 화기나 장전된 석궁을 휘두르고 있어야 합니다.</p><hr /><p>당신은 사나운 회전을 하며 근처의 적들에게 무기를 내리치고 발사로 추진력을 높입니다. 인접한 모든 생물은 @Damage[(4d6+@actor.abilities.str.mod)[bludgeoning]|options:area-damage]{4d6 타격 피해 + 힘 능력치 수정자};를 받습니다. 이 피해는 화기에 강타 룬이 있을 경우 @Damage[(6d6+@actor.abilities.str.mod)[bludgeoning]|options:area-damage]{6d6}로 증가하며, @Damage[(8d6+@actor.abilities.str.mod)[bludgeoning]|options:area-damage]{8d6}(강타 룬 장착 시), @Damage[(10d6+@actor.abilities.str.mod)[bludgeoning]|options:area-damage]{10d6}(강타 (상급) 룬 장착 시). 이 능력은 무기 전문화 등 화기 공격의 피해를 증가시키는 다른 효과를 적용하지 않습니다. 이 공격에 영향을 받은 생물은 @Check[reflex|against:gunslinger|basic|options:area-effect,forced-movement] 내성 굴림을 시도해야 합니다. 내성 굴림에서 실패한 생물은 당신으로부터 10피트(약 3m) 직선 거리만큼 밀려납니다.</p>"
     },
     "Influence": {
       "name": "영향력",
@@ -1794,7 +1794,7 @@
     },
     "Roaring Charge": {
       "name": "포효 돌진",
-      "description": "<p><strong>주파수</strong> 10분마다 한 번</p><hr /><p>당신과 분대는 우렁찬 함성과 함께 돌진한다. 지휘관의 깃발이 미치는 오라 내의 모든 분대원에게 신호를 보낸다. 반응 행동으로, 이 분대원들은 관측 중인 적을 향해 자신의 이동 속도의 최대 2배까지 직진할 수 있다.</p>\n<p>이 전술로 인한 모든 이동이 완료된 후 분대원으로부터 10피트 이내에 있는 모든 생물은 다음 결과를 적용하여 당신의 클래스 DC(DC)에 대한 @Check[will|against:commander|options:inflicts:frightened,inflicts:fleeing|traits:emotion,fear,incapacitation,mental] 내성을 시도해야 합니다. 이는 감정, 공포, 무력화, 정신 효과입니다.</p><hr /><p><strong>대성공</strong> 효과 없음.</p>\n<p><strong>성공</strong> 대상은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 1} 상태가 됩니다.</p>\n<p><strong>실패</strong> 대상은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 2} 상태입니다.</p>\n<p><strong>대실패</strong> 대상은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 3} 상태가 되며 @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{도주} 상태로 1라운드 동안 지속됩니다.</p>",
+      "description": "<p><strong>빈도</strong> 10분마다 한 번</p><hr /><p>당신과 분대는 우렁찬 함성과 함께 돌진한다. 지휘관의 깃발이 미치는 오라 내의 모든 분대원에게 신호를 보낸다. 반응 행동으로, 이 분대원들은 관측 중인 적을 향해 자신의 이동 속도의 최대 2배까지 직진할 수 있다.</p>\n<p>이 전술로 인한 모든 이동이 완료된 후 분대원으로부터 10피트 이내에 있는 모든 생물은 다음 결과를 적용하여 당신의 클래스 DC(DC)에 대한 @Check[will|against:commander|options:inflicts:frightened,inflicts:fleeing|traits:emotion,fear,incapacitation,mental] 내성을 시도해야 합니다. 이는 감정, 공포, 무력화, 정신 효과입니다.</p><hr /><p><strong>대성공</strong> 효과 없음.</p>\n<p><strong>성공</strong> 대상은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 1} 상태가 됩니다.</p>\n<p><strong>실패</strong> 대상은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 2} 상태입니다.</p>\n<p><strong>대실패</strong> 대상은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 3} 상태가 되며 @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{도주} 상태로 1라운드 동안 지속됩니다.</p>",
       "traits": [
         "commander",
         "tactic"
@@ -1846,7 +1846,7 @@
     },
     "Manifest Realm": {
       "name": "창조 렐름",
-      "description": "<p><strong>주파수</strong> 시간당 한 번</p><hr /><p><strong>효과</strong> 당신은 주변 지역을 당신을 중심으로 한 @Template[type:burst|distance:20]{20피트 반경 폭발} 영역으로 변형시켜 당신의 렐름을 현현시킵니다. 현현된 영역은 적에게 어려운 지형으로 간주되며, 현현된 영역 내에 있는 적은 인내 내성 굴림 시 -1 페널티를 받습니다.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.VrTaP6BcXo6sizn6]{효과: 렐름 창조}</p>\n<p>이후 라운드마다 1회씩 창조 영역을 유지할 수 있으며, 이를 수행하지 않을 경우 창조 영역의 반경이 5피트 감소한다.</p>\n<p>당신의 렐름은 최대 1분 동안 창조 상태를 유지하며, 창조 렐름을 해제할 수 있습니다. 창조 렐름의 반경이 0피트로 줄어들거나, 창조 렐름 경계선에서 100피트 이상 떨어진 곳으로 이동할 경우, 창조 렐름은 자동으로 해제됩니다.</p>",
+      "description": "<p><strong>빈도</strong> 시간당 한 번</p><hr /><p><strong>효과</strong> 당신은 주변 지역을 당신을 중심으로 한 @Template[type:burst|distance:20]{20피트 반경 폭발} 영역으로 변형시켜 당신의 렐름을 현현시킵니다. 현현된 영역은 적에게 어려운 지형으로 간주되며, 현현된 영역 내에 있는 적은 인내 내성 굴림 시 -1 페널티를 받습니다.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.VrTaP6BcXo6sizn6]{효과: 렐름 창조}</p>\n<p>이후 라운드마다 1회씩 창조 영역을 유지할 수 있으며, 이를 수행하지 않을 경우 창조 영역의 반경이 5피트 감소한다.</p>\n<p>당신의 렐름은 최대 1분 동안 창조 상태를 유지하며, 창조 렐름을 해제할 수 있습니다. 창조 렐름의 반경이 0피트로 줄어들거나, 창조 렐름 경계선에서 100피트 이상 떨어진 곳으로 이동할 경우, 창조 렐름은 자동으로 해제됩니다.</p>",
       "traits": [
         "concentrate",
         "divine",
@@ -1874,7 +1874,7 @@
     },
     "Drain Life": {
       "name": "생명력 흡수",
-      "description": "<p>당신의 에이돌론이 살아있는 생물을 공격하여 그 생명력의 일부를 흡수해 공유된 연결을 유지합니다. 당신의 에이돌론이 살아있는 적을 강타합니다. 공격이 명중하여 피해를 입히면, 대상은 다음 효과를 가진 인내 내성 검사를 시도해야 합니다. 치명타 시, 적은 자신이 굴린 결과보다 한 단계 더 나쁜 결과를 사용합니다.</p>\n<p><strong>대성공</strong> 효과 없음.</p>\n<p><strong>성공</strong> 당신의 에이돌론이 소량의 생명력을 흡수합니다. 적은 당신의 레벨 절반에 해당하는 추가 공허 피해를 입습니다.</p>\n<p><strong>실패</strong> 당신의 에이돌론이 만족할 만큼 생명력을 흡수합니다. 적은 당신의 레벨 절반에 해당하는 추가 공허 피해를 입으며 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수된 1} 상태가 됩니다. 당신의 에이돌론은 적의 레벨에 해당하는 임시 체력을 얻으며, 이는 1분 동안 지속됩니다.</p>\n<p><strong>대실패</strong> 당신의 에이돌론이 엄청난 양의 생명력을 흡수하여 에너지로 완전히 포화 상태가 됩니다. 실패 효과와 동일하나, 적은 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 2} 상태가 되며 임시 체력은 적의 레벨의 두 배에 해당합니다.</p>",
+      "description": "<p>당신의 에이돌론이 살아있는 생물을 공격하여 그 생명력의 일부를 흡수해 공유된 연결을 유지합니다. 당신의 에이돌론이 살아있는 적을 강타합니다. 공격이 명중하여 피해를 입히면, 대상은 다음 효과를 가진 인내 내성 굴림을 시도해야 합니다. 치명타 시, 적은 자신이 굴린 결과보다 한 단계 더 나쁜 결과를 사용합니다.</p>\n<p><strong>대성공</strong> 효과 없음.</p>\n<p><strong>성공</strong> 당신의 에이돌론이 소량의 생명력을 흡수합니다. 적은 당신의 레벨 절반에 해당하는 추가 공허 피해를 입습니다.</p>\n<p><strong>실패</strong> 당신의 에이돌론이 만족할 만큼 생명력을 흡수합니다. 적은 당신의 레벨 절반에 해당하는 추가 공허 피해를 입으며 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수된 1} 상태가 됩니다. 당신의 에이돌론은 적의 레벨에 해당하는 임시 체력을 얻으며, 이는 1분 동안 지속됩니다.</p>\n<p><strong>대실패</strong> 당신의 에이돌론이 엄청난 양의 생명력을 흡수하여 에너지로 완전히 포화 상태가 됩니다. 실패 효과와 동일하나, 적은 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 2} 상태가 되며 임시 체력은 적의 레벨의 두 배에 해당합니다.</p>",
       "traits": [
         "divine",
         "eidolon",
@@ -2088,7 +2088,7 @@
     },
     "Treat Poison": {
       "name": "독 치료",
-      "description": "<p><strong>요구 사항</strong> 당신은 @UUID[Compendium.pf2e.equipment-srd.Item.s1vB3HdXjMigYAnY]{치료사 도구 세트}</p><hr />를 착용하거나 소지하고 있습니다.<p>환자에게 치료를 시행하여 독의 확산을 막습니다. 독의 DC에 맞서 [[/act treat-poison]]{의술} 체크를 시도하십시오. 생물에게 독 치료를 시도한 후에는, 해당 생물이 다음에 독에 대한 내성 검사를 시도할 때까지 다시 시도할 수 없습니다. </p> <hr /> <p> <strong> 대성공</strong> 해당 생물이 다음에 독에 대한 내성 굴림을 할 때 +4 상황 보너스를 부여합니다.</p>\n<p><strong>성공</strong> 해당 생물이 다음 독 저항에 대한 내성 굴림 시 +2 상황 보너스를 부여합니다.</p>\n<p><strong>대실패</strong> 당신의 노력으로 인해 해당 생물은 다음 독 내성에 -2 상황 페널티를 받습니다.</p>\n<p>@UUID[Compendium.pf2e.other-effects.Item.1FrAlPeNseApVrX3]{효과: 독 치료}</p>",
+      "description": "<p><strong>요구 사항</strong> 당신은 @UUID[Compendium.pf2e.equipment-srd.Item.s1vB3HdXjMigYAnY]{치료사 도구 세트}</p><hr />를 착용하거나 소지하고 있습니다.<p>환자에게 치료를 시행하여 독의 확산을 막습니다. 독의 DC에 맞서 [[/act treat-poison]]{의술} 체크를 시도하십시오. 생물에게 독 치료를 시도한 후에는, 해당 생물이 다음에 독에 대한 내성 굴림을 시도할 때까지 다시 시도할 수 없습니다. </p> <hr /> <p> <strong> 대성공</strong> 해당 생물이 다음에 독에 대한 내성 굴림을 할 때 +4 상황 보너스를 부여합니다.</p>\n<p><strong>성공</strong> 해당 생물이 다음 독 저항에 대한 내성 굴림 시 +2 상황 보너스를 부여합니다.</p>\n<p><strong>대실패</strong> 당신의 노력으로 인해 해당 생물은 다음 독 내성에 -2 상황 페널티를 받습니다.</p>\n<p>@UUID[Compendium.pf2e.other-effects.Item.1FrAlPeNseApVrX3]{효과: 독 치료}</p>",
       "traits": [
         "manipulate"
       ]
@@ -2214,7 +2214,7 @@
     },
     "Mirror's Reflection": {
       "name": "거울의 반사",
-      "description": "<p><strong>요구 사항</strong> 거울 도구를 들고 있어야 합니다.</p>\n<hr />\n<p>당신은 시야 내에 있는 15피트 이내의 다른 비어 있는 공간에 자신의 환영을 투영합니다. 다음 턴이 시작될 때까지 당신은 두 공간 모두에 존재하는 것으로 간주됩니다. 예를 들어, 공격하거나 탐색하거나, 심지어 자신과 함께 측면 공격을 가할 수도 있습니다. 당신은 두 공간을 모두 차지합니다.</p>\n<p>당신의 거울 속 자아는 당신의 행동을 정확히 모방하지만, 당신이 생성하는 모든 효과는 오직 하나의 위치에서만 발생합니다. 행동할 때마다 어느 위치에서 효과를 발생시킬지 결정합니다. 예를 들어, 반사된 모습이 닿을 수 있는 거리에 있는 생물에게 근접 공격인 ' '를 가했다면, 당신은 그 공격 동작을 모방하지만 실제로 공격을 가하는 것은 반사된 모습뿐입니다. 당신의 반사된 모습을 대상으로 하거나 영향을 미치는 모든 것은 당신에게 영향을 미치며 당신의 능력치를 사용합니다. 양쪽 모두를 대상으로 하거나 영향을 미치는 것은 당신에게 한 번만 영향을 미칩니다. 예를 들어, 양쪽 모두를 포함하는 화염구(fireball)의 경우, 당신은 한 번만 내성 검사를 수행하며 한 번만 피해를 입습니다. 이동할 때, 당신은 이동할 칸을 선택하지만, 거울 효과는 종료됩니다.</p>\n<p>일부 사건은 당신이 어느 모습이 진짜인지 결정하도록 강요하며, 그 후 효과를 종료하고 거울 속 자신을 사라지게 합니다. 이는 다음 턴 시작 시 자동으로 발생합니다. 당신이 자신의 공간에서 벗어나기로 선택할 때도 마찬가지입니다. 이 장비의 다른 혜택은 반사 효과를 종료시킬 수 있는 추가 사건을 부여합니다. 또한 @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식불명} 상태에 빠지면 효과가 종료되며, 이때 어느 버전이 진정한 자신인지 결정하게 됩니다.</p>",
+      "description": "<p><strong>요구 사항</strong> 거울 도구를 들고 있어야 합니다.</p>\n<hr />\n<p>당신은 시야 내에 있는 15피트 이내의 다른 비어 있는 공간에 자신의 환영을 투영합니다. 다음 턴이 시작될 때까지 당신은 두 공간 모두에 존재하는 것으로 간주됩니다. 예를 들어, 공격하거나 탐색하거나, 심지어 자신과 함께 측면 공격을 가할 수도 있습니다. 당신은 두 공간을 모두 차지합니다.</p>\n<p>당신의 거울 속 자아는 당신의 행동을 정확히 모방하지만, 당신이 생성하는 모든 효과는 오직 하나의 위치에서만 발생합니다. 행동할 때마다 어느 위치에서 효과를 발생시킬지 결정합니다. 예를 들어, 반사된 모습이 닿을 수 있는 거리에 있는 생물에게 근접 공격인 ' '를 가했다면, 당신은 그 공격 동작을 모방하지만 실제로 공격을 가하는 것은 반사된 모습뿐입니다. 당신의 반사된 모습을 대상으로 하거나 영향을 미치는 모든 것은 당신에게 영향을 미치며 당신의 능력치를 사용합니다. 양쪽 모두를 대상으로 하거나 영향을 미치는 것은 당신에게 한 번만 영향을 미칩니다. 예를 들어, 양쪽 모두를 포함하는 화염구(fireball)의 경우, 당신은 한 번만 내성 굴림을 수행하며 한 번만 피해를 입습니다. 이동할 때, 당신은 이동할 칸을 선택하지만, 거울 효과는 종료됩니다.</p>\n<p>일부 사건은 당신이 어느 모습이 진짜인지 결정하도록 강요하며, 그 후 효과를 종료하고 거울 속 자신을 사라지게 합니다. 이는 다음 턴 시작 시 자동으로 발생합니다. 당신이 자신의 공간에서 벗어나기로 선택할 때도 마찬가지입니다. 이 장비의 다른 혜택은 반사 효과를 종료시킬 수 있는 추가 사건을 부여합니다. 또한 @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식불명} 상태에 빠지면 효과가 종료되며, 이때 어느 버전이 진정한 자신인지 결정하게 됩니다.</p>",
       "traits": [
         "illusion",
         "magical",
@@ -2341,7 +2341,7 @@
     },
     "Fleeting Arc through Heaven and Earth": {
       "name": "천지를 가로지르는 덧없는 호",
-      "description": "<p>당신은 무기를 넓은 호를 그리며 휘둘러, @Damage[9d6[spirit]|options:area-damage]의 피해를 입히고 @Damage[9d6[untyped]|options:area-damage] 피해를 입힌다. 무기와 동일한 속성의 @Template[type:cone|distance:60] 범위 내 모든 적에게, @Check[fortitude|against:exemplar|basic|options:area-effect] 내성 검사를 무기 클래스 DC로 수행한다. 무지개가 퍼져나가며, 그 빛을 다리로 삼아 효과 범위 내 원하는 위치로 순간이동한다.</p>",
+      "description": "<p>당신은 무기를 넓은 호를 그리며 휘둘러, @Damage[9d6[spirit]|options:area-damage]의 피해를 입히고 @Damage[9d6[untyped]|options:area-damage] 피해를 입힌다. 무기와 동일한 속성의 @Template[type:cone|distance:60] 범위 내 모든 적에게, @Check[fortitude|against:exemplar|basic|options:area-effect] 내성 굴림을 무기 클래스 DC로 수행한다. 무지개가 퍼져나가며, 그 빛을 다리로 삼아 효과 범위 내 원하는 위치로 순간이동한다.</p>",
       "rules": [
         {
           "itemId": "{item|id}",
@@ -2461,7 +2461,7 @@
     },
     "Cobble Together": {
       "name": "급조하다",
-      "description": "<p>당신은 @UUID[Compendium.pf2e.actionspf2e.Item.rmwa3OyhTZ2i2AHl]{제작} 기술을 사용하여 어디서든, 손에 닿는 재료로 임시 아이템을 만들 수 있으며, 초기 제작 체크에는 단 10분만 소요됩니다.</p>\n<p>임시 아이템은 당신이 암기했거나 제조법을 알고 있는 것이어야 하며, 일반적이고 마법이 없으며, 당신의 레벨의 절반 이하이고, 무기, 방어구, 또는 비소모성 모험 장비( )가 아닌 모험 장비여야 합니다(비소모성 모험 장비는 플레이어 코어 291페이지에 수록됨). 단일 아이템 대신 동일한 종류의 탄약 10개를 생성할 수 있습니다. 물리적 아이템만 생성 가능하며 정보나 마법은 생성할 수 없습니다. 예를 들어 빈 일지나 무작위 페이지가 있는 일지는 생성할 수 있으나, 학술 저널이나 종교 경전으로 사용할 수는 없습니다</p>",
+      "description": "<p>당신은 @UUID[Compendium.pf2e.actionspf2e.Item.rmwa3OyhTZ2i2AHl]{제작} 기술을 사용하여 어디서든, 손에 닿는 재료로 임시 아이템을 만들 수 있으며, 초기 제작 체크에는 단 10분만 소요됩니다.</p>\n<p>임시 아이템은 당신이 암기했거나 제조법을 알고 있는 것이어야 하며, 일반적이고 마법이 없으며, 당신의 레벨의 절반 이하이고, 무기, 방어구, 또는 비소모성 모험 장비가 아닌 모험 장비여야 합니다(비소모성 모험 장비는 플레이어 코어 291페이지에 수록됨). 단일 아이템 대신 동일한 종류의 탄약 10개를 생성할 수 있습니다. 물리적 아이템만 생성 가능하며 정보나 마법은 생성할 수 없습니다. 예를 들어 빈 일지나 무작위 페이지가 있는 일지는 생성할 수 있으나, 학술 저널이나 종교 경전으로 사용할 수는 없습니다</p>",
       "traits": [
         "exploration"
       ]
@@ -2482,7 +2482,7 @@
     },
     "Stitching Strike": {
       "name": "스티칭 스트라이크",
-      "description": "<p><strong>발동 빈도</strong> 10분마다 1회</p>\n<hr />\n<p><strong>효과</strong> 당신의 패밀리어가 마법 섬유로 풀어져 30피트 내의 적을 감싸고 @Damage[(6+max(0,(ceil((@actor.level -8)/2)*2)))d6[slashing]]의 피해를 입히며, 대상은 당신의 주문 DC(DC)에 대한 @Check[reflex|basic] 내성 검사를 할 수 있습니다. 저항에 실패하면 대상은 1라운드 동안 또는 당신의 주문 DC에 대해 @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{탈출}할 때까지 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{고정된} 상태가 됩니다. 당신의 패밀리어는 원래 칸으로 재구성됩니다. (9th)레벨에 도달하고 이후 2레벨마다 이 공격은 추가로 2d6의 피해를 입힙니다.</p>"
+      "description": "<p><strong>발동 빈도</strong> 10분마다 1회</p>\n<hr />\n<p><strong>효과</strong> 당신의 패밀리어가 마법 섬유로 풀어져 30피트 내의 적을 감싸고 @Damage[(6+max(0,(ceil((@actor.level -8)/2)*2)))d6[slashing]]의 피해를 입히며, 대상은 당신의 주문 DC(DC)에 대한 @Check[reflex|basic] 내성 굴림을 할 수 있습니다. 저항에 실패하면 대상은 1라운드 동안 또는 당신의 주문 DC에 대해 @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{탈출}할 때까지 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{고정된} 상태가 됩니다. 당신의 패밀리어는 원래 칸으로 재구성됩니다. (9th)레벨에 도달하고 이후 2레벨마다 이 공격은 추가로 2d6의 피해를 입힙니다.</p>"
     },
     "Administer Ambient Magic": {
       "name": "주변 마법 시전",
@@ -2507,7 +2507,7 @@
     },
     "Activate Resonant Reflection": {
       "name": "공명 반사 활성화",
-      "description": "<p><strong>활성화</strong> <span class=\"action-glyph\">2</span> 구상</p>\n<p><strong>주파수</strong> 각 반사당 하루에 한 번</p><hr /><p>당신은 자신의 공명 반사 중 하나를 활성화합니다:</p>",
+      "description": "<p><strong>활성화</strong> <span class=\"action-glyph\">2</span> 구상</p>\n<p><strong>빈도</strong> 각 반사당 하루에 한 번</p><hr /><p>당신은 자신의 공명 반사 중 하나를 활성화합니다:</p>",
       "rules": [
         {
           "key": "RollOption",
@@ -2610,7 +2610,7 @@
     },
     "Feint": {
       "name": "페인트",
-      "description": "<p><strong>요구 사항</strong> 기만하려고 시도하는 대상과 근접 공격 범위 내에 있어야 합니다.</p><hr /><p>속임수를 위한 화려한 동작으로 상대를 속여 진짜 공격에 대비하지 못하게 합니다. 대상의 지각 DC에 대해 [[/act feint]]{기만} 체크를 시도합니다.</p><hr /><p><strong>대성공</strong> 당신은 적의 방어 태세를 완전히 무너뜨립니다( ). 대상은 다음 차례가 끝날 때까지 당신이 시도하는 근접 공격에 대해 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드}가 됩니다.</p>\n<p><strong>성공</strong> 상대는 속았으나, 순간뿐이다. 현재 턴이 끝날 때까지 당신이 시도하는 다음 근접 공격에 대해 대상은 오프 가드가 무너진 상태가 된다.</p>\n<p><strong>대실패</strong> 당신의 페인트가 역효과를 냈습니다. 다음 턴이 끝날 때까지 대상이 당신에게 시도하는 근접 공격에 대해 당신이 오프 가드 상태가 됩니다.</p>",
+      "description": "<p><strong>요구 사항</strong> 기만하려고 시도하는 대상과 근접 공격 범위 내에 있어야 합니다.</p><hr /><p>속임수를 위한 화려한 동작으로 상대를 속여 진짜 공격에 대비하지 못하게 합니다. 대상의 지각 DC에 대해 [[/act feint]]{기만} 체크를 시도합니다.</p><hr /><p><strong>대성공</strong> 당신은 적의 방어 태세를 완전히 무너뜨립니다. 대상은 다음 차례가 끝날 때까지 당신이 시도하는 근접 공격에 대해 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드}가 됩니다.</p>\n<p><strong>성공</strong> 상대는 속았으나, 순간뿐이다. 현재 턴이 끝날 때까지 당신이 시도하는 다음 근접 공격에 대해 대상은 오프 가드가 무너진 상태가 된다.</p>\n<p><strong>대실패</strong> 당신의 페인트가 역효과를 냈습니다. 다음 턴이 끝날 때까지 대상이 당신에게 시도하는 근접 공격에 대해 당신이 오프 가드 상태가 됩니다.</p>",
       "traits": [
         "mental"
       ]
@@ -2662,7 +2662,7 @@
     },
     "Master Strike": {
       "name": "마스터 스트라이크",
-      "description": "<p><strong>발동조건</strong> 당신의 타격이 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태의 생물을 명중하여 피해를 입힐 때.</p>\n<hr />\n<p>대상은 당신의 클래스 DC에 대한 @Check[fortitude|against:rogue] 내성 검사를 시도합니다. 그런 다음 1일간 당신의 마스터 강타에 대해 일시적으로 면역이 됩니다.</p>\n<hr />\n<p><strong>대성공</strong> 대상은 영향을 받지 않습니다.</p>\n<p><strong>성공</strong> 대상은 다음 차례가 끝날 때까지 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 2} 상태가 됩니다.</p>\n<p><strong>실패</strong> 대상은 4라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비} 상태가 됩니다.</p>\n<p><strong>대실패</strong> 대상은 4라운드 동안 마비되거나, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식불명} 상태로 2시간 동안 쓰러지거나, 사망합니다(선택).</p>",
+      "description": "<p><strong>발동조건</strong> 당신의 타격이 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태의 생물을 명중하여 피해를 입힐 때.</p>\n<hr />\n<p>대상은 당신의 클래스 DC에 대한 @Check[fortitude|against:rogue] 내성 굴림을 시도합니다. 그런 다음 1일간 당신의 마스터 강타에 대해 일시적으로 면역이 됩니다.</p>\n<hr />\n<p><strong>대성공</strong> 대상은 영향을 받지 않습니다.</p>\n<p><strong>성공</strong> 대상은 다음 차례가 끝날 때까지 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 2} 상태가 됩니다.</p>\n<p><strong>실패</strong> 대상은 4라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비} 상태가 됩니다.</p>\n<p><strong>대실패</strong> 대상은 4라운드 동안 마비되거나, @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식불명} 상태로 2시간 동안 쓰러지거나, 사망합니다(선택).</p>",
       "traits": [
         "incapacitation",
         "rogue"
@@ -2774,7 +2774,7 @@
     },
     "Treat Disease": {
       "name": "질병 치료",
-      "description": "<p><strong>요구 사항</strong> 다음 중 하나를 착용하거나 소지하고 있어야 합니다: @UUID[Compendium.pf2e.equipment-srd.Item.s1vB3HdXjMigYAnY]{치료사 도구 세트}</p><hr /><p>병든 생물을 최소 8시간 동안 돌봅니다. 질병의 DC에 맞서 [[/act treat-disease]]{의술} 체크를 시도합니다. 생물의 질병 치료를 시도한 후에는 해당 생물이 질병에 대한 다음 내성 검사 전까지 다시 시도할 수 없습니다. </p> <hr /> <p> <strong> 대성공</strong> 해당 생물이 질병에 대한 다음 내성 굴림에 +4 상황 보너스를 부여합니다.</p>\n<p><strong>성공</strong> 해당 생물에게 질병에 대한 다음 내성 굴림에 +2 상황 보너스를 부여합니다.</p>\n<p><strong>대실패</strong> 당신의 노력으로 인해 해당 생물은 다음 질병 내성에 -2 상황 페널티를 받습니다.</p>\n<p>@UUID[Compendium.pf2e.other-effects.Item.TGGdM7XnjQkkijK7]{효과: 질병 치료}</p>",
+      "description": "<p><strong>요구 사항</strong> 다음 중 하나를 착용하거나 소지하고 있어야 합니다: @UUID[Compendium.pf2e.equipment-srd.Item.s1vB3HdXjMigYAnY]{치료사 도구 세트}</p><hr /><p>병든 생물을 최소 8시간 동안 돌봅니다. 질병의 DC에 맞서 [[/act treat-disease]]{의술} 체크를 시도합니다. 생물의 질병 치료를 시도한 후에는 해당 생물이 질병에 대한 다음 내성 굴림 전까지 다시 시도할 수 없습니다. </p> <hr /> <p> <strong> 대성공</strong> 해당 생물이 질병에 대한 다음 내성 굴림에 +4 상황 보너스를 부여합니다.</p>\n<p><strong>성공</strong> 해당 생물에게 질병에 대한 다음 내성 굴림에 +2 상황 보너스를 부여합니다.</p>\n<p><strong>대실패</strong> 당신의 노력으로 인해 해당 생물은 다음 질병 내성에 -2 상황 페널티를 받습니다.</p>\n<p>@UUID[Compendium.pf2e.other-effects.Item.TGGdM7XnjQkkijK7]{효과: 질병 치료}</p>",
       "traits": [
         "downtime",
         "manipulate"
@@ -3000,7 +3000,7 @@
     },
     "Stridulating Song": {
       "name": "발걸음 소리",
-      "description": "<p><strong>주파수</strong> 하루에 한 번</p>\n<hr />\n<p><strong>효과</strong> 당신은 날개에 마법을 순환시켜 고속으로 진동하게 하여, 날개가 긁히는 소리가 방해음을 발생시킵니다. 30피트 내의 한 생물에게 소리를 포커스하면, 해당 생물은 네 직업 난이도(DC) 또는 주문 DC(DC) 중 더 높은 쪽에 대한 @Check[fortitude|against:class-spell] 저항 검사에 성공해야 한다. 실패 시 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1} 상태가 되며, 대실패 시 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 2} 상태가 된다. 이는 진동이 생물의 내부 평형을 교란시키기 때문이다. 이 효과는 최대 1분 동안 지속할 수 있다. 당신이 노래를 계속하고 그 생물이 당신의 노래를 들을 수 있는 한, 그 생물은 병약 상태에서 회복할 수 없다.</p>",
+      "description": "<p><strong>빈도</strong> 하루에 한 번</p>\n<hr />\n<p><strong>효과</strong> 당신은 날개에 마법을 순환시켜 고속으로 진동하게 하여, 날개가 긁히는 소리가 방해음을 발생시킵니다. 30피트 내의 한 생물에게 소리를 포커스하면, 해당 생물은 네 직업 난이도(DC) 또는 주문 DC(DC) 중 더 높은 쪽에 대한 @Check[fortitude|against:class-spell] 저항 검사에 성공해야 한다. 실패 시 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1} 상태가 되며, 대실패 시 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 2} 상태가 된다. 이는 진동이 생물의 내부 평형을 교란시키기 때문이다. 이 효과는 최대 1분 동안 지속할 수 있다. 당신이 노래를 계속하고 그 생물이 당신의 노래를 들을 수 있는 한, 그 생물은 병약 상태에서 회복할 수 없다.</p>",
       "traits": [
         "auditory",
         "magical"
@@ -3227,7 +3227,7 @@
     },
     "Blazing Conflagration": {
       "name": "불타는 화염",
-      "description": "<p><strong>Requirements</strong> 이 피트에 의해 부여된 괴물 형태 주문에 의해 불사조 형태로 변신합니다.</p><hr /><p><strong>효과</strong> 불사조 형태를 해제하며, 당신에게서 불타는 후광이 타오르는 빛으로 분출됩니다. @Template[type:burst|distance:10] 범위 내의 모든 생물은 @Damage[max(16,(2*(floor(@actor.level/2))))d6[fire]|options:area-damage] 피해를 입으며, 당신의 주문 DC에 대한 내성 검사(U0003)를 수행합니다. 대실패한 생물은 1라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명} 상태가 됩니다. 당신은 8d6의 임시 체력 을 얻습니다. 18레벨과 20레벨에 도달할 때마다, 폭발은 추가로 2d6의 화염 피해를 입히고, 당신은 추가로 1d6의 임시 체력을 얻습니다.</p>",
+      "description": "<p><strong>Requirements</strong> 이 피트에 의해 부여된 괴물 형태 주문에 의해 불사조 형태로 변신합니다.</p><hr /><p><strong>효과</strong> 불사조 형태를 해제하며, 당신에게서 불타는 후광이 타오르는 빛으로 분출됩니다. @Template[type:burst|distance:10] 범위 내의 모든 생물은 @Damage[max(16,(2*(floor(@actor.level/2))))d6[fire]|options:area-damage] 피해를 입으며, 당신의 주문 DC에 대한 내성 굴림(U0003)를 수행합니다. 대실패한 생물은 1라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명} 상태가 됩니다. 당신은 8d6의 임시 체력 을 얻습니다. 18레벨과 20레벨에 도달할 때마다, 폭발은 추가로 2d6의 화염 피해를 입히고, 당신은 추가로 1d6의 임시 체력을 얻습니다.</p>",
       "traits": [
         "fire",
         "healing",
@@ -3291,7 +3291,7 @@
     },
     "Topple the Pillar of Heaven": {
       "name": "하늘의 기둥을 무너뜨리다",
-      "description": "<p>당신의 이콘이 불가능한 길이로 뻗어나가, 그 길에 있는 모든 것을 강타합니다. 당신은 @Damage[(max(6,floor(@actor.level / 2)))d8[untyped]|options:area-damage]의 범위 내 모든 생물에게 @Template[type:line|distance:60]의 피해를 입히며, 대상은 당신의 클래스 DC에 대한 @Check[reflex|against:exemplar|basic|options:area-effect] 내성 검사를 수행합니다. 피해 유형은 당신의 무기 유형과 일치합니다. 14레벨과 이후 2레벨마다 피해량이 1d8씩 증가합니다.</p>",
+      "description": "<p>당신의 이콘이 불가능한 길이로 뻗어나가, 그 길에 있는 모든 것을 강타합니다. 당신은 @Damage[(max(6,floor(@actor.level / 2)))d8[untyped]|options:area-damage]의 범위 내 모든 생물에게 @Template[type:line|distance:60]의 피해를 입히며, 대상은 당신의 클래스 DC에 대한 @Check[reflex|against:exemplar|basic|options:area-effect] 내성 굴림을 수행합니다. 피해 유형은 당신의 무기 유형과 일치합니다. 14레벨과 이후 2레벨마다 피해량이 1d8씩 증가합니다.</p>",
       "traits": [
         "transcendence"
       ]
@@ -3317,7 +3317,7 @@
     },
     "Patron's Claim": {
       "name": "후원자의 주장",
-      "description": "<p><strong>발생 빈도</strong> 시간당 한 번</p><hr /><p><strong>효과</strong> 당신의 후원자의 움켜잡는 팔이 30피트 내의 생물에게 뻗어 나가기 전, 당신의 패밀리어의 입이 불가능할 정도로 크게 벌어집니다. 이 공격은 @Damage[10d10[spirit]]의 피해를 입히며, 당신의 주문 DC에 대한 @Check[fortitude|basic|options:inflicts:drained] 저항 검사를 요구합니다. 생물이 저항 검사에 실패하고 피해를 입으면, 또한 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{기운 2 흡수} (대실패 시 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{기운 4 흡수}) 상태가 되며, 당신은 1 포커스 포인트를 회복한다. 이는 평소 최대치까지 회복되며, 당신의 후원자가 상대방의 영혼을 바친 대가로 추가 마법을 부여하기 때문이다.</p>"
+      "description": "<p><strong>발생 빈도</strong> 시간당 한 번</p><hr /><p><strong>효과</strong> 당신의 후원자의 움켜잡는 팔이 30피트 내의 생물에게 뻗어 나가기 전, 당신의 패밀리어의 입이 불가능할 정도로 크게 벌어집니다. 이 공격은 @Damage[10d10[spirit]]의 피해를 입히며, 당신의 주문 DC에 대한 @Check[fortitude|basic|options:inflicts:drained] 저항 검사를 요구합니다. 생물이 저항 검사에 실패하고 피해를 입으면, 또한 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{기운 2 흡수}(대실패 시 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{기운 4 흡수}) 상태가 되며, 당신은 1 포커스 포인트를 회복한다. 이는 평소 최대치까지 회복되며, 당신의 후원자가 상대방의 영혼을 바친 대가로 추가 마법을 부여하기 때문이다.</p>"
     },
     "Flash of Memory": {
       "name": "기억의 섬광",
@@ -3340,7 +3340,7 @@
     },
     "Overload Vision": {
       "name": "과부하 시야",
-      "description": "<p><strong>발동 조건</strong> 60피트 내의 생물이 당신을 상대로 공격 굴림을 시도할 때</p>\n<hr />\n<p><strong>효과</strong> 발동한 생물은 인내 내성 검사를 시도해야 한다.</p>\n<hr />\n<p><strong>대성공</strong> 대상은 영향을 받지 않습니다.</p>\n<p><strong>성공</strong> 대상은 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{눈부심} 상태가 되어 현재 턴이 끝날 때까지 지속됩니다.</p>\n<p><strong>실패</strong> 대상은 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명} 상태가 되어 현재 턴이 끝날 때까지 지속됩니다.</p>\n<p><strong>대실패</strong> 대상은 현재 턴이 끝날 때까지 실명 상태가 되며, 1분 동안 눈부심 상태가 됩니다.</p>",
+      "description": "<p><strong>발동 조건</strong> 60피트 내의 생물이 당신을 상대로 공격 굴림을 시도할 때</p>\n<hr />\n<p><strong>효과</strong> 발동한 생물은 인내 내성 굴림을 시도해야 한다.</p>\n<hr />\n<p><strong>대성공</strong> 대상은 영향을 받지 않습니다.</p>\n<p><strong>성공</strong> 대상은 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{눈부심} 상태가 되어 현재 턴이 끝날 때까지 지속됩니다.</p>\n<p><strong>실패</strong> 대상은 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명} 상태가 되어 현재 턴이 끝날 때까지 지속됩니다.</p>\n<p><strong>대실패</strong> 대상은 현재 턴이 끝날 때까지 실명 상태가 되며, 1분 동안 눈부심 상태가 됩니다.</p>",
       "traits": [
         "concentrate"
       ]
@@ -3462,7 +3462,7 @@
     },
     "Lantern Strobe": {
       "name": "랜턴 스트로브",
-      "description": "<p><strong>주파수</strong> 시간당 1회</p>\n<hr />\n<p><strong>효과</strong> 랜턴을 깜빡일 때마다 방출기가 불규칙하게 번쩍이며, 이를 본 적들을 혼란스럽게 합니다. @Template[cone|distance:15] 내에 있는 각 상대는 당신의 직업 DC 또는 주문 DC(둘 중 더 높은 쪽)에 대한 @Check[fortitude|against:class-spell] 내성 검사를 시도해야 합니다. 실패 시, 해당 생물은 1라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{눈부심} 상태가 됩니다. 대실패 시, 해당 생물은 1라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명} 상태가 되고 다음 라운드 동안 눈부심 상태가 됩니다.</p>",
+      "description": "<p><strong>빈도</strong> 시간당 1회</p>\n<hr />\n<p><strong>효과</strong> 랜턴을 깜빡일 때마다 방출기가 불규칙하게 번쩍이며, 이를 본 적들을 혼란스럽게 합니다. @Template[cone|distance:15] 내에 있는 각 상대는 당신의 직업 DC 또는 주문 DC(둘 중 더 높은 쪽)에 대한 @Check[fortitude|against:class-spell] 내성 굴림을 시도해야 합니다. 실패 시, 해당 생물은 1라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{눈부심} 상태가 됩니다. 대실패 시, 해당 생물은 1라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명} 상태가 되고 다음 라운드 동안 눈부심 상태가 됩니다.</p>",
       "traits": [
         "light",
         "magical",
@@ -3495,7 +3495,7 @@
     },
     "Banshee Cry": {
       "name": "밴시의 울부짖음",
-      "description": "<p><strong>발동 조건</strong> 30피트 내 생물이 집중 발동으로 주문을 시전하거나 아이템을 활성화할 때</p><hr /><p><strong>효과</strong> 당신은 1개의 불꽃놀이나 3개의 다용도 약병을 소모하여 생물 근처에서 큰 비명 소리와 함께 폭발하는 불꽃을 터뜨립니다. 생물은 @Check[will|against:class-spell] 내성 검사를 시도해야 합니다.</p><hr /><p><strong> 성공</strong> 생물은 영향을 받지 않습니다.</p>\n<p><strong>실패</strong> 해당 생물은 유발 행동이나 활동에 추가 행동을 사용해야 하며, 그렇지 않으면 방해받는다.</p>\n<p><strong>대실패</strong> 유발 행동이 방해받습니다.</p>"
+      "description": "<p><strong>발동 조건</strong> 30피트 내 생물이 집중 발동으로 주문을 시전하거나 아이템을 활성화할 때</p><hr /><p><strong>효과</strong> 당신은 1개의 불꽃놀이나 3개의 다용도 약병을 소모하여 생물 근처에서 큰 비명 소리와 함께 폭발하는 불꽃을 터뜨립니다. 생물은 @Check[will|against:class-spell] 내성 굴림을 시도해야 합니다.</p><hr /><p><strong> 성공</strong> 생물은 영향을 받지 않습니다.</p>\n<p><strong>실패</strong> 해당 생물은 유발 행동이나 활동에 추가 행동을 사용해야 하며, 그렇지 않으면 방해받는다.</p>\n<p><strong>대실패</strong> 유발 행동이 방해받습니다.</p>"
     },
     "Salt Wound": {
       "name": "상처에 소금",
@@ -3588,7 +3588,7 @@
     },
     "Tangle in Riddle": {
       "name": "수수께끼 속의 얽힘",
-      "description": "<p>당신은 언어를 초월한 기이한 공안을 말하며, 30피트 내의 단 하나의 생물만이 이를 이해합니다. 대상은 당신의 클래스 DC에 대한 @Check[will|against:exemplar] 내성 검사를 시도해야 합니다. 이후 1시간 동안 이 능력에 면역이 된다.</p><hr /><p><strong>대성공</strong> 대상은 영향을 받지 않는다.</p>\n<p><strong>성공</strong> 대상은 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{1라운드 동안 혼미 1} 상태가 됩니다.</p>\n<p><strong>실패</strong> 대상은 [[/gmr 1d4 #라운드]]{1d4 라운드} 동안 혼미 1 상태가 됩니다.</p>\n<p><strong>대실패</strong> 대상은 [[/gmr 1d4 #라운드]]{1d4 라운드} 동안 혼미 상태 1과 @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{혼란} 상태가 됩니다.</p>",
+      "description": "<p>당신은 언어를 초월한 기이한 공안을 말하며, 30피트 내의 단 하나의 생물만이 이를 이해합니다. 대상은 당신의 클래스 DC에 대한 @Check[will|against:exemplar] 내성 굴림을 시도해야 합니다. 이후 1시간 동안 이 능력에 면역이 된다.</p><hr /><p><strong>대성공</strong> 대상은 영향을 받지 않는다.</p>\n<p><strong>성공</strong> 대상은 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{1라운드 동안 혼미 1} 상태가 됩니다.</p>\n<p><strong>실패</strong> 대상은 [[/gmr 1d4 #라운드]]{1d4 라운드} 동안 혼미 1 상태가 됩니다.</p>\n<p><strong>대실패</strong> 대상은 [[/gmr 1d4 #라운드]]{1d4 라운드} 동안 혼미 상태 1과 @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{혼란} 상태가 됩니다.</p>",
       "traits": [
         "auditory",
         "mental",
@@ -3618,7 +3618,7 @@
     },
     "Dampening Harmonics": {
       "name": "감쇠 하모닉스",
-      "description": "<p><strong>주파수</strong> 시간당 한 번</p>\n<hr />\n<p><strong>효과</strong> 당신은 마법파지 능력의 특성을 지닌 주문과 마법 능력으로 가해지는 피해에 대해 저항력 10을 부여하는 힘의 장벽을 형성합니다. 역장 피해는 제외됩니다. 이 장벽은 10분 동안 지속됩니다. 장벽이 피해를 막을 때마다 지속 시간이 1분씩 감소합니다.</p>",
+      "description": "<p><strong>빈도</strong> 시간당 한 번</p>\n<hr />\n<p><strong>효과</strong> 당신은 마법파지 능력의 특성을 지닌 주문과 마법 능력으로 가해지는 피해에 대해 저항력 10을 부여하는 힘의 장벽을 형성합니다. 역장 피해는 제외됩니다. 이 장벽은 10분 동안 지속됩니다. 장벽이 피해를 막을 때마다 지속 시간이 1분씩 감소합니다.</p>",
       "traits": [
         "magical"
       ]
@@ -4239,7 +4239,7 @@
     },
     "Makes Me Stronger": {
       "name": "나를 더 강하게 만든다",
-      "description": "<p><strong>Trigger</strong> 영웅적 약점으로 인해 피해를 입지만, 해당 피해로 인해 체력이 1 이하로 감소하지 않습니다.</p><hr /><p><strong>효과</strong> 당신은 근육을 팽팽하게 하거나, 도전적인 포효를 내지르거나, 고통을 비웃거나, 단순히 피해가 전혀 신경 쓰이지 않는 듯 행동하는 등, 자신의 약점을 극복하는 모습을 과시합니다. 당신의 주문은 발동한 생물에게 가하는 피해에 대해 등급의 두 배에 해당하는 상태 보너스를 얻습니다. 이 효과는 다음에 이 반응을 사용할 때까지 지속됩니다. 또한, 당신의 영웅적 약점을 이용해 피해를 입은 생물은 당신의 직업 능력치 또는 주문 시전 난이도 중 더 높은 쪽에 대한 의지 내성 검사를 시도해야 합니다. 실패 시 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 1} 상태가 되며(대실패 시 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 2} 상태), 이 상태는 지속됩니다.</p>"
+      "description": "<p><strong>Trigger</strong> 영웅적 약점으로 인해 피해를 입지만, 해당 피해로 인해 체력이 1 이하로 감소하지 않습니다.</p><hr /><p><strong>효과</strong> 당신은 근육을 팽팽하게 하거나, 도전적인 포효를 내지르거나, 고통을 비웃거나, 단순히 피해가 전혀 신경 쓰이지 않는 듯 행동하는 등, 자신의 약점을 극복하는 모습을 과시합니다. 당신의 주문은 발동한 생물에게 가하는 피해에 대해 등급의 두 배에 해당하는 상태 보너스를 얻습니다. 이 효과는 다음에 이 반응을 사용할 때까지 지속됩니다. 또한, 당신의 영웅적 약점을 이용해 피해를 입은 생물은 당신의 직업 능력치 또는 주문 시전 난이도 중 더 높은 쪽에 대한 의지 내성 굴림을 시도해야 합니다. 실패 시 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 1} 상태가 되며(대실패 시 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 2} 상태), 이 상태는 지속됩니다.</p>"
     },
     "Cry Havoc!": {
       "name": "난전 개시!",
@@ -4395,7 +4395,7 @@
     },
     "Bite and Sting": {
       "name": "물기와 쏘기",
-      "description": "<p><strong>요구 사항</strong> 당신의 군집이 신체 외부에 위치해야 함</p><hr /><p><strong>효과</strong> 군집 공간 내 모든 생물은 @Damage[(floor(@actor.level/2))d4[piercing]]의 피해를 입으며, @Check[reflex|against:class-spell|basic] 당신의 직업 DC 또는 주문 DC 중 높은 쪽에 대한 내성 검사를 수행합니다. (4th) 레벨과 이후 2레벨마다 피해량이 1d4 증가한다.</p>"
+      "description": "<p><strong>요구 사항</strong> 당신의 군집이 신체 외부에 위치해야 함</p><hr /><p><strong>효과</strong> 군집 공간 내 모든 생물은 @Damage[(floor(@actor.level/2))d4[piercing]]의 피해를 입으며, @Check[reflex|against:class-spell|basic] 당신의 직업 DC 또는 주문 DC 중 높은 쪽에 대한 내성 굴림을 수행합니다. (4th) 레벨과 이후 2레벨마다 피해량이 1d4 증가한다.</p>"
     },
     "A Moment Unending": {
       "name": "끝없는 순간",
@@ -4425,7 +4425,7 @@
     },
     "Toxic Skin": {
       "name": "독성 피부",
-      "description": "<p><strong>발동 빈도</strong> 시간당 1회</p>\n<p><strong>발동 조건</strong> 생물이 당신을 만질 때, 예를 들어 @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{그랩링} 비무장 공격으로 성공적으로 명중시키거나, 접촉 범위 마법을 사용해 당신에게 영향을 미칠 때</p><hr /><p><strong>효과</strong> 당신은 치명적인 독을 발산합니다. 유발 하는 생물은 @Damage[(ceil(@actor.level/2))d4[poison]]의 피해를 입습니다(@Check[fortitude|against:class-spell|basic] 당신의 직업 DC 또는 주문 DC 중 더 높은 값을 사용한 내성 검사). 3레벨과 이후 2레벨마다 피해량이 1d4씩 증가합니다.</p>",
+      "description": "<p><strong>발동 빈도</strong> 시간당 1회</p>\n<p><strong>발동 조건</strong> 생물이 당신을 만질 때, 예를 들어 @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{그랩링} 비무장 공격으로 성공적으로 명중시키거나, 접촉 범위 마법을 사용해 당신에게 영향을 미칠 때</p><hr /><p><strong>효과</strong> 당신은 치명적인 독을 발산합니다. 유발 하는 생물은 @Damage[(ceil(@actor.level/2))d4[poison]]의 피해를 입습니다(@Check[fortitude|against:class-spell|basic] 당신의 직업 DC 또는 주문 DC 중 더 높은 값을 사용한 내성 굴림). 3레벨과 이후 2레벨마다 피해량이 1d4씩 증가합니다.</p>",
       "traits": [
         "grippli",
         "poison"
@@ -4516,7 +4516,7 @@
     },
     "Inscribe Shadow Pamor": {
       "name": "그림자 파모르 새기기",
-      "description": "<p><strong>주파수</strong> 분당 1회</p><hr /><p><strong>효과</strong> 주먹이나 무기를 그림자에 쑥 찔러 넣어, 물결치는 다마스크 무늬 같은 어둠으로 감싼다. 다음 행동이 공격일 경우, 그림자가 공격과 함께 적에게 달라붙어 시야를 가린다. 명중 시, 공격 대상은 다음 차례 시작까지 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{눈부심} 상태가 된다. 대상은 상호작용 행동을 사용해 달라붙은 그림자를 떼어내고 눈부심 상태를 제거할 수 있다. 치명타 시, 그림자는 특히 완고해 떼어낼 수 없다.</p>",
+      "description": "<p><strong>빈도</strong> 분당 1회</p><hr /><p><strong>효과</strong> 주먹이나 무기를 그림자에 쑥 찔러 넣어, 물결치는 다마스크 무늬 같은 어둠으로 감싼다. 다음 행동이 공격일 경우, 그림자가 공격과 함께 적에게 달라붙어 시야를 가린다. 명중 시, 공격 대상은 다음 차례 시작까지 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{눈부심} 상태가 된다. 대상은 상호작용 행동을 사용해 달라붙은 그림자를 떼어내고 눈부심 상태를 제거할 수 있다. 치명타 시, 그림자는 특히 완고해 떼어낼 수 없다.</p>",
       "traits": [
         "occult",
         "shadow"
@@ -4708,7 +4708,7 @@
     },
     "Dragon Breath": {
       "name": "용의 숨결",
-      "description": "<p><strong>주파수</strong> 시간당 한 번</p><hr /><p><strong>효과</strong> 깊게 숨을 들이쉬고, 계약을 맺은 용과 매우 유사한 강력한 숨결을 선형 또는 원뿔형으로 내뿜습니다. 용이 원뿔형 숨결 무기를 가졌다면, 당신의 숨결 무기는 @Template[cone|distance:30]이다. 선형 숨결 무기 를 가졌다면, 당신의 숨결 무기는 @Template[line|distance:60]이다. 폭발형 숨결 무기를 가졌다면, 당신의 숨결 무기는 60피트 내의 @Template[burst|distance:10]이다. 형태에 관계없이, 이 무기는 @Damage[(@actor.level)d6|options:area-damage]{레벨당 1d6 피해}를 입히며, 드래곤의 숨결 무기와 동일한 피해 유형을 가집니다. @Check[reflex|against:class-spell|basic|options:area-effect] 내성을 사용하며, 당신의 직업 난이도(DC)와 주문 난이도(DC) 중 높은 쪽을 적용합니다. 이 행동은 당신이 계약을 맺은 드래곤의 숨결 무기와 동일한 특성을 가집니다.</p>"
+      "description": "<p><strong>빈도</strong> 시간당 한 번</p><hr /><p><strong>효과</strong> 깊게 숨을 들이쉬고, 계약을 맺은 용과 매우 유사한 강력한 숨결을 선형 또는 원뿔형으로 내뿜습니다. 용이 원뿔형 숨결 무기를 가졌다면, 당신의 숨결 무기는 @Template[cone|distance:30]이다. 선형 숨결 무기 를 가졌다면, 당신의 숨결 무기는 @Template[line|distance:60]이다. 폭발형 숨결 무기를 가졌다면, 당신의 숨결 무기는 60피트 내의 @Template[burst|distance:10]이다. 형태에 관계없이, 이 무기는 @Damage[(@actor.level)d6|options:area-damage]{레벨당 1d6 피해}를 입히며, 드래곤의 숨결 무기와 동일한 피해 유형을 가집니다. @Check[reflex|against:class-spell|basic|options:area-effect] 내성을 사용하며, 당신의 직업 난이도(DC)와 주문 난이도(DC) 중 높은 쪽을 적용합니다. 이 행동은 당신이 계약을 맺은 드래곤의 숨결 무기와 동일한 특성을 가집니다.</p>"
     },
     "Mark for Death": {
       "name": "죽음의 표식",
@@ -5264,7 +5264,7 @@
     },
     "Set Free": {
       "name": "설정 해제",
-      "description": "<p><strong>주파수</strong> 시간당 1회</p>\n<p><strong>발동</strong> 당신은 @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{혼란}을 제거하거나 반격하기 위한 체크를 시도한다. @UUID[Compendium.pf2e.conditionitems.Item.9qGBRpbX9NEwtAAr]{제어됨}, @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{매혹된}, @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{고정된}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비됨}, 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속됨} 상태를 제거하거나 상쇄하기 위한 검사를 시도합니다.</p>\n<hr />\n<p><strong>효과</strong> 두 번 굴림하고 더 좋은 결과를 사용합니다.</p>",
+      "description": "<p><strong>빈도</strong> 시간당 1회</p>\n<p><strong>발동</strong> 당신은 @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{혼란}을 제거하거나 반격하기 위한 체크를 시도한다. @UUID[Compendium.pf2e.conditionitems.Item.9qGBRpbX9NEwtAAr]{제어됨}, @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{매혹된}, @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{고정된}, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비됨}, 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속됨} 상태를 제거하거나 상쇄하기 위한 검사를 시도합니다.</p>\n<hr />\n<p><strong>효과</strong> 두 번 굴림하고 더 좋은 결과를 사용합니다.</p>",
       "traits": [
         "fortune"
       ]
@@ -5343,7 +5343,7 @@
     },
     "Shake It Off": {
       "name": "털어내기",
-      "description": "<p><strong>사용 빈도</strong> 하루에 한 번</p>\n<p><strong>발동 조건</strong> 상태 이상이나 불리한 효과(예: @UUID[Compendium.pf2e.spells-srd.Item.dN8QBNuTiaBHCKUe]{저주받은 변이})에 대한 내성 굴림에서 실패하거나 대실패할 때</p>\n<hr />\n<p><strong>효과</strong> 발동 조건이 되는 내성 검사를 재굴림하고 더 좋은 결과를 사용합니다.</p>",
+      "description": "<p><strong>사용 빈도</strong> 하루에 한 번</p>\n<p><strong>발동 조건</strong> 상태 이상이나 불리한 효과(예: @UUID[Compendium.pf2e.spells-srd.Item.dN8QBNuTiaBHCKUe]{저주받은 변이})에 대한 내성 굴림에서 실패하거나 대실패할 때</p>\n<hr />\n<p><strong>효과</strong> 발동 조건이 되는 내성 굴림을 재굴림하고 더 좋은 결과를 사용합니다.</p>",
       "traits": [
         "fortune",
         "primal"
@@ -5351,7 +5351,7 @@
     },
     "I Defy You!": {
       "name": "나는 너를 거부한다!",
-      "description": "<p><strong>발동조건</strong> 정신 효과에 대한 내성 검사 실패 시</p>\n<p><strong>발생 빈도</strong> 시간당 한 번</p>\n<hr />\n<p><strong>효과</strong> 발동된 내성 검사를 재굴림하고 두 번째 결과를 받아들여야 합니다.</p>",
+      "description": "<p><strong>발동조건</strong> 정신 효과에 대한 내성 굴림 실패 시</p>\n<p><strong>발생 빈도</strong> 시간당 한 번</p>\n<hr />\n<p><strong>효과</strong> 발동된 내성 굴림을 재굴림하고 두 번째 결과를 받아들여야 합니다.</p>",
       "traits": [
         "fortune",
         "mental"
@@ -5529,7 +5529,7 @@
     },
     "Mobbing Assault": {
       "name": "집단 공격",
-      "description": "<p><strong>요구 사항</strong> 당신의 군단이 소환되었습니다</p><hr /><p><strong>효과</strong> 군중을 중심으로 한 @Template[type:emanation|distance:5] 내부의 각 적에게 @Damage[(ternary(gte(@actor.level,18),8,ternary(gte(@actor.level,14),6,ternary(gte(@actor.level,10),4,2))))d6[bludgeoning]|options:area-damage] 피해 (군중이 좀비인 경우) 또는 @Damage[(ternary(gte(@actor.level,18),8,ternary(gte(@actor.level,14),6,ternary(gte(@actor.level,10),4,2))))d6[slashing]|options:area-damage]의 피해를 입습니다 (당신의 무리가 해골인 경우). 이 피해는 당신의 주문 DC에 대한 내성 검사를 통과해야 합니다. 10레벨과 그 이후 4레벨마다 피해량이 2d6씩 증가합니다.</p>",
+      "description": "<p><strong>요구 사항</strong> 당신의 군단이 소환되었습니다</p><hr /><p><strong>효과</strong> 군중을 중심으로 한 @Template[type:emanation|distance:5] 내부의 각 적에게 @Damage[(ternary(gte(@actor.level,18),8,ternary(gte(@actor.level,14),6,ternary(gte(@actor.level,10),4,2))))d6[bludgeoning]|options:area-damage] 피해 (군중이 좀비인 경우) 또는 @Damage[(ternary(gte(@actor.level,18),8,ternary(gte(@actor.level,14),6,ternary(gte(@actor.level,10),4,2))))d6[slashing]|options:area-damage]의 피해를 입습니다 (당신의 무리가 해골인 경우). 이 피해는 당신의 주문 DC에 대한 내성 굴림을 통과해야 합니다. 10레벨과 그 이후 4레벨마다 피해량이 2d6씩 증가합니다.</p>",
       "traits": [
         "concentrate"
       ]
@@ -5599,7 +5599,7 @@
     },
     "Bloody Guillotine": {
       "name": "피 묻은 단두대",
-      "description": "<p><strong>발동 빈도</strong> 하루에 한 번</p><hr /><p>당신의 분대는 잔혹한 연쇄 공격을 수행하여 적을 쓰러뜨리고 영구적으로 제압하려고 시도합니다. 지휘관의 깃발 오라 범위 내 최대 세 명의 분대원을 선택하여 신호를 보내세요. 각 분대원은 자유 행동으로 지정된 단일 적을 향해 자신의 이동 속도의 절반까지 스트라이드할 수 있습니다. 이동을 지정된 목표와 인접한 위치에서 종료한 분대원은 반응으로 @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{넘어뜨리기} 또는 타격을 시도할 수 있습니다.</p>\n<p>이 전술의 공격으로 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드린} 상태의 적에게 처음으로 피해를 성공적으로 입혔을 때, 해당 적은 즉시 당신의 클래스 DC에 대한 @Check[fortitude|against:commander|traits:death,incapacitation] 내성 검사를 시도해야 하며, 실패 시 사망합니다. 이는 사망 및 무력화 효과입니다. 피의 단두대에 의해 생물이 살해되는 것을 목격한 모든 적들은 당신의 클래스 DC에 대한 @Check[will|against:commander|options:inflicts:sickened|traits:emotion,mental] 내성에 성공해야 하며, 그렇지 않으면 1라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1} 상태가 됩니다(대실패 시 1라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 2} 상태). 이는 감정 및 정신 효과입니다.</p>",
+      "description": "<p><strong>발동 빈도</strong> 하루에 한 번</p><hr /><p>당신의 분대는 잔혹한 연쇄 공격을 수행하여 적을 쓰러뜨리고 영구적으로 제압하려고 시도합니다. 지휘관의 깃발 오라 범위 내 최대 세 명의 분대원을 선택하여 신호를 보내세요. 각 분대원은 자유 행동으로 지정된 단일 적을 향해 자신의 이동 속도의 절반까지 스트라이드할 수 있습니다. 이동을 지정된 목표와 인접한 위치에서 종료한 분대원은 반응으로 @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{넘어뜨리기} 또는 타격을 시도할 수 있습니다.</p>\n<p>이 전술의 공격으로 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드린} 상태의 적에게 처음으로 피해를 성공적으로 입혔을 때, 해당 적은 즉시 당신의 클래스 DC에 대한 @Check[fortitude|against:commander|traits:death,incapacitation] 내성 굴림을 시도해야 하며, 실패 시 사망합니다. 이는 사망 및 무력화 효과입니다. 피의 단두대에 의해 생물이 살해되는 것을 목격한 모든 적들은 당신의 클래스 DC에 대한 @Check[will|against:commander|options:inflicts:sickened|traits:emotion,mental] 내성에 성공해야 하며, 그렇지 않으면 1라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1} 상태가 됩니다(대실패 시 1라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 2} 상태). 이는 감정 및 정신 효과입니다.</p>",
       "traits": [
         "commander",
         "tactic"

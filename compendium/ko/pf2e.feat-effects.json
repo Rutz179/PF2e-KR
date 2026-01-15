@@ -3192,7 +3192,7 @@
     },
     "Stance: Drifting Pollen": {
       "name": "자세: 떠도는 꽃가루",
-      "description": "<p>@UUID[Compendium.pf2e.feats-srd.Item.7W5oubPLcxHJdcHX]{떠다니는 꽃가루}</p>에 의해 부여됨\n<p>자세 진입 시, 또는 이후 오라에 진입하거나 오라 내에서 턴을 종료하는 생물은 당신의 직업 DC에 대한 인내 내성 검사를 시도한다. 실패 시, 해당 생물은 더 이상 병약 1 상태가 아닐 때까지 병약 1 상태(대실패 시 병약 2)가 되며 눈부심 상태가 됩니다. 생물은 이 내성을 라운드당 한 번만 시도하며, 이미 효과가 적용된 상태라면 새로운 내성을 시도하지 않습니다.</p>"
+      "description": "<p>@UUID[Compendium.pf2e.feats-srd.Item.7W5oubPLcxHJdcHX]{떠다니는 꽃가루}</p>에 의해 부여됨\n<p>자세 진입 시, 또는 이후 오라에 진입하거나 오라 내에서 턴을 종료하는 생물은 당신의 직업 DC에 대한 인내 내성 굴림을 시도한다. 실패 시, 해당 생물은 더 이상 병약 1 상태가 아닐 때까지 병약 1 상태(대실패 시 병약 2)가 되며 눈부심 상태가 됩니다. 생물은 이 내성을 라운드당 한 번만 시도하며, 이미 효과가 적용된 상태라면 새로운 내성을 시도하지 않습니다.</p>"
     },
     "Effect: Oni Form": {
       "name": "효과: 오니 형태",
@@ -3224,8 +3224,8 @@
       ]
     },
     "Effect: Azarketi Purification": {
-      "name": "효과: 아자르케티 정화",
-      "description": "<p>{아자르케티 정화}</p>에 의해 부여됨\n<p>신체에 이미 존재하는 독에 대한 지속적 내성에 +2 상태 보너스를 얻습니다.</p>",
+      "name": "효과: 아자케티 정화",
+      "description": "<p>{아자케티 정화}</p>에 의해 부여됨\n<p>신체에 이미 존재하는 독에 대한 지속적 내성에 +2 상태 보너스를 얻습니다.</p>",
       "rules": [
         {
           "key": "FlatModifier",
@@ -5957,8 +5957,8 @@
       ]
     },
     "Effect: Wild Mimic Dedication": {
-      "name": "효과: 야생 모방체 헌신",
-      "description": "<p>@UUID[Compendium.pf2e.feats-srd.Item.U9mK9TXbGriGeMOW]{야생 모방체 헌신}</p>에 의해 부여됨\n<p>당신은 지식 회상 대상이 당신을 겨냥한 다음 공격이나 능력에 대한 내성 굴림에 +1 상황 보너스를 얻습니다.</p>",
+      "name": "효과: 야생 미믹 헌신",
+      "description": "<p>@UUID[Compendium.pf2e.feats-srd.Item.U9mK9TXbGriGeMOW]{야생 미믹 헌신}</p>에 의해 부여됨\n<p>당신은 지식 회상 대상이 당신을 겨냥한 다음 공격이나 능력에 대한 내성 굴림에 +1 상황 보너스를 얻습니다.</p>",
       "rules": [
         {
           "key": "TokenMark",
@@ -8427,7 +8427,7 @@
     },
     "Effect: Resounding Bravery": {
       "name": "효과: 울려 퍼지는 용기",
-      "description": "<p>@UUID[Compendium.pf2e.feats-srd.Item.dTO1ShJovbzrKUY4]{울려 퍼지는 용기}</p>에 의해 부여됨\n<p>내성 검사 +1 상태 보너스와 레벨의 절반에 해당하는 임시 체력을 얻습니다. 공포 효과에 대해 대성공을 거둘 경우 이 혜택이 두 배로 증가합니다.</p>",
+      "description": "<p>@UUID[Compendium.pf2e.feats-srd.Item.dTO1ShJovbzrKUY4]{울려 퍼지는 용기}</p>에 의해 부여됨\n<p>내성 굴림 +1 상태 보너스와 레벨의 절반에 해당하는 임시 체력을 얻습니다. 공포 효과에 대해 대성공을 거둘 경우 이 혜택이 두 배로 증가합니다.</p>",
       "rules": [
         {
           "adjustName": false,
@@ -16331,7 +16331,7 @@
     },
     "Effect: Celestial Armaments": {
       "name": "효과: 천상체 무기",
-      "description": "<p>{천상체 무기}에 의해 부여됨</p>\n<p>당신의 무기는 횃불처럼 빛을 발하며, 추가로 1d8 영혼 피해를 입히고, 당신은 해당 무기의 치명타 특화 능력을 얻습니다.</p>\n<p>이 무기로 적에게 치명타를 입힐 경우, 대상은 당신의 직업 난이도(DC) 또는 주문 난이도(DC) 중 더 높은 쪽에 대한 인내 내성 검사에 성공해야 하며, 실패 시 1d4 라운드 동안 실명 상태가 됩니다.</p>",
+      "description": "<p>{천상체 무기}에 의해 부여됨</p>\n<p>당신의 무기는 횃불처럼 빛을 발하며, 추가로 1d8 영혼 피해를 입히고, 당신은 해당 무기의 치명타 특화 능력을 얻습니다.</p>\n<p>이 무기로 적에게 치명타를 입힐 경우, 대상은 당신의 직업 난이도(DC) 또는 주문 난이도(DC) 중 더 높은 쪽에 대한 인내 내성 굴림에 성공해야 하며, 실패 시 1d4 라운드 동안 실명 상태가 됩니다.</p>",
       "rules": [
         {
           "choices": {
@@ -16387,7 +16387,7 @@
     },
     "Effect: Sword Practice": {
       "name": "효과: 검술 연습",
-      "description": "<p>{텐구 무기 숙련}@UUID[Compendium.pf2e.feats-srd.Item.AmFv3ClkAVRowHLI]에 의해 부여됨</p>\n<p>일상적인 준비 과정에서 소지한 검 계열 무기로 연습할 수 있습니다. 해당 무기에 대한 패밀리어 또한 함께 얻습니다. 이는 동일한 방식으로 다른 검으로 연습할 때까지 지속됩니다.</p>",
+      "description": "<p>{텐구 무기 숙련}@UUID[Compendium.pf2e.feats-srd.Item.AmFv3ClkAVRowHLI]에 의해 부여됨</p>\n<p>일상적인 준비 과정에서 소지한 검 계열 무기로 연습할 수 있습니다. 해당 무기에 대한 숙련 또한 함께 얻습니다. 이는 동일한 방식으로 다른 검으로 연습할 때까지 지속됩니다.</p>",
       "rules": [
         {
           "actorFlag": true,

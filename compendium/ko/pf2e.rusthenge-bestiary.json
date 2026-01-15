@@ -23,7 +23,7 @@
     "Rushing Waters": {
       "name": "Rushing Waters",
       "desc (hazard)": "<p>돌 원에서 물줄기가 흘러나와 중심에 점점 커지는 물웅덩이에 모이기 시작합니다.</p>",
-      "disable": "<p>@Check[thievery|dc:20] (전문가) 천장에 숨겨진 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} 룬을 지우거나 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제} (2단계, 반격 DC 18)를 사용하여 함정을 반격합니다.</p>",
+      "disable": "<p>@Check[thievery|dc:20] (전문가) 천장에 숨겨진 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} 룬을 지우거나 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(2단계, 반격 DC 18)를 사용하여 함정을 반격합니다.</p>",
       "reset": "<p>마법은 10분 동안 재생되며, 그 후 재충전되어 다시 활성화될 준비가 됩니다.</p>",
       "stealth": "<p>(trained)</p>",
       "items": {
@@ -69,7 +69,7 @@
       "items": {
         "PFa0h9BekFPB4Eoh": {
           "name": "강하게 내려치기",
-          "description": "<p><strong>트리거</strong> 생물이 케이지 아래를 지나가며 압력판을 밟습니다</p>\n<hr />\n<p><strong>효과</strong> 감옥이 천장에서 내려와 트리거를 당긴 생물을 가두며, 해당 생물은 @Check[reflex|dc:17|traits:damaging-effect] 내성 검사를 시도해야 합니다.</p>\n<hr />\n<p><strong>대성공</strong> 생물은 함정을 피하고, 함정 공간으로 들어가지 않고 방금 떠난 공간으로 돌아갑니다.</p>\n<p><strong>성공</strong> 대성공과 동일하지만, 떨어지는 함정이 생물에게 가벼운 타격을 가하고 @Damage[(1d6+3)[bludgeoning]]의 피해를 입히며 생물이 뒤로 휘청거립니다.</p>\n<p><strong>실패</strong> 떨어지는 함정이 트리거링 생물 위에 착지합니다. 중간 크기 이하의 생물은 케이지 안에 갇히며 (@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{탈출} DC 20). 대형 또는 더 큰 크기의 생물은 @Damage[(2d6+5)[bludgeoning]]의 피해를 받고, 케이지가 생물의 몸에서 튀어 오르며 파괴되는 과정에서 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} 상태가 됩니다.</p>\n<p><strong>대실패</strong> 실패와 동일하지만, 중형 또는 더 작은 크기의 생물도 케이지에 맞고 넘어지며, 케이지가 사지에 착지할 때 @Damage[(2d6+5)[bludgeoning]]의 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{이동 불가} 상태가 됩니다.</p>"
+          "description": "<p><strong>트리거</strong> 생물이 케이지 아래를 지나가며 압력판을 밟습니다</p>\n<hr />\n<p><strong>효과</strong> 감옥이 천장에서 내려와 트리거를 당긴 생물을 가두며, 해당 생물은 @Check[reflex|dc:17|traits:damaging-effect] 내성 굴림을 시도해야 합니다.</p>\n<hr />\n<p><strong>대성공</strong> 생물은 함정을 피하고, 함정 공간으로 들어가지 않고 방금 떠난 공간으로 돌아갑니다.</p>\n<p><strong>성공</strong> 대성공과 동일하지만, 떨어지는 함정이 생물에게 가벼운 타격을 가하고 @Damage[(1d6+3)[bludgeoning]]의 피해를 입히며 생물이 뒤로 휘청거립니다.</p>\n<p><strong>실패</strong> 떨어지는 함정이 트리거링 생물 위에 착지합니다. 중간 크기 이하의 생물은 케이지 안에 갇히며 (@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{탈출} DC 20). 대형 또는 더 큰 크기의 생물은 @Damage[(2d6+5)[bludgeoning]]의 피해를 받고, 케이지가 생물의 몸에서 튀어 오르며 파괴되는 과정에서 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} 상태가 됩니다.</p>\n<p><strong>대실패</strong> 실패와 동일하지만, 중형 또는 더 작은 크기의 생물도 케이지에 맞고 넘어지며, 케이지가 사지에 착지할 때 @Damage[(2d6+5)[bludgeoning]]의 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{이동 불가} 상태가 됩니다.</p>"
         }
       }
     },
@@ -91,7 +91,7 @@
         },
         "oxpwAUYEbjv8nf4R": {
           "name": "녹슨 기어",
-          "description": "<p>이 언데드는 턱 공격으로 녹슨 기어를 전파합니다. 이 잘린 머리 중 하나로부터 턱 공격이나 Gnash로 피해를 입은 생물은 DC 15 인내 내성 검사에 성공하지 못하면 녹슨 기어를 감염됩니다.</p>\n<p>녹슨 기운에 감염된 생물은 피부 표면에 불편한 녹슨 색의 멍이 생기고, 장시간 운동 후 느끼는 것과 유사한 전신 통증을 겪습니다. 감염이 진행됨에 따라 그들의 몸뿐만 아니라 입거나 들고 있는 옷과 물건도 점차 썩어 들어가며 결국 고통스러운 죽음에 이릅니다. 캐릭터가 녹슨 기어 감염을 성공적으로 저항하거나 감염에서 회복되면, 24시간 동안 미래의 녹슨 기어 감염에 일시적으로 면역이 됩니다.</p>\n<hr />\n<p><strong>녹슨 기어</strong></p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:15]</p>\n<p><strong>단계 1</strong> -1 상태 페널티가 운동 체크(1일)에 적용됩니다</p>\n<p><strong>단계 2</strong> 단계 1과 동일 (1일)</p>\n<p><strong>단계 3</strong> @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 1} (1일)</p>\n<p><strong>단계 4</strong> 약화된 1 및 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1}, 그리고 질병의 확산이 퍼지는 동안 착용하거나 소지한 모든 방어구, 의복 및 아이템 중 질병의 레벨과 동일하거나 낮은 아이템은 파손됩니다 (1일; 파손된 아이템은 파손된 상태로 유지됩니다)</p>\n<p><strong>단계 5</strong> @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 상실} (1일)</p>\n<p><strong>단계 6</strong> 의식 상실 (1일)</p>\n<p><strong>단계 7</strong> 사망</p>"
+          "description": "<p>이 언데드는 턱 공격으로 녹슨 기어를 전파합니다. 이 잘린 머리 중 하나로부터 턱 공격이나 Gnash로 피해를 입은 생물은 DC 15 인내 내성 굴림에 성공하지 못하면 녹슨 기어를 감염됩니다.</p>\n<p>녹슨 기운에 감염된 생물은 피부 표면에 불편한 녹슨 색의 멍이 생기고, 장시간 운동 후 느끼는 것과 유사한 전신 통증을 겪습니다. 감염이 진행됨에 따라 그들의 몸뿐만 아니라 입거나 들고 있는 옷과 물건도 점차 썩어 들어가며 결국 고통스러운 죽음에 이릅니다. 캐릭터가 녹슨 기어 감염을 성공적으로 저항하거나 감염에서 회복되면, 24시간 동안 미래의 녹슨 기어 감염에 일시적으로 면역이 됩니다.</p>\n<hr />\n<p><strong>녹슨 기어</strong></p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:15]</p>\n<p><strong>단계 1</strong> -1 상태 페널티가 운동 체크(1일)에 적용됩니다</p>\n<p><strong>단계 2</strong> 단계 1과 동일 (1일)</p>\n<p><strong>단계 3</strong> @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 1}(1일)</p>\n<p><strong>단계 4</strong> 약화된 1 및 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1}, 그리고 질병의 확산이 퍼지는 동안 착용하거나 소지한 모든 방어구, 의복 및 아이템 중 질병의 레벨과 동일하거나 낮은 아이템은 파손됩니다 (1일; 파손된 아이템은 파손된 상태로 유지됩니다)</p>\n<p><strong>단계 5</strong> @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 상실}(1일)</p>\n<p><strong>단계 6</strong> 의식 상실 (1일)</p>\n<p><strong>단계 7</strong> 사망</p>"
         }
       },
       "AcrobaticsVariants": {
@@ -189,7 +189,7 @@
         },
         "SHmm4Z4oVUEYADth": {
           "name": "녹슨 기어",
-          "description": "<p>녹이 번짐에 감염된 캐릭터는 피부 표면에 불편한 녹색 멍이 생기고, 장시간 운동 후처럼 전신 통증을 겪습니다. 감염이 진행될수록 그들의 몸과 입거나 소지한 옷이나 물건이 점차 부식되어 결국 고통스러운 죽음에 이릅니다. 캐릭터가 녹슨 기어에 감염되는 것을 성공적으로 저항하거나, 녹슨 기어에서 회복되면, 24시간 동안 미래의 녹슨 기어 감염에 일시적으로 면역이 됩니다.</p>\n<p><strong>내성 굴림</strong> @Check[fortitude|dc:15]</p>\n<p><strong>단계 1</strong> -1 상태 페널티가 운동 체크(1일)에 적용됩니다.</p>\n<p><strong>단계 2</strong> 단계 1과 동일 (1일)</p>\n<p><strong>단계 3</strong> @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1} (1 day)</p>\n<p><strong>단계 4</strong> 약화된 1과 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1}, 그리고 질병의 확산이 닿는 모든 방어구, 의복 및 아이템(질병의 수준과 동일하거나 낮은 것)은 파손됩니다 (1일; 파손된 아이템은 계속 파손된 상태로 유지됩니다)</p>\n<p><strong>Stage 5</strong> @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious} (1 day)</p>\n<p><strong>Stage 6</strong> unconscious (1 day)</p>\n<p><strong>Stage 7</strong> death</p>"
+          "description": "<p>녹이 번짐에 감염된 캐릭터는 피부 표면에 불편한 녹색 멍이 생기고, 장시간 운동 후처럼 전신 통증을 겪습니다. 감염이 진행될수록 그들의 몸과 입거나 소지한 옷이나 물건이 점차 부식되어 결국 고통스러운 죽음에 이릅니다. 캐릭터가 녹슨 기어에 감염되는 것을 성공적으로 저항하거나, 녹슨 기어에서 회복되면, 24시간 동안 미래의 녹슨 기어 감염에 일시적으로 면역이 됩니다.</p>\n<p><strong>내성 굴림</strong> @Check[fortitude|dc:15]</p>\n<p><strong>단계 1</strong> -1 상태 페널티가 운동 체크(1일)에 적용됩니다.</p>\n<p><strong>단계 2</strong> 단계 1과 동일 (1일)</p>\n<p><strong>단계 3</strong> @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 1}(1 day)</p>\n<p><strong>단계 4</strong> 약화된 1과 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1}, 그리고 질병의 확산이 닿는 모든 방어구, 의복 및 아이템(질병의 수준과 동일하거나 낮은 것)은 파손됩니다 (1일; 파손된 아이템은 계속 파손된 상태로 유지됩니다)</p>\n<p><strong>Stage 5</strong> @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{Unconscious}(1 day)</p>\n<p><strong>Stage 6</strong> unconscious (1 day)</p>\n<p><strong>Stage 7</strong> death</p>"
         }
       }
     },
@@ -215,7 +215,7 @@
         },
         "z8bl09rqF4yCJDy4": {
           "name": "공포의 croak",
-          "description": "<p>늪지 보가드 스워프시어가 끔찍한 울음소리를 내뿜습니다. @Template[emanation|distance:30] 범위 내의 모든 비보가드 생물은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 1} 상태가 되며, @Check[will|dc:19] 내성 검사에 성공하지 않으면 해당 상태가 유지됩니다.</p>\n<p>크리티컬로 성공한 자들은 1분 동안 일시적으로 면역 상태가 됩니다.</p>"
+          "description": "<p>늪지 보가드 스워프시어가 끔찍한 울음소리를 내뿜습니다. @Template[emanation|distance:30] 범위 내의 모든 비보가드 생물은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 1} 상태가 되며, @Check[will|dc:19] 내성 굴림에 성공하지 않으면 해당 상태가 유지됩니다.</p>\n<p>크리티컬로 성공한 자들은 1분 동안 일시적으로 면역 상태가 됩니다.</p>"
         },
         "A33mGw1DCgRJRDSe": {
           "name": "혀로 잡기",
@@ -237,7 +237,7 @@
     "Rusty Spike Launcher": {
       "name": "Rusty Spike Launcher",
       "desc (hazard)": "<p>큰 녹슨 문이 열리자, 문틈에서 갑자기 녹슨 스파이크들이 나타나 방 안으로 폭력적으로 날아든다.</p>",
-      "disable": "<p>@Check[thievery|dc:20] 스파이크를 확장시키는 트리거링 로드를 분리하거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제} (2단계; DC 18에 반격)를 사용하여 함정을 무력화합니다.</p>",
+      "disable": "<p>@Check[thievery|dc:20] 스파이크를 확장시키는 트리거링 로드를 분리하거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(2단계; DC 18에 반격)를 사용하여 함정을 무력화합니다.</p>",
       "reset": "<p>문이 닫히면 함정은 자동으로 재설정됩니다.</p>",
       "stealth": "<p>(훈련된)</p>",
       "items": {
@@ -272,7 +272,7 @@
         },
         "qm5fECYwi6fAl37z": {
           "name": "녹슨 기어오름",
-          "description": "<p>녹슨 기어오름에 감염된 생물은 피부에 불편한 녹슨 색의 멍이 생기고, 장시간 운동 후 느끼는 것과 유사한 전신 통증을 겪습니다. 감염이 진행됨에 따라 그들의 몸-입고 있거나 들고 있는 옷과 물건까지-점차 분해되어 결국 고통스러운 죽음에 이릅니다. 캐릭터가 감염을 성공적으로 치료하면 녹슨 기어오름의 영향에서 벗어나며, 감염된 부위와 입은 상처는 점차 치유됩니다. 감염된 부위와 전신 통증을 겪습니다. 이 증상이 진행됨에 따라 그들의 몸뿐만 아니라 입거나 들고 있는 옷과 물건도 점차 분해되어 결국 고통스러운 죽음에 이릅니다. 캐릭터가 녹 침투에 성공적으로 저항하거나 녹 침투에서 회복되면, 24시간 동안 녹 침투 감염에 일시적으로 면역이 됩니다.</p>\n<p><strong>내성 굴림</strong> @Check[fortitude|dc:15]</p>\n<p><strong>단계 1</strong> -1 상태 페널티가 운동 체크 (1일)</p>\n<p><strong>단계 2</strong> 단계 1과 동일 (1일)</p>\n<p><strong>단계 3</strong> @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 1} (1일)</p>\n<p><strong>단계 4</strong> 약화된 1 및 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1}, 그리고 질병의 썩음이 퍼지면서 해당 질병의 레벨과 동일하거나 낮은 레벨의 방어구, 의복, 아이템이 파손됩니다 (1일; 파손된 아이템은 파손된 상태로 유지됩니다)</p>\n<p><strong>단계 5</strong> @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 상실} (1일)</p>\n<p><strong>단계 6</strong> 의식 상실 (1일)</p>\n<p><strong>단계 7</strong> 사망</p>"
+          "description": "<p>녹슨 기어오름에 감염된 생물은 피부에 불편한 녹슨 색의 멍이 생기고, 장시간 운동 후 느끼는 것과 유사한 전신 통증을 겪습니다. 감염이 진행됨에 따라 그들의 몸-입고 있거나 들고 있는 옷과 물건까지-점차 분해되어 결국 고통스러운 죽음에 이릅니다. 캐릭터가 감염을 성공적으로 치료하면 녹슨 기어오름의 영향에서 벗어나며, 감염된 부위와 입은 상처는 점차 치유됩니다. 감염된 부위와 전신 통증을 겪습니다. 이 증상이 진행됨에 따라 그들의 몸뿐만 아니라 입거나 들고 있는 옷과 물건도 점차 분해되어 결국 고통스러운 죽음에 이릅니다. 캐릭터가 녹 침투에 성공적으로 저항하거나 녹 침투에서 회복되면, 24시간 동안 녹 침투 감염에 일시적으로 면역이 됩니다.</p>\n<p><strong>내성 굴림</strong> @Check[fortitude|dc:15]</p>\n<p><strong>단계 1</strong> -1 상태 페널티가 운동 체크 (1일)</p>\n<p><strong>단계 2</strong> 단계 1과 동일 (1일)</p>\n<p><strong>단계 3</strong> @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 1}(1일)</p>\n<p><strong>단계 4</strong> 약화된 1 및 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1}, 그리고 질병의 썩음이 퍼지면서 해당 질병의 레벨과 동일하거나 낮은 레벨의 방어구, 의복, 아이템이 파손됩니다 (1일; 파손된 아이템은 파손된 상태로 유지됩니다)</p>\n<p><strong>단계 5</strong> @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 상실}(1일)</p>\n<p><strong>단계 6</strong> 의식 상실 (1일)</p>\n<p><strong>단계 7</strong> 사망</p>"
         }
       }
     },
@@ -294,7 +294,7 @@
         },
         "GFEimWK8niicOioN": {
           "name": "Rust Creep",
-          "description": "<p>녹슨 기운에 감염된 자들은 피부 표면에 불편한 녹슨 색의 멍이 생기고, 장시간 운동 후 느끼는 것과 유사한 전신 통증을 겪습니다. 감염이 진행됨에 따라 그들의 몸뿐만 아니라 입거나 들고 있는 옷과 물건도 점차 부식되어 결국 고통스러운 죽음에 이릅니다. 캐릭터가 녹 번식 감염을 성공적으로 저항하거나 감염에서 회복되면, 24시간 동안 녹 번식 감염에 일시적으로 면역이 됩니다.</p>\n<p><strong>내성 굴림</strong> @Check[fortitude|dc:15]</p>\n<p><strong>단계 1</strong> -1 상태 페널티가 운동 체크(1일)에 적용됩니다.</p>\n<p><strong>Stage 2</strong> as stage 1 (1 day)</p>\n<p><strong>Stage 3</strong> @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 1} (1일)</p>\n<p><strong>단계 4</strong> 약화된 1 및 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1}, 그리고 질병의 확산으로 인해 해당 질병의 레벨과 동일하거나 낮은 레벨의 방어구, 의복 및 소지품이 파손됩니다 (1일; 파손된 아이템은 파손된 상태로 유지됩니다)</p>\n<p><strong>단계 5</strong> @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 상실} (1일)</p>\n<p><strong>단계 6</strong> 의식 상실 (1일)</p>\n<p><strong>단계 7</strong> 사망</p>"
+          "description": "<p>녹슨 기운에 감염된 자들은 피부 표면에 불편한 녹슨 색의 멍이 생기고, 장시간 운동 후 느끼는 것과 유사한 전신 통증을 겪습니다. 감염이 진행됨에 따라 그들의 몸뿐만 아니라 입거나 들고 있는 옷과 물건도 점차 부식되어 결국 고통스러운 죽음에 이릅니다. 캐릭터가 녹 번식 감염을 성공적으로 저항하거나 감염에서 회복되면, 24시간 동안 녹 번식 감염에 일시적으로 면역이 됩니다.</p>\n<p><strong>내성 굴림</strong> @Check[fortitude|dc:15]</p>\n<p><strong>단계 1</strong> -1 상태 페널티가 운동 체크(1일)에 적용됩니다.</p>\n<p><strong>Stage 2</strong> as stage 1 (1 day)</p>\n<p><strong>Stage 3</strong> @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 1}(1일)</p>\n<p><strong>단계 4</strong> 약화된 1 및 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1}, 그리고 질병의 확산으로 인해 해당 질병의 레벨과 동일하거나 낮은 레벨의 방어구, 의복 및 소지품이 파손됩니다 (1일; 파손된 아이템은 파손된 상태로 유지됩니다)</p>\n<p><strong>단계 5</strong> @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 상실}(1일)</p>\n<p><strong>단계 6</strong> 의식 상실 (1일)</p>\n<p><strong>단계 7</strong> 사망</p>"
         }
       }
     },
@@ -307,7 +307,7 @@
       "items": {
         "yf2VZtO2S4eV7fKZ": {
           "name": "Pitfall",
-          "description": "<p><strong>트리거</strong> 생물이나 다른 큰 무게(예: 이전 함정의 급류)가 자갈로 덮인 숨겨진 부분에 올라갑니다</p>\n<hr />\n<p><strong>Effect</strong> 트리거를 유발한 생물이나 물체가 구덩이에 떨어지며 추락 피해를 입습니다 (@Damage[10[bludgeoning]|options:fall-damage] 피해)이며, 스파이크의 공격에 표적이 됩니다. 추락 중인 생물은 @UUID[Compendium.pf2e.actionspf2e.Item.3yoajuKjwHZ9ApUY]{가장자리 잡기}를 시도할 수 있으며, @Check[reflex|dc:20] 내성 검사를 통과해야 합니다 (이 경우 @Check[reflex|dc:22] 내성이 됩니다).</p>"
+          "description": "<p><strong>트리거</strong> 생물이나 다른 큰 무게(예: 이전 함정의 급류)가 자갈로 덮인 숨겨진 부분에 올라갑니다</p>\n<hr />\n<p><strong>Effect</strong> 트리거를 유발한 생물이나 물체가 구덩이에 떨어지며 추락 피해를 입습니다 (@Damage[10[bludgeoning]|options:fall-damage] 피해)이며, 스파이크의 공격에 표적이 됩니다. 추락 중인 생물은 @UUID[Compendium.pf2e.actionspf2e.Item.3yoajuKjwHZ9ApUY]{가장자리 잡기}를 시도할 수 있으며, @Check[reflex|dc:20] 내성 굴림을 통과해야 합니다 (이 경우 @Check[reflex|dc:22] 내성이 됩니다).</p>"
         },
         "O1Kgn1bbKLAm2ZL1": {
           "name": "스파이크"
@@ -339,7 +339,7 @@
         },
         "PmrOcp7IYi6XPIer": {
           "name": "녹슨 침투",
-          "description": "<p>녹슨 침투에 감염된 자들은 피부 표면에 불편한 녹슨 색의 멍이 생기고, 장시간 운동 후 느끼는 것과 유사한 전신 통증을 겪습니다. 감염이 진행됨에 따라 그들의 몸뿐만 아니라 입거나 들고 있는 옷과 물건도 점차 분해되어 결국 고통스러운 죽음에 이릅니다. 캐릭터가 녹슨 번짐에 감염되는 것을 성공적으로 저항하거나, 녹슨 번짐에서 회복되면, 24시간 동안 미래의 녹슨 번짐 감염에 일시적으로 면역됩니다.</p>\n<p><strong>내성 굴림</strong> @Check[fortitude|dc:15]</p>\n<p><strong>단계 1</strong> -1 상태 페널티가 운동 체크 적용 (1일)</p>\n<p><strong>단계 2</strong> 단계 1과 동일 (1일)</p>\n<p><strong>단계 3</strong> @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 1} (1일)</p>\n<p><strong>단계 4</strong> 약화된 1과 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1}, 그리고 질병의 확산으로 인해 해당 질병의 단계와 동일한 수준 이하의 방어구, 의복 및 소지품이 파손됩니다 (1일; 파손된 아이템은 파손된 상태로 유지됩니다)</p>\n<p><strong>단계 5</strong> @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 상실} (1일)</p>\n<p><strong>단계 6</strong> 의식 상실 (1일)</p>\n<p><strong>Stage 7</strong> death</p>"
+          "description": "<p>녹슨 침투에 감염된 자들은 피부 표면에 불편한 녹슨 색의 멍이 생기고, 장시간 운동 후 느끼는 것과 유사한 전신 통증을 겪습니다. 감염이 진행됨에 따라 그들의 몸뿐만 아니라 입거나 들고 있는 옷과 물건도 점차 분해되어 결국 고통스러운 죽음에 이릅니다. 캐릭터가 녹슨 번짐에 감염되는 것을 성공적으로 저항하거나, 녹슨 번짐에서 회복되면, 24시간 동안 미래의 녹슨 번짐 감염에 일시적으로 면역됩니다.</p>\n<p><strong>내성 굴림</strong> @Check[fortitude|dc:15]</p>\n<p><strong>단계 1</strong> -1 상태 페널티가 운동 체크 적용 (1일)</p>\n<p><strong>단계 2</strong> 단계 1과 동일 (1일)</p>\n<p><strong>단계 3</strong> @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 1}(1일)</p>\n<p><strong>단계 4</strong> 약화된 1과 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1}, 그리고 질병의 확산으로 인해 해당 질병의 단계와 동일한 수준 이하의 방어구, 의복 및 소지품이 파손됩니다 (1일; 파손된 아이템은 파손된 상태로 유지됩니다)</p>\n<p><strong>단계 5</strong> @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 상실}(1일)</p>\n<p><strong>단계 6</strong> 의식 상실 (1일)</p>\n<p><strong>Stage 7</strong> death</p>"
         },
         "MRMj6jc7E8e5c7UF": {
           "name": "Grab"
@@ -374,7 +374,7 @@
         },
         "TZig28UcpE4GS2P0": {
           "name": "녹",
-          "description": "<p>vloriak의 침은 금속을 빠르게 녹게 합니다. 혀 공격이나 @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{무장 해제} 시도가 성공하면, vloriak은 대상이 착용하거나 들고 있는 금속 아이템에 @Damage[2d6[untyped]]의 피해를 입힙니다(크리티컬 히트 시 두 배). 대상의 경도를 무시합니다. vloriak이 무인 금속 아이템을 공격하면 해당 아이템은 자동으로 이 피해를 입습니다. 생물이 금속 방패로 혀 공격에 대해 방패 차단 반응을 사용하면 방패는 자동으로 부서지지만, 해당 공격으로 다른 아이템은 녹슬지 않습니다.</p>"
+          "description": "<p>vloriak의 침은 금속을 빠르게 녹게 합니다. 혀 공격이나 @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{무장 해제} 시도가 성공하면, vloriak은 대상이 착용하거나 들고 있는 금속 아이템에 @Damage[2d6[untyped]]의 피해를 입힙니다(대성공 시 두 배). 대상의 경도를 무시합니다. vloriak이 무인 금속 아이템을 공격하면 해당 아이템은 자동으로 이 피해를 입습니다. 생물이 금속 방패로 혀 공격에 대해 방패 차단 반응을 사용하면 방패는 자동으로 부서지지만, 해당 공격으로 다른 아이템은 녹슬지 않습니다.</p>"
         },
         "w9Owf4Jdub9WbuFx": {
           "name": "녹슨 파편을 뿜어내기",
@@ -382,7 +382,7 @@
         },
         "Q0Sd9sqnUeL32Jw9": {
           "name": "테타누스",
-          "description": "<p>개방된 상처를 통해 감염되는 테타누스는 근육 경직, 뼈를 부러뜨릴 정도로 강한 근육 경련을 일으키며, 결국 사망에 이르게 합니다.</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:14]</p>\n<p><strong>Onset</strong> 10 days</p>\n<p><strong>단계 1</strong> @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1} (1주)</p>\n<p><strong>단계 2</strong> @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 2} 및 말할 수 없음 (1일)</p>\n<p><strong>단계 3</strong> @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비} 및 경련 (1일)</p>\n<p><strong>Stage 4</strong> death</p>"
+          "description": "<p>개방된 상처를 통해 감염되는 테타누스는 근육 경직, 뼈를 부러뜨릴 정도로 강한 근육 경련을 일으키며, 결국 사망에 이르게 합니다.</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:14]</p>\n<p><strong>Onset</strong> 10 days</p>\n<p><strong>단계 1</strong> @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1}(1주)</p>\n<p><strong>단계 2</strong> @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 2} 및 말할 수 없음 (1일)</p>\n<p><strong>단계 3</strong> @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비} 및 경련 (1일)</p>\n<p><strong>Stage 4</strong> death</p>"
         }
       }
     },
@@ -402,7 +402,7 @@
         },
         "tfriWcHgXqM6QLkB": {
           "name": "테타누스",
-          "description": "<p>열린 상처를 통해 감염되는 테타누스는 근육 경직, 뼈를 부러뜨릴 정도로 강한 근육 경련을 일으키며, 결국 사망에 이르게 합니다.</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:14]</p>\n<p><strong>Onset</strong> 10 days</p>\n<p><strong>Stage 1</strong> @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1} (1주)</p>\n<p><strong>단계 2</strong> @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 2} 및 말할 수 없음 (1일)</p>\n<p><strong>단계 3</strong> @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비}와 경련 (1일)</p>\n<p><strong>Stage 4</strong> death</p>"
+          "description": "<p>열린 상처를 통해 감염되는 테타누스는 근육 경직, 뼈를 부러뜨릴 정도로 강한 근육 경련을 일으키며, 결국 사망에 이르게 합니다.</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:14]</p>\n<p><strong>Onset</strong> 10 days</p>\n<p><strong>Stage 1</strong> @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{Clumsy 1}(1주)</p>\n<p><strong>단계 2</strong> @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 2} 및 말할 수 없음 (1일)</p>\n<p><strong>단계 3</strong> @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비}와 경련 (1일)</p>\n<p><strong>Stage 4</strong> death</p>"
         }
       }
     },
@@ -420,11 +420,11 @@
         },
         "UGFoKIvbXM0ZSdiU": {
           "name": "녹슨 기생충",
-          "description": "<p>Vlorian cythnigot에게 물린 생물은 녹슨 기생충에 감염되지만, DC 20 인내 내성을 발휘할 수 있습니다.</p>\n<hr />\n<p>녹슨 번짐에 감염된 생물은 피부 표면에 불편한 녹슨 색의 멍이 생기고, 장시간 운동 후 느끼는 것과 유사한 전신 통증을 겪습니다. 감염이 진행됨에 따라 그들의 몸뿐만 아니라 입거나 들고 있는 옷과 물건도 점차 분해되어 결국 고통스러운 죽음에 이릅니다. 캐릭터가 녹슨 기어 감염을 성공적으로 저항하거나 감염에서 회복되면, 24시간 동안 녹슨 기어 감염에 일시적으로 면역이 됩니다.</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:20|traits:divine,transmutation]</p>\n<p><strong>단계 1</strong> -1 상태 페널티가 운동 체크(1일)에 적용됩니다.</p>\n<p><strong>단계 2</strong> 단계 1과 동일 (1일)</p>\n<p><strong>단계 3</strong> @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 1} (1일)</p>\n<p><strong>Stage 4</strong> enfeebled 1 and @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1}, 그리고 질병의 확산이 퍼지는 동안 착용하거나 소지한 모든 방어구, 의복 및 아이템 중 질병의 레벨과 동일하거나 낮은 레벨의 아이템은 파손됩니다 (1일; 파손된 아이템은 파손된 상태로 유지됩니다)</p>\n<p><strong>단계 5</strong> @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 상실} (1일)</p>\n<p><strong>단계 6</strong> 의식 상실 (1일)</p>\n<p><strong>단계 7</strong> 사망</p>"
+          "description": "<p>Vlorian cythnigot에게 물린 생물은 녹슨 기생충에 감염되지만, DC 20 인내 내성을 발휘할 수 있습니다.</p>\n<hr />\n<p>녹슨 번짐에 감염된 생물은 피부 표면에 불편한 녹슨 색의 멍이 생기고, 장시간 운동 후 느끼는 것과 유사한 전신 통증을 겪습니다. 감염이 진행됨에 따라 그들의 몸뿐만 아니라 입거나 들고 있는 옷과 물건도 점차 분해되어 결국 고통스러운 죽음에 이릅니다. 캐릭터가 녹슨 기어 감염을 성공적으로 저항하거나 감염에서 회복되면, 24시간 동안 녹슨 기어 감염에 일시적으로 면역이 됩니다.</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:20|traits:divine,transmutation]</p>\n<p><strong>단계 1</strong> -1 상태 페널티가 운동 체크(1일)에 적용됩니다.</p>\n<p><strong>단계 2</strong> 단계 1과 동일 (1일)</p>\n<p><strong>단계 3</strong> @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 1}(1일)</p>\n<p><strong>Stage 4</strong> enfeebled 1 and @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1}, 그리고 질병의 확산이 퍼지는 동안 착용하거나 소지한 모든 방어구, 의복 및 아이템 중 질병의 레벨과 동일하거나 낮은 레벨의 아이템은 파손됩니다 (1일; 파손된 아이템은 파손된 상태로 유지됩니다)</p>\n<p><strong>단계 5</strong> @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 상실}(1일)</p>\n<p><strong>단계 6</strong> 의식 상실 (1일)</p>\n<p><strong>단계 7</strong> 사망</p>"
         },
         "Kv1pkf5Ma30A8n58": {
           "name": "구토를 유발하는 증상",
-          "description": "<p>사이니고트는 끔찍한 모습을 완전히 드러내며, @Template[emanation|distance:10]에 있는 모든 생물은 @Check[will|dc:20] 내성 검사를 시도해야 합니다. 이 내성 검사를 시도한 생물은 1분 동안 추가적인 구역질 유발 현상에 일시적으로 면역됩니다.</p>\n<hr />\n<p><strong>Critical Success</strong> 생물은 영향을 받지 않습니다.</p>\n<p><strong>성공</strong> 생물은 다음 차례까지 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 됩니다.</p>\n<p><strong>실패</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1} 상태가 되며, 병약 상태가 지속되는 동안 오프 가드가 발동됩니다.</p>\n<p><strong>대실패</strong> 해당 생물은 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 2} 상태가 되며, 병약 상태가 지속되는 동안 오프 가드가 발동합니다.</p>"
+          "description": "<p>사이니고트는 끔찍한 모습을 완전히 드러내며, @Template[emanation|distance:10]에 있는 모든 생물은 @Check[will|dc:20] 내성 굴림을 시도해야 합니다. 이 내성 굴림을 시도한 생물은 1분 동안 추가적인 구역질 유발 현상에 일시적으로 면역됩니다.</p>\n<hr />\n<p><strong>Critical Success</strong> 생물은 영향을 받지 않습니다.</p>\n<p><strong>성공</strong> 생물은 다음 차례까지 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 됩니다.</p>\n<p><strong>실패</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1} 상태가 되며, 병약 상태가 지속되는 동안 오프 가드가 발동됩니다.</p>\n<p><strong>대실패</strong> 해당 생물은 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 2} 상태가 되며, 병약 상태가 지속되는 동안 오프 가드가 발동합니다.</p>"
         }
       }
     },
@@ -454,7 +454,7 @@
         },
         "v88O0NAy45VWmtTO": {
           "name": "Curse of the Werebat",
-          "description": "<p>이 저주는 인간형 생물에게만 영향을 미칩니다.</p>\n<hr />\n<p><strong>내성 굴림</strong> @Check[fortitude|dc:15]</p>\n<p>매달 보름달이 뜰 때마다 저주받은 생물은 또 다른 인내 내성 검사에서 성공해야 하며, 그렇지 않으면 새벽까지 웨어크리처로 변신합니다. 해당 생물은 GM의 통제 하에 밤의 절반 동안 난동을 부린 후 새벽까지 의식을 잃고 쓰러집니다.</p>"
+          "description": "<p>이 저주는 인간형 생물에게만 영향을 미칩니다.</p>\n<hr />\n<p><strong>내성 굴림</strong> @Check[fortitude|dc:15]</p>\n<p>매달 보름달이 뜰 때마다 저주받은 생물은 또 다른 인내 내성 굴림에서 성공해야 하며, 그렇지 않으면 새벽까지 웨어크리처로 변신합니다. 해당 생물은 GM의 통제 하에 밤의 절반 동안 난동을 부린 후 새벽까지 의식을 잃고 쓰러집니다.</p>"
         },
         "N6z6E7Ly3t7eFBoU": {
           "name": "달의 광란",
@@ -476,15 +476,15 @@
         },
         "fH4zN6EufktPqbW4": {
           "name": "시계 장치 지팡이",
-          "description": "<p>시계 장치 마법사는 기계식 지팡이를 마법 에너지를 포커스로 사용하는 도구로 사용합니다. 이 지팡이는 시계 장치 마법사의 가슴에 내장되어 있으며, 끝부분의 크리스탈만 노출되어 있습니다. 마법사는 상호작용을 통해 지팡이를 제거할 수 있으며, 다른 사람이 @Check[thievery|dc:25|traits:action:disable-a-device] 체크를 통과하여 @UUID[Compendium.pf2e.actionspf2e.Item.cYdz2grcOcRt4jk6]{장치 무력화}를 수행하면 지팡이를 제거할 수 있습니다. 지팡이가 제거된 동안 시계장치 마법사는 캔트립을 제외한 모든 마법을 사용할 수 없습니다.</p>\n<p>지팡이가 제거되면 시계장치 지팡이는 <em>@UUID[Compendium.pf2e.equipment-srd.Item.vJZ49cgi8szuQXAD]{마법 지팡이}</em>로 변환되며, 시계장치 마법사가 이 모험에서 마지막으로 사용한 1단계 내재 마법이 저장됩니다 (@UUID[Compendium.pf2e.spells-srd.Item.4koZzrnMXhhosn0D]{공포} (시계장치 벨리마리우스가 이 모험에서 1등급 마법을 아직 사용하지 않았다면)). 마법사는 생성 시 지팡이에 마법을 배치하며, 창조자는 적절한 등급의 다른 마법으로 대체할 수 있습니다.</p>"
+          "description": "<p>시계 장치 마법사는 기계식 지팡이를 마법 에너지를 포커스로 사용하는 도구로 사용합니다. 이 지팡이는 시계 장치 마법사의 가슴에 내장되어 있으며, 끝부분의 크리스탈만 노출되어 있습니다. 마법사는 상호작용을 통해 지팡이를 제거할 수 있으며, 다른 사람이 @Check[thievery|dc:25|traits:action:disable-a-device] 체크를 통과하여 @UUID[Compendium.pf2e.actionspf2e.Item.cYdz2grcOcRt4jk6]{장치 무력화}를 수행하면 지팡이를 제거할 수 있습니다. 지팡이가 제거된 동안 시계장치 마법사는 캔트립을 제외한 모든 마법을 사용할 수 없습니다.</p>\n<p>지팡이가 제거되면 시계장치 지팡이는 <em>@UUID[Compendium.pf2e.equipment-srd.Item.vJZ49cgi8szuQXAD]{마법 지팡이}</em>로 변환되며, 시계장치 마법사가 이 모험에서 마지막으로 사용한 1단계 내재 마법이 저장됩니다 (@UUID[Compendium.pf2e.spells-srd.Item.4koZzrnMXhhosn0D]{공포}(시계장치 벨리마리우스가 이 모험에서 1등급 마법을 아직 사용하지 않았다면)). 마법사는 생성 시 지팡이에 마법을 배치하며, 창조자는 적절한 등급의 다른 마법으로 대체할 수 있습니다.</p>"
         },
         "pyDc4hD647pfgYEk": {
           "name": "해제 크리티컬",
-          "description": "<p>할버드 공격으로 크리티컬 히트를 기록할 경우, 시계장치 벨리마리우스에 내장된 노퀼 조각이 잠시 녹색으로 빛납니다. 크리티컬 히트로 추가 피해를 입히는 대신, 시계장치 벨리마리우스는 대상에게 활성화된 마법 효과 하나에 대해 [[/r 1d20+18 #Counteract]]{+18} 보너스로 대상에게 적용된 마법 효과 하나에 대해 반격합니다.</p>"
+          "description": "<p>할버드 공격으로 대성공을 할 경우, 시계장치 벨리마리우스에 내장된 노퀼 조각이 잠시 녹색으로 빛납니다. 대성공로 추가 피해를 입히는 대신, 시계장치 벨리마리우스는 대상에게 활성화된 마법 효과 하나에 대해 [[/r 1d20+18 #Counteract]]{+18} 보너스로 대상에게 적용된 마법 효과 하나에 대해 반격합니다.</p>"
         },
         "IvUr6AnOtG8K2BSD": {
           "name": "시계장치 지팡이 활성화",
-          "description": "<p><strong>주파수</strong> 10분마다 한 번.</p>\n<hr />\n<p><strong>효과</strong> 시계 장치 마법사는 그날 이미 사용한 주문을 하나 회복합니다. 이를 위해 운영 시간 1시간을 소비해야 하며, 주문이 3등급 이상인 경우 2시간을 소비해야 합니다.</p>"
+          "description": "<p><strong>빈도</strong> 10분마다 한 번.</p>\n<hr />\n<p><strong>효과</strong> 시계 장치 마법사는 그날 이미 사용한 주문을 하나 회복합니다. 이를 위해 운영 시간 1시간을 소비해야 하며, 주문이 3등급 이상인 경우 2시간을 소비해야 합니다.</p>"
         }
       }
     },
@@ -505,7 +505,7 @@
         },
         "36QKwrAooz1cygR4": {
           "name": "시틸레스 시선",
-          "description": "<p><strong>빈도</strong> 라운드당 1회</p>\n<hr />\n<p><strong>효과</strong> 자이옥스는 30피트 이내에 있는 생물을 노려봅니다. 대상은 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{눈이 부신} 상태가 1 라운드 동안 지속되며, @Check[will|dc:21] 내성 검사에서 성공하지 못하면 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1} 상태가 1 라운드 동안 지속됩니다.</p>"
+          "description": "<p><strong>빈도</strong> 라운드당 1회</p>\n<hr />\n<p><strong>효과</strong> 자이옥스는 30피트 이내에 있는 생물을 노려봅니다. 대상은 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{눈이 부신} 상태가 1 라운드 동안 지속되며, @Check[will|dc:21] 내성 굴림에서 성공하지 못하면 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1} 상태가 1 라운드 동안 지속됩니다.</p>"
         }
       }
     },
@@ -557,7 +557,7 @@
         },
         "xdQJFj57QglkQXeG": {
           "name": "잔인한 크리티컬",
-          "description": "<p>드레치는 발견한 약점을 최대한 활용합니다. 드레치가 발톱 공격으로 크리티컬 히트를 기록할 때마다, 대상은 추가로 @Damage[1d6[bleed]]의 피해를 입습니다.</p>"
+          "description": "<p>드레치는 발견한 약점을 최대한 활용합니다. 드레치가 발톱 공격으로 대성공을 할 때마다, 대상은 추가로 @Damage[1d6[bleed]]의 피해를 입습니다.</p>"
         }
       }
     }

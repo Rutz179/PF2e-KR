@@ -89,11 +89,11 @@
         },
         "PFRTcxVCSgkl4Vru": {
           "name": "독화살",
-          "description": "<p>창병 부대가 손에 든 석궁을 꺼내 독이 묻은 화살을 일제 사격한다. 이 일제 사격은 60피트 내의 @Template[type:burst|distance:10] 범위에서 @Damage[2d6[piercing],2d6[독]|options:area-damage]{2d6 관통 피해와 2d6 독 피해}를 입히며, @Check[reflex|dc:22|basic|options:area-effect] 내성 검사를 받는다. 샹크 분대가 2개 세그먼트로 줄어들면 이 영역은 @Template[type:burst|distance:5]로 축소됩니다.</p>"
+          "description": "<p>창병 부대가 손에 든 석궁을 꺼내 독이 묻은 화살을 일제 사격한다. 이 일제 사격은 60피트 내의 @Template[type:burst|distance:10] 범위에서 @Damage[2d6[piercing],2d6[독]|options:area-damage]{2d6 관통 피해와 2d6 독 피해}를 입히며, @Check[reflex|dc:22|basic|options:area-effect] 내성 굴림을 받는다. 샹크 분대가 2개 세그먼트로 줄어들면 이 영역은 @Template[type:burst|distance:5]로 축소됩니다.</p>"
         },
         "XmcGqmrImLqgyZm4": {
           "name": "샤크 '엠",
-          "description": "<p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 샹크 분대는 @Template[type:emanation|distance:5] 내의 각 적을 대상으로 @Check[reflex|dc:22|basic|options:area-effect] 내성 검사를 적용한 단검과 뾰족한 칼을 이용한 조율된 공격을 가한다. 피해량은 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[1d6[slashing],1d4[precision]|options:area-damage]{1d6 slashing damage and 1d4 precision damage}</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d6+3)[slashing],2d4[precision]|options:area-damage]{2d6+3 slashing damage and 2d4 precision damage}</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(2d6+6)[slashing],3d4[precision]|options:area-damage]{2d6+6 slashing damage and 3d4 precision damage}</p>"
+          "description": "<p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 샹크 분대는 @Template[type:emanation|distance:5] 내의 각 적을 대상으로 @Check[reflex|dc:22|basic|options:area-effect] 내성 굴림을 적용한 단검과 뾰족한 칼을 이용한 조율된 공격을 가한다. 피해량은 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[1d6[slashing],1d4[precision]|options:area-damage]{1d6 slashing damage and 1d4 precision damage}</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d6+3)[slashing],2d4[precision]|options:area-damage]{2d6+3 slashing damage and 2d4 precision damage}</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(2d6+6)[slashing],3d4[precision]|options:area-damage]{2d6+6 slashing damage and 3d4 precision damage}</p>"
         }
       }
     },
@@ -123,7 +123,7 @@
         },
         "Czd11iaEfPW4tn8T": {
           "name": "악을 수확하라",
-          "description": "<p><strong>주파수</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 반스들은 조율된 근접 공격으로 낫을 휘두릅니다. @Template[type:emanation|distance:5] 내의 각 적은 @Check[reflex|dc:30|basic|options:area-effect] 내성을 시도해야 합니다. 피해량은 행동 횟수에 따라 달라집니다. 베기 피해는 아다만틴, 냉철, 은으로 간주됩니다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(1d10+1)[slashing],1d6[untyped]|options:area-damage,item:rune:property:ghost-touch]{1d10+1 slashing damage plus 1d6 shepherd's touch}</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d10+3)[slashing],3d6[untyped]|options:area-damage,item:rune:property:ghost-touch]{2d10+3 slashing damage plus 3d6 shepherd's touch}</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(2d10+7)[slashing],4d6[untyped]|options:area-damage,item:rune:property:ghost-touch]{2d10+7 slashing damage plus 4d6 shepherd's touch}</p>"
+          "description": "<p><strong>빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 반스들은 조율된 근접 공격으로 낫을 휘두릅니다. @Template[type:emanation|distance:5] 내의 각 적은 @Check[reflex|dc:30|basic|options:area-effect] 내성을 시도해야 합니다. 피해량은 행동 횟수에 따라 달라집니다. 베기 피해는 아다만틴, 냉철, 은으로 간주됩니다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(1d10+1)[slashing],1d6[untyped]|options:area-damage,item:rune:property:ghost-touch]{1d10+1 slashing damage plus 1d6 shepherd's touch}</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d10+3)[slashing],3d6[untyped]|options:area-damage,item:rune:property:ghost-touch]{2d10+3 slashing damage plus 3d6 shepherd's touch}</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(2d10+7)[slashing],4d6[untyped]|options:area-damage,item:rune:property:ghost-touch]{2d10+7 slashing damage plus 4d6 shepherd's touch}</p>"
         },
         "5KyfdWPCoXhy15Im": {
           "name": "목자의 손길",
@@ -188,7 +188,7 @@
         },
         "qaBL38g5CJeGHGUZ": {
           "name": "협동 혀 뽑기",
-          "description": "<p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 여러 보가드가 혀를 사용해 10피트 내의 적을 붙잡아 끌어당긴다. 대상은 @Check[reflex|dc:21] 내성 검사를 시도해야 한다. 실패 시, 대상은 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡기} 상태에 빠져 정찰대 쪽으로 5피트 더 가까이 끌려간다. 이렇게 붙잡힌 생물은 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{고정된} 상태가 되지는 않지만, 정찰대에서 10피트 이상 떨어질 수 없다. 생물은 AC 21에 대한 공격으로 최소 5점의 베기 피해를 입히면 혀 하나를 잘라낼 수 있다. 이로 인해 정찰대는 피해를 입지 않는다.</p>"
+          "description": "<p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 여러 보가드가 혀를 사용해 10피트 내의 적을 붙잡아 끌어당긴다. 대상은 @Check[reflex|dc:21] 내성 굴림을 시도해야 한다. 실패 시, 대상은 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡기} 상태에 빠져 정찰대 쪽으로 5피트 더 가까이 끌려간다. 이렇게 붙잡힌 생물은 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{고정된} 상태가 되지는 않지만, 정찰대에서 10피트 이상 떨어질 수 없다. 생물은 AC 21에 대한 공격으로 최소 5점의 베기 피해를 입히면 혀 하나를 잘라낼 수 있다. 이로 인해 정찰대는 피해를 입지 않는다.</p>"
         },
         "HbU9kLWy2ILILzTj": {
           "name": "모닝스타 학살",
@@ -290,7 +290,7 @@
         },
         "vklePDp4ChdoOuoW": {
           "name": "일류 돌격",
-          "description": "<p>일류 보병은 전투에 대한 갈망으로 돌진한다. 그들은 속도의 최대 두 배까지 이동한다. 이동 종료 시, @Template[type:emanation|distance:5] 범위 내의 각 적군은 @Damage[(2d6+5)[slashing]|options:area-damage] 피해를 입으며, @Check[reflex|dc:30|basic|options:area-effect] 내성 검사를 수행한다.</p>"
+          "description": "<p>일류 보병은 전투에 대한 갈망으로 돌진한다. 그들은 속도의 최대 두 배까지 이동한다. 이동 종료 시, @Template[type:emanation|distance:5] 범위 내의 각 적군은 @Damage[(2d6+5)[slashing]|options:area-damage] 피해를 입으며, @Check[reflex|dc:30|basic|options:area-effect] 내성 굴림을 수행한다.</p>"
         },
         "ifDQlWn3YaQEMojP": {
           "name": "전쟁의 로어"
@@ -307,7 +307,7 @@
         },
         "KydKNZNQcPHQ3kkf": {
           "name": "신성한 혐오",
-          "description": "<p>레드캡 부대가 어떤 생물이 신의 종교적 상징을 휘두르는 모습(해당 생물의 상호작용 행동이 필요함)이나 종교적 상징을 착용한 채 신성 마법을 시전하는 모습을 목격하면, 부대는 @Check[will|dc:26] 내성 검사를 시도하다. 그 후 10분 동안 모든 휘두른 종교적 상징에 대해 일시적으로 면역이 된다.</p><hr /><p><strong>대성공</strong> 부대는 영향을 받지 않는다.</p>\n<p><strong>성공</strong> 부대는 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 1} 상태가 된다.</p>\n<p><strong>실패</strong> 부대는 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 2} 상태가 됩니다.</p>\n<p><strong>대실패</strong> 부대는 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 3} 상태입니다.</p>"
+          "description": "<p>레드캡 부대가 어떤 생물이 신의 종교적 상징을 휘두르는 모습(해당 생물의 상호작용 행동이 필요함)이나 종교적 상징을 착용한 채 신성 마법을 시전하는 모습을 목격하면, 부대는 @Check[will|dc:26] 내성 굴림을 시도하다. 그 후 10분 동안 모든 휘두른 종교적 상징에 대해 일시적으로 면역이 된다.</p><hr /><p><strong>대성공</strong> 부대는 영향을 받지 않는다.</p>\n<p><strong>성공</strong> 부대는 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 1} 상태가 된다.</p>\n<p><strong>실패</strong> 부대는 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 2} 상태가 됩니다.</p>\n<p><strong>대실패</strong> 부대는 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 3} 상태입니다.</p>"
         },
         "icFtpyk3vKrnSxKV": {
           "name": "부대 방어",
@@ -322,7 +322,7 @@
         },
         "r5WgyRN7xTAUNicy": {
           "name": "피의 수확",
-          "description": "<p><strong>사용 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 여단의 레드캡들은 @Template[type:emanation|distance:10] 범위 내의 각 적에게 @Check[reflex|dc:26|basic|options:area-effect] 내성 검사를 적용하며, 할버드와 낫을 마구 휘두른다. 피해량은 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(1d10+2)[slashing]|options:area-damage,bloody-reaping-one]</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d10+9)[slashing]|options:area-damage,bloody-reaping-two]</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(3d10+10)[slashing]|options:area-damage,bloody-reaping-three]</p>"
+          "description": "<p><strong>사용 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 여단의 레드캡들은 @Template[type:emanation|distance:10] 범위 내의 각 적에게 @Check[reflex|dc:26|basic|options:area-effect] 내성 굴림을 적용하며, 할버드와 낫을 마구 휘두른다. 피해량은 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(1d10+2)[slashing]|options:area-damage,bloody-reaping-one]</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d10+9)[slashing]|options:area-damage,bloody-reaping-two]</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(3d10+10)[slashing]|options:area-damage,bloody-reaping-three]</p>"
         },
         "v9h1oFMfGfVN2Qee": {
           "name": "쓰러뜨리고 짓밟기",
@@ -355,7 +355,7 @@
         },
         "2yhFRocgioO4honN": {
           "name": "광전사 공격",
-          "description": "<p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 손에 든 전투 도끼로 바이킹 경비병은 @Template[type:emanation|distance:5] 범위 내의 적을 대상으로 @Check[reflex|dc:27|basic|options:area-effect] 내성 검사를 적용한 협동 근접 공격을 가한다. 피해량은 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(1d8+3)[slashing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d8+12)[slashing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(3d8+15)[slashing]|options:area-damage] damage</p>"
+          "description": "<p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 손에 든 전투 도끼로 바이킹 경비병은 @Template[type:emanation|distance:5] 범위 내의 적을 대상으로 @Check[reflex|dc:27|basic|options:area-effect] 내성 굴림을 적용한 협동 근접 공격을 가한다. 피해량은 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(1d8+3)[slashing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d8+12)[slashing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(3d8+15)[slashing]|options:area-damage] damage</p>"
         },
         "dmX23IiV8D4OzC5m": {
           "name": "가드 돌격",
@@ -393,7 +393,7 @@
         },
         "DTzsPQI9SG94AmvU": {
           "name": "소닉 슬램",
-          "description": "<p>스캠프 회오리는 연이은 작은 강타로 공격한다. @Template[type:emanation|distance:5] 내의 각 적은 @Check[reflex|dc:21|basic|options:area-effect] 내성 검사를 시도해야 한다. 피해량은 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[1d6[bludgeoning],1d4[sonic]|options:area-damage]{1d6 타격 피해와 1d4 음파 피해}</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d6+2)[bludgeoning],2d4[sonic]|options:area-damage]{2d6+2 타격 피해 및 2d4 음파 피해}</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(2d6+4)[bludgeoning],3d4[sonic]|options:area-damage]{2d6+4 타격 피해 및 3d4 음파 피해}</p>"
+          "description": "<p>스캠프 회오리는 연이은 작은 강타로 공격한다. @Template[type:emanation|distance:5] 내의 각 적은 @Check[reflex|dc:21|basic|options:area-effect] 내성 굴림을 시도해야 한다. 피해량은 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[1d6[bludgeoning],1d4[sonic]|options:area-damage]{1d6 타격 피해와 1d4 음파 피해}</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d6+2)[bludgeoning],2d4[sonic]|options:area-damage]{2d6+2 타격 피해 및 2d4 음파 피해}</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(2d6+4)[bludgeoning],3d4[sonic]|options:area-damage]{2d6+4 타격 피해 및 3d4 음파 피해}</p>"
         }
       }
     },
@@ -432,7 +432,7 @@
       "items": {
         "ySPMm8H8VrhgWl05": {
           "name": "쓰레기 더미",
-          "description": "<p>오팔트 무리가 위험에 처하지 않았을 때, 1분 동안 쓰레기 더미처럼 보이는 20피트 높이의 덩어리로 자리를 잡을 수 있다. 다음 행동을 취할 때까지 무리는 AC에 +2 상황 보너스를 얻는다. 쓰레기 더미 영역에 진입하거나 상호작용하는 생물은 오팔트 스탬피드의 악취에 대한 내성 검사를 시도해야 한다.</p>"
+          "description": "<p>오팔트 무리가 위험에 처하지 않았을 때, 1분 동안 쓰레기 더미처럼 보이는 20피트 높이의 덩어리로 자리를 잡을 수 있다. 다음 행동을 취할 때까지 무리는 AC에 +2 상황 보너스를 얻는다. 쓰레기 더미 영역에 진입하거나 상호작용하는 생물은 오팔트 스탬피드의 악취에 대한 내성 굴림을 시도해야 한다.</p>"
         },
         "73muWjjVsYKWfZTx": {
           "name": "오물 웅덩이",
@@ -459,7 +459,7 @@
         },
         "i19oaOH6AZhDcAZ9": {
           "name": "비참한 울음",
-          "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:36]</p>\n<p><strong>1단계</strong> 무해한 운반체 (1일)</p>\n<p><strong>2단계</strong> @Damage[2d4[bleed]]{2d4 지속적 출혈} 매시간 및 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화 1} (1일)</p>\n<p><strong>3단계</strong> @Damage[2d6[bleed]]{2d6 지속 출혈} 매시간 및 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 2} (1일)</p>"
+          "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:36]</p>\n<p><strong>1단계</strong> 무해한 운반체 (1일)</p>\n<p><strong>2단계</strong> @Damage[2d4[bleed]]{2d4 지속적 출혈} 매시간 및 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화 1}(1일)</p>\n<p><strong>3단계</strong> @Damage[2d6[bleed]]{2d6 지속 출혈} 매시간 및 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 2}(1일)</p>"
         }
       },
       "StealthVariants": {
@@ -490,7 +490,7 @@
         },
         "lQ7JmilKyrxwRdga": {
           "name": "긁기와 물기",
-          "description": "<p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 시계장치 주자들은 @Template[type:emanation|distance:5] 내의 각 적을 상대로 @Check[reflex|dc:19|basic|options:area-effect] 내성 검사를 적용한 집단 공격을 가한다. 피해량은 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[1d8[untyped]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d8+3)[untyped]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(2d8+7)[untyped]|options:area-damage] damage</p>"
+          "description": "<p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 시계장치 주자들은 @Template[type:emanation|distance:5] 내의 각 적을 상대로 @Check[reflex|dc:19|basic|options:area-effect] 내성 굴림을 적용한 집단 공격을 가한다. 피해량은 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[1d8[untyped]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d8+3)[untyped]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(2d8+7)[untyped]|options:area-damage] damage</p>"
         },
         "gBzSzuaHS6SO6ebY": {
           "name": "전쟁 돌진",
@@ -552,7 +552,7 @@
         },
         "bcpOku7PiXdT4H8M": {
           "name": "할버드 쓸기",
-          "description": "<p><strong>사용 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 시계장치 보병은 @Template[type:emanation|distance:10] 내의 각 적을 대상으로 @Check[reflex|dc:27|basic|options:area-effect] 내성 검사를 적용한 조율된 근접 공격을 수행한다. 피해량은 수행한 행동 수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(1d10+2)[untyped]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d10+10)[untyped]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(3d10+12)[untyped]|options:area-damage] damage</p>"
+          "description": "<p><strong>사용 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 시계장치 보병은 @Template[type:emanation|distance:10] 내의 각 적을 대상으로 @Check[reflex|dc:27|basic|options:area-effect] 내성 굴림을 적용한 조율된 근접 공격을 수행한다. 피해량은 수행한 행동 수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(1d10+2)[untyped]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d10+10)[untyped]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(3d10+12)[untyped]|options:area-damage] damage</p>"
         },
         "HSCg5KpZvlnFPxrU": {
           "name": "방어력 상승",
@@ -583,11 +583,11 @@
         },
         "Zis6FOzrRs7UUXMY": {
           "name": "죄악의 돌격",
-          "description": "<p><strong>주파수</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 죄악의 군단은 @Template[type:emanation|distance:5] 내의 각 적을 대상으로 @Check[reflex|dc:25|basic|options:area-effect] 내성 검사를 적용한 조율된 공격을 가한다. 피해량은 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(1d8+2)[piercing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d8+9)[piercing]|options:area-damage,sinful-bite] damage plus sinful bite</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(3d8+11)[piercing]|options:area-damage,sinful-bite] damage plus sinful bite</p>"
+          "description": "<p><strong>빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 죄악의 군단은 @Template[type:emanation|distance:5] 내의 각 적을 대상으로 @Check[reflex|dc:25|basic|options:area-effect] 내성 굴림을 적용한 조율된 공격을 가한다. 피해량은 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(1d8+2)[piercing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d8+9)[piercing]|options:area-damage,sinful-bite] damage plus sinful bite</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(3d8+11)[piercing]|options:area-damage,sinful-bite] damage plus sinful bite</p>"
         },
         "89StrKD1wh351i0K": {
           "name": "죄악의 물기",
-          "description": "<p> 죄악의 자식에게 물린 생물은 죄악적인 생각에 사로잡히며 @Check[will|dc:28] 저항 검사를 시도해야 한다. 죄악의 군단은 동일한 라운드에 여러 대상에게 동일한 죄악 효과를 가할 수 없으며, 일곱 가지 죄악을 모두 최소 한 번씩 가해야만 한다. </p> <hr /> <p> <strong> 대성공 </strong> 대상은 영향을 받지 않는다.</p>\n<p><strong>성공</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1} 상태가 된다.</p>\n<p><strong>실패</strong> 해당 생물은 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 2} 상태입니다.</p>\n<p><strong>대실패</strong> 생물은 병약 2 상태가 되며, GM이 선택한 다음 추가 효과 중 하나를 받습니다:</p><ul><li><p>@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{1분간 약화된 2} (질투)</p></li><li><p>@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수된 1} (탐식)</p></li><li><p>@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 2} 1분간 (탐욕)</p></li><li><p>@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 2} 1분간 (정욕)</p></li><li><p>@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1} 및 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{1분간 약화 1} (오만)</p></li><li><p>-1분간 모든 이동 속도에 10피트 상태 페널티 (게으름) @UUID[Compendium.pf2e.bestiary-effects.Item.9Qyu0HN5j6DO8Izc]{효과: 죄악의 물기}</p></li><li><p>1분 동안 흡수된 1 및 약화 1 (분노)</p></li></ul>"
+          "description": "<p> 죄악의 자식에게 물린 생물은 죄악적인 생각에 사로잡히며 @Check[will|dc:28] 저항 검사를 시도해야 한다. 죄악의 군단은 동일한 라운드에 여러 대상에게 동일한 죄악 효과를 가할 수 없으며, 일곱 가지 죄악을 모두 최소 한 번씩 가해야만 한다. </p> <hr /> <p> <strong> 대성공 </strong> 대상은 영향을 받지 않는다.</p>\n<p><strong>성공</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1} 상태가 된다.</p>\n<p><strong>실패</strong> 해당 생물은 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 2} 상태입니다.</p>\n<p><strong>대실패</strong> 생물은 병약 2 상태가 되며, GM이 선택한 다음 추가 효과 중 하나를 받습니다:</p><ul><li><p>@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{1분간 약화된 2}(질투)</p></li><li><p>@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수된 1}(탐식)</p></li><li><p>@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 2} 1분간 (탐욕)</p></li><li><p>@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 2} 1분간 (정욕)</p></li><li><p>@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1} 및 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{1분간 약화 1}(오만)</p></li><li><p>-1분간 모든 이동 속도에 10피트 상태 페널티 (게으름) @UUID[Compendium.pf2e.bestiary-effects.Item.9Qyu0HN5j6DO8Izc]{효과: 죄악의 물기}</p></li><li><p>1분 동안 흡수된 1 및 약화 1 (분노)</p></li></ul>"
         }
       }
     },
@@ -775,7 +775,7 @@
         },
         "q3zI9N0p1dOqMF4D": {
           "name": "불리한 거래",
-          "description": "<p>하플링들은 재빠른 해로우 카드 점술로 적을 조롱하며 파멸을 예언한다. 부대는 60피트 내 잔여 세그먼트 수만큼의 생물을 선택한다. 각 대상은 @Check[will|dc:23] 내성 검사를 시도하다. 실패 시, 대상은 다음 공격 굴림, 내성 굴림 또는 기술 체크를 두 번 굴림하고 더 나쁜 결과를 사용해야 한다.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.U37oY6akeNfTtgLk]{효과: 불리한 거래}</p>"
+          "description": "<p>하플링들은 재빠른 해로우 카드 점술로 적을 조롱하며 파멸을 예언한다. 부대는 60피트 내 잔여 세그먼트 수만큼의 생물을 선택한다. 각 대상은 @Check[will|dc:23] 내성 굴림을 시도하다. 실패 시, 대상은 다음 공격 굴림, 내성 굴림 또는 기술 체크를 두 번 굴림하고 더 나쁜 결과를 사용해야 한다.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.U37oY6akeNfTtgLk]{효과: 불리한 거래}</p>"
         },
         "ntqLuao5Yr7uqE8V": {
           "name": "허위 절단",
@@ -789,7 +789,7 @@
     },
     "Xulgath Dinosaur Cavalry": {
       "name": "슐가스 공룡 기병대",
-      "description": "<p>줄가스족은 수천 년 동안 공룡을 사육하고 훈련시켜 왔으며, 그들 사이의 유대는 다른 인간형 종족과 그들이 선택한 길들인 동반자 사이의 유대만큼이나 패밀리어하고 강하다. 대부분의 공룡들은 주로 짐을 나르는 짐승으로 사용되지만, '무장 기병'으로 알려진 엘리트 슐가스 병사들은 수많은 종 중에서 가장 사나운 공룡들을 훈련시켜 방어선을 뚫고 요새를 산산조각 내며 적군을 흩어지게 하는 잔혹하고도 무시무시한 탈것으로 활용한다.</p>",
+      "description": "<p>줄가스족은 수천 년 동안 공룡을 사육하고 훈련시켜 왔으며, 그들 사이의 유대는 다른 인간형 종족과 그들이 선택한 길들인 동반자 사이의 유대만큼이나 익숙하고 강하다. 대부분의 공룡들은 주로 짐을 나르는 짐승으로 사용되지만, '무장 기병'으로 알려진 엘리트 슐가스 병사들은 수많은 종 중에서 가장 사나운 공룡들을 훈련시켜 방어선을 뚫고 요새를 산산조각 내며 적군을 흩어지게 하는 잔혹하고도 무시무시한 탈것으로 활용한다.</p>",
       "hpdetails": "(4 세그먼트); 임계값 160 (3 세그먼트), 80 (2 세그먼트)",
       "items": {
         "sh7iK8xqS8cHsays": {
@@ -813,7 +813,7 @@
         },
         "OA4p28bD8vELnas7": {
           "name": "창, 이빨, 뿔",
-          "description": "<p><strong>사용 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 기병대는 @Template[type:emanation|distance:10]에 있는 각 적에게 @Check[reflex|dc:30|basic|options:area-effect] 내성 검사를 적용한 조율된 근접 공격을 가한다. 가하는 피해는 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(2d6+2)[piercing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(4d6+10)[piercing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(5d6+15)[piercing]|options:area-damage] damage</p>"
+          "description": "<p><strong>사용 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 기병대는 @Template[type:emanation|distance:10]에 있는 각 적에게 @Check[reflex|dc:30|basic|options:area-effect] 내성 굴림을 적용한 조율된 근접 공격을 가한다. 가하는 피해는 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(2d6+2)[piercing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(4d6+10)[piercing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(5d6+15)[piercing]|options:area-damage] damage</p>"
         },
         "tFEpets9UJimpctg": {
           "name": "짓밟기",
@@ -935,7 +935,7 @@
         },
         "ahqeqWaBaTmYKLAQ": {
           "name": "낫과 지팡이",
-          "description": "<p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 드루이드들은 @Template[type:emanation|distance:5] 범위 내의 모든 적을 대상으로 @Check[reflex|dc:29|basic|options:area-effect] 내성 검사를 적용한 협동 근접 공격을 가한다. 가하는 피해는 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[2d6[untyped]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(4d6+9)[untyped]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(5d6+13)[untyped]|options:area-damage] damage</p>"
+          "description": "<p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 드루이드들은 @Template[type:emanation|distance:5] 범위 내의 모든 적을 대상으로 @Check[reflex|dc:29|basic|options:area-effect] 내성 굴림을 적용한 협동 근접 공격을 가한다. 가하는 피해는 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[2d6[untyped]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(4d6+9)[untyped]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(5d6+13)[untyped]|options:area-damage] damage</p>"
         },
         "GiP41mP0LnZ0XTGl": {
           "name": "부대 주문 시전",
@@ -994,11 +994,11 @@
         },
         "z3HQYCUmAo0o9v2u": {
           "name": "급조된 함정",
-          "description": "<p>코볼트들은 다음 턴 시작까지 주변에 손쉽게 만든 초보적인 함정 몇 개를 설치한다. 함정 부대 근처로 이동하는 다음 생물은 함정을 작동시켜 @Check[reflex|dc:18] 내성 검사를 시도해야 한다. 실패 시, 생물은 @Damage[1d4[persistent,bleed]] 피해를 받는다(대실패 시 @Damage[2d4[persistent,bleed]] 피해를 받는다). 성급한 함정으로 지속적인 출혈 피해를 받는 생물은 이동 속도에 -5피트 강화 페널티를 받는다. 이는 코볼트 함정 부대가 행동을 수행할 당시 가진 세그먼트 수만큼의 생물에게 발생하지만, 한 생물은 턴당 하나의 함정만 발동시킬 수 있다.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.JUo3BTRaRHkL9ZBC]{효과: 급조된 함정}</p>"
+          "description": "<p>코볼트들은 다음 턴 시작까지 주변에 손쉽게 만든 초보적인 함정 몇 개를 설치한다. 함정 부대 근처로 이동하는 다음 생물은 함정을 작동시켜 @Check[reflex|dc:18] 내성 굴림을 시도해야 한다. 실패 시, 생물은 @Damage[1d4[persistent,bleed]] 피해를 받는다(대실패 시 @Damage[2d4[persistent,bleed]] 피해를 받는다). 성급한 함정으로 지속적인 출혈 피해를 받는 생물은 이동 속도에 -5피트 강화 페널티를 받는다. 이는 코볼트 함정 부대가 행동을 수행할 당시 가진 세그먼트 수만큼의 생물에게 발생하지만, 한 생물은 턴당 하나의 함정만 발동시킬 수 있다.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.JUo3BTRaRHkL9ZBC]{효과: 급조된 함정}</p>"
         },
         "saCHZrL12xRzQ6S0": {
           "name": "투석기 집중 사격",
-          "description": "<p>코볼트들은 슬링을 꺼내 돌을 발사하는 원거리 포격을 가한다. 이 포격은 50피트 내의 @Template[type:burst|distance:10]로, @Damage[3d4[bludgeoning]|options:area-damage] 피해를 입히며 @Check[reflex|dc:18|basic|options:area-effect] 내성 검사를 받는다. 분대가 2개 세그먼트로 줄어들면 이 영역은 @Template[type:burst|distance:5]로 축소된다.</p>"
+          "description": "<p>코볼트들은 슬링을 꺼내 돌을 발사하는 원거리 포격을 가한다. 이 포격은 50피트 내의 @Template[type:burst|distance:10]로, @Damage[3d4[bludgeoning]|options:area-damage] 피해를 입히며 @Check[reflex|dc:18|basic|options:area-effect] 내성 굴림을 받는다. 분대가 2개 세그먼트로 줄어들면 이 영역은 @Template[type:burst|distance:5]로 축소된다.</p>"
         },
         "iana8aSR0WrAjjvs": {
           "name": "창 찌르기",
@@ -1023,7 +1023,7 @@
         },
         "Sc1M1Q5SwLYfoRIw": {
           "name": "클럽 공격",
-          "description": "<p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 슐가스들은 @Template[type:emanation|distance:5]에 있는 각 적을 상대로 @Check[reflex|dc:21|basic|options:area-effect] 내성 검사를 적용한 조율된 근접 공격을 가한다. 가하는 피해는 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(1d6+1)[bludgeoning]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d6+7)[bludgeoning]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(2d6+12)[bludgeoning]|options:area-damage] damage</p>"
+          "description": "<p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 슐가스들은 @Template[type:emanation|distance:5]에 있는 각 적을 상대로 @Check[reflex|dc:21|basic|options:area-effect] 내성 굴림을 적용한 조율된 근접 공격을 가한다. 가하는 피해는 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(1d6+1)[bludgeoning]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d6+7)[bludgeoning]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(2d6+12)[bludgeoning]|options:area-damage] damage</p>"
         },
         "dFtKZ94VZwUVZGqM": {
           "name": "창 일제 사격",
@@ -1065,7 +1065,7 @@
         },
         "d2LtVhBSBPnv1oh3": {
           "name": "제쿠이 애벌레",
-          "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:30]</p>\n<p><strong>1단계</strong> 애벌레가 움직일 때 보이는 혹이지만 해로운 영향 없음 (1일)</p>\n<p><strong>2단계</strong> @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수된 1} (1일)</p>\n<p><strong>3단계</strong> @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 2} (1일)</p>\n<p><strong>4단계</strong> @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 3} 및 제쿠이 유충에 의해 제어됨 (1일)</p>\n<p><strong>5단계</strong> 생물이 죽으면 시체에서 상호작용 행동으로 성체 @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.vVs0N3mcWYHsyccc]{제쿠이}가 출현할 수 있다.</p>"
+          "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:30]</p>\n<p><strong>1단계</strong> 애벌레가 움직일 때 보이는 혹이지만 해로운 영향 없음 (1일)</p>\n<p><strong>2단계</strong> @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수된 1}(1일)</p>\n<p><strong>3단계</strong> @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 2}(1일)</p>\n<p><strong>4단계</strong> @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 3} 및 제쿠이 유충에 의해 제어됨 (1일)</p>\n<p><strong>5단계</strong> 생물이 죽으면 시체에서 상호작용 행동으로 성체 @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.vVs0N3mcWYHsyccc]{제쿠이}가 출현할 수 있다.</p>"
         }
       }
     },
@@ -1091,7 +1091,7 @@
         },
         "Kne0fCu271kBT4tl": {
           "name": "기폭발",
-          "description": "<p>몽크들은 기를 모아 60피트 반경 내의 모든 생물에게 영향을 미치는 에너지 폭발을 일으킵니다. 이 폭발은 @Damage[6d6[force]|options:area-damage] 피해를 입히며, @Check[reflex|dc:31|basic|options:area-damage] 내성 검사를 받습니다. 몽크의 기운이 2단계로 감소하면 이 범위는 @Template[type:burst|distance:5]로 축소됩니다.</p>"
+          "description": "<p>몽크들은 기를 모아 60피트 반경 내의 모든 생물에게 영향을 미치는 에너지 폭발을 일으킵니다. 이 폭발은 @Damage[6d6[force]|options:area-damage] 피해를 입히며, @Check[reflex|dc:31|basic|options:area-damage] 내성 굴림을 받습니다. 몽크의 기운이 2단계로 감소하면 이 범위는 @Template[type:burst|distance:5]로 축소됩니다.</p>"
         }
       }
     },
@@ -1166,7 +1166,7 @@
         },
         "DTzsPQI9SG94AmvU": {
           "name": "물벼락 발톱",
-          "description": "<p>스캠프 플러드는 수많은 작은 발톱으로 공격한다. @Template[type:emanation|distance:5] 내의 각 적은 @Check[reflex|dc:21|basic|options:area-effect] 내성 검사를 시도해야 한다. 피해량은 공격 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[1d6[slashing],1d4[acid]|options:area-damage]{1d6 베기 피해와 1d4 산성 피해}</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d6+2)[slashing],2d4[acid]|options:area-damage]{2d6+2 베기 피해 및 2d4 산성 피해}</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(2d6+4)[slashing],3d4[acid]|options:area-damage]{2d6+4 베기 피해 및 3d4 산성 피해}</p>"
+          "description": "<p>스캠프 플러드는 수많은 작은 발톱으로 공격한다. @Template[type:emanation|distance:5] 내의 각 적은 @Check[reflex|dc:21|basic|options:area-effect] 내성 굴림을 시도해야 한다. 피해량은 공격 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[1d6[slashing],1d4[acid]|options:area-damage]{1d6 베기 피해와 1d4 산성 피해}</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d6+2)[slashing],2d4[acid]|options:area-damage]{2d6+2 베기 피해 및 2d4 산성 피해}</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(2d6+4)[slashing],3d4[acid]|options:area-damage]{2d6+4 베기 피해 및 3d4 산성 피해}</p>"
         }
       }
     },
@@ -1256,7 +1256,7 @@
         },
         "Z7tomDndmcLrDf68": {
           "name": "무리 사냥",
-          "description": "<p>늑대들은 협력하여 상대를 쓰러뜨립니다. @Template[type:emanation|distance:5] 범위 내의 각 적은 @Check[reflex|dc:21|basic|options:area-effect] 내성 검사를 시도합니다. @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드린 상태}인 생물은 이 공격에 대해 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 2} 상태가 된다. 피해량은 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(1d6+1)[piercing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d6+7)[piercing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(2d6+11)[piercing]|options:area-damage] damage</p>"
+          "description": "<p>늑대들은 협력하여 상대를 쓰러뜨립니다. @Template[type:emanation|distance:5] 범위 내의 각 적은 @Check[reflex|dc:21|basic|options:area-effect] 내성 굴림을 시도합니다. @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드린 상태}인 생물은 이 공격에 대해 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 2} 상태가 된다. 피해량은 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(1d6+1)[piercing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d6+7)[piercing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(2d6+11)[piercing]|options:area-damage] damage</p>"
         }
       }
     },
@@ -1284,7 +1284,7 @@
         },
         "8PW6b8iI5mex49kK": {
           "name": "데이모닉 역병",
-          "description": "<p>레우코데이몬 역병은 동일한 차원 내 어느 거리에서든 감염된 생물과 텔레파시로 소통할 수 있다</p>\n<p><strong>내성 굴림</strong> @Check[fortitude|dc:34]</p>\n<p><strong>1단계</strong> 보균자 (1일)</p>\n<p><strong>2단계</strong> @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수된 1} (1일)</p>\n<p><strong>3단계</strong> @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 2} (1일)</p>\n<p><strong>4단계</strong> 흡수 2 (1일)</p>\n<p><strong>5단계</strong> @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 3} (1주)</p>\n<p><strong>6단계</strong> 사망</p>"
+          "description": "<p>레우코데이몬 역병은 동일한 차원 내 어느 거리에서든 감염된 생물과 텔레파시로 소통할 수 있다</p>\n<p><strong>내성 굴림</strong> @Check[fortitude|dc:34]</p>\n<p><strong>1단계</strong> 보균자 (1일)</p>\n<p><strong>2단계</strong> @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수된 1}(1일)</p>\n<p><strong>3단계</strong> @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 2}(1일)</p>\n<p><strong>4단계</strong> 흡수 2 (1일)</p>\n<p><strong>5단계</strong> @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 3}(1주)</p>\n<p><strong>6단계</strong> 사망</p>"
         },
         "PLYfuYiAgz5PdpwR": {
           "name": "감염된 턱과 발톱",
@@ -1296,7 +1296,7 @@
         },
         "YDQqHGqRddR5xBdx": {
           "name": "전염병 촉진",
-          "description": "<p>레우코데이몬들은 질병을 완전히 발현시킨다. 그들은 감염 오라 내부에 현재 질병에 걸린 대상을 선택한다. 해당 생물은 질병의 현재 단계 간격이 지난 것처럼 질병에 대한 인내 내성 검사 를 시도하다.</p>"
+          "description": "<p>레우코데이몬들은 질병을 완전히 발현시킨다. 그들은 감염 오라 내부에 현재 질병에 걸린 대상을 선택한다. 해당 생물은 질병의 현재 단계 간격이 지난 것처럼 질병에 대한 인내 내성 굴림 를 시도하다.</p>"
         }
       }
     },
@@ -1324,7 +1324,7 @@
         },
         "SGypy396AZEVRfyW": {
           "name": "기억상실 맹독",
-          "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:33]</p>\n<p><strong>최대 지속 시간</strong> 6 라운드</p>\n<p><strong>1단계</strong> @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1} (1 라운드)</p>\n<p><strong>2단계</strong> @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 2} (1 라운드)</p>\n<p><strong>3단계</strong> @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{혼란}, @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드}, @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 3} (1 라운드)</p>\n<p><strong>4단계</strong> 3단계와 동일하며, 지난 1시간을 영구적으로 망각함 (1라운드)</p>"
+          "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:33]</p>\n<p><strong>최대 지속 시간</strong> 6 라운드</p>\n<p><strong>1단계</strong> @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1}(1 라운드)</p>\n<p><strong>2단계</strong> @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 2}(1 라운드)</p>\n<p><strong>3단계</strong> @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{혼란}, @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드}, @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 3}(1 라운드)</p>\n<p><strong>4단계</strong> 3단계와 동일하며, 지난 1시간을 영구적으로 망각함 (1라운드)</p>"
         },
         "0anYM9XZHBhEmdG6": {
           "name": "조임",
@@ -1371,7 +1371,7 @@
         },
         "DTzsPQI9SG94AmvU": {
           "name": "돌부리 내리치기",
-          "description": "<p>스캠프 눈사태가 연쇄적인 작은 돌격으로 공격한다. @Template[type:emanation|distance:5] 내의 각 적은 @Check[reflex|dc:21|basic|options:area-effect] 내성 검사를 시도해야 한다. 피해량은 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[1d6[bludgeoning],1d4[poison]|options:area-damage]{1d6 bludgeoning damage and 1d4 poison damage}</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d6+2)[bludgeoning],2d4[poison]|options:area-damage]{2d6+2 bludgeoning damage and 2d4 poison damage}</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(2d6+4)[bludgeoning],3d4[poison]|options:area-damage]{2d6+4 bludgeoning damage and 3d4 poison damage}</p>"
+          "description": "<p>스캠프 눈사태가 연쇄적인 작은 돌격으로 공격한다. @Template[type:emanation|distance:5] 내의 각 적은 @Check[reflex|dc:21|basic|options:area-effect] 내성 굴림을 시도해야 한다. 피해량은 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[1d6[bludgeoning],1d4[poison]|options:area-damage]{1d6 bludgeoning damage and 1d4 poison damage}</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d6+2)[bludgeoning],2d4[poison]|options:area-damage]{2d6+2 bludgeoning damage and 2d4 poison damage}</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(2d6+4)[bludgeoning],3d4[poison]|options:area-damage]{2d6+4 bludgeoning damage and 3d4 poison damage}</p>"
         }
       }
     },
@@ -1401,7 +1401,7 @@
         },
         "IGvKRatzTPUtOGBv": {
           "name": "의로운 함성",
-          "description": "<p><strong>주파수</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 울려 퍼지는 함성과 함께 천사들의 합창단이 주먹을 휘둘러 @Template[type:emanation|distance:5](@Check[reflex|dc:29|basic|options:area-effect] 내성) 범위 내의 각 적을 대상으로 조율된 근접 공격을 가한다. 피해량은 행동 수에 따라 달라진다</p>\n<p><span class=\"action-glyph\">1</span> @Damage[1d8[bludgeoning],1d6[sonic]|options:area-damage]{1d8 타격 피해 + 1d6 음파 피해}</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d8+7)[bludgeoning],2d6[sonic]|options:area-damage]{2d8+7 타격 피해 + 2d6 음파 피해}</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(3d8+10)[bludgeoning],2d6[sonic]|options:area-damage]{3d8+10 타격 피해 + 2d6 음파 피해}</p>"
+          "description": "<p><strong>빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 울려 퍼지는 함성과 함께 천사들의 합창단이 주먹을 휘둘러 @Template[type:emanation|distance:5](@Check[reflex|dc:29|basic|options:area-effect] 내성) 범위 내의 각 적을 대상으로 조율된 근접 공격을 가한다. 피해량은 행동 수에 따라 달라진다</p>\n<p><span class=\"action-glyph\">1</span> @Damage[1d8[bludgeoning],1d6[sonic]|options:area-damage]{1d8 타격 피해 + 1d6 음파 피해}</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d8+7)[bludgeoning],2d6[sonic]|options:area-damage]{2d8+7 타격 피해 + 2d6 음파 피해}</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(3d8+10)[bludgeoning],2d6[sonic]|options:area-damage]{3d8+10 타격 피해 + 2d6 음파 피해}</p>"
         }
       }
     },
@@ -1419,7 +1419,7 @@
         },
         "8AcivAl6LMDAhval": {
           "name": "단검 방어",
-          "description": "<p>궁병 연대는 단검을 뽑아 근접 적을 공격한다. @Template[type:emanation|distance:5] 내의 각 적은 @Check[reflex|dc:29|basic|options:area-effect] 내성 검사를 시도해야 한다. 피해량은 행동 횟수에 따라 달라진다. 궁병 연대는 다음 턴 시작까지 AC에 +1 상황 보너스를 얻는다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(2d4+2)[piercing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(4d4+12)[piercing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(4d4+15)[piercing]|options:area-damage] damage</p>"
+          "description": "<p>궁병 연대는 단검을 뽑아 근접 적을 공격한다. @Template[type:emanation|distance:5] 내의 각 적은 @Check[reflex|dc:29|basic|options:area-effect] 내성 굴림을 시도해야 한다. 피해량은 행동 횟수에 따라 달라진다. 궁병 연대는 다음 턴 시작까지 AC에 +1 상황 보너스를 얻는다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(2d4+2)[piercing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(4d4+12)[piercing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(4d4+15)[piercing]|options:area-damage] damage</p>"
         },
         "VulwEYPqDylG33H9": {
           "name": "시추된 지층",
@@ -1438,7 +1438,7 @@
       "items": {
         "Mqkq79UBprlR4QUI": {
           "name": "사나운 추락",
-          "description": "<p>오크 습격대가 체력 점수 한계치를 넘어서면서 체력 조각 하나를 잃게 됩니다</p><hr /><p><strong>효과</strong> 죽어가는 오크 습격대는 쓰러지면서 발악한다. @Template[type:emanation|distance:5] 범위 내의 각 적에게 @Damage[(1d6+2)[piercing]|options:area-damage] 피해 (@Check[reflex|dc:19|basic|options:area-effect] 내성 검사)를 입힌다; 이는 습격대가 세그먼트를 잃기 전에 발생한다.</p>"
+          "description": "<p>오크 습격대가 체력 점수 한계치를 넘어서면서 체력 조각 하나를 잃게 됩니다</p><hr /><p><strong>효과</strong> 죽어가는 오크 습격대는 쓰러지면서 발악한다. @Template[type:emanation|distance:5] 범위 내의 각 적에게 @Damage[(1d6+2)[piercing]|options:area-damage] 피해 (@Check[reflex|dc:19|basic|options:area-effect] 내성 굴림)를 입힌다; 이는 습격대가 세그먼트를 잃기 전에 발생한다.</p>"
         },
         "icFtpyk3vKrnSxKV": {
           "name": "부대 방어",
@@ -1475,7 +1475,7 @@
         },
         "0GB6weL7oSMiYNhj": {
           "name": "거대 개미 맹독",
-          "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:24]</p>\n<p><strong>최대 지속 시간</strong> 6 라운드</p>\n<p><strong>1단계</strong> @Damage[2d8[poison]] 피해 및 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화 1} (1 라운드)</p>\n<p><strong>2단계</strong> @Damage[3d6[poison]] 피해 및 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 2} (1라운드)</p>\n<p><strong>3단계</strong> @Damage[2d10[poison]] 피해 및 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 3} (1 라운드)</p>"
+          "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:24]</p>\n<p><strong>최대 지속 시간</strong> 6 라운드</p>\n<p><strong>1단계</strong> @Damage[2d8[poison]] 피해 및 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화 1}(1 라운드)</p>\n<p><strong>2단계</strong> @Damage[3d6[poison]] 피해 및 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 2}(1라운드)</p>\n<p><strong>3단계</strong> @Damage[2d10[poison]] 피해 및 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 3}(1 라운드)</p>"
         },
         "yA8PCCPpx4NOi1T8": {
           "name": "집게턱",
@@ -1520,7 +1520,7 @@
         },
         "Ze7HYEJOg83Kkcje": {
           "name": "타락시키는 악의",
-          "description": "<p>와이트 대대의 공격은 생물을 약하고 악의적으로 만드는 저주를 가한다. 이 저주 상태에서 죽은 살아있는 인간형 생물은 [[/gmr 1d4 #라운드]]{1d4 라운드} 후에 @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.DBTbqI9QQRtlJwWh]{와이트}로 부활하며, 저주를 걸었던 와이트 대대의 {제어됨}을 받습니다. 이 새로 생성된 와이트는 타락시키는 악의를 부여할 수 없으며 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 2} 상태입니다. 생성한 와이트 대대가 죽거나 약 한 달이 지나면, 새로 생성된 와이트는 자율성을 얻어 일반 와이트가 됩니다</p>\n<p><strong>내성 굴림</strong> @Check[fortitude|dc:25]</p>\n<p><strong>1단계</strong> @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수된 1} (1 라운드)</p>\n<p><strong>2단계</strong> @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 2}이며 어떤 생물도 아군으로 간주하지 않음 (1라운드)</p>\n<p><strong>3단계</strong> 2단계와 동일하나 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 3} (1라운드)</p>\n<p><strong>4단계</strong> 2단계와 동일하나, @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수된 4} (1라운드) 적용.</p>"
+          "description": "<p>와이트 대대의 공격은 생물을 약하고 악의적으로 만드는 저주를 가한다. 이 저주 상태에서 죽은 살아있는 인간형 생물은 [[/gmr 1d4 #라운드]]{1d4 라운드} 후에 @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.DBTbqI9QQRtlJwWh]{와이트}로 부활하며, 저주를 걸었던 와이트 대대의 {제어됨}을 받습니다. 이 새로 생성된 와이트는 타락시키는 악의를 부여할 수 없으며 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 2} 상태입니다. 생성한 와이트 대대가 죽거나 약 한 달이 지나면, 새로 생성된 와이트는 자율성을 얻어 일반 와이트가 됩니다</p>\n<p><strong>내성 굴림</strong> @Check[fortitude|dc:25]</p>\n<p><strong>1단계</strong> @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수된 1}(1 라운드)</p>\n<p><strong>2단계</strong> @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 2}이며 어떤 생물도 아군으로 간주하지 않음 (1라운드)</p>\n<p><strong>3단계</strong> 2단계와 동일하나 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 3}(1라운드)</p>\n<p><strong>4단계</strong> 2단계와 동일하나, @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수된 4}(1라운드) 적용.</p>"
         },
         "JZsyW5yBoBlflI3F": {
           "name": "증오의 단검",
@@ -1580,7 +1580,7 @@
         },
         "jWsj5fbvx0llQW2b": {
           "name": "디스의 갈퀴",
-          "description": "<p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 군단의 보르딘들은 삼지창으로 조율된 근접 공격을 가한다. @Template[type:emanation|distance:5] 범위 내의 모든 적은 @Check[reflex|dc:26|basic|options:area-effect] 내성 검사를 시도해야 한다. 피해량은 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(1d8+2)[piercing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d8+11)[piercing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(3d8+14)[piercing]|options:area-damage] damage</p>"
+          "description": "<p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 군단의 보르딘들은 삼지창으로 조율된 근접 공격을 가한다. @Template[type:emanation|distance:5] 범위 내의 모든 적은 @Check[reflex|dc:26|basic|options:area-effect] 내성 굴림을 시도해야 한다. 피해량은 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(1d8+2)[piercing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d8+11)[piercing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(3d8+14)[piercing]|options:area-damage] damage</p>"
         },
         "eTNW0XDx3HcmUDXr": {
           "name": "전쟁 로어"
@@ -1707,7 +1707,7 @@
         },
         "AwWx7DridTlHkpo8": {
           "name": "검으로 내리치기",
-          "description": "<p>수목 군락은 둔탁한 돌 장검으로 적을 마구 내리친다. @Template[type:emanation|distance:10] 범위 내의 각 적은 @Check[reflex|dc:25|basic|options:area-effect] 내성 검사를 시도해야 한다. 피해량은 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(1d8+1)[bludgeoning]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d8+9)[bludgeoning]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(3d8+10)[bludgeoning]|options:area-damage] damage</p>"
+          "description": "<p>수목 군락은 둔탁한 돌 장검으로 적을 마구 내리친다. @Template[type:emanation|distance:10] 범위 내의 각 적은 @Check[reflex|dc:25|basic|options:area-effect] 내성 굴림을 시도해야 한다. 피해량은 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(1d8+1)[bludgeoning]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d8+9)[bludgeoning]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(3d8+10)[bludgeoning]|options:area-damage] damage</p>"
         }
       },
       "StealthVariants": {

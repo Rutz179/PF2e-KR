@@ -1,5 +1,5 @@
 {
-  "label": "War-of-Immortals",
+  "label": "불멸자들의 전쟁",
   "entries": {
     "Mythic Gogiteth": {
       "name": "신화적 고기테스",
@@ -26,7 +26,7 @@
         },
         "EUEkEW5Pn57YJJ4e": {
           "name": "신화적 내구성 (반사 신경과 의지)",
-          "description": "<p>이 생물은 관련 내성 굴림을 한 단계 더 성공한 것으로 간주합니다. 이는 무력화 특성(주사위 1 또는 20을 굴린 경우 제외)과 같은 성공 정도를 변경하는 다른 효과와 중첩되지 않습니다. 몬스터가 신화적 회복력을 얻을 때마다 내성 검사 중 하나를 선택합니다. 이 능력은 해당 생물의 가장 높은 내성 검사부터 적용됩니다.</p>"
+          "description": "<p>이 생물은 관련 내성 굴림을 한 단계 더 성공한 것으로 간주합니다. 이는 무력화 특성(주사위 1 또는 20을 굴린 경우 제외)과 같은 성공 정도를 변경하는 다른 효과와 중첩되지 않습니다. 몬스터가 신화적 회복력을 얻을 때마다 내성 굴림 중 하나를 선택합니다. 이 능력은 해당 생물의 가장 높은 내성 굴림부터 적용됩니다.</p>"
         },
         "Qj4erun9wbqBExS0": {
           "name": "스키터링 리포지션",
@@ -116,7 +116,7 @@
       }
     },
     "Vulot": {
-      "name": "Vulot",
+      "name": "불로트",
       "description": "<h3>전부 아니면 전무</h3><p>Vulot은 거짓, 정체성 상실, 질식의 신생 악마 군주입니다. 그들의 형태 중 하나가 파괴되면, 그들은 하루 후에 훔친 수많은 정체성 중 하나로 재합체할 수 있습니다.</p>",
       "cadetails": "신화적 면역",
       "languages": "그들의 집단적 정체성이 사용하는 모든 언어; 텔레파시 200피트 (볼롯의 숭배자가 착용한 다른 도난당한 정체성에 대해 무제한 범위)",
@@ -166,11 +166,11 @@
         },
         "IUHOr0saRc0Nd6rq": {
           "name": "얼굴 훔치기",
-          "description": "<p><strong>Cost</strong> 1 신화 포인트</p><hr /><p><strong>효과</strong> Vulot은 발톱 공격을 수행합니다. 타격에 성공하면 Vulot은 대상의 의지 DC에 대한 @Check[deception|against:will] 체크를 시도하여 해당 생물의 얼굴을 훔치려 합니다; 크리티컬 히트 시 Vulot은 자신의 기만 체크 결과를 한 단계 높은 성공으로 처리합니다. 성공 시, Vulot은 대상의 얼굴을 [[/gmr 1d4 #rounds]]{1d4 라운드} 동안 훔칩니다 (대성공 시 1분); 얼굴이 훔쳐진 생물은 어떤 생물에게도 동맹으로 간주되지 않습니다.</p>"
+          "description": "<p><strong>Cost</strong> 1 신화 포인트</p><hr /><p><strong>효과</strong> Vulot은 발톱 공격을 수행합니다. 타격에 성공하면 Vulot은 대상의 의지 DC에 대한 @Check[deception|against:will] 체크를 시도하여 해당 생물의 얼굴을 훔치려 합니다; 대성공 시 Vulot은 자신의 기만 체크 결과를 한 단계 높은 성공으로 처리합니다. 성공 시, Vulot은 대상의 얼굴을 [[/gmr 1d4 #rounds]]{1d4 라운드} 동안 훔칩니다 (대성공 시 1분); 얼굴이 훔쳐진 생물은 어떤 생물에게도 동맹으로 간주되지 않습니다.</p>"
         },
         "SlteE5Bcul2iqCIo": {
           "name": "생각 훔치기",
-          "description": "<p>볼트의 정신 공격은 혼란과 방향 상실을 유발합니다. Vulot의 생각 창에 공격당한 생물은 @Check[will|dc:44] 내성 검사를 시도해야 합니다. 이 효과로 인해 혼미해진 생물은 Vulot의 @UUID[Compendium.pf2e.actionspf2e.Item.RDXXE7wMrSPCLv5k]{Steal} Face 능력에 대해 방어 태세를 잃습니다.</p>\n<p><strong>대성공</strong> 생물은 영향을 받지 않습니다.</p>\n<p><strong>성공</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1} 상태가 1 라운드 동안 지속됩니다.</p>\n<p><strong>실패</strong> 생물은 1분 동안 혼미 1 상태가 됩니다. 이미 혼미 상태라면 혼미 값이 1 증가합니다(최대 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 4}까지).</p>\n<p><strong>대실패</strong> 실패와 동일하며, 추가로 생물은 @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{혼란} 상태가 1분 동안 지속됩니다.</p>"
+          "description": "<p>볼트의 정신 공격은 혼란과 방향 상실을 유발합니다. Vulot의 생각 창에 공격당한 생물은 @Check[will|dc:44] 내성 굴림을 시도해야 합니다. 이 효과로 인해 혼미해진 생물은 Vulot의 @UUID[Compendium.pf2e.actionspf2e.Item.RDXXE7wMrSPCLv5k]{Steal} Face 능력에 대해 방어 태세를 잃습니다.</p>\n<p><strong>대성공</strong> 생물은 영향을 받지 않습니다.</p>\n<p><strong>성공</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1} 상태가 1 라운드 동안 지속됩니다.</p>\n<p><strong>실패</strong> 생물은 1분 동안 혼미 1 상태가 됩니다. 이미 혼미 상태라면 혼미 값이 1 증가합니다(최대 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 4}까지).</p>\n<p><strong>대실패</strong> 실패와 동일하며, 추가로 생물은 @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{혼란} 상태가 1분 동안 지속됩니다.</p>"
         }
       }
     },
@@ -259,7 +259,7 @@
       "desc (hazard)": "<p>땅에서 낮은 울부짖음이 들려오며, 고대의 갑옷 조각, 뼈 조각, 흙 덩어리가 공중으로 떠오른다. 붉은 증기가 얼굴 없는 형체를 유지하지만, 식별 가능한 형태로 응결되지 않고, 고통과 파괴의 끊임없이 변하는 이미지로 꿈틀거리며 퍼져간다.</p>",
       "disable": "<p>@Check[occultism|dc:38|name:Negate Psychic Resonances] (마스터) 각 조각 주변의 사이킥 공명을 일시적으로 무효화하여 집합체가 분해되도록 하거나, @Check[religion|dc:33|name:Interrupt Unholy Power] (전문가) 다른 출처의 신성한 에너지로 Verex-That-Was의 불경한 힘을 일시적으로 차단합니다. 단일 출처로부터 40점의 피해를 입은 뼈 폭발이 파괴되지 않으면 1 라운드 동안 휴면 상태가 됩니다.</p>",
       "reset": "<p>뼈폭발이 5 라운드 연속으로 살아있는 생물 주변에 응집하지 않으면 휴면 상태가 되어 땅 속으로 가라앉습니다. 휴면 상태가 되거나 무력화되면 뼈폭발은 다음 시간 동안 에너지를 모아 다시 활성화될 수 있습니다.</p>",
-      "routine": "<p>(2 행동) 깨어난 뼈폭발은 @Template[square|distance:20] 크기의 공간을 차지합니다; BT에 도달하면 @Template[square|distance:10]로 축소됩니다. 다른 생물과 같은 공간을 차지할 수 있지만, 다른 뼈폭발과는 함께 있을 수 없습니다. 자신의 이니셔티브에 따라 뼈폭발은 첫 번째 행동으로 가장 가까운 살아있는 생물 방향으로 30피트까지 날아갑니다. 두 번째 행동으로 뼈폭발은 자신의 공간 내의 어떤 살아있는 생물 주변에 응집되며, 보이지 않는 뼈 조각들이 그들의 살을 찢어댑니다. 그 공간 내의 모든 살아있는 생물은 @Damage[(2d10+18)[slashing],1d10[spirit]|options:area-damage]{2d10+18 베기 피해와 1d10 정신 피해} (@Check[reflex|dc:35|basic|options:area-effect] 내성)를 입습니다. 만약 그 공간 내에 살아있는 생물이 없다면, 뼈 폭발은 두 번째 행동으로 30피트까지 날아갈 수 있습니다.</p>",
+      "routine": "<p>(2 행동) 깨어난 뼈폭발은 @Template[square|distance:20] 크기의 공간을 차지합니다; BT에 도달하면 @Template[square|distance:10]로 축소됩니다. 다른 생물과 같은 공간을 차지할 수 있지만, 다른 뼈폭발과는 함께 있을 수 없습니다. 자신의 이니셔티브에 따라 뼈폭발은 첫 번째 행동으로 가장 가까운 살아있는 생물 방향으로 30피트까지 날아갑니다. 두 번째 행동으로 뼈폭발은 자신의 공간 내의 어떤 살아있는 생물 주변에 응집되며, 보이지 않는 뼈 조각들이 그들의 살을 찢어댑니다. 그 공간 내의 모든 살아있는 생물은 @Damage[(2d10+18)[slashing],1d10[spirit]|options:area-damage]{2d10+18 베기 피해와 1d10 정신 피해}(@Check[reflex|dc:35|basic|options:area-effect] 내성)를 입습니다. 만약 그 공간 내에 살아있는 생물이 없다면, 뼈 폭발은 두 번째 행동으로 30피트까지 날아갈 수 있습니다.</p>",
       "stealth": "<p>(마스터)는 부서진 잔해의 구름이 녹슨 붉은 안개와 유령 같은 피의 덩어리로 연결된 회전하는 얼굴 없는 형상으로 모여드는 것을 알아차립니다</p>",
       "items": {
         "6mJensA5MorOvpQq": {
@@ -297,7 +297,7 @@
           "description": "<p>신비로운 숨결의 일시적인 가벼움으로 인해 그들을 잡을 수 없습니다. 그들은 퍼포먼스 수정자를 사용하여 @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape}, @UUID[Compendium.pf2e.actionspf2e.Item.21WIfSu7Xd7uKqV8]{Tumble Through}, @UUID[Compendium.pf2e.actionspf2e.Item.2HJ4yuEFY1Cast4h]{High Jump}, 또는 @UUID[Compendium.pf2e.actionspf2e.Item.JUvAvruz7yRQXfz2]{Long Jump}를 사용합니다. 그들이 @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{점프}, 고공 점프, 또는 장거리 점프를 사용할 때, 그 움직임은 반응을 유발하지 않습니다.</p>"
         },
         "2M0ZAFZ1m0Dr915i": {
-          "name": "모든 감정 내성 검사에서 +2 상태 보너스"
+          "name": "모든 감정 내성 굴림에서 +2 상태 보너스"
         },
         "Uk0LHniv3eiGclv0": {
           "name": "신화적 내구성",
@@ -330,7 +330,7 @@
       "desc (hazard)": "<p>압도적인 트럼펫 소리가 진동하며 주변을 가득 채우며, 모든 것이 느려짐.</p>",
       "disable": "<p>@Check[arcana|dc:38|name:Shore Up the Area] (전문가), @Check[maelstrom-lore|dc:38|name:Shore Up the Area] (전문가), @Check[occultism|dc:38|name:Shore Up the Area] (마스터), @Check[religion|dc:38|name:Shore Up the Area] (마스터)는 Jandelay의 Oliphaunt와의 연결을 유발하는 국소적 평면 불안정성을 인식하고 해당 지역을 강화해야 합니다. 불안정성에 맞서 해당 지역을 충분히 강화하여 위험을 종결시키려면 4번의 성공이 필요합니다.</p>",
       "reset": "<p>24시간 후 해당 지역이 다시 불안정해집니다.</p>",
-      "routine": "<p>(1 행동) 해당 지역 내 모든 생물은 @Check[fortitude|dc:36] 내성을 시도해야 합니다. 이 위험으로 인해 느려짐 상태를 가진 생물은 이 효과에 대한 추가 내성 검사에서 -2 상황 페널티를 받습니다.</p><hr><p><strong>대성공</strong> 생물은 영향을 받지 않습니다.</p><p><strong>성공</strong> 생물은 @Damage[(2d6+6)[sonic]]의 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{청각 마비} 상태가 1 라운드 동안 지속됩니다.</p><p><strong>실패</strong> 생물은 @Damage[(4d6+13)[sonic]]의 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1} 상태가 2 라운드 동안 지속됩니다.</p><p><strong>대실패</strong> 생물은 @Damage[(8d6+26)[sonic]]의 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 2} 상태가 2 라운드 동안 지속됩니다.</p>",
+      "routine": "<p>(1 행동) 해당 지역 내 모든 생물은 @Check[fortitude|dc:36] 내성을 시도해야 합니다. 이 위험으로 인해 느려짐 상태를 가진 생물은 이 효과에 대한 추가 내성 굴림에서 -2 상황 페널티를 받습니다.</p><hr><p><strong>대성공</strong> 생물은 영향을 받지 않습니다.</p><p><strong>성공</strong> 생물은 @Damage[(2d6+6)[sonic]]의 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{청각 마비} 상태가 1 라운드 동안 지속됩니다.</p><p><strong>실패</strong> 생물은 @Damage[(4d6+13)[sonic]]의 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1} 상태가 2 라운드 동안 지속됩니다.</p><p><strong>대실패</strong> 생물은 @Damage[(8d6+26)[sonic]]의 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 2} 상태가 2 라운드 동안 지속됩니다.</p>",
       "stealth": "<p>(마스터)는 올리펀트의 트럼펫이 곧 발사될 때 지역에서 형성되는 낮은 진동의 긴장감을 감지합니다.</p>",
       "items": {
         "13cgAF6tdEDdUGZg": {
@@ -388,7 +388,7 @@
         },
         "IBX7Tix58PNMLskp": {
           "name": "생명력 흡수",
-          "description": "<p>리치의 형태는 접촉하는 생물로부터 생명력을 흡수합니다. 리치가 비무장 공격으로 살아있는 생물을 피해 경우, 리치는 5의 임시 체력을 얻고 해당 생물은 @Check[fortitude|dc:34] 내성 검사에서 실패하면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 1} 상태가 됩니다.</p>\n<p>리치가 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 상태이거나 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{제압} 상태라면, 그 리치를 붙잡거나 제압한 모든 생물은 인내 내성 검사에 성공해야 하며, 실패 시 1의 생명력 흡수를 받습니다. 리치가 생물의 생명력을 다시 흡수하면 생명력 흡수 값이 1씩 증가하며, 최대 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 4}까지 증가합니다.</p>"
+          "description": "<p>리치의 형태는 접촉하는 생물로부터 생명력을 흡수합니다. 리치가 비무장 공격으로 살아있는 생물을 피해 경우, 리치는 5의 임시 체력을 얻고 해당 생물은 @Check[fortitude|dc:34] 내성 굴림에서 실패하면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 1} 상태가 됩니다.</p>\n<p>리치가 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 상태이거나 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{제압} 상태라면, 그 리치를 붙잡거나 제압한 모든 생물은 인내 내성 굴림에 성공해야 하며, 실패 시 1의 생명력 흡수를 받습니다. 리치가 생물의 생명력을 다시 흡수하면 생명력 흡수 값이 1씩 증가하며, 최대 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{Drained 4}까지 증가합니다.</p>"
         },
         "5TLoRDxeWBDh6a6e": {
           "name": "안정된 마법 사용",
@@ -436,7 +436,7 @@
         },
         "N0tzcyXMdu07ek1R": {
           "name": "신화적 회복력",
-          "description": "<p>올리펀트는 자신의 내성 굴림(resistance roll)과 관련된 내성 굴림을 실제보다 한 단계 더 높은 것으로 처리합니다(즉, 대실패는 실패, 실패는 성공, 성공은 대성공이 됩니다). 각 라운드에서 캐릭터가 올리펀트에 대해 크리티컬 히트를 굴릴 때마다, 공격 굴림을 다시 굴리고 새로운 결과를 적용해야 합니다.</p>"
+          "description": "<p>올리펀트는 자신의 내성 굴림(resistance roll)과 관련된 내성 굴림을 실제보다 한 단계 더 높은 것으로 처리합니다(즉, 대실패는 실패, 실패는 성공, 성공은 대성공이 됩니다). 각 라운드에서 캐릭터가 올리펀트에 대해 대성공을 굴릴 때마다, 공격 굴림을 다시 굴리고 새로운 결과를 적용해야 합니다.</p>"
         },
         "vAuHHRu15yY5K4k9": {
           "name": "반응형",
@@ -459,7 +459,7 @@
         },
         "SZPK1jhXDeTIsaJD": {
           "name": "파괴적인 발사",
-          "description": "<p><strong>비용</strong> 1 신화 포인트</p><hr /><p><strong>효과</strong> 잔델레이의 올리펀트가 자신의 상아를 지면에 박아 @Template[type:burst|distance:15] 반경 20피트 이내의 모든 것을 파묻습니다. 이 지역 내의 모든 물체, 현재 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡기} 상태인 모든 것을 120피트 떨어진 곳으로 날려보냅니다. 모든 것은 @Template[type:burst|distance:30]에 떨어지며, 해당 지역 내의 각 생물에게 @Damage[12d6[bludgeoning]|options:area-damage]의 피해를 입힙니다 (@Check[reflex|dc:51|basic|options:area-effect] 내성 검사). 이 피해는 올리파운트가 던진 생물, 차량, 물체에도 적용됩니다. 던져지는 동안 해당 영역에 있던 생물이 반사 내성 검사에 성공하거나 치명적으로 성공하면 시작 위치의 칸에 남아 있습니다. 올리파운트가 던진 모든 물체는 GM이 결정한 폭발 범위 내의 칸에 착지합니다.</p>"
+          "description": "<p><strong>비용</strong> 1 신화 포인트</p><hr /><p><strong>효과</strong> 잔델레이의 올리펀트가 자신의 상아를 지면에 박아 @Template[type:burst|distance:15] 반경 20피트 이내의 모든 것을 파묻습니다. 이 지역 내의 모든 물체, 현재 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡기} 상태인 모든 것을 120피트 떨어진 곳으로 날려보냅니다. 모든 것은 @Template[type:burst|distance:30]에 떨어지며, 해당 지역 내의 각 생물에게 @Damage[12d6[bludgeoning]|options:area-damage]의 피해를 입힙니다 (@Check[reflex|dc:51|basic|options:area-effect] 내성 굴림). 이 피해는 올리파운트가 던진 생물, 차량, 물체에도 적용됩니다. 던져지는 동안 해당 영역에 있던 생물이 반사 내성 굴림에 성공하거나 치명적으로 성공하면 시작 위치의 칸에 남아 있습니다. 올리파운트가 던진 모든 물체는 GM이 결정한 폭발 범위 내의 칸에 착지합니다.</p>"
         },
         "MGlsEYwduFGAn3fE": {
           "name": "신화력",
@@ -467,7 +467,7 @@
         },
         "lccIEtDFEyprHwTS": {
           "name": "트램플",
-          "description": "<p>거대 또는 그 이하, 발, @Check[reflex|dc:46|basic]</p>\n<p>잔델레이의 올리펀트가 트램플을 사용할 때, 속도의 3배까지 스트라이드를 할 수 있으며, 반사 내성 내성 검사에 실패하거나 대실패한 모든 생물은 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} 상태로 넘어집니다.</p><hr /><p>@Localize[PF2E.NPC.Abilities.Glossary.Trample]</p>"
+          "description": "<p>거대 또는 그 이하, 발, @Check[reflex|dc:46|basic]</p>\n<p>잔델레이의 올리펀트가 트램플을 사용할 때, 속도의 3배까지 스트라이드를 할 수 있으며, 반사 내성 내성 굴림에 실패하거나 대실패한 모든 생물은 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} 상태로 넘어집니다.</p><hr /><p>@Localize[PF2E.NPC.Abilities.Glossary.Trample]</p>"
         },
         "Kvj9gEu0opp2KIbx": {
           "name": "Trumpeting Blast",
@@ -481,7 +481,7 @@
       "hpdetails": "재생 10 (밝은 빛에 의해 비활성화됨)",
       "languages": "진정한 언어",
       "perception": "전방위 시야, 강화된 거미줄 감각",
-      "saves": "마법 내성 검사 +1",
+      "saves": "마법 내성 굴림 +1",
       "items": {
         "STNb3MjelKgZTBpI": {
           "name": "이빨"
@@ -509,7 +509,7 @@
           "description": "<p><strong>요구 사항</strong> 위버는 악몽의 고치에 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비} 상태인 생물로부터 15피트 이내에 있습니다.</p><hr /><p><strong>효과</strong> 위버는 마비된 목표를 붙잡아서 자신의 등이나 다리 중 하나에 거미줄로 고정시킨 후 이동합니다. 위버의 악몽의 고치에 의해 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{이동 불가} 상태인 생물은 위버와 같은 공간을 공유하며 함께 이동합니다. [[/act escape dc=36]]의 DC{탈출} 악몽의 고치에서 탈출하는 DC가 36으로 증가합니다.</p>"
         },
         "vr1193FbzgbslN1N": {
-          "name": "내성 검사 모든에 +1"
+          "name": "내성 굴림 모든에 +1"
         },
         "HBsI0TF2SoQZJFjt": {
           "name": "재생 (밝은 빛으로 비활성화됨)"
@@ -524,7 +524,7 @@
         },
         "yFGi8rZPWBQ9mQjm": {
           "name": "흘러나온 비밀",
-          "description": "<p>이 오라 내에서 말하는 모든 생물은 @Check[will|dc:34] 내성 검사에 성공하지 못하면 의도한 말 대신 어떤 비밀을 드러내야 합니다. 언어 마법과 효과는 이미 집중 특성을 가지고 있지 않은 경우 집중 특성을 얻으며, 생물이 이 내성 검사에 실패하면 낭비됩니다.</p>\n<p>대실패 시, 캐릭터는 위버나 현장에 있는 이들에게 가장 밝히고 싶지 않은 비밀을 배반합니다.</p>"
+          "description": "<p>이 오라 내에서 말하는 모든 생물은 @Check[will|dc:34] 내성 굴림에 성공하지 못하면 의도한 말 대신 어떤 비밀을 드러내야 합니다. 언어 마법과 효과는 이미 집중 특성을 가지고 있지 않은 경우 집중 특성을 얻으며, 생물이 이 내성 굴림에 실패하면 낭비됩니다.</p>\n<p>대실패 시, 캐릭터는 위버나 현장에 있는 이들에게 가장 밝히고 싶지 않은 비밀을 배반합니다.</p>"
         },
         "xl1O0kUfXulOZvwB": {
           "name": "신화적 힘",
@@ -532,19 +532,19 @@
         },
         "CGWcm4Diiu9f0nbA": {
           "name": "악몽의 고치",
-          "description": "<p>위버의 거미줄 공격에 맞은 생물은 @Check[reflex|dc:34] 내성 검사에 성공하지 못하면 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{동결} 상태가 됩니다 ([[/act escape dc=34]]). 만약 위버가 이 내성에 실패한 생물에게 1개의 신화 포인트를 무료 행동으로 소비하면, 해당 생물은 추가로 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비} 상태가 됩니다. 가장 깊은 불안의 악몽을 경험합니다. 위버는 지속 행동을 사용하여 이 꿈을 관찰할 수 있으며, 이는 대상이 위버의 주문에 대한 의지 내성 검사를 시도할 때 -2 상황 페널티를 부여합니다. 이 페널티는 위버의 다음 턴 시작까지 지속됩니다. 마비된 피해자의 턴이 끝날 때, 그들은 @Check[will|dc:34] 내성을 시도해 마비 상태를 해제할 수 있습니다(하지만 탈출할 때까지는 여전히 움직일 수 없습니다).</p>"
+          "description": "<p>위버의 거미줄 공격에 맞은 생물은 @Check[reflex|dc:34] 내성 굴림에 성공하지 못하면 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{동결} 상태가 됩니다 ([[/act escape dc=34]]). 만약 위버가 이 내성에 실패한 생물에게 1개의 신화 포인트를 무료 행동으로 소비하면, 해당 생물은 추가로 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비} 상태가 됩니다. 가장 깊은 불안의 악몽을 경험합니다. 위버는 지속 행동을 사용하여 이 꿈을 관찰할 수 있으며, 이는 대상이 위버의 주문에 대한 의지 내성 굴림을 시도할 때 -2 상황 페널티를 부여합니다. 이 페널티는 위버의 다음 턴 시작까지 지속됩니다. 마비된 피해자의 턴이 끝날 때, 그들은 @Check[will|dc:34] 내성을 시도해 마비 상태를 해제할 수 있습니다(하지만 탈출할 때까지는 여전히 움직일 수 없습니다).</p>"
         },
         "z2YzZb7zeh41VhJV": {
           "name": "위버 맹독",
-          "description": "<p><strong>내성 굴림</strong> DC 34</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> 2d10 독 (1 라운드)</p>\n<p><strong>단계 2</strong> 2d10 독과 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1} (2 라운드)</p>\n<p><strong>단계 3</strong> 3d10 독과 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 2} (1 라운드)</p>\n<p><strong>단계 4</strong> 4d10 독 (1 라운드) 및 대상은 위버의 존재를 영구히 잊게 되며, 그녀에 대한 이전 언급도 포함됩니다.</p>"
+          "description": "<p><strong>내성 굴림</strong> DC 34</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>Stage 1</strong> 2d10 독 (1 라운드)</p>\n<p><strong>단계 2</strong> 2d10 독과 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1}(2 라운드)</p>\n<p><strong>단계 3</strong> 3d10 독과 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 2}(1 라운드)</p>\n<p><strong>단계 4</strong> 4d10 독 (1 라운드) 및 대상은 위버의 존재를 영구히 잊게 되며, 그녀에 대한 이전 언급도 포함됩니다.</p>"
         }
       }
     },
     "Verex-That-Was": {
-      "name": "Verex-That-Was",
-      "description": "<h3>로바구그의 피 묻은 자손</h3><p>한때 오크의 신이었던 베렉스-그-이제는 훼손된 살과 뼈로 이루어진 거대한 생물로 변형되었습니다.</p>",
+      "name": "과거였던 자, 베렉스",
+      "description": "<h3>로바구그의 피 묻은 자손</h3><p>한때 오크의 신이었던 과거였던 자, 베렉스는 훼손된 살과 뼈로 이루어진 거대한 생물로 변형되었습니다.</p>",
       "hpdetails": "재생 30 (슬라우스톤 무기로 비활성화됨)",
-      "saves": "신화적 내구성 (모든 내성 검사)",
+      "saves": "신화적 내구성 (모든 내성 굴림)",
       "items": {
         "rh3d7LdJAYjTZRYM": {
           "name": "발톱"
@@ -655,7 +655,7 @@
         },
         "tyORXsrZpDl68qjz": {
           "name": "신화적 내구성",
-          "description": "<p>아기라는 자신의 인내 내성과 반사 내성을 실제보다 한 단계 더 높은 등급으로 처리합니다(즉, 대실패는 실패, 실패는 성공, 성공은 대성공으로 처리됩니다). 캐릭터가 아기라에게 크리티컬 히트를 기록하면, 공격 롤을 다시 굴리고 새로운 결과를 적용해야 합니다.</p>"
+          "description": "<p>아기라는 자신의 인내 내성과 반사 내성을 실제보다 한 단계 더 높은 등급으로 처리합니다(즉, 대실패는 실패, 실패는 성공, 성공은 대성공으로 처리됩니다). 캐릭터가 아기라에게 대성공을 띄우면, 공격 롤을 다시 굴리고 새로운 결과를 적용해야 합니다.</p>"
         },
         "e7l4EXmShMIlfCfe": {
           "name": "눈부신 섬광",
@@ -667,7 +667,7 @@
         },
         "oOuC0cWK8o9RXqgS": {
           "name": "번개 숨결",
-          "description": "<p>아기라는 두 개의 머리에서 각각 전기 선을 내뿜습니다. 각 선은 @Template[line|distance:120|width:10]{120 피트 길이와 10 피트 너비}이며, 두 선은 서로 다른 방향을 가질 수 있습니다. 선 안에 있는 생물은 @Damage[22d6[electricity]|options:area-damage]의 피해를 입습니다 (@Check[reflex|dc:44|basic|options:area-effect] 내성). 내성 검사 실패한 경우, 대상은 [[/gmr 1d4 #rounds]]{1d4 라운드} 동안 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1} 상태가 됩니다. 생물은 중첩된 영역에 있더라도 한 선에 의해 한 번만 영향을 받을 수 있습니다. Agyra의 번개 숨결에 의해 죽은 캐릭터는 사망 후 [[/gmr 2d4 #라운드]]{2d4 라운드} 동안 전기화 상태가 유지됩니다. 이러한 시체에 접촉한 생물은 @Damage[3d6[electricity]] 피해를 입습니다 (내성 불가). Agyra는 [[/gmr 1d4 #라운드]] 동안 번개 숨결을 사용할 수 없습니다.{1d4 라운드} 동안 번개 숨결을 사용할 수 없습니다.</p>"
+          "description": "<p>아기라는 두 개의 머리에서 각각 전기 선을 내뿜습니다. 각 선은 @Template[line|distance:120|width:10]{120 피트 길이와 10 피트 너비}이며, 두 선은 서로 다른 방향을 가질 수 있습니다. 선 안에 있는 생물은 @Damage[22d6[electricity]|options:area-damage]의 피해를 입습니다 (@Check[reflex|dc:44|basic|options:area-effect] 내성). 내성 굴림 실패한 경우, 대상은 [[/gmr 1d4 #rounds]]{1d4 라운드} 동안 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1} 상태가 됩니다. 생물은 중첩된 영역에 있더라도 한 선에 의해 한 번만 영향을 받을 수 있습니다. Agyra의 번개 숨결에 의해 죽은 캐릭터는 사망 후 [[/gmr 2d4 #라운드]]{2d4 라운드} 동안 전기화 상태가 유지됩니다. 이러한 시체에 접촉한 생물은 @Damage[3d6[electricity]] 피해를 입습니다 (내성 불가). Agyra는 [[/gmr 1d4 #라운드]] 동안 번개 숨결을 사용할 수 없습니다.{1d4 라운드} 동안 번개 숨결을 사용할 수 없습니다.</p>"
         },
         "KPiyOSSZLYzEbtPS": {
           "name": "신화적 능력",
