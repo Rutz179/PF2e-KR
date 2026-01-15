@@ -60,7 +60,7 @@
     },
     "Grudge": {
       "name": "원한",
-      "description": "<p>당신의 증오는 너무 강해서 다른 사람의 마음을 압도할 수 있습니다. 당신을 인식하고 있는 30피트 이내의 생물 중 하나를 선택합니다. 그 생물은 당신의 표정이 초자연적으로 왜곡된 증오로 변하는 것을 보고 @Check[will|against:class-spell] 내성 체크를 시도해야 합니다. 당신의 증오는 대상의 마음에서 직접 인식되기 때문에 시각적 특성이 없습니다. 대상이 당신을 볼 수 없는 경우, 당신의 증오는 대상이 쉽게 인식할 수 있는 다른 방식으로 창조됩니다. 당신의 목소리가 대상의 귀에 사악한 속삭임으로 들리거나, 끔찍한 기억을 떠올리게 하는 냄새가 대상에게 퍼질 수도 있습니다. 그러면 그 생물은 24시간 동안 Grudge의 영향을 받지 않습니다. </p> <hr /> <p><strong>대성공</strong> 생물은 영향을 받지 않습니다. </p> <p><strong>성공</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 1}가 됩니다.</p> <p><strong>실패</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 2} 상태가 되고, 충격으로 인해 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{} 충격으로 인해 넘어지고, 두려움 상태가 지속되는 동안 @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{도주} 상태가 됩니다.</p> <p><strong>대실패</strong> 생물은 공포로 기절하여 @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{무의식} 상태가 됩니다. 의식을 잃은 상태가 끝나면 공포 2가 되고 도망치기 시작합니다.</p>"
+      "description": "<p>당신의 증오는 너무 강해서 다른 사람의 마음을 압도할 수 있습니다. 당신을 인식하고 있는 30피트 이내의 생물 중 하나를 선택합니다. 그 생물은 당신의 표정이 초자연적으로 왜곡된 증오로 변하는 것을 보고 @Check[will|against:class-spell] 내성 굴림을 시도해야 합니다. 당신의 증오는 대상의 마음에서 직접 인식되기 때문에 시각적 특성이 없습니다. 대상이 당신을 볼 수 없는 경우, 당신의 증오는 대상이 쉽게 인식할 수 있는 다른 방식으로 창조됩니다. 당신의 목소리가 대상의 귀에 사악한 속삭임으로 들리거나, 끔찍한 기억을 떠올리게 하는 냄새가 대상에게 퍼질 수도 있습니다. 그러면 그 생물은 24시간 동안 Grudge의 영향을 받지 않습니다. </p> <hr /> <p><strong>대성공</strong> 생물은 영향을 받지 않습니다. </p> <p><strong>성공</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 1}가 됩니다.</p> <p><strong>실패</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 2} 상태가 되고, 충격으로 인해 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{} 충격으로 인해 넘어지고, 두려움 상태가 지속되는 동안 @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{도주} 상태가 됩니다.</p> <p><strong>대실패</strong> 생물은 공포로 기절하여 @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{무의식} 상태가 됩니다. 의식을 잃은 상태가 끝나면 공포 2가 되고 도망치기 시작합니다.</p>"
     },
     "Investigate Chamber": {
       "name": "방 조사",
@@ -108,7 +108,7 @@
     },
     "Perception Filter": {
       "name": "지각 필터",
-      "description": "<p><strong>측면</strong> 마음</p> <p><strong>활성화</strong> <span class=\\“action-glyph\\”>2</span> 상상</p> <p><strong>빈도</strong> 하루에 한 번</p> <hr /> <p><strong>효과</strong> 당신의 유물이 주변 생물들의 마음에 도달하여 당신의 존재를 그들의 지각에서 차단합니다. 다음 10분 동안, 당신을 중심으로 @Template[emanation|distance:120]에 들어가는 생물은 비밀 @Check[will|against:class-spell|traits:secret] 내성 체크를 시도해야 하며, 그 후 1일 동안 일시적으로 면역이 됩니다.</p> <p><strong>성공</strong> 생물은 @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} 또는 다른 방법으로 당신을 감지하기 위한 지각 체크에 -2의 상태 페널티를 받습니다. </p> <p><strong>실패</strong> 당신은 생물의 모든 감각을 필터링하여 생물이 당신을 알아차리기 어렵게 만듭니다. 당신이 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨은} 또는 생물에게 탐지되지 않은 상태일 때, 당신은 @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{숨기}, @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{은밀 이동}, 또는 Step을 제외한 어떤 행동을 취해도 생물은 당신을 즉시 관찰하지 않습니다. 그 생물이 당신을 찾거나 다른 방법으로 감지하기 위해 지각 체크를 굴림, 그 결과는 굴린 결과보다 1단계 낮은 성공으로 처리되며, 당신이 숨기거나 몰래 움직이거나 그 생물의 주의를 피하기 위해 은신 체크를 굴림, 그 결과는 그 생물에 대해 굴린 결과보다 1단계 높은 성공으로 처리됩니다. 그 생물에게 적대적인 행동을 사용하면, 당신의 적대적인 행동이 완료된 후 그 생물에 대한 효과가 종료됩니다.</p>"
+      "description": "<p><strong>측면</strong> 마음</p> <p><strong>활성화</strong> <span class=\\“action-glyph\\”>2</span> 상상</p> <p><strong>빈도</strong> 하루에 한 번</p> <hr /> <p><strong>효과</strong> 당신의 유물이 주변 생물들의 마음에 도달하여 당신의 존재를 그들의 지각에서 차단합니다. 다음 10분 동안, 당신을 중심으로 @Template[emanation|distance:120]에 들어가는 생물은 비밀 @Check[will|against:class-spell|traits:secret] 내성 굴림을 시도해야 하며, 그 후 1일 동안 일시적으로 면역이 됩니다.</p> <p><strong>성공</strong> 생물은 @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{Seek} 또는 다른 방법으로 당신을 감지하기 위한 지각 체크에 -2의 상태 페널티를 받습니다. </p> <p><strong>실패</strong> 당신은 생물의 모든 감각을 필터링하여 생물이 당신을 알아차리기 어렵게 만듭니다. 당신이 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨은} 또는 생물에게 탐지되지 않은 상태일 때, 당신은 @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{숨기}, @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{은밀 이동}, 또는 Step을 제외한 어떤 행동을 취해도 생물은 당신을 즉시 관찰하지 않습니다. 그 생물이 당신을 찾거나 다른 방법으로 감지하기 위해 지각 체크를 굴림, 그 결과는 굴린 결과보다 1단계 낮은 성공으로 처리되며, 당신이 숨기거나 몰래 움직이거나 그 생물의 주의를 피하기 위해 은신 체크를 굴림, 그 결과는 그 생물에 대해 굴린 결과보다 1단계 높은 성공으로 처리됩니다. 그 생물에게 적대적인 행동을 사용하면, 당신의 적대적인 행동이 완료된 후 그 생물에 대한 효과가 종료됩니다.</p>"
     },
     "Fey Luck": {
       "name": "페이의 행운",
@@ -148,7 +148,7 @@
     },
     "Chilling Paralysis": {
       "name": "냉기 마비",
-      "description": "<p><strong>발동 빈도</strong> 1시간에 1회</p> <hr /> <p>당신의 손이 닿는 곳은 비정상적인 추위로 근육이 얼어붙고 관절이 마비되어, 피해자는 떨며 움직일 수 없게 됩니다. 근접 무기나 무기를 사용하지 않는 공격을 대상에게 시도하세요. 공격이 적중하면, 공격의 일반 효과에 더해 대상은 @Check[fortitude|against:class-spell] 내성 체크를 시도해야 합니다.</p> <hr /> <p><strong>대성공</strong> 대상은 영향을 받지 않습니다. </p> <p><strong>성공</strong> 초자연적인 추위로 대상이 떨고 떨며, 다음 턴이 끝날 때까지 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐} 상태가 됩니다.</p> <p><strong>실패</strong> 초자연적인 추위가 대상에게 1 라운드 동안 마비 효과를 부여한 후, 그 후 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1} 상태가 됩니다.</p> <p><strong>대실패 대상은 추위에 얼어붙어 1분 동안 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비} 상태가 됩니다. 대상은 자신의 턴이 끝날 때마다 새로운 내성을 시도할 수 있으며, 시도할 때마다 DC는 1씩 누적되어 감소합니다. 대상은 회복되면 1 라운드 동안 속도가 1 감소합니다.</p>"
+      "description": "<p><strong>발동 빈도</strong> 1시간에 1회</p> <hr /> <p>당신의 손이 닿는 곳은 비정상적인 추위로 근육이 얼어붙고 관절이 마비되어, 피해자는 떨며 움직일 수 없게 됩니다. 근접 무기나 무기를 사용하지 않는 공격을 대상에게 시도하세요. 공격이 적중하면, 공격의 일반 효과에 더해 대상은 @Check[fortitude|against:class-spell] 내성 굴림을 시도해야 합니다.</p> <hr /> <p><strong>대성공</strong> 대상은 영향을 받지 않습니다. </p> <p><strong>성공</strong> 초자연적인 추위로 대상이 떨고 떨며, 다음 턴이 끝날 때까지 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐} 상태가 됩니다.</p> <p><strong>실패</strong> 초자연적인 추위가 대상에게 1 라운드 동안 마비 효과를 부여한 후, 그 후 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1} 상태가 됩니다.</p> <p><strong>대실패 대상은 추위에 얼어붙어 1분 동안 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비} 상태가 됩니다. 대상은 자신의 턴이 끝날 때마다 새로운 내성을 시도할 수 있으며, 시도할 때마다 DC는 1씩 누적되어 감소합니다. 대상은 회복되면 1 라운드 동안 속도가 1 감소합니다.</p>"
     },
     "Organize Labor": {
       "name": "노동력 조직",
@@ -348,7 +348,7 @@
     },
     "Curiosity": {
       "name": "호기심",
-      "description": "<p>지식에 대한 욕망은 강력한 동기 부여가 될 수 있습니다. 이 포커스는 주로 세상을 조금 더 보고 싶다는 욕망에 사로잡힌 젊은이들이나 순수한 영혼들에게서 흔히 창조됩니다. 인접한 살아있는 대상에게 손을 뻗어 만지려고 하면, 잠시 동안 손이 무형이 되어 대상의 몸을 통과합니다. 대상은 @Check[will|against:class-spell] 내성 체크를 시도해야 하며, 이 체크에 실패하면 이 능력에 면역이 됩니다.</p> <p><strong>성공</strong> 대상의 막연한 표면적인 생각을 감지하고, 대상의 지능 수정자가 당신보다 높거나, 같거나, 낮은지 알 수 있습니다. 대상은 당신의 정신력의 DC에 대해 @Check[deception|against:class-spell] 체크를 시도할 수 있습니다. 대상이 성공하면, 당신은 답을 알 수 없게 되고, 대성공의 경우, 대상은 당신이 진실이라고 믿는 거짓된 답을 알려줍니다.</p>"
+      "description": "<p>지식에 대한 욕망은 강력한 동기 부여가 될 수 있습니다. 이 포커스는 주로 세상을 조금 더 보고 싶다는 욕망에 사로잡힌 젊은이들이나 순수한 영혼들에게서 흔히 창조됩니다. 인접한 살아있는 대상에게 손을 뻗어 만지려고 하면, 잠시 동안 손이 무형이 되어 대상의 몸을 통과합니다. 대상은 @Check[will|against:class-spell] 내성 굴림을 시도해야 하며, 이 체크에 실패하면 이 능력에 면역이 됩니다.</p> <p><strong>성공</strong> 대상의 막연한 표면적인 생각을 감지하고, 대상의 지능 수정자가 당신보다 높거나, 같거나, 낮은지 알 수 있습니다. 대상은 당신의 정신력의 DC에 대해 @Check[deception|against:class-spell] 체크를 시도할 수 있습니다. 대상이 성공하면, 당신은 답을 알 수 없게 되고, 대성공의 경우, 대상은 당신이 진실이라고 믿는 거짓된 답을 알려줍니다.</p>"
     },
     "Study": {
       "name": "Study",
@@ -524,7 +524,7 @@
     },
     "Rotate the Wheel": {
       "name": "바퀴를 돌리세요",
-      "description": "<p>캐릭터는 바퀴를 돌리는 데 시간이 걸립니다. 이 작업은 매우 피곤하며, 라운드가 끝날 때 PC는 @Check[fortitude|dc:25] 내성 체크를 시도해야 합니다. 이 내성 체크의 DC는 바퀴를 돌리는 시도가 진행될수록 증가합니다. 7회전 완료하면 이 방의 이중문이 열립니다(24시간 후에 자동으로 닫힙니다).</p> <hr /> <p><strong>대성공</strong> 바퀴가 2회전합니다. 바퀴를 돌리는 DC가 1 증가합니다. 바퀴를 돌리는 DC가 1 증가합니다.</p> <p><strong>실패</strong> 캐릭터는 1회전을 완료하지 못합니다. 바퀴를 돌리는 DC가 2 증가합니다. 대실패 바퀴가 풀려서 회전 횟수가 0으로 재설정되고 DC가 25로 재설정됩니다.</p>"
+      "description": "<p>캐릭터는 바퀴를 돌리는 데 시간이 걸립니다. 이 작업은 매우 피곤하며, 라운드가 끝날 때 PC는 @Check[fortitude|dc:25] 내성 굴림을 시도해야 합니다. 이 내성 체크의 DC는 바퀴를 돌리는 시도가 진행될수록 증가합니다. 7회전 완료하면 이 방의 이중문이 열립니다(24시간 후에 자동으로 닫힙니다).</p> <hr /> <p><strong>대성공</strong> 바퀴가 2회전합니다. 바퀴를 돌리는 DC가 1 증가합니다. 바퀴를 돌리는 DC가 1 증가합니다.</p> <p><strong>실패</strong> 캐릭터는 1회전을 완료하지 못합니다. 바퀴를 돌리는 DC가 2 증가합니다. 대실패 바퀴가 풀려서 회전 횟수가 0으로 재설정되고 DC가 25로 재설정됩니다.</p>"
     },
     "Topple Crates": {
       "name": "상자를 넘어뜨리세요",

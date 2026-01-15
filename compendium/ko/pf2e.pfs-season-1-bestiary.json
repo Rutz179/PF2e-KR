@@ -406,7 +406,7 @@
         },
         "CUKPVhRMsAxxAXF2": {
           "name": "무서운 신음",
-          "description": "<p>디겐 쓰룬은 자신의 운명을 한탄하며, @Template[emanation|distance:30]{30 피트} 내에 있는 모든 생명체에게 @Check[will|dc:21] 내성 체크를 시도하도록 강요합니다. 실패하면, 생물은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2}(또는 대실패 시 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 3})가 됩니다. 성공 시, 생물은 이 유령의 공포의 울음소리에 대해 1분 동안 일시적으로 면역이 됩니다.</p>"
+          "description": "<p>디겐 쓰룬은 자신의 운명을 한탄하며, @Template[emanation|distance:30]{30 피트} 내에 있는 모든 생명체에게 @Check[will|dc:21] 내성 굴림을 시도하도록 강요합니다. 실패하면, 생물은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2}(또는 대실패 시 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 3})가 됩니다. 성공 시, 생물은 이 유령의 공포의 울음소리에 대해 1분 동안 일시적으로 면역이 됩니다.</p>"
         }
       }
     },
@@ -611,7 +611,7 @@
         },
         "aVah32hmOgGMFypS": {
           "name": "미아즈마를 내뿜기",
-          "description": "<p>아크시바는 녹색 증기를 내뿜습니다. @Template[cone|distance:15] 내에 있는 모든 생명체는 그녀의 약화시키는 기운의 영향을 받습니다 (평소처럼 내성 체크를 시도합니다). 그녀는 [[/gmr 1d4 #Recharge Exhale Miasma]]{1d4 라운드} 동안 내뿜는 독을 다시 사용할 수 없습니다."
+          "description": "<p>아크시바는 녹색 증기를 내뿜습니다. @Template[cone|distance:15] 내에 있는 모든 생명체는 그녀의 약화시키는 기운의 영향을 받습니다 (평소처럼 내성 굴림을 시도합니다). 그녀는 [[/gmr 1d4 #Recharge Exhale Miasma]]{1d4 라운드} 동안 내뿜는 독을 다시 사용할 수 없습니다."
         }
       }
     },
@@ -803,7 +803,7 @@
         },
         "GuFdSjxJc9byaA8I": {
           "name": "최면 진동",
-          "description": "<p>가시 달린 고치는 Qxal의 텔레파시 강압을 @Template[line|distance:30] 또는 @Template[cone|distance:15]로 전달합니다. 방출 영역에 있는 모든 생물은 @Check[will|dc:18] 내성 체크를 시도해야 합니다. 최면 진동에서 내성 체크에 성공한 생물은 24시간 동안 일시적으로 면역이 됩니다.</p>\n<p><strong>실패 생물은 @UUID[Compendium.pf2e.conditionitems.Item.AdPVzrbaVSRxHFg]{매료됨} 상태가 됩니다. 매료된 동안 생물은 모든 행동을 가시 껍질에 가능한 한 빨리 접근하기 위해 사용해야 하며, 명백한 위험을 피해야 합니다. 생물이 가시 달린 고치에 인접해 있으면, 가시 달린 고치에 가만히 머물러 행동하지 않습니다. </p>\n<p><strong>대실패 실패와 동일하지만, 상태는 자동으로 종료되지 않습니다. 생물은 자신의 턴이 끝날 때마다 새로운 내성을 시도할 수 있습니다. 성공하면 매혹 상태가 종료됩니다. "
+          "description": "<p>가시 달린 고치는 Qxal의 텔레파시 강압을 @Template[line|distance:30] 또는 @Template[cone|distance:15]로 전달합니다. 방출 영역에 있는 모든 생물은 @Check[will|dc:18] 내성 굴림을 시도해야 합니다. 최면 진동에서 내성 체크에 성공한 생물은 24시간 동안 일시적으로 면역이 됩니다.</p>\n<p><strong>실패 생물은 @UUID[Compendium.pf2e.conditionitems.Item.AdPVzrbaVSRxHFg]{매료됨} 상태가 됩니다. 매료된 동안 생물은 모든 행동을 가시 껍질에 가능한 한 빨리 접근하기 위해 사용해야 하며, 명백한 위험을 피해야 합니다. 생물이 가시 달린 고치에 인접해 있으면, 가시 달린 고치에 가만히 머물러 행동하지 않습니다. </p>\n<p><strong>대실패 실패와 동일하지만, 상태는 자동으로 종료되지 않습니다. 생물은 자신의 턴이 끝날 때마다 새로운 내성을 시도할 수 있습니다. 성공하면 매혹 상태가 종료됩니다. "
         }
       }
     },
@@ -979,7 +979,7 @@
         },
         "5zzgF8UZTX326K8t": {
           "name": "무자비한 밀치기",
-          "description": "<p>촙스는 양손 근접 무기로 단일 공격을 합니다. 자신의 크기 이하인 대상을 명중하면, 그 생물은 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 이 상태가 지속되는 동안, 그는 자동으로 @UUID[Compendium.pf2e.action-macros.Macro.yNry1xMZqdWHncbV]{밀기: 운동}을 수행할 수 있으며, 밀기 행동과 동일한 이점(공격이 대성공인 경우 크리티컬 성공 효과 포함)을 얻습니다. Chops가 대상을 따라 이동하는 경우, 그 이동은 반응을 유발하지 않습니다. 이 공격은 다음과 같은 실패 효과가 있습니다.</p>\n<p><strong>실패</strong> 대상은 Chops의 현재 턴이 끝날 때까지 오프 가드가 됩니다."
+          "description": "<p>촙스는 양손 근접 무기로 단일 공격을 합니다. 자신의 크기 이하인 대상을 명중하면, 그 생물은 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 이 상태가 지속되는 동안, 그는 자동으로 @UUID[Compendium.pf2e.action-macros.Macro.yNry1xMZqdWHncbV]{밀기: 운동}을 수행할 수 있으며, 밀기 행동과 동일한 이점(공격이 대성공인 경우 대성공 효과 포함)을 얻습니다. Chops가 대상을 따라 이동하는 경우, 그 이동은 반응을 유발하지 않습니다. 이 공격은 다음과 같은 실패 효과가 있습니다.</p>\n<p><strong>실패</strong> 대상은 Chops의 현재 턴이 끝날 때까지 오프 가드가 됩니다."
         }
       }
     },
@@ -1712,7 +1712,7 @@
         },
         "8W67Bxaonilv5KO0": {
           "name": "미아즈마 내뿜기",
-          "description": "<p>녹색 마녀는 녹색 증기 같은 미아즈마를 내뿜습니다. @Template[cone|distance:15] 내에 있는 모든 생명체는 그녀의 약화시키는 기운의 영향을 받습니다 (평소와 같이 내성 체크를 시도합니다).</p>\n<p>그녀는 [[/gmr 1d4 #Recharge Exhale Miasma]]{1d4 라운드} 동안 Exhale Miasma를 다시 사용할 수 없습니다."
+          "description": "<p>녹색 마녀는 녹색 증기 같은 미아즈마를 내뿜습니다. @Template[cone|distance:15] 내에 있는 모든 생명체는 그녀의 약화시키는 기운의 영향을 받습니다 (평소와 같이 내성 굴림을 시도합니다).</p>\n<p>그녀는 [[/gmr 1d4 #Recharge Exhale Miasma]]{1d4 라운드} 동안 Exhale Miasma를 다시 사용할 수 없습니다."
         }
       }
     },
@@ -2387,7 +2387,7 @@
         },
         "cEfIoUeeMDjfNctl": {
           "name": "음료 투척",
-          "description": "<p>상처받은 도박꾼은 근처의 음료를 잡고 10피트 이내의 생물에게 얼굴에 던집니다. 생물은 @Check[fortitude|dc:15] 내성 체크를 시도해야 하며, 실패하면 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{눈이 부신} 상태가 됩니다 (대실패 시 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명} 상태가 됩니다). 자신의 턴에, 영향을 받은 생물은 상호 작용 행동을 사용하여 눈부심 또는 실명 상태를 끝낼 수 있습니다."
+          "description": "<p>상처받은 도박꾼은 근처의 음료를 잡고 10피트 이내의 생물에게 얼굴에 던집니다. 생물은 @Check[fortitude|dc:15] 내성 굴림을 시도해야 하며, 실패하면 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{눈이 부신} 상태가 됩니다 (대실패 시 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명} 상태가 됩니다). 자신의 턴에, 영향을 받은 생물은 상호 작용 행동을 사용하여 눈부심 또는 실명 상태를 끝낼 수 있습니다."
         }
       }
     },
@@ -2591,7 +2591,7 @@
         },
         "8uoOHgzV0mRLhzhE": {
           "name": "나무 의존형",
-          "description": "<p>드라이드는 단 하나의 거대한 나무와 신비롭게 연결되어 있으며, 그 나무로부터 300피트 이내에 머물러야 합니다. 이 범위를 벗어나면 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} 상태가 되며 회복할 수 없습니다. 그녀는 매시간 @Check[fortitude|dc:18] 내성 체크를 시도하거나 병약 값을 1씩 증가시켜야 합니다 (최대 병약 4까지). 24시간이 지나면 그녀는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1}이 되고, 이 값은 24시간마다 1씩 증가합니다. 드라이드는 24시간 동안의 의식을 수행하여 새로운 나무와 결합할 수 있습니다.</p>"
+          "description": "<p>드라이드는 단 하나의 거대한 나무와 신비롭게 연결되어 있으며, 그 나무로부터 300피트 이내에 머물러야 합니다. 이 범위를 벗어나면 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} 상태가 되며 회복할 수 없습니다. 그녀는 매시간 @Check[fortitude|dc:18] 내성 굴림을 시도하거나 병약 값을 1씩 증가시켜야 합니다 (최대 병약 4까지). 24시간이 지나면 그녀는 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1}이 되고, 이 값은 24시간마다 1씩 증가합니다. 드라이드는 24시간 동안의 의식을 수행하여 새로운 나무와 결합할 수 있습니다.</p>"
         },
         "nu6HxTKMW550KwDx": {
           "name": "나무 융합",
@@ -2906,7 +2906,7 @@
         },
         "ZQ4aZGpHHJJ89Psl": {
           "name": "비터 하베스트",
-          "description": "<p>자두 레시가 썩은 과일로 공격에 명중하면, 대상은 @Check[fortitude|dc:17] 내성 체크를 시도해야 합니다.</p>\n<p><strong>성공</strong> 대상은 영향을 받지 않습니다.</p>\n<p><strong>실패</strong> 대상은 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} 상태가 됩니다. 병든 상태에서 회복하기 위한 내성 굴림에서 성공하면, 1시간 동안 모든 플럼 레시의 쓴 수확에 면역이 됩니다.\n<p><strong>대실패 실패와 동일하며, 대상은 1시간 동안 병든 상태에서 회복하기 위한 모든 내성 굴림에서 -1의 페널티를 받습니다."
+          "description": "<p>자두 레시가 썩은 과일로 공격에 명중하면, 대상은 @Check[fortitude|dc:17] 내성 굴림을 시도해야 합니다.</p>\n<p><strong>성공</strong> 대상은 영향을 받지 않습니다.</p>\n<p><strong>실패</strong> 대상은 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1} 상태가 됩니다. 병든 상태에서 회복하기 위한 내성 굴림에서 성공하면, 1시간 동안 모든 플럼 레시의 쓴 수확에 면역이 됩니다.\n<p><strong>대실패 실패와 동일하며, 대상은 1시간 동안 병든 상태에서 회복하기 위한 모든 내성 굴림에서 -1의 페널티를 받습니다."
         }
       }
     },
@@ -3266,7 +3266,7 @@
         },
         "HWTDoAwAV3h8IO81": {
           "name": "공포의 신음",
-          "description": "<p>디겐 쓰룬은 자신의 운명을 한탄하며, @Template[emanation|distance:30]{30 피트} 내에 있는 모든 생명체에게 @Check[will|dc:21] 내성 체크를 시도하게 합니다. 실패하면, 생물은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2}(또는 대실패 시 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 3})가 됩니다. 성공하면, 생물은 1분 동안 이 유령의 무서운 신음 소리에 일시적으로 면역이 됩니다."
+          "description": "<p>디겐 쓰룬은 자신의 운명을 한탄하며, @Template[emanation|distance:30]{30 피트} 내에 있는 모든 생명체에게 @Check[will|dc:21] 내성 굴림을 시도하게 합니다. 실패하면, 생물은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2}(또는 대실패 시 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 3})가 됩니다. 성공하면, 생물은 1분 동안 이 유령의 무서운 신음 소리에 일시적으로 면역이 됩니다."
         }
       }
     },
@@ -3326,7 +3326,7 @@
         },
         "VjkGsLeNr9G8Zjc1": {
           "name": "환각을 일으키는 비늘 가루",
-          "description": "<p>30 피트. Qxal의 날개에서 비늘 가루처럼 떨어지는 요정의 마법이 환각을 일으킵니다. 오라에 들어오거나 그 지역에서 턴을 시작하는 생물은 @Check[will|dc:21] 내성 체크를 시도해야 합니다.</p>\n<p><strong>성공</strong> 생물은 영향을 받지 않습니다. </p>\n<p><strong>실패</strong> 생물은 자신의 고향에 서식하는 식물이나 동물로 변하기 시작하는 환각을 보게 됩니다. @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1}, @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 1} 또는 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1}로 변합니다. 이 상태는 1시간 동안 지속됩니다. 이 내성에 실패할 때마다 Qxal은 추가 상태를 선택할 수 있습니다. @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 2}, 또는 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 2}).</p>"
+          "description": "<p>30 피트. Qxal의 날개에서 비늘 가루처럼 떨어지는 요정의 마법이 환각을 일으킵니다. 오라에 들어오거나 그 지역에서 턴을 시작하는 생물은 @Check[will|dc:21] 내성 굴림을 시도해야 합니다.</p>\n<p><strong>성공</strong> 생물은 영향을 받지 않습니다. </p>\n<p><strong>실패</strong> 생물은 자신의 고향에 서식하는 식물이나 동물로 변하기 시작하는 환각을 보게 됩니다. @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1}, @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 1} 또는 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1}로 변합니다. 이 상태는 1시간 동안 지속됩니다. 이 내성에 실패할 때마다 Qxal은 추가 상태를 선택할 수 있습니다. @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 2}, 또는 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 2}).</p>"
         },
         "osgMDgbEHzO0FStB": {
           "name": "전복",
@@ -3528,7 +3528,7 @@
         },
         "KPfQHBfNzT4tVt5Z": {
           "name": "숨겨진 이동",
-          "description": "<p>Gwibble가 자신의 턴을 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{Undetected} 상태로 시작하거나 단순히 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} 그 생물은 Gwibble의 턴이 끝날 때까지 Gwibble의 공격에 대해 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 됩니다. "
+          "description": "<p>Gwibble가 자신의 턴을 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{탐지 불가} 상태로 시작하거나 단순히 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} 그 생물은 Gwibble의 턴이 끝날 때까지 Gwibble의 공격에 대해 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 됩니다. "
         },
         "cG1xtYEwGsdMr5Vc": {
           "name": "암습",
@@ -3585,7 +3585,7 @@
         },
         "up8Xcig2FrwgbFfb": {
           "name": "무서운 울음소리",
-          "description": "<p>보가드 전사는 무서운 울음소리를 내뱉습니다. @Template[emanation|distance:30]{30 피트} 내에 있는 보가드가 아닌 모든 생물은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}이 됩니다. @Check[will|dc:18] 내성 굴림에 성공하지 않는 한 말입니다.</p>\n<p>크리티컬 성공한 자들은 1분 동안 일시적으로 면역됩니다.</p>"
+          "description": "<p>보가드 전사는 무서운 울음소리를 내뱉습니다. @Template[emanation|distance:30]{30 피트} 내에 있는 보가드가 아닌 모든 생물은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}이 됩니다. @Check[will|dc:18] 내성 굴림에 성공하지 않는 한 말입니다.</p>\n<p>대성공한 자들은 1분 동안 일시적으로 면역됩니다.</p>"
         },
         "MEAPfylvHHHbTqOf": {
           "name": "혀로 잡기",
@@ -3815,7 +3815,7 @@
         },
         "VjkGsLeNr9G8Zjc1": {
           "name": "환각 비늘 가루",
-          "description": "<p>30 피트. Qxal의 날개에서 비늘 가루처럼 떨어지는 요정의 마법이 환각을 일으킵니다. 오라에 들어오거나 그 영역에서 턴을 시작하는 생물은 @Check[will|dc:23] 내성 체크를 시도해야 합니다. </p>\n<hr />\n<p><strong>대성공</strong> 생물은 영향을 받지 않으며 24시간 동안 비늘 가루에 일시적으로 면역이 됩니다.</p>\n<p><strong>성공</strong> 생물은 영향을 받지 않습니다. </p>\n<p><strong>실패</strong> 생물은 자신의 고향에 서식하는 식물이나 동물로 변하기 시작하는 환각을 보고, @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1}, @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 1} 또는 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1}로 변합니다. 이 상태는 1시간 동안 지속됩니다. 이 내성 굴림에 실패할 때마다, Qxal은 추가적인 상태를 선택할 수 있습니다. @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 2}, 또는 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 2}).</p>"
+          "description": "<p>30 피트. Qxal의 날개에서 비늘 가루처럼 떨어지는 요정의 마법이 환각을 일으킵니다. 오라에 들어오거나 그 영역에서 턴을 시작하는 생물은 @Check[will|dc:23] 내성 굴림을 시도해야 합니다. </p>\n<hr />\n<p><strong>대성공</strong> 생물은 영향을 받지 않으며 24시간 동안 비늘 가루에 일시적으로 면역이 됩니다.</p>\n<p><strong>성공</strong> 생물은 영향을 받지 않습니다. </p>\n<p><strong>실패</strong> 생물은 자신의 고향에 서식하는 식물이나 동물로 변하기 시작하는 환각을 보고, @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1}, @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 1} 또는 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1}로 변합니다. 이 상태는 1시간 동안 지속됩니다. 이 내성 굴림에 실패할 때마다, Qxal은 추가적인 상태를 선택할 수 있습니다. @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 2}, 또는 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 2}).</p>"
         },
         "osgMDgbEHzO0FStB": {
           "name": "전복",
@@ -4041,7 +4041,7 @@
         },
         "GuFdSjxJc9byaA8I": {
           "name": "Hypnotic Thrum",
-          "description": "<p>가시 달린 고치는 Qxal의 텔레파시 강압을 @Template[line|distance:30] 또는 @Template[cone|distance:15]로 전달합니다. 방출 범위 내에 있는 모든 생물은 @Check[will|dc:21] 내성 체크를 시도해야 합니다. Hypnotic Thrum에 대한 내성 굴림에 성공한 생물은 24시간 동안 일시적으로 면역이 됩니다.</p>\n<p><strong>실패 생물은 @UUID[Compendium.pf2e.conditionitems.Item.AdPVzrbaVSRxHFg]{매료됨} 상태가 됩니다. 매료된 동안 생물은 각 행동을 가시 껍질에 가능한 한 빨리 접근하기 위해 사용해야 하며, 명백한 위험을 피해야 합니다. 생물이 가시 달린 고치에 인접해 있는 경우, 가시 달린 고치에 가만히 머물러 행동하지 않습니다."
+          "description": "<p>가시 달린 고치는 Qxal의 텔레파시 강압을 @Template[line|distance:30] 또는 @Template[cone|distance:15]로 전달합니다. 방출 범위 내에 있는 모든 생물은 @Check[will|dc:21] 내성 굴림을 시도해야 합니다. Hypnotic Thrum에 대한 내성 굴림에 성공한 생물은 24시간 동안 일시적으로 면역이 됩니다.</p>\n<p><strong>실패 생물은 @UUID[Compendium.pf2e.conditionitems.Item.AdPVzrbaVSRxHFg]{매료됨} 상태가 됩니다. 매료된 동안 생물은 각 행동을 가시 껍질에 가능한 한 빨리 접근하기 위해 사용해야 하며, 명백한 위험을 피해야 합니다. 생물이 가시 달린 고치에 인접해 있는 경우, 가시 달린 고치에 가만히 머물러 행동하지 않습니다."
         }
       }
     },
@@ -4327,7 +4327,7 @@
         },
         "n1960SvW9XyzQmK6": {
           "name": "잔인한 밀치기",
-          "description": "<p>반란군 브루트는 양손 근접 무기로 단일 공격을 합니다. 반란군 브루트가 자신과 같은 크기 이하의 대상을 명중하면, 그 생물은 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 이 되고, 브루트는 자동으로 @UUID[Compendium.pf2e.action-macros.Macro.yNry1xMZqdWHncbV]{Shove: Athletics}를 수행할 수 있으며, 이 경우 Shove 액션과 동일한 이점(공격이 대성공인 경우 크리티컬 성공 효과 포함)을 얻습니다. 브루트가 대상을 따라 이동하는 경우, 그 이동은 반응을 유발하지 않습니다. 이 공격은 다음과 같은 실패 효과가 있습니다. 이 공격이 실패하면, 대상은 엘리트 반란군 브루트의 현재 턴이 끝날 때까지 오프 가드가 됩니다. "
+          "description": "<p>반란군 브루트는 양손 근접 무기로 단일 공격을 합니다. 반란군 브루트가 자신과 같은 크기 이하의 대상을 명중하면, 그 생물은 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 이 되고, 브루트는 자동으로 @UUID[Compendium.pf2e.action-macros.Macro.yNry1xMZqdWHncbV]{Shove: Athletics}를 수행할 수 있으며, 이 경우 Shove 액션과 동일한 이점(공격이 대성공인 경우 대성공 효과 포함)을 얻습니다. 브루트가 대상을 따라 이동하는 경우, 그 이동은 반응을 유발하지 않습니다. 이 공격은 다음과 같은 실패 효과가 있습니다. 이 공격이 실패하면, 대상은 엘리트 반란군 브루트의 현재 턴이 끝날 때까지 오프 가드가 됩니다. "
         }
       }
     },
@@ -4381,7 +4381,7 @@
         },
         "QI6n6Fz9snAcIgw9": {
           "name": "마비",
-          "description": "<p>구울의 공격을 받은 엘프가 아닌 모든 생명체는 @Check[fortitude|dc:18] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비} 상태가 됩니다. 각 턴이 끝날 때마다 새로운 내성 체크를 시도할 수 있으며, 이러한 내성 체크에 성공할 때마다 DC는 1씩 누적적으로 감소합니다. </p>"
+          "description": "<p>구울의 공격을 받은 엘프가 아닌 모든 생명체는 @Check[fortitude|dc:18] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비} 상태가 됩니다. 각 턴이 끝날 때마다 새로운 내성 굴림을 시도할 수 있으며, 이러한 내성 체크에 성공할 때마다 DC는 1씩 누적적으로 감소합니다. </p>"
         },
         "i6eC5s4d2lMzxAld": {
           "name": "빠른 도약",
@@ -4476,7 +4476,7 @@
       "items": {
         "e6gQA5jXDMbCKyDj": {
           "name": "주의 분산",
-          "description": "<p>개구리 무리의 영역 내에 있는 모든 생명체는 @Check[will|dc:12] 내성 체크를 시도해야 합니다. 이 내성 굴림에 실패한 인간형 생물은 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{기절 1} 상태가 됩니다(대실패 시 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{기절 2} 상태가 됩니다). 동물은 내성에 성공하면 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1} 상태가 되고, @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2} 실패 시 @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{도망} 상태가 되고, 대실패 시 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{겁에 질린 3} 상태가 되고 도망칩니다."
+          "description": "<p>개구리 무리의 영역 내에 있는 모든 생명체는 @Check[will|dc:12] 내성 굴림을 시도해야 합니다. 이 내성 굴림에 실패한 인간형 생물은 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{기절 1} 상태가 됩니다(대실패 시 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{기절 2} 상태가 됩니다). 동물은 내성에 성공하면 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1} 상태가 되고, @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2} 실패 시 @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{도망} 상태가 되고, 대실패 시 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{겁에 질린 3} 상태가 되고 도망칩니다."
         }
       }
     },

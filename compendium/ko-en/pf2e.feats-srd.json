@@ -6147,7 +6147,7 @@
     },
     "Unseen Shot": {
       "name": "보이지 않는 사격(Unseen Shot)",
-      "description": "<p>당신의 공격은 치명적이고, 소리 없이 이루어지며, 거의 추적할 수 없습니다. 매 라운드마다 처음으로 타깃에 강타하려고 시도할 때마다 당신은 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{감지되지 않은} 상태이거나 @UUID[Compendium.pf2e.conditionitems.Item.9evPzg9E6muFcoSk]{눈치채지 못함} 상태가 됩니다. 이 아키타입에서 익숙한 무기를 사용할 경우, 공격 후 대상은 공격이 어디서 왔는지 알 수 없어 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨기기} 상태가 됩니다.</p>",
+      "description": "<p>당신의 공격은 치명적이고, 소리 없이 이루어지며, 거의 추적할 수 없습니다. 매 라운드마다 처음으로 타깃에 강타하려고 시도할 때마다 당신은 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{탐지 불가} 상태이거나 @UUID[Compendium.pf2e.conditionitems.Item.9evPzg9E6muFcoSk]{눈치채지 못함} 상태가 됩니다. 이 아키타입에서 익숙한 무기를 사용할 경우, 공격 후 대상은 공격이 어디서 왔는지 알 수 없어 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨기기} 상태가 됩니다.</p>",
       "traits": [
         "archetype"
       ]
@@ -7935,7 +7935,7 @@
     },
     "Empowered Onslaught": {
       "name": "강화된 맹공(Empowered Onslaught)",
-      "description": "<p><strong>발동 빈도</strong> 라운드당 1회</p>\n<p><strong>발동 조건 </strong> 치명타를 성공시키고 전투 오라를 유지한다.</p><hr /><p>신체와 정신이 완벽히 조화를 이루고 한계까지 밀어붙일 때, 더 큰 결과를 만들어낼 수 있다. 전투 포커스를 전투 오라의 힘으로 집중시킨다. 보유한 활성 전투 오라 중 하나를 선택한다. 해당 전투 오라의 상태 보너스 또는 페널티가 1 증가하며, 최대 4까지 상승한다. 이 값은 오라 지속 시간 동안 유지된다.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.ik5QuOpF0IO275Nm] {효과: 강화된 맹공}</p>",
+      "description": "<p><strong>발동 빈도</strong> 라운드당 1회</p>\n<p><strong>발동 조건 </strong> 치명타를 성공시키고 전투 오라를 유지한다.</p><hr /><p>신체와 정신이 완벽히 조화를 이루고 한계까지 밀어붙일 때, 더 큰 결과를 만들어낼 수 있다. 전투 포커스를 전투 오라의 힘으로 집중시킨다. 보유한 활성 전투 오라 중 하나를 선택한다. 해당 전투 오라의 상태 보너스 또는 페널티가 1 증가하며, 최대 4까지 상승한다. 이 값은 오라 지속 시간 동안 유지된다.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.ik5QuOpF0IO275Nm]{효과: 강화된 맹공}</p>",
       "traits": [
         "archetype"
       ]
@@ -20683,7 +20683,7 @@
     },
     "Energy Blessed": {
       "name": "에너지 축복(Energy Blessed)",
-      "description": "<p>에너지가 혈류를 통해 더욱 강력하게 흐릅니다. 에너지 발산 사용 시, @Template[emanation|distance:5]{5피트}, @Template[emanation|distance:10]{10피트}, 또는 @Template[emanation|distance:15] {15피트}의 에너지 방출을 생성할 수 있습니다. 피해는 1레벨당 1d6 + 추가 1d6이 아닌, (9th) 이상일 경우 레벨당 6d6 + 추가 1d6으로 증가합니다.</p>",
+      "description": "<p>에너지가 혈류를 통해 더욱 강력하게 흐릅니다. 에너지 발산 사용 시, @Template[emanation|distance:5]{5피트}, @Template[emanation|distance:10]{10피트}, 또는 @Template[emanation|distance:15]{15피트}의 에너지 방출을 생성할 수 있습니다. 피해는 1레벨당 1d6 + 추가 1d6이 아닌, (9th) 이상일 경우 레벨당 6d6 + 추가 1d6으로 증가합니다.</p>",
       "rules": [
         {
           "key": "DamageAlteration",
@@ -22667,7 +22667,7 @@
     },
     "See the Unseen": {
       "name": "보이지 않는 것을 보라(See the Unseen)",
-      "description": "<p>당신은 다른 이들이 전혀 볼 수 없는 것들을 알아챈다. 당신이 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{탐지되지 않음} 상태의 동급 이하 생물과 인접해 있을 때, 그 생물은 당신에게 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨겨진} 상태로만 인식된다. 숨겨진 생물을 표적으로 삼으려면 @Check[flat|dc:5]의 성공만 하면 됩니다.</p>",
+      "description": "<p>당신은 다른 이들이 전혀 볼 수 없는 것들을 알아챈다. 당신이 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{탐지 불가} 상태의 동급 이하 생물과 인접해 있을 때, 그 생물은 당신에게 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨겨진} 상태로만 인식된다. 숨겨진 생물을 표적으로 삼으려면 @Check[flat|dc:5]의 성공만 하면 됩니다.</p>",
       "traits": [
         "goloma"
       ]
@@ -24157,7 +24157,7 @@
     },
     "Vicious Critique": {
       "name": "악의적인 비평(Vicious Critique)",
-      "description": "<p><strong>트리거</strong> 상인이나 제작자를 @UUID[Compendium.pf2e.actionspf2e.Item.tHCqgwjtQtzNqVvd]{강요}하려고 시도합니다.</p>\n<hr />\n<p>당신은 세부 사항을 꼼꼼히 살피고 결점을 지적하는 데 능숙하여, 킹스 하트의 상인과 장인들을 설득해 도움을 받기 더욱 수월합니다. 강요에 유용할 만한 것을 찾기 위해 트리거링 생물의 상품을 재빨리 분석하고 제작 체크를 시도합니다.</p>\n<hr />\n<p><strong>대성공</strong> 당신은 활용할 만한 자료가 풍부하여 분석으로 상대를 충격에 빠뜨릴 수 있습니다. 협박 체크에서 성공을 굴렸다면 대성공으로 대체됩니다. 크리티컬 실패를 굴렸다면 실패로 대체됩니다.</p>\n<p><strong>성공</strong> 대성공과 동일하나, 협박 체크에서 성공을 굴릴 때만 이점을 얻습니다.</p>\n<p><strong>실패</strong> 상품을 잘못 판단하여 무지하고 덜 위협적으로 보입니다. {강요} 위의 협박 체크 시 상황 페널티 -1을 받습니다.</p>\n<p><strong>대실패</strong> 실패와 동일하나 페널티는 -2입니다.</p>",
+      "description": "<p><strong>트리거</strong> 상인이나 제작자를 @UUID[Compendium.pf2e.actionspf2e.Item.tHCqgwjtQtzNqVvd]{강요}하려고 시도합니다.</p>\n<hr />\n<p>당신은 세부 사항을 꼼꼼히 살피고 결점을 지적하는 데 능숙하여, 킹스 하트의 상인과 장인들을 설득해 도움을 받기 더욱 수월합니다. 강요에 유용할 만한 것을 찾기 위해 트리거링 생물의 상품을 재빨리 분석하고 제작 체크를 시도합니다.</p>\n<hr />\n<p><strong>대성공</strong> 당신은 활용할 만한 자료가 풍부하여 분석으로 상대를 충격에 빠뜨릴 수 있습니다. 협박 체크에서 성공을 굴렸다면 대성공으로 대체됩니다. 대실패를 굴렸다면 실패로 대체됩니다.</p>\n<p><strong>성공</strong> 대성공과 동일하나, 협박 체크에서 성공을 굴릴 때만 이점을 얻습니다.</p>\n<p><strong>실패</strong> 상품을 잘못 판단하여 무지하고 덜 위협적으로 보입니다. {강요} 위의 협박 체크 시 상황 페널티 -1을 받습니다.</p>\n<p><strong>대실패</strong> 실패와 동일하나 페널티는 -2입니다.</p>",
       "traits": [
         "general",
         "skill"
@@ -24697,7 +24697,7 @@
     },
     "Sense the Unseen": {
       "name": "보이지 않는 것을 감지하다(Sense the Unseen)",
-      "description": "<p><strong>발동</strong> @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{탐색} 체크 실패 시.</p><hr /><p>적들을 찾을 때, 당신은 그들의 미세한 움직임이나 피부에 스치는 공기 흐름 같은 아주 작은 단서까지도 포착할 수 있습니다. 트리거링 체크에 실패했더라도, 탐색 중인 영역에 있는 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{발견되지 않은} 생물들은 자동으로 감지되어 당신에게 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{은폐된} 상태로만 인식됩니다.</p>",
+      "description": "<p><strong>발동</strong> @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{탐색} 체크 실패 시.</p><hr /><p>적들을 찾을 때, 당신은 그들의 미세한 움직임이나 피부에 스치는 공기 흐름 같은 아주 작은 단서까지도 포착할 수 있습니다. 트리거링 체크에 실패했더라도, 탐색 중인 영역에 있는 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{탐지 불가} 생물들은 자동으로 감지되어 당신에게 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{은폐된} 상태로만 인식됩니다.</p>",
       "traits": [
         "investigator",
         "ranger",
@@ -28527,7 +28527,7 @@
     },
     "Expert Drill Sergeant": {
       "name": "전문 훈련 교관(Expert Drill Sergeant)",
-      "description": "<p>탐험 중, 당신이 선두에 서 있고 동료들이 @UUID[Compendium.pf2e.actionspf2e.Item.tfa4Sh7wcxCEqL29] {전문가를 따르는 경우}, 해당 기술에 +2 상황 보너스를 부여하는 대신, 당신이 전문가라면 +3 상황 보너스를, 마스터라면 +4 상황 보너스를 부여합니다.</p>",
+      "description": "<p>탐험 중, 당신이 선두에 서 있고 동료들이 @UUID[Compendium.pf2e.actionspf2e.Item.tfa4Sh7wcxCEqL29]{전문가를 따르는 경우}, 해당 기술에 +2 상황 보너스를 부여하는 대신, 당신이 전문가라면 +3 상황 보너스를, 마스터라면 +4 상황 보너스를 부여합니다.</p>",
       "traits": [
         "hobgoblin"
       ]
@@ -29391,7 +29391,7 @@
     },
     "Emissary Familiar": {
       "name": "사절의 패밀리어(Emissary Familiar)",
-      "description": "<p> 당신은 영혼과 신비로운 유대를 형성하거나 자신의 영혼 조각으로 영혼을 창조합니다. 패밀리어를 얻습니다. 이미 패밀리어가 있다면 @UUID[Compendium.pf2e.feats-srd.Item.N7dTFxpjXGn4ddq8] {강화된 수호자} 피트.</p>\n<p>당신의 패밀리어는 매일 두 가지 추가 패밀리어 능력을 얻으며, 그중 하나는 반드시 @UUID[Compendium.pf2e.familiar-abilities.Item.jPvjeX1CsUZQSszu]{영혼 동기화}를 선택하는 데 사용해야 합니다.</p>",
+      "description": "<p> 당신은 영혼과 신비로운 유대를 형성하거나 자신의 영혼 조각으로 영혼을 창조합니다. 패밀리어를 얻습니다. 이미 패밀리어가 있다면 @UUID[Compendium.pf2e.feats-srd.Item.N7dTFxpjXGn4ddq8]{강화된 수호자} 피트.</p>\n<p>당신의 패밀리어는 매일 두 가지 추가 패밀리어 능력을 얻으며, 그중 하나는 반드시 @UUID[Compendium.pf2e.familiar-abilities.Item.jPvjeX1CsUZQSszu]{영혼 동기화}를 선택하는 데 사용해야 합니다.</p>",
       "rules": [
         {
           "key": "GrantItem",
@@ -30404,7 +30404,7 @@
     },
     "Spiritual Sense": {
       "name": "영적 감각(Spiritual Sense)",
-      "description": "<p>당신은 에테르계와 희미한 연결고리를 지녀 영혼을 감지할 수 있습니다. 탐색 중이지만 탐색 기술을 사용하지 않을 때, GM은 비밀 체크를 굴려 일반적으로 탐색 기술이 필요한 유령, 영혼, 에테르계의 생물, 천상체 존재, 핀드, 모니터 등 순수 영적 본질로 이루어진 존재들을 발견할 수 있게 합니다.</p>\n<p>또한 고체 물체 내부에 있는 에테리얼 생물이나 영혼을 감지할 수도 있습니다. 단, 그 대상이 당신으로부터 30피트 이내에 있어야 합니다. 이 능력은 탐색 중, 추적 중, 그리고 탐색 중이 아니더라도 탐험 시 자동으로 얻는 비밀 발견 체크 시에도 적용됩니다. 영혼은 성공적인 체크에서만 감지할 수 있으며, 물체 내부 5피트 이상 깊이에는 보이지 않습니다. 이 감각으로 생물을 감지하면 그 위치도 알게 되며, 해당 생물이 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{탐지되지 않은 상태}였다면 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨겨진 상태}로 전환됩니다.</p>",
+      "description": "<p>당신은 에테르계와 희미한 연결고리를 지녀 영혼을 감지할 수 있습니다. 탐색 중이지만 탐색 기술을 사용하지 않을 때, GM은 비밀 체크를 굴려 일반적으로 탐색 기술이 필요한 유령, 영혼, 에테르계의 생물, 천상체 존재, 핀드, 모니터 등 순수 영적 본질로 이루어진 존재들을 발견할 수 있게 합니다.</p>\n<p>또한 고체 물체 내부에 있는 에테리얼 생물이나 영혼을 감지할 수도 있습니다. 단, 그 대상이 당신으로부터 30피트 이내에 있어야 합니다. 이 능력은 탐색 중, 추적 중, 그리고 탐색 중이 아니더라도 탐험 시 자동으로 얻는 비밀 발견 체크 시에도 적용됩니다. 영혼은 성공적인 체크에서만 감지할 수 있으며, 물체 내부 5피트 이상 깊이에는 보이지 않습니다. 이 감각으로 생물을 감지하면 그 위치도 알게 되며, 해당 생물이 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{탐지 불가 상태}였다면 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨겨진 상태}로 전환됩니다.</p>",
       "traits": [
         "divine",
         "oracle"
@@ -32966,7 +32966,7 @@
     },
     "Enjoy the Show": {
       "name": "쇼를 즐겨라(Enjoy the Show)",
-      "description": "<p>당신은 아군이나 전투를 지켜보는 이들에게 말을 걸며, 적들에게 그들이 얼마나 신경 쓸 가치가 없는 존재인지 과시합니다. 당신이 @Check[performance|traits:action:perform,bravado] {공연} 시, 30피트 내의 단일 생물을 선택하여 일반 결과 대신 다음 성공, 대성공, 대실패 효과를 사용할 수 있다. 이때 공연에는 브라바도와 함께 연설의 청각 및 언어 특성이 정상적으로 부여된다.</p><hr /><p> <strong>대성공</strong> 대상은 다음 차례가 끝날 때까지 당신 이외의 생물에게 공격 굴림에서 -2 상황 페널티를 받습니다. </p>\n<p><strong>성공</strong> 대상은 다음 턴이 끝날 때까지 당신 이외의 생물에게 공격 굴림에 -1 상황 페널티를 받습니다.</p>\n<p><strong>대실패</strong> 대상은 다음 턴이 끝날 때까지 당신을 대상으로 하는 공격 굴림에 +1 상황 보너스를 얻습니다.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.4USRFNH06dwOlgL5]{효과: 쇼를 즐겨라} </p>",
+      "description": "<p>당신은 아군이나 전투를 지켜보는 이들에게 말을 걸며, 적들에게 그들이 얼마나 신경 쓸 가치가 없는 존재인지 과시합니다. 당신이 @Check[performance|traits:action:perform,bravado]{공연} 시, 30피트 내의 단일 생물을 선택하여 일반 결과 대신 다음 성공, 대성공, 대실패 효과를 사용할 수 있다. 이때 공연에는 브라바도와 함께 연설의 청각 및 언어 특성이 정상적으로 부여된다.</p><hr /><p> <strong>대성공</strong> 대상은 다음 차례가 끝날 때까지 당신 이외의 생물에게 공격 굴림에서 -2 상황 페널티를 받습니다. </p>\n<p><strong>성공</strong> 대상은 다음 턴이 끝날 때까지 당신 이외의 생물에게 공격 굴림에 -1 상황 페널티를 받습니다.</p>\n<p><strong>대실패</strong> 대상은 다음 턴이 끝날 때까지 당신을 대상으로 하는 공격 굴림에 +1 상황 보너스를 얻습니다.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.4USRFNH06dwOlgL5]{효과: 쇼를 즐겨라} </p>",
       "traits": [
         "swashbuckler"
       ]
@@ -33274,7 +33274,7 @@
     },
     "Executioner Weapon Training": {
       "name": "처형자 무기 숙련(Executioner Weapon Training)",
-      "description": "<p> 회색 정원사 훈련을 통해 목을 재빠르게 베어 처형하는 무기에 능숙해졌습니다. 다음 무기에 숙련됩니다: @UUID[Compendium.pf2e.equipment-srd.Item.War0uyLBx1jA0Ge7]{전투 도끼}, @UUID[Compendium.pf2e.equipment-srd.Item.XGtIUZ4ZNKuFx1uL]{팔치온}, @UUID[Compendium.pf2e.equipment-srd.Item.8COlYvHe6hKCXY8x]{대도끼}, @UUID[Compendium.pf2e.equipment-srd.Item.grmaV4GdoGD7sKbn] {시미터}.</p>\n<p>특정 무기나 무기들에 대해 전문가 이상의 숙련도를 부여하는 클래스 특성을 획득할 때마다, 이 무기들에 대해서도 동일한 숙련도를 획득합니다.</p>",
+      "description": "<p> 회색 정원사 훈련을 통해 목을 재빠르게 베어 처형하는 무기에 능숙해졌습니다. 다음 무기에 숙련됩니다: @UUID[Compendium.pf2e.equipment-srd.Item.War0uyLBx1jA0Ge7]{전투 도끼}, @UUID[Compendium.pf2e.equipment-srd.Item.XGtIUZ4ZNKuFx1uL]{팔치온}, @UUID[Compendium.pf2e.equipment-srd.Item.8COlYvHe6hKCXY8x]{대도끼}, @UUID[Compendium.pf2e.equipment-srd.Item.grmaV4GdoGD7sKbn]{시미터}.</p>\n<p>특정 무기나 무기들에 대해 전문가 이상의 숙련도를 부여하는 클래스 특성을 획득할 때마다, 이 무기들에 대해서도 동일한 숙련도를 획득합니다.</p>",
       "rules": [
         {
           "key": "ActiveEffectLike",
@@ -37270,7 +37270,7 @@
     },
     "Hidden Paragon": {
       "name": "숨겨진 파라곤(Hidden Paragon)",
-      "description": "<p><strong>발동 빈도</strong> 시간당 1회</p>\n<p><strong>발동</strong> 은신 기술을 성공해 @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{숨김} 상태가 되어 현재의 모든 적에게 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{은신} 상태가 되거나, 은신 기술을 사용해 @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{은밀 이동}하여 현재 모든 적에게 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{탐지되지 않음} 상태가 됩니다.</p>\n<hr />\n<p>시야에서 사라지면 당신은 1분 동안 @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{투명화} 상태가 됩니다. 적대적 행동을 사용해도 마찬가지입니다. @UUID[Compendium.pf2e.spells-srd.Item.0qaqksrGGDj74HXE]{발견의 빛}, @UUID[Compendium.pf2e.spells-srd.Item.jwK43yKsHTkJQvQ9]{보이지 않는 것 보기} 또는 유사한 효과조차도 당신을 드러낼 수 없지만, 생물들은 여전히 @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{찾기} 행동을 사용하여 평소처럼 당신을 찾을 수 있습니다.</p>",
+      "description": "<p><strong>발동 빈도</strong> 시간당 1회</p>\n<p><strong>발동</strong> 은신 기술을 성공해 @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{숨김} 상태가 되어 현재의 모든 적에게 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{은신} 상태가 되거나, 은신 기술을 사용해 @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{은밀 이동}하여 현재 모든 적에게 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{탐지 불가} 상태가 됩니다.</p>\n<hr />\n<p>시야에서 사라지면 당신은 1분 동안 @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{투명화} 상태가 됩니다. 적대적 행동을 사용해도 마찬가지입니다. @UUID[Compendium.pf2e.spells-srd.Item.0qaqksrGGDj74HXE]{발견의 빛}, @UUID[Compendium.pf2e.spells-srd.Item.jwK43yKsHTkJQvQ9]{보이지 않는 것 보기} 또는 유사한 효과조차도 당신을 드러낼 수 없지만, 생물들은 여전히 @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{찾기} 행동을 사용하여 평소처럼 당신을 찾을 수 있습니다.</p>",
       "traits": [
         "rogue"
       ]
@@ -45998,7 +45998,7 @@
     },
     "Blowgun Poisoner": {
       "name": "블로우건 독살자(Blowgun Poisoner)",
-      "description": "<p>당신은 @UUID[Compendium.pf2e.equipment-srd.Item.FPwsiGqMCNPLHmjX]{블로우건}으로 독을 능숙하게 전달할 수 있습니다. 당신의 블로우건 @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{공격}은 생물의 저항으로 인해 피해를 입히지 못하더라도 상처 독을 적용할 수 있습니다. 독이 묻은 다트를 사용한 블로우건 타격에 대성공 시, 대상의 초기 독 내성 굴림 성공 확률은 생물이 굴린 결과보다 한 단계 낮아집니다. 이는 불운 효과입니다.</p>\n<p>또한, @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨기} 상태나 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{탐지되지 않음} 상태에서 블로우건 공격을 강타할 경우, 자동으로 @UUID[Compendium.pf2e.conditionitems.Item.1wQY3JYyhMYeeV2G]{발견됨} 상태가 되지 않습니다. 대신 즉시 대상의 지각 DC에 대한 @Check[stealth|against:perception] 체크를 시도한다. 성공하면 관찰되지 않은 상태가 되지 않으며, 은신 상태가 된다(미탐지 상태였다면 여전히 은신 상태가 되며 미탐지 상태로 남지 않는다).</p>",
+      "description": "<p>당신은 @UUID[Compendium.pf2e.equipment-srd.Item.FPwsiGqMCNPLHmjX]{블로우건}으로 독을 능숙하게 전달할 수 있습니다. 당신의 블로우건 @UUID[Compendium.pf2e.actionspf2e.Item.VjxZFuUXrCU94MWR]{공격}은 생물의 저항으로 인해 피해를 입히지 못하더라도 상처 독을 적용할 수 있습니다. 독이 묻은 다트를 사용한 블로우건 타격에 대성공 시, 대상의 초기 독 내성 굴림 성공 확률은 생물이 굴린 결과보다 한 단계 낮아집니다. 이는 불운 효과입니다.</p>\n<p>또한, @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨기} 상태나 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{탐지 불가} 상태에서 블로우건 공격을 강타할 경우, 자동으로 @UUID[Compendium.pf2e.conditionitems.Item.1wQY3JYyhMYeeV2G]{발견됨} 상태가 되지 않습니다. 대신 즉시 대상의 지각 DC에 대한 @Check[stealth|against:perception] 체크를 시도한다. 성공하면 관찰되지 않은 상태가 되지 않으며, 은신 상태가 된다(미탐지 상태였다면 여전히 은신 상태가 되며 미탐지 상태로 남지 않는다).</p>",
       "rules": [
         {
           "key": "Note",
@@ -52899,7 +52899,7 @@
     },
     "Eagle Eyes": {
       "name": "매의 눈(Eagle Eyes)",
-      "description": "<p>당신과 당신의 정찰병은 서로를 지켜보는 데 능숙합니다. 서로를 보거나 들을 수 있는 한, 둘 다 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드}가 되어 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨기} 상태의, @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{탐지되지 않은} 상태의, 또는 자신의 레벨 이하의 생물에게 측면 공격을 당하거나, 자신의 레벨 이하의 생물에게 기습 공격을 당하지 않습니다. 다만, 그들은 여전히 아군이 측면 공격을 하는 것을 도울 수 있습니다.</p>",
+      "description": "<p>당신과 당신의 정찰병은 서로를 지켜보는 데 능숙합니다. 서로를 보거나 들을 수 있는 한, 둘 다 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드}가 되어 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨기} 상태의, @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{탐지 불가} 상태의, 또는 자신의 레벨 이하의 생물에게 측면 공격을 당하거나, 자신의 레벨 이하의 생물에게 기습 공격을 당하지 않습니다. 다만, 그들은 여전히 아군이 측면 공격을 하는 것을 도울 수 있습니다.</p>",
       "traits": [
         "archetype",
         "auditory",
@@ -53907,7 +53907,7 @@
     },
     "Monstrous Inclinations": {
       "name": "괴물 같은 성향(Monstrous Inclinations)",
-      "description": "<p><strong>요구 사항</strong> 당신의 조율된 환영은 숲의 로어 또는 바다의 로어를 환영 기술 중 하나로 부여합니다. </p><hr /><p>당신의 환영은 심해나 고대 숲에 서식하는 괴물들의 본성을 공유합니다. 환영 주문 목록에 @UUID[Compendium.pf2e.spells-srd.Item.8AMvNVOUEtxBCDvJ]{괴물 형태}를 추가하여, 환영의 주문 시전 능력으로 이를 발동할 수 있습니다. </p><hr /><p><strong>특수</strong> 어두운 나뭇가지에 숨어있는 스토커와 교감 상태라면, 8등급으로 강화된 상태에서 <em>괴물 형태</em>의 불사조 형태 옵션을 @UUID[Compendium.pf2e.spells-srd.Item.BhJtCTLbngvZm8EA] {어둠에 잠긴 숲의 형태} 옵션에 강화(8th)를 추가합니다. </p>\n<p>삼켜버리는 어둠 속에 숨어있는 존재와 교감 중일 경우, 8등급으로 강화된 상태에서 이 주문을 시전할 때 @UUID[Compendium.pf2e.spells-srd.Item.wTldMJx0vyBAehrI]{삼켜버리는 어둠 형태} 옵션에 동굴 벌레와 바다뱀 형태를 변형 효과로 추가합니다.</p>",
+      "description": "<p><strong>요구 사항</strong> 당신의 조율된 환영은 숲의 로어 또는 바다의 로어를 환영 기술 중 하나로 부여합니다. </p><hr /><p>당신의 환영은 심해나 고대 숲에 서식하는 괴물들의 본성을 공유합니다. 환영 주문 목록에 @UUID[Compendium.pf2e.spells-srd.Item.8AMvNVOUEtxBCDvJ]{괴물 형태}를 추가하여, 환영의 주문 시전 능력으로 이를 발동할 수 있습니다. </p><hr /><p><strong>특수</strong> 어두운 나뭇가지에 숨어있는 스토커와 교감 상태라면, 8등급으로 강화된 상태에서 <em>괴물 형태</em>의 불사조 형태 옵션을 @UUID[Compendium.pf2e.spells-srd.Item.BhJtCTLbngvZm8EA]{어둠에 잠긴 숲의 형태} 옵션에 강화(8th)를 추가합니다. </p>\n<p>삼켜버리는 어둠 속에 숨어있는 존재와 교감 중일 경우, 8등급으로 강화된 상태에서 이 주문을 시전할 때 @UUID[Compendium.pf2e.spells-srd.Item.wTldMJx0vyBAehrI]{삼켜버리는 어둠 형태} 옵션에 동굴 벌레와 바다뱀 형태를 변형 효과로 추가합니다.</p>",
       "traits": [
         "animist",
         "apparition",
@@ -55576,7 +55576,7 @@
     },
     "Predator's Growl": {
       "name": "포식자의 포효(Predator's Growl)",
-      "description": "<p><strong>Trigger</strong> 당신은 @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{숨겨진} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{탐지되지 않은} 생물을 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{찾아내는} 데 성공합니다.</p><hr /><p>당신은 방금 발견한 생물을 @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{사기 저하}하려고 시도하는 목구멍 깊은 곳의 우르르거리는 소리를 냅니다. 생물과 언어를 공유하지 않아 발생하는 -4 페널티를 받지 않습니다.</p>",
+      "description": "<p><strong>Trigger</strong> 당신은 @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{숨겨진} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{탐지 불가} 생물을 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{찾아내는} 데 성공합니다.</p><hr /><p>당신은 방금 발견한 생물을 @UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{사기 저하}하려고 시도하는 목구멍 깊은 곳의 우르르거리는 소리를 냅니다. 생물과 언어를 공유하지 않아 발생하는 -4 페널티를 받지 않습니다.</p>",
       "traits": [
         "catfolk"
       ]
@@ -60575,7 +60575,7 @@
     },
     "Eternal Legend Dedication": {
       "name": "영원한 전설 헌신(Eternal Legend Dedication)",
-      "description": "<p>파이터로서의 명성이 높아질수록, 당신의 소명은 결실을 맺습니다. 거의 아무것도 당신을 막을 수 없습니다. 일일 준비 단계에서 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른}, @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수}, 또는 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7] {약화된} 중 하나를 선택하세요. 그날 남은 시간 동안, 해당 상태를 부여하는 효과에 대해 성공을 굴릴 때 대신 대성공을 얻습니다. 또한 선택한 상태를 획득할 때마다 그 수치를 1 감소시킵니다. 집중 특성을 가진 액션 하나로 선택한 상태를 변경할 수 있습니다. </p>\n<p>@UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.MsJGLtT0GScL8cI8]{영원한 전설}</p>",
+      "description": "<p>파이터로서의 명성이 높아질수록, 당신의 소명은 결실을 맺습니다. 거의 아무것도 당신을 막을 수 없습니다. 일일 준비 단계에서 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른}, @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수}, 또는 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된} 중 하나를 선택하세요. 그날 남은 시간 동안, 해당 상태를 부여하는 효과에 대해 성공을 굴릴 때 대신 대성공을 얻습니다. 또한 선택한 상태를 획득할 때마다 그 수치를 1 감소시킵니다. 집중 특성을 가진 액션 하나로 선택한 상태를 변경할 수 있습니다. </p>\n<p>@UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.MsJGLtT0GScL8cI8]{영원한 전설}</p>",
       "traits": [
         "destiny",
         "mythic"
@@ -60583,7 +60583,7 @@
     },
     "Rotten Slurry": {
       "name": "썩은 슬러리(Rotten Slurry)",
-      "description": "<p>당신은 몸통, 손, 또는 입에서 썩고 악취 나는 진흙덩이를 적에게 뿜어냅니다. 30피트 이내의 생물에게 원거리 @Check[deviant|defense:ac]{공격 굴림}을 수행합니다. 성공 시, 이 진흙은 당신의 레벨 2당 대상에게 @Damage[(floor(@actor.level/2)d4)[bludgeoning]]의 피해를 입히며, 대성공 시 두 배의 피해를 입힙니다. 이 공격으로 피해를 입은 생물은 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1} 상태가 됩니다(크리티컬 성공 시 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 2} 상태).</p>\n<p><strong>각성</strong> 슬러리가 폭발하며 주변에 흩뿌려집니다. 공격은 당신의 레벨 4당 추가로 @Damage[((floor(@actor.level/4)d4)[splash])[독]]{1d4 독 방사} 피해를 입힙니다.</p>\n<p><strong>각성</strong> 슬러리는 부식성이 있어 닿은 살점을 파고든다. 공격은 추가로 @Damage[1d4[persistent,acid]]의 피해를 입힌다.</p>",
+      "description": "<p>당신은 몸통, 손, 또는 입에서 썩고 악취 나는 진흙덩이를 적에게 뿜어냅니다. 30피트 이내의 생물에게 원거리 @Check[deviant|defense:ac]{공격 굴림}을 수행합니다. 성공 시, 이 진흙은 당신의 레벨 2당 대상에게 @Damage[(floor(@actor.level/2)d4)[bludgeoning]]의 피해를 입히며, 대성공 시 두 배의 피해를 입힙니다. 이 공격으로 피해를 입은 생물은 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1} 상태가 됩니다(대성공 시 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 2} 상태).</p>\n<p><strong>각성</strong> 슬러리가 폭발하며 주변에 흩뿌려집니다. 공격은 당신의 레벨 4당 추가로 @Damage[((floor(@actor.level/4)d4)[splash])[독]]{1d4 독 방사} 피해를 입힙니다.</p>\n<p><strong>각성</strong> 슬러리는 부식성이 있어 닿은 살점을 파고든다. 공격은 추가로 @Damage[1d4[persistent,acid]]의 피해를 입힌다.</p>",
       "rules": [
         {
           "allowDuplicate": false,
@@ -64391,7 +64391,7 @@
     },
     "Terrain Stalker": {
       "name": "지형 추적자(Terrain Stalker)",
-      "description": "<p>다음 목록에서 하나의 어려운 지형을 선택하십시오: 잔해, 눈, 덤불. 해당 지형 유형 내 모든 비동맹자에게 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{발각되지 않은} 상태일 때, 이동 중 5피트 이내로만 이동하고 적과 10피트 이내로 접근하지 않는 한, 은밀 이동 시도 없이 @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{은밀 이동}을 할 수 있다.</p>\n<p>탐사 중에는 이 능력으로 다른 생물체로부터 15피트 이내로 자동 접근할 수 있으며, 해당 생물체가 @UUID[Compendium.pf2e.actionspf2e.Item.IE2nThCmoyhQA0Jn]{주의를 피하는 중}이고 @UUID[Compendium.pf2e.actionspf2e.Item.TiNDYUGlMmxzxBYU]{수색} 중이거나 경계 상태가 아닌 경우에 한한다.</p><hr /><p><strong>특수</strong> 이 피트를 여러 번 선택할 수 있다. 매번 다른 지형 유형을 선택해야 한다.</p>",
+      "description": "<p>다음 목록에서 하나의 어려운 지형을 선택하십시오: 잔해, 눈, 덤불. 해당 지형 유형 내 모든 비동맹자에게 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{탐지 불가} 상태일 때, 이동 중 5피트 이내로만 이동하고 적과 10피트 이내로 접근하지 않는 한, 은밀 이동 시도 없이 @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{은밀 이동}을 할 수 있다.</p>\n<p>탐사 중에는 이 능력으로 다른 생물체로부터 15피트 이내로 자동 접근할 수 있으며, 해당 생물체가 @UUID[Compendium.pf2e.actionspf2e.Item.IE2nThCmoyhQA0Jn]{주의를 피하는 중}이고 @UUID[Compendium.pf2e.actionspf2e.Item.TiNDYUGlMmxzxBYU]{수색} 중이거나 경계 상태가 아닌 경우에 한한다.</p><hr /><p><strong>특수</strong> 이 피트를 여러 번 선택할 수 있다. 매번 다른 지형 유형을 선택해야 한다.</p>",
       "rules": [
         {
           "choices": [
@@ -66659,7 +66659,7 @@
     },
     "Emerald Boughs Hideaway": {
       "name": "비취 가지 은신처(Emerald Boughs Hideaway)",
-      "description": "<p>에메랄드 가지 기술을 사용해 의식이 있는 동안 지속되는 은신처라는 소형 초차원 공간을 생성합니다. 이 은신처는 @UUID[Compendium.pf2e.equipment-srd.Item.jaEEvuQ32GjAa8jy] {보관 주머니(1종)}과 동일하게 작동하지만 벌크 제한이 없고 손을 차지 않습니다. 최대 벌크는 당신의 최고 정신 능력치 수정자와 동일하며, 하나의 물품을 보관할 수 있습니다. 은신처는 순수한 생각만으로 열 수 있으므로, 물품을 꺼내기 위해 활성화하는 것은 상호작용 구성 요소가 필요한 액션 하나가 아닌, 시각화 구성 요소가 필요한 자유 행동입니다. 은신처의 접근 지점은 당신의 신체에서 1피트 이내에 위치한 명백히 마법적인 틈새로 나타납니다. 오직 당신만이 은신처에 접근할 수 있습니다. 매 라운드 상호작용 행동을 사용해 다른 사람이 물리적으로 열려 있도록 유지할 수 있습니다. 당신의 주문 DC와 은신처의 2등급 반격에 성공한 마법 해제 주문이나 유사 효과는 물건을 배출합니다. 당신이 의식을 잃을 경우에도 물건이 배출됩니다. 마법 해제 주문이 성공하거나 의식을 되찾으면, 은신처는 추가 행동 없이 즉시 재형성됩니다. 또한 빈 상태일 때 은신처를 해제하거나, 시각화 구성 요소를 사용해 액션 하나로 재구성할 수 있습니다.</p>",
+      "description": "<p>에메랄드 가지 기술을 사용해 의식이 있는 동안 지속되는 은신처라는 소형 초차원 공간을 생성합니다. 이 은신처는 @UUID[Compendium.pf2e.equipment-srd.Item.jaEEvuQ32GjAa8jy]{보관 주머니(1종)}과 동일하게 작동하지만 벌크 제한이 없고 손을 차지 않습니다. 최대 벌크는 당신의 최고 정신 능력치 수정자와 동일하며, 하나의 물품을 보관할 수 있습니다. 은신처는 순수한 생각만으로 열 수 있으므로, 물품을 꺼내기 위해 활성화하는 것은 상호작용 구성 요소가 필요한 액션 하나가 아닌, 시각화 구성 요소가 필요한 자유 행동입니다. 은신처의 접근 지점은 당신의 신체에서 1피트 이내에 위치한 명백히 마법적인 틈새로 나타납니다. 오직 당신만이 은신처에 접근할 수 있습니다. 매 라운드 상호작용 행동을 사용해 다른 사람이 물리적으로 열려 있도록 유지할 수 있습니다. 당신의 주문 DC와 은신처의 2등급 반격에 성공한 마법 해제 주문이나 유사 효과는 물건을 배출합니다. 당신이 의식을 잃을 경우에도 물건이 배출됩니다. 마법 해제 주문이 성공하거나 의식을 되찾으면, 은신처는 추가 행동 없이 즉시 재형성됩니다. 또한 빈 상태일 때 은신처를 해제하거나, 시각화 구성 요소를 사용해 액션 하나로 재구성할 수 있습니다.</p>",
       "traits": [
         "archetype"
       ]
@@ -67582,7 +67582,7 @@
     },
     "Sixth Sense": {
       "name": "육감(Sixth Sense)",
-      "description": "<p>당신의 사이킥 능력으로 영혼이나 유사한 존재들의 잔존하는 생각도 감지할 수 있습니다. 탐험 중이지만 @UUID[Compendium.pf2e.actionspf2e.Item.TiNDYUGlMmxzxBYU]{탐색}을 수행하지 않을 때, GM은 비밀 체크를 굴려, 일반적으로 탐색이 필요한 유령, 영혼, 에테르계 생물, 천상체 존재, 핀드, 모니터 등 순수 영적 본질로 이루어진 존재들을 발견할 수 있게 합니다.</p>\n<p>또한 고체 물체 내부에 있는 에테리얼 생물이나 영혼도 30피트 이내에 있을 경우 잠재적으로 감지할 수 있습니다. 이는 탐색 중, @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{추적 중}, 그리고 육감 능력의 자동 비밀 체크 시에도 적용됩니다. 영혼은 성공적인 체크에서만 인지할 수 있으며, 물체 내부 5피트 이상 깊이 있는 경우 볼 수 없습니다.</p>\n<p>여섯 번째 감각으로 생물을 감지하면 그 위치도 알게 되며, 해당 생물이 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{감지되지 않음} 상태였다면 당신에게 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨기} 상태가 됩니다.</p>",
+      "description": "<p>당신의 사이킥 능력으로 영혼이나 유사한 존재들의 잔존하는 생각도 감지할 수 있습니다. 탐험 중이지만 @UUID[Compendium.pf2e.actionspf2e.Item.TiNDYUGlMmxzxBYU]{탐색}을 수행하지 않을 때, GM은 비밀 체크를 굴려, 일반적으로 탐색이 필요한 유령, 영혼, 에테르계 생물, 천상체 존재, 핀드, 모니터 등 순수 영적 본질로 이루어진 존재들을 발견할 수 있게 합니다.</p>\n<p>또한 고체 물체 내부에 있는 에테리얼 생물이나 영혼도 30피트 이내에 있을 경우 잠재적으로 감지할 수 있습니다. 이는 탐색 중, @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{추적 중}, 그리고 육감 능력의 자동 비밀 체크 시에도 적용됩니다. 영혼은 성공적인 체크에서만 인지할 수 있으며, 물체 내부 5피트 이상 깊이 있는 경우 볼 수 없습니다.</p>\n<p>여섯 번째 감각으로 생물을 감지하면 그 위치도 알게 되며, 해당 생물이 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{탐지 불가} 상태였다면 당신에게 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨기} 상태가 됩니다.</p>",
       "traits": [
         "occult",
         "psychic"
@@ -68164,7 +68164,7 @@
     },
     "Skirt the Light": {
       "name": "빛을 피해(Skirt the Light)",
-      "description": "<p>물질계와 그림자계 사이의 경계를 넘나들 수 있으며, 다른 이들을 동반할 수도 있다. 하루에 한 번, @UUID[Compendium.pf2e.spells-srd.Item.rxvS7EMJ7qmexAyA]{엄브랄 여행}을 오컬트 선천 마법으로 시전할 수 있다.</p>",
+      "description": "<p>물질계와 그림자계 사이의 경계를 넘나들 수 있으며, 다른 이들을 동반할 수도 있다. 하루에 한 번, @UUID[Compendium.pf2e.spells-srd.Item.rxvS7EMJ7qmexAyA]{움브랄 여행}을 오컬트 선천 마법으로 시전할 수 있다.</p>",
       "rules": [
         {
           "itemType": "spell",
@@ -70298,7 +70298,7 @@
     },
     "Spring from the Shadows": {
       "name": "그림자에서 뛰쳐나오기(Spring from the Shadows)",
-      "description": "<p>은신 상태에서 뛰쳐나와 목표를 공격합니다. 이동 속도만큼 이동하지만, 이동을 끝내는 위치는 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨겨진 상태}이거나 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{탐지되지 않은} 적 옆이어야 합니다. 그런 다음 해당 적을 공격한다. 공격이 끝날 때까지 그 생물에게 숨겨지거나 탐지되지 않은 상태를 유지한다. 해당 이동 유형을 가진 경우, 돌진 대신 땅속 이동, 등반, 비행 또는 수영 중에도 그림자에서 뛰쳐나오기를 사용할 수 있다.</p>",
+      "description": "<p>은신 상태에서 뛰쳐나와 목표를 공격합니다. 이동 속도만큼 이동하지만, 이동을 끝내는 위치는 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨겨진 상태}이거나 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{탐지 불가} 적 옆이어야 합니다. 그런 다음 해당 적을 공격한다. 공격이 끝날 때까지 그 생물에게 숨겨지거나 탐지되지 않은 상태를 유지한다. 해당 이동 유형을 가진 경우, 돌진 대신 땅속 이동, 등반, 비행 또는 수영 중에도 그림자에서 뛰쳐나오기를 사용할 수 있다.</p>",
       "traits": [
         "flourish",
         "rogue"
@@ -70909,7 +70909,7 @@
     },
     "Shadow Spells": {
       "name": "그림자 주문(Shadow Spells)",
-      "description": "<p>은밀한 어둠이 당신에게 속삭이며, 당신의 전통을 따르는 다른 마법사들이 알지 못하는 그림자의 비밀을 가르쳐 줍니다. @UUID[Compendium.pf2e.spells-srd.Item.IqJ9URobmJ9L9UBG]{그림자 폭발}, @UUID[Compendium.pf2e.spells-srd.Item.tcwT97RWKxsJiefG]{그림자 흡수}, @UUID[Compendium.pf2e.spells-srd.Item.rxvS7EMJ7qmexAyA]{엄브랄의 여정}, @UUID[Compendium.pf2e.spells-srd.Item.srEKUvym9kDVbEhD]{복제}, @UUID[Compendium.pf2e.spells-srd.Item.hvKtmoHwekDZ5iOH]{그림자 군대}, @UUID[Compendium.pf2e.spells-srd.Item.8cuqRFB3mWBOgy61]{그림자 투사체}, @UUID[Compendium.pf2e.spells-srd.Item.VTb0yI6P1bLkzuRr]{그림자 습격}을 당신의 주문 목록에 추가합니다. 따라서 이 주문들은 일반적으로 당신의 전통 주문 목록에 없더라도 잠재적으로 배울 수 있습니다.</p>",
+      "description": "<p>은밀한 어둠이 당신에게 속삭이며, 당신의 전통을 따르는 다른 마법사들이 알지 못하는 그림자의 비밀을 가르쳐 줍니다. @UUID[Compendium.pf2e.spells-srd.Item.IqJ9URobmJ9L9UBG]{그림자 폭발}, @UUID[Compendium.pf2e.spells-srd.Item.tcwT97RWKxsJiefG]{그림자 흡수}, @UUID[Compendium.pf2e.spells-srd.Item.rxvS7EMJ7qmexAyA]{움브랄의 여정}, @UUID[Compendium.pf2e.spells-srd.Item.srEKUvym9kDVbEhD]{복제}, @UUID[Compendium.pf2e.spells-srd.Item.hvKtmoHwekDZ5iOH]{그림자 군대}, @UUID[Compendium.pf2e.spells-srd.Item.8cuqRFB3mWBOgy61]{그림자 투사체}, @UUID[Compendium.pf2e.spells-srd.Item.VTb0yI6P1bLkzuRr]{그림자 습격}을 당신의 주문 목록에 추가합니다. 따라서 이 주문들은 일반적으로 당신의 전통 주문 목록에 없더라도 잠재적으로 배울 수 있습니다.</p>",
       "traits": [
         "archetype"
       ]
@@ -71845,7 +71845,7 @@
     },
     "Ambushing Knockdown": {
       "name": "매복 쓰러뜨리기(Ambushing Knockdown)",
-      "description": "<p><strong>접근</strong> 갱단 분쟁에서 워시보드 독스 편에 서야 합니다.</p>\n<p><strong>요구 사항</strong> 당신은 타격 피해를 주는 근접 무기를 휘두르고 있으며, 적에게 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨기} 상태이거나 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{탐지되지 않음} 상태입니다.</p>\n<hr />\n<p>은신 상태에서 나와 적을 땅에 쓰러뜨릴 수 있는 일격을 가합니다. 이동 속도의 절반까지 전진할 수 있지만, 반드시 은신 상태이거나 탐지되지 않은 적 옆에서 이동을 종료해야 합니다. 그런 다음 해당 적을 요구된 무기로 공격합니다. 명중 시 대상은 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드린 상태}가 됩니다.</p>",
+      "description": "<p><strong>접근</strong> 갱단 분쟁에서 워시보드 독스 편에 서야 합니다.</p>\n<p><strong>요구 사항</strong> 당신은 타격 피해를 주는 근접 무기를 휘두르고 있으며, 적에게 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨기} 상태이거나 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{탐지 불가} 상태입니다.</p>\n<hr />\n<p>은신 상태에서 나와 적을 땅에 쓰러뜨릴 수 있는 일격을 가합니다. 이동 속도의 절반까지 전진할 수 있지만, 반드시 은신 상태이거나 탐지되지 않은 적 옆에서 이동을 종료해야 합니다. 그런 다음 해당 적을 요구된 무기로 공격합니다. 명중 시 대상은 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드린 상태}가 됩니다.</p>",
       "traits": [
         "rogue"
       ]
@@ -72663,7 +72663,7 @@
     },
     "Esteemed Visitor": {
       "name": "존경받는 방문객(Esteemed Visitor)",
-      "description": "<p>당신의 예의 바른 태도와 타인을 위로하는 타고난 능력은 문화적 장벽을 허물고 낯선 이의 신뢰를 얻는 데 유리합니다. 정착지에 있을 때, 외교 체크에서 대실패를 굴림할 때, @UUID[Compendium.pf2e.actionspf2e.Item.plBGdZhqq5JBl1D8] {정보 수집} 또는 @UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{인상 남기기}에 크리티컬 실패를 굴릴 경우, 대신 실패로 처리됩니다.</p>",
+      "description": "<p>당신의 예의 바른 태도와 타인을 위로하는 타고난 능력은 문화적 장벽을 허물고 낯선 이의 신뢰를 얻는 데 유리합니다. 정착지에 있을 때, 외교 체크에서 대실패를 굴림할 때, @UUID[Compendium.pf2e.actionspf2e.Item.plBGdZhqq5JBl1D8]{정보 수집} 또는 @UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{인상 남기기}에 대실패를 굴릴 경우, 대신 실패로 처리됩니다.</p>",
       "rules": [
         {
           "adjustment": {
@@ -75566,7 +75566,7 @@
     },
     "Subtle Theft": {
       "name": "은밀한 절도(Subtle Theft)",
-      "description": "<p>무언가를 성공적으로 @UUID[Compendium.pf2e.actionspf2e.Item.RDXXE7wMrSPCLv5k]{훔치기}하면, 관찰자(훔친 대상이 아닌 다른 생물)는 당신의 절도를 감지하는 지각 DC에 -2 상황 페널티를 받습니다. 또한, 먼저 @UUID[Compendium.pf2e.actionspf2e.Item.GkmbTGfg8KcgynOA]{기만}으로 @UUID[Compendium.pf2e.actionspf2e.Item.ijZ0DDFpMkWqaShd]{물건 훔치기} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{도둑질} 액션 하나만 수행해도 {발각되지 않음} 상태가 종료되지 않습니다.</p>",
+      "description": "<p>무언가를 성공적으로 @UUID[Compendium.pf2e.actionspf2e.Item.RDXXE7wMrSPCLv5k]{훔치기}하면, 관찰자(훔친 대상이 아닌 다른 생물)는 당신의 절도를 감지하는 지각 DC에 -2 상황 페널티를 받습니다. 또한, 먼저 @UUID[Compendium.pf2e.actionspf2e.Item.GkmbTGfg8KcgynOA]{기만}으로 @UUID[Compendium.pf2e.actionspf2e.Item.ijZ0DDFpMkWqaShd]{물건 훔치기} 액션 하나만 수행해도 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{탐지 불가} 상태가 종료되지 않습니다.</p>",
       "traits": [
         "general",
         "skill"
@@ -77369,7 +77369,7 @@
     },
     "Slip Into Shadow": {
       "name": "그림자 속으로 스며들기(Slip Into Shadow)",
-      "description": "<p>당신의 그림자 마법이 주변 공간으로 스며듭니다. 어둠 속성 주문을 시전할 때마다, 잔존하는 그림자 오라가 당신 주변 @Template[emanation|distance:5] 반경 내의 밝은 빛을 당신의 턴이 끝날 때까지 희미한 빛으로 감소시킵니다. 자연적인 희미한 빛과 마찬가지로, 이 그림자를 이용해 숨길 수 있지만, 오라로 인해 전체적인 위치는 여전히 드러나므로 이 그림자만으로는 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{탐지되지 않음} 상태가 될 수 없다.</p>",
+      "description": "<p>당신의 그림자 마법이 주변 공간으로 스며듭니다. 어둠 속성 주문을 시전할 때마다, 잔존하는 그림자 오라가 당신 주변 @Template[emanation|distance:5] 반경 내의 밝은 빛을 당신의 턴이 끝날 때까지 희미한 빛으로 감소시킵니다. 자연적인 희미한 빛과 마찬가지로, 이 그림자를 이용해 숨길 수 있지만, 오라로 인해 전체적인 위치는 여전히 드러나므로 이 그림자만으로는 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{탐지 불가} 상태가 될 수 없다.</p>",
       "traits": [
         "dhampir"
       ]
@@ -78062,7 +78062,7 @@
     },
     "Embrace the Pain": {
       "name": "고통을 받아들이다(Embrace the Pain)",
-      "description": "<p><strong> 발동 조건</strong> 당신의 도달 범위 내 생물이 근접 공격으로 당신에게 피해를 입힙니다.</p><hr /><p> 고통을 무릅쓰고, 당신은 손을 뻗어 당신에게 해를 입힌 생물이나 무기를 붙잡기를 시도합니다. 운동 체크를 시도하여 @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD] {그랩}을 시도하여 유발한 생물을 제압하거나, @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{무장 해제}을 시도하여 그 생물이 당신에게 피해를 준 무기를 빼앗으려 한다.</p>",
+      "description": "<p><strong> 발동 조건</strong> 당신의 도달 범위 내 생물이 근접 공격으로 당신에게 피해를 입힙니다.</p><hr /><p> 고통을 무릅쓰고, 당신은 손을 뻗어 당신에게 해를 입힌 생물이나 무기를 붙잡기를 시도합니다. 운동 체크를 시도하여 @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{그랩}을 시도하여 유발한 생물을 제압하거나, @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{무장 해제}을 시도하여 그 생물이 당신에게 피해를 준 무기를 빼앗으려 한다.</p>",
       "traits": [
         "barbarian",
         "rage"
@@ -78451,7 +78451,7 @@
     },
     "Enduring Alchemy": {
       "name": "지속되는 연금술(Enduring Alchemy)",
-      "description": "<p>당신은 즉석에서 조제하는 혼합물을 만들 때 개인의 에너지를 조금 더 오래 지속시키는 법을 터득했습니다. @UUID[Compendium.pf2e.actionspf2e.Item.yzNJgwzV9XqEhKc6] {신속한 연금술}로 연금술 도구나 엘릭서를 생성할 때, 그 도구나 엘릭서는 다음 턴 시작 시 효능을 잃지 않고 다음 턴 종료 시까지 효능을 유지한다.</p>",
+      "description": "<p>당신은 즉석에서 조제하는 혼합물을 만들 때 개인의 에너지를 조금 더 오래 지속시키는 법을 터득했습니다. @UUID[Compendium.pf2e.actionspf2e.Item.yzNJgwzV9XqEhKc6]{신속한 연금술}로 연금술 도구나 엘릭서를 생성할 때, 그 도구나 엘릭서는 다음 턴 시작 시 효능을 잃지 않고 다음 턴 종료 시까지 효능을 유지한다.</p>",
       "traits": [
         "alchemist"
       ]
@@ -78691,7 +78691,7 @@
     },
     "Eerie Flicker": {
       "name": "섬뜩한 깜빡임(Eerie Flicker)",
-      "description": "<p><strong>Trigger</strong> 적의 공격이 당신을 명중시킬 것이며, 당신은 이미 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진}, @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨겨진}, 또는 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{탐지되지 않음} 상태가 아니었다.</p>\n<hr />\n<p>당신의 몸이 순간적으로 에테리얼 평면으로 흔들리며 사라집니다. 당신은 1라운드 동안 {가려진} 상태가 되며, 당신을 명중했을 공격에 플랫 체크 결과가 적용됩니다. 플랫 체크가 실패하면 공격은 당신을 빗나갑니다.</p>\n<hr />\n<p><strong>각성</strong> 몸이 깜빡일 때, 당신은 순간적으로 끔찍한 모습을 취합니다. 생물이 당신의 '섬뜩한 번쩍임'으로 인한 은폐에 대한 플랫 체크에 실패하면, @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 1}이 되며, 이 효과로 인한 공포 상태는 상태를 얻은 같은 턴이 끝날 때까지 감소하지 않습니다.</p>\n<hr />\n<p><strong>각성</strong> 당신은 깜빡이는 움직임을 단일 순간으로 압축할 수 있으며, 효과 지속 시간이 짧아지는 대신 유발 공격을 회피할 확률을 높일 수 있다. 이 경우 유발 공격에 대한 은폐 플랫 체크 난이도가 @Check[flat|dc:9]로 상승하나, 은폐 효과는 유발한 공격에만 적용됩니다.</p>",
+      "description": "<p><strong>Trigger</strong> 적의 공격이 당신을 명중시킬 것이며, 당신은 이미 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진}, @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨겨진}, 또는 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{탐지 불가} 상태가 아니었다.</p>\n<hr />\n<p>당신의 몸이 순간적으로 에테리얼 평면으로 흔들리며 사라집니다. 당신은 1라운드 동안 {가려진} 상태가 되며, 당신을 명중했을 공격에 플랫 체크 결과가 적용됩니다. 플랫 체크가 실패하면 공격은 당신을 빗나갑니다.</p>\n<hr />\n<p><strong>각성</strong> 몸이 깜빡일 때, 당신은 순간적으로 끔찍한 모습을 취합니다. 생물이 당신의 '섬뜩한 번쩍임'으로 인한 은폐에 대한 플랫 체크에 실패하면, @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 1}이 되며, 이 효과로 인한 공포 상태는 상태를 얻은 같은 턴이 끝날 때까지 감소하지 않습니다.</p>\n<hr />\n<p><strong>각성</strong> 당신은 깜빡이는 움직임을 단일 순간으로 압축할 수 있으며, 효과 지속 시간이 짧아지는 대신 유발 공격을 회피할 확률을 높일 수 있다. 이 경우 유발 공격에 대한 은폐 플랫 체크 난이도가 @Check[flat|dc:9]로 상승하나, 은폐 효과는 유발한 공격에만 적용됩니다.</p>",
       "rules": [
         {
           "key": "GrantItem",
@@ -79352,7 +79352,7 @@
     },
     "Scout's Pounce": {
       "name": "정찰병의 돌진(Scout's Pounce)",
-      "description": "<p><strong>Requirements</strong> 당신은 모든 상대에게 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨기} 상태이거나 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{탐지되지 않은} 상태여야 하며, 어떤 적과도 10피트 이내에 있지 않아야 합니다.</p>\n<hr />\n<p>당신은 그림자 속에서 뛰어올라 적을 공격합니다. 이동 속도만큼 전진한 후 두 번 공격합니다. 이 공격 대상이 당신을 숨겨져 있거나 눈치채지 못했다면, 상대는 두 공격 모두에 대해 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 됩니다.</p>\n<p>두 공격 모두에 대해 다중 공격 페널티가 정상적으로 적용된다.</p>",
+      "description": "<p><strong>Requirements</strong> 당신은 모든 상대에게 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨기} 상태이거나 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{탐지 불가} 상태여야 하며, 어떤 적과도 10피트 이내에 있지 않아야 합니다.</p>\n<hr />\n<p>당신은 그림자 속에서 뛰어올라 적을 공격합니다. 이동 속도만큼 전진한 후 두 번 공격합니다. 이 공격 대상이 당신을 숨겨져 있거나 눈치채지 못했다면, 상대는 두 공격 모두에 대해 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 됩니다.</p>\n<p>두 공격 모두에 대해 다중 공격 페널티가 정상적으로 적용된다.</p>",
       "traits": [
         "archetype",
         "flourish"
@@ -80340,7 +80340,7 @@
     },
     "Eternal Blessing": {
       "name": "영원한 축복(Eternal Blessing)",
-      "description": "<p>당신의 업적은 영원토록 신의 은총을 당신에게 가져다주었습니다. 당신은 지속적으로 @UUID[Compendium.pf2e.spells-srd.Item.XSujb7EsSwKl19Uu] {축복} 마법에 지속적으로 둘러싸여 있습니다. 이 마법의 등급은 당신의 레벨 절반(올림)과 같습니다. 반경은 15피트이며, 이를 늘릴 수 없습니다. 이 마법을 해제할 수 있습니다. 해제하면 1분 후 자동으로 복귀합니다.</p>",
+      "description": "<p>당신의 업적은 영원토록 신의 은총을 당신에게 가져다주었습니다. 당신은 지속적으로 @UUID[Compendium.pf2e.spells-srd.Item.XSujb7EsSwKl19Uu]{축복} 마법에 지속적으로 둘러싸여 있습니다. 이 마법의 등급은 당신의 레벨 절반(올림)과 같습니다. 반경은 15피트이며, 이를 늘릴 수 없습니다. 이 마법을 해제할 수 있습니다. 해제하면 1분 후 자동으로 복귀합니다.</p>",
       "rules": [
         {
           "key": "RollOption",
@@ -83135,7 +83135,7 @@
     },
     "Sense Allies": {
       "name": "아군 감지(Sense Allies)",
-      "description": "<p>밀접한 공동체에서 자란 많은 인간들처럼, 당신은 항상 타인의 존재에 예민하게 반응해 왔습니다. 60피트 이내에 있는 당신이 인지하는 의지하는 동맹들은, 그렇지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{감지되지 않았을} 존재들이지만, 대신 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨기} 상태로 인식됩니다. 60피트 내 은폐된 의지하는 동맹을 대상으로 하는 플랫 체크 수치는 11이 아닌 @Check[flat|showDC:all|dc:5]입니다.</p>",
+      "description": "<p>밀접한 공동체에서 자란 많은 인간들처럼, 당신은 항상 타인의 존재에 예민하게 반응해 왔습니다. 60피트 이내에 있는 당신이 인지하는 의지하는 동맹들은, 그렇지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{탐지 불가} 존재들이지만, 대신 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨기} 상태로 인식됩니다. 60피트 내 은폐된 의지하는 동맹을 대상으로 하는 플랫 체크 수치는 11이 아닌 @Check[flat|showDC:all|dc:5]입니다.</p>",
       "traits": [
         "human"
       ]
@@ -89218,7 +89218,7 @@
     },
     "Quiet Allies": {
       "name": "조용한 동맹(Quiet Allies)",
-      "description": "<p>당신은 집단과 함께 움직이는 데 능숙합니다. 당신이 @UUID[Compendium.pf2e.actionspf2e.Item.IE2nThCmoyhQA0Jn]{Avoiding Notice} 상태이고, 동맹이 @UUID[Compendium.pf2e.actionspf2e.Item.tfa4Sh7wcxCEqL29] {전문가 따라가기}를 사용할 때, 당신과 해당 아군들은 개별적으로 굴리지 않고 가장 낮은 수정치를 적용하여 단일 은신 검사만 굴릴 수 있습니다. 이 효과는 선공 검사에는 적용되지 않습니다.</p>",
+      "description": "<p>당신은 집단과 함께 움직이는 데 능숙합니다. 당신이 @UUID[Compendium.pf2e.actionspf2e.Item.IE2nThCmoyhQA0Jn]{Avoiding Notice} 상태이고, 동맹이 @UUID[Compendium.pf2e.actionspf2e.Item.tfa4Sh7wcxCEqL29]{전문가 따라가기}를 사용할 때, 당신과 해당 아군들은 개별적으로 굴리지 않고 가장 낮은 수정치를 적용하여 단일 은신 검사만 굴릴 수 있습니다. 이 효과는 선공 검사에는 적용되지 않습니다.</p>",
       "traits": [
         "general",
         "skill"
@@ -91333,7 +91333,7 @@
     },
     "Eternity-Incinerating Blaze": {
       "name": "영원소멸의 불꽃(Eternity-Incinerating Blaze)",
-      "description": "<p><strong>사용법</strong> 무기 이콘에 주입 </p><hr /><p>신성한 불꽃의 열기는 현재뿐만 아니라 과거와 미래까지 태울 만큼 뜨겁다. 이 주입된 이콘으로 치명타를 성공시킬 때마다 대상은 @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv] {파멸 1} 상태가 되거나 파멸 상태가 1 증가한다. 이 능력으로 대상의 최대 죽음 값이 0이 되면, 영혼의 불꽃이 번쩍이며 즉시 죽어 육체가 재로 변한다. 이 효과는 이콘이 강화되지 않은 상태에서도 적용됩니다. 이콘은 또한 다음 초월 능력을 얻습니다.</p>\n<p><strong>초월-@UUID[Compendium.pf2e.actionspf2e.Item.ZhVJ7EUTJngrIO2Z]{시간을 초월한 불꽃}</strong> <span class=\"action-glyph\">2</span> (영혼, 초월, 공허)</p>\n<p>@Embed[Compendium.pf2e.actionspf2e.Item.ZhVJ7EUTJngrIO2Z inline] </p>",
+      "description": "<p><strong>사용법</strong> 무기 이콘에 주입 </p><hr /><p>신성한 불꽃의 열기는 현재뿐만 아니라 과거와 미래까지 태울 만큼 뜨겁다. 이 주입된 이콘으로 치명타를 성공시킬 때마다 대상은 @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{파멸 1} 상태가 되거나 파멸 상태가 1 증가한다. 이 능력으로 대상의 최대 죽음 값이 0이 되면, 영혼의 불꽃이 번쩍이며 즉시 죽어 육체가 재로 변한다. 이 효과는 이콘이 강화되지 않은 상태에서도 적용됩니다. 이콘은 또한 다음 초월 능력을 얻습니다.</p>\n<p><strong>초월-@UUID[Compendium.pf2e.actionspf2e.Item.ZhVJ7EUTJngrIO2Z]{시간을 초월한 불꽃}</strong> <span class=\"action-glyph\">2</span> (영혼, 초월, 공허)</p>\n<p>@Embed[Compendium.pf2e.actionspf2e.Item.ZhVJ7EUTJngrIO2Z inline] </p>",
       "rules": [
         {
           "choices": "flags.pf2e.exemplar.ikons",
@@ -93361,7 +93361,7 @@
     },
     "Gloomseer": {
       "name": "어둠의 예언자(Gloomseer)",
-      "description": "<p>어둠은 당신에게 거의 공포를 주지 않으며, 니달을 뒤덮은 암흑의 장막은 어스름한 빛 속에서도 편안함을 느끼게 합니다. 당신은 저조도 시야를 얻습니다.</p>",
+      "description": "<p>어둠은 당신에게 거의 공포를 주지 않으며, 나이달을 뒤덮은 암흑의 장막은 어스름한 빛 속에서도 편안함을 느끼게 합니다. 당신은 저조도 시야를 얻습니다.</p>",
       "traits": [
         "human"
       ]
@@ -95686,7 +95686,7 @@
     },
     "Verduran Ambush": {
       "name": "버듀란 매복(Verduran Ambush)",
-      "description": "<p>적에게 매복할 준비를 합니다. 2개의 행동이 소요되는 활동을 준비 상태로 만듭니다. 단, 해당 활동은 반드시 '하늘에서 내려오는 죽음'이거나, @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨기} 상태이거나 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{모든 상대에게 탐지되지 않은 상태}여야 하는 활동(예: @UUID[Compendium.pf2e.feats-srd.Item.jvQoupE76OeUpjZp]{정찰병의 돌진}). 이 반응을 사용한 후 10분 동안 이 피트를 다시 사용할 수 없다.</p>",
+      "description": "<p>적에게 매복할 준비를 합니다. 2개의 행동이 소요되는 활동을 준비 상태로 만듭니다. 단, 해당 활동은 반드시 '하늘에서 내려오는 죽음'이거나, @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨기} 상태이거나 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{탐지 불가}여야 하는 활동(예: @UUID[Compendium.pf2e.feats-srd.Item.jvQoupE76OeUpjZp]{정찰병의 돌진}). 이 반응을 사용한 후 10분 동안 이 피트를 다시 사용할 수 없다.</p>",
       "traits": [
         "archetype"
       ]
@@ -99934,7 +99934,7 @@
     },
     "Determination": {
       "name": "결의(Determination)",
-      "description": "<p><strong>사용 빈도</strong> 하루에 한 번</p>\n<hr />\n<p>당신의 훈련은 위급한 상황에서 적의 주문과 상태 이상을 무시할 수 있게 합니다. 당신에게 영향을 미치는 비영구적 상태 이상, 주문 또는 마법 효과 중 하나를 선택하십시오. 상태를 선택했다면, 그 상태의 효과가 당신에게서 사라집니다. 주문이나 다른 마법 효과를 선택했다면, 그 주문을 반격하려고 시도합니다(당신의 반격 등급은 레벨의 절반(반올림)이며, 반격 체크 대신 의지 내성 체크를 시도합니다).</p>\n<p>이 능력은 해당 주문이나 상태 효과로 이미 입은 체력 피해를 제거하지 않으며, 오직 당신에게만 적용된 효과를 제거할 뿐 주변 다른 생물이나 환경에는 영향을 미치지 않습니다. 지속적인 고통 상태를 제거하거나, 그러한 고통 상태가 나중에 당신에게 상태를 부여하는 것을 막을 수 없습니다. 당신의 상황이나 위치 때문에 자동으로 발생하는 상태(예: @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드림} 또는 측면 공격)는 제거할 수 없습니다.</p>",
+      "description": "<p><strong>사용 빈도</strong> 하루에 한 번</p>\n<hr />\n<p>당신의 훈련은 위급한 상황에서 적의 주문과 상태 이상을 무시할 수 있게 합니다. 당신에게 영향을 미치는 비영구적 상태 이상, 주문 또는 마법 효과 중 하나를 선택하십시오. 상태를 선택했다면, 그 상태의 효과가 당신에게서 사라집니다. 주문이나 다른 마법 효과를 선택했다면, 그 주문을 반격하려고 시도합니다(당신의 반격 등급은 레벨의 절반(반올림)이며, 반격 체크 대신 의지 내성 굴림을 시도합니다).</p>\n<p>이 능력은 해당 주문이나 상태 효과로 이미 입은 체력 피해를 제거하지 않으며, 오직 당신에게만 적용된 효과를 제거할 뿐 주변 다른 생물이나 환경에는 영향을 미치지 않습니다. 지속적인 고통 상태를 제거하거나, 그러한 고통 상태가 나중에 당신에게 상태를 부여하는 것을 막을 수 없습니다. 당신의 상황이나 위치 때문에 자동으로 발생하는 상태(예: @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드림} 또는 측면 공격)는 제거할 수 없습니다.</p>",
       "traits": [
         "concentrate",
         "fighter"
@@ -101933,7 +101933,7 @@
     },
     "Blind-Fight": {
       "name": "맹목적 전투(Blind-Fight)",
-      "description": "<p><strong>파이터, 로그, 조사자</strong> 전투 본능으로 인해 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진} 및 @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{투명} 상태의 적을 더 잘 감지합니다.</p>\n<p><strong>레인저</strong> 당신의 강화된 감각은 보이지 않는 적을 본능적으로 감지하게 합니다.</p><hr /><p>은폐된 생물을 대상으로 할 때 플랫 체크에서 성공할 필요가 없습니다. 당신은 당신에게 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨겨진} 생물에게 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드}가 아닙니다(숨겨진 상태 이외의 이유로 그들에게 오프 가드인 경우는 제외). 또한 숨겨진 생물을 표적으로 삼기 위해 필요한 것은 단지 성공적인 @Check[flat|dc:5] 검사뿐입니다.</p>\n<p>당신이 자신의 레벨 이하인 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{발견되지 않은} 생물과 인접해 있을 때, 해당 생물은 당신에게만 숨겨진 상태로 간주됩니다.</p>",
+      "description": "<p><strong>파이터, 로그, 조사자</strong> 전투 본능으로 인해 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진} 및 @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{투명} 상태의 적을 더 잘 감지합니다.</p>\n<p><strong>레인저</strong> 당신의 강화된 감각은 보이지 않는 적을 본능적으로 감지하게 합니다.</p><hr /><p>은폐된 생물을 대상으로 할 때 플랫 체크에서 성공할 필요가 없습니다. 당신은 당신에게 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨겨진} 생물에게 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드}가 아닙니다(숨겨진 상태 이외의 이유로 그들에게 오프 가드인 경우는 제외). 또한 숨겨진 생물을 표적으로 삼기 위해 필요한 것은 단지 성공적인 @Check[flat|dc:5] 검사뿐입니다.</p>\n<p>당신이 자신의 레벨 이하인 @UUID[Compendium.pf2e.conditionitems.Item.VRSef5y1LmL2Hkjf]{탐지 불가} 생물과 인접해 있을 때, 해당 생물은 당신에게만 숨겨진 상태로 간주됩니다.</p>",
       "traits": [
         "fighter",
         "investigator",

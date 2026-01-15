@@ -320,7 +320,7 @@
         },
         "8W67Bxaonilv5KO0": {
           "name": "미아즈마 내뿜기",
-          "description": "<p>녹색 마녀는 녹색 증기의 미아즈마를 내뿜습니다. @Template[cone|distance:15] 내에 있는 모든 생명체는 그녀의 약화시키는 기운의 영향을 받습니다 (평소와 같이 내성 체크를 시도합니다).</p>\n<p>그녀는 [[/gmr 1d4 #Recharge Exhale Miasma]]{1d4 라운드} 동안 내성 숨을 내쉬기 를 다시 사용할 수 없습니다."
+          "description": "<p>녹색 마녀는 녹색 증기의 미아즈마를 내뿜습니다. @Template[cone|distance:15] 내에 있는 모든 생명체는 그녀의 약화시키는 기운의 영향을 받습니다 (평소와 같이 내성 굴림을 시도합니다).</p>\n<p>그녀는 [[/gmr 1d4 #Recharge Exhale Miasma]]{1d4 라운드} 동안 내성 숨을 내쉬기 를 다시 사용할 수 없습니다."
         }
       }
     },
@@ -339,7 +339,7 @@
         },
         "3xoqcUVujuOLU773": {
           "name": "위협적인 수호자",
-          "description": "<p>30 피트. 이 영역에서 턴을 시작하거나 이 영역에 들어가는 적들은 @Check[will|dc:23] 내성 체크를 시도해야 합니다. </p>\n<p>실패하면, 24시간 동안 또는 아콘에게 피해를 입힐 때까지, 이 영역에 있는 동안 다른 대상에 대한 공격 굴림, 주문 굴림, 피해 굴림에 -1 상태 페널티를 받습니다. 대실패 시, 24시간 동안 또는 아콘에게 피해를 입힐 때까지, 그 중 먼저 도달하는 시간까지, 해당 영역에 있는 동안 다른 대상에 대해 적대적인 행동을 할 수 없습니다. 결과에 상관없이, 생물은 24시간 동안 위협적인 수호자의 오라에 대해 일시적으로 면역이 됩니다."
+          "description": "<p>30 피트. 이 영역에서 턴을 시작하거나 이 영역에 들어가는 적들은 @Check[will|dc:23] 내성 굴림을 시도해야 합니다. </p>\n<p>실패하면, 24시간 동안 또는 아콘에게 피해를 입힐 때까지, 이 영역에 있는 동안 다른 대상에 대한 공격 굴림, 주문 굴림, 피해 굴림에 -1 상태 페널티를 받습니다. 대실패 시, 24시간 동안 또는 아콘에게 피해를 입힐 때까지, 그 중 먼저 도달하는 시간까지, 해당 영역에 있는 동안 다른 대상에 대해 적대적인 행동을 할 수 없습니다. 결과에 상관없이, 생물은 24시간 동안 위협적인 수호자의 오라에 대해 일시적으로 면역이 됩니다."
         },
         "82KaMhK0BRaEZMbn": {
           "name": "보복의 공격",
@@ -425,7 +425,7 @@
         },
         "nLB0CpyqlvJpfjnr": {
           "name": "기절시키는 비명",
-          "description": "<p><strong>빈도</strong> 1분에 한 번. </p>\n<hr />\n<p><strong>효과</strong> vrock이 날카로운 비명을 지릅니다. @Template[burst|distance:30] 내에 있는 악마가 아닌 모든 생물은 @Check[fortitude|dc:28] 내성 체크를 시도해야 합니다. 실패하면, 그 생물은 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{기절 2} 상태가 되고, 대실패하면 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{기절 3} 상태가 됩니다. </p>"
+          "description": "<p><strong>빈도</strong> 1분에 한 번. </p>\n<hr />\n<p><strong>효과</strong> vrock이 날카로운 비명을 지릅니다. @Template[burst|distance:30] 내에 있는 악마가 아닌 모든 생물은 @Check[fortitude|dc:28] 내성 굴림을 시도해야 합니다. 실패하면, 그 생물은 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{기절 2} 상태가 되고, 대실패하면 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{기절 3} 상태가 됩니다. </p>"
         }
       }
     },
@@ -749,7 +749,7 @@
         },
         "5ogrmYbXtCuT4HPN": {
           "name": "부패한 물",
-          "description": "<p><strong>빈도</strong> 하루에 한 번</p>\n<hr />\n<p><strong>효과</strong> 드래곤은 90피트 이내의 액체 10입방피트를 영구적으로 오염시킵니다. 이 액체는 마실 수 없게 되고, 물로 숨을 쉬는 생명체가 살 수 없게 됩니다. </p>\n<p>이 효과는 드래곤보다 레벨이 낮은 액체 마법이나 연금술 아이템을 파괴합니다 (생물은 @Check[will|dc:28] 내성 체크를 시도하여 소유한 액체를 보호할 수 있습니다). 이 효과는 생물의 몸에 있는 액체에는 영향을 미치지 않습니다. </p>"
+          "description": "<p><strong>빈도</strong> 하루에 한 번</p>\n<hr />\n<p><strong>효과</strong> 드래곤은 90피트 이내의 액체 10입방피트를 영구적으로 오염시킵니다. 이 액체는 마실 수 없게 되고, 물로 숨을 쉬는 생명체가 살 수 없게 됩니다. </p>\n<p>이 효과는 드래곤보다 레벨이 낮은 액체 마법이나 연금술 아이템을 파괴합니다 (생물은 @Check[will|dc:28] 내성 굴림을 시도하여 소유한 액체를 보호할 수 있습니다). 이 효과는 생물의 몸에 있는 액체에는 영향을 미치지 않습니다. </p>"
         }
       }
     },
@@ -776,7 +776,7 @@
         },
         "EQs2G0f4rbGphFRv": {
           "name": "추방하는 일격",
-          "description": "<p>시무르그의 꼬리 공격에 맞은 생물이 현재 자신의 고향 평면에 있지 않은 경우, @Check[will|dc:42] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.spells-srd.Item.bay4AfSu2iIozNNW]{추방}의 영향을 받습니다. 단, 해당 생물이 내성 체크에 크리티컬 성공한 경우 시무르는 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{기절} 상태가 되지 않습니다. </p>"
+          "description": "<p>시무르그의 꼬리 공격에 맞은 생물이 현재 자신의 고향 평면에 있지 않은 경우, @Check[will|dc:42] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.spells-srd.Item.bay4AfSu2iIozNNW]{추방}의 영향을 받습니다. 단, 해당 생물이 내성 체크에 대성공한 경우 시무르는 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{기절} 상태가 되지 않습니다. </p>"
         },
         "lKC4So6E50bV5RRz": {
           "name": "빛나는 깃털",
@@ -1302,7 +1302,7 @@
         },
         "3wMfK5zZSqFhhTgs": {
           "name": "원시의 포효",
-          "description": "<p>트롤 왕이 짐승 같은 포효를 내뱉습니다. @Template[emanation|distance:100]{100 피트} 내에 있는 트롤이 아닌 모든 생물은 @Check[will|dc:29] 내성 체크를 시도해야 합니다. 그 후 10분 동안 해당 생물은 일시적으로 면역이 됩니다. </p>\n<hr />\n<p><strong>대성공</strong> 생물은 영향을 받지 않습니다. </p>\n<p><strong>성공</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}</p>\n<p><strong>실패</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2} 상태가 됩니다.</p>\n<p><strong>대실패 생물은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 3}가 됩니다. </p>"
+          "description": "<p>트롤 왕이 짐승 같은 포효를 내뱉습니다. @Template[emanation|distance:100]{100 피트} 내에 있는 트롤이 아닌 모든 생물은 @Check[will|dc:29] 내성 굴림을 시도해야 합니다. 그 후 10분 동안 해당 생물은 일시적으로 면역이 됩니다. </p>\n<hr />\n<p><strong>대성공</strong> 생물은 영향을 받지 않습니다. </p>\n<p><strong>성공</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}</p>\n<p><strong>실패</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2} 상태가 됩니다.</p>\n<p><strong>대실패 생물은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 3}가 됩니다. </p>"
         },
         "IKXHj9lMhQ6Qy07y": {
           "name": "찢기",
@@ -1364,7 +1364,7 @@
         },
         "k0b4P1F8sPglTEue": {
           "name": "허리케인 폭발",
-          "description": "<p><strong>빈도</strong> 라운드당 한 번. </p>\n<hr />\n<p><strong>효과</strong> 지니는 회오리 바람에 있는 모든 생물을 20 피트 뒤로 밀거나, 오라에 있는 모든 생물을 시계 방향 또는 시계 반대 방향으로 20 피트 이동시킵니다. 각 생물은 @Check[fortitude|dc:21] 내성 체크를 시도해야 합니다. 성공하면 이동을 피하고, 대실패하면 이동과 함께 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} 상태가 됩니다. 공기 특성을 가진 생물은 이 효과에 면역입니다."
+          "description": "<p><strong>빈도</strong> 라운드당 한 번. </p>\n<hr />\n<p><strong>효과</strong> 지니는 회오리 바람에 있는 모든 생물을 20 피트 뒤로 밀거나, 오라에 있는 모든 생물을 시계 방향 또는 시계 반대 방향으로 20 피트 이동시킵니다. 각 생물은 @Check[fortitude|dc:21] 내성 굴림을 시도해야 합니다. 성공하면 이동을 피하고, 대실패하면 이동과 함께 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} 상태가 됩니다. 공기 특성을 가진 생물은 이 효과에 면역입니다."
         }
       }
     },
@@ -1925,7 +1925,7 @@
     },
     "Wemmuth": {
       "name": "웨무스",
-      "description": "<p>피로 물든 전장이나 포위된 도시 주변의 전쟁으로 황폐화된 지역에서 흘러나온 대량의 피로 비옥해진 웨무스는 인간들의 고통에서 영양분을 흡수하는 역겨운 덩굴로, 피를 물처럼 핥아 마십니다. 원시적인 지능과 피에 대한 끝없는 갈증을 지닌 웨무스는 대부분의 삶을 숨어 지내며, 끔찍한 서식지의 피로 물든 토양에서 놀라운 크기로 성장합니다. 웨무스의 몸을 구성하는 덩굴은 밧줄보다 두껍지 않지만, 성체 한 마리의 웨무스 시스템은 6톤의 덩굴로 이루어져 있으며, 끝에서 끝까지 직선으로 펴면 6,000피트에 달합니다. 그러나 웨무스는 결코 이처럼 자신을 배치하지 않습니다. 대신 약 15피트 직경과 동일한 두께의 거대한 뭉치로 자신을 감싸는 것을 선호합니다. 웨무스는 종종 게으르게 쉬는 모습을 보이지만, 피의 냄새만으로도 폭력적인 광란 상태로 변합니다. 이 생물은 전체 질량을 날카로운 가시와 휘감는 덩굴로 구성된 구형으로 압축해, 코끼리 크기의 증오스러운 덤불처럼 변모합니다. 웨무스는 일반적으로 거대한 바위나 나무를 땅에서 파내어 굴림 덩어리에 통합하고, 이러한 물체를 사용하여 다양한 형태의 공격에 대한 방어를 강화하거나, 멀리 있는 적에게 무서운 정확도로 던집니다. 일부는 웨무스가 첼리아스의 쓰룬 가문이 라이벌에 대한 소각전술로 골라리온에 풀어 놓은 사악한 타락의 형태라고 추측합니다. 니르마타스와 몰투네의 영향력 있는 귀족들은 웨무스의 창조를 서로에게 돌리고 있습니다. 니르마타스는 몰투네의 지옥의 첼리아크와의 밀접한 관계를 지적하며, 몰투네는 니르마타스의 많은 드루이드와 레인저들이 사용하는 원시 마법을 비난합니다. 바리시안 전설에는 웨무스의 묘사와 일치하는 생물들이 유명한 민속 사기꾼을 체포하려 시도했다는 이야기가 여러 건 기록되어 있습니다. 반면 멘데브의 십자군들은 웨무스가 곤충의 악마 군주 데스카리가 인간 영웅들에게 패배하기 전 골라리온에 퍼뜨린 재앙이라고 믿고 있습니다.</p>",
+      "description": "<p>피로 물든 전장이나 포위된 도시 주변의 전쟁으로 황폐화된 지역에서 흘러나온 대량의 피로 비옥해진 웨무스는 인간들의 고통에서 영양분을 흡수하는 역겨운 덩굴로, 피를 물처럼 핥아 마십니다. 원시적인 지능과 피에 대한 끝없는 갈증을 지닌 웨무스는 대부분의 삶을 숨어 지내며, 끔찍한 서식지의 피로 물든 토양에서 놀라운 크기로 성장합니다. 웨무스의 몸을 구성하는 덩굴은 밧줄보다 두껍지 않지만, 성체 한 마리의 웨무스 시스템은 6톤의 덩굴로 이루어져 있으며, 끝에서 끝까지 직선으로 펴면 6,000피트에 달합니다. 그러나 웨무스는 결코 이처럼 자신을 배치하지 않습니다. 대신 약 15피트 직경과 동일한 두께의 거대한 뭉치로 자신을 감싸는 것을 선호합니다. 웨무스는 종종 게으르게 쉬는 모습을 보이지만, 피의 냄새만으로도 폭력적인 광란 상태로 변합니다. 이 생물은 전체 질량을 날카로운 가시와 휘감는 덩굴로 구성된 구형으로 압축해, 코끼리 크기의 증오스러운 덤불처럼 변모합니다. 웨무스는 일반적으로 거대한 바위나 나무를 땅에서 파내어 굴림 덩어리에 통합하고, 이러한 물체를 사용하여 다양한 형태의 공격에 대한 방어를 강화하거나, 멀리 있는 적에게 무서운 정확도로 던집니다. 일부는 웨무스가 첼리악스의 쓰룬 가문이 라이벌에 대한 소각전술로 골라리온에 풀어 놓은 사악한 타락의 형태라고 추측합니다. 니르마타스와 몰투네의 영향력 있는 귀족들은 웨무스의 창조를 서로에게 돌리고 있습니다. 니르마타스는 몰투네의 지옥의 첼리아크와의 밀접한 관계를 지적하며, 몰투네는 니르마타스의 많은 드루이드와 레인저들이 사용하는 원시 마법을 비난합니다. 바리시안 전설에는 웨무스의 묘사와 일치하는 생물들이 유명한 민속 사기꾼을 체포하려 시도했다는 이야기가 여러 건 기록되어 있습니다. 반면 멘데브의 십자군들은 웨무스가 곤충의 악마 군주 데스카리가 인간 영웅들에게 패배하기 전 골라리온에 퍼뜨린 재앙이라고 믿고 있습니다.</p>",
       "hpdetails": "혈액 흡혈충",
       "items": {
         "kUNkiqNpajCyvKVy": {
@@ -2355,7 +2355,7 @@
         },
         "OuwilwDvrI1Rqfzi": {
           "name": "포자 덩굴",
-          "description": "<p>드라카우티스의 몸을 덮고 있는 덩굴이 뻗어 인접한 생물들을 감염시켜 @Damage[4d6[poison]]의 피해와 @Damage[1d6[persistent,poison]]의 피해를 입힙니다. 생물은 @Check[reflex|dc:27|basic] 내성 체크를 시도하여 이 피해를 줄일 수 있지만, 드라카우티스에 의해 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 하나 잡힌 생물은 이 내성 체크에 -4의 상황 페널티를 받습니다."
+          "description": "<p>드라카우티스의 몸을 덮고 있는 덩굴이 뻗어 인접한 생물들을 감염시켜 @Damage[4d6[poison]]의 피해와 @Damage[1d6[persistent,poison]]의 피해를 입힙니다. 생물은 @Check[reflex|dc:27|basic] 내성 굴림을 시도하여 이 피해를 줄일 수 있지만, 드라카우티스에 의해 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 하나 잡힌 생물은 이 내성 체크에 -4의 상황 페널티를 받습니다."
         },
         "fOnFVdptokDlFcTW": {
           "name": "고리의 회오리",
@@ -2433,7 +2433,7 @@
         },
         "OUrfzECO9Dy3ncIO": {
           "name": "마비",
-          "description": "<p>큐브에 삼켜지거나 큐브의 공격을 받은 생물은 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비} 상태가 됩니다. 단, @Check[fortitude|dc:20] 내성 체크에 성공한 경우는 예외입니다. 피해자는 자신의 턴이 끝날 때마다 새로운 내성 체크를 시도하여 회복할 수 있습니다."
+          "description": "<p>큐브에 삼켜지거나 큐브의 공격을 받은 생물은 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비} 상태가 됩니다. 단, @Check[fortitude|dc:20] 내성 체크에 성공한 경우는 예외입니다. 피해자는 자신의 턴이 끝날 때마다 새로운 내성 굴림을 시도하여 회복할 수 있습니다."
         },
         "L8QPL1ttGhwzsJOz": {
           "name": "약산",
@@ -2580,7 +2580,7 @@
         },
         "GBiarRqqq8qwyZtJ": {
           "name": "마비",
-          "description": "<p>가스트의 공격을 받은 모든 생명체는 @Check[fortitude|dc:16] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비} 상태가 됩니다. 각 턴이 끝날 때마다 새로운 내성 체크를 시도할 수 있으며, 내성 체크에 성공할 때마다 DC는 1씩 감소합니다."
+          "description": "<p>가스트의 공격을 받은 모든 생명체는 @Check[fortitude|dc:16] 내성 체크에 성공하지 않으면 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비} 상태가 됩니다. 각 턴이 끝날 때마다 새로운 내성 굴림을 시도할 수 있으며, 내성 체크에 성공할 때마다 DC는 1씩 감소합니다."
         },
         "e7CxhtU5yoASkey8": {
           "name": "빠른 도약",
@@ -2735,11 +2735,11 @@
       "items": {
         "vTXaShzYmcNbRjzk": {
           "name": "피를 얼어붙게 하는 비명",
-          "description": "<p>올빼미 곰은 먹이감을 공포에 떨게 하는 큰 비명을 지릅니다. @Template[emanation|distance:80] 내에 있는 모든 생물은 @Check[will|dc:20] 내성 체크를 시도해야 합니다. 결과에 상관없이, 생물들은 1분 동안 일시적으로 면역이 됩니다. </p>\n<hr />\n<p><strong>대성공</strong> 생물은 영향을 받지 않습니다. </p>\n<p><strong>성공</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}이 됩니다.</p>\n<p><strong>실패</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 2} 상태가 됩니다.</p>\n<p><strong>대실패</strong> 이 생물은 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{도망} 상태가 되고 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{겁에 질린 3} 상태가 됩니다.</p>"
+          "description": "<p>올빼미 곰은 먹이감을 공포에 떨게 하는 큰 비명을 지릅니다. @Template[emanation|distance:80] 내에 있는 모든 생물은 @Check[will|dc:20] 내성 굴림을 시도해야 합니다. 결과에 상관없이, 생물들은 1분 동안 일시적으로 면역이 됩니다. </p>\n<hr />\n<p><strong>대성공</strong> 생물은 영향을 받지 않습니다. </p>\n<p><strong>성공</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 1}이 됩니다.</p>\n<p><strong>실패</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 2} 상태가 됩니다.</p>\n<p><strong>대실패</strong> 이 생물은 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{도망} 상태가 되고 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{겁에 질린 3} 상태가 됩니다.</p>"
         },
         "vudcfpUT9un2pDOP": {
           "name": "Gnaw",
-          "description": "<p><strong>요건</strong> 올빼미 곰은 발톱으로 생물 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}를 잡았습니다. 공격이 명중하면, 대상은 @Check[will|dc:22] 내성 체크를 시도해야 합니다.</p>\n<hr />\n<p><strong>대성공</strong> 대상은 영향을 받지 않습니다.</p>\n<p><strong>실패</strong> 대상은 병들고 1이며, 병든 상태가 지속되는 동안 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1} 상태가 됩니다."
+          "description": "<p><strong>요건</strong> 올빼미 곰은 발톱으로 생물 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌}를 잡았습니다. 공격이 명중하면, 대상은 @Check[will|dc:22] 내성 굴림을 시도해야 합니다.</p>\n<hr />\n<p><strong>대성공</strong> 대상은 영향을 받지 않습니다.</p>\n<p><strong>실패</strong> 대상은 병들고 1이며, 병든 상태가 지속되는 동안 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1} 상태가 됩니다."
         },
         "qCmKPruRObzVL1Dr": {
           "name": "울부짖는 진격",
@@ -3275,7 +3275,7 @@
         },
         "OLoz41FJFungrpr5": {
           "name": "겟칫",
-          "description": "<p>60 피트. 겟칫의 60 피트 이내에서 턴을 시작하는 모든 생물은 @Check[will|dc:19] 내성 체크를 시도해야 합니다. 실패 시, 그들은 @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{혼란} 상태가 1 라운드 동안 지속됩니다. 성공 시, 그들은 1분 동안 일시적으로 면역 상태가 됩니다.</p>"
+          "description": "<p>60 피트. 겟칫의 60 피트 이내에서 턴을 시작하는 모든 생물은 @Check[will|dc:19] 내성 굴림을 시도해야 합니다. 실패 시, 그들은 @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{혼란} 상태가 1 라운드 동안 지속됩니다. 성공 시, 그들은 1분 동안 일시적으로 면역 상태가 됩니다.</p>"
         },
         "Cfu9UWLk4FBlTQTo": {
           "name": "반응형 갉아먹기",
@@ -3622,7 +3622,7 @@
         },
         "IqlIzn7bY9FduX6g": {
           "name": "위협적인 수호자",
-          "description": "<p>30 피트. 이 영역에서 턴을 시작하거나 이 영역에 들어가는 적들은 @Check[will|dc:19] 내성 체크를 시도해야 합니다. </p>\n<p>실패하면, 24시간 동안 또는 아콘에게 피해를 입힐 때까지, 이 영역에 있는 동안 다른 대상에 대한 공격 굴림, 주문 굴림, 피해 굴림에 -1 상태 페널티를 받습니다. 대실패 시, 24시간 동안 또는 아콘에게 피해를 입힐 때까지, 그 중 먼저 발생하는 때까지, 해당 영역에 있는 동안 다른 대상에 대해 적대적인 행동을 할 수 없습니다. 결과에 상관없이, 그 생물은 24시간 동안 위협적인 수호자의 오라에 일시적으로 면역이 됩니다."
+          "description": "<p>30 피트. 이 영역에서 턴을 시작하거나 이 영역에 들어가는 적들은 @Check[will|dc:19] 내성 굴림을 시도해야 합니다. </p>\n<p>실패하면, 24시간 동안 또는 아콘에게 피해를 입힐 때까지, 이 영역에 있는 동안 다른 대상에 대한 공격 굴림, 주문 굴림, 피해 굴림에 -1 상태 페널티를 받습니다. 대실패 시, 24시간 동안 또는 아콘에게 피해를 입힐 때까지, 그 중 먼저 발생하는 때까지, 해당 영역에 있는 동안 다른 대상에 대해 적대적인 행동을 할 수 없습니다. 결과에 상관없이, 그 생물은 24시간 동안 위협적인 수호자의 오라에 일시적으로 면역이 됩니다."
         },
         "9FQ3eh9wkGZD4b1O": {
           "name": "보복의 일격",
@@ -3665,7 +3665,7 @@
         },
         "5ogrmYbXtCuT4HPN": {
           "name": "부패한 물",
-          "description": "<p><strong>빈도</strong> 하루에 한 번</p>\n<hr />\n<p><strong>효과</strong> 용은 90피트 이내의 액체 10입방피트를 영구적으로 오염시킵니다. 이 액체는 마실 수 없게 되고, 물로 숨을 쉬는 생명체가 살 수 없게 됩니다. </p>\n<p>이 효과는 드래곤보다 레벨이 낮은 액체 마법이나 연금술 아이템을 파괴합니다 (생물은 @Check[will|dc:28] 내성 체크를 시도하여 소유한 액체를 보호할 수 있습니다). 이 효과는 생물의 몸에 있는 액체에는 영향을 미치지 않습니다. </p>"
+          "description": "<p><strong>빈도</strong> 하루에 한 번</p>\n<hr />\n<p><strong>효과</strong> 용은 90피트 이내의 액체 10입방피트를 영구적으로 오염시킵니다. 이 액체는 마실 수 없게 되고, 물로 숨을 쉬는 생명체가 살 수 없게 됩니다. </p>\n<p>이 효과는 드래곤보다 레벨이 낮은 액체 마법이나 연금술 아이템을 파괴합니다 (생물은 @Check[will|dc:28] 내성 굴림을 시도하여 소유한 액체를 보호할 수 있습니다). 이 효과는 생물의 몸에 있는 액체에는 영향을 미치지 않습니다. </p>"
         },
         "5fkFF7Wnl8Mmf8Zu": {
           "name": "드래곤의 광기",
@@ -3822,7 +3822,7 @@
         },
         "LUZas9EK4qLmUsox": {
           "name": "느려짐을 주는 서리",
-          "description": "<p>얼음 악마는 부속 기관과 무기를 통해 몸에서 극한의 추위를 발산합니다. 아이스 데빌의 무기나 무기 없는 근접 공격에 맞은 생물은 @Check[fortitude|dc:32] 내성 체크를 시도해야 합니다. 실패하면 [[/gmr 1d4 #rounds]]{1d4 라운드} 동안 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1} 상태가 됩니다. 아이스 데빌이 사용하는 무기는 젤루곤이 들고 있는 동안 <em>@UUID[Compendium.pf2e.equipment-srd.Item.M5M1WJ5KzbYfRGsY]{Frost}</em> 룬의 효과를 얻게 되며, 아이스 데빌은 이러한 무기를 20피트 범위 증가로 던질 수 있으며, 그 뒤로 서리 입자가 날아갑니다."
+          "description": "<p>얼음 악마는 부속 기관과 무기를 통해 몸에서 극한의 추위를 발산합니다. 아이스 데빌의 무기나 무기 없는 근접 공격에 맞은 생물은 @Check[fortitude|dc:32] 내성 굴림을 시도해야 합니다. 실패하면 [[/gmr 1d4 #rounds]]{1d4 라운드} 동안 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1} 상태가 됩니다. 아이스 데빌이 사용하는 무기는 젤루곤이 들고 있는 동안 <em>@UUID[Compendium.pf2e.equipment-srd.Item.M5M1WJ5KzbYfRGsY]{Frost}</em> 룬의 효과를 얻게 되며, 아이스 데빌은 이러한 무기를 20피트 범위 증가로 던질 수 있으며, 그 뒤로 서리 입자가 날아갑니다."
         },
         "RWLfly211783dq5i": {
           "name": "코키투스의 전술가",
@@ -4062,7 +4062,7 @@
         },
         "nHfBhYOOHdy8Wx7p": {
           "name": "회오리 형태",
-          "description": "<p>우툴은 폭풍과 분노의 회오리바람으로 변신하여 너비 10피트, 높이 최대 40피트의 형태를 취합니다. 이 형태는 3 라운드 동안 유지되거나 효과가 해제될 때까지 지속됩니다. 이 형태에 있는 동안, 우툴은 물리 피해에 대해 10의 저항력을 얻고 다른 생물들을 통과할 수 있습니다. </p>\n<p>그의 오라는 활성 상태로 남아 있지만, 파편 공격을 하거나 번개 충돌을 사용할 수는 없습니다. 대신, 우툴이 통과하는 모든 생물은 @Damage[4d6[bludgeoning],2d12[전기]]의 피해를 받습니다. 생물은 이 피해를 라운드당 한 번만 받을 수 있습니다. 대형 이하 크기의 생물은 @Check[reflex|dc:32] 내성 체크에 성공하지 않으면 소용돌이 안에 떠서 잡혀버립니다. 떠 있는 생물은 우툴과 함께 이동합니다. 생물은 행동력을 사용하여 @Check[reflex|dc:32] 내성 체크를 시도하여 탈출할 수 있습니다 (또는 <span data-pf2-action=“maneuverInFlight” data-pf2-dc=“32” data-pf2-label=“Whirlwind Form DC” data-pf2-glyph=‘A’ data-pf2-show-dc=“gm”>Acrobatics</span> 체크를 시도하여 비행 중 기동을 할 수 있습니다 (비행 속도가 있는 경우). 탈출하거나 우툴이 폭풍 구름 형태로 변환되면, 공중에 떠 있는 생물은 [[/gmr 1d4*10]]{1d4 x 10 피트}의 무작위 방향으로 날아간 후, 비행하거나 공중에 머물 수 없는 경우 떨어집니다.</p>\n<p>정상 형태로 돌아온 후, 우툴은 Whirlwind Form을 다시 사용할 수 있기까지 1분을 기다려야 합니다.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.rpxdrOlzY2SOtMWB]{효과: 회오리 바람 형태}</p>"
+          "description": "<p>우툴은 폭풍과 분노의 회오리바람으로 변신하여 너비 10피트, 높이 최대 40피트의 형태를 취합니다. 이 형태는 3 라운드 동안 유지되거나 효과가 해제될 때까지 지속됩니다. 이 형태에 있는 동안, 우툴은 물리 피해에 대해 10의 저항력을 얻고 다른 생물들을 통과할 수 있습니다. </p>\n<p>그의 오라는 활성 상태로 남아 있지만, 파편 공격을 하거나 번개 충돌을 사용할 수는 없습니다. 대신, 우툴이 통과하는 모든 생물은 @Damage[4d6[bludgeoning],2d12[전기]]의 피해를 받습니다. 생물은 이 피해를 라운드당 한 번만 받을 수 있습니다. 대형 이하 크기의 생물은 @Check[reflex|dc:32] 내성 체크에 성공하지 않으면 소용돌이 안에 떠서 잡혀버립니다. 떠 있는 생물은 우툴과 함께 이동합니다. 생물은 행동력을 사용하여 @Check[reflex|dc:32] 내성 굴림을 시도하여 탈출할 수 있습니다 (또는 <span data-pf2-action=“maneuverInFlight” data-pf2-dc=“32” data-pf2-label=“Whirlwind Form DC” data-pf2-glyph=‘A’ data-pf2-show-dc=“gm”>Acrobatics</span> 체크를 시도하여 비행 중 기동을 할 수 있습니다 (비행 속도가 있는 경우). 탈출하거나 우툴이 폭풍 구름 형태로 변환되면, 공중에 떠 있는 생물은 [[/gmr 1d4*10]]{1d4 x 10 피트}의 무작위 방향으로 날아간 후, 비행하거나 공중에 머물 수 없는 경우 떨어집니다.</p>\n<p>정상 형태로 돌아온 후, 우툴은 Whirlwind Form을 다시 사용할 수 있기까지 1분을 기다려야 합니다.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.rpxdrOlzY2SOtMWB]{효과: 회오리 바람 형태}</p>"
         }
       }
     },
@@ -4357,7 +4357,7 @@
         },
         "SRv8Gjga6DHY4U8G": {
           "name": "부패한 물",
-          "description": "<p><strong>빈도</strong> 하루에 한 번</p>\n<hr />\n<p><strong>효과</strong> 용은 90피트 이내의 액체 10입방피트를 영구히 오염시킵니다. 이 액체는 마실 수 없게 되고, 물로 숨을 쉬는 생명체가 살 수 없게 됩니다. </p>\n<p>이 효과는 드래곤보다 레벨이 낮은 액체 마법이나 연금술 아이템을 파괴합니다 (생물은 @Check[will|dc:35] 내성 체크를 시도하여 소유한 액체를 보호할 수 있습니다). 이 효과는 생물의 몸에 있는 액체에는 영향을 미치지 않습니다. </p>"
+          "description": "<p><strong>빈도</strong> 하루에 한 번</p>\n<hr />\n<p><strong>효과</strong> 용은 90피트 이내의 액체 10입방피트를 영구히 오염시킵니다. 이 액체는 마실 수 없게 되고, 물로 숨을 쉬는 생명체가 살 수 없게 됩니다. </p>\n<p>이 효과는 드래곤보다 레벨이 낮은 액체 마법이나 연금술 아이템을 파괴합니다 (생물은 @Check[will|dc:35] 내성 굴림을 시도하여 소유한 액체를 보호할 수 있습니다). 이 효과는 생물의 몸에 있는 액체에는 영향을 미치지 않습니다. </p>"
         }
       }
     },
@@ -4446,7 +4446,7 @@
         },
         "RKCbcbBugZzIrxdw": {
           "name": "위협적인 수호자",
-          "description": "<p>30 피트. 이 영역에서 턴을 시작하거나 이 영역에 들어가는 적들은 @Check[will|dc:27] 내성 체크를 시도해야 합니다. </p>\n<p>실패하면, 24시간 동안 또는 아콘에게 피해를 입힐 때까지, 이 영역에 있는 동안 다른 대상에 대한 공격 굴림, 주문 굴림, 피해 굴림에 -1 상태 페널티를 받습니다. 대실패 시, 24시간 동안 또는 아콘에게 피해를 입힐 때까지, 그 중 먼저 발생하는 시점까지, 해당 영역에 있는 동안 다른 대상에 대해 적대적인 행동을 할 수 없습니다. 결과에 상관없이, 크리처는 24시간 동안 위협적인 수호자의 오라에 일시적으로 면역이 됩니다."
+          "description": "<p>30 피트. 이 영역에서 턴을 시작하거나 이 영역에 들어가는 적들은 @Check[will|dc:27] 내성 굴림을 시도해야 합니다. </p>\n<p>실패하면, 24시간 동안 또는 아콘에게 피해를 입힐 때까지, 이 영역에 있는 동안 다른 대상에 대한 공격 굴림, 주문 굴림, 피해 굴림에 -1 상태 페널티를 받습니다. 대실패 시, 24시간 동안 또는 아콘에게 피해를 입힐 때까지, 그 중 먼저 발생하는 시점까지, 해당 영역에 있는 동안 다른 대상에 대해 적대적인 행동을 할 수 없습니다. 결과에 상관없이, 크리처는 24시간 동안 위협적인 수호자의 오라에 일시적으로 면역이 됩니다."
         },
         "UgyxwE6dj48w1zhM": {
           "name": "보복의 공격",

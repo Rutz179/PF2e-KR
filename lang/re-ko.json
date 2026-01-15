@@ -8,11 +8,11 @@
       },
       "ExplosiveAmmunition": {
         "Greater": {
-          "Text": "투사체는 @Template[burst|distance:10] 범위 내에서 폭발하여, 해당 영역에 있는 모든 생물(대상 포함)에게 @Damage[10d6[fire]]의 피해를 입힙니다. 모든 생물은 @Check[reflex|dc:30|basic|name:Explosive Ammunition] 내성 체크를 시도해야 합니다.",
+          "Text": "투사체는 @Template[burst|distance:10] 범위 내에서 폭발하여, 해당 영역에 있는 모든 생물(대상 포함)에게 @Damage[10d6[fire]]의 피해를 입힙니다. 모든 생물은 @Check[reflex|dc:30|basic|name:Explosive Ammunition] 내성 굴림을 시도해야 합니다.",
           "Title": "폭발성 탄약 (강화)"
         },
         "Normal": {
-          "Text": "투사체가 @Template[burst|distance:10] 범위 내에서 폭발하여, 해당 영역에 있는 모든 생물(대상 포함)에게 @Damage[6d6[fire]]의 피해를 입힙니다. 각 생물은 @Check[reflex|dc:25|basic|name:Explosive Ammunition] 내성 체크를 시도해야 합니다.",
+          "Text": "투사체가 @Template[burst|distance:10] 범위 내에서 폭발하여, 해당 영역에 있는 모든 생물(대상 포함)에게 @Damage[6d6[fire]]의 피해를 입힙니다. 각 생물은 @Check[reflex|dc:25|basic|name:Explosive Ammunition] 내성 굴림을 시도해야 합니다.",
           "Title": "폭발성 탄약"
         }
       },
@@ -717,7 +717,7 @@
       "Sea": "바다 드래곤",
       "Silver": "은 드래곤",
       "Sky": "하늘 드래곤",
-      "Sovereign": "주권 드래곤",
+      "Sovereign": "소버린 드래곤",
       "Umbral": "움브랄 드래곤",
       "Underworld": "지하 세계 드래곤",
       "White": "흰 드래곤"
@@ -2534,7 +2534,7 @@
       },
       "Assassin": {
         "Assassinate": {
-          "Note": "타격에 성공하면, 대상은 @Damage[(6d6[precision])[@item.system.damage.damageType]]의 추가 피해를 받고, @Check[fortitude|against:class-spell|basic] 내성 체크를 합니다. 대상이 대실패를 하면, 레벨이 당신보다 높지 않으면 사망합니다."
+          "Note": "타격에 성공하면, 대상은 @Damage[(6d6[precision])[@item.system.damage.damageType]]의 추가 피해를 받고, @Check[fortitude|against:class-spell|basic] 내성 굴림을 합니다. 대상이 대실패를 하면, 레벨이 당신보다 높지 않으면 사망합니다."
         }
       },
       "AssuredIdentification": {
@@ -3736,7 +3736,7 @@
         }
       },
       "EnvenomCompanion": {
-        "DamageNote": "이 독에 피해를 입은 생물은 @Check[fortitude|traits:poison] 내성 체크를 시도해야 합니다. 실패하면 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1}이 적용됩니다."
+        "DamageNote": "이 독에 피해를 입은 생물은 @Check[fortitude|traits:poison] 내성 굴림을 시도해야 합니다. 실패하면 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1}이 적용됩니다."
       },
       "Equipment": {
         "AlchemistGoggles": {
@@ -4128,7 +4128,7 @@
             "Description": "초월의 불꽃을 발동한 후, 자유 행동으로 30 피트 이내의 적에게 [[/act palm-an-object]] 또는 [[/act steal]]을 시도할 수 있습니다. 이동된 물건은 단순히 사라지고 당신의 손에 다시 나타납니다."
           },
           "TrespasserInDeathsRealm": {
-              "CriticalSpecialization": "<p>공격이 치명타로 성공하면, 훔친 연결을 통해 대상의 죽음을 앞당깁니다. 대상은 당신의 직업 DC에 대해 @Check[will|against:exemplar|traits:curse] 내성 체크를 시도해야 합니다. 실패하면 1분 동안 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 1} 상태가 됩니다. 이 상태는 저주 특성을 가지고 있습니다.</p>",
+              "CriticalSpecialization": "<p>공격이 치명타로 성공하면, 훔친 연결을 통해 대상의 죽음을 앞당깁니다. 대상은 당신의 직업 DC에 대해 @Check[will|against:exemplar|traits:curse] 내성 굴림을 시도해야 합니다. 실패하면 1분 동안 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 1} 상태가 됩니다. 이 상태는 저주 특성을 가지고 있습니다.</p>",
               "Description": "<p>초월을 발동하면, 당신의 신성한 불꽃이 죽음의 일부를 당신에게 끌어당깁니다. 다음 턴이 시작될 때까지, 당신과 인접한 턴을 시작하거나 당신과 인접한 공간에 들어가는 모든 살아있는 적들은 @Damage[1d6[void]]의 피해를 받습니다.</p>"
           },
           "WhoseCryIsThunder": {
@@ -4474,7 +4474,7 @@
       },      
       "GameHunterDedication": {
         "TargetHuntedPrey": "대상은 당신의 사냥감 (동물, 야수, 또는 용만 해당)",
-        "SuccessAttack": "사냥감이 오프 가드 상태일 때 공격에 성공하면, 사냥감은 당신의 직업 DC에 대한 @Check[fortitude|against:class] 내성 체크를 시도해야 합니다. 실패하면 사냥감의 속도가 1 라운드 동안 10 피트씩 감소하고, 대실패하면 이 효과의 지속 시간이 1 분으로 늘어납니다. 사냥감은 그 후 10 분 동안 이 효과에 일시적으로 면역이 됩니다. @UUID[Compendium.pf2e.feat-effects.Item.eTosCwuCMf09fYYH]{효과: 사냥꾼 (실패)} @UUID[Compendium.pf2e.feat-effects.Item.lfbDqyKUMssoxUTZ]{효과: 사냥꾼 (대실패)}"
+        "SuccessAttack": "사냥감이 오프 가드 상태일 때 공격에 성공하면, 사냥감은 당신의 직업 DC에 대한 @Check[fortitude|against:class] 내성 굴림을 시도해야 합니다. 실패하면 사냥감의 속도가 1 라운드 동안 10 피트씩 감소하고, 대실패하면 이 효과의 지속 시간이 1 분으로 늘어납니다. 사냥감은 그 후 10 분 동안 이 효과에 일시적으로 면역이 됩니다. @UUID[Compendium.pf2e.feat-effects.Item.eTosCwuCMf09fYYH]{효과: 사냥꾼 (실패)} @UUID[Compendium.pf2e.feat-effects.Item.lfbDqyKUMssoxUTZ]{효과: 사냥꾼 (대실패)}"
       },
       "Ganzi": {
         "Irrepressible": {
@@ -4575,7 +4575,7 @@
       },
       "GreyGardener": {
         "Execution": {
-          "Note": "타격에 성공하면, 저주받은 적은 @Damage[(8d6[정밀도])[@item.system.damage.damageType]]의 추가 피해를 받고 @Check[fortitude|against:class-spell|basic] 내성 체크를 합니다. 저주받은 적이 처형으로 체력이 0이 되고 머리가 있어야만 살 수 있는 상태가 되면, 그 적은 사망합니다."
+          "Note": "타격에 성공하면, 저주받은 적은 @Damage[(8d6[정밀도])[@item.system.damage.damageType]]의 추가 피해를 받고 @Check[fortitude|against:class-spell|basic] 내성 굴림을 합니다. 저주받은 적이 처형으로 체력이 0이 되고 머리가 있어야만 살 수 있는 상태가 되면, 그 적은 사망합니다."
         },
         "HarshJudgement": {
           "SeekCondemnedFoeLabel": "가혹한 심판 - 저주받은 적을 찾기"
@@ -6313,7 +6313,7 @@
           "Description": "_vampiric feast_를 시전할 때, 그 표준 효과를 다음과 같이 수정할 수 있습니다. 일시적인 체력을 얻는 대신, 대상이 내성 굴림에 실패하거나 대실패를 하면, 그 상태의 원인을 사용하여 반격 등급과 DC를 결정하여 자신에게 적용된 서투른 또는 약화된 상태를 제거하기 위해 반격 체크를 시도할 수 있습니다. 그 상태가 진행 중인 효과로 인해 발생한 것이며 그 효과를 제거하지 않는 경우, 그 상태는 다음 턴이 끝날 때 다시 적용됩니다."
         },
         "SummonEnsemble": {
-          "Description": "_악기 소환_을 시전할 때, 지속 시간을 최대 1분까지 지속으로 수정할 수 있습니다. 그렇게 하면, 시전 능력 수정자에 해당하는 수의 악기가 주변에 떠서 스스로 연주를 합니다. 주문을 지속할 때, 턴에 한 번, 30피트 이내에서 당신의 연주를 들을 수 있는 적을 선택합니다. 대상은 @Check[will] 내성 체크를 마법의 DC에 대해 시도해야 합니다. 실패하면, 대상은 당신의 연주로 인해 주의가 산만해지고 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프-가드} 상태가 됩니다. 그 후, 대상은 24시간 동안 일시적으로 면역이 됩니다."
+          "Description": "_악기 소환_을 시전할 때, 지속 시간을 최대 1분까지 지속으로 수정할 수 있습니다. 그렇게 하면, 시전 능력 수정자에 해당하는 수의 악기가 주변에 떠서 스스로 연주를 합니다. 주문을 지속할 때, 턴에 한 번, 30피트 이내에서 당신의 연주를 들을 수 있는 적을 선택합니다. 대상은 @Check[will] 내성 굴림을 마법의 DC에 대해 시도해야 합니다. 실패하면, 대상은 당신의 연주로 인해 주의가 산만해지고 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프-가드} 상태가 됩니다. 그 후, 대상은 24시간 동안 일시적으로 면역이 됩니다."
         },
         "SurroundingFlames": {
           "Description": "_wall of fire_를 시전할 때, 그 표준 효과를 다음과 같이 수정할 수 있습니다. 5피트 두께, 10피트 반경의 불의 고리 대신, @Template[burst|distance:10]{10-foot-radius} 반구형의 불의 벽을 만들 수 있습니다."
@@ -6408,7 +6408,7 @@
         "InterweaveDispel": "다음 행동이 적을 대상으로 한 단일 대상 주문을 시전하는 것이고, 주문 공격 굴림으로 적을 명중하거나 적이 내성 굴림에 실패한 경우, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제} 를 적에게 자유 행동으로 발동할 수 있습니다. 이 경우 일반적인 마법 슬롯을 소모하며, 적에게 영향을 미치는 단일 마법 효과를 대상으로 합니다.",
         "IntoTheFuture": "만약 다음 행동이 1 또는 2 행동이 필요한 주문을 시전하는 것이라면, 해당 주문의 효과는 즉시 발생하지 않고 1 라운드 후에, 즉 다음 턴의 시작 시점에 발생합니다. 주문의 대상과 선택 사항은 주문을 시전할 때 결정되어야 하며, 시야나 효과 범위와 같은 조건은 주문을 시전할 때와 효과 발생 시 모두 유효해야 합니다. 주문을 캐스팅하는 행동 자체의 결과, 예를 들어 기회 공격 반응이나 적의 @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{매혹} 상태를 호전적인 행동으로 종료하는 것 등은 지연되지 않습니다.",
         "KaleidoscopicEntreaty": {
-          "Description": "다음 행동이 @UUID[Compendium.pf2e.spells-srd.Item.Yph1UqZU8vMc9bJG]{Entreat Spirit}를 발동하는 경우, 해당 영혼이 당신을 중심으로 @Template[type:emanation|distance:10] 범위 내에서 화려한 색상, 빛, 소리의 폭발을 일으킬 수 있습니다. 이 영역에 있는 모든 생물은 당신의 직업 DC 또는 주문 DC에 대해 @Check[fortitude|against:class-spell] 내성 체크를 시도해야 하며, 그 결과는 다음과 같습니다.",
+          "Description": "다음 행동이 @UUID[Compendium.pf2e.spells-srd.Item.Yph1UqZU8vMc9bJG]{Entreat Spirit}를 발동하는 경우, 해당 영혼이 당신을 중심으로 @Template[type:emanation|distance:10] 범위 내에서 화려한 색상, 빛, 소리의 폭발을 일으킬 수 있습니다. 이 영역에 있는 모든 생물은 당신의 직업 DC 또는 주문 DC에 대해 @Check[fortitude|against:class-spell] 내성 굴림을 시도해야 하며, 그 결과는 다음과 같습니다.",
           "CriticalFailure": "생물은 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명} 상태가 되고 1분 동안 눈이 부시게 됩니다.",
           "CriticalSuccess": "생물은 영향을 받지 않습니다.",
           "Failure": "생물은 1분 동안 눈부심 상태가 됩니다.",
