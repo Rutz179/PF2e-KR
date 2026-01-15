@@ -2,14 +2,14 @@
   "label": "패밀리어 능력",
   "entries": {
     "Lightning Needles": {
-      "name": "번개 바늘 (Lightning Needles)",
+      "name": "번개 바늘(Lightning Needles)",
       "description": "<p><strong>요구 사항</strong> 이번 턴에 공기 또는 전기 속성을 가진 주문을 시전했을 경우;</p><hr /><p><strong>효과</strong> 당신의 패밀리어가 과잉 전하를 흡수하여 정전기 @Template[type:emanation|distance:5]을 방출합니다. 이 정전기는 생물들의 경락으로 흘러들어갑니다. 방출 범위 내의 생물 중 당신의 주문 DC(DC)에 대한 @Check[fortitude|options:area-effect,damaging-effect] 내성에 실패한 생물은 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1} 상태가 되어 다음 차례가 끝날 때까지 지속됩니다. 발산 범위 내에서 젖어 있거나 물 위에 서 있거나 물 속에 있는 생물은 내성에 실패할 경우 @Damage[1d4[persistent,electricity]|options:area-damage]의 추가 피해를 입습니다.</p>",
       "traits": [
         "electricity"
       ]
     },
     "Darkvision": {
-      "name": "암흑 시야 (Darkvision)",
+      "name": "암흑 시야(Darkvision)",
       "description": "<p>암흑 시야를 얻습니다.</p>",
       "rules": [
         {
@@ -19,31 +19,31 @@
       ]
     },
     "Versatile Form": {
-      "name": "다용도 형태 (Versatile Form)",
+      "name": "다용도 형태(Versatile Form)",
       "description": "<p>당신의 피조물인 패밀리어의 제작된 몸은 필요할 때 조정할 수 있게 해줍니다. 하루에 한 번, 10분을 소비하여 패밀리어가 가진 한 가지 패밀리어 능력 또는 마스터 능력을 변경할 수 있습니다. 이 능력을 선택하려면 패밀리어가 구조물이어야 하며, 당신은 제작 기술에 최소한 숙련되어 있어야 합니다.</p>"
     },
     "Mass-Produced": {
-      "name": "대량 생산 (Mass-Produced)",
+      "name": "대량 생산(Mass-Produced)",
       "description": "<p>당신의 시키가미가 죽으면, 다음 일일 준비 시간 동안 그 영혼을 다른 종이 인형에 재결속할 수 있습니다.</p>"
     },
     "Seal-Bearer": {
-      "name": "인장 보유자 (Seal-Bearer)",
+      "name": "인장 보유자(Seal-Bearer)",
       "description": "<p>일일 준비 시간 동안, 네 시키가미에 공기, 땅, 불, 금속, 물, 나무 원소 중 하나에 해당하는 상징이나 인장을 새길 수 있다. 해당 날 시키가미의 점화 능력을 사용하면, 불 속성만 적용되던 주문이 선택한 속성과 관련된 속성으로 피해를 주는 주문에도 적용됩니다.</p>"
     },
     "Independent": {
-      "name": "독립성 (Independent)",
+      "name": "독립성(Independent)",
       "description": "<p>전투 중, 당신이 패밀리어에게 명령을 내리지 않아도 매 라운드마다 1개의 행동을 얻습니다. 일반적으로 그 행동의 사용 방법은 여전히 당신이 결정하지만, GM은 당신의 선호하는 행동을 수행하기보다 당신의 패밀리어가 자체 전술을 선택하도록 결정할 수 있습니다. 이 능력은 @UUID[Compendium.pf2e.familiar-abilities.Item.9PsptrEoCC4QdM23]{발레트}나 명령이 필요한 유사 능력, 패밀리어를 탈 수 있는 경우, 또는 유사한 상황에서는 작동하지 않습니다.</p>"
     },
     "Radiant": {
-      "name": "광휘 (Radiant)",
+      "name": "광휘(Radiant)",
       "description": "<p>당신의 패밀리어는 신성한 광채로 가득 차 악의 세력에 저항합니다. 패밀리어는 당신의 레벨 절반에 해당하는 악 및 공허 피해에 대한 저항력을 얻습니다.</p>\n<p><em>참고: 한 배우에 적용된 효과는 다른 배우의 데이터를 참조할 수 없으므로, PC 레벨의 절반에 해당하는 저항력은 자동화할 수 없습니다. 이에 따라 패밀리어의 저항력을 업데이트해 주십시오.</em></p>"
     },
     "Purify Air": {
-      "name": "공기 정화 (Purify Air)",
+      "name": "공기 정화(Purify Air)",
       "description": "<p><strong>전제 조건</strong> @UUID[Compendium.pf2e.feats-srd.Item.baz18CdB13DVMHV9]{레시 패밀리어의 비밀}</p>\n<p> 당신의 패밀리어는 공기를 재순환시켜 밀폐된 방이나 초차원 공간처럼 공기가 탁한 지역에서 중간 크기의 생물이 숨 쉴 수 있을 만큼의 산소를 공급합니다. 레시가 흡입형 독 효과나 냄새에 의존하는 효과의 범위 내에 있을 경우, 레시로부터 @Template[emanation|distance:15] 이내에 있는 생물들은 해당 효과에 대한 내성 굴림에서 +2 상황 보너스를 얻습니다.</p>"
     },
     "Elemental Familiar (Fire)": {
-      "name": "원소 패밀리어 (불) (Elemental Familiar (Fire))",
+      "name": "원소 패밀리어 (불)(Elemental Familiar (Fire))",
       "description": "<p>당신의 패밀리어는 불 원소 특성을 얻습니다.</p>\n<p>당신의 패밀리어는 반경 20피트(다음 20피트는 희미한 빛)에 걸쳐 밝은 빛을 발산하며 온기를 내뿜습니다. @Template[emanation|distance:15] 안에 머무르는 생물은 극심한 환경적 추위로부터 피해를 입지 않습니다.</p>",
       "rules": [
         {
@@ -72,11 +72,11 @@
       ]
     },
     "Plant Form": {
-      "name": "식물 형태 (Plant Form)",
+      "name": "식물 형태(Plant Form)",
       "description": "<p>당신의 식물형 패밀리어는 액션 하나에 의해 형태를 바꿔, 패밀리어의 본성과 대략 유사한 유형의 소형 식물로 변신할 수 있습니다. 이 능력은 @UUID[Compendium.pf2e.spells-srd.Item.dileJ0Yxqg76LMvu]{식물과의 일체감}의 효과를 사용합니다. 이 능력을 선택하려면 식물 특성을 가진 패밀리어가 있어야 합니다.</p>"
     },
     "Construct": {
-      "name": "구조물 (Construct)",
+      "name": "구조물(Construct)",
       "description": "<p>당신의 패밀리어는 동물 특성 대신 구조체 특성을 가집니다. 패밀리어는 죽음 효과, 질병, 파멸, 기력 소모, 피로, 치유, 비살상 공격, 마비, 독, 병약, 영혼, 의식 상실, 활력, 공허에 면역입니다. 이 특성을 선택하려면 당신의 패밀리어가 @UUID[Compendium.pf2e.familiar-abilities.Item.Le8UWr5BU8rV3iBf]{강인함} 애완동물 능력을 가져야 합니다.</p>",
       "rules": [
         {
@@ -88,43 +88,43 @@
       ]
     },
     "Familiar of Balanced Luck": {
-      "name": "균형 잡힌 행운의 패밀리어 (Familiar of Balanced Luck)",
+      "name": "균형 잡힌 행운의 패밀리어(Familiar of Balanced Luck)",
       "description": "<p>당신의 패밀리어 몸에는 각도에 따라 행운의 부적처럼 보이기도 하고 불길한 징조처럼 보이기도 하는 점이 있습니다. 당신이 헥스를 시전하거나 유지할 때, 당신의 패밀리어로부터 15피트 이내에 있는 한 생물이 다음 중 하나를 선택하여 다음 턴 시작까지 적용받습니다: AC에 +1 상태 보너스 또는 AC에 -1 상태 페널티.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.0JvxhEv83bAD5PGv]{효과: 균형 잡힌 행운의 패밀리어}</p>"
     },
     "Flatten": {
-      "name": "납작해지기 (Flatten)",
+      "name": "납작해지기(Flatten)",
       "description": "<p>당신의 패밀리어는 종이 한 장 두께로 납작해질 수 있어 가장 작은 틈새나 간극도 쉽게 통과할 수 있습니다. 문이나 다른 장애물에 종이 한 장이 들어갈 만한 틈이 있다면, 당신의 패밀리어는 쪼그려지기를 사용하지 않고도 그곳을 통과할 수 있습니다.</p>"
     },
     "Lab Assistant": {
-      "name": "실험 조교 (Lab Assistant)",
+      "name": "실험 조교(Lab Assistant)",
       "description": "<p>당신의 @UUID[Compendium.pf2e.actionspf2e.Item.yzNJgwzV9XqEhKc6]{신속한 연금술} 행동을 사용할 수 있습니다. 당신은 신속한 연금술을 보유해야 하며, 당신의 패밀리어는 당신의 공간에 있어야 합니다. 이는 당신이 사용했을 때와 동일한 비용과 요구 사항을 가집니다. 이를 선택하려면 @UUID[Compendium.pf2e.familiar-abilities.Item.cT5octWchU4gjrhP]{수동 민첩성} 능력을 가져야 합니다.</p>"
     },
     "Ambassador": {
-      "name": "마스코트 (Ambassador)",
+      "name": "마스코트(Ambassador)",
       "description": "<p>당신의 패밀리어는 신호에 따라 귀엽게 행동하거나 포커스하는 법을 알고 있어, 당신이 좋은 인상을 남기도록 돕습니다.</p>\n<p>하수인임에도 불구하고, 당신의 패밀리어는 자신의 턴 시작 시 1회 반응을 얻으며, 이는 오직 @UUID[Compendium.pf2e.actionspf2e.Item.HCl3pzVefiv9ZKQW]{지원} 행동으로 외교 체크에서 @UUID[Compendium.pf2e.actionspf2e.Item.OX4fy22hQgUHDr0q]{인상 남기기}를 시도할 때만 사용할 수 있습니다(지원 반응을 위해 평소처럼 도움을 준비해야 하며, 이는 활동 전반에 걸쳐 참여해야 함을 의미합니다).</p>\n<p>해당 기술로 당신을 지원할 때 자동으로 체크를 성공하거나, 해당 기술의 마스터일 경우 자동으로 대성공을 거둡니다.</p>"
     },
     "Poison Reservoir": {
-      "name": "독 저장소 (Poison Reservoir)",
+      "name": "독 저장소(Poison Reservoir)",
       "description": "<p>당신의 패밀리어는 독 저장고를 보유하여, 인접한 아군의 노출된 무기에 상처 독을 액션 하나(단일 상호작용 행동)로 도포할 수 있습니다. 독을 공급하고 이 저장고에 주입하려면 연속된 두 번의 상호작용 행동이 필요합니다. 이 능력을 선택하려면 호문쿨루스 패밀리어가 있어야 합니다</p>"
     },
     "Accompanist": {
-      "name": "공연 보조 (Accompanist)",
+      "name": "공연 보조(Accompanist)",
       "description": "<p> 당신의 패밀리어는 공연을 돕습니다. 공연 능력 체크를 시도할 때마다, 패밀리어가 근처에 있고 행동할 수 있다면 지저귐, 박수, 또는 자신의 소형 악기로 당신을 반주합니다. 이는 +1 상황 보너스를 부여하며, 공연 능력에 마스터인 경우 +2를 부여합니다.</p>"
     },
     "Valet": {
-      "name": "배달부 (Valet)",
+      "name": "배달부(Valet)",
       "description": "<p>당신은 패밀리어에게 물건을 더 효율적으로 전달하도록 명령할 수 있습니다. 패밀리어는 당신의 명령에 따라 즉시 두 번의 행동을 사용하지 않습니다. 대신, 당신의 턴이 끝나기 전까지 최대 두 번까지, 패밀리어가 상호작용하여 당신이 착용하고 있는 가볍거나 무시할 수 있는 벌크의 물건을 가져와 당신의 빈 손 중 하나에 놓도록 할 수 있습니다. 이 능력으로 보관된 아이템을 회수할 수는 없습니다. 패밀리어의 행동 횟수가 다를 경우, 이 방식으로 명령 시 보유한 행동 횟수만큼 아이템을 회수할 수 있습니다.</p>"
     },
     "Familiar of Freezing Rime": {
-      "name": "서리 얼음의 패밀리어 (Familiar of Freezing Rime)",
+      "name": "서리 얼음의 패밀리어(Familiar of Freezing Rime)",
       "description": "<p>당신의 패밀리어는 만지면 차갑고, 숨결은 항상 눈에 띕니다. 당신이 헥스를 시전하거나 유지할 때, 패밀리어의 공간 한 칸을 중심으로 한 @Template[burst|distance:5] 영역에 얼음을 형성할 수 있습니다. 해당 칸들은 다음 차례 시작까지 어려운 지형이 됩니다.</p>"
     },
     "Familiar of Flowing Script": {
-      "name": "흐르는 글씨 패밀리어 (Familiar of Flowing Script)",
+      "name": "흐르는 글씨 패밀리어(Familiar of Flowing Script)",
       "description": "<p>당신의 패밀리어는 알 수 없는 언어의 글자처럼 보이는 문양으로 뒤덮여 있으며, 이해하기 어렵지만 오히려 시선을 사로잡는 듯한 느낌을 줍니다. 당신이 저주(hex)를 시전하거나 유지할 때, 글자들이 급속히 변하며 주의를 분산시킵니다. 다음 턴의 시작 시점까지, 당신의 패밀리어는 마치 공격이 가능하고 5피트(5 feet)의 공격 범위를 가진 것처럼 당신과 아군에게 측면 공격(flanking)을 제공할 수 있습니다. 이는 시각적 효과입니다.</p>"
     },
     "Amphibious": {
-      "name": "양서류 특성 (Amphibious)",
+      "name": "양서류 특성(Amphibious)",
       "description": "<p>수륙양용 특성을 획득하여 공기와 물 모두에서 호흡할 수 있으며, 지상 속도와 수영 속도를 각각 보유합니다. 각 속도는 해당 능력의 최고 속도와 동일합니다.</p>",
       "rules": [
         {
@@ -146,7 +146,7 @@
       ]
     },
     "Wavesense": {
-      "name": "파동 감지 (Wavesense)",
+      "name": "파동 감지(Wavesense)",
       "description": "<p>당신의 패밀리어는 물속의 진동을 감지할 수 있습니다. 30피트 범위의 부정확한 파동 감지 능력을 얻습니다.</p>",
       "rules": [
         {
@@ -158,7 +158,7 @@
       ]
     },
     "Fast Movement": {
-      "name": "빠른 이동 (Fast Movement)",
+      "name": "빠른 이동(Fast Movement)",
       "description": "<p>당신의 패밀리어의 이동 속도 중 하나를 25피트에서 40피트로 증가시킵니다.</p>",
       "rules": [
         {
@@ -204,15 +204,15 @@
       ]
     },
     "Mask Freeze": {
-      "name": "가면 동결 (Mask Freeze)",
+      "name": "가면 동결(Mask Freeze)",
       "description": "<p>마스크 형태일 때, 당신의 패밀리어는 뚜렷한 초자연적 특성을 숨겨 평범하고 눈에 띄지 않는 가면으로 위장할 수 있습니다. 스쳐 지나가는 시선을 속이기 위해 변장(Impersonate)을 사용할 필요가 없으며, 적극적으로 관찰하거나 연구하는 대상에 대한 기만 DC에 +4 상황 보너스를 얻습니다.</p>"
     },
     "Innate Surge": {
-      "name": "선천적 마력 증폭 (Innate Surge)",
+      "name": "선천적 마력 증폭(Innate Surge)",
       "description": "<p>하루에 한 번, 당신은 자신의 내재 마법을 보충하기 위해 패밀리어의 내재 마법을 끌어올 수 있습니다. 오늘 이미 시전한 조상 특기에서 얻은 내재 주문 하나를 시전할 수 있습니다. 여전히 해당 주문을 시전하고 다른 요구 사항을 충족해야 합니다.</p>"
     },
     "Resistance": {
-      "name": "저항 (Resistance)",
+      "name": "저항(Resistance)",
       "description": "<p>다음 중 두 가지를 선택하십시오: 산성, 냉기, 전기, 화염, 독, 음파. 당신의 패밀리어는 선택한 피해 유형에 대해 당신의 레벨 절반에 해당하는 저항력(최소 저항력 1)을 얻습니다.</p>",
       "rules": [
         {
@@ -334,11 +334,11 @@
       ]
     },
     "Familiar of Stalking Night": {
-      "name": "밤을 배회하는 패밀리어 (Familiar of Stalking Night)",
+      "name": "밤을 배회하는 패밀리어(Familiar of Stalking Night)",
       "description": "<p>당신의 패밀리어는 털이나 깃털이 어둡고, 빛이 그 속에 사라지는 듯합니다. 당신이 헥스를 시전하거나 유지할 때, 당신의 패밀리어가 적에게 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진}, @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨기}, 또는 탐지되지 않은 상태로 인접해 있으면, 그 적은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 1} 상태가 됩니다.</p>"
     },
     "Scent": {
-      "name": "후각 (Scent)",
+      "name": "후각(Scent)",
       "description": "<p>30피트(약 9m) 범위 내에서 후각을 부정확한 감각으로 사용할 수 있습니다.</p>",
       "rules": [
         {
@@ -350,27 +350,27 @@
       ]
     },
     "Familiar of Obscuring Snowfall": {
-      "name": "눈보라의 패밀리어 (Familiar of Obscuring Snowfall)",
+      "name": "눈보라의 패밀리어(Familiar of Obscuring Snowfall)",
       "description": "<p>당신의 패밀리어는 항상 얇은 눈층으로 덮여 있으며, 필요에 따라 이를 털어낼 수 있습니다. 당신이 헥스를 시전하거나 유지할 때, 패밀리어의 공간 한 칸을 중심으로 한 @Template[type:burst|distance:5] 영역에 달라붙는 눈이 내리게 할 수 있습니다. 이 눈보라는 다음 차례 시작까지 지속되며, 해당 기간 동안 이 칸에 진입한 적들은 다음 차례 시작까지 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{눈부심} 상태가 됩니다.</p><hr /><p><em>PFS 참고:</em> 이 능력의 폭발 중심은 패밀리어의 칸 모서리 중 하나를 선택한다.</p>"
     },
     "Familiar of Bolstering Aid": {
-      "name": "지원의 패밀리어 (Familiar of Bolstering Aid)",
+      "name": "지원의 패밀리어(Familiar of Bolstering Aid)",
       "description": "<p>당신의 패밀리어는 도움이 되는 온갖 묘수를 알고 있습니다! 당신이 헥스를 시전하거나 유지할 때, 패밀리어가 아군과 인접해 있다면, 그 아군은 다음 차례 시작 전까지 시도하는 다음 비공격 기술 체크에서 +2 상태 보너스를 얻습니다.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.IgLMAwovQ9roTsRN]{효과: 지원의 패밀리어}</p>"
     },
     "Familiar of Parasitic Might": {
-      "name": "기생적 위력의 패밀리어 (Familiar of Parasitic Might)",
+      "name": "기생적 위력의 패밀리어(Familiar of Parasitic Might)",
       "description": "<p>당신의 패밀리어는 매우 건강함에도 불구하고, 쇠약해 보이고 영양실조 상태이거나 죽음 직전인 것처럼 보입니다. 당신이 헥스를 시전하거나 유지할 때, 당신의 패밀리어는 다른 존재의 쇠퇴하는 힘을 끌어와 자신을 유지할 수 있습니다. 당신의 패밀리어로부터 15피트 이내에 있는 생명체 중 최대 체력의 절반 미만을 가진 존재는 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1} 상태가 됩니다. 단, 당신의 주문 DC에 대한 @Check[fortitude] 내성 굴림에서 성공할 경우 예외입니다.</p>"
     },
     "Master's Form": {
-      "name": "마스터의 형상 (Master's Form)",
+      "name": "마스터의 형상(Master's Form)",
       "description": "<p>당신의 패밀리어는 액션 하나에 의해 형태를 바꿀 수 있으며, 본래 형태와 동일한 나이, 성별, 체격을 가진 당신의 혈통에 속하는 인간형으로 변신합니다. 다만 고양이 눈이나 뱀의 혀 와 같이 본성의 뚜렷한 비자연적 흔적은 항상 유지됩니다. 이 형태는 매번 동일한 모습으로 나타납니다. 이 능력은 @UUID[Compendium.pf2e.spells-srd.Item.2qGqa33E4GPUCbMV]{인간형 형태}의 효과를 적용받으나, 변화는 순전히 외형적입니다. 인간형으로 보일 뿐 새로운 능력은 얻지 못합니다. 이 능력을 선택하려면 당신의 패밀리어가 손재주와 언어 능력을 보유해야 합니다.</p>"
     },
     "Grasping Tendrils": {
-      "name": "잡는 덩굴손 (Grasping Tendrils)",
+      "name": "잡는 덩굴손(Grasping Tendrils)",
       "description": "<p><strong>전제 조건</strong> @UUID[Compendium.pf2e.feats-srd.Item.baz18CdB13DVMHV9]{레시 패밀리어 비밀}</p>\n<p>당신의 패밀리어는 덩굴이나 유사한 덩굴손을 뻗어 범위를 15피트까지 늘릴 수 있습니다.</p>"
     },
     "Tough": {
-      "name": "강인함 (Tough)",
+      "name": "강인함(Tough)",
       "description": "<p>당신의 패밀리어의 최대 체력이 레벨당 2씩 증가합니다.</p>",
       "rules": [
         {
@@ -382,7 +382,7 @@
       ]
     },
     "Tremorsense": {
-      "name": "진동 감지 (Tremorsense)",
+      "name": "진동 감지(Tremorsense)",
       "description": "<p>당신의 패밀리어는 표면을 통해 전달되는 진동을 예민하게 감지합니다. 30피트 범위의 부정확한 진동 감지 능력을 얻습니다.</p>",
       "rules": [
         {
@@ -394,45 +394,45 @@
       ]
     },
     "Soul Bond": {
-      "name": "영혼의 결속 (Soul Bond)",
+      "name": "영혼의 결속(Soul Bond)",
       "description": "<p>당신의 키나르 영혼은 본질적으로 연결되어 있습니다. 두 존재이면서도 단일 생물로 간주되며, 단일 생물처럼 행동하고 일반적인 패밀리어 통계치를 사용하며, 단일 생물로서 발생하는 모든 일반적 효과의 적용을 받습니다. 연결된 영혼 덕분에 정신 공격을 막아낼 수 있습니다. 당신의 키나르가 내성 굴림을 허용하는 정신적 효과에 노출될 경우, 두 번 굴림을 하여 더 높은 결과를 적용받습니다. 이는 행운 효과입니다.</p>"
     },
     "Extra Alchemy": {
-      "name": "추가 연금술 (Extra Alchemy)",
+      "name": "추가 연금술(Extra Alchemy)",
       "description": "<p>당신의 패밀리어는 하루 시작 시 아이템 제조를 도와줍니다. 일일 준비 시간 동안 @UUID[Compendium.pf2e.feats-srd.Item.NlEZ0piDxg9buXCL]{고급 연금술}로 추가 아이템 하나를 제작할 수 있습니다. 이 능력을 선택하려면 고급 연금술 능력이 필요합니다.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.vSUyph3Z6wKl2l6Q]{효과: 추가 연금술}</p>"
     },
     "Item Delivery": {
-      "name": "아이템 전달 (Item Delivery)",
+      "name": "아이템 전달(Item Delivery)",
       "description": "<p>패밀리어가 당신과 인접해 있다면, 그에게 물건을 전달하라고 명령할 수 있습니다. 패밀리어는 평소 2개의 행동 대신, 상호작용으로 당신이 들고 있는 가벼운 벌크 이하의 물건을 가져간 후, 이동 행동을 한 번 취하고, 마지막으로 상호작용으로 그 물건을 다른 동의한 대상에게 건넵니다.</p>\n<p>대신 1 행동으로 해당 생물에게 아이템을 투여할 수 있고 적절한 유형의 아이템(예: 연금술 엘릭서)을 보유한 경우 투여할 수 있습니다. 이번 턴에 당신의 패밀리어 생물이 대상에 도달하지 못하면, 별도의 명령이 있을 때까지 아이템을 보유합니다. 이 능력을 선택하려면 당신의 패밀리어 생물이 수동 민첩성 능력을 보유해야 합니다.</p>"
     },
     "Path of the Tempest": {
-      "name": "폭풍의 길 (Path of the Tempest)",
+      "name": "폭풍의 길(Path of the Tempest)",
       "description": "<p><strong>발동 빈도</strong> 10분에 한 번;</p><hr /><p><strong>효과</strong> 당신의 패밀리어가 당신을 가속하고 보호하는 바람을 소환합니다. 당신의 턴이 끝날 때까지 이동 속도에 +10피트 상태 보너스를 얻습니다. 이번 턴에 스트라이드를 사용할 때 반응을 유발하지 않습니다. 또한 이번 턴에 @UUID[Compendium.pf2e.actionspf2e.Item.JUvAvruz7yRQXfz2]{장거리 점프}를 사용하기 전에 스트라이드를 사용할 필요가 없습니다.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.2CJwgnCsYtk4R5sO]{효과: 폭풍의 길}</p>",
       "traits": [
         "air"
       ]
     },
     "Focused Rejuvenation": {
-      "name": "집중된 재생 (Focused Rejuvenation)",
+      "name": "집중된 재생(Focused Rejuvenation)",
       "description": "<p>당신이 재집중할 때, 당신은 마법 에너지를 생성하여 당신의 패밀리어를 치유합니다. 당신이 재집중할 때마다 당신의 패밀리어는 레벨당 1의 체력을 회복합니다.</p>"
     },
     "Kick Up Dust": {
-      "name": "먼지 걷어차기 (Kick Up Dust)",
-      "description": "<p><strong>발동 빈도</strong> 시간당 1회</p><hr /><p><strong>효과</strong> 당신의 먼지 토끼가 몸을 흔들고 발로 차며 @Template[type:emanation|distance:5] 범위 내 먼지를 일으킵니다. 해당 영역 내 모든 생물은 당신의 직업 난이도(DC)와 주문 DC 중 높은 쪽에 대한 인내 내성 검사를 시도해야 합니다. 내성에 실패한 생물은 통제 불가능한 재채기를 시작하며 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1} 상태가 되어 1라운드 동안 반응 행동을 취할 수 없습니다. 대실패 시 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 2} 상태가 됩니다.</p>",
+      "name": "먼지 걷어차기(Kick Up Dust)",
+      "description": "<p><strong>발동 빈도</strong> 시간당 1회</p><hr /><p><strong>효과</strong> 당신의 먼지 토끼가 몸을 흔들고 발로 차며 @Template[type:emanation|distance:5] 범위 내 먼지를 일으킵니다. 해당 영역 내 모든 생물은 당신의 직업 난이도(DC)와 주문 DC 중 높은 쪽에 대한 인내 내성 굴림을 시도해야 합니다. 내성에 실패한 생물은 통제 불가능한 재채기를 시작하며 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1} 상태가 되어 1라운드 동안 반응 행동을 취할 수 없습니다. 대실패 시 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 2} 상태가 됩니다.</p>",
       "traits": [
         "manipulate"
       ]
     },
     "Restorative Familiar": {
-      "name": "회복형 패밀리어 (Restorative Familiar)",
-      "description": "<p> 하루에 한 번, 당신의 패밀리어는 집중 특성을 가진 두 가지 행동을 사용하여 자신의 에너지를 일부 포기하고 당신을 치유할 수 있습니다. 이를 위해서는 패밀리어가 당신의 공간에 있어야 합니다. 회복하는 체력은 @Damage[(max(floor(@actor.level/2),1))d8[healing]]{1d8 × 레벨의 절반} (최소 1d8)에 해당합니다.</p>"
+      "name": "회복형 패밀리어(Restorative Familiar)",
+      "description": "<p> 하루에 한 번, 당신의 패밀리어는 집중 특성을 가진 두 가지 행동을 사용하여 자신의 에너지를 일부 포기하고 당신을 치유할 수 있습니다. 이를 위해서는 패밀리어가 당신의 공간에 있어야 합니다. 회복하는 체력은 @Damage[(max(floor(@actor.level/2),1))d8[healing]]{1d8 × 레벨의 절반}(최소 1d8)에 해당합니다.</p>"
     },
     "Recall Familiar": {
-      "name": "패밀리어 소환 (Recall Familiar)",
+      "name": "패밀리어 소환(Recall Familiar)",
       "description": "<p>하루에 한 번, 집중 특성을 가진 3-액션 활동을 사용하여 당신의 패밀리어를 당신의 공간으로 순간이동시킬 수 있습니다. 패밀리어는 1마일 이내에 있어야 하며, 그렇지 않으면 소환을 시도하다 실패합니다. 이는 순간이동 효과입니다.</p>"
     },
     "Elemental Familiar (Air)": {
-      "name": "원소 패밀리어 (공기) (Elemental Familiar (Air))",
+      "name": "원소 패밀리어 (공기)(Elemental Familiar (Air))",
       "description": "<p>당신의 패밀리어는 공기 원소 속성을 얻습니다.</p>\n<p>당신의 패밀리어가 1라운드 동안 완전히 움직이지 않으면, 다음 행동을 취할 때까지 @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{투명화} 상태가 됩니다. 어떤 움직임이라도, 다른 생물에게 옮겨지거나 운반되는 경우조차도 이 효과를 종료시킵니다.</p>",
       "rules": [
         {
@@ -447,7 +447,7 @@
       ]
     },
     "Medic": {
-      "name": "의료사 (Medic)",
+      "name": "의료사(Medic)",
       "description": "<p>당신의 패밀리어는 당신의 신의 힘을 빌려 하루에 한 번 @UUID[Compendium.pf2e.actionspf2e.Item.aBQ8ajvEBByv45yz]{주문 시전}을 할 수 있습니다. 이 패밀리어는 당신의 최고 등급 주문 슬롯보다 2레벨 낮은 레벨로 @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{치유}의 1-액션 버전을 시전할 수 있으며, 오직 당신에게만 시전할 수 있습니다. 이 능력을 선택하려면 주문 슬롯으로 3등급 주문을 시전할 수 있어야 합니다.</p>",
       "rules": [
         {
@@ -458,19 +458,19 @@
       ]
     },
     "Alchemical Gut": {
-      "name": "연금술 내장 (Alchemical Gut)",
+      "name": "연금술 내장(Alchemical Gut)",
       "description": "<p>당신의 패밀리어는 @UUID[Compendium.pf2e.equipment-srd.Item.B4wxZ7mvBDJPWPvZ]{폭탄 응고 증류기} 역할을 수행할 수 있습니다. 영향을 받을 폭탄을 삼키는 데 패밀리어의 상호작용 행동 2회와 당신의 상호작용 행동 1회가 소모됩니다. 1분 후, 당신의 패밀리어가 농축된 물건을 토해 냅니다. 패밀리어가 자신의 레벨보다 1 높은 폭탄을 증류하려 할 경우, 폭탄에 성공적으로 강타당한 것처럼 피해를 입습니다.</p>"
     },
     "Verdant Burst": {
-      "name": "푸르른 폭발 (Verdant Burst)",
+      "name": "푸르른 폭발(Verdant Burst)",
       "description": "<p><strong>전제 조건</strong> @UUID[Compendium.pf2e.feats-srd.Item.baz18CdB13DVMHV9]{레시 패밀리어의 비밀}</p>\n<p>당신의 패밀리어이 죽을 때, 프라이멀 에너지를 방출하여 @UUID[Compendium.pf2e.spells-srd.Item.rfZpqmj0AIIdkVIs]{치유}의 3-액션 버전을 시전합니다. 이 시전은 당신의 최고 등급 주문 슬롯보다 1등급 낮은 수준으로 강화됩니다. <em>치유</em> 주문은 식물의 체력을 회복시킬 때, 해당 주문 등급의 두 배에 해당하는 상태 보너스를 얻습니다. 이 패밀리어 능력을 선택하려면 주문 슬롯을 사용하여 2등급 주문을 시전할 수 있어야 합니다.</p>"
     },
     "Touch Telepathy": {
-      "name": "접촉 텔레파시 (Touch Telepathy)",
+      "name": "접촉 텔레파시(Touch Telepathy)",
       "description": "<p>당신의 패밀리어는 접촉을 통해 당신과 텔레파시로 소통할 수 있습니다. 만약 말하기 능력도 가지고 있다면, 언어를 공유하는 모든 생물과 접촉을 통해 텔레파시로 소통할 수 있습니다.</p>"
     },
     "Elemental Familiar (Wood)": {
-      "name": "원소 패밀리어 (나무) (Elemental Familiar (Wood))",
+      "name": "원소 패밀리어 (나무)(Elemental Familiar (Wood))",
       "description": "<p>당신의 패밀리어는 목속성 특성을 얻습니다.</p>\n<p>당신의 패밀리어가 밝은 빛 속에 1라운드 동안 머물면, 당신의 레벨 절반에 해당하는 빠른 치유력을 얻습니다. 밝은 빛에서 벗어나면 이 효과는 종료됩니다.</p>",
       "rules": [
         {
@@ -485,19 +485,19 @@
       ]
     },
     "Spell Battery": {
-      "name": "주문 배터리 (Spell Battery)",
+      "name": "주문 배터리(Spell Battery)",
       "description": "<p>가장 높은 등급의 주문 슬롯보다 최소 3등급 낮은 주문 슬롯을 하나 추가로 얻습니다. 이 마스터 능력을 선택하려면 주문 슬롯을 사용하여 (4th)등급 주문을 시전할 수 있어야 합니다.</p>"
     },
     "Familiar of Insightful Observation": {
-      "name": "통찰력 있는 관찰의 패밀리어 (Familiar of Insightful Observation)",
+      "name": "통찰력 있는 관찰의 패밀리어(Familiar of Insightful Observation)",
       "description": "<p>당신의 패밀리어는 머리나 몸에 코비스라니의 이마에 박힌 것과 유사한 제3의 눈을 지녔습니다. 당신이 헥스를 시전하거나 유지할 때, 패밀리어는 당신이 숙련된 기술이나 그 이상의 기술로 자유 행동으로 지식 회상 체크를 시도할 수 있으며, 당신의 보너스를 사용해 그 정보를 사이킥으로 당신에게 전달할 수 있습니다.</p>"
     },
     "Familiar of Restored Spirit": {
-      "name": "회복된 영혼의 패밀리어 (Familiar of Restored Spirit)",
+      "name": "회복된 영혼의 패밀리어(Familiar of Restored Spirit)",
       "description": "<p>당신의 패밀리어는 기분 좋게 따뜻하고 부드러워, 그 존재만으로도 걱정을 씻어내는 듯합니다. 당신이 헥스를 시전하거나 유지할 때, 패밀리어로부터 15피트 이내에 있는 동의한 대상은 2 + 당신의 레벨 절반에 해당하는 임시 체력을 얻으며, 이는 당신의 다음 턴 시작까지 지속됩니다.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.twvhTLrLEfr7dz1m]{효과: 회복된 영혼의 패밀리어}</p>"
     },
     "Flier": {
-      "name": "비행 (Flier)",
+      "name": "비행(Flier)",
       "description": "<p>25피트의 비행 속도를 얻습니다.</p>",
       "rules": [
         {
@@ -508,7 +508,7 @@
       ]
     },
     "Elemental Familiar (Metal)": {
-      "name": "원소 패밀리어 (금속) (Elemental Familiar (Metal))",
+      "name": "원소 패밀리어 (금속)(Elemental Familiar (Metal))",
       "description": "<p>당신의 패밀리어는 금속 원소 속성을 얻습니다.</p>\n<p> 당신의 패밀리어는 금속 무기로부터 받는 물리 피해에 대해 당신의 레벨 절반에 해당하는 저항력을 얻습니다.</p>",
       "rules": [
         {
@@ -523,7 +523,7 @@
       ]
     },
     "Elemental Familiar (Earth)": {
-      "name": "원소 패밀리어 (대지) (Elemental Familiar (Earth))",
+      "name": "원소 패밀리어 (대지)(Elemental Familiar (Earth))",
       "description": "<p>당신의 패밀리어는 대지 정령 특성을 얻습니다.</p>\n<p>당신의 패밀리어는 물리 피해(아다만틴 제외)에 대해 당신의 레벨 절반에 해당하는 저항력을 얻습니다.</p>",
       "rules": [
         {
@@ -546,7 +546,7 @@
       ]
     },
     "Extra Vial": {
-      "name": "추가 약병 (Extra Vial)",
+      "name": "추가 약병(Extra Vial)",
       "description": "<p>당신의 패밀리어는 몸속에 연금술 액체를 축적합니다. 하루에 한 번, 패밀리어가 당신과 인접해 있을 때 상호작용하여 다용도 약병을 획득할 수 있습니다. 이 능력을 선택하려면 @UUID[Compendium.pf2e.classfeatures.Item.PBQh0amk1FlomV0r]{다용도 약병} 능력이 필요합니다.</p>",
       "rules": [
         {
@@ -562,23 +562,23 @@
       ]
     },
     "Threat Display": {
-      "name": "위협 표시 (Threat Display)",
+      "name": "위협 표시(Threat Display)",
       "description": "<p>당신의 패밀리어는 몸짓으로 말없는 위협을 전달하는 데 도움을 줍니다.</p>\n<p> 당신이 위협(@UUID[Compendium.pf2e.actionspf2e.Item.2u915NdUyQan6uKF]{사기 저하}) 체크를 시도할 때, 당신의 패밀리어가 대상으로부터 30피트 이내에 있고 행동할 수 있다면, 으르렁거리거나 쉭쉭거리거나 털을 곤두세우며 당신을 동반합니다.</p>\n<p>가능한 경우, 대상이 당신의 언어를 이해하지 못해도 위협 체크에서 일반적인 -4 페널티를 받지 않습니다.</p>"
     },
     "Spellcasting": {
-      "name": "주문 시전 (Spellcasting)",
+      "name": "주문 시전(Spellcasting)",
       "description": "<p>당신의 주문 목록이나 오늘 준비한 주문 중 최고 등급 주문 슬롯보다 최소 5등급 낮은 주문을 선택하십시오. 당신의 패밀리어는 하루에 한 번, 당신의 마법 전통, 주문 공격 수정자, 주문 DC를 사용하여 해당 주문을 시전할 수 있습니다. 해당 주문에 시전자에게 영향을 미치는 단점이 있다면, 당신과 패밀리어 모두 그 영향을 받습니다. 이 능력을 선택하려면 주문 슬롯을 사용하여 (6th)등급 주문을 시전할 수 있어야 합니다.</p>"
     },
     "Familiar of Paired Perplexity": {
-      "name": "쌍둥이 혼란의 패밀리어 (Familiar of Paired Perplexity)",
+      "name": "쌍둥이 혼란의 패밀리어(Familiar of Paired Perplexity)",
       "description": "<p>당신의 패밀리어는 일반 생물보다 작은 특징을 두 배로 지니고 있습니다. 예를 들어 두 번째 꼬리나 추가 수염 한 쌍이 있을 수 있습니다. 당신이 헥스를 시전하거나 유지할 때, 패밀리어는 마치 두 개로 나뉘어 동시에 두 곳에 존재하는 것처럼 보입니다. 그로부터 20피트 이내에 있는 당신이 선택한 한 생물은 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1}이 되며, 이는 시각적 효과입니다.</p>"
     },
     "Manual Dexterity": {
-      "name": "손재주 (Manual Dexterity)",
+      "name": "손재주(Manual Dexterity)",
       "description": "<p>최대 두 개의 사지를 손처럼 사용하여 조작 행동을 수행할 수 있습니다.</p>"
     },
     "Elemental": {
-      "name": "원소 (Elemental)",
+      "name": "원소(Elemental)",
       "description": "<p>당신의 패밀리어는 동물 특성 대신 원소 특성을 가집니다. 공기, 땅, 불, 금속, 물, 나무 중 하나를 선택하세요. 당신의 패밀리어는 해당 특성을 얻습니다. 패밀리어는 출혈, @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비}, 독, 수면, 그리고 자신의 특성과 일치하는 원소 효과에 면역입니다. 이 특성을 선택하려면 당신의 패밀리어가 저항력 패밀리어 능력을 가져야 합니다.</p>",
       "rules": [
         {
@@ -635,11 +635,11 @@
       ]
     },
     "Erudite": {
-      "name": "박식함 (Erudite)",
+      "name": "박식함(Erudite)",
       "description": "<p>당신의 패밀리어는 놀라운 종교 지식을 지녔습니다. 하수인임에도 불구하고, 당신의 패밀리어는 자신의 턴 시작 시 1회의 반응을 얻으며, 이는 오직 @UUID[Compendium.pf2e.actionspf2e.Item.HCl3pzVefiv9ZKQW]{지원} 종교 체크에서 당신을 돕는 데만 사용할 수 있습니다(지원 반응을 위해 평소처럼 도움을 준비해야 합니다). 패밀리어는 종교 체크에서 당신을 지원하는 자신의 체크에서 자동으로 성공하거나, 당신이 종교에 마스터라면 자동으로 대성공을 거둡니다.</p>"
     },
     "Climber": {
-      "name": "등반가 (Climber)",
+      "name": "등반가(Climber)",
       "description": "<p>25피트의 등반 속도를 얻습니다.</p>",
       "rules": [
         {
@@ -650,15 +650,15 @@
       ]
     },
     "Lifelink": {
-      "name": "생명 연결 (Lifelink)",
+      "name": "생명 연결(Lifelink)",
       "description": "<p>패밀리어가 피해로 인해 체력이 0이 될 경우, 집중 특성을 가진 반응으로 모든 피해를 대신 받을 수 있으며 패밀리어는 피해를 입지 않습니다. 다만 해당 피해로 인해 발생하는 특수 효과(예: 뱀 독)는 여전히 적용됩니다.</p>"
     },
     "Darkeater": {
-      "name": "어둠포식 (Darkeater)",
+      "name": "어둠포식(Darkeater)",
       "description": "<p>당신의 패밀리어는 그림자 속에서 자연스럽게 회복됩니다. 희미한 빛이나 어둠이 있는 지역에서 10분 연속 머문 후, 패밀리어는 당신의 레벨 절반에 해당하는 체력을 회복합니다.</p>\n<p>이 능력은 그림자 패밀리어를 위한 것입니다. 그러나 그림자술사는 어떤 종류의 패밀리어에게도 이 능력을 선택할 수 있습니다.</p>"
     },
     "Dragon": {
-      "name": "드래곤 (Dragon)",
+      "name": "드래곤(Dragon)",
       "description": "<p>당신의 패밀리어는 동물 특성 대신 용 특성을 가집니다.</p>",
       "rules": [
         {
@@ -670,23 +670,23 @@
       ]
     },
     "Jet": {
-      "name": "제트 (Jet)",
+      "name": "제트(Jet)",
       "description": "<p>당신의 패밀리어는 원소 에너지나 마법의 폭발을 이용해 @UUID[Compendium.pf2e.actionspf2e.Item.d5I6018Mci2SWokk]{도약}으로 어느 방향으로든 최대 30피트까지 이동할 수 있습니다. 이는 패밀리어의 일반적인 도약 최대 거리를 초과하는 경우에도 가능합니다. 도약은 패밀리어를 지탱할 수 있는 단단한 지면에서 시작하고 끝나야 합니다.</p>"
     },
     "Snoop": {
-      "name": "엿보기 (Snoop)",
+      "name": "엿보기(Snoop)",
       "description": "<p>당신의 패밀리어는 항상 눈과 귀를 열어두어, 포착한 모든 소문의 단편을 전달하며 정보 수집을 돕습니다.</p>\n<p>하수인임에도 불구하고, 당신의 패밀리어는 자신의 턴 시작 시 1개의 반응을 얻으며, 이는 오직 @UUID[Compendium.pf2e.actionspf2e.Item.HCl3pzVefiv9ZKQW]{지원} 외교 체크에서 @UUID[Compendium.pf2e.actionspf2e.Item.plBGdZhqq5JBl1D8]{정보 수집}에 도움을 주는 데만 사용할 수 있습니다(도움 반응을 위해 평소처럼 준비해야 하며, 이는 활동 내내 참여해야 함을 의미합니다).</p>\n<p>해당 기술로 당신을 지원할 때 자동으로 체크를 성공하거나, 해당 기술의 마스터라면 자동으로 대성공을 거둡니다.</p>"
     },
     "Share Senses": {
-      "name": "감각 공유 (Share Senses)",
+      "name": "감각 공유(Share Senses)",
       "description": "<p>10분에 한 번, 집중 특성이 있는 액션 하나를 사용하여 감각을 당신의 패밀리어에게 투사할 수 있습니다. 그렇게 하면 자신의 신체로부터 오는 모든 감각 정보를 잃지만, 최대 1분 동안 패밀리어의 신체를 통해 감각을 느낄 수 있습니다. 이 효과를 해제할 수 있습니다.</p>"
     },
     "Kindling": {
-      "name": "불씨 (Kindling)",
+      "name": "불씨(Kindling)",
       "description": "<p>당신은 힘을 급증시키기 위해 자신의 패밀리어 시체를 불태울 수 있습니다. 하루에 한 번, 무료 행동으로 불 속성을 지니고, 피해를 입히며, 지속 시간이 없는 주문을 시전할 때, 패밀리어를 희생하여 주문을 강화할 수 있습니다. 당신의 패밀리어는 즉시 죽으며, 해당 주문의 피해에 주문 등급의 두 배에 해당하는 상태 보너스를 얻습니다.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.Pe4qwrE1oU68iW4g]{Effect: 불씨}</p>"
     },
     "Major Resistance": {
-      "name": "주요 저항력 (Major Resistance)",
+      "name": "주요 저항력(Major Resistance)",
       "description": "<p>당신의 패밀리어는 @UUID[Compendium.pf2e.familiar-abilities.Item.FcQQLMAJMgOLjnSv]{저항력} 패밀리어 능력으로 얻는 저항력을 당신의 레벨과 동일한 값으로 증가시킵니다. 이 능력을 선택하려면 최소 (8th) 레벨 이상이어야 합니다.</p>",
       "rules": [
         {
@@ -702,27 +702,27 @@
       ]
     },
     "Absorb Familiar": {
-      "name": "패밀리어 흡수 (Absorb Familiar)",
+      "name": "패밀리어 흡수(Absorb Familiar)",
       "description": "<p>당신의 패밀리어는 피부에 새긴 표식으로 변신할 수 있으며, 일반적으로 모반, 문신, 또는 그 본래 형태를 희미하게 닮은 보석처럼 보입니다. 변신 상태에서는 패밀리어는 원래 모습으로 돌아오는 것 외에는 행동할 수 없습니다.  영역 효과의 영향을 받지 않으며, 별도로 표적이 되어야만 영향을 받을 수 있습니다. 이를 위해서는 해당 존재가 생물체임을 알아야 합니다.</p>\n<p>이는 당신과 아군이 패밀리어를 치유하거나 지원할 수 있는 반면, 대부분의 적들은 그 진정한 본질을 인식하지 못함을 의미합니다. 생물은 그것이 실제로 패밀리어임을 깨닫기 위해 @Check[perception|dc:20]{탐색} 체크를 시도해야 합니다. 당신의 패밀리어는 여전히 공감으로 자신의 감정을 전달할 수 있습니다. 패밀리어의 형태를 변환하는 것은 집중 특성을 가진 1분 활동입니다.</p>"
     },
     "Shadow Step": {
-      "name": "그림자 이동 (Shadow Step)",
+      "name": "그림자 이동(Shadow Step)",
       "description": "<p>이 능력은 그림자 패밀리어 전용입니다. 그러나 @UUID[Compendium.pf2e.feats-srd.Item.ncrNQcwm4gOQRAA3]{그림자술사}는 어떤 종류의 패밀리어에게도 이 능력을 선택할 수 있습니다. 당신의 패밀리어는 @UUID[Compendium.pf2e.actionspf2e.Item.VQ5OxaDKE0lCj8Mr]{그림자 신중발걸음} 행동을 얻습니다.</p>\n<p>이 패밀리어 능력을 선택하려면 최소 7레벨 이상이어야 합니다.</p>"
     },
     "Second Opinion": {
-      "name": "제2의 의견 (Second Opinion)",
+      "name": "제2의 의견(Second Opinion)",
       "description": "<p>당신의 패밀리어는 학문적 조언자입니다. 하수인임에도 불구하고, 패밀리어는 자신의 턴 시작 시 1회 반응을 얻으며, 이는 오직 @UUID[Compendium.pf2e.actionspf2e.Item.HCl3pzVefiv9ZKQW]{지원} 능력으로만 사용할 수 있습니다. 즉, 패밀리어는 숙련된(Skilled) 패밀리어 능력(숙련된 패밀리어 능력은 여전히 평소처럼 지원 행동을 위해 준비해야 함)을 가진 기술에 대한 지식 회상 기술 체크에서 당신을 지원할 때만 사용 가능합니다. @UUID[Compendium.pf2e.familiar-abilities.Item.jevzf9JbJJibpqaI]{숙련} 패밀리어 능력으로 숙련된 기술에 대한 지식 회상 기술 검사에서 당신을 돕기 위해 사용됩니다(도움 반응을 위해 평소처럼 도움을 준비해야 합니다).</p>\n<p>해당 기술로 당신을 지원할 때의 체크에는 자동으로 성공하며, 해당 기술의 마스터라면 자동으로 대성공을 거둡니다. 이 능력을 선택하려면 당신의 패밀리어가 숙련 능력을 보유해야 합니다.</p>"
     },
     "Synchronize Spirit": {
-      "name": "영혼 동기화 (Synchronize Spirit)",
+      "name": "영혼 동기화(Synchronize Spirit)",
       "description": "<p>당신은 자신의 영적 에너지를 패밀리어의 것과 동기화하여 일시적으로 자신도 영혼의 일부가 될 수 있습니다. 라운드당 한 번, 지속(Sustain)을 사용하여 자신의 영혼을 패밀리어의 것과 동기화할 수 있습니다. 다음 턴이 시작될 때까지 영혼과 동기화된 상태를 유지한다. 동기화된 상태에서 지속 시간이 없는 공격이나 주문을 시전하여 피해를 입힐 때마다, 일반 피해 대신 영혼 피해를 입힌다.</p>"
     },
     "Familiar Focus": {
-      "name": "패밀리어 포커스 (Familiar Focus)",
+      "name": "패밀리어 포커스(Familiar Focus)",
       "description": "<p>하루에 한 번, 당신의 패밀리어는 집중 특성을 가진 행동 2개를 사용해 당신의 포커스 풀에 포커스 포인트 1점을 회복시킬 수 있습니다. 이는 평소 최대치까지 가능합니다. 이 능력을 선택하려면 포커스 풀이 있어야 합니다.</p>"
     },
     "Skilled": {
-      "name": "숙련 (Skilled)",
+      "name": "숙련(Skilled)",
       "description": "<p>곡예나 은신 기술 외의 기술을 하나 선택하십시오. 해당 기술에 대한 당신의 패밀리어의 수정자는 단순히 당신의 레벨이 아닌, 당신의 레벨에 주문 시전 능력치 수정자를 더한 값과 동일합니다. 이 능력을 반복해서 선택할 수 있으며, 매번 다른 기술을 선택할 수 있습니다.</p>",
       "rules": [
         {
@@ -795,7 +795,7 @@
       ]
     },
     "Fungus": {
-      "name": "균류 (Fungus)",
+      "name": "균류(Fungus)",
       "description": "<p>당신의 패밀리어는 동물 특성 대신 균류 특성을 가집니다.</p>",
       "rules": [
         {
@@ -807,7 +807,7 @@
       ]
     },
     "Echolocation": {
-      "name": "반향 위치 파악 (Echolocation)",
+      "name": "반향 위치 파악(Echolocation)",
       "description": "<p>20피트 이내에서 청각을 정밀한 감각으로 사용할 수 있습니다.</p>",
       "rules": [
         {
@@ -819,7 +819,7 @@
       ]
     },
     "Plant": {
-      "name": "식물 (Plant)",
+      "name": "식물(Plant)",
       "description": "<p>당신의 패밀리어는 동물 특성이 아닌 식물 특성을 가집니다.</p>",
       "rules": [
         {
@@ -831,11 +831,11 @@
       ]
     },
     "Gills": {
-      "name": "아가미 (Gills)",
+      "name": "아가미(Gills)",
       "description": "<p>당신의 패밀리어는 아가미 한 쌍이 자라나 공기와 더불어 물속에서도 숨을 쉴 수 있게 됩니다.</p>"
     },
     "Dazzling Show": {
-      "name": "눈부신 쇼 (Dazzling Show)",
+      "name": "눈부신 쇼(Dazzling Show)",
       "description": "<p><strong>사용 빈도</strong> 분당 1회</p><hr /><p><strong>효과</strong> 당신의 키나라가 눈부신 깃털을 번뜩입니다. @Template[type:emanation|distance:30] 범위 내의 모든 생물은 당신의 직업 DC 또는 주문 DC 중 더 높은 쪽에 대해 @Check[will|against:class-spell] 저항 검사를 시도해야 하며, 실패 시 2라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{눈부심} 상태가 됩니다.</p>",
       "traits": [
         "move",
@@ -843,7 +843,7 @@
       ]
     },
     "Elemental Familiar (Water)": {
-      "name": "원소 패밀리어 (물) (Elemental Familiar (Water))",
+      "name": "원소 패밀리어 (물)(Elemental Familiar (Water))",
       "description": "<p>당신의 패밀리어는 물 원소 특성을 얻습니다.</p>\n<p>당신의 패밀리어는 2인치(약 5cm) 이상의 틈새를 비좁게 움직이지 않고 통과할 수 있으며, 1인치(약 2.5cm) 이상의 틈새를 비좁게 움직여 통과할 수 있습니다.</p>",
       "rules": [
         {
@@ -858,7 +858,7 @@
       ]
     },
     "Damage Avoidance": {
-      "name": "피해 회피 (Damage Avoidance)",
+      "name": "피해 회피(Damage Avoidance)",
       "description": "<p>한 가지 내성 유형을 선택하십시오. 해당 내성 유형에서 성공을 굴릴 경우, 당신의 패밀리어는 피해를 입지 않습니다. 이는 피해 이외의 효과를 막지는 않습니다.</p>",
       "rules": [
         {
@@ -892,16 +892,16 @@
       ]
     },
     "Augury": {
-      "name": "점술 (Augury)",
+      "name": "점술(Augury)",
       "description": "<p>당신의 패밀리어는 운명의 실타래를 엿보아 당신의 미래에 관한 암시적인 단서를 줄 수 있습니다. 당신의 패밀리어는 하루에 한 번, 당신의 마법 전통과 주문 DC를 사용하여 @UUID[Compendium.pf2e.spells-srd.Item.41TZEjhO6D1nWw2X]{점술}을 시전할 수 있습니다. 이 능력을 선택하려면 최소 8레벨 이상이어야 합니다.</p>"
     },
     "Familiar of Ongoing Misery": {
-      "name": "지속적인 고통의 패밀리어 (Familiar of Ongoing Misery)",
+      "name": "지속적인 고통의 패밀리어(Familiar of Ongoing Misery)",
       "description": "<p>당신의 패밀리어는 당신을 제외한 모든 생물에게 적대적인 태도를 보이며, 너무 가까이 다가오면 쉭쉭 소리를 내며 위협합니다. 당신이 헥스를 시전하거나 유지할 때, 당신의 패밀리어는 15피트 이내의 생물을 저주할 수 있으며, 그 생물에게 걸린 모든 부정적 상태의 지속 시간을 1라운드 연장합니다. 이는 저주 효과입니다. 이 효과는 시간 제한이 있는 상태(예: \"1라운드\" 또는 \"당신의 다음 턴이 끝날 때까지\")만 연장하며, 다른 방법으로 상태가 제거되는 것을 막지는 않습니다.</p>"
     },
     "Vina Song": {
-      "name": "비나 송 (Vina Song)",
-      "description": "<p><strong>발동 빈도</strong> 시간당 1회, 아래 참조</p><hr /><p><strong>효과</strong> 당신의 키나리가 우아하게 악기를 연주합니다. @Template[type:emanation|distance:30] 범위 내의 모든 생물은 당신의 직업 DC 또는 주문 DC 중 더 높은 쪽에 대한 의지 내성 검사를 시도해야 하며, 실패 시 @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{매혹된} 상태가 1라운드 동안 지속됩니다. 키나리는 다음 라운드에 이 능력을 다시 사용해 노래를 이어가고 영향을 받은 생물들에게 또 다른 의지 내성을 시도하도록 강요할 수 있습니다. 실패 시 생물은 추가로 1라운드 동안 매혹된 상태가 됩니다. 키나리가 연주를 멈추면 1시간 동안 이 능력을 다시 사용할 수 없습니다. 어떤 내성에 성공하거나 매혹된 상태가 해제된 생물은 해당 키나르의 비나 송에 대해 24시간 동안 일시적으로 면역됩니다. 키나르는 이 능력에 면역입니다.</p>",
+      "name": "비나 송(Vina Song)",
+      "description": "<p><strong>발동 빈도</strong> 시간당 1회, 아래 참조</p><hr /><p><strong>효과</strong> 당신의 키나리가 우아하게 악기를 연주합니다. @Template[type:emanation|distance:30] 범위 내의 모든 생물은 당신의 직업 DC 또는 주문 DC 중 더 높은 쪽에 대한 의지 내성 굴림을 시도해야 하며, 실패 시 @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{매혹된} 상태가 1라운드 동안 지속됩니다. 키나리는 다음 라운드에 이 능력을 다시 사용해 노래를 이어가고 영향을 받은 생물들에게 또 다른 의지 내성을 시도하도록 강요할 수 있습니다. 실패 시 생물은 추가로 1라운드 동안 매혹된 상태가 됩니다. 키나리가 연주를 멈추면 1시간 동안 이 능력을 다시 사용할 수 없습니다. 어떤 내성에 성공하거나 매혹된 상태가 해제된 생물은 해당 키나르의 비나 송에 대해 24시간 동안 일시적으로 면역됩니다. 키나르는 이 능력에 면역입니다.</p>",
       "traits": [
         "auditory",
         "concentrate",
@@ -911,11 +911,11 @@
       ]
     },
     "Spirit Touch": {
-      "name": "영혼의 접촉 (Spirit Touch)",
+      "name": "영혼의 접촉(Spirit Touch)",
       "description": "<p> 당신의 패밀리어가 비물질 생물을 접촉할 수 있습니다. 패밀리어로부터 주문 전달 마스터 능력을 획득한 경우, 패밀리어가 이 능력으로 전달하는 모든 주문은 <em>@UUID[Compendium.pf2e.equipment-srd.Item.JQdwHECogcTzdd8R]{고스트 터치}</em> 속성 룬의 효과를 얻습니다.</p>"
     },
     "Soul Sight": {
-      "name": "영혼의 시야 (Soul Sight)",
+      "name": "영혼의 시야(Soul Sight)",
       "description": "<p>당신의 패밀리어는 @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.sebk9XseMCRkDqRg]{생명 감지} 능력을 얻으며, 감지 범위는 30피트입니다.</p>",
       "rules": [
         {
@@ -926,7 +926,7 @@
       ]
     },
     "Stunning Flare": {
-      "name": "기절 플레어 (Stunning Flare)",
+      "name": "기절 플레어(Stunning Flare)",
       "description": "<p><strong>발동 빈도</strong> 10분에 한 번;</p><hr /><p><strong>효과</strong> 당신의 랜턴 위습이 거대한 불꽃을 분출하며 비정상적으로 밝은 빛을 발산합니다. @Template[type:emanation|distance:15] 범위 내의 모든 생물은 당신의 직업 DC(DC) 또는 주문 DC(DC) 중 더 높은 쪽에 대해 @Check[fortitude|against:class-spell] 내성을 시도해야 하며, 실패 시 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명} 1라운드 동안, 그 후 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{눈부심} 2라운드 동안 상태가 됩니다.</p>",
       "traits": [
         "fire",
@@ -935,11 +935,11 @@
       ]
     },
     "Familiar of Keen Senses": {
-      "name": "예민한 감각의 패밀리어 (Familiar of Keen Senses)",
+      "name": "예민한 감각의 패밀리어(Familiar of Keen Senses)",
       "description": "<p> 당신의 패밀리어는 반짝이는 눈, 경련하는 귀, 혹은 야수의 강력한 감각을 암시하는 다른 징후를 지닙니다. 당신이 헥스를 시전하거나 유지할 때, 당신의 패밀리어는 다음 턴 시작까지 60피트 범위의 부정확한 후각, 진동 감지, 파동 감지 중 하나를 선택하여 획득하며, 즉시 @UUID[Compendium.pf2e.actionspf2e.Item.sn2hIy1iIJX9Vpgj]{지적}을 자유 행동으로 수행할 수 있습니다.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.4wJM0OA9y2gsBAh7]{효과: 예민한 감각의 패밀리어}</p>"
     },
     "Luminous": {
-      "name": "빛나는 (Luminous)",
+      "name": "빛나는(Luminous)",
       "description": "<p>당신의 패밀리어가 위로하는 빛을 발합니다. 반경 30피트(약 9m) 내에는 밝은 빛을, 그 다음 30피트(약 9m) 내에는 희미한 빛을 비춥니다. 이 빛은 집중 특성을 가진 행동을 사용해 억제하거나 재개할 수 있습니다.</p>",
       "rules": [
         {
@@ -966,46 +966,46 @@
       ]
     },
     "Play Dead": {
-      "name": "죽은 척하기 (Play Dead)",
+      "name": "죽은 척하기(Play Dead)",
       "description": "<p>당신의 패밀리어가 무생물인 척하며 초자연적 능력을 숨깁니다. 주변 환경에 어울리는 장소에 있을 경우, 살아있다는 사실을 모르는 생물체로부터 숨길 수 있으며, 이때 은폐물이나 가림막이 필요하지 않습니다. 익숙한 패밀리어가 성공하면, 주변 사람들은 여전히 그것을 보지만 무생물로 오인합니다. 한 번 속은 후에는 당신의 익숙한 패밀리어가 살아있다는 것을 깨닫게 되며, 그들에게는 다시는 그런 방식으로 {숨기} 수 없습니다.</p>"
     },
     "Levitator": {
-      "name": "레비테이터 (Levitator)",
+      "name": "레비테이터(Levitator)",
       "description": "<p>자력, 마법 또는 기타 힘을 이용해, 당신의 패밀리어는 고체 및 액체 표면 위 최대 3피트(약 91cm) 높이까지 떠오르며 시속 25피트(약 7.6m)로 이동할 수 있습니다. 이를 통해 어려운 지형과 표면과의 직접 접촉으로 인한 피해 효과를 무시할 수 있습니다. 일반적으로 이 능력은 패밀리어가 또한 부착된 압력판을 작동시켜야 하는 위험 요소의 반응을 유발하는 것도 피할 수 있게 합니다.</p>"
     },
     "Kinspeech": {
-      "name": "친족어 (Kinspeech)",
+      "name": "친족어(Kinspeech)",
       "description": "<p>동일 종의 동물과 의사소통이 가능합니다. 이 능력을 선택하려면 당신의 패밀리어가 동물이어야 하며, 언어 능력을 보유해야 하고, 당신은 최소 (6th) 레벨 이상이어야 합니다.</p>"
     },
     "Cantrip Connection": {
-      "name": "캔트립 연결 (Cantrip Connection)",
+      "name": "캔트립 연결(Cantrip Connection)",
       "description": "<p>이 능력을 선택할 때마다 추가로 캔트립을 준비하거나, 레퍼토리가 있다면 레퍼토리에 추가할 캔트립을 지정할 수 있습니다. 재훈련은 가능하지만 다른 방법으로 변경할 수 없습니다. 이 능력을 선택하려면 캔트립을 준비하거나 레퍼토리에 추가할 수 있어야 합니다.</p>"
     },
     "Familiar of Swarm's Heart": {
-      "name": "군집의 심장 패밀리어 (Familiar of Swarm's Heart)",
+      "name": "군집의 심장 패밀리어(Familiar of Swarm's Heart)",
       "description": "<p>당신의 패밀리어는 해를 끼치지 않는 곤충 구름에 둘러싸여 있습니다. 당신이 헥스를 시전하거나 유지할 때, 곤충들은 당신과 아군을 보호하기 위해 몰려듭니다. 다음 턴이 시작될 때까지, 당신의 패밀리어는 같은 공간을 공유하는 당신이나 아군에게 은폐 효과를 부여합니다.</p>"
     },
     "Tattoo Transformation": {
-      "name": "문신 변신 (Tattoo Transformation)",
+      "name": "문신 변신(Tattoo Transformation)",
       "description": "<p>당신의 패밀리어는 피부에 새긴 문신으로 변신할 수 있습니다. 문신으로 변신한 패밀리어는 화려하고 스타일리시한 모습으로 나타나며, 패밀리어로 되돌아가는 행동 외에는 아무런 행동도 할 수 없습니다. 이 문신은 영역 효과의 영향을 받지 않으며, 별도로 표적이 지정되어야만 영향을 받을 수 있습니다. 이를 위해서는 해당 대상이 생물체임을 알아야 합니다. 즉, 당신과 아군들은 이 문신을 치유하거나 지원할 수 있지만, 대부분의 적들은 그 진정한 본질을 인식하지 못합니다. 생물체는 문신이 실제로 패밀리어임을 알아차리기 위해 @Check[perception|dc:20|showDC:all] 탐색 체크를 시도하다(적들은 거의 시도하지 않을 것입니다). 당신의 패밀리어는 여전히 공감으로 자신의 감정을 전달할 수 있습니다. 문신으로 변신하거나 패밀리어 형태로 되돌아가는 것은 집중 특성을 가진 1분 활동입니다.</p>"
     },
     "Pot of Tea": {
-      "name": "차 주전자 (Pot of Tea)",
+      "name": "차 주전자(Pot of Tea)",
       "description": "<p>당신의 타피르 현자는 약초 치료술에 능숙하여 한 주전자 치유 차를 준비할 수 있습니다. 하루에 한 번, 당신의 패밀리어는 10분을 들여 고급 차잎과 약초를 우려낼 수 있습니다. 이 시간 동안 타피르 현자는 차에 포커스를 맞춰야 합니다-다른 행동을 하면 차가 망가집니다. 다만 타피르 현자는 다시 시작할 수 있습니다. 차 한 주전자가 우러나면, 타피르 현자는 아래 행동 각각으로 차 두 잔을 제공할 수 있습니다. 매번 인접한 아군에게 1잔을 주고, 자신도 1잔을 마십니다. 세 번의 우려낸 차는 순서대로 따라 제공해야 합니다(예: 첫 번째 차를 제공하기 전에는 두 번째 차를 제공할 수 없음). 차는 우려낸 후 1시간 동안 신선함을 유지한다. 이 시간 내에 마시지 않으면 찻주전자가 식고 남은 차는 효능을 잃는다.</p><ul><li><strong>첫 번째 우려내기</strong> <span class=\"action-glyph\">2</span> 이 차는 1d8에 레벨의 절반을 곱한 수치(최소 1d8)만큼의 체력을 회복시키고, 24시간 이내에 시도하는 질병 또는 독에 대한 다음 내성 굴림 시 +4 상황 보너스를 부여합니다.</li><li><strong>두 번째 주입</strong> <span class=\"action-glyph\">2</span> 이 주입은 1d4 × 레벨의 절반(최소 1d4)에 해당하는 체력을 회복시키고, 24시간 이내에 시도하는 질병 또는 독에 대한 다음 내성 굴림에 +2 상황 보너스를 부여합니다.</li><li><p><strong>세 번째 주입</strong> <span class=\"action-glyph\">2</span> 이 주입은 1시간 동안 레벨에 해당하는 임시 체력을 부여합니다.</p></li></ul>",
       "traits": [
         "healing"
       ]
     },
     "Familiar of Nimble Flight": {
-      "name": "민첩한 비행의 패밀리어 (Familiar of Nimble Flight)",
+      "name": "민첩한 비행의 패밀리어(Familiar of Nimble Flight)",
       "description": "<p>패밀리어가 날개가 없더라도 때때로 바람에 실려 날아오르는 것처럼 움직일 수 있습니다. 당신이 헥스를 시전하거나 유지할 때, 패밀리어는 최대 15피트까지 날아갈 수 있으며, 이 이동은 반응을 유발하지 않습니다.</p>"
     },
     "Toolbearer": {
-      "name": "도구 운반자 (Toolbearer)",
+      "name": "도구 운반자(Toolbearer)",
       "description": "<p>당신의 패밀리어는 최대 경량 벌크의 도구 키트를 휴대할 수 있습니다. 패밀리어가 당신과 인접해 있는 한, 당신은 마치 그 도구를 착용하고 있는 것처럼, 그 도구를 사용하는 행동의 일부로 꺼내거나 다시 넣을 수 있습니다. 패밀리어는 이를 선택하기 위해 수동 민첩 능력치를 가져야 합니다.</p>"
     },
     "Burrower": {
-      "name": "굴착자 (Burrower)",
+      "name": "굴착자(Burrower)",
       "description": "<p>5피트(약 1.5m)의 굴착 이동 속도를 얻어 아주 작은 구멍을 뚫을 수 있습니다.</p>",
       "rules": [
         {
@@ -1016,15 +1016,15 @@
       ]
     },
     "Partner in Crime": {
-      "name": "범죄의 동반자 (Partner in Crime)",
+      "name": "범죄의 동반자(Partner in Crime)",
       "description": "<p>당신의 패밀리어는 범죄 동료입니다. 하수인임에도 불구하고, 당신의 패밀리어는 자신의 턴 시작 시 1회의 반응을 얻으며, 이는 오직 당신의 기만 또는 도둑질 기술 체크 지원에만 사용할 수 있습니다(지원 반응을 위해 평소처럼 도움을 준비해야 합니다). 해당 기술로 당신을 지원하기 위한 체크에서는 자동으로 성공하거나, 해당 기술의 마스터라면 자동으로 대성공을 거둡니다.</p>"
     },
     "Spell Delivery": {
-      "name": "주문 전달 (Spell Delivery)",
+      "name": "주문 전달(Spell Delivery)",
       "description": "<p>당신의 패밀리어가 당신의 공간에 있을 경우, 접촉 범위의 주문을 시전하여 그 힘을 패밀리어에게 전달하고, 그 패밀리어를 주문을 전달하도록 명령할 수 있습니다. 이 경우, 패밀리어는 해당 라운드 동안 두 번의 행동을 사용하여 당신이 선택한 대상에게 이동하여 그 대상을 접촉합니다. 이번 턴에 접촉할 대상에 도달하지 못하면, 주문은 효과가 없습니다.</p>"
     },
     "Animated": {
-      "name": "생동감 부여 (Animated)",
+      "name": "생동감 부여(Animated)",
       "description": "<p>후원자의 마법으로 인해, 당신의 물체 패밀리어체가 스스로 움직일 수 있습니다. 25피트의 이동 속도를 얻습니다. 이 능력은 물체 패밀리어에게만 선택할 수 있습니다.</p>",
       "rules": [
         {
@@ -1035,22 +1035,22 @@
       ]
     },
     "Familiar of Overwhelming Tides": {
-      "name": "압도적인 파도의 패밀리어 (Familiar of Overwhelming Tides)",
+      "name": "압도적인 파도의 패밀리어(Familiar of Overwhelming Tides)",
       "description": "<p>당신의 패밀리어는 끊임없이 바닷물을 흘린다. 당신이 헥스를 시전하거나 유지할 때, 패밀리어로부터 작은 파도를 일으킬 수 있다. 패밀리어로부터 10피트 이내의 한 생물은 패밀리어로부터 5피트 멀리 밀려난다.</p>"
     },
     "Familiar of Enticing Negotiation": {
-      "name": "유혹적 협상의 패밀리어 (Familiar of Enticing Negotiation)",
+      "name": "유혹적 협상의 패밀리어(Familiar of Enticing Negotiation)",
       "description": "<p>당신의 패밀리어는 평소 말할 수단이 없더라도, 지속적으로 적들에게 힘과 부, 기타 유혹을 속삭이며 주의를 분산시킵니다. 당신이 헥스를 시전하거나 유지할 때, 당신의 패밀리어가 적 10피트 내에 있으면 그 적은 다음 차례 시작까지 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 됩니다. 패밀리어는 이 방법으로 라운드당 한 명의 적만 방해할 수 있습니다.</p>"
     },
     "Shadow Projection": {
-      "name": "그림자 투사 (Shadow Projection)",
+      "name": "그림자 투사(Shadow Projection)",
       "description": "<p>당신의 마쿨크 와양은 자신의 그림자를 더 큰 실루엣으로 투영하여 명백한 도달 범위를 벗어난 물건을 잡을 수 있게 합니다. 비적대적인 상호작용 행동을 취할 때 도달 범위가 10피트 증가하며, 이는 당신의 턴이 끝날 때까지 지속됩니다.</p>",
       "traits": [
         "shadow"
       ]
     },
     "Greater Resistance": {
-      "name": "강화된 저항력 (Greater Resistance)",
+      "name": "강화된 저항력(Greater Resistance)",
       "description": "<p>당신의 패밀리어는 패밀리어 저항 능력으로 얻는 저항력을 3 + 당신의 레벨 절반으로 증가시킵니다. 이 능력을 선택하려면 패밀리어가 @UUID[Compendium.pf2e.familiar-abilities.Item.FcQQLMAJMgOLjnSv]{저항} 능력을 가져야 합니다.</p>",
       "rules": [
         {
@@ -1066,14 +1066,14 @@
       ]
     },
     "Lightning Armillary": {
-      "name": "번개 팔찌 (Lightning Armillary)",
+      "name": "번개 팔찌(Lightning Armillary)",
       "description": "<p><strong>효과</strong> 당신의 패밀리어가 인접한 아군의 무기나 손 주위를 빙빙 돌며 여러 개의 번개 고리로 분해됩니다. 다음 차례 시작 전까지, 해당 무기나 비무장 공격은 추가로 1d6 번개 피해를 입힌다. 이번 차례에 공기 또는 전기 속성 주문을 시전했다면 1d8 번개 피해를 입힌다. 당신의 패밀리어는 번개 고리 형태로 남아 표적이 되거나 행동을 취할 수 없다.</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.QVk0oRgc1pRwhG7U]{효과: 번개 팔찌}</p>",
       "traits": [
         "electricity"
       ]
     },
     "Speech": {
-      "name": "언어 (Speech)",
+      "name": "언어(Speech)",
       "description": "<p>그것은 당신이 아는 언어를 이해하고 말합니다.</p>"
     }
   },

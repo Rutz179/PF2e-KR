@@ -2,7 +2,7 @@
   "label": "단편 (One-Shot)",
   "entries": {
     "Grazing Deer": {
-      "name": "풀을 뜯는 사슴 (Grazing Deer)",
+      "name": "풀을 뜯는 사슴(Grazing Deer)",
       "hpdetails": "(풀을 뜯는 사슴이 이만큼의 피해를 입으면 죽지 않지만, 숲으로 도망쳐 돌아오지 않습니다)",
       "desc (hazard)": "<p>사슴 무리가 맛있는 것처럼 보이는 레시들을 조사하기 위해 숲에서 나온다.</p>",
       "disable": "<p>@Check[diplomacy|dc:17|name:Befriend the Deer]{외교 (야생 공감)}로 사슴과 친해지고 레시들이 먹기 위한 것이 아니라고 설득하거나, @Check[intimidation|dc:20|name:Scare the Deer Away]{위협}으로 사슴을 쫓아냅니다.</p>",
@@ -10,58 +10,58 @@
       "stealth": "<p>(전문가)</p>",
       "items": {
         "OjGrZRhSqafKOuyA": {
-          "name": "접근하고 맛보기 (Approach and Taste)",
+          "name": "접근하고 맛보기(Approach and Taste)",
           "description": "<p><strong>Trigger</strong> PC들이 숲의 가장자리에서 나타난다</p>\n<hr />\n<p><strong>효과</strong> 사슴이 파티에게 접근해 씹으려 시도한다. 무작위로 결정된 PC에게 공격을 가한다. 풀을 뜯는 사슴이 이니셔티브를 굴립니다.</p>"
         },
         "jRyHe0gkU99THj1F": {
-          "name": "씹기 (Nibble)"
+          "name": "씹기(Nibble)"
         }
       }
     },
     "Meliosa's Leshy": {
-      "name": "멜리오사의 레시 (Meliosa's Leshy)",
+      "name": "멜리오사의 레시(Meliosa's Leshy)",
       "languages": "식물과 대화 (레시와 같은 유형)",
       "items": {
         "pMSeU5bKC5Lsck6O": {
-          "name": "주먹 (Fist)"
+          "name": "주먹(Fist)"
         },
         "GHQR2PY6wyAAu2sb": {
-          "name": "녹색 폭발 (Verdant Burst)",
+          "name": "녹색 폭발(Verdant Burst)",
           "description": "<p>레시가 죽을 때, 그 몸에서 원시적인 에너지 폭발이 발생하여 @Damage[2d8[healing]] 이 식물 생물에게 @Template[emanation|distance:30] 반경 내의 모든 식물 생물의 체력을 회복합니다. 이 지역은 레시의 유형과 동일한 식물로 가득 차며, 어려운 지형이 됩니다. 이 지형이 해당 식물에게 적합하지 않은 환경이라면, 24시간 후 시들게 됩니다.</p>"
         },
         "gKzbyEE7g3Lf5TPT": {
-          "name": "형태 변화 (Change Shape)",
+          "name": "형태 변화(Change Shape)",
           "description": "<p>레시는 작은 식물로 변신합니다. 이 능력은 @UUID[Compendium.pf2e.spells-srd.Item.dileJ0Yxqg76LMvu]{식물과의 일체감}의 효과를 사용합니다.</p>"
         }
       }
     },
     "Scented Candle Homunculus": {
-      "name": "향초 호문쿨루스 (Scented Candle Homunculus)",
+      "name": "향초 호문쿨루스(Scented Candle Homunculus)",
       "blurb": "변종 호문쿨루스",
       "languages": "어떤 언어라도 말할 수 없음; 마스터 링크",
       "items": {
         "vUqOLWWqpienUPoZ": {
-          "name": "턱 (Jaws)"
+          "name": "턱(Jaws)"
         },
         "WrgYaUmRHEPgpUAn": {
-          "name": "왁스 덩어리 (Wax Glob)"
+          "name": "왁스 덩어리(Wax Glob)"
         },
         "kJ3xBADJasQJPN6d": {
-          "name": "마스터 링크 (Master Link)",
+          "name": "마스터 링크(Master Link)",
           "description": "<p>호무누쿠스는 말을 할 수 없지만, 창조주와 텔레파시로 연결되어 있습니다. 이 연결을 통해 정보가 양방향으로 공유되며, 창조주의 지식과 호무누쿠스가 듣는 모든 것이 포함됩니다. 이 연결의 범위는 1,500 피트입니다. 호무누쿠스는 창조주의 성향을 따르며 절대적으로 충성스럽습니다. 호문쿨루스가 파괴되면 창조주는 @Damage[2d10[mental]]의 피해를 입습니다. 창조주가 살해되면 호문쿨루스는 정신을 잃고 현재 위치를 자신의 은신처로 삼으며, 가까이 다가오는 모든 존재를 본능적으로 공격합니다.</p>"
         },
         "3lJBv7HwAjkSPmgN": {
-          "name": "향기 오라 (Perfume Aura)",
-          "description": "<p>5 피트. 향초 호문쿨루스의 라벤더 향기는 압도적으로 강렬합니다. 호문쿨루스의 주인이 아닌 모든 생물이 오라에 들어갈 경우 @Check[fortitude|dc:15] 내성 검사를 시도해야 합니다.</p>\n<hr />\n<p><strong>대성공</strong> 생물은 호무누쿠스의 아우라에 대해 24시간 동안 일시적으로 면역됩니다.</p>\n<p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1} 상태가 됩니다.</p>\n<p><strong>대실패</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1} 상태가 1 라운드 동안 지속되며 병약 1을 받습니다.</p>"
+          "name": "향기 오라(Perfume Aura)",
+          "description": "<p>5 피트. 향초 호문쿨루스의 라벤더 향기는 압도적으로 강렬합니다. 호문쿨루스의 주인이 아닌 모든 생물이 오라에 들어갈 경우 @Check[fortitude|dc:15] 내성 굴림을 시도해야 합니다.</p>\n<hr />\n<p><strong>대성공</strong> 생물은 호무누쿠스의 아우라에 대해 24시간 동안 일시적으로 면역됩니다.</p>\n<p><strong>Success</strong> The creature is unaffected.</p>\n<p><strong>Failure</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1} 상태가 됩니다.</p>\n<p><strong>대실패</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1} 상태가 1 라운드 동안 지속되며 병약 1을 받습니다.</p>"
         },
         "eSTtFDnAz2NbJSXY": {
-          "name": "왁스에 담그기 (Dunk in Wax)",
+          "name": "왁스에 담그기(Dunk in Wax)",
           "description": "<p>큰 왁스 솥 옆에 있는 향기로운 촛불 호무누쿠스는 왁스에 잠겨 @Damage[2d6[healing]]의 피해를 회복합니다.</p>"
         }
       }
     },
     "Hail of Darts": {
-      "name": "화살의 폭우 (Hail of Darts)",
+      "name": "화살의 폭우(Hail of Darts)",
       "desc (hazard)": "<p>천장에 설치된 스프링식 화살들이 압력판에 의해 작동되면 복도로 향해 fire]됩니다.</p>",
       "disable": "<p>@Check[thievery|dc:25|traits:hazard,trap,mechanical]{도둑질 (전문가)} 바닥 타일 또는 벽 소켓에</p>",
       "stealth": "<p>(expert)</p>",
@@ -71,31 +71,31 @@
           "description": "<p><strong>트리거</strong> 바닥 타일에 압력이 가해집니다</p>\n<hr />\n<p><strong>효과</strong> 함정이 다트를 발사하여 바닥 타일을 중심으로 한 @Template[line|distance:30] 범위 내의 모든 생물에게 공격을 가합니다.</p>"
         },
         "N1DlNwW7rdwRgvZf": {
-          "name": "다트 (Dart)"
+          "name": "다트(Dart)"
         },
         "ww3XNNjqDJOclXVx": {
-          "name": "오래된 거대 말벌 맹독 (Old Giant Wasp Venom)",
-          "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:22]</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<hr />\n<p><strong>Stage 1</strong> @Damage[2d6[poison]] 피해와 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1} (1 라운드)</p>\n<p><strong>단계 2</strong> @Damage[3d6[poison]] 피해와 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 2} (1 라운드)</p>\n<p><strong>단계 3</strong> @Damage[4d6[poison]] 피해 및 서투른 2 (1 라운드).</p>"
+          "name": "오래된 거대 말벌 맹독(Old Giant Wasp Venom)",
+          "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:22]</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<hr />\n<p><strong>Stage 1</strong> @Damage[2d6[poison]] 피해와 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1}(1 라운드)</p>\n<p><strong>단계 2</strong> @Damage[3d6[poison]] 피해와 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 2}(1 라운드)</p>\n<p><strong>단계 3</strong> @Damage[4d6[poison]] 피해 및 서투른 2 (1 라운드).</p>"
         }
       }
     },
     "Meliosa's Leshy (Mint Leshy)": {
-      "name": "멜리오사의 레시 (민트 레시) (Meliosa's Leshy (Mint Leshy))",
+      "name": "멜리오사의 레시 (민트 레시)(Meliosa's Leshy (Mint Leshy))",
       "languages": "식물과 대화 (민트 전용)",
       "items": {
         "pMSeU5bKC5Lsck6O": {
-          "name": "주먹 (Fist)"
+          "name": "주먹(Fist)"
         },
         "GHQR2PY6wyAAu2sb": {
-          "name": "녹색 폭발 (Verdant Burst)",
+          "name": "녹색 폭발(Verdant Burst)",
           "description": "<p>레시가 죽을 때, 그 몸에서 원시 에너지의 폭발이 일어나 @Damage[2d8[healing]]의 체력을 회복합니다. 이 지역은 레시의 유형과 동일한 식물로 가득 차며, 어려운 지형이 됩니다. 이 지형이 해당 식물에게 적합하지 않은 환경이라면, 24시간 후 시들게 됩니다.</p>"
         },
         "gKzbyEE7g3Lf5TPT": {
-          "name": "형태 변화 (Change Shape)",
+          "name": "형태 변화(Change Shape)",
           "description": "<p>레시는 작은 식물로 변신합니다. 이 능력은 @UUID[Compendium.pf2e.spells-srd.Item.dileJ0Yxqg76LMvu]{식물과의 일체감}의 효과를 사용합니다.</p>"
         },
         "Nnqm6DzwVVzOVEOF": {
-          "name": "삼키기 (Engulf)",
+          "name": "삼키기(Engulf)",
           "description": "<p>@Check[reflex|dc:18], @Damage[1d6[bludgeoning],1d6[독]]{1d6 둔기 피해 + 1d6 독 피해}, [[/act escape dc=18]], Rupture 6</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Engulf]</p>"
         }
       }
@@ -105,20 +105,20 @@
       "cadetails": "AC 13 (파괴 시)",
       "items": {
         "nT3TM6fopj35YQ5R": {
-          "name": "머리 박치기 (Headbutt)"
+          "name": "머리 박치기(Headbutt)"
         },
         "bDHxUX6Z1RFekU8z": {
-          "name": "구조물 방어구 (경도 5) (Construct Armor (Hardness 5))",
+          "name": "구조물 방어구 (경도 5)(Construct Armor (Hardness 5))",
           "description": "<p>일반 물체와 마찬가지로 움직이는 흔들말은 경도를 가지고 있습니다. 이 경도는 받는 모든 피해를 경도 값만큼 감소시킵니다. 애니메이션 흔들말의 체력이 절반 이하로 감소하거나, 치명적인 공격을 받아 피해를 입은 즉시, 그 구조물 갑옷이 파괴되고 방어력이 13으로 감소합니다.</p>"
         },
         "r6NeyXy7urudFlGz": {
-          "name": "짓밟기 (Trample)",
-          "description": "<p>프린세스 선셋은 속도의 두 배로 이동하며, 소형 이하 크기의 생물의 공간을 통과할 수 있으며, 진입하는 각 생물을 트램플합니다. 프린세스 선셋은 트램플을 한 번 사용 중에는 동일한 생물을 트램플할 수 없습니다. 몬스터는 머리로 치는 공격의 피해를 입히지만, 트램플된 생물은 @Check[reflex|dc:14|basic]에서 기본 반사 내성 검사를 시도할 수 있습니다.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Trample]</p>"
+          "name": "짓밟기(Trample)",
+          "description": "<p>프린세스 선셋은 속도의 두 배로 이동하며, 소형 이하 크기의 생물의 공간을 통과할 수 있으며, 진입하는 각 생물을 트램플합니다. 프린세스 선셋은 트램플을 한 번 사용 중에는 동일한 생물을 트램플할 수 없습니다. 몬스터는 머리로 치는 공격의 피해를 입히지만, 트램플된 생물은 @Check[reflex|dc:14|basic]에서 기본 반사 내성 굴림을 시도할 수 있습니다.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Trample]</p>"
         }
       }
     },
     "Poisoned Lock (Lionlodge)": {
-      "name": "Poisoned Lock (라이온로지) (Poisoned Lock (Lionlodge))",
+      "name": "Poisoned Lock (라이온로지)(Poisoned Lock (Lionlodge))",
       "desc (hazard)": "<p> 서랍의 열쇠 구멍 근처에 독이 묻은 스프링식 바늘이 숨겨져 있습니다. 함정을 해제하거나 파괴해도 잠금 장치는 해제되거나 파괴되지 않습니다.</p>",
       "disable": "<p>@Check[thievery|dc:23|name:Disable Thievery] (전문가) 스프링 메커니즘에 대해.</p>",
       "stealth": "<p>(전문가)</p>",
@@ -128,12 +128,12 @@
           "description": "<p><strong>트리거</strong> 생물이 잠금을 해제하려고 시도하거나 @UUID[Compendium.pf2e.actionspf2e.Item.2EE4aF4SZpYf0R6H]{잠금 해제}</p>\n<hr />\n<p><strong>효과</strong> 바늘이 트리거링 생물을 공격하기 위해 연장됩니다.</p>"
         },
         "F7pAqbfwb5BHQasS": {
-          "name": "바늘 (Needle)",
+          "name": "바늘(Needle)",
           "description": "<p>플러스 강화된 사냥 거미 맹독</p>"
         },
         "4HwflTBmGsWNVzQu": {
-          "name": "강화된 사냥 거미 맹독 (Enhanced Hunting Spider Venom)",
-          "description": "<p><strong>Saving Throw</strong> @Check[fortitude|dc:23|basic]</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<hr />\n<p><strong>단계 1</strong> @Damage[1d10[poison]] 피해와 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} (1 라운드)</p>\n<p><strong>단계 2</strong> @Damage[1d12[poison]] 피해, @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1}, 및 오프 가드 (1 round)</p>\n<p><strong>단계 3</strong> @Damage[2d6[poison]] 피해, @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 2}, 오프 가드 (1 라운드).</p>\n<hr />\n<p><strong>참고</strong> 이 맹독으로 인한 서투른 상태는 24시간 후에 사라집니다.</p>"
+          "name": "강화된 사냥 거미 맹독(Enhanced Hunting Spider Venom)",
+          "description": "<p><strong>Saving Throw</strong> @Check[fortitude|dc:23|basic]</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<hr />\n<p><strong>단계 1</strong> @Damage[1d10[poison]] 피해와 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드}(1 라운드)</p>\n<p><strong>단계 2</strong> @Damage[1d12[poison]] 피해, @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1}, 및 오프 가드 (1 round)</p>\n<p><strong>단계 3</strong> @Damage[2d6[poison]] 피해, @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 2}, 오프 가드 (1 라운드).</p>\n<hr />\n<p><strong>참고</strong> 이 맹독으로 인한 서투른 상태는 24시간 후에 사라집니다.</p>"
         }
       }
     },
@@ -142,28 +142,28 @@
       "blurb": "변종 진킨 립클로",
       "items": {
         "CVjUFBRBNFzzyeUM": {
-          "name": "집게 발톱 (Pincer Claw)"
+          "name": "집게 발톱(Pincer Claw)"
         },
         "kY2sEnpBUtAf3yWp": {
-          "name": "주먹 (Fist)"
+          "name": "주먹(Fist)"
         },
         "swxKayt24LlzWhYn": {
-          "name": "단궁 (Shortbow)"
+          "name": "단궁(Shortbow)"
         },
         "7Tr463aYLlpKVHXH": {
-          "name": "립 플레시 (Rip Flesh)",
+          "name": "립 플레시(Rip Flesh)",
           "description": "<p><strong>요구 사항</strong> 진킨은 생물 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{잡힌} 생물</p>\n<hr />\n<p><strong>효과</strong> 진킨은 집게 발톱을 생물에서 힘껏 빼내며 살을 찢고 사디스트적인 기쁨에 웃음을 터뜨립니다. 생물은 @Damage[1d8[piercing]]의 피해를 받고 더 이상 잡히지 않습니다.</p>"
         },
         "hZy96Ln7woTYG0EE": {
-          "name": "암습 (Sneak Attack)",
+          "name": "암습(Sneak Attack)",
           "description": "<p>진킨은 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태의 생물에게 1d6 추가 정밀도 피해를 입힙니다.</p>"
         },
         "sdTQ4UDze0yoQiqJ": {
-          "name": "틴커 (Tinker)",
+          "name": "틴커(Tinker)",
           "description": "<p>6명의 진킨은 60피트 범위 내에서 아이템에 저주를 부여하기 위해 1시간 동안 협력할 수 있습니다. 이 과정은 시간이 오래 걸리지만 눈에 띄지 않으며, @UUID[Compendium.pf2e.actionspf2e.Item.XMcnh4cSI32tljXa]{숨어 있는} 상태에서도 수행 가능합니다. 진킨스는 이 능력을 마법 아이템에 사용하는 것을 선호합니다. 저주는 아이템을 신뢰할 수 없게 만들거나 (@Check[flat|dc:5] 또는 아이템과 상호작용하거나 활성화하는 데 모든 행동을 소모해야 함), 아이템 사용에 이상한 조건을 추가하거나, 유사한 수준의 다른 저주를 부여합니다.</p>"
         },
         "uF8rrbcid5DCz1gK": {
-          "name": "잡기 (Grab)"
+          "name": "잡기(Grab)"
         }
       },
       "CraftingVariants": {
@@ -173,43 +173,43 @@
       }
     },
     "Precarious Pile": {
-      "name": "불안정한 산더미 (Precarious Pile)",
+      "name": "불안정한 산더미(Precarious Pile)",
       "desc (hazard)": "<p>이 위험하게 불안정한 잡동사니 더미는 7피트 높이와 10피트 너비로 서 있습니다</span></p>",
       "disable": "<p>@Check[thievery|dc:15|name:Excavate Safe Path|traits:action:disable-a-device] 균형을 깨지 않도록 벽을 통해 길을 조심스럽게 파내십시오</p>\n<p>@Check[athletics|dc:17|name:Hold Up Unstable Portions] 불안정한 부분을 지지합니다</p>",
       "items": {
         "VtHcDRIcr6uZeQFk": {
-          "name": "붕괴 (Collapse)",
-          "description": "<p><strong>트리거</strong> 생물이 벽을 기어오르거나 물체를 제거하려고 시도하거나 벽이 강한 충격을 받습니다</p>\n<hr />\n<p><strong>효과</strong> 벽이 붕괴되어 그 위에 있거나 10피트 이내의 생물에게 @Damage[2d8[bludgeoning]]의 피해를 입힙니다. 생물이 @Check[reflex|dc:18|traits:damaging-effect] 내성 검사에서 성공한 생물은 반의 피해를 받고 무작위 방향으로 굴림합니다. 대성공 시 피해는 받지 않으며 방향을 선택할 수 있습니다.</p>"
+          "name": "붕괴(Collapse)",
+          "description": "<p><strong>트리거</strong> 생물이 벽을 기어오르거나 물체를 제거하려고 시도하거나 벽이 강한 충격을 받습니다</p>\n<hr />\n<p><strong>효과</strong> 벽이 붕괴되어 그 위에 있거나 10피트 이내의 생물에게 @Damage[2d8[bludgeoning]]의 피해를 입힙니다. 생물이 @Check[reflex|dc:18|traits:damaging-effect] 내성 굴림에서 성공한 생물은 반의 피해를 받고 무작위 방향으로 굴림합니다. 대성공 시 피해는 받지 않으며 방향을 선택할 수 있습니다.</p>"
         }
       }
     },
     "Darius": {
-      "name": "다리우스 (Darius)",
+      "name": "다리우스(Darius)",
       "blurb": "남성 인간 알케미스트",
       "items": {
         "KVCx0qW7ozoFIZ5b": {
-          "name": "효과: 활성 변이제 (Effect: Active Mutagen)",
+          "name": "효과: 활성 변이제(Effect: Active Mutagen)",
           "description": "<p>다리우스는 활성 변이제를 가지고 있습니다.</p>"
         },
         "L0XHKXE9uSNSy90h": {
-          "name": "왁스 저울 막대 (Wax Stirring Stick)"
+          "name": "왁스 저울 막대(Wax Stirring Stick)"
         },
         "xaLR3kxqklsAogya": {
-          "name": "변이제 대사 (Metabolize Mutagen)",
-          "description": "<p>다리우스는 활성 변이제의 힘을 대사하여 @Damage[2d6[healing]] 체력을 회복합니다. 만약 그가 그렇게 한다(또는 변이제를 마시기 전에 은밀한 파티에게 공격을 받으면), 그는 비무장 공격으로 턱과 발톱을 잃으며, 운동 체크 보너스가 2 감소하고, AC가 1 증가하며, 반사 내성 검사 보너스가 2 증가합니다.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.wE4S9lwOhtaRAm9n]{Effect: Active Mutagen}</p>"
+          "name": "변이제 대사(Metabolize Mutagen)",
+          "description": "<p>다리우스는 활성 변이제의 힘을 대사하여 @Damage[2d6[healing]] 체력을 회복합니다. 만약 그가 그렇게 한다(또는 변이제를 마시기 전에 은밀한 파티에게 공격을 받으면), 그는 비무장 공격으로 턱과 발톱을 잃으며, 운동 체크 보너스가 2 감소하고, AC가 1 증가하며, 반사 내성 굴림 보너스가 2 증가합니다.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.wE4S9lwOhtaRAm9n]{Effect: Active Mutagen}</p>"
         },
         "1AYgyqie1Elv3mKg": {
           "name": "Crystaline Mutation",
           "description": "<p>다리우스가 어떤 변이제를 마시면 그의 이빨과 손톱에 날카로운 결정체 가장자리가 생깁니다.</p>"
         },
         "2KlbsyUe3x0xTxPs": {
-          "name": "뜨거운 왁스 분사 (Spray Hot Wax)",
-          "description": "<p>다리우스는 즉흥적으로 만든 왁스 분사기로 @Template[cone|distance:15] 방향으로 뜨거운 왁스를 분사합니다. 해당 지역 내 모든 생물은 @Check[reflex|dc:20|options:area-effect,damaging-effect] 내성 검사를 시도해야 합니다. 해당 지역 내 향초 호모노쿨리(homonoculi)는 피해를 입지 않고 대신 @Damage[2d6[healing]] 피해를 회복합니다. 뜨거운 왁스 대포를 사용한 후, 다리우스는 끓는 왁스 가마솥 옆에 인접한 상태에서 두 번의 상호작용 행동을 수행하여 분사기를 재장전할 때까지 다시 사용할 수 없습니다.</p><hr /><p><strong>대성공</strong> 생물은 피해를 받지 않습니다.</p>\n<p><strong>성공</strong> 생물은 @Damage[2d6[fire]|options:area-damage]의 피해를 입습니다.</p>\n<p><strong>실패</strong> 생물은 @Damage[3d6[fire],1d6[지속적,불]|options:area-damage]{3d6 불 피해 + 1d6 지속적 불 피해}를 받습니다.</p>\n<p><strong>대실패</strong> 생물은 @Damage[5d6[fire],2d6[지속적,fire]|옵션:영역 피해]{5d6 불 피해 + 2d6 지속적 불 피해}를 받습니다.</p>"
+          "name": "뜨거운 왁스 분사(Spray Hot Wax)",
+          "description": "<p>다리우스는 즉흥적으로 만든 왁스 분사기로 @Template[cone|distance:15] 방향으로 뜨거운 왁스를 분사합니다. 해당 지역 내 모든 생물은 @Check[reflex|dc:20|options:area-effect,damaging-effect] 내성 굴림을 시도해야 합니다. 해당 지역 내 향초 호모노쿨리(homonoculi)는 피해를 입지 않고 대신 @Damage[2d6[healing]] 피해를 회복합니다. 뜨거운 왁스 대포를 사용한 후, 다리우스는 끓는 왁스 가마솥 옆에 인접한 상태에서 두 번의 상호작용 행동을 수행하여 분사기를 재장전할 때까지 다시 사용할 수 없습니다.</p><hr /><p><strong>대성공</strong> 생물은 피해를 받지 않습니다.</p>\n<p><strong>성공</strong> 생물은 @Damage[2d6[fire]|options:area-damage]의 피해를 입습니다.</p>\n<p><strong>실패</strong> 생물은 @Damage[3d6[fire],1d6[지속적,불]|options:area-damage]{3d6 불 피해 + 1d6 지속적 불 피해}를 받습니다.</p>\n<p><strong>대실패</strong> 생물은 @Damage[5d6[fire],2d6[지속적,fire]|옵션:영역 피해]{5d6 불 피해 + 2d6 지속적 불 피해}를 받습니다.</p>"
         }
       }
     },
     "Lawn Crawfish": {
-      "name": "잔디 게 (Lawn Crawfish)",
+      "name": "잔디 게(Lawn Crawfish)",
       "description": "<p>리프클로우는 거대한 새우나 로브스터를 닮은 수생 괴물입니다. 이름에서 알 수 있듯이, 리프클로우의 거대한 발톱은 강력한 무기로, 꽉 잡는 힘과 불운한 먹이에 맹독을 주입하는 능력을 갖추고 있습니다.</p>\n<p>리프클로우는 말을 할 수 없지만, 사냥터 근처에 사는 인간형 생물의 언어를 이해할 만큼 지능이 높습니다. 이 생물들은 때로는 대화를 엿듣는데, 이는 수생 또는 육상 포식을 위한 최상의 습격 장소를 파악하기 위해서이거나, 단순히 재미를 위해입니다-리프클로우는 특히 높은 음조의 목소리를 가진 사람들의 말을 듣는 것을 좋아합니다. 리프클로우는 보통 단독으로 사냥하지만, 번식 목적으로 단일 수컷 주변에 모이거나 새끼를 공동으로 키우기 위해 작은 무리를 이루는 암컷 리프클로우들이 알려져 있습니다. 후자의 경우, 암컷들은 새끼를 먹이기 위해 충분한 사냥감을 확보하기 위해 광범위한 사냥을 진행합니다. 이러한 사냥 무리는 극히 위험하며, 작은 어선들을 전복시키고 물에 빠진 사람들을 공격하는 것으로 알려져 있습니다.</p>\n<p>리프클로우는 한 번 행동을 결정하면, 그 행동이 자신의 죽음으로 이어지더라도 끝까지 실행합니다. 여러 리프클로우 생존자들은 이 생물이 깨진 두개골에서 뇌가 흘러나올 때까지 뼈를 부수는 잡는 힘을 풀지 않았으며, 심지어 죽어가는 숨을 내쉬며 끔찍한 마지막 베기를 가했다고 증언했습니다. 번식 시즌에는 암컷 리프클로우가 자신과 새끼를 위험에 빠뜨리지 않기 위해 사냥감을 먼저 놓아주는 경우가 많습니다.</p>\n<p>지능과 도덕적 딜레마에도 불구하고, 리프클로는 인간과 홉고블린 같은 육지 거주 사냥꾼들의 식탁에 자주 오릅니다. 리프클로 고기를 맛본 이들은 그 고기가 달콤하거나(온수 지역 리프클로의 경우) 약간 신맛이 난다고 묘사합니다. 리프클로의 지능을 아는 대부분의 문명화된 사람들은 그들을 먹는 행위를 역겨워합니다. 하지만 해안 지역에서 부도덕한 귀족들은 리프클로 고기가 비용을 들일 만한 고급 요리라고 여겨 이 금지를 무시합니다. 마찬가지로 장부상의 이익을 포커스로 하는 어부들은 위험한 생물을 사냥하는 것-아니면 더 나은 방법으로는 순진한 모험가들에게 그 임무를 맡기는 것-에 주저하지 않습니다.</p>",
       "items": {
         "oGR3hLNhUlAR66Kw": {
@@ -225,7 +225,7 @@
         },
         "We6LladGR4C687q0": {
           "name": "Crawfish Venom",
-          "description": "<p><strong>Saving Throw</strong> @Check[fortitude|dc:17]</p>\n<p><strong>Maximum Duration</strong> 4 rounds</p>\n<p><strong>단계 1</strong> @Damage[1d6[poison]] 피해와 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 1} (1 라운드)</p>\n<p><strong>단계 2</strong> @Damage[1d6[poison]] 피해와 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 2} (1 round).</p>"
+          "description": "<p><strong>Saving Throw</strong> @Check[fortitude|dc:17]</p>\n<p><strong>Maximum Duration</strong> 4 rounds</p>\n<p><strong>단계 1</strong> @Damage[1d6[poison]] 피해와 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 1}(1 라운드)</p>\n<p><strong>단계 2</strong> @Damage[1d6[poison]] 피해와 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{Enfeebled 2}(1 round).</p>"
         },
         "xSrJboXYh6Bug0IV": {
           "name": "Grab",
@@ -239,28 +239,28 @@
       }
     },
     "Cultist of Alocer": {
-      "name": "알로세르의 숭배자 (Cultist of Alocer)",
+      "name": "알로세르의 숭배자(Cultist of Alocer)",
       "items": {
         "5zthliRLGM96Nbxe": {
-          "name": "가시 장갑 (Spiked Gauntlet)"
+          "name": "가시 장갑(Spiked Gauntlet)"
         },
         "o74xHBJOxDwnVk01": {
-          "name": "복합 단궁 (Composite Shortbow)"
+          "name": "복합 단궁(Composite Shortbow)"
         }
       }
     },
     "Giant Pirate Skeleton": {
-      "name": "거대 해적 해골 (Giant Pirate Skeleton)",
+      "name": "거대 해적 해골(Giant Pirate Skeleton)",
       "hpdetails": "공허 치유",
       "items": {
         "BHl8dYHvfw3wudwe": {
-          "name": "갈고리 (Gaff Hook)"
+          "name": "갈고리(Gaff Hook)"
         },
         "WY438acWymvSxQun": {
-          "name": "발톱 (Claw)"
+          "name": "발톱(Claw)"
         },
         "7LrXSjw6oX8NtpUt": {
-          "name": "쉽게 분산되는 (Easily Distracted)",
+          "name": "쉽게 분산되는(Easily Distracted)",
           "description": "<p>거대 해적 스켈레톤의 시력이 나쁘기 때문에 측면에서 공격하는 생물체에 쉽게 분산됩니다. 측면 공격으로 인해 오프 가드 상태가 되면 AC에 -4의 페널티가 추가됩니다.</p>"
         },
         "1V7jsEG1WArbOCHt": {
@@ -271,7 +271,7 @@
           "description": "<p>거대한 해적 해골은 발톱으로 한 명의 적에게 두 번의 공격을 가합니다. 다중 공격 페널티는 두 번의 공격이 모두 해결된 후에 증가합니다.</p>\n<p>거대한 해적 해골은 시야 내에 공격할 수 있는 생물이 하나 이상 있을 경우 이 능력을 사용하지 않습니다.</p>"
         },
         "9LrnTtrOFInnVVZB": {
-          "name": "찌르는 갈고리 (Impaling Hook)",
+          "name": "찌르는 갈고리(Impaling Hook)",
           "description": "<p>거대한 해적 해골의 갈고리에 치명타를 입은 생물은 그 갈고리에 꿰뚫려집니다.</p>\n<p>생물은 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{잡힌} 상태가 되며, 거대 해적 해골이 잡기를 유지하는 동안 해당 생물은 고통스러운 상처로부터 @Damage[(1d10+10)[piercing]]의 피해를 입습니다.</p>"
         }
       }
@@ -280,52 +280,52 @@
       "name": "Pairaka (One-Shot #4)",
       "description": "<p>일부 악마들은 다중 우주를 파괴하려 하며, 다른 이들은 혼란과 학살을 일으키거나 철권으로 왕국을 지배하는 데 헌신합니다. 디브스는 다른 목표를 추구하지만, 마찬가지로 비열한 목표입니다-그들은 인간들의 계획과 업적을 방해하고 파괴하려는 것입니다.</p>\n<p>오래 전, 디브들은 영원히 사라진 고대 인간 제국에 종속된 지니들이었습니다. 초기에는 이 지니들은 창조물의 주인으로, 인간 파트너들과 협력해 세련된 디자인과 강력한 마법적 잠재력을 지닌 작품을 창조했습니다. 인간과의 협력이 점차 학대, 존중 부족, 심지어 노예화와 구속으로 변질되었습니다. 결국 이 지니들은 반란을 일으켰지만, 그 과정에서 허무주의적 반신 아흐리만(Ahriman)의 지배를 받게 되었습니다. 새로운 주인은 그들의 형태를 왜곡하고 인간 지배자들에게 복수할 힘을 부여했습니다. 이로써 첫 번째 디브가 탄생했습니다.</p>\n<p>첫 번째 부패의 파동 이후, 물질계에서 죽은 가장 악랄하고 증오에 찬 지니들의 영혼에서 새로운 디브가 탄생합니다. 또는 인간에게 배신당해 복수의 열망에 사로잡힌 자들의 영혼에서 탄생합니다. 이러한 죽음 후, 이 지니들의 영혼은 아바돈의 공포의 궤도에 갇히게 되며, 아흐리만은 그들을 디브로 재형성해 인간 세계로 되돌려 보내 복수를 자행하게 합니다.</p>\n<hr />\n<p>파이라카스는 종종 매력적이며 때로는 유혹적이어서 인간 관계에 침투해 감정적·육체적 부패와 전염병을 통해 우정과 사랑의 유대를 서서히 파괴합니다. 파이라카스는 아름다운 파란 피부와 큰 발진과 종기로 덮인 인간형 생물로 나타나지만, 진정한 모습을 드러내는 경우는 드뭅니다. 대신, 그들은 괴롭히고 부패시키려는 대상의 신뢰를 얻기 위해 충분한 관심을 끌 수 있는 형태를 취합니다.</p>",
       "languages": "텔레파시 100피트",
-      "saves": "마법 내성 검사 모든 내성 +1",
+      "saves": "마법 내성 굴림 모든 내성 +1",
       "items": {
         "9rWukglRKNo6c7Jk": {
-          "name": "발톱 (Claw)"
+          "name": "발톱(Claw)"
         },
         "YpsnJaxTr4v9kv5p": {
-          "name": "독침 (Poisoned Dart)"
+          "name": "독침(Poisoned Dart)"
         },
         "fzkFHUIw06YZhQU3": {
-          "name": "강화된 암흑 시야 (Greater Darkvision)"
+          "name": "강화된 암흑 시야(Greater Darkvision)"
         },
         "wK3dnqQbpz2HUZw5": {
-          "name": "텔레파시 100 피트 (Telepathy 100 feet)"
+          "name": "텔레파시 100 피트(Telepathy 100 feet)"
         },
         "sZkTgu7T9gViMgGW": {
-          "name": "마법 내성에 +1 상태 부여 (+1 Status to All Saves vs. Magic)"
+          "name": "마법 내성에 +1 상태 부여(+1 Status to All Saves vs. Magic)"
         },
         "BDbSH109hF8RleEa": {
-          "name": "빨간색에 대한 증오 (Hatred of Red)",
+          "name": "빨간색에 대한 증오(Hatred of Red)",
           "description": "<p> 파이라카스는 빨간색을 증오합니다. 그들은 빨간색을 입지 않으며, 빨간색으로 칠해진 장소에 자발적으로 들어가지 않습니다. 선택의 여지가 있다면, 빨간색을 입은 생물을 먼저 공격합니다.</p>\n<p>강제나 마법 효과로 인해 빨간색에 대한 혐오를 표현할 수 없을 경우, 그들의 턴 종료 시 @Damage[2d6[mental]] 피해를 입습니다.</p>"
         },
         "OnmLcXNYU1Jxp5ji": {
-          "name": "흑사병 (Bubonic Plague)",
-          "description": "<p>감염된 생물은 피로 상태를 제거할 수 없습니다.</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:23]</p>\n<hr />\n<p><strong>발병</strong> 1일</p>\n<p><strong>단계 1</strong> @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{피로} (1일)</p>\n<p><strong>단계 2</strong> @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 2} 및 피로 (1일)</p>\n<p><strong>단계 3</strong> @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 3}, 피로, 그리고 [U0005⟭]를 [[/br 1d20 #분]]{1d20분}마다 (1일)</p>"
+          "name": "흑사병(Bubonic Plague)",
+          "description": "<p>감염된 생물은 피로 상태를 제거할 수 없습니다.</p>\n<p><strong>Saving Throw</strong> @Check[fortitude|dc:23]</p>\n<hr />\n<p><strong>발병</strong> 1일</p>\n<p><strong>단계 1</strong> @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{피로}(1일)</p>\n<p><strong>단계 2</strong> @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 2} 및 피로 (1일)</p>\n<p><strong>단계 3</strong> @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 3}, 피로, 그리고 [U0005⟭]를 [[/br 1d20 #분]]{1d20분}마다 (1일)</p>"
         },
         "D4noCa8oJeJbAEEn": {
-          "name": "형태 변경 (Change Shape)",
+          "name": "형태 변경(Change Shape)",
           "description": "<p>파이라카는 작은 또는 중간 크기의 인간형 생물이나 동물의 모습을 취할 수 있습니다. 이 변신은 그들의 이동 속도나 스트라이크 공격 시 적용되는 공격 및 피해 수정자를 변경하지 않지만, 스트라이크가 가하는 피해 유형은 변경될 수 있습니다.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
         },
         "VZlTraWqYIrTlPGW": {
           "name": "Tormenting Dreams",
-          "description": "<p><strong>빈도</strong> 하루에 한 번</p>\n<hr />\n<p><strong>효과</strong> 파이라카는 100피트 이내의 잠든 생물에게 사랑하는 사람과 친구들의 배신 장면을 보여주는 악몽으로 괴롭힌다. 대상은 @Check[will|dc:25] 내성 검사를 시도해야 하며, @UUID[Compendium.pf2e.spells-srd.Item.Uqj344bezBq3ESdq]{악몽} 주문의 효과가 적용됩니다.</p>"
+          "description": "<p><strong>빈도</strong> 하루에 한 번</p>\n<hr />\n<p><strong>효과</strong> 파이라카는 100피트 이내의 잠든 생물에게 사랑하는 사람과 친구들의 배신 장면을 보여주는 악몽으로 괴롭힌다. 대상은 @Check[will|dc:25] 내성 굴림을 시도해야 하며, @UUID[Compendium.pf2e.spells-srd.Item.Uqj344bezBq3ESdq]{악몽} 주문의 효과가 적용됩니다.</p>"
         }
       }
     },
     "Doatara the Poisoner": {
-      "name": "독살자 도아타라 (Doatara the Poisoner)",
+      "name": "독살자 도아타라(Doatara the Poisoner)",
       "items": {
         "TxLLR0S08OmTUcU7": {
-          "name": "단검 (Shortsword)"
+          "name": "단검(Shortsword)"
         },
         "3C97dBJxHVxzmZbK": {
-          "name": "단검 (Dagger)"
+          "name": "단검(Dagger)"
         },
         "2sy1o06ck8XIlhfn": {
-          "name": "연금술사의 불 (Alchemist's Fire)"
+          "name": "연금술사의 불(Alchemist's Fire)"
         },
         "csNqFPhBD3KDCIrl": {
           "name": "Bottled Lightning"
@@ -335,11 +335,11 @@
           "description": "<p><strong>트리거</strong> 도타라에 대한 근접 공격이 치명적인 대실패를 일으킵니다</p>\n<p><strong>조건</strong> 트리거를 유발한 생물이 독에 감염되어 있습니다</p>\n<hr />\n<p><strong>효과</strong> 독은 친구와 적을 구분하기 어렵게 만듭니다. 트리거링 생물은 도아타라가 선택한 범위 내의 다른 생물에게 근접 공격을 가합니다. 트리거링 생물의 다중 공격 페널티는 이 공격에는 적용되지 않습니다.</p>"
         },
         "eWe9F3BGT8vvpd1n": {
-          "name": "블랙핑거스의 축복 (Blackfingers's Blessing)",
+          "name": "블랙핑거스의 축복(Blackfingers's Blessing)",
           "description": "<p>도아타라는 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태의 생물에게 관통 또는 절단 피해를 입힐 때 추가로 2d6 독 피해를 입힙니다.</p>"
         },
         "2WeSNefSX1K6rZFj": {
-          "name": "빠른 폭탄 투척자 (Quick Bomber)",
+          "name": "빠른 폭탄 투척자(Quick Bomber)",
           "description": "<p>도아타라는 폭탄을 뽑은 후 그 폭탄으로 공격합니다.</p>"
         },
         "fn6zUFcwvcTZ3WTT": {
@@ -347,34 +347,34 @@
           "description": "<p><strong>Requirements</strong> 도아타라가 한 손이 자유로워야 합니다.</p>\n<hr />\n<p><strong>효과</strong> 도아타라는 상호작용을 통해 상처 독을 뽑아내어 자신이 휘두르는 관통 또는 베는 무기에 적용한 후 공격합니다.</p>"
         },
         "wq1w6V7b3rHNYeJ0": {
-          "name": "암살자 로어 (Assassin Lore)"
+          "name": "암살자 로어(Assassin Lore)"
         }
       }
     },
     "Doatara the Priest": {
-      "name": "도아타라 사제 (Doatara the Priest)",
+      "name": "도아타라 사제(Doatara the Priest)",
       "items": {
         "TxLLR0S08OmTUcU7": {
-          "name": "단검 (Shortsword)"
+          "name": "단검(Shortsword)"
         },
         "yuUqFU9aeQibXK4x": {
-          "name": "단검 (Dagger)"
+          "name": "단검(Dagger)"
         },
         "yjwQiSKfLGrGNqvM": {
-          "name": "채널 스마이트 (Channel Smite)",
+          "name": "채널 스마이트(Channel Smite)",
           "description": "<p><strong>요구 사항</strong> 도아타라는 @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{해로운} 주문을 소모합니다</p>\n<hr />\n<p><strong>효과</strong> 도아타라는 근접 공격을 수행하고, 해당 공격의 피해에 <em>해로운</em> 주문의 공허 피해를 추가합니다.</p>"
         },
         "YNkUC99qBUu0WKuT": {
-          "name": "독 무기 (Poison Weapon)",
+          "name": "독 무기(Poison Weapon)",
           "description": "<p><strong>요구 조건</strong> 도아타라는 관통형 또는 베기형 무기를 들고 있습니다</p>\n<hr />\n<p><strong>효과</strong> 도타라는 상호작용을 통해 상처 독을 뽑아 필요한 무기에 적용합니다. 그 무기로 다음 턴이 끝나기 전에 다음 공격이 적중하고 피해를 입히면 독의 효과가 적용됩니다. 공격 굴림에서 대실패하면 독은 정상적으로 소모됩니다.</p>"
         },
         "wq1w6V7b3rHNYeJ0": {
-          "name": "암살자 로어 (Assassin Lore)"
+          "name": "암살자 로어(Assassin Lore)"
         }
       }
     },
     "Jinkin Ripclaw": {
-      "name": "진킨 립클로 (Jinkin Ripclaw)",
+      "name": "진킨 립클로(Jinkin Ripclaw)",
       "items": {
         "CVjUFBRBNFzzyeUM": {
           "name": "Pincer Claw"
@@ -387,7 +387,7 @@
           "description": "<p><strong>요구 사항</strong> 진킨은 핀서 클로로 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{잡힌} 생물을 가지고 있습니다</p>\n<hr />\n<p><strong>효과</strong> 진킨은 생물의 집게 발톱을 강제로 뽑아내며 살을 찢고 사디스트적인 기쁨으로 웃어댑니다. 생물은 @Damage[1d8[piercing]]의 피해를 입으며 더 이상 잡혀 있지 않습니다.</p>"
         },
         "hZy96Ln7woTYG0EE": {
-          "name": "암습 (Sneak Attack)",
+          "name": "암습(Sneak Attack)",
           "description": "<p>진킨은 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{Off-Guard} creatures.</p>"
         },
         "sdTQ4UDze0yoQiqJ": {
@@ -405,7 +405,7 @@
       }
     },
     "Boreal Rage Trap": {
-      "name": "북극 분노 함정 (Boreal Rage Trap)",
+      "name": "북극 분노 함정(Boreal Rage Trap)",
       "desc (hazard)": "<p>인형으로 된 올빼미 곰이 침입자에게 돌진하며 차가운 바람을 내뿜습니다.</p>",
       "disable": "<p>@Check[thievery|dc:22|traits:cold,evocation,magical,trap,hazard]{도둑질 (전문가)} 올베어의 기지에</p>",
       "reset": "<p>10 minutes</p>",
@@ -413,27 +413,27 @@
       "items": {
         "GvNIHxShQxa9QiM0": {
           "name": "Exhale",
-          "description": "<p><strong>트리거</strong> 생물이 표시된 영역 중 하나에 들어오거나, 생물이 방에 1분 동안 머무르면</p>\n<hr />\n<p><strong>효과</strong> 함정이 차가운 숨을 내뿜어 트리거된 생물의 칸을 중심으로 @Template[burst|distance:15]{15피트 폭발} 범위를 감싸며, 이 공격은 @Damage[(4d8+18)[cold]]의 피해를 입힙니다 (@Check[reflex|dc:24|basic|traits:cold,evocation,magical,trap,hazard] 내성). 내성 검사에 대실패한 생물은 동상 때문에 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1} 상태가 10분 동안 지속됩니다.</p>"
+          "description": "<p><strong>트리거</strong> 생물이 표시된 영역 중 하나에 들어오거나, 생물이 방에 1분 동안 머무르면</p>\n<hr />\n<p><strong>효과</strong> 함정이 차가운 숨을 내뿜어 트리거된 생물의 칸을 중심으로 @Template[burst|distance:15]{15피트 폭발} 범위를 감싸며, 이 공격은 @Damage[(4d8+18)[cold]]의 피해를 입힙니다 (@Check[reflex|dc:24|basic|traits:cold,evocation,magical,trap,hazard] 내성). 내성 굴림에 대실패한 생물은 동상 때문에 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1} 상태가 10분 동안 지속됩니다.</p>"
         }
       }
     },
     "Meliosa's Leshy (Wisteria Leshy)": {
-      "name": "멜리오사의 레시 (와일드 포도 레시) (Meliosa's Leshy (Wisteria Leshy))",
+      "name": "멜리오사의 레시 (와일드 포도 레시)(Meliosa's Leshy (Wisteria Leshy))",
       "languages": "식물과 대화 (와일드플라워만)",
       "items": {
         "pMSeU5bKC5Lsck6O": {
-          "name": "주먹 (Fist)"
+          "name": "주먹(Fist)"
         },
         "GHQR2PY6wyAAu2sb": {
-          "name": "녹색 폭발 (Verdant Burst)",
+          "name": "녹색 폭발(Verdant Burst)",
           "description": "<p>레시가 죽을 때, 그 몸에서 원시적인 에너지 폭발이 발생해 반경 @Template[emanation|distance:30] 반경 내의 모든 식물 생물에게 @Damage[2d8[healing]] 체력을 회복시킵니다. 이 지역은 레시의 유형과 동일한 식물로 가득 차며, 어려운 지형이 됩니다. 이 지형이 해당 식물에게 적합한 환경이 아니라면, 24시간 후 시들게 됩니다.</p>"
         },
         "gKzbyEE7g3Lf5TPT": {
-          "name": "형태 변화 (Change Shape)",
+          "name": "형태 변화(Change Shape)",
           "description": "<p>레시는 작은 식물로 변신합니다. 이 능력은 @UUID[Compendium.pf2e.spells-srd.Item.dileJ0Yxqg76LMvu]{식물과의 일체감}의 효과를 사용합니다.</p>"
         },
         "gUrcTxH9bZhgba6f": {
-          "name": "압박 (Constrict)",
+          "name": "압박(Constrict)",
           "description": "<p>@Damage[(1d6+4)[bludgeoning]], @Check[fortitude|dc:18|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p>"
         },
         "5Zy8QEu0MsvvSBLQ": {
@@ -445,61 +445,61 @@
       "name": "Soulbound Guardian",
       "items": {
         "PkEjTKfQ32atCVEv": {
-          "name": "주먹 (Fist)"
+          "name": "주먹(Fist)"
         },
         "VLH2brZkO5X2s8zB": {
-          "name": "성격 조각 (Personality Fragments)",
+          "name": "성격 조각(Personality Fragments)",
           "description": "<p>소울바운드 가디언은 기증자의 영혼의 성격 조각을 공유하지만, 그 생물의 기억은 전혀 공유하지 않습니다. 이로 인해 소울바운드 가디언은 기증자의 강한 성격 특성과 일치하게 됩니다. 소울바운드 가디언은 영혼의 일부를 가지고 있기 때문에 대부분의 구조물과 달리 영혼에 면역이 없습니다.</p>"
         },
         "t4TnMTAYDWzMaJx7": {
-          "name": "마네킨 (Mannequin)",
+          "name": "마네킨(Mannequin)",
           "description": "<p>다음 행동까지, 영혼 결합 수호자는 무해한 마네킨처럼 보입니다. 마네킨으로 위장하는 데 필요한 기만 체크 및 DC에 자동으로 30의 결과를 얻습니다.</p>"
         },
         "Dy3dLWA01tuP9tgc": {
-          "name": "분열된 영혼 (Splitsoul)",
+          "name": "분열된 영혼(Splitsoul)",
           "description": "<p><strong>빈도</strong> 하루에 한 번</p><hr /><p><strong>효과</strong> 영혼 결합 수호자는 자신의 생명을 유지하는 에너지 일부를 주변의 무생물체에 빌려줍니다. 60피트 이내의 3개의 소형 물건이나 가구 조각이 1분 동안 살아납니다. 이 물건들은 부하 특성을 갖지만, 영혼 결합 수호자가 단일 행동으로 명령을 내릴 때 모든 물건이 동시에 행동할 수 있습니다. 영혼 결합 수호자는 이 능력을 사용하는 과정에서 각 물건에 개별적으로 명령을 내릴 수도 있습니다.</p>\n<p>이 방식으로 살아난 각 물건은 속도 20피트이며, 무장하지 않은 근접 공격을 +11로 수행해 @Damage[(1d6+3)[bludgeoning]]의 피해를 입힙니다. 또한 각 물체는 AC 16, 경도 3, 체력 14를 가지고 있습니다.</p>"
         }
       }
     },
     "Hidden Spiked Pit": {
-      "name": "숨겨진 가시 구덩이 (Hidden Spiked Pit)",
+      "name": "숨겨진 가시 구덩이(Hidden Spiked Pit)",
       "desc (hazard)": "<p>목재 트랩도어가 10피트 칸 크기에 20피트 깊이의 구덩이를 덮고 있습니다. 트랩 바닥에는 칼들이 배열되어 있어 떨어지는 사람을 찌릅니다.</p>",
       "disable": "<p>@Check[thievery|dc:18] (훈련된 자만) 함정 문을 제거할 수 있습니다</p>",
       "reset": "<p>생물들은 여전히 함정에 떨어질 수 있지만, 함정 문은 수동으로 재설정해야 함정이 다시 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨겨짐} 상태가 됩니다.</p>",
       "stealth": "<p>(훈련된) 또는 함정 문이 비활성화되거나 파손된 경우 DC 0</p>",
       "items": {
         "46QQLfvX9fW6Bk1l": {
-          "name": "함정 구덩이 (Pitfall)",
+          "name": "함정 구덩이(Pitfall)",
           "description": "<p><strong>트리거</strong> 생물이 함정 문 위에 걸어 들어간다</p>\n<hr />\n<p><strong>효과</strong> 트리거를 유발한 생물이 함정 문에 떨어지며 추락 피해 (@Damage[10[bludgeoning]|options:fall-damage] 피해)를 입으며, 칼날에 떨어지면서 @Damage[2d6[piercing]] 피해를 추가로 입습니다. 해당 생물은 @UUID[Compendium.pf2e.actionspf2e.Item.3yoajuKjwHZ9ApUY]{가장자리를 잡기} 반응을 사용하여 추락을 피할 수 있습니다.</p>"
         }
       }
     },
     "Meliosa's Leshy (Minkaian Honeysuckle Leshy)": {
-      "name": "멜리오사의 레시 (민카이안 허니서클 레시) (Meliosa's Leshy (Minkaian Honeysuckle Leshy))",
+      "name": "멜리오사의 레시 (민카이안 허니서클 레시)(Meliosa's Leshy (Minkaian Honeysuckle Leshy))",
       "languages": "식물과 대화(민카이안 허니서클 전용)",
       "items": {
         "pMSeU5bKC5Lsck6O": {
-          "name": "주먹 (Fist)"
+          "name": "주먹(Fist)"
         },
         "KWfzW6wQi6tK0Btv": {
-          "name": "민첩한 레시 (Agile Leshy)",
-          "description": "<p>허니서클 레시는 반사 및 인내 내성 검사 및 트립과 강제 이동에 대한 DC에 +1 상태 보너스를 얻습니다.</p>"
+          "name": "민첩한 레시(Agile Leshy)",
+          "description": "<p>허니서클 레시는 반사 및 인내 내성 굴림 및 트립과 강제 이동에 대한 DC에 +1 상태 보너스를 얻습니다.</p>"
         },
         "GHQR2PY6wyAAu2sb": {
-          "name": "녹색 폭발 (Verdant Burst)",
+          "name": "녹색 폭발(Verdant Burst)",
           "description": "<p>레시가 죽을 때, 그 몸에서 원시적인 에너지 폭발이 발생해 반경 @Template[emanation|distance:30] 내의 모든 식물 생물에게 @Damage[2d8[healing]] 체력을 회복시킵니다. 이 지역은 레시와 같은 종류의 식물로 가득 차며, 어려운 지형이 됩니다. 이 지형이 해당 식물에게 적합한 환경이 아니라면, 24시간 후 시들게 됩니다.</p>"
         },
         "gKzbyEE7g3Lf5TPT": {
-          "name": "형태 변화 (Change Shape)",
+          "name": "형태 변화(Change Shape)",
           "description": "<p> 레시는 작은 식물로 변신합니다. 이 능력은 @UUID[Compendium.pf2e.spells-srd.Item.dileJ0Yxqg76LMvu]{식물과의 일체감}의 효과를 사용합니다.</p>"
         }
       }
     },
     "Bad Vibrations": {
-      "name": "나쁜 진동 (Bad Vibrations)",
+      "name": "나쁜 진동(Bad Vibrations)",
       "hpdetails": "HP당 크리스탈",
       "desc (hazard)": "<p>테이블 위에 있는 세 개의 큰 크리스탈이 진동하기 시작하며 빠르게 커지는 소리를 내뿜습니다.</p>",
-      "disable": "<p>@Check[thievery|dc:17] (훈련된) 또는 @Check[occultism|dc:17] (훈련된)로 크리스탈 중 하나에 걸린 마법을 방해하거나, @Check[performance|dc:20] (훈련된) 캐릭터가 @UUID[Compendium.pf2e.spells-srd.Item.WILXkjU5Yq3yw10r]{Counter Performance}를 사용해 소리를 수정해 소리를 수정체로 되돌리거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic} (2단계, DC 18)로 수정체를 반격합니다.</span></p>",
+      "disable": "<p>@Check[thievery|dc:17] (훈련된) 또는 @Check[occultism|dc:17] (훈련된)로 크리스탈 중 하나에 걸린 마법을 방해하거나, @Check[performance|dc:20] (훈련된) 캐릭터가 @UUID[Compendium.pf2e.spells-srd.Item.WILXkjU5Yq3yw10r]{Counter Performance}를 사용해 소리를 수정해 소리를 수정체로 되돌리거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic}(2단계, DC 18)로 수정체를 반격합니다.</span></p>",
       "routine": "<p>(3 행동) 위험은 비활성화되거나 파괴된 각 크리스탈마다 1개의 행동을 잃습니다. 함정의 각 행동 시, 방 내의 작은 크기 이상의 생물 한 마리를 대상으로 크리스탈이 소리 폭격을 fire합니다. 대상은 무작위로 결정되며 @Damage[1d8[sonic]]의 피해를 입습니다 (@Check[fortitude|dc:20|basic]); 이 내성에 대실패한 대상은 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{청각 상실} 상태가 1분 동안 지속됩니다. 위험 요소의 루틴이 끝날 때 @Check[flat|dc:10|name:Destroy a Crystal]를 시도합니다. 성공 시 크리스탈 중 하나가 부서지고 파괴됩니다.</p>",
       "stealth": "<p>(expert)</p>",
       "items": {
@@ -510,49 +510,49 @@
       }
     },
     "Splitsoul Object": {
-      "name": "스플릿소울 오브젝트 (Splitsoul Object)",
+      "name": "스플릿소울 오브젝트(Splitsoul Object)",
       "items": {
         "VtKHMPYYwbuzPTjb": {
-          "name": "오브젝트 (Object)"
+          "name": "오브젝트(Object)"
         }
       }
     },
     "Taxidermic Dog": {
-      "name": "택시더믹 개 (Taxidermic Dog)",
+      "name": "택시더믹 개(Taxidermic Dog)",
       "items": {
         "6xOYkXaZahFpHvw3": {
-          "name": "턱 (Jaws)"
+          "name": "턱(Jaws)"
         },
         "NhcqCfallZ7DaLf1": {
-          "name": "팩 공격 (Pack Attack)",
+          "name": "팩 공격(Pack Attack)",
           "description": "<p>택시더믹 개의 공격은 택시더믹 개의 두 동맹의 범위 내의 생물에게 1d4 추가 피해를 입힌다.</p>"
         }
       }
     },
     "Auldegrund Grimcarver": {
-      "name": "올드그룬드 그림카버 (Auldegrund Grimcarver)",
+      "name": "올드그룬드 그림카버(Auldegrund Grimcarver)",
       "items": {
         "nkKhmehnjM75AKNT": {
-          "name": "워해머 (Warhammer)"
+          "name": "워해머(Warhammer)"
         },
         "1u9tQ8DKxZlZLnWb": {
-          "name": "단검 (Shortbow)"
+          "name": "단검(Shortbow)"
         },
         "8s6y6eF6aIz8kL9y": {
-          "name": "알로서르 소환 (Invoke Alocer)",
+          "name": "알로서르 소환(Invoke Alocer)",
           "description": "<p><strong>트리거</strong> Auldegrund의 체력이 60 이하로 감소합니다</p>\n<p><strong>Frequency</strong> once per day</p>\n<hr />\n<p><strong>효과</strong> 올데그룬드는 지옥어로 외친다. \"전능하신 알로서르의 이름으로 이 적들을 물리칠 힘을 주소서!\" 이 말을 하는 순간, 그의 피부는 붉은색으로 변하고, 악마 같은 뿔이 이마에서 솟아오르며, 불타는 사자 같은 갈기가 머리를 감싸고, 타오르는 날개가 어깨에서 터져 나오며, 그의 무기가 검은 불꽃으로 타오른다.</p>\n<p>그는 즉시 @Damage[(3d6+7)[healing]] 체력을 회복하고, 25피트의 비행 속도를 얻으며, 근접 및 원거리 공격에 추가로 @Damage[1d6[fire]]의 피해를 입힌다.</p>\n<p>이것은 위험한 도박이지만, 알로서는 인내심이 없습니다. 올데그룬드의 각 턴이 끝날 때마다의 턴이 끝날 때마다 그는 @Check[flat|dc:11|name:End Invoke Alocer] (이 플랫 체크 DC는 각 라운드마다 1씩 증가합니다)를 시도해야 합니다. 실패 시 알로서는 알데그룬드가 적을 물리치지 못했다는 사실에 실망하며, '알로서 소환'의 효과가 즉시 종료됩니다. 이로 인해 @Damage[(3d6+7)]의 피해를 입히고, 그의 비행 속도와 무기 공격에 추가되는 화염 피해를 제거하며, Auldegrund를 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 3} 상태로 만듭니다.</p>"
         },
         "NWeQmIwwe3qjz779": {
-          "name": "잔인한 화살 (Cruel Shot)",
+          "name": "잔인한 화살(Cruel Shot)",
           "description": "<p>Auldegrund는 활로 사격을 조준하는 데 시간을 보내며 잔인하게 웃으며 원거리 공격을 가합니다.</p>\n<p>만약 명중하면 2d6 정밀도 피해를 입히고 1d6 출혈 피해를 입힙니다. 놓치더라도 [[/r 2d6]]의 찰과상 피해를 입힙니다. 치명적인 놓침일 경우에만 그의 잔인한 화살은 피해를 입히지 않습니다.</p>"
         }
       }
     },
     "Simulacrum": {
-      "name": "시뮬라크럼 (Simulacrum)",
+      "name": "시뮬라크럼(Simulacrum)",
       "items": {
         "TqC1uaMbn5081Gzl": {
-          "name": "워해머 (Warhammer)"
+          "name": "워해머(Warhammer)"
         }
       },
       "DeceptionVariants": {
@@ -562,22 +562,22 @@
       }
     },
     "Kelorbeyan Guard": {
-      "name": "케로르베얀 경비대 (Kelorbeyan Guard)",
+      "name": "케로르베얀 경비대(Kelorbeyan Guard)",
       "items": {
         "cBW0pTUJgpGbQTuZ": {
-          "name": "장검 (Longsword)"
+          "name": "장검(Longsword)"
         },
         "FZlF8DNH9zoHHtGs": {
-          "name": "사프 (Sap)"
+          "name": "사프(Sap)"
         },
         "GhJYsgLhPBbMBLSk": {
-          "name": "복합 단궁 (Composite Shortbow)"
+          "name": "복합 단궁(Composite Shortbow)"
         },
         "35F3caeD70ItnVu9": {
-          "name": "기회 공격 (Attack of Opportunity)"
+          "name": "기회 공격(Attack of Opportunity)"
         },
         "NDuOjUZc8tDjQFB8": {
-          "name": "전투 그랩 (Combat Grab)",
+          "name": "전투 그랩(Combat Grab)",
           "description": "<p><strong>요구 사항</strong> 케로르베얀 경비병은 한 손이 자유롭고, 그 손의 범위 내에 목표물이 있습니다</p>\n<hr />\n<p><strong>효과</strong> 경비병은 한 손을 자유롭게 유지한 채 근접 공격을 수행합니다. 공격이 적중하면 자유로운 손으로 목표물을 잡습니다. 생물은 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{잡힌} 상태로 유지됩니다. 이는 경비원의 다음 턴이 끝날 때까지 또는 @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{탈출}할 때까지 중 먼저 발생하는 경우까지 지속됩니다.</p>"
         },
         "MkimJ5yTOiDVYeop": {
@@ -587,55 +587,55 @@
       }
     },
     "Meliosa's Leshy (Golden Bamboo Leshy)": {
-      "name": "멜리오사의 레시 (황금 대나무 레시) (Meliosa's Leshy (Golden Bamboo Leshy))",
+      "name": "멜리오사의 레시 (황금 대나무 레시)(Meliosa's Leshy (Golden Bamboo Leshy))",
       "languages": "식물과 대화 (황금 대나무만)",
       "items": {
         "pMSeU5bKC5Lsck6O": {
-          "name": "주먹 (Fist)"
+          "name": "주먹(Fist)"
         },
         "GHQR2PY6wyAAu2sb": {
-          "name": "녹색 폭발 (Verdant Burst)",
+          "name": "녹색 폭발(Verdant Burst)",
           "description": "<p>레시가 죽을 때, 그 몸에서 원시 에너지의 폭발이 발생하여 @Damage[2d8[healing]] 체력을 회복합니다. 이 지역은 레시와 같은 종류의 식물로 가득 차며, 어려운 지형이 됩니다. 이 지형이 해당 식물에게 적합한 환경이 아니라면, 24시간 후 시들게 됩니다.</p>"
         },
         "66KTkMw80p8afUoW": {
-          "name": "뒤로 굽히기 (Bend Back)",
+          "name": "뒤로 굽히기(Bend Back)",
           "description": "<p>황금 대나무 레시는 행동을 사용해 자신을 뒤로 굽혀 앞으로 휘두르며, 주먹의 도달 범위를 10피트까지 늘립니다. 황금 대나무가 주먹으로 공격한 후에는 더 이상 뒤로 굽혀지지 않습니다.</p>"
         },
         "gKzbyEE7g3Lf5TPT": {
-          "name": "형태 변화 (Change Shape)",
+          "name": "형태 변화(Change Shape)",
           "description": "<p>레시는 작은 식물로 변신합니다. 이 능력은 otherwise @UUID[Compendium.pf2e.spells-srd.Item.dileJ0Yxqg76LMvu]{식물과의 일체감}의 효과를 사용합니다.</p>"
         },
         "XXOfhS9UxaUnXBkL": {
-          "name": "감긴 기회 (Coiled Opportunity)",
+          "name": "감긴 기회(Coiled Opportunity)",
           "description": "<p>{기회 공격}과 동일하지만, 황금 대나무 레시는 이 반응을 사용할 수 있는 유일한 조건은 '등이 구부러진' 상태일 때입니다.</p>"
         }
       }
     },
     "Carl The Cobbler": {
-      "name": "칼 더 코블러 (Carl The Cobbler)",
+      "name": "칼 더 코블러(Carl The Cobbler)",
       "description": "<p>레드캡은 잔인하고 변덕스러운 페이로, 피를 흘리는 것과 살인에서 쾌감을 느낍니다. 그들은 주로 늙고 수염이 긴 남자로 나타나지만, 레드캡 여성도 마찬가지로 두려운 존재이며 잔인합니다. 레드캡은 결국 겁쟁이 괴물로, 자신보다 강한 존재에게는 굴복하며, 이 특성 때문에 선한 신들의 상징을 두려워하고 경멸합니다. 많은 동화에서는 레드캡이 이름의 유래가 된 모자를 신선한 피에 담가 힘을 얻는다고 설명합니다. 이 잔인한 작은 요정들에게는 철갑 부츠가 마찬가지로 상징적이며, 돌 바닥에 부딪히는 금속 바닥의 쇳소리는 불협화음과 불안감을 동시에 자아냅니다-특히 그 소리의 의미를 아는 이들에게는 더욱 그렇습니다. 레드캡은 보통 3피트 높이에 구부정한 체형, 뾰족한 귀, 굽은 이빨, 길고 흰 엉킨 머리를 가지고 있습니다.</p>",
       "blurb": "변종 레드캡",
       "hpdetails": "빠른 치유 10",
       "items": {
         "8CNN6le6tEVrWmR5": {
-          "name": "낫 (Scythe)"
+          "name": "낫(Scythe)"
         },
         "r4Qkdy83VOkw6r0p": {
-          "name": "부츠 (Boot)"
+          "name": "부츠(Boot)"
         },
         "2OPayJrYVYfP1LZk": {
-          "name": "빨간 모자 (Red Cap)",
+          "name": "빨간 모자(Red Cap)",
           "description": "<p>레드캡의 양모 모자는 희생자의 피로 염색되어 있습니다. 레드캡이 모자를 잃으면 빠른 치유 효과를 잃고, 피해 굴림에 -4 상태 페널티를 받습니다. 레드캡은 10분 내에 새로운 모자를 만들 수 있지만, 그 모자는 레드캡이 블러드 소크로 붉게 물들일 때까지 그 능력을 부여하지 않습니다. 모자는 레드캡이 만든 것 외의 다른 생물에게는 아무런 이점을 제공하지 않습니다.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.s5mS7CyE0oOYlecv]{효과: 잃어버린 빨간 모자}</p>"
         },
         "xxGqls5RMZVYvmHf": {
-          "name": "빠른 치유 10 (Fast Healing 10)"
+          "name": "빠른 치유 10(Fast Healing 10)"
         },
         "7XdX39vruCh59MIe": {
           "name": "Divine Revulsion",
           "description": "<p>붉은 모자를 쓴 존재가 선한 신의 종교적 상징을 휘두르거나(해당 존재의 상호작용 행동이 필요함) 이를 사용해 신성 마법을 시전하면, 붉은 모자를 쓴 존재는 @Check[will|dc:19] 내성을 시도해야 합니다. 성공 시 10분 동안 휘두른 모든 종교적 상징에 대해 일시적으로 면역이 됩니다.</p>\n<hr />\n<p><strong>Critical Success</strong> The redcap is unaffected</p>\n<p><strong>Success</strong> 레드캡은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 2}</p>\n<p><strong>실패</strong> 레드캡은 @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{도주} 상태를 1 라운드 동안 얻고 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 4} 상태가 됩니다</p>"
         },
         "ivsgBmmJjZW5Wr5S": {
-          "name": "혈액 흡수 (Blood Soak)",
+          "name": "혈액 흡수(Blood Soak)",
           "description": "<p>레드캡은 죽은 적의 피에 모자를 담근다. 적은 지난 1분 이내에 죽어야 하며, 레드캡은 그 적을 죽이는 데 도움을 주어야 한다. 레드캡은 1분 동안 피해 굴림에 +4 상태 보너스를 얻는다.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.wPIGBcpCqCWgrCiq]{효과: 혈액 흡수}</p>"
         },
         "Q9TQFtMzhVqywWrB": {
@@ -643,7 +643,7 @@
           "description": "<p><strong>Trigger</strong> 레드캡은 낫 공격으로 생물체의 체력을 0으로 줄입니다.</p>\n<hr />\n<p><strong>효과</strong> 레드캡은 이 반응을 유발한 낫 공격과 동일한 다중 공격 페널티를 적용하여 다른 생물에게 또 다른 낫 공격을 가합니다. 이 공격은 다중 공격 페널티에 포함됩니다.</p>"
         },
         "P7S7nuGr7qWkygVT": {
-          "name": "스톰 (Stomp)",
+          "name": "스톰(Stomp)",
           "description": "<p>레드캡은 속도의 절반까지 이동하며, 그 이동 중 언제든지 부츠 공격을 수행합니다. 부츠 공격이 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} 상태의 생물에게 명중하면 추가로 @Damage[2d6[bleed]의 피해를 입힙니다.</p>"
         }
       },

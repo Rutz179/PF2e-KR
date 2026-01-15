@@ -2,19 +2,19 @@
   "label": "함정",
   "entries": {
     "Web Lurker Deadfall": {
-      "name": "Web Lurker Deadfall",
+      "name": "숨겨진 거미줄 바위 함정(Web Lurker Deadfall)",
       "desc (hazard)": "<p>거미줄 트립와이어가 10피트 칸 내 모든 목표물에 바위 뭉치를 떨어뜨립니다.</p>",
       "disable": "<p>생존 (훈련된) 또는 도둑질 (전문가) DC 20으로 거미줄을 재배열합니다.</p>",
       "stealth": "<p>@Check[stealth|dc:23]</p>",
       "items": {
         "j3QvHDCU1gvOInG4": {
-          "name": "함정 (Deadfall)",
+          "name": "함정(Deadfall)",
           "description": "<p><strong>트리거</strong> 생물이 거미줄 트립와이어가 있는 칸에 들어섭니다.</p>\n<hr />\n<p><strong>효과</strong> 함정 내 10피트 칸에 있는 모든 생물이 @Damage[2d6[bludgeoning]] 피해를 입습니다 (@Check[reflex|dc:20|basic] 내성).</p>"
         }
       }
     },
     "Sportlebore": {
-      "name": "스포트레보어 (Sportlebore)",
+      "name": "스포트레보어(Sportlebore)",
       "desc (hazard)": "<p>스포트레보어는 음식 접시나 트레일 라션 팩 안에 숨어 있습니다.</p>",
       "disable": "<p>스포트레보어를 발견한 생물은 자동으로 상호작용 행동으로 숨겨진 음식에서 이를 제거할 수 있습니다.</p>",
       "stealth": "<p>(expert)</p>",
@@ -24,15 +24,15 @@
           "description": "<p><strong>트리거</strong> 생물이 스포츠보어가 숨어 있는 음식을 먹습니다.</p>\n<hr />\n<p><strong>효과</strong> 스포트레보어가 숙주의 위장에서 급속히 증식하여 숙주를 스포트레보어 감염에 노출시킵니다</p>"
         },
         "nCcx1LK7XrbDnVXI": {
-          "name": "스포트레보어 감염 (Sportlebore Infestation)",
-          "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:22|basic]</p>\n<p><strong>단계 1</strong> 증상 없이 숙주 (1일)</p>\n<p><strong>단계 2</strong> @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 1} (1시간)</p>\n<p><strong>단계 3</strong> @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 2} (1시간)</p>\n<p><strong>단계 4</strong> @Damage[4d6[bludgeoning]] 피해 (@Check[fortitude|dc:25|basic] 내성) 호스트가 고통스럽게 스포츠볼레 스웜을 토해내고 단계 1로 돌아갑니다</p>"
+          "name": "스포트레보어 감염(Sportlebore Infestation)",
+          "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:22|basic]</p>\n<p><strong>단계 1</strong> 증상 없이 숙주 (1일)</p>\n<p><strong>단계 2</strong> @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 1}(1시간)</p>\n<p><strong>단계 3</strong> @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 2}(1시간)</p>\n<p><strong>단계 4</strong> @Damage[4d6[bludgeoning]] 피해 (@Check[fortitude|dc:25|basic] 내성) 호스트가 고통스럽게 스포츠볼레 스웜을 토해내고 단계 1로 돌아갑니다</p>"
         }
       }
     },
     "Fireball Rune": {
-      "name": "불꽃 구슬 룬 (Fireball Rune)",
+      "name": "불꽃 구슬 룬(Fireball Rune)",
       "desc (hazard)": "<p>투명 룬이 반경 20피트의 투명 구형 마법 센서를 생성합니다.</p>",
-      "disable": "<p>@Check[thievery|dc:22|name:Erase the Rune] (전문가)로 룬을 센서를 활성화하지 않고 지우거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제} (3단계; 반격 DC 20)로 룬을 무효화합니다.</p>",
+      "disable": "<p>@Check[thievery|dc:22|name:Erase the Rune] (전문가)로 룬을 센서를 활성화하지 않고 지우거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(3단계; 반격 DC 20)로 룬을 무효화합니다.</p>",
       "stealth": "<p>(expert)</p>",
       "items": {
         "uJpg7vUJ1qag7R3t": {
@@ -42,9 +42,9 @@
       }
     },
     "Electric Latch Rune": {
-      "name": "전기 잠금 룬 (Electric Latch Rune)",
+      "name": "전기 잠금 룬(Electric Latch Rune)",
       "desc (hazard)": "<p>문 잠금 장치에 새겨진 보이지 않는 룬이 강력한 전기 방전을 방출합니다.</p>",
-      "disable": "<p>@Check[thievery|dc:20|name:Scratch Out the Rune|traits:action:disable-a-device] (전문가) 문고리의 룬을 긁어내며 전류가 흐르지 않도록 하거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제} (2단계; 반격 DC 18)로 룬의 효과를 무효화합니다.</p>",
+      "disable": "<p>@Check[thievery|dc:20|name:Scratch Out the Rune|traits:action:disable-a-device] (전문가) 문고리의 룬을 긁어내며 전류가 흐르지 않도록 하거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(2단계; 반격 DC 18)로 룬의 효과를 무효화합니다.</p>",
       "stealth": "<p>(trained)</p>",
       "items": {
         "FzfgLXTt6R8bYmTP": {
@@ -54,7 +54,7 @@
       }
     },
     "Slamming Door": {
-      "name": "문이 강하게 닫히는 장치 (Slamming Door)",
+      "name": "문이 강하게 닫히는 장치(Slamming Door)",
       "desc (hazard)": "<p>바닥의 압력 감지 패널은 복도 천장에 숨겨진 돌 판과 연결되어 있습니다.</p>",
       "disable": "<p>@Check[thievery|dc:15|name:Disable Floor Panel] (훈련된) 슬래브가 떨어지기 전에 바닥 패널에</p>",
       "stealth": "<p>(trained)</p>",
@@ -66,7 +66,7 @@
       }
     },
     "Malevolent Mannequins": {
-      "name": "악의적인 마네킨 (Malevolent Mannequins)",
+      "name": "악의적인 마네킨(Malevolent Mannequins)",
       "desc (hazard)": "<p>폭력적인 영혼들이 세 개의 시계 장치 마네킨을 지배하며, 근처에 다가오는 모든 생물에게 공격을 가합니다.</p>",
       "disable": "<p>@Check[thievery|dc:37|name:Jam a mannequin's clockwork mechanisms|traits:clockwork,haunt,mechanical,hazard]{도둑질 (전문가)}로 마네킹의 시계 장치를 고장내거나, @Check[religion|dc:35|name:Exorcise a spirit from a mannequin|traits:clockwork,haunt,mechanical,hazard]{종교 (전문가)}를 두 번 사용해 마네킹에서 영혼을 쫓아낼 수 있습니다.</p>",
       "reset": "<p>유령은 목표 생물이 없으면 비활성화되고 재설정됩니다. 이 과정은 보통 1 라운드 동안 진행되며, 마네킹이 원래 위치로 이동합니다. 마네킹이 원래 위치에서 150피트 이상 떨어져 있다면, 유령은 재설정되는 데 더 오래 걸리며, 마네킹은 각 라운드마다 150피트씩 원래 위치로 돌아갑니다.</p>",
@@ -77,27 +77,27 @@
           "description": "<p><strong>Trigger</strong> 마네킨으로부터 30피트 이내에 생물이 접근합니다</p>\n<hr />\n<p><strong>효과</strong> 마네킹들이 모두 트리거링 생물체 쪽으로 휘청거리며 다가갑니다. 최대 50피트까지 이동한 후 이니셔티브를 굴립니다.</p>"
         },
         "h1kUAmChVAo2xByF": {
-          "name": "시계장치 주먹 (Clockwork Fist)"
+          "name": "시계장치 주먹(Clockwork Fist)"
         }
       }
     },
     "Darkside Mirror": {
-      "name": "다크사이드 미러 (Darkside Mirror)",
+      "name": "다크사이드 미러(Darkside Mirror)",
       "hpdetails": "거울은 다른 차원의 악한 거울 복제체가 살아 있는 동안 피해되지 않습니다.",
       "desc (hazard)": "<p>마법 거울이 다른 차원의 악한 거울 복제체로 캐릭터를 대체합니다.</p>",
-      "disable": "<p>@Check[thievery|dc:34|name:Retrieve Creature from Other Dimension|traits:action:disable-a-device] (전설급) 다른 차원에서 생물을 회수하려면 전환 후 10분 이내에 (미러 복제체가 죽은 경우에만 가능), @Check[thievery|dc:39|name:Permanently Disable Mirror|traits:action:disable-a-device] (마스터) 모든 미러 복제체가 죽은 후 미러를 영구적으로 무력화하거나 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제} (7등급; 반격 DC 32) 거울의 효과를 1분 동안 무효화하고 그 동안 추가 대체를 방지합니다</p>",
+      "disable": "<p>@Check[thievery|dc:34|name:Retrieve Creature from Other Dimension|traits:action:disable-a-device] (전설급) 다른 차원에서 생물을 회수하려면 전환 후 10분 이내에 (미러 복제체가 죽은 경우에만 가능), @Check[thievery|dc:39|name:Permanently Disable Mirror|traits:action:disable-a-device] (마스터) 모든 미러 복제체가 죽은 후 미러를 영구적으로 무력화하거나 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(7등급; 반격 DC 32) 거울의 효과를 1분 동안 무효화하고 그 동안 추가 대체를 방지합니다</p>",
       "reset": "<p>거울은 항상 다른 차원으로 생물을 흡수할 준비가 되어 있습니다. 생물이 거울에 빨려 들어간 후 10분이 지나면, 동맹이 도둑질로 생물을 구출하지 않으면 다른 차원으로 이동하며, 그곳에서 포획되거나 죽을 수 있습니다. 거울 차원에서는 거울 복제체로 간주되므로, 흡수된 생물이 있는 동안 다른 차원의 주민들은 자신의 쪽에서 거울을 파괴할 수 없습니다. 이 차원들은 평면이 아닌 대체 현실이므로, <em>평면 이동</em>와 같은 의식도 그곳에 도달할 수 없습니다.</p>",
       "routine": "<p>(1 행동) 거울은 다른 반사된 생물을 거울로 흡수하고 그 자리를 거울 복제체로 대체합니다. 거울 복제체는 원래 생물의 통계치를 사용하지만 악의 성향을 가지며(성향 변경으로 인해 변경되는 능력만 변경됩니다), 자신의 이니셔티브로 공격합니다. 거울 복제체는 거울과 접촉한 상태에서 3개의 행동을 소비하여 원래 차원으로 돌아가고 복제한 생물을 해방시킬 수 있지만, 대부분의 거울 복제체는 이를 선호하지 않습니다.</p>",
       "stealth": "<p>(마스터)가 일반적인 거울이 아니라는 것을 알아차리기 위해</p>",
       "items": {
         "JEXj6WkaqB0iscnL": {
-          "name": "악의 반영 (Reflection of Evil)",
+          "name": "악의 반영(Reflection of Evil)",
           "description": "<p><strong>트리거</strong> 악이 아닌 생물이 거울에 반영됩니다.</p>\n<hr />\n<p><strong>효과</strong> 거울은 생물을 거울 속으로 흡수하고, 그 자리를 악의 거울 복제체(@Check[reflex|dc:34] 거울에 흡수되지 않기 위해)로 대체한 후 이니셔티브를 굴린다.</p>"
         }
       }
     },
     "Titanic Flytrap": {
-      "name": "티타닉 플라이트랩 (Titanic Flytrap)",
+      "name": "티타닉 플라이트랩(Titanic Flytrap)",
       "desc (hazard)": "<p>표면상으로는 일반적인 플라이트랩 식물의 일부처럼 보이지만, 흐린 물 아래에는 10피트 너비의 훨씬 더 큰 턱이 숨겨져 있으며, 나무 가지로 강화되고 마비시키는 털로 덮여 있습니다.</p>",
       "disable": "<p>@Check[survival|dc:22|name:Mislead the Flytrap's Senses] (훈련된) 파리잡이 식물의 무게와 압력 감각을 속이기 위해</p>",
       "reset": "<p>1시간 (또는 큰 식사 후 더 오래)</p>",
@@ -108,20 +108,20 @@
           "description": "<p><strong>트리거</strong> 작은 또는 중간 크기의 생물이 파리잡이 식물의 숨겨진 턱 범위 내의 칸으로 이동합니다</p>\n<hr />\n<p><strong>효과</strong> 파리잡이 식물의 턱이 닫히며, 트리거링 생물에게 턱 공격을 가합니다.</p>"
         },
         "Yw05wWhZB9fLdatc": {
-          "name": "턱 (Jaws)"
+          "name": "턱(Jaws)"
         },
         "eauYGISAGprcOwH4": {
-          "name": "삼키기 (Devour)",
+          "name": "삼키기(Devour)",
           "description": "<p>목표는 파리잡이 식물의 턱에 갇혀 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{잡힘} 상태를 얻으며, 탈출할 때까지(DC 21) 유지됩니다. 또한, 잎 안쪽을 덮고 있는 수백 개의 작은 털에서 나오는 티타닉 파리잡이 식물의 독에 노출됩니다. 파리잡이 식물의 턱 공격이 대성공이었다면, 대상은 이 독에 대한 내성 굴림에서 -2 상황 페널티를 받습니다. 대상이 잡힌 상태로 남아 있는 각 턴의 끝마다, 대상은 @Damage[3d6[acid]] damage.</p>"
         },
         "qBQpsAk64L9c0sJ2": {
           "name": "Titanic Flytrap Toxin",
-          "description": "<p><strong>Saving Throw</strong> @Check[fortitude|dc:21]</p>\n<p><strong>Maximum Duration</strong> 4 rounds</p>\n<p><strong>단계 1</strong> @Damage[2d6[poison]] 피해와 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{기절 1} (1 round)</p>\n<p><strong>단계 2</strong> @Damage[3d6[poison]] 피해와 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{기절 2} (1 라운드)</p>\n<p><strong>단계 3</strong> @Damage[4d6[poison]] 피해와 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비} (1 라운드)</p>"
+          "description": "<p><strong>Saving Throw</strong> @Check[fortitude|dc:21]</p>\n<p><strong>Maximum Duration</strong> 4 rounds</p>\n<p><strong>단계 1</strong> @Damage[2d6[poison]] 피해와 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{기절 1}(1 round)</p>\n<p><strong>단계 2</strong> @Damage[3d6[poison]] 피해와 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{기절 2}(1 라운드)</p>\n<p><strong>단계 3</strong> @Damage[4d6[poison]] 피해와 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비}(1 라운드)</p>"
         }
       }
     },
     "Scythe Blades": {
-      "name": "낫 칼날 (Scythe Blades)",
+      "name": "낫 칼날(Scythe Blades)",
       "desc (hazard)": "<p>15피트 길이의 천장 홈에 숨겨진 두 개의 칼날은 모두 트립 와이어에 연결되어 있습니다.</p>",
       "disable": "<p>@Check[thievery|dc:21|name:Disable a Blade] (훈련된) 각 칼날을 무력화하기 위해</p>",
       "reset": "<p>함정은 15분 후에 재설정됩니다.</p>",
@@ -132,30 +132,30 @@
           "description": "<p><strong>트리거</strong> 트립 와이어가 당겨지거나 끊어집니다.</p>\n<hr />\n<p><strong>효과</strong> 두 개의 칼날이 아래로 휘둘러지며, 각각 천장 홈 아래의 모든 생물을 공격합니다.</p>"
         },
         "oaNkRH35bkjdSm6P": {
-          "name": "낫 (Scythe)"
+          "name": "낫(Scythe)"
         },
         "eLyrxG4My2vDsmHg": {
-          "name": "MAP 적용 없음 (No MAP)",
+          "name": "MAP 적용 없음(No MAP)",
           "description": "<p>낫의 공격은 MAP를 적용하지 않습니다.</p>"
         }
       }
     },
     "Second Chance": {
-      "name": "두 번째 기회 (Second Chance)",
+      "name": "두 번째 기회(Second Chance)",
       "desc (hazard)": "<p>물체나 위치에 연결된 강력한 방어 마법이 생물과 그 동맹의 연령을 되돌리려고 시도합니다.</p>",
       "disable": "<p>@Check[thievery|dc:46|name:Dismantle Spell|traits:action:disable-a-device] (전설급) 눈을 감고 가장 오래된 기억부터 순서대로 생생한 모든 삶의 기억을 떠올리며, 주문을 한 조각씩 분해합니다.</p>",
       "stealth": "<p>(전설급)</p>",
       "items": {
         "ddB24NYRgK5YbbcR": {
-          "name": "시작 (In the Beginning)",
+          "name": "시작(In the Beginning)",
           "description": "<p><strong>트리거</strong> 생물이 물건을 훔치거나 장소에 침입하려고 시도합니다. 누군가가 대리인이나 복제체를 사용하여 도둑질이나 침입을 시도하면, 함정은 거리나 차원을 초월해 진정한 범인이나 범인들을 정확히 표적으로 삼습니다.</p>\n<hr />\n<p><strong>효과</strong> 트리거를 발동한 생물과 최대 5명의 공범은 즉시 영아로 변환되며, 생애 동안 획득한 모든 기억, 직업 능력, 기타 기술이 상실됩니다 (@Check[fortitude|dc:44] 무효화). 이 효과를 역전시키는 것은 거의 불가능하며, 다음과 같은 강력한 마법이 필요합니다 @UUID[Compendium.pf2e.spells-srd.Item.6dDtGIUerazSHIOu]{Wish}.</p>"
         }
       }
     },
     "Frozen Moment": {
-      "name": "동결된 순간 (Frozen Moment)",
+      "name": "동결된 순간(Frozen Moment)",
       "desc (hazard)": "<p>방어 마법은 침입자나 도둑을 방해된 시간 흐름에 가두려고 시도합니다.</p>",
-      "disable": "<p>@Check[thievery|dc:38|name:Disassemble Spell Components|traits:action:disable-a-device] (전설급) 주문의 수많은 구성 요소를 눈 깜짝할 사이에 급속히 분해하거나; 또는 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제} (9등급; 반격 DC 36) 함정이 발동되기 전에 반격하거나, 함정이 발동된 후 한 생물에게 미치는 효과를 반격합니다</p>",
+      "disable": "<p>@Check[thievery|dc:38|name:Disassemble Spell Components|traits:action:disable-a-device] (전설급) 주문의 수많은 구성 요소를 눈 깜짝할 사이에 급속히 분해하거나; 또는 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(9등급; 반격 DC 36) 함정이 발동되기 전에 반격하거나, 함정이 발동된 후 한 생물에게 미치는 효과를 반격합니다</p>",
       "stealth": "<p>(master)</p>",
       "items": {
         "SoObyOgEreU0KLDs": {
@@ -165,38 +165,38 @@
       }
     },
     "Hampering Web": {
-      "name": "Hampering Web",
+      "name": "방해하는 거미줄(Hampering Web)",
       "desc (hazard)": "<p>반투명한 거미줄 시트가 출입구를 가로지르며, 작은 곤충을 포획하거나 통과하는 더 큰 생물을 방해하기 위해 준비되어 있습니다.</p>",
       "disable": "<p>@Check[survival|dc:17|name:Dislodge Web] (trained) to dislodge it</p>",
       "stealth": "<p>(expert)</p>",
       "items": {
         "CHZ0RRKgpq6eI2AS": {
-          "name": "포획 (Ensnare)",
-          "description": "<p><strong>트리거</strong> 거미가 아닌 생물이 거미줄에 걸린다</p>\n<hr />\n<p><strong>Effect</strong> 거미줄이 트리거링 생물의 몸에 감겨 다리에 달라붙습니다. 트리거링 생물은 @Check[reflex|dc:20] 내성 검사에 성공하지 못하면 모든 이동 속도에 -10피트 상황 페널티를 받습니다. 이 페널티는 @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} 거미줄에서 탈출할 때까지 모든 속도에 -10피트 상황 페널티를 받습니다. DC 20. 대실패 시, 거미줄은 생물의 얼굴에도 달라붙어 그 생물을 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1} 상태로 만들고, 이 상태를 줄이기 위해 시도할 수 없습니다.</p>"
+          "name": "포획(Ensnare)",
+          "description": "<p><strong>트리거</strong> 거미가 아닌 생물이 거미줄에 걸린다</p>\n<hr />\n<p><strong>Effect</strong> 거미줄이 트리거링 생물의 몸에 감겨 다리에 달라붙습니다. 트리거링 생물은 @Check[reflex|dc:20] 내성 굴림에 성공하지 못하면 모든 이동 속도에 -10피트 상황 페널티를 받습니다. 이 페널티는 @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{Escape} 거미줄에서 탈출할 때까지 모든 속도에 -10피트 상황 페널티를 받습니다. DC 20. 대실패 시, 거미줄은 생물의 얼굴에도 달라붙어 그 생물을 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1} 상태로 만들고, 이 상태를 줄이기 위해 시도할 수 없습니다.</p>"
         }
       }
     },
     "Yellow Mold": {
-      "name": "노란 곰팡이 (Yellow Mold)",
+      "name": "노란 곰팡이(Yellow Mold)",
       "desc (hazard)": "<p>독성 곰팡이 포자가 근처 생물에게 공격합니다.</p>",
       "disable": "<p>@Check[survival|dc:26|name:Remove the Mold] (전문가) 포자를 자극하지 않고 곰팡이를 제거합니다.</p>",
       "stealth": "<p>(훈련된)</p>",
       "items": {
         "eTpo3PPNbe4sFYhD": {
-          "name": "포자 폭발 (Spore Explosion)",
+          "name": "포자 폭발(Spore Explosion)",
           "description": "<p><strong>트리거</strong> 생물이 곰팡이의 공간으로 이동하거나 곰팡이를 피해시킵니다. 곰팡이는 이 반응을 사용할 수 없습니다.직사광선에 노출되어 있거나, 입은 피해가 fire damage인 경우 이 반응을 사용할 수 없습니다.</p>\n<hr />\n<p><strong>효과</strong> 트리거링 생물과 @Template[emanation|distance:10]{10 피트} 내의 모든 생물들은 노란 곰팡이 포자에 노출됩니다.</p>"
         },
         "tyAeSBnHmP9Nuh2k": {
-          "name": "노란 곰팡이 포자 (Yellow Mold Spores)",
-          "description": "<p>포자의 영향으로 인한 모든 흡수 상태는 독의 지속 시간이 끝나더라도 유지됩니다.</p>\n<p><strong>내성 굴림</strong> @Check[fortitude|dc:26]</p>\n<hr />\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>단계 1</strong> @Damage[1d8[poison]] 피해와 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 1} (1 라운드)</p>\n<p><strong>단계 2</strong> @Damage[2d8[poison]] 피해와 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 2} (1 라운드)</p>\n<p><strong>단계 3</strong> @Damage[3d8[poison]] 피해 및 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 3} (1 라운드)</p>"
+          "name": "노란 곰팡이 포자(Yellow Mold Spores)",
+          "description": "<p>포자의 영향으로 인한 모든 흡수 상태는 독의 지속 시간이 끝나더라도 유지됩니다.</p>\n<p><strong>내성 굴림</strong> @Check[fortitude|dc:26]</p>\n<hr />\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>단계 1</strong> @Damage[1d8[poison]] 피해와 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 1}(1 라운드)</p>\n<p><strong>단계 2</strong> @Damage[2d8[poison]] 피해와 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 2}(1 라운드)</p>\n<p><strong>단계 3</strong> @Damage[3d8[poison]] 피해 및 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 3}(1 라운드)</p>"
         }
       }
     },
     "Telekinetic Swarm Trap": {
-      "name": "텔레키네틱 스웜 트랩 (Telekinetic Swarm Trap)",
+      "name": "텔레키네틱 스웜 트랩(Telekinetic Swarm Trap)",
       "hpdetails": "텔레키네틱 구름당",
       "desc (hazard)": "<p>텔레키네틱 마법으로 충전된 세 개의 무해한 장식이 방 내의 물체와 방 자체의 조각을 회전하는 파편 구름으로 끌어당겨 방 내 모든 생물을 공격합니다.</p>",
-      "disable": "<p>@Check[thievery|dc:27|name:Take Apart Cloud|traits:action:disable-a-device] (전문가) 텔레키네틱 구름을 분해하거나, @Check[thievery|dc:32|name:Disable Telekinetic Decoration|traits:action:disable-a-device] (마스터) 각 텔레키네틱 장식을 무력화하거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제} (6등급; 반격 DC 30) 각 텔레키네틱 장식을 반격하기 위해</p>",
+      "disable": "<p>@Check[thievery|dc:27|name:Take Apart Cloud|traits:action:disable-a-device] (전문가) 텔레키네틱 구름을 분해하거나, @Check[thievery|dc:32|name:Disable Telekinetic Decoration|traits:action:disable-a-device] (마스터) 각 텔레키네틱 장식을 무력화하거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(6등급; 반격 DC 30) 각 텔레키네틱 장식을 반격하기 위해</p>",
       "reset": "<p>함정은 목표 생물이 없으면 (생물이 너무 멀리 이동했거나 죽었기 때문에) 10분 후에 비활성화되고 초기화됩니다.</p>",
       "routine": "<p>(9 행동) 각 장식은 매 턴마다 함정의 행동 3개를 사용하며, 함정은 비활성화된 장식마다 매 턴마다 행동 3개를 잃습니다. 장식은 첫 번째 행동으로 물체 구름을 최대 200피트까지 이동시키고, 두 번째 행동으로 물체가 공격하게 하며, 세 번째 행동으로 물체 구름에 추가 물체를 추가하여 피해를 1d12씩 증가시킵니다(최대 4d12+10까지). 장식 구름이 이미 최대 피해에 도달한 경우, 세 번째 행동은 아무것도 하지 않습니다.</p>\n<p>장식의 구름이 파괴된 경우, 장식은 첫 번째 행동으로 방 내부에 새로운 물체 구름을 생성합니다(초기 피해 값을 사용) 다음 두 번째와 세 번째 행동으로 구름을 이동시키고 공격합니다.</p>",
       "stealth": "<p>(expert)</p>",
@@ -206,19 +206,19 @@
           "description": "<p><strong>트리거</strong> 방 안에 생물이 6초 이상 머무릅니다.</p>\n<hr />\n<p><strong>효과</strong> 각 텔레키네틱 장식은 방 안에 물체 구름을 생성합니다(총 3개). 함정은 이니셔티브를 굴림합니다. 함정이 발동될 때 방 안에 있는 생물은 함정의 목표물이 되며, 방을 떠나거나 나중에 다른 생물이 들어오더라도 이 상태는 유지됩니다. 각 장식은 가능한 경우 다른 생물을 목표로 합니다. 표적 생물이 함정에서 1마일 이상 이동하면 표적에서 제외되며, 이 시점에 장식품은 새로운 표적을 지정합니다.</p>"
         },
         "aJouqXgwCGFTWYHD": {
-          "name": "물체 (Objects)"
+          "name": "물체(Objects)"
         }
       }
     },
     "Poisonous Mold": {
-      "name": "독성 곰팡이 (Poisonous Mold)",
+      "name": "독성 곰팡이(Poisonous Mold)",
       "desc (hazard)": "<p>이 흉측한 곰팡이는 생물이 가까이 다가오면 독성 포자를 방출합니다.</p>",
       "disable": "<p>@Check[survival|dc:18] (훈련된) 곰팡이를 안전하게 제거하기 위해</p>",
       "reset": "<p>완전히 제거되지 않을 경우(일반적으로 산이나 fire]로), 곰팡이는 2주 동안 다시 자랍니다.</p>",
       "stealth": "<p>(훈련된)</p>",
       "items": {
         "748inOlksdAeFB0A": {
-          "name": "부패를 먹이로 삼음 (Feed on Decay)",
+          "name": "부패를 먹이로 삼음(Feed on Decay)",
           "description": "<p>곰팡이는 혈액이나 부패물로 영양을 공급받을 때 확장됩니다. 곰팡이와 인접한 생물이 출혈 피해를 입거나, 곰팡이와 인접한 죽은 시체가 있을 경우, 곰팡이는 현재 위치의 모든 인접 칸으로 확장됩니다. 이 현상은 하루에 한 번만 발생합니다.</p>"
         },
         "ZN34eJalpkCoNMeM": {
@@ -232,32 +232,32 @@
       }
     },
     "Hidden Pit": {
-      "name": "숨겨진 구덩이 (Hidden Pit)",
+      "name": "숨겨진 구덩이(Hidden Pit)",
       "desc (hazard)": "<p>나무로 된 함정이 10피트 칸 크기와 20피트 깊이의 구덩이를 덮고 있습니다.</p>",
       "disable": "@Check[thievery|dc:12|name:Remove the Trapdoor] 함정 문을 제거하려면",
       "reset": "<p>생물들은 여전히 함정에 떨어질 수 있지만, 함정 문이 수동으로 재설정되지 않으면 함정이 다시 숨겨지지 않습니다.</p>",
       "stealth": "<p>(또는 트랩문이 비활성화되거나 고장난 경우 0)</p>",
       "items": {
         "lY83oUjx0DLxDByK": {
-          "name": "함정 (Pitfall)",
+          "name": "함정(Pitfall)",
           "description": "<p><strong>트리거</strong> 생물이 함정 문 위에 걸어갑니다.</p>\n<hr />\n<p><strong>Effect</strong> 트리거를 발동시킨 생물이 함정에 빠지며 추락 피해를 입습니다 (일반적으로 @Damage[10[bludgeoning]|options:fall-damage] 피해). 해당 생물은 @UUID[Compendium.pf2e.actionspf2e.Item.3yoajuKjwHZ9ApUY]{가장자리를 잡기} 반응을 사용하여 추락을 피할 수 있습니다.</p>"
         }
       }
     },
     "Armageddon Orb": {
-      "name": "아머게돈 오브 (Armageddon Orb)",
+      "name": "아머게돈 오브(Armageddon Orb)",
       "desc (hazard)": "<p>신 로바구그의 피 한 방울로 만들어진 끓어오르는 붉은 구슬로, 특정 조건이 충족되면 하늘에서 불을 내리쏩니다.</p>",
       "disable": "<p>@Check[thievery|dc:48|name:Imbue Thieves' Tools|traits:action:disable-a-device] (전설급) 도둑의 도구 세트에 아스모데우스와 사렌래의 특성을 부여하고, 이를 사용하여 10분 동안 구의 힘을 흡수합니다; 이 체크를 시도하는 캐릭터는 구슬이 소진될 때까지 각 라운드마다 @Damage[5[fire]]의 피해를 입습니다</p>",
       "stealth": "또는 <em>마법 탐지</em>",
       "items": {
         "KaYeYfefttO5X9OF": {
-          "name": "모두 태워라 (Burn It All)",
-          "description": "<p><strong>트리거</strong> 함정의 제작자가 설정한 특수 조건이 발생합니다. 일반적으로 제작자의 사망 사건입니다.</p>\n<hr />\n<p><strong>효과</strong> 하늘에서 100마일 반경 내에 불이 쏟아져 내리며, 해당 지역 내의 생물과 물체에 @Damage[10d6[fire]]의 피해를 입힙니다. 각 생물이나 물체는 @Check[reflex|dc:46|basic] 내성 검사를 시도할 수 있습니다. 이 피해로 체력이 0이 된 생물은 즉시 사망합니다. 이 피해는 숲을 완전히 태우거나 산이나 도시를 평지로 만들기에 충분하지 않지만, 해당 지역 내 대부분의 생물을 죽입니다.</p>"
+          "name": "모두 태워라(Burn It All)",
+          "description": "<p><strong>트리거</strong> 함정의 제작자가 설정한 특수 조건이 발생합니다. 일반적으로 제작자의 사망 사건입니다.</p>\n<hr />\n<p><strong>효과</strong> 하늘에서 100마일 반경 내에 불이 쏟아져 내리며, 해당 지역 내의 생물과 물체에 @Damage[10d6[fire]]의 피해를 입힙니다. 각 생물이나 물체는 @Check[reflex|dc:46|basic] 내성 굴림을 시도할 수 있습니다. 이 피해로 체력이 0이 된 생물은 즉시 사망합니다. 이 피해는 숲을 완전히 태우거나 산이나 도시를 평지로 만들기에 충분하지 않지만, 해당 지역 내 대부분의 생물을 죽입니다.</p>"
         }
       }
     },
     "Quicksand": {
-      "name": "모래늪 (Quicksand)",
+      "name": "모래늪(Quicksand)",
       "desc (hazard)": "<p>15피트 너비의 물과 모래로 된 지역이 그 위에 발을 딛는 생물을 침수시키려고 시도합니다.</p>",
       "disable": "<p>@Check[survival|dc:18|name:Safely Disturb the Surface] (훈련된) 표면을 교란시키기 위해</p>",
       "reset": "<p>위험은 여전히 들어오는 모든 생물을 잠기게 하지만, 표면은 24시간 동안 안정될 때까지 다시 숨겨지지 않습니다.</p>",
@@ -265,39 +265,39 @@
       "stealth": "<p>(훈련된) (또는 표면이 교란된 경우 -10 및 최소 숙련도 없음)</p>",
       "items": {
         "Ey8CknllSG5csxdG": {
-          "name": "잠수 (Submerge)",
+          "name": "잠수(Submerge)",
           "description": "<p><strong>트리거</strong> 거대하거나 더 작은 생물이 모래사장에 들어섭니다</p>\n<hr />\n<p><strong>효과</strong> 트리거링 생물이 허리까지 모래사장에 침수됩니다. 모래사장은 이미 이니셔티브를 결정하지 않았다면 이니셔티브를 굴림합니다.</p>"
         }
       }
     },
     "Wheel Of Misery": {
-      "name": "고통의 바퀴 (Wheel Of Misery)",
+      "name": "고통의 바퀴(Wheel Of Misery)",
       "desc (hazard)": "<p>벽에 설치된 화려한 바퀴는 6개로 나뉘어져 있으며 각 부분에 색상별 룬이 새겨져 있습니다. 이 바퀴는 100피트 앞의 모든 생물을 감지하는 마법 센서에 의해 제어됩니다.</p>",
-      "disable": "<p>@Check[thievery|dc:26|name:Stop Wheel from Spinning|traits:action:disable-a-device] (전문가)가 바퀴에 손을 대어 회전을 멈추거나, @Check[thievery|dc:22|name:Erase Rune|traits:action:disable-a-device] (마스터)가 각 룬을 지우거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제} (4등급; 반격 DC 22) 각 룬을 반격하기 위해</p>",
+      "disable": "<p>@Check[thievery|dc:26|name:Stop Wheel from Spinning|traits:action:disable-a-device] (전문가)가 바퀴에 손을 대어 회전을 멈추거나, @Check[thievery|dc:22|name:Erase Rune|traits:action:disable-a-device] (마스터)가 각 룬을 지우거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(4등급; 반격 DC 22) 각 룬을 반격하기 위해</p>",
       "reset": "<p>트랩은 센서의 범위 내부에 생물이 움직이지 않고 1분이 지나면 비활성화되고 초기화됩니다.</p>",
-      "routine": "<p>(2 행동) 트랩은 자신의 이니셔티브에 따라 첫 번째 행동으로 회전한 후 멈춥니다. 1d6을 굴림하여 바퀴가 회전을 멈출 때 가장 위쪽에 있는 세그먼트를 결정합니다. 바퀴는 두 번째 행동으로 해당 세그먼트에 기재된 주문을 복제합니다(3등급, DC 24, 주문 공격 수정자 +14). 이 주문의 대상은 해당 지역 내 가장 가까운 생물 중심에 위치하거나 포함됩니다. 필요시 이 주문의 범위를 100피트로 증가시킵니다. 이 함정이 발동하는 모든 주문은 마법 주문입니다.</p>\n<p><strong>1</strong>@UUID[Compendium.pf2e.spells-srd.Item.o4lRVTwSxnOOn5vl]{Sleep}</p>\n<p><strong>2</strong>@UUID[Compendium.pf2e.spells-srd.Item.DCQHaLrYXMI37dvW]{Paralyze}</p>\n<p><strong>3</strong>@UUID[Compendium.pf2e.spells-srd.Item.9AAkVUCwF6WVNNY2]{Lightning Bolt} (100-foot line)</p>\n<p><strong>4</strong>@UUID[Compendium.pf2e.spells-srd.Item.VosLNn2M8S7JH67D]{Blindness}</p>\n<p><strong>5</strong>@UUID[Compendium.pf2e.spells-srd.Item.thAHF1zxNplLCJPO]{Caustic Blast}</p>\n<p><strong>6</strong>@UUID[Compendium.pf2e.spells-srd.Item.J7Y7tl0bbdz7TcCc]{Enfeeble}</p>",
+      "routine": "<p>(2 행동) 트랩은 자신의 이니셔티브에 따라 첫 번째 행동으로 회전한 후 멈춥니다. 1d6을 굴림하여 바퀴가 회전을 멈출 때 가장 위쪽에 있는 세그먼트를 결정합니다. 바퀴는 두 번째 행동으로 해당 세그먼트에 기재된 주문을 복제합니다(3등급, DC 24, 주문 공격 수정자 +14). 이 주문의 대상은 해당 지역 내 가장 가까운 생물 중심에 위치하거나 포함됩니다. 필요시 이 주문의 범위를 100피트로 증가시킵니다. 이 함정이 발동하는 모든 주문은 마법 주문입니다.</p>\n<p><strong>1</strong>@UUID[Compendium.pf2e.spells-srd.Item.o4lRVTwSxnOOn5vl]{Sleep}</p>\n<p><strong>2</strong>@UUID[Compendium.pf2e.spells-srd.Item.DCQHaLrYXMI37dvW]{Paralyze}</p>\n<p><strong>3</strong>@UUID[Compendium.pf2e.spells-srd.Item.9AAkVUCwF6WVNNY2]{Lightning Bolt}(100-foot line)</p>\n<p><strong>4</strong>@UUID[Compendium.pf2e.spells-srd.Item.VosLNn2M8S7JH67D]{Blindness}</p>\n<p><strong>5</strong>@UUID[Compendium.pf2e.spells-srd.Item.thAHF1zxNplLCJPO]{Caustic Blast}</p>\n<p><strong>6</strong>@UUID[Compendium.pf2e.spells-srd.Item.J7Y7tl0bbdz7TcCc]{Enfeeble}</p>",
       "stealth": "<p>(전문가) 마법 센서를 탐지하기 위해; 바퀴를 발견하는 것은 DC 0입니다</p>",
       "items": {
         "ZS4b3rYv9jOgbMzm": {
-          "name": "바퀴 회전 (Wheel Spin)",
+          "name": "바퀴 회전(Wheel Spin)",
           "description": "<p><strong>트리거</strong> 생물이 센서의 감지 영역에 들어갑니다.</p>\n<hr />\n<p><strong>효과</strong> 바퀴가 회전하기 시작하고 이니셔티브를 굴림합니다.</p>"
         }
       }
     },
     "Polymorph Trap": {
-      "name": "변형 함정 (Polymorph Trap)",
+      "name": "변형 함정(Polymorph Trap)",
       "desc (hazard)": "<p>드루이드의 문양이 침입자를 동물로 변환하려고 시도합니다.</p>",
-      "disable": "<p>@Check[thievery|dc:32|name:Drain Glyph's Power|traits:action:disable-a-device] (마스터) 문양의 힘을 무해하게 흡수하거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제} (6단계; 저항 DC 30)로 문양을 반격합니다.</p>",
+      "disable": "<p>@Check[thievery|dc:32|name:Drain Glyph's Power|traits:action:disable-a-device] (마스터) 문양의 힘을 무해하게 흡수하거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(6단계; 저항 DC 30)로 문양을 반격합니다.</p>",
       "stealth": "<p>(훈련된)</p>",
       "items": {
         "TxhvkFafggYWv5D7": {
-          "name": "저주받은 변형 (Cursed Metamorphosis)",
-          "description": "<p><strong>트리거</strong> 드루이드어로 패스프레이즈를 말하지 않고 글리프로부터 30피트 이내로 이동하는 생물</p>\n<hr />\n<p><strong>효과</strong> 해당 생물은 @UUID[Compendium.pf2e.spells-srd.Item.dN8QBNuTiaBHCKUe]{저주받은 변이} (@Check[will|dc:32] 내성 검사)에 표적이 됩니다.</p>"
+          "name": "저주받은 변형(Cursed Metamorphosis)",
+          "description": "<p><strong>트리거</strong> 드루이드어로 패스프레이즈를 말하지 않고 글리프로부터 30피트 이내로 이동하는 생물</p>\n<hr />\n<p><strong>효과</strong> 해당 생물은 @UUID[Compendium.pf2e.spells-srd.Item.dN8QBNuTiaBHCKUe]{저주받은 변이}(@Check[will|dc:32] 내성 굴림)에 표적이 됩니다.</p>"
         }
       }
     },
     "Spinning Blade Pillar": {
-      "name": "회전 칼날 기둥 (Spinning Blade Pillar)",
+      "name": "회전 칼날 기둥(Spinning Blade Pillar)",
       "hpdetails": "패널 경도: 5, 패널 HP: 20 (BT 10)",
       "desc (hazard)": "<p>바닥에 숨겨진 금속 기둥에 세 개의 날카로운 회전 칼날이 달려 있으며, 최대 8개의 바닥 타일과 30피트 이내의 숨겨진 제어 패널에 연결되어 있습니다.</p>",
       "disable": "<p>@Check[thievery|dc:21|name:Disable Pillar|traits:action:disable-a-device] (훈련된) 기둥에 두 번 공격하거나 @Check[thievery|dc:19|name:Disable Trap (Control Panel)|traits:action:disable-a-device] (전문가) 제어 패널에 한 번 공격하면 전체 함정이 해제됩니다. 제어 패널을 파괴하면 누구도 제어 패널을 통해 함정을 해제할 수 없으며, 함정이 자동으로 해제되는 것도 방지됩니다.</p>",
@@ -306,20 +306,20 @@
       "stealth": "<p>(훈련된) 또는 @Check[perception|dc:26|traits:action:seek] (전문가)가 제어 패널을 발견합니다</p>",
       "items": {
         "F0I1pLJQm1AQtXPH": {
-          "name": "상승하는 기둥 (Rising Pillar)",
+          "name": "상승하는 기둥(Rising Pillar)",
           "description": "<p><strong>트리거</strong> 생물이 함정 바닥 타일 중 하나를 밟습니다</p>\n<hr />\n<p><strong>효과</strong> 함정이 격자 교차점에서 튀어나와 회전하는 칼날로 인접한 생물 한 마리(있는 경우)를 공격한 후 이니셔티브를 굴림합니다.</p>"
         },
         "6wV9i41Jd4HThaAi": {
-          "name": "속도 (Speed)",
+          "name": "속도(Speed)",
           "description": "<p>10 피트</p>"
         },
         "vS5xxWVCLY1BNE4O": {
-          "name": "회전하는 칼날 (Spinning Blade)"
+          "name": "회전하는 칼날(Spinning Blade)"
         }
       }
     },
     "Vorpal Executioner": {
-      "name": "보랄 집행자 (Vorpal Executioner)",
+      "name": "보랄 집행자(Vorpal Executioner)",
       "hpdetails": "각 교차점마다",
       "desc (hazard)": "<p> 날카로운 톱날이 방 안의 복잡한 경로를 따라 내려가며 홈을 따라 이동하며, 방 안에 있는 모든 사람을 참수하려고 시도합니다.</p>",
       "disable": "<p>@Check[thievery|dc:41|name:Jam Saw Blade|traits:action:disable-a-device] (전문가) 네 개의 다른 교차점에 설치하여 모든 톱날의 이동 경로를 차단하여 방을 통과하지 못하게 합니다.</p>",
@@ -327,24 +327,24 @@
       "stealth": "<p>(전문가)</p>",
       "items": {
         "4QF1yNgj2FX7rO4C": {
-          "name": "완전한 참수 (Total Decapitation)",
+          "name": "완전한 참수(Total Decapitation)",
           "description": "<p><strong>트리거</strong> 생물이 방을 벗어나려고 시도합니다.</p>\n<hr />\n<p><strong>효과</strong> 톱날이 경로를 따라 이동하며 방 내의 각 생물에게 한 번의 공격을 가합니다. 톱날은 회전하며 높이를 변환하여 목표물을 참수된 최대 확률을 높입니다.</p>"
         },
         "T0k2Rnyz49qG1Gkv": {
-          "name": "톱날 (Saw Blade)"
+          "name": "톱날(Saw Blade)"
         },
         "mPVesRXUMN4Ws9IR": {
-          "name": "참수 (Decapitation)",
-          "description": "<p>크리티컬 히트 시, 대상은 @Check[fortitude|dc:39|traits:damaging-effect] 저항 내성에 성공하지 못하면 참수되어 즉시 사망합니다. 머리가 없어도 생존할 수 있는 경우를 제외합니다.</p>"
+          "name": "참수(Decapitation)",
+          "description": "<p>대성공 시, 대상은 @Check[fortitude|dc:39|traits:damaging-effect] 저항 내성에 성공하지 못하면 참수되어 즉시 사망합니다. 머리가 없어도 생존할 수 있는 경우를 제외합니다.</p>"
         },
         "1HPSHShNAV8hxPe3": {
-          "name": "MAP 없음 (No MAP)",
+          "name": "MAP 없음(No MAP)",
           "description": "<p>톱날 공격은 MAP를 적용하지 않습니다.</p>"
         }
       }
     },
     "Green Slime": {
-      "name": "녹색 점액 (Green Slime)",
+      "name": "녹색 점액(Green Slime)",
       "desc (hazard)": "<p>천장 위에 부식성 녹색 필름이 달라붙어 아래를 지나가는 먹이를 노리고 있습니다.</p>",
       "disable": "<p>@Check[survival|dc:33|name:Peel the Slime Off the Ceiling] (전문가) 천장에서 슬라임을 만지지 않고 조심스럽게 떼어냅니다.</p>",
       "reset": "<p>1시간 동안, 점액이 먹이를 먹은 후 천천히 천장으로 다시 기어오릅니다.</p>",
@@ -352,12 +352,12 @@
       "items": {
         "aNYeaG5N3o5PQ9IB": {
           "name": "Dissolving Ambush",
-          "description": "<p><strong>트리거</strong> 생물이 슬라임 아래를 지나간다.</p>\n<hr />\n<p><strong>효과</strong> 녹색 점액이 생물 위에 떨어지며, 이를 영양분으로 가득 찬 슬러리로 녹이려 시도합니다. 대상은 @Check[reflex|dc:28] 내성 검사를 시도해야 합니다.</p>\n<hr />\n<p><strong>대성공</strong> 대상은 길을 벗어나며 영향을 받지 않습니다.</p>\n<p><strong>성공</strong> 점액의 일부가 대상에게 튀어갑니다. 대상은 1의 체력을 흡수합니다.</p>\n<p><strong>실패</strong> 점액이 목표물에 닿습니다. 목표물은 흡수 1이 감소하며, 이 상태 값은 점액이 제거될 때까지 각 라운드의 끝마다 1씩 증가합니다. 목표물이 흡수 4에 도달하면, 다음에 흡수 값이 증가할 때 그것은 죽고 영양분으로 된 슬러리로 붕괴됩니다. 목표물을 덮고 있는 슬라임은 생존 체크 통해 제거될 수 없으며, 슬라임에 가해진 피해는 목표물에게도 가해집니다(목표물의 면역, 약점, 저항력이 적용되며 녹색 슬라임의 것이 아닌).</p>\n<p><strong>대실패</strong> 슬라임이 목표물을 완전히 덮습니다. 이는 실패와 동일한 효과를 가집니다. 단, 목표물은 즉시 흡수 2가 되며, 1 라운드 후 흡수 4가 되고, 2 라운드 후 사망합니다.</p>"
+          "description": "<p><strong>트리거</strong> 생물이 슬라임 아래를 지나간다.</p>\n<hr />\n<p><strong>효과</strong> 녹색 점액이 생물 위에 떨어지며, 이를 영양분으로 가득 찬 슬러리로 녹이려 시도합니다. 대상은 @Check[reflex|dc:28] 내성 굴림을 시도해야 합니다.</p>\n<hr />\n<p><strong>대성공</strong> 대상은 길을 벗어나며 영향을 받지 않습니다.</p>\n<p><strong>성공</strong> 점액의 일부가 대상에게 튀어갑니다. 대상은 1의 체력을 흡수합니다.</p>\n<p><strong>실패</strong> 점액이 목표물에 닿습니다. 목표물은 흡수 1이 감소하며, 이 상태 값은 점액이 제거될 때까지 각 라운드의 끝마다 1씩 증가합니다. 목표물이 흡수 4에 도달하면, 다음에 흡수 값이 증가할 때 그것은 죽고 영양분으로 된 슬러리로 붕괴됩니다. 목표물을 덮고 있는 슬라임은 생존 체크 통해 제거될 수 없으며, 슬라임에 가해진 피해는 목표물에게도 가해집니다(목표물의 면역, 약점, 저항력이 적용되며 녹색 슬라임의 것이 아닌).</p>\n<p><strong>대실패</strong> 슬라임이 목표물을 완전히 덮습니다. 이는 실패와 동일한 효과를 가집니다. 단, 목표물은 즉시 흡수 2가 되며, 1 라운드 후 흡수 4가 되고, 2 라운드 후 사망합니다.</p>"
         }
       }
     },
     "Eternal Flame": {
-      "name": "영원한 불꽃 (Eternal Flame)",
+      "name": "영원한 불꽃(Eternal Flame)",
       "desc (hazard)": "<p>공중에서 격렬한 영적 화염이 솟아오르며, 그 범위 내의 모든 언데드 생물을 강화합니다. 이 유령은 보통 세 사람이 끔찍한 사고나 고의적인 처형으로 불에 타 죽은 후 남은 탄화된 유해에서 발생하며, 복수되지 않은 영혼들이 분노로 타오릅니다.</p>",
       "disable": "<p>@Check[diplomacy|dc:27|name:Calm the Spirit's Rage] (전문가)로 세 영혼 중 하나를 일시적으로 진정시키거나, @Check[religion|dc:30|name:Exorcise Spirit] (훈련된)로 영혼 중 하나를 쫓아낼 수 있습니다; 총 3번의 성공이 필요하며, 이를 통해 유령의 저주를 해제할 수 있습니다.</p>",
       "reset": "<p>모든 생물이 지역을 떠난 후 1분 후에 불꽃이 멈추지만, 1시간 후 분노와 고통이 다시 끓어오르며 유령의 저주가 다시 발동 준비 상태가 됩니다.</p>",
@@ -371,19 +371,19 @@
       }
     },
     "Steam Vents": {
-      "name": "증기 통풍구 (Steam Vents)",
+      "name": "증기 통풍구(Steam Vents)",
       "desc (hazard)": "<p>압력식 대형 파이프가 트립 와이어에 연결되어 침입자에게 증기 폭발을 일으키도록 설치되어 있습니다.</p>",
       "disable": "<p>@Check[thievery|dc:22|name:Disconnect the trip wire|traits:mechanical,trap,hazard]{도둑질 (숙련))으로 트립 와이어를 분리하거나 @Check[crafting|dc:24|name:Reduce the pressure|traits:mechanical,trap,hazard]{공예 (전문가))로 압력을 조심스럽게 줄여 폭발을 방지합니다.</p>",
       "stealth": "<p>(trained)</p>",
       "items": {
         "SvqJNCRH2eI1jZk1": {
           "name": "Steam Blast",
-          "description": "<p><strong>트리거</strong> 트립 와이어가 당겨지거나 끊어집니다. 일반적으로 생물이 트립 와이어가 설치된 칸 영역을 통과할 때 발생합니다.</p>\n<hr />\n<p><strong>효과</strong> 파이프에서 증기가 분출되어 @Damage[3d6[bludgeoning],3d6[fire]]{3d6 둔기 피해와 3d6 fire 피해} (@Check[reflex|dc:24|basic|name:Avoid the erupting steam|traits:mechanical,trap,hazard])를 15피트 이내의 모든 생물에게 입힙니다. 내성 검사에서 대실패한 생물은 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} 상태가 됩니다.</p>"
+          "description": "<p><strong>트리거</strong> 트립 와이어가 당겨지거나 끊어집니다. 일반적으로 생물이 트립 와이어가 설치된 칸 영역을 통과할 때 발생합니다.</p>\n<hr />\n<p><strong>효과</strong> 파이프에서 증기가 분출되어 @Damage[3d6[bludgeoning],3d6[fire]]{3d6 둔기 피해와 3d6 fire 피해}(@Check[reflex|dc:24|basic|name:Avoid the erupting steam|traits:mechanical,trap,hazard])를 15피트 이내의 모든 생물에게 입힙니다. 내성 굴림에서 대실패한 생물은 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} 상태가 됩니다.</p>"
         }
       }
     },
     "Drowning Pit": {
-      "name": "익사 구덩이 (Drowning Pit)",
+      "name": "익사 구덩이(Drowning Pit)",
       "hpdetails": "분출구 경도 8, 분출구 HP 32 (BT 16)",
       "desc (hazard)": "<p>10피트 칸의 구덩이를 덮고 있는 함정 문이 있습니다. 구덩이는 30피트 깊이로, 바닥에 5피트의 물이 있습니다. 벽에 있는 네 개의 물 분사구가 숨겨진 물 탱크와 연결되어 있습니다. 각 물 분사구는 구덩이 상단에서 6인치 떨어진 벽에서 나와 있습니다.</p>",
       "disable": "<p>@Check[thievery|dc:18] (훈련된) 각 물 분출구를 밀봉하거나, @Check[thievery|dc:22] (훈련된) 트랩도어를 열거나, @Check[athletics|dc:22] @UUID[Compendium.pf2e.action-macros.Macro.yMTKMnaYSGtDz4wk]{강제 개방: 운동} 트랩도어를 </p>",
@@ -392,35 +392,35 @@
       "stealth": "<p>(훈련된); @Check[perception|dc:22|traits:action:seek] (전문가) 구덩이가 열리면 물 분사구를 알아차리기 위해</p>",
       "items": {
         "iji2yCS44gpqc5p3": {
-          "name": "함정 (Pitfall)",
+          "name": "함정(Pitfall)",
           "description": "<p><strong>트리거</strong> 생물이 함정 문 위에 걸어 들어갑니다</p>\n<hr />\n<p><strong>효과</strong> 트리거링 생물이 함정에 빠지고 추락으로 인한 피해를 입습니다. 물에 빠진 경우 추락 거리 5피트만큼 피해가 감소됩니다 (일반적으로 @Damage[12[bludgeoning]|options:fall-damage] 피해). 생물은 @UUID[Compendium.pf2e.actionspf2e.Item.3yoajuKjwHZ9ApUY]{가장자리를 잡기}로 추락을 피할 수 있습니다. 함정 문이 갑자기 닫히고, 위험 요소가 이니셔티브를 굴림합니다.</p>"
         }
       }
     },
     "Web Lurker Noose": {
-      "name": "웹 루커 노즈 (Web Lurker Noose)",
+      "name": "웹 루커 노즈(Web Lurker Noose)",
       "desc (hazard)": "<p>목 수준에 있는 눈에 띄지 않는 거미줄이 그 안으로 들어가는 생물을 걸어둡니다.</p>",
       "disable": "<p>@Check[survival|dc:18|name:Rearrange the Webbing|traits:mechanical,trap] (훈련된) 또는 @Check[thievery|dc:18|name:Rearrange the Webbing|traits:mechanical,trap] (전문가)로 거미줄을 재배치합니다.</p>",
       "items": {
         "LZTjCUaLv54zwB8W": {
-          "name": "거미줄 올가미 (Web Noose)",
+          "name": "거미줄 올가미(Web Noose)",
           "description": "<p><strong>트리거</strong> 생물이 거미줄 트립와이어가 있는 칸에 들어갑니다.</p>\n<hr />\n<p><strong>효과</strong> 거미줄 루커 노즈가 트리거링 생물에게 노즈 스트라이크를 가합니다.</p>"
         },
         "VNaaW87S24zzxXZh": {
-          "name": "올가미 (Noose)",
+          "name": "올가미(Noose)",
           "description": "<p>공격에 성공하면 대상은 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{잡힌} 상태가 되고 땅에서 끌어내려집니다 ([[/act escape dc=22]]).</p>\n<p>목표는 노스에 걸려 있는 동안 각 턴의 끝마다 @Damage[1d6[bludgeoning]]의 피해를 받습니다.</p>"
         }
       }
     },
     "Brown Mold": {
-      "name": "갈색 곰팡이 (Brown Mold)",
+      "name": "갈색 곰팡이(Brown Mold)",
       "desc (hazard)": "<p>이 평범해 보이는 곰팡이는 공기의 열을 흡수합니다.</p>",
       "disable": "<p>@Check[survival|dc:18|name:Remove Brown Mold|traits:environmental,fungus] (훈련된) 곰팡이를 안전하게 제거합니다.</p>",
       "reset": "<p>확장된 갈색 곰팡이는 1일 동안 다시 자라지 않습니다.</p>",
       "stealth": "<p>(훈련된)</p>",
       "items": {
         "NcyiM0WihYrncbSF": {
-          "name": "차가움을 방출합니다 (Emit Cold)",
+          "name": "차가움을 방출합니다(Emit Cold)",
           "description": "<p>5 피트. 갈색 곰팡이는 근처 생물에게 @Damage[2d6[cold]]의 피해를 입힙니다.</p>"
         },
         "MQ3CKYIdF6zrMg0x": {
@@ -430,7 +430,7 @@
       }
     },
     "Spectral Reflection": {
-      "name": "스펙트럼 반사 (Spectral Reflection)",
+      "name": "스펙트럼 반사(Spectral Reflection)",
       "desc (hazard)": "<p>거울에 비친 반사가 미묘하게 뒤틀리고 왜곡되며, 그 표정은 불안한 악의의 비웃음으로 변합니다.</p>",
       "disable": "<p>@Check[religion|dc:23|name:Exorcise Spirit] (훈련된)으로 영혼을 쫓아내거나, @Check[thievery|dc:23|name:Cover the Mirror|traits:action:disable-a-device] (훈련된)으로 거울을 빠르게 덮습니다</p>",
       "reset": "<p>유령은 1분 후 재형성되어 그 영향 범위 내의 어떤 거울에도 창조됩니다(아래 특수 참조).</p>",
@@ -441,20 +441,20 @@
           "description": "<p><strong>트리거</strong> 살아있는 생물이 거울로부터 15피트 이내에 접근하고, 거울이 어두운 빛이나 더 밝은 빛으로 비춰질 때.</p>\n<hr />\n<p><strong>효과</strong> 그림자 가시가 반사된 생물의 몸을 찌르며, 유령이 그림자 가시 공격을 수행합니다.</p>"
         },
         "wdA0nAhiSTY7znrs": {
-          "name": "그림자 가시 (Shadow Barbs)"
+          "name": "그림자 가시(Shadow Barbs)"
         },
         "17gJOHIRtWXfYMKa": {
-          "name": "생명력 흡수 (Sap Vitality)",
-          "description": "<p>반사된 그림자의 그림자 가시에 맞은 생물은 유령이 그 생물의 생명력 일부를 거울로 끌어들이려고 시도할 때 @Check[fortitude|dc:22] 내성 검사를 시도해야 합니다. 대상은 내성 굴림 실패 시 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 1}, 대실패 시 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 2}를 받습니다.</p>"
+          "name": "생명력 흡수(Sap Vitality)",
+          "description": "<p>반사된 그림자의 그림자 가시에 맞은 생물은 유령이 그 생물의 생명력 일부를 거울로 끌어들이려고 시도할 때 @Check[fortitude|dc:22] 내성 굴림을 시도해야 합니다. 대상은 내성 굴림 실패 시 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 1}, 대실패 시 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 2}를 받습니다.</p>"
         },
         "V7tWWuB9NSEsMEae": {
-          "name": "특수 (Special)",
+          "name": "특수(Special)",
           "description": "<p>영적 반사체는 종종 전체 건물을 침투해 충분히 큰 거울에 창조됩니다. 예시된 체력과 경도는 유령에 의해 강화된 일반적인 거울을 나타냅니다. 유령은 파괴하기 어려운 반사 표면에 나타날 수도 있습니다. 피해로 현현을 물리치면 표면이 파괴되어 유령이 다시 사용하지 못합니다. 이 유령이 많은 거울이 있는 지역에 나타난다면, 일반적인 단순 위험보다 두 배 또는 세 배의 XP를 플레이어 캐릭터에게 부여하는 것을 고려하세요.</p>"
         }
       }
     },
     "Snowfall": {
-      "name": "눈보라 (Snowfall)",
+      "name": "눈보라(Snowfall)",
       "desc (hazard)": "<p>나무 가지나 지붕 같은 높은 표면에 느슨한 눈과 얼음이 쌓여 있습니다. 표면에 대한 그립이 약해 표면이 움직이면 떨어질 가능성이 높습니다.</p>",
       "disable": "<p>@Check[survival|dc:19|name:Safely Dislodge the Snow] (훈련된) 안전하게 눈을 제거하거나, 위험을 유발하지 않고 파괴하기 위해 어떤 양의 fire 피해를 입히십시오.</p>",
       "stealth": "<p>(trained)</p>",
@@ -466,7 +466,7 @@
       }
     },
     "Dance Of Death": {
-      "name": "죽음의 춤 (Dance Of Death)",
+      "name": "죽음의 춤(Dance Of Death)",
       "desc (hazard)": "<p>기이한 오케스트라가 듣는 모든 이를 춤추게 하여 피로로 쓰러질 때까지 계속하게 합니다.</p>",
       "disable": "<p>@Check[intimidation|dc:42|name:Frighten the Orchestra|traits:action:demoralize] (전문가) 세 번 사용해 춤추는 자들과 유령 음악가 모두를 치명적인 공연에서 멀어지게 합니다, @Check[performance|dc:40|name:Disrupt Compulsion] (마스터) 두 번 연주하여 강박을 방해할 만큼 불협화음을 내거나, @Check[religion|dc:42|name:Banish Spirits] (마스터) 세 번 연주하여 기도로 영혼을 쫓아냅니다.</p>",
       "reset": "<p>기이한 오케스트라는 유령 같은 악기를 조율하는 데 한 시간을 보내고, 그 후 다시 일상적인 공연을 시작할 준비가 됩니다.</p>",
@@ -480,46 +480,46 @@
       }
     },
     "Ghostly Choir": {
-      "name": "유령의 합창단 (Ghostly Choir)",
+      "name": "유령의 합창단(Ghostly Choir)",
       "desc (hazard)": "<p> 잃어버린 영혼들의 합창단이 바닥에서 떠오르며, 듣는 이들을 공포에 떨게 하고 소리 벽으로 그들의 몸을 밀어내는 음산한 노래를 부릅니다.</p>",
       "disable": "<p>@Check[performance|dc:28|name:Sing a Different Tune|traits:haunt] (훈련된) 다른 멜로디로 노래의 공명을 방해하거나 @Check[religion|dc:28|name:Ritually Silence the Haunt|traits:haunt] (훈련된) 영혼을 의식적으로 침묵시키기 위해</p>",
       "stealth": "<p>(expert)</p>",
       "items": {
         "oZGdTS4jvoAj1myH": {
           "name": "Profane Chant",
-          "description": "<p><strong>트리거</strong> 합창단이 떠오를 수 있는 바닥 부분에서 10피트 이내에 생물이 움직일 때</p><hr /><p><strong>효과</strong> 합창단이 떠오르며, 그 노래는 영혼의 영체로부터 30피트 이내의 모든 생물에게 @Damage[(4d8+18)[mental]] 피해를 입힙니다. 영향을 받은 생물은 각각 @Check[will|dc:24|traits:damaging-effect] 내성 검사를 시도해야 합니다.</p><hr /><p><strong>Critical Success</strong> 생물은 영향을 받지 않습니다.</p>\n<p><strong>성공</strong> 생물은 반의 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 1} 상태가 됩니다.</p>\n<p><strong>실패</strong> 생물은 전체 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 2} 상태가 됩니다.</p>\n<p><strong>대실패</strong> 생물은 두 배의 피해를 입습니다. 또한 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 3} 상태가 되고 @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{도주} 상태가 1 라운드 동안 지속됩니다.</p>"
+          "description": "<p><strong>트리거</strong> 합창단이 떠오를 수 있는 바닥 부분에서 10피트 이내에 생물이 움직일 때</p><hr /><p><strong>효과</strong> 합창단이 떠오르며, 그 노래는 영혼의 영체로부터 30피트 이내의 모든 생물에게 @Damage[(4d8+18)[mental]] 피해를 입힙니다. 영향을 받은 생물은 각각 @Check[will|dc:24|traits:damaging-effect] 내성 굴림을 시도해야 합니다.</p><hr /><p><strong>Critical Success</strong> 생물은 영향을 받지 않습니다.</p>\n<p><strong>성공</strong> 생물은 반의 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 1} 상태가 됩니다.</p>\n<p><strong>실패</strong> 생물은 전체 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 2} 상태가 됩니다.</p>\n<p><strong>대실패</strong> 생물은 두 배의 피해를 입습니다. 또한 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 3} 상태가 되고 @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{도주} 상태가 1 라운드 동안 지속됩니다.</p>"
         }
       }
     },
     "Flensing Blades": {
-      "name": "플렌싱 블레이드 (Flensing Blades)",
+      "name": "플렌싱 블레이드(Flensing Blades)",
       "desc (hazard)": "<p>회전하는 토네이도처럼 영적 힘으로 추진되는 유리와 강철이 접촉하는 모든 것을 조각내어 띠 모양으로 자릅니다.</p>",
       "disable": "<p>@Check[thievery|dc:35|name:Adjust Blades|traits:action:disable-a-device] (마스터) 블레이드를 정밀하게 조정하여 서로 파괴되도록 하거나, @Check[religion|dc:38|name:Weaken the Haunt] (전문가) 유령을 약화시킵니다; 이를 무력화하려면 4번의 성공이 필요합니다</p>",
       "reset": "<p>유령은 1시간 동안 날카로운 조각을 자신의 영역으로 끌어들이며, 이후 다시 발동할 수 있습니다.</p>",
-      "routine": "<p>(3 행동) 칼날의 회오리는 3 행동을 사용하여 이동하며, 각 행동마다 최대 30피트 이동하고 @Damage[(2d10+10)[slashing]]의 피해를 입힙니다. 경로에 있는 모든 생물은 @Check[reflex|dc:33]를 시도해야 합니다.</p>\n<p><strong>대성공</strong> 생물은 영향을 받지 않습니다.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> 생물은 전체 피해를 입으며 @Damage[1d10[bleed]]를 추가로 받습니다.</p>\n<p><strong>대실패</strong> 생물은 두 배의 피해를 받고 @Damage[1d10[bleed]]. 또한 @UUID[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2]{부상 1} (이미 부상 상태인 경우 부상 값이 1 증가합니다).</p>\n<p>이 위험을 무력화하는 성공적인 체크마다 유령의 이동 속도가 30피트 감소하며, 네 번째 성공 시 완전히 무력화됩니다.</p>",
+      "routine": "<p>(3 행동) 칼날의 회오리는 3 행동을 사용하여 이동하며, 각 행동마다 최대 30피트 이동하고 @Damage[(2d10+10)[slashing]]의 피해를 입힙니다. 경로에 있는 모든 생물은 @Check[reflex|dc:33]를 시도해야 합니다.</p>\n<p><strong>대성공</strong> 생물은 영향을 받지 않습니다.</p>\n<p><strong>Success</strong> The creature takes half damage.</p>\n<p><strong>Failure</strong> 생물은 전체 피해를 입으며 @Damage[1d10[bleed]]를 추가로 받습니다.</p>\n<p><strong>대실패</strong> 생물은 두 배의 피해를 받고 @Damage[1d10[bleed]]. 또한 @UUID[Compendium.pf2e.conditionitems.Item.Yl48xTdMh3aeQYL2]{부상 1}(이미 부상 상태인 경우 부상 값이 1 증가합니다).</p>\n<p>이 위험을 무력화하는 성공적인 체크마다 유령의 이동 속도가 30피트 감소하며, 네 번째 성공 시 완전히 무력화됩니다.</p>",
       "stealth": "<p>(전문가)</p>",
       "items": {
         "jSBfyDGUXAPbIJTT": {
-          "name": "회전하는 칼날 (Whirling Blades)",
+          "name": "회전하는 칼날(Whirling Blades)",
           "description": "<p><strong>트리거</strong> 유령의 영역에 3개 이상의 생물이 들어갈 때</p>\n<hr />\n<p><strong>효과</strong> 날카로운 조각들이 땅에서 떠오르며 빠른 원을 그리며 회전하기 시작해 5피트 칸을 차지합니다. The haunt rolls initiative.</p>"
         }
       }
     },
     "Plummeting Doom": {
-      "name": "Plummeting Doom",
+      "name": "추락하는 파멸(Plummeting Doom)",
       "desc (hazard)": "<p>네 명의 복수심에 찬 영혼이 침입자들을 붙잡아 근처의 120피트 높이의 절벽 가장자리로 던집니다.</p>",
       "disable": "<p>@Check[athletics|dc:40|name:Forcefully Push Spirits Back] (훈련된) 영혼들이 절벽에서 떨어질까 두려워할 정도로 강하게 밀어내거나, @Check[religion|dc:40|name:Seal the Spirits] (전문가) 영혼들을 일시적으로 봉인합니다.</p>",
       "reset": "<p>1시간</p>",
       "stealth": "<p>(마스터) 멀리 떨어진 물체가 땅에 부딪히는 에코를 듣기</p>",
       "items": {
         "i9qsvHuq9IdeRohO": {
-          "name": "땅의 부름 (Call of the Ground)",
+          "name": "땅의 부름(Call of the Ground)",
           "description": "<p><strong>트리거</strong> 절벽 가장자리에서 15피트 이내에 생물이 접근합니다.</p>\n<hr />\n<p><strong>효과</strong> 각 영혼은 절벽 가장자리로부터 60피트 이내의 생물을 절벽 밖으로 던지려고 시도합니다. 이는 대상의 체력 DC에 +26 수정자를 적용한 체크를 통해 이루어집니다. 만약 유령이 성공하면, 대상은 절벽 가장자리에서 떨어지며, 120피트 아래로 추락합니다. 유령이 패배할 때까지 절벽 가장자리로부터 60피트 이내에 있는 모든 생물은 추락을 막기 위해 'Arrest a Fall', 'Fly', 'Grab an Edge' 또는 기타 추락을 피하는 행동을 취할 때마다 @Check[will|dc:40] 내성 굴림을 시도해야 합니다. 내성 굴림에 실패하면 해당 행동이 방해받습니다. 유령은 추락을 늦추거나 추락의 효과를 완화하는 주문을 자동으로 반격합니다. 예를 들어 <em>feather fall</em>와 같은 주문에는 +32의 반격 수정자가 적용됩니다.</p>"
         }
       }
     },
     "Treacherous Scree": {
-      "name": "위험한 자갈길 (Treacherous Scree)",
+      "name": "위험한 자갈길(Treacherous Scree)",
       "desc (hazard)": "<p>이 경사면은 처음 보기에 안정적으로 보이지만, 표면을 덮고 있는 작은 바위들은 느슨하게 쌓여 있어 미끄러지기 쉽습니다.</p>",
       "disable": "<p>@Check[survival|dc:20|name:Navigate Safe Path] (훈련된) 안전한 경로를 탐색하기 위해</p>",
       "stealth": "<p>(trained)</p>",
@@ -531,7 +531,7 @@
       }
     },
     "Jealous Abjurer": {
-      "name": "질투의 추방자 (Jealous Abjurer)",
+      "name": "질투의 추방자(Jealous Abjurer)",
       "desc (hazard)": "<p>로브를 입은 영혼이 바닥에서 떠오르며 비난의 손가락을 가리킵니다.</p>",
       "disable": "<p>@Check[arcana|dc:36|name:Convince the Spirit], @Check[nature|dc:36|name:Convince the Spirit], @Check[occultism|dc:36|name:Convince the Spirit], 또는 @Check[religion|dc:36|name:Convince the Spirit] (주인)에게 대상의 마법 지식이 너무 강해 가볍게 대할 수 없다는 것을 설득하라</p>",
       "reset": "<p>1 hour</p>",
@@ -544,7 +544,7 @@
       }
     },
     "Poisoned Dart Gallery": {
-      "name": "독 화살 갤러리 (Poisoned Dart Gallery)",
+      "name": "독 화살 갤러리(Poisoned Dart Gallery)",
       "hpdetails": "제어 패널을 파괴하고 함정을 무력화합니다",
       "desc (hazard)": "<p>수많은 구멍에서 독 화살을 발사하기 위해 긴 복도를 따라 배열되어 있으며, 멀리 끝에 숨겨진 제어 패널이 있습니다.</p>",
       "disable": "<p>@Check[thievery|dc:21|name:Disable Trap (Control Panel)|traits:action:disable-a-device] (전문가) 제어 패널에서 함정을 비활성화합니다.</p>",
@@ -553,7 +553,7 @@
       "stealth": "<p>(전문가) 또는 @Check[perception|dc:31|traits:action:seek] (마스터)로 제어 패널을 발견합니다</p>",
       "items": {
         "KFCwJINs8Uu4riRs": {
-          "name": "다트 발사 (Dart Volley)",
+          "name": "다트 발사(Dart Volley)",
           "description": "<p><strong>트리거</strong> 생물이 복도에 들어오거나 복도에서 턴을 종료합니다</p>\n<hr />\n<p><strong>효과</strong> 함정이 독이 묻은 다트를 발사하여 트리거링 생물에게 공격을 가한 후 이니셔티브를 굴립니다.</p>"
         },
         "3oSIIlS5PZwciZ3k": {
@@ -564,61 +564,61 @@
           "description": "<p><strong>트리거</strong> 활성 갤러리 내의 생물이 행동을 완료합니다</p>\n<hr />\n<p><strong>효과</strong> 함정이 독이 묻은 화살을 발사하여 트리거링 생물에게 공격합니다.</p>"
         },
         "eY731rvsYJZ2o5Sh": {
-          "name": "플레스셋 독 (Flesset Poison)",
-          "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:22]</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>단계 1</strong> @Damage[1d6[poison]] 피해와 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1} (1 라운드)</p>\n<p><strong>단계 2</strong> @Damage[2d6[poison]] 피해와 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 2} (1 라운드)</p>\n<p><strong>단계 3</strong> @Damage[3d6[poison]] 피해와 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 3} (1 라운드)</p>"
+          "name": "플레스셋 독(Flesset Poison)",
+          "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:22]</p>\n<p><strong>Maximum Duration</strong> 6 rounds</p>\n<p><strong>단계 1</strong> @Damage[1d6[poison]] 피해와 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1}(1 라운드)</p>\n<p><strong>단계 2</strong> @Damage[2d6[poison]] 피해와 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 2}(1 라운드)</p>\n<p><strong>단계 3</strong> @Damage[3d6[poison]] 피해와 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 3}(1 라운드)</p>"
         },
         "6Tgjj5TppvVkF6QL": {
-          "name": "MAP 없음 (No MAP)",
+          "name": "MAP 없음(No MAP)",
           "description": "<p>독이 묻은 화살의 공격은 MAP을 적용하지 않습니다.</p>"
         }
       }
     },
     "Perilous Flash Flood": {
-      "name": "위험한 홍수 (Perilous Flash Flood)",
+      "name": "위험한 홍수(Perilous Flash Flood)",
       "desc (hazard)": "<p>거리로 쏟아지는 물이 위험한 잔해를 쓸어가는 형태이든, 용기에서 폭발적으로 터져 나오는 비자연적인 물질이든, 이 무자비한 홍수는 그 경로에 있는 모든 것을 강타합니다.</p>",
       "disable": "<p>세 개의 @Check[athletics|dc:35|name:Move Barricade], @Check[crafting|dc:35|name:Construct Barricade], 또는 @Check[survival|dc:35|name:Construct Barricade] 체크를 통과해야 홍수로부터 피난처를 만들 수 있는 충분한 강도의 방벽을 이동하거나 건설할 수 있습니다. 이것은 안전한 서 있는 장소를 만들지만, 바리케이드 밖의 생물들은 홍수의 성격과 원천에 따라 여전히 위험에 처할 수 있습니다.</p>",
-      "routine": "<p>(1 행동) 홍수는 60피트 앞으로 진격하며, 그 범위 내의 모든 생물을 강타합니다. 각 생물은 홍수 물이 그들을 강타하고 하류로 끌어당기는 동안 @Check[fortitude|dc:30] 내성을 시도해야 합니다. 입는 피해의 양과 유형은 홍수의 성질에 따라 결정되며, 특정 유형의 홍수는 추가 효과를 가집니다. 혼란스러운 물살로 인해 홍수 범위 내의 모든 생물은 이동하기 위해 @Check[athletics|dc:20|name:Swim|traits:action:swim] 수영 체크를 시도해야 하며, 수영 체크에서 실패한 생물은 각 라운드마다 익사할 수 있습니다.</p>\n<hr>\n<p><strong>대성공</strong> 생물은 피해를 입지 않습니다.</p>\n<p><strong>성공</strong> 생물은 반의 피해를 입습니다.</p>\n<p><strong>실패</strong> 생물은 전체 피해를 받고 물과 함께 10피트 이동합니다.</p>\n<p><strong>대실패</strong> 생물은 두 배의 피해를 받고 물과 함께 20피트 이동합니다.</p>\n<hr>\n<ul>\n<li><strong>산성 유출물</strong> 이 부식성 홍수는 이동하며 살을 녹여 @Damage[1d12[bludgeoning],(1d12+8)[산성]]{1d12 둔기 피해와 1d12+8 산성 피해}. 또한, 인내 내성에 대실패한 생물에게 @Damage[2d6[persistent,acid]] 피해를 입힙니다.</li>\n<li><strong>파괴적인 파도</strong> 이 급류는 @Damage[(2d12+10)[bludgeoning]]의 피해를 입힙니다.</li>\n<li><strong>혐오스러운 쓰레기</strong> 이 홍수는 하수구 배수나 썩은 음식 같은 오염되거나 질병에 감염된 물체를 떠받치고 있습니다. @Damage[(2d12+8)[bludgeoning]]의 피해를 입힙니다. 홍수에 노출된 모든 생물은 @Check[fortitude|dc:29] 내성 검사를 시도해야 하며, 실패 시 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1} 상태가 됩니다. @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 2} 상태가 됩니다. 또한 홍수 물과 접촉한 생물은 더러움 열병(@Check[fortitude|dc:20])에 노출됩니다.</li>\n<li><strong>날카로운 파편</strong> 물은 다양한 물체를 떠받쳤으며, 그 중 일부는 특히 날카롭습니다. 홍수는 @Damage[1d12[bludgeoning]]의 피해를 입히고 @Damage[(1d12+12)[piercing]]의 피해를 입힙니다.</li>\n<li><strong>Sticky Goo</strong> 이 물질은 특히 점성이 강합니다. @Damage[(2d12+6)[bludgeoning]]의 피해를 입힙니다. 또한 홍수 내의 모든 생물은 각 턴의 시작 시 @Check[reflex|dc:29] 내성 굴림을 시도해야 합니다. 내성 굴림에 실패하면 1 라운드 동안 모든 속도에 -10피트 상황 페널티를 받습니다. 대실패 시, 대신 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{이동 불가} 상태가 됩니다.</li>\n</ul>",
+      "routine": "<p>(1 행동) 홍수는 60피트 앞으로 진격하며, 그 범위 내의 모든 생물을 강타합니다. 각 생물은 홍수 물이 그들을 강타하고 하류로 끌어당기는 동안 @Check[fortitude|dc:30] 내성을 시도해야 합니다. 입는 피해의 양과 유형은 홍수의 성질에 따라 결정되며, 특정 유형의 홍수는 추가 효과를 가집니다. 혼란스러운 물살로 인해 홍수 범위 내의 모든 생물은 이동하기 위해 @Check[athletics|dc:20|name:Swim|traits:action:swim] 수영 체크를 시도해야 하며, 수영 체크에서 실패한 생물은 각 라운드마다 익사할 수 있습니다.</p>\n<hr>\n<p><strong>대성공</strong> 생물은 피해를 입지 않습니다.</p>\n<p><strong>성공</strong> 생물은 반의 피해를 입습니다.</p>\n<p><strong>실패</strong> 생물은 전체 피해를 받고 물과 함께 10피트 이동합니다.</p>\n<p><strong>대실패</strong> 생물은 두 배의 피해를 받고 물과 함께 20피트 이동합니다.</p>\n<hr>\n<ul>\n<li><strong>산성 유출물</strong> 이 부식성 홍수는 이동하며 살을 녹여 @Damage[1d12[bludgeoning],(1d12+8)[산성]]{1d12 둔기 피해와 1d12+8 산성 피해}. 또한, 인내 내성에 대실패한 생물에게 @Damage[2d6[persistent,acid]] 피해를 입힙니다.</li>\n<li><strong>파괴적인 파도</strong> 이 급류는 @Damage[(2d12+10)[bludgeoning]]의 피해를 입힙니다.</li>\n<li><strong>혐오스러운 쓰레기</strong> 이 홍수는 하수구 배수나 썩은 음식 같은 오염되거나 질병에 감염된 물체를 떠받치고 있습니다. @Damage[(2d12+8)[bludgeoning]]의 피해를 입힙니다. 홍수에 노출된 모든 생물은 @Check[fortitude|dc:29] 내성 굴림을 시도해야 하며, 실패 시 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1} 상태가 됩니다. @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 2} 상태가 됩니다. 또한 홍수 물과 접촉한 생물은 더러움 열병(@Check[fortitude|dc:20])에 노출됩니다.</li>\n<li><strong>날카로운 파편</strong> 물은 다양한 물체를 떠받쳤으며, 그 중 일부는 특히 날카롭습니다. 홍수는 @Damage[1d12[bludgeoning]]의 피해를 입히고 @Damage[(1d12+12)[piercing]]의 피해를 입힙니다.</li>\n<li><strong>Sticky Goo</strong> 이 물질은 특히 점성이 강합니다. @Damage[(2d12+6)[bludgeoning]]의 피해를 입힙니다. 또한 홍수 내의 모든 생물은 각 턴의 시작 시 @Check[reflex|dc:29] 내성 굴림을 시도해야 합니다. 내성 굴림에 실패하면 1 라운드 동안 모든 속도에 -10피트 상황 페널티를 받습니다. 대실패 시, 대신 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{이동 불가} 상태가 됩니다.</li>\n</ul>",
       "stealth": "<p>(전문가)</p>",
       "items": {
         "gxjS3APksgflCuua": {
-          "name": "폭발 해제 (Burst Free)",
+          "name": "폭발 해제(Burst Free)",
           "description": "<p><strong>트리거</strong> 생물이나 효과가 홍수의 봉쇄를 깨뜨립니다.</p>\n<hr />\n<p><strong>효과</strong> 위험은 홍수가 밀려나오며 이니셔티브를 굴립니다.</p>"
         },
         "Pz2JfI4HEqH5iEwA": {
-          "name": "더러운 열병 (Filth Fever)",
-          "description": "<p>더러움 열병으로 인해 병든 상태와 @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 잃음} 상태는 질병이 치료될 때까지 자연적으로 호전되지 않습니다.</p>\n<p><strong>내성 굴림</strong> @Check[fortitude|dc:20]</p>\n<p><strong>단계 1</strong> 무증상 보균자 ([[/gmr 1d4 #시간]]{1d4 시간})</p>\n<p><strong>단계 2</strong> @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1} (1일)</p>\n<p><strong>단계 3</strong> 병약 1과 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1} 병약 상태가 지속되는 동안 (1일)</p>\n<p><strong>Stage 4</strong> unconscious (1 day)</p>\n<p><strong>Stage 5</strong> dead</p>"
+          "name": "더러운 열병(Filth Fever)",
+          "description": "<p>더러움 열병으로 인해 병든 상태와 @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 잃음} 상태는 질병이 치료될 때까지 자연적으로 호전되지 않습니다.</p>\n<p><strong>내성 굴림</strong> @Check[fortitude|dc:20]</p>\n<p><strong>단계 1</strong> 무증상 보균자 ([[/gmr 1d4 #시간]]{1d4 시간})</p>\n<p><strong>단계 2</strong> @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1}(1일)</p>\n<p><strong>단계 3</strong> 병약 1과 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1} 병약 상태가 지속되는 동안 (1일)</p>\n<p><strong>Stage 4</strong> unconscious (1 day)</p>\n<p><strong>Stage 5</strong> dead</p>"
         }
       }
     },
     "Pharaoh's Ward": {
-      "name": "파라오의 병동 (Pharaoh's Ward)",
+      "name": "파라오의 병동(Pharaoh's Ward)",
       "desc (hazard)": "<p>문턱에 저주가 깃들었습니다.</p>",
-      "disable": "<p>@Check[thievery|dc:27|name:Remove the Lintel] (마스터) 마법을 발동하지 않고 문지방을 세심하게 제거하거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제} (4단계; 반격 DC 25)로 룬의 효과를 무효화해야 합니다.</p>",
+      "disable": "<p>@Check[thievery|dc:27|name:Remove the Lintel] (마스터) 마법을 발동하지 않고 문지방을 세심하게 제거하거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(4단계; 반격 DC 25)로 룬의 효과를 무효화해야 합니다.</p>",
       "reset": "<p>문이 닫히면 함정이 재설정됩니다.</p>",
       "stealth": "<p>(expert)</p>",
       "items": {
         "Cc30YjKZ7qSxVjSC": {
           "name": "Curse the Intruders",
-          "description": "<p><strong>Trigger</strong> 무덤의 봉인이 외부에서 깨졌습니다.</p>\n<hr />\n<p><strong>효과</strong> 60피트 이내의 모든 생물은 @Check[will|dc:23] 저항 내성에 성공하지 못하면 파라오의 저주에 걸립니다. 저주받은 생물은 인내 내성 검사에서 -2 상태 페널티를 받고, 받는 모든 자연적 또는 마법적 치유 효과가 반으로 줄어듭니다. 이 저주는 @UUID[Compendium.pf2e.spells-srd.Item.SUKaxVZW2TlM8lu0]{Cleanse Affliction} 또는 유사한 마법으로 제거될 때까지 지속됩니다.</p>"
+          "description": "<p><strong>Trigger</strong> 무덤의 봉인이 외부에서 깨졌습니다.</p>\n<hr />\n<p><strong>효과</strong> 60피트 이내의 모든 생물은 @Check[will|dc:23] 저항 내성에 성공하지 못하면 파라오의 저주에 걸립니다. 저주받은 생물은 인내 내성 굴림에서 -2 상태 페널티를 받고, 받는 모든 자연적 또는 마법적 치유 효과가 반으로 줄어듭니다. 이 저주는 @UUID[Compendium.pf2e.spells-srd.Item.SUKaxVZW2TlM8lu0]{Cleanse Affliction} 또는 유사한 마법으로 제거될 때까지 지속됩니다.</p>"
         }
       }
     },
     "Banshee's Symphony": {
-      "name": "밴시의 교향곡 (Banshee's Symphony)",
+      "name": "밴시의 교향곡(Banshee's Symphony)",
       "desc (hazard)": "<p>마법으로 전염되는 <em>밴시의 울부짖음</em> 마법이 투명하고 미라화된 엘프의 후두에 갇혀 있습니다.</p>",
       "disable": "<p>@Check[thievery|dc:42|name:Pierce Larynx|traits:action:disable-a-device] (마스터) 보이지 않는 성대를 정확히 뚫어 마법이 함정이 활성화되기 전에 흘러나오게 하고, @Check[thievery|dc:44|name:Deconstruct Larynx|traits:action:disable-a-device] (전설급) 함정이 활성화된 상태에서 성대를 분해하여 주문을 조각내거나, 주문 DC 38 (9레벨)로 <em>반시이의 울부짖음</em>가 트랩이 활성화되기 전에</p>",
-      "reset": "<p>트랩은 생물이 비명을 지르지 못할 때(일반적으로 이전 턴에 생물이 내성 검사에서 실패하지 않았거나 모든 생물이 과거에 치명적으로 성공했기 때문) 종료됩니다. 이후 24시간 동안 재설정되며, 미라화된 후두에서 새로운 비명이 쌓입니다.</p>",
-      "routine": "<p>(1 행동) 함정은 자신의 행동을 사용하여 <em>반시이의 울부짖음 내성</em> 지난 턴에 <em>banshee의 울부짖음</em>에 저항 검사에 실패한 랜덤한 생물 한 마리를 강제로 <em>banshee의 울부짖음</em>을 발산하게 합니다. 이 생물은 죽었거나 말할 수 없더라도, 함정으로부터의 거리와 관계없이 울부짖습니다. 이 함정의 <em>wail of the banshee</em> 주문의 흡수 상태는 대상의 흡수 상태 값을 증가시킵니다. 내성 검사에서 비판적으로 성공한 생물은 향후 라운드에서 함정에 영향을 받을 수 있지만, 함정에 의해 울부짖도록 강요받을 수는 없습니다.</p>",
+      "reset": "<p>트랩은 생물이 비명을 지르지 못할 때(일반적으로 이전 턴에 생물이 내성 굴림에서 실패하지 않았거나 모든 생물이 과거에 치명적으로 성공했기 때문) 종료됩니다. 이후 24시간 동안 재설정되며, 미라화된 후두에서 새로운 비명이 쌓입니다.</p>",
+      "routine": "<p>(1 행동) 함정은 자신의 행동을 사용하여 <em>반시이의 울부짖음 내성</em> 지난 턴에 <em>banshee의 울부짖음</em>에 저항 검사에 실패한 랜덤한 생물 한 마리를 강제로 <em>banshee의 울부짖음</em>을 발산하게 합니다. 이 생물은 죽었거나 말할 수 없더라도, 함정으로부터의 거리와 관계없이 울부짖습니다. 이 함정의 <em>wail of the banshee</em> 주문의 흡수 상태는 대상의 흡수 상태 값을 증가시킵니다. 내성 굴림에서 비판적으로 성공한 생물은 향후 라운드에서 함정에 영향을 받을 수 있지만, 함정에 의해 울부짖도록 강요받을 수는 없습니다.</p>",
       "stealth": "<p>(전설급)</p>",
       "items": {
         "nqcgUfOiRWy6Kti7": {
-          "name": "비명 (Scream)",
+          "name": "비명(Scream)",
           "description": "<p><strong>트리거</strong> 3개 이상의 살아있는 생물이 함정으로부터 100피트 이내에 6초 이상 머무릅니다.</p>\n<hr />\n<p><strong>효과</strong> 함정은 40피트 반경 대신 100피트 반경으로 방출되는 마법적인 <em>반시이의 울부짖음</em> (DC 40)을 발동하며, 해당 지역 내 모든 살아있는 생물을 대상으로 하고 이니셔티브를 굴립니다.</p>"
         }
       }
     },
     "Insistent Privacy Fence": {
-      "name": "집요한 사생활 보호 울타리 (Insistent Privacy Fence)",
+      "name": "집요한 사생활 보호 울타리(Insistent Privacy Fence)",
       "desc (hazard)": "<p>숨겨진 스타시안 코일로 전기화된 울타리 구간.</p>",
       "disable": "<p>@Check[thievery|dc:28|name:Disconnect the coil from the fence|traits:electricity,hazard,trap,mechanical] (전문가) 울타리에서 코일을 조심스럽게 분리하거나 @Check[crafting|dc:30|name:Jury-rig a grounding device|traits:electricity,hazard,trap,mechanical] (마스터) 임시 접지 장치를 설치하여 충격을 무효화하십시오.</p>",
       "reset": "<p> 함정은 1분 후 자동으로 해제되고 재설정됩니다.</p>",
@@ -631,9 +631,9 @@
       }
     },
     "Summoning Rune": {
-      "name": "소환 룬 (Summoning Rune)",
+      "name": "소환 룬(Summoning Rune)",
       "desc (hazard)": "<p>소환할 생물의 크기와 동일한 크기의 보이지 않는 벽이나 바닥 룬을 둘러싸는 10피트 반경의 보이지 않는 마법 센서 구름이 형성됩니다.</p>",
-      "disable": "<p>@Check[acrobatics|dc:15|name:Approach Rune] 함정을 발동시키지 않고 접근한 후 @Check[thievery|dc:17|name:Erase Rune|traits:action:disable-a-device] (훈련된)으로 룬을 지우거나 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제} (1단계; 반격 DC 15)를 사용하여 룬을 반격합니다.</p>",
+      "disable": "<p>@Check[acrobatics|dc:15|name:Approach Rune] 함정을 발동시키지 않고 접근한 후 @Check[thievery|dc:17|name:Erase Rune|traits:action:disable-a-device] (훈련된)으로 룬을 지우거나 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(1단계; 반격 DC 15)를 사용하여 룬을 반격합니다.</p>",
       "reset": "<p>이 함정은 매일 새벽에 재설정됩니다.</p>",
       "stealth": "<p>(trained)</p>",
       "items": {
@@ -644,7 +644,7 @@
       }
     },
     "Lava Flume Tube": {
-      "name": "용암 터널 (Lava Flume Tube)",
+      "name": "용암 터널(Lava Flume Tube)",
       "hpdetails": "채널 게이트를 파괴하기 위해 (이것은 해당 채널이 무력화되는 것을 방지하고 함정이 재설정되는 것을 막습니다); <strong>바닥 경도</strong> 18; <strong>바닥 HP</strong> 72 (BT 36)",
       "desc (hazard)": "<p>돌에 새겨진 네 개의 게이트 채널이 용암이 15피트 높이의 방으로 흐르도록 허용합니다; 바닥은 단단해진 용암이 아래의 챔버로 떨어지도록 후퇴할 수 있습니다.</p>",
       "disable": "<p>@Check[thievery|dc:29|name:Block a Channel|traits:action:disable-a-device] (전문가)로 채널을 차단하거나, @Check[thievery|dc:31|name:Release Floor Latch|traits:action:disable-a-device] (마스터)로 바닥 잠금 장치를 해제하고 아래 방으로 탈출할 수 있습니다.</p>",
@@ -653,13 +653,13 @@
       "stealth": "<p>(훈련된)</p>",
       "items": {
         "slQb54KbvJ8vJpRb": {
-          "name": "플룸 활성화 (Flume Activation)",
+          "name": "플룸 활성화(Flume Activation)",
           "description": "<p><strong>트리거</strong> 생물이 방을 떠나려고 시도합니다.</p>\n<hr />\n<p><strong>효과</strong> 출구가 즉시 봉쇄되고 함정이 이니셔티브를 굴립니다.</p>"
         }
       }
     },
     "Confounding Betrayal": {
-      "name": "혼란스러운 배신 (Confounding Betrayal)",
+      "name": "혼란스러운 배신(Confounding Betrayal)",
       "desc (hazard)": "<p>동료들이 위장을 벗고 악의적인 괴물로 모습을 드러냅니다.</p>",
       "disable": "<p>@Check[deception|dc:28|name:Confound the Haunt] (전문가) 두 번 사용하여 유령의 혼란을 자신의 기만으로 혼란스럽게 하거나, @Check[occultism|dc:28|name:Create a Ward Against Influence] (훈련된) 두 번 사용하여 유령의 정신적 영향으로부터 방어막을 생성합니다.</p>",
       "reset": "<p>유령은 모든 생물이 지역을 떠난 후 1분 후에 비활성화되지만, 그 직후 즉시 재설정됩니다.</p>",
@@ -667,13 +667,13 @@
       "stealth": "<p>(전문가)</p>",
       "items": {
         "QrgnumULVnz8pWfK": {
-          "name": "가면 벗기기 (Unmask)",
+          "name": "가면 벗기기(Unmask)",
           "description": "<p><strong>트리거</strong> 두 마리 이상의 생물이 유령의 영역에 들어갑니다.</p>\n<hr />\n<p><strong>효과</strong> 각 생물은 근처의 생물들의 형태가 변형되고 변화하는 것을 보며, 피를 갈망하는 악마나 변이된 존재로 변하는 것처럼 보인다. 해당 지역 내의 모든 생물은 @Check[will|dc:30] 내성을 시도해야 한다. 유령은 이니셔티브를 굴림합니다.</p>\n<hr />\n<p><strong>대성공</strong> 생물은 환상을 완전히 꿰뚫어 보고 유령의 일상적인 효과에 1분 동안 일시적으로 면역이 됩니다.</p>\n<p><strong>성공</strong> 생물은 이상한 이미지에 영향을 받지 않습니다.</p>\n<p><strong>실패</strong> 생물은 환상을 진실로 믿습니다. 만약 생물이 유령의 루틴에 의해 @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{혼란} 상태가 되면, 피해를 입을 때 혼란 상태를 끝내기 위한 플랫 체크를 시도할 수 없습니다.</p>\n<p><strong>대실패</strong> 실패와 동일하지만, 생물은 다른 이들에 대한 지속적인 의심을 남기고 24시간 동안 도움 반응의 혜택을 받을 수 없습니다.</p>"
         }
       }
     },
     "Grasp Of The Damned": {
-      "name": "저주받은 자의 움켜짐 (Grasp Of The Damned)",
+      "name": "저주받은 자의 움켜짐(Grasp Of The Damned)",
       "desc (hazard)": "<p>이 절망적인 영혼들은 악의 신의 이름으로 끔찍한 범죄를 저지른 사람들의 잔영입니다. 이제 그들은 영혼이 저주받았다는 지식과, 악마 같은 주인들에게 강력한 제물을 바침으로써 자신의 운명을 개선할 수 있다는 흔들리지 않는 믿음만 남아 있습니다.</p>",
       "disable": "<p>@Check[religion|dc:46|name:Call For Divine Intervention] (주인) 신을 자극하여 의식을 방해하고 반격시키기 위해</p>",
       "reset": "<p>1일</p>",
@@ -681,24 +681,24 @@
       "items": {
         "hK2a0NJwqQgjs15q": {
           "name": "Mark for Damnation",
-          "description": "<p><strong>트리거</strong> 13레벨 이상의 지능을 가진 생물 3마리 이상이 유령의 영역에 들어갈 때.</p>\n<hr />\n<p><strong>효과</strong> 유령은 유령의 영역 내 모든 생물에게 @Damage[(6d12+35)[void]]의 피해를 입히고, 각 생물은 @Check[will|dc:40|traits:damaging-effect]의 내성 검사를 시도해야 합니다.</p>\n<hr />\n<p><strong>대성공</strong> 생물은 피해를 받지 않으며 1번의 운명 상태가 됩니다.</p>\n<p><strong>성공</strong> 생물은 반의 피해를 받고 운명 1을 받습니다.</p>\n<p><strong>실패</strong> 생물은 전체 피해를 받고 운명 2를 받으며 저주 표시가 됩니다.</p>\n<p><strong>대실패</strong> 생물은 두 배의 피해를 입으며, 운명 3을 받고 저주 표시를 받습니다.</p>\n<p>저주받은 영혼으로 표시된 생물이 다음 24시간 내에, 저주 효과의 피해 포함하여 사망하면, 그 영혼은 즉시 저주받은 영혼들이 섬겼던 악의 신의 차원으로 끌려가며, 그 신의 강력한 종복 중 하나에 의해 영혼이 포로로 잡히게 됩니다. <em>소원</em>과 마찬가지로 강력한 효과만이 잃어버린 영혼을 직접 회복시킬 수 있습니다. 그러나 악의 차원으로 여행하여 영혼의 포로로 잡힌 존재를 물리치는 방법으로도 영혼을 회복할 수 있습니다.</p>"
+          "description": "<p><strong>트리거</strong> 13레벨 이상의 지능을 가진 생물 3마리 이상이 유령의 영역에 들어갈 때.</p>\n<hr />\n<p><strong>효과</strong> 유령은 유령의 영역 내 모든 생물에게 @Damage[(6d12+35)[void]]의 피해를 입히고, 각 생물은 @Check[will|dc:40|traits:damaging-effect]의 내성 굴림을 시도해야 합니다.</p>\n<hr />\n<p><strong>대성공</strong> 생물은 피해를 받지 않으며 1번의 운명 상태가 됩니다.</p>\n<p><strong>성공</strong> 생물은 반의 피해를 받고 운명 1을 받습니다.</p>\n<p><strong>실패</strong> 생물은 전체 피해를 받고 운명 2를 받으며 저주 표시가 됩니다.</p>\n<p><strong>대실패</strong> 생물은 두 배의 피해를 입으며, 운명 3을 받고 저주 표시를 받습니다.</p>\n<p>저주받은 영혼으로 표시된 생물이 다음 24시간 내에, 저주 효과의 피해 포함하여 사망하면, 그 영혼은 즉시 저주받은 영혼들이 섬겼던 악의 신의 차원으로 끌려가며, 그 신의 강력한 종복 중 하나에 의해 영혼이 포로로 잡히게 됩니다. <em>소원</em>과 마찬가지로 강력한 효과만이 잃어버린 영혼을 직접 회복시킬 수 있습니다. 그러나 악의 차원으로 여행하여 영혼의 포로로 잡힌 존재를 물리치는 방법으로도 영혼을 회복할 수 있습니다.</p>"
         }
       }
     },
     "Bloodthirsty Urge": {
-      "name": "피에 굶주린 충동 (Bloodthirsty Urge)",
+      "name": "피에 굶주린 충동(Bloodthirsty Urge)",
       "desc (hazard)": "<p>악랄한 정신의 에코에 휩싸인 물체가 가까이 다가오는 사람을 죽이려고 시도합니다.</p>",
       "disable": "<p>@Check[religion|dc:29|name:Exorcise Spirit] (마스터) 영혼을 쫓아내거나 @Check[diplomacy|dc:31|name:Talk Down the Spirit] (전문가) 설득하여 진정시키기</p>",
       "stealth": "<p>(trained)</p>",
       "items": {
         "0FpzSygcs7G688GT": {
           "name": "Quietus",
-          "description": "<p><strong>트리거</strong> 유령이 10피트 이내로 이동합니다.</p>\n<hr />\n<p><strong>효과</strong> 유령이 트리거링 생물을 제어하여 자신을 공격하도록 강요합니다. 생물은 @Check[will|dc:29] 내성 검사를 시도해야 합니다.</p>\n<hr />\n<p><strong>대성공</strong> 대상은 영향을 받지 않습니다.</p>\n<p><strong>성공</strong> 대상은 자신에게 공격을 시도하고 자동으로 명중합니다; 대상은 또한 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 1} 상태가 됩니다.</p>\n<p><strong>실패</strong> 대상은 자신에게 공격을 가하고 자동으로 치명타를 입히며, 대상은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 2} 상태가 됩니다.</p>\n<p><strong>대실패</strong> 대상은 인내 내성 검사를 시도합니다. 대상이 성공하면 실패의 효과를 받습니다. 대상이 실패하면 HP가 0으로 감소하고 사망합니다.</p>"
+          "description": "<p><strong>트리거</strong> 유령이 10피트 이내로 이동합니다.</p>\n<hr />\n<p><strong>효과</strong> 유령이 트리거링 생물을 제어하여 자신을 공격하도록 강요합니다. 생물은 @Check[will|dc:29] 내성 굴림을 시도해야 합니다.</p>\n<hr />\n<p><strong>대성공</strong> 대상은 영향을 받지 않습니다.</p>\n<p><strong>성공</strong> 대상은 자신에게 공격을 시도하고 자동으로 명중합니다; 대상은 또한 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 1} 상태가 됩니다.</p>\n<p><strong>실패</strong> 대상은 자신에게 공격을 가하고 자동으로 치명타를 입히며, 대상은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 2} 상태가 됩니다.</p>\n<p><strong>대실패</strong> 대상은 인내 내성 굴림을 시도합니다. 대상이 성공하면 실패의 효과를 받습니다. 대상이 실패하면 HP가 0으로 감소하고 사망합니다.</p>"
         }
       }
     },
     "Hammer Of Forbiddance": {
-      "name": "금지망치 (Hammer Of Forbiddance)",
+      "name": "금지망치(Hammer Of Forbiddance)",
       "hpdetails": "관절 경도: 16, 관절 HP: 64 (BT 32)",
       "desc (hazard)": "<p>건물의 입구에 있는 거대한 망치가 내려쳐져 해당 지역으로 들어오는 생물에 피해를 주고 밀어내며 더 이상 진행하지 못하게 시도합니다.</p>",
       "disable": "<p>@Check[thievery|dc:28|name:Prevent Hammer from Swinging|traits:action:disable-a-device] (전문가) 망치 자체에 한 번, 관절에 한 번 마법을 걸어 망치가 휘두르지 못하게 합니다.</p>",
@@ -710,13 +710,13 @@
           "description": "<p><strong>트리거</strong> 생물이 입구를 통해 들어오려고 시도합니다.</p>\n<hr />\n<p><strong>효과</strong> 망치가 내려쳐 트리거링 생물에게 공격을 가합니다.</p>"
         },
         "pLuxXYKq1Wi28Czn": {
-          "name": "망치 (Hammer)",
-          "description": "<p>타격 시, 대상은 10피트 뒤로 밀려나며 @Check[will|dc:30]에 성공해야 24시간 동안 어떤 출입구로도 건물에 들어갈 수 없습니다(크리티컬 히트 시, 대상은 의지 내성 검사에 자동으로 대실패합니다); 다중 공격 페널티 없음</p>"
+          "name": "망치(Hammer)",
+          "description": "<p>타격 시, 대상은 10피트 뒤로 밀려나며 @Check[will|dc:30]에 성공해야 24시간 동안 어떤 출입구로도 건물에 들어갈 수 없습니다(대성공 시, 대상은 의지 내성 굴림에 자동으로 대실패합니다); 다중 공격 페널티 없음</p>"
         }
       }
     },
     "Hallucination Powder Trap": {
-      "name": "환각 가루 함정 (Hallucination Powder Trap)",
+      "name": "환각 가루 함정(Hallucination Powder Trap)",
       "desc (hazard)": "<p>환각 가루가 든 관에 미니 폭발물이 장착되어 문 손잡이 또는 유사한 잠금 장치에 연결되어 있습니다.</p>",
       "disable": "<p>@Check[thievery|dc:26|name:Disable Hammer|traits:action:disable-a-device] (전문가) 타격 캡을 공격하는 해머를 무력화합니다</p>",
       "stealth": "<p>(expert)</p>",
@@ -728,7 +728,7 @@
       }
     },
     "Poisoned Lock": {
-      "name": "독이 묻은 잠금장치 (Poisoned Lock)",
+      "name": "독이 묻은 잠금장치(Poisoned Lock)",
       "desc (hazard)": "<p>잠금장치의 열쇠구멍 근처에 독이 묻은 스프링식 가시가 숨겨져 있습니다. 함정을 무력화하거나 파괴해도 잠금장치는 무력화되거나 파괴되지 않습니다.</p>",
       "disable": "<p>@Check[thievery|dc:17|name:Disarm Lock Trap|traits:mechanical,trap] (trained) on the spring mechanism</p>",
       "stealth": "<p>(trained)</p>",
@@ -742,12 +742,12 @@
         },
         "HoWRGPkBlJjsL9zl": {
           "name": "Cladis Poison",
-          "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:19]</p>\n<p><strong>최대 지속 시간</strong> 4시간</p>\n<p><strong>단계 1</strong> @Damage[1d6[poison]] 피해와 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 1} (1시간)</p>\n<p><strong>단계 2</strong> @Damage[2d6[poison]] 피해 및 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 2} (1시간)</p>\n<p><strong>단계 3</strong> @Damage[3d6[poison]] 피해 및 흡수 2 (1시간)</p>"
+          "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:19]</p>\n<p><strong>최대 지속 시간</strong> 4시간</p>\n<p><strong>단계 1</strong> @Damage[1d6[poison]] 피해와 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 1}(1시간)</p>\n<p><strong>단계 2</strong> @Damage[2d6[poison]] 피해 및 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 2}(1시간)</p>\n<p><strong>단계 3</strong> @Damage[3d6[poison]] 피해 및 흡수 2 (1시간)</p>"
         }
       }
     },
     "Shrieker": {
-      "name": "Shrieker",
+      "name": "울부짖는 자(Shrieker)",
       "desc (hazard)": "<p>이 인간 크기의 보라색 버섯은 방해받을 때 날카로운 비명을 지릅니다.</p>",
       "disable": "<p>@Check[survival|dc:18|name:Disable Air Sac|traits:environmental,fungus] 조심스럽게 접근하여 슈리커를 자극하지 않고 버섯의 공기 주머니를 자르십시오.</p>",
       "reset": "<p>1 minute</p>",
@@ -759,7 +759,7 @@
       }
     },
     "Spear Launcher": {
-      "name": "창 발사기 (Spear Launcher)",
+      "name": "창 발사기(Spear Launcher)",
       "desc (hazard)": "<p> 창으로 충전된 벽 소켓이 5피트 칸의 바닥 타일과 연결됩니다.</p>",
       "disable": "<p>@Check[thievery|dc:18|name:Disable Thievery] (훈련된) 바닥 타일 또는 벽 소켓</p>",
       "stealth": "<p>(trained)</p>",
@@ -769,44 +769,44 @@
           "description": "<p><strong>트리거</strong> 바닥 타일에 압력이 가해집니다.</p>\n<hr />\n<p><strong>효과</strong> 함정이 창을 발사하여 바닥 타일에 있는 생물이나 물체에 공격을 가합니다.</p>"
         },
         "B486xwl3ZYYCqNyw": {
-          "name": "창 (Spear)"
+          "name": "창(Spear)"
         }
       }
     },
     "Gravehall Trap": {
-      "name": "무덤 홀 함정 (Gravehall Trap)",
+      "name": "무덤 홀 함정(Gravehall Trap)",
       "desc (hazard)": "<p>살아있는 생물이 함정 터널의 중간 지점을 통과하면, 벽과 천장에 묻힌 시체들이 네크로맨시 마법으로 부분적으로 움직이기 시작합니다.</p>",
       "disable": "<p>@Check[thievery|dc:24|name:Disrupt Magical Trigger|traits:action:disable-a-device] (전문가) 마법 트리거를 위험이 이니셔티브를 굴리기 전에 방해하거나, @Check[religion|dc:18|name:Overwhelm the Area with Vitality Energy] (훈련된) 생명력 에너지로 지역을 압도하여 위험이 1 라운드 동안 루틴을 사용하지 못하게 합니다; 종교 체크에서 세 번째 성공 시 네크로맨틱 에너지가 방해받고 위험이 파괴됩니다.</p>",
       "routine": "<p>(1 행동) 언데드 주먹이 홀 내 모든 생물에게 @Damage[4d6[bludgeoning]]의 피해를 입힙니다. 홀 내의 모든 생물은 @Check[reflex|dc:21]를 시도해야 합니다.</p>\n<hr />\n<p><strong>대성공</strong> 대상은 영향을 받지 않습니다.</p>\n<p><strong>Success</strong> The target takes half damage.</p>\n<p><strong>Failure</strong> 목표는 전체 피해를 입으며, 속도가 10피트 감소합니다(최소 5피트).</p>\n<p><strong>대실패</strong> 대상은 두 배의 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{동결} 상태가 1 라운드 동안 지속됩니다.</p>",
       "items": {
         "8yNeU3TLczTIlFjP": {
-          "name": "돌진하는 죽은 자 (Lunging Dead)",
+          "name": "돌진하는 죽은 자(Lunging Dead)",
           "description": "<p><strong>트리거</strong> 살아있는 생물이 터널의 중간 지점을 통과합니다</p>\n<hr />\n<p><strong>효과</strong> 죽은 자들이 벽과 천장에서 손을 뻗어 나오며 신음하며 꿈틀대는 구더기를 토해낸다. 방 안에 있는 생물들은 @Check[will|dc:21] 내성을 시도해야 한다. 함정은 이후 이니셔티브를 굴린다.</p>\n<hr />\n<p><strong>대성공</strong> 대상은 영향을 받지 않습니다.</p>\n<p><strong>Success</strong> The target is @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened}</p>\n<p><strong>실패</strong> 대상은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 2} 상태입니다. 함정 영역 내에 있는 동안 공포 상태를 1 이하로 줄일 수 없습니다.</p>\n<p><strong>대실패</strong> 실패로 처리되며, 대상은 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비} 상태가 1 라운드 동안 적용됩니다.</p>"
         }
       }
     },
     "Bottomless Pit": {
-      "name": "무한한 구덩이 (Bottomless Pit)",
+      "name": "무한한 구덩이(Bottomless Pit)",
       "desc (hazard)": "<p>철제 함정이 10피트 칸의 무한히 깊은 구덩이를 덮고 있습니다.</p>",
       "disable": "<p>@Check[thievery|dc:28|name:Remove Trapdoor|traits:action:disable-a-device] (trained) to remove the trapdoor</p>",
       "reset": "<p>함정은 여전히 떨어지는 생물들이 영원히 떨어지게 하지만, 함정문을 수동으로 재설정해야 함정이 다시 숨겨진 상태가 됩니다.</p>",
       "stealth": "<p>(또는 트랩문이 비활성화되거나 고장난 경우 0) 또는 <em>마법 감지</em></p>",
       "items": {
         "WJtDPJzNrJO19H6k": {
-          "name": "무한 함정 (Infinite Pitfall)",
+          "name": "무한 함정(Infinite Pitfall)",
           "description": "<p><strong>트리거</strong> 생물이 함정 문 위에 걸어 들어갑니다</p>\n<hr />\n<p><strong>효과</strong> 트리거를 활성화한 생물이 함정으로 떨어지며 계속 떨어지며, 영원히 떨어질 수 있습니다. 해당 생물은 @UUID[Compendium.pf2e.actionspf2e.Item.3yoajuKjwHZ9ApUY]{가장자리를 잡기}를 시도하여 떨어지는 것을 피할 수 있습니다. 벽을 기어오르거나 가장자리를 잡는 데 필요한 DC는 26입니다. 구덩이에는 많은 손잡이가 있으므로 떨어지는 생물은 6초마다 다시 가장자리 붙잡기를 시도할 수 있습니다. 성공하면 그 지점에서 기어오르기 시작할 수 있지만(떨어진 거리 depending on how far the creature fell에 따라 매우 긴 시간이 걸릴 수 있음), 생물은 끝없이 떨어지기 때문에 떨어지는 동안 휴식을 취하거나 주문을 준비할 수 있습니다. 다만 떨어지는 동안 떨어뜨린 아이템은 보통 영원히 잃게 됩니다.</p>"
         }
       }
     },
     "Planar Rift": {
-      "name": "차원 균열 (Planar Rift)",
+      "name": "차원 균열(Planar Rift)",
       "desc (hazard)": "<p>균열은 생물을 다른 차원으로 끌어들이려고 시도합니다(GM이 특정 차원을 선택합니다).</p>",
-      "disable": "<p>@Check[thievery|dc:33|name:Assemble a Rift Seal|traits:action:disable-a-device] (마스터) 자신의 차원에 강하게 연결된 물체를 사용하여 균열 봉인 장치를 조립하거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제} (7단계; 저항 DC 31)로 균열을 반격할 수 있습니다.</p>",
+      "disable": "<p>@Check[thievery|dc:33|name:Assemble a Rift Seal|traits:action:disable-a-device] (마스터) 자신의 차원에 강하게 연결된 물체를 사용하여 균열 봉인 장치를 조립하거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(7단계; 저항 DC 31)로 균열을 반격할 수 있습니다.</p>",
       "stealth": "<p>(trained)</p>",
       "items": {
         "K7Ya0U5jerfvH0vw": {
           "name": "Into the Great Beyond",
-          "description": "<p><strong>트리거</strong> 틈새로부터 10피트 이내에 생물이 이동합니다.</p>\n<hr />\n<p><strong>효과</strong> 트리거링 생물과 균열로부터 30피트 이내의 모든 생물이 다른 차원으로 끌려갑니다. 각 생물은 이 운명을 피하기 위해 @Check[reflex|dc:33] 내성 검사를 시도할 수 있습니다.</p>"
+          "description": "<p><strong>트리거</strong> 틈새로부터 10피트 이내에 생물이 이동합니다.</p>\n<hr />\n<p><strong>효과</strong> 트리거링 생물과 균열로부터 30피트 이내의 모든 생물이 다른 차원으로 끌려갑니다. 각 생물은 이 운명을 피하기 위해 @Check[reflex|dc:33] 내성 굴림을 시도할 수 있습니다.</p>"
         }
       }
     }

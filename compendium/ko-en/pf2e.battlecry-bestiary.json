@@ -2,39 +2,39 @@
   "label": "배틀크라이",
   "entries": {
     "Boggard Dreadknot": {
-      "name": "보가드 공포기병대 (Boggard Dreadknot)",
+      "name": "보가드 공포기병대(Boggard Dreadknot)",
       "description": "<p>보가드 공포기병대는 거대한 개구리를 타고 전투에 임하며 몽둥이를 휘두르는데, 종종 늪지대 고향을 벗어나 적들의 마음에 공포를 강타한다.</p>",
       "hpdetails": "(4 세그먼트); 임계값 120 (3 세그먼트), 60 (2 세그먼트)",
       "items": {
         "icFtpyk3vKrnSxKV": {
-          "name": "부대 방어 (Troop Defenses)",
+          "name": "부대 방어(Troop Defenses)",
           "description": "<p><strong>HP</strong> 180 (4 세그먼트); <strong>임계값</strong> 120 (3 구간), 60 (2 구간)</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
         },
         "i5jWmQ8e6h6E4QoP": {
-          "name": "부대 이동 (Troop Movement)"
+          "name": "부대 이동(Troop Movement)"
         },
         "YIQIuTTrnRTLS3kt": {
-          "name": "양서류 돌격 (Batrachian Blitz)",
+          "name": "양서류 돌격(Batrachian Blitz)",
           "description": "<p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 보가드 공포기병대은 @Template[type:emanation|distance:5] 내의 각 적을 몽둥이로 내리쳐, @Check[reflex|dc:26|basic|options:area-effect] 내성. 가하는 피해는 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[2d6[bludgeoning]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(3d6+10)[bludgeoning]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(4d6+13)[bludgeoning]|options:area-damage] damage</p>"
         },
         "oJPw0n4DdxpkVNlK": {
-          "name": "콧노래의 합창 (Chorus of Croaks)",
+          "name": "콧노래의 합창(Chorus of Croaks)",
           "description": "<p>보가드 공포기병대이 소름 끼치는 개구리 울음소리를 내뿜는다. 30피트 내의 비-보가드는 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 1} 상태가 되며, @Check[will|dc:26|options:area-effect,inflicts:frightened] 저항에 성공하지 못할 경우 해당된다. 대성공한 자는 1분 동안 일시적으로 면역된다.</p>"
         },
         "P7BbgkbC8XZ9bU1X": {
-          "name": "창 일제 사격 (Javelin Barrage)",
+          "name": "창 일제 사격(Javelin Barrage)",
           "description": "<p>보가드 공포기병대가 창을 뽑아 조율된 일제 사격을 가한다. 이 포격은 30피트 내의 @Template[type:burst|distance:10]로, @Damage[4d6[piercing]|options:area-damage] 피해를 입힌다 (@Check[reflex|dc:26|basic|options:area-effect] 내성). 보가드 공포기병대가 2개 세그먼트로 줄어들면 이 범위는 @Template[type:burst|distance:5]로 축소된다.</p>"
         },
         "3B62IJtohsC40PBN": {
-          "name": "기마 부대 (Mounted Troop)",
+          "name": "기마 부대(Mounted Troop)",
           "description": "<p>동물 또는 휴머노이드만을 대상으로 하는 효과는 GM의 재량에 따라 보가드 공포기병대에게 적용되지 않을 수 있습니다.</p>"
         },
         "x9EwNYVrQ0Hm6zKF": {
-          "name": "늪지 통과 (Swamp Passage)",
+          "name": "늪지 통과(Swamp Passage)",
           "description": "<p>보가드 공포기병대는 늪 지형 특징으로 인한 어려운 지형을 무시합니다.</p>"
         },
         "FLM2nudormV08hBs": {
-          "name": "혀 채찍질 (Tongue Lashing)",
+          "name": "혀 채찍질(Tongue Lashing)",
           "description": "<p>보가드 공포기병대의 거대 개구리들은 @Template[type:emanation|distance:15] 내의 각 적을 혀로 채찍질하며, @Check[reflex|dc:26] 내성에 성공하지 못하면 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡기} 상태가 된다. 이렇게 붙잡기된 생물은 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{고정된} 상태가 되지는 않지만, 보가드 공포기병대으로부터 15피트 이상 떨어질 수 없습니다. 생물은 AC 25에 대한 공격으로 최소 15의 베기 피해를 입히면 혀 하나를 잘라낼 수 있습니다. 이 공격은 보가드 공포기병대에게 피해를 주지 않습니다.</p>"
         }
       },
@@ -45,122 +45,122 @@
       }
     },
     "Drake Flight": {
-      "name": "드레이크 비행 (Drake Flight)",
+      "name": "드레이크 비행(Drake Flight)",
       "description": "<p>서로 다른 생물군계의 드레이크들은 지리적 거리로 인해 거의 교류하지 않지만, 강력한 생물체, 고대 유물, 또는 자연 재해가 여러 종류의 드레이크를 한데 모아 하나의 끔찍한 살아있는 재앙으로 만들 수 있다. 이러한 무리는 전장에서 목격하기에 공포 그 자체다.</p>",
       "hpdetails": "(4구간), 임계치 160 (3구간), 80 (2구간)",
       "perception": "암흑 시야, 후각(정확하지 않음) 30피트",
       "items": {
         "icFtpyk3vKrnSxKV": {
-          "name": "부대 방어 (Troop Defenses)",
+          "name": "부대 방어(Troop Defenses)",
           "description": "<p><strong>체력</strong> 240 (4 구간), <strong> 임계값 </strong> 160 (3구간), 80 (2구간) </p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
         },
         "i5jWmQ8e6h6E4QoP": {
-          "name": "부대 이동 (Troop Movement)"
+          "name": "부대 이동(Troop Movement)"
         },
         "WWmwctWaT06hNzMR": {
-          "name": "드라코닉 맹공 (Draconic Onslaught)",
+          "name": "드라코닉 맹공(Draconic Onslaught)",
           "description": "<p>드레이크들이 광란하며 이빨과 꼬리로 마구 휘두른다. @Template[type:emanation|distance:10] 내의 각 적은 @Check[reflex|dc:30|basic|options:area-effect] 내성을 시도한다. 피해량은 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[2d8[untyped]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(3d8+10)[untyped]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(4d8+14)[untyped]|options:area-damage] damage</p>"
         },
         "FUmBqO0V8PxJ39YL": {
-          "name": "드레이크의 숨결 (Drake Breath)",
+          "name": "드레이크의 숨결(Drake Breath)",
           "description": "<p>비행대 내 특정 드레이크들이 숨결 무기(또는 유사 능력)를 사용해 120피트(약 36.5m) 반경 @Template[type:burst|distance:15] 내에서 폭발하는 에너지를 내뿜는다. 이 폭발은 @Damage[5d6[untyped]|options:area-damage]의 피해(산성, 냉기, 화염, 또는 독 피해)를 입힌다; 해당 능력은 대응하는 특성을 얻는다. 드레이크 비행대는 다른 피해 유형으로 이 능력을 사용할 때까지 동일한 피해 유형을 선택할 수 없다. 드레이크가 2개 세그먼트로 줄어들면 이 범위는 @Template[type:burst|distance:10]로 감소한다.</p>"
         },
         "hL2HetxBFbq6nqu3": {
-          "name": "속도 급증 (Speed Surge)",
+          "name": "속도 급증(Speed Surge)",
           "description": "<p><strong>사용 빈도</strong> 하루에 세 번</p><hr /><p><strong>효과</strong> 드레이크 비행체가 두 번 이동하거나 날아간다.</p>"
         }
       }
     },
     "Ratfolk Shank Squad": {
-      "name": "랫포크 다리 부대 (Ratfolk Shank Squad)",
+      "name": "랫포크 다리 부대(Ratfolk Shank Squad)",
       "hpdetails": "(4 구간); 임계값 80 (3 구간), 40 (2 구간)",
       "perception": "암흑 시야",
       "items": {
         "icFtpyk3vKrnSxKV": {
-          "name": "부대 방어 (Troop Defenses)",
+          "name": "부대 방어(Troop Defenses)",
           "description": "<p><strong>체력</strong> 120 (4 구간); <strong>한계치</strong> 80 (3 구간), 40 (2 구간)</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
         },
         "i5jWmQ8e6h6E4QoP": {
-          "name": "부대 이동 (Troop Movement)"
+          "name": "부대 이동(Troop Movement)"
         },
         "4PScM2COzIjHjq0W": {
-          "name": "비열한 술책 (Dirty Tricks)",
+          "name": "비열한 술책(Dirty Tricks)",
           "description": "<p>랫포크는 @Template[type:emanation|distance:5]에서 적을 속여 넘어뜨리려 시도하며, 단일 @Check[thievery|against:reflex] 체크를 수행하고 그 결과를 각 대상의 반사 DC와 비교한다. 성공 시, 대상은 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1} 상태가 되며(대성공 시 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 2}), 상호작용 행동을 통해 상태를 제거할 때까지 지속됩니다.</p>"
         },
         "PFRTcxVCSgkl4Vru": {
-          "name": "독화살 (Poisoned Bolts)",
-          "description": "<p>창병 부대가 손에 든 석궁을 꺼내 독이 묻은 화살을 일제 사격한다. 이 일제 사격은 60피트 내의 @Template[type:burst|distance:10] 범위에서 @Damage[2d6[piercing],2d6[독]|options:area-damage]{2d6 관통 피해와 2d6 독 피해}를 입히며, @Check[reflex|dc:22|basic|options:area-effect] 내성 검사를 받는다. 샹크 분대가 2개 세그먼트로 줄어들면 이 영역은 @Template[type:burst|distance:5]로 축소됩니다.</p>"
+          "name": "독화살(Poisoned Bolts)",
+          "description": "<p>창병 부대가 손에 든 석궁을 꺼내 독이 묻은 화살을 일제 사격한다. 이 일제 사격은 60피트 내의 @Template[type:burst|distance:10] 범위에서 @Damage[2d6[piercing],2d6[독]|options:area-damage]{2d6 관통 피해와 2d6 독 피해}를 입히며, @Check[reflex|dc:22|basic|options:area-effect] 내성 굴림을 받는다. 샹크 분대가 2개 세그먼트로 줄어들면 이 영역은 @Template[type:burst|distance:5]로 축소됩니다.</p>"
         },
         "XmcGqmrImLqgyZm4": {
-          "name": "샤크 '엠 (Shank 'Em)",
-          "description": "<p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 샹크 분대는 @Template[type:emanation|distance:5] 내의 각 적을 대상으로 @Check[reflex|dc:22|basic|options:area-effect] 내성 검사를 적용한 단검과 뾰족한 칼을 이용한 조율된 공격을 가한다. 피해량은 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[1d6[slashing],1d4[precision]|options:area-damage]{1d6 slashing damage and 1d4 precision damage}</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d6+3)[slashing],2d4[precision]|options:area-damage]{2d6+3 slashing damage and 2d4 precision damage}</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(2d6+6)[slashing],3d4[precision]|options:area-damage]{2d6+6 slashing damage and 3d4 precision damage}</p>"
+          "name": "샤크 '엠(Shank 'Em)",
+          "description": "<p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 샹크 분대는 @Template[type:emanation|distance:5] 내의 각 적을 대상으로 @Check[reflex|dc:22|basic|options:area-effect] 내성 굴림을 적용한 단검과 뾰족한 칼을 이용한 조율된 공격을 가한다. 피해량은 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[1d6[slashing],1d4[precision]|options:area-damage]{1d6 slashing damage and 1d4 precision damage}</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d6+3)[slashing],2d4[precision]|options:area-damage]{2d6+3 slashing damage and 2d4 precision damage}</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(2d6+6)[slashing],3d4[precision]|options:area-damage]{2d6+6 slashing damage and 3d4 precision damage}</p>"
         }
       }
     },
     "Vanth Guardian Flock": {
-      "name": "반스 수호자 무리 (Vanth Guardian Flock)",
+      "name": "반스 수호자 무리(Vanth Guardian Flock)",
       "description": "<p>반스의 사이코폼프들은 생과 사의 순환을 영원히 지키는 수호자들이다. 영혼들이 핀드나 다른 악의적인 세력에 위협받을 때, 그들은 모여 그 위협을 제거한다.</p>",
       "hpdetails": "(4 세그먼트); 한계치 160 (3 세그먼트), 80 (2 세그먼트)",
       "items": {
         "OOJxypjWRzmy0t0N": {
-          "name": "공포스러운 존재 (Frightful Presence)",
+          "name": "공포스러운 존재(Frightful Presence)",
           "description": "<p>20피트 @Check[will|dc:30]</p><hr /><p>@Localize[PF2E.NPC.Abilities.Glossary.FrightfulPresence]</p>"
         },
         "MsKH9CcQ2FUFYARf": {
-          "name": "반응적 재배치 (Reactive Relocation)",
+          "name": "반응적 재배치(Reactive Relocation)",
           "description": "<p><strong>발동 조건</strong> 생물이 수호자 무리를 공격 굴림으로 명중시킬 때</p><hr /><p><strong>효과</strong> 공격 굴림이 해결된 후, 부대는 차원 마법을 모아 신속히 위치를 변경한다. 그들은 4등급 @UUID[Compendium.pf2e.spells-srd.Item.VlNcjmYyu95vOUe8]{전위}를 시전하나, 사거리는 40피트로 제한된다.</p>"
         },
         "icFtpyk3vKrnSxKV": {
-          "name": "부대 방어 (Troop Defenses)",
+          "name": "부대 방어(Troop Defenses)",
           "description": "<p><strong>HP</strong> 240 (4 세그먼트); <strong>한계치</strong> 160 (3구간), 80 (2구간)</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
         },
         "i5jWmQ8e6h6E4QoP": {
-          "name": "부대 이동 (Troop Movement)"
+          "name": "부대 이동(Troop Movement)"
         },
         "H19kpPq2dPnbnx8y": {
-          "name": "수호자들의 저주 (Guardians' Curse)",
+          "name": "수호자들의 저주(Guardians' Curse)",
           "description": "<p><strong>발동 빈도</strong> 하루에 세 번</p><hr /><p><strong>효과</strong> 수호자 무리는 @Template[type:emanation|distance:5] 범위 내의 모든 적에게 낫으로 접촉하여 저주를 내린다. 영향을 받은 각 생물은 @Check[will|dc:33|options:area-effect] 내성을 시도해야 한다.</p><hr /><p><strong>대성공</strong> 대상은 영향을 받지 않으며 24시간 동안 수호자의 저주에 일시적으로 면역됩니다.</p>\n<p><strong>성공</strong> 대상은 순간적인 파멸의 전율을 느끼며, 혼란스러운 감각으로 인해 1분 동안 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 상태 1}이 됩니다.</p>\n<p><strong>실패</strong> 대상은 자신의 피할 수 없는 운명을 받아들이며 우울하고 침울해진다. 1시간 동안 대상은 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 2} 상태가 된다. 대상이 죽어가는 상태를 얻을 때마다 혼미 상태 수치가 1씩 증가하며, 최대 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 4}까지 도달한다.</p>\n<p><strong>대실패</strong> 실패와 동일하나 효과가 영구적이다.</p>"
         },
         "Czd11iaEfPW4tn8T": {
-          "name": "악을 수확하라 (Harvest the Wicked)",
-          "description": "<p><strong>주파수</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 반스들은 조율된 근접 공격으로 낫을 휘두릅니다. @Template[type:emanation|distance:5] 내의 각 적은 @Check[reflex|dc:30|basic|options:area-effect] 내성을 시도해야 합니다. 피해량은 행동 횟수에 따라 달라집니다. 베기 피해는 아다만틴, 냉철, 은으로 간주됩니다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(1d10+1)[slashing],1d6[untyped]|options:area-damage,item:rune:property:ghost-touch]{1d10+1 slashing damage plus 1d6 shepherd's touch}</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d10+3)[slashing],3d6[untyped]|options:area-damage,item:rune:property:ghost-touch]{2d10+3 slashing damage plus 3d6 shepherd's touch}</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(2d10+7)[slashing],4d6[untyped]|options:area-damage,item:rune:property:ghost-touch]{2d10+7 slashing damage plus 4d6 shepherd's touch}</p>"
+          "name": "악을 수확하라(Harvest the Wicked)",
+          "description": "<p><strong>빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 반스들은 조율된 근접 공격으로 낫을 휘두릅니다. @Template[type:emanation|distance:5] 내의 각 적은 @Check[reflex|dc:30|basic|options:area-effect] 내성을 시도해야 합니다. 피해량은 행동 횟수에 따라 달라집니다. 베기 피해는 아다만틴, 냉철, 은으로 간주됩니다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(1d10+1)[slashing],1d6[untyped]|options:area-damage,item:rune:property:ghost-touch]{1d10+1 slashing damage plus 1d6 shepherd's touch}</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d10+3)[slashing],3d6[untyped]|options:area-damage,item:rune:property:ghost-touch]{2d10+3 slashing damage plus 3d6 shepherd's touch}</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(2d10+7)[slashing],4d6[untyped]|options:area-damage,item:rune:property:ghost-touch]{2d10+7 slashing damage plus 4d6 shepherd's touch}</p>"
         },
         "5KyfdWPCoXhy15Im": {
-          "name": "목자의 손길 (Shepherd’s Touch)",
+          "name": "목자의 손길(Shepherd’s Touch)",
           "description": "<p>수호자 무리의 '악을 수확하라' 능력으로 가하는 물리 피해는 고스트 터치 속성 룬이 부여된 무기로 가한 것으로 간주된다. 또한 반스들은 명시된 피해를 생명체에게는 공허 피해로, 언데드에게는 활력 피해로 가한다.</p>"
         },
         "Gf3nHtV2wp2S1WHg": {
-          "name": "본야드 로어 (Boneyard Lore)"
+          "name": "본야드 로어(Boneyard Lore)"
         }
       }
     },
     "Mitflit Vermin Cavalry": {
-      "name": "미트플릿 해충 기병대 (Mitflit Vermin Cavalry)",
+      "name": "미트플릿 해충 기병대(Mitflit Vermin Cavalry)",
       "description": "<p>미트플리트는 비겁한 그렘린으로 알려져 있지만, 적절한 지도자에 의해 공격적인 열정으로 몰아넣어질 수 있다. 거대 진드기, 지네 및 기타 해충성 절지동물에 올라탄 이 미트플리트들은 자기혐오를 극복하고 적에게 싸움을 걸어간다.</p>",
       "hpdetails": "(4 구간), 임계치 40 (3 구간), 20 (2 구간)",
       "perception": "암흑 시야",
       "items": {
         "icFtpyk3vKrnSxKV": {
-          "name": "부대 방어 (Troop Defenses)",
+          "name": "부대 방어(Troop Defenses)",
           "description": "<p><strong>HP</strong> 60 (4 세그먼트), <strong>한계치</strong> 40 (3개 구간), 20 (2개 구간)</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
         },
         "i5jWmQ8e6h6E4QoP": {
-          "name": "부대 이동 (Troop Movement)"
+          "name": "부대 이동(Troop Movement)"
         },
         "pdDjyRubh4JykjK1": {
-          "name": "기어다니는 찌르기 (Crawling Stabs)",
+          "name": "기어다니는 찌르기(Crawling Stabs)",
           "description": "<p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 미트플릿은 숏소드로 찌르며, 거대 해충 탈것의 물기와 조화를 이룬다. @Template[type:emanation|distance:5] 내 모든 적은 @Check[reflex|dc:18|basic|options:area-effect] 내성을 시도해야 한다. 피해량은 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[1d6[piercing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d6+4)[piercing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(2d6+8)[piercing]|options:area-damage] damage</p>"
         },
         "P6s1HQwegXyFaIih": {
-          "name": "도약 돌진 (Leaping Charge)",
+          "name": "도약 돌진(Leaping Charge)",
           "description": "<p>미트플릿 해충 기병대는 최대 30피트까지 도약한다. 이 기병대가 최소 15피트 이상 이동할 경우, 이동 종료 시 @Template[type:emanation|distance:5] 반경 내의 각 적에게 @Damage[(2d6+4)[piercing]|options:area-damage] 피해(@Check[reflex|dc:18|basic|options:area-effect] 내성)를 입힌다.</p>"
         },
         "AYEfCOwUzittbzFm": {
-          "name": "기마 부대 (Mounted Troop)",
+          "name": "기마 부대(Mounted Troop)",
           "description": "<p>동물 또는 휴머노이드만을 대상으로 하는 효과는 GM의 재량에 따라 미트플릿 해충 기병에게 적용되지 않을 수 있습니다.</p>"
         },
         "9w4raGfyxBVkVKDT": {
-          "name": "복수심에 찬 분노 (Vengeful Wrath)",
+          "name": "복수심에 찬 분노(Vengeful Wrath)",
           "description": "<p>공포 상태가 아닌 한, 미트플릿 해충 기병대는 이전에 자신에게 피해를 주거나 괴롭힌 생물에게 크롤링 스탭 능력의 DC에 +2 상태 보너스를 얻습니다.</p>"
         }
       },
@@ -171,35 +171,35 @@
       }
     },
     "Boggard Scouting Party": {
-      "name": "보가드 정찰대 (Boggard Scouting Party)",
+      "name": "보가드 정찰대(Boggard Scouting Party)",
       "description": "<p>보가드 정찰대는 다른 보가드 부대보다 앞서 지형을 파악한다. 적군을 신속히 제압할 수 있다고 판단되면 가끔 교전하기도 한다.</p>",
       "hpdetails": "(4 구간); 임계값 60 (3 구간), 30 (2 구간)",
       "items": {
         "icFtpyk3vKrnSxKV": {
-          "name": "부대 방어 (Troop Defenses)",
+          "name": "부대 방어(Troop Defenses)",
           "description": "<p><strong>HP</strong> 90 (4 세그먼트); <strong>한계치</strong> 60 (3 구간), 30 (2 구간)</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
         },
         "i5jWmQ8e6h6E4QoP": {
-          "name": "부대 이동 (Troop Movement)"
+          "name": "부대 이동(Troop Movement)"
         },
         "6n1YNpA9sckKPpwJ": {
-          "name": "개구리 울음 합창 (Chorus of Croaks)",
+          "name": "개구리 울음 합창(Chorus of Croaks)",
           "description": "<p>보가드 정찰대가 소름 끼치는 개구리 울음소리를 내뿜는다. 30피트 내의 비보가드는 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 1} 상태가 되며, @Check[will|dc:21|options:area-effect,inflicts:frightened] 저항에 성공하지 못할 경우 해당된다. 대성공한 자는 1분 동안 일시적으로 면역된다.</p>"
         },
         "qaBL38g5CJeGHGUZ": {
-          "name": "협동 혀 뽑기 (Coordinated Tongue Pull)",
-          "description": "<p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 여러 보가드가 혀를 사용해 10피트 내의 적을 붙잡아 끌어당긴다. 대상은 @Check[reflex|dc:21] 내성 검사를 시도해야 한다. 실패 시, 대상은 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡기} 상태에 빠져 정찰대 쪽으로 5피트 더 가까이 끌려간다. 이렇게 붙잡힌 생물은 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{고정된} 상태가 되지는 않지만, 정찰대에서 10피트 이상 떨어질 수 없다. 생물은 AC 21에 대한 공격으로 최소 5점의 베기 피해를 입히면 혀 하나를 잘라낼 수 있다. 이로 인해 정찰대는 피해를 입지 않는다.</p>"
+          "name": "협동 혀 뽑기(Coordinated Tongue Pull)",
+          "description": "<p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 여러 보가드가 혀를 사용해 10피트 내의 적을 붙잡아 끌어당긴다. 대상은 @Check[reflex|dc:21] 내성 굴림을 시도해야 한다. 실패 시, 대상은 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡기} 상태에 빠져 정찰대 쪽으로 5피트 더 가까이 끌려간다. 이렇게 붙잡힌 생물은 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{고정된} 상태가 되지는 않지만, 정찰대에서 10피트 이상 떨어질 수 없다. 생물은 AC 21에 대한 공격으로 최소 5점의 베기 피해를 입히면 혀 하나를 잘라낼 수 있다. 이로 인해 정찰대는 피해를 입지 않는다.</p>"
         },
         "HbU9kLWy2ILILzTj": {
-          "name": "모닝스타 학살 (Morningstar Massacre)",
+          "name": "모닝스타 학살(Morningstar Massacre)",
           "description": "<p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 보가드들은 @Template[type:emanation|distance:5] 내의 각 적을 대상으로 @Check[reflex|dc:21|basic|options:area-effect] 내성을 적용한 조율된 근접 공격을 수행합니다. 가하는 피해는 행동 횟수에 따라 달라집니다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[1d6[untyped]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d6+7)[untyped]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(2d6+11)[untyped]|options:area-damage] damage</p>"
         },
         "qt8qxclrefUDCgL5": {
-          "name": "슬링 사격 (Sling Barrage)",
+          "name": "슬링 사격(Sling Barrage)",
           "description": "<p>드레드낫은 슬링을 당겨 장전한 후 조율된 일제 사격을 가한다. 이 포격은 50피트 내의 @Template[type:burst|distance:10]로 @Damage[3d6[bludgeoning]|options:area-damage] 피해를 입힌다 (@Check[reflex|dc:21|basic|options:area-effect] 내성). 정찰대가 2개 세그먼트로 줄어들면 이 영역은 @Template[type:burst|distance:5]로 축소된다.</p>"
         },
         "VBT6H5puqPRiwRvD": {
-          "name": "늪지 통로 (Swamp Passage)",
+          "name": "늪지 통로(Swamp Passage)",
           "description": "<p>늪 지형으로 인한 어려운 지형을 보가드 정찰대는 무시한다.</p>"
         }
       },
@@ -210,256 +210,256 @@
       }
     },
     "Gargoyle Wing": {
-      "name": "가고일 날개 (Gargoyle Wing)",
+      "name": "가고일 날개(Gargoyle Wing)",
       "description": "<p>버려진 사원이나 괴물 같은 조각상들 사이에 숨을 수 있는 구조물에서 은신하는 고독한 짐승인 가고일들은 가끔씩 무리를 지어 도전적인 먹이를 사냥하거나 단순히 무방비 상태의 희생자를 학살하는 공동의 쾌락을 누리기 위해 모이기도 한다. '윙'이라 불리는 이 집단은 대개 수명이 짧으나, 그 사이에 희생양이 된 자들에게는 별 의미가 없다.</p>",
       "hpdetails": "(4 세그먼트); 한계치 100 (3 세그먼트), 50 (2 세그먼트)",
       "items": {
         "scPsVJgp3B51KjMF": {
-          "name": "하늘에서 내리는 죽음 (Death From Above)",
+          "name": "하늘에서 내리는 죽음(Death From Above)",
           "description": "<p><strong>Trigger</strong> 가고일 날개는 비행 중이며, 생물이 그 아래 인접한 칸으로 이동합니다. </p><hr /><p><strong>효과</strong> 가고일 날개가 발톱으로 급강하합니다. 유도한 생물은 @Damage[(2d8+9)[slashing]]의 피해를 받는다 (@Check[reflex|dc:28|basic] 내성).</p>"
         },
         "icFtpyk3vKrnSxKV": {
-          "name": "부대 방어 (Troop Defenses)",
+          "name": "부대 방어(Troop Defenses)",
           "description": "<p><strong>HP</strong> 150 (4 세그먼트); <strong>한계치</strong> 100 (3 구간), 50 (2 구간)</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
         },
         "i5jWmQ8e6h6E4QoP": {
-          "name": "부대 이동 (Troop Movement)"
+          "name": "부대 이동(Troop Movement)"
         },
         "grfypKAmBW7H9dWz": {
-          "name": "포획 후 방류 (Catch and Release)",
+          "name": "포획 후 방류(Catch and Release)",
           "description": "<p>가르골 날개는 [[/act grapple]을 시도하기 위해 운동 체크를 수행하며, 그 결과를 가르골 날개의 남은 세그먼트 수와 동일한 @Template[type:emanation|distance:5] 내의 대형 이하 크기의 생물 수만큼의 인내 DC와 비교한 후, 최대 40피트까지 날아올라 성공적으로 붙잡은 생물들을 함께 끌고 가며 풀어줍니다. @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡기} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{제압} 생물들을 함께 끌고 가며, 그들을 풀어줍니다.</p>"
         },
         "FRbuLqAKh0PNhfBK": {
-          "name": "갈퀴 휩쓸기 (Raking Swoop)",
+          "name": "갈퀴 휩쓸기(Raking Swoop)",
           "description": "<p><strong>사용 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 석상 날개가 @Template[type:emanation|distance:5](@Check[reflex|dc:28|basic|options:area-effect] 내성) 내의 각 적을 돌 같은 발톱으로 갈기갈기 찢어댑니다. 가하는 피해는 행동 횟수에 따라 달라집니다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(1d8+2)[slashing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d8+9)[slashing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(3d8+11)[slashing]|options:area-damage] damage</p>"
         }
       }
     },
     "Dwarf Longshot Squad": {
-      "name": "드워프 원거리 사격 부대 (Dwarf Longshot Squad)",
+      "name": "드워프 원거리 사격 부대(Dwarf Longshot Squad)",
       "description": "<p>많은 드워프가 망치와 방패를 다루는 법을 익히지만, 일부는 주로 튼튼한 드워프 제작 석궁 같은 원거리 무기의 마스터가 되려 합니다. 드워프 군대는 특히 비좁은 터널과 지하 동굴 밖에서 장거리 사격 부대를 최전방 방어선으로 활용합니다.</p>",
       "hpdetails": "(4개 구간); 임계값 120 (3개 구간), 60 (2개 구간)",
       "items": {
         "icFtpyk3vKrnSxKV": {
-          "name": "부대 방어 (Troop Defenses)",
+          "name": "부대 방어(Troop Defenses)",
           "description": "<p><strong>HP</strong> 180 (4 구간); <strong>임계값</strong> 120 (3 구간), 60 (2 구간)</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
         },
         "i5jWmQ8e6h6E4QoP": {
-          "name": "부대 이동 (Troop Movement)"
+          "name": "부대 이동(Troop Movement)"
         },
         "EONX1OgwRhf35gSm": {
-          "name": "갑작스러운 화살 (Bolts from the Blue)",
+          "name": "갑작스러운 화살(Bolts from the Blue)",
           "description": "<p>드워프 저격수들이 석궁을 재장전한 후 일제 사격 형태의 원거리 공격을 가한다. 이 일제 사격은 @Template[type:burst|distance:15] 120피트 이내의 @Damage[6d6[piercing]|options:area-damage] 피해를 입히며 @Check[reflex|dc:26|basic|options:area-effect] 내성 굴림이 적용된다. 드워프 장거리 사수 분대가 2개 세그먼트로 줄어들면 이 피해 범위는 @Template[type:burst|distance:10]로 축소된다.</p>"
         },
         "cE3nGCXUZ43jjTq2": {
-          "name": "총검을 휘두르라! (Brandish Bayonets!)",
+          "name": "총검을 휘두르라!(Brandish Bayonets!)",
           "description": "<p><strong>사용 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 드워프 원거리 사수들은 석궁에 부착된 날을 사용하여 @Template[type:emanation|distance:5] 범위 내의 적들을 대상으로 @Check[reflex|dc:26|basic|options:area-effect] 내성이 적용되는 협동 근접 공격을 가한다. 피해량은 수행된 행동의 수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(1d8+2)[piercing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d8+11)[piercing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(3d8+13)[piercing]|options:area-damage] damage</p>"
         },
         "se3I5XIArIcKZkGt": {
-          "name": "방해하는 일제 사격 (Hampering Fusillade)",
+          "name": "방해하는 일제 사격(Hampering Fusillade)",
           "description": "<p>드워프 장거리 사수들이 빠르게 연달아 수십 발의 화살을 쏘아 전진하는 적의 속도를 늦춘다. 120피트 내 @Template[type:burst|distance:30]에 있는 모든 생물은 @Check[fortitude|dc:26] 내성 굴림을 시도해야 한다. 실패 시, 해당 생물은 1분 동안 이동 속도에 -10피트 상황 페널티를 받는다. 상호작용 행동을 사용해 화살을 제거하면 이 페널티가 해제된다.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.3bAtqn2WPSqxCYPY]{효과: 방해하는 일제 사격}</p>"
         }
       }
     },
     "First-Class Infantry": {
-      "name": "일류 보병 (First-Class Infantry)",
+      "name": "일류 보병(First-Class Infantry)",
       "description": "<p>여러 전쟁에 참전한 병사들은 군대의 최정예 전투 부대가 되기 위한 경험을 쌓습니다. 일급 보병 부대는 승리가 가장 중요한 전장에 배치됩니다.</p>",
       "items": {
         "SPbz9zTjxVJ1NfTI": {
-          "name": "후퇴 금지 (No Retreat)",
+          "name": "후퇴 금지(No Retreat)",
           "description": "<p>이 병사들은 어떤 상황에서도 자리를 지키도록 철저히 훈련받았다. 일류 보병이 이동하도록 기세가 발생할 경우, 이동 거리를 10피트(약 3m) 감소시킨다. @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{도주} 상태에 영향을 받을 때마다, 일류 보병은 동일한 지속 시간 동안 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 2} 상태가 된다.</p>"
         },
         "icFtpyk3vKrnSxKV": {
-          "name": "부대 방어 (Troop Defenses)",
+          "name": "부대 방어(Troop Defenses)",
           "description": "<p><strong>HP</strong> 240 (4 세그먼트); <strong>한계치</strong> 160 (3개 구간), 80 (2개 구간)</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
         },
         "i5jWmQ8e6h6E4QoP": {
-          "name": "부대 이동 (Troop Movement)"
+          "name": "부대 이동(Troop Movement)"
         },
         "bDE87FD5U7tvqvaA": {
-          "name": "볼트 일제 사격 (Bolt Salvo)",
+          "name": "볼트 일제 사격(Bolt Salvo)",
           "description": "<p>일류 보병은 석궁을 당기고 장전하여 일제 사격을 가한다. 일제 사격은 120피트 이내의 @Template[type:burst|distance:10] 범위에서 @Damage[4d8[piercing]|options:area-damage] 피해를 입힌다 (@Check[reflex|dc:30|basic|options:area-effect] 내성). 일류 보병이 2개 세그먼트로 줄어들면 이 범위는 @Template[type:burst|distance:5]로 축소된다.</p>"
         },
         "B4GNybKzTfM43wAU": {
-          "name": "강철의 충돌 (Clash of Steel)",
+          "name": "강철의 충돌(Clash of Steel)",
           "description": "<p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 일류 보병은 @Template[type:emanation|distance:5] 내의 각 적을 공격하며, @Check[reflex|dc:29|basic|options:area-effect] 내성이 적용됩니다. 피해량은 행동 횟수에 따라 달라집니다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(2d6+1)[slashing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(4d6+10)[slashing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(4d6+18)[slashing]|options:area-damage] damage</p>"
         },
         "IVKVwDUUSE2SgKLv": {
-          "name": "시추된 지층 (Drilled in Formations)",
+          "name": "시추된 지층(Drilled in Formations)",
           "description": "<p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 일류 보병은 @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.USyDPcSdzcm024zT]{진형 변경}을 사용한다. 일류 보병 부대는 일반적으로 행군 열과 쐐기 진형을 알고 있다.</p>"
         },
         "vklePDp4ChdoOuoW": {
-          "name": "일류 돌격 (First-class Charge)",
-          "description": "<p>일류 보병은 전투에 대한 갈망으로 돌진한다. 그들은 속도의 최대 두 배까지 이동한다. 이동 종료 시, @Template[type:emanation|distance:5] 범위 내의 각 적군은 @Damage[(2d6+5)[slashing]|options:area-damage] 피해를 입으며, @Check[reflex|dc:30|basic|options:area-effect] 내성 검사를 수행한다.</p>"
+          "name": "일류 돌격(First-class Charge)",
+          "description": "<p>일류 보병은 전투에 대한 갈망으로 돌진한다. 그들은 속도의 최대 두 배까지 이동한다. 이동 종료 시, @Template[type:emanation|distance:5] 범위 내의 각 적군은 @Damage[(2d6+5)[slashing]|options:area-damage] 피해를 입으며, @Check[reflex|dc:30|basic|options:area-effect] 내성 굴림을 수행한다.</p>"
         },
         "ifDQlWn3YaQEMojP": {
-          "name": "전쟁의 로어 (Warfare Lore)"
+          "name": "전쟁의 로어(Warfare Lore)"
         }
       }
     },
     "Redcap Brigade": {
-      "name": "레드캡 여단 (Redcap Brigade)",
+      "name": "레드캡 여단(Redcap Brigade)",
       "description": "<p>레드캡은 무자비한 살육욕으로 유명한 가학적인 페이이다. 무리를 지을 때면 서로를 부추겨 더욱 잔혹한 폭력으로 치닫는다.</p>",
       "hpdetails": "(4 세그먼트); 임계치 110 (3 세그먼트), 55 (2 세그먼트)",
       "items": {
         "P2zaiLJlRnK4SsHC": {
-          "name": "빠른 치유 (Fast Healing)"
+          "name": "빠른 치유(Fast Healing)"
         },
         "KydKNZNQcPHQ3kkf": {
-          "name": "신성한 혐오 (Divine Revulsion)",
-          "description": "<p>레드캡 부대가 어떤 생물이 신의 종교적 상징을 휘두르는 모습(해당 생물의 상호작용 행동이 필요함)이나 종교적 상징을 착용한 채 신성 마법을 시전하는 모습을 목격하면, 부대는 @Check[will|dc:26] 내성 검사를 시도하다. 그 후 10분 동안 모든 휘두른 종교적 상징에 대해 일시적으로 면역이 된다.</p><hr /><p><strong>대성공</strong> 부대는 영향을 받지 않는다.</p>\n<p><strong>성공</strong> 부대는 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 1} 상태가 된다.</p>\n<p><strong>실패</strong> 부대는 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 2} 상태가 됩니다.</p>\n<p><strong>대실패</strong> 부대는 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 3} 상태입니다.</p>"
+          "name": "신성한 혐오(Divine Revulsion)",
+          "description": "<p>레드캡 부대가 어떤 생물이 신의 종교적 상징을 휘두르는 모습(해당 생물의 상호작용 행동이 필요함)이나 종교적 상징을 착용한 채 신성 마법을 시전하는 모습을 목격하면, 부대는 @Check[will|dc:26] 내성 굴림을 시도하다. 그 후 10분 동안 모든 휘두른 종교적 상징에 대해 일시적으로 면역이 된다.</p><hr /><p><strong>대성공</strong> 부대는 영향을 받지 않는다.</p>\n<p><strong>성공</strong> 부대는 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 1} 상태가 된다.</p>\n<p><strong>실패</strong> 부대는 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 2} 상태가 됩니다.</p>\n<p><strong>대실패</strong> 부대는 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 3} 상태입니다.</p>"
         },
         "icFtpyk3vKrnSxKV": {
-          "name": "부대 방어 (Troop Defenses)",
+          "name": "부대 방어(Troop Defenses)",
           "description": "<p><strong>HP</strong> 165 (4 세그먼트); <strong>한계치</strong> 110 (3 구간), 55 (2 구간)</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
         },
         "i5jWmQ8e6h6E4QoP": {
-          "name": "부대 이동 (Troop Movement)"
+          "name": "부대 이동(Troop Movement)"
         },
         "wPjzApQ4hGBMlw0E": {
-          "name": "피 묻음 (Blood Soak)",
+          "name": "피 묻음(Blood Soak)",
           "description": "<p><strong>Trigger</strong> 레드캡 여단이 첫 번째 세그먼트를 잃거나, 다른 부대가 첫 번째 세그먼트를 잃게 하거나, 다량의 피에 노출될 경우</p><hr /><p><strong>효과</strong> 레드캡 여단은 1분 동안 피해 굴림에 상태 보너스를 얻습니다. '피의 수확'에 1회 행동을 소비하면 +2, 2회 행동을 소비하면 +6, 3회 행동을 소비하면 +8의 보너스를 얻습니다. '넘어뜨리기'와 '발로 짓밟기' 기술 사용 시 피해 굴림에 +4 상태 보너스를 얻습니다.</p>"
         },
         "r5WgyRN7xTAUNicy": {
-          "name": "피의 수확 (Bloody Reaping)",
-          "description": "<p><strong>사용 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 여단의 레드캡들은 @Template[type:emanation|distance:10] 범위 내의 각 적에게 @Check[reflex|dc:26|basic|options:area-effect] 내성 검사를 적용하며, 할버드와 낫을 마구 휘두른다. 피해량은 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(1d10+2)[slashing]|options:area-damage,bloody-reaping-one]</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d10+9)[slashing]|options:area-damage,bloody-reaping-two]</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(3d10+10)[slashing]|options:area-damage,bloody-reaping-three]</p>"
+          "name": "피의 수확(Bloody Reaping)",
+          "description": "<p><strong>사용 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 여단의 레드캡들은 @Template[type:emanation|distance:10] 범위 내의 각 적에게 @Check[reflex|dc:26|basic|options:area-effect] 내성 굴림을 적용하며, 할버드와 낫을 마구 휘두른다. 피해량은 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(1d10+2)[slashing]|options:area-damage,bloody-reaping-one]</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d10+9)[slashing]|options:area-damage,bloody-reaping-two]</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(3d10+10)[slashing]|options:area-damage,bloody-reaping-three]</p>"
         },
         "v9h1oFMfGfVN2Qee": {
-          "name": "쓰러뜨리고 짓밟기 (Bowl Over and Stomp)",
+          "name": "쓰러뜨리고 짓밟기(Bowl Over and Stomp)",
           "description": "<p>레드캡 여단은 큰 걸음으로 이동한다. 중간 크기 이하 생물의 공간을 통과할 수 있으나, 그 안에서 이동을 종료할 수는 없다. 레드캡 여단이 통과한 모든 적의 공간은 @Damage[4d8[bludgeoning]|options:area-damage,bowl-ower-and-stomp] 피해를 입으며 @Check[fortitude|dc:26|options:area-effect,inflicts:prone] 내성을 시도해야 합니다. 넘어뜨리기 및 짓밟기 피해는 각 생물에게 한 번만 적용됩니다.</p><hr /><p><strong>대성공</strong> 해당 생물은 피해를 입지 않습니다.</p>\n<p><strong>성공</strong> 생물은 절반의 피해를 받습니다. 만약 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드린 상태}라면, 추가로 @Damage[1d6[persistent,bleed]]의 피해를 받습니다.</p>\n<p><strong>실패</strong> 생물은 전체 피해를 입으며, 넘어져 엎드린 상태가 되고 @Damage[2d6[persistent,bleed]]의 추가 피해를 입습니다.</p>\n<p><strong>대실패</strong> 생물은 두 배의 피해를 받고, 넘어져 쓰러지며, @Damage[2d6[persistent,bleed]]의 피해를 추가로 받습니다.</p>"
         },
         "I03lQeMuxhRMsRtc": {
-          "name": "치명적인 휘두름 (Deadly Swipes)",
+          "name": "치명적인 휘두름(Deadly Swipes)",
           "description": "<p><strong>Trigger</strong> 레드캡 여단은 피 묻은 수확으로 생물의 체력을 0으로 떨어뜨린다.</p><hr /><p><strong>효과</strong> 레드캡 여단은 추가로 한 번의 행동으로 피 묻은 수확을 수행하며, 1라운드에 한 번이라는 제한을 무시한다. 이것은 발동한 생물에게 피해를 주지 않는다.</p>"
         }
       }
     },
     "Viking Guard": {
-      "name": "바이킹 가드 (Viking Guard)",
+      "name": "바이킹 가드(Viking Guard)",
       "description": "<p>전투 경험이 풍부한 울펜 바바리안, 사냥꾼, 전사들이 모여 정예 전투 부대를 구성한다. 이들은 전투에서 지도자를 보호하는 것은 물론, 그들의 서비스를 감당할 수 있는 자들을 보호하는 데 특화되어 있다. 광범위하게 이동하며, 개별 병사나 전체 부대는 명성에 따라 소규모 사병 부대의 경호원부터 특수 임무 수행까지 쉽게 일자리를 찾을 수 있다.</p>",
       "hpdetails": "한계치 130 (3 구간), 65 (2 구간)",
       "items": {
         "VqEamdyLNKS5oVeS": {
-          "name": "공포 저항에 대한 모든 내성에 +2 상태 (+2 status to all saves vs. fear)"
+          "name": "공포 저항에 대한 모든 내성에 +2 상태(+2 status to all saves vs. fear)"
         },
         "nip3rJMlKAmiJXIk": {
-          "name": "희생 (Sacrifice)",
+          "name": "희생(Sacrifice)",
           "description": "<p><strong>요구 사항</strong> 바이킹 경비병이 돌진 상태이며, 해당 생물이 바이킹 경비병과 인접해 있을 때</p>\n<p><strong>발동 조건</strong> 바이킹 가드의 돌격 대상이 체력 피해를 입는다</p><hr /><p><strong>효과</strong> 바이킹 경비병의 돌격은 절반의 피해를 입으며, 바이킹 경비병이 나머지 피해를 받습니다.</p>"
         },
         "icFtpyk3vKrnSxKV": {
-          "name": "부대 방어 (Troop Defenses)",
+          "name": "부대 방어(Troop Defenses)",
           "description": "<p><strong>HP</strong> 195 (4 세그먼트); <strong>임계값</strong> 130 (3 구간), 65 (2 구간)</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
         },
         "i5jWmQ8e6h6E4QoP": {
-          "name": "부대 이동 (Troop Movement)"
+          "name": "부대 이동(Troop Movement)"
         },
         "2yhFRocgioO4honN": {
-          "name": "광전사 공격 (Berserker Strikes)",
-          "description": "<p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 손에 든 전투 도끼로 바이킹 경비병은 @Template[type:emanation|distance:5] 범위 내의 적을 대상으로 @Check[reflex|dc:27|basic|options:area-effect] 내성 검사를 적용한 협동 근접 공격을 가한다. 피해량은 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(1d8+3)[slashing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d8+12)[slashing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(3d8+15)[slashing]|options:area-damage] damage</p>"
+          "name": "광전사 공격(Berserker Strikes)",
+          "description": "<p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 손에 든 전투 도끼로 바이킹 경비병은 @Template[type:emanation|distance:5] 범위 내의 적을 대상으로 @Check[reflex|dc:27|basic|options:area-effect] 내성 굴림을 적용한 협동 근접 공격을 가한다. 피해량은 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(1d8+3)[slashing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d8+12)[slashing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(3d8+15)[slashing]|options:area-damage] damage</p>"
         },
         "dmX23IiV8D4OzC5m": {
-          "name": "가드 돌격 (Guard Charge)",
+          "name": "가드 돌격(Guard Charge)",
           "description": "<p>바이킹 가드는 시야 내에 있는 아군 한 명을 자신의 돌격 대상으로 지정한다. 지정된 아군은 바이킹 가드와 인접해 있을 때 AC, 반사 내성, 공포 내성에 +2 상황 보너스를 얻는다. 또한 이로 인해 바이킹 가드는 희생과 방패벽 행동을 사용할 수 있다. 바이킹 가드는 한 번에 하나의 보호 대상만 가질 수 있으며, 새로운 보호 대상을 지정하면 기존 대상은 모든 혜택을 상실한다. 바이킹 가드의 보호 대상이 체력 0으로 감소하면, 바이킹 가드는 @Check[will|dc:30] 저항에 성공하지 못하면 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 2} 상태가 된다. 이는 감정, 공포, 정신 효과이다.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.qTbVcHLfFDuyJTTG]{효과: 가드 돌격}</p>"
         },
         "kQKdy0Cda3omnspU": {
-          "name": "방패벽 (Shield Wall)",
+          "name": "방패벽(Shield Wall)",
           "description": "<p><strong>Requirements</strong> 바이킹 가드가 보호 대상이 있으며, 해당 생물이 바이킹 가드와 인접해 있을 때</p><hr /><p><strong>효과</strong> 방패를 들어 올리며, 바이킹 가드는 보호 대상에게 보호를 제공하면서 자신의 속도의 최대 2배까지 이동한다. 바이킹 가드는 이 이동으로 유발된 반응에 대해 AC에 +2 상황 보너스를 얻습니다. 바이킹 가드의 돌격 대상은 반응으로 동일한 거리를 이동하며, 이 이동 동안 가드 돌격의 보너스를 유지하기 위해 부대와 함께 이동할 수 있습니다.</p>"
         }
       }
     },
     "Scamp Whirlwind": {
-      "name": "스캠프 회오리바람 (Scamp Whirlwind)",
+      "name": "스캠프 회오리바람(Scamp Whirlwind)",
       "description": "<p>일반적으로 모든 원소 스캠프는 다소 장난기 많으며, (종종 우발적인) 혼란을 일으키기 위해 무리를 지어 모일 가능성이 똑같이 높다.</p>",
       "hpdetails": "4 세그먼트); 임계값 60 (3 세그먼트), 30 (2 세그먼트)",
       "perception": "안개 시야",
       "items": {
         "a1S8MIzlSbM14TJF": {
-          "name": "안개 시야 (Fog Vision)",
+          "name": "안개 시야(Fog Vision)",
           "description": "<p>스캠프 회오리는 안개로 인한 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진} 상태를 무시한다.</p>"
         },
         "BSejpvFZwpYmOdR1": {
-          "name": "빠른 치유 (야외에 있을 때) (Fast Healing (while in open air))"
+          "name": "빠른 치유 (야외에 있을 때)(Fast Healing (while in open air))"
         },
         "icFtpyk3vKrnSxKV": {
-          "name": "부대 방어 (Troop Defenses)",
+          "name": "부대 방어(Troop Defenses)",
           "description": "<p><strong>HP</strong> 90 (4 세그먼트); <strong>한계치</strong> 60 (3개 구간), 30 (2개 구간)</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
         },
         "i5jWmQ8e6h6E4QoP": {
-          "name": "부대 이동 (Troop Movement)"
+          "name": "부대 이동(Troop Movement)"
         },
         "f2MKhz42yWBSTE9X": {
-          "name": "시로코의 숨결 (Sirocco Breath)",
+          "name": "시로코의 숨결(Sirocco Breath)",
           "description": "<p>스캠프 회오리는 @Template[type:cone|distance:15]을 내뿜어 해당 영역 내의 모든 생물에게 @Damage[3d6[slashing]|options:area-damage]의 피해를 입힌다 (@Check[reflex|dc:21|basic|options:area-effect,inflicts:forced-movement] 내성). 내성에 실패한 생물은 10피트 밀려납니다. 스캠프 회오리는 [[/gmr 1d4 #재충전 시로코의 숨결]]{1d4 라운드} 동안 시로코의 숨결을 다시 사용할 수 없습니다.</p>"
         },
         "DTzsPQI9SG94AmvU": {
-          "name": "소닉 슬램 (Sonic Slams)",
-          "description": "<p>스캠프 회오리는 연이은 작은 강타로 공격한다. @Template[type:emanation|distance:5] 내의 각 적은 @Check[reflex|dc:21|basic|options:area-effect] 내성 검사를 시도해야 한다. 피해량은 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[1d6[bludgeoning],1d4[sonic]|options:area-damage]{1d6 타격 피해와 1d4 음파 피해}</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d6+2)[bludgeoning],2d4[sonic]|options:area-damage]{2d6+2 타격 피해 및 2d4 음파 피해}</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(2d6+4)[bludgeoning],3d4[sonic]|options:area-damage]{2d6+4 타격 피해 및 3d4 음파 피해}</p>"
+          "name": "소닉 슬램(Sonic Slams)",
+          "description": "<p>스캠프 회오리는 연이은 작은 강타로 공격한다. @Template[type:emanation|distance:5] 내의 각 적은 @Check[reflex|dc:21|basic|options:area-effect] 내성 굴림을 시도해야 한다. 피해량은 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[1d6[bludgeoning],1d4[sonic]|options:area-damage]{1d6 타격 피해와 1d4 음파 피해}</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d6+2)[bludgeoning],2d4[sonic]|options:area-damage]{2d6+2 타격 피해 및 2d4 음파 피해}</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(2d6+4)[bludgeoning],3d4[sonic]|options:area-damage]{2d6+4 타격 피해 및 3d4 음파 피해}</p>"
         }
       }
     },
     "Charau-ka Shrieker Crew": {
-      "name": "차라우카 비명꾼 일당 (Charau-ka Shrieker Crew)",
+      "name": "차라우카 비명꾼 일당(Charau-ka Shrieker Crew)",
       "description": "<p>차라우카는 열대 정글, 특히 므왕기 익스팬스에 서식하는 작은 인간형 유인원이다. 슈리커 부대는 차라우카 정착지 근처의 수목층을 순찰하며 포식자들을 막아낸다. 때로는 차라우카 집단이 데몬 군주 앙가잔에게 헌신하여 피에 굶주린 사냥꾼 집단으로 변모하기도 한다.</p>",
       "hpdetails": "135 (4 구간); 임계치 90 (3 구간), 45 (2 구간)",
       "perception": "암흑 시야, 후각(정확하지 않음) 30피트",
       "items": {
         "icFtpyk3vKrnSxKV": {
-          "name": "부대 방어 (Troop Defenses)",
+          "name": "부대 방어(Troop Defenses)",
           "description": "<p><strong>체력</strong> 135 (4 구간); <strong>한계치</strong> 90 (3구간), 45 (2구간)</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
         },
         "i5jWmQ8e6h6E4QoP": {
-          "name": "부대 이동 (Troop Movement)"
+          "name": "부대 이동(Troop Movement)"
         },
         "PFzoUN8ccxYZxbWd": {
-          "name": "광란의 도끼 (Frenzied Hatchets)",
+          "name": "광란의 도끼(Frenzied Hatchets)",
           "description": "<p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 차라우카는 @Template[type:emanation|distance:5](@Check[reflex|dc:23|basic|options:area-effect] 내성) 내의 각 적을 상대로 조율된 근접 공격을 가한다. 피해량은 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(1d6+2)[slashing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d6+10)[slashing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(3d6+13)[slashing]|options:area-damage] damage</p>"
         },
         "jg2h9ZuElYd5GVNb": {
-          "name": "비명 돌격 (Shrieking Charge)",
+          "name": "비명 돌격(Shrieking Charge)",
           "description": "<p>시끄러운 비명과 함께, 비명병들이 앞으로 돌진한다. 이 부대는 두 번의 이동을 한다. 최소 10피트 이상 이동할 경우, 부대는 이동 종료 시 @Template[type:emanation|distance:5] 범위 내의 각 적에게 @Damage[(3d6+13)[slashing]|options:area-damage] 피해(@Check[reflex|dc:23|basic|options:area-effect] 내성)를 입힌다. 이 내성에 실패한 대상은 1라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{실청} 상태가 된다.</p>"
         },
         "uYsOWXvUohnIoJuN": {
-          "name": "단검 폭풍 (Storm of Daggers)",
+          "name": "단검 폭풍(Storm of Daggers)",
           "description": "<p>차라우카는 단검을 일제 사격 형태의 원거리 공격으로 던집니다. 이 포화는 30피트 이내의 @Template[type:burst|distance:10]로, @Damage[5d4[piercing]|options:area-damage] 피해를 입힌다 (@Check[reflex|dc:23|basic|options:area-effect] 내성). 차라우카가 목표물보다 높은 위치에 있을 경우 사거리가 15피트 증가한다. 슈리커 승무원이 2개 세그먼트로 줄어들면 이 영역은 @Template[type:burst|distance:5]로 축소된다.</p>"
         }
       }
     },
     "Ofalth Stampede": {
-      "name": "오팔트 스탬피드 (Ofalth Stampede)",
+      "name": "오팔트 스탬피드(Ofalth Stampede)",
       "description": "<p>대도시의 폐기물 처리 시스템이 통제 불능 상태에 빠지면, 오팔스가 무분별하게 번식하며 증식할 수 있습니다. 이 악취를 풍기는 생물들은 등에 수 톤의 쓰레기를 짊어지고 다니며 특히 악성인 질병을 옮깁니다.</p>",
       "hpdetails": "(4구간), 오물 웅덩이; 진입값 180 (3구간), 90 (2구간)",
       "perception": "암흑 시야",
       "items": {
         "ySPMm8H8VrhgWl05": {
-          "name": "쓰레기 더미 (Refuse Pile)",
-          "description": "<p>오팔트 무리가 위험에 처하지 않았을 때, 1분 동안 쓰레기 더미처럼 보이는 20피트 높이의 덩어리로 자리를 잡을 수 있다. 다음 행동을 취할 때까지 무리는 AC에 +2 상황 보너스를 얻는다. 쓰레기 더미 영역에 진입하거나 상호작용하는 생물은 오팔트 스탬피드의 악취에 대한 내성 검사를 시도해야 한다.</p>"
+          "name": "쓰레기 더미(Refuse Pile)",
+          "description": "<p>오팔트 무리가 위험에 처하지 않았을 때, 1분 동안 쓰레기 더미처럼 보이는 20피트 높이의 덩어리로 자리를 잡을 수 있다. 다음 행동을 취할 때까지 무리는 AC에 +2 상황 보너스를 얻는다. 쓰레기 더미 영역에 진입하거나 상호작용하는 생물은 오팔트 스탬피드의 악취에 대한 내성 굴림을 시도해야 한다.</p>"
         },
         "73muWjjVsYKWfZTx": {
-          "name": "오물 웅덩이 (Filth Wallow)",
+          "name": "오물 웅덩이(Filth Wallow)",
           "description": "<p>쓰레기 무리는 쓰레기 더미나 하수구처럼 잔해나 배설물이 고농도로 집중된 지역에 있을 때 빠른 치유 10을 얻습니다.</p>"
         },
         "vRCR0xqnAJCUuI1f": {
-          "name": "악취 (Stench)",
+          "name": "악취(Stench)",
           "description": "<p>30피트 @Check[fortitude|dc:33]</p><hr /><p>@Localize[PF2E.NPC.Abilities.Glossary.Stench]</p>"
         },
         "icFtpyk3vKrnSxKV": {
-          "name": "부대 방어 (Troop Defenses)",
+          "name": "부대 방어(Troop Defenses)",
           "description": "<p><strong>HP</strong> 270 (4 세그먼트), 오물 웅덩이; <strong>한계치</strong> 180 (3구간), 90 (2구간)</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
         },
         "i5jWmQ8e6h6E4QoP": {
-          "name": "부대 이동 (Troop Movement)"
+          "name": "부대 이동(Troop Movement)"
         },
         "0fy4J6XGUdXEiXGs": {
-          "name": "내장 비 (Offal Rain)",
+          "name": "내장 비(Offal Rain)",
           "description": "<p>부패한 쓰레기 떼가 엄청난 양의 썩은 쓰레기를 내던져, 60피트 이내의 @Template[type:burst|distance:10] 지역에 쏟아집니다. 영역 내 모든 생물은 @Damage[4d10[bludgeoning]|options:area-damage]의 피해를 입는다 (@Check[reflex|dc:33|basic|options:area-effect] 내성). 내성 굴림에 실패한 생물은 또한 비참한 울음소리에 노출된다. 부대가 2개 세그먼트로 줄어들면 영역은 @Template[type:burst|distance:5]로 축소된다.</p>"
         },
         "2Fba598q7sUIgo12": {
-          "name": "부패한 구타 (Putrid Pummeling)",
+          "name": "부패한 구타(Putrid Pummeling)",
           "description": "<p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 오팔스들이 @Template[type:emanation|distance:10] 범위 내의 모든 적을 두들겨 패며, @Check[reflex|dc:33|basic|options:area-effect] 내성 굴림을 받는다. 피해량은 수행한 행동의 수에 따라 달라진다. 내성 굴림에 실패한 생물들은 비참한 울음소리에 노출된다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(1d12+3)[bludgeoning]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(3d12+7)[bludgeoning]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(4d12+10)[bludgeoning]|options:area-damage] damage</p>"
         },
         "i19oaOH6AZhDcAZ9": {
-          "name": "비참한 울음 (Wretched Weeps)",
-          "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:36]</p>\n<p><strong>1단계</strong> 무해한 운반체 (1일)</p>\n<p><strong>2단계</strong> @Damage[2d4[bleed]]{2d4 지속적 출혈} 매시간 및 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화 1} (1일)</p>\n<p><strong>3단계</strong> @Damage[2d6[bleed]]{2d6 지속 출혈} 매시간 및 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 2} (1일)</p>"
+          "name": "비참한 울음(Wretched Weeps)",
+          "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:36]</p>\n<p><strong>1단계</strong> 무해한 운반체 (1일)</p>\n<p><strong>2단계</strong> @Damage[2d4[bleed]]{2d4 지속적 출혈} 매시간 및 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화 1}(1일)</p>\n<p><strong>3단계</strong> @Damage[2d6[bleed]]{2d6 지속 출혈} 매시간 및 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 2}(1일)</p>"
         }
       },
       "StealthVariants": {
@@ -469,31 +469,31 @@
       }
     },
     "Clockwork Runner Pack": {
-      "name": "시계장치 주자 팩 (Clockwork Runner Pack)",
+      "name": "시계장치 주자 팩(Clockwork Runner Pack)",
       "description": "<p> 시계장치 주자는 속도를 위해 설계된 유닛이다. 대형 고양이를 모방하여, 튼튼함을 희생하고 기민함을 추구한다. 러당신은 다양한 지형을 빠르게 횡단하여 탁월한 전장 통제력을 발휘하며, 내장된 석궁으로 적 유닛을 차단하고 아군에게 엄호 사격을 제공할 수 있습니다. 시계 장치이기 때문에 재감기가 필요하여 장기간 작전에는 적합하지 않습니다.</p>",
       "hpdetails": "(4 세그먼트); 임계값 50 (3 세그먼트), 25 (2 세그먼트)",
       "items": {
         "IWRYdtXAJ49GqLfB": {
-          "name": "와인드업 (Wind-Up)",
+          "name": "와인드업(Wind-Up)",
           "description": "<p>48시간, [[/act disable-device dc=19]], 대기</p><hr /><p>시계 장치가 작동하려면 다른 생명체가 고유한 열쇠로 감아줘야 합니다. 이 작업은 1분이 소요됩니다. 감긴 후에는 명시된 시간(보통 24시간) 동안 작동하며, 시간이 지나면 주변을 인식하지 못하고 다시 감기 전까지 작동할 수 없습니다. 일부 시계장치의 능력은 잔여 작동 시간을 소모해야 사용 가능하다. 잔여 시간보다 더 많은 시간을 소모할 수 없으며, 잔여 시간이 0이 되면 즉시 정지한다 . 시계장치가 마지막으로 감긴 시점이 불분명한 경우, 대부분의 시계장치 관리자는 정해진 시간(보통 오전 8시)에 모든 시계장치를 감는다.</p>\n<p>감기 항목에 대기 모드가 기재된 시계 장치는 3행동 활동으로 대기 모드에 진입할 수 있습니다. 대기 중에는 작동 시간이 감소하지 않지만, 주변을 감지할 수 있습니다(지각 능력에 -2 페널티 적용). 행동할 수 없으나 한 가지 예외가 있습니다: 생물을 감지하면 반응으로 대기 모드를 종료할 수 있습니다(적절한 경우 이니셔티브 굴림).</p>\n<p>생물은 장치 해제 시도를 통해 시계 장치를 감아 작동 시간을 줄일 수 있습니다(감기 항목에 명시된 DC 적용). 성공할 때마다 시계 장치는 1시간의 작동 시간을 잃습니다. 시계 장치가 대기 모드일 때도 이 작업을 수행할 수 있습니다.</p>"
         },
         "TVIfnwEhfPGYPEck": {
-          "name": "부대 방어 (Troop Defenses)",
+          "name": "부대 방어(Troop Defenses)",
           "description": "<p><strong>HP</strong> 75 (4 세그먼트); <strong>한계치</strong> 50 (3개 구간), 25 (2개 구간)</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
         },
         "Sdo7CXc8emhHVj93": {
-          "name": "부대 이동 (Troop Movement)"
+          "name": "부대 이동(Troop Movement)"
         },
         "Hh1zN6n8JRhOzsdT": {
-          "name": "화살 발사 (Fire Crossbows)",
+          "name": "화살 발사(Fire Crossbows)",
           "description": "<p> 시계 장치 달린 주자들은 등에 장착된 석궁을 재장전한 후 일제 사격 형태의 원거리 공격을 가한다. 이 일제 사격은 120피트 내의 @Template[type:burst|distance:10]로, @Damage[2d8[piercing]|options:area-damage] 피해를 입힌다 (@Check[reflex|dc:19|basic|options:area-effect] 내성). 시계장치 주자들이 2개 세그먼트로 줄어들면, 이 범위는 @Template[type:burst|distance:5]로 축소된다.</p>"
         },
         "lQ7JmilKyrxwRdga": {
-          "name": "긁기와 물기 (Scratch and Bite)",
-          "description": "<p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 시계장치 주자들은 @Template[type:emanation|distance:5] 내의 각 적을 상대로 @Check[reflex|dc:19|basic|options:area-effect] 내성 검사를 적용한 집단 공격을 가한다. 피해량은 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[1d8[untyped]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d8+3)[untyped]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(2d8+7)[untyped]|options:area-damage] damage</p>"
+          "name": "긁기와 물기(Scratch and Bite)",
+          "description": "<p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 시계장치 주자들은 @Template[type:emanation|distance:5] 내의 각 적을 상대로 @Check[reflex|dc:19|basic|options:area-effect] 내성 굴림을 적용한 집단 공격을 가한다. 피해량은 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[1d8[untyped]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d8+3)[untyped]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(2d8+7)[untyped]|options:area-damage] damage</p>"
         },
         "gBzSzuaHS6SO6ebY": {
-          "name": "전쟁 돌진 (War Pounce)",
+          "name": "전쟁 돌진(War Pounce)",
           "description": "<p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 시계장치 주자 무리는 어려운 지형을 무시하고(하지만 매우 어려운 지형은 제외) 이동한다. 이 이동이 끝날 때, @Template[type:emanation|distance:5] 내에 있는 각 적에게 @Damage[1d8[untyped]|options:area-damage]의 피해를 입힌다(@Check[reflex|dc:19|basic|options:area-effect] 내성).</p>"
         }
       },
@@ -504,349 +504,349 @@
       }
     },
     "Gnome Cannon Corps": {
-      "name": "노움 대포 부대 (Gnome Cannon Corps)",
+      "name": "노움 대포 부대(Gnome Cannon Corps)",
       "description": "<p>창의적인 노움들은 공학과 페이 마법을 결합해 경이로운 대포를 창조한다. 이 대포의 화려한 폭발은 적을 눈부심에 빠뜨리며 지형을 뒤틀린 영역으로 만든다. 가장 영리한 장군들만이 비정규전에서 대포 부대를 효과적으로 활용하는 법을 이해한다.</p>",
       "hpdetails": "(4구간); 임계치 80 (3구간), 40 (2구간)",
       "items": {
         "icFtpyk3vKrnSxKV": {
-          "name": "부대 방어 (Troop Defenses)",
+          "name": "부대 방어(Troop Defenses)",
           "description": "<p><strong>HP</strong> 120 (4 구간); <strong>임계값</strong> 80 (3 구간), 40 (2 구간)</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
         },
         "i5jWmQ8e6h6E4QoP": {
-          "name": "부대 이동 (Troop Movement)"
+          "name": "부대 이동(Troop Movement)"
         },
         "CEKjsBaoB9qScWqZ": {
-          "name": "아케인 폭발 (Arcane Explosion)",
+          "name": "아케인 폭발(Arcane Explosion)",
           "description": "<p>노움 대포를 적을 향해 조준하고 장전하며 발사하는 데는 부대의 전적인 집중이 필요하다. 대포는 200피트 내로 밝은 마법의 @Template[type:burst|distance:15]을 발사하여 @Damage[(2d12+2)[force]|options:area-damage]의 피해를 입힌다 (@Check[reflex|dc:22|basic|options:area-effect,light,visual] 내성). 내성에 실패한 생물은 또한 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{눈부심} 상태가 1라운드 지속됩니다. 이는 빛과 시각 효과입니다. 폭발 지역은 이후 1분 동안 뒤틀리고 물결치는 듯한 모습을 보입니다. 해당 공간을 통과하려고 시도하는 생물은 @Check[will|dc:22] 내성에 성공해야 하며, 실패 시 해당 지역을 어려운 지형으로 간주합니다. 이는 환상과 시각 효과입니다.</p>"
         },
         "PVMF2htb8MLPe6yb": {
-          "name": "캐논 벤트 (Cannon Vent)",
+          "name": "캐논 벤트(Cannon Vent)",
           "description": "<p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 노움 엔지니어들은 대포의 에너지를 폭발로 배출하여 @Template[type:emanation|distance:5](@Check[reflex|dc:22|basic|options:area-effect] 내성) 내의 모든 생물에게 피해를 입힌다. 피해량은 수행한 행동의 수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(1d6+2)[fire]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d6+8)[fire]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(3d6+10)[fire]|options:area-damage] damage</p>"
         },
         "yKejA13gzals79JS": {
-          "name": "직격 (Direct Hit)",
+          "name": "직격(Direct Hit)",
           "description": "<p>노움들은 대포 한 발로 60피트 내의 단일 표적을 향해 평범한 포탄을 발사하며, 표적은 @Damage[(3d10+6)[bludgeoning]]의 피해를 입는다 (@Check[reflex|dc:22|basic|options:inflicts:forced-movement] 내성). 내성에 실패한 경우, 해당 생물은 부대로부터 5피트 밀려난다.</p>"
         }
       }
     },
     "Clockwork Infantry": {
-      "name": "시계장치 보병 (Clockwork Infantry)",
+      "name": "시계장치 보병(Clockwork Infantry)",
       "description": "<p>각 유닛이 500파운드의 금속과 마법으로 이루어진 시계장치 보병은 전장에서 무시할 수 없는 존재다. 음식, 숙소, 휴식이 필요 없고 고통을 느끼지 않아 살아있는 유닛이 큰 어려움을 겪는 곳에서도 진격할 수 있다. 무너질 사기도, 속일 마음도 없기에 그들은 멈추지 않고 순찰하며 자비를 보이지 않는다. 유일한 단점은 단순한 시계 장치보다 더 자주 감아줘야 한다는 점이다.</p>",
       "hpdetails": "(4 세그먼트); 임계값 130 (3 세그먼트), 65 (2 세그먼트)",
       "perception": "암흑 시야",
       "items": {
         "WsoRfLNjWzAs0wwC": {
-          "name": "와인드업 (Wind-Up)",
+          "name": "와인드업(Wind-Up)",
           "description": "<p>24시간, [[/act disable-device dc=27]], 대기</p><hr /><p>시계 장치가 작동하려면 다른 생명체가 고유한 열쇠로 감아줘야 한다. 이 작업은 1분이 소요된다. 감긴 후에는 명시된 시간(보통 24시간) 동안 작동하며, 시간이 지나면 주변을 인식하지 못하고 다시 감겨질 때까지 행동할 수 없다. 일부 시계장치의 능력은 잔여 작동 시간을 소모해야 사용 가능하다. 잔여 시간보다 더 많이 소모할 수 없으며, 잔여 시간이 0이 되면 즉시 작동을 멈춘다. 시계장치가 마지막으로 감긴 시점이 불분명한 경우, 대부분의 시계장치 관리자는 정해진 시간(보통 오전 8시)에 모든 시계장치를 감는다.</p>\n<p>태엽 장치의 작동 항목에 대기 모드가 명시된 경우, 3행동 활동으로 대기 모드로 진입할 수 있습니다. 대기 중에는 작동 시간이 감소하지 않으나, 주변을 감지할 수 있습니다(지각 능력에 -2 페널티 적용). 행동은 불가능하나 한 가지 예외가 있습니다: 생물을 감지하면 반응으로 대기 모드를 종료할 수 있습니다(적절한 경우 이니셔티브 굴림).</p>\n<p>생물은 장치 해제 시도를 통해 시계 장치를 감아 작동 시간을 줄일 수 있다(감기 항목에 명시된 DC 적용). 성공할 때마다 시계 장치는 1시간의 작동 시간을 잃는다. 이 작업은 시계 장치가 대기 모드일 때도 수행 가능하다.</p>"
         },
         "na8p3W8S14jn8Qiz": {
-          "name": "반응형 스윕 (Reactive Sweep)",
+          "name": "반응형 스윕(Reactive Sweep)",
           "description": "<p><strong>Trigger</strong> @Template[type:emanation|distance:10] 범위 내의 적이 조작 행동이나 이동 행동을 사용하거나, 원거리 공격을 하거나, 사용 중인 이동 행동 중 해당 영역의 칸을 떠날 때</p><hr /><p><strong>효과</strong> 시계장치 보병이 할버드로 휘둘러 공격한다. 유발된 적은 @Damage[(2d10+10)[untyped]|options:area-damage]의 피해를 입는다 (@Check[reflex|dc:27|basic|options:area-effect] 내성). 적의 내성 굴림이 대실패하고 유발 원인이 조작 행동인 경우, 해당 행동이 중단된다.</p>"
         },
         "icFtpyk3vKrnSxKV": {
-          "name": "부대 방어 (Troop Defenses)",
+          "name": "부대 방어(Troop Defenses)",
           "description": "<p><strong>HP</strong> 195 (4 세그먼트); <strong>임계값</strong> 130 (3구간), 65 (2구간)</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
         },
         "i5jWmQ8e6h6E4QoP": {
-          "name": "부대 이동 (Troop Movement)"
+          "name": "부대 이동(Troop Movement)"
         },
         "bcpOku7PiXdT4H8M": {
-          "name": "할버드 쓸기 (Halberd Sweep)",
-          "description": "<p><strong>사용 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 시계장치 보병은 @Template[type:emanation|distance:10] 내의 각 적을 대상으로 @Check[reflex|dc:27|basic|options:area-effect] 내성 검사를 적용한 조율된 근접 공격을 수행한다. 피해량은 수행한 행동 수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(1d10+2)[untyped]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d10+10)[untyped]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(3d10+12)[untyped]|options:area-damage] damage</p>"
+          "name": "할버드 쓸기(Halberd Sweep)",
+          "description": "<p><strong>사용 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 시계장치 보병은 @Template[type:emanation|distance:10] 내의 각 적을 대상으로 @Check[reflex|dc:27|basic|options:area-effect] 내성 굴림을 적용한 조율된 근접 공격을 수행한다. 피해량은 수행한 행동 수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(1d10+2)[untyped]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d10+10)[untyped]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(3d10+12)[untyped]|options:area-damage] damage</p>"
         },
         "HSCg5KpZvlnFPxrU": {
-          "name": "방어력 상승 (Raise Defenses)",
+          "name": "방어력 상승(Raise Defenses)",
           "description": "<p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 보병의 시계장치 병사들은 기계식 액추에이터를 통해 외부 플레이트를 확장하여 부대원 또는 인접한 생물을 방어한다. 해당 생물은 보병의 다음 턴이 시작될 때까지, 또는 보병과 인접하지 않게 될 때까지 중 먼저 도래하는 시점까지 AC에 +2 상황 보너스를 얻는다.</p>"
         }
       }
     },
     "Sinswarm": {
-      "name": "죄악의 군집 (Sinswarm)",
+      "name": "죄악의 군집(Sinswarm)",
       "description": "<p>신스폰은 뒤틀린 인간형 육체의 괴물들로, 오래전 룬로드 알라즈니스트가 충격 부대로 삼기 위해 창조했다. 동족에게조차 증오를 품은 죄악의 자식들은 대개 소규모의 고립된 교단으로만 뭉치지만, 강력한 존재들은 가끔 이 침을 흘리는 공포들을 더 많이 {강요}하여 유독 피에 굶주리고 파괴적인 무리로 연합시키기도 한다.</p>",
       "hpdetails": "(4 세그먼트); 임계값 100 (3 세그먼트), 50 (2 세그먼트)",
       "perception": "죄악의 냄새 (불확실) 30피트",
       "items": {
         "suWuvk3b1IGpa6uN": {
-          "name": "죄악의 냄새 (Sin Scent)",
+          "name": "죄악의 냄새(Sin Scent)",
           "description": "<p>죄악 군집은 일곱 가지 주요 죄악 중 하나를 반영하는 생물의 냄새를 맡을 수 있다. GM이 어떤 생물이 적절히 죄악적인지 결정한다.</p>"
         },
         "mWL8Pftmb3ar9Dng": {
-          "name": "반응 공격 (Reactive Attack)",
+          "name": "반응 공격(Reactive Attack)",
           "description": "<p><strong>발동 조건</strong> 죄악의 군집으로부터 @Template[type:emanation|distance:5] 이내에 있는 생물이 조작 행동이나 이동 행동을 사용하거나, 원거리 공격을 수행하거나, 사용 중인 이동 행동 중에 칸을 떠날 때</p><hr /><p><strong>효과</strong> 죄악의 군집이 유발 생물을 향해 휘둘러 @Damage[(2d8+9)[piercing]]의 피해를 입힌다(@Check[reflex|dc:25|basic|options:area-effect] 내성). 생물이 내성에 대실패하고 유발 행동이 조작 행동이었다면, 해당 행동은 중단된다.</p>"
         },
         "icFtpyk3vKrnSxKV": {
-          "name": "군대 방어 체계 (Troop Defenses)",
+          "name": "군대 방어 체계(Troop Defenses)",
           "description": "<p><strong>HP</strong> 150 (4 세그먼트); <strong>임계값</strong> 100 (3 세그먼트), 50 (2 세그먼트)</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
         },
         "i5jWmQ8e6h6E4QoP": {
-          "name": "부대 이동 (Troop Movement)"
+          "name": "부대 이동(Troop Movement)"
         },
         "Zis6FOzrRs7UUXMY": {
-          "name": "죄악의 돌격 (Sinful Assault)",
-          "description": "<p><strong>주파수</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 죄악의 군단은 @Template[type:emanation|distance:5] 내의 각 적을 대상으로 @Check[reflex|dc:25|basic|options:area-effect] 내성 검사를 적용한 조율된 공격을 가한다. 피해량은 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(1d8+2)[piercing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d8+9)[piercing]|options:area-damage,sinful-bite] damage plus sinful bite</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(3d8+11)[piercing]|options:area-damage,sinful-bite] damage plus sinful bite</p>"
+          "name": "죄악의 돌격(Sinful Assault)",
+          "description": "<p><strong>빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 죄악의 군단은 @Template[type:emanation|distance:5] 내의 각 적을 대상으로 @Check[reflex|dc:25|basic|options:area-effect] 내성 굴림을 적용한 조율된 공격을 가한다. 피해량은 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(1d8+2)[piercing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d8+9)[piercing]|options:area-damage,sinful-bite] damage plus sinful bite</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(3d8+11)[piercing]|options:area-damage,sinful-bite] damage plus sinful bite</p>"
         },
         "89StrKD1wh351i0K": {
-          "name": "죄악의 물기 (Sinful Bite)",
-          "description": "<p> 죄악의 자식에게 물린 생물은 죄악적인 생각에 사로잡히며 @Check[will|dc:28] 저항 검사를 시도해야 한다. 죄악의 군단은 동일한 라운드에 여러 대상에게 동일한 죄악 효과를 가할 수 없으며, 일곱 가지 죄악을 모두 최소 한 번씩 가해야만 한다. </p> <hr /> <p> <strong> 대성공 </strong> 대상은 영향을 받지 않는다.</p>\n<p><strong>성공</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1} 상태가 된다.</p>\n<p><strong>실패</strong> 해당 생물은 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 2} 상태입니다.</p>\n<p><strong>대실패</strong> 생물은 병약 2 상태가 되며, GM이 선택한 다음 추가 효과 중 하나를 받습니다:</p><ul><li><p>@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{1분간 약화된 2} (질투)</p></li><li><p>@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수된 1} (탐식)</p></li><li><p>@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 2} 1분간 (탐욕)</p></li><li><p>@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 2} 1분간 (정욕)</p></li><li><p>@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1} 및 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{1분간 약화 1} (오만)</p></li><li><p>-1분간 모든 이동 속도에 10피트 상태 페널티 (게으름) @UUID[Compendium.pf2e.bestiary-effects.Item.9Qyu0HN5j6DO8Izc]{효과: 죄악의 물기}</p></li><li><p>1분 동안 흡수된 1 및 약화 1 (분노)</p></li></ul>"
+          "name": "죄악의 물기(Sinful Bite)",
+          "description": "<p> 죄악의 자식에게 물린 생물은 죄악적인 생각에 사로잡히며 @Check[will|dc:28] 저항 검사를 시도해야 한다. 죄악의 군단은 동일한 라운드에 여러 대상에게 동일한 죄악 효과를 가할 수 없으며, 일곱 가지 죄악을 모두 최소 한 번씩 가해야만 한다. </p> <hr /> <p> <strong> 대성공 </strong> 대상은 영향을 받지 않는다.</p>\n<p><strong>성공</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1} 상태가 된다.</p>\n<p><strong>실패</strong> 해당 생물은 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 2} 상태입니다.</p>\n<p><strong>대실패</strong> 생물은 병약 2 상태가 되며, GM이 선택한 다음 추가 효과 중 하나를 받습니다:</p><ul><li><p>@UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{1분간 약화된 2}(질투)</p></li><li><p>@UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수된 1}(탐식)</p></li><li><p>@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 2} 1분간 (탐욕)</p></li><li><p>@UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 2} 1분간 (정욕)</p></li><li><p>@UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1} 및 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{1분간 약화 1}(오만)</p></li><li><p>-1분간 모든 이동 속도에 10피트 상태 페널티 (게으름) @UUID[Compendium.pf2e.bestiary-effects.Item.9Qyu0HN5j6DO8Izc]{효과: 죄악의 물기}</p></li><li><p>1분 동안 흡수된 1 및 약화 1 (분노)</p></li></ul>"
         }
       }
     },
     "Scamp Shrapnel": {
-      "name": "스캠프 파편 (Scamp Shrapnel)",
+      "name": "스캠프 파편(Scamp Shrapnel)",
       "description": "<p>일반적으로 모든 원소 스캠프는 다소 장난기 많으며, (종종 우발적인) 혼란을 일으키기 위해 무리를 지어 모일 가능성이 높다.</p>",
       "hpdetails": "4 세그먼트); 임계값 60 (3 세그먼트), 30 (2 세그먼트)",
       "items": {
         "BSejpvFZwpYmOdR1": {
-          "name": "빠른 치유 (금속 접촉 시) (Fast Healing (while touching metal))"
+          "name": "빠른 치유 (금속 접촉 시)(Fast Healing (while touching metal))"
         },
         "icFtpyk3vKrnSxKV": {
-          "name": "군대 방어 (Troop Defenses)",
+          "name": "군대 방어(Troop Defenses)",
           "description": "<p><strong>HP</strong> 90 (4 세그먼트); <strong>한계치</strong> 60 (3 세그먼트), 30 (2 세그먼트)</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
         },
         "i5jWmQ8e6h6E4QoP": {
-          "name": "부대 이동 (Troop Movement)"
+          "name": "부대 이동(Troop Movement)"
         },
         "DTzsPQI9SG94AmvU": {
-          "name": "금속 발톱 (Metallic Claws)",
+          "name": "금속 발톱(Metallic Claws)",
           "description": "<p>스캠프 파편은 작은 발톱을 휘둘러 공격한다. @Template[type:emanation|distance:5] 내의 각 적은 @Check[reflex|dc:21|basic|options:area-effect] 내성을 시도해야 한다. 피해량은 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[1d6[slashing],1d4[bleed]|options:area-damage]{1d6 베기 피해와 1d4 출혈 피해}</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d6+2)[slashing],2d4[bleed]|options:area-damage]{2d6+2 베기 피해 및 2d4 출혈 피해}</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(2d6+4)[slashing],3d4[bleed]|options:area-damage]{2d6+4 베기 피해 및 3d4 출혈 피해}</p>"
         },
         "f2MKhz42yWBSTE9X": {
-          "name": "파편 숨결 (Shrapnel Breath)",
+          "name": "파편 숨결(Shrapnel Breath)",
           "description": "<p>스캠프 파편은 @Template[type:cone|distance:15] 범위 내의 모든 생물에게 @Damage[3d6[slashing]|options:area-damage]의 피해를 입히는 파편을 내뿜습니다 (@Check[reflex|dc:21|basic|options:area-effect] 내성). 내성에 실패한 생물은 @Damage[1d6[bleed]] 지속 출혈 피해를 추가로 받습니다. 스캠프 파편은 [[/gmr 1d4 #Shrapnel Breath]]{1d4 라운드} 동안 파편 숨결을 다시 사용할 수 없습니다.</p>"
         }
       }
     },
     "Scamp Tangle": {
-      "name": "스캠프 탱글 (Scamp Tangle)",
+      "name": "스캠프 탱글(Scamp Tangle)",
       "description": "<p>일반적으로 모든 원소 스캠프는 다소 장난기 많으며, (종종 우발적인) 혼란을 일으키기 위해 무리를 지어 모일 가능성이 높다.</p>",
       "hpdetails": "4 세그먼트); 임계값 60 (3 세그먼트), 30 (2 세그먼트)",
       "items": {
         "BSejpvFZwpYmOdR1": {
-          "name": "빠른 치유 (식물이나 나무에 접촉 중일 때) (Fast Healing (while touching plants or trees))"
+          "name": "빠른 치유 (식물이나 나무에 접촉 중일 때)(Fast Healing (while touching plants or trees))"
         },
         "icFtpyk3vKrnSxKV": {
-          "name": "부대 방어 (Troop Defenses)",
+          "name": "부대 방어(Troop Defenses)",
           "description": "<p><strong>HP</strong> 90 (4 세그먼트); <strong>임계값</strong> 60 (3 세그먼트), 30 (2 세그먼트)</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
         },
         "i5jWmQ8e6h6E4QoP": {
-          "name": "부대 이동 (Troop Movement)"
+          "name": "부대 이동(Troop Movement)"
         },
         "f2MKhz42yWBSTE9X": {
-          "name": "꽃가루 호흡 (Pollen Breath)",
+          "name": "꽃가루 호흡(Pollen Breath)",
           "description": "<p>스캠프 탱글은 @Template[type:cone|distance:15] 범위 내의 모든 생물에게 @Damage[3d6[poison]|options:area-damage]의 피해를 입히는 꽃가루 숨결을 내뿜는다 (@Check[reflex|dc:21|basic|options:area-effect] 내성). 스캠프 탱글은 [[/gmr 1d4 #Pollen Breath]]{1d4 라운드} 동안 다시 꽃가루 숨결을 사용할 수 없습니다.</p>"
         },
         "DTzsPQI9SG94AmvU": {
-          "name": "가시 발톱 (Thorny Claws)",
+          "name": "가시 발톱(Thorny Claws)",
           "description": "<p>스캠프 탱글이 작은 발톱을 휘둘러 공격한다. @Template[type:emanation|distance:5] 내의 각 적은 @Check[reflex|dc:21|basic|options:area-effect] 내성을 시도해야 한다. 피해량은 공격 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[1d6[piercing],1d4[bleed]|options:area-damage]{1d6 관통 피해와 1d4 지속 출혈 피해}</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d6+2)[piercing],2d4[bleed]|options:area-damage]{2d6+2 관통 피해 및 2d4 지속 출혈 피해}</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(2d6+4)[piercing],3d4[bleed]|options:area-damage]{2d6+4 관통 피해 및 3d4 지속 출혈 피해}</p>"
         }
       }
     },
     "Animated Army": {
-      "name": "되살아난 조각상 군대 (Animated Army)",
+      "name": "되살아난 조각상 군대(Animated Army)",
       "description": "<p>움직이는 조각상은 보통 한 쌍 또는 단독으로 나타나며, 다른 장식물들 사이에 숨겨져 눈에 띄지 않게 있다. 가끔 창조자는 불평하거나 지치지 않는 거의 막을 수 없는 전투력으로 수십 개의 움직이는 조각상을 만들어낸다.</p>",
       "hpdetails": "(4 세그먼트); 임계값 120 (4 세그먼트); 임계값 80 (3 세그먼트), 40 (2 세그먼트)",
       "items": {
         "Cd6eDbFtKZ0Y74bp": {
-          "name": "구조물 방어구 (Construct Armor)",
+          "name": "구조물 방어구(Construct Armor)",
           "description": "<p>일반 물체와 마찬가지로, 생동군단의 움직이는 석상들은 경도를 지닌다. 이 경도는 생동군단이 받는 모든 피해를 경도 수치만큼 감소시킨다. 애니메이티드 군대의 체력이 절반 이하로 감소하거나 치명타 피해를 입는 즉시, 그 구조물 방어막이 파괴되어 경도가 제거되고 방어력이 23으로 감소합니다.</p>"
         },
         "icFtpyk3vKrnSxKV": {
-          "name": "부대 방어 (Troop Defenses)",
+          "name": "부대 방어(Troop Defenses)",
           "description": "<p><strong>HP</strong> 120 (4 세그먼트); <strong>한계치</strong> 80 (3개 구간), 40 (2개 구간)</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
         },
         "i5jWmQ8e6h6E4QoP": {
-          "name": "부대 이동 (Troop Movement)"
+          "name": "부대 이동(Troop Movement)"
         },
         "CwU8AcG0B5BhuCVr": {
-          "name": "격렬한 주먹질 (Battering Fists)",
+          "name": "격렬한 주먹질(Battering Fists)",
           "description": "<p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 움직이는 군대는 @Template[type:emanation|distance:5](@Check[reflex|dc:23|basic|options:area-effect] 내성) 내의 각 적에게 근접 공격을 가한다. 입히는 피해는 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(1d8+2)[bludgeoning]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d8+8)[bludgeoning]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(3d8+10)[bludgeoning]|options:area-damage] damage</p>"
         }
       }
     },
     "Goblin Rabble": {
-      "name": "고블린 무리 (Goblin Rabble)",
+      "name": "고블린 무리(Goblin Rabble)",
       "description": "<p>고블린은 홉고블린 친척들처럼 조직력과 규율이 부족하지만, 종종 교활함으로 이를 상쇄하고도 남는다. 일부 고블린 부족은 황혼을 틈타 무역로를 공포에 떨게 하는 것을 즐긴다. 싸움을 끝내기보다는 귀중품을 빼앗고 도망치는 데 포커스를 두는 이 고블린 무리는 속도와 혼란에 빠진 먹잇감에게서 빼앗을 만한 물건을 식별하는 데 탁월하다. 대개 상대가 더 강하기 때문에 기습 후 후퇴 전술을 사용한다.</p>",
       "hpdetails": "(4 구간); 임계값 40 (3 구간), 20 (2 구간)",
       "items": {
         "icFtpyk3vKrnSxKV": {
-          "name": "부대 방어 (Troop Defenses)",
+          "name": "부대 방어(Troop Defenses)",
           "description": "<p><strong>HP</strong> 60 (4 구간); <strong>임계값</strong> 40 (3 구간), 20 (2 구간)</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
         },
         "i5jWmQ8e6h6E4QoP": {
-          "name": "부대 이동 (Troop Movement)"
+          "name": "부대 이동(Troop Movement)"
         },
         "eRRRtU4JqLtCwvrs": {
-          "name": "집단 공격 (Dogpile)",
+          "name": "집단 공격(Dogpile)",
           "description": "<p>고블린 무리는 개살해칼로 가능한 한 조율된 공격을 가하며, @Template[type:emanation|distance:5] (@Check[reflex|dc:18|basic|options:area-effect,inflicts:prone] 내성) 내의 각 적을 공격한다. 피해량은 행동 횟수에 따라 달라진다. 저항에 대실패한 생물은 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드림} 상태가 된다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[1d6[slashing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d6+4)[slashing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(2d6+7)[slashing]|options:area-damage] damage</p>"
         },
         "7XYw0EuPpuxTe0VW": {
-          "name": "절뚝거리며 추격 (Hobble Pursuit)",
+          "name": "절뚝거리며 추격(Hobble Pursuit)",
           "description": "<p>고블린 무리는 가능한 한 많은 적의 다리를 찢어 절뚝거리게 만든다. @Template[type:emanation|distance:5] 안에 있는 각 적은 @Check[reflex|dc:18] 내성에 시도해야 합니다. </p><hr /><p><strong>대성공</strong> 해당 생물은 영향을 받지 않습니다.</p>\n<p><strong>성공</strong> 해당 생물은 이동 속도에 5피트 상황 페널티를 받습니다.</p>\n<p><strong>실패</strong> 해당 생물은 이동 속도에 -10피트 상황 페널티를 받고 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1} 상태가 됩니다.</p>\n<p><strong>대실패</strong> 해당 생물은 이동 속도에 -15피트 상황 페널티를 받고 {느려짐} 1을 받습니다.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.lvK0DAuTYOnT6E5f]{효과: 추격 방해}</p>"
         },
         "8fqpfYBxFIhGzamm": {
-          "name": "돌진과 약탈 (Rush and Steal)",
+          "name": "돌진과 약탈(Rush and Steal)",
           "description": "<p>잡을 수 있는 손으로 재빨리 다가와, 고블린 무리는 잡을 수 있는 것은 무엇이든 가져간다. 고블린 무리는 자신의 속도의 최대 두 배까지 이동한다. 이 이동 중 고블린들은 2 벌크 이하의 방치된 물건을 집거나 인접한 생물에게서 @UUID[Compendium.pf2e.actionspf2e.Item.RDXXE7wMrSPCLv5k]{훔치기}를 시도하다; 고블린들은 남은 이동력만큼 여러 물건을 집거나 훔칠 수 있다.</p>"
         }
       }
     },
     "Omox Slime Pool": {
-      "name": "오목스 슬라임 풀 (Omox Slime Pool)",
+      "name": "오목스 슬라임 풀(Omox Slime Pool)",
       "description": "<p>오목스는 오염과 더러움의 화신이다. 진정한 해부학적 구조는 없지만, 조롱하는 듯한 인간형 형태를 취하는 경향이 있다-비록 공격 부대의 일원으로 대규모로 모일 때는 이 구분이 어렵다. 이러한 집단은 종종 군대 형태로 여러 몸통이 솟아오른 하나의 요동치는 슬라임 덩어리처럼 보인다.</p>",
       "hpdetails": "4 세그먼트); 임계치 210 (3 세그먼트), 105 (2 세그먼트)",
       "languages": "텔레파시 100피트",
       "perception": "암흑 시야",
       "items": {
         "2T2SRX4O8jOjVEoq": {
-          "name": "청결 약점 (Clean Vulnerability)",
+          "name": "청결 약점(Clean Vulnerability)",
           "description": "<p>오목스는 더러움의 화신이며, 청결이라는 개념을 혐오한다. 오목스 슬라임 풀이 청결 효과를 받으면 @Damage[4d6[mental]]의 피해를 입는다. 또한 오목스 슬라임 풀에 의해 피해를 입은 생물이 매 라운드 처음으로 발생한 오물을 닦아내는 행동을 할 때도 이 피해를 입는다.</p>"
         },
         "VSqhtjxZrTOQZHr9": {
-          "name": "마법 저항에 대한 모든 내성 +1 (+1 Status to All Saves vs. Magic)"
+          "name": "마법 저항에 대한 모든 내성 +1(+1 Status to All Saves vs. Magic)"
         },
         "08CBRW38eKM0dQTw": {
-          "name": "무기 흡수 (Absorb Weapon)",
+          "name": "무기 흡수(Absorb Weapon)",
           "description": "<p><strong>발동 조건</strong> 생물이 근접 무기로 오목스 슬라임 풀을 공격할 때</p><hr /><p><strong>효과</strong> 오목스들은 생물에게 [[/act 무장 해제]]를 시도한다. 대성공 시, 무기는 땅에 떨어지지 않고 오목스의 몸속에 흡수된다. 무기를 회수하려면 [[/act 무장 해제 dc=45]]{DC 45 운동 능력} 무장 해제 성공 체크가 필요하다.</p>"
         },
         "icFtpyk3vKrnSxKV": {
-          "name": "부대 방어 (Troop Defenses)",
+          "name": "부대 방어(Troop Defenses)",
           "description": "<p><strong>HP</strong> 315 (4 세그먼트); <strong>한계치</strong> 210 (3개 구간), 105 (2개 구간)</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
         },
         "i5jWmQ8e6h6E4QoP": {
-          "name": "부대 이동 (Troop Movement)"
+          "name": "부대 이동(Troop Movement)"
         },
         "2yNNYUWDIamcdzjI": {
-          "name": "슬라임 포격 (Slime Barrage)",
+          "name": "슬라임 포격(Slime Barrage)",
           "description": "<p>오목스들이 30피트 이내의 @Template[type:burst|distance:10] 범위 내에서 무거운 슬라임 공을 던진다. 해당 영역 내 모든 생물은 @Damage[4d6[bludgeoning],2d6[acid]|options:area-damage]{4d6 타격 피해와 2d6 산성 피해}를 받는다 (@Check[reflex|dc:35|basic|options:area-effect] 내성). 내성에 실패한 생물은 점액에 빠져 1분 동안 또는 [[/act escape dc=38]]{탈출}할 때까지 이동 속도에 -10피트 상황 페널티를 받습니다. 대실패 시, 해당 생물은 동일한 시간 동안 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1} 상태가 됩니다. 점액 웅덩이가 2개 세그먼트로 줄어들면, 해당 영역은 @Template[type:burst|distance:5].</p>로 축소됩니다."
         },
         "R5Bjje08NjUYnNrh": {
-          "name": "질식하는 손아귀 (Smothering Grasp)",
+          "name": "질식하는 손아귀(Smothering Grasp)",
           "description": "<p><strong>요구 사항</strong> 오목스 슬라임 풀에 생물이 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡기} 상태이거나 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속됨} 상태이다.</p><hr /><p><strong>효과</strong> 오목스 슬라임이 생물 위로 흘러내려 완전히 덮는다. 생물은 @Check[fortitude|dc:38] 내성에 성공하지 못하면 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명} 되고 숨을 참지 않으면 @UUID[Compendium.pf2e.journals.JournalEntry.S55aqwWIzpQRFhcq.JournalEntryPage.OiRwxbfLNUniLg15#drowning-and-suffocating]{질식하기} 시작한다. 이 효과는 오목스가 생물을 붙잡거나 제압하는 동안 지속된다.</p>\n<p>@UUID[Compendium.pf2e.other-effects.Item.2u26bmArDPuoCljc]{효과: 잔여 공기}</p>"
         },
         "crLlCiuQimNTxmEK": {
-          "name": "진흙 파도 (Waves of Sludge)",
+          "name": "진흙 파도(Waves of Sludge)",
           "description": "<p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 오목스들은 @Template[type:emanation|distance:5] 범위 내의 모든 적을 끈적한 촉수(@Check[reflex|dc:35|basic|options:area-effect] 내성)로 공격한다. 이 내성 굴림에 대실패한 생물은 또한 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡기} 상태가 된다. 피해는 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(1d6+3)[bludgeoning],1d6[acid]|options:area-damage]{1d6+3 타격 피해 + 1d6 산성 피해}</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(3d6+12)[bludgeoning],2d6[acid]|options:area-damage]{3d6+12 타격 피해 + 2d6 산성 피해}</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(4d6+14)[bludgeoning],3d6[acid]|options:area-damage]{4d6+14 타격 피해 + 3d6 산성 피해}</p>"
         }
       }
     },
     "Archon Bastion": {
-      "name": "아콘 요새 (Archon Bastion)",
+      "name": "아콘 요새(Archon Bastion)",
       "description": "<p>방패 아콘으로도 알려진 레케프는 천국을 향한 악마의 공격을 막아내지만, 때로는 약한 자들을 보호하기 위해 필멸자의 우주로 내려오기도 한다. 레케프의 대규모 편대는 악을 마주하기 위해 방패 형태를 고정시키는 장관을 이룬다.</p>",
       "hpdetails": "(4 세그먼트); 한계치 200 (3 세그먼트), 100 (2 세그먼트)",
       "languages": "트루스피치",
       "items": {
         "XCgZ0fnkEpLwnd8m": {
-          "name": "마법 저항에 대한 모든 내성 +1 (+1 Status to All Saves vs. Magic)"
+          "name": "마법 저항에 대한 모든 내성 +1(+1 Status to All Saves vs. Magic)"
         },
         "HxFuQk0JpWsvbABp": {
-          "name": "아콘의 방패 (Archon's Aegis)",
+          "name": "아콘의 방패(Archon's Aegis)",
           "description": "<p><strong>Trigger</strong> 적이 아콘 요새의 아군에게 피해를 주고 양측이 아콘 요새로부터 15피트 이내에 있을 때</p><hr /><p><strong>효과</strong> 아군은 발동 피해를 포함한 모든 피해에 대해 저항력 20을 얻으며, 적은 @Damage[(1d8+4)[piercing]] 피해를 입는다 (@Check[reflex|dc:34|basic] 내성).</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.w74r3xO0rsowT5ra]{효과: 아콘의 아이기스}</p>"
         },
         "icFtpyk3vKrnSxKV": {
-          "name": "부대 방어 (Troop Defenses)",
+          "name": "부대 방어(Troop Defenses)",
           "description": "<p><strong>HP</strong> 300 (4 세그먼트); <strong>임계값</strong> 200 (3 구간), 100 (2 구간)</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
         },
         "i5jWmQ8e6h6E4QoP": {
-          "name": "부대 이동 (Troop Movement)"
+          "name": "부대 이동(Troop Movement)"
         },
         "vaIAtDX85EGJM624": {
-          "name": "무서움 전환 (Fearless Switch)",
+          "name": "무서움 전환(Fearless Switch)",
           "description": "<p>아콘 요새는 대형 이하의 의지하는 아군과 최소 한 개의 세그먼트가 동일한 공간을 차지하도록 이동한다. 그 의지하는 아군은 아콘 요새의 세그먼트 중 하나와 인접한, 자신이 들어갈 수 있는 빈 공간으로 순간이동된다. 이 순간이동은 부대 개별 방패 아콘에게 내재된 순간이동 마법을 사용한다. 아콘 요새는 이 방식으로 최대 세 명의 아군을 이동시킬 수 있다.</p>"
         },
         "AurAKcqtjnEcr4Yi": {
-          "name": "살아있는 방패 (Living Shields)",
+          "name": "살아있는 방패(Living Shields)",
           "description": "<p>아콘 요새는 @Template[type:emanation|distance:5] 범위 내의 각 아군에게 해당 아군이 영역을 벗어나거나 아콘 요새의 다음 턴이 시작될 때까지(둘 중 먼저 도래하는 시점까지) AC에 +2 상황 보너스를 부여한다. 아콘 요새가 보호받는 아군 중 한 명을 겨냥한 공격에 대해 아콘의 방패막이를 사용하면, 아콘 요새가 저항력을 얻고 해당 아군 대신 피해를 받습니다.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.NXnngvaJXHtskVjU]{효과: 살아있는 방패}</p>"
         },
         "544dEwQrlWt2mwzj": {
-          "name": "심판의 창 (Smiting Lances)",
+          "name": "심판의 창(Smiting Lances)",
           "description": "<p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 아콘 요새는 @Template[type:emanation|distance:10] (@Check[reflex|dc:34|basic|options:area-effect] 내성) 내의 각 적에게 균일한 근접 공격을 가한다. 피해량은 행동 횟수에 따라 달라진다. 이 효과에 대한 내성에 실패한 불경한 생물은 추가로 @Damage[2d6[spirit]|options:area-damage]의 피해를 받습니다 (단일 행동 버전의 경우 @Damage[1d6[spirit]|options:area-damage]의 피해).</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(1d8+4)[piercing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(3d8+14)[piercing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(4d8+19)[piercing]|options:area-damage] damage</p>"
         }
       }
     },
     "Halfling Lucky Draw": {
-      "name": "하플링 럭키 드로우 (Halfling Lucky Draw)",
+      "name": "하플링 럭키 드로우(Halfling Lucky Draw)",
       "hpdetails": "(4 세그먼트); 임계값 90 (3 세그먼트), 45 (2 세그먼트)",
       "items": {
         "icFtpyk3vKrnSxKV": {
-          "name": "부대 방어 (Troop Defenses)",
+          "name": "부대 방어(Troop Defenses)",
           "description": "<p><strong>HP</strong> 135 (4 세그먼트); <strong>한계치</strong> 90 (3개 구간), 45 (2개 구간)</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
         },
         "i5jWmQ8e6h6E4QoP": {
-          "name": "부대 이동 (Troop Movement)"
+          "name": "부대 이동(Troop Movement)"
         },
         "q3zI9N0p1dOqMF4D": {
-          "name": "불리한 거래 (Bad Deal)",
-          "description": "<p>하플링들은 재빠른 해로우 카드 점술로 적을 조롱하며 파멸을 예언한다. 부대는 60피트 내 잔여 세그먼트 수만큼의 생물을 선택한다. 각 대상은 @Check[will|dc:23] 내성 검사를 시도하다. 실패 시, 대상은 다음 공격 굴림, 내성 굴림 또는 기술 체크를 두 번 굴림하고 더 나쁜 결과를 사용해야 한다.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.U37oY6akeNfTtgLk]{효과: 불리한 거래}</p>"
+          "name": "불리한 거래(Bad Deal)",
+          "description": "<p>하플링들은 재빠른 해로우 카드 점술로 적을 조롱하며 파멸을 예언한다. 부대는 60피트 내 잔여 세그먼트 수만큼의 생물을 선택한다. 각 대상은 @Check[will|dc:23] 내성 굴림을 시도하다. 실패 시, 대상은 다음 공격 굴림, 내성 굴림 또는 기술 체크를 두 번 굴림하고 더 나쁜 결과를 사용해야 한다.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.U37oY6akeNfTtgLk]{효과: 불리한 거래}</p>"
         },
         "ntqLuao5Yr7uqE8V": {
-          "name": "허위 절단 (False Cuts)",
+          "name": "허위 절단(False Cuts)",
           "description": "<p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 하플링들은 카드로 속임수를 쓴 후, @Template[type:emanation|distance:5] 범위 내의 적들을 대상으로 @Check[reflex|dc:23|basic|options:area-effect] 내성을 적용한 협동 근접 공격으로 단검을 휘두릅니다. 피해량은 수행한 행동의 수에 따라 달라집니다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[1d4[piercing],1d4[precision]|options:area-damage] precision damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d4+7)[piercing],2d4[precision]|options:area-damage] precision damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(3d4+10)[piercing],2d4[precision]|options:area-damage] precision damage</p>"
         },
         "i2KxZTYPEzdd6zHZ": {
-          "name": "군대 해로우 카드 점술 (Troop Harrowing)",
+          "name": "군대 해로우 카드 점술(Troop Harrowing)",
           "description": "<p>하플링 럭키 드로우가 단일 생물을 대상으로 하는 주문을 시전할 때, 구성원 중 일부는 주문 시전의 일환으로 대상에 포커스된 해로우 판독을 수행할 수 있다. 럭키 드로우는 대상의 의지 DC에 대해 @Check[occultism|against:will] 기술 검사를 시도하다. 성공 시 대상은 해당 주문에 대한 내성 굴림 또는 AC 에 -1 상태 페널티를 받는다(대성공 시 -2). 럭키 드로우가 이 체크에 대실패하면, 그들의 점괘는 하플링들에게 불길한 소식을 예고하며 그들은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 2} 상태가 된다.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.GZAVAOj0s73Swc0e]{효과: 군대 해로우 카드 점술}</p>"
         }
       }
     },
     "Xulgath Dinosaur Cavalry": {
-      "name": "슐가스 공룡 기병대 (Xulgath Dinosaur Cavalry)",
-      "description": "<p>줄가스족은 수천 년 동안 공룡을 사육하고 훈련시켜 왔으며, 그들 사이의 유대는 다른 인간형 종족과 그들이 선택한 길들인 동반자 사이의 유대만큼이나 패밀리어하고 강하다. 대부분의 공룡들은 주로 짐을 나르는 짐승으로 사용되지만, '무장 기병'으로 알려진 엘리트 슐가스 병사들은 수많은 종 중에서 가장 사나운 공룡들을 훈련시켜 방어선을 뚫고 요새를 산산조각 내며 적군을 흩어지게 하는 잔혹하고도 무시무시한 탈것으로 활용한다.</p>",
+      "name": "슐가스 공룡 기병대(Xulgath Dinosaur Cavalry)",
+      "description": "<p>줄가스족은 수천 년 동안 공룡을 사육하고 훈련시켜 왔으며, 그들 사이의 유대는 다른 인간형 종족과 그들이 선택한 길들인 동반자 사이의 유대만큼이나 익숙하고 강하다. 대부분의 공룡들은 주로 짐을 나르는 짐승으로 사용되지만, '무장 기병'으로 알려진 엘리트 슐가스 병사들은 수많은 종 중에서 가장 사나운 공룡들을 훈련시켜 방어선을 뚫고 요새를 산산조각 내며 적군을 흩어지게 하는 잔혹하고도 무시무시한 탈것으로 활용한다.</p>",
       "hpdetails": "(4 세그먼트); 임계값 160 (3 세그먼트), 80 (2 세그먼트)",
       "items": {
         "sh7iK8xqS8cHsays": {
-          "name": "창 투척 포격 (Javelin Barrage)",
+          "name": "창 투척 포격(Javelin Barrage)",
           "description": "<p>줄가스들은 창을 뽑아들고 원거리에서 조율된 포격을 가한다. 이 포격은 30피트 이내의 @Template[type:burst|distance:10]로, @Damage[4d8[piercing]|options:area-damage] 피해를 입힌다 (@Check[reflex|dc:30|basic|options:area-effect] 내성). 기병대가 2개 세그먼트로 줄어들면 이 영역은 @Template[type:burst|distance:5]로 축소된다.</p>"
         },
         "9jcmqB6dSzdXSCNa": {
-          "name": "악취 (Stench)",
+          "name": "악취(Stench)",
           "description": "<p>30피트 @Check[fortitude|dc:33]</p><hr /><p>@Localize[PF2E.NPC.Abilities.Glossary.Stench]</p>"
         },
         "icFtpyk3vKrnSxKV": {
-          "name": "부대 방어 (Troop Defenses)",
+          "name": "부대 방어(Troop Defenses)",
           "description": "<p><strong>HP</strong> 240 (4 세그먼트); <strong>한계치</strong> 160 (3개 구간), 80 (2개 구간)</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
         },
         "i5jWmQ8e6h6E4QoP": {
-          "name": "기동 부대 (Troop Movement)"
+          "name": "기동 부대(Troop Movement)"
         },
         "EyzM8IsGsCsC2eQu": {
-          "name": "기마 부대 (Mounted Troop)",
+          "name": "기마 부대(Mounted Troop)",
           "description": "<p>동물 또는 휴머노이드만을 대상으로 하는 효과는 발키리 템페스트에게 적용되지 않을 수 있으며, 이는 GM의 재량에 따릅니다.</p>"
         },
         "OA4p28bD8vELnas7": {
-          "name": "창, 이빨, 뿔 (Spears, Teeth, and Horns)",
-          "description": "<p><strong>사용 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 기병대는 @Template[type:emanation|distance:10]에 있는 각 적에게 @Check[reflex|dc:30|basic|options:area-effect] 내성 검사를 적용한 조율된 근접 공격을 가한다. 가하는 피해는 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(2d6+2)[piercing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(4d6+10)[piercing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(5d6+15)[piercing]|options:area-damage] damage</p>"
+          "name": "창, 이빨, 뿔(Spears, Teeth, and Horns)",
+          "description": "<p><strong>사용 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 기병대는 @Template[type:emanation|distance:10]에 있는 각 적에게 @Check[reflex|dc:30|basic|options:area-effect] 내성 굴림을 적용한 조율된 근접 공격을 가한다. 가하는 피해는 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(2d6+2)[piercing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(4d6+10)[piercing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(5d6+15)[piercing]|options:area-damage] damage</p>"
         },
         "tFEpets9UJimpctg": {
-          "name": "짓밟기 (Trample)",
+          "name": "짓밟기(Trample)",
           "description": "<p>크거나 더 작은, @Damage[(2d6+2)[bludgeoning]], @Check[reflex|dc:30|basic]</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Trample]</p>"
         },
         "lC8aWPfSCuRLOqnS": {
-          "name": "공룡 로어 (Dinosaur Lore)"
+          "name": "공룡 로어(Dinosaur Lore)"
         }
       }
     },
     "Deinonychus Pack": {
-      "name": "데이노니쿠스 무리 (Deinonychus Pack)",
+      "name": "데이노니쿠스 무리(Deinonychus Pack)",
       "description": "<p>데이나니쿠스는 날카로운 발톱으로 사냥감을 잔혹하게 갈기갈기 찢는 것과, 자신들보다 훨씬 큰 사냥감을 꾸준히 쓰러뜨릴 수 있는 독보적인 무리 전술로 널리 알려져 있으며 두려움의 대상이다. 일부 이룩시와 슐가스 공동체는 이 공룡들을 전장의 전초전투원으로 훈련시켜, 적을 약화시킨 후 결전을 벌이도록 합니다.</p>",
       "hpdetails": "(4 세그먼트); 한계치 80 (3 세그먼트), 40 (2 세그먼트)",
       "perception": "저조도 시야, 후각 탐지(정확도 낮음) 30피트",
       "items": {
         "icFtpyk3vKrnSxKV": {
-          "name": "부대 방어 (Troop Defenses)",
+          "name": "부대 방어(Troop Defenses)",
           "description": "<p><strong>HP</strong> 120 (4 세그먼트); <strong>한계치</strong> 80 (3구간), 40 (2구간)</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
         },
         "i5jWmQ8e6h6E4QoP": {
-          "name": "부대 이동 (Troop Movement)"
+          "name": "부대 이동(Troop Movement)"
         },
         "zd0ZnYdWNyaLP8Au": {
-          "name": "턱과 발톱 (Jaws and Claws)",
+          "name": "턱과 발톱(Jaws and Claws)",
           "description": "<p><strong>사용 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 무리는 @Template[type:emanation|distance:5](@Check[reflex|dc:22|basic|options:area-effect] 내성) 내의 각 적에게 근접 공격을 가한다. 피해량은 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[1d6[piercing],1d4[persistent,bleed]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d6+4)[piercing],2d4[persistent,bleed]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(3d6+6)[piercing],2d4[persistent,bleed]|options:area-damage] damage</p>"
         },
         "6PukXd6ei7NiNQfG": {
-          "name": "포식자의 이점 (Predator's Advantage)",
+          "name": "포식자의 이점(Predator's Advantage)",
           "description": "<p>출혈 상태의 생물은 데이나니쿠스 무리의 턱과 발톱 공격에 대한 반사 내성에 -2 상황 페널티를 받는다.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.c5zOwEre2Uy9MCFo]{효과: 포식자의 우위}</p>"
         },
         "Ly6erR1zh1HAnKJ5": {
-          "name": "포위 사냥 (Surround Prey)",
+          "name": "포위 사냥(Surround Prey)",
           "description": "<p><strong>요구사항</strong> 데이나니쿠스 무리는 최소 3개의 세그먼트를 가진다</p><hr /><p><strong>효과</strong> 무리는 이동을 하여, 최소 두 개의 세그먼트가 동일한 생물과 인접하도록 위치를 잡고 발톱으로 공격한다. 해당 생물은 @Check[reflex|dc:22] 내성에 성공하지 못하면 @Damage[2d4[persistent,bleed]]의 피해를 입는다.</p>"
         }
       },
@@ -857,115 +857,115 @@
       }
     },
     "Dromaar Company": {
-      "name": "드로마르 용병단 (Dromaar Company)",
+      "name": "드로마르 용병단(Dromaar Company)",
       "description": "<p>벨크젠과 그 주변 지역에는 수많은 드로마르 용병단이 활동하며, 그들의 군사력을 요청하는 모든 영지에 제공해 온다. 이 훈련된 전사들은 자신 있게 전장으로 진군하며, 앞길을 막는 모든 자에게 도끼를 휘두른다.</p>",
       "hpdetails": "4 구간); 임계값 60 (3 구간), 30 (2 구간)",
       "items": {
         "icFtpyk3vKrnSxKV": {
-          "name": "부대 방어 (Troop Defenses)",
+          "name": "부대 방어(Troop Defenses)",
           "description": "<p><strong>HP</strong> 90 (4 세그먼트); <strong>임계값</strong> 60 (3 구간), 30 (2 구간)</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
         },
         "i5jWmQ8e6h6E4QoP": {
-          "name": "부대 이동 (Troop Movement)"
+          "name": "부대 이동(Troop Movement)"
         },
         "F5cE0oiwDbRk3FEt": {
-          "name": "볼라 던지기 (Bola Hurl)",
+          "name": "볼라 던지기(Bola Hurl)",
           "description": "<p>드로마르들은 볼라를 꺼내 @Template[type:cone|distance:15]로 던진다. 이 영역 내 모든 생물은 @Damage[3d6[bludgeoning]|traits:nonlethal|options:area-damage]{3d6 비살상 타격} 피해를 입는다 (@Check[reflex|dc:21|basic|options:area-effect] 내성). 이 내성 굴림에 실패한 생물은 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드림} 상태가 된다.</p>"
         },
         "Gz4kr7igRxi0oSRP": {
-          "name": "쓰러진 자를 향해 돌진하라 (Charge the Fallen)",
+          "name": "쓰러진 자를 향해 돌진하라(Charge the Fallen)",
           "description": "<p>드로나르 부대가 두 번까지 이동하며 도끼를 휘둘러 공격한다. 이들은 이동 종료 시 @Template[type:emanation|distance:5] 범위 내의 각 적에게 @Damage[(2d8+5)[slashing]|options:area-damage] 피해(@Check[reflex|dc:21|basic|options:area-effect] 내성)를 입힌다. 대상이 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드림} 상태일 경우 이 피해는 5 증가한다.</p>"
         },
         "2uCRBNiFCqdHF7yr": {
-          "name": "훈련된 공격 (Disciplined Strikes)",
+          "name": "훈련된 공격(Disciplined Strikes)",
           "description": "<p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 드로마아르들은 도끼로 근접 공격을 조율하여 @Template[type:emanation|distance:5](@Check[reflex|dc:21|basic|options:area-effect] 내성) 내의 모든 적을 공격한다. 피해량은 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[1d8[slashing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d8+5)[slashing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(2d8+10)[slashing]|options:area-damage] damage</p>"
         }
       }
     },
     "Hobgoblin Veteran Regiment": {
-      "name": "홉고블린 베테랑 연대 (Hobgoblin Veteran Regiment)",
+      "name": "홉고블린 베테랑 연대(Hobgoblin Veteran Regiment)",
       "description": "<p>잘 무장한 홉고블린 병사 연대가 전장을 가로지르며 진군하는 모습만큼 위협적인 광경은 드물다. 탁월한 방어 능력과 지나칠 정도로 집요한 성격을 지닌 이 홉고블린들은 정밀한 도구처럼 활용되어 적의 가장 취약한 지점을 파고들어 방어선을 완전히 무너뜨린다.</p>",
       "hpdetails": "(4 구간); 임계값 100 (3 구간), 50 (2 구간)",
       "perception": "암흑 시야",
       "items": {
         "Tt4mUW9Ms8d5hw9m": {
-          "name": "홉고블린 팔랑크스 (Hobgoblin Phalanx)",
+          "name": "홉고블린 팔랑크스(Hobgoblin Phalanx)",
           "description": "<p>많은 홉고블린들이 동료를 보호하기 위해 방패를 들어 올린다. 이 연대는 다음 차례 시작까지 AC에 +2 상황 보너스를 얻는다.</p>"
         },
         "icFtpyk3vKrnSxKV": {
-          "name": "부대 방어 (Troop Defenses)",
+          "name": "부대 방어(Troop Defenses)",
           "description": "<p><strong>체력</strong> 150 (4 구간); <strong>임계값</strong> 100 (3구간), 50 (2구간)</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
         },
         "i5jWmQ8e6h6E4QoP": {
-          "name": "부대 이동 (Troop Movement)"
+          "name": "부대 이동(Troop Movement)"
         },
         "NYRyHo1jTrJN4bQS": {
-          "name": "경계 태세 (Watchful)",
+          "name": "경계 태세(Watchful)",
           "description": "<p>홉고블린 연대는 방패를 준비한 채 사방에서 경계하도록 훈련받았다. 홉고블린 연대는 부대의 레벨 이하인 측면 공격 생물에게 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 될 수 없다.</p>"
         },
         "O2lSwgbjBHqj1RP2": {
-          "name": "훈련된 공격 (Disciplined Strikes)",
+          "name": "훈련된 공격(Disciplined Strikes)",
           "description": "<p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 홉고블린들은 @Template[type:emanation|distance:5] 내에 있는 각 적을 상대로 @Check[reflex|dc:25|basic|options:area-effect] 내성이 적용되는 협동 근접 공격을 가한다. 피해량은 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(1d8+2)[slashing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d8+9)[slashing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(3d8+11)[slashing]|options:area-damage] damage</p>"
         },
         "4GrQnnekkVGJNJRk": {
-          "name": "돌격 (Overrun)",
+          "name": "돌격(Overrun)",
           "description": "<p>홉고블린 베테랑 연대는 가차없이 전진하며, 그 앞을 가로막는 적들을 짓밟습니다. 연대는 이동 속도의 두 배로 전진하며, 대형 이하 크기의 생물이 있는 공간을 통과할 수 있다. 이때 연대는 진입하는 각 생물에게 @Damage[(2d8+9)[slashing]] 피해(@Check[reflex|dc:25|basic] 내성)를 입힌다. 연대는 오버런 사용 시 동일한 생물을 한 번만 시도할 수 있다. 연대가 2개 세그먼트로 감소하면 피해는 @Damage[(1d8+2)[slashing]] 피해로 감소한다.</p>"
         },
         "unbuSuEJCHdIxDeZ": {
-          "name": "단궁 일제 사격 (Shortbow Volley)",
+          "name": "단궁 일제 사격(Shortbow Volley)",
           "description": "<p>홉고블린들은 쇼트보우를 뽑아들고 일제 사격 형태의 원거리 공격을 가한다. 이 일제 사격은 60피트 내의 @Template[type:burst|distance:10]로, @Check[reflex|dc:25|basic|options:area-effect] 내성을 통해 @Damage[4d6[piercing]|options:area-damage] 피해를 입힙니다. 연대가 2개 세그먼트로 줄어들면 이 범위는 @Template[type:burst|distance:5]로 감소합니다.</p>"
         }
       }
     },
     "Druid Circle": {
-      "name": "드루이드 서클 (Druid Circle)",
+      "name": "드루이드 서클(Druid Circle)",
       "description": "<p>야생의 순수한 지역을 지키는 수호자로서, 강력한 드루이드들은 특히 악랄한 위협에 맞서기 위해 함께 모일 수 있다.</p>",
       "hpdetails": "(4 구간); 임계값 140 (3 구간), 70 (2 구간)",
       "items": {
         "icFtpyk3vKrnSxKV": {
-          "name": "부대 방어 (Troop Defenses)",
+          "name": "부대 방어(Troop Defenses)",
           "description": "<p><strong>HP</strong> 210 (4 세그먼트); <strong>한계치</strong> 140 (3개 구간), 70 (2개 구간)</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
         },
         "i5jWmQ8e6h6E4QoP": {
-          "name": "부대 이동 (Troop Movement)"
+          "name": "부대 이동(Troop Movement)"
         },
         "eVKtrWe3AVnZoOrz": {
-          "name": "폭풍을 불러내다 (Call Down the Storm)",
+          "name": "폭풍을 불러내다(Call Down the Storm)",
           "description": "<p>드루이드들은 80피트 내의 @Template[type:burst|distance:10] 영역에 있는 모든 생물에게 바람과 번개를 소환한다. 이 폭풍은 @Damage[3d10[electricity]|options:area-damage]의 피해를 입힌다 (@Check[reflex|dc:29|basic|options:area-effect,inflicts:forced-movement] 내성). 내성에 실패한 생물은 드루이드 원에서 5피트 밀려난다. 드루이드 원이 2세그먼트로 축소되면 이 영역은 @Template[type:burst|distance:5]로 줄어든다.</p>"
         },
         "ahqeqWaBaTmYKLAQ": {
-          "name": "낫과 지팡이 (Sickle and Staff)",
-          "description": "<p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 드루이드들은 @Template[type:emanation|distance:5] 범위 내의 모든 적을 대상으로 @Check[reflex|dc:29|basic|options:area-effect] 내성 검사를 적용한 협동 근접 공격을 가한다. 가하는 피해는 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[2d6[untyped]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(4d6+9)[untyped]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(5d6+13)[untyped]|options:area-damage] damage</p>"
+          "name": "낫과 지팡이(Sickle and Staff)",
+          "description": "<p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 드루이드들은 @Template[type:emanation|distance:5] 범위 내의 모든 적을 대상으로 @Check[reflex|dc:29|basic|options:area-effect] 내성 굴림을 적용한 협동 근접 공격을 가한다. 가하는 피해는 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[2d6[untyped]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(4d6+9)[untyped]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(5d6+13)[untyped]|options:area-damage] damage</p>"
         },
         "GiP41mP0LnZ0XTGl": {
-          "name": "부대 주문 시전 (Troop Spellcasting)",
+          "name": "부대 주문 시전(Troop Spellcasting)",
           "description": "<p>드루이드 서클이 주문을 시전할 때, 구성원들은 각자의 노력을 합쳐 어느 한 구성원이 단독으로 달성할 수 있는 것보다 더 강력한 버전의 주문을 시전합니다. 폭발, 원뿔, 선 형태의 영역을 가지며 지속 시간이 없는 주문을 시전할 때, 해당 주문의 영역을 확대합니다. 반경이 최소 10피트 이상인 폭발형 마법의 반경에 5피트를 추가한다(반경이 더 작은 폭발형 마법은 영향을 받지 않음). 길이가 15피트 이하인 원뿔형 또는 선형 마법의 길이에 5피트를 추가하고, 더 긴 원뿔형 또는 선형 마법의 길이에 10피트를 추가한다.</p>"
         }
       }
     },
     "Hell Hound Pack": {
-      "name": "지옥의 사냥개 무리 (Hell Hound Pack)",
+      "name": "지옥의 사냥개 무리(Hell Hound Pack)",
       "description": "<p>보르딘 군단과 함께 전장에 자주 투입되는 지옥의 사냥개 무리는 적군을 분산시키고 약화시켜 마스터에게 전술적 이점을 제공합니다. 고급 전술을 구사할 만큼 지능적이진 않지만, 잘 훈련된 지옥의 사냥개들은 불타는 숨결을 활용해 적군을 아군으로부터 분리시키거나 불리한 위치로 몰아넣어 전장을 장악하는 데 능숙하다. 이렇게 함으로써 다른 악마 군대들이 쉽게 사냥할 수 있는 먹잇감으로 만든다.</p>",
       "hpdetails": "(4 세그먼트); 임계값 90 (3 세그먼트), 45 (2 세그먼트)",
       "languages": "(언어 구사 불가)",
       "items": {
         "gOwqkgU2f7IIIUcd": {
-          "name": "지옥의 복수 (Hellish Revenge)",
+          "name": "지옥의 복수(Hellish Revenge)",
           "description": "<p><strong>발동 조건</strong> 지옥의 사냥개 무리가 타격 또는 주문 공격으로 치명타를 입음</p><hr /><p><strong>효과</strong> 지옥의 사냥개 무리의 지옥불 숨결이 재충전됩니다. 그들은 이 반응의 일환으로 즉시 이를 사용할 수 있습니다.</p>"
         },
         "icFtpyk3vKrnSxKV": {
-          "name": "부대 방어 (Troop Defenses)",
+          "name": "부대 방어(Troop Defenses)",
           "description": "<p><strong>체력</strong> 135 (4 구간); <strong>임계값</strong> 90 (3 세그먼트), 45 (2 세그먼트)</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
         },
         "i5jWmQ8e6h6E4QoP": {
-          "name": "부대 이동 (Troop Movement)"
+          "name": "부대 이동(Troop Movement)"
         },
         "dvQkVHhgqq97vdBL": {
-          "name": "지옥불의 숨결 (Hellfire Breath)",
+          "name": "지옥불의 숨결(Hellfire Breath)",
           "description": "<p>무리 속 지옥의 사냥개들이 힘을 합쳐 전장을 지옥의 불길로 뒤덮으며, @Damage[2d10[fire]|options:area-damage]의 피해를 @Template[type:cone|distance:15](@Check[reflex|dc:25|basic|options:area-effect] 내성) 동안 겹칠 수 없는 모든 생물에게 입힌다. 지옥의 사냥개 무리는 [[/gmr 1d4 #재충전 지옥의 불기]]{1d4 라운드} 동안 지옥의 불기 숨결을 다시 사용할 수 없습니다. 무리가 화염 피해를 입거나 화염 효과의 표적이 될 경우, 지옥의 불기 숨결이 재충전됩니다.</p>"
         },
         "jOde80XOr56srQBs": {
-          "name": "지옥의 갈기 (Infernal Mauling)",
+          "name": "지옥의 갈기(Infernal Mauling)",
           "description": "<p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 무리는 @Template[type:emanation|distance:5] 범위 내의 각 적을 불타는 턱으로 물어뜯는다(@Check[reflex|dc:23|basic|options:area-effect] 내성). 가하는 피해는 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[1d4[piercing],1d6[fire]|options:area-damage]{1d4 관통 피해 + 1d6 화염 피해}</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(1d8+7)[piercing],2d6[fire]|options:area-damage]{1d8+7 관통 피해 + 2d6 화염 피해}</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(2d8+7)[piercing],2d6[fire]|options:area-damage]{2d8+7 관통 피해 + 2d6 화염 피해}</p>"
         }
       },
@@ -976,370 +976,370 @@
       }
     },
     "Kobold Trap Squad": {
-      "name": "코볼트 함정 분대 (Kobold Trap Squad)",
+      "name": "코볼트 함정 분대(Kobold Trap Squad)",
       "description": "<p>코볼트 함정 분대는 일반적으로 자신들의 굴을 지키지만, 강력한 후원자의 지시에 따라 굴 밖으로 나가는 경우도 있다. 그들의 목표는 주로 특정 지역을 정찰하는 것이지만, 굴의 이익을 위해 특정 아이템이나 자원을 확보하는 임무를 맡을 수도 있다.</p>",
       "hpdetails": "(4 구간); 임계값 40 (3 구간), 20 (2 구간)",
       "perception": "암흑 시야",
       "items": {
         "icFtpyk3vKrnSxKV": {
-          "name": "부대 방어 (Troop Defenses)",
+          "name": "부대 방어(Troop Defenses)",
           "description": "<p><strong>체력</strong> 60 (4 구간); <strong>한계치</strong> 40 (3 구간), 20 (2 구간)</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
         },
         "i5jWmQ8e6h6E4QoP": {
-          "name": "부대 이동 (Troop Movement)"
+          "name": "부대 이동(Troop Movement)"
         },
         "wXMVIRjPi2YzTdR0": {
-          "name": "집단 돌진 (Group Scamper)",
+          "name": "집단 돌진(Group Scamper)",
           "description": "<p><strong>사용 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 코볼트는 이동 속도 +5피트까지 전진하며, 이 이동으로 유발된 반응 공격에 대해 AC에 +2 상황 보너스를 얻습니다. 적과 인접한 상태로 이 이동을 종료할 경우, 분대는 다음 턴 시작까지 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 됩니다.</p>"
         },
         "z3HQYCUmAo0o9v2u": {
-          "name": "급조된 함정 (Hasty Traps)",
-          "description": "<p>코볼트들은 다음 턴 시작까지 주변에 손쉽게 만든 초보적인 함정 몇 개를 설치한다. 함정 부대 근처로 이동하는 다음 생물은 함정을 작동시켜 @Check[reflex|dc:18] 내성 검사를 시도해야 한다. 실패 시, 생물은 @Damage[1d4[persistent,bleed]] 피해를 받는다(대실패 시 @Damage[2d4[persistent,bleed]] 피해를 받는다). 성급한 함정으로 지속적인 출혈 피해를 받는 생물은 이동 속도에 -5피트 강화 페널티를 받는다. 이는 코볼트 함정 부대가 행동을 수행할 당시 가진 세그먼트 수만큼의 생물에게 발생하지만, 한 생물은 턴당 하나의 함정만 발동시킬 수 있다.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.JUo3BTRaRHkL9ZBC]{효과: 급조된 함정}</p>"
+          "name": "급조된 함정(Hasty Traps)",
+          "description": "<p>코볼트들은 다음 턴 시작까지 주변에 손쉽게 만든 초보적인 함정 몇 개를 설치한다. 함정 부대 근처로 이동하는 다음 생물은 함정을 작동시켜 @Check[reflex|dc:18] 내성 굴림을 시도해야 한다. 실패 시, 생물은 @Damage[1d4[persistent,bleed]] 피해를 받는다(대실패 시 @Damage[2d4[persistent,bleed]] 피해를 받는다). 성급한 함정으로 지속적인 출혈 피해를 받는 생물은 이동 속도에 -5피트 강화 페널티를 받는다. 이는 코볼트 함정 부대가 행동을 수행할 당시 가진 세그먼트 수만큼의 생물에게 발생하지만, 한 생물은 턴당 하나의 함정만 발동시킬 수 있다.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.JUo3BTRaRHkL9ZBC]{효과: 급조된 함정}</p>"
         },
         "saCHZrL12xRzQ6S0": {
-          "name": "투석기 집중 사격 (Sling Barrage)",
-          "description": "<p>코볼트들은 슬링을 꺼내 돌을 발사하는 원거리 포격을 가한다. 이 포격은 50피트 내의 @Template[type:burst|distance:10]로, @Damage[3d4[bludgeoning]|options:area-damage] 피해를 입히며 @Check[reflex|dc:18|basic|options:area-effect] 내성 검사를 받는다. 분대가 2개 세그먼트로 줄어들면 이 영역은 @Template[type:burst|distance:5]로 축소된다.</p>"
+          "name": "투석기 집중 사격(Sling Barrage)",
+          "description": "<p>코볼트들은 슬링을 꺼내 돌을 발사하는 원거리 포격을 가한다. 이 포격은 50피트 내의 @Template[type:burst|distance:10]로, @Damage[3d4[bludgeoning]|options:area-damage] 피해를 입히며 @Check[reflex|dc:18|basic|options:area-effect] 내성 굴림을 받는다. 분대가 2개 세그먼트로 줄어들면 이 영역은 @Template[type:burst|distance:5]로 축소된다.</p>"
         },
         "iana8aSR0WrAjjvs": {
-          "name": "창 찌르기 (Spear Jabs)",
+          "name": "창 찌르기(Spear Jabs)",
           "description": "<p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 코볼트 함정 부대가 @Template[type:emanation|distance:5] 범위 내 모든 적을 대상으로 @Check[reflex|dc:18|basic|options:area-effect] 내성이 적용되는 협동 근접 공격을 가한다. 피해량은 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[1d6[piercing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d6+4)[piercing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(2d6+7)[piercing]|options:area-damage] damage</p>"
         }
       }
     },
     "Xulgath Army": {
-      "name": "슐가스 군대 (Xulgath Army)",
+      "name": "슐가스 군대(Xulgath Army)",
       "description": "<p>대부분의 슐가스 정착지는 암흑지대에 위치하지만, 이 파충류 인간형 생명체들은 때때로 악의적인 의도로 지표면으로 진출하기도 한다. 군대를 형성할 때면, 슐가스들은 그들이 섬기는 지도자의 이름으로 무고한 공동체를 찢어발긴다.</p>",
       "hpdetails": "(4개 구간); 임계값 66 (3개 구간), 33 (2개 구간)",
       "items": {
         "IGYttiN6rsth3QGj": {
-          "name": "악취 (Stench)",
+          "name": "악취(Stench)",
           "description": "<p>30피트 @Check[fortitude|dc:24]</p><hr /><p>@Localize[PF2E.NPC.Abilities.Glossary.Stench]</p>"
         },
         "icFtpyk3vKrnSxKV": {
-          "name": "군대 방어 시설 (Troop Defenses)"
+          "name": "군대 방어 시설(Troop Defenses)"
         },
         "i5jWmQ8e6h6E4QoP": {
-          "name": "부대 이동 (Troop Movement)"
+          "name": "부대 이동(Troop Movement)"
         },
         "Sc1M1Q5SwLYfoRIw": {
-          "name": "클럽 공격 (Club Offensive)",
-          "description": "<p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 슐가스들은 @Template[type:emanation|distance:5]에 있는 각 적을 상대로 @Check[reflex|dc:21|basic|options:area-effect] 내성 검사를 적용한 조율된 근접 공격을 가한다. 가하는 피해는 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(1d6+1)[bludgeoning]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d6+7)[bludgeoning]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(2d6+12)[bludgeoning]|options:area-damage] damage</p>"
+          "name": "클럽 공격(Club Offensive)",
+          "description": "<p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 슐가스들은 @Template[type:emanation|distance:5]에 있는 각 적을 상대로 @Check[reflex|dc:21|basic|options:area-effect] 내성 굴림을 적용한 조율된 근접 공격을 가한다. 가하는 피해는 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(1d6+1)[bludgeoning]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d6+7)[bludgeoning]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(2d6+12)[bludgeoning]|options:area-damage] damage</p>"
         },
         "dFtKZ94VZwUVZGqM": {
-          "name": "창 일제 사격 (Javelin Barrage)",
+          "name": "창 일제 사격(Javelin Barrage)",
           "description": "<p> 슐가스들은 창을 꺼내서 원거리에서 조율된 일제 사격을 가한다. 이 포격은 30피트 내의 @Template[type:burst|distance:10]로, @Damage[3d6[piercing]|options:area-damage] 피해를 입힌다 (@Check[reflex|dc:21|basic|options:area-effect] 내성). 슐가스 군대가 2개 세그먼트로 줄어들면, 이 영역은 @Template[type:burst|distance:5]로 축소된다.</p>"
         },
         "pXqf864qlns57H38": {
-          "name": "살점 찢기 (Rend Flesh)",
+          "name": "살점 찢기(Rend Flesh)",
           "description": "<p>슐가스들은 인접한 단일 적에게 공격을 집중하며, 마구 할퀴고 물어뜯는다. 해당 생물은 @Damage[(3d4+5)[slashing]]의 피해를 입는다(@Check[reflex|dc:21|basic] 내성). 내성에 실패하면, 해당 생물은 @Damage[1d4[persistent,bleed]]의 추가 피해를 받는다.</p>"
         }
       }
     },
     "Zecui Horde": {
-      "name": "제쿠이 무리 (Zecui Horde)",
+      "name": "제쿠이 무리(Zecui Horde)",
       "description": "<p>곤충형 제쿠이 떼의 기습 공격은 하룻밤 사이에 마을 전체를 순식간에 쓸어버릴 수 있다. 제쿠이는 희생자를 즉시 잡아먹지 않을 경우, 대개 자신의 애벌레를 이식한 뒤 거대한 집단 무덤에 묻어둔다. 이렇게 성장 중인 제쿠이 무리는 수년간 잠복 상태로 있다가 갑자기 지표면으로 솟아올라 인근 정착지에 재앙을 불러온다.</p>",
       "cadetails": "임계값 130 (3 구간), 65 (2 구간)",
       "items": {
         "icFtpyk3vKrnSxKV": {
-          "name": "부대 방어 (Troop Defenses)",
+          "name": "부대 방어(Troop Defenses)",
           "description": "<p><strong>HP</strong> 195 (4 세그먼트); <strong>한계치</strong> 130 (3 구간), 65 (2 구간)</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
         },
         "i5jWmQ8e6h6E4QoP": {
-          "name": "부대 이동 (Troop Movement)"
+          "name": "부대 이동(Troop Movement)"
         },
         "S8vzntd61NvQwoFv": {
-          "name": "경화된 키틴 (Harden Chitin)",
+          "name": "경화된 키틴(Harden Chitin)",
           "description": "<p>제쿠이스는 키틴을 검은 금속 껍질로 융합한다. 무리는 다음 이동 행동을 취할 때까지 모든 피해(정신 및 영혼 피해 제외)에 대해 저항력 10을 얻는다.</p>"
         },
         "6qGgXdGTtS0unUby": {
-          "name": "턱뼈 광란 (Mandible Frenzy)",
+          "name": "턱뼈 광란(Mandible Frenzy)",
           "description": "<p><strong>빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 무리는 @Template[type:emanation|distance:5](@Check[reflex|dc:27|basic|options:area-effect] 내성) 내의 각 적에게 사나운 물기 공격을 가한다. 입히는 피해는 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(1d8+2)[piercing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d8+12)[piercing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(3d8+15)[piercing]|options:area-damage] damage</p>"
         },
         "PKUSYo3GgYBtftNN": {
-          "name": "점액 홍수 (Mucus Deluge)",
+          "name": "점액 홍수(Mucus Deluge)",
           "description": "<p>떼거지는 30피트 내의 @Template[type:burst|distance:10]을 향해 애벌레가 들끓는 점액을 연발로 뱉어낸다. 해당 영역 내의 모든 생물은 @Check[reflex|dc:27|options:area-effect,inflicts:immobilized] 내성에 성공하지 못하면 가장 가까운 표면에 달라붙어 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{고정된} 상태가 된다. [[/act 탈출 DC=30]]에 성공할 때까지 지속된다. 고정된 모든 생물은 자신의 턴이 끝날 때마다 제쿠이 애벌레의 공격에 노출된다. 제쿠이 무리가 2개 세그먼트로 줄어들면 이 영역은 @Template[type:burst|distance:5]로 축소된다.</p>"
         },
         "Guwo78TyBNSprkQI": {
-          "name": "지하 매복 (Subterranean Ambush)",
+          "name": "지하 매복(Subterranean Ambush)",
           "description": "<p><strong>Requirements</strong> 제쿠이 무리는 흙, 모래 또는 이와 유사한 느슨한 물질의 표면 바로 아래에 매복 위치를 파고 들어갔습니다.</p><hr /><p><strong>효과</strong> 무리는 땅에서 튀어나와 자신의 속도만큼 이동합니다. 이 무리는 이동 종료 시 @Template[type:emanation|distance:5] 범위 내의 각 적에게 @Damage[(1d8+2)[piercing]|options:area-damage] 피해(@Check[reflex|dc:29|basic|options:area-effect] 내성)를 입힙니다.</p>"
         },
         "d2LtVhBSBPnv1oh3": {
-          "name": "제쿠이 애벌레 (Zecui Larvae)",
-          "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:30]</p>\n<p><strong>1단계</strong> 애벌레가 움직일 때 보이는 혹이지만 해로운 영향 없음 (1일)</p>\n<p><strong>2단계</strong> @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수된 1} (1일)</p>\n<p><strong>3단계</strong> @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 2} (1일)</p>\n<p><strong>4단계</strong> @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 3} 및 제쿠이 유충에 의해 제어됨 (1일)</p>\n<p><strong>5단계</strong> 생물이 죽으면 시체에서 상호작용 행동으로 성체 @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.vVs0N3mcWYHsyccc]{제쿠이}가 출현할 수 있다.</p>"
+          "name": "제쿠이 애벌레(Zecui Larvae)",
+          "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:30]</p>\n<p><strong>1단계</strong> 애벌레가 움직일 때 보이는 혹이지만 해로운 영향 없음 (1일)</p>\n<p><strong>2단계</strong> @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수된 1}(1일)</p>\n<p><strong>3단계</strong> @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 2}(1일)</p>\n<p><strong>4단계</strong> @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 3} 및 제쿠이 유충에 의해 제어됨 (1일)</p>\n<p><strong>5단계</strong> 생물이 죽으면 시체에서 상호작용 행동으로 성체 @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.vVs0N3mcWYHsyccc]{제쿠이}가 출현할 수 있다.</p>"
         }
       }
     },
     "Monk Cadre": {
-      "name": "몽크 집단 (Monk Cadre)",
+      "name": "몽크 집단(Monk Cadre)",
       "description": "<p>많은 무술가들은 자신과 동료를 원치 않는 공격으로부터 방어하기 위해 훈련하지만, 때로는 가장 평화로운 몽크조차도 전쟁에 나서야 하는 상황이 발생하기도 합니다. 숙련된 몽크들로 구성된 카드레는 주먹과 발차기로 큰 피해를 입힐 수 있을 뿐만 아니라, 기를 포커스하여 원거리 폭발을 일으킬 수도 있습니다.</p>",
       "hpdetails": "(4 세그먼트); 임계값 180 (3 세그먼트), 90 (2 세그먼트)",
       "items": {
         "icFtpyk3vKrnSxKV": {
-          "name": "부대 방어 (Troop Defenses)",
+          "name": "부대 방어(Troop Defenses)",
           "description": "<p><strong>HP</strong> 270 (4 세그먼트); <strong>임계값</strong> 180 (3 구간), 90 (2 구간)</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
         },
         "i5jWmQ8e6h6E4QoP": {
-          "name": "부대 이동 (Troop Movement)"
+          "name": "부대 이동(Troop Movement)"
         },
         "NWj26RnbvE05Pn1n": {
-          "name": "협동 기동 (Coordinated Maneuvers)",
+          "name": "협동 기동(Coordinated Maneuvers)",
           "description": "<p>몽크 부대는 적의 균형을 무너뜨리는 데 능숙하다. 몽크들은 [[/act 무장 해제]], [[/act 붙잡기]], [[/act 재위치]], 또는 [[/act 재위치]] 중 하나를 선택하고, 해당 행동을 수행하기 위해 운동 체크를 시도한다. 체크 결과는 @Template[type:emanation|distance:5] 범위 내 각 적의 적절한 DC(붙잡기와 재위치의 경우 인내, 무장 해제와 걸려 넘어뜨리기의 경우 반사 신경)와 비교된다. 이로 인해 각 대상마다 다른 성공 정도가 발생할 수 있다.</p>"
         },
         "2KuVzTYLKCWJAiw3": {
-          "name": "연타 (Pummeling Punches)",
+          "name": "연타(Pummeling Punches)",
           "description": "<p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 몽크들은 @Template[type:emanation|distance:5] 내의 모든 적을 대상으로 @Check[reflex|dc:31|basic|options:area-effect] 내성이 적용되는 정교한 근접 공격을 수행한다. 피해량은 수행된 행동의 수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[2d8[bludgeoning]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(4d8+8)[bludgeoning]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(4d8+16)[bludgeoning]|options:area-damage] damage</p>"
         },
         "Kne0fCu271kBT4tl": {
-          "name": "기폭발 (Qi Blast)",
-          "description": "<p>몽크들은 기를 모아 60피트 반경 내의 모든 생물에게 영향을 미치는 에너지 폭발을 일으킵니다. 이 폭발은 @Damage[6d6[force]|options:area-damage] 피해를 입히며, @Check[reflex|dc:31|basic|options:area-damage] 내성 검사를 받습니다. 몽크의 기운이 2단계로 감소하면 이 범위는 @Template[type:burst|distance:5]로 축소됩니다.</p>"
+          "name": "기폭발(Qi Blast)",
+          "description": "<p>몽크들은 기를 모아 60피트 반경 내의 모든 생물에게 영향을 미치는 에너지 폭발을 일으킵니다. 이 폭발은 @Damage[6d6[force]|options:area-damage] 피해를 입히며, @Check[reflex|dc:31|basic|options:area-damage] 내성 굴림을 받습니다. 몽크의 기운이 2단계로 감소하면 이 범위는 @Template[type:burst|distance:5]로 축소됩니다.</p>"
         }
       }
     },
     "Protean Tumult": {
-      "name": "프로테안의 소란 (Protean Tumult)",
+      "name": "프로테안의 소란(Protean Tumult)",
       "description": "<p>프로테안은 본질적으로 혼돈스러운 성격을 지녔기 때문에, 많은 사람들은 그들이 협력할 능력이 없다고 생각합니다. 그러나 그들은 위험에 직면하거나 더 강력한 존재의 지시에 따라 단결할 만큼 재치 있으며, 때로는 '프로테안 소동'이라 불리는 집단으로 행동한다. 이러한 연합은 다양한 형태와 크기의 수십 마리 프로테안으로 구성되며, 그중 다수는 순간마다 끊임없이 형태를 변화시킨다.</p>",
       "hpdetails": "(4개 구간); 한계치 140 (3개 구간), 70 (2개 구간)",
       "perception": "엔트로피 감지 (불확실) 30피트",
       "saves": "마법에 대한 모든 내성에 +1 상태 부여",
       "items": {
         "SaPQIiTXBIDTJjbY": {
-          "name": "주문 효과: 속박 없는 이동 (지속) (Spell Effect: Unfettered Movement (Constant))",
+          "name": "주문 효과: 속박 없는 이동 (지속)(Spell Effect: Unfettered Movement (Constant))",
           "description": "<p>{자유로운 이동}</p>에 의해 부여됨\n<p>당신은 속도에 대한 환경 페널티를 무시합니다.</p>"
         },
         "R96622IFQ9P9kEle": {
-          "name": "엔트로피 감지 (Entropy Sense)",
+          "name": "엔트로피 감지(Entropy Sense)",
           "description": "<p>변이형 소용돌이는 혼돈의 확률과 우연에 대한 초자연적 통찰력을 통해 생물의 존재 가능성을 예측할 수 있다. 이 능력은 지정된 범위 내의 생물을 감지할 수 있게 한다. @UUID[Compendium.pf2e.spells-srd.Item.EoKBlgf6Smt8opaU]{사생활의 베일}은 생물이 엔트로피 감지에 의해 자동으로(반격 체크 없이) 탐지되는 것을 방지한다.</p>"
         },
         "scu5Bs8DD8FihPK7": {
-          "name": "마법에 대한 모든 내성에 +1 상태 (+1 Status to All Saves vs. Magic)"
+          "name": "마법에 대한 모든 내성에 +1 상태(+1 Status to All Saves vs. Magic)"
         },
         "NsbD0XXJd9rWTG6K": {
-          "name": "빠른 치유 8 (Fast Healing 8)"
+          "name": "빠른 치유 8(Fast Healing 8)"
         },
         "e8XD5kcvG2Bx7SOy": {
-          "name": "변형 해부학 12 (Protean Anatomy 12)",
+          "name": "변형 해부학 12(Protean Anatomy 12)",
           "description": "<p>프로테우스의 활력 기관은 끊임없이 형태와 위치를 변화시킵니다. 프로테안이 산성, 전기, 음파 피해를 입은 직후, 해당 피해 유형에 대해 명시된 양만큼의 저항력을 얻습니다. 이 효과는 1시간 동안 지속되거나, 프로테안이 다른 유형의 피해를 입을 때까지(이 경우 저항력이 해당 유형에 맞게 변경됨) 중 먼저 도래하는 시점까지 유지됩니다. 프로테안은 자발적 대상이 아닌 한 변형 효과에 면역이다. @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명} 또는 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{실청} 상태일 경우, 손상된 감각 기관을 대체할 새로운 기관이 자라나 다음 차례 종료 시 자동으로 회복된다.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.c6SiBB3mzV8lZUQr]{효과: 변이체 해부학}</p>"
         },
         "icFtpyk3vKrnSxKV": {
-          "name": "부대 방어 (Troop Defenses)",
+          "name": "부대 방어(Troop Defenses)",
           "description": "<p><strong>HP</strong> 210 (4 세그먼트); <strong>한계치</strong> 140 (3 세그먼트), 70 (2 세그먼트)</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
         },
         "i5jWmQ8e6h6E4QoP": {
-          "name": "부대 이동 (Troop Movement)"
+          "name": "부대 이동(Troop Movement)"
         },
         "xySnVB7sWVdq7l75": {
-          "name": "카오스 플럭스 (Chaos Flux)",
+          "name": "카오스 플럭스(Chaos Flux)",
           "description": "<p>변이형 소란은 대부분의 부대보다 조직성이 떨어지고 더 잔혹하다. 다른 생물의 공간으로 이동할 수 있으며, 다른 생물도 그 공간으로 이동할 수 있다. 그 공간은 비변이형 생물에게 어려운 지형이다. 의도적으로 변형체 소용돌이의 공간으로 이동하는 생물은 @Damage[(1d12+1)[untyped]]의 피해를 입는다(@Check[reflex|dc:29|basic|options:area-effect] 내성 성공 시); 생물은 라운드당 한 번만 이 피해를 입는다.</p>"
         },
         "JSA3xmys0kWwH0A1": {
-          "name": "카오스 스트라이크 (Chaos Strike)",
+          "name": "카오스 스트라이크(Chaos Strike)",
           "description": "<p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 변형의 소용돌이는 아다만틴, 냉철, 또는 은 중 하나를 선택한다; 그 발톱, 이빨, 꼬리가 가하는 피해는 1분 동안 또는 혼돈의 일격을 다시 사용할 때까지 해당 재료로 간주된다.</p>"
         },
         "sCHb6Krue4UHWMqU": {
-          "name": "발톱, 이빨, 꼬리 (Claws, Jaws, and Tails)",
+          "name": "발톱, 이빨, 꼬리(Claws, Jaws, and Tails)",
           "description": "<p><span class=\"action-glyph\">1</span> to <span class=\"action-glyph\">3</span></p><hr /><p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 소란은 @Template[type:emanation|distance:5] (@Check[reflex|dc:29|basic|options:area-effect] 내성) 범위 내의 각 적을 사납게 공격한다. 피해량은 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(1d12+1)[untyped]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d12+10)[untyped]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(3d12+11)[untyped]|options:area-damage] damage</p>"
         },
         "JegdZ0GZYtjq4SH8": {
-          "name": "혼미한 일격 (Stupefying Swipe)",
+          "name": "혼미한 일격(Stupefying Swipe)",
           "description": "<p>변형된 소용돌이가 전장을 가로지른다. 그것은 이동한다. 이 이동이 끝날 때, 그들은 촉수와 다른 둔기 부위로 적을 공격하여 @Damage[(2d12+10)[bludgeoning]|options:area-damage]의 피해를 @Template[type:emanation|distance:5] (@Check[reflex|dc:29|basic|options:area-effect,inflicts:stupefied] 내성) 범위 내에서 입힌다. 이 내성에 실패한 생물은 2라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 2} 상태가 된다(대실패 시 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 3}).</p>"
         }
       }
     },
     "Scamp Flood": {
-      "name": "스캠프 플러드 (Scamp Flood)",
+      "name": "스캠프 플러드(Scamp Flood)",
       "description": "<p>일반적으로 모든 원소 꼬마들은 다소 장난기 많으며, (종종 우발적인) 혼란을 일으키기 위해 무리를 지어 모일 가능성도 똑같이 높다.</p>",
       "hpdetails": "4 세그먼트); 임계값 60 (3 세그먼트), 30 (2 세그먼트)",
       "items": {
         "BSejpvFZwpYmOdR1": {
-          "name": "빠른 치유 (수중에서) (Fast Healing (while underwater))"
+          "name": "빠른 치유 (수중에서)(Fast Healing (while underwater))"
         },
         "icFtpyk3vKrnSxKV": {
-          "name": "부대 방어 (Troop Defenses)",
+          "name": "부대 방어(Troop Defenses)",
           "description": "<p><strong>HP</strong> 90 (4 세그먼트); <strong>임계값</strong> 60 (3 세그먼트), 30 (2 세그먼트)</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
         },
         "i5jWmQ8e6h6E4QoP": {
-          "name": "부대 이동 (Troop Movement)"
+          "name": "부대 이동(Troop Movement)"
         },
         "f2MKhz42yWBSTE9X": {
-          "name": "산성 호흡 (Acid Breath)",
+          "name": "산성 호흡(Acid Breath)",
           "description": "<p>스캠프 플러드는 @Template[type:cone|distance:15] 범위 내의 모든 생물에게 @Damage[3d6[acid]|options:area-damage]의 피해를 입히는 산성 숨을 내뿜습니다 (@Check[reflex|dc:21|basic|options:area-effect] 내성). 스캠프 플러드는 [[/gmr 1d4 #Acid Breath]]{1d4 라운드} 동안 산성 숨결을 다시 사용할 수 없습니다.</p>"
         },
         "DTzsPQI9SG94AmvU": {
-          "name": "물벼락 발톱 (Drenching Claws)",
-          "description": "<p>스캠프 플러드는 수많은 작은 발톱으로 공격한다. @Template[type:emanation|distance:5] 내의 각 적은 @Check[reflex|dc:21|basic|options:area-effect] 내성 검사를 시도해야 한다. 피해량은 공격 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[1d6[slashing],1d4[acid]|options:area-damage]{1d6 베기 피해와 1d4 산성 피해}</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d6+2)[slashing],2d4[acid]|options:area-damage]{2d6+2 베기 피해 및 2d4 산성 피해}</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(2d6+4)[slashing],3d4[acid]|options:area-damage]{2d6+4 베기 피해 및 3d4 산성 피해}</p>"
+          "name": "물벼락 발톱(Drenching Claws)",
+          "description": "<p>스캠프 플러드는 수많은 작은 발톱으로 공격한다. @Template[type:emanation|distance:5] 내의 각 적은 @Check[reflex|dc:21|basic|options:area-effect] 내성 굴림을 시도해야 한다. 피해량은 공격 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[1d6[slashing],1d4[acid]|options:area-damage]{1d6 베기 피해와 1d4 산성 피해}</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d6+2)[slashing],2d4[acid]|options:area-damage]{2d6+2 베기 피해 및 2d4 산성 피해}</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(2d6+4)[slashing],3d4[acid]|options:area-damage]{2d6+4 베기 피해 및 3d4 산성 피해}</p>"
         }
       }
     },
     "Qadiran Camel Corps": {
-      "name": "카디란 낙타 군단 (Qadiran Camel Corps)",
+      "name": "카디란 낙타 군단(Qadiran Camel Corps)",
       "description": "<p>골라리온 사막을 항해하려면 훈련된 인력과 종종 특수한 탈것이 안전을 보장한다. 카디란 낙타 기병대는 장기간 순찰을 수행하고, 산적들을 추적하며, 여행자들을 위협할 수 있는 자연적 위험을 제거하는 이들 중 하나다.</p>",
       "hpdetails": "(4개 구간); 임계값 60 (3개 구간), 30 (2개 구간)",
       "items": {
         "fGsx0orXroWf8pSk": {
-          "name": "사막 적응 부대 (Desert-Adapted Troop)",
+          "name": "사막 적응 부대(Desert-Adapted Troop)",
           "description": "<p>낙타 기병대는 고온과 사막 환경에 잘 적응한다. 환경적 열기를 한 단계 덜 가혹한 것으로 간주하며, 낙타가 충분히 먹고 마셨을 경우 생존 체크를 시도하지 않고도 1주간 버틸 수 있다.</p>"
         },
         "icFtpyk3vKrnSxKV": {
-          "name": "부대 방어 (Troop Defenses)",
+          "name": "부대 방어(Troop Defenses)",
           "description": "<p><strong>체력</strong> 90 (4 구간); <strong>임계값</strong> 60 (3 구간), 30 (2 구간)</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
         },
         "i5jWmQ8e6h6E4QoP": {
-          "name": "부대 이동 (Troop Movement)"
+          "name": "부대 이동(Troop Movement)"
         },
         "xlepCkCSUhU4WWnG": {
-          "name": "모래 폭풍 (Dust Storm)",
+          "name": "모래 폭풍(Dust Storm)",
           "description": "<p><strong>Requirements</strong> 낙타 부대는 사막이나 유사한 지역에 위치한다</p><hr /><p><strong>효과</strong> 낙타 부대가 신중하게 발걸음을 내디딜 때마다 모래를 휘저어 주변 지역을 가리는 일시적인 모래폭풍을 일으킨다. 다음 차례가 끝날 때까지 낙타 기병대는 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진} 상태로 15피트 이상 떨어진 모든 생물에게 보이지 않으며, 15피트 이상 떨어진 모든 생물도 낙타 기병대에게 {가려진} 상태로 보인다.</p>"
         },
         "eSlfmldt1Fmpwx8f": {
-          "name": "기마 부대 (Mounted Troop)",
+          "name": "기마 부대(Mounted Troop)",
           "description": "<p>동물 또는 휴머노이드만을 대상으로 하는 효과는 발키리 폭풍에게 적용되지 않을 수 있으며, 이는 GM의 재량에 따릅니다.</p>"
         },
         "R5lNnsguizwqTZFA": {
-          "name": "반사 화살 (Reflective Arrows)",
+          "name": "반사 화살(Reflective Arrows)",
           "description": "<p>태양의 각도에 맞춰 낙타 기병들은 단궁을 뽑아들고, 궤적을 그리며 발사하는 원거리 공격을 가한다. 이 일제 사격은 60피트 내의 @Template[type:burst|distance:10]로, @Damage[3d6[piercing]|options:area-damage] 피해를 입힌다 (@Check[reflex|dc:21|basic|options:area-effect] 내성). 낮에 야외처럼 밝은 빛이 있는 지역에서는 대상이 내성에 -1 상황 페널티를 받습니다. 낙타 부대가 2개 세그먼트로 줄어들면 이 범위는 @Template[type:burst|distance:5]로 축소됩니다.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.owOGKBjP7tlyQD5o]{효과: 반사 화살 (페널티)}</p>"
         },
         "Pcfzy3NAiFVVZefL": {
-          "name": "시미터 돌격 (Scimitar Assault)",
+          "name": "시미터 돌격(Scimitar Assault)",
           "description": "<p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 낙타 기병대가 @Template[type:emanation|distance:5](@Check[reflex|dc:21|basic|options:area-effect] 내성) 내의 각 적을 대상으로 조율된 근접 공격을 가한다. 피해량은 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(1d6+1)[slashing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d6+7)[slashing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(2d6+11)[slashing]|options:area-damage] damage</p>"
         },
         "DcjFGhKHKRAVTcD0": {
-          "name": "개척의 이동 (Trailblazing Stride)",
+          "name": "개척의 이동(Trailblazing Stride)",
           "description": "<p>육상 이동 시, 카디란 낙타 부대는 비마법적 어려운 지형 지형의 효과를 무시한다.</p>"
         }
       }
     },
     "Scamp Inferno": {
-      "name": "스캠프 인페르노 (Scamp Inferno)",
+      "name": "스캠프 인페르노(Scamp Inferno)",
       "description": "<p>불의 평면에서 온 장난꾸러기 스캠프들은 유쾌하고 흥분하기 쉬우며 절제라는 개념이 거의 없다. 무리를 지을 때면 의도치 않은 방화가 필연적으로 발생한다.</p>",
       "hpdetails": "4 세그먼트); 임계값 60 (3 세그먼트), 30 (2 세그먼트)",
       "perception": "연기 시야",
       "items": {
         "85dKljdX45c9ccls": {
-          "name": "연기 시야 (Smoke Vision)",
+          "name": "연기 시야(Smoke Vision)",
           "description": "<p>스캠프 인페르노는 연기로 인한 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진} 상태를 무시한다.</p>"
         },
         "BSejpvFZwpYmOdR1": {
-          "name": "빠른 치유 (불에 닿은 상태에서) (Fast Healing (while touching fire))"
+          "name": "빠른 치유 (불에 닿은 상태에서)(Fast Healing (while touching fire))"
         },
         "icFtpyk3vKrnSxKV": {
-          "name": "부대 방어 (Troop Defenses)",
+          "name": "부대 방어(Troop Defenses)",
           "description": "<p><strong>HP</strong> 90 (4 세그먼트); <strong>임계값</strong> 60 (3 세그먼트), 30 (2 세그먼트)</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
         },
         "i5jWmQ8e6h6E4QoP": {
-          "name": "부대 이동 (Troop Movement)"
+          "name": "부대 이동(Troop Movement)"
         },
         "DTzsPQI9SG94AmvU": {
-          "name": "불타는 물기 (Burning Bites)",
+          "name": "불타는 물기(Burning Bites)",
           "description": "<p>스캠프 인페르노는 작은 이빨과 깜빡이는 불꽃으로 연타 공격을 가한다. @Template[type:emanation|distance:5] 내의 각 적은 @Check[reflex|dc:21|basic|options:area-effect] 내성을 시도해야 한다. 피해량은 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[1d6[piercing],1d4[fire]|options:area-damage]{1d6 관통 피해와 1d4 화염 피해}</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d6+2)[piercing],2d4[fire]|options:area-damage]{2d6+2 관통 피해 및 2d4 불 피해}</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(2d6+4)[piercing],3d4[fire]|options:area-damage]{2d6+4 관통 피해 및 3d4 불 피해}</p>"
         },
         "f2MKhz42yWBSTE9X": {
-          "name": "화염 숨결 (Flame Breath)",
+          "name": "화염 숨결(Flame Breath)",
           "description": "<p>스캠프 인페르노는 @Template[type:cone|distance:15] 범위로 화염을 내뿜어 해당 영역 내의 모든 생물에게 @Damage[3d6[fire]|options:area-damage]의 피해를 입힌다 (@Check[reflex|dc:21|basic|options:area-effect] 내성). 내성에 실패한 생물은 추가로 @Damage[1d6[persistent,fire]|options:area-damage]의 피해를 입습니다. 스캠프 인페르노는 [[/gmr 1d4 #재충전 시간]]{1d4 라운드} 동안 화염 숨결을 다시 사용할 수 없습니다.</p>"
         }
       }
     },
     "Wolf Pack": {
-      "name": "늑대 무리 (Wolf Pack)",
+      "name": "늑대 무리(Wolf Pack)",
       "description": "<p>늑대 무리는 가축에 의존하는 농업 공동체에 위협이 될 수 있지만, 인간형 생물이나 다른 위험한 적을 노리지는 않는다. 그러나 배고픈 무리는 신중할 여유가 없다.</p>",
       "hpdetails": "(4 구간); 임계치 60 (3 구간), 30 (2 구간)",
       "items": {
         "icFtpyk3vKrnSxKV": {
-          "name": "부대 방어 (Troop Defenses)",
+          "name": "부대 방어(Troop Defenses)",
           "description": "<p><strong>HP</strong> 90 (4 세그먼트); <strong>임계값</strong> 60 (3 구간), 30 (2 구간)</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
         },
         "i5jWmQ8e6h6E4QoP": {
-          "name": "부대 이동 (Troop Movement)"
+          "name": "부대 이동(Troop Movement)"
         },
         "5RB8yjisQKiw1Gd4": {
-          "name": "해리 프레이 (Harry Prey)",
+          "name": "해리 프레이(Harry Prey)",
           "description": "<p>늑대 무리는 인접한 단일 적에게 포커스를 맞춰 공격하며, 해당 적은 @Damage[(4d6+8)[piercing]]의 피해를 입는다 (@Check[reflex|dc:21|basic] 내성 성공 시). 생물이 이 내성 굴림에 실패하면, 늑대 무리는 즉시 [[/act trip]]{운동} 체크를 시도하여 @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{넘어뜨리기}할 수 있다.</p>"
         },
         "Z7tomDndmcLrDf68": {
-          "name": "무리 사냥 (Pack Hunt)",
-          "description": "<p>늑대들은 협력하여 상대를 쓰러뜨립니다. @Template[type:emanation|distance:5] 범위 내의 각 적은 @Check[reflex|dc:21|basic|options:area-effect] 내성 검사를 시도합니다. @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드린 상태}인 생물은 이 공격에 대해 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 2} 상태가 된다. 피해량은 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(1d6+1)[piercing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d6+7)[piercing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(2d6+11)[piercing]|options:area-damage] damage</p>"
+          "name": "무리 사냥(Pack Hunt)",
+          "description": "<p>늑대들은 협력하여 상대를 쓰러뜨립니다. @Template[type:emanation|distance:5] 범위 내의 각 적은 @Check[reflex|dc:21|basic|options:area-effect] 내성 굴림을 시도합니다. @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드린 상태}인 생물은 이 공격에 대해 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 2} 상태가 된다. 피해량은 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(1d6+1)[piercing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d6+7)[piercing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(2d6+11)[piercing]|options:area-damage] damage</p>"
         }
       }
     },
     "Leukodaemon Plague": {
-      "name": "레우코데이몬 역병 (Leukodaemon Plague)",
+      "name": "레우코데이몬 역병(Leukodaemon Plague)",
       "description": "<p>데이몬들은 모든 형태의 생명 파괴에 의해 형성되고 헌신한다. 레우코데이몬들은 역병의 묵시록 기수를 섬기며, 그들의 접촉만으로 우주 전역에 질병을 퍼뜨린다. 소규모 레우코데이몬 군단은 방치될 경우 작은 국가 하나 이상을 말살할 잠재력을 지닌다.</p>",
       "hpdetails": "(4 세그먼트); 한계치 170 (3 세그먼트), 85 (2 세그먼트)",
       "languages": "텔레파시 100피트",
       "perception": "역병 감지(불확실) 60피트",
       "items": {
         "XqqRGyvjZZYyQtDp": {
-          "name": "역병 감지 (Plaguesense)",
+          "name": "역병 감지(Plaguesense)",
           "description": "<p>레우코데이몬 역병은 질병을 가진 모든 생물을 감지하며, 범위 내 모든 생물이 지닌 질병의 종류와 현재 단계를 파악한다.</p>"
         },
         "7hZjrMBROsN3W5TY": {
-          "name": "감염 오라 (Infectious Aura)",
+          "name": "감염 오라(Infectious Aura)",
           "description": "<p>30피트. 레우코데이몬은 감염을 방출한다. 레우코데이몬 역병으로부터 30피트 이내의 모든 생물은 질병 내성에 -2 상태 페널티를 받는다. 범위 내 생물이 질병에 감염되거나 진행되면, 인접한 모든 생물도 동일한 질병에 노출되며 동일한 DC로 저항해야 한다.</p>"
         },
         "icFtpyk3vKrnSxKV": {
-          "name": "부대 방어 (Troop Defenses)",
+          "name": "부대 방어(Troop Defenses)",
           "description": "<p><strong>체력</strong> 255 (4 세그먼트); <strong>임계값</strong> 170 (3구간), 85 (2구간)</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
         },
         "i5jWmQ8e6h6E4QoP": {
-          "name": "부대 이동 (Troop Movement)"
+          "name": "부대 이동(Troop Movement)"
         },
         "8PW6b8iI5mex49kK": {
-          "name": "데이모닉 역병 (Daemonic Pestilence)",
-          "description": "<p>레우코데이몬 역병은 동일한 차원 내 어느 거리에서든 감염된 생물과 텔레파시로 소통할 수 있다</p>\n<p><strong>내성 굴림</strong> @Check[fortitude|dc:34]</p>\n<p><strong>1단계</strong> 보균자 (1일)</p>\n<p><strong>2단계</strong> @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수된 1} (1일)</p>\n<p><strong>3단계</strong> @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 2} (1일)</p>\n<p><strong>4단계</strong> 흡수 2 (1일)</p>\n<p><strong>5단계</strong> @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 3} (1주)</p>\n<p><strong>6단계</strong> 사망</p>"
+          "name": "데이모닉 역병(Daemonic Pestilence)",
+          "description": "<p>레우코데이몬 역병은 동일한 차원 내 어느 거리에서든 감염된 생물과 텔레파시로 소통할 수 있다</p>\n<p><strong>내성 굴림</strong> @Check[fortitude|dc:34]</p>\n<p><strong>1단계</strong> 보균자 (1일)</p>\n<p><strong>2단계</strong> @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수된 1}(1일)</p>\n<p><strong>3단계</strong> @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 2}(1일)</p>\n<p><strong>4단계</strong> 흡수 2 (1일)</p>\n<p><strong>5단계</strong> @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 3}(1주)</p>\n<p><strong>6단계</strong> 사망</p>"
         },
         "PLYfuYiAgz5PdpwR": {
-          "name": "감염된 턱과 발톱 (Infected Jaws and Claws)",
+          "name": "감염된 턱과 발톱(Infected Jaws and Claws)",
           "description": "<p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 레우코데이몬들은 @Template[type:emanation|distance:10](@Check[reflex|dc:31|basic|options:area-effect] 내성) 범위 내의 각 적에게 연타를 퍼붓는다. 피해량은 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(1d10+3)[untyped]] 피해 + 데이모닉 역병</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(3d10+9)[untyped]] 피해 + 데이모닉 역병</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(4d10+12)[untyped]] 피해 + 데이모닉 전염병</p>"
         },
         "ZsLTGrtulHpBQjCi": {
-          "name": "전염성 쌕쌕거림 (Pestilent Wheeze)",
+          "name": "전염성 쌕쌕거림(Pestilent Wheeze)",
           "description": "<p>백색 레우코데이몬들은 질병에 감염된 검은 파리 @Template[type:cone|distance:30]을 내뿜어 @Damage[5d8[piercing]|options:area-damage]의 피해를 입힌다 (@Check[reflex|dc:31|basic|options:area-effect,inflicts:sickened] 내성). 내성에 실패한 생물은 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1} 상태가 되며(대실패 시 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 2}), 레우코데이몬 역병이 2개 세그먼트로 줄어들면 이 영역은 @Template[type:cone|distance:20]로 축소된다.</p>"
         },
         "YDQqHGqRddR5xBdx": {
-          "name": "전염병 촉진 (Quicken Pestilence)",
-          "description": "<p>레우코데이몬들은 질병을 완전히 발현시킨다. 그들은 감염 오라 내부에 현재 질병에 걸린 대상을 선택한다. 해당 생물은 질병의 현재 단계 간격이 지난 것처럼 질병에 대한 인내 내성 검사 를 시도하다.</p>"
+          "name": "전염병 촉진(Quicken Pestilence)",
+          "description": "<p>레우코데이몬들은 질병을 완전히 발현시킨다. 그들은 감염 오라 내부에 현재 질병에 걸린 대상을 선택한다. 해당 생물은 질병의 현재 단계 간격이 지난 것처럼 질병에 대한 인내 내성 굴림 를 시도하다.</p>"
         }
       }
     },
     "Dezullon Thicket": {
-      "name": "데줄론 덤불 (Dezullon Thicket)",
+      "name": "데줄론 덤불(Dezullon Thicket)",
       "hpdetails": "(4 구간); 진입값 180 (3 구간), 90 (2 구간)",
       "items": {
         "mfOWNNPO2steQArM": {
-          "name": "재생 (Regeneration)"
+          "name": "재생(Regeneration)"
         },
         "3b4Rr0cjQ5WiCa61": {
-          "name": "재성장 (Regrowth)",
+          "name": "재성장(Regrowth)",
           "description": "<p>데줄론 덤불의 재생이 명시된 임계값 아래로 떨어져 세그먼트를 잃은 후, 재생으로 인해 체력이 해당 임계값 이상으로 회복되면, 덤불은 즉시 잃었던 세그먼트를 되찾는다.</p>"
         },
         "icFtpyk3vKrnSxKV": {
-          "name": "부대 방어 (Troop Defenses)",
+          "name": "부대 방어(Troop Defenses)",
           "description": "<p><strong>HP</strong> 180 (4개 세그먼트); <strong>임계값</strong> 180 (3 세그먼트), 90 (2 세그먼트)</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
         },
         "i5jWmQ8e6h6E4QoP": {
-          "name": "부대 이동 (Troop Movement)"
+          "name": "부대 이동(Troop Movement)"
         },
         "yhqrLAWULs5GIiU6": {
-          "name": "산성비 (Acid Rain)",
+          "name": "산성비(Acid Rain)",
           "description": "<p>데줄론 덤불은 산성 소화액을 캐스케이드처럼 분출하여 원거리 공격을 가하며, 30피트(9m) 내의 @Template[type:burst|distance:10] 범위(@Check[reflex|dc:33|basic|options:area-effect] 내성)에 @Damage[6d6[acid]|options:area-damage,inflicts:amnesia-venom]의 피해를 주고, 강타당한 모든 생물에게 기억상실 맹독을 발동합니다. 덤불이 2개 세그먼트로 줄어들면 이 영역은 @Template[type:burst|distance:5]로 축소됩니다.</p>"
         },
         "SGypy396AZEVRfyW": {
-          "name": "기억상실 맹독 (Amnesia Venom)",
-          "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:33]</p>\n<p><strong>최대 지속 시간</strong> 6 라운드</p>\n<p><strong>1단계</strong> @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1} (1 라운드)</p>\n<p><strong>2단계</strong> @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 2} (1 라운드)</p>\n<p><strong>3단계</strong> @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{혼란}, @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드}, @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 3} (1 라운드)</p>\n<p><strong>4단계</strong> 3단계와 동일하며, 지난 1시간을 영구적으로 망각함 (1라운드)</p>"
+          "name": "기억상실 맹독(Amnesia Venom)",
+          "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:33]</p>\n<p><strong>최대 지속 시간</strong> 6 라운드</p>\n<p><strong>1단계</strong> @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1}(1 라운드)</p>\n<p><strong>2단계</strong> @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 2}(1 라운드)</p>\n<p><strong>3단계</strong> @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{혼란}, @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드}, @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 3}(1 라운드)</p>\n<p><strong>4단계</strong> 3단계와 동일하며, 지난 1시간을 영구적으로 망각함 (1라운드)</p>"
         },
         "0anYM9XZHBhEmdG6": {
-          "name": "조임 (Constrict)",
+          "name": "조임(Constrict)",
           "description": "<p>@Damage[(1d10+6)[bludgeoning]], @Check[fortitude|dc:36|basic]</p><hr /><p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p>"
         },
         "rY4LPbBX9V5R7RBL": {
-          "name": "뿌리 (Root)",
+          "name": "뿌리(Root)",
           "description": "<p>다음 행동을 취할 때까지 데줄론 덤불은 평범한 파리잡이 식물밭처럼 보입니다. 이 덤불은 기만 체크 및 비생물 식물 숲으로 위장하기 위한 난이도(DC)에 대해 자동 결과 49(숲이나 늪지대에서는 53)를 가집니다.</p>"
         },
         "mOnwSjsUfHcFCFUo": {
-          "name": "덩굴을 휘감으며 (Thrashing Vines)",
+          "name": "덩굴을 휘감으며(Thrashing Vines)",
           "description": "<p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 덤불은 @Template[type:emanation|distance:5](@Check[reflex|dc:33|basic|options:area-effect] 내성) 범위 내의 각 적에게 근접 공격을 가한다. 피해량은 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(1d8+3)[bludgeoning],1d6[acid]|options:area-damage]{1d8+3 타격 + 1d6 산성}</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d8+11)[bludgeoning],2d6[acid]|options:area-damage,mass-improved-grab]{2d8+11 타격 피해 + 2d6 산성 피해} 및 대량 개선된 붙잡기</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(3d8+12)[bludgeoning],3d6[acid]|options:area-damage,mass-improved-grab]{3d8+12 타격 + 3d6 산성 피해} 및 대량 개선된 잡기</p>"
         },
         "JV6iuMnEa7XG1CdS": {
-          "name": "집단 강화 붙잡기 (Mass Improved Grab)",
+          "name": "집단 강화 붙잡기(Mass Improved Grab)",
           "description": "<p><strong>발동조건</strong> 생물이 데줄론 덤불의 휘감는 덩굴에 대한 반사 내성에 실패하거나 대실패할 경우</p><hr /><p><strong>효과</strong> 데줄론 덤불은 유발한 생물을 [[/act grapple]]하기 위해 운동 체크를 시도한다. 데줄론 덤불은 남은 분절 수만큼의 생물을 붙잡을 수 있으나, 이후 라운드에 지속 시간을 연장하려면 행동을 소모해야 한다. 이러한 시도는 해당 생물의 다중 공격 페널티에 적용되거나 계산되지 않는다.</p>"
         }
       },
@@ -1350,364 +1350,364 @@
       }
     },
     "Scamp Avalanche": {
-      "name": "스캠프 눈사태 (Scamp Avalanche)",
+      "name": "스캠프 눈사태(Scamp Avalanche)",
       "description": "<p>일반적으로 모든 원소 스캠프는 다소 장난기 많으며, (종종 우발적인) 혼란을 일으키기 위해 무리를 지어 모일 가능성이 똑같이 높다.</p>",
       "hpdetails": "4 세그먼트); 임계값 60 (3 세그먼트), 30 (2 세그먼트)",
       "perception": "연기 시야",
       "items": {
         "BSejpvFZwpYmOdR1": {
-          "name": "빠른 치유 (지하에서) (Fast Healing (while underground))"
+          "name": "빠른 치유 (지하에서)(Fast Healing (while underground))"
         },
         "icFtpyk3vKrnSxKV": {
-          "name": "부대 방어 (Troop Defenses)",
+          "name": "부대 방어(Troop Defenses)",
           "description": "<p><strong>HP</strong> 90 (4 세그먼트); <strong> 임계값 </strong> 60 (3구간), 30 (2구간) </p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
         },
         "i5jWmQ8e6h6E4QoP": {
-          "name": "부대 이동 (Troop Movement)"
+          "name": "부대 이동(Troop Movement)"
         },
         "f2MKhz42yWBSTE9X": {
-          "name": "스크리 브레스 (Scree Breath)",
+          "name": "스크리 브레스(Scree Breath)",
           "description": "<p>스캠프 눈사태는 @Template[type:cone|distance:15] 범위 내의 각 생물에게 @Damage[3d6[bludgeoning]|options:area-damage]의 피해를 입히는 바위 숨결을 내뿜습니다 (@Check[reflex|dc:21|basic|options:area-effect] 내성). 스캠프 눈사태는 [[/gmr 1d4 #Scree Breath]]{1d4 라운드} 동안 다시 스크리 브레스를 사용할 수 없습니다.</p>"
         },
         "DTzsPQI9SG94AmvU": {
-          "name": "돌부리 내리치기 (Stone Slams)",
-          "description": "<p>스캠프 눈사태가 연쇄적인 작은 돌격으로 공격한다. @Template[type:emanation|distance:5] 내의 각 적은 @Check[reflex|dc:21|basic|options:area-effect] 내성 검사를 시도해야 한다. 피해량은 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[1d6[bludgeoning],1d4[poison]|options:area-damage]{1d6 bludgeoning damage and 1d4 poison damage}</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d6+2)[bludgeoning],2d4[poison]|options:area-damage]{2d6+2 bludgeoning damage and 2d4 poison damage}</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(2d6+4)[bludgeoning],3d4[poison]|options:area-damage]{2d6+4 bludgeoning damage and 3d4 poison damage}</p>"
+          "name": "돌부리 내리치기(Stone Slams)",
+          "description": "<p>스캠프 눈사태가 연쇄적인 작은 돌격으로 공격한다. @Template[type:emanation|distance:5] 내의 각 적은 @Check[reflex|dc:21|basic|options:area-effect] 내성 굴림을 시도해야 한다. 피해량은 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[1d6[bludgeoning],1d4[poison]|options:area-damage]{1d6 bludgeoning damage and 1d4 poison damage}</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d6+2)[bludgeoning],2d4[poison]|options:area-damage]{2d6+2 bludgeoning damage and 2d4 poison damage}</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(2d6+4)[bludgeoning],3d4[poison]|options:area-damage]{2d6+4 bludgeoning damage and 3d4 poison damage}</p>"
         }
       }
     },
     "Angelic Chorus": {
-      "name": "천사들의 합창 (Angelic Chorus)",
+      "name": "천사들의 합창(Angelic Chorus)",
       "description": "<p>천상의 합창 천사들은 열반에서 찬송을 부르는 것에 만족하지만, 때로는 악에 맞서 의로운 싸움을 벌이는 이들에게 필요한 위로를 제공하기 위해 필멸의 영역으로 내려와야 한다. 천상의 합창은 종종 천상체의 은총을 받은 군대를 지원하는 역할을 한다.</p>",
       "hpdetails": "(4개 구간); 한계치 210 (4개 구간); 한계치 140 (3개 구간), 70 (2개 구간)",
       "languages": "트루스피치",
       "items": {
         "y5xhdwCG5XD2cmSs": {
-          "name": "마법 저항에 대한 모든 내성에 +1 상태 (+1 Status to All Saves vs. Magic)"
+          "name": "마법 저항에 대한 모든 내성에 +1 상태(+1 Status to All Saves vs. Magic)"
         },
         "icFtpyk3vKrnSxKV": {
-          "name": "부대 방어 (Troop Defenses)",
+          "name": "부대 방어(Troop Defenses)",
           "description": "<p><strong>HP</strong> 210 (4 세그먼트); <strong>한계치</strong> 210 (4 세그먼트); 한계치 140 (3 세그먼트), 70 (2 세그먼트)</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
         },
         "i5jWmQ8e6h6E4QoP": {
-          "name": "군대 이동 (Troop Movement)"
+          "name": "군대 이동(Troop Movement)"
         },
         "7GGKYj0XvXO8RIX5": {
-          "name": "훈계하는 찬송 (Admonishing Hymn)",
+          "name": "훈계하는 찬송(Admonishing Hymn)",
           "description": "<p>천사들의 합창단이 목소리를 높여 노래를 부르며, 존재의 구조 자체를 진동시키는 음을 내뿜는다. 이는 90피트 내의 @Template[type:burst|distance:15] 형태로 나타나며, @Damage[6d6[sonic]|options:area-damage] 피해를 입힌다 (@Check[fortitude|dc:29|basic|options:area-effect,inflicts:deafened] 내성). 내성에 대실패를 한 생물은 1분 동안 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{실청} 상태가 된다. 천사 합창이 2구간으로 줄어들면 이 영역은 @Template[type:burst|distance:10]로 축소된다.</p>"
         },
         "ARm9JqD3DFsJH9sb": {
-          "name": "조화로운 주문 시전 (Harmonized Spellcasting)",
+          "name": "조화로운 주문 시전(Harmonized Spellcasting)",
           "description": "<p>천사 합창단이 주문을 시전할 때, 구성원들은 각자의 노력을 합쳐 개별 구성원이 단독으로 달성할 수 있는 것보다 더 강력한 버전의 주문을 시전한다. 음파 피해를 주는 주문을 시전할 경우, 해당 주문은 등급에 해당하는 상태 보너스를 피해에 추가로 얻는다.</p>"
         },
         "IGvKRatzTPUtOGBv": {
-          "name": "의로운 함성 (Righteous Clamor)",
-          "description": "<p><strong>주파수</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 울려 퍼지는 함성과 함께 천사들의 합창단이 주먹을 휘둘러 @Template[type:emanation|distance:5](@Check[reflex|dc:29|basic|options:area-effect] 내성) 범위 내의 각 적을 대상으로 조율된 근접 공격을 가한다. 피해량은 행동 수에 따라 달라진다</p>\n<p><span class=\"action-glyph\">1</span> @Damage[1d8[bludgeoning],1d6[sonic]|options:area-damage]{1d8 타격 피해 + 1d6 음파 피해}</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d8+7)[bludgeoning],2d6[sonic]|options:area-damage]{2d8+7 타격 피해 + 2d6 음파 피해}</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(3d8+10)[bludgeoning],2d6[sonic]|options:area-damage]{3d8+10 타격 피해 + 2d6 음파 피해}</p>"
+          "name": "의로운 함성(Righteous Clamor)",
+          "description": "<p><strong>빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 울려 퍼지는 함성과 함께 천사들의 합창단이 주먹을 휘둘러 @Template[type:emanation|distance:5](@Check[reflex|dc:29|basic|options:area-effect] 내성) 범위 내의 각 적을 대상으로 조율된 근접 공격을 가한다. 피해량은 행동 수에 따라 달라진다</p>\n<p><span class=\"action-glyph\">1</span> @Damage[1d8[bludgeoning],1d6[sonic]|options:area-damage]{1d8 타격 피해 + 1d6 음파 피해}</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d8+7)[bludgeoning],2d6[sonic]|options:area-damage]{2d8+7 타격 피해 + 2d6 음파 피해}</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(3d8+10)[bludgeoning],2d6[sonic]|options:area-damage]{3d8+10 타격 피해 + 2d6 음파 피해}</p>"
         }
       }
     },
     "Archer Regiment": {
-      "name": "궁수 연대 (Archer Regiment)",
+      "name": "궁수 연대(Archer Regiment)",
       "description": "<p>궁병 연대는 먼 거리에서도 하늘을 화살로 가득 채울 수 있어, 적군이 아군 부대나 진영에 접근하기 전에 약화시키고자 하는 모든 전쟁 지도자에게 필수적인 존재입니다.</p>",
       "hpdetails": "(4구간); 임계값 140 (3구간), 70 (2구간)",
       "items": {
         "icFtpyk3vKrnSxKV": {
-          "name": "부대 방어 (Troop Defenses)",
+          "name": "부대 방어(Troop Defenses)",
           "description": "<p><strong>HP</strong> 210;<strong>한계치</strong> 140 (3개 구간), 70 (2개 구간)</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
         },
         "i5jWmQ8e6h6E4QoP": {
-          "name": "부대 이동 (Troop Movement)"
+          "name": "부대 이동(Troop Movement)"
         },
         "8AcivAl6LMDAhval": {
-          "name": "단검 방어 (Dagger Defense)",
-          "description": "<p>궁병 연대는 단검을 뽑아 근접 적을 공격한다. @Template[type:emanation|distance:5] 내의 각 적은 @Check[reflex|dc:29|basic|options:area-effect] 내성 검사를 시도해야 한다. 피해량은 행동 횟수에 따라 달라진다. 궁병 연대는 다음 턴 시작까지 AC에 +1 상황 보너스를 얻는다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(2d4+2)[piercing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(4d4+12)[piercing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(4d4+15)[piercing]|options:area-damage] damage</p>"
+          "name": "단검 방어(Dagger Defense)",
+          "description": "<p>궁병 연대는 단검을 뽑아 근접 적을 공격한다. @Template[type:emanation|distance:5] 내의 각 적은 @Check[reflex|dc:29|basic|options:area-effect] 내성 굴림을 시도해야 한다. 피해량은 행동 횟수에 따라 달라진다. 궁병 연대는 다음 턴 시작까지 AC에 +1 상황 보너스를 얻는다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(2d4+2)[piercing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(4d4+12)[piercing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(4d4+15)[piercing]|options:area-damage] damage</p>"
         },
         "VulwEYPqDylG33H9": {
-          "name": "시추된 지층 (Drilled in Formations)",
+          "name": "시추된 지층(Drilled in Formations)",
           "description": "<p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 궁병 연대는 @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.USyDPcSdzcm024zT]{진형 변경}을 사용한다. 궁병 연대 유닛은 일반적으로 산개 진형과 행군 열진 진형을 알고 있다.</p>"
         },
         "R51FceAqG8YYfUtl": {
-          "name": "화살의 비 (Rain of Arrows)",
+          "name": "화살의 비(Rain of Arrows)",
           "description": "<p>궁병 연대가 장궁을 일제히 발사한다. 이 일제 사격은 200피트 이내의 @Template[type:burst|distance:15]로 @Damage[4d8[piercing]|options:area-damage]의 피해를 주거나, 100피트 이내의 @Template[type:burst|distance:10]로 @Damage[6d8[piercing]|options:area-damage]의 피해를 줍니다. 두 효과 모두 @Check[reflex|dc:29|basic|options:area-effect] 내성을 가집니다. 궁병 연대가 2개 구획으로 축소되면 양쪽 사거리 모두 5피트 감소합니다.</p>"
         }
       }
     },
     "Orc Raiding Party": {
-      "name": "오크 습격대 (Orc Raiding Party)",
+      "name": "오크 습격대(Orc Raiding Party)",
       "description": "<p>오크 습격대는 두려움의 대상인 부대로, 끊임없는 공격과 맹렬한 사나움으로 교묘하지는 않더라도 유능한 병사들이다. 오크 습격병들은 자신들의 거점 깃발을 전투에 들고 나가는 임무를 치명적으로 진지하게 받아들이며, 거점의 깃발을 높이 휘날리게 하기 위해 기꺼이 중상을 감수한다.</p>",
       "hpdetails": "(4 세그먼트); 임계값 50 (3 세그먼트), 25 (2 세그먼트)",
       "items": {
         "Mqkq79UBprlR4QUI": {
-          "name": "사나운 추락 (Ferocious Fall)",
-          "description": "<p>오크 습격대가 체력 점수 한계치를 넘어서면서 체력 조각 하나를 잃게 됩니다</p><hr /><p><strong>효과</strong> 죽어가는 오크 습격대는 쓰러지면서 발악한다. @Template[type:emanation|distance:5] 범위 내의 각 적에게 @Damage[(1d6+2)[piercing]|options:area-damage] 피해 (@Check[reflex|dc:19|basic|options:area-effect] 내성 검사)를 입힌다; 이는 습격대가 세그먼트를 잃기 전에 발생한다.</p>"
+          "name": "사나운 추락(Ferocious Fall)",
+          "description": "<p>오크 습격대가 체력 점수 한계치를 넘어서면서 체력 조각 하나를 잃게 됩니다</p><hr /><p><strong>효과</strong> 죽어가는 오크 습격대는 쓰러지면서 발악한다. @Template[type:emanation|distance:5] 범위 내의 각 적에게 @Damage[(1d6+2)[piercing]|options:area-damage] 피해 (@Check[reflex|dc:19|basic|options:area-effect] 내성 굴림)를 입힌다; 이는 습격대가 세그먼트를 잃기 전에 발생한다.</p>"
         },
         "icFtpyk3vKrnSxKV": {
-          "name": "부대 방어 (Troop Defenses)",
+          "name": "부대 방어(Troop Defenses)",
           "description": "<p><strong>HP</strong> 75 (4 세그먼트); <strong>임계값</strong> 50 (3 세그먼트), 25 (2 세그먼트)</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
         },
         "i5jWmQ8e6h6E4QoP": {
-          "name": "부대 이동 (Troop Movement)"
+          "name": "부대 이동(Troop Movement)"
         },
         "JmphMuXffisMi4gh": {
-          "name": "돌파 (Break Through)",
+          "name": "돌파(Break Through)",
           "description": "<p><strong>빈도</strong> 10분마다 한 번</p><hr /><p><strong>효과</strong> 오크 습격대가 적 진영의 틈을 이용한다. 오크 습격대는 두 번 이동한다; 중간 크기 이하 생물의 공간을 통과할 수 있으나 그 안에서 이동을 끝낼 수는 없다. 오크 습격대가 이동 중 통과하거나 인접했던 모든 적 생물은 @Damage[(1d6+2)[piercing]] 피해(@Check[reflex|dc:19|basic|options:area-effect,inflicts:forced-movement] 내성)를 받는다. 이 저항에 대실패한 생물은 오크 습격대에서 5피트 떨어진 곳으로 밀려난다. 돌파는 각 생물에게 한 번만 피해를 준다.</p>"
         },
         "RfgBo9ONJcGFGDAH": {
-          "name": "철의 비 (Iron Rain)",
+          "name": "철의 비(Iron Rain)",
           "description": "<p>오크 습격대가 적을 향해 치명적인 일제 사격을 가하며 수많은 창을 발사한다. 이 일제 사격은 30피트 내의 @Template[type:burst|distance:10]로, @Check[reflex|dc:19|basic|options:area-effect] 내성에 성공하면 @Damage[3d6[piercing]|options:area-damage] 피해를 입힌다. 오크 습격대가 2개 이하의 세그먼트로 줄어들면 이 영역은 @Template[type:burst|distance:5]로 축소된다.</p>"
         },
         "pn0H1cy7HVHZUeAM": {
-          "name": "갈기갈기 찢어발기기 (Rip Them Up)",
+          "name": "갈기갈기 찢어발기기(Rip Them Up)",
           "description": "<p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 오크 습격대는 @Template[type:emanation|distance:5] 범위 내의 모든 적을 조율된 너클 대거 공격으로 내리친다 (@Check[reflex|dc:19|basic|options:area-effect] 내성). 피해량은 수행한 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(1d6+2)[piercing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d6+5)[piercing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(3d6+7)[piercing]|options:area-damage] damage</p>"
         }
       }
     },
     "Giant Ant Army": {
-      "name": "거대 개미 군단 (Giant Ant Army)",
+      "name": "거대 개미 군단(Giant Ant Army)",
       "description": "<p>작은 개미들과 마찬가지로, 거대 개미 군락은 종종 거대한 군대를 형성하여 먹이를 찾고 영토를 확장하기 위해 둥지 주변 지역으로 정기적인 작전을 펼칩니다. 주요 표적은 대개 경쟁 군락이지만, 거대 개미 군대가 우연히 인간형 정착지를 발견하면 주저 없이 점령하여 여왕에게 가져갈 자원을 약탈하며, 특히 정착지의 이전 거주자들에게 특별한 관심을 보인다.</p>",
       "hpdetails": "(4개 구간); 임계값 80 (3개 구간), 40 (2개 구간)",
       "items": {
         "icFtpyk3vKrnSxKV": {
-          "name": "부대 방어 (Troop Defenses)",
+          "name": "부대 방어(Troop Defenses)",
           "description": "<p><strong>HP</strong> 120 (4 세그먼트); <strong>한계치</strong> 80 (3개 구간), 40 (2개 구간)</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
         },
         "i5jWmQ8e6h6E4QoP": {
-          "name": "부대 이동 (Troop Movement)"
+          "name": "부대 이동(Troop Movement)"
         },
         "0GB6weL7oSMiYNhj": {
-          "name": "거대 개미 맹독 (Giant Ant Venom)",
-          "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:24]</p>\n<p><strong>최대 지속 시간</strong> 6 라운드</p>\n<p><strong>1단계</strong> @Damage[2d8[poison]] 피해 및 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화 1} (1 라운드)</p>\n<p><strong>2단계</strong> @Damage[3d6[poison]] 피해 및 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 2} (1라운드)</p>\n<p><strong>3단계</strong> @Damage[2d10[poison]] 피해 및 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 3} (1 라운드)</p>"
+          "name": "거대 개미 맹독(Giant Ant Venom)",
+          "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:24]</p>\n<p><strong>최대 지속 시간</strong> 6 라운드</p>\n<p><strong>1단계</strong> @Damage[2d8[poison]] 피해 및 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화 1}(1 라운드)</p>\n<p><strong>2단계</strong> @Damage[3d6[poison]] 피해 및 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 2}(1라운드)</p>\n<p><strong>3단계</strong> @Damage[2d10[poison]] 피해 및 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 3}(1 라운드)</p>"
         },
         "yA8PCCPpx4NOi1T8": {
-          "name": "집게턱 (Grasping Mandibles)",
+          "name": "집게턱(Grasping Mandibles)",
           "description": "<p><strong>요구 사항</strong> 거대 개미 군단의 마지막 행동이 턱의 광란이었고, 적어도 한 생물이 이에 대한 내성에 실패했거나 거대 개미 군단에 적어도 한 생물이 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{Grabbed} or @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{Restrained}</p><hr /><p><strong>Effect</strong> '잡는 턱' 사용 후 거대 개미 군단이 [[/act grapple]을 시도할 수 있으며, 그 결과는 저항 운동 체크에 실패한 각 생물의 인내 DC와 비교된다. 비교 대상은 군단이 보유한 잔여 분절 수만큼의 생물로 제한된다. 대신 거대 개미 군단은 '잡는 턱'을 사용하여 붙잡거나 구속 중인 생물 중 하나를 선택해 해당 상태를 군단의 다음 턴 종료 시까지 자동으로 연장할 수 있다.</p>"
         },
         "AUF1bsMkqxZPLcoF": {
-          "name": "끌고 가기 (Haul Away)",
+          "name": "끌고 가기(Haul Away)",
           "description": "<p><strong>Requirements</strong> 거대 개미 군대에 최소 한 마리의 생물이 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속됨}</p><hr /><p><strong>효과</strong> 상태여야 한다. 군대는 자신의 속도만큼 이동하며, 구속된 생물을 함께 운반한다. 해당 생물이 거대(Gargantuan)라면, 거대 개미 군대는 @UUID[Compendium.pf2e.conditionitems.Item.D5mg6Tc7Jzrj6ro7]{과적}가 된다.</p>"
         },
         "sc3x5FE9ukgewtV4": {
-          "name": "턱의 광란 (Mandible Frenzy)",
+          "name": "턱의 광란(Mandible Frenzy)",
           "description": "<p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 군대는 @Template[type:emanation|distance:5](@Check[reflex|dc:22|basic|options:area-effect] 내성) 내의 각 적에게 사나운 물기 공격을 가한다. 입히는 피해는 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[1d8[slashing]|options:area-damage,grasping-mandibles] 피해 + 집게턱 공격</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d8+6)[slashing]|options:area-damage,grasping-mandibles] 추가 피해 + 집게턱 공격</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(2d8+11)[slashing]|options:area-damage] damage</p>"
         },
         "7p3yhWfqW3H1Z7e3": {
-          "name": "압도 (Overwhelm)",
+          "name": "압도(Overwhelm)",
           "description": "<p>거대 개미 군단은 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡기} 상태인 대형 이상의 생물 위로 떼를 지어 덮쳐, 그 생물을 제자리에 고정시키고 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{제압} 상태가 된다. 이 상태는 거대 개미 군단의 다음 턴이 시작될 때까지 또는 탈출할 때까지 지속된다. 군단에 의해 제압된 상태로 턴을 시작하는 생물은 달라붙은 개미들에게 반복적으로 쏘여 자동으로 @Damage[2d6[piercing]] 피해를 입으며 거대 개미 맹독의 효과를 받는다.</p>"
         }
       }
     },
     "Wight Battalion": {
-      "name": "와이트 대대 (Wight Battalion)",
+      "name": "와이트 대대(Wight Battalion)",
       "description": "<p>와이트는 악의적인 언데드로, 신성한 것을 모독하고 모든 생명체에게 고통을 주려는 의지를 지녔다. 단독으로 움직이는 와이트도 충분히 위험하지만, 집단으로 행동할 때는 무시할 수 없는 기세이다. 와이트 대대는 군대 전체를 저주하여 그 수를 불려 성스러운 물결이 아닌 불경한 물결로 만들 잠재력을 지녔다.</p>",
       "hpdetails": "(4 세그먼트); 임계값 100 (3 세그먼트), 50 (2 세그먼트)",
       "items": {
         "lctO2P0MLVpB9WYB": {
-          "name": "최후의 원한 (Final Grudge)",
+          "name": "최후의 원한(Final Grudge)",
           "description": "<p><strong>발동</strong> 와이트 대대가 체력 피해로 인해 세그먼트를 잃을 위기에 처했습니다</p><hr /><p><strong>효과</strong>와이트들이 쓰러지면서 공격합니다. @Template[type:emanation|distance:5] 범위 내의 각 적에게 @Damage[2d4[piercing]|options:area-damage]의 피해를 입힙니다 (@Check[reflex|dc:25|basic|options:area-effect] 내성). 이는 대대가 세그먼트를 잃기 전에 발생합니다.</p>"
         },
         "i2hz3lKfdVEcYptB": {
-          "name": "악의에 불타다 (Fueled by Spite)",
+          "name": "악의에 불타다(Fueled by Spite)",
           "description": "<p>생물이 와이트 대대의 타락한 악의 저주로 인해 체력을 잃을 때마다, 대대는 1라운드 동안 지속되는 임시 체력 6을 얻는다.</p>\n<p>@UUID[Compendium.pf2e.bestiary-effects.Item.yeK8zmBJvam75Fp7]{효과: 악의에 불타다}</p>"
         },
         "icFtpyk3vKrnSxKV": {
-          "name": "부대 방어 (Troop Defenses)",
+          "name": "부대 방어(Troop Defenses)",
           "description": "<p><strong>HP</strong> 150 (4 세그먼트); <strong>임계값</strong> 100 (3 세그먼트), 50 (2 세그먼트)</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
         },
         "i5jWmQ8e6h6E4QoP": {
-          "name": "부대 이동 (Troop Movement)"
+          "name": "부대 이동(Troop Movement)"
         },
         "uYiopDw2hIKeycLa": {
-          "name": "공허 치유 (Void Healing)"
+          "name": "공허 치유(Void Healing)"
         },
         "Ze7HYEJOg83Kkcje": {
-          "name": "타락시키는 악의 (Corrupting Spite)",
-          "description": "<p>와이트 대대의 공격은 생물을 약하고 악의적으로 만드는 저주를 가한다. 이 저주 상태에서 죽은 살아있는 인간형 생물은 [[/gmr 1d4 #라운드]]{1d4 라운드} 후에 @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.DBTbqI9QQRtlJwWh]{와이트}로 부활하며, 저주를 걸었던 와이트 대대의 {제어됨}을 받습니다. 이 새로 생성된 와이트는 타락시키는 악의를 부여할 수 없으며 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 2} 상태입니다. 생성한 와이트 대대가 죽거나 약 한 달이 지나면, 새로 생성된 와이트는 자율성을 얻어 일반 와이트가 됩니다</p>\n<p><strong>내성 굴림</strong> @Check[fortitude|dc:25]</p>\n<p><strong>1단계</strong> @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수된 1} (1 라운드)</p>\n<p><strong>2단계</strong> @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 2}이며 어떤 생물도 아군으로 간주하지 않음 (1라운드)</p>\n<p><strong>3단계</strong> 2단계와 동일하나 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 3} (1라운드)</p>\n<p><strong>4단계</strong> 2단계와 동일하나, @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수된 4} (1라운드) 적용.</p>"
+          "name": "타락시키는 악의(Corrupting Spite)",
+          "description": "<p>와이트 대대의 공격은 생물을 약하고 악의적으로 만드는 저주를 가한다. 이 저주 상태에서 죽은 살아있는 인간형 생물은 [[/gmr 1d4 #라운드]]{1d4 라운드} 후에 @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.DBTbqI9QQRtlJwWh]{와이트}로 부활하며, 저주를 걸었던 와이트 대대의 {제어됨}을 받습니다. 이 새로 생성된 와이트는 타락시키는 악의를 부여할 수 없으며 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 2} 상태입니다. 생성한 와이트 대대가 죽거나 약 한 달이 지나면, 새로 생성된 와이트는 자율성을 얻어 일반 와이트가 됩니다</p>\n<p><strong>내성 굴림</strong> @Check[fortitude|dc:25]</p>\n<p><strong>1단계</strong> @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수된 1}(1 라운드)</p>\n<p><strong>2단계</strong> @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 2}이며 어떤 생물도 아군으로 간주하지 않음 (1라운드)</p>\n<p><strong>3단계</strong> 2단계와 동일하나 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 3}(1라운드)</p>\n<p><strong>4단계</strong> 2단계와 동일하나, @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수된 4}(1라운드) 적용.</p>"
         },
         "JZsyW5yBoBlflI3F": {
-          "name": "증오의 단검 (Hateful Daggers)",
+          "name": "증오의 단검(Hateful Daggers)",
           "description": "<p>와이트들은 매장된 단검으로 근접 공격을 조율한다. @Template[type:emanation|distance:5] 범위 내의 모든 적은 @Check[reflex|dc:25|basic|options:area-effect] 저항 검사를 시도한다. 피해량은 행동 횟수에 따라 달라진다. 저항 실패 시, 해당 생물은 부패하는 악의에도 노출된다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[2d4[piercing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(4d4+8)[piercing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(4d4+14)[piercing]|options:area-damage] damage</p>"
         }
       }
     },
     "Skeleton Mob": {
-      "name": "해골 무리 (Skeleton Mob)",
+      "name": "해골 무리(Skeleton Mob)",
       "description": "<p>병적인 자들에게 전장은 시체들의 정원에 불과하다. 때로는 네크로맨서의 마법이나 불행한 공허 에너지의 집결로 인해, 이 시체들은 부서지고 망가진 해골로 일어나곤 한다. 이 해골들 중 일부는 온전하지 못하지만, 여전히 상당한 위협이 될 수 있다.</p>",
       "hpdetails": "(4개 구간); 임계값 160 (3개 구간), 80 (2개 구간)",
       "items": {
         "icFtpyk3vKrnSxKV": {
-          "name": "부대 방어 (Troop Defenses)",
+          "name": "부대 방어(Troop Defenses)",
           "description": "<p><strong>HP</strong> 240 (4 세그먼트); <strong>한계치</strong> 160 (3 구간), 80 (2 구간)</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
         },
         "i5jWmQ8e6h6E4QoP": {
-          "name": "부대 이동 (Troop Movement)"
+          "name": "부대 이동(Troop Movement)"
         },
         "8Xb1QZ1eahDJoqrT": {
-          "name": "공허 치유 (Void Healing)"
+          "name": "공허 치유(Void Healing)"
         },
         "dsHzY2PK1f58ohEV": {
-          "name": "납골당 폭풍 (Ossuary Storm)",
+          "name": "납골당 폭풍(Ossuary Storm)",
           "description": "<p>해골 무리는 30피트 내의 @Template[type:burst|distance:10] 범위에서 두개골과 뼈 조각을 던집니다. 이 공격은 @Damage[3d6[piercing]|options:area-damage]의 피해를 입힙니다 (@Check[reflex|dc:21|basic|options:area-effect] 내성). 스켈레톤 무리가 2개 세그먼트로 줄어들면 이 영역은 @Template[type:burst|distance:5]로 축소된다.</p>"
         },
         "lNAVyJ6NEXycS9N0": {
-          "name": "덜거덕거리는 뼈 (Rattling Bones)",
+          "name": "덜거덕거리는 뼈(Rattling Bones)",
           "description": "<p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 해골들은 발톱과 부러진 뼈를 이용해 @Template[type:emanation|distance:5] 내의 각 적을 공격하며, @Check[reflex|dc:21|basic|options:area-effect] 내성을 받는다. 피해량은 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(1d4+1)[piercing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d4+7)[piercing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(3d4+10)[piercing]|options:area-damage] damage</p>"
         }
       }
     },
     "Vordine Legion": {
-      "name": "보르딘 군단 (Vordine Legion)",
+      "name": "보르딘 군단(Vordine Legion)",
       "description": "<p>보르딘은 지옥의 보병으로, 디스의 철의 도시에서 대규모 군대로 파견되어 지옥 최상층을 수호하고 그곳을 지배하는 대악마의 적들을 분쇄한다. 지칠 줄 모르고 무자비한 보르딘 군단은 무자비한 정밀함으로 강타하여 다중우주 전역에 걸쳐 공포와 부러움을 동시에 불러일으킨다. 비록 그들은 보통 폭군 네사리 같은 더 강력한 데빌의 지휘 아래 복무하지만, 각 군단은 또한 필요할 경우 다른 보르딘이 즉시 지휘권을 인수할 수 있도록 하는 독특한 내부 계층 구조를 갖추고 있다.</p>",
       "hpdetails": "(4 세그먼트); 임계치 120 (3 세그먼트), 60 (2 세그먼트)",
       "languages": "텔레파시 100피트",
       "items": {
         "tRuKD4xUouitV2n4": {
-          "name": "반응 공격 (Reactive Attack)",
+          "name": "반응 공격(Reactive Attack)",
           "description": "<p><strong>발동 조건</strong> 보르딘 군단의 도달 범위 내에 있는 생물이 조작 행동이나 이동 행동을 사용하거나, 원거리 공격을 하거나, 사용 중인 이동 행동 중에 칸을 떠날 때</p><hr /><p><strong>효과</strong> 해당 생물은 @Damage[(2d8+11)[piercing]|options:area-damage|traits:magical,unholy] 피해(@Check[reflex|dc:26|basic|options:area-effect] 내성 굴림)를 받는다. 이 피해는 마법적 및 불경한 속성을 지닌다. 생물이 내성 굴림에서 대실패를 하고 발동 요인이 조작 행동인 경우, 군단은 해당 행동을 방해한다.</p>"
         },
         "icFtpyk3vKrnSxKV": {
-          "name": "부대 방어 (Troop Defenses)",
+          "name": "부대 방어(Troop Defenses)",
           "description": "<p><strong>HP</strong> 180 (4 세그먼트); <strong>임계값</strong> 120 (3구간), 60 (2구간)</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
         },
         "i5jWmQ8e6h6E4QoP": {
-          "name": "부대 이동 (Troop Movement)"
+          "name": "부대 이동(Troop Movement)"
         },
         "yzekhn0KtjihD2E8": {
-          "name": "불타는 행군 (Burning March)",
+          "name": "불타는 행군(Burning March)",
           "description": "<p>보딘 군단은 질서정연한 불타는 발자국을 남기며 이동한다. 발자국은 각 칸에 진입할 때마다 질서정연한 불타는 발자국 패턴을 남긴다. 발자국은 1분 동안 계속 불타오른다. 지상에 있는 모든 생물이 자신의 턴을 불타는 발자국이 있는 칸에서 시작하거나 해당 칸에 진입하면 @Damage[2d8[fire]]의 피해를 입는다.</p>"
         },
         "1xgyAsJKi4uaGNXT": {
-          "name": "관통 포격 (Impaling Barrage)",
+          "name": "관통 포격(Impaling Barrage)",
           "description": "<p>보르딘 군단이 삼지창 비를 쏟아 붓는다. 이 비는 40피트 내의 @Template[type:burst|distance:10]로, @Damage[4d8[piercing]|options:area-damage]의 피해를 입힌다 (@Check[reflex|dc:26|basic|options:area-effect] 내성). 내성 굴림에 실패한 생물은 보르딘 군단의 다음 턴 시작까지 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1} 상태가 된다(대실패 시 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 2} 상태). 보르딘이 2개 세그먼트로 감소하면 이 영역은 @Template[type:burst|distance:5]로 축소된다.</p>"
         },
         "jWsj5fbvx0llQW2b": {
-          "name": "디스의 갈퀴 (Tines of Dis)",
-          "description": "<p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 군단의 보르딘들은 삼지창으로 조율된 근접 공격을 가한다. @Template[type:emanation|distance:5] 범위 내의 모든 적은 @Check[reflex|dc:26|basic|options:area-effect] 내성 검사를 시도해야 한다. 피해량은 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(1d8+2)[piercing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d8+11)[piercing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(3d8+14)[piercing]|options:area-damage] damage</p>"
+          "name": "디스의 갈퀴(Tines of Dis)",
+          "description": "<p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 군단의 보르딘들은 삼지창으로 조율된 근접 공격을 가한다. @Template[type:emanation|distance:5] 범위 내의 모든 적은 @Check[reflex|dc:26|basic|options:area-effect] 내성 굴림을 시도해야 한다. 피해량은 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(1d8+2)[piercing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d8+11)[piercing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(3d8+14)[piercing]|options:area-damage] damage</p>"
         },
         "eTNW0XDx3HcmUDXr": {
-          "name": "전쟁 로어 (Warfare Lore)"
+          "name": "전쟁 로어(Warfare Lore)"
         }
       }
     },
     "Apprentice Magician Clique": {
-      "name": "마법사 견습생 집단 (Apprentice Magician Clique)",
+      "name": "마법사 견습생 집단(Apprentice Magician Clique)",
       "description": "<p>마법을 가르치는 학원의 학생들은 때로 빠르게 친분을 쌓습니다. 공부하거나 함께 스트레스를 풀지 않을 때, 이 무리는 외부 공격으로부터 자신들의 배움터를 지키기 위해 소집될 수도 있습니다.</p>",
       "hpdetails": "(4 세그먼트); 75 (4 세그먼트); 임계값 50 (3 세그먼트), 25 (2 세그먼트)",
       "items": {
         "icFtpyk3vKrnSxKV": {
-          "name": "부대 방어 (Troop Defenses)",
+          "name": "부대 방어(Troop Defenses)",
           "description": "<p><strong>HP</strong> 75 (4 세그먼트); <strong>한계치</strong> 50 (3개 구간), 25 (2개 구간)</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
         },
         "i5jWmQ8e6h6E4QoP": {
-          "name": "부대 이동 (Troop Movement)"
+          "name": "부대 이동(Troop Movement)"
         },
         "298SOrPtZWcvtOhq": {
-          "name": "기세의 포격 (Barrage of Force)",
+          "name": "기세의 포격(Barrage of Force)",
           "description": "<p>수습 마법사들이 120피트 내의 @Template[type:burst|distance:10]에 있는 모든 생물에게 순수 마법의 파편을 발사한다. 이 포격은 @Damage[5d4[force]|options:area-damage] 피해를 입힌다 (@Check[reflex|dc:19|basic|options:area-effect] 내성). 클리크가 2개 세그먼트로 줄어들면 이 영역은 @Template[type:burst|distance:5]로 축소된다.</p>"
         },
         "zr4cOSOQ86KFbjyD": {
-          "name": "클리크 주문 시전 (Clique Spellcasting)",
+          "name": "클리크 주문 시전(Clique Spellcasting)",
           "description": "<p>제자 마법사 클리크가 주문을 시전할 때, 구성원들은 자신의 아케인을 주문에 집중합니다. 주문에 대한 내성에 대실패하거나 클리크의 치명타 공격을 맞은 생물은 1분 동안 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 상태 1}이 됩니다.</p>"
         },
         "bbuOUmrCvWVMuNcJ": {
-          "name": "불꽃 지팡이 (Sparking Wands)",
+          "name": "불꽃 지팡이(Sparking Wands)",
           "description": "<p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 마법사 수련생들이 지팡이를 휘둘러 근거리에서 약한 번개를 발사합니다. @Template[type:emanation|distance:5] 내의 각 적은 @Check[reflex|dc:19|basic|options:area-effect] 내성을 시도해야 합니다. 입히는 피해는 행동 횟수에 따라 달라집니다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[1d8[electricity]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d8+3)[electricity]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(2d8+7)[electricity]|options:area-damage] damage</p>"
         }
       }
     },
     "Lich Legion": {
-      "name": "리치 군단 (Lich Legion)",
+      "name": "리치 군단(Lich Legion)",
       "hpdetails": "(4 구간); 임계값 220 (3 구간), 110 (2 구간)",
       "perception": "암흑 시야",
       "items": {
         "UBrdqChrDYg2Dn5k": {
-          "name": "공포의 존재 (Frightful Presence)",
+          "name": "공포의 존재(Frightful Presence)",
           "description": "<p>60피트 @Check[will|dc:37]</p><hr /><p>@Localize[PF2E.NPC.Abilities.Glossary.FrightfulPresence]</p>"
         },
         "PAVLwZnLqEhiWI7u": {
-          "name": "집단 재생 (Mass Rejuvenation)",
+          "name": "집단 재생(Mass Rejuvenation)",
           "description": "<p>이 기능은 리치의 재생 능력과 유사하지만, 군단의 모든 리치가 집단적인 @UUID[Compendium.pf2e.equipment-srd.Item.qFVPeeJ70B1u2n81]{영혼의 감옥} 덕분에 부대로 귀환합니다. 이 아이템은 레벨 18이며 경도 15, 체력 54를 가집니다.</p>"
         },
         "qXZ45E5MWpjGvtE7": {
-          "name": "부대 카운터스펠 (Troop Counterspell)",
+          "name": "부대 카운터스펠(Troop Counterspell)",
           "description": "<p><strong>발동 조건</strong> 군단의 시야 내에 있는 생물이 군단이 준비한 주문을 시전할 때</p><hr /><p><strong>효과</strong> 리치 군단은 준비된 주문을 소모하여 해당 생물이 시전한 동일한 주문을 반격한다. 리치 군단 은 마치 해당 주문을 시전한 것처럼 주문 슬롯을 잃는다. 이후 리치 군단은 반격 검사 시 +2 상태 보너스를 적용하여 해당 주문을 반격하려 시도하다.</p>"
         },
         "icFtpyk3vKrnSxKV": {
-          "name": "부대 방어 (Troop Defenses)",
+          "name": "부대 방어(Troop Defenses)",
           "description": "<p><strong>HP</strong> 330 (4 세그먼트); <strong>임계값</strong> 220 (3 세그먼트), 110 (2 세그먼트)</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
         },
         "i5jWmQ8e6h6E4QoP": {
-          "name": "부대 이동 (Troop Movement)"
+          "name": "부대 이동(Troop Movement)"
         },
         "cQdcZ0mSiuB0iPKa": {
-          "name": "공허 치유 (Void Healing)"
+          "name": "공허 치유(Void Healing)"
         },
         "zNngRDMNalyBs1dp": {
-          "name": "흡혈 그립 (Siphoning Grip)",
+          "name": "흡혈 그립(Siphoning Grip)",
           "description": "<p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 리치 군단은 @Template[type:emanation|distance:5] 범위 내의 모든 적을 접촉하여 생명력을 흡수합니다(@Check[reflex|dc:37|basic|options:area-effect] 내성). 피해량은 사용한 행동 횟수에 따라 결정됩니다. 리치 군단이 행동을 하나 사용할 때마다 군단은 1분 동안 지속되는 임시 체력 10을 얻습니다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[2d8[void]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(4d8+11)[void]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(6d8+13)[void]|options:area-damage] damage</p>"
         },
         "A4OVN3F7XvIf893o": {
-          "name": "안정적인 부대 주문 시전 (Steady Troop Spellcasting)",
+          "name": "안정적인 부대 주문 시전(Steady Troop Spellcasting)",
           "description": "<p>리치 군단이 주문을 시전할 때, 구성원들은 각자의 힘을 합쳐 개별 구성원이 단독으로 달성할 수 있는 것보다 더 강력한 버전의 주문을 시전합니다. 폭발, 원뿔, 선 형태의 범위 효과를 가지며 지속 시간이 없는 주문을 시전할 때, 해당 주문의 범위를 증가시킵니다. 반경이 최소 10피트인 폭발형 마법의 반경에 5피트를 추가한다(반경이 더 작은 폭발형 마법은 영향을 받지 않음). 길이가 15피트 이하인 원뿔형 또는 선형 마법의 길이에 5피트를 추가하고, 더 긴 원뿔형 또는 선형 마법의 길이에 10피트를 추가한다.</p>\n<p>리치 군단의 주문 시전 행동을 방해하는 반응이 발생할 경우, 리치 군단은 @Check[flat|dc:12]을 시도한다. 성공 시 해당 행동은 방해받지 않는다.</p>"
         }
       }
     },
     "Fleshwarp Amalgam": {
-      "name": "육체 왜곡 합성체 (Fleshwarp Amalgam)",
+      "name": "육체 왜곡 합성체(Fleshwarp Amalgam)",
       "hpdetails": "(4 세그먼트); 임계값 90 (3 세그먼트), 45 (2 세그먼트)",
       "languages": "(어떤 언어도 말할 수 없음)",
       "perception": "암흑 시야",
       "items": {
         "Ra4zH2Y2fsG6xxMp": {
-          "name": "잔혹한 보복 (Brutal Retaliation)",
+          "name": "잔혹한 보복(Brutal Retaliation)",
           "description": "<p><strong>발동조건</strong> 피육변형체는 체력 임계값을 초과하여 한 세그먼트를 잃는다</p><hr /><p><strong>효과</strong> 플레시워프 합성체가 보복으로 공격한다. @Template[type:emanation|distance:5] 범위 내의 각 적에게 @Damage[2d10+6[untyped]|options:area-damage]의 피해(@Check[reflex|dc:23|basic|options:area-effect,inflicts:forced-movement])를 입힌다. 내성에 실패한 생물은 또한 합성체로부터 5피트 밀려난다.</p>"
         },
         "icFtpyk3vKrnSxKV": {
-          "name": "부대 방어 (Troop Defenses)",
+          "name": "부대 방어(Troop Defenses)",
           "description": "<p><strong>HP</strong> 135 (4 세그먼트); <strong>한계치</strong> 90 (3개 구간), 45 (2개 구간)</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
         },
         "i5jWmQ8e6h6E4QoP": {
-          "name": "부대 이동 (Troop Movement)"
+          "name": "부대 이동(Troop Movement)"
         },
         "AhZyxStzEuZNYrN6": {
-          "name": "산성 분사 (Acid Spray)",
+          "name": "산성 분사(Acid Spray)",
           "description": "<p>플레시워프 아말감은 여러 구멍에서 산을 분사하여 강력한 분사 효과를 만들어 냅니다. 이 산성 분사는 @Template[type:burst|distance:10]로, 60피트 내의 대상에게 @Damage[3d8[acid]|options:area-damage|options:area-effect]의 피해를 입힌다 (@Check[reflex|dc:23|basic] 내성). 내성 굴림에서 대실패를 한 생물은 @Damage[1d8[persistent,acid]|options:area-damage]의 피해를 입습니다. 군단이 2개 세그먼트로 줄어들면 이 영역은 @Template[type:burst|distance:5]로 축소됩니다.</p>"
         },
         "mwaDMdReJdQ1woD5": {
-          "name": "촉수와 발톱의 광란 (Frenzy of Tentacles and Claws)",
+          "name": "촉수와 발톱의 광란(Frenzy of Tentacles and Claws)",
           "description": "<p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 플레시워프는 @Template[type:emanation|distance:5](@Check[reflex|dc:23|basic|options:area-effect] 내성) 내의 각 적을 향해 광란의 근접 공격을 가한다. 피해량은 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[1d10[untyped]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d10+6)[untyped]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(2d10+11)[untyped]|options:area-damage] damage</p>"
         },
         "wLxpfofh7JpuGaBx": {
-          "name": "다중 다리 이동 (Many-Limbed Stride)",
+          "name": "다중 다리 이동(Many-Limbed Stride)",
           "description": "<p>육상에서 이동할 때, 플레시워프 합성체는 비마법적 어려운 지형의 효과를 무시한다.</p>"
         }
       }
     },
     "Arboreal Copse": {
-      "name": "수목 군락 (Arboreal Copse)",
+      "name": "수목 군락(Arboreal Copse)",
       "description": "<p>수림 수호자들은 일반적으로 보호하는 숲의 경계 내에 머무르지만, 때때로 수림 군주에게 보고할 잠재적 위협에 대한 정보를 얻기 위해 수림 군락으로 모이기도 한다. 수림 종족은 일반적으로 행동이 느리지만, 임박한 위험에 직면했을 때는 수림 군락이 신속한 판단을 내려야 할 때도 있다.</p>",
       "hpdetails": "(4 세그먼트); 150 (4 세그먼트); 임계값 100 (3 세그먼트), 50 (2 세그먼트)",
       "items": {
         "uvjlEBAqOy2l2myB": {
-          "name": "반응적 공격 (Reactive Attack)",
+          "name": "반응적 공격(Reactive Attack)",
           "description": "<p><strong>Trigger</strong> 수목 군락에서 5피트 이내의 적이 조작 행동이나 이동 행동을 사용하거나, 원거리 공격을 하거나, 사용 중인 이동 행동 중에 한 칸을 떠날 때</p><hr /><p><strong>효과</strong> 수목병사들이 돌검을 휘두른다. 발동시킨 적에게 @Damage[(2d8+9)[bludgeoning]]의 피해를 입힌다 (@Check[reflex|dc:25|basic] 내성). 내성에 대실패를 하고 발동 원인이 조작 행동인 경우, 부대가 해당 행동을 방해한다.</p>"
         },
         "icFtpyk3vKrnSxKV": {
-          "name": "부대 방어 (Troop Defenses)",
+          "name": "부대 방어(Troop Defenses)",
           "description": "<p><strong>HP</strong> 150 (4 세그먼트); <strong>임계값</strong> 100 (3 구간), 50 (2 구간)</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
         },
         "i5jWmQ8e6h6E4QoP": {
-          "name": "부대 이동 (Troop Movement)"
+          "name": "부대 이동(Troop Movement)"
         },
         "rcGFpY9bZDxpvUJ2": {
-          "name": "방패 올리기 (Raise Shields)",
+          "name": "방패 올리기(Raise Shields)",
           "description": "<p>숲속의 수호자들이 동시에 방패를 들어 올리면, AC와 반사 내성에 +2 상황 보너스를 얻습니다.</p>"
         },
         "BVopnCZzSNujoI5t": {
-          "name": "밀어내는 방패벽 (Shoving Shield Wall)",
+          "name": "밀어내는 방패벽(Shoving Shield Wall)",
           "description": "<p>나무 무리가 대걸음으로 이동한다. 무리가 이동 시작 시 위치하거나 이동 경로에 있는 모든 적의 칸은 @Damage[5d6[bludgeoning]|options:area-damage] 대미지(@Check[fortitude|dc:25|basic|options:area-effect,inflicts:forced-movement])를 받는다. 내성 굴림 실패 시, 수목 군락은 생물을 방패 위로 싣고 이동하며, 그 생물은 군락의 나머지 이동 거리 및 방향을 따라 이동한다.</p>"
         },
         "AwWx7DridTlHkpo8": {
-          "name": "검으로 내리치기 (Sword Bash)",
-          "description": "<p>수목 군락은 둔탁한 돌 장검으로 적을 마구 내리친다. @Template[type:emanation|distance:10] 범위 내의 각 적은 @Check[reflex|dc:25|basic|options:area-effect] 내성 검사를 시도해야 한다. 피해량은 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(1d8+1)[bludgeoning]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d8+9)[bludgeoning]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(3d8+10)[bludgeoning]|options:area-damage] damage</p>"
+          "name": "검으로 내리치기(Sword Bash)",
+          "description": "<p>수목 군락은 둔탁한 돌 장검으로 적을 마구 내리친다. @Template[type:emanation|distance:10] 범위 내의 각 적은 @Check[reflex|dc:25|basic|options:area-effect] 내성 굴림을 시도해야 한다. 피해량은 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(1d8+1)[bludgeoning]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d8+9)[bludgeoning]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(3d8+10)[bludgeoning]|options:area-damage] damage</p>"
         }
       },
       "StealthVariants": {
@@ -1717,27 +1717,27 @@
       }
     },
     "Dwarf Longshot Squad (Guns)": {
-      "name": "드워프 원거리 사격대 (총기) (Dwarf Longshot Squad (Guns))",
+      "name": "드워프 원거리 사격대 (총기)(Dwarf Longshot Squad (Guns))",
       "description": "<p>많은 드워프들이 망치와 방패를 다루는 법을 익히는 반면, 일부는 주로 튼튼한 드워프 제작 석궁 같은 원거리 무기의 마스터가 되려 한다. 드워프 군대는 특히 비좁은 터널과 지하 동굴 밖에서 장거리 사수 부대를 최전방 방어선으로 활용한다.</p><h2>총을 든 원거리 사수</h2><p>동군 거점(Dongun Hold)과 유사한 지역의 드워프들은 화기를 사용할 수 있으며, 드워프 원거리 사수 분대에게 소총을 지급하여 이를 반영할 수 있다. 통계 블록을 수정해 '흔하지 않은' 특성을 부여하고, '석궁' 언급을 '소총'으로, '화살'을 '탄환'으로 대체하세요. 또한 '푸른 하늘의 화살' 액션에 충격 특성을 부여하세요. 이는 각 대상에게 타격 또는 관통 피해 중 더 큰 피해를 주는 방식으로 적용됩니다(이 액션을 '푸른 하늘의 총알'로 명명할 수도 있습니다). 마지막으로 '방해 사격'을 다음 능력으로 대체하세요.</p>\n<p><strong>총알 연무</strong> <span class=\"action-glyph\">2</span> 드워프 저격수들은 소총을 연발하여 120피트(약 36.5m) 이내에 연무 구름을 생성한다. 이 연기는 @Template[type:burst|distance:20]이며, 1분 동안 지속되거나 강한 바람에 흩어질 때까지 지속된다(둘 중 먼저 발생하는 경우). 연기 안의 모든 생물은 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진} 상태가 되며, 연기 밖의 모든 생물은 연기 안의 생물에게 가려진 상태가 된다.</p>",
       "hpdetails": "(4 구간); 임계값 120 (3 구간), 60 (2 구간)",
       "items": {
         "icFtpyk3vKrnSxKV": {
-          "name": "부대 방어 (Troop Defenses)",
+          "name": "부대 방어(Troop Defenses)",
           "description": "<p><strong>HP</strong> 180 (4 세그먼트); <strong>임계값</strong> 120 (3 구간), 60 (2 구간)</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.TroopDefenses]</p>"
         },
         "i5jWmQ8e6h6E4QoP": {
-          "name": "부대 이동 (Troop Movement)"
+          "name": "부대 이동(Troop Movement)"
         },
         "cE3nGCXUZ43jjTq2": {
-          "name": "총검을 휘두르라! (Brandish Bayonets!)",
+          "name": "총검을 휘두르라!(Brandish Bayonets!)",
           "description": "<p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 드워프 저격수들은 소총에 부착된 칼날을 사용하여 @Template[type:emanation|distance:5] 범위 내의 적들을 대상으로 @Check[reflex|dc:26|basic|options:area-effect] 내성이 적용되는 협동 근접 공격을 가한다. 피해량은 수행된 행동의 수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(1d8+2)[piercing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d8+11)[piercing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(3d8+13)[piercing]|options:area-damage] damage</p>"
         },
         "vTdnKvhxzs5uAmUE": {
-          "name": "총알 연무 (Bullet Smog)",
+          "name": "총알 연무(Bullet Smog)",
           "description": "<p>드워프 저격수들이 소총을 연발하여 120피트(약 36.5m) 이내에 연기를 생성한다. 이 연기는 @Template[type:burst|distance:20]이며, 1분 동안 지속되거나 강한 바람에 흩어질 때까지 유지된다(둘 중 먼저 발생하는 경우). 연기 구름 안에 있는 모든 생물은 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진} 상태가 되며, 연기 구름 밖에 있는 모든 생물은 연기 구름 안에 있는 생물들에게 {가려진} 상태가 된다.</p>"
         },
         "EONX1OgwRhf35gSm": {
-          "name": "푸른 하늘에서 날아온 총알 (Bullets from the Blue)",
+          "name": "푸른 하늘에서 날아온 총알(Bullets from the Blue)",
           "description": "<p>드워프 저격수들이 소총을 재장전한 후 일제 사격 형태의 원거리 공격을 가한다. 이 일제 사격은 @Template[type:burst|distance:15] 120피트 이내의 @Damage[6d6[untyped]|options:area-damage] 피해를 입히며 @Check[reflex|dc:26|basic|options:area-effect] 내성 굴림을 가한다. 드워프 저격수 분대가 2개 세그먼트로 줄어들면 이 범위는 @Template[type:burst|distance:10]로 축소된다.</p>"
         }
       }
