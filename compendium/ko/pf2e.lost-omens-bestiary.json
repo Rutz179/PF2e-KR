@@ -100,7 +100,7 @@
     "Collapsing Structure": {
       "name": "붕괴하는 구조물",
       "desc (hazard)": "<p>에베슈라가 구조물에 스치며 붕괴를 유발할 수 있습니다.</p>",
-      "disable": "<p>@Check[athletics|dc:43|name:Brace Building (Athletics)|traits:complex,environmental,kaiju,hazard] (마스터), @Check[crafting|dc:43|name:Brace Building (Crafting)|traits:complex,environmental,kaiju,hazard] (마스터), 또는 @Check[engineering|dc:43|name:Brace Building (Engineering)|traits:complex,environmental,kaiju,hazard]{엔지니어링 로어}(마스터)로 구조물을 보강하여 생물의 다음 턴이 끝날 때까지 붕괴 위험을 줄인다. 이번 라운드의 플랫 체크(루틴 참조)는 성공 시 4, 대성공 시 8 증가한다. 플랫 체크 DC를 21 이상으로 올리면 구조물이 안정화되어 이 위험이 종료된다.</p>",
+      "disable": "<p>@Check[athletics|dc:43|name:Brace Building (Athletics)|traits:complex,environmental,kaiju,hazard](마스터), @Check[crafting|dc:43|name:Brace Building (Crafting)|traits:complex,environmental,kaiju,hazard](마스터), 또는 @Check[engineering|dc:43|name:Brace Building (Engineering)|traits:complex,environmental,kaiju,hazard]{엔지니어링 로어}(마스터)로 구조물을 보강하여 생물의 다음 턴이 끝날 때까지 붕괴 위험을 줄인다. 이번 라운드의 플랫 체크(루틴 참조)는 성공 시 4, 대성공 시 8 증가한다. 플랫 체크 DC를 21 이상으로 올리면 구조물이 안정화되어 이 위험이 종료된다.</p>",
       "reset": "<p>건물은 안정화된 후 [[/gmr 1d6 #rounds]]{1d6 라운드} 후에 다시 '흔들림으로 붕괴'에 취약해집니다.</p>",
       "routine": "<p> GM은 건물이 부분적으로 붕괴되는지 결정하기 위해 @Check[flat|dc:9|showDC:owner]을 굴리며, DC는 위에 명시된 대로 증가합니다. 성공 시, 건물 내부와 반경 30피트 내에 먼지와 잔해가 떨어져 은폐 효과를 제공하고, 무작위로 선택된 [[/r 1d4 #Targets]]명의 대상에게 @Damage[6d6[bludgeoning]]의 피해를 입힙니다(@Check[reflex|dc:35|basic|name:Falling Debris|traits:hazard,complex,environmental,kaiju] 내성; 대실패 시, 해당 생물은 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드림} 상태가 됩니다). 대성공 시 효과는 동일하나, 파편이 무작위로 선택된 [[/r 2d4 #Targets]] 대상에게 @Damage[12d6[bludgeoning]] 피해를 입힙니다(@Check[reflex|dc:35|basic|name:Falling Debris|traits:hazard,complex,environmental,kaiju] 내성; 대실패 시 생물은 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속} 상태가 되며, [[[/act force-open DC=38], [[/act escape DC=35]]로 해방될 때까지 잔해에 갇힌다).</p>",
       "stealth": "<p>(마스터) 에베슈라가 접근함에 따라 구조물 벽에 균열이 생기는 것을 알아차림</p>",
@@ -129,7 +129,7 @@
           "name": "마법 저항에 대한 모든 내성에 +1 상태"
         },
         "AkYf6nyAWmoBjQDy": {
-          "name": "기회의 공격 (유령의 발굽 전용)"
+          "name": "기회 공격 (유령의 발굽 전용)"
         },
         "3y4grxqduw8smrrg": {
           "name": "재생",
@@ -212,7 +212,7 @@
           "name": "주먹"
         },
         "u3CMszU8CMc4atfm": {
-          "name": "기회의 공격"
+          "name": "기회 공격"
         },
         "r9mk3iMPZnVsYyaH": {
           "name": "재구성",
@@ -499,7 +499,7 @@
           "description": "<p><strong>발동 빈도</strong> 분당 1회</p>\n<p><strong>발동 조건</strong> 위대한 수호자의 물리 피해 저항은 저항의 예외 사항에 의해 무효화됨</p>\n<hr />\n<p><strong>효과</strong> 위대한 수호자는 몸의 바깥층을 벗어내어 물질 구성과 전체적인 외형을 변화시킵니다. 위대한 수호자의 저항을 극복한 물질은 위대한 수호자가 선택한 아다만틴, 냉철, 던실버, 은으로 변합니다.</p>"
         },
         "pfXeXkZrxfUKV6ek": {
-          "name": "기회의 공격"
+          "name": "기회 공격"
         },
         "TKEEtdN9LFTog5FP": {
           "name": "골렘의 안티매직",
@@ -782,7 +782,7 @@
     "Spell Pitchers": {
       "name": "마법 주전자",
       "desc (hazard)": "<p>5피트 공간을 차지한 커다란 파리잡이풀이 무딘 꽃잎을 벌린 채 잠든 듯이 있다.</p>",
-      "disable": "<p>@Check[arcana|dc:15] (훈련된) 식물의 반사 작용을 안전하게 유발하여 닫히고 하루 동안 휴면 상태가 되도록 하거나, @Check[nature|dc:17] (훈련된) 주걱풀을 조심스럽게 휴면 상태로 유도하는 것</p>",
+      "disable": "<p>@Check[arcana|dc:15](훈련된) 식물의 반사 작용을 안전하게 유발하여 닫히고 하루 동안 휴면 상태가 되도록 하거나, @Check[nature|dc:17](훈련된) 주걱풀을 조심스럽게 휴면 상태로 유도하는 것</p>",
       "reset": "<p>주머니가 주문을 한 번 먹으면, 꽃잎이 짙은 분홍색과 녹색으로 변한 후 닫힙니다. 먹은 주문의 등급당 하루 동안 휴면 상태에 들어갑니다. 주머니가 소화를 마치면 다시 열리고 서서히 시들기 시작합니다. 첫 번째 주머니가 다시 열리면 두 번째 주머니가 인접한 칸으로 갈라져 나옵니다.</p>",
       "stealth": "<p>(훈련된) 식물을 다른 식물들 중에서 식별할 수 있음</p>",
       "items": {
@@ -1294,7 +1294,7 @@
           "name": "지속 마법"
         },
         "THVTYHIQn7eM7KpS": {
-          "name": "기회의 공격"
+          "name": "기회 공격"
         },
         "tRNJFT4ARw8LJsqY": {
           "name": "공포스러운 존재",
@@ -1322,7 +1322,7 @@
     "Crystal Pin": {
       "name": "크리스탈 핀",
       "desc (hazard)": "<p>에베쉬라는 생물에게 수정탄을 발사해 그들을 물질계에 고정시킨다.</p>",
-      "disable": "<p>@Check[occultism|dc:48|name:Earn Ebeshra's Favor (Occultism)|traits:abjuration,divine,environmental,kaiju,hazard] (전설) 또는 @Check[religion|dc:48|name:Earn Ebeshra's Favor (Religion)|traits:abjuration,divine,environmental,kaiju,hazard] (전설)로 에베슈라의 호의를 얻어 안전한 이동을 하거나 @Check[deception|dc:51|name:Divert Ebeshra's Attention|traits:abjuration,divine,environmental,kaiju,hazard] (마스터)으로 에베슈라의 주의를 잠시 돌릴 수 있다</p>",
+      "disable": "<p>@Check[occultism|dc:48|name:Earn Ebeshra's Favor (Occultism)|traits:abjuration,divine,environmental,kaiju,hazard](전설) 또는 @Check[religion|dc:48|name:Earn Ebeshra's Favor (Religion)|traits:abjuration,divine,environmental,kaiju,hazard](전설)로 에베슈라의 호의를 얻어 안전한 이동을 하거나 @Check[deception|dc:51|name:Divert Ebeshra's Attention|traits:abjuration,divine,environmental,kaiju,hazard](마스터)으로 에베슈라의 주의를 잠시 돌릴 수 있다</p>",
       "reset": "<p>에베슈라는 [[/gmr 1d4 #Rounds]] 라운드 동안 기다린 후 또 다른 수정 조각을 떼어낸다.</p>",
       "items": {
         "3o94smurr55feki6": {
@@ -1416,7 +1416,7 @@
     "Mana Whorl": {
       "name": "마나 소용돌이",
       "desc (hazard)": "<p>이 15피트 너비의 불안정한 모래 지역은 마법을 휘두르는 생물을 가라앉히려고 시도한다. 짙은 연두색 잎사귀와 연분홍 꽃을 가진 사막 나무와 적어도 한 마리의 붉은 가슴을 가진 육식성 까치가 항상 근처에 있다.</p>",
-      "disable": "<p>@Check[arcana|dc:26] (전문가)가 마나 소용돌이에 마법을 공급하여 몇 분간 일시적으로 안정화시킬 수 있다; 소용돌이에 총 10레벨의 마법사 및 마법 아이템(예: (4th) 레벨 클레릭 + 3rd 레벨 마법 아이템 2개)을 공급하면 1주간 안정화; 또는 총 20레벨의 마법사 및 마법 아이템을 공급하면 영구적으로 안정화. 소용돌이에 공급된 마법사 및 마법 아이템은 통째로 삼켜진다.</p>",
+      "disable": "<p>@Check[arcana|dc:26](전문가)가 마나 소용돌이에 마법을 공급하여 몇 분간 일시적으로 안정화시킬 수 있다; 소용돌이에 총 10레벨의 마법사 및 마법 아이템(예: (4th) 레벨 클레릭 + 3rd 레벨 마법 아이템 2개)을 공급하면 1주간 안정화; 또는 총 20레벨의 마법사 및 마법 아이템을 공급하면 영구적으로 안정화. 소용돌이에 공급된 마법사 및 마법 아이템은 통째로 삼켜진다.</p>",
       "reset": "<p>이 위험은 포만 상태가 될 때까지 마법을 지닌 모든 존재를 계속 빨아들인다(위의 '무력화' 참조). 까치들은 포만 상태가 된 소용돌이를 떠난다.</p>",
       "routine": "<p>(1 행동) 이 소용돌이는 자신의 이니셔티브에 따라, 그 안에 있는 주문 시전 능력이 있거나 마법 아이템을 휘두르는 모든 생물을 끌어당긴다. 허리까지 잠긴 생물은 목까지 잠기게 되며, 목까지 잠긴 생물은 물속으로 끌려 들어가 질식하지 않으려면 숨을 참아야 한다. 생물이 주문이나 마법 아이템을 전혀 가지고 있지 않다면, 마나 소용돌이는 단순히 어려운 지형으로만 작용한다. 마나 소용돌이에 걸린 생물은 @Check[athletics|dc:23] 수영 능력 체크를 시도할 수 있다. 목까지 잠긴 상태라면 한 단계 위로 올라가거나 더 나쁜 상태가 되기 위해, 허리까지 잠긴 상태라면 5피트 이동하기 위해 시도한다. 대실패 시, 생물은 한 단계 아래로 끌려 내려간다. 회오리에서 헤엄쳐 나온 생물은 위험에서 벗어나며, 회오리 인접 공간에서 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드린 상태}가 된다. 다른 생물들은 일반적으로 밧줄이나 유사한 도구를 사용해 이 생물을 돕거나, 자신의 @Check[athletics|dc:23] 체크로 생물을 끌어내려 시도할 수 있으며, 그 결과는 해당 생물이 직접 체크를 시도한 것과 동일하다. 마법 아이템만 소지하고 주문을 시전할 능력이 없는 생물은 모든 아이템을 떨어뜨리면 풀려나며, 마나 소용돌이를 일반적인 어려운 지형처럼 통과할 수 있다.</p>",
       "stealth": "<p>(훈련된) 위험한 모래찜질로 식별; +20 (전문가) 마법적 특성 인식</p>",
@@ -1954,7 +1954,7 @@
     "Storm Discharge": {
       "name": "폭풍 방전",
       "desc (hazard)": "<p>에베슈라는 결정체 형태 성향을 띠어 주변 지역에 전기 에너지를 충전하는 번개 폭발을 생성한다.</p>",
-      "disable": "<p>@Check[nature|dc:45|name:Balance the Electrical Charges|traits:divine,electricity,environmental,evocation,kaiju,hazard] (마스터) 해당 지역의 전하를 균형 잡거나 @Check[deception|dc:48|name:Divert Ebeshra's Attention|traits:divine,electricity,environmental,evocation,kaiju,hazard] (전문가) 에베슈라의 주의를 일시적으로 돌린다</p>",
+      "disable": "<p>@Check[nature|dc:45|name:Balance the Electrical Charges|traits:divine,electricity,environmental,evocation,kaiju,hazard](마스터) 해당 지역의 전하를 균형 잡거나 @Check[deception|dc:48|name:Divert Ebeshra's Attention|traits:divine,electricity,environmental,evocation,kaiju,hazard](전문가) 에베슈라의 주의를 일시적으로 돌린다</p>",
       "reset": "<p>에베슈라는 다음 번 번개 폭발을 위해 [[/gmr 1d4 #Lightning Blast Wait]] 라운드를 기다린다.</p>",
       "items": {
         "twl0rallmt9sftkf": {
@@ -2442,9 +2442,9 @@
       }
     },
     "Irriseni Owlbear": {
-      "name": "이리세니 올빼미곰",
-      "description": "<p>이리센의 문화적 상징인 이리세니 올빼미곰은 특히 서리 내린 환경에 잘 적응해 있다. 이 올빼미곰들은 온대 지역의 동종보다 크기가 더 크다.</p>\n<hr />\n<p>강력한 갈색 곰의 몸과 올빼미의 예민한 감각을 지닌 올빼미곰은 위험한 영토성 포식자로, 자신의 도메인에 침입한 어떤 생물도 두려움 없이 공격한다. 올빼미곰과 마주친 자들은 그 거대한 생물이 치명적인 발톱과 강력한 부리로 자신을 갈기갈기 찢어발기기 불과 몇 초 전에야 그 끔찍한 비명을 듣게 된다.</p>\n<p>그 기원은 시간 속에 묻혔지만, 올빼미곰은 더 재치 있는 포식자를 만들기 위한 마법 실험의 결과물로 추정된다. 전설에 따르면, 위자드는 너무 성공적이어서 결국 그 짐승의 첫 희생자가 되었다고 한다. 오늘날 올빼미곰은 전 세계에서 발견되며 다양한 특징을 지닌다. 가장 흔한 아종은 큰뿔올빼미의 특징을 지닌 갈색곰처럼 보이지만, 얼어붙은 북쪽의 올빼미곰은 북극곰과 눈올빼미가 혼합된 모습을, 온대 우림에서는 검은곰에 헛올빼미 머리를 가진 모습을 닮을 수 있다.</p>\n<p>대부분의 올빼미곰은 독거 생활을 하며, 짝짓기와 알에서 부화한 새끼를 기르기 위해만 모인다. 올빼미곰의 서식지는 보통 굴에서 약 5마일(8km) 반경까지 확장되며, 1마일(1.6km) 이내에는 서식 흔적(발톱 자국 나무, 거대한 깃털, 찢겨진 사체)이 뚜렷이 나타난다. 올빼미곰의 굴에는 가치 있는 물건이 거의 없지만, 모험가들은 이 괴물들이 남긴 거대한 소화되지 않은 뼈 덩어리 속에서 장신구, 동전, 심지어 보석류까지 발견한 사례가 있다.</p>",
-      "blurb": "변종 엘리트 올빼미곰",
+      "name": "이리세니 아울베어",
+      "description": "<p>이리센의 문화적 상징인 이리세니 아울베어은 특히 서리 내린 환경에 잘 적응해 있다. 이 아울베어들은 온대 지역의 동종보다 크기가 더 크다.</p>\n<hr />\n<p>강력한 갈색 곰의 몸과 올빼미의 예민한 감각을 지닌 아울베어은 위험한 영토성 포식자로, 자신의 도메인에 침입한 어떤 생물도 두려움 없이 공격한다. 아울베어과 마주친 자들은 그 거대한 생물이 치명적인 발톱과 강력한 부리로 자신을 갈기갈기 찢어발기기 불과 몇 초 전에야 그 끔찍한 비명을 듣게 된다.</p>\n<p>그 기원은 시간 속에 묻혔지만, 아울베어은 더 재치 있는 포식자를 만들기 위한 마법 실험의 결과물로 추정된다. 전설에 따르면, 위자드는 너무 성공적이어서 결국 그 짐승의 첫 희생자가 되었다고 한다. 오늘날 아울베어은 전 세계에서 발견되며 다양한 특징을 지닌다. 가장 흔한 아종은 큰뿔올빼미의 특징을 지닌 갈색곰처럼 보이지만, 얼어붙은 북쪽의 아울베어은 북극곰과 눈올빼미가 혼합된 모습을, 온대 우림에서는 검은곰에 헛올빼미 머리를 가진 모습을 닮을 수 있다.</p>\n<p>대부분의 아울베어은 독거 생활을 하며, 짝짓기와 알에서 부화한 새끼를 기르기 위해만 모인다. 아울베어의 서식지는 보통 굴에서 약 5마일(8km) 반경까지 확장되며, 1마일(1.6km) 이내에는 서식 흔적(발톱 자국 나무, 거대한 깃털, 찢겨진 사체)이 뚜렷이 나타난다. 아울베어의 굴에는 가치 있는 물건이 거의 없지만, 모험가들은 이 괴물들이 남긴 거대한 소화되지 않은 뼈 덩어리 속에서 장신구, 동전, 심지어 보석류까지 발견한 사례가 있다.</p>",
+      "blurb": "변종 엘리트 아울베어",
       "items": {
         "sqceAJWlpdKGnHvx": {
           "name": "발톱"
@@ -2454,15 +2454,15 @@
         },
         "vTXaShzYmcNbRjzk": {
           "name": "소름 끼치는 비명",
-          "description": "<p>올빼미곰이 먹잇감을 공포에 떨게 하는 쉿쉿 소리를 내뱉는다. @Template[emanation|distance:80] 내의 모든 생물은 @Check[will|dc:22] 내성 굴림을 시도해야 한다. 결과와 상관없이 생물들은 1분 동안 일시적으로 면역 상태가 된다.</p>\n<hr />\n<p><strong>대성공</strong> 생물은 영향을 받지 않습니다.</p>\n<p><strong>성공</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 1} 상태가 됩니다.</p>\n<p><strong>실패</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 2} 상태가 됩니다.</p>\n<p><strong>대실패</strong> 생물은 1라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{도주} 상태가 되며 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 3} 상태가 됩니다.</p>"
+          "description": "<p>아울베어이 먹잇감을 공포에 떨게 하는 쉿쉿 소리를 내뱉는다. @Template[emanation|distance:80] 내의 모든 생물은 @Check[will|dc:22] 내성 굴림을 시도해야 한다. 결과와 상관없이 생물들은 1분 동안 일시적으로 면역 상태가 된다.</p>\n<hr />\n<p><strong>대성공</strong> 생물은 영향을 받지 않습니다.</p>\n<p><strong>성공</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 1} 상태가 됩니다.</p>\n<p><strong>실패</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 2} 상태가 됩니다.</p>\n<p><strong>대실패</strong> 생물은 1라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{도주} 상태가 되며 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 3} 상태가 됩니다.</p>"
         },
         "vudcfpUT9un2pDOP": {
           "name": "갉아먹기",
-          "description": "<p><strong>요구 사항</strong> 올빼미곰은 발톱으로 생물 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡기} 상태입니다.</p>\n<hr />\n<p><strong>효과</strong> 올빼미곰은 부리 공격으로 생물의 내장을 파내려 시도한다. 공격이 명중하면 대상은 @Check[will|dc:24] 내성 굴림을 시도해야 한다.</p>\n<hr />\n<p><strong>대성공</strong> 대상은 영향을 받지 않습니다.</p>\n<p><strong>성공</strong> 대상은 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1} 상태가 됩니다.</p>\n<p><strong>실패</strong> 대상은 구역질 병약 1이며, 구역질 상태가 지속되는 동안 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1} 상태가 됩니다.</p>"
+          "description": "<p><strong>요구 사항</strong> 아울베어은 발톱으로 생물 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡기} 상태입니다.</p>\n<hr />\n<p><strong>효과</strong> 아울베어은 부리 공격으로 생물의 내장을 파내려 시도한다. 공격이 명중하면 대상은 @Check[will|dc:24] 내성 굴림을 시도해야 한다.</p>\n<hr />\n<p><strong>대성공</strong> 대상은 영향을 받지 않습니다.</p>\n<p><strong>성공</strong> 대상은 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1} 상태가 됩니다.</p>\n<p><strong>실패</strong> 대상은 구역질 병약 1이며, 구역질 상태가 지속되는 동안 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1} 상태가 됩니다.</p>"
         },
         "qCmKPruRObzVL1Dr": {
           "name": "날카로운 비명과 돌진",
-          "description": "<p>올빼미곰은 피를 얼어붙게 하는 비명을 지르며 두 번의 이동을 합니다. 이 이동 중 어느 시점에서든 올빼미곰으로부터 @Template[emanation|distance:80]{80피트} 이내에 있는 모든 생물은 피를 얼어붙게 하는 비명의 효과를 받습니다.</p>"
+          "description": "<p>아울베어은 피를 얼어붙게 하는 비명을 지르며 두 번의 이동을 합니다. 이 이동 중 어느 시점에서든 아울베어으로부터 @Template[emanation|distance:80]{80피트} 이내에 있는 모든 생물은 피를 얼어붙게 하는 비명의 효과를 받습니다.</p>"
         },
         "TyHmjC5wvxo29J5L": {
           "name": "붙잡기"
@@ -2765,7 +2765,7 @@
           "name": "고블린파이어"
         },
         "QrIbKsj0LZW93voU": {
-          "name": "기회의 공격 (특수)",
+          "name": "기회 공격 (특수)",
           "description": "<p>탈자에는 치명타뿐만 아니라 모든 명중 시 행동을 방해합니다.</p>\n<p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>"
         },
         "hvib7p262mdkyhpf": {
@@ -2854,7 +2854,7 @@
         },
         "3t8cgxyo23x69bva": {
           "name": "폭발의 숨결",
-          "description": "<p>파프네이어는 번개와 허리케인급 바람이 섞인 대격변적인 불폭풍을 내뿜어, @Damage[20d6[fire]|options:area-damage]의 피해를 @Template[cone|distance:90] (@Check[reflex|dc:48|basic|options:area-effect] 내성) 범위 내의 대상에게 입힌다. 추가로, 파프네어는 파프네어의 선택에 따라 폭발의 숨결 범위 내 한 생물에게 @Damage[10d6[electricity]|options:area-damage]{10d6}의 추가 전기 피해를 입힌다. 이 피해는 동일한 기본 반사 내성에 의해 결정된다. 영역 내 생물은 또한 숨결의 강력한 바람과 귀청이 터질 듯한 천둥소리를 견디기 위해 @Check[fortitude|dc:48|name:Resist Winds|options:damaging-effect] 내성을 시도해야 합니다. 실패한 생물은 @UUID[Compendium.pf2e.spells-srd.Item.g8QqHpv2CWDwmIm1]{강풍}의 효과를 경험하며, 대형 이하 크기의 생물에게는 정상적으로 적용됩니다. 마지막으로, 인내 내성에 실패한 생물은 1분 동안 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{귀머거림} 상태가 된다(대실패 시 영구적 귀머거림).</p>"
+          "description": "<p>파프네이어는 번개와 허리케인급 바람이 섞인 대격변적인 불폭풍을 내뿜어, @Damage[20d6[fire]|options:area-damage]의 피해를 @Template[cone|distance:90](@Check[reflex|dc:48|basic|options:area-effect] 내성) 범위 내의 대상에게 입힌다. 추가로, 파프네어는 파프네어의 선택에 따라 폭발의 숨결 범위 내 한 생물에게 @Damage[10d6[electricity]|options:area-damage]{10d6}의 추가 전기 피해를 입힌다. 이 피해는 동일한 기본 반사 내성에 의해 결정된다. 영역 내 생물은 또한 숨결의 강력한 바람과 귀청이 터질 듯한 천둥소리를 견디기 위해 @Check[fortitude|dc:48|name:Resist Winds|options:damaging-effect] 내성을 시도해야 합니다. 실패한 생물은 @UUID[Compendium.pf2e.spells-srd.Item.g8QqHpv2CWDwmIm1]{강풍}의 효과를 경험하며, 대형 이하 크기의 생물에게는 정상적으로 적용됩니다. 마지막으로, 인내 내성에 실패한 생물은 1분 동안 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{귀머거림} 상태가 된다(대실패 시 영구적 귀머거림).</p>"
         },
         "g54io4oqvawdyhgr": {
           "name": "끓어오르는 피",
@@ -3004,7 +3004,7 @@
     "Planar Tear": {
       "name": "평면 균열",
       "desc (hazard)": "<p>에베슈라는 물질계에 거대한 균열을 열어 근처 생물들을 완전히 다른 차원으로 빨아들인다. 이 균열은 일반적으로 다중우주의 무작위 평면으로 연결되지만, 에베슈라는 자신이 선택한 평면으로 생물들을 끌어들이도록 할 수도 있다. 또한 에베슈라는 평면 균열의 효과에 면역이 될 생물들의 수를 선택할 수 있으며, 이는 대개 괴수(카이주)가 그 생물들의 무고함을 인식하기 때문이다.</p>",
-      "disable": "<p>DC 47 (마스터) 균열 너머 특정 차원에 대한 로어로 차원 주파수를 교란하고 균열을 닫기 위해, @Check[arcana|dc:52|name:Undo the Rift's Manifestation (Arcana)|traits:complex,conjuration,divine,environmental,kaiju,teleportation,hazard] (전설) 또는 @Check[occultism|dc:52|name:Undo the Rift's Manifestation (Occultism)|traits:complex,conjuration,divine,environmental,kaiju,teleportation,hazard] (전설) 균열의 마법적 현상을 무효화하기 위해, @Check[performance|dc:55|name:Counteract the Rift's Frequency|traits:complex,conjuration,divine,environmental,kaiju,teleportation,hazard] (전설) 균열의 고조파 주파수를 반격하는 음을 연주하거나, @Check[diplomacy|dc:55|name:Plead With Ebeshra (Diplomacy)|traits:complex,conjuration,divine,environmental,kaiju,teleportation,hazard] (전설) 또는 @Check[religion|dc:55|name:Plead With Ebeshra (Religion)|traits:complex,conjuration,divine,environmental,kaiju,teleportation,hazard] (전설) 에베슈라에게 균열을 닫아달라고 간청하기</p>",
+      "disable": "<p>DC 47 (마스터) 균열 너머 특정 차원에 대한 로어로 차원 주파수를 교란하고 균열을 닫기 위해, @Check[arcana|dc:52|name:Undo the Rift's Manifestation (Arcana)|traits:complex,conjuration,divine,environmental,kaiju,teleportation,hazard](전설) 또는 @Check[occultism|dc:52|name:Undo the Rift's Manifestation (Occultism)|traits:complex,conjuration,divine,environmental,kaiju,teleportation,hazard](전설) 균열의 마법적 현상을 무효화하기 위해, @Check[performance|dc:55|name:Counteract the Rift's Frequency|traits:complex,conjuration,divine,environmental,kaiju,teleportation,hazard](전설) 균열의 고조파 주파수를 반격하는 음을 연주하거나, @Check[diplomacy|dc:55|name:Plead With Ebeshra (Diplomacy)|traits:complex,conjuration,divine,environmental,kaiju,teleportation,hazard](전설) 또는 @Check[religion|dc:55|name:Plead With Ebeshra (Religion)|traits:complex,conjuration,divine,environmental,kaiju,teleportation,hazard](전설) 에베슈라에게 균열을 닫아달라고 간청하기</p>",
       "reset": "<p>에베슈라는 균열을 연 지 1분 후 사라지며, 이로 인해 균열이 닫힙니다. 에베슈라는 다음 차원 균열을 열기까지 1주를 기다려야 합니다.</p>",
       "routine": "<p> 균열은 반경 500피트 내의 생물을 자신 쪽으로 끌어당긴다. 이 균열은 크기에 상관없이 모든 생물을 끌어당길 수 있습니다. 해당 지역에 있는 생물은 이 끌어당김 효과를 저항하기 위해 @Check[fortitude|dc:45|name:Planar Rift|traits:complex,conjuration,divine,environmental,kaiju,teleportation,hazard] 또는 @Check[reflex|dc:45|name:Planar Rift|traits:complex,conjuration,divine,environmental,kaiju,teleportation,hazard] 내성 굴림(생물이 선택)를 시도하거나, 끌어당김을 피하기 위해 무언가를 붙잡기 위해 시도해야 합니다.</p>\n<hr />\n<p><strong>대성공</strong> 생물이 끌어당김을 저항하여 균열 쪽으로 이동하지 않습니다.</p>\n<p><strong>성공</strong> 생물은 균열 쪽으로 25피트 이동한다.</p>\n<p><strong>실패</strong> 생물은 균열 쪽으로 50피트 이동한다.</p>\n<p><strong>대실패</strong> 생물은 균열 쪽으로 100피트 이동합니다. 강한 당김으로 인해 생물은 @Damage[10d6[bludgeoning]]의 피해를 입습니다.</p>\n<p> 균열이 생물을 잡아당길 때 생물이 균열 바로 아래에 있다면, 대신 균열로 빨려 들어가는 것을 피하기 위해 @Check[fortitude|dc:50|name:Pull Into the Rift|traits:complex,conjuration,divine,environmental,kaiju,teleportation,hazard] 또는 @Check[reflex|dc:50|name:Pull Into the Rift|traits:complex,conjuration,divine,environmental,kaiju,teleportation,hazard] 내성 굴림(생물이 선택)를 시도한다. 실패 시, 생물은 균열 속으로 끌려 올라가 반대편 평면의 무작위 지점으로 내던져진다.</p>",
       "stealth": "<p>(마스터) 에베슈라가 평면 균열을 생성하기 위해 형태를 뒤틀고 있음을 알아차리기</p>",
@@ -3509,7 +3509,7 @@
           "name": "꼬리"
         },
         "cv6PTXyDI2kYqY3l": {
-          "name": "기회의 공격 (꼬리 전용)",
+          "name": "기회 공격 (꼬리 전용)",
           "description": "<p>꼬리만</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>"
         },
         "IpvCxCkYJzPHJu0M": {
@@ -3782,7 +3782,7 @@
           "description": "<p><strong>요구 사항</strong> 서적 악마의 마지막 행동이 피해를 입은 성공적인 공격이었을 경우</p><hr /><p><strong>효과</strong> 서적의 악마는 방금 피해를 입힌 생물이 취할 다음 행동을 직감하고, 그 행동을 수행할 적절한 권한이 없다고 설명합니다. 해당 생물은 @Check[will|dc:23] 저항에 성공하지 못하면 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1} 상태가 됩니다.</p>"
         },
         "kbjsjCy5BnXtGEnn": {
-          "name": "법적 로어"
+          "name": "법률 로어"
         }
       }
     },
@@ -4340,7 +4340,7 @@
           "name": "단궁"
         },
         "xuwxzfEavsTyRQX2": {
-          "name": "기회의 공격"
+          "name": "기회 공격"
         },
         "u74JAOvwMJtUTYIo": {
           "name": "영감받은 잔치",
@@ -4397,7 +4397,7 @@
     "Quaking Slither": {
       "name": "떨리는 미끄러짐",
       "desc (hazard)": "<p>에베쉬라가 땅 위를 미끄러지듯 이동하며, 마치 강력한 지진이 일어난 듯 땅을 진동시킨다.</p>",
-      "disable": "<p>세 번의 @Check[athletics|dc:38|name:Brace for Earthquake (Athletics)|traits:environmental,kaiju,hazard] (숙련), @Check[crafting|dc:38|name:Brace for Earthquake (Crafting)|traits:environmental,kaiju,hazard] (숙련), 또는 @Check[engineering|dc:38|name:Brace for Earthquake (Engineering)|traits:environmental,kaiju,hazard]{엔지니어링 로어}(훈련) 체크로 작은 구조물이나 표면을 보강하여 해당 지역의 지진 효과를 무효화하거나, 단일 @Check[diplomacy|dc:41|name:Entreat With Ebeshra|traits:environmental,kaiju,hazard] (마스터) 체크로 에베슈라에게 물러나도록 간청할 수 있다</p>",
+      "disable": "<p>세 번의 @Check[athletics|dc:38|name:Brace for Earthquake (Athletics)|traits:environmental,kaiju,hazard](숙련), @Check[crafting|dc:38|name:Brace for Earthquake (Crafting)|traits:environmental,kaiju,hazard](숙련), 또는 @Check[engineering|dc:38|name:Brace for Earthquake (Engineering)|traits:environmental,kaiju,hazard]{엔지니어링 로어}(훈련) 체크로 작은 구조물이나 표면을 보강하여 해당 지역의 지진 효과를 무효화하거나, 단일 @Check[diplomacy|dc:41|name:Entreat With Ebeshra|traits:environmental,kaiju,hazard](마스터) 체크로 에베슈라에게 물러나도록 간청할 수 있다</p>",
       "reset": "<p>에베슈라는 [[/gmr 1d4 #Rounds]] 라운드 동안 다시 이쪽으로 돌진하지 않는다.</p>",
       "items": {
         "2z1eeofpv2a65zba": {
@@ -4409,7 +4409,7 @@
     "Cracked Earth": {
       "name": "갈라진 땅",
       "desc (hazard)": "<p>이 20피트×20피트 크기의 땅은 거미줄처럼 갈라진 균열과 틈새로 뒤덮여 있으며, 생물이 밟으면 무너진다.</p>",
-      "disable": "<p>@Check[survival|dc:16] (훈련받지 않은) 안전하게 붕괴시키기; @Check[crafting|dc:20] (훈련받은) 붕괴 없이 지나갈 수 있을 만큼 지탱하기</p>",
+      "disable": "<p>@Check[survival|dc:16](훈련받지 않은) 안전하게 붕괴시키기; @Check[crafting|dc:20](훈련받은) 붕괴 없이 지나갈 수 있을 만큼 지탱하기</p>",
       "stealth": "<p>(trained)</p>",
       "items": {
         "ILVa5flFK0IqIEJx": {

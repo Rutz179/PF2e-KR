@@ -81,7 +81,7 @@
       "name": "폭발성 크리스탈 구체(Explosive Crystal Spheres)",
       "hpdetails": "BT 27",
       "desc (hazard)": "<p>반짝이는 글리프가 새겨진 지름 2피트의 결정 구슬이 공중에서 반짝이며 응축되어 침입자에게 폭발적인 힘으로 발사됩니다.</p>",
-      "disable": "<p>@Check[thievery|dc:25] (전문가)로 수정 구체를 생성하는 여섯 위치 중 하나에 위치한 작은 활성화 룬을 찾아 파괴하거나, @Check[arcana|dc:28] (전문가) 또는 @Check[occultism|dc:28] (전문가)로 해당 위치의 마법 에너지를 조작하여 수정 구체를 무력화하거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(3단계; 저항 DC 22)를 사용하여 크리스탈 구형 생성 지점 중 하나를 반격합니다</p>",
+      "disable": "<p>@Check[thievery|dc:25](전문가)로 수정 구체를 생성하는 여섯 위치 중 하나에 위치한 작은 활성화 룬을 찾아 파괴하거나, @Check[arcana|dc:28](전문가) 또는 @Check[occultism|dc:28](전문가)로 해당 위치의 마법 에너지를 조작하여 수정 구체를 무력화하거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(3단계; 저항 DC 22)를 사용하여 크리스탈 구형 생성 지점 중 하나를 반격합니다</p>",
       "routine": "<p>(6 행동) 함정의 각 행동 시, 해당 턴 동안 아직 행동을 취하지 않은 수정 구체는 외곽 고리 내 가장 가까운 생물에게 25피트 이동하거나, 25피트 이내의 가시 범위 내 생물을 공격합니다 (결정 구체는 암흑 시야로 목표물을 감지할 수 있습니다). 결정 구체가 목표물을 공격하면, 그 목표물은 구체가 충돌하고 폭발할 때 @Damage[1d6[force]]의 피해를 입습니다. 한 턴에 여러 구체가 같은 생물을 공격할 수 있지만, 구체는 항상 가장 가까운 목표물을 공격합니다. 구체가 공격하고 폭발하면 사라지지만, 다음 턴 시작 시 생성 지점에서 재생성되어 루틴을 계속합니다. 파괴되거나 생성 지점이 무력화된 구체는 사라지며 재생성되지 않고 공격을 계속하지 않으며, 이 방식으로 파괴되거나 무력화된 구체마다 함정은 1개의 행동을 잃습니다.</p>",
       "stealth": "<p>(expert)</p>",
       "items": {
@@ -95,7 +95,7 @@
       "name": "독성 화로(Toxic Furnace)",
       "hpdetails": "화로 BT 28, 통풍구 경도 10, 통풍구 HP 18 (BT 9)",
       "desc (hazard)": "<p>연기가 나는 화로가 쉭쉭 소리를 내며 클릭 소리를 내기 시작하고, 통풍구가 회전하며 조정되어 침입자 방향으로 독가스를 분출합니다.</p>",
-      "disable": "<p>@Check[thievery|dc:25] (훈련된) 환기구를 무용지물로 만들거나, @Check[athletics|dc:25] 환기구를 비틀고 구부려 기능이 멈출 때까지 조작합니다.</p>",
+      "disable": "<p>@Check[thievery|dc:25](훈련된) 환기구를 무용지물로 만들거나, @Check[athletics|dc:25] 환기구를 비틀고 구부려 기능이 멈출 때까지 조작합니다.</p>",
       "reset": "<p>함정은 1분 동안 목표물로 삼을 생물이 없을 경우 재설정됩니다.</p>",
       "routine": "<p>(3 행동) 트랩은 비활성화된 통풍구마다 1개의 행동을 잃습니다. 트랩의 각 행동 시, 통풍구는 시야 내의 살아있는 생물에게 끓는 독을 분사합니다. 트랩은 한 라운드에 단일 생물을 두 번 이상 표적으로 삼을 수 없으므로, 3개의 행동에 충분한 표적이 없을 경우 사용되지 않은 행동은 소모됩니다.</p>",
       "stealth": "<p>(expert)</p>",
@@ -144,7 +144,7 @@
     "Trapped Elevator": {
       "name": "갇힌 엘리베이터(Trapped Elevator)",
       "desc (hazard)": "<p>과부하가 걸리면 갑자기 30피트 떨어지는 거대한 솥으로 개조된 엘리베이터.</p>",
-      "disable": "<p>@Check[thievery|dc:18] (훈련된) 해제 메커니즘을 잠그거나, @Check[crafting|dc:20] 솥에 추가 지지대를 설치합니다(이 작업에는 10분의 작업 시간이 필요합니다)</p>",
+      "disable": "<p>@Check[thievery|dc:18](훈련된) 해제 메커니즘을 잠그거나, @Check[crafting|dc:20] 솥에 추가 지지대를 설치합니다(이 작업에는 10분의 작업 시간이 필요합니다)</p>",
       "reset": "<p>가마가 해제된 후에도 생물들이 구멍으로 떨어질 수 있지만, 가마는 수동으로 재설정해야 합니다.</p>",
       "stealth": "<p>(expert)</p>",
       "items": {
@@ -199,7 +199,7 @@
       "name": "마지막 용광로(The Last Crucible)",
       "hpdetails": "BT 29로 벽에 5피트 정사각형 구멍을 부수기; 분사 높이 13; 분출구 HP 20 (BT 10)",
       "desc (hazard)": "<p>마법의 힘으로 단단해진 흑요석 판이 방의 출구로 떨어지고, 그 안의 기계가 마그마의 우물을 파서 용암과 몬스터를 미로로 분출하기 시작합니다.</p>",
-      "disable": "<p>@Check[thievery|dc:28] (전문가) 지역 <strong>H4a</strong>의 주요 압력판을 무력화하고 함정을 완전히 해제합니다. (이것은 오비디언 벽이 천장으로 수축되도록 합니다), @Check[thievery|dc:25] (훈련된) 세 개의 용암 분출구 중 하나를 비활성화하거나, @Check[athletics|dc:28] (훈련된) @UUID[Compendium.pf2e.actionspf2e.Item.SjmKHgI7a5Z9JzBx]{Force Open} 떨어진 오비디언 벽을 강제로 열기</p>",
+      "disable": "<p>@Check[thievery|dc:28](전문가) 지역 <strong>H4a</strong>의 주요 압력판을 무력화하고 함정을 완전히 해제합니다. (이것은 오비디언 벽이 천장으로 수축되도록 합니다), @Check[thievery|dc:25](훈련된) 세 개의 용암 분출구 중 하나를 비활성화하거나, @Check[athletics|dc:28](훈련된) @UUID[Compendium.pf2e.actionspf2e.Item.SjmKHgI7a5Z9JzBx]{Force Open} 떨어진 오비디언 벽을 강제로 열기</p>",
       "reset": "<p>마지막 크루시블은 목표 생물이 없으면(생물이 영역 <strong>H4</strong>를 떠났거나 사망했기 때문에) 10분 후에 비활성화되고 초기화됩니다. 아직 살아있는 모든 토쿠아는 <strong>H6</strong> 지역의 마그마 강을 감지하고 결국 그 지역으로 북쪽으로 이동하여 헤엄쳐 도망칩니다.</p>",
       "routine": "<p>(3 행동) 함정은 비활성화된 분출구마다 매 턴 1 행동을 잃습니다. 각 행동 시, <strong>H4c</strong>로 표시된 세 지역 중 하나에 위치한 분출구가 시야 내 가장 가까운 thoqqua가 아닌 목표물에 용암 분출을 발사합니다; 이 분출구는 마법 센서를 사용하며 암흑 시야와 지각 DC 25를 가지고 있습니다. 원래, 수도원의 요원들이 함정이 발동된 후 이곳을 통과해 함정을 비활성화하고 굳은 용암 덩어리와 시체를 청소했습니다. 하지만 이 함정이 식은 용암으로 터널을 막는 데 걸리는 시간이 이 모험 동안의 서서히 쌓이는 과정을 추적하는 것을 불필요하게 만듭니다.</p>",
       "stealth": "<p>(전문가)</p>",
@@ -242,7 +242,7 @@
       "items": {
         "tiz0XZaOiLoOihIH": {
           "name": "붕괴(Collapse)",
-          "description": "<p><strong>트리거</strong> 작은 생물이나 더 큰 생물이 계단을 오르기 시도합니다;</p>\n<p><strong>효과</strong> 계단이 @Check[flat|dc:8] (소형 생물이 위험을 유발한 경우) 또는 @Check[flat|dc:16] (중형 생물이나 여러 개의 작은 생물이 위험을 유발한 경우). 실패 시 계단이 무너집니다. 계단에 있는 모든 생물은 무너지는 잔해로부터 @Damage[(2d6 + 3)[bludgeoning]] 피해를 입습니다 (@Check[reflex|dc:16|basic]).</p>"
+          "description": "<p><strong>트리거</strong> 작은 생물이나 더 큰 생물이 계단을 오르기 시도합니다;</p>\n<p><strong>효과</strong> 계단이 @Check[flat|dc:8](소형 생물이 위험을 유발한 경우) 또는 @Check[flat|dc:16](중형 생물이나 여러 개의 작은 생물이 위험을 유발한 경우). 실패 시 계단이 무너집니다. 계단에 있는 모든 생물은 무너지는 잔해로부터 @Damage[(2d6 + 3)[bludgeoning]] 피해를 입습니다 (@Check[reflex|dc:16|basic]).</p>"
         }
       }
     },
@@ -543,7 +543,7 @@
       "name": "눈사태 문(Avalanche Doors)",
       "hpdetails": "BT 25",
       "desc (hazard)": "<p>이 이중 문은 가짜 문입니다. 트리거가 작동하면 문이 다리처럼 아래로 내려와 앞에 서 있는 모든 것을 짓누릅니다.</p>",
-      "disable": "<p>@Check[thievery|dc:22] (훈련된) 트리거를 문에서 분리하고 문을 고정합니다</p>",
+      "disable": "<p>@Check[thievery|dc:22](훈련된) 트리거를 문에서 분리하고 문을 고정합니다</p>",
       "stealth": "<p>(expert)</p>",
       "items": {
         "cLYUymLiixahfseg": {
@@ -699,7 +699,7 @@
     "Pit of Toil": {
       "name": "노동의 구덩이(Pit of Toil)",
       "desc (hazard)": "<p>유령 같은, 엑토플라즘이 흐르는 드워프들의 모습이 주변에서 일하며, 구덩이 속의 살아있는 생물의 몸은 수백 시간의 고된 노동으로 인한 통증으로 아파지기 시작합니다.</p>",
-      "disable": "<p>@Check[crafting|dc:21] (전문가) 구덩이를 부끄럽게 만들기 위해 숙련된 예술 기술을 흉내 내거나, @Check[religion|dc:18] (훈련된) 유령을 쫓아내는 것.</p>",
+      "disable": "<p>@Check[crafting|dc:21](전문가) 구덩이를 부끄럽게 만들기 위해 숙련된 예술 기술을 흉내 내거나, @Check[religion|dc:18](훈련된) 유령을 쫓아내는 것.</p>",
       "routine": "<p>(1 행동; 신성, 네크로맨시) 드워프들이 계속 노래를 부르고 살아있는 것을 움켜쥐자, 구덩이는 그 안의 모든 살아있는 생물에게 수 시간 동안의 끊임없는 노동으로 인한 고통과 아픔을 전달합니다. 구덩이 안의 모든 생물은 @Check[fortitude|dc:18|traits:divine,necromancy,damaging-effect] 내성 굴림을 시도해야 합니다.</p>\n<hr>\n<p><strong>대성공</strong> 생물은 어떤 악영향도 받지 않으며, 이후로 노동의 구덩이의 일상적인 효과에 면역이 됩니다.</p>\n<p><strong>성공</strong> 생물은 어떤 악영향도 받지 않습니다.</p>\n<p><strong>실패</strong> 생물은 @Damage[2d6[void]]의 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 1} 상태가 1 라운드 동안 지속됩니다.</p>\n<p><strong>대실패</strong> 생물은 @Damage[4d6[void]]의 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{피로} 상태가 됩니다.</p>",
       "items": {
         "MkabEUHjU0jF7sU7": {
@@ -853,7 +853,7 @@
     "Loose Slab": {
       "name": "느슨한 돌판(Loose Slab)",
       "desc (hazard)": "<p>돌판이 금속이 부서지는 날카로운 소리와 함께 트랙에서 떨어져 나갑니다.</p>",
-      "disable": "<p>@Check[crafting|dc:20] (전문가) 트랙을 강화하여 원래 기능대로 작동하도록 하거나, @Check[thievery|dc:18] (훈련된) 슬래브를 고정하여 움직이지 못하게 막는다</p>",
+      "disable": "<p>@Check[crafting|dc:20](전문가) 트랙을 강화하여 원래 기능대로 작동하도록 하거나, @Check[thievery|dc:18](훈련된) 슬래브를 고정하여 움직이지 못하게 막는다</p>",
       "stealth": "<p>(trained)</p>",
       "items": {
         "QKWI9AdyEovn1OFm": {

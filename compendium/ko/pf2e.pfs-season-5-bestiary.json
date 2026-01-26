@@ -8,7 +8,7 @@
       "items": {
         "sTnyQQeOWiyHDhNt": {
           "name": "수호 나가 맹독",
-          "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:33]</p><hr /><p><strong>최대 지속 시간</strong> 6 라운드</p>\n<p><strong>1단계</strong> @Damage[3d6[poison]] (1 라운드)</p>\n<p><strong>2단계</strong> @Damage[3d6[poison]] 및 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1}(1 라운드)</p>"
+          "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:33]</p><hr /><p><strong>최대 지속 시간</strong> 6 라운드</p>\n<p><strong>1단계</strong> @Damage[3d6[poison]](1 라운드)</p>\n<p><strong>2단계</strong> @Damage[3d6[poison]] 및 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1}(1 라운드)</p>"
         }
       }
     },
@@ -284,7 +284,7 @@
         },
         "lRmVdj1U5aoLQ0M6": {
           "name": "원소의 폭발",
-          "description": "<p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 아스퍼는 현재 보유하고 있는 원소 오라를 방출하여 @Damage[2d8[electricity]] (공기인 경우), @Damage[2d8[fire]] (불인 경우) 또는 @Damage[2d8[cold]] (물인 경우)의 피해를 입힙니다. 그 원소의 원소 오라는 2 라운드 동안 다시 사용할 수 없습니다."
+          "description": "<p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 아스퍼는 현재 보유하고 있는 원소 오라를 방출하여 @Damage[2d8[electricity]](공기인 경우), @Damage[2d8[fire]](불인 경우) 또는 @Damage[2d8[cold]](물인 경우)의 피해를 입힙니다. 그 원소의 원소 오라는 2 라운드 동안 다시 사용할 수 없습니다."
         }
       }
     },
@@ -690,7 +690,7 @@
         },
         "ZKaduXctpn6ATVjC": {
           "name": "키탕기아의 맹독",
-          "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:23]</p>\n<p><strong>최대 지속 시간</strong> 6 라운드</p>\n<p><strong>1단계</strong> @Damage[2d6[poison]] (2 라운드)</p>\n<p><strong>2단계</strong> @Damage[2d6[poison]] 및 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}(2 라운드)</p>\n<p><strong>3단계</strong> @Damage[3d6[poison]] 및 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}(2 라운드)</p>"
+          "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:23]</p>\n<p><strong>최대 지속 시간</strong> 6 라운드</p>\n<p><strong>1단계</strong> @Damage[2d6[poison]](2 라운드)</p>\n<p><strong>2단계</strong> @Damage[2d6[poison]] 및 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 1}(2 라운드)</p>\n<p><strong>3단계</strong> @Damage[3d6[poison]] 및 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 2}(2 라운드)</p>"
         },
         "CoQTAk22h5lnU6tR": {
           "name": "거친 혀",
@@ -817,7 +817,7 @@
         },
         "mnagKCwE0GlV9NKy": {
           "name": "호흡 무기",
-          "description": "<p>두 머리를 가진 염소는 @Template[cone|distance:15]의 @Template[cone|distance:15]를 내뿜어 해당 영역에 있는 모든 생물에게 2d6의 피해를 입힙니다 (아래에 표시된 유형의 DC 15 기본 내성).</p>\n<p>두 머리를 가진 염소는 [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 라운드} 동안 두 개의 숨결 무기를 다시 사용할 수 없습니다. </p>\n<ul>\n<li><strong>마크호르</strong> @Damage[2d6[poison]|options:area-damage]의 원뿔 (@Check[fortitude|dc:15|basic|options:area-effect])</li>\n<li><strong>Saanen</strong> Cone of @Damage[2d6[fire]|options:area-damage] (@Check[reflex|dc:15|basic|options:area-effect])</li>\n</ul>"
+          "description": "<p>두 머리를 가진 염소는 @Template[cone|distance:15]의 @Template[cone|distance:15]를 내뿜어 해당 영역에 있는 모든 생물에게 2d6의 피해를 입힙니다 (아래에 표시된 유형의 DC 15 기본 내성).</p>\n<p>두 머리를 가진 염소는 [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 라운드} 동안 두 개의 숨결 무기를 다시 사용할 수 없습니다. </p>\n<ul>\n<li><strong>마크호르</strong> @Damage[2d6[poison]|options:area-damage]의 원뿔 (@Check[fortitude|dc:15|basic|options:area-effect])</li>\n<li><strong>Saanen</strong> Cone of @Damage[2d6[fire]|options:area-damage](@Check[reflex|dc:15|basic|options:area-effect])</li>\n</ul>"
         },
         "B6uOLKXHlpUPyMD0": {
           "name": "원소 물기",
@@ -1964,7 +1964,7 @@
         },
         "CmwiPb08oJWmU5NE": {
           "name": "심리 해방",
-          "description": "<p><strong>트리거</strong> 티스바의 체력이 절반 이하로 남아 있는 상태에서 그녀의 턴이 시작될 때</p>\n<hr />\n<p><strong>효과</strong> 티스바는 그녀의 주위를 소용돌이치는 사이킥 에너지에 둘러싸여, 주변의 작은 물체를 쉽게 움직일 수 있습니다. 그녀는 @Template[emanation|distance:20] (@Check[reflex|dc:21] 내성) 내에 있는 모든 생물에게 @Damage[2d6[force]]의 피해를 입히고 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{기절 1} 상태가 됩니다. 그녀는 염력 투사체 또는 염력 찢기 주문을 시전할 때 피해에 +4의 상태 보너스를 얻습니다. 이 효과는 2 라운드 동안 또는 Tisbah가 @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 잃음}이 될 때까지 지속됩니다."
+          "description": "<p><strong>트리거</strong> 티스바의 체력이 절반 이하로 남아 있는 상태에서 그녀의 턴이 시작될 때</p>\n<hr />\n<p><strong>효과</strong> 티스바는 그녀의 주위를 소용돌이치는 사이킥 에너지에 둘러싸여, 주변의 작은 물체를 쉽게 움직일 수 있습니다. 그녀는 @Template[emanation|distance:20](@Check[reflex|dc:21] 내성) 내에 있는 모든 생물에게 @Damage[2d6[force]]의 피해를 입히고 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{기절 1} 상태가 됩니다. 그녀는 염력 투사체 또는 염력 찢기 주문을 시전할 때 피해에 +4의 상태 보너스를 얻습니다. 이 효과는 2 라운드 동안 또는 Tisbah가 @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 잃음}이 될 때까지 지속됩니다."
         },
         "xWNN3lLOhz5HgaGR": {
           "name": "Vishkanyan 맹독",
@@ -2366,7 +2366,7 @@
         },
         "lRmVdj1U5aoLQ0M6": {
           "name": "원소의 폭발",
-          "description": "<p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 아스퍼는 현재 보유하고 있는 원소 오라를 방출하여 @Damage[2d8[electricity]] (공기인 경우), @Damage[2d8[fire]] (불인 경우) 또는 @Damage[2d8[cold]] (물인 경우)의 피해를 입힙니다. 그 원소의 원소 오라는 2 라운드 동안 다시 사용할 수 없습니다. "
+          "description": "<p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 아스퍼는 현재 보유하고 있는 원소 오라를 방출하여 @Damage[2d8[electricity]](공기인 경우), @Damage[2d8[fire]](불인 경우) 또는 @Damage[2d8[cold]](물인 경우)의 피해를 입힙니다. 그 원소의 원소 오라는 2 라운드 동안 다시 사용할 수 없습니다. "
         }
       }
     },
@@ -3137,11 +3137,11 @@
         },
         "p7pspcasb3dgb8Gk": {
           "name": "트리플 기회",
-          "description": "<p>세 머리의 염소 에이돌론은 매 라운드에 2개의 추가 반응을 얻으며, 이 반응은 기회의 공격에만 사용할 수 있습니다. 각 반응에는 다른 머리를 사용해야 하며, 동일한 트리거 행동에 두 개 이상의 반응을 사용할 수 없습니다. 머리가 하나 사라지면, 추가 반응도 하나 사라집니다."
+          "description": "<p>세 머리의 염소 에이돌론은 매 라운드에 2개의 추가 반응을 얻으며, 이 반응은 기회 공격에만 사용할 수 있습니다. 각 반응에는 다른 머리를 사용해야 하며, 동일한 트리거 행동에 두 개 이상의 반응을 사용할 수 없습니다. 머리가 하나 사라지면, 추가 반응도 하나 사라집니다."
         },
         "mnagKCwE0GlV9NKy": {
           "name": "호흡 무기",
-          "description": "<p>두 머리를 가진 염소는 @Template[cone|distance:20]의 @Template[cone|distance:20]을 내뿜어 해당 영역에 있는 모든 생물에게 3d6의 피해를 입힙니다 (아래에 표시된 유형의 기본 내성 DC 18).</p>\n<p>두 머리를 가진 염소는 [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 라운드} 동안 두 개의 숨결 무기를 다시 사용할 수 없습니다. </p>\n<ul>\n<li><strong>보어</strong> @Damage[3d6[sonic]|options:area-damage]의 원뿔 (@Check[will|dc:18|basic|options:area-effect])</li>\n<li><strong>마크호르</strong> @Damage[3d6[poison]|options:area-damage]의 원뿔 (@Check[fortitude|dc:18|basic|options:area-effect])</li>\n<li><strong>Saanen</strong> Cone of @Damage[3d6[fire]|options:area-damage] (@Check[reflex|dc:18|basic|options:area-effect])</li>\n</ul>"
+          "description": "<p>두 머리를 가진 염소는 @Template[cone|distance:20]의 @Template[cone|distance:20]을 내뿜어 해당 영역에 있는 모든 생물에게 3d6의 피해를 입힙니다 (아래에 표시된 유형의 기본 내성 DC 18).</p>\n<p>두 머리를 가진 염소는 [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 라운드} 동안 두 개의 숨결 무기를 다시 사용할 수 없습니다. </p>\n<ul>\n<li><strong>보어</strong> @Damage[3d6[sonic]|options:area-damage]의 원뿔 (@Check[will|dc:18|basic|options:area-effect])</li>\n<li><strong>마크호르</strong> @Damage[3d6[poison]|options:area-damage]의 원뿔 (@Check[fortitude|dc:18|basic|options:area-effect])</li>\n<li><strong>Saanen</strong> Cone of @Damage[3d6[fire]|options:area-damage](@Check[reflex|dc:18|basic|options:area-effect])</li>\n</ul>"
         },
         "B6uOLKXHlpUPyMD0": {
           "name": "원소 물기",
@@ -3285,7 +3285,7 @@
       "items": {
         "sTnyQQeOWiyHDhNt": {
           "name": "수호 나가 맹독",
-          "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:29]</p>\n<hr />\n<p><strong>최대 지속 시간</strong> 6 라운드</p>\n<p><strong>1단계</strong> @Damage[3d6[poison]] (1 라운드)</p>\n<p><strong>2단계</strong> @Damage[3d6[poison]] 및 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1}(1 라운드)</p>"
+          "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:29]</p>\n<hr />\n<p><strong>최대 지속 시간</strong> 6 라운드</p>\n<p><strong>1단계</strong> @Damage[3d6[poison]](1 라운드)</p>\n<p><strong>2단계</strong> @Damage[3d6[poison]] 및 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1}(1 라운드)</p>"
         }
       }
     },

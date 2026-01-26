@@ -546,7 +546,7 @@
     "Swatting Tail": {
       "name": "꼬리 휘두르기",
       "desc (hazard)": "<p>모가루의 꼬리가 앞으로 휘둘러져 @Template[cone|distance:60] 범위의 파괴적인 아크를 일으킵니다.</p>",
-      "disable": "<p>@Check[performance|dc:45|name:Divert Mogaru's Attention] (전설) 또는 @Check[deception|dc:48|name:Divert Mogaru's Attention] (전설)로 모가루의 주의를 잠시 돌린다</p>",
+      "disable": "<p>@Check[performance|dc:45|name:Divert Mogaru's Attention](전설) 또는 @Check[deception|dc:48|name:Divert Mogaru's Attention](전설)로 모가루의 주의를 잠시 돌린다</p>",
       "reset": "<p>모가루는 [[/gmr 1d4 #라운드]]{1d4 라운드} 동안 꼬리를 다시 휘두르지 않는다.</p>",
       "stealth": "<p>DC 10</p>",
       "items": {
@@ -711,7 +711,7 @@
       "desc (hazard)": "<p>공중에 떠 있는 불의 해골이 경기장을 휘저으며 날아다닌다. 링을 가로지르며 회전하면서 무작위 방향으로 거대한 불기둥을 뿜어낸다.</p>",
       "disable": "<p>전설 등급의 @Check[thievery|dc:40|name:Disable an Elemental Core|traits:action:disable-a-device,hazard,magical,trap,fire]{마법 해제} 체크 3회 시전 또는 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(7th) 반격 DC 40), 각각 떠다니는 해골의 오른쪽 눈, 왼쪽 눈, 입에 숨겨진 원소 코어를 뽑아내거나 무력화하는 데 사용</p>",
       "routine": "<p>(3 행동) 무력화 성공 시마다 턴당 1 행동을 상실한다. 부유 화염방사기는 첫 번째 행동으로 @Template[cone|distance:15] 범위의 화염을 발사하여 @Damage[(4d6+4)[fire]]의 피해를 입힌다( @Check[reflex|dc:40|basic] 내성), 두 번째 행동으로 무작위 방향으로 U자형 비행을 수행하며, 세 번째 행동으로 또 다른 화염을 방출한다.</p>",
-      "stealth": "<p>+23 (전문가) 또는 @Check[perception|dc:38|traits:action:seek] (마스터)로 구의 궤적 패턴을 알아차림</p>",
+      "stealth": "<p>+23 (전문가) 또는 @Check[perception|dc:38|traits:action:seek](마스터)로 구의 궤적 패턴을 알아차림</p>",
       "items": {
         "gHHe473InFt8KHS2": {
           "name": "불꽃",
@@ -740,7 +740,7 @@
         },
         "WsYJheMbLRrldd9p": {
           "name": "쓰러뜨리는 쓸기",
-          "description": "<p>한은 무기를 휘둘러 쓸듯이 회전 공격을 가한다. 각 대상에 대해 별도의 운동 체크를 시도하여 @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Trip} 자신의 도달 범위 내의 생물 수에 상관없이 시도한다. 각 시도는 기 숙련자의 다중 공격 페널티에 포함되지만, 다중 공격 페널티는 모든 공격을 수행한 후에야 증가한다.</p>"
+          "description": "<p>한은 무기를 휘둘러 쓸듯이 회전 공격을 가한다. 각 대상에 대해 별도의 운동 체크를 시도하여 @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{넘어뜨리기} 자신의 도달 범위 내의 생물 수에 상관없이 시도한다. 각 시도는 기 숙련자의 다중 공격 페널티에 포함되지만, 다중 공격 페널티는 모든 공격을 수행한 후에야 증가한다.</p>"
         },
         "R18obny87brojB7E": {
           "name": "강력한 주먹",
@@ -805,7 +805,7 @@
     "Air Rift": {
       "name": "공기의 균열",
       "desc (hazard)": "<p>무대 위에 공기의 차원으로 통하는 포탈이 찢어져 열리며, 오페라 하우스를 찢어발기는 굉음의 바람이 휘몰아친다</p>",
-      "disable": "<p> @Check[arcana|dc:38|name:Air Rift Arcana|traits:hazard,environmental,magical,air] (마스터) 틈새의 마법적 실을 봉합하거나, @Check[nature|dc:40|name:Air Rift Nature|traits:hazard,environmental,magical,air] 또는 @Check[survival|dc:40|name:Air Rift Survival|traits:hazard,environmental,magical,air] (전설) 강도를 줄일 만큼 창문과 문을 열거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(7th 등급; 반격 DC 34)로 공기 균열을 반격</p>",
+      "disable": "<p> @Check[arcana|dc:38|name:Air Rift Arcana|traits:hazard,environmental,magical,air](마스터) 틈새의 마법적 실을 봉합하거나, @Check[nature|dc:40|name:Air Rift Nature|traits:hazard,environmental,magical,air] 또는 @Check[survival|dc:40|name:Air Rift Survival|traits:hazard,environmental,magical,air](전설) 강도를 줄일 만큼 창문과 문을 열거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(7th 등급; 반격 DC 34)로 공기 균열을 반격</p>",
       "routine": "<p>(1 행동) 바람이 무작위 방향으로 지역을 휩쓸며, 공기 균열로부터 50피트 이내의 생물과 물체가 위, 아래, 북, 남, 동, 서 방향으로 떠오르거나 내려가거나 이동합니다(d6 주사위를 굴려 방향을 결정). 해당 지역의 생물과 물체는 @Check[fortitude|DC:37|traits:damaging-effect,air,environmental,magical,hazard] 내성 굴림을 시도해야 합니다. 이 효과로 인해 생물이 단단한 물체나 다른 생물과 충돌할 경우, 양측 모두 충돌 시 @Damage[(3d8+15)[bludgeoning]] 피해를 받습니다.</p>\n<hr />\n<p><strong>대성공</strong> 생물은 영향을 받지 않습니다.</p>\n<p><strong>성공</strong> 생물은 10피트 밀려나지만, 충돌 시 받는 피해는 절반만 적용됩니다. </p>\n<p><strong>실패</strong> 생물은 20피트 밀려 넘어지고 충돌 시 전체 피해를 받습니다.</p>\n<p><strong>대실패</strong> 생물은 40피트 밀려 넘어지고 충돌 시 두 배의 피해를 받습니다.</p>",
       "stealth": "<p>(마스터) 극장 내 갑작스러운 바람을 알아차리다</p>",
       "items": {
@@ -920,7 +920,7 @@
           "name": "슬링"
         },
         "KRmWiv6dqmxqHxBs": {
-          "name": "기회의 공격"
+          "name": "기회 공격"
         },
         "uOnKWbcAANRJukdL": {
           "name": "결투 전문성",
@@ -950,8 +950,8 @@
           "name": "복합 장궁"
         },
         "k24P6PGDrlTJbz5h": {
-          "name": "기회의 공격 (특수)",
-          "description": "<p>아르투스는 10피트 이내의 생물에게 기회의 공격으로 자신의 영혼 화살을 사용할 수 있다. </p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>"
+          "name": "기회 공격 (특수)",
+          "description": "<p>아르투스는 10피트 이내의 생물에게 기회 공격으로 자신의 영혼 화살을 사용할 수 있다. </p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>"
         },
         "KF77DQOArA4aqWmI": {
           "name": "영혼의 화살",
@@ -966,7 +966,7 @@
     "Quaking Footfall": {
       "name": "지진 발자국",
       "desc (hazard)": "<p> 모가루의 꾸준한 발걸음이 속도를 내자, 마치 강력한 지진이 일어난 듯 주변 땅이 진동한다.</p>",
-      "disable": "<p>세 개의 @Check[athletics|dc:39|name:Brace a Small Structure or Surface] (훈련된), @Check[crafting|dc:39|name:Brace a Small Structure or Surface] (훈련), 또는 @Check[engineering|dc:39|name:Brace a Small Structure or Surface]{엔지니어링 로어}(훈련) 체크를 통해 작은 구조물이나 표면을 고정하여 해당 지역의 지진 효과를 무효화할 수 있다; @Check[performance|dc:41|name:Calm Mogaru] (전설적) 체크로 모가루를 잠시 진정시킬 수 있다</p>",
+      "disable": "<p>세 개의 @Check[athletics|dc:39|name:Brace a Small Structure or Surface](훈련된), @Check[crafting|dc:39|name:Brace a Small Structure or Surface](훈련), 또는 @Check[engineering|dc:39|name:Brace a Small Structure or Surface]{엔지니어링 로어}(훈련) 체크를 통해 작은 구조물이나 표면을 고정하여 해당 지역의 지진 효과를 무효화할 수 있다; @Check[performance|dc:41|name:Calm Mogaru](전설적) 체크로 모가루를 잠시 진정시킬 수 있다</p>",
       "reset": "<p>모가루는 [[/gmr 1d4 #라운드]]{1d4 라운드} 동안 다시 이쪽으로 돌진하지 않는다.</p>",
       "stealth": "<p>DC 10</p>",
       "items": {
@@ -1352,7 +1352,7 @@
         },
         "iPHzbhybm7XCFmEl": {
           "name": "음파 비명",
-          "description": "<p>타미칸은 입에서 강력하고 치명적인 음파 폭발을 발사하여 @Damage[12d6[sonic]|옵션:area-damage] 피해를 입힌다. @Template[line|distance:100] (@Check[reflex|dc:37|basic|options:area-effect] 내성). 그녀는 [[/gmr 1d4 #소닉 스크리치 재충전]]{1d4 라운드} 동안 소닉 스크리치를 다시 사용할 수 없다. </p>"
+          "description": "<p>타미칸은 입에서 강력하고 치명적인 음파 폭발을 발사하여 @Damage[12d6[sonic]|옵션:area-damage] 피해를 입힌다. @Template[line|distance:100](@Check[reflex|dc:37|basic|options:area-effect] 내성). 그녀는 [[/gmr 1d4 #소닉 스크리치 재충전]]{1d4 라운드} 동안 소닉 스크리치를 다시 사용할 수 없다. </p>"
         },
         "vyrmCD1p0HDQDVzt": {
           "name": "울부짖는 급강하",
@@ -1539,9 +1539,9 @@
     "Freezing Floor Tiles": {
       "name": "얼어붙은 바닥 타일",
       "desc (hazard)": "<p>경기장 네 모서리에 설치된 원격 센서가 경기장 내 무작위 타일에서 얼어붙는 마법 폭발을 일으켜 생물들의 움직임을 멈춘다.</p>",
-      "disable": "<p>@Check[thievery|dc:40|name:Disable One Sensor|traits:action:disable-a-device] (전설급) 또는 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(6th; 반격 DC 38)로 센서 하나를 무력화</p>",
+      "disable": "<p>@Check[thievery|dc:40|name:Disable One Sensor|traits:action:disable-a-device](전설급) 또는 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(6th; 반격 DC 38)로 센서 하나를 무력화</p>",
       "routine": "<p>(4회 행동) 센서 하나가 무력화될 때마다 함정은 행동 횟수를 1회씩 잃습니다. 각 행동마다 함정은 경기장 내 무작위 10피트×10피트 공간을 갑자기 얼어붙게 만듭니다. 얼어붙은 공간에서 자신의 턴을 시작하는 모든 생물은 @Damage[(2d6+2)[cold]]의 피해를 입습니다 ( @Check[reflex|dc:40|basic] 내성). 내성에 대실패한 생물은 1라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1} 상태가 되며, 이미 느려진 상태였다면 대신 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{고정된}가 1라운드 동안 지속된다. 느려짐이나 고정된 생물에게 가해진 화염 피해는 해당 상태를 해제한다. 얼어붙은 타일은 함정의 다음 턴 시작 시 해제된다.</p>",
-      "stealth": "<p>+23 (전문가) 또는 @Check[perception|dc:38|traits:action:seek] (마스터)로 네 개의 센서를 감지</p>",
+      "stealth": "<p>+23 (전문가) 또는 @Check[perception|dc:38|traits:action:seek](마스터)로 네 개의 센서를 감지</p>",
       "items": {
         "rxzKPSkZ4m2BBbQJ": {
           "name": "냉기 바닥",
@@ -2162,7 +2162,7 @@
     "Broken Rebus Attack": {
       "name": "부서진 수수께끼 공격",
       "desc (hazard)": "<p>유령 같은 공격자들이 테이블을 뒤엎고, 접시를 날려 보내며, 도망치는 생물들을 방 안으로 끌어당긴다.</p>",
-      "disable": "<p>@Check[religion|dc:34|name:Say an Iroran prayer|traits:haunt] (전문가) 이로란 기도를 외워 유령을 일시적으로 진정시키고, @Check[occultism|dc:38|name:Ward Against Future Hauntings|traits:haunt] (마스터) 향후 유령 출몰을 막는 수호부를 생성한다.</p>",
+      "disable": "<p>@Check[religion|dc:34|name:Say an Iroran prayer|traits:haunt](전문가) 이로란 기도를 외워 유령을 일시적으로 진정시키고, @Check[occultism|dc:38|name:Ward Against Future Hauntings|traits:haunt](마스터) 향후 유령 출몰을 막는 수호부를 생성한다.</p>",
       "reset": "<p>유령 현상은 1분 후 비활성화된다. 매일 같은 시간인 오전 7시와 오후 7시(승려들의 아침·저녁 식사 시간)에 재발생한다. 부엌에서 최소 두 명이 식사를 준비하고, 식당에서 함께 식사하며, 식사 전 이로리에게 기도를 올릴 경우, 이 유령 현상은 영구적으로 무력화되어 재발생하지 않습니다.</p>",
       "routine": "<p>(1 행동) 유령이 방 안으로 물체들을 휘몰아치게 한다. 방 안에 있는 모든 생물은 유령의 물체들에 맞아 @Damage[(3d10+14)[force]]의 피해를 입는다(@Check[reflex|dc:36|basic] 내성).</p>",
       "stealth": "<p>(훈련된)</p>",
@@ -2184,7 +2184,7 @@
           "name": "하플링 슬링 스태프"
         },
         "qtIeNtQG9GuuaPbT": {
-          "name": "기회의 공격 (특수)",
+          "name": "기회 공격 (특수)",
           "description": "<p>생물이 란토의 기습 공격을 유발할 때, 그는 근접 공격 대신 운동 검사를 시도하여 @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{그랩}으로 유발 생물을 제압할 수 있다. 시도에서 대성공을 거두면 유발 조작 행동을 방해할 수 있다. </p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>"
         },
         "fkempowsMrEXyJXO": {
@@ -2197,7 +2197,7 @@
         },
         "CdGPXloc7jdvHNUb": {
           "name": "타이탄 레슬러",
-          "description": "<p>란토는 {무장 해제} 시도하거나, @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{그랩}, @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{밀치기}, 또는 @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Trip} 자신보다 최대 두 단계 큰 크기의 생물을 넘어뜨릴 수 있다.</p>"
+          "description": "<p>란토는 {무장 해제} 시도하거나, @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{그랩}, @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{밀치기}, 또는 @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{넘어뜨리기} 자신보다 최대 두 단계 큰 크기의 생물을 넘어뜨릴 수 있다.</p>"
         },
         "J5cP8MRBTAdyZFDq": {
           "name": "회오리 던지기",
@@ -2255,7 +2255,7 @@
           "name": "공기 및 전기 내성에 대한 모든 내성에 +2 상태"
         },
         "JGAHVhPfRTORJiSs": {
-          "name": "기회의 공격"
+          "name": "기회 공격"
         },
         "MEwlMZUNW2jXFkq2": {
           "name": "최강의 팀워크: 바람의 껍질",
@@ -2278,7 +2278,7 @@
     "Mogaru's Breath": {
       "name": "모가루의 숨결",
       "desc (hazard)": "<p>모가루가 주변의 방해하는 해충들을 말살하기 위해 강렬한 불꽃을 내뿜는다.</p>",
-      "disable": "<p>@Check[performance|dc:50|name:Divert Mogaru's Attention] (전설) 또는 @Check[deception|dc:53|name:Divert Mogaru's Attention] (전설)로 모가루의 주의를 잠시 돌린다 </p>",
+      "disable": "<p>@Check[performance|dc:50|name:Divert Mogaru's Attention](전설) 또는 @Check[deception|dc:53|name:Divert Mogaru's Attention](전설)로 모가루의 주의를 잠시 돌린다 </p>",
       "reset": "<p>모가루는 [[/gmr 1d4 #rounds]]{1d4 라운드} 동안 기다린 후 다시 불기둥을 뿜어낼 수 있다. </p>",
       "stealth": "<p>DC 10</p>",
       "items": {
@@ -2342,7 +2342,7 @@
         },
         "BnV3qtr2i3CgT8Mz": {
           "name": "광휘 폭발",
-          "description": "<p>산주우는 입을 벌려 불타는 에너지 구슬을 생성하여 200피트 내 지점으로 발사한다. 구슬이 폭발하여 @Damage[7d8[fire],4d10[음속]|옵션: 범위 피해]{7d8 화염 피해 및 4d10 음파 피해}를 @Template[burst|distance:30] ( @Check[reflex|dc:33|basic|options:area-effect,inflicts:blinded] 내성). 대실패한 생물은 1라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명} 상태가 된다. 산주우는 [[/gmr 1d4 #재충전 광휘 폭발]]{1d4 라운드} 동안 다시 광휘 폭발을 사용할 수 없다.</p>"
+          "description": "<p>산주우는 입을 벌려 불타는 에너지 구슬을 생성하여 200피트 내 지점으로 발사한다. 구슬이 폭발하여 @Damage[7d8[fire],4d10[음속]|옵션: 범위 피해]{7d8 화염 피해 및 4d10 음파 피해}를 @Template[burst|distance:30]( @Check[reflex|dc:33|basic|options:area-effect,inflicts:blinded] 내성). 대실패한 생물은 1라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명} 상태가 된다. 산주우는 [[/gmr 1d4 #재충전 광휘 폭발]]{1d4 라운드} 동안 다시 광휘 폭발을 사용할 수 없다.</p>"
         },
         "c0PwU4FPvjodM9Bx": {
           "name": "불모의 땅",
@@ -2370,7 +2370,7 @@
         },
         "HTLhEnC9IDistr37": {
           "name": "부식성 분사",
-          "description": "<p>부식성 모니터는 부식성 담즙을 분사하여 @Damage[5d8[acid]|options:area-damage]의 피해를 @Template[cone|distance:20] (@Check[reflex|dc:32|basic|options:area-effect] 내성). [[/gmr 1d4 #Caustic Spray 재충전]]{1d4 라운드} 동안 다시 부식성 분사를 사용할 수 없습니다.</p>"
+          "description": "<p>부식성 모니터는 부식성 담즙을 분사하여 @Damage[5d8[acid]|options:area-damage]의 피해를 @Template[cone|distance:20](@Check[reflex|dc:32|basic|options:area-effect] 내성). [[/gmr 1d4 #Caustic Spray 재충전]]{1d4 라운드} 동안 다시 부식성 분사를 사용할 수 없습니다.</p>"
         },
         "9ZmnGbdzjkxjJW7a": {
           "name": "부식성 살점",
@@ -2919,7 +2919,7 @@
           "name": "슬링"
         },
         "oaD4wWhNGSE34z3J": {
-          "name": "기회의 공격"
+          "name": "기회 공격"
         },
         "uOnKWbcAANRJukdL": {
           "name": "결투 숙련",
@@ -2968,7 +2968,7 @@
     "Wronged Monk's Wrath": {
       "name": "억울한 몽크의 분노",
       "desc (hazard)": "<p>몽크의 고통받는 영혼이 침입자를 공격한다.</p>",
-      "disable": "<p>@Check[irori-lore|dc:32|name:Restore the Prayer Items|traits:haunt]{이로리 로어}(숙련) 방을 청소하고 기도 용품을 제자리에 정리하거나, @Check[religion|dc:37|name:Iroran Prayer of Peace] (전문가) 이로리안 평화 기도를 낭송해 유령을 진정시키거나, @Check[occultism|dc:40|name:Create a Ward Against Future Hauntings] (마스터) 향후 유령 출몰을 막는 수호부를 생성한다</p>",
+      "disable": "<p>@Check[irori-lore|dc:32|name:Restore the Prayer Items|traits:haunt]{이로리 로어}(숙련) 방을 청소하고 기도 용품을 제자리에 정리하거나, @Check[religion|dc:37|name:Iroran Prayer of Peace](전문가) 이로리안 평화 기도를 낭송해 유령을 진정시키거나, @Check[occultism|dc:40|name:Create a Ward Against Future Hauntings](마스터) 향후 유령 출몰을 막는 수호부를 생성한다</p>",
       "reset": "<p>유령은 1시간 후 재형성됩니다. 방 안의 모든 촛불을 켜고 이로리에게 기도를 올리는 생물이 있다면 유령은 무력화되어 재형성되지 않습니다.</p>",
       "stealth": "<p>(훈련된)</p>",
       "items": {
@@ -3325,7 +3325,7 @@
           "name": "연금술사의 불"
         },
         "LCYNJHWL7NYjWnRj": {
-          "name": "기회의 공격"
+          "name": "기회 공격"
         },
         "Xkb0A0eb7R40FSTM": {
           "name": "방패 막기"
@@ -3446,7 +3446,7 @@
       "name": "차원의 어둠의 거울",
       "hpdetails": "거울 복제체가 살아있는 동안 거울은 피해를 받을 수 없다",
       "desc (hazard)": "<p>마법의 거울이 캐릭터를 다른 차원의 사악한 거울 복제체로 대체한다.</p><p> 어떤 거울 복제체가 살아있는 동안에는 거울에 피해가 갈 수 없습니다</p>",
-      "disable": "<p>@Check[thievery|dc:40|name:Retrieve a Creature] (전설) 스위치 후 10분 이내에 다른 차원의 생물을 회수합니다(해당 생물의 거울 복제체가 죽은 경우에만 가능), @Check[thievery|dc:45|name:Disable the Mirror] (마스터) 모든 거울 복제체가 죽으면 거울을 영구적으로 무력화하거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(8th; 반격 DC 37)로 1분간 거울 효과를 반격하고 그 시간 동안 추가 대체를 방지할 수 있다</p>",
+      "disable": "<p>@Check[thievery|dc:40|name:Retrieve a Creature](전설) 스위치 후 10분 이내에 다른 차원의 생물을 회수합니다(해당 생물의 거울 복제체가 죽은 경우에만 가능), @Check[thievery|dc:45|name:Disable the Mirror](마스터) 모든 거울 복제체가 죽으면 거울을 영구적으로 무력화하거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(8th; 반격 DC 37)로 1분간 거울 효과를 반격하고 그 시간 동안 추가 대체를 방지할 수 있다</p>",
       "reset": "<p>거울은 항상 생물을 다른 차원으로 흡수할 준비가 되어 있다. 생물이 거울에 빨려 들어간 지 10분 후, 아군이 도둑질로 생물을 구출하지 않으면 다른 차원에 도달하게 되며, 그곳에서 포획되거나 죽을 수 있다. 거울 차원에서는 거울 복제체로 간주되므로, 흡수된 생물이 존재하는 동안 다른 차원의 주민들은 자신들의 쪽에 있는 거울을 파괴할 수 없습니다. 이 차원들은 평면이 아닌 대체 현실이므로, 평면 이동 같은 의식조차도 그곳에 도달할 수 없습니다.</p>",
       "routine": "<p> (1 행동) 거울은 반사된 다른 생물을 거울 안으로 흡수하고 거울 복제체로 대체한다. 거울 복제체는 자체 인니셔티브에 따라 공격하며, 원본 생물과 동일한 능력치를 사용하지만 사악한 성향을 가진다(성향 변화에 따라 변하는 능력만 변경됨). 거울 복제체는 거울과 접촉한 상태에서 3 행동을 소모하여 원래 차원으로 돌아가 복제한 생물을 풀어줄 수 있지만, 대부분의 거울 복제체는 이를 원하지 않는다. </p>",
       "stealth": "<p>(마스터) 일반 거울이 아님을 알아차리기</p>",
@@ -3505,7 +3505,7 @@
         },
         "NiTPn5hB6elG24Dw": {
           "name": "연속 기동",
-          "description": "<p>곰와이는 연타 중 한 번 또는 두 번의 공격을 @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{잡기}, @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{밀치기}, 또는 @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{발걸림}으로 대체할 수 있다.</p>"
+          "description": "<p>곰와이는 연타 중 한 번 또는 두 번의 공격을 @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{잡기}, @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{밀치기}, 또는 @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{넘어뜨리기}으로 대체할 수 있다.</p>"
         },
         "5tIPhpanSP2Bvks9": {
           "name": "강력한 주먹",
@@ -3620,7 +3620,7 @@
         },
         "WsYJheMbLRrldd9p": {
           "name": "강타",
-          "description": "<p>라즈나는 무기를 휘둘러 회전하며 강타한다. 각 생물마다 별도의 운동 체크를 시도하여 @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{추락} 자신의 도달 범위 내의 생물을 무제한으로 시도한다. 각 시도는 기 숙련자의 다중 공격 페널티에 포함되지만, 다중 공격 페널티는 모든 공격을 수행한 후에야 증가한다.</p>"
+          "description": "<p>라즈나는 무기를 휘둘러 회전하며 강타한다. 각 생물마다 별도의 운동 체크를 시도하여 @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{넘어뜨리기} 자신의 도달 범위 내의 생물을 무제한으로 시도한다. 각 시도는 기 숙련자의 다중 공격 페널티에 포함되지만, 다중 공격 페널티는 모든 공격을 수행한 후에야 증가한다.</p>"
         },
         "R18obny87brojB7E": {
           "name": "강력한 주먹",
@@ -3667,7 +3667,7 @@
           "name": "소환 마법에 대한 모든 내성에 +3 상태"
         },
         "BTC1aAwlwSruEZ2X": {
-          "name": "기회의 공격 (특수)",
+          "name": "기회 공격 (특수)",
           "description": "<p> 생물이 란토의 기습 공격을 유발할 때, 그는 근접 공격 대신 운동 검사를 시도하여 유발 생물을 제압할 수 있다. 시도에서 대성공을 거두면 유발 조작 행동을 방해할 수 있다.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>"
         },
         "6BLjSkIvqblwYwBd": {
@@ -3766,7 +3766,7 @@
     "Sand Whirlwind": {
       "name": "모래 회오리",
       "desc (hazard)": "<p>강한 바람이 날카로운 모래알을 방 안으로 휘몰아칩니다.</p>",
-      "disable": "<p>@Check[religon|dc:38|name:State an Iroran Koan|traits:haunt]{종교}(전문가) 자신의 불완전함을 깨달아야만 완전해질 수 있다는 이로란 공안에 대해 설명하거나, @Check[occultism|dc:41|name:Ward Against Hauntings|traits:haunt] (마스터) 향후 유령 출몰을 막는 수호부를 생성 </p>",
+      "disable": "<p>@Check[religon|dc:38|name:State an Iroran Koan|traits:haunt]{종교}(전문가) 자신의 불완전함을 깨달아야만 완전해질 수 있다는 이로란 공안에 대해 설명하거나, @Check[occultism|dc:41|name:Ward Against Hauntings|traits:haunt](마스터) 향후 유령 출몰을 막는 수호부를 생성 </p>",
       "reset": "<p>유령은 1분 후 비활성화되며 1시간 후 재형성됩니다. 최소 두 생물이 모래로 이미지를 만드는 데 1분을 소비하면 유령은 비활성화되고 재형성되지 않습니다. 이미지 제작에는 성공적인 @Check[crafting|dc:30|name:Create Image in Sand] 또는 @Check[thievery|dc:30|name:Create Image in Sand] 체크가 필요합니다.</p>",
       "routine": "<p>(1 행동) 유령의 격렬한 바람이 방 안의 모든 이를 사납게 휘둘러, 생물에게@Damage[(6d10+30)[bludgeoning]] 생물에게 피해를 줍니다 (@Check[reflex|dc:34|basic|traits:haunt]). 대실패 시, 생물은 1분 동안 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명}</p>",
       "stealth": "<p>(훈련된)</p>",
@@ -4270,7 +4270,7 @@
         },
         "WsYJheMbLRrldd9p": {
           "name": "쓰러뜨리는 쓸기",
-          "description": "<p>파우니마가 무기를 휘둘러 쓸듯이 회전 공격을 가한다. 도달 범위 내의 모든 생물을 대상으로 @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{추락}을 위한 별도의 운동 체크를 시도한다. 각 시도는 기 숙련자의 다중 공격 페널티에 포함되나, 모든 공격을 수행한 후에야 페널티가 증가한다.</p>"
+          "description": "<p>파우니마가 무기를 휘둘러 쓸듯이 회전 공격을 가한다. 도달 범위 내의 모든 생물을 대상으로 @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{넘어뜨리기}을 위한 별도의 운동 체크를 시도한다. 각 시도는 기 숙련자의 다중 공격 페널티에 포함되나, 모든 공격을 수행한 후에야 페널티가 증가한다.</p>"
         },
         "u8kaZoasPbpNXnZS": {
           "name": "손바닥 연타",
@@ -4496,7 +4496,7 @@
     "Collapsing Structure": {
       "name": "붕괴되는 구조물",
       "desc (hazard)": "<p>모가루가 구조물에 스치며 건물의 안정성을 심각하게 훼손하고 붕괴를 초래할 수 있다.</p>",
-      "disable": "<p>@Check[athletics|dc:43|name:Brace the Structure] (마스터), @Check[crafting|dc:43|name:Brace the Structure] (마스터), 또는 @Check[engineering-lore|dc:43|name:Brace the Structure]{엔지니어링 로어}(마스터)로 구조물을 보강하여 붕괴 위험을 줄일 수 있다. 이 효과는 생물의 다음 턴이 끝날 때까지 지속된다. 이번 라운드의 플랫 체크 DC는 (루틴 참조)은 성공 시 4, 대성공 시 8이 증가한다. 플랫 체크 DC를 21 이상으로 올리면 구조물이 안정화되어 이 위험이 종료된다.</p>",
+      "disable": "<p>@Check[athletics|dc:43|name:Brace the Structure](마스터), @Check[crafting|dc:43|name:Brace the Structure](마스터), 또는 @Check[engineering-lore|dc:43|name:Brace the Structure]{엔지니어링 로어}(마스터)로 구조물을 보강하여 붕괴 위험을 줄일 수 있다. 이 효과는 생물의 다음 턴이 끝날 때까지 지속된다. 이번 라운드의 플랫 체크 DC는 (루틴 참조)은 성공 시 4, 대성공 시 8이 증가한다. 플랫 체크 DC를 21 이상으로 올리면 구조물이 안정화되어 이 위험이 종료된다.</p>",
       "reset": "<p>건물은 안정화된 후 [[/gmr 1d6 #라운드]]{1d6 라운드} 동안 다시 '흔들림으로 인한 붕괴'에 취약해집니다. </p>",
       "routine": "<p> (1 행동) GM은 건물이 붕괴되는지 결정하기 위해 @Check[flat|dc:9]을 굴림합니다. 위에서 명시된 대로 DC가 증가합니다. 성공 시, 건물 내부와 주변 30피트(약 9m) 내에 먼지와 잔해가 떨어지며, 무작위로 선택된 [[/gmr 1d4 #targets]] 대상에게 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진}을 제공하고, 무작위로 선택된 [[/gmr 1d4 #targets]] 대상에게 @Damage[6d6[bludgeoning]]의 피해를 입힙니다 (@Check[reflex|dc:35|basic] 내성; 대실패 시, 해당 생물은 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드림} 상태가 됨). 대성공 시 효과는 동일하나, 잔해가 대신 무작위로 선택된 [[/gmr 2d4 #targets]] 대상에게 @Damage[12d6[bludgeoning]]의 피해를 입힌다 (기본 반사 내성 DC 35; 대실패 시 잔해에 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속} 상태가 되어 [ [[/act force-open dc=38]], [[/act escape dc=35]]]).</p>",
       "stealth": "<p>+20 (마스터) 모가루가 접근할 때 구조물 벽에 균열이 생기는 것을 알아차림</p>",

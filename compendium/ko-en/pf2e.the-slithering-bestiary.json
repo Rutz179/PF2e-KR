@@ -118,7 +118,7 @@
     "Angazhan's Rake Trap": {
       "name": "안가잔의 갈고리 함정(Angazhan's Rake Trap)",
       "desc (hazard)": "<p>벽에 숨겨진 여섯 개의 금속 갈고리가 튀어나와 방을 가로지르며 긁어댑니다.</p>",
-      "disable": "<p>@Check[thievery|dc:25|name:Disable a Talon|traits:action:disable-a-device] (expert) to disable each talon</p>",
+      "disable": "<p>@Check[thievery|dc:25|name:Disable a Talon|traits:action:disable-a-device](expert) to disable each talon</p>",
       "reset": "<p> 함정은 1분 후에 재설정됩니다.</p>",
       "stealth": "<p>(전문가)</p>",
       "items": {
@@ -136,10 +136,10 @@
       "name": "스크롤 충격 함정(Scroll Shock Trap)",
       "hpdetails": "심볼과 패널 통계 보기",
       "desc (hazard)": "<p>5개의 스크롤 기호가 방 주위에 전기 볼트를 발사합니다.</p>",
-      "disable": "<p>@Check[thievery|dc:25|name:Counteract Magic|traits:action:disable-a-device] (전문가) 또는 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(3단계; 반격 DC 24)</p>\n<p>@Check[thievery|dc:29|name:Disable Trap (Control Panel)|traits:action:disable-a-device] (마스터) 중앙 슬래브 아래의 숨겨진 제어 패널에서 전체 함정을 무력화합니다.</p>",
+      "disable": "<p>@Check[thievery|dc:25|name:Counteract Magic|traits:action:disable-a-device](전문가) 또는 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(3단계; 반격 DC 24)</p>\n<p>@Check[thievery|dc:29|name:Disable Trap (Control Panel)|traits:action:disable-a-device](마스터) 중앙 슬래브 아래의 숨겨진 제어 패널에서 전체 함정을 무력화합니다.</p>",
       "reset": "<p>트랩은 목표 생물이 없을 경우 1 라운드 후에 비활성화되며, 1분 후에 재설정됩니다.</p>",
       "routine": "<p>(5 행동) 비활성화된 각 기호는 트랩의 행동 횟수를 1씩 감소시킵니다.</p>\n<p>각 행동마다 다른 기호가 방 내의 무작위 생물에게 전기 화살을 발사합니다. 트랩은 다중 공격 페널티를 받지 않습니다.</p>",
-      "stealth": "<p>(전문가) 또는 @Check[perception|dc:29|traits:action:seek] (전문가)로 제어 패널을 발견합니다</p>",
+      "stealth": "<p>(전문가) 또는 @Check[perception|dc:29|traits:action:seek](전문가)로 제어 패널을 발견합니다</p>",
       "items": {
         "YKm4JByteFxgMLrc": {
           "name": "Symbol Stats (Each)",
@@ -164,7 +164,7 @@
     "Stalker Summoning Rune": {
       "name": "추적자 소환 룬(Stalker Summoning Rune)",
       "desc (hazard)": "<p>모래 속에 이 마당에 보이지 않는 추적자를 소환하는 룬이 숨겨져 있습니다.</p>",
-      "disable": "<p>@Check[acrobatics|dc:25|name:Approach Rune] 함정을 발동시키지 않고 접근한 후 @Check[arcana|dc:25|name:Erase Rune] (전문가) 또는 @Check[thievery|dc:27|name:Erase Rune|traits:action:disable-a-device] (전문가)로 룬을 지우거나 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(4단계; 반격 DC 25)를 사용하여 룬을 무효화합니다.</p>",
+      "disable": "<p>@Check[acrobatics|dc:25|name:Approach Rune] 함정을 발동시키지 않고 접근한 후 @Check[arcana|dc:25|name:Erase Rune](전문가) 또는 @Check[thievery|dc:27|name:Erase Rune|traits:action:disable-a-device](전문가)로 룬을 지우거나 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(4단계; 반격 DC 25)를 사용하여 룬을 무효화합니다.</p>",
       "reset": "<p>함정은 24시간 후에 재설정됩니다.</p>",
       "stealth": "<p>(expert)</p>",
       "items": {
@@ -313,7 +313,7 @@
     "Fiendripping Blast Trap": {
       "name": "악마 찢는 폭발 함정(Fiendripping Blast Trap)",
       "desc (hazard)": "<p>20피트 이내의 모든 생물에게 에너지 폭발이 피해를 입히며, 특히 악마에게 심각한 피해를 입힙니다.</p>",
-      "disable": "<p>@Check[thievery|dc:27|name:Identify Button Sequence|traits:action:disable-a-device] (전문가) 버튼의 올바른 순서를 식별하거나 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic}(4단계; 반격 DC 25)로 마법 효과를 1시간 동안 억제합니다.</p>",
+      "disable": "<p>@Check[thievery|dc:27|name:Identify Button Sequence|traits:action:disable-a-device](전문가) 버튼의 올바른 순서를 식별하거나 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic}(4단계; 반격 DC 25)로 마법 효과를 1시간 동안 억제합니다.</p>",
       "reset": "<p>함정은 1시간 후에 재설정됩니다.</p>",
       "stealth": "<p>(expert)</p>",
       "items": {

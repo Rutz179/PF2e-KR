@@ -102,7 +102,7 @@
     "Shattering Rune": {
       "name": "파열의 룬(Shattering Rune)",
       "desc (hazard)": "마법의 룬이 오두막 입구의 진흙 땅에 새겨져 있으며, 눈 아래에 묻혀 있으며, @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{Invisible} 센서가 10피트 반경 내의 생물을 감지합니다.",
-      "disable": "<p>@Check[thievery|dc:30|name:Erase the Rune|traits:hazard] (마스터)를 사용하여 센서를 활성화하지 않고 룬을 지우거나 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(5등급; DC 28에 반격)를 사용하여 룬을 해제합니다.</p>",
+      "disable": "<p>@Check[thievery|dc:30|name:Erase the Rune|traits:hazard](마스터)를 사용하여 센서를 활성화하지 않고 룬을 지우거나 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(5등급; DC 28에 반격)를 사용하여 룬을 해제합니다.</p>",
       "stealth": "(마스터)",
       "items": {
         "c0wo8uest1tbm106": {
@@ -296,7 +296,7 @@
       "name": "아비스 왜곡된 나무(Abyss-warped Trees)",
       "hpdetails": "나무당",
       "desc (hazard)": "<p>악마의 나무들로 이루어진 숲이 가지와 뿌리를 휘두르고 움직여 오염된 숲(영역 <strong>A21</strong>) 내의 생물들을 둔기로 공격하고 넘어뜨립니다.</p>",
-      "disable": "<p>@Check[survival|dc:22|name:Find a Safe Location|traits:hazard,complex,environmental] (훈련된) 나무들이 닿지 못하는 위치를 찾거나 @Check[religion|dc:24|name:Cast Out the Fiendish Energy|traits:hazard,complex,environmental] 숲 속의 단일 나무 내부의 악마의 에너지를 일시적으로 몰아내는 기도를 외워, 해당 나무를 1분 동안 무력화합니다. 무력화되거나 파괴된 나무는 숲에 5칸 정사각형의 안전 구역을 생성합니다.</p>",
+      "disable": "<p>@Check[survival|dc:22|name:Find a Safe Location|traits:hazard,complex,environmental](훈련된) 나무들이 닿지 못하는 위치를 찾거나 @Check[religion|dc:24|name:Cast Out the Fiendish Energy|traits:hazard,complex,environmental] 숲 속의 단일 나무 내부의 악마의 에너지를 일시적으로 몰아내는 기도를 외워, 해당 나무를 1분 동안 무력화합니다. 무력화되거나 파괴된 나무는 숲에 5칸 정사각형의 안전 구역을 생성합니다.</p>",
       "reset": "<p>어둠의 왜곡을 받은 나무들은 오염된 숲에 살아있는 생물이 없으면 1분 후 움직임을 멈춥니다. 즉시 재설정됩니다. 비활성화된 나무는 1분 후 다시 활성화됩니다. 파괴된 나무는 1개월 후 다시 자랍니다.</p>",
       "routine": "<p>(4 행동) 아비스에 왜곡된 나무들은 각 라운드의 첫 번째 행동으로 뿌리를 휘둘러 공격합니다. 오염된 숲에 있는 모든 생물은 @Check[reflex|dc:21|traits:hazard,complex,environmental] 내성에 성공하지 못하면 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} 상태가 됩니다. 아비스에 왜곡된 나무들은 두 번째, 세 번째, 네 번째 행동으로 오염된 숲에 있는 최대 세 명의 다른 생물을 대상으로 가지 공격을 수행합니다.</p>",
       "stealth": "<p>(훈련된)을 사용하여 나무가 이동할 수 있는지 판단합니다</p>",
@@ -408,7 +408,7 @@
     "Cave-in": {
       "name": "동굴 붕괴(Cave-in)",
       "desc (hazard)": "터널이 붕괴되어 통로를 돌로 채웁니다.",
-      "disable": "<p>@Check[survival|dc:25|name:Prop up ceiling] (훈련된) 터널 천장을 지탱하여 붕괴를 유발하지 않도록 합니다</p>",
+      "disable": "<p>@Check[survival|dc:25|name:Prop up ceiling](훈련된) 터널 천장을 지탱하여 붕괴를 유발하지 않도록 합니다</p>",
       "stealth": "(훈련된)",
       "items": {
         "ucvf89sgp4fb55pg": {
@@ -420,7 +420,7 @@
     "Final Flight": {
       "name": "최종 비행(Final Flight)",
       "desc (hazard)": "생물이 그리폰에게 끌려가 새끼들에게 먹이로 던져지는 사제의 죽음을 목격합니다.",
-      "disable": "<p>@Check[diplomacy|dc:22|name:Soothe the restless spirits|traits:hazard,haunt] (훈련된)으로 불안한 영혼을 진정시키거나, @Check[religion|dc:24|name:Honor the deceased|traits:hazard,haunt] (훈련된)으로 사망자를 기리는 기도를 낭송합니다; 유령을 해제하려면 두 번의 성공적인 체크가 필요합니다</p>",
+      "disable": "<p>@Check[diplomacy|dc:22|name:Soothe the restless spirits|traits:hazard,haunt](훈련된)으로 불안한 영혼을 진정시키거나, @Check[religion|dc:24|name:Honor the deceased|traits:hazard,haunt](훈련된)으로 사망자를 기리는 기도를 낭송합니다; 유령을 해제하려면 두 번의 성공적인 체크가 필요합니다</p>",
       "reset": "유령 현상은 모든 살아있는 생물이 영혼의 영지(Lea of Honored Souls)를 떠난 후 1분 후에 비활성화됩니다. 비활성화 후 10분이 지나면 유령 현상이 재설정됩니다.",
       "stealth": "(전문가)",
       "items": {
@@ -455,7 +455,7 @@
     "Soul Draining Cage": {
       "name": "영혼을 흡수하는 우리(Soul Draining Cage)",
       "desc (hazard)": "우리 바와 자물쇠에 새겨진 네크로맨틱 룬은 우리와 상호 작용하는 생물의 생명력을 흡수합니다.",
-      "disable": "<p>@Check[thievery|dc:25|name:Drain the rune's power|traits:hazard,magical,necromancy,void,trap] (전문가)로 룬의 힘을 무해하게 흡수하거나 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(3단계; 반격 DC 22)로 룬의 효과를 무효화할 수 있습니다.</p>",
+      "disable": "<p>@Check[thievery|dc:25|name:Drain the rune's power|traits:hazard,magical,necromancy,void,trap](전문가)로 룬의 힘을 무해하게 흡수하거나 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(3단계; 반격 DC 22)로 룬의 효과를 무효화할 수 있습니다.</p>",
       "stealth": "<p>(전문가) 또는 @UUID[Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl]{마법 탐지}</p>",
       "items": {
         "9r4msgrmibk80skt": {
@@ -565,7 +565,7 @@
     "Death's Slumber Ward": {
       "name": "죽음의 잠의 방어벽(Death's Slumber Ward)",
       "desc (hazard)": "<p>네 개의 일시적인 마법적 실이 회오리바람을 일으켜 언데드를 해체하고 살아있는 자들을 끝없는 잠에 싸인다.</p>",
-      "disable": "<p>@Check[religion|dc:23|name:Dissipate One of the Threads|traits:hazard,magical,trap,complex] (전문가) 또는 @Check[performance|dc:21|name:Dissipate One of the Threads|traits:hazard,magical,trap,complex] (훈련된)로 네 가닥 중 하나를 해체할 수 있습니다. 제1장 그랜드파더 에이와(Grandfather Eiwa)의 장례식에 참여하기 위해 퍼포먼스 체크에 실패하거나 대실패한 캐릭터들은 그 경험을 반성할 수 있었으며, 이 캐릭터들은 이 함정을 무력화하기 위한 퍼포먼스 체크에서 +2 상황 보너스를 얻습니다.</p>\n<p>네 개의 실이 모두 사라지면 함정이 파괴됩니다.</p>",
+      "disable": "<p>@Check[religion|dc:23|name:Dissipate One of the Threads|traits:hazard,magical,trap,complex](전문가) 또는 @Check[performance|dc:21|name:Dissipate One of the Threads|traits:hazard,magical,trap,complex](훈련된)로 네 가닥 중 하나를 해체할 수 있습니다. 제1장 그랜드파더 에이와(Grandfather Eiwa)의 장례식에 참여하기 위해 퍼포먼스 체크에 실패하거나 대실패한 캐릭터들은 그 경험을 반성할 수 있었으며, 이 캐릭터들은 이 함정을 무력화하기 위한 퍼포먼스 체크에서 +2 상황 보너스를 얻습니다.</p>\n<p>네 개의 실이 모두 사라지면 함정이 파괴됩니다.</p>",
       "reset": "<p>유령은 100피트 이내에 살아있는 생물이나 언데드가 없을 경우 1분 후 비활성화되며, 이후 재설정됩니다.</p>",
       "routine": "<p>(4 행동) 각 에너지 실은 60피트 이내의 무작위 살아있는 또는 언데드 생물체를 통과하며, 해당 생물체에게 4d6 피해 (@Check[will|dc:22|basic|name:Death's Slumber Ward|traits:hazard,magical,trap,complex])를 입힙니다. 각 에너지 실은 살아있는 생물에게 @Damage[4d6[void]]의 피해를, 언데드 생물에게 @Damage[4d6[vitality]]의 피해를 입힙니다. 각 에너지 실은 가능한 경우 다른 무작위 생물을 통과합니다. 소멸된 각 에너지 실은 함정의 행동 횟수를 1 감소시킵니다.</p>",
       "stealth": "<p>(expert)</p>",
@@ -599,7 +599,7 @@
     "Footsteps Of Legends": {
       "name": "전설의 발자취(Footsteps Of Legends)",
       "desc (hazard)": "캐릭터들은 오래 전 이 산길을 걷던 불타는 매머드를 목격합니다.",
-      "disable": "<p>@Check[diplomacy|dc:26|name:Convince the spirits to remain dormant|traits:hazard,haunt] (훈련된) 영혼들이 잠들도록 설득하거나, @Check[religion|dc:26|name:Ritually silence the spirits|traits:hazard,haunt] (훈련된) 영혼들을 의식적으로 침묵시키기 위해</p>",
+      "disable": "<p>@Check[diplomacy|dc:26|name:Convince the spirits to remain dormant|traits:hazard,haunt](훈련된) 영혼들이 잠들도록 설득하거나, @Check[religion|dc:26|name:Ritually silence the spirits|traits:hazard,haunt](훈련된) 영혼들을 의식적으로 침묵시키기 위해</p>",
       "reset": "1시간",
       "stealth": "(전문가)",
       "items": {
@@ -984,7 +984,7 @@
     "Rockfall Ceiling": {
       "name": "바위 낙하 천장(Rockfall Ceiling)",
       "desc (hazard)": "줄 풀리로 지탱되던 바위 덩어리가 동굴의 하층으로 떨어집니다.",
-      "disable": "<p>@Check[thievery|dc:25|name:Pin the pulley in place|traits:hazard,mechanical,trap] (훈련된) 훅을 고정하기 위해</p>",
+      "disable": "<p>@Check[thievery|dc:25|name:Pin the pulley in place|traits:hazard,mechanical,trap](훈련된) 훅을 고정하기 위해</p>",
       "stealth": "(훈련된)",
       "items": {
         "3nv5exfa575n3j4y": {
@@ -1143,7 +1143,7 @@
     "Acid Strongbox Trap": {
       "name": "산성 강철 상자 함정(Acid Strongbox Trap)",
       "desc (hazard)": "<p>강철 상자 주변의 보이지 않는 마법 장벽이 방해받을 경우 산성 분사액을 분사합니다.</p>",
-      "disable": "<p>@Check[thievery|dc:22|name:Bleed Away the Magical Field|traits:acid,evocation,magical,trap,hazard] (전문가) 마법 장벽을 무해하게 소멸시키거나 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(2단계; 반격 DC 20)로 해제할 수 있습니다.</p>",
+      "disable": "<p>@Check[thievery|dc:22|name:Bleed Away the Magical Field|traits:acid,evocation,magical,trap,hazard](전문가) 마법 장벽을 무해하게 소멸시키거나 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(2단계; 반격 DC 20)로 해제할 수 있습니다.</p>",
       "stealth": "<p>(trained)</p>",
       "items": {
         "lJHpE7lDy3oQrp0E": {
@@ -1199,7 +1199,7 @@
     "Oil Explosion": {
       "name": "기름 폭발(Oil Explosion)",
       "desc (hazard)": "가연성 기름이 불에 붙어 폭발하며 불꽃의 공으로 타오릅니다.",
-      "disable": "<p>@Check[survival|dc:25|name:Neutralize the oil|traits:hazard,environmental,fire] (훈련된) 또는 @Check[crafting|dc:23|name:Neutralize the oil|traits:hazard,environmental,fire]를 사용하여 기름을 불타지 않게 중화합니다</p>",
+      "disable": "<p>@Check[survival|dc:25|name:Neutralize the oil|traits:hazard,environmental,fire](훈련된) 또는 @Check[crafting|dc:23|name:Neutralize the oil|traits:hazard,environmental,fire]를 사용하여 기름을 불타지 않게 중화합니다</p>",
       "stealth": "(trained)",
       "items": {
         "k1rkunc4fzb4j6ey": {
@@ -1277,7 +1277,7 @@
         },
         "zlv4f15aeb6f30g4": {
           "name": "롤링 썬더(Rolling Thunder)",
-          "description": "<p>버팔로는 먼지를 일으키며 땅을 진동시키며 돌진합니다. 돌진하는 비슨은 직선으로 최대 두 배의 속도로 이동하며, 경로에 있는 모든 대형 또는 그보다 작은 생물에게 @Damage[(4d8+8)[bludgeoning]] (@Check[reflex|dc:24|basic])의 피해를 입힙니다. 여러 비슨은 이 능력의 행동을 소비하고 무리가 준비될 때까지 굴림 썬더에 참여할 수 있습니다. 다음 차례 시작 전에, 인접한 비슨이 롤링 선더 돌진 시작 시 트리거되는 반응으로 돌진할 수 있습니다. 결합된 돌진에 참여한 모든 비슨은 평행한 선으로 돌진해야 하며, 영역이 겹치지 않아야 합니다. 결합된 돌진은 영역 내 생물에게 추가로 @Damage[3d8[bludgeoning]]의 피해를 입히며, 반사 내성 굴림에 실패한 생물은 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p>"
+          "description": "<p>버팔로는 먼지를 일으키며 땅을 진동시키며 돌진합니다. 돌진하는 비슨은 직선으로 최대 두 배의 속도로 이동하며, 경로에 있는 모든 대형 또는 그보다 작은 생물에게 @Damage[(4d8+8)[bludgeoning]](@Check[reflex|dc:24|basic])의 피해를 입힙니다. 여러 비슨은 이 능력의 행동을 소비하고 무리가 준비될 때까지 굴림 썬더에 참여할 수 있습니다. 다음 차례 시작 전에, 인접한 비슨이 롤링 선더 돌진 시작 시 트리거되는 반응으로 돌진할 수 있습니다. 결합된 돌진에 참여한 모든 비슨은 평행한 선으로 돌진해야 하며, 영역이 겹치지 않아야 합니다. 결합된 돌진은 영역 내 생물에게 추가로 @Damage[3d8[bludgeoning]]의 피해를 입히며, 반사 내성 굴림에 실패한 생물은 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone}.</p>"
         },
         "PEctMweYPGD6tPDl": {
           "name": "Knockdown"
@@ -1342,7 +1342,7 @@
         },
         "AMTVY6uDQ8Mh0jdq": {
           "name": "숨결 무기(Breath Weapon)",
-          "description": "<p>얼음 벌레는 얼음 폭풍을 내뿜어 @Damage[13d6[cold]|options:area-damage]의 피해를 @Template[cone|distance:50] (@Check[reflex|dc:32|basic|options:area-effect] 내성) 범위 내의 생물에게 입힙니다.</p>\n<p>[[/gmr 1d4 #Breath Weapon 재충전]]{1d4 라운드} 동안 Breath Weapon을 다시 사용할 수 없습니다.</p>"
+          "description": "<p>얼음 벌레는 얼음 폭풍을 내뿜어 @Damage[13d6[cold]|options:area-damage]의 피해를 @Template[cone|distance:50](@Check[reflex|dc:32|basic|options:area-effect] 내성) 범위 내의 생물에게 입힙니다.</p>\n<p>[[/gmr 1d4 #Breath Weapon 재충전]]{1d4 라운드} 동안 Breath Weapon을 다시 사용할 수 없습니다.</p>"
         },
         "doPySREesBUunu15": {
           "name": "얼어붙는 피(Freezing Blood)",
@@ -1361,7 +1361,7 @@
     "Hail of Razor Stones": {
       "name": "날카로운 돌의 폭우(Hail of Razor Stones)",
       "desc (hazard)": "<p>숨겨진 줄이 끊어지면, 줄이 있는 칸에 여러 개의 날카로운 돌이 떨어집니다.</p>",
-      "disable": "<p>@Check[thievery|dc:18|name:Cut the Trip Cord|traits:hazard,mechanical,trap] (훈련된) 안전하게 트립 줄을 자르다</p>",
+      "disable": "<p>@Check[thievery|dc:18|name:Cut the Trip Cord|traits:hazard,mechanical,trap](훈련된) 안전하게 트립 줄을 자르다</p>",
       "stealth": "<p>(trained)</p>",
       "items": {
         "Vhb7DC7sstGvRHUb": {
@@ -1440,7 +1440,7 @@
     "Falling Stalactites": {
       "name": "떨어지는 석순(Falling Stalactites)",
       "desc (hazard)": "불안정한 석순이 천장에서 떨어집니다.",
-      "disable": "<p>@Check[survival|dc:20|name:Safely remove Stalactite|traits:hazard,environmental] (훈련된) 동굴석순을 떨어뜨리지 않고 제거하기</p>",
+      "disable": "<p>@Check[survival|dc:20|name:Safely remove Stalactite|traits:hazard,environmental](훈련된) 동굴석순을 떨어뜨리지 않고 제거하기</p>",
       "stealth": "(훈련된)",
       "items": {
         "j7fsy2ilacc5vy3s": {
@@ -1670,7 +1670,7 @@
     "Tar Pit": {
       "name": "타르 늪(Tar Pit)",
       "desc (hazard)": "흙과 잎으로 덮인 15피트 너비의 타르 패치가 그 위에 발을 딛는 생물을 포획하려고 시도합니다.",
-      "disable": "<p>@Check[survival|dc:25|name:Reveal the Tar Pit|traits:environmental,hazard] (전문가) 표면을 방해하여 타르 늪을 드러냅니다</p>",
+      "disable": "<p>@Check[survival|dc:25|name:Reveal the Tar Pit|traits:environmental,hazard](전문가) 표면을 방해하여 타르 늪을 드러냅니다</p>",
       "reset": "위험은 여전히 접촉하는 모든 생물을 포획하지만, 표면은 24시간이 지나 안정될 때까지 다시 숨겨지지 않습니다.",
       "routine": "<p>(1 행동) 타르 웅덩이는 자신의 이니셔티브에 내부 모든 생물을 끌어내리며, 두꺼운 타르가 생물의 몸에 달라붙습니다. 허리까지 잠긴 생물은 목까지 잠기며, 목까지 잠긴 생물은 물 아래로 끌려가 숨을 참아야 질식하지 않습니다. 타르 늪에 있는 생물은 @Check[athletics|dc:33] 체크를 시도해 @UUID[Compendium.pf2e.actionspf2e.Item.pprgrYQ1QnIDGZiy]{Climb}로 목까지 잠긴 경우 한 단계 올라가거나, 허리까지 잠긴 경우 5피트 이동할 수 있습니다. 대실패 시 생물은 한 단계 아래로 끌려갑니다. 다른 생물은 끈이나 유사한 도구를 사용하거나 자신의 @Check[athletics|dc:33] 체크를 시도하며, 이는 생물이 직접 체크를 시도한 것과 동일한 결과를 낳습니다. 일반적인 결과 외에도, 타르 웅덩이에 인접한 캐릭터가 도움 주기 시 대실패를 하면 타르 웅덩이로 들어갑니다. 타르 웅덩이에서 등반하여 탈출한 생물은 위험에서 벗어나 인접 공간에 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} 상태로 착지합니다.</p>",
       "stealth": "(expert)",
@@ -1924,7 +1924,7 @@
         },
         "iulq0dm57hkq4lr4": {
           "name": "숨결 무기(Breath Weapon)",
-          "description": "<p>용의 새끼는 얼음 구름을 내뿜어 @Damage[6d6[cold]|options:area-damage]의 피해를 입힙니다. 이 구름은 @Template[cone|distance:30] (@Check[reflex|dc:22|basic|options:area-effect]) 범위 내에 있습니다. 그들은 [[/gmr 1d4 #Breath Weapon 재충전]]{1d4 라운드} 동안 숨결 무기를 다시 사용할 수 없습니다.</p>"
+          "description": "<p>용의 새끼는 얼음 구름을 내뿜어 @Damage[6d6[cold]|options:area-damage]의 피해를 입힙니다. 이 구름은 @Template[cone|distance:30](@Check[reflex|dc:22|basic|options:area-effect]) 범위 내에 있습니다. 그들은 [[/gmr 1d4 #Breath Weapon 재충전]]{1d4 라운드} 동안 숨결 무기를 다시 사용할 수 없습니다.</p>"
         },
         "26l0azz3z8kycuus": {
           "name": "드래곤의 광란(Draconic Frenzy)",
@@ -2021,7 +2021,7 @@
     "Pouncing Tiger Haunt": {
       "name": "포운싱 타이거의 유령(Pouncing Tiger Haunt)",
       "desc (hazard)": "<p>동굴 벽에 그려진 거대한 고양이 그림이 살아나 벽에서 뛰어내려 공격합니다.</p>",
-      "disable": "<p>@Check[nature|dc:18|name:Quell the Spirit|traits:hazard,haunt] (훈련된) 또는 @Check[religion|dc:18|name:Quell the Spirit|traits:hazard,haunt] (훈련된)로 영혼을 진정시킨다.</p>",
+      "disable": "<p>@Check[nature|dc:18|name:Quell the Spirit|traits:hazard,haunt](훈련된) 또는 @Check[religion|dc:18|name:Quell the Spirit|traits:hazard,haunt](훈련된)로 영혼을 진정시킨다.</p>",
       "reset": "<p>동굴 그림이 파괴되지 않으면 유령 현상은 1일 후에 재설정됩니다.</p>",
       "stealth": "<p>(훈련된)</p>",
       "items": {
@@ -2068,7 +2068,7 @@
     "Spectral Archers": {
       "name": "Spectral Archers",
       "desc (hazard)": "Ghostly soldiers wielding crossbows 창조 within the towers that flank the gatehouse and rain bolts down upon intruders.",
-      "disable": "<p>@Check[intimidation|dc:31|traits:haunt,hazard] (전문가)로 궁수들을 위협해 도망가게 하거나 @Check[religion|dc:28|name:Banish the Spirits|traits:haunt,hazard] (전문가)로 영혼을 일시적으로 추방합니다.</p>",
+      "disable": "<p>@Check[intimidation|dc:31|traits:haunt,hazard](전문가)로 궁수들을 위협해 도망가게 하거나 @Check[religion|dc:28|name:Banish the Spirits|traits:haunt,hazard](전문가)로 영혼을 일시적으로 추방합니다.</p>",
       "reset": "무덤 기사들이 파괴되면 유령은 영구히 사라집니다. 그렇지 않으면 1시간 후에 다시 나타납니다.",
       "stealth": "(expert)",
       "items": {
@@ -2190,7 +2190,7 @@
     "Punishing Altar": {
       "name": "벌의 제단(Punishing Altar)",
       "desc (hazard)": "그릇은 베네쿠스의 종교적 상징을 보여주지 않고 접근하는 살아있는 생물에게 부정적 에너지 파동을 방출합니다.",
-      "disable": "<p>@Check[thievery|dc:22|name:Remove the bowl|traits:hazard,magical,necromancy,void,trap] (전문가) 마법을 발동하지 않고 그릇을 제거하거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(2단계, 저항 DC 20)로 룬의 효과를 반격합니다</p>",
+      "disable": "<p>@Check[thievery|dc:22|name:Remove the bowl|traits:hazard,magical,necromancy,void,trap](전문가) 마법을 발동하지 않고 그릇을 제거하거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(2단계, 저항 DC 20)로 룬의 효과를 반격합니다</p>",
       "stealth": "(훈련된) 그릇이 마법 함정의 중심점임을 알아차리기",
       "items": {
         "2pv12psp62pie0vp": {
@@ -2342,7 +2342,7 @@
         },
         "xS4YXBaky6mWCicb": {
           "name": "숨결 무기(Breath Weapon)",
-          "description": "<p>베네쿠스는 서리 구름을 내뿜어 @Damage[10d6[cold]|options:area-damage]의 피해를 @Template[cone|distance:40] (@Check[reflex|dc:28|basic|options:area-effect]) 범위 내에 입힙니다. 그녀는 [[/gmr 1d4 #Breath Weapon 재충전]]{1d4 라운드} 동안 Breath Weapon을 다시 사용할 수 없습니다.</p>"
+          "description": "<p>베네쿠스는 서리 구름을 내뿜어 @Damage[10d6[cold]|options:area-damage]의 피해를 @Template[cone|distance:40](@Check[reflex|dc:28|basic|options:area-effect]) 범위 내에 입힙니다. 그녀는 [[/gmr 1d4 #Breath Weapon 재충전]]{1d4 라운드} 동안 Breath Weapon을 다시 사용할 수 없습니다.</p>"
         },
         "MsHmQ9OkmqFu7qkY": {
           "name": "드래곤의 광란(Draconic Frenzy)",

@@ -37,7 +37,7 @@
       "name": "Entangling Shredder Trap",
       "hpdetails": "가시 밧줄을 자르고 함정을 무력화합니다.",
       "desc (hazard)": "<p>벽에서 강철 가시가 박힌 수십 개의 밧줄이 두 마리 이상의 생물이 러그 위에 발을 딛자 튀어나옵니다.</p>",
-      "disable": "<p>@Check[thievery|dc:24|traits:action:disable-a-device] (전문가) 압력판 위에 서세요.</p>",
+      "disable": "<p>@Check[thievery|dc:24|traits:action:disable-a-device](전문가) 압력판 위에 서세요.</p>",
       "reset": "<p>수동</p>",
       "stealth": "<p>(전문가) 러그 아래의 압력판을 확인하십시오.</p>",
       "items": {
@@ -80,7 +80,7 @@
     "Clockwork Dancers": {
       "name": "시계장치 댄서",
       "desc (hazard)": "<p>회전하는 칼날을 든 시계장치 인간형 존재들이 지역 곳곳을 이동합니다.</p>",
-      "disable": "<p>@Check[thievery|dc:25|traits:action:disable-a-device] (전문가) 제어 패널에서 시계 장치를 비활성화합니다. 함정을 비활성화하려면 두 번의 성공이 필요합니다.</p>",
+      "disable": "<p>@Check[thievery|dc:25|traits:action:disable-a-device](전문가) 제어 패널에서 시계 장치를 비활성화합니다. 함정을 비활성화하려면 두 번의 성공이 필요합니다.</p>",
       "reset": "<p> 함정은 4 라운드 후에 비활성화되며 1분 후에 재설정됩니다.</p>",
       "routine": "<p>(1 행동) 시계 장치 댄서들은 기둥에서 10피트 이내의 무대 위에 있는 모든 생물을 회전하는 칼날로 공격합니다.</p>",
       "stealth": "<p>(expert)</p>",
@@ -135,7 +135,7 @@
       "name": "치명적인 작업장",
       "hpdetails": "사슬을 파괴하고 함정을 무력화합니다",
       "desc (hazard)": "<p>날카로운 사슬이 휘감아 작업장 전체를 휘젓습니다.</p>",
-      "disable": "<p>@Check[thievery|dc:20|traits:action:disable-a-device] (전문가)가 높게 설치된 플랫폼의 제어 패널에서 함정을 무력화합니다.</p>",
+      "disable": "<p>@Check[thievery|dc:20|traits:action:disable-a-device](전문가)가 높게 설치된 플랫폼의 제어 패널에서 함정을 무력화합니다.</p>",
       "reset": "<p>트랩은 1분 후 비활성화되고 재설정됩니다.</p>",
       "routine": "<p>(1 행동) 함정은 작업장 내 모든 생물에게 1 행동으로 한 개의 베는 칼날을 휘두릅니다. 베는 체인의 수로 인해 작업장 전체가 어려운 지형으로 간주됩니다. 이 함정은 다중 공격 페널티를 받지 않습니다.</p>",
       "stealth": "<p>(전문가) 사슬에 박힌 칼날과 그들을 연결하는 복잡한 훅 시스템에 주의합니다.</p>",
@@ -292,7 +292,7 @@
         },
         "g6fEsZWFGgN3qMQy": {
           "name": "트리핑 채찍",
-          "description": "<p><strong>요구 조건</strong> 우시 교단은 손에 채찍을 들고 있어야 합니다</p>\n<p><strong>트리거</strong> 위협받는 칸에서 생물이 이동할 때</p>\n<hr />\n<p><strong>효과</strong> 우시지 숭배자는 채찍으로 트리거링 생물에게 @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Trip} 시도를 합니다.</p>"
+          "description": "<p><strong>요구 조건</strong> 우시 교단은 손에 채찍을 들고 있어야 합니다</p>\n<p><strong>트리거</strong> 위협받는 칸에서 생물이 이동할 때</p>\n<hr />\n<p><strong>효과</strong> 우시지 숭배자는 채찍으로 트리거링 생물에게 @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{넘어뜨리기} 시도를 합니다.</p>"
         }
       }
     },

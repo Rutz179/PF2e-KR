@@ -247,7 +247,7 @@
         },
         "escewXwusyFQw1t9": {
           "name": "지옥의 불 숨결(Hellfire Breath)",
-          "description": "<p>지옥의 사냥개는 @Damage[10d6[fire]|options:지역 피해]의 피해를 입힙니다 (@Template[cone|distance:15] (@Check[reflex|dc:28|basic|options:area-effect] 내성).</p>\n<p>헬 하운드는 [[/gmr 1d4 #Recharge Hellfire Breath]]{1d4 라운드} 동안 지옥의 숨결을 다시 사용할 수 없습니다. 그레이터 헬 하운드가 화염 피해를 받거나 화염 효과의 대상이 되면, 헬파이어 브레스가 재충전됩니다."
+          "description": "<p>지옥의 사냥개는 @Damage[10d6[fire]|options:지역 피해]의 피해를 입힙니다 (@Template[cone|distance:15](@Check[reflex|dc:28|basic|options:area-effect] 내성).</p>\n<p>헬 하운드는 [[/gmr 1d4 #Recharge Hellfire Breath]]{1d4 라운드} 동안 지옥의 숨결을 다시 사용할 수 없습니다. 그레이터 헬 하운드가 화염 피해를 받거나 화염 효과의 대상이 되면, 헬파이어 브레스가 재충전됩니다."
         },
         "DXOTK3gZgiPc9AVG": {
           "name": "패키지 공격(Pack Attack)",
@@ -354,7 +354,7 @@
         },
         "TnaXi3v3iBDjotwd": {
           "name": "독사 맹독(Viper Venom)",
-          "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:16]</p>\n<hr />\n<p><strong>최대 지속 시간</strong> 4 라운드</p>\n<p><strong>1단계</strong> @Damage[1d8[poison]] (1 라운드).</p>"
+          "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:16]</p>\n<hr />\n<p><strong>최대 지속 시간</strong> 4 라운드</p>\n<p><strong>1단계</strong> @Damage[1d8[poison]](1 라운드).</p>"
         }
       }
     },
@@ -454,7 +454,7 @@
         },
         "I2kJG5snUvdVtlrm": {
           "name": "운명의 숨결(Destiny Breath)",
-          "description": "<p>드래곤은 투명한 잠재력의 안개를 내뿜어 생물들에게 가능한 특징을 보여주는 환상을 보여주고, @Damage[15d6[정신]|옵션:영역 피해]의 피해를 @Template[원뿔|distance:40] (@Check[will|dc:39|옵션:영역 효과] 내성)에 입힙니다. 내성에 실패한 생물은 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1}(대실패 시 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 2}) 상태가 되어 환상에 시달립니다.</p>\n<p>드래곤은 [[/gmr 1d4 #Recharge Destiny Breath]]{1d4 라운드} 동안 Destiny Breath를 다시 사용할 수 없습니다. </p>"
+          "description": "<p>드래곤은 투명한 잠재력의 안개를 내뿜어 생물들에게 가능한 특징을 보여주는 환상을 보여주고, @Damage[15d6[정신]|옵션:영역 피해]의 피해를 @Template[cone|distance:40](@Check[will|dc:39|옵션:영역 효과] 내성)에 입힙니다. 내성에 실패한 생물은 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1}(대실패 시 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 2}) 상태가 되어 환상에 시달립니다.</p>\n<p>드래곤은 [[/gmr 1d4 #Recharge Destiny Breath]]{1d4 라운드} 동안 Destiny Breath를 다시 사용할 수 없습니다. </p>"
         },
         "SLo46H8ZVBnhnumf": {
           "name": "임박한 운명(Impending Fate)",
@@ -472,7 +472,7 @@
     },
     "Frost Drake": {
       "name": "서리 드레이크(Frost Drake)",
-      "description": "<p>프rost 드래이크는 그들이 고향으로 삼은 얼어붙은 지역에서 엄청난 위험을 초래합니다. 그들은 카리부, 늑대, 작은 곰, 툰드라에 사는 사람들, 심지어 단독으로 있는 프rost 거인까지 사냥하기 위해 넓게 돌아다닙니다. 이 드래이크들은 행동의 후과로부터 숨기 위해 장거리 이동을 활용하며, 드래이크 중에서도 가장 타락하고 공개적으로 악랄한 존재들 중 하나입니다. 또한 다른 드레이크에 비해 특히 무례하며 싸움에서 물러서지 않는 경향이 있습니다. 많은 프리즈 드레이크는 자신의 능력 범위를 넘어선 잔혹함을 시도하다 죽음을 맞이했습니다. 예를 들어, 단독으로 프리즈 거인 부족이나 잘 요새화된 마을을 공격하는 경우가 있습니다.</p>\n<p>프리즈 드레이크는 먹이가 부족하고 단순한 성격 때문에 다른 드레이크보다 혼자 사냥하는 경우가 더 많습니다. 단독으로 활동하는 한 마리의 프리즈 드래이크도 큰 파괴를 일으킬 수 있지만, 북부 마을 주민들이 이 유랑하는 위협으로부터 집을 지키기 위해 연합해 싸운 이야기는 비교적 흔합니다.</p>\n<p>프리즈 드래이크의 사냥터는 매우 넓습니다. 영구적으로 얼어붙은 고산 지대의 정상에 사는 프로스트 드래크들은 저지대의 사냥감을 잡기 위해 급강하해 내려가며, 그들의 숨결로 얼어붙은 땅의 흔적만을 남기고 사라집니다. 그들의 얼음으로 덮인 비늘은 깊은 왕실 블루에서 선명한 시안색까지 다양하며, 때로는 보라색 반점이 간헐적으로 나타납니다. 그들의 피부는 대부분의 드래이크보다 얇습니다. 얼음 드래이크가 시그니처인 얼음 숨을 내뿜기 위해 숨을 들이쉬는 순간, 몬스터의 얼음색 피가 비늘 아래로 드러납니다.</p>\n<hr />\n<p>탐욕스럽고 야수적이며 본능에 이끌리는 드래이크는 원시 드래곤과 진화적 뿌리를 공유하지만, 그 공포의 힘의 일부만을 지닌 드래코닉 몬스터입니다. 드래곤보다 약하고 느리며 이성적이지 않지만, 드래이크는 주변의 생물과 정착지에 위협이 됩니다. 그들이 약탈 파티를 형성하는 경향—소규모 사회 집단으로 '램페이지'라고 불리는—은 그들을 더욱 위험하게 만듭니다. 강 드래곤의 단일 램페이지는 수변 마을을 순식간에 파괴할 수 있으며, 사막 드래곤의 유랑 램페이지는 카라반 상인들에게 재앙입니다.</p>\n<p>드래곤은 다양한 서식지와 능력에도 불구하고 한 종으로 묶는 여러 신체적 특성을 공유합니다. 예를 들어, 드래크는 앞다리가 없어 강력한 턱과 두꺼운 비늘로 덮인 꼬리를 근접 전투에 사용합니다. 그러나 대부분의 드래크는 이를 피하고 싶어하며, 대신 마법 호흡을 사용해 공중에서 편안한 거리에서 넓은 지역을 파괴하는 것을 선호합니다. 마지막으로, 모든 드레이크는 조상의 드래곤의 힘을 조금씩 보유하고 있으며, 이 힘을 활용하여 놀라운 속도의 피트를 발휘할 수 있습니다. 이 예의는 드래곤릿에게는 적용되지 않으며, 드래크들은 드래곤릿을 사냥감으로 삼습니다. 단독으로 길들여진 드래크도 이러한 협정에서 제외되며, 길들인 자가 충분히 강하지 않으면 사냥감으로 간주됩니다.</p>\n<h3>드래크 알</h3>\n<p>드래크의 가죽은 비슷한 크기의 생물과 마찬가지로 특별히 귀중하지 않지만, 드래크 알은 귀중한 상품입니다. 드래곤 알은 강력한 마법의 재료로 사용되거나 다양한 문화권에서 식용으로 소비되지만, 가장 일반적인 용도는 드래곤을 부화시켜 탈것이나 수호자로 기르는 것입니다.</p>\n<p>일반적인 드래곤은 5년마다 2d4개의 알을 낳습니다. 알은 3~6주 동안 부화하며, 이 기간 동안 자연 환경에 적합한 조건에서 보관해야 합니다. 이는 드래곤 사육에서 가장 어려운 부분 중 하나입니다. 사막이나 정글 드래이크의 알(부화에는 온화한 온도가 필요함)이나 강 드래이크의 알(흐르는 물에 잠겨 있어야 함)은 사육자들이 부화시키기 비교적 쉽지만, 불꽃과 얼음 드래이크의 알은 부화하기 위해 극한의 온도가 필요하며, 이를 안전하게 재현하는 것은 어렵습니다.</p>\n<p>드래곤 알은 경도 3, HP 5, 파손 임계값이 없는 물체입니다. 드래곤 알의 색상은 종마다 약간씩 다릅니다. 생물은 @Check[nature|dc:20] 체크 또는 관련 DC 20 지식 체크에 성공해야 특정 알의 드레이크 종을 식별할 수 있습니다. 이 방식으로 인プリント된 생물은 자연 능력을 사용하여 해당 드레이크를 훈련하고 명령할 수 있습니다. 드레이크 알의 시장 가격은 드레이크의 종류와 정확한 법적 상황에 따라 다릅니다. 드레이크는 위험하고 지능적인 생물이기 때문에 많은 사회에서 드레이크 알의 거래를 허용하지 않으며, 이를 행하는 자를 범죄로 처벌합니다.</p>\n<p>드레이크 새끼가 완전히 성장하는 데는 2년이 걸립니다. 잘 훈련된 드레이크는 무서운 탈것이나 수호자가 될 수 있지만, 부주의한 드레이크 훈련생들은 자신의 제자들에 의해 잡아먹히게 됩니다.",
+      "description": "<p>프rost 드래이크는 그들이 고향으로 삼은 얼어붙은 지역에서 엄청난 위험을 초래합니다. 그들은 카리부, 늑대, 작은 곰, 툰드라에 사는 사람들, 심지어 단독으로 있는 프rost 거인까지 사냥하기 위해 넓게 돌아다닙니다. 이 드래이크들은 행동의 후과로부터 숨기 위해 장거리 이동을 활용하며, 드래이크 중에서도 가장 타락하고 공개적으로 악랄한 존재들 중 하나입니다. 또한 다른 드레이크에 비해 특히 무례하며 싸움에서 물러서지 않는 경향이 있습니다. 많은 프리즈 드레이크는 자신의 능력 범위를 넘어선 잔혹함을 시도하다 죽음을 맞이했습니다. 예를 들어, 단독으로 프리즈 거인 부족이나 잘 요새화된 마을을 공격하는 경우가 있습니다.</p>\n<p>프리즈 드레이크는 먹이가 부족하고 단순한 성격 때문에 다른 드레이크보다 혼자 사냥하는 경우가 더 많습니다. 단독으로 활동하는 한 마리의 프리즈 드래이크도 큰 파괴를 일으킬 수 있지만, 북부 마을 주민들이 이 유랑하는 위협으로부터 집을 지키기 위해 연합해 싸운 이야기는 비교적 흔합니다.</p>\n<p>프리즈 드래이크의 사냥터는 매우 넓습니다. 영구적으로 얼어붙은 고산 지대의 정상에 사는 프로스트 드래크들은 저지대의 사냥감을 잡기 위해 급강하해 내려가며, 그들의 숨결로 얼어붙은 땅의 흔적만을 남기고 사라집니다. 그들의 얼음으로 덮인 비늘은 깊은 왕실 블루에서 선명한 시안색까지 다양하며, 때로는 보라색 반점이 간헐적으로 나타납니다. 그들의 피부는 대부분의 드래이크보다 얇습니다. 얼음 드래이크가 시그니처인 얼음 숨을 내뿜기 위해 숨을 들이쉬는 순간, 몬스터의 얼음색 피가 비늘 아래로 드러납니다.</p>\n<hr />\n<p>탐욕스럽고 야수적이며 본능에 이끌리는 드래이크는 원시 드래곤과 진화적 뿌리를 공유하지만, 그 공포의 힘의 일부만을 지닌 드라코닉 몬스터입니다. 드래곤보다 약하고 느리며 이성적이지 않지만, 드래이크는 주변의 생물과 정착지에 위협이 됩니다. 그들이 약탈 파티를 형성하는 경향—소규모 사회 집단으로 '램페이지'라고 불리는—은 그들을 더욱 위험하게 만듭니다. 강 드래곤의 단일 램페이지는 수변 마을을 순식간에 파괴할 수 있으며, 사막 드래곤의 유랑 램페이지는 카라반 상인들에게 재앙입니다.</p>\n<p>드래곤은 다양한 서식지와 능력에도 불구하고 한 종으로 묶는 여러 신체적 특성을 공유합니다. 예를 들어, 드래크는 앞다리가 없어 강력한 턱과 두꺼운 비늘로 덮인 꼬리를 근접 전투에 사용합니다. 그러나 대부분의 드래크는 이를 피하고 싶어하며, 대신 마법 호흡을 사용해 공중에서 편안한 거리에서 넓은 지역을 파괴하는 것을 선호합니다. 마지막으로, 모든 드레이크는 조상의 드래곤의 힘을 조금씩 보유하고 있으며, 이 힘을 활용하여 놀라운 속도의 피트를 발휘할 수 있습니다. 이 예의는 드래곤릿에게는 적용되지 않으며, 드래크들은 드래곤릿을 사냥감으로 삼습니다. 단독으로 길들여진 드래크도 이러한 협정에서 제외되며, 길들인 자가 충분히 강하지 않으면 사냥감으로 간주됩니다.</p>\n<h3>드래크 알</h3>\n<p>드래크의 가죽은 비슷한 크기의 생물과 마찬가지로 특별히 귀중하지 않지만, 드래크 알은 귀중한 상품입니다. 드래곤 알은 강력한 마법의 재료로 사용되거나 다양한 문화권에서 식용으로 소비되지만, 가장 일반적인 용도는 드래곤을 부화시켜 탈것이나 수호자로 기르는 것입니다.</p>\n<p>일반적인 드래곤은 5년마다 2d4개의 알을 낳습니다. 알은 3~6주 동안 부화하며, 이 기간 동안 자연 환경에 적합한 조건에서 보관해야 합니다. 이는 드래곤 사육에서 가장 어려운 부분 중 하나입니다. 사막이나 정글 드래이크의 알(부화에는 온화한 온도가 필요함)이나 강 드래이크의 알(흐르는 물에 잠겨 있어야 함)은 사육자들이 부화시키기 비교적 쉽지만, 불꽃과 얼음 드래이크의 알은 부화하기 위해 극한의 온도가 필요하며, 이를 안전하게 재현하는 것은 어렵습니다.</p>\n<p>드래곤 알은 경도 3, HP 5, 파손 임계값이 없는 물체입니다. 드래곤 알의 색상은 종마다 약간씩 다릅니다. 생물은 @Check[nature|dc:20] 체크 또는 관련 DC 20 지식 체크에 성공해야 특정 알의 드레이크 종을 식별할 수 있습니다. 이 방식으로 인プリント된 생물은 자연 능력을 사용하여 해당 드레이크를 훈련하고 명령할 수 있습니다. 드레이크 알의 시장 가격은 드레이크의 종류와 정확한 법적 상황에 따라 다릅니다. 드레이크는 위험하고 지능적인 생물이기 때문에 많은 사회에서 드레이크 알의 거래를 허용하지 않으며, 이를 행하는 자를 범죄로 처벌합니다.</p>\n<p>드레이크 새끼가 완전히 성장하는 데는 2년이 걸립니다. 잘 훈련된 드레이크는 무서운 탈것이나 수호자가 될 수 있지만, 부주의한 드레이크 훈련생들은 자신의 제자들에 의해 잡아먹히게 됩니다.",
       "hpdetails": "",
       "items": {
         "7XIYM7XKRyeIRUn6": {
@@ -1224,7 +1224,7 @@
         },
         "kvqqiXW7WeNRoofl": {
           "name": "영혼의 숨결(Spirit Breath)",
-          "description": "<p>드래곤은 @Damage[9d8[spirit]|options:area-damage]의 피해를 주는 성스러운 불을 @Template[cone|distance:40] (@Check[reflex|dc:29|basic|options:area-effect] 내성)에 발사합니다.</p>\n<p>용은 [[/gmr 1d4 #라운드]]{1d4 라운드} 동안 영혼의 숨결을 다시 사용할 수 없습니다.</p>"
+          "description": "<p>드래곤은 @Damage[9d8[spirit]|options:area-damage]의 피해를 주는 성스러운 불을 @Template[cone|distance:40](@Check[reflex|dc:29|basic|options:area-effect] 내성)에 발사합니다.</p>\n<p>용은 [[/gmr 1d4 #라운드]]{1d4 라운드} 동안 영혼의 숨결을 다시 사용할 수 없습니다.</p>"
         }
       }
     },
@@ -1420,7 +1420,7 @@
         },
         "VPryni3E3RGw5MdV": {
           "name": "독의 숨결(Poison Breath)",
-          "description": "<p>드래곤은 @Damage[18d6[poison]] 의 피해를 입힙니다 (@Template[cone|distance:60] (@Check[fortitude|dc:37|basic] 내성).</p>\n<p>드래곤은 [[/gmr 1d4 #Recharge Poison Breath]]{1d4 라운드} 동안 독의 숨결을 다시 사용할 수 없습니다."
+          "description": "<p>드래곤은 @Damage[18d6[poison]] 의 피해를 입힙니다 (@Template[cone|distance:60](@Check[fortitude|dc:37|basic] 내성).</p>\n<p>드래곤은 [[/gmr 1d4 #Recharge Poison Breath]]{1d4 라운드} 동안 독의 숨결을 다시 사용할 수 없습니다."
         },
         "O3Pp2Vb15TQKafR0": {
           "name": "Trackless Journey",
@@ -1538,7 +1538,7 @@
         },
         "I2kJG5snUvdVtlrm": {
           "name": "운명의 숨결(Destiny Breath)",
-          "description": "<p>드래곤은 투명한 잠재력의 안개를 내뿜어 생물들에게 가능한 특징을 보여줌으로써 그들을 압도하고, @Damage[6d6[정신]|옵션:영역 피해]의 피해를 @Template[원뿔|distance:20] (@Check[will|dc:25|옵션:영역 효과] 내성)에 입힙니다. 내성에 실패한 생물은 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1}(대실패 시 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 2}) 상태가 되어 환상에 시달립니다.</p>\n<p>드래곤은 [[/gmr 1d4 #Recharge Destiny Breath]]{1d4 라운드} 동안 데스티니 브레스를 다시 사용할 수 없습니다. </p>"
+          "description": "<p>드래곤은 투명한 잠재력의 안개를 내뿜어 생물들에게 가능한 특징을 보여줌으로써 그들을 압도하고, @Damage[6d6[정신]|옵션:영역 피해]의 피해를 @Template[cone|distance:20](@Check[will|dc:25|옵션:영역 효과] 내성)에 입힙니다. 내성에 실패한 생물은 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1}(대실패 시 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 2}) 상태가 되어 환상에 시달립니다.</p>\n<p>드래곤은 [[/gmr 1d4 #Recharge Destiny Breath]]{1d4 라운드} 동안 데스티니 브레스를 다시 사용할 수 없습니다. </p>"
         },
         "aJ5Jw0ozWjNooF13": {
           "name": "드래곤의 광란(Draconic Frenzy)",
@@ -1593,7 +1593,7 @@
         },
         "ab0Z4gMjfbVX1DVf": {
           "name": "연기 호흡(Smoke Breath)",
-          "description": "<p>드래곤은 @Damage[16d6[poison]]의 피해를 주는 유독한 연기를 @Template[cone|distance:60] (@Check[fortitude|dc:39|basic] 내성)에 방출합니다. 연기는 1분 동안 남아 있습니다. 이 효과는 @UUID[Compendium.pf2e.spells-srd.Item.9XHmC2JgTUIQ1CCm]{Mist}와 동일하지만, 원뿔 영역을 채웁니다.</p>\n<p>용은 [[/gmr 1d4 #rounds]]{1d4 라운드} 동안 연기 숨결을 다시 사용할 수 없습니다.</p>"
+          "description": "<p>드래곤은 @Damage[16d6[poison]]의 피해를 주는 유독한 연기를 @Template[cone|distance:60](@Check[fortitude|dc:39|basic] 내성)에 방출합니다. 연기는 1분 동안 남아 있습니다. 이 효과는 @UUID[Compendium.pf2e.spells-srd.Item.9XHmC2JgTUIQ1CCm]{Mist}와 동일하지만, 원뿔 영역을 채웁니다.</p>\n<p>용은 [[/gmr 1d4 #rounds]]{1d4 라운드} 동안 연기 숨결을 다시 사용할 수 없습니다.</p>"
         },
         "lhnqwfK5RkPmG7XJ": {
           "name": "몰래 공격(Sneak Attack)",
@@ -1628,7 +1628,7 @@
         },
         "VPryni3E3RGw5MdV": {
           "name": "독 숨결(Poison Breath)",
-          "description": "<p>드래곤은 @Damage[13d6[poison]] 의 피해를 입힙니다 (@Template[cone|distance:50] (@Check[fortitude|dc:31|basic] 내성).</p>\n<p>드래곤은 [[/gmr 1d4 #Recharge Poison Breath]]{1d4 라운드} 동안 Poison Breath를 다시 사용할 수 없습니다."
+          "description": "<p>드래곤은 @Damage[13d6[poison]] 의 피해를 입힙니다 (@Template[cone|distance:50](@Check[fortitude|dc:31|basic] 내성).</p>\n<p>드래곤은 [[/gmr 1d4 #Recharge Poison Breath]]{1d4 라운드} 동안 Poison Breath를 다시 사용할 수 없습니다."
         },
         "O3Pp2Vb15TQKafR0": {
           "name": "Trackless Journey",
@@ -1743,7 +1743,7 @@
         },
         "cuSg2YxJeOWsi3XS": {
           "name": "환각의 숨결(Hallucinatory Breath)",
-          "description": "<p>드래곤은 감각을 공격하는 구름을 내뿜어 @Damage[7d6[정신]|옵션:영역 피해]의 피해를 @Template[원뿔|distance:30] (@Check[will|dc:27|옵션:영역 효과] 내성)에 입힙니다. 내성에 실패한 생물은 1 라운드 동안 (대실패의 경우 1분 동안) @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{혼란} 상태가 되고, 1시간 동안 환각의 숨결에 의해 혼란에 빠지지 않는 일시적인 면역이 생깁니다.</p>\n<p>드래곤은 [[/gmr 1d4 #Recharge Hallucinatory Breath]]{1d4 라운드} 동안 환각의 숨결을 다시 사용할 수 없습니다. </p>"
+          "description": "<p>드래곤은 감각을 공격하는 구름을 내뿜어 @Damage[7d6[정신]|옵션:영역 피해]의 피해를 @Template[cone|distance:30](@Check[will|dc:27|옵션:영역 효과] 내성)에 입힙니다. 내성에 실패한 생물은 1 라운드 동안 (대실패의 경우 1분 동안) @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{혼란} 상태가 되고, 1시간 동안 환각의 숨결에 의해 혼란에 빠지지 않는 일시적인 면역이 생깁니다.</p>\n<p>드래곤은 [[/gmr 1d4 #Recharge Hallucinatory Breath]]{1d4 라운드} 동안 환각의 숨결을 다시 사용할 수 없습니다. </p>"
         },
         "YGFIBzztMdCKAOGu": {
           "name": "돌진 물기(Lunging Bite)",
@@ -2456,7 +2456,7 @@
         },
         "S1Ztj3jcXHNboSRl": {
           "name": "눈사태의 숨결(Avalanche Breath)",
-          "description": "<p>드래곤은 @Damage[11d8[bludgeoning]|options:area-damage]의 피해를 @Template[cone|distance:40] (@Check[reflex|dc:33|basic|options:area-effect] 내성)에 입힙니다. </p>\n<p>그들은 [[/gmr 1d4 #Recharge use Avalanche Breath]]{1d4 라운드} 동안 Avalanche Breath를 다시 사용할 수 없습니다. </p>"
+          "description": "<p>드래곤은 @Damage[11d8[bludgeoning]|options:area-damage]의 피해를 @Template[cone|distance:40](@Check[reflex|dc:33|basic|options:area-effect] 내성)에 입힙니다. </p>\n<p>그들은 [[/gmr 1d4 #Recharge use Avalanche Breath]]{1d4 라운드} 동안 Avalanche Breath를 다시 사용할 수 없습니다. </p>"
         },
         "oIGArcTy5v4hSbt2": {
           "name": "Burrowing Pounce",
@@ -2740,7 +2740,7 @@
         },
         "ab0Z4gMjfbVX1DVf": {
           "name": "연기 숨결(Smoke Breath)",
-          "description": "<p>드래곤은 @Damage[16d6[poison]]의 피해를 주는 유독한 연기를 @Template[cone|distance:60] (@Check[fortitude|dc:39|basic] 내성)에 방출합니다. 연기는 1분 동안 남아 있습니다. 이 효과는 @UUID[Compendium.pf2e.spells-srd.Item.9XHmC2JgTUIQ1CCm]{Mist}와 동일하지만, 원뿔 모양의 영역을 채웁니다.</p>\n<p>용은 [[/gmr 1d4 #rounds]]{1d4 라운드} 동안 연기 숨결을 다시 사용할 수 없습니다.</p>"
+          "description": "<p>드래곤은 @Damage[16d6[poison]]의 피해를 주는 유독한 연기를 @Template[cone|distance:60](@Check[fortitude|dc:39|basic] 내성)에 방출합니다. 연기는 1분 동안 남아 있습니다. 이 효과는 @UUID[Compendium.pf2e.spells-srd.Item.9XHmC2JgTUIQ1CCm]{Mist}와 동일하지만, 원뿔 모양의 영역을 채웁니다.</p>\n<p>용은 [[/gmr 1d4 #rounds]]{1d4 라운드} 동안 연기 숨결을 다시 사용할 수 없습니다.</p>"
         },
         "lhnqwfK5RkPmG7XJ": {
           "name": "몰래 공격(Sneak Attack)",
@@ -2956,7 +2956,7 @@
         },
         "S1Ztj3jcXHNboSRl": {
           "name": "눈사태의 숨결(Avalanche Breath)",
-          "description": "<p>드래곤은 @Damage[8d8[bludgeoning]|options:지역 피해]의 피해를 @Template[cone|distance:30] (@Check[reflex|dc:28|basic|options:area-effect] 내성)에 입힙니다. </p>\n<p>그들은 [[/gmr 1d4 #Recharge use Avalanche Breath]]{1d4 라운드} 동안 Avalanche Breath를 다시 사용할 수 없습니다. </p>"
+          "description": "<p>드래곤은 @Damage[8d8[bludgeoning]|options:지역 피해]의 피해를 @Template[cone|distance:30](@Check[reflex|dc:28|basic|options:area-effect] 내성)에 입힙니다. </p>\n<p>그들은 [[/gmr 1d4 #Recharge use Avalanche Breath]]{1d4 라운드} 동안 Avalanche Breath를 다시 사용할 수 없습니다. </p>"
         },
         "oIGArcTy5v4hSbt2": {
           "name": "Burrowing Pounce",
@@ -3254,7 +3254,7 @@
         },
         "ab0Z4gMjfbVX1DVf": {
           "name": "연기 숨결(Smoke Breath)",
-          "description": "<p>드래곤은 @Damage[7d6[poison]]의 피해를 주는 유독한 연기를 @Template[cone|distance:40] (@Check[fortitude|dc:26|basic] 내성)에 방출합니다. 연기는 1분 동안 남아 있습니다. 이 효과는 @UUID[Compendium.pf2e.spells-srd.Item.9XHmC2JgTUIQ1CCm]{Mist}와 동일하지만, 원뿔 모양의 영역을 채웁니다.</p>\n<p>용은 [[/gmr 1d4 #rounds]]{1d4 라운드} 동안 연기 숨결을 다시 사용할 수 없습니다.</p>"
+          "description": "<p>드래곤은 @Damage[7d6[poison]]의 피해를 주는 유독한 연기를 @Template[cone|distance:40](@Check[fortitude|dc:26|basic] 내성)에 방출합니다. 연기는 1분 동안 남아 있습니다. 이 효과는 @UUID[Compendium.pf2e.spells-srd.Item.9XHmC2JgTUIQ1CCm]{Mist}와 동일하지만, 원뿔 모양의 영역을 채웁니다.</p>\n<p>용은 [[/gmr 1d4 #rounds]]{1d4 라운드} 동안 연기 숨결을 다시 사용할 수 없습니다.</p>"
         },
         "lhnqwfK5RkPmG7XJ": {
           "name": "몰래 공격(Sneak Attack)",
@@ -3503,7 +3503,7 @@
       "items": {
         "9SboqcQona3PXQIx": {
           "name": "파괴적인 삐삐 소리(Destructive Croak)",
-          "description": "<p>늪의 선견자는 강력한 삐걱거리는 소리를 내며 @Damage[4d6[sonic]]의 피해를 @Template[emanation|distance:15] (@Check[fortitude|dc:19|basic] 내성) 범위 내에 있는 보가드가 아닌 모든 생물에게 입힙니다. 겁에 질린 상태인 모든 생물은 겁에 질린 상태의 두 배에 해당하는 추가 음파 피해를 입습니다.</p>\n<p>보가드는 [[/gmr 1d4 #Recharge use Destructive Croak]]{1d4 라운드} 동안 파괴적인 울음소리를 다시 사용할 수 없습니다.</p>"
+          "description": "<p>늪의 선견자는 강력한 삐걱거리는 소리를 내며 @Damage[4d6[sonic]]의 피해를 @Template[emanation|distance:15](@Check[fortitude|dc:19|basic] 내성) 범위 내에 있는 보가드가 아닌 모든 생물에게 입힙니다. 겁에 질린 상태인 모든 생물은 겁에 질린 상태의 두 배에 해당하는 추가 음파 피해를 입습니다.</p>\n<p>보가드는 [[/gmr 1d4 #Recharge use Destructive Croak]]{1d4 라운드} 동안 파괴적인 울음소리를 다시 사용할 수 없습니다.</p>"
         },
         "80CuEcGtDQ6fUIyY": {
           "name": "익사 드론(Drowning Drone)",
@@ -4178,7 +4178,7 @@
         },
         "I2kJG5snUvdVtlrm": {
           "name": "운명의 숨결(Destiny Breath)",
-          "description": "<p>드래곤은 투명한 잠재력의 안개를 내뿜어 생물들에게 가능한 특징을 보여줌으로써 그들을 압도하고, @Damage[6d6[정신]|옵션:영역 피해]의 피해를 @Template[원뿔|distance:20] (@Check[의지|dc:25|옵션:영역 효과] 내성)에 입힙니다. 내성에 실패한 생물은 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1}(대실패의 경우 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 2}) 상태가 되어 환상에 시달립니다.</p>\n<p>드래곤은 [[/gmr 1d4 #Recharge Destiny Breath]]{1d4 라운드} 동안 Destiny Breath를 다시 사용할 수 없습니다. </p>"
+          "description": "<p>드래곤은 투명한 잠재력의 안개를 내뿜어 생물들에게 가능한 특징을 보여줌으로써 그들을 압도하고, @Damage[6d6[정신]|옵션:영역 피해]의 피해를 @Template[cone|distance:20](@Check[의지|dc:25|옵션:영역 효과] 내성)에 입힙니다. 내성에 실패한 생물은 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1}(대실패의 경우 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 2}) 상태가 되어 환상에 시달립니다.</p>\n<p>드래곤은 [[/gmr 1d4 #Recharge Destiny Breath]]{1d4 라운드} 동안 Destiny Breath를 다시 사용할 수 없습니다. </p>"
         },
         "2phPU9xYaMSKFNol": {
           "name": "예언의 날개(Prophetic Wings)",
@@ -4569,7 +4569,7 @@
         },
         "S1Ztj3jcXHNboSRl": {
           "name": "눈사태의 숨결(Avalanche Breath)",
-          "description": "<p>드래곤은 @Damage[15d8[bludgeoning]|options:지역 피해]의 피해를 @Template[원뿔|distance:40] (@Check[반사|dc:40|basic|옵션:지역 효과] 내성)에 입힙니다. </p>\n<p>그들은 [[/gmr 1d4 #재충전 눈사태의 숨결 사용]]{1d4 라운드} 동안 눈사태의 숨결을 다시 사용할 수 없습니다. </p>"
+          "description": "<p>드래곤은 @Damage[15d8[bludgeoning]|options:지역 피해]의 피해를 @Template[cone|distance:40](@Check[반사|dc:40|basic|옵션:지역 효과] 내성)에 입힙니다. </p>\n<p>그들은 [[/gmr 1d4 #재충전 눈사태의 숨결 사용]]{1d4 라운드} 동안 눈사태의 숨결을 다시 사용할 수 없습니다. </p>"
         },
         "oIGArcTy5v4hSbt2": {
           "name": "굴을 파고 뛰기(Burrowing Pounce)",
@@ -4739,7 +4739,7 @@
         },
         "THPHNGYThCZwr8Sw": {
           "name": "비차라무니의 맹독(Vicharamuni Venom)",
-          "description": "<p><strong>내성 굴림</strong> @Check[will|dc:29]</p>\n<hr />\n<p><strong>최대 지속 시간</strong> 6 라운드</p>\n<p><strong>1단계</strong> @Damage[3d6[spirit]] (1 라운드)</p>\n<p><strong>2단계</strong> 3d6 정신력 및 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1}(1 라운드)</p>"
+          "description": "<p><strong>내성 굴림</strong> @Check[will|dc:29]</p>\n<hr />\n<p><strong>최대 지속 시간</strong> 6 라운드</p>\n<p><strong>1단계</strong> @Damage[3d6[spirit]](1 라운드)</p>\n<p><strong>2단계</strong> 3d6 정신력 및 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1}(1 라운드)</p>"
         }
       }
     },
@@ -4827,7 +4827,7 @@
         },
         "hQNxvkHklgW9fvpf": {
           "name": "폭발(Explosion)",
-          "description": "<p>파이어웜이 죽으면 폭발하여 @Template[emanation|distance:10|traits:fire,damaging-effect] (@Check[reflex|dc:28|basic] 내성)에 있는 각 생물에게 @Damage[6d6[fire]]의 피해를 입힙니다."
+          "description": "<p>파이어웜이 죽으면 폭발하여 @Template[emanation|distance:10|traits:fire,damaging-effect](@Check[reflex|dc:28|basic] 내성)에 있는 각 생물에게 @Damage[6d6[fire]]의 피해를 입힙니다."
         },
         "RDAI0FQdtpHFrFa5": {
           "name": "강렬한 열기(Intense Heat)",
@@ -5471,7 +5471,7 @@
         },
         "I2kJG5snUvdVtlrm": {
           "name": "운명의 숨결(Destiny Breath)",
-          "description": "<p>드래곤은 투명한 잠재력의 안개를 내뿜어 생물들에게 가능한 특징을 보여줌으로써 그들을 압도하고, @Damage[15d6[정신]|옵션:영역 피해]의 피해를 @Template[원뿔|distance:40] (@Check[will|dc:39|옵션:영역 효과] 내성)에 입힙니다. 내성에 실패한 생물은 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1}(대실패의 경우 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 2}) 상태가 되어 환상에 시달립니다.</p>\n<p>드래곤은 [[/gmr 1d4 #Recharge Destiny Breath]]{1d4 라운드} 동안 데스티니 브레스를 다시 사용할 수 없습니다. </p>"
+          "description": "<p>드래곤은 투명한 잠재력의 안개를 내뿜어 생물들에게 가능한 특징을 보여줌으로써 그들을 압도하고, @Damage[15d6[정신]|옵션:영역 피해]의 피해를 @Template[cone|distance:40](@Check[will|dc:39|옵션:영역 효과] 내성)에 입힙니다. 내성에 실패한 생물은 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1}(대실패의 경우 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 2}) 상태가 되어 환상에 시달립니다.</p>\n<p>드래곤은 [[/gmr 1d4 #Recharge Destiny Breath]]{1d4 라운드} 동안 데스티니 브레스를 다시 사용할 수 없습니다. </p>"
         },
         "aJ5Jw0ozWjNooF13": {
           "name": "드래곤의 광란(Draconic Frenzy)",
@@ -5629,7 +5629,7 @@
       "items": {
         "GsQeeSV97T6FPvoY": {
           "name": "지옥의 불꽃(Hellfire Breath)",
-          "description": "<p>헬 하운드는 @Damage[4d6[fire]|options:area-damage]의 피해를 모든 생물에게 주는 불을 뿜습니다 (@Template[cone|distance:15] (@Check[reflex|dc:19|basic|options:area-effect] 내성).</p>\n<p>지옥의 사냥개는 [[/gmr 1d4 #Recharge Hellfire Breath]]{1d4 라운드} 동안 지옥의 숨결을 다시 사용할 수 없습니다. 지옥의 사냥개가 화염 피해를 받거나 화염 효과의 대상이 되면 지옥의 숨결이 재충전됩니다."
+          "description": "<p>헬 하운드는 @Damage[4d6[fire]|options:area-damage]의 피해를 모든 생물에게 주는 불을 뿜습니다 (@Template[cone|distance:15](@Check[reflex|dc:19|basic|options:area-effect] 내성).</p>\n<p>지옥의 사냥개는 [[/gmr 1d4 #Recharge Hellfire Breath]]{1d4 라운드} 동안 지옥의 숨결을 다시 사용할 수 없습니다. 지옥의 사냥개가 화염 피해를 받거나 화염 효과의 대상이 되면 지옥의 숨결이 재충전됩니다."
         },
         "frHG44PbB1HwdeMl": {
           "name": "무리 공격(Pack Attack)",
@@ -5907,7 +5907,7 @@
         },
         "ab0Z4gMjfbVX1DVf": {
           "name": "연기 호흡(Smoke Breath)",
-          "description": "<p>드래곤은 @Damage[10d6[poison]]의 피해를 주는 유독한 연기를 @Template[cone|distance:50] (@Check[fortitude|dc:33|basic] 내성)에 방출합니다. 연기는 1분 동안 남아 있습니다. 이 효과는 @UUID[Compendium.pf2e.spells-srd.Item.9XHmC2JgTUIQ1CCm]{Mist}와 동일하지만, 원뿔 모양의 영역을 채웁니다.</p>\n<p>용은 [[/gmr 1d4 #rounds]]{1d4 라운드} 동안 연기 숨결을 다시 사용할 수 없습니다.</p>"
+          "description": "<p>드래곤은 @Damage[10d6[poison]]의 피해를 주는 유독한 연기를 @Template[cone|distance:50](@Check[fortitude|dc:33|basic] 내성)에 방출합니다. 연기는 1분 동안 남아 있습니다. 이 효과는 @UUID[Compendium.pf2e.spells-srd.Item.9XHmC2JgTUIQ1CCm]{Mist}와 동일하지만, 원뿔 모양의 영역을 채웁니다.</p>\n<p>용은 [[/gmr 1d4 #rounds]]{1d4 라운드} 동안 연기 숨결을 다시 사용할 수 없습니다.</p>"
         },
         "lhnqwfK5RkPmG7XJ": {
           "name": "몰래 공격(Sneak Attack)",
@@ -5965,7 +5965,7 @@
         },
         "ab0Z4gMjfbVX1DVf": {
           "name": "연기 숨결(Smoke Breath)",
-          "description": "<p>드래곤은 @Damage[10d6[poison]]의 피해를 주는 유독한 연기를 @Template[cone|distance:50] (@Check[fortitude|dc:33|basic] 내성)에 방출합니다. 연기는 1분 동안 남아 있습니다. 이 효과는 @UUID[Compendium.pf2e.spells-srd.Item.9XHmC2JgTUIQ1CCm]{Mist}와 동일하지만, 원뿔 모양의 영역을 채웁니다.</p>\n<p>용은 [[/gmr 1d4 #rounds]]{1d4 라운드} 동안 연기 숨결을 다시 사용할 수 없습니다.</p>"
+          "description": "<p>드래곤은 @Damage[10d6[poison]]의 피해를 주는 유독한 연기를 @Template[cone|distance:50](@Check[fortitude|dc:33|basic] 내성)에 방출합니다. 연기는 1분 동안 남아 있습니다. 이 효과는 @UUID[Compendium.pf2e.spells-srd.Item.9XHmC2JgTUIQ1CCm]{Mist}와 동일하지만, 원뿔 모양의 영역을 채웁니다.</p>\n<p>용은 [[/gmr 1d4 #rounds]]{1d4 라운드} 동안 연기 숨결을 다시 사용할 수 없습니다.</p>"
         },
         "lhnqwfK5RkPmG7XJ": {
           "name": "몰래 공격(Sneak Attack)",
@@ -7025,7 +7025,7 @@
         },
         "I2kJG5snUvdVtlrm": {
           "name": "운명의 숨결(Destiny Breath)",
-          "description": "<p>드래곤은 투명한 잠재력의 안개를 내뿜어 생물들에게 가능한 특징을 보여줌으로써 그들을 압도하고, @Damage[10d6[정신]|옵션:영역 피해]의 피해를 @Template[원뿔|distance:30] (@Check[will|dc:30|옵션:영역 효과] 내성)에 입힙니다. 내성에 실패한 생물은 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1}(대실패 시 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 2}) 상태가 되어 환상에 시달립니다.</p>\n<p>드래곤은 [[/gmr 1d4 #Recharge Destiny Breath]]{1d4 라운드} 동안 Destiny Breath를 다시 사용할 수 없습니다. </p>"
+          "description": "<p>드래곤은 투명한 잠재력의 안개를 내뿜어 생물들에게 가능한 특징을 보여줌으로써 그들을 압도하고, @Damage[10d6[정신]|옵션:영역 피해]의 피해를 @Template[cone|distance:30](@Check[will|dc:30|옵션:영역 효과] 내성)에 입힙니다. 내성에 실패한 생물은 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1}(대실패 시 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 2}) 상태가 되어 환상에 시달립니다.</p>\n<p>드래곤은 [[/gmr 1d4 #Recharge Destiny Breath]]{1d4 라운드} 동안 Destiny Breath를 다시 사용할 수 없습니다. </p>"
         },
         "2phPU9xYaMSKFNol": {
           "name": "예언의 날개(Prophetic Wings)",
@@ -7164,7 +7164,7 @@
         },
         "ab0Z4gMjfbVX1DVf": {
           "name": "연기 호흡(Smoke Breath)",
-          "description": "<p>드래곤은 @Damage[7d6[poison]]의 피해를 주는 유독한 연기를 @Template[cone|distance:40] (@Check[fortitude|dc:26|basic] 내성)에 방출합니다. 연기는 1분 동안 남아 있습니다. 이 효과는 @UUID[Compendium.pf2e.spells-srd.Item.9XHmC2JgTUIQ1CCm]{Mist}와 동일하지만, 원뿔 모양의 영역을 채웁니다.</p>\n<p>용은 [[/gmr 1d4 #rounds]]{1d4 라운드} 동안 연기 숨결을 다시 사용할 수 없습니다.</p>"
+          "description": "<p>드래곤은 @Damage[7d6[poison]]의 피해를 주는 유독한 연기를 @Template[cone|distance:40](@Check[fortitude|dc:26|basic] 내성)에 방출합니다. 연기는 1분 동안 남아 있습니다. 이 효과는 @UUID[Compendium.pf2e.spells-srd.Item.9XHmC2JgTUIQ1CCm]{Mist}와 동일하지만, 원뿔 모양의 영역을 채웁니다.</p>\n<p>용은 [[/gmr 1d4 #rounds]]{1d4 라운드} 동안 연기 숨결을 다시 사용할 수 없습니다.</p>"
         },
         "lhnqwfK5RkPmG7XJ": {
           "name": "몰래 공격(Sneak Attack)",
@@ -7311,7 +7311,7 @@
         },
         "S1Ztj3jcXHNboSRl": {
           "name": "눈사태의 숨결(Avalanche Breath)",
-          "description": "<p>드래곤은 @Damage[8d8[bludgeoning]|options:지역 피해]의 피해를 @Template[cone|distance:30] (@Check[reflex|dc:28|basic|options:area-effect] 내성)에 입힙니다. </p>\n<p>그들은 [[/gmr 1d4 #Recharge use Avalanche Breath]]{1d4 라운드} 동안 Avalanche Breath를 다시 사용할 수 없습니다. </p>"
+          "description": "<p>드래곤은 @Damage[8d8[bludgeoning]|options:지역 피해]의 피해를 @Template[cone|distance:30](@Check[reflex|dc:28|basic|options:area-effect] 내성)에 입힙니다. </p>\n<p>그들은 [[/gmr 1d4 #Recharge use Avalanche Breath]]{1d4 라운드} 동안 Avalanche Breath를 다시 사용할 수 없습니다. </p>"
         },
         "oIGArcTy5v4hSbt2": {
           "name": "땅굴 파기(Burrowing Pounce)",
@@ -7539,7 +7539,7 @@
       "items": {
         "YFAXnwgejVd3jvv8": {
           "name": "콘 리트 맹독(Con Rit Venom)",
-          "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:25];</p>\n<hr />\n<p><strong>최대 지속 시간</strong> 6 라운드</p>\n<p><strong>1단계</strong> @Damage[1d10[poison]] (1 라운드)</p>\n<p><strong>2단계</strong> @Damage[2d10[poison]] 및 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드}(1 라운드);</p>\n<p><strong>3단계</strong> 2d10 독, 오프 가드, @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1}(1 라운드)</p>"
+          "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:25];</p>\n<hr />\n<p><strong>최대 지속 시간</strong> 6 라운드</p>\n<p><strong>1단계</strong> @Damage[1d10[poison]](1 라운드)</p>\n<p><strong>2단계</strong> @Damage[2d10[poison]] 및 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드}(1 라운드);</p>\n<p><strong>3단계</strong> 2d10 독, 오프 가드, @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1}(1 라운드)</p>"
         },
         "uJF1TjO0gDfZr2NX": {
           "name": "맹독을 뱉기(Spit Venom)",
@@ -7712,7 +7712,7 @@
         },
         "I2kJG5snUvdVtlrm": {
           "name": "운명의 숨결(Destiny Breath)",
-          "description": "<p>드래곤은 투명한 잠재력의 안개를 내뿜어 생물들에게 가능한 특징을 보여줌으로써 그들을 압도하고, @Damage[10d6[정신]|옵션:영역 피해]의 피해를 @Template[원뿔|distance:30] (@Check[의지|dc:30|옵션:영역 효과] 내성)에 입힙니다. 내성에 실패한 생물은 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1}(대실패 시 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 2}) 상태가 되어 환상에 시달립니다.</p>\n<p>드래곤은 [[/gmr 1d4 #Recharge Destiny Breath]]{1d4 라운드} 동안 데스티니 브레스를 다시 사용할 수 없습니다. </p>"
+          "description": "<p>드래곤은 투명한 잠재력의 안개를 내뿜어 생물들에게 가능한 특징을 보여줌으로써 그들을 압도하고, @Damage[10d6[정신]|옵션:영역 피해]의 피해를 @Template[cone|distance:30](@Check[의지|dc:30|옵션:영역 효과] 내성)에 입힙니다. 내성에 실패한 생물은 1 라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1}(대실패 시 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 2}) 상태가 되어 환상에 시달립니다.</p>\n<p>드래곤은 [[/gmr 1d4 #Recharge Destiny Breath]]{1d4 라운드} 동안 데스티니 브레스를 다시 사용할 수 없습니다. </p>"
         },
         "aJ5Jw0ozWjNooF13": {
           "name": "드래곤의 광란(Draconic Frenzy)",
@@ -7975,7 +7975,7 @@
         },
         "kvqqiXW7WeNRoofl": {
           "name": "영혼의 숨결(Spirit Breath)",
-          "description": "<p>드래곤은 @Damage[12d8[spirit]|options:area-damage]의 피해를 주는 신성한 불을 @Template[cone|distance:50] (@Check[reflex|dc:34|basic|options:area-effect] 내성)에 발사합니다.</p>\n<p>드래곤은 [[/gmr 1d4 #라운드]]{1d4 라운드} 동안 영혼의 숨결을 다시 사용할 수 없습니다. </p>"
+          "description": "<p>드래곤은 @Damage[12d8[spirit]|options:area-damage]의 피해를 주는 신성한 불을 @Template[cone|distance:50](@Check[reflex|dc:34|basic|options:area-effect] 내성)에 발사합니다.</p>\n<p>드래곤은 [[/gmr 1d4 #라운드]]{1d4 라운드} 동안 영혼의 숨결을 다시 사용할 수 없습니다. </p>"
         }
       }
     },
@@ -8799,7 +8799,7 @@
         },
         "OwDiH7gzfhf1i4hu": {
           "name": "말벌의 맹독(Wasp Venom)",
-          "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:21]</p>\n<hr />\n<p><strong>최대 지속 시간</strong> 6 라운드</p>\n<p><strong>1단계</strong> @Damage[1d6[poison]] (1 라운드)</p>\n<p><strong>2단계</strong> @Damage[2d6[poison]] 및 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 2}(2 라운드)</p>"
+          "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:21]</p>\n<hr />\n<p><strong>최대 지속 시간</strong> 6 라운드</p>\n<p><strong>1단계</strong> @Damage[1d6[poison]](1 라운드)</p>\n<p><strong>2단계</strong> @Damage[2d6[poison]] 및 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 2}(2 라운드)</p>"
         }
       }
     },
@@ -8943,7 +8943,7 @@
         },
         "cuSg2YxJeOWsi3XS": {
           "name": "환각의 숨결(Hallucinatory Breath)",
-          "description": "<p>드래곤은 감각을 공격하는 구름을 내뿜어 @Damage[17d6[정신]|옵션:영역 피해]의 피해를 @Template[원뿔|distance:50]에 입힙니다 (@Check[will|dc:41|옵션:영역 효과] 내성). 내성에 실패한 생물은 1 라운드 동안 (대실패의 경우 1분 동안) @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{혼란} 상태가 되고, 1시간 동안 환각의 숨결에 의해 혼란에 빠지지 않습니다.</p>\n<p>드래곤은 [[/gmr 1d4 #Recharge Hallucinatory Breath]]{1d4 라운드} 동안 환각의 숨결을 다시 사용할 수 없습니다."
+          "description": "<p>드래곤은 감각을 공격하는 구름을 내뿜어 @Damage[17d6[정신]|옵션:영역 피해]의 피해를 @Template[cone|distance:50]에 입힙니다 (@Check[will|dc:41|옵션:영역 효과] 내성). 내성에 실패한 생물은 1 라운드 동안 (대실패의 경우 1분 동안) @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{혼란} 상태가 되고, 1시간 동안 환각의 숨결에 의해 혼란에 빠지지 않습니다.</p>\n<p>드래곤은 [[/gmr 1d4 #Recharge Hallucinatory Breath]]{1d4 라운드} 동안 환각의 숨결을 다시 사용할 수 없습니다."
         },
         "YGFIBzztMdCKAOGu": {
           "name": "Lunging Bite",
@@ -9090,7 +9090,7 @@
         },
         "S1Ztj3jcXHNboSRl": {
           "name": "눈사태의 숨결(Avalanche Breath)",
-          "description": "<p>드래곤은 @Damage[11d8[bludgeoning]|options:지역 피해]의 피해를 @Template[cone|distance:40] (@Check[reflex|dc:33|basic|options:area-effect] 내성)에 입힙니다. </p>\n<p>그들은 [[/gmr 1d4 #Recharge use Avalanche Breath]]{1d4 라운드} 동안 Avalanche Breath를 다시 사용할 수 없습니다. </p>"
+          "description": "<p>드래곤은 @Damage[11d8[bludgeoning]|options:지역 피해]의 피해를 @Template[cone|distance:40](@Check[reflex|dc:33|basic|options:area-effect] 내성)에 입힙니다. </p>\n<p>그들은 [[/gmr 1d4 #Recharge use Avalanche Breath]]{1d4 라운드} 동안 Avalanche Breath를 다시 사용할 수 없습니다. </p>"
         },
         "oIGArcTy5v4hSbt2": {
           "name": "땅굴 파기(Burrowing Pounce)",
@@ -9699,12 +9699,12 @@
           "description": "<p>용거북은 자신 주변에 강력한 폭풍을 소환합니다. 용거북 주변 @Template[emanation|distance:30] 범위 내의 모든 비행 및 수영 생물에게 해당 지역이 어려운 지형이 됩니다. 용거북은 이 행동을 다시 수행하여 폭풍을 종료할 수 있습니다.</p>"
         },
         "Vst7qvKg3u5uhWKG": {
-          "name": "드래코닉 광란(Draconic Frenzy)",
+          "name": "드라코닉 광란(Draconic Frenzy)",
           "description": "<p>드래곤 거북은 두 번의 발톱 공격과 한 번의 턱 공격을 순서에 상관없이 수행합니다."
         },
         "lW1fc32LlAwkAiq4": {
           "name": "쓰나미(Tsunami)",
-          "description": "<p>드래곤 거북은 @Damage[7d6[bludgeoning]]의 피해를 주는 거대한 파도를 만들어 @Template[cone|distance:60] (@Check[reflex|dc:27|basic] 내성)에 피해를 입힙니다. 파도의 피해는 30피트 이상 떨어진 생물에게 10씩 증가합니다. 내성에 실패한 생물은 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} 상태가 됩니다. </p>\n<p>드래곤 거북은 [[/gmr 1d4 #Recharge Tsunami]]{1d4 라운드} 동안 쓰나미를 다시 사용할 수 없습니다. </p>"
+          "description": "<p>드래곤 거북은 @Damage[7d6[bludgeoning]]의 피해를 주는 거대한 파도를 만들어 @Template[cone|distance:60](@Check[reflex|dc:27|basic] 내성)에 피해를 입힙니다. 파도의 피해는 30피트 이상 떨어진 생물에게 10씩 증가합니다. 내성에 실패한 생물은 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} 상태가 됩니다. </p>\n<p>드래곤 거북은 [[/gmr 1d4 #Recharge Tsunami]]{1d4 라운드} 동안 쓰나미를 다시 사용할 수 없습니다. </p>"
         }
       }
     },
@@ -10586,7 +10586,7 @@
         },
         "kvqqiXW7WeNRoofl": {
           "name": "영혼의 숨결(Spirit Breath)",
-          "description": "<p>드래곤은 @Damage[16d8[spirit]|options:area-damage]의 피해를 주는 성스러운 불을 @Template[cone|distance:50] (@Check[reflex|dc:41|basic|options:area-effect] 내성)에 가합니다.</p>\n<p>드래곤은 [[/gmr 1d4 #rounds]]{1d4 라운드} 동안 영혼의 숨결을 다시 사용할 수 없습니다. </p>"
+          "description": "<p>드래곤은 @Damage[16d8[spirit]|options:area-damage]의 피해를 주는 성스러운 불을 @Template[cone|distance:50](@Check[reflex|dc:41|basic|options:area-effect] 내성)에 가합니다.</p>\n<p>드래곤은 [[/gmr 1d4 #rounds]]{1d4 라운드} 동안 영혼의 숨결을 다시 사용할 수 없습니다. </p>"
         }
       }
     },
@@ -10714,7 +10714,7 @@
         },
         "mbDpJL0NCrFdM2bb": {
           "name": "폭발(Explosion)",
-          "description": "<p>살아있는 산불이 죽으면 폭발하여 @Template[emanation|distance:10|traits:fire,damaging-effect] (@Check[reflex|dc:19|basic] 내성)에 있는 각 생물에게 @Damage[3d6[fire]]의 피해를 입힙니다."
+          "description": "<p>살아있는 산불이 죽으면 폭발하여 @Template[emanation|distance:10|traits:fire,damaging-effect](@Check[reflex|dc:19|basic] 내성)에 있는 각 생물에게 @Damage[3d6[fire]]의 피해를 입힙니다."
         },
         "tZ5Jxc70Z1fyXCqr": {
           "name": "확산되는 화염(Spreading Flames)",
@@ -10780,7 +10780,7 @@
         },
         "S1Ztj3jcXHNboSRl": {
           "name": "눈사태의 숨결(Avalanche Breath)",
-          "description": "<p>드래곤은 @Damage[15d8[bludgeoning]|options:지역 피해]의 피해를 @Template[원뿔|distance:40] (@Check[반사|dc:40|basic|옵션:지역 효과] 내성)에 입힙니다. </p>\n<p>그들은 [[/gmr 1d4 #재충전 눈사태의 숨결 사용]]{1d4 라운드} 동안 눈사태의 숨결을 다시 사용할 수 없습니다. </p>"
+          "description": "<p>드래곤은 @Damage[15d8[bludgeoning]|options:지역 피해]의 피해를 @Template[cone|distance:40](@Check[반사|dc:40|basic|옵션:지역 효과] 내성)에 입힙니다. </p>\n<p>그들은 [[/gmr 1d4 #재충전 눈사태의 숨결 사용]]{1d4 라운드} 동안 눈사태의 숨결을 다시 사용할 수 없습니다. </p>"
         },
         "oIGArcTy5v4hSbt2": {
           "name": "굴을 파고 뛰기(Burrowing Pounce)",
@@ -11751,7 +11751,7 @@
         },
         "cuSg2YxJeOWsi3XS": {
           "name": "환각의 숨결(Hallucinatory Breath)",
-          "description": "<p>드래곤은 감각을 공격하는 구름을 내뿜어 @Damage[17d6[mental]|options:area-damage]의 피해를 @Template[cone|distance:50] (@Check[will|dc:41|options:area-effect] 내성)에 입힙니다. 내성에 실패한 생물은 1 라운드 동안 (대실패의 경우 1분 동안) @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{혼란} 상태가 되고, 1시간 동안 환각의 숨결에 의해 혼란에 빠지지 않습니다.</p>\n<p>드래곤은 [[/gmr 1d4 #Recharge Hallucinatory Breath]]{1d4 라운드} 동안 환각의 숨결을 다시 사용할 수 없습니다. </p>"
+          "description": "<p>드래곤은 감각을 공격하는 구름을 내뿜어 @Damage[17d6[mental]|options:area-damage]의 피해를 @Template[cone|distance:50](@Check[will|dc:41|options:area-effect] 내성)에 입힙니다. 내성에 실패한 생물은 1 라운드 동안 (대실패의 경우 1분 동안) @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{혼란} 상태가 되고, 1시간 동안 환각의 숨결에 의해 혼란에 빠지지 않습니다.</p>\n<p>드래곤은 [[/gmr 1d4 #Recharge Hallucinatory Breath]]{1d4 라운드} 동안 환각의 숨결을 다시 사용할 수 없습니다. </p>"
         },
         "YGFIBzztMdCKAOGu": {
           "name": "돌진 물기(Lunging Bite)",
@@ -12124,7 +12124,7 @@
         },
         "VPryni3E3RGw5MdV": {
           "name": "독 숨결(Poison Breath)",
-          "description": "<p>드래곤은 @Damage[9d6[poison]] 의 피해를 입힙니다 (@Template[cone|distance:40] (@Check[fortitude|dc:25|basic] 내성).</p>\n<p>드래곤은 [[/gmr 1d4 #Recharge Poison Breath]]{1d4 라운드} 동안 Poison Breath를 다시 사용할 수 없습니다."
+          "description": "<p>드래곤은 @Damage[9d6[poison]] 의 피해를 입힙니다 (@Template[cone|distance:40](@Check[fortitude|dc:25|basic] 내성).</p>\n<p>드래곤은 [[/gmr 1d4 #Recharge Poison Breath]]{1d4 라운드} 동안 Poison Breath를 다시 사용할 수 없습니다."
         }
       }
     },
@@ -12298,7 +12298,7 @@
       "items": {
         "fWTtIUDtbSfOzgqv": {
           "name": "장군의 함성(General's Cry)",
-          "description": "<p>홉고블린 장군이 이니셔티브를 굴릴 때, 적어도 한 명의 적을 감지할 수 있다면 강력한 전투 함성을 지를 수 있습니다. 홉고블린 장군은 60 피트 이내의 적 한 명을 [[/act 사기 저하]]하기 위해 자유 행동으로 위협 체크를 시도합니다. 성공하면, 모든 아군은 전투의 첫 번째 턴에 첫 번째 행동으로, 단일 행동으로 자신의 속도의 2배까지 이동할 수 있습니다."
+          "description": "<p>홉고블린 장군이 이니셔티브를 굴릴 때, 적어도 한 명의 적을 감지할 수 있다면 강력한 전투 함성을 지를 수 있습니다. 홉고블린 장군은 60 피트 이내의 적 한 명을 [[/act demoralize]]하기 위해 자유 행동으로 위협 체크를 시도합니다. 성공하면, 모든 아군은 전투의 첫 번째 턴에 첫 번째 행동으로, 단일 행동으로 자신의 속도의 2배까지 이동할 수 있습니다."
         },
         "1gKtaE366xqxGDdV": {
           "name": "포메이션(Formation)",
@@ -12502,7 +12502,7 @@
         },
         "oncBOpovIROpa0vf": {
           "name": "폭발(Explosion)",
-          "description": "<p>원소 지옥이 죽으면 폭발하여 @Template[emanation|distance:10|traits:fire,damaging-effect] (@Check[reflex|dc:30|basic] 내성)에 있는 각 생물에게 @Damage[7d6[fire]]의 피해를 입힙니다."
+          "description": "<p>원소 지옥이 죽으면 폭발하여 @Template[emanation|distance:10|traits:fire,damaging-effect](@Check[reflex|dc:30|basic] 내성)에 있는 각 생물에게 @Damage[7d6[fire]]의 피해를 입힙니다."
         },
         "cIAptRydc370Xjbd": {
           "name": "강렬한 열기(Intense Heat)",

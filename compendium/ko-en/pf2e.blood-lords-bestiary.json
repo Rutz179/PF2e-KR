@@ -4,7 +4,7 @@
     "Mental Assault": {
       "name": "정신 공격(Mental Assault)",
       "desc (hazard)": "<p>마법 문양 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨기} 문고리의 잠금 해제를 시도하는 자의 정신에 피해를 주는 마법 함정을 작동시킨다.</p>",
-      "disable": "<p>@Check[thievery|dc:48] (전설급)으로 문양을 훼손하거나 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(10th, 반격 DC 48)로 함정을 반격할 수 있다.</p>",
+      "disable": "<p>@Check[thievery|dc:48](전설급)으로 문양을 훼손하거나 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(10th, 반격 DC 48)로 함정을 반격할 수 있다.</p>",
       "reset": "<p>함정은 작동 시 자동으로 재설정되며, 해제 시에는 재설정되지 않는다. </p>",
       "stealth": "<p>(전설급)</p>",
       "items": {
@@ -258,7 +258,7 @@
           "name": "글레이브(Glaive)"
         },
         "xjklqk1B1Bg4zbAD": {
-          "name": "기회의 공격(Attack of Opportunity)"
+          "name": "기회 공격(Attack of Opportunity)"
         },
         "AtKgpEAF92gRVNeI": {
           "name": "공허 치유(Void Healing)"
@@ -462,7 +462,7 @@
     "Crystallized Agony": {
       "name": "결정화된 고통(Crystallized Agony)",
       "desc (hazard)": "<p>죽어가는 생물의 고통 속에서 자라난 보라색 결정체는 죽은 생물의 시체를 감싸고 있으며, 깜빡이는 에너지 입자를 뿜어내며 맥동한다.</p>",
-      "disable": "<p>@Check[thievery|dc:33] (마스터) 또는 @Check[survival|dc:35] (마스터)를 통해 특정 결정의 면을 정확히 강타하여 무해하게 산산조각내는 위치를 파악할 수 있다 </p>",
+      "disable": "<p>@Check[thievery|dc:33](마스터) 또는 @Check[survival|dc:35](마스터)를 통해 특정 결정의 면을 정확히 강타하여 무해하게 산산조각내는 위치를 파악할 수 있다 </p>",
       "reset": "<p>결정화된 고통은 자동으로 재설정되며 다음 라운드에 다시 발동될 수 있다.</p>",
       "items": {
         "oZOCqDZs86xNMW2p": {
@@ -508,7 +508,7 @@
     "Hungry Cottage": {
       "name": "배고픈 오두막(Hungry Cottage)",
       "desc (hazard)": "<p>아이언 타비아의 오두막이 살아나 안에 있는 모두를 먹으려 한다. 위험은 세 구역으로 나뉜다: 지하실은 오두막의 위가 되고, 계단은 오두막의 목구멍 역할을 하며 가파르고 미끄러운 경사로 변해 매우 어려운 지형이 된다. 1층은 오두막 입 안이다. 오두막 안의 생물들은 내부에서 이동할 수 있으나, 입을 벌리거나 이빨이 갈리는 사이 미끄러져 나오지 않는 한 탈출할 수 없다. 오두막에서 성공적으로 탈출한 캐릭터는 이 위험으로부터 안전하다.</p>",
-      "disable": "<p>배고픈 오두막은 피해거나 무력화될 수 없으나, 각 구역의 위험은 일시적으로 완화될 수 있다. 위장 구역: @Check[athletics|dc:17|traits:action:climb] (숙련된) @UUID[Compendium.pf2e.actionspf2e.Item.pprgrYQ1QnIDGZiy]{Climb}로 쌓인 물건 위로 올라가 산성 벽이나 바닥과의 접촉을 1라운드 동안 피하거나, @Check[crafting|dc:25] (expert)로 2액션 활동으로 위가 가하는 산성 피해를 [[/gmr 1d4 # 라운드]]{1d4 라운드} 동안 위산 피해를 중화시키는 연금술 제산제를 제조한다. 목구멍: @Check[athletics|dc:23] (훈련된) 1라운드 동안 목구멍을 열어 계단에 있는 모든 캐릭터가 반사 내성 굴림 결과 자신의 굴림보다 1단계 높은 성공 등급으로 위장으로 밀려나는 것을 피할 수 있게 하거나, @Check[nature|dc:23] 또는 생존 기술을 2행동 활동으로 사용해 목의 수축을 완화하고 [[/gmr 1d4 #라운드]]{1d4 라운드} 동안 동일한 효과를 제공합니다. 입 안: @Check[athletics|dc:22|traits:action:force-open] ~ @UUID[Compendium.pf2e.actionspf2e.Item.SjmKHgI7a5Z9JzBx]{기세 개방} 창문이나 문을 열고, 오두막 출구로부터 10피트 이내에 있는 생물 한 마리를 강제로 내쫓거나, @Check[athletics|dc:25] (전문가)를 2-액션 활동으로 수행하여 가구를 고정시켜 [[/gmr 1d4 #Rounds]] 동안 이빨 갈기를 방지하고 {1d4 라운드} 동안 지속되며, 그 기간 동안 오두막 안에 있는 모든 이가 이동할 수 있게 한다.</p>",
+      "disable": "<p>배고픈 오두막은 피해거나 무력화될 수 없으나, 각 구역의 위험은 일시적으로 완화될 수 있다. 위장 구역: @Check[athletics|dc:17|traits:action:climb](숙련된) @UUID[Compendium.pf2e.actionspf2e.Item.pprgrYQ1QnIDGZiy]{Climb}로 쌓인 물건 위로 올라가 산성 벽이나 바닥과의 접촉을 1라운드 동안 피하거나, @Check[crafting|dc:25](expert)로 2액션 활동으로 위가 가하는 산성 피해를 [[/gmr 1d4 # 라운드]]{1d4 라운드} 동안 위산 피해를 중화시키는 연금술 제산제를 제조한다. 목구멍: @Check[athletics|dc:23](훈련된) 1라운드 동안 목구멍을 열어 계단에 있는 모든 캐릭터가 반사 내성 굴림 결과 자신의 굴림보다 1단계 높은 성공 등급으로 위장으로 밀려나는 것을 피할 수 있게 하거나, @Check[nature|dc:23] 또는 생존 기술을 2행동 활동으로 사용해 목의 수축을 완화하고 [[/gmr 1d4 #라운드]]{1d4 라운드} 동안 동일한 효과를 제공합니다. 입 안: @Check[athletics|dc:22|traits:action:force-open] ~ @UUID[Compendium.pf2e.actionspf2e.Item.SjmKHgI7a5Z9JzBx]{기세 개방} 창문이나 문을 열고, 오두막 출구로부터 10피트 이내에 있는 생물 한 마리를 강제로 내쫓거나, @Check[athletics|dc:25](전문가)를 2-액션 활동으로 수행하여 가구를 고정시켜 [[/gmr 1d4 #Rounds]] 동안 이빨 갈기를 방지하고 {1d4 라운드} 동안 지속되며, 그 기간 동안 오두막 안에 있는 모든 이가 이동할 수 있게 한다.</p>",
       "reset": "<p>오두막에 생물이 하나도 남지 않으면 위험이 초기화되어 평범한 오두막으로 돌아갑니다. 그러나 계단과 지하실은 사라지며, 아이언 타비아의 시신도 함께 사라집니다.</p>",
       "routine": "<p>저주받은 오두막은 3가지 행동을 사용한다: 위장의 산성 공격, 목의 삼키는 계단, 입의 갈아대는 포탈(이 순서대로). 해당 구역을 무력화하는 체크는 잠시 동안 이 행동들을 막을 수 있다.</p>",
       "stealth": "<p>(전문가)</p>",
@@ -781,7 +781,7 @@
     "Choking Tethers": {
       "name": "질식하는 밧줄(Choking Tethers)",
       "desc (hazard)": "<p> 생물이 홀의 중간 지점에 도달하면 세 개의 그림자 밧줄이 형성된다. 각 밧줄은 홀 내 생물들을 채찍질하고, 붙잡기, 짓누른다.</p>",
-      "disable": "<p>@Check[thievery|dc:48] (전설) 각 끈을 무력화하거나 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(10th, 반격 DC 48)로 각 끈을 무력화</p>",
+      "disable": "<p>@Check[thievery|dc:48](전설) 각 끈을 무력화하거나 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(10th, 반격 DC 48)로 각 끈을 무력화</p>",
       "routine": "<p>(6회 행동) 이 함정은 무력화된 그림자 밧줄마다 매 턴 2회 행동을 잃는다. 각 그림자 밧줄은 2회 행동을 사용해 생물을 강타하거나 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡기} 된 생물을 조일 수 있으며, 조합은 자유롭다. </p>",
       "stealth": "<p>(전설) </p>",
       "items": {
@@ -802,7 +802,7 @@
     "Precarious Bone Pile": {
       "name": "위태로운 뼈 더미(Precarious Bone Pile)",
       "desc (hazard)": "<p>이 고대의 뼈 더미는 안정적으로 보이지만, 사소한 흔들림만으로도 무너진다.</p>",
-      "disable": "<p>@Check[acrobatics|dc:20] (숙련) 또는 @Check[stealth|dc:20] (숙련)으로 뼈더미를 건드리지 않고 비집고 지나가거나, 어느 정도의 피해를 입혀 거리에 붕괴를 유발할 수 있다</p>",
+      "disable": "<p>@Check[acrobatics|dc:20](숙련) 또는 @Check[stealth|dc:20](숙련)으로 뼈더미를 건드리지 않고 비집고 지나가거나, 어느 정도의 피해를 입혀 거리에 붕괴를 유발할 수 있다</p>",
       "stealth": "<p>(훈련된)</p>",
       "items": {
         "xwHnoJPMGsM5oOIA": {
@@ -849,7 +849,7 @@
     "Pain Milker": {
       "name": "고통 착유기(Pain Milker)",
       "desc (hazard)": "<p>레버, 수정, 그리고 빛나는 금속 조각들로 만들어진 섬뜩한 기계로, 가까이 다가갈수록 불안한 통증과 아픔을 유발한다.</p>",
-      "disable": "<p>@Check[thievery|dc:33] (마스터) 기계의 작동을 중지시키거나, @Check[perception|dc:38] (전문가) 스위치와 다이얼을 무해하게 전원을 차단할 수 있는 순서로 조정하는 방법을 해독해야 한다</p>",
+      "disable": "<p>@Check[thievery|dc:33](마스터) 기계의 작동을 중지시키거나, @Check[perception|dc:38](전문가) 스위치와 다이얼을 무해하게 전원을 차단할 수 있는 순서로 조정하는 방법을 해독해야 한다</p>",
       "reset": "<p>아우그나가르가 생존 중이고 최소 한 개의 결정화된 고통이 여전히 작동 가능한 경우, 고통 착유기는 남은 결정화된 고통의 수에서 7을 뺀 횟수만큼의 라운드 후에 자동으로 재설정됩니다.</p>",
       "items": {
         "o9BXGPYKI3pz3OHb": {
@@ -867,7 +867,7 @@
       "items": {
         "AXYnozEuP0CCywE8": {
           "name": "깨진 보석(Broken Gems)",
-          "description": "<p><strong>발동 조건</strong> 두개골로부터 10피트 이내에 생명체가 접근할 때</p><hr /><p> <strong>효과</strong> 두개골을 떠도는 영혼들이 두개골의 부서진 보석 중 하나를 활성화하여 다음 네 가지 주문 중 하나를 무작위로 발동한다:</p><ul><li> @UUID[Compendium.pf2e.spells-srd.Item.OdqM06M0wDUqZWiR]{시간 속으로 던지기}, @Check[fortitude|dc:26|traits:divination]</li><li>@UUID[Compendium.pf2e.spells-srd.Item.TDNlDWbYb58Y55Da]{연쇄 번개}, @Check[reflex|dc:26|traits:electricity,evocation|basic] (@Damage[8d12[electricity]] 피해)</li> <li>@UUID[Compendium.pf2e.spells-srd.Item.sxQZ6yqTn0czJxVd]{화염구}(6th), @Check[reflex|dc:26|traits:fire,evocation|basic] (@Damage[12d6[fire]] 피해)</li><li> @UUID[Compendium.pf2e.spells-srd.Item.8Umt1AzYfFbC4fui]{주문파괴}, @Check[will|dc:26|traits:abjuration,curse,force] (@Damage[2d12[persistent,force]] 또는 @Damage[(2*2d12)[persistent,force]] 피해)</li> </ul><p>모든 주문에 대한 내성 굴림 난이도는 26이다.</p>"
+          "description": "<p><strong>발동 조건</strong> 두개골로부터 10피트 이내에 생명체가 접근할 때</p><hr /><p> <strong>효과</strong> 두개골을 떠도는 영혼들이 두개골의 부서진 보석 중 하나를 활성화하여 다음 네 가지 주문 중 하나를 무작위로 발동한다:</p><ul><li> @UUID[Compendium.pf2e.spells-srd.Item.OdqM06M0wDUqZWiR]{시간 속으로 던지기}, @Check[fortitude|dc:26|traits:divination]</li><li>@UUID[Compendium.pf2e.spells-srd.Item.TDNlDWbYb58Y55Da]{연쇄 번개}, @Check[reflex|dc:26|traits:electricity,evocation|basic](@Damage[8d12[electricity]] 피해)</li> <li>@UUID[Compendium.pf2e.spells-srd.Item.sxQZ6yqTn0czJxVd]{화염구}(6th), @Check[reflex|dc:26|traits:fire,evocation|basic](@Damage[12d6[fire]] 피해)</li><li> @UUID[Compendium.pf2e.spells-srd.Item.8Umt1AzYfFbC4fui]{주문파괴}, @Check[will|dc:26|traits:abjuration,curse,force](@Damage[2d12[persistent,force]] 또는 @Damage[(2*2d12)[persistent,force]] 피해)</li> </ul><p>모든 주문에 대한 내성 굴림 난이도는 26이다.</p>"
         }
       }
     },
@@ -1145,7 +1145,7 @@
     "Cleansing Fire": {
       "name": "정화의 불꽃(Cleansing Fire)",
       "desc (hazard)": "<p>불꽃과 활력 에너지의 파도가 방 안을 휩쓸며 언데드를 소멸시키고 살아있는 자들을 태워버린다. </p>",
-      "disable": "<p>@Check[thievery|dc:41] (마스터)로 함정의 에너지를 소진시키거나, @Check[religion|dc:39] (전문가)로 함정을 중지시키기 위해 우르가토아에게 적절한 기도를 낭송한다 (페사브넷은 이 기도문을 알고 있으며, 이를 낭송하는 체크에는 자동으로 성공한다). 함정 해제는 도둑질과 종교 체크 중 어떤 조합이든 세 번의 성공적인 체크가 필요하다.</p>",
+      "disable": "<p>@Check[thievery|dc:41](마스터)로 함정의 에너지를 소진시키거나, @Check[religion|dc:39](전문가)로 함정을 중지시키기 위해 우르가토아에게 적절한 기도를 낭송한다 (페사브넷은 이 기도문을 알고 있으며, 이를 낭송하는 체크에는 자동으로 성공한다). 함정 해제는 도둑질과 종교 체크 중 어떤 조합이든 세 번의 성공적인 체크가 필요하다.</p>",
       "reset": "<p>방에 생물이 없으면 1분 후 신성한 불꽃이 사라지며, 함정은 즉시 재설정된다</p>",
       "routine": "<p>(1 행동) 신성한 불의 벽이 방 전체를 가로질러 앞뒤로 휩쓸며, 공간의 모든 구석을 신성한 힘으로 적시고 @Damage[3d12[fire],3d12[vitality]]{3d12 화염 피해 3d12 활력 피해}를 입힙니다. 함정 영역 내의 모든 생물은 @Check[reflex|dc:39] 내성을 시도하다. </p>\n<hr>\n<p><strong>대성공</strong> 생물은 영향을 받지 않습니다.</p>\n<p><strong>성공</strong> 생물은 절반의 피해를 입는다.</p>\n<p><strong>실패</strong> 생물이 두 배의 피해를 받습니다.</p>\n<p><strong>대실패</strong> 생물이 공허 치유 능력을 지닌 경우 즉시 파괴된다. 그렇지 않으면 두 배의 피해와 @Damage[1d12[persistent,fire]]의 피해를 입는다.</p>",
       "stealth": "<p> (마스터)</p>",
@@ -1159,7 +1159,7 @@
     "Button Mash": {
       "name": "버튼 마시(Button Mash)",
       "desc (hazard)": "<p>콘솔의 마법 문양을 누르면 방에 유해 효과가 퍼집니다. 각 문양은 다른 결과를 일으킵니다. 콘솔에는 여섯 개의 문양이 있습니다.</p>",
-      "disable": "<p>@Check[arcana|dc:40] (마스터)로 각 문양의 마법을 해제하거나(접수대 양쪽에서 가능), @Check[thievery|dc:43] (마스터)를 두 번 눌러 콘솔을 무력화하거나(접수대 뒤에서만 가능), @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(8th; 반격 DC 40)로 각 인장을 반격; 접수대 접근 또는 다른 방법으로 노프가 버튼을 누르는 것을 막음</p>",
+      "disable": "<p>@Check[arcana|dc:40](마스터)로 각 문양의 마법을 해제하거나(접수대 양쪽에서 가능), @Check[thievery|dc:43](마스터)를 두 번 눌러 콘솔을 무력화하거나(접수대 뒤에서만 가능), @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(8th; 반격 DC 40)로 각 인장을 반격; 접수대 접근 또는 다른 방법으로 노프가 버튼을 누르는 것을 막음</p>",
       "routine": "<p>(2 행동) 노프가 콘솔을 마구 두드리며 발로 밟고, 각 행동마다 무작위 시길 하나를 누릅니다. [[/gmr 1d6 #Pressed Sigil]]을 굴림하여 노프가 누르는 시그일을 결정한다. 사이코폼프는 이 시그일의 효과에 면역이다.</p>\n<p><strong>1</strong> 신성한 빛이 지역을 가득 채우며, 해당 지역에 있는 모든 생물에게 @Damage[(3d12+19)[vitality]]의 피해를 입힌다 (@Check[reflex|dc:43|basic]).</p>\n<p> <strong>2</strong> 지역에 불경한 어둠이 가득 차며, 해당 지역의 각 생물에게 @Damage[(3d12+19)[void]]의 피해를 입힙니다 (@Check[reflex|dc:43|basic]).</p>\n<p> <strong>3</strong> 이 지역은 푸른 불꽃으로 가득 차 있으며, 이 지역에 있는 각 생물에게 @Damage[(3d10+19)[fire]]의 피해를 입힙니다 ( @Check[reflex|dc:43|basic]). 대실패 시, 생물은 추가로 @Damage[1d10[persistent,fire]]의 피해를 받는다.</p>\n<p><strong>4</strong> 혜성이 지역을 가로지르며, 노프에게 가장 가까운 생물에게 혜성 강타를 가한다.</p>\n<p><strong>5 </strong> 바닥에서 힘줄이 솟아나 침입자를 붙잡는다. 해당 지역의 모든 생물은 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{고정된} 상태로 1라운드 동안 움직일 수 없으며, @Check[fortitude|dc:43] 내성에 성공하지 못하면.</p>\n<p><strong>6</strong> 영역 내 각 사이코폼프를 푸른 유령 안개가 감싸며, @Damage[(3d8+19)[healing]]{3d8+19} HP를 치유하고 1라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{은폐} 상태를 부여한다. </p>",
       "stealth": "<p>(마스터)</p>",
       "items": {
@@ -1259,7 +1259,7 @@
           "description": "<p>수비자가 공포 효과에 대한 의지 내성에 굴림 성공할 때마다, 대신 대성공을 얻습니다. 또한, 공포 상태를 획득할 때마다 그 지속 시간을 1 감소시킵니다.</p>"
         },
         "MvfjNyi77WG96cFf": {
-          "name": "기회의 공격(Attack of Opportunity)"
+          "name": "기회 공격(Attack of Opportunity)"
         },
         "fPmkd6AGT73H496x": {
           "name": "공격 라인(Offensive Line)",
@@ -1303,7 +1303,7 @@
     "Crush the Uninvited": {
       "name": "초대받지 않은 자를 분쇄하라(Crush the Uninvited)",
       "desc (hazard)": "<p>문틀에 새겨진 경고문은 켐네비의 허락 없이 문턱을 넘는 자를 마법으로 분쇄한다. </p>",
-      "disable": "<p>@Check[thievery|dc:48] (전설급) 경고를 긁어내거나 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(10th; 반격 DC 48) 경고의 마법을 반격하기</p>",
+      "disable": "<p>@Check[thievery|dc:48](전설급) 경고를 긁어내거나 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(10th; 반격 DC 48) 경고의 마법을 반격하기</p>",
       "stealth": "<p>(전설); @Check[perception|dc:20] 문틀에 새겨진 경고를 알아차리기</p>",
       "items": {
         "Mw64TPcsdHcZjvns": {
@@ -1315,7 +1315,7 @@
     "Tylegmut's Last Meal": {
       "name": "타일그믈트의 마지막 만찬(Tylegmut's Last Meal)",
       "desc (hazard)": "<p> 전직 은행 지점장의 유령이 생물들을 유혹하여 수상한 식사에 참여하게 한다.</p>",
-      "disable": "<p>@Check[religion|dc:18|name:Recite a Prayer to Urgathoa] (훈련된) 우르가토아에게 기도를 드려 유령 현상을 재설정될 때까지 일시적으로 진정시키고, @Check[occultism|dc:22|name:Commune with the Manager's Spirit] (훈련된) 은행 지점장의 영혼과 교감하여 그녀가 영원히 떠나도록 설득하여 유령 현상을 영구적으로 제거한다 </p>",
+      "disable": "<p>@Check[religion|dc:18|name:Recite a Prayer to Urgathoa](훈련된) 우르가토아에게 기도를 드려 유령 현상을 재설정될 때까지 일시적으로 진정시키고, @Check[occultism|dc:22|name:Commune with the Manager's Spirit](훈련된) 은행 지점장의 영혼과 교감하여 그녀가 영원히 떠나도록 설득하여 유령 현상을 영구적으로 제거한다 </p>",
       "reset": "<p> 유령은 1시간 후 재형성됩니다. 생물이 책상에서 완전한 식사를 하면 유령이 비활성화되어 재형성되지 않습니다. 이때 음식은 손에 쥔 \"음식\"이 아니라 어떤 음식이든 가능합니다.</p>",
       "routine": "<p>(1 행동) 유령이 먼지와 뼈 조각 구름을 방 안으로 날려보낸다. 먼지와 뼈가 방 안의 모든 생물을 강타하여 @Damage[4d6[bludgeoning]]의 피해를 입힌다 (@Check[reflex|dc:21|basic]). 저항에 실패한 생물은 1라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명} 상태가 된다 (대실패 시 1분 동안). </p>",
       "stealth": "<p>(훈련된)</p>",
@@ -1586,7 +1586,7 @@
           "name": "크로스보우(Crossbow)"
         },
         "1ERaIV11KiskZhb9": {
-          "name": "기회의 공격(Attack of Opportunity)"
+          "name": "기회 공격(Attack of Opportunity)"
         },
         "vZtimnipFuISX5kw": {
           "name": "최후의 안식(Final Rest)",
@@ -1997,7 +1997,7 @@
       "name": "소용돌이치는 혜성(Spiraling Comets)",
       "hpdetails": "혜성당",
       "desc (hazard)": "<p>방 주위를 공전하던 세 개의 푸른 혜성이 침입자가 들어오면 붉게 변하며 공격한다.</p>",
-      "disable": "<p>@Check[religion|dc:42] (마스터) 각 혜성을 파라스민 기도문으로 해산시키거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(8th 등급; 반격 DC 42)로 각 혜성을 무력화 </p>",
+      "disable": "<p>@Check[religion|dc:42](마스터) 각 혜성을 파라스민 기도문으로 해산시키거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(8th 등급; 반격 DC 42)로 각 혜성을 무력화 </p>",
       "reset": "<p>함정은 1시간 후 재설정됩니다.</p>",
       "routine": "<p>(3 행동) 각 혜성이 무력화, 반격 또는 파괴될 때마다 함정은 매 턴마다 1 행동을 잃습니다. 각 혜성은 가장 가까운 침입자를 혜성 공격으로 공격하는 데 1 행동을 사용합니다.</p>",
       "stealth": "<p>(마스터)</p>",
@@ -2014,7 +2014,7 @@
     "Time Rift": {
       "name": "시간 균열(Time Rift)",
       "desc (hazard)": "해시계에 포커스가 맞춰진 시간 균열은 해당 지역의 모든 생물에게 시간이 불규칙하게 흐르게 한다.</p>",
-      "disable": "<p>시간 균열을 수리하려면 @Check[thievery|dc:48] (전설) 또는 @Check[occultism|dc:48] (마스터) 난이도의 세 번의 @Check[thievery|dc:48] (전설) 또는 @Check[occultism|dc:48] (마스터) 체크 성공이 필요하다.</p>",
+      "disable": "<p>시간 균열을 수리하려면 @Check[thievery|dc:48](전설) 또는 @Check[occultism|dc:48](마스터) 난이도의 세 번의 @Check[thievery|dc:48](전설) 또는 @Check[occultism|dc:48](마스터) 체크 성공이 필요하다.</p>",
       "routine": "<p>(1 행동) 시간 균열은 자신의 이니셔티브에 따라 각 생물의 시간선을 변경한다. 해당 영역 내 모든 생물은 [[/gmr 1d4 #시간 균열 효과]]를 굴림한다. {1d4}를 굴려 자신에게 미치는 효과를 무작위로 결정한다.</p>\n<p><strong>1 </strong> 생물은 1라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1} 상태가 된다.</p>\n<p><strong>2</strong> 생물은 영향을 받지 않는다. </p>\n<p><strong>3</strong> 생물은 시간의 영향을 불규칙하게 받으며, 1라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진} 상태가 됩니다.</p>\n<p><strong>4</strong> 생물은 1라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{가속} 1 상태가 된다. </p>",
       "stealth": "<p>(마스터)</p>",
       "items": {
@@ -2052,7 +2052,7 @@
     "Phantom Soldiers": {
       "name": "유령 병사들(Phantom Soldiers)",
       "desc (hazard)": "<p>안개 속에서 오래전 죽은 병사들의 영혼이 나타나 침입자를 공격한다.</p>",
-      "disable": "<p>@Check[intimidation|dc:45] (전설) 병사들을 쫓아내거나 @Check[deception|dc:46] (전설) 병사들에게 물러서라고 명령한다</p>",
+      "disable": "<p>@Check[intimidation|dc:45](전설) 병사들을 쫓아내거나 @Check[deception|dc:46](전설) 병사들에게 물러서라고 명령한다</p>",
       "reset": "<p>1시간.</p>",
       "stealth": "<p>(마스터)</p>",
       "items": {
@@ -2266,7 +2266,7 @@
     "Sickle Blade": {
       "name": "낫날(Sickle Blade)",
       "desc (hazard)": "<p>낫을 든 해골 팔이 천장에 가려져 있으며, 아래 미닫이문의 장치와 연결되어 있다. </p>",
-      "disable": "<p>@Check[thievery|dc:20|traits:action:disable-a-device] (훈련된) 문틀이나 천장 홈에, 또는 문 반대편 레버를 작동시키기 위해 상호작용 (영역 <strong> D2</strong> 및 <strong>D4</strong> 구역)에서 각각)</p>",
+      "disable": "<p>@Check[thievery|dc:20|traits:action:disable-a-device](훈련된) 문틀이나 천장 홈에, 또는 문 반대편 레버를 작동시키기 위해 상호작용 (영역 <strong> D2</strong> 및 <strong>D4</strong> 구역)에서 각각)</p>",
       "reset": "<p>함정은 15분 후 재설정됩니다. 또한 생물이 문 반대편의 레버와 수동으로 상호작용하여 함정을 재설정할 수 있습니다.</p>",
       "stealth": "<p>(훈련된) </p>",
       "items": {
@@ -2421,7 +2421,7 @@
       "name": "영혼 정지(Soul Stasis)",
       "hpdetails": "기둥당",
       "desc (hazard)": "<p>네 개의 강철 기둥이 맥동하는 에너지를 방출하여 영혼의 활동을 지연시킵니다.</p>",
-      "disable": "<p>@Check[arcana|dc:43] 또는 종교(마스터)로 각 기둥 내 마법을 재편성하거나, @Check[thievery|dc:46] (마스터)로 각 기둥을 무력화하거나, 마법 해제(8th; 반격 DC 43)로 각 기둥의 효과를 무효화할 수 있다 </p>",
+      "disable": "<p>@Check[arcana|dc:43] 또는 종교(마스터)로 각 기둥 내 마법을 재편성하거나, @Check[thievery|dc:46](마스터)로 각 기둥을 무력화하거나, 마법 해제(8th; 반격 DC 43)로 각 기둥의 효과를 무효화할 수 있다 </p>",
       "reset": "<p> 해당 지역에 영혼이 1분간 존재하지 않으면 함정이 비활성화되고 재설정됩니다.</p>",
       "routine": "<p>(4 행동) 이 함정은 비활성화된 기둥마다 매 턴마다 1 행동을 잃습니다. 각 기둥은 1 행동을 사용하여 영혼을 지연시키는 억제 에너지의 @Template[emanation|distance:30]{30피트 반경 폭발}의 억제 에너지를 방출하여 영혼의 속도를 늦춥니다. 이 영역에 있는 영혼을 가진 비(非)사이코폼프 생물은 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1} 상태가 되며, @Check[fortitude|dc:43] 내성에 성공해야 합니다. </p>",
       "stealth": "<p>(마스터)</p>",
@@ -2568,7 +2568,7 @@
     "Glyph of Warding (D5)": {
       "name": "수호부 문양 (D5)(Glyph of Warding (D5))",
       "desc (hazard)": "<p>마법 문양이 번쩍이며 주문을 발동시킨다.</p>",
-      "disable": "<p>@Check[thievery|dc:34] (훈련된) 글리프를 무력화하거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(7th 등급, 반격 DC 34)로 글리프를 무효화할 수 있다</p>",
+      "disable": "<p>@Check[thievery|dc:34](훈련된) 글리프를 무력화하거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(7th 등급, 반격 DC 34)로 글리프를 무효화할 수 있다</p>",
       "stealth": "<p>(훈련된)</p>",
       "items": {
         "MlsNgSnDhpcgOdxw": {
@@ -2623,7 +2623,7 @@
     "Cleansing Hall": {
       "name": "정화의 전당(Cleansing Hall)",
       "desc (hazard)": "<p>전당의 출입구가 힘차게 봉인된 후, 힘의 파동이 전당을 휩쓸고 지나간다. </p>",
-      "disable": "<p>@Check[thievery|dc:48] (마스터) 발동 없이 문양을 훼손하거나, @Check[arcana|dc:47] (마스터) 마법 에너지를 전환하거나, @Check[religion|dc:46] (마스터) 파라스민 기도문 낭송</p>",
+      "disable": "<p>@Check[thievery|dc:48](마스터) 발동 없이 문양을 훼손하거나, @Check[arcana|dc:47](마스터) 마법 에너지를 전환하거나, @Check[religion|dc:46](마스터) 파라스민 기도문 낭송</p>",
       "reset": "<p>함정은 1분 후 비활성화되고 재설정된다.</p>",
       "routine": "<p>(1 행동) 힘의 파동이 복도를 따라 북쪽에서 남쪽으로 흘러내려, 복도에 있는 각 생물에게 @Damage[(3d10+20)[force]]의 피해를 입는다. 각 생물은 @Check[reflex|dc:40|basic]를 시도해야 한다. 실패 시, 생물은 5피트(대실패 시 10피트) 뒤로 밀려난다. 이 이동으로 인해 생물이 다른 생물과 충돌할 경우, 양쪽 생물 모두 @Damage[1d6[bludgeoning]]의 피해를 입는다. 이 이동으로 인해 생물이 역장 장벽에 부딪히게 되면, 해당 생물은 @Damage[2d6[bludgeoning]]의 피해를 입습니다. 동물, 식물, 그리고 파라스마의 숭배자들은 이 역장 피해에 면역입니다.</p>",
       "stealth": "<p>(마스터) </p>",
@@ -2803,7 +2803,7 @@
     "The Fight": {
       "name": "전투(The Fight)",
       "desc (hazard)": "<p>근처의 생물들은 아이언 타비아와 베네팩터의 격투 장면을 기억 속에 포착된다.</p>",
-      "disable": "<p>@Check[occultism|dc:28] 또는 @Check[religion|dc:28] (전문가)가 방 안에 있으면 유령의 영적 에너지를 흡수한다. 성공한 각 체크마다 유령의 일상 행동 횟수가 감소하며, 유령을 완전히 무력화하려면 세 번의 성공적인 체크가 필요하다. </p>",
+      "disable": "<p>@Check[occultism|dc:28] 또는 @Check[religion|dc:28](전문가)가 방 안에 있으면 유령의 영적 에너지를 흡수한다. 성공한 각 체크마다 유령의 일상 행동 횟수가 감소하며, 유령을 완전히 무력화하려면 세 번의 성공적인 체크가 필요하다. </p>",
       "reset": "<p>완전히 무력화되거나 파괴되지 않는 한, 유령은 다음 달이 뜨는 시점에 완전한 힘으로 재설정됩니다.</p>",
       "routine": "<p>(3 행동) 유령 타비아는 아직 생물과 인접하지 않은 경우, 30피트 내 무작위 생물 옆에 나타나기 위해 1 행동을 사용한다. 이후 남은 행동으로 유령 발톱 강타를 사용한다.</p>",
       "stealth": "<p>(전문가)</p>",
@@ -2839,7 +2839,7 @@
     "Shadow Heart": {
       "name": "그림자 심장(Shadow Heart)",
       "desc (hazard)": "<p>종양 같은 그림자 조직으로 이루어진 심장이 근처 생물들에게 마법을 발산한다.</p>",
-      "disable": "<p>@Check[arcana|dc:26] 또는 @Check[occultism|dc:26] (전문가)로 심장의 공격 마법을 무력화하거나, @Check[religion|dc:28] (숙련자)로 심장이 있는 지역을 정화할 수 있다. 무력화에는 네 번의 성공이 필요하며; 두 번 성공하면 그림자 심장은 그림자 채찍 강타를 사용할 수 없습니다.</p>",
+      "disable": "<p>@Check[arcana|dc:26] 또는 @Check[occultism|dc:26](전문가)로 심장의 공격 마법을 무력화하거나, @Check[religion|dc:28](숙련자)로 심장이 있는 지역을 정화할 수 있다. 무력화에는 네 번의 성공이 필요하며; 두 번 성공하면 그림자 심장은 그림자 채찍 강타를 사용할 수 없습니다.</p>",
       "reset": "<p>방에 생물이 없으면 심장이 비활성화됩니다. 1시간 후에 재설정됩니다.</p>",
       "routine": "<p> 그림자 심장은 박격 회오리를 사용한 후, 범위 내 무작위 생물에게 그림자 채찍을 사용합니다.</p>",
       "stealth": "<p>(전문가)</p>",
@@ -2873,7 +2873,7 @@
     "Hall of Mirrors": {
       "name": "거울의 전당(Hall of Mirrors)",
       "desc (hazard)": "<p>수많은 거울 속 반사상 속에 갇힌 세 영혼이 숨어 있다. 이 영혼들은 반사상을 공격함으로써 거울에 비친 이들의 몸에 상처를 입힌다. 갇힌 영혼이 희생자를 죽이면, 그 영혼은 거울에서 탈출하고 희생자의 영혼이 그 자리를 대신한다.</p>",
-      "disable": "<p>@Check[occultism|dc:24] (전문가) 갇힌 영혼이 반사상을 해치지 못하도록 거울을 재정렬하거나, @Check[religion|dc:28] (전문가) 갇힌 영혼을 추방하거나, @Check[thievery|dc:28] (전문가) 갇힌 영혼을 거울 안에 가두기 위해 충분히 빠르게 거울을 가리는 것; 유령의 활동을 무력화하려고 시도할 때마다 그 행동 횟수가 1 감소한다</p>",
+      "disable": "<p>@Check[occultism|dc:24](전문가) 갇힌 영혼이 반사상을 해치지 못하도록 거울을 재정렬하거나, @Check[religion|dc:28](전문가) 갇힌 영혼을 추방하거나, @Check[thievery|dc:28](전문가) 갇힌 영혼을 거울 안에 가두기 위해 충분히 빠르게 거울을 가리는 것; 유령의 활동을 무력화하려고 시도할 때마다 그 행동 횟수가 1 감소한다</p>",
       "routine": "<p>(3 행동) 갇힌 영혼 각각은 방 안에 있는 생물의 반사상에 반사적 갈기 공격을 가한다; 각 갇힌 영혼은 서로 다른 대상을 공격해야 한다.</p>",
       "items": {
         "isBAFFJUmEHE7wYA": {
@@ -2892,7 +2892,7 @@
     "Revisit Past Pains": {
       "name": "과거의 고통 재현(Revisit Past Pains)",
       "desc (hazard)": "<p>죽음의 기억에 갇힌 영혼이 복도를 날아다니며 침입자들에게 자신의 죽음의 고통을 경험하게 한다.</p>",
-      "disable": "<p> @Check[diplomacy|dc:48] (마스터) 영혼을 진정시키거나 @Check[occultism|dc:46] (마스터) 영혼을 물리치기</p>",
+      "disable": "<p> @Check[diplomacy|dc:48](마스터) 영혼을 진정시키거나 @Check[occultism|dc:46](마스터) 영혼을 물리치기</p>",
       "reset": "<p>1시간.</p>",
       "stealth": "<p>(마스터)</p>",
       "items": {
@@ -2964,7 +2964,7 @@
     "Shrieking Souls": {
       "name": "비명 지르는 영혼들(Shrieking Souls)",
       "desc (hazard)": "<p>공포에 질린 영혼이 귀를 찢는 비명을 지른다.</p>",
-      "disable": "<p>@Check[diplomacy|dc:44] (마스터) 영혼을 달래거나 @Check[occultism|dc:45] (마스터) 영혼을 수호부하기 위해</p>",
+      "disable": "<p>@Check[diplomacy|dc:44](마스터) 영혼을 달래거나 @Check[occultism|dc:45](마스터) 영혼을 수호부하기 위해</p>",
       "reset": "<p>1시간.</p>",
       "stealth": "<p>(마스터)</p>",
       "items": {
@@ -3016,7 +3016,7 @@
           "name": "글레이브(Glaive)"
         },
         "xjklqk1B1Bg4zbAD": {
-          "name": "기회의 공격(Attack of Opportunity)"
+          "name": "기회 공격(Attack of Opportunity)"
         },
         "AtKgpEAF92gRVNeI": {
           "name": "공허 치유(Void Healing)"
@@ -3095,7 +3095,7 @@
         },
         "XjrYXkqhue5UlQ94": {
           "name": "조이기(Constrict)",
-          "description": "<p> @Damage[(1d12+7)[bludgeoning]] 피해, @Check[fortitude|dc:25|basic] (@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{발톱으로만 붙잡기})</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p>"
+          "description": "<p> @Damage[(1d12+7)[bludgeoning]] 피해, @Check[fortitude|dc:25|basic](@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{발톱으로만 붙잡기})</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p>"
         },
         "n9M1lMGvS2fKZbvr": {
           "name": "턱(Mandibles)",
@@ -3190,7 +3190,7 @@
     "Bursting Bone Vault": {
       "name": "뼈로 가득 찬 금고(Bursting Bone Vault)",
       "desc (hazard)": "<p>이 뼈로 가득 찬 금고는 문이 열리자마자 내용물을 쏟아낸다. </p>",
-      "disable": "<p>@Check[thievery|dc:20] (훈련된) 또는 @Check[stealth|dc:20] (훈련된) 상태에서 뼈를 건드리지 않도록 조심스럽게 금고 문을 열어야 한다</p>",
+      "disable": "<p>@Check[thievery|dc:20](훈련된) 또는 @Check[stealth|dc:20](훈련된) 상태에서 뼈를 건드리지 않도록 조심스럽게 금고 문을 열어야 한다</p>",
       "stealth": "<p>(훈련된)</p>",
       "items": {
         "BemYYTuyMTOrShL8": {
@@ -3202,7 +3202,7 @@
     "Shadow Hooks": {
       "name": "그림자 갈고리(Shadow Hooks)",
       "desc (hazard)": "<p> 벽에서 굳어진 그림자의 갈고리가 뻗어나와 생물들을 찔러 잡아당기며 찢어발긴다.</p>",
-      "disable": "<p>@Check[thievery|dc:50] (전설) 함정의 센서를 무력화시키기 위해</p>",
+      "disable": "<p>@Check[thievery|dc:50](전설) 함정의 센서를 무력화시키기 위해</p>",
       "stealth": "<p>(전설)</p>",
       "items": {
         "KgQGSu7qKdX8dRCD": {
@@ -3218,7 +3218,7 @@
       "name": "공허의 정원(Void Garden)",
       "hpdetails": "크리스탈 당",
       "desc (hazard)": "<p> 여섯 개의 섬뜩한 보라색 크리스탈이 생명체의 존재에 반응하며, 방 안에 있는 생물의 심장 박동과 맞물리는 듯한 보라색 빛의 섬광을 내뿜으며 맥동한다.</p>",
-      "disable": "<p>@Check[thievery|dc:33] (마스터) 또는 @Check[nature|dc:35] (마스터)로 미세한 균열을 감지할 수 있으며, 이 균열을 강타하면 수정 하나가 산산조각 나며 먼지로 변한다 </p>",
+      "disable": "<p>@Check[thievery|dc:33](마스터) 또는 @Check[nature|dc:35](마스터)로 미세한 균열을 감지할 수 있으며, 이 균열을 강타하면 수정 하나가 산산조각 나며 먼지로 변한다 </p>",
       "reset": "<p>공허 정원은 모든 생명체가 해당 지역을 떠난 후 1라운드 동안 비활성화되지만, 그 직후 즉시 재설정됩니다.</p>",
       "routine": "<p>(6 행동) 공허 정원의 각 수정체는 행동을 사용해 방 안 또는 열린 출입문을 통해 시야에 들어오는 무작위 생명체에게 파괴적인 암자색 에너지 광선인 공허 광선을 발사한다(수정체는 영역 <strong>D6c</strong>). 한 생물체는 라운드당 한 번만 공허 광선의 표적이 될 수 있다. 무장 해제되거나 파괴된 수정체마다 공허 정원은 행동 1회를 잃는다. </p>",
       "stealth": "<p>(마스터)</p>",
@@ -3382,7 +3382,7 @@
     "Compression Tunnel": {
       "name": "압축 터널(Compression Tunnel)",
       "desc (hazard)": "<p>이 그림자 터널은 생물이 통과할 때 압축된다. </p>",
-      "disable": "<p>@Check[athletics|dc:46] (전설)을 두 번 사용해 그림자를 밀어내거나 @Check[thievery|dc:48] (전설) 세 번 사용해 그림자를 관통한다</p>",
+      "disable": "<p>@Check[athletics|dc:46](전설)을 두 번 사용해 그림자를 밀어내거나 @Check[thievery|dc:48](전설) 세 번 사용해 그림자를 관통한다</p>",
       "routine": "<p>(1 행동) 터널이 압축되어 안에 있는 모든 생물을 짓누르고 @Damage[(4d10+22)[bludgeoning]]의 피해를 입힌다 (@Check[fortitude|dc:42|basic]). 내성에 실패한 생물은 추가로 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{고정된} 상태가 된다 ([[/act escape dc=42]]).</p>",
       "stealth": "<p>(전설)</p>",
       "items": {
@@ -3407,7 +3407,7 @@
           "name": "바위(Rock)"
         },
         "vJ6hS46dH5sh4qCl": {
-          "name": "기회의 공격(Attack of Opportunity)"
+          "name": "기회 공격(Attack of Opportunity)"
         },
         "GOVDOv9MOM61figq": {
           "name": "도끼 약점(Axe Vulnerability)",
@@ -3479,7 +3479,7 @@
       "name": "키스톤 함정(Keystone Trap)",
       "hpdetails": "키스톤 경도 15; 키스톤 HP 60 (BT 30);",
       "desc (hazard)": "<p> 돌 블록 안에 손잡이로 덮인 5피트 칸 금속 금고가 가려져 있다. 돌 블록의 레버를 당기면 금고가 드러난다. 금고가 노출되면-밀어내거나 돌을 부수어 열거나-함정이 작동한다.</p>",
-      "disable": "<p> @Check[thievery|dc:24|traits:action:disable-a-device] (숙련) 특정 순서로 숨겨진 손잡이를 찾아 누르기 (함정 해제에는 3회의 성공이 필요하며, 동시에 금고가 열림); @Check[crafting|dc:24] (전문가) 금고의 장치를 파괴하여 작동 횟수를 1 감소시키기 (함정 작동 횟수가 0이 되면 해제됨) </p>",
+      "disable": "<p> @Check[thievery|dc:24|traits:action:disable-a-device](숙련) 특정 순서로 숨겨진 손잡이를 찾아 누르기 (함정 해제에는 3회의 성공이 필요하며, 동시에 금고가 열림); @Check[crafting|dc:24](전문가) 금고의 장치를 파괴하여 작동 횟수를 1 감소시키기 (함정 작동 횟수가 0이 되면 해제됨) </p>",
       "routine": "<p>키스톤은 3개의 행동력을 사용하여 전기화, 회전, 그리고 다트 발사 순으로 행동합니다. 함정이 행동력을 하나 잃을 때마다, 무작위 주사위를 굴려 어떤 행동력을 잃을지 결정합니다.</p>",
       "stealth": "<p>(전문가)</p>",
       "items": {
@@ -3493,7 +3493,7 @@
         },
         "D9I9Pa6Y6YFqsikI": {
           "name": "전기화(Electrify)",
-          "description": "<p>금속 금고에서 전류가 삐걱거린다. 공기 중에서는 접촉한 생물만 피해를 입히지만, 물속에서는 @Damage[2d8[electricity]]의 피해를 @Template[emanation|distance:10] (@Check[fortitude|dc:25|basic]) 영역 내 모든 생물에게 @Damage[2d8[electricity]]의 피해를 입힌다.</p>"
+          "description": "<p>금속 금고에서 전류가 삐걱거린다. 공기 중에서는 접촉한 생물만 피해를 입히지만, 물속에서는 @Damage[2d8[electricity]]의 피해를 @Template[emanation|distance:10](@Check[fortitude|dc:25|basic]) 영역 내 모든 생물에게 @Damage[2d8[electricity]]의 피해를 입힌다.</p>"
         },
         "IpL3t43EPH59ZjEM": {
           "name": "다트 발사(Launch Darts)",
@@ -3511,7 +3511,7 @@
     "Avian Rage": {
       "name": "새의 분노(Avian Rage)",
       "desc (hazard)": "<p>공포에 질린 수백 마리의 밤부엉이들이 이 지역을 떼지어 날아든다.</p>",
-      "disable": "<p>@Check[nature|dc:43] (마스터) 새들을 진정시키거나, @Check[occultism|dc:45] (마스터) 자신의 기운을 바꾸거나, @Check[performance|dc:45] (마스터) 살아있는 것을 모방할 수 있다 </p>",
+      "disable": "<p>@Check[nature|dc:43](마스터) 새들을 진정시키거나, @Check[occultism|dc:45](마스터) 자신의 기운을 바꾸거나, @Check[performance|dc:45](마스터) 살아있는 것을 모방할 수 있다 </p>",
       "reset": "<p>정원에 언데드나 공허 치유 능력을 가진 생물이 1분 동안 나타나지 않으면 함정이 해제되고 재설정됩니다.</p>",
       "routine": "<p>(1 행동) 새들이 정원을 난폭하게 휩쓸며 정원 내 모든 언데드 생물과 공허 치유 능력을 가진 생물을 쪼고 찢어 @Damage[(3d10+20)[slashing]]의 피해와 @Damage[1d10[bleed]]의 피해( @Check[reflex|dc:44|basic]).</p>",
       "stealth": "<p>(마스터)</p>",
@@ -3675,7 +3675,7 @@
     "The Flight": {
       "name": "도주(The Flight)",
       "desc (hazard)": "<p>잘 차려입은 잘생긴 남자의 유령이 계단을 내려가며, 한 손으로 옆구리의 상처를 움켜쥐고 다른 손으로는 밀쳐내는 동작을 한다. 그의 외침은 생물들을 뒤로 물러나게 한다.</p>",
-      "disable": "<p>@Check[occultism|dc:30] 또는 @Check[religion|dc:30] (전문가)로 유령의 영적 에너지를 흡수할 수 있다. 이 체크는 비밀문 뒤 계단 꼭대기에서만 시도할 수 있다.</p>",
+      "disable": "<p>@Check[occultism|dc:30] 또는 @Check[religion|dc:30](전문가)로 유령의 영적 에너지를 흡수할 수 있다. 이 체크는 비밀문 뒤 계단 꼭대기에서만 시도할 수 있다.</p>",
       "reset": "<p>60피트 내 생물이 사라지면 유령 현상은 즉시 종료된다. 비밀문이 닫히면 재설정된다.</p>",
       "routine": "<p>(1 행동) (신성, 소환, 무력화, 음파) 유령 형상이 외치며, 비밀 문으로부터 60피트 이내의 모든 생물에게 @Damage[4d10[sonic]]의 피해를 입힌다 (@Check[will|dc:28|basic|traits:divine,evocation,incapacitation,sonic]) . 내성에 실패한 생물은 1라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비} 상태가 된다.</p>",
       "stealth": "<p>(전문가)</p>",
@@ -3939,7 +3939,7 @@
     "Slamming Gate": {
       "name": "쾅 닫히는 문(Slamming Gate)",
       "desc (hazard)": "<p> 무거운 문은 반 이상 열렸을 때 쾅 닫힌다</p>",
-      "disable": "<p>@Check[thievery|dc:15|traits:action:disable-a-device|name:Loosen the Gate Springs] (훈련된) 문이 닫히기 전에 스프링을 느슨하게 한다</p>",
+      "disable": "<p>@Check[thievery|dc:15|traits:action:disable-a-device|name:Loosen the Gate Springs](훈련된) 문이 닫히기 전에 스프링을 느슨하게 한다</p>",
       "reset": "<p> 근처 벽에 숨겨진 레버를 조작하면 함정을 재활성화(또는 활성화된 경우 비활성화)할 수 있다. 해당 지역을 탐색하는 캐릭터는 @Check[perception|dc:18|traits:action:seek] 체크 성공 시 이를 발견한다.</p>",
       "stealth": "<p>(훈련된)</p>",
       "items": {
@@ -3952,7 +3952,7 @@
     "Ostovite Nest": {
       "name": "오스토비테 둥지(Ostovite Nest)",
       "desc (hazard)": "<p>개미집을 닮은 뼈의 둥지에는 사악한 산성 침을 흘리는 거대한 턱을 가진 수많은 미세한 청소 동물 해충들이 서식한다.</p>",
-      "disable": "<p>@Check[athletics|dc:18|name:Topple the Mound] (훈련된) 둥지를 뒤엎어 파괴하기</p>",
+      "disable": "<p>@Check[athletics|dc:18|name:Topple the Mound](훈련된) 둥지를 뒤엎어 파괴하기</p>",
       "reset": "<p>이 위험 요소는 자신의 턴 시작 시 산성 분출 대상이 없을 경우 비활성화된다. 새끼들은 둥지로 돌아가고 위험 요소는 초기화된다. 피해되었으나 파괴되지 않은 둥지는 새끼들이 수리함에 따라 시간당 @Damage[1d6[healing]] 체력을 회복한다.</p>",
       "routine": "<p> (1 행동) 위험 요소가 가장 가까운 생물에게 산 분출 공격(강타)를 가한다.</p>",
       "stealth": "<p>(훈련된)</p>",
@@ -3994,7 +3994,7 @@
     "Caustic Shower": {
       "name": "부식성 샤워(Caustic Shower)",
       "desc (hazard)": "<p>문, 기둥 또는 조각상에 접촉하면 산성 샤워가 발생합니다. </p>",
-      "disable": "<p>@Check[crafting|dc:48] (마스터) 충전된 구조물을 접지하거나 @Check[thievery|dc:50] (전설) 접촉 센서를 무력화</p>",
+      "disable": "<p>@Check[crafting|dc:48](마스터) 충전된 구조물을 접지하거나 @Check[thievery|dc:50](전설) 접촉 센서를 무력화</p>",
       "items": {
         "EV8XJXl8deCUfqhK": {
           "name": "산성 샤워(Acid Shower)",
@@ -4034,7 +4034,7 @@
     "Benefactor's End": {
       "name": "은인의 종말(Benefactor's End)",
       "desc (hazard)": "<p>유령 같은 공격자가 죽어가는 뱀파이어의 심장에 말뚝을 박는다; 뱀파이어는 쓰러지며 공허 에너지의 파동을 방출한다. </p>",
-      "disable": "<p>@Check[religion|dc:28] (전문가) 유령의 공허 에너지를 흡수하기 위해</p>",
+      "disable": "<p>@Check[religion|dc:28](전문가) 유령의 공허 에너지를 흡수하기 위해</p>",
       "reset": "<p>제거되지 않은 경우, 유령은 다음 달이 뜰 때 다시 모습을 드러낸다.</p>",
       "stealth": "<p>(전문가) </p>",
       "items": {
@@ -4047,7 +4047,7 @@
     "Keystone Repulsion": {
       "name": "기둥 반발(Keystone Repulsion)",
       "desc (hazard)": "<p>네 개의 마법 기둥은 하나가 피해되거나 조작될 때 생물을 반발시킨다.</p>",
-      "disable": "<p>@Check[thievery|dc:48] (전설) 각 키스톤 제거 또는 @Check[occultism|dc:48] (전설) 마법을 조작하여 각 키스톤 격리</p>",
+      "disable": "<p>@Check[thievery|dc:48](전설) 각 키스톤 제거 또는 @Check[occultism|dc:48](전설) 마법을 조작하여 각 키스톤 격리</p>",
       "routine": "<p>(4 actions) 제거되거나 고립된 키스톤마다 매 턴마다 함정은 1회 행동을 소모합니다. 각 키스톤은 1회 행동을 소모하여 힘의 파동을 방출하며, @Template[cone|distance:15] 범위 내에서 @Damage[(4d10+22)[force]] 역장 피해를 입히고 (@Check[reflex|DC:42|basic])을 적용하며, 모든 생물을 5피트 뒤로 밀어냅니다. 내성 검사에 실패한 경우, 밀려나는 거리는 10피트로 증가합니다.</p>",
       "stealth": "<p>(전설)</p>",
       "items": {
@@ -4077,7 +4077,7 @@
     "Shadow Lash": {
       "name": "그림자 채찍(Shadow Lash)",
       "desc (hazard)": "<p>네 개의 기둥에서 그림자 채찍이 창조되어 침입자를 공격한다.</p>",
-      "disable": "<p>@Check[arcana|dc:46] (전설) 각 그림자 채찍의 마법을 흡수하거나 @Check[thievery|dc:48] (전설) 각 그림자 채찍을 무력화한다 </p>",
+      "disable": "<p>@Check[arcana|dc:46](전설) 각 그림자 채찍의 마법을 흡수하거나 @Check[thievery|dc:48](전설) 각 그림자 채찍을 무력화한다 </p>",
       "routine": "<p>(8 행동) 이 함정은 무력화된 그림자 채찍마다 매 턴 2 행동을 잃습니다. 각 그림자 채찍은 다음 행동을 수행할 수 있는 2 행동을 가집니다.</p>",
       "stealth": "<p>(전설)</p>",
       "items": {
@@ -4098,7 +4098,7 @@
       "name": "우르가토아의 분노(Urgathoa's Ire)",
       "hpdetails": "눈당",
       "desc (hazard)": "<p>우르가토아의 동상이 침입자에게 눈에서 광선을 발사한다.</p>",
-      "disable": "<p>@Check[religion|dc:48] (전설) 기도로 각 눈을 해제하거나 @Check[thievery|dc:48] (전설) 각 눈을 무력화</p>",
+      "disable": "<p>@Check[religion|dc:48](전설) 기도로 각 눈을 해제하거나 @Check[thievery|dc:48](전설) 각 눈을 무력화</p>",
       "routine": "<p>(1 action) 이 함정은 무작위 침입자에게 집중된 불의 광선을 발사한다. 함정은 눈빛 광선 공격을 가한다. 우르가토아의 눈 중 하나가 무력화된 경우, 이 공격은 절반의 피해를 입힌다.</p>",
       "stealth": "<p>(전설)</p>",
       "items": {
@@ -4139,14 +4139,14 @@
           "description": "<p>산란한 마녀 집단으로서, 무덤발톱은 샤니에게 동료 마녀회의 도움 없이 하루에 한 번씩 다음 주문들을 (3rd)등급 오컬트 주문으로 시전할 수 있는 능력을 부여한다: @UUID[Compendium.pf2e.spells-srd.Item.f8hRqLJaxBVhF1u0]{산성 화살}, @UUID[Compendium.pf2e.spells-srd.Item.B3eLlbaPxOYHcs1o]{잃어버린 시간의 저주}, @UUID[Compendium.pf2e.spells-srd.Item.gPvtmKMRpg9I9D7H]{대지 결박}, @UUID[Compendium.pf2e.spells-srd.Item.wdA52JJnsuQWeyqz]{해악}, @UUID[Compendium.pf2e.spells-srd.Item.xlRv8vCTHh1NeMpw]{언데드 모방}, @UUID[Compendium.pf2e.spells-srd.Item.lKcsmeOrgHtK4xQa]{조각상 소환}, 그리고 @UUID[Compendium.pf2e.spells-srd.Item.Seaah9amXg70RKw2]{물 위 걷기}. 샤니가 그들이 맞서는 세 번째 마녀라면, 마녀회는 해체되어 그녀는 이 마녀회 마법을 사용할 수 없다.</p>"
         },
         "6zNsyu1WRFyMdwSK": {
-          "name": "법적 로어(Legal Lore)"
+          "name": "법률 로어(Legal Lore)"
         }
       }
     },
     "Wrathful Dinosaur": {
       "name": "분노의 공룡(Wrathful Dinosaur)",
       "desc (hazard)": "<p>돌진하는 트리케라톱스 형상의 이 조각상은 공룡의 대퇴골로 제작되었으며 그 영혼이 깃들어 있다. </p>",
-      "disable": "<p>@Check[nature|dc:24] (전문가) 프라이멀 주문을 외쳐 공룡의 영혼을 쫓아내거나, @Check[intimidation|dc:28] 위협적인 모습으로 쫓아내거나, @Check[survival|dc:26] (전문가) 영혼을 진정시킬 수 있다</p>",
+      "disable": "<p>@Check[nature|dc:24](전문가) 프라이멀 주문을 외쳐 공룡의 영혼을 쫓아내거나, @Check[intimidation|dc:28] 위협적인 모습으로 쫓아내거나, @Check[survival|dc:26](전문가) 영혼을 진정시킬 수 있다</p>",
       "reset": "<p>1일</p>",
       "stealth": "<p>(전문가)</p>",
       "items": {
@@ -4208,7 +4208,7 @@
     "Nightmare Portal": {
       "name": "악몽의 포탈(Nightmare Portal)",
       "desc (hazard)": "<p>얼룩덜룩한 괴물의 끔찍한 환영이 보라색 안개 속에서 비틀거리며 나타나, 이빨로 가득한 입만 남은 얼굴로 보는 이를 생생히 잡아먹으려 시도한다.</p>",
-      "disable": "<p>@Check[thievery|dc:42|name:Focus the Portal's Energy|traits:action:disable-a-device] (마스터) 포탈의 에너지를 자체로 포커스시켜 봉쇄하거나, @Check[occultism|dc:36|name:Invoke the Proper Chant] (마스터) 적절한 주문을 외우고 손동작을 취해 포탈을 꿈의 땅에서 분리시키거나, 또는 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(8th 등급; 반격 DC 34)로 1분간 포탈을 반격하여 그 시간 동안 오르게쉬의 영향이 전달되지 못하게 할 수 있다</p>",
+      "disable": "<p>@Check[thievery|dc:42|name:Focus the Portal's Energy|traits:action:disable-a-device](마스터) 포탈의 에너지를 자체로 포커스시켜 봉쇄하거나, @Check[occultism|dc:36|name:Invoke the Proper Chant](마스터) 적절한 주문을 외우고 손동작을 취해 포탈을 꿈의 땅에서 분리시키거나, 또는 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(8th 등급; 반격 DC 34)로 1분간 포탈을 반격하여 그 시간 동안 오르게쉬의 영향이 전달되지 못하게 할 수 있다</p>",
       "reset": "<p>악몽의 포탈은 더 이상 표적을 감지하지 못하면 1분 후에 재설정된다.</p>",
       "routine": "<p>(2회 행동) 얼굴 대신 원형 입만 달고 있는 거대한 우두커니한 형상의 환영이 포털에서 비틀거리며 나온다. 매 행동마다 악몽의 포털은 @UUID[Compendium.pf2e.spells-srd.Item.tlcrVRqW1MSKJ5IC]{환상의 살인자}(8th 레벨로 강화됨, @Check[will|dc:38|traits:death,emotion,fear,mental])를 시전하며, 두 번 모두 다른 생물을 대상으로 한다. 대상은 <strong>E11</strong> 구역, 북동쪽의 비밀 공간, 또는 문에서 동쪽으로 최대 10피트(닫힌 문은 차단함) 이내에서 선택할 수 있으며, 매 라운드 가장 가까운 두 대상을 선택한다. 악몽의 포탈은 파괴되면 1회 행동을 잃어, 따라서 <em>환상 살인자</em>를 라운드당 한 번만 시전할 수 있다.</p>",
       "stealth": "<p>(마스터)</p>",
@@ -4247,7 +4247,7 @@
     "The Putrid Rise": {
       "name": "부패한 상승(The Putrid Rise)",
       "desc (hazard)": "<p>벽에 새겨진 무수한 입들이 산성 슬러리를 쏟아내기 시작하자 담즙의 악취가 갑자기 진동한다.</p>",
-      "disable": "<p>@Check[thievery|dc:33] (마스터) 함정의 마법적 센서 네트워크를 교란하여 반응 대상에 대해 효과적으로 \"실명\" 하거나, @Check[religion|dc:38] (마스터) 새겨진 문양을 알아보고 안전히 통과하는 데 필요한 주문 중 하나를 떠올리거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(7th 등급; 반격 DC 32)로 함정을 반격한다.</p>",
+      "disable": "<p>@Check[thievery|dc:33](마스터) 함정의 마법적 센서 네트워크를 교란하여 반응 대상에 대해 효과적으로 \"실명\" 하거나, @Check[religion|dc:38](마스터) 새겨진 문양을 알아보고 안전히 통과하는 데 필요한 주문 중 하나를 떠올리거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(7th 등급; 반격 DC 32)로 함정을 반격한다.</p>",
       "reset": "<p>표적이 감지되지 않은 지 1라운드 후 함정은 비활성화되지만 즉시 재설정됩니다.</p>",
       "routine": "<p>함정은 자신의 턴에 구토를 행동으로 수행한다. 부패한 상승이 활성화된 동안, 영역 <strong>D3</strong>의 계단은 어려운 지형이다.</p>",
       "stealth": "<p>(마스터)</p>",
@@ -4261,7 +4261,7 @@
     "Collapsing Bridge": {
       "name": "붕괴되는 다리(Collapsing Bridge)",
       "desc (hazard)": "<p>철제 다리의 연결부가 무너져 아래 호수로 추락한다.</p>",
-      "disable": "<p>@Check[thievery|dc:40|name:Disable Quick Release Mechanism|traits:action:disable-a-device] (마스터) 다리의 한쪽 급속 해제 장치를 무력화하기 위해</p>",
+      "disable": "<p>@Check[thievery|dc:40|name:Disable Quick Release Mechanism|traits:action:disable-a-device](마스터) 다리의 한쪽 급속 해제 장치를 무력화하기 위해</p>",
       "stealth": "<p>(마스터)</p>",
       "items": {
         "9WwvYnGWQ2A6L5Xx": {
@@ -4273,7 +4273,7 @@
     "Psychic Wave": {
       "name": "사이킥파(Psychic Wave)",
       "desc (hazard)": "<p>사이킥 에너지의 파동이 방 안을 휘감으며, 해당 지역에 있는 생물들의 정신을 강제로 파고들어 침입자들의 존재를 켐네비에게 알린다.</p>",
-      "disable": "<p>@Check[arcana|dc:50] (전설급) 사이킥 에너지가 창조되기 전에 저지하기 위해</p>",
+      "disable": "<p>@Check[arcana|dc:50](전설급) 사이킥 에너지가 창조되기 전에 저지하기 위해</p>",
       "reset": "<p>1시간.</p>",
       "stealth": "<p>(전설급)</p>",
       "items": {
@@ -4300,7 +4300,7 @@
     "Glyph of Warding (B8)": {
       "name": "수호부 문양 (B8)(Glyph of Warding (B8))",
       "desc (hazard)": "<p>마법 문양이 번쩍이며 주문을 발동한다.</p>",
-      "disable": "<p>@Check[thievery|dc:33] (훈련된) 기술로 문양을 무력화하거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(7th 등급, 반격 DC 33)로 문양을 반격</p>",
+      "disable": "<p>@Check[thievery|dc:33](훈련된) 기술로 문양을 무력화하거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(7th 등급, 반격 DC 33)로 문양을 반격</p>",
       "stealth": "<p>(훈련된)</p>",
       "items": {
         "MlsNgSnDhpcgOdxw": {
@@ -4490,7 +4490,7 @@
     "Ashes of Despair": {
       "name": "절망의 재(Ashes of Despair)",
       "desc (hazard)": "<p>소용돌이치는 재가 방을 가득 채우며 거대한 맹금류의 형상을 이루고, 방 안에 있는 자들을 향해 급강하하여 그들의 생명력을 흡수한다.</p>",
-      "disable": "<p>@Check[occultism|dc:44] (마스터) 재를 움직이게 하는 그림자 마법을 방해하고 반격하거나, @Check[religion|dc:42] (마스터) 움직이게 하는 영혼을 쫓아내야 한다. 함정을 해제하려면 오컬트와 종교 체크 중 어떤 조합이든 세 번의 성공적인 체크가 필요하다.</p>",
+      "disable": "<p>@Check[occultism|dc:44](마스터) 재를 움직이게 하는 그림자 마법을 방해하고 반격하거나, @Check[religion|dc:42](마스터) 움직이게 하는 영혼을 쫓아내야 한다. 함정을 해제하려면 오컬트와 종교 체크 중 어떤 조합이든 세 번의 성공적인 체크가 필요하다.</p>",
       "reset": "<p>해당 구역에 생물이 없을 경우 유령 현상은 즉시 초기화됩니다. <strong>F9 </strong>. 이전에 유령 현상 해제 시도한 성공 기록은 이후 현상이 재발동될 때도 유지됩니다. 세 번의 성공 후에는 유령 현상이 재설정되지 않습니다.</p>",
       "routine": "<p> (1 행동) 그림자 형체가 방 안의 모든 생물에게 입, 눈, 코를 향해 연마재 재를 뿜어내며 @Damage[(3d12+20)[slashing]]의 피해를 입히고 @Check[fortitude|dc:42] 내성을 요구한다. 호흡이 필요 없는 생물은 이 유령의 영향으로 병약하지 않으며, 시력을 가지지 않은 생물은 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명} 할 수 없다.</p>\n<hr>\n<p><strong>대성공</strong> 생물은 피해를 입지 않으며 1라운드 동안 눈이 멀게 된다.</p>\n<p><strong>성공</strong> 생물은 절반의 피해를 입으며, 1라운드 동안 눈이 멀게 되고 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1} 상태가 된다. </p>\n<p><strong>실패</strong> 생물은 전체 피해를 받고, 1분 동안 실명 상태가 되며, @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 2} 상태가 됩니다. </p>\n<p><strong>대실패 </strong> 생물은 전체 피해를 입으며, 1분 동안 실명 상태가 되고, 병약 2 상태가 되며, 병약 상태인 동안 구두 발동 특성이 있는 주문이나 능력을 사용할 수 없습니다.</p>",
       "stealth": "<p> (마스터)</p>",
@@ -4622,7 +4622,7 @@
         },
         "O8JRZ8ZAEwNxvyR1": {
           "name": "죽음의 샘(Font of Death)",
-          "description": "<p>무덤 거인은 방금 죽은 생물의 영혼 흐름을 뒤집어, 일시적으로 그 생물을 불안정한 공허 에너지의 그릇으로 변형시킨다. 무덤 거인은 지난 24시간 내 사망한 생물을 접촉하여 그 살과 뼈에 공허 에너지를 주입한다. 이후 1시간 동안 한 번, 무덤 거인은 액션 하나(거리 제한 없음)를 소모하여 시체에서 이 공허 에너지를 폭발시켜 @Damage[11d12[void]|options:area-damage]의 피해를 @Template[burst|distance:15] (@Check[fortitude|dc:41|basic|options:area-effect]) 반경에 @Damage[11d12[void]|options:area-damage]의 피해를 입힌다. 한 시간이 끝나기 전에 방출하지 않으면 에너지는 무해하게 소멸한다. 무덤 거인은 이전 시체가 여전히 주입된 상태에서는 죽음의 샘을 사용할 수 없다.</p>"
+          "description": "<p>무덤 거인은 방금 죽은 생물의 영혼 흐름을 뒤집어, 일시적으로 그 생물을 불안정한 공허 에너지의 그릇으로 변형시킨다. 무덤 거인은 지난 24시간 내 사망한 생물을 접촉하여 그 살과 뼈에 공허 에너지를 주입한다. 이후 1시간 동안 한 번, 무덤 거인은 액션 하나(거리 제한 없음)를 소모하여 시체에서 이 공허 에너지를 폭발시켜 @Damage[11d12[void]|options:area-damage]의 피해를 @Template[burst|distance:15](@Check[fortitude|dc:41|basic|options:area-effect]) 반경에 @Damage[11d12[void]|options:area-damage]의 피해를 입힌다. 한 시간이 끝나기 전에 방출하지 않으면 에너지는 무해하게 소멸한다. 무덤 거인은 이전 시체가 여전히 주입된 상태에서는 죽음의 샘을 사용할 수 없다.</p>"
         },
         "CUwhBzgJAPCU9WcT": {
           "name": "마비시키는 파멸(Paralyzing Doom)",
@@ -4772,7 +4772,7 @@
           "name": "복합 장궁(Composite Longbow)"
         },
         "NgIzj5c3G3ZKA8C1": {
-          "name": "기회의 공격(Attack of Opportunity)"
+          "name": "기회 공격(Attack of Opportunity)"
         },
         "2VjzSO1Lu2NfxSvA": {
           "name": "파괴자(Devastator)",
@@ -4910,11 +4910,11 @@
           "description": "<p><strong>발동</strong> 굶주림의 사냥꾼으로부터 30피트 이내의 생명체가 사망할 경우</p>\n<hr />\n<p><strong>효과</strong> 레이버는 입으로 생물의 영혼을 몸에서 뜯어내어 삼켜 버린다. 죽어가는 생명체는 @Check[fortitude|dc:44] 레이버의 숨결 무기와 동일한 DC로 내성 굴림을 시도해야 한다.</p>\n<hr />\n<p> <strong>대성공</strong> 생물체는 영향을 받지 않는다.</p>\n<p><strong>대성공</strong> 레이버는 생물체의 영혼에서 작은 조각을 뜯어낸다. 피해자가 생명을 되찾으면, 생명을 되찾는 다른 부작용에 더해 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수된 1}됩니다. 렙터는 자신의 영혼 수호부에 생물의 레벨 절반에 해당하는 체력을 추가합니다.</p>\n<p> <strong>실패</strong> 성공과 동일하나, 생물의 영혼이 황폐화된다. 생물은 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{기운 3}을 흡수하며, 렙터는 해당 생물의 레벨에 해당하는 체력을 자신의 영혼 수호부에 추가한다.</p>\n<p><strong>대실패</strong> 실패 시와 동일하나, 탐식자가 영혼 전체를 삼켜버린다. 탐식자가 존재하는 한 피해자는 @UUID[Compendium.pf2e.spells-srd.Item.YfJTXyVGzLhM6V8U]{기적}이나 @UUID[Compendium.pf2e.spells-srd.Item.6dDtGIUerazSHIOu]{소원}과 같은 10등급 효과를 통해서만 되살릴 수 있으며, 레이버너는 자신의 영혼 수호부에 생물의 레벨의 두 배에 해당하는 체력을 추가한다.</p>"
         },
         "SzH0hxHyBlvwORAO": {
-          "name": "드래코닉 광란(Draconic Frenzy)",
+          "name": "드라코닉 광란(Draconic Frenzy)",
           "description": "<p>레이버는 발톱 공격 두 번과 날개 공격 한 번을 순서대로 수행한다.</p>"
         },
         "jprnheEoj1wr3ahE": {
-          "name": "드래코닉 모멘텀(Draconic Momentum)",
+          "name": "드라코닉 모멘텀(Draconic Momentum)",
           "description": "<p>공격으로 치명타를 기록할 때마다 용의 포효 무기를 재충전한다.</p>"
         },
         "KULBffXE7IRa4JWU": {
@@ -4934,7 +4934,7 @@
     "Unfinished Portalrender": {
       "name": "미완성 포털렌더(Unfinished Portalrender)",
       "desc (hazard)": "<p>클리포스에서 추출한 고도의 고통이 응축된 구체가 보라색 빛을 내뿜으며 방을 초자연적인 고통으로 뒤덮는다. </p>",
-      "disable": "<p>@Check[thievery|dc:37] (마스터) 하우징을 해체하고 고통을 내부로 재집중시켜 무해하게 스스로를 소모하게 하거나, @Check[arcana|dc:33] 또는 @Check[occultism|dc:33] (마스터) 통제된 방식으로 고통을 배출하여 포탈렌더가 1분 후 비활성화되도록 (이 기간 동안 정상적으로 발동 가능), 또는 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(7th 등급; 반격 DC 31) </p>",
+      "disable": "<p>@Check[thievery|dc:37](마스터) 하우징을 해체하고 고통을 내부로 재집중시켜 무해하게 스스로를 소모하게 하거나, @Check[arcana|dc:33] 또는 @Check[occultism|dc:33](마스터) 통제된 방식으로 고통을 배출하여 포탈렌더가 1분 후 비활성화되도록 (이 기간 동안 정상적으로 발동 가능), 또는 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(7th 등급; 반격 DC 31) </p>",
       "routine": "<p>미완성 포탈렌더는 계속해서 영역 <strong>B4</strong>에 고통을 퍼붓고, 방 안에 있는 모든 이는 고통을 시도하다. @Check[will|dc:33] 고통의 맥박에 대한 내성 굴림을 시도해야 한다. 자신의 턴이 끝날 때, 미완성 포탈렌더는 @Check[flat|dc:6]를 시도한다. 실패 시, 그 고통 저장고가 고갈되어 비활성화되며, 중심의 고통의 구슬이 영구히 사라진다.</p>",
       "stealth": "<p>(마스터)</p>",
       "items": {
@@ -4947,7 +4947,7 @@
     "Skewering Hall": {
       "name": "꼬챙이 홀(Skewering Hall)",
       "desc (hazard)": "<p>벽의 소켓에 숨겨진 십여 개의 창이 압력판이 작동하면 홀 안으로 쑥쑥 찔러 들어온다.</p>",
-      "disable": "<p>@Check[thievery|dc:47] (마스터) 압력판 비활성화</p>",
+      "disable": "<p>@Check[thievery|dc:47](마스터) 압력판 비활성화</p>",
       "stealth": "<p>(마스터) </p>",
       "items": {
         "s33AQaOJJ5kWUXkw": {
@@ -4996,7 +4996,7 @@
     "Soul-Drinking Spirit Collectors": {
       "name": "영혼을 빨아들이는 영혼 수집자들(Soul-Drinking Spirit Collectors)",
       "desc (hazard)": "<p>네 명의 영혼 수집자들이 근처 생물들의 영혼을 흡수한다.</p>",
-      "disable": "<p>@Check[religion|dc:47] (전설)으로 우르가토아와 각 영혼 수집가의 연결을 끊거나, @Check[thievery|dc:50] (전설)로 각 영혼 수집가를 비활성화하거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(9th; 반격 DC 50) 각 영혼 수집기를 반격하기 위해</p>",
+      "disable": "<p>@Check[religion|dc:47](전설)으로 우르가토아와 각 영혼 수집가의 연결을 끊거나, @Check[thievery|dc:50](전설)로 각 영혼 수집가를 비활성화하거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(9th; 반격 DC 50) 각 영혼 수집기를 반격하기 위해</p>",
       "routine": "<p>(4 행동) 이 함정은 비활성화된 영혼 수집기마다 매 턴 1 행동을 소모한다. 각 영혼 수집기는 30피트 내 모든 생물의 영혼을 흡수하는 데 1 행동을 사용하며, @Damage[(4d10+20)[force]] 피해(@Check[fortitude|dc:46|basic])를 입힌다. 저항에 실패한 생물은 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수된 1} 상태가 되거나 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미한 1} 상태가 되며, 이미 흡수되거나 혼미한 상태가 1 증가합니다(대실패 시 2 증가).</p>",
       "stealth": "<p>(전설) </p>",
       "items": {
@@ -5009,7 +5009,7 @@
     "Kepgeda's Keening Cauldron": {
       "name": "케프게다의 비명 가마솥(Kepgeda's Keening Cauldron)",
       "desc (hazard)": "<p> 가마솥의 귀를 찢는 울부짖음이 귀와 영혼을 동시에 공격하는 유령의 발톱을 불러낸다.</p>",
-      "disable": "<p> @Check[athletics|dc:22] 가마솥을 뒤집거나, @Check[occultism|dc:20] 또는 @Check[religion|dc:20] (훈련된)으로 가마솥의 효과를 수호할 수 있다. 유령 현상을 완전히 무력화하려면 세 번의 성공적인 시도하는 것이 필요하다. 유령 현상이 무력화되면 마녀회가 복수를 꾀한다.</p>",
+      "disable": "<p> @Check[athletics|dc:22] 가마솥을 뒤집거나, @Check[occultism|dc:20] 또는 @Check[religion|dc:20](훈련된)으로 가마솥의 효과를 수호할 수 있다. 유령 현상을 완전히 무력화하려면 세 번의 성공적인 시도하는 것이 필요하다. 유령 현상이 무력화되면 마녀회가 복수를 꾀한다.</p>",
       "reset": "<p>케프게다 외에 다른 생물이 부엌에 남아 있지 않은 라운드가 끝날 때마다, 저주는 비활성화되어(평소처럼 비명을 지르는 상태로) 돌아갑니다.</p>",
       "routine": "<p> (1 행동) 유령의 손들이 쉴 새 없이 움직이며 영역 <strong>E13</strong> 내 케프게다의 모든 적을 붙잡습니다. 유령의 발톱이 공격하는 각 생물은 @Damage[3d6[mental]] 피해(@Check[will|dc:20|basic])를 받습니다. 이 효과로 정신 피해를 입은 생물은 다음 턴 종료 시 공포 수치를 감소시키지 않는다.</p>",
       "stealth": "<p>(훈련된)</p>",
@@ -5023,7 +5023,7 @@
     "Summoning Rune (Cockatrice)": {
       "name": "소환의 룬 (코카트리스)(Summoning Rune (Cockatrice))",
       "desc (hazard)": "<p>보이지 않는 마법 센서 구름이 보이지 않는 바닥 룬 위의 칸 공간에 떠 있다.</p>",
-      "disable": "<p>@Check[acrobatics|dc:18] 함정을 작동시키지 않고 접근한 후 @Check[thievery|dc:20] (훈련된) 룬의 소환 효과를 방해하거나; 또는 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(2nd; 반격 DC 17)로 룬을 무효화할 수 있다</p>",
+      "disable": "<p>@Check[acrobatics|dc:18] 함정을 작동시키지 않고 접근한 후 @Check[thievery|dc:20](훈련된) 룬의 소환 효과를 방해하거나; 또는 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(2nd; 반격 DC 17)로 룬을 무효화할 수 있다</p>",
       "reset": "<p>함정은 24시간 후 재설정됩니다.</p>",
       "stealth": "<p>(훈련된)</p>",
       "items": {
@@ -5229,7 +5229,7 @@
           "name": "불꽃 창(Flaming Javelin)"
         },
         "KRJrlJxtXYH93rOd": {
-          "name": "기회의 공격(Attack of Opportunity)"
+          "name": "기회 공격(Attack of Opportunity)"
         },
         "zGqC1f9nAbkhFc9Q": {
           "name": "철의 명령(Iron Command)",
@@ -5335,9 +5335,9 @@
     "Castigate the Faithless": {
       "name": "신앙을 저버린 자를 징벌하라(Castigate the Faithless)",
       "desc (hazard)": "<p>마법이 동상 옆을 지나가는 자들을 갑작스러운 힘으로 땅에 내리누른다; 우회 버튼을 누르면 1분 동안 함정이 해제된다.</p>",
-      "disable": "<p>@Check[religion|dc:47] (전설) 기도로 함정을 해제하거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(8th; 반격 DC 47)로 함정을 무력화하거나, 우회 버튼을 누르세요 </p>",
+      "disable": "<p>@Check[religion|dc:47](전설) 기도로 함정을 해제하거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(8th; 반격 DC 47)로 함정을 무력화하거나, 우회 버튼을 누르세요 </p>",
       "reset": "<p>함정은 작동 시 자동으로 재설정되며, 우회 버튼을 누른 경우 1분 후, 해제 또는 반격된 경우 15분 후에 재설정됩니다.</p>",
-      "stealth": "<p>(마스터) 또는 @Check[perception|dc:50] (전설) 능력으로 우르가토아의 뼈 발에 숨겨진 우회 버튼을 발견할 수 있다</p>",
+      "stealth": "<p>(마스터) 또는 @Check[perception|dc:50](전설) 능력으로 우르가토아의 뼈 발에 숨겨진 우회 버튼을 발견할 수 있다</p>",
       "items": {
         "JfH9CSAknYYv3bDg": {
           "name": "무릎 꿇어라!(Kneel!)",
@@ -5607,7 +5607,7 @@
     "Memory Hole": {
       "name": "기억 구멍(Memory Hole)",
       "desc (hazard)": "<p>구멍을 들여다보는 자의 기억이 머릿속에서 빨려 나간다.</p>",
-      "disable": "<p>@Check[deception|dc:29] (마스터)가 구덩이에 거짓 생각을 주입해 막거나, @Check[occultism|dc:28] (전문가) 또는 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(4th 등급; 반격 DC 27)로 구덩이의 마법을 흡수한다</p>",
+      "disable": "<p>@Check[deception|dc:29](마스터)가 구덩이에 거짓 생각을 주입해 막거나, @Check[occultism|dc:28](전문가) 또는 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(4th 등급; 반격 DC 27)로 구덩이의 마법을 흡수한다</p>",
       "reset": "<p>함정은 해제되지 않으면 1시간 후 재설정된다.</p>",
       "stealth": "<p>(전문가)</p>",
       "items": {
@@ -5667,9 +5667,9 @@
     "Electrified Gate": {
       "name": "전기 문(Electrified Gate)",
       "desc (hazard)": "<p>수호부가 걸린 금속 문은 우회 버튼을 누르지 않고 만지는 자를 감전시킨다.</p>",
-      "disable": "<p>@Check[thievery|dc:47] (전설급)으로 수호부를 파괴하거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(8th 등급; 반격 DC 47)으로 수호부를 무효화하거나, 우회 버튼을 눌러야 함</p>",
+      "disable": "<p>@Check[thievery|dc:47](전설급)으로 수호부를 파괴하거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(8th 등급; 반격 DC 47)으로 수호부를 무효화하거나, 우회 버튼을 눌러야 함</p>",
       "reset": "<p>함정은 작동 시 자동으로 재설정되며, 우회 버튼을 누른 경우 1분 후, 해제되거나 반격된 경우 15분 후에 재설정된다.</p>",
-      "stealth": "<p>(마스터) 또는 @Check[perception|dc:50|traits:secret] (전설) 능력으로 해골의 안와에 숨겨진 우회 버튼을 발견할 수 있다</p>",
+      "stealth": "<p>(마스터) 또는 @Check[perception|dc:50|traits:secret](전설) 능력으로 해골의 안와에 숨겨진 우회 버튼을 발견할 수 있다</p>",
       "items": {
         "C8j1c9O2VqXOJ8ZI": {
           "name": "감전(Electrocution)",

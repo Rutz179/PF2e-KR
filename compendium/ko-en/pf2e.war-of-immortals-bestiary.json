@@ -65,7 +65,7 @@
     "Primal Chaos Aura": {
       "name": "원시 혼돈 오라(Primal Chaos Aura)",
       "desc (hazard)": "<p>원시 마법은 아기라의 보금자리 근처에서 예측 불가능해지며, 때로는 위험한 효과를 일으킬 수 있습니다.</p>",
-      "disable": "<p>@Check[nature|dc:22|name:Draw Off Excess Power] 오라의 효과를 1 라운드 동안 무효화하기 위해 과도한 힘을 일시적으로 흡수해 주변 지형으로 되돌려 보냅니다. @Check[nature|dc:26|name:Disperse Lingering Magic] (전문가) 잔류 마법을 완전히 분산시킵니다.</p>",
+      "disable": "<p>@Check[nature|dc:22|name:Draw Off Excess Power] 오라의 효과를 1 라운드 동안 무효화하기 위해 과도한 힘을 일시적으로 흡수해 주변 지형으로 되돌려 보냅니다. @Check[nature|dc:26|name:Disperse Lingering Magic](전문가) 잔류 마법을 완전히 분산시킵니다.</p>",
       "reset": "<p>위험 요소는 1 라운드 동안 목표물이 없으면 비활성화되고 즉시 초기화됩니다. 또한 Agyra가 100 피트 이내에서 1 주일 동안 잠들면 초기화됩니다.</p>",
       "routine": "<p>(2 행동) 위험은 자신의 이니셔티브에 따라 첫 번째 행동으로 주변에서 원시 에너지를 모읍니다. [[/gmr 1d6 #Energy Gathered]]를 굴림하여 수집된 에너지의 유형을 결정합니다. 위험은 두 번째 행동으로 해당 마법(2단계, DC 23, 마법 공격 수정자 [[/r 1d20+15 #Spell Attack]]{+15})을 복제합니다. 마법의 대상은 해당 지역 내의 생물 중 무작위로 선택됩니다. 이 위험이 발동하는 모든 마법은 원시 마법입니다. <strong>1</strong> 공기 (@UUID[Compendium.pf2e.spells-srd.Item.g8QqHpv2CWDwmIm1]{바람의 돌풍}); <strong>2</strong> 전기 (@UUID[Compendium.pf2e.spells-srd.Item.zDJS8E66UI0himqV]{천둥의 일격}); <strong>3</strong> 불 (@UUID[Compendium.pf2e.spells-srd.Item.ZxHC7V7HtjUsB8zH]{불꽃 화살}); <strong>4</strong> 독 (@UUID[Compendium.pf2e.spells-srd.Item.DYdvMZ8G2LiSLVWw]{거미의 독침}); <strong>5</strong> 소닉 (@UUID[Compendium.pf2e.spells-srd.Item.1xbFBQDRs0hT5xZ9]{파쇄}); <strong>6</strong> 물 (@UUID[Compendium.pf2e.spells-srd.Item.jfVCuOpzC6mUrf6f]{수압 밀기})</p>",
       "stealth": "<p> 또는 @Check[perception|dc:26|traits:action:seek] 공기에 따끔거림을 느끼고 출처가 구분되지 않는 풍부한 클로로필 녹색 향기를 맡는다</p>",
@@ -88,7 +88,7 @@
         },
         "KsRzjvgnKEGVQcLO": {
           "name": "티타닉의 힘(Titanic Might)",
-          "description": "<p>신화적인 야수는 @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple} or @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Trip}.</p>"
+          "description": "<p>신화적인 야수는 @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple} or @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{넘어뜨리기}.</p>"
         },
         "1D0MSMPriNOZ6DFm": {
           "name": "Mythic Ferocity",
@@ -111,7 +111,7 @@
         },
         "cg8c4dIdBFiff9le": {
           "name": "스윙 후크(Sweeping Hook)",
-          "description": "<p><strong>트리거</strong> 오그 보스가 성공적으로 @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Trips} 오그르 후크를 사용해 생물을 넘어뜨립니다.</p>\n<hr />\n<p><strong>효과</strong> 오거 보스가 넘어뜨린 생물에게 오거 후크 공격을 가합니다.</p>"
+          "description": "<p><strong>트리거</strong> 오그 보스가 성공적으로 @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{넘어뜨리기} 오그르 후크를 사용해 생물을 넘어뜨립니다.</p>\n<hr />\n<p><strong>효과</strong> 오거 보스가 넘어뜨린 생물에게 오거 후크 공격을 가합니다.</p>"
         }
       }
     },
@@ -177,10 +177,10 @@
     "Lightning's Dance": {
       "name": "번개의 춤(Lightning's Dance)",
       "desc (hazard)": "<p>전기 에너지가 아기라가 번개 숨결을 여러 번 사용한 지역에 퍼진다.</p>",
-      "disable": "<p>@Check[crafting|dc:35|name:Fashion Makeshift Lightning Rod] (마스터) 임시 번개 막대를 제작하고, @Check[nature|dc:33|name:Dissipate Electrical Charge] (전문가) 전기 충전을 무해하게 공기로 분산시킵니다.</p>",
+      "disable": "<p>@Check[crafting|dc:35|name:Fashion Makeshift Lightning Rod](마스터) 임시 번개 막대를 제작하고, @Check[nature|dc:33|name:Dissipate Electrical Charge](전문가) 전기 충전을 무해하게 공기로 분산시킵니다.</p>",
       "reset": "<p>위험은 1 라운드 동안 목표물이 없으면 즉시 비활성화되고 재설정됩니다. 또한 아기라가 해당 지역에서 단일 전투 중 번개 숨결을 여러 번 사용하면 재설정됩니다.</p>",
       "routine": "<p>(2 행동) 번개가 번쩍이며 튀어나옵니다. 위험은 위험의 중심으로부터 120피트 이내에 있는 두 개의 다른 생물에게 번개 공격을 가합니다. 만약 범위 내에 생물체가 하나만 있다면, 위험은 단 한 번의 공격만 수행합니다.</p>",
-      "stealth": "<p>(전문가) 또는 @Check[perception|dc:33] (마스터)로 정상적으로 전도되지 않는 표면 주변에서 불꽃이 춤추는 것을 알아차립니다</p>",
+      "stealth": "<p>(전문가) 또는 @Check[perception|dc:33](마스터)로 정상적으로 전도되지 않는 표면 주변에서 불꽃이 춤추는 것을 알아차립니다</p>",
       "items": {
         "q9e86796VNlfO0AO": {
           "name": "Static Shock",
@@ -257,7 +257,7 @@
       "name": "뼈 폭발(Boneburst)",
       "hpdetails": "(BT 45)",
       "desc (hazard)": "<p>땅에서 낮은 울부짖음이 들려오며, 고대의 갑옷 조각, 뼈 조각, 흙 덩어리가 공중으로 떠오른다. 붉은 증기가 얼굴 없는 형체를 유지하지만, 식별 가능한 형태로 응결되지 않고, 고통과 파괴의 끊임없이 변하는 이미지로 꿈틀거리며 퍼져간다.</p>",
-      "disable": "<p>@Check[occultism|dc:38|name:Negate Psychic Resonances] (마스터) 각 조각 주변의 사이킥 공명을 일시적으로 무효화하여 집합체가 분해되도록 하거나, @Check[religion|dc:33|name:Interrupt Unholy Power] (전문가) 다른 출처의 신성한 에너지로 Verex-That-Was의 불경한 힘을 일시적으로 차단합니다. 단일 출처로부터 40점의 피해를 입은 뼈 폭발이 파괴되지 않으면 1 라운드 동안 휴면 상태가 됩니다.</p>",
+      "disable": "<p>@Check[occultism|dc:38|name:Negate Psychic Resonances](마스터) 각 조각 주변의 사이킥 공명을 일시적으로 무효화하여 집합체가 분해되도록 하거나, @Check[religion|dc:33|name:Interrupt Unholy Power](전문가) 다른 출처의 신성한 에너지로 Verex-That-Was의 불경한 힘을 일시적으로 차단합니다. 단일 출처로부터 40점의 피해를 입은 뼈 폭발이 파괴되지 않으면 1 라운드 동안 휴면 상태가 됩니다.</p>",
       "reset": "<p>뼈폭발이 5 라운드 연속으로 살아있는 생물 주변에 응집하지 않으면 휴면 상태가 되어 땅 속으로 가라앉습니다. 휴면 상태가 되거나 무력화되면 뼈폭발은 다음 시간 동안 에너지를 모아 다시 활성화될 수 있습니다.</p>",
       "routine": "<p>(2 행동) 깨어난 뼈폭발은 @Template[square|distance:20] 크기의 공간을 차지합니다; BT에 도달하면 @Template[square|distance:10]로 축소됩니다. 다른 생물과 같은 공간을 차지할 수 있지만, 다른 뼈폭발과는 함께 있을 수 없습니다. 자신의 이니셔티브에 따라 뼈폭발은 첫 번째 행동으로 가장 가까운 살아있는 생물 방향으로 30피트까지 날아갑니다. 두 번째 행동으로 뼈폭발은 자신의 공간 내의 어떤 살아있는 생물 주변에 응집되며, 보이지 않는 뼈 조각들이 그들의 살을 찢어댑니다. 그 공간 내의 모든 살아있는 생물은 @Damage[(2d10+18)[slashing],1d10[spirit]|options:area-damage]{2d10+18 베기 피해와 1d10 정신 피해}(@Check[reflex|dc:35|basic|options:area-effect] 내성)를 입습니다. 만약 그 공간 내에 살아있는 생물이 없다면, 뼈 폭발은 두 번째 행동으로 30피트까지 날아갈 수 있습니다.</p>",
       "stealth": "<p>(마스터)는 부서진 잔해의 구름이 녹슨 붉은 안개와 유령 같은 피의 덩어리로 연결된 회전하는 얼굴 없는 형상으로 모여드는 것을 알아차립니다</p>",
@@ -328,7 +328,7 @@
     "Trump of the Oliphaunt": {
       "name": "올리펀트의 나팔(Trump of the Oliphaunt)",
       "desc (hazard)": "<p>압도적인 트럼펫 소리가 진동하며 주변을 가득 채우며, 모든 것이 느려짐.</p>",
-      "disable": "<p>@Check[arcana|dc:38|name:Shore Up the Area] (전문가), @Check[maelstrom-lore|dc:38|name:Shore Up the Area] (전문가), @Check[occultism|dc:38|name:Shore Up the Area] (마스터), @Check[religion|dc:38|name:Shore Up the Area] (마스터)는 Jandelay의 Oliphaunt와의 연결을 유발하는 국소적 평면 불안정성을 인식하고 해당 지역을 강화해야 합니다. 불안정성에 맞서 해당 지역을 충분히 강화하여 위험을 종결시키려면 4번의 성공이 필요합니다.</p>",
+      "disable": "<p>@Check[arcana|dc:38|name:Shore Up the Area](전문가), @Check[maelstrom-lore|dc:38|name:Shore Up the Area](전문가), @Check[occultism|dc:38|name:Shore Up the Area](마스터), @Check[religion|dc:38|name:Shore Up the Area](마스터)는 Jandelay의 Oliphaunt와의 연결을 유발하는 국소적 평면 불안정성을 인식하고 해당 지역을 강화해야 합니다. 불안정성에 맞서 해당 지역을 충분히 강화하여 위험을 종결시키려면 4번의 성공이 필요합니다.</p>",
       "reset": "<p>24시간 후 해당 지역이 다시 불안정해집니다.</p>",
       "routine": "<p>(1 행동) 해당 지역 내 모든 생물은 @Check[fortitude|dc:36] 내성을 시도해야 합니다. 이 위험으로 인해 느려짐 상태를 가진 생물은 이 효과에 대한 추가 내성 굴림에서 -2 상황 페널티를 받습니다.</p><hr><p><strong>대성공</strong> 생물은 영향을 받지 않습니다.</p><p><strong>성공</strong> 생물은 @Damage[(2d6+6)[sonic]]의 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{청각 마비} 상태가 1 라운드 동안 지속됩니다.</p><p><strong>실패</strong> 생물은 @Damage[(4d6+13)[sonic]]의 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1} 상태가 2 라운드 동안 지속됩니다.</p><p><strong>대실패</strong> 생물은 @Damage[(8d6+26)[sonic]]의 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 2} 상태가 2 라운드 동안 지속됩니다.</p>",
       "stealth": "<p>(마스터)는 올리펀트의 트럼펫이 곧 발사될 때 지역에서 형성되는 낮은 진동의 긴장감을 감지합니다.</p>",
@@ -579,7 +579,7 @@
         },
         "OuHFKcjzJlzQTflP": {
           "name": "전장 폭발(Battlefield Eruption)",
-          "description": "<p><strong>비용</strong> 1 신화 포인트</p><hr /><p><strong>효과</strong> Verex-That-Was는 땅 속으로 파고들어, 자신이나 그의 숭배자들이 전투에서 최소 10명의 지능형 생물을 살해한 동일한 평면상의 임의의 위치에서 다시 나타납니다. Verex가 도착할 때 땅에서 피와 부서진 뼈의 분수가 분출되며, @Damage[16d10[piercing]|options:area-damage]의 피해를 @Template[type:emanation|distance:30] (@Check[reflex|dc:48|basic|options:area-effect] 내성) 범위 내에 입힙니다.</p>"
+          "description": "<p><strong>비용</strong> 1 신화 포인트</p><hr /><p><strong>효과</strong> Verex-That-Was는 땅 속으로 파고들어, 자신이나 그의 숭배자들이 전투에서 최소 10명의 지능형 생물을 살해한 동일한 평면상의 임의의 위치에서 다시 나타납니다. Verex가 도착할 때 땅에서 피와 부서진 뼈의 분수가 분출되며, @Damage[16d10[piercing]|options:area-damage]의 피해를 @Template[type:emanation|distance:30](@Check[reflex|dc:48|basic|options:area-effect] 내성) 범위 내에 입힙니다.</p>"
         },
         "KteLz40XOMcgbe5f": {
           "name": "Bloodboils",
@@ -606,7 +606,7 @@
     "Wind Surge": {
       "name": "바람 폭풍(Wind Surge)",
       "desc (hazard)": "<p>아기라가 날아갈 때 허리케인급 바람이 지역을 휩쓸어갑니다.</p>",
-      "disable": "<p>@Check[athletics|dc:27|name:Crouch and Contort] (전문가) 또는 @Check[acrobatics|dc:27|name:Crouch and Contort] (전문가)를 사용하여 바람의 길을 피하기 위해 엎드리고 몸을 비틀어라 (위험은 자신에게만 적용되지 않는다), @Check[survival|dc:30|name:Point Out a Safe Space]를 사용하여 최대 3명의 생물에게 바람으로부터 안전한 공간을 가리킵니다.</p>",
+      "disable": "<p>@Check[athletics|dc:27|name:Crouch and Contort](전문가) 또는 @Check[acrobatics|dc:27|name:Crouch and Contort](전문가)를 사용하여 바람의 길을 피하기 위해 엎드리고 몸을 비틀어라 (위험은 자신에게만 적용되지 않는다), @Check[survival|dc:30|name:Point Out a Safe Space]를 사용하여 최대 3명의 생물에게 바람으로부터 안전한 공간을 가리킵니다.</p>",
       "stealth": "<p>(전문가)를 사용하여 바람의 움직임을 감지합니다</p>",
       "items": {
         "En76ig0d6noawf3J": {

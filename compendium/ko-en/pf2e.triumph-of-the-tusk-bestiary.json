@@ -22,7 +22,7 @@
     "Tar-Baphon's Shadow": {
       "name": "타르-바폰의 그림자(Tar-Baphon's Shadow)",
       "desc (hazard)": "<p>타르-바폰의 창조체가 신성한 목표물의 본질을 흡수합니다.</p>",
-      "disable": "<p>@Check[arcana|dc:33] (전문가)로 타르-바폰의 마법을 방해하거나, @Check[occultism|dc:30] 또는 @Check[religion|dc:30] (마스터)로 그림자의 에너지를 억제합니다; 카르카스 맨이 파괴되지 않는 한, 어떤 조합으로든 총 3회의 성공이 필요하며, 카르카스 맨이 파괴되면 자동으로 파괴됩니다</p>",
+      "disable": "<p>@Check[arcana|dc:33](전문가)로 타르-바폰의 마법을 방해하거나, @Check[occultism|dc:30] 또는 @Check[religion|dc:30](마스터)로 그림자의 에너지를 억제합니다; 카르카스 맨이 파괴되지 않는 한, 어떤 조합으로든 총 3회의 성공이 필요하며, 카르카스 맨이 파괴되면 자동으로 파괴됩니다</p>",
       "routine": "<p>(1 행동; 사망) 유령은 Zagresh의 신성한 에너지를 흡수하여 @Damage[5d10[void]]의 피해를 입힙니다.</p>",
       "items": {
         "coFjx9xdGwcQnavh": {
@@ -202,7 +202,7 @@
     "Battle Illusion": {
       "name": "전투 환상(Battle Illusion)",
       "desc (hazard)": "<p>건조한 신더랜드의 풍경이 녹아내리며 강물이 다시 차고 녹색 풀이 땅을 덮습니다. 전투의 소리가 곳곳에서 들리며 모든 동맹군은 사라지고, 원아이 홀드에서 온 살인적인 오크들이 그 자리를 차지합니다.</p>",
-      "disable": "<p>@Check[occultism|dc:30] 또는 @Check[religion|dc:30] (전문가)를 두 번 사용해 환영을 약화시키거나 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(4등급; DC 27에 반격)로 환상을 무효화합니다</p>",
+      "disable": "<p>@Check[occultism|dc:30] 또는 @Check[religion|dc:30](전문가)를 두 번 사용해 환영을 약화시키거나 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(4등급; DC 27에 반격)로 환상을 무효화합니다</p>",
       "reset": "<p>모든 생물이 쉐이드필드를 떠난 후 1분 후에 유령의 영향이 해제되지만 즉시 재설정됩니다. 조상 폭풍이 진정되지 않으면 전투 환각은 비활성화된 후 1일 후에 재설정됩니다.</p>",
       "routine": "<p>(1 행동; 환각, 무력화, 정신, 초자연적) 유령은 환상을 계속 유지하며, 피해자들이 버림받은 것처럼 느끼고 모든 방향에서 공격자들이 둘러싸고 있다고 느끼게 합니다. 유령의 범위 내 모든 생물은 @Check[will|dc:28|traits:illusion,incapacitation,mental,occult] 내성을 수행해야 합니다.</p><hr><p><strong>대성공</strong> 생물은 영향을 받지 않으며 1분 동안 일시적으로 면역 상태가 됩니다.</p><p><strong>성공</strong> 생물은 영향을 받지 않습니다.</p><p><strong>실패</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{혼란} 상태가 되어 1 라운드 동안 지속됩니다.</p><p><strong>대실패</strong> 생물은 추정되는 One Eye 오크에게 적대적이며, 모든 행동을 One Eye 오크에게 접근하고 공격하는 데 사용해야 합니다. 이 적대감은 1분 동안 지속되며, 저주가 해제되거나 그들이 @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 상실} 상태가 될 때까지 유지됩니다. 그들은 자신이 적이라고 인식하는 대상에 대한 공격을 자발적으로 중단할 수 없습니다.</p>",
       "stealth": "<p>(전문가)</p>",
@@ -431,7 +431,7 @@
     "Occult Weather": {
       "name": "Occult Weather",
       "desc (hazard)": "<p>하늘이 갑자기 어두워지며 머리 위에서 폭풍 구름이 우르르 울부짖고, 구름 위에서 죽은 자들의 얼굴이 나타나며 그들의 목소리가 강한 바람과 함께 울부짖습니다.</p>",
-      "disable": "<p>@Check[occultism|dc:28] (전문가) 기상 현상을 구동하는 마법 에너지를 다시 흡수하거나, @Check[religion|dc:30] (전문가) 갇힌 영혼 일부를 추방하고 폭풍을 약화시키는 것; 두 가지 중 하나를 선택해 총 3번의 성공이 필요하며, 조합은 자유롭게 가능합니다. 이 조건을 충족하면 유령 현상이 해제됩니다.</p>",
+      "disable": "<p>@Check[occultism|dc:28](전문가) 기상 현상을 구동하는 마법 에너지를 다시 흡수하거나, @Check[religion|dc:30](전문가) 갇힌 영혼 일부를 추방하고 폭풍을 약화시키는 것; 두 가지 중 하나를 선택해 총 3번의 성공이 필요하며, 조합은 자유롭게 가능합니다. 이 조건을 충족하면 유령 현상이 해제됩니다.</p>",
       "reset": "<p>유령 현상은 모든 생물이 쉐이드필드를 떠난 후 1분 후에 비활성화되지만 즉시 재설정됩니다. 초자연적 날씨는 조상 폭풍이 진정되지 않은 경우 비활성화된 후 1일 후에 재설정됩니다.</p>",
       "routine": "<p>(4 행동) 초자연적 날씨가 강화되며, 바람이 속도를 높이고 머리 위에서 번개와 천둥이 울립니다. 초자연적 날씨는 3 행동을 사용하여 세 개의 무작위 생물에게 번개 공격을 가합니다. 오크나 지난 라운드에 이를 비활성화 시도한 대상에게 우선적으로 공격하며, 마지막 행동으로 Wind of Screams를 사용합니다.</p>",
       "stealth": "<p>(전문가) 또는 @UUID[Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl]{마법 탐지}.</p>",
@@ -558,7 +558,7 @@
     "Bull Stampede": {
       "name": "황소 떼의 돌진(Bull Stampede)",
       "desc (hazard)": "<p>분노한 아우로크스가 거리로 돌진합니다.</p>",
-      "disable": "<p>4개의 @Check[athletics|dc:27], @Check[intimidation|dc:27], @Check[nature|dc:27] (전문가) 또는 @Check[survival|dc:27] (전문가) 체크를 통해 무리를 안내하거나, Stockside를 통과하는 경로를 찾거나, 무리를 통제합니다.</p>",
+      "disable": "<p>4개의 @Check[athletics|dc:27], @Check[intimidation|dc:27], @Check[nature|dc:27](전문가) 또는 @Check[survival|dc:27](전문가) 체크를 통해 무리를 안내하거나, Stockside를 통과하는 경로를 찾거나, 무리를 통제합니다.</p>",
       "routine": "<p>(1 행동) 돌진대가 전진하며 경로에 있는 모든 것을 짓밟습니다. 돌진대를 통제하려는 모든 생물은 @Check[reflex|dc:30] 내성 굴림을 시도해야 하며, 실패하면 돌진대에 휘말려 @Damage[(2d12+15)[bludgeoning]] 피해를 입습니다; 이 라운드에 위험을 무력화하는 기술 체크에 성공한 생물은 반사 내성 체크에서 +1 상황 보너스를 받습니다.</p><hr><p><strong>대성공</strong> 생물은 피해를 받지 않습니다.</p><p><strong>성공</strong> 생물은 반의 피해를 받습니다.</p><p><strong>실패</strong> 생물은 전체 피해를 입습니다.</p><p><strong>대실패</strong> 생물은 두 배의 피해를 입으며, 다음 라운드에 위험을 무력화하려는 시도를 할 수 없습니다. 이는 무리에서 벗어나기 위해 그 피해를 사용해야 하기 때문입니다.</p>",
       "stealth": "<p>(훈련된) 무리의 움직임을 예측하기 위해</p>",
       "items": {
@@ -664,7 +664,7 @@
     "Ardax's Puzzle Box": {
       "name": "아르다크스의 퍼즐 상자(Ardax's Puzzle Box)",
       "desc (hazard)": "<p>가슴 크기의 퍼즐 상자는 복잡한 디자인으로 덮여 있으며, 즉시 눈에 띄는 열림 방법이 없습니다.</p>",
-      "disable": "<p>@Check[thievery|dc:19] (훈련된), @Check[thievery|dc:18], 및 @Check[perception|dc:18]를 동시에 3명 이상의 캐릭터로 수행해야 합니다. 이 중 한 가지 체크는 AC 19에 대한 공격으로 대체될 수 있으며, 다른 하나는 상자 대상으로 전기 속성을 가진 주문을 사용해 최소 1의 피해를 입히는 것으로 대체될 수 있습니다(이 경우 상자의 경도 무시).</p>",
+      "disable": "<p>@Check[thievery|dc:19](훈련된), @Check[thievery|dc:18], 및 @Check[perception|dc:18]를 동시에 3명 이상의 캐릭터로 수행해야 합니다. 이 중 한 가지 체크는 AC 19에 대한 공격으로 대체될 수 있으며, 다른 하나는 상자 대상으로 전기 속성을 가진 주문을 사용해 최소 1의 피해를 입히는 것으로 대체될 수 있습니다(이 경우 상자의 경도 무시).</p>",
       "reset": "<p>The box resets immediately.</p>",
       "items": {
         "TU6s1NetQW2GuLKo": {
@@ -739,7 +739,7 @@
         },
         "OMU1iQbtfqTX2JmL": {
           "name": "기동 공격 연타(Flurry of Maneuvers)",
-          "description": "<p>나카샤는 연타 중 한 번 또는 두 번의 공격을 @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{그랩}, @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{밀치기}, 또는 @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Trips}.</p>"
+          "description": "<p>나카샤는 연타 중 한 번 또는 두 번의 공격을 @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{그랩}, @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{밀치기}, 또는 @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{넘어뜨리기}.</p>"
         },
         "YJp2pyuMleCsNqYD": {
           "name": "Ironblood Stance",
@@ -1170,7 +1170,7 @@
     "Locus of Death": {
       "name": "죽음의 중심점(Locus of Death)",
       "desc (hazard)": "<p>마법 구슬은 접근하는 모든 이에게 끔찍한 죽음의 환상을 가합니다.</p>",
-      "disable": "<p>@Check[nature|dc:27] (마스터)로 위치에 생명력을 주입하거나, @Check[occultism|dc:30] 또는 @Check[religion|dc:30] (전문가) 해당 장소의 에너지를 반격하기 위해, @Check[thievery|dc:35] (마스터) 구체를 제단에서 분리하기 위해</p>",
+      "disable": "<p>@Check[nature|dc:27](마스터)로 위치에 생명력을 주입하거나, @Check[occultism|dc:30] 또는 @Check[religion|dc:30](전문가) 해당 장소의 에너지를 반격하기 위해, @Check[thievery|dc:35](마스터) 구체를 제단에서 분리하기 위해</p>",
       "reset": "<p> 모든 생물이 해당 지역을 떠난 후 1분 후에 유령 현상이 비활성화됩니다. 1시간 후 유령 현상이 재활성화됩니다.</p>",
       "routine": "<p>(1 행동; 죽음, 감정, 공포, 정신) 유령의 위치에 있는 살아있는 생물체 1개(무작위로 결정됨)가 4등급 @UUID[Compendium.pf2e.spells-srd.Item.Jmxru8zMdYMRuO5n]{죽음의 비전}(@Check[will|dc:32|traits:death,emotion,fear,mental])에 의해 표적됩니다. 내성 굴림에서 대실패한 생물은 물리적으로 도망가지 않지만, 공포 상태가 해소될 때까지 위험을 무력화하려는 시도를 할 수 없습니다. 모든 생물이 영향을 받으면 유령이 비활성화됩니다.</p>",
       "stealth": "<p>(expert)</p>",
@@ -1192,7 +1192,7 @@
     "Umbra's Rage": {
       "name": "움브라의 분노(Umbra's Rage)",
       "desc (hazard)": "<p>추락한 움브라 레기온의 분노가 전투에 들어오는 모든 생물에게 스며듭니다.</p>",
-      "disable": "<p>@Check[religion|dc:26] (전문가) 가장 가까운 영혼을 쫓아내거나 @Check[diplomacy|dc:30] (전문가) 진정시키기</p>",
+      "disable": "<p>@Check[religion|dc:26](전문가) 가장 가까운 영혼을 쫓아내거나 @Check[diplomacy|dc:30](전문가) 진정시키기</p>",
       "stealth": "<p>(전문가) 또는 @UUID[Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl]{마법 탐지}</p>",
       "items": {
         "wxOrPlWRoRmNPuB8": {
@@ -1204,7 +1204,7 @@
     "Slamming Gate": {
       "name": "문 닫기(Slamming Gate)",
       "desc (hazard)": "<p>압력 감지 바닥 패널이 천장에서 날카로운 문이 내려와 아래에 있는 모든 것을 찌릅니다.</p>",
-      "disable": "<p>@Check[thievery|dc:26] (훈련된) 바닥 패널이나 관련된 윈치를 막는 것</p>",
+      "disable": "<p>@Check[thievery|dc:26](훈련된) 바닥 패널이나 관련된 윈치를 막는 것</p>",
       "stealth": "<p>(expert)</p>",
       "items": {
         "oYWt2QZTQQTsoUzc": {
@@ -1537,7 +1537,7 @@
     "Tyrant's Orders": {
       "name": "독재자의 명령(Tyrant's Orders)",
       "desc (hazard)": "<p>야그레카시가 약한 병사들이 자신의 역할을 하지 않았다고 꾸짖는 듯하다.</p>",
-      "disable": "<p>@Check[deception|dc:28] (전문가) 또는 @Check[performance|dc:28] (전문가)로 전투에 합류하는 척하거나, @Check[religion|dc:30] (마스터)로 야그레카시를 물리치세요; 어떤 조합으로든 총 3회의 성공이 필요하며, 이를 통해 유령을 무력화할 수 있습니다.</p>",
+      "disable": "<p>@Check[deception|dc:28](전문가) 또는 @Check[performance|dc:28](전문가)로 전투에 합류하는 척하거나, @Check[religion|dc:30](마스터)로 야그레카시를 물리치세요; 어떤 조합으로든 총 3회의 성공이 필요하며, 이를 통해 유령을 무력화할 수 있습니다.</p>",
       "reset": "<p>유령은 포트 화이트스컬 지역을 모든 생물이 떠난 후 1분 후에 비활성화되지만 즉시 재설정됩니다. 티라이트의 명령은 조상 폭풍이 진정되지 않은 경우 비활성화된 후 1일 후에 재설정됩니다.</p>",
       "stealth": "<p>(전문가) 또는 @UUID[Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl]{마법 탐지}</p>",
       "items": {
@@ -1806,7 +1806,7 @@
     "Tusk Mountains Avalanche": {
       "name": "이빨 산맥의 눈사태(Tusk Mountains Avalanche)",
       "desc (hazard)": "<p>산 정상에 쌓인 눈과 얼음이 폭발적인 파도로 쏟아져 내립니다.</p>",
-      "disable": "<p>3명의 @Check[crafting|dc:34] 또는 @Check[Engineering Lore|dc:34] (전문가)가 10피트 칸 영역에 보호막을 만들고 눈사태로부터 피난처를 제공할 수 있습니다; 날아다니는 생물은 @Check[acrobatics|dc:29] 체크를 시도해 @UUID[Compendium.pf2e.actionspf2e.Item.Qf1ylAbdVi1rkc8M]{비행 중 기동}으로 눈사태를 피할 수 있습니다.</p>",
+      "disable": "<p>3명의 @Check[crafting|dc:34] 또는 @Check[Engineering Lore|dc:34](전문가)가 10피트 칸 영역에 보호막을 만들고 눈사태로부터 피난처를 제공할 수 있습니다; 날아다니는 생물은 @Check[acrobatics|dc:29] 체크를 시도해 @UUID[Compendium.pf2e.actionspf2e.Item.Qf1ylAbdVi1rkc8M]{비행 중 기동}으로 눈사태를 피할 수 있습니다.</p>",
       "stealth": "<p>(trained)</p>",
       "items": {
         "mhmLB3poGguT40xc": {
@@ -1818,7 +1818,7 @@
     "Army of Mist": {
       "name": "안개 군대(Army of Mist)",
       "desc (hazard)": "<p>바람이 강해지고, 스며드는 안개가 유령 같은 오크들의 무리처럼 몰아치며, 무기를 들어 적을 살육하기 위해 무서운 전투 함성을 지르며 돌진합니다.</p>",
-      "disable": "<p>@Check[occultism|dc:28] (전문가) 안개에 흐르는 마법 에너지를 다시 안개 속으로 되돌려 보내거나, @Check[religion|dc:30] (전문가) 갇힌 영혼 일부를 추방하고 폭풍을 약화시키기 위해; 어떤 조합으로든 총 3번의 성공이 필요하며, 이를 달성해야 유령 현상이 무력화됩니다.</p>",
+      "disable": "<p>@Check[occultism|dc:28](전문가) 안개에 흐르는 마법 에너지를 다시 안개 속으로 되돌려 보내거나, @Check[religion|dc:30](전문가) 갇힌 영혼 일부를 추방하고 폭풍을 약화시키기 위해; 어떤 조합으로든 총 3번의 성공이 필요하며, 이를 달성해야 유령 현상이 무력화됩니다.</p>",
       "reset": "<p>유령 현상은 포트 화이트스컬 지역을 모든 생물이 떠난 후 1분 후에 비활성화되지만, 즉시 재설정됩니다. 안cestor storm이 진정되지 않으면, 안개 군대는 비활성화된 후 1일 후에 재설정됩니다.</p>",
       "routine": "<p>(3 행동) 안개 군대는 3 행동을 사용하여 세 개의 무작위 생물에게 얼어붙은 주먹 공격을 가합니다. 오크가 아닌 생물이나 지난 라운드에 이를 비활성화 시도한 생물을 우선적으로 공격합니다.</p>",
       "stealth": "<p>(전문가) 또는 @UUID[Compendium.pf2e.spells-srd.Item.gpzpAAAJ1Lza2JVl]{마법 탐지}</p>",
@@ -1954,7 +1954,7 @@
     "Stonegutter Mold": {
       "name": "스톤거터 몰드(Stonegutter Mold)",
       "desc (hazard)": "<p>튼튼하고 무해해 보이는 녹색 곰팡이가 표면에 자라나며 천천히 미네랄을 흡수합니다.</p>",
-      "disable": "<p>@Check[survival|dc:26] (훈련된) 곰팡이를 만지지 않고 긁어내는 것</p>",
+      "disable": "<p>@Check[survival|dc:26](훈련된) 곰팡이를 만지지 않고 긁어내는 것</p>",
       "reset": "<p>1시간 후, 곰팡이가 표면으로 다시 퍼집니다.</p>",
       "stealth": "<p>(훈련된)</p>",
       "items": {
@@ -2084,7 +2084,7 @@
         },
         "q2U72yhFgtKmNJe4": {
           "name": "돌진(Stampede)",
-          "description": "<p><strong>트리거</strong> 오록스 무리의 체력이 임계값 아래로 떨어집니다</p><hr /><p><strong>Effect</strong> 아우록스 무리가 트램플을 사용하지만 위협의 반대 방향으로 이동합니다; DC가 @Check[reflex|dc:27|basic]로 증가하고 둔기 피해가 @Damage[(4d6+6)[bludgeoning]로 증가합니다] (@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} 상태의 생물은 대신 @Damage[(5d6+6)[bludgeoning]]의 피해를 입습니다).</p>"
+          "description": "<p><strong>트리거</strong> 오록스 무리의 체력이 임계값 아래로 떨어집니다</p><hr /><p><strong>Effect</strong> 아우록스 무리가 트램플을 사용하지만 위협의 반대 방향으로 이동합니다; DC가 @Check[reflex|dc:27|basic]로 증가하고 둔기 피해가 @Damage[(4d6+6)[bludgeoning]로 증가합니다](@UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} 상태의 생물은 대신 @Damage[(5d6+6)[bludgeoning]]의 피해를 입습니다).</p>"
         },
         "itJggLyQZmEAJuTa": {
           "name": "Troop Defenses"
@@ -2095,7 +2095,7 @@
         },
         "AkJ9Qhc690Dj9NIq": {
           "name": "Horn",
-          "description": "<p><span class=\"action-glyph\">1</span> to <span class=\"action-glyph\">3</span></p>\n<p><strong>빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 오록스 무리가 범위 내의 모든 적에게 근접 공격을 가합니다. @Template[emanation|distance:5] (@Check[reflex|dc:22|basic|options:area-effect] 내성). 피해는 행동 횟수에 따라 결정됩니다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(2d8+8)[piercing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d8+10)[piercing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(2d10+9)[piercing]|options:area-damage] damage</p>"
+          "description": "<p><span class=\"action-glyph\">1</span> to <span class=\"action-glyph\">3</span></p>\n<p><strong>빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 오록스 무리가 범위 내의 모든 적에게 근접 공격을 가합니다. @Template[emanation|distance:5](@Check[reflex|dc:22|basic|options:area-effect] 내성). 피해는 행동 횟수에 따라 결정됩니다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(2d8+8)[piercing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(2d8+10)[piercing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(2d10+9)[piercing]|options:area-damage] damage</p>"
         },
         "fZ11XXtXvPLZbrJj": {
           "name": "Puncturing Charge",
@@ -2248,7 +2248,7 @@
     "Wraithwell": {
       "name": "유령 우물(Wraithwell)",
       "desc (hazard)": "<p>불사의 구슬이 저주받은 존재로 생물을 끌어당깁니다.</p>",
-      "disable": "<p>@Check[religion|dc:27] 불사의 힘을 무효화하기 위해 (마스터), @Check[occultism|dc:30] (전문가) 생명 에너지를 채널링하기 위해, @Check[thievery|dc:35] (마스터) 구체를 제단에서 분리하기 위해</p>",
+      "disable": "<p>@Check[religion|dc:27] 불사의 힘을 무효화하기 위해 (마스터), @Check[occultism|dc:30](전문가) 생명 에너지를 채널링하기 위해, @Check[thievery|dc:35](마스터) 구체를 제단에서 분리하기 위해</p>",
       "reset": "<p>모든 생물이 지역을 떠난 후 1분 후에 유령이 비활성화됩니다. 1시간 후 유령이 다시 활성화됩니다.</p>",
       "routine": "<p>(1 행동; 무효) 유령들이 지역 내 모든 생물에게 공격을 가해 @Damage[(3d10+14)[void]]의 피해를 입힙니다 (@Check[fortitude|dc:32|basic] 내성). 내성 굴림에서 실패한 생물은 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 1}(대실패 시 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 2})을 받거나 흡수 값이 1 증가합니다 (대실패 시 2), 최대 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 4}까지입니다.</p>",
       "stealth": "<p>(expert)</p>",
@@ -2270,7 +2270,7 @@
     "Locus of Destruction": {
       "name": "파괴의 중심점(Locus of Destruction)",
       "desc (hazard)": "<p>마법 구슬은 침입자들이 무의미한 파괴 행위를 저지르게 합니다.</p>",
-      "disable": "<p>@Check[crafting|dc:27] (마스터)로 로커스를 재구성하거나, @Check[occultism|dc:30] 또는 @Check[religion|dc:30] (전문가) 위치의 에너지를 반격하기 위해, @Check[thievery|dc:35] (마스터) 구체를 제단에서 분리하기 위해</p>",
+      "disable": "<p>@Check[crafting|dc:27](마스터)로 로커스를 재구성하거나, @Check[occultism|dc:30] 또는 @Check[religion|dc:30](전문가) 위치의 에너지를 반격하기 위해, @Check[thievery|dc:35](마스터) 구체를 제단에서 분리하기 위해</p>",
       "reset": "<p>모든 생물이 해당 지역을 떠난 후 1분 후에 유령이 비활성화됩니다. 1시간 후 유령이 다시 활성화됩니다.</p>",
       "routine": "<p>(1 행동; 정신) 파괴적인 충동이 강해집니다. 영향을 받은 생물은 @Check[will|dc:32|traits:mental] 내성 굴림을 시도해야 합니다. 실패하거나 대실패한 생물은 해당 턴에 유령을 무력화할 수 없습니다.</p><hr><p><strong>대성공</strong> 생물은 영향을 받지 않으며 1분 동안 일시적으로 면역됩니다.</p><p><strong>성공</strong> 이 생물은 이번 라운드 동안 영향을 받지 않습니다.</p><p><strong>실패</strong> 이 생물은 @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{혼란} 상태가 되어 1 라운드 동안, 생물과 물체를 모두 대상으로 합니다.</p><p><strong>대실패</strong> 실패와 동일하지만 혼란 상태가 1분 동안 지속됩니다.</p>",
       "stealth": "<p>(전문가)</p>",
@@ -2337,7 +2337,7 @@
     "Locus of Pain": {
       "name": "통증의 중심점(Locus of Pain)",
       "desc (hazard)": "<p>신비로운 구슬이 음산한 제단 위에 놓여 있으며, 해당 지역 내의 생물들에게 상상할 수 없는 통증을 퍼뜨립니다.</p>",
-      "disable": "<p>@Check[medicine|dc:27] (마스터) 통증의 원인을 진정시키기 위해, @Check[occultism|dc:30] 또는 @Check[religion|dc:30] 통증의 원인의 에너지를 반격하기 위해, @Check[thievery|dc:35] (마스터) 구체를 제단에서 분리하기 위해</p>",
+      "disable": "<p>@Check[medicine|dc:27](마스터) 통증의 원인을 진정시키기 위해, @Check[occultism|dc:30] 또는 @Check[religion|dc:30] 통증의 원인의 에너지를 반격하기 위해, @Check[thievery|dc:35](마스터) 구체를 제단에서 분리하기 위해</p>",
       "reset": "<p>모든 생물이 해당 지역을 떠난 후 1분 후에 유령 현상이 비활성화됩니다. 1시간 후 유령 현상이 다시 활성화됩니다.</p>",
       "routine": "<p>(1 행동; 정신적, 비치명적) 유령의 고통의 채찍에 영향을 받은 생물들은 4등급 @UUID[Compendium.pf2e.spells-srd.Item.R8bqnYiThB6MYTxD]{유령의 통증}(@Check[will|dc:32|traits:mental,nonlethal])로 인해 극심한 통증을 겪습니다. 유령의 고통으로 인해 @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 상실} 상태가 된 생물은 추가 피해를 받지 않습니다.</p>",
       "stealth": "<p>(전문가)</p>",

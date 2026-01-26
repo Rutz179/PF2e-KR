@@ -1171,7 +1171,7 @@
       "items": {
         "YFAXnwgejVd3jvv8": {
           "name": "콘 리트의 맹독(Con Rit Venom)",
-          "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:23];</p><hr /><p><strong>최대 지속 시간</strong> 6 라운드</p>\n<p><strong>1단계</strong> @Damage[1d10[poison]] (1 라운드)</p>\n<p><strong>2단계</strong> @Damage[2d10[poison]] 및 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드}(1 라운드);</p>\n<p><strong>3단계</strong> 2d10 독, 오프 가드, @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1}(1 라운드)</p>"
+          "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:23];</p><hr /><p><strong>최대 지속 시간</strong> 6 라운드</p>\n<p><strong>1단계</strong> @Damage[1d10[poison]](1 라운드)</p>\n<p><strong>2단계</strong> @Damage[2d10[poison]] 및 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드}(1 라운드);</p>\n<p><strong>3단계</strong> 2d10 독, 오프 가드, @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1}(1 라운드)</p>"
         },
         "uJF1TjO0gDfZr2NX": {
           "name": "맹독을 뱉기(Spit Venom)",
@@ -3133,7 +3133,7 @@
         },
         "VPryni3E3RGw5MdV": {
           "name": "독의 숨결(Poison Breath)",
-          "description": "<p>드래곤은 @Damage[(9d6-4)[poison]] 의 피해를 입힙니다 (@Template[cone|distance:40] (@Check[fortitude|dc:23|basic] 내성).</p>\n<p>드래곤은 [[/gmr 1d4 #Recharge Poison Breath]]{1d4 라운드} 동안 Poison Breath를 다시 사용할 수 없습니다."
+          "description": "<p>드래곤은 @Damage[(9d6-4)[poison]] 의 피해를 입힙니다 (@Template[cone|distance:40](@Check[fortitude|dc:23|basic] 내성).</p>\n<p>드래곤은 [[/gmr 1d4 #Recharge Poison Breath]]{1d4 라운드} 동안 Poison Breath를 다시 사용할 수 없습니다."
         }
       }
     },

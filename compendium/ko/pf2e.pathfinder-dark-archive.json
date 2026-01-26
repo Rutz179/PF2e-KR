@@ -43,7 +43,7 @@
     "Entrapping Chair": {
       "name": "포획 의자",
       "desc (hazard)": "<p>숨겨진 레일 위를 달리는 의자가 돌진해 생물을 의자 좌석에 밀어넣고, 압박하는 팔걸이로 그 자리를 고정합니다.</p>",
-      "disable": "<p>@Check[thievery|dc:23|name:Disrupt the Tracks|traits:action:disable-a-device] (전문가) 트랙을 방해하기 위해</p>",
+      "disable": "<p>@Check[thievery|dc:23|name:Disrupt the Tracks|traits:action:disable-a-device](전문가) 트랙을 방해하기 위해</p>",
       "reset": "<p>의자가 비어 있으면 2 라운드 후에 함정이 자동으로 재설정됩니다.</p>",
       "stealth": "<p>(의자를 알아차리기까지 0)</p>",
       "items": {
@@ -56,7 +56,7 @@
     "False Step Floor": {
       "name": "거짓 발걸음 바닥",
       "desc (hazard)": "<p>각 생물이 방에 들어갈 때마다 바닥을 미끄러져 차원 간 공허를 통과한 후 천장을 통해 방으로 떨어지며 바닥에 착지합니다.</p>",
-      "disable": "<p>@Check[thievery|dc:28|name:Disrupt the Magical Energy|traits:action:disable-a-device] (훈련된) 마법 에너지를 방해하거나, @Check[arcana|dc:27|name:Realign the Magic] 또는 @Check[occultism|dc:27|name:Realign the Magic] (훈련된) 마법 에너지를 재정렬합니다</p>",
+      "disable": "<p>@Check[thievery|dc:28|name:Disrupt the Magical Energy|traits:action:disable-a-device](훈련된) 마법 에너지를 방해하거나, @Check[arcana|dc:27|name:Realign the Magic] 또는 @Check[occultism|dc:27|name:Realign the Magic](훈련된) 마법 에너지를 재정렬합니다</p>",
       "items": {
         "WYeWa4hUK5Lu9dLb": {
           "name": "False Step",
@@ -67,7 +67,7 @@
     "Reflected Desires": {
       "name": "반사된 욕망",
       "desc (hazard)": "<p>이 거울은 관찰자의 가장 깊은 욕망을 반영합니다.</p>",
-      "disable": "<p>@Check[thievery|dc:18|name:Shroud the Mirror|traits:action:disable-a-device] (훈련된) 거울을 보지 않고 가리거나, @Check[occultism|dc:17|name:Erect Mental Barriers] (훈련된) 정신적 장벽을 세우기</p>",
+      "disable": "<p>@Check[thievery|dc:18|name:Shroud the Mirror|traits:action:disable-a-device](훈련된) 거울을 보지 않고 가리거나, @Check[occultism|dc:17|name:Erect Mental Barriers](훈련된) 정신적 장벽을 세우기</p>",
       "reset": "<p>자동</p>",
       "stealth": "<p>(거울을 알아차리기까지 0)</p>",
       "items": {
@@ -108,7 +108,7 @@
     "Sigil of Deepest Fears": {
       "name": "가장 깊은 두려움의 상징",
       "desc (hazard)": "<p>마법적인 상징이 생물들이 가장 큰 두려움과 맞서게 합니다.</p>",
-      "disable": "<p>@Check[thievery|dc:43|name:Drain the Sigil's Power|traits:action:disable-a-device] (마스터)로 시그일의 힘을 무해하게 흡수하거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic}(9단계; DC 42에 반격하여 문양을 무효화합니다.</p>",
+      "disable": "<p>@Check[thievery|dc:43|name:Drain the Sigil's Power|traits:action:disable-a-device](마스터)로 시그일의 힘을 무해하게 흡수하거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{Dispel Magic}(9단계; DC 42에 반격하여 문양을 무효화합니다.</p>",
       "reset": "<p>1일</p>",
       "stealth": "<p>(마스터)</p>",
       "items": {
@@ -159,7 +159,7 @@
       "name": "클론 미러",
       "hpdetails": "각 미러당",
       "desc (hazard)": "<p>두 개의 반대편 거울이 홀에 있는 생물의 환영 복제체를 끝없이 밀려오는 파도처럼 생성합니다.</p>",
-      "disable": "<p>@Check[thievery|dc:28|name:Reposition Mirror|traits:action:disable-a-device] (전문가) 각 거울을 재배치하거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(3단계; 저항 DC 25)로 각 거울을 반격합니다.</p>",
+      "disable": "<p>@Check[thievery|dc:28|name:Reposition Mirror|traits:action:disable-a-device](전문가) 각 거울을 재배치하거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(3단계; 저항 DC 25)로 각 거울을 반격합니다.</p>",
       "reset": "<p>1일</p>",
       "routine": "<p>(2 행동) 이 함정은 비활성화된 각 거울마다 1 행동을 잃습니다. 각 거울은 거울에 반영된 생물의 반영을 생성하기 위해 1 행동을 사용합니다. 이 위험은 한 번에 최대 4개의 반영을 생성할 수 있습니다.</p>",
       "items": {
@@ -185,7 +185,7 @@
       "name": "경계하는 사냥개들",
       "hpdetails": "60 HP per hound",
       "desc (hazard)": "<p> 세 마리의 유령 개가 침입자를 추격하며 지나가는 모든 것에 피해를 줍니다.</p>",
-      "disable": "<p>@Check[nature|dc:36|name:Calm Hound] (전문가)로 각 하운드를 진정시키거나, @Check[occultism|dc:38|name:Banish Hound] (마스터)로 각 하운드를 추방합니다.</p>",
+      "disable": "<p>@Check[nature|dc:36|name:Calm Hound](전문가)로 각 하운드를 진정시키거나, @Check[occultism|dc:38|name:Banish Hound](마스터)로 각 하운드를 추방합니다.</p>",
       "reset": "<p>1 hour</p>",
       "routine": "<p>(9 행동) 함정은 각 라운드마다 무력화된 개마다 3 행동을 잃습니다. 각 개는 방 내의 생물 뒤로 40피트 이동하며, 이 이동 중 가능하면 실체 생물을 통과합니다. 개가 이동 중 통과하는 각 생물은 @Damage[(2d8 + 7)[void]] 피해를 입습니다 (@Check[reflex|dc:37|traits:damaging-effect]로 무효화됨). 생물은 각 라운드에 각 하운드로부터 한 번만 피해를 입을 수 있으며, 하운드가 그 공간을 몇 번 통과하더라도 마찬가지입니다.</p>",
       "items": {
@@ -198,7 +198,7 @@
     "Exhaling Portal": {
       "name": "숨을 내쉬는 포털",
       "desc (hazard)": "<p>문틀에 새겨진 룬이 문을 열면 공기의 차원으로 연결되어, 연결된 복도로 생물들을 날려보냅니다.</p>",
-      "disable": "<p>@Check[thievery|dc:30|name:Scratch Out Runes|traits:action:disable-a-device] (전문가) 두 번 사용해 룬을 긁어내거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(5단계; DC 30에 반격)로 평면 룬을 무효화하거나, @Check[athletics|dc:32|name:Shut the Door] 문을 닫습니다(문이 열려 있을 경우). (운동은 함정을 멈추지만 완전히 무력화하지 않습니다)</p>",
+      "disable": "<p>@Check[thievery|dc:30|name:Scratch Out Runes|traits:action:disable-a-device](전문가) 두 번 사용해 룬을 긁어내거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(5단계; DC 30에 반격)로 평면 룬을 무효화하거나, @Check[athletics|dc:32|name:Shut the Door] 문을 닫습니다(문이 열려 있을 경우). (운동은 함정을 멈추지만 완전히 무력화하지 않습니다)</p>",
       "reset": "<p>문 닫힌 후 자동으로 발동</p>",
       "routine": "<p>(1 행동) 함정은 1 행동을 사용해 복도에 강력한 바람을 불어냅니다. 복도에 있는 모든 생물은 Gust와 동일한 결과로 @Check[fortitude|dc:32] 내성 굴림을 시도해야 합니다. 이 강제 이동으로 인해 생물이 고체 물체와 충돌하거나 계단 아래로 떨어지거나 창문 밖으로 떨어질 경우, 해당 생물은 추가로 @Damage[(2d10 + 11)[bludgeoning]] 피해를 입습니다 (또는 @Damage[20[bludgeoning]|options:fall-damage] 추락 피해)..</p>",
       "items": {
@@ -211,7 +211,7 @@
     "Disorienting Illusions": {
       "name": "혼란스러운 환상",
       "desc (hazard)": "<p>이 방을 감싸고 있는 환각은 방과 그 안의 모든 것이 왜곡되고 계속 움직이는 것처럼 보이게 합니다. 방과 그 안의 모든 것이 기울어지고 불규칙하며 움직이는 것처럼 보입니다.</p>",
-      "disable": "<p>@Check[crafting|dc:17|name:Calculate the Room's Dimensions] (훈련된) 환각에도 불구하고 방의 크기를 계산하거나 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(1단계; 반격 DC 17)로 환상을 무효화합니다.</p>",
+      "disable": "<p>@Check[crafting|dc:17|name:Calculate the Room's Dimensions](훈련된) 환각에도 불구하고 방의 크기를 계산하거나 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(1단계; 반격 DC 17)로 환상을 무효화합니다.</p>",
       "reset": "<p>1분</p>",
       "items": {
         "ZJEa0ERwBrbsozjF": {
@@ -246,7 +246,7 @@
     "Thalassophobic Pool": {
       "name": "탈라소포비아 풀",
       "desc (hazard)": "<p>풀은 그 안으로 떨어지는 생물을 빨아들여 끝없는 심연으로 가라앉게 합니다.</p>",
-      "disable": "<p>@Check[diplomacy|dc:32|name:Calm the Pool] (주인) 또는 @Check[deception|dc:32|name:Calm the Pool] (주인)을 사용하여 공포를 진정시키고 풀을 진정시키거나 @Check[intimidation|dc:35|name:Scare the Pool]을 사용하여 풀이 더 두려워할 것을 주어야 합니다; 세 번의 성공이 필요합니다.</p>",
+      "disable": "<p>@Check[diplomacy|dc:32|name:Calm the Pool](주인) 또는 @Check[deception|dc:32|name:Calm the Pool](주인)을 사용하여 공포를 진정시키고 풀을 진정시키거나 @Check[intimidation|dc:35|name:Scare the Pool]을 사용하여 풀이 더 두려워할 것을 주어야 합니다; 세 번의 성공이 필요합니다.</p>",
       "reset": "<p>함정에 움직이는 생물이 없으면 함정이 재설정됩니다.</p>",
       "routine": "<p>(3 행동) 성배의 물은 각 행동마다 물의 깊이를 10피트씩 증가시킵니다. 이 현상이 발생할 때마다 연못 속 생물은 10피트 아래로 밀려나며 @Damage[1d6[bludgeoning]]의 피해를 입습니다. 연못에는 바닥이 없기 때문에 연못 속 생물은 무한히 떨어질 수 있습니다. 익사하지 않으려면 @UUID[Compendium.pf2e.actionspf2e.Item.c8TGiZ48ygoSPofx]{Swim}을 사용해 위로 올라가야 하지만, 물이 특히 거칠기 때문에 운동 DC는 @Check[athletics|dc:25|traits:action:swim]입니다. 풀은 결코 넘치지 않습니다. Disable 체크에 성공할 때마다 풀의 행동이 1 감소하며, 풀이 완전히 Disabled되면 물이 고요해지고 운동 DC는 @Check[athletics|dc:10|traits:action:swim]로 감소합니다.</p>",
       "stealth": "<p>(trained)</p>",
@@ -272,7 +272,7 @@
     "Shrinking Hall": {
       "name": "축소되는 복도",
       "desc (hazard)": "<p>이 복도는 생물이 통과할 때마다 축소되도록 설계되어 있어, 복도 끝의 문에 접근하는 것이 불가능합니다.</p>",
-      "disable": "<p>@Check[thievery|dc:21|name:Jam the Scales|traits:action:disable-a-device] (훈련된) 바닥에 내장된 저울을 막기 위해</p>",
+      "disable": "<p>@Check[thievery|dc:21|name:Jam the Scales|traits:action:disable-a-device](훈련된) 바닥에 내장된 저울을 막기 위해</p>",
       "reset": "<p>이 복도의 바닥에 무게가 10분 동안 가해지지 않으면 이 함정이 재설정되어 복도가 원래 크기로 돌아갑니다.</p>",
       "items": {
         "jGLOByWSFpkvum9N": {
@@ -284,7 +284,7 @@
     "Spirit Window": {
       "name": "영혼의 창",
       "desc (hazard)": "<p>유령이 갇힌 창문을 만지는 자에게 해를 입힙니다.</p>",
-      "disable": "<p>@Check[occultism|dc:48|name:Free the Spirits] (전설급) 거울 속 영혼을 해방시키거나, @Check[religion|dc:48|name:Banish the Spirits] (전설급) 영혼을 추방하기 위해</p>",
+      "disable": "<p>@Check[occultism|dc:48|name:Free the Spirits](전설급) 거울 속 영혼을 해방시키거나, @Check[religion|dc:48|name:Banish the Spirits](전설급) 영혼을 추방하기 위해</p>",
       "reset": "<p>1 round</p>",
       "items": {
         "2WfGqYcBTEQfIJje": {
@@ -296,7 +296,7 @@
     "Distortion Mirror": {
       "name": "왜곡 거울",
       "desc (hazard)": "<p>유원지 거울은 관찰자의 반사를 왜곡하여, 반사된 이미지에 맞추어 그들의 몸을 고통스럽게 변형시킵니다.</p>",
-      "disable": "<p>@Check[thievery|dc:38|name:Deface the Mirror|traits:action:disable-a-device] (마스터)로 거울의 패널을 훼손하거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(7등급; 저항 DC 36)로 거울을 해제하거나 변형을 반격합니다.</p>",
+      "disable": "<p>@Check[thievery|dc:38|name:Deface the Mirror|traits:action:disable-a-device](마스터)로 거울의 패널을 훼손하거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(7등급; 저항 DC 36)로 거울을 해제하거나 변형을 반격합니다.</p>",
       "reset": "<p>1 day</p>",
       "stealth": "<p>0 거울을 알아차리기</p>",
       "items": {
@@ -411,7 +411,7 @@
     "Constricting Hall": {
       "name": "압박하는 홀",
       "desc (hazard)": "<p>생물이 홀의 중심점에 도달하면 홀의 네 벽이 유체처럼 유연해집니다.</p>",
-      "disable": "<p>@Check[thievery|dc:28|name:Stabilize Wall|traits:action:disable-a-device] (훈련된) 각 벽을 안정시키기 위해, 또는 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(4단계; 반격 DC 26) 각 벽을 반격하기 위해</p>",
+      "disable": "<p>@Check[thievery|dc:28|name:Stabilize Wall|traits:action:disable-a-device](훈련된) 각 벽을 안정시키기 위해, 또는 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(4단계; 반격 DC 26) 각 벽을 반격하기 위해</p>",
       "reset": "<p>1 시간</p>",
       "routine": "<p>(4 행동) 이 함정은 비활성화된 각 벽마다 매 라운드마다 1 행동을 잃습니다. 각 벽은 1 행동을 사용하여 빠르게 앞뒤로 충돌하며, 홀 내의 한 생물을 벽 공격으로 공격합니다. 공격이 적중하면 대상은 추가로 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} 상태가 됩니다. 벽은 홀에 있는 생물들에게 가능한 한 균등하게 공격을 분배하며, 공격은 함정의 다중 공격 페널티를 적용하지 않습니다.</p>",
       "items": {
@@ -428,7 +428,7 @@
       "name": "은폐된 공격자",
       "hpdetails": "spirit",
       "desc (hazard)": "<p>A 영혼이 덮인 거울에서 나와 천을 벗어내며 그 천에 감싸여 거울을 드러냅니다. 덮인 인물은 천이 벗겨질 때까지 살아있는 자들을 공격하며, 천이 벗겨지면 형태 없는 영혼이 사라집니다.</p>",
-      "disable": "<p>@Check[thievery|dc:43|name:Steal the Cloth|traits:action:disable-a-device] (주인) 영혼이 창조되기 전에 천을 훔치거나, @Check[athletics|dc:47|name:Pull the Cloth Off] 영혼이 창조된 후 천을 벗겨내세요</p>",
+      "disable": "<p>@Check[thievery|dc:43|name:Steal the Cloth|traits:action:disable-a-device](주인) 영혼이 창조되기 전에 천을 훔치거나, @Check[athletics|dc:47|name:Pull the Cloth Off] 영혼이 창조된 후 천을 벗겨내세요</p>",
       "reset": "<p>거울이 천이나 수의로 덮이면 유령의 출현이 초기화됩니다.</p>",
       "routine": "<p>(3 행동) 영혼은 3개의 행동을 사용하여 이동, 60피트 비행, 또는 공격을 순서대로 수행합니다. 공격이 성공하면 영혼의 목표는 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 1} 상태가 되며, 대성공 시 목표는 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened 2}.</p>",
       "items": {

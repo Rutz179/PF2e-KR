@@ -274,7 +274,7 @@
           "name": "촉수"
         },
         "bxjYZ892TLi9AizW": {
-          "name": "기회의 공격"
+          "name": "기회 공격"
         },
         "PXA2uFcT0VRiQkBO": {
           "name": "공포의 저주",
@@ -418,7 +418,7 @@
         },
         "xk8dbRocKTe3GSWC": {
           "name": "포자 폭발",
-          "description": "<p>용의 피 덩어리가 죽으면 폭발하여 @Damage[7d8[poison]|options:area-damage]의 피해를 @Template[emanation|distance:20] (@Check[fortitude|dc:26|basic|options:area-effect] 내성) 범위 내의 모든 생물에게 입힌다. </p>"
+          "description": "<p>용의 피 덩어리가 죽으면 폭발하여 @Damage[7d8[poison]|options:area-damage]의 피해를 @Template[emanation|distance:20](@Check[fortitude|dc:26|basic|options:area-effect] 내성) 범위 내의 모든 생물에게 입힌다. </p>"
         }
       }
     },
@@ -602,7 +602,7 @@
     "Stonescale Spirits": {
       "name": "돌비늘 영혼들",
       "desc (hazard)": "<p>울부짖는 소용돌이 속에서 잔해 속에서 유령 같은 코볼트 여섯 마리가 떠오른다.</p>",
-      "disable": "<p>@Check[intimidation|dc:18|name:Frighten the Spirits] (훈련된) 위협적인 모습으로 영혼들을 공포주거나, @Check[religion|dc:21|name:Excorcise the Spirits] (훈련된) 영혼들을 쫓아내는</p>",
+      "disable": "<p>@Check[intimidation|dc:18|name:Frighten the Spirits](훈련된) 위협적인 모습으로 영혼들을 공포주거나, @Check[religion|dc:21|name:Excorcise the Spirits](훈련된) 영혼들을 쫓아내는</p>",
       "reset": "<p>해당 턴 시작 시 영역 <strong>A7</strong> 내에 {공포} 생물이 없으면 유령의 집은 비활성화된다. 유령 코볼트들은 잔해 더미로 돌아간다. </p>\n<p>유령의 저주는 1시간 동안 다시 활성화될 수 없습니다.</p>",
       "routine": "<p>(1 행동) 영혼들이 <strong>A7</strong> 영역 내 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포} 상태인 한 생물에게 함께 돌진하며 배신감과 혼란을 심어준다. 대상은 @Damage[(1d10+4)[mental]]의 피해를 입는다 (@Check[will|dc:18|basic] 내성).</p>",
       "stealth": "<p>(훈련됨)</p>",
@@ -616,7 +616,7 @@
     "Images of Failure": {
       "name": "실패의 이미지",
       "desc (hazard)": "<p>사이킥으로 강화된 환상이 40피트 길이, 15피트 너비의 복도(지도상의 흰색 점선 상자)에 있는 생물들의 마음에 그들의 과거 실패에 대한 기억으로 넘쳐흐른다. </p>",
-      "disable": "<p>@Check[occultism|dc:32|name:Weaken the images] (마스터) 또는 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(5th 등급; 반격 DC 26)로 이미지를 약화시킬 수 있음; 함정을 무력화하려면 세 번의 성공이 필요함 </p>",
+      "disable": "<p>@Check[occultism|dc:32|name:Weaken the images](마스터) 또는 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(5th 등급; 반격 DC 26)로 이미지를 약화시킬 수 있음; 함정을 무력화하려면 세 번의 성공이 필요함 </p>",
       "reset": "<p> 함정은 즉시 재설정되며, 동일한 생물에게 그 생물의 턴에 여러 번 영향을 줄 수 있다.</p>",
       "stealth": "<p>(전문가)로 환상적 이미지가 마법 함정을 숨기고 있음을 깨닫는다(이미지를 알아차리는 것은 DC 0이다)</p>",
       "items": {
@@ -703,7 +703,7 @@
           "name": "마법 저항에 대한 모든 내성에 +1 상태"
         },
         "T108hwN1OhACYQdQ": {
-          "name": "기회의 공격"
+          "name": "기회 공격"
         },
         "GZ55vWFhwaHyhnfM": {
           "name": "아베르날 열병",
@@ -972,7 +972,7 @@
     "Paralyzing Light Trap": {
       "name": "마비 광선 함정",
       "desc (hazard)": "<p>데빌이 아닌 생물이 이 빛 속으로 들어오면, 빛에 얽힌 마법이 그 생물을 제자리에 고정시키고 경보를 울립니다.</p>",
-      "disable": "<p>@Check[thievery|dc:26|name:Distort or Diffuse the Light|traits:magical,trap] (마스터) 빛을 왜곡하거나 확산시켜 빛의 원뿔 형태는 유지하되 함정이 발동되지 않도록 하거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(4th 등급; 반격 DC 26)로 빛을 해제하여 방을 어둠에 빠뜨릴 수 있다.</p>",
+      "disable": "<p>@Check[thievery|dc:26|name:Distort or Diffuse the Light|traits:magical,trap](마스터) 빛을 왜곡하거나 확산시켜 빛의 원뿔 형태는 유지하되 함정이 발동되지 않도록 하거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(4th 등급; 반격 DC 26)로 빛을 해제하여 방을 어둠에 빠뜨릴 수 있다.</p>",
       "reset": "<p>빛 속에 깃든 정지 마법은 한 시간 동안 축적되며, 이후 함정이 다시 작동할 수 있다.</p>",
       "routine": "<p>(1 행동) 방 안에 있는 모든 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{기절} 상태와 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비} 상태인 생물들은 @Damage[1d10[mental]] 피해를 받는다 (@Check[will|dc:26|basic|traits:magical,trap] 내성). 저항에 실패한 생물은 1라운드 동안 마비 상태가 되지만, 반응을 사용해 정신적으로 이 정지 상태를 떨쳐낼 수 있다. 그렇게 한 생물은 @Damage[5d10[mental]] 정신 피해를 입지만 더 이상 마비되지 않는다.</p>",
       "stealth": "<p>(전문가)</p>",
@@ -1221,7 +1221,7 @@
           "description": "<p>유레비안은 자신의 선천적 @UUID[Compendium.pf2e.spells-srd.Item.r784cIz17eWujtQj]{투시} 주문을 마음대로 시전할 수 있으나, 단, 계약을 맺은 생물, 계약서에 명시된 특정 생물, 또는 그 생물의 후손만을 대상으로 할 수 있다. 대상의 내성 굴림 결과는 실제 굴린 결과보다 한 단계 낮은 수치로 처리된다.</p>"
         },
         "LjVRW54085z5XE2p": {
-          "name": "법적 로어"
+          "name": "법률 로어"
         }
       }
     },
@@ -1460,10 +1460,10 @@
     "Befuddling Gas Trap": {
       "name": "혼란 가스 함정",
       "desc (hazard)": "<p>15피트 높이의 천장에 숨겨진 일곱 개의 노즐에서 독가스가 방출된다.</p>",
-      "disable": "<p>@Check[thievery|dc:33|name:Disable Hidden Mechanism|traits:action:disable-a-device] (마스터) 북쪽 벽의 숨겨진 장치를 해제하여 즉시 방 안의 가스를 빨아들이거나, @Check[thievery|dc:29|name:Plug One Nozzle|traits:action:disable-a-device] (전문가) 일곱 개의 노즐 중 하나를 적절히 막아야 한다. 일곱 노즐 모두 막히거나 파괴되면 함정은 해제된다.</p>",
+      "disable": "<p>@Check[thievery|dc:33|name:Disable Hidden Mechanism|traits:action:disable-a-device](마스터) 북쪽 벽의 숨겨진 장치를 해제하여 즉시 방 안의 가스를 빨아들이거나, @Check[thievery|dc:29|name:Plug One Nozzle|traits:action:disable-a-device](전문가) 일곱 개의 노즐 중 하나를 적절히 막아야 한다. 일곱 노즐 모두 막히거나 파괴되면 함정은 해제된다.</p>",
       "reset": "<p>1시간 후 함정은 해제됩니다. 가스는 서서히 흩어지고 문을 다시 열 수 있습니다. 24시간이 지나면 가스가 다시 축적되어 함정을 재작동시킬 수 있습니다. </p>",
       "routine": "<p>(1 행동) 가스가 농축됩니다. 방 안에 있는 모든 생물은 @Check[fortitude|dc:30]을 수행해야 합니다.</p>\n<hr />\n<p><strong>대성공</strong> 생물은 영향을 받지 않으며 1시간 동안 가스에 일시적으로 면역 상태가 됩니다. 단, 이미 함정에 의해 혼미 상태였던 경우 해당 상태는 정상 지속 시간 동안 유지됩니다.</p>\n<p><strong>성공</strong> 생물은 영향을 받지 않습니다.</p>\n<p><strong>실패</strong> 생물은 24시간 동안 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1} 상태가 된다. 대상이 이미 혼미 상태라면, 상태 수치가 1 증가하며(최대 혼미 4까지) 대상은 @Damage[8d6[mental]]의 피해를 입습니다.</p>\n<p><strong>치명적 효과</strong> 실패 시, 대상이 정신 피해를 두 배로 받습니다.</p>",
-      "stealth": "<p>+21 (전문가) 또는 @Check[perception|dc:31|traits:action:seek] (전문가)로 북쪽 벽의 숨겨진 우회 장치를 발견합니다.</p>",
+      "stealth": "<p>+21 (전문가) 또는 @Check[perception|dc:31|traits:action:seek](전문가)로 북쪽 벽의 숨겨진 우회 장치를 발견합니다.</p>",
       "items": {
         "yCvj5N1H04hmAYuS": {
           "name": "가스 방출",
@@ -1563,7 +1563,7 @@
         },
         "1CumgFDHAf5o5Yfs": {
           "name": "호흡 무기",
-          "description": "<p>갠타니우스는 산성 액체를 토해내어 @Damage[9d6[acid]|options:area-damage]의 피해를 @Template[line|distance:60] (@Check[reflex|dc:26|basic|options:area-effect] 내성).</p>\n<p>[[/gmr 1d4 #호흡 무기 재충전]]{1d4 라운드} 동안 호흡 무기를 다시 사용할 수 없습니다.</p>"
+          "description": "<p>갠타니우스는 산성 액체를 토해내어 @Damage[9d6[acid]|options:area-damage]의 피해를 @Template[line|distance:60](@Check[reflex|dc:26|basic|options:area-effect] 내성).</p>\n<p>[[/gmr 1d4 #호흡 무기 재충전]]{1d4 라운드} 동안 호흡 무기를 다시 사용할 수 없습니다.</p>"
         }
       },
       "AthleticsVariants": {
@@ -1735,7 +1735,7 @@
     "Shuffling Scythe Blades": {
       "name": "삐걱거리는 낫날",
       "desc (hazard)": "<p>벽과 바닥 홈에 숨겨진 여섯 개의 긴 날이 벽과 바닥의 홈에 숨겨져 있으며, 복도 교차점의 압력판 중 하나라도 눌리면 이 복도의 여러 구간을 지그재그로 이동한다. 압력판이 너무 많아 방을 통과할 때 이를 피하는 것은 불가능하다. 칼날들은 바닥으로 후퇴하여 숨겨진 홈을 따라 이동한 후, 다른 위치에서 다시 벽을 통해 휘둘러 나온다. </p>",
-      "disable": "<p>@Check[thievery|dc:26|name:Disable Each Blade] (전문가) 각 칼날을 무력화하거나, 마법 암호 (차프킴만이 아는) 마법 암호를 외쳐야 10분간 함정을 해제할 수 있다</p>",
+      "disable": "<p>@Check[thievery|dc:26|name:Disable Each Blade](전문가) 각 칼날을 무력화하거나, 마법 암호 (차프킴만이 아는) 마법 암호를 외쳐야 10분간 함정을 해제할 수 있다</p>",
       "reset": "<p> 해당 구역에 생물이 남아 있지 않으면 함정은 재설정됩니다 <strong>B20</strong>. 피해되거나 파괴된 블레이드는 함정 재설정 시 복구되지 않습니다.</p>",
       "routine": "<p> (7 행동) 함정은 각 날마다 1 행동을 소모합니다; 날은 해당 구역 내 모든 생물에게 낫 공격(Scythe Strike)를 가합니다. 마지막 행동으로 함정은 낫 셔플을 사용합니다. 파괴된 날마다 함정이 취할 수 있는 행동 수를 1 감소시킵니다.</p>",
       "stealth": "<p>(전문가)</p>",
@@ -1786,7 +1786,7 @@
     "Blood of Belcorra": {
       "name": "벨코라의 피",
       "desc (hazard)": "<p>벨코라의 피범벅된 형상이 나타나 영혼을 빨아들이는 빛을 발산한 후, 방 안에 있는 생명체들의 피를 빨아들인다.</p>",
-      "disable": "<p>@Check[thievery|dc:22|name:Wipe Away Blood] (훈련된) 자만이 피 묻은 흔적을 충분히 닦아내어 유령의 네크로맨틱 에너지를 방해하거나, @Check[religion|dc:20|name:Excorcise Haunt] (훈련된) 자만이 유령을 쫓아낼 수 있다</p>",
+      "disable": "<p>@Check[thievery|dc:22|name:Wipe Away Blood](훈련된) 자만이 피 묻은 흔적을 충분히 닦아내어 유령의 네크로맨틱 에너지를 방해하거나, @Check[religion|dc:20|name:Excorcise Haunt](훈련된) 자만이 유령을 쫓아낼 수 있다</p>",
       "reset": "<p>유령이 피해로 무력화되거나 파괴되면, 벨코라의 피 묻은 유령이 나선형으로 위로 분출하며 구역 <strong>A25</strong>로 이어지는 함정문을 적신 후 열쇠구멍을 통해 위로 스며들어, 도둑질 난이도(DC)를 @UUID[Compendium.pf2e.actionspf2e.Item.2EE4aF4SZpYf0R6H]{자물쇠 따기}에서 @Check[thievery|dc:20|name:Pick Trap Door|traits:action:pick-a-lock,skill,manipulate]로 낮춘다. </p>\n<p>다음 날 해가 뜨면 피는 이 방으로 다시 흡수되어 유령 현상은 초기화된다. 라스다 벤커베일이 영역 <strong>D9</strong>에서 구출되면 유령 현상은 영구적으로 파괴된다.</p>",
       "routine": "<p>(1 행동) 피 묻은 형상이 입을 벌리고 흡입하는 듯한 동작을 취하며, 영역 <strong>A11 </strong>. 표적이 된 생물은 @Check[fortitude|dc:20|traits:damaging-effect] 내성 굴림을 시도해야 한다.</p>\n<hr />\n<p><strong>대성공</strong> 생물은 영향을 받지 않는다.</p>\n<p><strong>성공</strong> 생물은 @Damage[1d10[bleed]]을 받는다.</p>\n<p><strong>실패</strong> 생물은 @Damage[(1d10+6)[bleed]]의 피해를 받는다.</p>\n<p><strong>대실패</strong> 생물은 @Damage[(2d10+6)[bleed]]의 피해를 받고 출혈 상태인 동안 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 2} 상태가 된다.</p>",
       "stealth": "<p>(전문가)</p>",
@@ -2181,7 +2181,7 @@
     "Watching Wall": {
       "name": "감시하는 벽",
       "desc (hazard)": "<p>방 안에 있는 이들의 마음속에 압도적인 감시당하는 느낌이 솟구쳐 오르는 순간, 서쪽 벽에 섬뜩한 붉은 눈이 열린다.</p>",
-      "disable": "<p>@Check[deception|dc:22|name:Appear Uninteresting|traits:haunt] (훈련된) 감시하는 눈에게 흥미롭지 않게 보이도록 (그리하여 무시당하도록) 또는 @Check[religion|dc:22|name:Ward Against Being Seen|traits:haunt] (훈련된) 그 눈에게 발견되거나 영향을 받지 않도록 수호부. </p>",
+      "disable": "<p>@Check[deception|dc:22|name:Appear Uninteresting|traits:haunt](훈련된) 감시하는 눈에게 흥미롭지 않게 보이도록 (그리하여 무시당하도록) 또는 @Check[religion|dc:22|name:Ward Against Being Seen|traits:haunt](훈련된) 그 눈에게 발견되거나 영향을 받지 않도록 수호부. </p>",
       "reset": "<p>이 유령은 자신이 볼 수 있는 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포} 생물을 볼 수 없는 라운드 종료 시, 유령은 무기력해집니다. 1시간 동안 휴면 상태를 유지한 후 재설정됩니다.</p>",
       "routine": "<p>(1 행동) 눈이 주변을 살피며, 시야 내에 있는 대상(영역 내 <strong>C4</strong> 영역 내외부) @Damage[4d6[mental]] 피해를 받는다(@Check[will|dc:21|basic|traits:haunt] 내성). 감시당하는 공포가 고통의 파동을 전파하기 때문이다. </p>\n<p>이 효과로 정신 피해를 입은 생물은 다음 턴 종료 시 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포} 수치를 감소시키지 않는다.</p>",
       "stealth": "<p>(전문가)</p>",
@@ -2286,7 +2286,7 @@
     "Images of Powerlessness": {
       "name": "무력감의 환영",
       "desc (hazard)": "<p>95피트(약 29m) 길이에 15피트(약 4.6m) 너비의 복도(지도 상 흰색 점선 상자) 내 생물들의 정신에 사이킥으로 강화된 환상이 밀려들어, 그들이 앞으로 겪게 될 실패의 비전을 보여준다.</p>",
-      "disable": "<p>@Check[occultism|dc:32|name:Weaken the images] (마스터) 또는 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(5th 등급; 반격 DC 26)로 이미지를 약화시킬 수 있음; 함정을 무력화하려면 세 번의 성공이 필요함</p>",
+      "disable": "<p>@Check[occultism|dc:32|name:Weaken the images](마스터) 또는 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(5th 등급; 반격 DC 26)로 이미지를 약화시킬 수 있음; 함정을 무력화하려면 세 번의 성공이 필요함</p>",
       "reset": "<p>함정은 즉시 재설정되며, 동일한 생물이 자신의 턴에 여러 번 영향을 받을 수 있다. </p>",
       "stealth": "<p>(전문가) 환상적 이미지가 마법 함정을 숨기고 있음을 깨닫기 (이미지 발견 DC 0)</p>",
       "items": {
@@ -2395,7 +2395,7 @@
     "Vengeful Furnace": {
       "name": "복수의 용광로",
       "desc (hazard)": "<p>유령이 들린 용광로 위의 해치가 열리며 비명을 지르며 타오르는 유령 두 마리가 쏟아져 나온다.</p>",
-      "disable": "<p>@Check[intimidation|DC:22|name:Cow a Spirit] (훈련된)으로 복수하는 영혼 중 하나를 굴복시키거나 @Check[religion|DC:25|name:Exorcise the Spirit] (훈련된)으로 영혼을 쫓아낼 수 있습니다. 두 영혼 모두 굴복하거나 쫓겨나거나, 또는 용광로가 파괴될 때까지 유령 현상은 지속됩니다.</p>",
+      "disable": "<p>@Check[intimidation|DC:22|name:Cow a Spirit](훈련된)으로 복수하는 영혼 중 하나를 굴복시키거나 @Check[religion|DC:25|name:Exorcise the Spirit](훈련된)으로 영혼을 쫓아낼 수 있습니다. 두 영혼 모두 굴복하거나 쫓겨나거나, 또는 용광로가 파괴될 때까지 유령 현상은 지속됩니다.</p>",
       "reset": "<p>방에 생물이 없으면 1시간 후 유령 현상이 재설정됩니다.</p>",
       "routine": "<p>(3 행동) 불타는 유령들은 방 안에 있는 무작위 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 상태} 생물(방 안에 혼미 상태 생물이 없다면 무작위 생물)을 향해 채찍질한다.</p>",
       "stealth": "<p>(전문가)</p>",
@@ -2503,7 +2503,7 @@
     "Painful Suggestion Trap": {
       "name": "고통스러운 암시 함정",
       "desc (hazard)": "<p>더러운 바닥 아래 숨겨진 룬이 문턱을 넘어 발동된다.</p>",
-      "disable": "<p>@Check[thievery|dc:28|name:Remove Rune|traits:magical,trap] (전문가)가 룬을 작동시키지 않고 제거하거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(4th; 반격 DC 26)로 룬을 해제할 수 있다</p>",
+      "disable": "<p>@Check[thievery|dc:28|name:Remove Rune|traits:magical,trap](전문가)가 룬을 작동시키지 않고 제거하거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(4th; 반격 DC 26)로 룬을 해제할 수 있다</p>",
       "reset": "<p>함정은 1시간 후 자동으로 재설정됩니다.</p>",
       "stealth": "<p>(전문가) </p>",
       "items": {
@@ -2713,9 +2713,9 @@
     "Blast Tumbler": {
       "name": "폭발 텀블러",
       "desc (hazard)": "<p>자물쇠의 텀블러에 접근하기 어려운 룬이 새겨져 있다. 문이 흔들리면 이 룬이 기세를 방출한다. </p>",
-      "disable": "<p>@Check[thievery|dc:32|name:Disarm the Rune|traits:action:disable-a-device] (마스터)로 룬을 해제하거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 반격}(5th 등급; 반격 DC 28)로 룬의 마법을 반격할 수 있습니다.</p>",
+      "disable": "<p>@Check[thievery|dc:32|name:Disarm the Rune|traits:action:disable-a-device](마스터)로 룬을 해제하거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 반격}(5th 등급; 반격 DC 28)로 룬의 마법을 반격할 수 있습니다.</p>",
       "reset": "<p>룬은 발동 후 1분 후에 재설정됩니다.</p>",
-      "stealth": "<p>@Check[perception|dc:32|traits:action:seek] (마스터)</p>",
+      "stealth": "<p>@Check[perception|dc:32|traits:action:seek](마스터)</p>",
       "items": {
         "OlnYDBwZvO3CeHG3": {
           "name": "포스 블래스트",
@@ -2899,7 +2899,7 @@
     "Doom of Tomorrow": {
       "name": "내일의 파멸",
       "desc (hazard)": "<p>파괴의 소리가 디오라마에서 울려 퍼지고, 작은 가운트라이트 모형에서 반짝이는 에너지 광선이 뿜어져 나온다.</p>",
-      "disable": "<p>@Check[thievery|dc:20|name:Deactivate Model of Gauntlight|traits:magical,trap] (훈련된) 상태로 가운트라이트 모형이 작동하기 전에 신속히 비활성화하거나, @Check[stealth|dc:23|name:Creep by Trap|traits:magical,trap] (훈련된) 상태로 함정을 작동시키지 않고 기어갈 수 있다.</p>",
+      "disable": "<p>@Check[thievery|dc:20|name:Deactivate Model of Gauntlight|traits:magical,trap](훈련된) 상태로 가운트라이트 모형이 작동하기 전에 신속히 비활성화하거나, @Check[stealth|dc:23|name:Creep by Trap|traits:magical,trap](훈련된) 상태로 함정을 작동시키지 않고 기어갈 수 있다.</p>",
       "reset": "<p>각 덫은 1시간 후 자동으로 재설정됩니다.</p>",
       "stealth": "<p>(전문가)</p>",
       "items": {
@@ -2939,7 +2939,7 @@
           "name": "고급 암흑 시야"
         },
         "9J2GBQp8uuYCXtLo": {
-          "name": "기회의 공격"
+          "name": "기회 공격"
         },
         "IPH7UJLRufEnfg32": {
           "name": "괴사성 부패",
@@ -3052,7 +3052,7 @@
         },
         "2rGZ3A8JPafZZZur": {
           "name": "공포의 돌진",
-          "description": "<p>해골은 대걸음으로 이동하며, 피해에 +4 상황 보너스를 적용한 발톱 공격을 가한다. 공격이 명중하면 대상에게 [[/act 사기 저하]]를 시도하다.</p>"
+          "description": "<p>해골은 대걸음으로 이동하며, 피해에 +4 상황 보너스를 적용한 발톱 공격을 가한다. 공격이 명중하면 대상에게 [[/act demoralize]]를 시도하다.</p>"
         }
       }
     },
@@ -3072,9 +3072,9 @@
     "Daemonic Fog": {
       "name": "데이모닉 안개",
       "desc (hazard)": "<p>안개가 굳어져 작고 갉아대는 생물체로 변해, 안개 속으로 사라지기 전까지 그 안에 있는 모든 이를 삼켜 버린다.</p>",
-      "disable": "<p>@Check[survival|dc:28|name:Disrupt the Fog] (전문가)가 위험이 발동하기 전에 안개를 방해하거나 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(5th 등급; 반격 DC 26)로 마법을 반격해야 한다.</p>",
+      "disable": "<p>@Check[survival|dc:28|name:Disrupt the Fog](전문가)가 위험이 발동하기 전에 안개를 방해하거나 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(5th 등급; 반격 DC 26)로 마법을 반격해야 한다.</p>",
       "reset": "<p>데이모닉 오염이 안개에 에너지를 재충전함에 따라 위험은 한 시간 동안 재설정됩니다.</p>",
-      "stealth": "<p>@Check[perception|dc:30|traits:action:seek] (전문가)</p>",
+      "stealth": "<p>@Check[perception|dc:30|traits:action:seek](전문가)</p>",
       "items": {
         "FteyjzEwACt18LfC": {
           "name": "갉아먹는 안개",

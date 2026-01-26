@@ -2746,7 +2746,7 @@
         "CreatureOfMyth": {
           "Description": "당신의 전문적인 연합 동반자는 무적의 힘과 강함을 얻으며 신화적인 존재로 진화합니다. 다음 효과를 얻습니다.",
           "BalefulBody": {
-            "Description": "당신의 연합된 동반자의 피는 끓고, 기계 유체는 산성이거나, 내부는 만지면 파괴적입니다. 산, 불, 또는 독을 선택하세요. 당신의 연합된 동반자가 근접 공격으로 피해를 입을 경우, 근접 공격을 한 생물에게 선택한 유형의 @Damage[floor(@actor.level / 2)]{당신의 레벨의 절반}의 피해를 입힙니다. 당신의 연합된 동반자에게 명령을 내릴 때 신화 포인트를 소비하면, 연합된 동반자가 2 액션으로 부식력을 분출하여 @Damage[14d6|options:area-damage|shortLabel]의 선택한 유형의 피해를 @Template[type:cone|distance:15] 또는 @Template[type:line|distance:30] (@Check[reflex|against:class-spell|basic|options:area-effect] 당신의 클래스 DC 또는 주문 DC 중 더 높은 쪽)에 저항해야 합니다.",
+            "Description": "당신의 연합된 동반자의 피는 끓고, 기계 유체는 산성이거나, 내부는 만지면 파괴적입니다. 산, 불, 또는 독을 선택하세요. 당신의 연합된 동반자가 근접 공격으로 피해를 입을 경우, 근접 공격을 한 생물에게 선택한 유형의 @Damage[floor(@actor.level / 2)]{당신의 레벨의 절반}의 피해를 입힙니다. 당신의 연합된 동반자에게 명령을 내릴 때 신화 포인트를 소비하면, 연합된 동반자가 2 액션으로 부식력을 분출하여 @Damage[14d6|options:area-damage|shortLabel]의 선택한 유형의 피해를 @Template[type:cone|distance:15] 또는 @Template[type:line|distance:30](@Check[reflex|against:class-spell|basic|options:area-effect] 당신의 클래스 DC 또는 주문 DC 중 더 높은 쪽)에 저항해야 합니다.",
             "Label": "Baleful Body"
           },
           "ChimericHeads": {
@@ -6770,7 +6770,7 @@
               "Cold": "대상자가 내성을 실패하고 피해를 받으면, 1 라운드 동안 냉각 상태가 되어 이동 속도가 10 피트 감소합니다.",
               "RangeIncrease": "마법 던지기 범위가 120 피트로 증가합니다.",
               "Electricity": "대상자가 내성을 실패하고 피해를 받으면, 충격 상태가 되어 다음 턴이 끝날 때까지 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프-가드}가 됩니다.",
-              "Fire": "대상이 내성을 실패하고 피해를 받으면 화염에 휩싸여 @Damage[1d10[persistent,fire]] (대실패 시 @Damage[2d10[persistent,fire]])의 피해를 받습니다.",
+              "Fire": "대상이 내성을 실패하고 피해를 받으면 화염에 휩싸여 @Damage[1d10[persistent,fire]](대실패 시 @Damage[2d10[persistent,fire]])의 피해를 받습니다.",
               "FireParagon": "대상이 내성을 실패하고 피해를 받으면 화염에 휩싸여 @Damage[2d10[persistent,fire]]의 피해를 받습니다 (대실패 시 @Damage[4d10[persistent,fire]]의 피해를 받습니다)."
             },
             "Label": "지팡이",

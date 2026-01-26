@@ -57,7 +57,7 @@
       "items": {
         "HGfL73MgbDJixSlf": {
           "name": "두더지 맹독(Shrew Venom)",
-          "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:15]</p>\n<p><strong>최대 지속 시간</strong> 6 라운드</p>\n<p><strong>1단계</strong> @Damage[1d6[poison]] (1 라운드)</p>\n<p><strong>2단계</strong> @Damage[1d6[poison]] 및 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1}</p>"
+          "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:15]</p>\n<p><strong>최대 지속 시간</strong> 6 라운드</p>\n<p><strong>1단계</strong> @Damage[1d6[poison]](1 라운드)</p>\n<p><strong>2단계</strong> @Damage[1d6[poison]] 및 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 1}</p>"
         }
       }
     },
@@ -87,7 +87,7 @@
       "items": {
         "9SboqcQona3PXQIx": {
           "name": "파괴적인 삐걱거리는 소리(Destructive Croak)",
-          "description": "<p>늪의 예언자는 강력한 삐걱거리는 소리를 내며 @Template[emanation|distance:15] (@Check[fortitude|dc:17|basic] 내성) 범위 내에 있는 보가드가 아닌 모든 생물에게 @Damage[(4d6+4)[sonic]]의 피해를 입힙니다.</p>\n<p>@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened} 상태에 있는 모든 생물은 겁에 질린 상태의 값의 2배에 해당하는 추가 음파 피해를 받습니다.</p>\n<p>보가드는 [[/gmr 1d4 #Recharge Destructive Croak]]{1d4 라운드} 동안 Destructive Croak을 다시 사용할 수 없습니다."
+          "description": "<p>늪의 예언자는 강력한 삐걱거리는 소리를 내며 @Template[emanation|distance:15](@Check[fortitude|dc:17|basic] 내성) 범위 내에 있는 보가드가 아닌 모든 생물에게 @Damage[(4d6+4)[sonic]]의 피해를 입힙니다.</p>\n<p>@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened} 상태에 있는 모든 생물은 겁에 질린 상태의 값의 2배에 해당하는 추가 음파 피해를 받습니다.</p>\n<p>보가드는 [[/gmr 1d4 #Recharge Destructive Croak]]{1d4 라운드} 동안 Destructive Croak을 다시 사용할 수 없습니다."
         },
         "80CuEcGtDQ6fUIyY": {
           "name": "Drowning Drone",
@@ -898,7 +898,7 @@
       "items": {
         "9SboqcQona3PXQIx": {
           "name": "파괴적인 삐걱거리는 소리(Destructive Croak)",
-          "description": "<p>늪의 예언자는 강력한 삐걱거리는 소리를 내며 @Damage[(4d6+4)[sonic]]의 피해를 @Template[emanation|distance:15] (@Check[fortitude|dc:17|basic] 내성) 범위 내에 있는 보가드가 아닌 모든 생물에게 입힙니다.</p>\n<p>@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened} 상태에 있는 모든 생물은 겁에 질린 상태의 값의 2배에 해당하는 추가 음파 피해를 받습니다.</p>\n<p>보가드는 [[/gmr 1d4 #Recharge Destructive Croak]]{1d4 라운드} 동안 Destructive Croak을 다시 사용할 수 없습니다."
+          "description": "<p>늪의 예언자는 강력한 삐걱거리는 소리를 내며 @Damage[(4d6+4)[sonic]]의 피해를 @Template[emanation|distance:15](@Check[fortitude|dc:17|basic] 내성) 범위 내에 있는 보가드가 아닌 모든 생물에게 입힙니다.</p>\n<p>@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened} 상태에 있는 모든 생물은 겁에 질린 상태의 값의 2배에 해당하는 추가 음파 피해를 받습니다.</p>\n<p>보가드는 [[/gmr 1d4 #Recharge Destructive Croak]]{1d4 라운드} 동안 Destructive Croak을 다시 사용할 수 없습니다."
         },
         "80CuEcGtDQ6fUIyY": {
           "name": "침수 드론(Drowning Drone)",
@@ -933,7 +933,7 @@
         },
         "emPcqeSFXdyr6CgV": {
           "name": "무서운 돌격(Terrifying Charge)",
-          "description": "<p>거인은 큰 걸음으로 달려가 뿔로 공격을 가하며, 피해에 +4의 상황 보너스가 적용됩니다. </p>\n<p>공격이 적중하면 거인은 대상에게 [[/act 사기 저하]]를 시도합니다. </p>"
+          "description": "<p>거인은 큰 걸음으로 달려가 뿔로 공격을 가하며, 피해에 +4의 상황 보너스가 적용됩니다. </p>\n<p>공격이 적중하면 거인은 대상에게 [[/act demoralize]]를 시도합니다. </p>"
         }
       }
     },
@@ -1962,7 +1962,7 @@
         },
         "f0pgwkudf2q8lg8n": {
           "name": "자폭(Self-Destruct)",
-          "description": "<p><strong>요건</strong> 합성 키스마르의 HP가 20 이하입니다</p>\n<hr />\n<p><strong>효과</strong> 합성 키스마르가 불타는 플라즈마의 구슬로 폭발하여 자신을 완전히 파괴하고 @Damage[8d6[electricity]] 의 피해를 입힙니다. @Template[emanation|distance:10] (@Check[reflex|dc:24|basic])</p>\n<hr />\n<p><strong>특수</strong> 합성 키스마르는 체력이 0이 되면 이 능력을 자유 행동으로 자동으로 발동합니다."
+          "description": "<p><strong>요건</strong> 합성 키스마르의 HP가 20 이하입니다</p>\n<hr />\n<p><strong>효과</strong> 합성 키스마르가 불타는 플라즈마의 구슬로 폭발하여 자신을 완전히 파괴하고 @Damage[8d6[electricity]] 의 피해를 입힙니다. @Template[emanation|distance:10](@Check[reflex|dc:24|basic])</p>\n<hr />\n<p><strong>특수</strong> 합성 키스마르는 체력이 0이 되면 이 능력을 자유 행동으로 자동으로 발동합니다."
         },
         "35j0ecc24cmv4xws": {
           "name": "기술 제어(Technology Control)",
@@ -2221,7 +2221,7 @@
       "items": {
         "jpbiZA3DX4Hmsczw": {
           "name": "두더지 맹독(Shrew Venom)",
-          "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:14]</p>\n<p><strong>최대 지속 시간</strong> 4 라운드</p>\n<p><strong>1단계</strong> @Damage[1d4[poison]] (1 라운드)</p>"
+          "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:14]</p>\n<p><strong>최대 지속 시간</strong> 4 라운드</p>\n<p><strong>1단계</strong> @Damage[1d4[poison]](1 라운드)</p>"
         }
       }
     },
@@ -2962,7 +2962,7 @@
         },
         "kSuzy5HtYGE123Jj": {
           "name": "자동 파괴(Self-Destruct)",
-          "description": "<p><strong>요건</strong> 합성 키스마르의 HP가 20 이하입니다</p>\n<hr />\n<p><strong>효과</strong> 합성 키스마르가 불타는 플라즈마의 구슬로 폭발하여 자신을 완전히 파괴하고 @Damage[10d6[electricity]] 의 피해를 입힙니다. @Template[emanation|distance:10] (@Check[reflex|dc:26|basic])</p>\n<hr />\n<p><strong>특수</strong> 합성 키스마르는 체력이 0이 되면 이 능력을 자유 행동으로 자동으로 발동합니다."
+          "description": "<p><strong>요건</strong> 합성 키스마르의 HP가 20 이하입니다</p>\n<hr />\n<p><strong>효과</strong> 합성 키스마르가 불타는 플라즈마의 구슬로 폭발하여 자신을 완전히 파괴하고 @Damage[10d6[electricity]] 의 피해를 입힙니다. @Template[emanation|distance:10](@Check[reflex|dc:26|basic])</p>\n<hr />\n<p><strong>특수</strong> 합성 키스마르는 체력이 0이 되면 이 능력을 자유 행동으로 자동으로 발동합니다."
         },
         "a2dm4JUbb4joEyEX": {
           "name": "기술 제어(Technology Control)",
@@ -3868,7 +3868,7 @@
       "items": {
         "jb8RUiIGfZeiY4LQ": {
           "name": "Breath Weapon",
-          "description": "<p>플레시포지 프로토타입은 @Damage[6d6[fire]|options:area-damage]의 피해를 모든 생물에게 입히는 화염을 뿜어냅니다 (@Template[cone|distance:15] (@Check[reflex|dc:22|basic|options:area-effect] 내성).</p>\n<p>플레시포지 프로토타입은 [[/gmr 1d4 #재충전 호흡 무기]]{1d4 라운드} 동안 호흡 무기를 다시 사용할 수 없습니다."
+          "description": "<p>플레시포지 프로토타입은 @Damage[6d6[fire]|options:area-damage]의 피해를 모든 생물에게 입히는 화염을 뿜어냅니다 (@Template[cone|distance:15](@Check[reflex|dc:22|basic|options:area-effect] 내성).</p>\n<p>플레시포지 프로토타입은 [[/gmr 1d4 #재충전 호흡 무기]]{1d4 라운드} 동안 호흡 무기를 다시 사용할 수 없습니다."
         }
       }
     },
@@ -3879,7 +3879,7 @@
       "items": {
         "NGpcOOJuyLudCfKX": {
           "name": "Breath Weapon",
-          "description": "<p>The fleshforge dreg breathes flames that deal @Damage[4d6[fire]|options:area-damage] damage to all creatures in a @Template[cone|distance:15] (@Check[reflex|dc:15|basic|options:area-effect] save).</p>\n<p>플레시포지 드레그는 [[/gmr 1d4 #Recharge breath weapon]]{1d4 라운드} 동안 숨결 무기를 다시 사용할 수 없습니다."
+          "description": "<p>The fleshforge dreg breathes flames that deal @Damage[4d6[fire]|options:area-damage] damage to all creatures in a @Template[cone|distance:15](@Check[reflex|dc:15|basic|options:area-effect] save).</p>\n<p>플레시포지 드레그는 [[/gmr 1d4 #Recharge breath weapon]]{1d4 라운드} 동안 숨결 무기를 다시 사용할 수 없습니다."
         }
       }
     },
@@ -4597,7 +4597,7 @@
       "items": {
         "9SboqcQona3PXQIx": {
           "name": "파괴적인 삐걱거리는 소리(Destructive Croak)",
-          "description": "<p>늪의 예언자는 강력한 삐걱거리는 소리를 내며 @Template[emanation|distance:15] (@Check[fortitude|dc:19|basic] 내성) 범위 내에 있는 보가드가 아닌 모든 생물에게 @Damage[4d6[sonic]]의 피해를 입힙니다.</p>\n<p>@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened} 상태인 모든 생물은 겁에 질린 상태의 값의 2배에 해당하는 추가 음파 피해를 받습니다.</p>\n<p>보가드는 [[/gmr 1d4 #Recharge Destructive Croak]]{1d4 라운드} 동안 Destructive Croak을 다시 사용할 수 없습니다."
+          "description": "<p>늪의 예언자는 강력한 삐걱거리는 소리를 내며 @Template[emanation|distance:15](@Check[fortitude|dc:19|basic] 내성) 범위 내에 있는 보가드가 아닌 모든 생물에게 @Damage[4d6[sonic]]의 피해를 입힙니다.</p>\n<p>@UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{Frightened} 상태인 모든 생물은 겁에 질린 상태의 값의 2배에 해당하는 추가 음파 피해를 받습니다.</p>\n<p>보가드는 [[/gmr 1d4 #Recharge Destructive Croak]]{1d4 라운드} 동안 Destructive Croak을 다시 사용할 수 없습니다."
         },
         "80CuEcGtDQ6fUIyY": {
           "name": "침수 드론(Drowning Drone)",

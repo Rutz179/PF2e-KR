@@ -252,7 +252,7 @@
     "Punish the Impertinent": {
       "name": "무례한 자를 벌하라",
       "desc (hazard)": "<p>땅에서 세 개의 그림자 촉수가 튀어나와 침입자를 붙잡는다.</p>",
-      "disable": "<p>@Check[arcana|dc:32] 또는 @Check[occultism|dc:32] (전문가)로 세 개의 그림자 촉수 중 하나를 추방하거나 @Check[thievery|dc:34] (마스터)로 두 번 사용해 그릇의 마법 센서를 혼란스럽게 합니다.</p>\n<p><strong>우회</strong> 그릇에 10 gp 이상의 제물을 놓은 생물은 함정을 발동시키지 않으며 함정의 표적이 되지 않습니다.</p>",
+      "disable": "<p>@Check[arcana|dc:32] 또는 @Check[occultism|dc:32](전문가)로 세 개의 그림자 촉수 중 하나를 추방하거나 @Check[thievery|dc:34](마스터)로 두 번 사용해 그릇의 마법 센서를 혼란스럽게 합니다.</p>\n<p><strong>우회</strong> 그릇에 10 gp 이상의 제물을 놓은 생물은 함정을 발동시키지 않으며 함정의 표적이 되지 않습니다.</p>",
       "reset": "<p> 함정은 10분 후에 재설정됩니다.</p>",
       "routine": "<p>(그림자 촉수당 2 행동) 자신의 차례에 각 그림자 촉수는 1 행동을 사용하여 범위 내의 생물에게 채찍 공격을 가한 후, 1 행동을 사용하여 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{잡힌} 상태의 생물을 조여둡니다. 그림자 덩굴은 함정의 다중 공격 페널티를 적용하지 않습니다.</p>",
       "stealth": "<p>(전문가)</p>",
@@ -395,7 +395,7 @@
     "Lichen Monstrosity": {
       "name": "이끼 괴물",
       "desc (hazard)": "<p>석화된 이끼의 덩어리가 짐승의 형태를 취하고 앞으로 기어간다.</p>",
-      "disable": "<p>@Check[survival|dc:33] 또는 @Check[thievery|dc:33] (마스터)로 이끼를 노출되지 않고 긁어내거나, @Check[medicine|dc:36] 또는 @Check[nature|dc:36] (전문가)로 자연 치료제를 제조하여 위험을 약화시켜야 합니다; 총 4번의 성공이 필요하며, 이를 통해 이를 무력화할 수 있습니다.</p>",
+      "disable": "<p>@Check[survival|dc:33] 또는 @Check[thievery|dc:33](마스터)로 이끼를 노출되지 않고 긁어내거나, @Check[medicine|dc:36] 또는 @Check[nature|dc:36](전문가)로 자연 치료제를 제조하여 위험을 약화시켜야 합니다; 총 4번의 성공이 필요하며, 이를 통해 이를 무력화할 수 있습니다.</p>",
       "reset": "<p>함정은 1시간 동안 재설정됩니다.</p>",
       "routine": "<p>(3 행동) 이끼 괴물은 3 행동을 사용하여 이동하며, 각 행동마다 최대 30피트 이동하고 @Damage[(2d10+10)[bludgeoning]]의 피해를 입힙니다. 그 경로에 있는 모든 생물은 @Check[reflex|dc:31] 내성 굴림을 시도해야 합니다.</p><hr><p><strong>대성공</strong> 생물은 영향을 받지 않습니다.</p><p><strong>성공</strong> 생물은 반의 피해를 입습니다.</p><p><strong>실패</strong> 생물은 전체 피해를 입으며 leechlichen에 노출됩니다.</p><p><strong>대실패</strong> 생물은 두 배의 피해를 입으며 leechlichen에 노출됩니다. leechlichen에 대한 내성 굴림 결과는 한 단계 더 나쁘게 처리됩니다. 이 위험을 무력화하는 성공적인 체크마다 이동 속도가 30피트 감소하며, 네 번째 성공 시 완전히 무력화됩니다.</p>",
       "stealth": "<p>(전문가)</p>",
@@ -430,7 +430,7 @@
     "Poisonous Pollen Trap": {
       "name": "독가루 함정",
       "desc (hazard)": "<p>문으로 조각된 꽃들이 문이 만져질 때 화려한 독가루를 방출합니다.</p>",
-      "disable": "<p>@Check[thievery|dc:26] (전문가)로 꽃 조각을 훼손하거나, @Check[nature|dc:25] (전문가)로 꽃가루를 중화하거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(4단계; 반격 DC 26)로 소환 마법을 해제합니다.</p>",
+      "disable": "<p>@Check[thievery|dc:26](전문가)로 꽃 조각을 훼손하거나, @Check[nature|dc:25](전문가)로 꽃가루를 중화하거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(4단계; 반격 DC 26)로 소환 마법을 해제합니다.</p>",
       "reset": "<p>함정은 1시간 후에 재설정됩니다.</p>",
       "stealth": "<p>(전문가)</p>",
       "items": {
@@ -477,7 +477,7 @@
     "Myristica's Despair": {
       "name": "미리스티카의 절망",
       "desc (hazard)": "<p>환상이 깨지며, 숲이 생명이 없는 상처로 드러나고, 평화로워 보였던 벌목꾼들이 분노에 휩싸여 근처에 다가오는 모든 것을 공격하며 무작정 기어다니고 있다.</p>",
-      "disable": "<p>@Check[nature|dc:22] (훈련된) 원시 에너지를 진정시키기 위해, @Check[diplomacy|dc:23] (훈련된) 드라이드를 위로하기 위해, @Check[occultism|dc:24] (훈련된) 감정적 상처를 식별하고 치료하기 위해; 3번의 성공이 필요하며, 이를 통해 유령을 무력화할 수 있습니다.</p>",
+      "disable": "<p>@Check[nature|dc:22](훈련된) 원시 에너지를 진정시키기 위해, @Check[diplomacy|dc:23](훈련된) 드라이드를 위로하기 위해, @Check[occultism|dc:24](훈련된) 감정적 상처를 식별하고 치료하기 위해; 3번의 성공이 필요하며, 이를 통해 유령을 무력화할 수 있습니다.</p>",
       "reset": "<p>실레네가 파괴되지 않는 한, 이 유령은 1시간 후에 스스로 재충전됩니다.</p>",
       "routine": "<p>(1 행동; 감정, 정신, 원시적) 미리스티카는 자신의 숲의 운명을 탄식하며 적들을 슬픔으로 압도합니다. 숲에 있는 모든 생물은 @Check[will|dc:23|traits:emotion,mental,primal] 내성을 시도해야 합니다.</p>\n<hr>\n<p><strong>대성공</strong> 생물은 영향을 받지 않습니다.</p>\n<p><strong>성공</strong> 생물은 영향을 받지 않습니다.</p>\n<p><strong>실패</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{눈부심} 상태가 되어 1 라운드 동안 지속되며 @Damage[2d6[mental]]의 피해를 입습니다.</p>\n<p><strong>대실패</strong> 생물은 @Damage[2d6[mental]]의 피해를 입으며, 추가로 @Damage[2d6[persistent,mental]]의 피해를 입습니다. 이 지속적인 피해를 받는 동안 생물은 눈이 부시게 됩니다.</p>",
       "stealth": "<p>(전문가)는 자신 앞에 펼쳐진 장면이 환상임을 인식합니다.</p>",
@@ -491,7 +491,7 @@
     "Razor Snare": {
       "name": "날카로운 가시줄",
       "desc (hazard)": "<p>가늘고 날카로운 가시줄이 생물을 걸어 발을 잡아당겨 넘어뜨립니다.</p>",
-      "disable": "<p>@Check[survival|dc:22] 또는 @Check[thievery|dc:22] (훈련된)로 철사를 자르되 걸리지 않도록</p>",
+      "disable": "<p>@Check[survival|dc:22] 또는 @Check[thievery|dc:22](훈련된)로 철사를 자르되 걸리지 않도록</p>",
       "items": {
         "jWt044DZEHr3yYrX": {
           "name": "걸림",
@@ -523,7 +523,7 @@
         },
         "yfOOpXHpIusdSlrb": {
           "name": "목재!",
-          "description": "<p><strong>트리거</strong> @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} 상태가 아닌 나무 묘목은 prone 상태가 되거나 HP가 0으로 감소합니다</p>\n<hr />\n<p><strong>Effect</strong> 나무에 자라는 묘목이 넘어져 자신과 @Template[line|distance:10] (@Check[reflex|dc:16|basic|options:area-effect,inflicts:prone]) 범위 내의 생물에게 @Damage[2d6[bludgeoning]|options:area-damage]의 피해를 입힙니다. 내성 굴림에서 대실패한 생물은 또한 prone 상태가 됩니다.</p>"
+          "description": "<p><strong>트리거</strong> @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{Prone} 상태가 아닌 나무 묘목은 prone 상태가 되거나 HP가 0으로 감소합니다</p>\n<hr />\n<p><strong>Effect</strong> 나무에 자라는 묘목이 넘어져 자신과 @Template[line|distance:10](@Check[reflex|dc:16|basic|options:area-effect,inflicts:prone]) 범위 내의 생물에게 @Damage[2d6[bludgeoning]|options:area-damage]의 피해를 입힙니다. 내성 굴림에서 대실패한 생물은 또한 prone 상태가 됩니다.</p>"
         }
       },
       "StealthVariants": {
@@ -696,7 +696,7 @@
         },
         "y4KzwwQKc4qz6rj7": {
           "name": "거대한 에코",
-          "description": "<p><strong>요구 사항</strong> 검지기가 중앙 무기를 가지고 있습니다</p>\n<hr />\n<p><strong>효과</strong> 검의 수호자는 네 손으로 잡은 거대한 에코 블레이드를 투사하여 모든 생물에게 @Damage[9d8[force]|options:area-damage]의 피해를 입힙니다. @Template[line|distance:30] (@Check[reflex|dc:30|basic|options:area-effect] 내성) 범위 내의 모든 생물에게 @Damage[9d8[force]|options:area-damage]의 피해를 입힙니다.</p>\n<p>이 능력은 [[/gmr 1d4 #Colossal Echo 재충전]]{1d4 라운드} 동안 Colossal Echo를 다시 사용할 수 없습니다.</p>"
+          "description": "<p><strong>요구 사항</strong> 검지기가 중앙 무기를 가지고 있습니다</p>\n<hr />\n<p><strong>효과</strong> 검의 수호자는 네 손으로 잡은 거대한 에코 블레이드를 투사하여 모든 생물에게 @Damage[9d8[force]|options:area-damage]의 피해를 입힙니다. @Template[line|distance:30](@Check[reflex|dc:30|basic|options:area-effect] 내성) 범위 내의 모든 생물에게 @Damage[9d8[force]|options:area-damage]의 피해를 입힙니다.</p>\n<p>이 능력은 [[/gmr 1d4 #Colossal Echo 재충전]]{1d4 라운드} 동안 Colossal Echo를 다시 사용할 수 없습니다.</p>"
         },
         "aMxPxph18d6Elee9": {
           "name": "에코블레이드 플러리",
@@ -746,7 +746,7 @@
     "Spitting Daffodil": {
       "name": "침 뱉는 수선화",
       "desc (hazard)": "<p>수선화는 주변의 식물이 아닌 생물에게 산성 꿀을 뱉습니다.</p>",
-      "disable": "<p>@Check[thievery|dc:25] (전문가) 또는 @Check[survival|dc:25] (훈련된)로 식물의 움직임 감지 필라멘트를 제거합니다.</p>",
+      "disable": "<p>@Check[thievery|dc:25](전문가) 또는 @Check[survival|dc:25](훈련된)로 식물의 움직임 감지 필라멘트를 제거합니다.</p>",
       "reset": "<p>수선화는 24시간 후에 꿀과 필라멘트를 보충합니다.</p>",
       "stealth": "<p>(전문가)</p>",
       "items": {
@@ -759,7 +759,7 @@
     "Puncturing Spires": {
       "name": "찌르는 첨탑",
       "desc (hazard)": "<p>금속 첨탑이 땅에서 튀어나와 목표를 찔러 다른 생물들을 밀쳐냅니다.</p>",
-      "disable": "<p>@Check[arcana|dc:30] 또는 @Check[occultism|dc:30] (전문가)를 사용하여 평면 균열을 봉인하거나, @Check[nature|dc:28] (마스터)로 마법으로 지면을 강화하여 첨탑의 출현을 방지합니다.</p>",
+      "disable": "<p>@Check[arcana|dc:30] 또는 @Check[occultism|dc:30](전문가)를 사용하여 평면 균열을 봉인하거나, @Check[nature|dc:28](마스터)로 마법으로 지면을 강화하여 첨탑의 출현을 방지합니다.</p>",
       "stealth": "<p>(trained)</p>",
       "items": {
         "pMzyfAJ1VWnAqh7x": {
@@ -779,7 +779,7 @@
         },
         "6W3hDTxWbT30bpQ0": {
           "name": "벌의 사자",
-          "description": "<p>벌 인간은 벌을 사용하여 @UUID[Compendium.pf2e.spells-srd.Item.zvKWclOZ7A53DObE]{Clairvoyance} 또는 @UUID[Compendium.pf2e.spells-srd.Item.vLzFcIaSXs7YTIqJ]{Message}의 효과를 최대 13마일 범위 내에서 자유롭게 복제할 수 있습니다. 성공적인 @Check[perception|dc:20] 체크는 이 주문의 센서로 작용하는 벌의 존재를 식별하지만, 그들이 외부 영향 하에 행동하고 있음을 알아차리기 위해서는 @Check[nature|dc:24] (전문가) 체크가 필요합니다.</p>"
+          "description": "<p>벌 인간은 벌을 사용하여 @UUID[Compendium.pf2e.spells-srd.Item.zvKWclOZ7A53DObE]{Clairvoyance} 또는 @UUID[Compendium.pf2e.spells-srd.Item.vLzFcIaSXs7YTIqJ]{Message}의 효과를 최대 13마일 범위 내에서 자유롭게 복제할 수 있습니다. 성공적인 @Check[perception|dc:20] 체크는 이 주문의 센서로 작용하는 벌의 존재를 식별하지만, 그들이 외부 영향 하에 행동하고 있음을 알아차리기 위해서는 @Check[nature|dc:24](전문가) 체크가 필요합니다.</p>"
         },
         "ujoFk7L3N1vH4K9a": {
           "name": "상시 마법"
@@ -805,7 +805,7 @@
     "Bloodletting Snare": {
       "name": "피 흘림 함정",
       "desc (hazard)": "<p>가늘고 날카로운 철사가 생물을 걸어 공중으로 끌어올리며 깊은 피 흘리는 상처를 입힌다.</p>",
-      "disable": "<p>@Check[survival|dc:25] (전문가) 또는 @Check[thievery|dc:25] (전문가)로 철선을 자르되 걸리지 않도록 합니다.</p>",
+      "disable": "<p>@Check[survival|dc:25](전문가) 또는 @Check[thievery|dc:25](전문가)로 철선을 자르되 걸리지 않도록 합니다.</p>",
       "stealth": "<p>(expert)</p>",
       "items": {
         "jWt044DZEHr3yYrX": {
@@ -850,7 +850,7 @@
       "name": "소비 캐비넷",
       "hpdetails": "문 강도 10; 문 HP 40 (BT 20)",
       "desc (hazard)": "<p>움직이는 캐비넷이 침입자를 가둬버립니다. 캐비넷은 두 개의 구획으로 나뉘어져 있으며, 각 구획은 중간 크기의 생물 1마리 또는 소형 생물 2마리 이하를 수용할 수 있습니다.</p>",
-      "disable": "<p>@Check[thievery|dc:30] (전문가)를 캐비넷에 두 번 적용; @Check[crafting|dc:28] 또는 @Check[thievery|dc:28] (전문가)로 각 문 또는 두 문을 제거합니다.</p>",
+      "disable": "<p>@Check[thievery|dc:30](전문가)를 캐비넷에 두 번 적용; @Check[crafting|dc:28] 또는 @Check[thievery|dc:28](전문가)로 각 문 또는 두 문을 제거합니다.</p>",
       "reset": "<p> 함정은 1시간 후에 재설정됩니다.</p>",
       "routine": "<p>(3 행동) 이 함정은 첫 번째 행동으로 가장 가까운 살아있는 생물체로 직접 이동하고, 두 번째 행동으로 인접한 각 생물체에 문 공격을 가하며, 세 번째 행동으로 강타합니다. 이 함정은 다중 공격 페널티를 받지 않습니다.</p>\n<hr>\n<p><strong>Speed</strong> 15 feet</p>",
       "stealth": "<p>(expert)</p>",
@@ -1163,7 +1163,7 @@
     "Flinging Tools": {
       "name": "투척 도구",
       "desc (hazard)": "<p>움직이는 송곳, 망치, 못 및 기타 도구가 침입자에게 향해 도구대에서 스스로 날아갑니다.</p>",
-      "disable": "<p>@Check[diplomacy|dc:33] (마스터)로 사이킥 에코를 진정시키거나, @Check[religion|dc:32] (전문가)로 지역의 에너지를 압도하거나, @Check[occultism|dc:32] (전문가)로 사이킥 에코를 차단합니다; 세 번째 성공적인 체크 시 사이킥 에코가 방해받고 함정이 파괴됩니다.</p>",
+      "disable": "<p>@Check[diplomacy|dc:33](마스터)로 사이킥 에코를 진정시키거나, @Check[religion|dc:32](전문가)로 지역의 에너지를 압도하거나, @Check[occultism|dc:32](전문가)로 사이킥 에코를 차단합니다; 세 번째 성공적인 체크 시 사이킥 에코가 방해받고 함정이 파괴됩니다.</p>",
       "reset": "<p>함정은 1시간 후에 재설정됩니다.</p>",
       "routine": "<p>(1 행동) 함정은 15피트 이내의 모든 살아있는 생물에게 1 행동으로 한 개의 도구를 발사합니다. 도구를 지속적으로 발사하기 때문에, 함정은 해당 생물의 턴 동안 그 생물에게 도구를 발사하는 연속 포격 무료 행동을 사용할 수 있습니다.</p>",
       "stealth": "<p>(expert)</p>",
@@ -1299,7 +1299,7 @@
     "Bee-Induced Panic": {
       "name": "벌에 의한 패닉",
       "desc (hazard)": "<p>분노한 벌들이 패닉을 일으켜 군중이 탈출을 시도하며 서로를 짓밟습니다.</p>",
-      "disable": "<p>@Check[diplomacy|dc:22] (전문가)는 공포에 휩싸인 군중을 진정시키고 안전하게 안내하며, @Check[medicine|dc:20] (훈련된)은 피해자의 부상을 치료하거나 @Check[nature|dc:21] (전문가) 꿀벌로부터 자신을 보호하는 가장 좋은 방법을 군중에게 지시합니다. 또는 곤충과 소통할 수 있는 PC는 대신 @Check[diplomacy|dc:18] (훈련된) 체크를 시도해 꿀벌을 진정시키고 방향을 바꿀 수 있습니다. 위험을 완전히 무력화하려면 3번의 성공적인 체크가 필요합니다. 위험은 5 라운드 후 또는 두 떼가 모두 패배하면 자동으로 해제됩니다.</p>",
+      "disable": "<p>@Check[diplomacy|dc:22](전문가)는 공포에 휩싸인 군중을 진정시키고 안전하게 안내하며, @Check[medicine|dc:20](훈련된)은 피해자의 부상을 치료하거나 @Check[nature|dc:21](전문가) 꿀벌로부터 자신을 보호하는 가장 좋은 방법을 군중에게 지시합니다. 또는 곤충과 소통할 수 있는 PC는 대신 @Check[diplomacy|dc:18](훈련된) 체크를 시도해 꿀벌을 진정시키고 방향을 바꿀 수 있습니다. 위험을 완전히 무력화하려면 3번의 성공적인 체크가 필요합니다. 위험은 5 라운드 후 또는 두 떼가 모두 패배하면 자동으로 해제됩니다.</p>",
       "routine": "<p>(3 행동) 공황에 빠진 참석자들은 벌에 쏘이고 두려움과 혼란 속에서 서로를 다치게 합니다. 사상자 점수를 1 증가시킵니다. 한 떼가 군중을 쏘고 있다면 [[/gmr 1d3 #Casualties]]로 증가하며, 두 떼가 모두 군중을 쏘고 있다면 [[/gmr 1d3+1 #Casualties]]로 증가합니다.</p>"
     },
     "Zasir": {
@@ -1377,7 +1377,7 @@
     "Unwelcome Guests": {
       "name": "환영받지 못한 손님",
       "desc (hazard)": "<p>이 해치를 만지는 환영받지 못한 손님은 저주를 받는다.</p>",
-      "disable": "<p>@Check[occultism|dc:28] (전문가) 저주의 마법을 흡수하거나, @Check[thievery|dc:31] (마스터) 저주의 결박을 풀어내거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(4등급, 반격 DC 28)로 저주를 반격합니다.</p>",
+      "disable": "<p>@Check[occultism|dc:28](전문가) 저주의 마법을 흡수하거나, @Check[thievery|dc:31](마스터) 저주의 결박을 풀어내거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(4등급, 반격 DC 28)로 저주를 반격합니다.</p>",
       "reset": "<p>함정이 닫히면 함정이 재설정됩니다.</p>",
       "stealth": "<p>(전문가)</p>",
       "items": {
@@ -1390,7 +1390,7 @@
     "Battering Door": {
       "name": "파괴된 문",
       "desc (hazard)": "<p>움직이는 문이 침입자에게 돌진합니다.</p>",
-      "disable": "<p>@Check[diplomacy|dc:30] 또는 @Check[occultism|dc:30] (마스터)로 사이킥 인상을 진정시키거나 @Check[thievery|dc:28] (전문가)로 문을 강제로 열기</p>",
+      "disable": "<p>@Check[diplomacy|dc:30] 또는 @Check[occultism|dc:30](마스터)로 사이킥 인상을 진정시키거나 @Check[thievery|dc:28](전문가)로 문을 강제로 열기</p>",
       "reset": "<p>함정은 자동으로 재설정됩니다.</p>",
       "stealth": "<p>(전문가)</p>",
       "items": {
@@ -1662,7 +1662,7 @@
     "Corazal Aflame": {
       "name": "Corazal Aflame",
       "desc (hazard)": "<p>fire]이 Corazal을 태우고 주변 숲으로 번질 위험이 있습니다.</p>",
-      "disable": "<p>@Check[nature|dc:30] 또는 @Check[survival|dc:30] (전문가)로 불을 끄거나 @Check[athletics|dc:32] (전문가)로 불을 덮어 끄세요; 여섯 번째 성공적인 체크 시 불이 꺼집니다. 불에 캐스트하는 캔트립 물 마법은 한 번의 성공으로 계산됩니다.</p>",
+      "disable": "<p>@Check[nature|dc:30] 또는 @Check[survival|dc:30](전문가)로 불을 끄거나 @Check[athletics|dc:32](전문가)로 불을 덮어 끄세요; 여섯 번째 성공적인 체크 시 불이 꺼집니다. 불에 캐스트하는 캔트립 물 마법은 한 번의 성공으로 계산됩니다.</p>",
       "routine": "<p>(1 행동; 불) 불은 자신의 턴에 숲에 있는 생물에게 @Damage[(2d8+13)[fire]]의 피해를 입히고, Corazal과 그로부터 15피트 이내의 생물에게 추가로 @Damage[6[fire]]의 피해를 입힌다 (@Check[reflex|dc:29|basic] 내성).</p>",
       "items": {
         "nDB7PoyuukzYlVWr": {
@@ -1755,7 +1755,7 @@
     "Shadow Roil": {
       "name": "그림자 소용돌이",
       "desc (hazard)": "<p>살아있는 그림자와 차원 마법의 소용돌이가 지역 주변을 감싸며, 살아있는 생물체로 끌려갑니다.</p>",
-      "disable": "<p>@Check[arcana|dc:32] 또는 @Check[occultism|dc:32] (전문가)로 토네이도를 약화시킵니다. 트랩을 무력화하려면 어떤 조합으로든 3번의 성공이 필요합니다.</p>",
+      "disable": "<p>@Check[arcana|dc:32] 또는 @Check[occultism|dc:32](전문가)로 토네이도를 약화시킵니다. 트랩을 무력화하려면 어떤 조합으로든 3번의 성공이 필요합니다.</p>",
       "reset": "<p>사이클론은 1분 후 분산되며, 1일 후 재설정됩니다.</p>",
       "routine": "<p>(3 행동) 사이클론은 3 행동을 사용하여 이동하며, 각 행동마다 최대 30피트 이동하고 경로상의 모든 생물에게 @Damage[(2d12+13)[slashing]] 피해를 입힙니다 (@Check[reflex|dc:33|basic] 내성). 생물은 사이클론의 이동 중 자신의 공간을 여러 번 지나가더라도 내성을 한 번만 시도합니다. 대실패 시 생물은 사이클론에 휘말려 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{잡힌} 상태가 됩니다 (@UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{탈출} DC 33). 사이클론에 잡힌 생물은 사이클론과 함께 이동하며, 자신의 턴 시작 시 @Damage[(1d12+7)[slashing]]{1d12+7 추가 베기} 피해를 입습니다. 또한 사이클론의 턴에 사이클론에 대한 기본 반사 내성 굴림을 시도해야 하며, 사이클론이 어디로 이동하든 관계없습니다. 사이클론에서 탈출에 성공한 생물은 1d20 × 5 피트 높이에서 떨어집니다.</p>",
       "stealth": "<p>(expert)</p>",
@@ -1988,7 +1988,7 @@
     "Twisted King's Court": {
       "name": "왜곡된 왕의 법정",
       "desc (hazard)": "<p>끔찍한 얼굴과 변형된 몸을 가진 수많은 요정이 방 안을 휘젓고 다니며, 부식성 잔해를 날리며 다른 생물들을 위험한 춤으로 끌어들이고 있습니다.</p>",
-      "disable": "<p>@Check[nature|dc:32] 또는 @Check[occultism|dc:32] (전문가)가 요정의 침입을 막기 위한 의식을 수행하거나, @Check[performance|dc:34] (마스터)는 비틀린 왕의 요구를 충족시키기 위해 끔찍한 춤을 추거나, @Check[athletics|dc:32] 또는 @Check[intimidation|dc:32] (전문가)는 페이 댄서들을 물리치거나 쫓아내야 합니다. 유령 현상을 무력화하려면 총 3회의 성공이 필요하며, 각 체크는 2개의 행동을 소모합니다.</p>",
+      "disable": "<p>@Check[nature|dc:32] 또는 @Check[occultism|dc:32](전문가)가 요정의 침입을 막기 위한 의식을 수행하거나, @Check[performance|dc:34](마스터)는 비틀린 왕의 요구를 충족시키기 위해 끔찍한 춤을 추거나, @Check[athletics|dc:32] 또는 @Check[intimidation|dc:32](전문가)는 페이 댄서들을 물리치거나 쫓아내야 합니다. 유령 현상을 무력화하려면 총 3회의 성공이 필요하며, 각 체크는 2개의 행동을 소모합니다.</p>",
       "reset": "<p>유령 현상은 1분 후 비활성화됩니다. 새로운 달이 뜰 때마다 재형성됩니다. 영역 <strong>B6</strong> 영역의 모든 글리프가 복원되면-이 과정은 10일의 다운타임과 10번의 성공적인 @Check[nature|dc:36] 또는 @Check[occultism|dc:36] 체크가 필요합니다-유령 현상은 영구적으로 비활성화되며 다시 형성되지 않습니다.</p>",
       "routine": "<p>(1 행동) 유령 같은 요정이 방 안을 뛰어다닙니다. 방 안에 있는 모든 생물은 유령의 발톱에 긁히고 독이 든 물에 흩뿌려져 @Damage[(1d10+14)[force],2d10[acid]] 피해를 입습니다 (@Check[reflex|dc:32|basic] 내성). 내성 내성을 대실패한 생물은 서 있는 돌 쪽으로 10피트 끌려갑니다.</p>",
       "stealth": "<p>(훈련된)</p>",
@@ -2065,7 +2065,7 @@
     "Sarracenia's Ire": {
       "name": "Sarracenia's Ire",
       "desc (hazard)": "<p>환상이 깨지며, 숲이 생명이 없는 상처로 드러나고 평화로워 보였던 벌목꾼들이 분노에 휩싸여 근처에 다가오는 모든 것을 공격하며 무작정 기어다니고 있습니다.</p>",
-      "disable": "<p>@Check[nature|dc:22] (훈련된) 원시 에너지를 길들이기 위해, @Check[religion|dc:24] (훈련된) 유령을 억제하기 위해, @Check[diplomacy|dc:25] (훈련된) 드라이드를 위로하기 위해; 유령을 무력화하려면 세 번의 성공이 필요합니다.</p>",
+      "disable": "<p>@Check[nature|dc:22](훈련된) 원시 에너지를 길들이기 위해, @Check[religion|dc:24](훈련된) 유령을 억제하기 위해, @Check[diplomacy|dc:25](훈련된) 드라이드를 위로하기 위해; 유령을 무력화하려면 세 번의 성공이 필요합니다.</p>",
       "reset": "<p>실레네가 파괴되지 않는 한, 이 유령은 1시간 후에 스스로 재충전될 수 있습니다.</p>",
       "routine": "<p>(1 행동; 감정, 정신, 원시) 사라세니아의 분노가 숲 속의 최대 두 명의 생물에게 닥치며, 각 생물은 @Check[will|dc:23|traits:emotion,mental,primal] 내성 굴림을 시도해야 합니다.</p>\n<hr>\n<p><strong>Critical Success</strong> The creature is unaffected.</p>\n<p><strong>Success</strong> 생물은 영향을 받지 않습니다.</p>\n<p><strong>실패</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{혼란} 상태가 1 라운드 동안 지속됩니다.</p>\n<p><strong>대실패</strong> 1 라운드 동안 생물은 혼란 상태가 되며, @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1} 상태가 되고, 피해 굴림에 +4 상태 보너스를 얻습니다.</p>",
       "stealth": "<p>(전문가) 앞에 있는 장면이 환상임을 인식합니다.</p>",

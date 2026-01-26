@@ -39,7 +39,7 @@
         },
         "WdFNthO0BdxIqruL": {
           "name": "사색의 숨결(Cogitation Breath)",
-          "description": "<p>드래곤은 혼란스러운 악취를 내뿜어 @Damage[10d6[mental]|options:area-damage]의 피해를 @Template[type:cone|distance:40] (@Check[will|dc:30|basic|options:area-effect,inflicts:stupefied] 내성) 범위 내의 대상에게 입힌다. 저항에 실패한 생물은 1분 동안 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1} 상태가 된다(대실패 시 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 2} 상태). 드래곤은 [[/gmr 1d4 #재충전 시간]]{1d4 라운드} 동안 사고 호흡을 다시 사용할 수 없습니다.</p>"
+          "description": "<p>드래곤은 혼란스러운 악취를 내뿜어 @Damage[10d6[mental]|options:area-damage]의 피해를 @Template[type:cone|distance:40](@Check[will|dc:30|basic|options:area-effect,inflicts:stupefied] 내성) 범위 내의 대상에게 입힌다. 저항에 실패한 생물은 1분 동안 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1} 상태가 된다(대실패 시 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 2} 상태). 드래곤은 [[/gmr 1d4 #재충전 시간]]{1d4 라운드} 동안 사고 호흡을 다시 사용할 수 없습니다.</p>"
         },
         "foIbgbTavh92IEGM": {
           "name": "드라코닉 광란(Draconic Frenzy)",
@@ -847,11 +847,11 @@
         },
         "Q9b50evzwuGvfkAB": {
           "name": "자폭(Self-Destruct)",
-          "description": "<p>시계장치 드래곤은 제작자가 특별히 달리 프로그래밍하지 않는 한 반드시 이 반응을 사용해야 한다.</p>\n<p><strong>트리거</strong> 시계장치 용의 체력이 0으로 감소합니다.</p>\n<hr />\n<p><strong>효과 </strong> 용이 쉭 하고 멈춰 서며 꾸준하고 큰 똑딱거리는 소리를 낸다. 다음 차례가 시작될 예정이었던 시점에 용이 폭발하여 @Damage[12d10[piercing]|options:area-damage]의 피해를 @Template[emanation|distance:40] ( @Check[reflex|dc:37|basic|options:area-effect] 내성 굴림).</p>\n<p> 인접한 생물이 @Check[thievery|dc:37|traits:action:disable-a-device]{장치 해제} 체크에서 성공하면 자폭 시퀀스를 취소할 수 있다.</p>"
+          "description": "<p>시계장치 드래곤은 제작자가 특별히 달리 프로그래밍하지 않는 한 반드시 이 반응을 사용해야 한다.</p>\n<p><strong>트리거</strong> 시계장치 용의 체력이 0으로 감소합니다.</p>\n<hr />\n<p><strong>효과 </strong> 용이 쉭 하고 멈춰 서며 꾸준하고 큰 똑딱거리는 소리를 낸다. 다음 차례가 시작될 예정이었던 시점에 용이 폭발하여 @Damage[12d10[piercing]|options:area-damage]의 피해를 @Template[emanation|distance:40]( @Check[reflex|dc:37|basic|options:area-effect] 내성 굴림).</p>\n<p> 인접한 생물이 @Check[thievery|dc:37|traits:action:disable-a-device]{장치 해제} 체크에서 성공하면 자폭 시퀀스를 취소할 수 있다.</p>"
         },
         "2PoHFE6FWRaWarJD": {
           "name": "기름 숨결(Breathe Oil)",
-          "description": "<p>시계태엽 드래곤이 불타는 기름을 분사하여 @Damage[16d6[fire] |options:area-damage]의 피해를 입힌다. @Template[cone|distance:40] (@Check[reflex|dc:37|basic|options:area-effect] 내성). 내성에 실패한 생물은 불타는 기름에 뒤덮여 @Damage[2d6[persistent,fire]]의 피해를 추가로 입는다. 시계태엽 드래곤은 2라운드 동안 기름 숨결을 다시 사용할 수 없다. </p>"
+          "description": "<p>시계태엽 드래곤이 불타는 기름을 분사하여 @Damage[16d6[fire] |options:area-damage]의 피해를 입힌다. @Template[cone|distance:40](@Check[reflex|dc:37|basic|options:area-effect] 내성). 내성에 실패한 생물은 불타는 기름에 뒤덮여 @Damage[2d6[persistent,fire]]의 피해를 추가로 입는다. 시계태엽 드래곤은 2라운드 동안 기름 숨결을 다시 사용할 수 없다. </p>"
         },
         "Lt0Vd3S5Hji79WEW": {
           "name": "드라코닉 광란(Draconic Frenzy)",
@@ -859,7 +859,7 @@
         },
         "fZUt506WBOAg0Mrm": {
           "name": "창처럼 찌르는 꼬리(Spearing Tail)",
-          "description": "<p>시계태엽 드래곤은 날카로운 꼬리 끝으로 공격한다.</p>\n<p>공격 범위에 있는 모든 생물에게 꼬리 공격을 가하며, 공격 굴림을 한 번 굴려 그 결과를 각 대상에 적용한다. 명중당한 생물은 @Damage[4d6[bleed]] (치명타 시 @Damage[(2*4d6)[bleed]]의 피해를 입는다). 이는 용의 다중 공격 페널티에 대해 두 번의 공격으로 간주된다.</p>"
+          "description": "<p>시계태엽 드래곤은 날카로운 꼬리 끝으로 공격한다.</p>\n<p>공격 범위에 있는 모든 생물에게 꼬리 공격을 가하며, 공격 굴림을 한 번 굴려 그 결과를 각 대상에 적용한다. 명중당한 생물은 @Damage[4d6[bleed]](치명타 시 @Damage[(2*4d6)[bleed]]의 피해를 입는다). 이는 용의 다중 공격 페널티에 대해 두 번의 공격으로 간주된다.</p>"
         }
       }
     },
@@ -1011,7 +1011,7 @@
         },
         "wW8lBy7vi5CcDHTN": {
           "name": "추악함의 구역질(Retch of Foulness)",
-          "description": "<p> 소드데몬이 하수 분출을 내뿜어 @Damage[8d6[acid],8d6[독]|options:area-damage]{8d6 산성 피해와 8d6 독 피해}를 @Template[cone|distance:30] (@Check[fortitude|dc:36|basic|options:area-effect] 내성) 범위 내 대상에게 입힌다. </p>\n<p>[[/gmr 1d4 #재충전 역겨움의 토기]]{1d4 라운드} 동안 다시 역겨움의 토기를 사용할 수 없습니다.</p>"
+          "description": "<p> 소드데몬이 하수 분출을 내뿜어 @Damage[8d6[acid],8d6[독]|options:area-damage]{8d6 산성 피해와 8d6 독 피해}를 @Template[cone|distance:30](@Check[fortitude|dc:36|basic|options:area-effect] 내성) 범위 내 대상에게 입힌다. </p>\n<p>[[/gmr 1d4 #재충전 역겨움의 토기]]{1d4 라운드} 동안 다시 역겨움의 토기를 사용할 수 없습니다.</p>"
         }
       }
     },
@@ -1092,7 +1092,7 @@
         },
         "4gwjWKeZ1qsrbvjD": {
           "name": "날카로운 칼날 던지기(Hurl Blade)",
-          "description": "<p>나선형 센츄리온은 날카로운 칼날 하나를 비스듬히 회전시키며 던져 급강하하는 궤도를 보장한다. 이 블레이드는 @Template[type:line|distance:40] (@Check[reflex|dc:30|basic] 내성) 내에 있는 각 생물에게 @Damage[6d6[slashing]|options:area-damage]의 피해를 입힙니다. </p>\n<p>나선형 백부장의 다음 턴이 시작될 때, 칼날은 급강하하여 동일한 비행 경로를 따라 되돌아와, 동일한 선상에 있는 각 생물에게 다시 @Damage[6d6[slashing]|options:area-damage]의 피해를 입힌다 (@Check[reflex|dc:30|basic] 내성). </p>"
+          "description": "<p>나선형 센츄리온은 날카로운 칼날 하나를 비스듬히 회전시키며 던져 급강하하는 궤도를 보장한다. 이 블레이드는 @Template[type:line|distance:40](@Check[reflex|dc:30|basic] 내성) 내에 있는 각 생물에게 @Damage[6d6[slashing]|options:area-damage]의 피해를 입힙니다. </p>\n<p>나선형 백부장의 다음 턴이 시작될 때, 칼날은 급강하하여 동일한 비행 경로를 따라 되돌아와, 동일한 선상에 있는 각 생물에게 다시 @Damage[6d6[slashing]|options:area-damage]의 피해를 입힌다 (@Check[reflex|dc:30|basic] 내성). </p>"
         },
         "w4QXU6YbX6hTA0ov": {
           "name": "가속(Rev Up)",
@@ -1404,7 +1404,7 @@
         },
         "z6zrzAGUnQzvtxt2": {
           "name": "탈골의 숨결(Dislocating Breath)",
-          "description": "<p> 드래곤은 소용돌이치는 에너지를 내뿜어 생물들을 찢어발기며, @Damage[8d6[force]|옵션:area-damage] 피해를 입힌다. @Template[type:cone|distance:30] (@Check[reflex|dc:28|basic|options:area-effect] 저항 검사). 저항 검사에 실패한 생물은 드래곤이 최대 30피트(대실패 시 두 배 거리)까지 임의의 방향으로 순간이동시킬 수 있다. 목적지는 지상에 위치해야 하며 위험 요소가 없는 공간이어야 한다. 드래곤은 [[/gmr 1d4 #재충전 탈골의 숨결]]{1d4 라운드} 동안 탈골의 숨결을 다시 사용할 수 없습니다.</p>"
+          "description": "<p> 드래곤은 소용돌이치는 에너지를 내뿜어 생물들을 찢어발기며, @Damage[8d6[force]|옵션:area-damage] 피해를 입힌다. @Template[type:cone|distance:30](@Check[reflex|dc:28|basic|options:area-effect] 저항 검사). 저항 검사에 실패한 생물은 드래곤이 최대 30피트(대실패 시 두 배 거리)까지 임의의 방향으로 순간이동시킬 수 있다. 목적지는 지상에 위치해야 하며 위험 요소가 없는 공간이어야 한다. 드래곤은 [[/gmr 1d4 #재충전 탈골의 숨결]]{1d4 라운드} 동안 탈골의 숨결을 다시 사용할 수 없습니다.</p>"
         },
         "DR5DVel5zxSC5osK": {
           "name": "위상 점프(Phase Jump)",
@@ -1501,7 +1501,7 @@
         },
         "h8RD2dr2488hXgPv": {
           "name": "지혜의 숨결(Breath of Wisdom)",
-          "description": "<p>드라코닉은 선택한 생물에게 @Damage[21d6[spirit]|options:area-damage]의 피해를 주는 에너지 폭발을 내뿜습니다. @Template[type:cone|distance:60] (@Check[Refex|dc:44|basic|options:area-effect] 내성). 이 효과는 영역 내 특정 생물에게 비살상으로 만들거나 특정 생물을 전혀 피해하지 않도록 선택할 수 있다. [[/gmr 1d4 #재충전 지혜의 숨결]]{1d4 라운드} 동안 지혜의 숨결을 다시 사용할 수 없다.</p>"
+          "description": "<p>드라코닉은 선택한 생물에게 @Damage[21d6[spirit]|options:area-damage]의 피해를 주는 에너지 폭발을 내뿜습니다. @Template[type:cone|distance:60](@Check[Refex|dc:44|basic|options:area-effect] 내성). 이 효과는 영역 내 특정 생물에게 비살상으로 만들거나 특정 생물을 전혀 피해하지 않도록 선택할 수 있다. [[/gmr 1d4 #재충전 지혜의 숨결]]{1d4 라운드} 동안 지혜의 숨결을 다시 사용할 수 없다.</p>"
         },
         "ESaeFbsRtq9zNe1L": {
           "name": "용의 지혜(Dragon's Wisdom)",
@@ -1745,7 +1745,7 @@
         },
         "Qu8H1OuUAHCWxm9R": {
           "name": "영토 보복(Territorial Retaliation)",
-          "description": "<p><strong>발동 조건</strong> 15피트 이내의 생물이 이동 행동을 사용하거나 이동 행동 중 칸을 떠날 때 (비행 속도만 사용하는 이동 행동은 이 반응을 발동시키지 않음)</p><hr /><p><strong>효과</strong> 테라 카버는 운동 체크를 시도하여 @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{추락}을 유발하는 생물을 넘어뜨리려 한다. 결과와 상관없이, 유발한 생물의 공간과 그 생물과 인접한 지면의 모든 공간은 1라운드 동안 어려운 지형이 된다.</p>"
+          "description": "<p><strong>발동 조건</strong> 15피트 이내의 생물이 이동 행동을 사용하거나 이동 행동 중 칸을 떠날 때 (비행 속도만 사용하는 이동 행동은 이 반응을 발동시키지 않음)</p><hr /><p><strong>효과</strong> 테라 카버는 운동 체크를 시도하여 @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{넘어뜨리기}을 유발하는 생물을 넘어뜨리려 한다. 결과와 상관없이, 유발한 생물의 공간과 그 생물과 인접한 지면의 모든 공간은 1라운드 동안 어려운 지형이 된다.</p>"
         },
         "KCIuH1WmenHj4daF": {
           "name": "투사체 조각(Carve Projectile)",
@@ -1820,7 +1820,7 @@
           "description": "<p>비길리아는 자신의 도달 범위 내의 중형 이하 @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식불명} 생물을 들어 올린 후, 이동한다.</p>"
         },
         "TRL2qIeVX3ZSiO71": {
-          "name": "법적 로어(Legal Lore)"
+          "name": "법률 로어(Legal Lore)"
         }
       }
     },
@@ -1884,7 +1884,7 @@
         },
         "27lO5hJcHjPjslLT": {
           "name": "수압 호흡(Hydraulic Breath)",
-          "description": "<p>용은 압축된 물줄기를 내뿜어 @Damage[9d6[bludgeoning]|options:area-damage]의 피해를 @Template[type:line|distance:80] ( @Check[reflex|dc:26|basic|options:area-effect,forced-movement,inflicts:prone] 범위). 수압 호흡에 대한 반사 내성 내성 대실패한 생물은 10피트 밀려나며 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드림} 상태가 된다. 드래곤은 [[/gmr 1d4 #수압 호흡 재충전 시간]] 동안 수압 호흡을 다시 사용할 수 없다. {1d4 라운드} 동안 다시 사용할 수 없습니다.</p>"
+          "description": "<p>용은 압축된 물줄기를 내뿜어 @Damage[9d6[bludgeoning]|options:area-damage]의 피해를 @Template[type:line|distance:80]( @Check[reflex|dc:26|basic|options:area-effect,forced-movement,inflicts:prone] 범위). 수압 호흡에 대한 반사 내성 내성 대실패한 생물은 10피트 밀려나며 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드림} 상태가 된다. 드래곤은 [[/gmr 1d4 #수압 호흡 재충전 시간]] 동안 수압 호흡을 다시 사용할 수 없다. {1d4 라운드} 동안 다시 사용할 수 없습니다.</p>"
         },
         "DrGbBNaXvcBQvYSR": {
           "name": "암초 융합(Reef Meld)",
@@ -2082,7 +2082,7 @@
     },
     "Tiger Topiary": {
       "name": "호랑이 토피어리(Tiger Topiary)",
-      "description": "<p>호랑이 토피어리는 불가능의 땅과 티엔 샤에서 가장 흔히 발견되며, 매혹적인 정원에 위험한 분위기를 더합니다. 매우 자존심이 강하고 변덕스러운 개인의 영혼이 호랑이 토피어리가 되어, 침묵의 추적자이자 사냥꾼으로 변할 수 있습니다. 침입자를 자신의 영역 전체에 걸쳐 따라다니며 그들이 가장 약점을 드러내는 순간을 노리는데, 경계하지 않는 모험가 일행을 한 명씩 차례로 제거하는 것으로 알려져 있습니다. 자연과 완벽하게 조화를 이루기 때문에, 경험 많은 여행자만이 호랑이 토피어리를 제때 발견하고 다른 경로를 계획할 수 있습니다.⟬T0002 ⟭<hr /><p>토피어리는 골라리온 전역에서 매우 흔히 볼 수 있으며, 특히 귀족들의 반짝이고 정교하게 손질된 잔디밭에서 자주 발견된다. 살아있는 토피어리는 프라이멀 마법이 짙게 스민 무성한 지역에서 고독한 영혼이 죽음을 맞이할 때 발생한다. 그 영혼이 주변 식물들로 폭발하며 동물 형태로 함께 자라나게 하는데, 이는 종종 죽어가는 사람의 성격에 영향을 받는다. 완전히 형성된 살아있는 토피어리는 원래의 기억을 잃지만, 자신이 형성된 지역을 보호하려는 욕망으로 가득 차 있어 침입자나 동식물에 해를 끼치려는 자들을 쫓아낸다.</p>",
+      "description": "<p>호랑이 토피어리는 불가능의 땅과 티엔 샤에서 가장 흔히 발견되며, 매혹적인 정원에 위험한 분위기를 더합니다. 매우 자존심이 강하고 변덕스러운 개인의 영혼이 호랑이 토피어리가 되어, 침묵의 추적자이자 사냥꾼으로 변할 수 있습니다. 침입자를 자신의 영역 전체에 걸쳐 따라다니며 그들이 가장 약점을 드러내는 순간을 노리는데, 경계하지 않는 모험가 일행을 한 명씩 차례로 제거하는 것으로 알려져 있습니다. 자연과 완벽하게 조화를 이루기 때문에, 경험 많은 여행자만이 호랑이 토피어리를 제때 발견하고 다른 경로를 계획할 수 있습니다.</p><hr /><p>토피어리는 골라리온 전역에서 매우 흔히 볼 수 있으며, 특히 귀족들의 반짝이고 정교하게 손질된 잔디밭에서 자주 발견된다. 살아있는 토피어리는 프라이멀 마법이 짙게 스민 무성한 지역에서 고독한 영혼이 죽음을 맞이할 때 발생한다. 그 영혼이 주변 식물들로 폭발하며 동물 형태로 함께 자라나게 하는데, 이는 종종 죽어가는 사람의 성격에 영향을 받는다. 완전히 형성된 살아있는 토피어리는 원래의 기억을 잃지만, 자신이 형성된 지역을 보호하려는 욕망으로 가득 차 있어 침입자나 동식물에 해를 끼치려는 자들을 쫓아낸다.</p>",
       "languages": "어떤 언어도 구사할 수 없음",
       "items": {
         "h4IgckVD51neVR3k": {
@@ -2391,7 +2391,7 @@
         },
         "8ZafagyMIKwX7Xhy": {
           "name": "집 수호자(Home Guardian)",
-          "description": "<p> 도모보이는 자신의 집에 공격을 명령함으로써 @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{무장 해제}, @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{잡기}, @UUID[Compendium.pf2e.actionspf2e.Item.lOE4yjUnETTdaf2T]{위치 변경}, @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{밀치기}, 또는 @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{걸려 넘어뜨리기}를 할 수 있다. 도모보이는 이러한 체크에서 운동 기술 대신 가업 로어를 사용한다.</p>"
+          "description": "<p> 도모보이는 자신의 집에 공격을 명령함으로써 @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{무장 해제}, @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{잡기}, @UUID[Compendium.pf2e.actionspf2e.Item.lOE4yjUnETTdaf2T]{위치 변경}, @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{밀치기}, 또는 @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{넘어뜨리기}를 할 수 있다. 도모보이는 이러한 체크에서 운동 기술 대신 가업 로어를 사용한다.</p>"
         },
         "1j45r42BQMaOn7gC": {
           "name": "가사 로어(Household Lore)"
@@ -3240,7 +3240,7 @@
         },
         "xocggVl34iamkAuY": {
           "name": "영혼 흡수 호흡(Soul Siphoning Breath)",
-          "description": "<p> 드래곤은 신성한 에너지의 폭풍을 내뿜어, @Damage[7d6[void]|options:area-damage]의 피해를 @Template[type:cone|distance:30] (@Check[fortitude|dc:26|basic|options:area-effect] 내성) 범위 내 생물들의 생명력을 흡수한다. 드래곤은 영혼 흡수 호흡이 재충전될 때까지 빠른 치유 5를 얻는다. 부활 드래곤은 [[/gmr 1d4 #영혼 흡수 호흡 재충전]]{1d4 라운드} 동안 영혼 흡수 호흡을 다시 사용할 수 없다.</p>"
+          "description": "<p> 드래곤은 신성한 에너지의 폭풍을 내뿜어, @Damage[7d6[void]|options:area-damage]의 피해를 @Template[type:cone|distance:30](@Check[fortitude|dc:26|basic|options:area-effect] 내성) 범위 내 생물들의 생명력을 흡수한다. 드래곤은 영혼 흡수 호흡이 재충전될 때까지 빠른 치유 5를 얻는다. 부활 드래곤은 [[/gmr 1d4 #영혼 흡수 호흡 재충전]]{1d4 라운드} 동안 영혼 흡수 호흡을 다시 사용할 수 없다.</p>"
         },
         "bDeLpxQG3uavgFnV": {
           "name": "네크로맨시 로어(Necromancy Lore)"
@@ -3846,7 +3846,7 @@
         },
         "LZ3htI7JRHvcwAhU": {
           "name": "반응 속도 2배(Doubled Reaction)",
-          "description": "<p>바오말은 매 라운드마다 반응 공격만을 위해 사용할 수 있는 추가 반응을 얻습니다. 시도할 때마다 다른 머리를 사용해야 하며, 동일한 유발 행동에 대해 기회의 공격을 두 번 이상 수행할 수 없다.</p>"
+          "description": "<p>바오말은 매 라운드마다 반응 공격만을 위해 사용할 수 있는 추가 반응을 얻습니다. 시도할 때마다 다른 머리를 사용해야 하며, 동일한 유발 행동에 대해 기회 공격을 두 번 이상 수행할 수 없다.</p>"
         },
         "LkBIOwt4NW6BfYFE": {
           "name": "사이킥적 정적 오라(Psychic Static Aura)",
@@ -3892,7 +3892,7 @@
         },
         "tNDSmrL3XcfgL2ma": {
           "name": "해체(Deconstruct)",
-          "description": "<p> <strong>트리거</strong> 주라이트가 언어적 또는 정신적 특성을 지닌 효과의 표적이 될 때</p><hr /><p><strong>효과 </strong> 주라이트는 적의 이론적 토대를 비판하며, 반격 체크를 시도하다 [[/r 1d20+28#Counteract]] (반격 등급 8)의 보너스를 적용하여 반격 검사를 시도한다. 효과가 반격당하면 발동한 적군은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 1} 상태가 된다 (주라이트가 대성공한 경우 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 2} 상태).</p>"
+          "description": "<p> <strong>트리거</strong> 주라이트가 언어적 또는 정신적 특성을 지닌 효과의 표적이 될 때</p><hr /><p><strong>효과 </strong> 주라이트는 적의 이론적 토대를 비판하며, 반격 체크를 시도하다 [[/r 1d20+28#Counteract]](반격 등급 8)의 보너스를 적용하여 반격 검사를 시도한다. 효과가 반격당하면 발동한 적군은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 1} 상태가 된다 (주라이트가 대성공한 경우 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 2} 상태).</p>"
         },
         "GZ3JIOsSHMtAH4ym": {
           "name": "가설 공개(Revealing Hypothesis)",
@@ -5528,7 +5528,7 @@
         },
         "ORWYWlftRX4LQoyt": {
           "name": "공허의 숨결(Void Breath)",
-          "description": "<p>레이버너 허스크는 공허 에너지의 폭풍을 내뿜어 @Template[type:cone|distance:40] (@Check[reflex|dc:34|basic|options:area-effect] 내성) 범위 내. [[/gmr 1d4 #공허의 숨결 재충전]]{1d4 라운드} 동안 공허의 숨결을 다시 사용할 수 없다.</p>"
+          "description": "<p>레이버너 허스크는 공허 에너지의 폭풍을 내뿜어 @Template[type:cone|distance:40](@Check[reflex|dc:34|basic|options:area-effect] 내성) 범위 내. [[/gmr 1d4 #공허의 숨결 재충전]]{1d4 라운드} 동안 공허의 숨결을 다시 사용할 수 없다.</p>"
         }
       }
     },
@@ -7171,7 +7171,7 @@
         },
         "BGwSGj2tApTEPTz1": {
           "name": "랩터 도약(Raptor Leap)",
-          "description": "<p><strong>사용 빈도</strong> 라운드당 1회</p><hr /><p> <strong>효과</strong> 무리는 어려운 지형을 무시하고 이동한다(하지만 매우 어려운 지형은 제외). 이 이동이 끝날 때, @Template[type:emanation|distance:5] 내에 있는 각 적들은 @Damage[1d8[piercing]] (@Check[reflex|dc:19|basic] 내성)을 받는다.</p>"
+          "description": "<p><strong>사용 빈도</strong> 라운드당 1회</p><hr /><p> <strong>효과</strong> 무리는 어려운 지형을 무시하고 이동한다(하지만 매우 어려운 지형은 제외). 이 이동이 끝날 때, @Template[type:emanation|distance:5] 내에 있는 각 적들은 @Damage[1d8[piercing]](@Check[reflex|dc:19|basic] 내성)을 받는다.</p>"
         }
       },
       "AthleticsVariants": {
@@ -7491,7 +7491,7 @@
         },
         "i7kuaOQCvKjQ623q": {
           "name": "룬의 숨결(Runic Breath)",
-          "description": "<p>드래곤은 수백 개의 폭발 룬을 발사하며, 이는 충돌 시 폭발하여 @Damage[9d6[untyped]|options:area-damage]의 피해를 @Template[type:cone|distance:30] (@Check[reflex|dc:29|basic|options:area-effect] 내성) 범위 내에 입힌다. 이 능력의 피해 유형은 '변화하는 룬'에 의해 결정됩니다. 저항에 실패한 생물들은 폭발하는 룬의 영향을 받습니다. 드래곤은 [[/gmr 1d4 #룬의 숨결 재충전 시간]]{1d4 라운드} 동안 룬의 숨결을 다시 사용할 수 없습니다.</p>"
+          "description": "<p>드래곤은 수백 개의 폭발 룬을 발사하며, 이는 충돌 시 폭발하여 @Damage[9d6[untyped]|options:area-damage]의 피해를 @Template[type:cone|distance:30](@Check[reflex|dc:29|basic|options:area-effect] 내성) 범위 내에 입힌다. 이 능력의 피해 유형은 '변화하는 룬'에 의해 결정됩니다. 저항에 실패한 생물들은 폭발하는 룬의 영향을 받습니다. 드래곤은 [[/gmr 1d4 #룬의 숨결 재충전 시간]]{1d4 라운드} 동안 룬의 숨결을 다시 사용할 수 없습니다.</p>"
         },
         "aXvfwxeI9u0AxsD4": {
           "name": "변화하는 룬(Shifting Runes)",
@@ -7583,7 +7583,7 @@
         },
         "9h7H5cLoexL4ZlMm": {
           "name": "비틀거리며 밀려드는 공격(Shambling Onslaught)",
-          "description": "<p><span class=\"action-glyph\">1</span> ~ <span class=\"action-glyph\">2</span> </p>\n<p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과 </strong> 샴블러는 자신의 칸에 있거나 @Template[type:emanation|distance:5] (@Check[reflex|dc:18|basic] 내성) 범위 내의 모든 적을 공격한다. 피해량은 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(2d6+5)[bludgeoning]|options:area-damage] 피해</p>\n<p><span class=\"action-glyph\">2 </span> @Damage[(2d6+9)[bludgeoning]|options:area-damage] 피해</p>"
+          "description": "<p><span class=\"action-glyph\">1</span> ~ <span class=\"action-glyph\">2</span> </p>\n<p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과 </strong> 샴블러는 자신의 칸에 있거나 @Template[type:emanation|distance:5](@Check[reflex|dc:18|basic] 내성) 범위 내의 모든 적을 공격한다. 피해량은 행동 횟수에 따라 달라진다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(2d6+5)[bludgeoning]|options:area-damage] 피해</p>\n<p><span class=\"action-glyph\">2 </span> @Damage[(2d6+9)[bludgeoning]|options:area-damage] 피해</p>"
         }
       }
     },
@@ -8052,7 +8052,7 @@
         },
         "WdFNthO0BdxIqruL": {
           "name": "사고 호흡(Cogitation Breath)",
-          "description": "<p>드래곤은 혼란스러운 악취를 내뿜어 @Damage[15d6[mental]|options:area-damage]의 피해를 @Template[type:cone|distance:50] (@Check[will|dc:37|basic|options:area-effect,inflicts:stupefied] 내성) 범위 내의 대상에게 입힌다. 내성에 실패한 생물은 1분 동안 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{정신이 혼미함 1} 상태가 된다(대실패 시 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{정신이 혼미함 2} 상태). 드래곤은 [[/gmr 1d4 #재충전 시간]] 동안 사고 호흡을 다시 사용할 수 없다. {1d4 라운드} 동안 [[/gmr 1d4 #재충전 사고 호흡]] 동안 다시 사용할 수 없습니다.</p>"
+          "description": "<p>드래곤은 혼란스러운 악취를 내뿜어 @Damage[15d6[mental]|options:area-damage]의 피해를 @Template[type:cone|distance:50](@Check[will|dc:37|basic|options:area-effect,inflicts:stupefied] 내성) 범위 내의 대상에게 입힌다. 내성에 실패한 생물은 1분 동안 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{정신이 혼미함 1} 상태가 된다(대실패 시 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{정신이 혼미함 2} 상태). 드래곤은 [[/gmr 1d4 #재충전 시간]] 동안 사고 호흡을 다시 사용할 수 없다. {1d4 라운드} 동안 [[/gmr 1d4 #재충전 사고 호흡]] 동안 다시 사용할 수 없습니다.</p>"
         },
         "foIbgbTavh92IEGM": {
           "name": "드라코닉 광란(Draconic Frenzy)",
@@ -8477,7 +8477,7 @@
           "description": "<p>타누키는 힘을 모아 전력을 다해 던집니다. 40피트 내의 적 한 명을 향해 다트 스트라이크를 시도합니다. 스트라이크가 실패하면 타누키는 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드림} 상태가 됩니다. 공격이 성공하면, 그들은 정말 모든 것을 던지기에 쏟아부은 것이며, 던지는 순간 다트 형태로 변신한다. 타누키는 던진 위치에서 사라지고, 적과 인접한 공간에 나타나 그 적을 향해 낫 공격을 가한다. 해당 적은 이 공격에 대해 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태이다.</p>"
         },
         "ThZDJkVmaZu2rBUe": {
-          "name": "법적 로어(Legal Lore)"
+          "name": "법률 로어(Legal Lore)"
         }
       }
     },
@@ -8755,7 +8755,7 @@
         },
         "XaV9EbmhjP3b8nYt": {
           "name": "비명 호흡(Shrieking Breath)",
-          "description": "<p>용은 공포에 질린 적에게서 끌어낸 모든 비명 소리가 뒤섞인 불협화음을 내뿜으며, @Damage[8d6[sonic]|options:area-damage]의 피해를 @Template[type:cone|distance:30] (@Check[will|dc:28|basic|options:area-effect] 내성). 의지 내성에 실패한 생물은 다음 턴의 첫 행동을 비명만 지르며 보내야 한다. 용은 [[/gmr 1d4 #재충전 비명 숨결]]{1d4 라운드} 동안 비명 숨결을 다시 사용할 수 없다.</p>"
+          "description": "<p>용은 공포에 질린 적에게서 끌어낸 모든 비명 소리가 뒤섞인 불협화음을 내뿜으며, @Damage[8d6[sonic]|options:area-damage]의 피해를 @Template[type:cone|distance:30](@Check[will|dc:28|basic|options:area-effect] 내성). 의지 내성에 실패한 생물은 다음 턴의 첫 행동을 비명만 지르며 보내야 한다. 용은 [[/gmr 1d4 #재충전 비명 숨결]]{1d4 라운드} 동안 비명 숨결을 다시 사용할 수 없다.</p>"
         }
       }
     },
@@ -9079,7 +9079,7 @@
         },
         "9SJBTraIuJdXV6FB": {
           "name": "연기 시야(Smoke Vision)",
-          "description": "<p>연기는 재용룡의 시야를 방해하지 않으며, 연기로 인한 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진} 상태를 무시한다.</p>"
+          "description": "<p>연기는 애쉬 드래곤의 시야를 방해하지 않으며, 연기로 인한 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진} 상태를 무시한다.</p>"
         },
         "T5A6q7Af8YZ9uCkW": {
           "name": "프라이멀 공격에 대한 모든 내성에 +2 상태(+2 Status to All Saves vs. Primal)"
@@ -9387,7 +9387,7 @@
         },
         "FccscOTujIsmRSKB": {
           "name": "마당의 마스터(Master of the Yard)",
-          "description": "<p>드보로보이는 마당에서 일을 돕거나 방해하며, 젖을 짜거나 소를 놀라게 하고, 도구를 지키거나 흩어뜨리는 등의 행동을 한다. 자신의 집을 공격하도록 명령함으로써 드보로보이는 @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{그랩}, @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{밀치기}, @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{걸어 넘어뜨리기}, @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{무장 해제}를 분노한 집안 공격으로 수행할 수 있다. </p>\n<p>드보로보는 이러한 체크에서 운동 능력 기술 대신 가사 지식을 사용합니다.</p>"
+          "description": "<p>드보로보이는 마당에서 일을 돕거나 방해하며, 젖을 짜거나 소를 놀라게 하고, 도구를 지키거나 흩어뜨리는 등의 행동을 한다. 자신의 집을 공격하도록 명령함으로써 드보로보이는 @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{그랩}, @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{밀치기}, @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{넘어뜨리기}, @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{무장 해제}를 분노한 집안 공격으로 수행할 수 있다. </p>\n<p>드보로보는 이러한 체크에서 운동 능력 기술 대신 가사 지식을 사용합니다.</p>"
         },
         "qDnzFnYBD0inV73p": {
           "name": "자유 시전 주문(At-Will Spells)"
@@ -9439,7 +9439,7 @@
         },
         "ZKaduXctpn6ATVjC": {
           "name": "키탕기안 맹독(Kithangian Venom)",
-          "description": "<p><strong> 내성 굴림</strong> @Check[fortitude|dc:25]</p>\n<p><strong>최대 지속 시간 </strong> 6 라운드</p>\n<p><strong>1단계</strong> @Damage[2d6[poison]] (2 라운드)</p>\n<p><strong>2단계</strong> @Damage[2d6[poison]] 및 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1}(2라운드)</p>\n<p> <strong>3단계</strong> @Damage[3d6[poison]] 및 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 2}(2 라운드)</p>"
+          "description": "<p><strong> 내성 굴림</strong> @Check[fortitude|dc:25]</p>\n<p><strong>최대 지속 시간 </strong> 6 라운드</p>\n<p><strong>1단계</strong> @Damage[2d6[poison]](2 라운드)</p>\n<p><strong>2단계</strong> @Damage[2d6[poison]] 및 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1}(2라운드)</p>\n<p> <strong>3단계</strong> @Damage[3d6[poison]] 및 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 2}(2 라운드)</p>"
         },
         "CoQTAk22h5lnU6tR": {
           "name": "갈라지는 혀(Rasping Tongues)",
@@ -10038,8 +10038,8 @@
       }
     },
     "Cinder Dragon (Ancient)": {
-      "name": "재용룡 (고대)(Cinder Dragon (Ancient))",
-      "description": "<p>가장 크고 사나운 용들 중 하나인 재용룡은 일반적으로 변덕스러워 하급 생물들에게 경외심, 심지어는 복종까지 요구한다. 잿불 용의 외형은 불꽃을 연상시키며, 비늘에는 붉은색, 주황색, 노란색이 혼합된 무늬가 흔히 나타난다. 많은 잿불 용은 활화산이나 비슷한 화염이 있는 지역에 서식한다. 잿불 용은 자신의 체온과 보금자리의 열기를 견딜 수 있는 보물을 선호하며, 보물 더미에는 보석, 금, 은이 흔히 포함된다. </p>",
+      "name": "애쉬 드래곤 (고대)(Cinder Dragon (Ancient))",
+      "description": "<p>가장 크고 사나운 용들 중 하나인 애쉬 드래곤은 일반적으로 변덕스러워 하급 생물들에게 경외심, 심지어는 복종까지 요구한다. 잿불 용의 외형은 불꽃을 연상시키며, 비늘에는 붉은색, 주황색, 노란색이 혼합된 무늬가 흔히 나타난다. 많은 잿불 용은 활화산이나 비슷한 화염이 있는 지역에 서식한다. 잿불 용은 자신의 체온과 보금자리의 열기를 견딜 수 있는 보물을 선호하며, 보물 더미에는 보석, 금, 은이 흔히 포함된다. </p>",
       "perception": "연기 시야",
       "items": {
         "IrTg9nWwV4OiOQW8": {
@@ -10059,7 +10059,7 @@
         },
         "9SJBTraIuJdXV6FB": {
           "name": "연기 시야(Smoke Vision)",
-          "description": "<p>연기는 재용룡의 시야를 방해하지 않으며, 연기로 인한 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진} 상태를 무시합니다.</p>"
+          "description": "<p>연기는 애쉬 드래곤의 시야를 방해하지 않으며, 연기로 인한 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진} 상태를 무시합니다.</p>"
         },
         "T5A6q7Af8YZ9uCkW": {
           "name": "프라이멀 공격에 대한 모든 내성에 +2 상태(+2 Status to All Saves vs. Primal)"
@@ -10196,7 +10196,7 @@
         },
         "szMtFeHWIvnzvaDT": {
           "name": "잔혹한 쓸어내기(Brutal Sweep)",
-          "description": "<p><strong>요구 사항 </strong> 얼음 트롤이 손도끼를 휘두르고 있을 것</p><hr /><p> <strong>효과</strong> 트롤이 도끼를 크게 휘둘러 @Damage[3d6[slashing]|options:area-damage]의 피해를 @Template[type:emanation|distance:5] (@Check[reflex|dc:18|basic|options:area-effect] 내성) 범위 내 모든 생물에게 입힌다.</p>"
+          "description": "<p><strong>요구 사항 </strong> 얼음 트롤이 손도끼를 휘두르고 있을 것</p><hr /><p> <strong>효과</strong> 트롤이 도끼를 크게 휘둘러 @Damage[3d6[slashing]|options:area-damage]의 피해를 @Template[type:emanation|distance:5](@Check[reflex|dc:18|basic|options:area-effect] 내성) 범위 내 모든 생물에게 입힌다.</p>"
         },
         "qCpzPNIMm9QsJlk1": {
           "name": "얼음 통로(Ice Passage)",
@@ -10256,7 +10256,7 @@
     },
     "Giant Maggot": {
       "name": "거대 구더기(Giant Maggot)",
-      "description": "<p>거대 파리는 더 큰 괴물이나 가축의 몸에 알을 낳는다. 부화하면 이 알에서 인간 크기의 꿈틀거리는 구더기가 나오는데, 이들은 태어난 몸부터 시작해 주변의 모든 살점을 탐욕스럽게 먹어치우는 굶주린 새끼들이다. </p><hr /><p>거대 파리는 조랑말 크기의 곤충으로, 거대한 복안과 짧고 뻣뻣한 털로 뒤덮인 몸을 지녔다. 그들의 은신처는 알을 낳기 위해 쌓아둔 썩은 고기로 악명 높다. 이 구더기 굴은 또한 치명적인 질병의 주요 번식지이기도 하다.⟬T0005 ⟭",
+      "description": "<p>거대 파리는 더 큰 괴물이나 가축의 몸에 알을 낳는다. 부화하면 이 알에서 인간 크기의 꿈틀거리는 구더기가 나오는데, 이들은 태어난 몸부터 시작해 주변의 모든 살점을 탐욕스럽게 먹어치우는 굶주린 새끼들이다. </p><hr /><p>거대 파리는 조랑말 크기의 곤충으로, 거대한 복안과 짧고 뻣뻣한 털로 뒤덮인 몸을 지녔다. 그들의 은신처는 알을 낳기 위해 쌓아둔 썩은 고기로 악명 높다. 이 구더기 굴은 또한 치명적인 질병의 주요 번식지이기도 하다.</p>",
       "items": {
         "b1seSlyJqQqZaNmZ": {
           "name": "턱(Mandibles)"
@@ -11585,7 +11585,7 @@
         },
         "9SJBTraIuJdXV6FB": {
           "name": "연기 시야(Smoke Vision)",
-          "description": "<p>연기는 재용룡의 시야를 방해하지 않으며, 연기로 인한 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진} 상태를 무시한다.</p>"
+          "description": "<p>연기는 애쉬 드래곤의 시야를 방해하지 않으며, 연기로 인한 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진} 상태를 무시한다.</p>"
         },
         "T5A6q7Af8YZ9uCkW": {
           "name": "프라이멀 공격에 대한 모든 내성에 +2 상태(+2 Status to All Saves vs. Primal)"
@@ -11607,7 +11607,7 @@
         },
         "NEGCX9pCG8gyZcjL": {
           "name": "화염 숨결(Pyre Breath)",
-          "description": "<p>용이 불기둥을 뿜어내어 @Damage[13d6[fire]|options:area-damage]의 피해를 @Template[type:cone|distance:50] (@Check[reflex|dc:34|basic|options:area-effect] 내성) 범위 내에 입힌다 . 내성에 대실패를 한 생물은 불에 타 @Damage[2d6[persistent,fire]]의 피해를 입는다. 이후 1분 동안 해당 지역은 검은 연기로 가득 찬다. 이는 안개 효과와 동일하나 원뿔 영역 전체를 채운다. 용은 [[/gmr 1d4 #재충전 파이어 브레스]]{1d4 라운드} 동안 파이어 브레스를 다시 사용할 수 없다.</p>"
+          "description": "<p>용이 불기둥을 뿜어내어 @Damage[13d6[fire]|options:area-damage]의 피해를 @Template[type:cone|distance:50](@Check[reflex|dc:34|basic|options:area-effect] 내성) 범위 내에 입힌다 . 내성에 대실패를 한 생물은 불에 타 @Damage[2d6[persistent,fire]]의 피해를 입는다. 이후 1분 동안 해당 지역은 검은 연기로 가득 찬다. 이는 안개 효과와 동일하나 원뿔 영역 전체를 채운다. 용은 [[/gmr 1d4 #재충전 파이어 브레스]]{1d4 라운드} 동안 파이어 브레스를 다시 사용할 수 없다.</p>"
         },
         "jmrC9phVteComdYb": {
           "name": "불길 부채질(Stoke the Flames)",
@@ -13229,7 +13229,7 @@
         },
         "P48WRIeVuuAB8JWK": {
           "name": "죽음의 홍수(Death Flood)",
-          "description": "<p>그로데어가 죽으면, 그 시체는 고압의 물줄기로 폭발하여 @Damage[4d6[bludgeoning]|options:area-damage]의 피해를 @Template[emanation|distance:15] (@Check[reflex|dc:22|basic|options:area-effect] 내성 굴림). 내성 굴림에서 실패한 생물은 5피트(대실패 시 10피트) 밀려난다.</p>"
+          "description": "<p>그로데어가 죽으면, 그 시체는 고압의 물줄기로 폭발하여 @Damage[4d6[bludgeoning]|options:area-damage]의 피해를 @Template[emanation|distance:15](@Check[reflex|dc:22|basic|options:area-effect] 내성 굴림). 내성 굴림에서 실패한 생물은 5피트(대실패 시 10피트) 밀려난다.</p>"
         },
         "8J1VrbhC0fQxs0Xu": {
           "name": "진흙밭(Muddy Field)",
@@ -13266,7 +13266,7 @@
         },
         "9SJBTraIuJdXV6FB": {
           "name": "연기 시야(Smoke Vision)",
-          "description": "<p>연기는 재용룡의 시야를 방해하지 않습니다. 그들은 연기에서 비롯된 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진} 상태를 무시합니다.</p>"
+          "description": "<p>연기는 애쉬 드래곤의 시야를 방해하지 않습니다. 그들은 연기에서 비롯된 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진} 상태를 무시합니다.</p>"
         },
         "T5A6q7Af8YZ9uCkW": {
           "name": "프라이멀 공격에 대한 모든 내성에 +2 상태(+2 Status to All Saves vs. Primal)"
@@ -13296,7 +13296,7 @@
         },
         "NEGCX9pCG8gyZcjL": {
           "name": "화염 숨결(Pyre Breath)",
-          "description": "<p>용은 화염을 내뿜어 @Damage[13d6[fire]|options:area-damage]의 피해를 @Template[type:cone|distance:50] (@Check[reflex|dc:34|basic|options:area-effect] 내성). 내성에 대실패한 생물은 불에 타며 @Damage[2d6[persistent,fire]]의 피해를 입는다. 이후 해당 지역은 1분 동안 검은 연기로 가득 찬다. 이는 안개 효과와 동일하나, 원뿔형 범위를 채운다. 용은 [[/gmr 1d4 #재충전 파이어 브레스]]{1d4 라운드} 동안 파이어 브레스를 다시 사용할 수 없습니다.</p>"
+          "description": "<p>용은 화염을 내뿜어 @Damage[13d6[fire]|options:area-damage]의 피해를 @Template[type:cone|distance:50](@Check[reflex|dc:34|basic|options:area-effect] 내성). 내성에 대실패한 생물은 불에 타며 @Damage[2d6[persistent,fire]]의 피해를 입는다. 이후 해당 지역은 1분 동안 검은 연기로 가득 찬다. 이는 안개 효과와 동일하나, 원뿔형 범위를 채운다. 용은 [[/gmr 1d4 #재충전 파이어 브레스]]{1d4 라운드} 동안 파이어 브레스를 다시 사용할 수 없습니다.</p>"
         },
         "jmrC9phVteComdYb": {
           "name": "불길 부채질(Stoke the Flames)",
@@ -13317,7 +13317,7 @@
         },
         "qyKw3vIn6Iit3TbX": {
           "name": "플레어 후드(Flare Hood)",
-          "description": "<p>황제 코브라가 후드를 펼친다. @Template[type:emanation|distance:20] 범위 내의 황제코브라가 아닌 모든 생물은 @Check[will|dc:22] 내성 굴림을 시도해야 한다. 성공 시 1분 동안 일시적으로 면역 상태가 된다.</p><hr /><p><strong>대성공 </strong> 생물은 영향을 받지 않습니다.</p>\n<p><strong>성공</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 1} 상태가 됩니다.</p>\n<p><strong>실패</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 2} 상태가 됩니다.</p>\n<p><strong>대실패⟬T00 18⟭ 생물은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 3} 상태입니다.</p>"
+          "description": "<p>황제 코브라가 후드를 펼친다. @Template[type:emanation|distance:20] 범위 내의 황제코브라가 아닌 모든 생물은 @Check[will|dc:22] 내성 굴림을 시도해야 한다. 성공 시 1분 동안 일시적으로 면역 상태가 된다.</p><hr /><p><strong>대성공 </strong> 생물은 영향을 받지 않습니다.</p>\n<p><strong>성공</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 1} 상태가 됩니다.</p>\n<p><strong>실패</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 2} 상태가 됩니다.</p>\n<p><strong>대실패</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 3} 상태입니다.</p>"
         }
       }
     },
@@ -14004,7 +14004,7 @@
         },
         "i7kuaOQCvKjQ623q": {
           "name": "룬의 숨결(Runic Breath)",
-          "description": "<p>드래곤은 수백 개의 폭발 룬을 발사하며, 이는 충돌 시 폭발하여 @Damage[17d6[untyped]|options:area-damage]의 피해를 @Template[type:cone|distance:50] (@Check[reflex|dc:41|basic|options:area-effect] 내성) 범위 내의 대상에게 입힌다. 이 능력의 피해 유형은 이동하는 룬에 의해 결정된다. 내성에 실패한 생물도 폭발하는 룬의 영향을 받는다. 드래곤은 [ [/gmr 1d4 #재충전 룬의 숨결]]{1d4 라운드} 동안 다시 사용할 수 없습니다.</p>"
+          "description": "<p>드래곤은 수백 개의 폭발 룬을 발사하며, 이는 충돌 시 폭발하여 @Damage[17d6[untyped]|options:area-damage]의 피해를 @Template[type:cone|distance:50](@Check[reflex|dc:41|basic|options:area-effect] 내성) 범위 내의 대상에게 입힌다. 이 능력의 피해 유형은 이동하는 룬에 의해 결정된다. 내성에 실패한 생물도 폭발하는 룬의 영향을 받는다. 드래곤은 [ [/gmr 1d4 #재충전 룬의 숨결]]{1d4 라운드} 동안 다시 사용할 수 없습니다.</p>"
         },
         "aXvfwxeI9u0AxsD4": {
           "name": "변이 룬(Shifting Runes)",
@@ -14159,7 +14159,7 @@
         },
         "xocggVl34iamkAuY": {
           "name": "영혼 흡수 숨결(Soul Siphoning Breath)",
-          "description": "<p>드래곤은 신성한 에너지의 폭풍을 내뿜어 @Damage[11d6[void]|options:area-damage]의 피해를 @Template[type:cone|distance:40] (@Check[fortitude|dc:32|basic|options:area-effect] 내성) 범위 내 생물들의 생명력을 빨아들인다. 드래곤은 영혼 흡수 호흡이 재충전될 때까지 빠른 치유 10을 얻습니다. 부활 드래곤은 [[/gmr 1d4 #영혼 흡수 호흡 재충전]]{1d4 라운드} 동안 영혼 흡수 호흡을 다시 사용할 수 없습니다.</p>"
+          "description": "<p>드래곤은 신성한 에너지의 폭풍을 내뿜어 @Damage[11d6[void]|options:area-damage]의 피해를 @Template[type:cone|distance:40](@Check[fortitude|dc:32|basic|options:area-effect] 내성) 범위 내 생물들의 생명력을 빨아들인다. 드래곤은 영혼 흡수 호흡이 재충전될 때까지 빠른 치유 10을 얻습니다. 부활 드래곤은 [[/gmr 1d4 #영혼 흡수 호흡 재충전]]{1d4 라운드} 동안 영혼 흡수 호흡을 다시 사용할 수 없습니다.</p>"
         },
         "bDeLpxQG3uavgFnV": {
           "name": "네크로맨시 로어(Necromancy Lore)"
@@ -14396,7 +14396,7 @@
         },
         "9SJBTraIuJdXV6FB": {
           "name": "연기 시야(Smoke Vision)",
-          "description": "<p>연기는 재용룡의 시야를 방해하지 않습니다. 그들은 연기로 인한 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진} 상태를 무시합니다.</p>"
+          "description": "<p>연기는 애쉬 드래곤의 시야를 방해하지 않습니다. 그들은 연기로 인한 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진} 상태를 무시합니다.</p>"
         },
         "T5A6q7Af8YZ9uCkW": {
           "name": "프라이멀 공격에 대한 모든 내성에 +2 상태(+2 Status to All Saves vs. Primal)"
@@ -14422,7 +14422,7 @@
         },
         "NEGCX9pCG8gyZcjL": {
           "name": "화염 숨결(Pyre Breath)",
-          "description": "<p>용은 화염을 내뿜어 @Damage[9d6[fire]|options:area-damage]의 피해를 @Template[type:cone|distance:40] (@Check[reflex|dc:29|basic|options:area-effect] 범위). 내성에 대실패한 생물은 불에 타며 @Damage[2d6[persistent,fire]]의 피해를 입는다. 이후 해당 지역은 1분 동안 검은 연기로 가득 찬다. 이는 안개 효과와 동일하나 원뿔형 범위를 채운다. 용은 [[/gmr 1d4 #재충전 파이어 브레스]]{1d4 라운드} 동안 재충전할 수 없습니다.</p>"
+          "description": "<p>용은 화염을 내뿜어 @Damage[9d6[fire]|options:area-damage]의 피해를 @Template[type:cone|distance:40](@Check[reflex|dc:29|basic|options:area-effect] 범위). 내성에 대실패한 생물은 불에 타며 @Damage[2d6[persistent,fire]]의 피해를 입는다. 이후 해당 지역은 1분 동안 검은 연기로 가득 찬다. 이는 안개 효과와 동일하나 원뿔형 범위를 채운다. 용은 [[/gmr 1d4 #재충전 파이어 브레스]]{1d4 라운드} 동안 재충전할 수 없습니다.</p>"
         },
         "jmrC9phVteComdYb": {
           "name": "불길 부채질(Stoke the Flames)",
@@ -14526,7 +14526,7 @@
           "description": "<p><strong>발동 빈도</strong> 하루에 한 번</p><hr /> <p><strong>효과</strong> 사마나는 자신의 가사(袈裟)를 공중으로 던져 올리며, 그 가사는 고통받는 자들을 보호하기 위해 공중에서 펼쳐진다. @Template[type:emanation|distance:100] 내 진정으로 회개하는 모든 생명체는 @UUID[Compendium.pf2e.spells-srd.Item.XXqE1eY3w3z6xJCB]{ 투명화} 마법의 영향을 받으며, 해당 지역은 생명력 장 마법의 영향을 받는다. 단, 이 마법은 회개하는 생명체와 영혼 결속 생명체에게만 적용된다. 이 효과는 1라운드 동안 지속되나 최대 1시간까지 유지될 수 있다.</p>"
         },
         "6t28UrzOBunSjtz8": {
-          "name": "법적 로어(Legal Lore)"
+          "name": "법률 로어(Legal Lore)"
         }
       }
     },
@@ -14699,7 +14699,7 @@
         },
         "XaV9EbmhjP3b8nYt": {
           "name": "비명 호흡(Shrieking Breath)",
-          "description": "<p>용은 공포에 질린 적에게서 끌어낸 모든 비명 소리가 뒤섞인 불협화음을 내뿜으며, @Template[type:cone|distance:50] (@Check[will|dc:40|basic|options:area-effect] 내성). 의지 내성에 실패한 생물은 다음 턴의 첫 행동을 비명 지르는 것 외에는 아무것도 할 수 없다. 용은 [[/gmr 1d4 #재충전 시간]]{1d4 라운드} 동안 비명 숨결을 다시 사용할 수 없다. </p>"
+          "description": "<p>용은 공포에 질린 적에게서 끌어낸 모든 비명 소리가 뒤섞인 불협화음을 내뿜으며, @Template[type:cone|distance:50](@Check[will|dc:40|basic|options:area-effect] 내성). 의지 내성에 실패한 생물은 다음 턴의 첫 행동을 비명 지르는 것 외에는 아무것도 할 수 없다. 용은 [[/gmr 1d4 #재충전 시간]]{1d4 라운드} 동안 비명 숨결을 다시 사용할 수 없다. </p>"
         },
         "IgQebS6T9lTVTa9g": {
           "name": "혀 미끼(Tongue Decoy)",
@@ -15074,7 +15074,7 @@
         },
         "O3ebBljtcItTfmVr": {
           "name": "파멸의 숨결(Dooming Breath)",
-          "description": "<p>창조의 대장간에서 뿜어져 나온 에너지가 드래곤의 입에서 분출되어 @Template[type:line|distance:60] (@Check[reflex|dc:30|basic|options:area-effect] 내성). 내성에 실패한 언데드 생물은 @Check[will|dc:30|options:area-effect,inflicts:doomed] 내성에 성공하지 못하면 @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{파멸 1} 상태가 된다. 대상이 이미 파멸 상태라면 파멸 수치가 1 증가한다(최대 @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{파멸 4}까지). 드래곤은 [[/gmr 1d4 #재충전 시간]]{1d4 라운드} 동안 파멸의 숨결을 다시 사용할 수 없습니다.</p>"
+          "description": "<p>창조의 대장간에서 뿜어져 나온 에너지가 드래곤의 입에서 분출되어 @Template[type:line|distance:60](@Check[reflex|dc:30|basic|options:area-effect] 내성). 내성에 실패한 언데드 생물은 @Check[will|dc:30|options:area-effect,inflicts:doomed] 내성에 성공하지 못하면 @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{파멸 1} 상태가 된다. 대상이 이미 파멸 상태라면 파멸 수치가 1 증가한다(최대 @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{파멸 4}까지). 드래곤은 [[/gmr 1d4 #재충전 시간]]{1d4 라운드} 동안 파멸의 숨결을 다시 사용할 수 없습니다.</p>"
         },
         "OPtrKq8gnuusiAqH": {
           "name": "드라코닉 광란(Draconic Frenzy)",
@@ -15162,7 +15162,7 @@
         },
         "CKUI3nSiphtbHcaQ": {
           "name": "형태 변신(Change Shape)",
-          "description": "<p>틱발랑은 중형 또는 대형 휴머노이드의 외형을 취한다. 이는 틱발랑의 이동 속도나 공격 및 피해 수정자를 변경하지 않는다.</p><hr /><p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]⟬T 0005⟭"
+          "description": "<p>틱발랑은 중형 또는 대형 휴머노이드의 외형을 취한다. 이는 틱발랑의 이동 속도나 공격 및 피해 수정자를 변경하지 않는다.</p><hr /><p>@Localize[PF2E.NPC.Abilities.Glossary.ChangeShape]</p>"
         },
         "Z41SGXwI1VsY3TIb": {
           "name": "휘두르는 격투(Flailing Thrash)",

@@ -79,7 +79,7 @@
     "Xarwin Caul": {
       "name": "Xarwin Caul",
       "desc (hazard)": "<p>Caul은 저택의 외부 표면에 달라붙은 얇은 투명하고 습한 거미줄입니다. 이 거미줄은 만지면 미끄럽고 비정상적으로 차갑게 느껴지며, Caul에 닿은 손가락이나 다른 물체를 떼어내면 달라붙고 늘어집니다.</p>",
-      "disable": "<p>@Check[occultism|dc:32|name:Exorcise the Caul] (마스터) 또는 @Check[religion|dc:34|name:Exorcise the Caul] (전문가)가 카울을 퇴치해야 합니다.</p>",
+      "disable": "<p>@Check[occultism|dc:32|name:Exorcise the Caul](마스터) 또는 @Check[religion|dc:34|name:Exorcise the Caul](전문가)가 카울을 퇴치해야 합니다.</p>",
       "reset": "<p>1주; Xarwin의 유령을 영원히 안식하게 하면 유령 현상이 완전히 사라집니다.</p>",
       "stealth": "<p>(Master)</p>",
       "items": {
@@ -92,7 +92,7 @@
     "Architect and Hunter": {
       "name": "건축가와 사냥꾼",
       "desc (hazard)": "<p>유령 같은 청소년 쌍둥이인 Xarwin 쌍둥이가 머리에 뇌가 다시 심어지는 고통으로 비명을 지릅니다. 마치 트라우마가 역전된 듯 초기 고통이 사라지고 그들은 놀고 싶어하는 욕구를 표현합니다.</p>",
-      "disable": "<p>@Check[performance|dc:21|name:Distract the Haunt] (훈련된) 유령을 분산시키고 즐겁게 해주는 것까지, 또는 @Check[religion|dc:25|name:Exorcise Haunt] (훈련된) 유령을 쫓아내는 것</p>",
+      "disable": "<p>@Check[performance|dc:21|name:Distract the Haunt](훈련된) 유령을 분산시키고 즐겁게 해주는 것까지, 또는 @Check[religion|dc:25|name:Exorcise Haunt](훈련된) 유령을 쫓아내는 것</p>",
       "reset": "<p>유령은 패배한 후 1시간이 지나거나 해당 지역에 놀 수 있는 살아있는 생물이 남아 있지 않으면 자동으로 초기화됩니다. 지역 E9의 뇌 수집기 조각상에서 마르니와 미라의 뇌를 제거하면 유령이 파괴됩니다.</p>",
       "routine": "<p>(2 행동) 건축가(미라 자르윈)는 '섀클스'를 사용해 무작위로 선택된 목표 주변에 고체 엑토플라즘으로 된 집 모양의 감옥을 생성합니다. 이 집은 목표가 자란 집과 놀랍도록 닮아 있습니다. 사냥꾼(마니 자윈)은 그 대상에게 사냥용 공격을 시도합니다.</p>",
       "stealth": "<p>(전문가)</p>",
@@ -146,7 +146,7 @@
     "Mouth of Tchekuth": {
       "name": "체크투스의 입",
       "desc (hazard)": "<p>아래의 협곡이 흔들리며 파도치듯 변형되어 수많은 날카로운 이빨로 가득 찬 거대한 입으로 변모합니다. 독가스로 가득 찬 깊은 곳에서 찢어진 듯한 거친 혀가 솟아올라 휘감고 맛보려 합니다. 아래의 거대한 목구멍에서 두 단어가 굉음을 내며 울려퍼집니다: \"Iö Tchekuth!\"</p>",
-      "disable": "<p>@Check[occultism|dc:28|name:Exorcise Phantasm] 또는 @Check[religion|dc:28|name:Exorcise Phantasm] (놀라운 환상을 쫓아내기 위해)</p>",
+      "disable": "<p>@Check[occultism|dc:28|name:Exorcise Phantasm] 또는 @Check[religion|dc:28|name:Exorcise Phantasm](놀라운 환상을 쫓아내기 위해)</p>",
       "reset": "<p>유령은 24시간 후 재설정되며, 이오세프의 유령이 안식처에 안치되면 영구히 파괴됩니다.</p>",
       "items": {
         "fQ7ZhBvjw23IrtUN": {
@@ -254,7 +254,7 @@
         },
         "5RVQgrRnkm4C0Y2q": {
           "name": "Drill Deeper",
-          "description": "<p><strong>요구 사항</strong> 닐스 켈베켄이 이전 행동으로 핸드 드릴로 생물을 공격했습니다</p>\n<hr />\n<p><strong>효과</strong> 닐스는 드릴을 잡고 비틀며 피해자에게 더 깊이 드릴을 박아 넣습니다. 그는 자동으로 @Damage[1d8[piercing]]의 피해를 입히고, 드릴에 뚫리는 생물은 추가로 @Damage[1d6[bleed]] (대실패 시 @Damage[2d6[bleed]]의 피해를 피하기 위해 @Check[fortitude|dc:22]의 내성 굴림에 성공해야 합니다.</p>"
+          "description": "<p><strong>요구 사항</strong> 닐스 켈베켄이 이전 행동으로 핸드 드릴로 생물을 공격했습니다</p>\n<hr />\n<p><strong>효과</strong> 닐스는 드릴을 잡고 비틀며 피해자에게 더 깊이 드릴을 박아 넣습니다. 그는 자동으로 @Damage[1d8[piercing]]의 피해를 입히고, 드릴에 뚫리는 생물은 추가로 @Damage[1d6[bleed]](대실패 시 @Damage[2d6[bleed]]의 피해를 피하기 위해 @Check[fortitude|dc:22]의 내성 굴림에 성공해야 합니다.</p>"
         },
         "k5hfsPhHrFe43moo": {
           "name": "내가 네가 한 걸 봤다!",
@@ -265,7 +265,7 @@
     "Xarwin Manor Phantasm": {
       "name": "Xarwin Manor Phantasm",
       "desc (hazard)": "<p>악의가 침입자들의 저항력을 약화시키고 불안하게 만들기 위한 끔찍한 환상을 창조합니다. Xarwin Manor Phantasms 표에서 [[/r 1d12]]을 굴려 어떤 종류의 환상이 발생하는지 결정하거나, 표에서 적절한 것을 선택하거나, 목록에 있는 결과를 예시나 영감으로 삼아 자체적으로 생성할 수 있습니다.</p>\n<h3><strong>Xarwin Manor Phantasms</strong></h3>\n<table class=\"pf2e\">\n<thead>\n<tr>\n<th>[[/r 1d12]]</th>\n<th>Phantasm</th>\n</tr>\n</thead>\n<tbody>\n<tr>\n<td>1</td>\n<td>습기 찬 엑토플라즘 손자국이 창문이나 벽에 나타나며, 잠시 표면에서 벗어나 캐릭터를 질식시키려 시도합니다. 손은 잠시 후 사라지지만, PC의 왼쪽 손은 닦아낼 때까지 이상하게 습한 느낌이 남아 있습니다.</td>\n</tr>\n<tr>\n<td>2</td>\n<td>PC의 이마에 통증이나 피가 없는 절개가 창조되며, 몇 초 동안 두개골을 완전히 둘러싼 후, 절개가 완성되면 PC는 순간적으로 극심한 두통을 느끼고 절개가 사라집니다.</td>\n</tr>\n<tr>\n<td>3</td>\n<td>PC는 반사면에서 어두운 인영을 엿봅니다. 그 인영은 손가락을 들어 PC를 가리키는 듯하지만, 그 팔에는 손이 없습니다. PC가 그 이미지를 마주보거나 눈을 깜빡이면 인영은 사라집니다.</td>\n</tr>\n<tr>\n<td>4</td>\n<td>PC는 휘청거리며 방 안의 느슨한 물건들이 흔들리고, 커튼이 흔들리며, 바닥판이 움직이는 것을 알아차립니다. 창문이 보인다면, 바람이 없는 날임에도 불구하고 밖의 나무들이 흔들린다. 모든 것이 멈추자, PC는 아래쪽 어딘가에서 엄청난 것이 움직였다는 느낌을 받는다. 다른 PC는 이 감각을 경험하지 않는다.</td>\n</tr>\n<tr>\n<td>5</td>\n<td>PC는 왼쪽 손목에 갑작스러운 통증을 느끼고 손이 잘렸다고 확신합니다. 의심되는 상처를 살펴보면 통증이 사라지고 손은 정상적으로 보입니다.</td>\n</tr>\n<tr>\n<td>6</td>\n<td>창문을 통해 보이는 하늘이 낮인데도 완전히 밤처럼 보이나, 천장이 갑자기 사라져 밤하늘이 드러납니다. PC는 별들 사이에서 자신들을 바라보는 무언가를 느끼지만, 눈을 깜빡이거나 시선을 돌리거나 밤하늘에 주의를 기울이면 이미지가 정상으로 돌아갑니다.</td>\n</tr>\n<tr>\n<td>7</td>\n<td>PC는 갑자기 이 저택에서 수십 년을 살았다는 확신에 휩싸이지만, 그 느낌은 몇 초 후 사라집니다.</td>\n</tr>\n<tr>\n<td>8</td>\n<td>PC는 다른 PC 중 하나로부터, 특히 가장 가까운 감정적 유대감을 가진 PC로부터 배신감을 느낍니다. 심장 박동 한 번 후, 그 느낌은 사라집니다.</td>\n</tr>\n<tr>\n<td>9</td>\n<td>PC는 벽 속에 갇힌 작은 새가 탈출을 시도하는 듯한 소리를 듣습니다. 다른 PC들은 이 소리를 들을 수 없습니다. 몇 순간 후, PC는 자신이 갇힌 새가 된 듯한 느낌을 받으며, 그 환상은 사라집니다.</td>\n</tr>\n<tr>\n<td>10</td>\n<td>PC는 갑자기 모든 감각을 잃고 순간적으로 무중력 상태가 됩니다. 어둠 속에서 그들은 무언가가 시력을 선물로 주려는 듯한 소름 끼치는 생각을 하지만, 그들이 볼 것이 끔찍할 것임을 알고 있습니다. Then, everything returns to normal.</td>\n</tr>\n<tr>\n<td>11</td>\n<td>PC는 몇 초 동안 누군가가 자신 대신 생각하고 있으며, 자신의 몸에 있지 않음에도 불구하고 자신의 몸에 있다는 착각에 빠졌다는 끔찍한 확신을 갖게 됩니다.</td>\n</tr>\n<tr>\n<td>12</td>\n<td>PC는 과거나 어린 시절의 끔찍한 기억을 갑자기 떠올린 후, 그 기억이 머릿속에서 사라지면서 안도감을 느낍니다. 그들은 나쁜 일이 일어났다는 것은 기억하지만, 구체적으로 무엇이었는지는 기억하지 못합니다.</td>\n</tr>\n</tbody>\n</table>",
-      "disable": "<p>@Check[occultism|dc:15|name:Exorcise Phantasm] 또는 @Check[religion|dc:15|name:Exorcise Phantasm] (불안한 환상을 쫓아내기 위해)</p>",
+      "disable": "<p>@Check[occultism|dc:15|name:Exorcise Phantasm] 또는 @Check[religion|dc:15|name:Exorcise Phantasm](불안한 환상을 쫓아내기 위해)</p>",
       "items": {
         "6fhR4Gojdgr4b2mu": {
           "name": "유령의 비전",

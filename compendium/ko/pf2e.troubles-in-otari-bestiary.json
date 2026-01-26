@@ -4,13 +4,13 @@
     "Collapsing Porch": {
       "name": "Collapsing Porch",
       "desc (hazard)": "<p>부서지고 썩은 바닥판의 일부가 생물을 6피트 아래로 떨어뜨려 불규칙한 바위와 날카로운 목재 조각에 부딪히게 합니다.</p>",
-      "disable": "<p>@Check[crafting|dc:15] (훈련된) 약한 바닥 부분을 교체하거나 덮거나, @Check[survival|dc:15] (훈련된) 안전한 거리에서 썩은 바닥판을 부수기</p>",
+      "disable": "<p>@Check[crafting|dc:15](훈련된) 약한 바닥 부분을 교체하거나 덮거나, @Check[survival|dc:15](훈련된) 안전한 거리에서 썩은 바닥판을 부수기</p>",
       "reset": "<p>이 현관의 이 부분이 무너지면, 현관이 수리될 때까지 생물들은 구멍을 통해 떨어질 수 있습니다.</p>",
       "stealth": "<p>(또는 위험이 발생 후 0)</p>",
       "items": {
         "71j8rIykcKntxLJQ": {
           "name": "붕괴",
-          "description": "<p>생물이 지도에 표시된 지역에 걸어 들어가면 약해진 바닥판을 통해 불규칙한 바위와 날카로운 목재 조각 위에 떨어지며 @Damage[1d4[piercing],1d6[타격]]{1d4 관통 피해와 1d6 타격 피해}를 입습니다. 생물은 @UUID[Compendium.pf2e.actionspf2e.Item.3yoajuKjwHZ9ApUY]{가장자리를 잡기} 반응을 사용하여 추락과 피해를 피할 수 있습니다.</p>"
+          "description": "<p>생물이 지도에 표시된 지역에 걸어 들어가면 약해진 바닥판을 통해 불규칙한 바위와 날카로운 목재 조각 위에 떨어지며 @Damage[1d4[piercing],1d6[bludgeoning]]{1d4 관통 피해와 1d6 타격 피해}를 입습니다. 생물은 @UUID[Compendium.pf2e.actionspf2e.Item.3yoajuKjwHZ9ApUY]{가장자리를 잡기} 반응을 사용하여 추락과 피해를 피할 수 있습니다.</p>"
         }
       }
     },
@@ -116,7 +116,7 @@
     "Viper Urn": {
       "name": "비퍼 유르",
       "desc (hazard)": "<p>A 도자기 유르에 감긴 비퍼의 끝이 트립 와이어가 당겨지면 부서집니다.</p>",
-      "disable": "<p>@Check[thievery|dc:15|traits:action:disable-a-device] (훈련된)으로 항아리를 안정시키거나, @Check[athletics|dc:15]로 무거운 항아리를 조심스럽게 내립니다.</p>",
+      "disable": "<p>@Check[thievery|dc:15|traits:action:disable-a-device](훈련된)으로 항아리를 안정시키거나, @Check[athletics|dc:15]로 무거운 항아리를 조심스럽게 내립니다.</p>",
       "items": {
         "dwvQyKJ9gUWC4S3f": {
           "name": "넘어뜨리기",
@@ -204,7 +204,7 @@
     "Web Lurker Noose": {
       "name": "거미줄 루커 노즈",
       "desc (hazard)": "<p>목 수준에 있는 눈에 띄지 않는 거미줄이 그 안으로 들어오는 생물을 걸어 잡습니다.</p>",
-      "disable": "<p>@Check[survival|dc:18] (훈련된) 또는 @Check[thievery|dc:18|traits:action:disable-a-device] (전문가)로 거미줄을 재배치합니다.</p>",
+      "disable": "<p>@Check[survival|dc:18](훈련된) 또는 @Check[thievery|dc:18|traits:action:disable-a-device](전문가)로 거미줄을 재배치합니다.</p>",
       "items": {
         "NoYQle3HJatFQcgH": {
           "name": "올가미",
@@ -247,7 +247,7 @@
     "Nightmare Terrain": {
       "name": "악몽의 지형",
       "desc (hazard)": "<p>무해해 보이는 땅이 침입자에게 끔찍한 환상으로 공격합니다.</p>",
-      "disable": "<p>@Check[arcana|dc:22], @Check[nature|dc:22], @Check[occultism|dc:22], 또는 @Check[religion|dc:22] (해당 기술에 전문가급 숙련도를 가진 영웅에 의해) 세 번 사용해 마법을 일시적으로 방해하거나 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(3단계, DC 25)</p>",
+      "disable": "<p>@Check[arcana|dc:22], @Check[nature|dc:22], @Check[occultism|dc:22], 또는 @Check[religion|dc:22](해당 기술에 전문가급 숙련도를 가진 영웅에 의해) 세 번 사용해 마법을 일시적으로 방해하거나 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(3단계, DC 25)</p>",
       "reset": "<p>모든 생물이 영향을 받은 지역을 떠난 후 끔찍한 환상이 사라지지만, 위험은 즉시 다음에 들어오는 생물에게 환상을 가하기 위해 준비됩니다.</p>",
       "routine": "<p>(1 행동) 영향을 받은 지역 내의 모든 생물의 마음에 끔찍한 환상이 들이닥칩니다. 각 생물은 @Check[will|dc:24] 내성 굴림을 시도해야 합니다.</p>\n<hr />\n<p><strong>대성공</strong> 생물은 영향을 받지 않습니다.</p>\n<p><strong>성공</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 2} 상태가 됩니다.</p>\n<p><strong>실패</strong> 생물은 @Damage[(2d8+9)[mental]]의 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 3} 상태가 됩니다.</p>\n<p><strong>대실패</strong> 생물은 @Damage[(4d8+18)[mental]]의 피해를 입으며 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 4} 상태가 됩니다.</p>",
       "stealth": "<p>@Check[perception|dc:22|traits:action:seek] 땅의 미묘한 마법적 기운을 감지하기 위해</p>",
@@ -350,7 +350,7 @@
     "Magic Starknives Trap": {
       "name": "Magic Starknives Trap",
       "desc (hazard)": "<p>스타크나이프 상징이 여섯 기둥에서 빛나며 방 안으로 날아갑니다.</p>",
-      "disable": "<p>@Check[thievery|dc:21|traits:action:disable-a-device] (전문가) 또는 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}를 여섯 기둥 중 네 개에 사용하면 전체 함정이 무력화됩니다 (이 함정은 2등급 마법이며, 해제 난이도는 21입니다). 6개의 기둥 중 4개를 파괴해도 함정이 무력화됩니다.</p>",
+      "disable": "<p>@Check[thievery|dc:21|traits:action:disable-a-device](전문가) 또는 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}를 여섯 기둥 중 네 개에 사용하면 전체 함정이 무력화됩니다 (이 함정은 2등급 마법이며, 해제 난이도는 21입니다). 6개의 기둥 중 4개를 파괴해도 함정이 무력화됩니다.</p>",
       "reset": "<p>함정은 목표 생물이 없을 경우 1 라운드 후에 비활성화되며, 매일 일몰 시 재설정됩니다.</p>",
       "routine": "<p>(3 행동) 자신의 턴마다 다른 기둥의 조각이 빛나며 범위 내의 무작위 생물에게 마법적 스타크나이프 원거리 공격을 가합니다. 이 공격은 방 내의 기둥 등에서 오는 은폐로 인해 차단될 수 있습니다.</p>",
       "stealth": "<p>기둥에 울려 퍼지는 마법 에너지를 감지하기 위해</p>",

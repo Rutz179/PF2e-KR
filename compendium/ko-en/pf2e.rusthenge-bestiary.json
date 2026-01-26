@@ -23,7 +23,7 @@
     "Rushing Waters": {
       "name": "Rushing Waters",
       "desc (hazard)": "<p>돌 원에서 물줄기가 흘러나와 중심에 점점 커지는 물웅덩이에 모이기 시작합니다.</p>",
-      "disable": "<p>@Check[thievery|dc:20] (전문가) 천장에 숨겨진 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} 룬을 지우거나 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(2단계, 반격 DC 18)를 사용하여 함정을 반격합니다.</p>",
+      "disable": "<p>@Check[thievery|dc:20](전문가) 천장에 숨겨진 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} 룬을 지우거나 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(2단계, 반격 DC 18)를 사용하여 함정을 반격합니다.</p>",
       "reset": "<p>마법은 10분 동안 재생되며, 그 후 재충전되어 다시 활성화될 준비가 됩니다.</p>",
       "stealth": "<p>(trained)</p>",
       "items": {
@@ -301,7 +301,7 @@
     "Spiky Pit Trap": {
       "name": "가시 구덩이 함정(Spiky Pit Trap)",
       "desc (hazard)": "<p>흙과 자갈로 덮인 가죽 조각이 20피트 깊이의 가시 구덩이 위에 매달려 있습니다.</p>",
-      "disable": "<p>@Check[thievery|dc:18] (훈련된) 함정에 빠지지 않고 수동으로 함정을 작동시키거나, @Check[thievery|dc:25] (훈련된) 가죽을 고정하여 함정이 작동하지 않도록 합니다.</p>",
+      "disable": "<p>@Check[thievery|dc:18](훈련된) 함정에 빠지지 않고 수동으로 함정을 작동시키거나, @Check[thievery|dc:25](훈련된) 가죽을 고정하여 함정이 작동하지 않도록 합니다.</p>",
       "reset": "<p>생물들은 여전히 함정에 빠질 수 있지만, 함정을 덮고 있는 은신처를 수동으로 재설정해야 함정이 다시 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{Hidden} again.</p>",
       "stealth": "<p>(trained)</p>",
       "items": {
@@ -389,7 +389,7 @@
     "Rusty Floor Spikes": {
       "name": "Rusty Floor Spikes",
       "desc (hazard)": "<p>북쪽 문 근처 바닥의 압력판이 녹슨 못을 바닥에서 솟아오르게 합니다. 영역 <strong>C3</strong>.</p>",
-      "disable": "<p>@Check[thievery|dc:18] (훈련된)으로 압력판을 무력화합니다.</p>",
+      "disable": "<p>@Check[thievery|dc:18](훈련된)으로 압력판을 무력화합니다.</p>",
       "reset": "<p>동쪽 내측 경비소(영역 <strong>C8b</strong>)의 리셋 휠을 돌립니다.</p>",
       "stealth": "<p>(trained)</p>",
       "items": {

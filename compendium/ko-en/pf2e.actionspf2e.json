@@ -424,7 +424,7 @@
       ]
     },
     "Grab an Edge": {
-      "name": "우위 붙잡기(Grab an Edge)",
+      "name": "가장자리 붙잡기(Grab an Edge)",
       "description": "<p><strong>트리거</strong> 가장자리나 손잡이에서 떨어지거나 지나친다.</p>\n<p><strong>요구 사항</strong> 손이 등 뒤로 묶여 있거나 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{제약} 상태가 아닙니다.</p>\n<hr />\n<p>가장자리나 손잡이에서 떨어지거나 지나칠 때, 이를 붙잡으려 시도하여 추락을 멈출 수 있습니다. 곡예 체크나 반사 내성 중 선택하여 성공해야 하며, 일반적으로 등반 난이도(DC)로 적용됩니다. 가장자리나 손잡이를 붙잡으면, 이후 @UUID[Compendium.pf2e.actionspf2e.Item.pprgrYQ1QnIDGZiy]{등반}을 통해 운동으로 올라갈 수 있습니다.</p>\n<hr />\n<p><strong>대성공</strong> 손이 비어 있든 없든 가장자리나 손잡이를 붙듭니다. 일반적으로 들고 있던 적절한 아이템을 이용해 몸을 지탱합니다(예: 발판에 전투 도끼를 걸어 잡는 등). 지금까지 떨어진 거리만큼의 피해를 입지만, 추락 거리를 30피트(약 9m) 짧게 간주한다.</p>\n<p><strong>성공</strong> 한 손 이상이 자유로운 상태라면 가장자리나 손잡이를 붙잡아서 추락을 멈춘다. 지금까지 떨어진 거리만큼의 피해는 여전히 받지만, 추락 거리를 20피트 짧게 간주한다. 빈 손을 쓸 수 있는 상태가 아니라면, 체크를 실패한 것처럼 계속 추락한다.</p>\n<p><strong>대실패</strong> 계속 추락하며, 이 반응을 사용하기 전에 20피트 이상 추락했다면 추락한 20피트마다 충격으로 인한 타격 피해 10을 추가로 받는다.</p>",
       "traits": [
         "manipulate"
@@ -1263,7 +1263,7 @@
     },
     "The Bigger They Are": {
       "name": "크면 클수록(The Bigger They Are)",
-      "description": "<p>개인의 힘과는 별개로, 분대원들이 힘을 합치면 산을 옮기고 거인을 쓰러뜨릴 수 있다. 지휘관의 깃발의 오라 내의 분대원 한 명에게 신호를 보낸다. 해당 분대는 자신의 도달 범위 내 목표를 대상으로 @UUID[Compendium.pf2e.actionspf2e.Item.lOE4yjUnETTdaf2T]{재위치}, @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{밀치기}, 또는 @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{걸려 넘어뜨리기}를 시도할 수 있습니다. 원래 분대원이나 목표와 인접한 다른 분대원들은 반응으로 이 기동을 지원할 수 있습니다.</p>\n<p>이렇게 지원한 분대원마다, 원래 분대원이 표적할 수 있는 생물의 최대 크기가 증가합니다(예: 총 두 명의 분대원이 이 작전에 참여했다면, 최초 분대원은 자신보다 최대 두 단계 큰 생물을 표적할 수 있음). 원래 분대원은 재위치, 밀치기, 걸려 넘어뜨리기 체크 시, 기동에 추가로 지원한 분대원 수만큼 상황 보너스를 얻습니다(최대 +4).</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.9Kjnwzu3DWs5U7NH]{효과: 크면 클수록 (커맨더)}</p>",
+      "description": "<p>개인의 힘과는 별개로, 분대원들이 힘을 합치면 산을 옮기고 거인을 쓰러뜨릴 수 있다. 지휘관의 깃발의 오라 내의 분대원 한 명에게 신호를 보낸다. 해당 분대는 자신의 도달 범위 내 목표를 대상으로 @UUID[Compendium.pf2e.actionspf2e.Item.lOE4yjUnETTdaf2T]{재위치}, @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{밀치기}, 또는 @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{넘어뜨리기}를 시도할 수 있습니다. 원래 분대원이나 목표와 인접한 다른 분대원들은 반응으로 이 기동을 지원할 수 있습니다.</p>\n<p>이렇게 지원한 분대원마다, 원래 분대원이 표적할 수 있는 생물의 최대 크기가 증가합니다(예: 총 두 명의 분대원이 이 작전에 참여했다면, 최초 분대원은 자신보다 최대 두 단계 큰 생물을 표적할 수 있음). 원래 분대원은 재위치, 밀치기, 걸려 넘어뜨리기 체크 시, 기동에 추가로 지원한 분대원 수만큼 상황 보너스를 얻습니다(최대 +4).</p>\n<p>@UUID[Compendium.pf2e.feat-effects.Item.9Kjnwzu3DWs5U7NH]{효과: 크면 클수록 (커맨더)}</p>",
       "traits": [
         "brandish",
         "commander",
@@ -1740,7 +1740,7 @@
     },
     "Hunt Runelord": {
       "name": "사냥의 룬로드(Hunt Runelord)",
-      "description": "<p><strong>발동 빈도</strong> 하루에 한 번</p><hr /><p><strong>효과</strong> 당신은 타실론 마법의 일곱 학파 중 하나-질투, 폭식, 탐욕, 색욕, 교만, 나태, 분노-를 지정하고, 이러한 이념을 따르는 자들에 대한 복수심을 포커스합니다. 이 지정을 위해 해당 이념을 따르는 생물을 직접 볼 필요는 없습니다. 지정은 다음 일일 준비 시간까지 지속됩니다.</p>\n<p>해당 이념을 따르는 생물(실제 룬로드, 해당 타실리온 마법 학파를 따르는 위자드, 또는 해당 학파의 특정 죄악을 위해 일한다고 알고 있거나 의심되는 모든 생물-GM의 승인을 받아야 함)을 [[/act 추적]]할 때 지각 체크 에 +2 상황 보너스를 얻으며, 그러한 생물을 [[/act 사기 저하]]시키기 위한 위협 체크 에 +2 상황 보너스를 얻습니다. 당신의 공격은 해당 생물이 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 상태}일 때 추가로 1d4 정밀도 피해를 입힙니다.</p>",
+      "description": "<p><strong>발동 빈도</strong> 하루에 한 번</p><hr /><p><strong>효과</strong> 당신은 타실론 마법의 일곱 학파 중 하나-질투, 폭식, 탐욕, 색욕, 교만, 나태, 분노-를 지정하고, 이러한 이념을 따르는 자들에 대한 복수심을 포커스합니다. 이 지정을 위해 해당 이념을 따르는 생물을 직접 볼 필요는 없습니다. 지정은 다음 일일 준비 시간까지 지속됩니다.</p>\n<p>해당 이념을 따르는 생물(실제 룬로드, 해당 타실리온 마법 학파를 따르는 위자드, 또는 해당 학파의 특정 죄악을 위해 일한다고 알고 있거나 의심되는 모든 생물-GM의 승인을 받아야 함)을 [[/act 추적]]할 때 지각 체크 에 +2 상황 보너스를 얻으며, 그러한 생물을 [[/act demoralize]]시키기 위한 위협 체크 에 +2 상황 보너스를 얻습니다. 당신의 공격은 해당 생물이 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 상태}일 때 추가로 1d4 정밀도 피해를 입힙니다.</p>",
       "traits": [
         "concentrate"
       ]
@@ -2322,7 +2322,7 @@
     },
     "Slip and Sizzle": {
       "name": "미끄러지고 지글거리다(Slip and Sizzle)",
-      "description": "<p>당신의 팀은 상대를 쓰러뜨리고 마법적 파괴로 폭격하기 위한 잔혹한 기술을 실행합니다. 지휘관의 깃발이 발산하는 ' ' 오라 범위 내 최대 두 명의 분대원을 신호하세요. 이 중 한 명은 상대와 인접해야 하며, 다른 한 명은 피해를 주는 주문을 시전할 수 있어야 합니다. 첫 번째 분대는 인접한 적을 @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Trip} 시키기 위해 반응으로 시도할 수 있습니다. 이 Trip이 성공하면, 두 번째 분대는 피해를 입히고 시전하는 데 2회 이하의 행동이 소요되는 원거리 주문을 시전할 수 있습니다. 이 주문은 반응으로 시전되며, 넘어뜨린 적을 대상으로 하거나 넘어뜨린 적을 주문의 효과 범위에 포함시켜야 합니다.</p>\n<p>두 번째 분대원이 이 전술의 일환으로 슬롯이나 포커스 포인트를 사용해 주문을 시전한 경우, 다음 차례가 끝날 때까지 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1} 상태가 되며, 다음 차례 시작 시 행동을 회복해도 반응을 얻지 못한다.</p>",
+      "description": "<p>당신의 팀은 상대를 쓰러뜨리고 마법적 파괴로 폭격하기 위한 잔혹한 기술을 실행합니다. 지휘관의 깃발이 발산하는 ' ' 오라 범위 내 최대 두 명의 분대원을 신호하세요. 이 중 한 명은 상대와 인접해야 하며, 다른 한 명은 피해를 주는 주문을 시전할 수 있어야 합니다. 첫 번째 분대는 인접한 적을 @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{넘어뜨리기} 시키기 위해 반응으로 시도할 수 있습니다. 이 Trip이 성공하면, 두 번째 분대는 피해를 입히고 시전하는 데 2회 이하의 행동이 소요되는 원거리 주문을 시전할 수 있습니다. 이 주문은 반응으로 시전되며, 넘어뜨린 적을 대상으로 하거나 넘어뜨린 적을 주문의 효과 범위에 포함시켜야 합니다.</p>\n<p>두 번째 분대원이 이 전술의 일환으로 슬롯이나 포커스 포인트를 사용해 주문을 시전한 경우, 다음 차례가 끝날 때까지 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1} 상태가 되며, 다음 차례 시작 시 행동을 회복해도 반응을 얻지 못한다.</p>",
       "traits": [
         "commander",
         "tactic"
@@ -2626,7 +2626,7 @@
     },
     "Maneuver in Flight": {
       "name": "비행 중 기동(Maneuver in Flight)",
-      "description": "<p><strong>요구 사항</strong> 비행 속도를 보유해야 합니다.</p><hr /><p>비행 중 어려운 기동을 시도합니다. [[/act 비행 중 기동]]{곡예} 체크를 시도하십시오. GM이 가능한 기동을 결정하지만, 비행 속도보다 더 멀리 이동하는 것은 거의 허용하지 않습니다.</p><hr /><p><strong>성공</strong> 기동에 성공했습니다.</p>\n<p><strong>실패</strong> 기동이 실패합니다. GM은 단순히 이동이 불가능한지, 아니면 다른 불리한 효과가 발생하는지 선택합니다. 결과는 시도한 기동에 적합해야 합니다(예: 강한 바람을 거슬러 날려고 했다면 방향이 빗나가는 등).</p>\n<p><strong>대실패</strong> 실패와 같으나 결과는 더 심각하다.</p><h2 class=\"title\">비행 과제에서의 예시 기동</h2><ul><li><strong>훈련된</strong> 급상승 또는 급강하</li><li><strong>전문가</strong> 바람을 거슬러 비행</li><li><strong>마스터⟭방향 전환</strong></li><li><strong>전설급</strong>강풍 속 비행</li></ul>",
+      "description": "<p><strong>요구 사항</strong> 비행 속도를 보유해야 합니다.</p><hr /><p>비행 중 어려운 기동을 시도합니다. [[/act 비행 중 기동]]{곡예} 체크를 시도하십시오. GM이 가능한 기동을 결정하지만, 비행 속도보다 더 멀리 이동하는 것은 거의 허용하지 않습니다.</p><hr /><p><strong>성공</strong> 기동에 성공했습니다.</p>\n<p><strong>실패</strong> 기동이 실패합니다. GM은 단순히 이동이 불가능한지, 아니면 다른 불리한 효과가 발생하는지 선택합니다. 결과는 시도한 기동에 적합해야 합니다(예: 강한 바람을 거슬러 날려고 했다면 방향이 빗나가는 등).</p>\n<p><strong>대실패</strong> 실패와 같으나 결과는 더 심각하다.</p><h2 class=\"title\">비행 과제에서의 예시 기동</h2><ul><li><strong>훈련된</strong> 급상승 또는 급강하</li><li><strong>전문가</strong> 바람을 거슬러 비행</li><li><strong>마스터 방향 전환</strong></li><li><strong>전설급</strong>강풍 속 비행</li></ul>",
       "traits": [
         "move"
       ]
@@ -4469,7 +4469,7 @@
     },
     "Primal Roar": {
       "name": "프라이멀 포효(Primal Roar)",
-      "description": "<p>당신의 에이돌론은 프라이멀 포효나 그 형태에 맞는 다른 공포스러운 소리를 내뿜습니다. 에이돌론은 포효를 들을 수 있는 각 적에게 [[/act 사기 저하]]를 시도하는 위압 체크를 수행합니다. 이 사기 저하 시도는 언어를 공유하지 않아도 페널티를 받지 않습니다.</p>",
+      "description": "<p>당신의 에이돌론은 프라이멀 포효나 그 형태에 맞는 다른 공포스러운 소리를 내뿜습니다. 에이돌론은 포효를 들을 수 있는 각 적에게 [[/act demoralize]]를 시도하는 위압 체크를 수행합니다. 이 사기 저하 시도는 언어를 공유하지 않아도 페널티를 받지 않습니다.</p>",
       "traits": [
         "auditory",
         "eidolon"
@@ -4578,7 +4578,7 @@
     },
     "Ringing Challenge": {
       "name": "링잉 챌린지(Ringing Challenge)",
-      "description": "<p>당신은 이콘을 무기, 방패 또는 땅에 부딪혀 충격을 발생시키며, @Damage[(max(1,(floor((@actor.level - 2)/2))))d4[spirit],(max(1,(floor((@actor.level - 2)/2))))d4[sonic]|options:area-damage]의 피해를 @Template[type:cone|distance:30] 또는 @Template[type:emanation|distance:15] (@Check[fortitude|against:exemplar|basic|options:area-effect] 내성) 반경 내 모든 생물에게 피해를 입힙니다. 내성에 대실패한 생물은 1분 동안 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{귀머거림} 상태가 됩니다.</p>\n<p>6레벨과 이후 2레벨마다, 피해는 영혼 피해 1d4와 음파 피해 1d4씩 증가한다.</p>",
+      "description": "<p>당신은 이콘을 무기, 방패 또는 땅에 부딪혀 충격을 발생시키며, @Damage[(max(1,(floor((@actor.level - 2)/2))))d4[spirit],(max(1,(floor((@actor.level - 2)/2))))d4[sonic]|options:area-damage]의 피해를 @Template[type:cone|distance:30] 또는 @Template[type:emanation|distance:15](@Check[fortitude|against:exemplar|basic|options:area-effect] 내성) 반경 내 모든 생물에게 피해를 입힙니다. 내성에 대실패한 생물은 1분 동안 @UUID[Compendium.pf2e.conditionitems.Item.9PR9y0bi4JPKnHPR]{귀머거림} 상태가 됩니다.</p>\n<p>6레벨과 이후 2레벨마다, 피해는 영혼 피해 1d4와 음파 피해 1d4씩 증가한다.</p>",
       "rules": [
         {
           "itemId": "{item|id}",

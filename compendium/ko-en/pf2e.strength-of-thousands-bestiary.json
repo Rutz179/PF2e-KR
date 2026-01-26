@@ -144,7 +144,7 @@
         },
         "u5QLFlQIhlSxoxNI": {
           "name": "피 빨기(Blood Draw)",
-          "description": "<p>파리의 마지막 행동이 성공한 흡혈 공격이었다면, 대상의 피를 빨아들인다. 대상은 @Damage[1d4[bleed]] (동물의 경우 @Damage[1d6[bleed]])의 피해를 입는다.</p>"
+          "description": "<p>파리의 마지막 행동이 성공한 흡혈 공격이었다면, 대상의 피를 빨아들인다. 대상은 @Damage[1d4[bleed]](동물의 경우 @Damage[1d6[bleed]])의 피해를 입는다.</p>"
         },
         "zWoey4iac1a0BELq": {
           "name": "수면병(Sleeping Sickness)",
@@ -268,7 +268,7 @@
     "Centipede Carcasses Trap": {
       "name": "지네 사체 함정(Centipede Carcasses Trap)",
       "desc (hazard)": "<p>세 마리의 거대 지네 사체에는 철사 스프링이 달려 있어, 날카롭게 갈린 다리를 뽑아내 방 안으로 날려 보낸다.</p>",
-      "disable": "<p>@Check[nature|dc:23|name:Bend Carapace|traits:mechanical,trap] (훈련된) 능력으로 지네 갑각을 구부려 철사가 더 이상 다리를 뽑아낼 수 없게 하거나, @Check[thievery|dc:21|name:Cut Wires|traits:mechanical,trap] (전문가) 탄성 있는 철사를 절단한다. 세 마리 시체 모두 무력화되면(사용한 체크 방식과 무관하게) 함정은 해제된다. 함정은 10라운드 후 자동으로 해제된다.</p>",
+      "disable": "<p>@Check[nature|dc:23|name:Bend Carapace|traits:mechanical,trap](훈련된) 능력으로 지네 갑각을 구부려 철사가 더 이상 다리를 뽑아낼 수 없게 하거나, @Check[thievery|dc:21|name:Cut Wires|traits:mechanical,trap](전문가) 탄성 있는 철사를 절단한다. 세 마리 시체 모두 무력화되면(사용한 체크 방식과 무관하게) 함정은 해제된다. 함정은 10라운드 후 자동으로 해제된다.</p>",
       "routine": "<p>(1 행동) 무력화되지 않은 지네 시체로부터 30피트 이내의 모든 생물은 @Damage[6d4[piercing]] 피해를 받는다(@Check[reflex|dc:22|basic|name:Avoid Carapace Strike|traits:mechanical,trap] 내성).</p>",
       "stealth": "<p>(훈련된) </p>",
       "items": {
@@ -928,7 +928,7 @@
         },
         "u4o70g4enlpm1p2u": {
           "name": "숨결 무기(Breath Weapon)",
-          "description": "<p>이'이코 드래곤은 날카로운 유리 파편을 분사하여 @Damage[7d6[piercing]|options:area-damage]의 피해를 @Template[cone|distance:15] (@Check[reflex|dc:24|basic|options:area-effect] 내성) 범위 내에 입힙니다. [[/gmr 1d4 #round]]{1d4 라운드} 동안 다시 숨결 무기를 사용할 수 없습니다.</p>"
+          "description": "<p>이'이코 드래곤은 날카로운 유리 파편을 분사하여 @Damage[7d6[piercing]|options:area-damage]의 피해를 @Template[cone|distance:15](@Check[reflex|dc:24|basic|options:area-effect] 내성) 범위 내에 입힙니다. [[/gmr 1d4 #round]]{1d4 라운드} 동안 다시 숨결 무기를 사용할 수 없습니다.</p>"
         },
         "zuch9zd8r8z5tmt3": {
           "name": "재치 있는 전복(Cunning Capsize)",
@@ -1062,7 +1062,7 @@
     "Serpent Ward": {
       "name": "뱀의 방어(Serpent Ward)",
       "desc (hazard)": "<p>함정 문에서 환상의 뱀들이 튀어나와 침입자에게 맹독의 저주를 가한다.</p>",
-      "disable": "<p>@Check[thievery|dc:26|name:Deactivate the trigger|traits:uncommon,magical,trap] (전문가) 또는 @Check[occultism|dc:24|name:Deactivate the trigger|traits:uncommon,magical,trap] (전문가)로 마법 트리거를 해제</p>",
+      "disable": "<p>@Check[thievery|dc:26|name:Deactivate the trigger|traits:uncommon,magical,trap](전문가) 또는 @Check[occultism|dc:24|name:Deactivate the trigger|traits:uncommon,magical,trap](전문가)로 마법 트리거를 해제</p>",
       "stealth": "<p>(전문가)</p>",
       "items": {
         "47yxh3uwt8p7gtzv": {
@@ -1103,7 +1103,7 @@
     "Electrified Water Ward": {
       "name": "전기화된 물의 방어막(Electrified Water Ward)",
       "desc (hazard)": "<p>북쪽과 남쪽 문 사이 바닥에 있는 보이지 않는 룬 위를 지나가면 춤추듯 터지는 전기가 발생한다. </p>",
-      "disable": "<p>@Check[thievery|dc:26|name:Bleed away trap energy|traits:complex,magical,trap] (전문가), @Check[arcana|dc:28|name:Bleed away trap energy|traits:complex,magical,trap] (전문가), 또는 @Check[occultism|dc:28|name:Bleed away trap energy|traits:complex,magical,trap] (전문가)를 사용하면 룬의 전기 에너지를 무해하게 소모시킬 수 있다. 함정이 작동된 후에는 전기 에너지가 더 강해지므로, 이를 해제하려면 관련 스킬 중 어떤 조합이든 세 번의 성공적인 체크가 필요하다. 다만 이 체크는 방 안 어디에서나 시도할 수 있다. </p>",
+      "disable": "<p>@Check[thievery|dc:26|name:Bleed away trap energy|traits:complex,magical,trap](전문가), @Check[arcana|dc:28|name:Bleed away trap energy|traits:complex,magical,trap](전문가), 또는 @Check[occultism|dc:28|name:Bleed away trap energy|traits:complex,magical,trap](전문가)를 사용하면 룬의 전기 에너지를 무해하게 소모시킬 수 있다. 함정이 작동된 후에는 전기 에너지가 더 강해지므로, 이를 해제하려면 관련 스킬 중 어떤 조합이든 세 번의 성공적인 체크가 필요하다. 다만 이 체크는 방 안 어디에서나 시도할 수 있다. </p>",
       "reset": "<p>복도에 생물이 없으면 펄스가 즉시 멈추며, 1시간 후 재설정됩니다. </p>",
       "routine": "<p>(1 행동) 이 함정은 방 내 모든 생물에게 @Damage[4d10[electricity]] 피해를 입힌다(@Check[reflex|dc:26|basic|name:Avoid Electrical Shock|traits:complex,magical,trap,arcane,electricity,evocation] 내성). 내성에 실패한 생물은 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1} 상태가 됩니다(대실패 시 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 2} 상태). 물에 닿지 않은 생물은 내성 굴림 결과를 1단계 더 성공한 것으로 간주합니다.</p>",
       "stealth": "<p>(전문가)</p>",
@@ -1117,7 +1117,7 @@
     "Agitated Carnivorous Plants": {
       "name": "격앙된 육식 식물(Agitated Carnivorous Plants)",
       "desc (hazard)": "<p> 한때 포만감을 유지하던 많은 육식식물들이 이제는 얻을 수 있는 어떤 고기라도 갈망하며, 심지어 그것을 얻기 위해 길 위로 달려들기도 한다.</p>",
-      "disable": "<p>@Check[survival|dc:25|name:Distract or Trick the Plants] (훈련된) 식물을 혼란시키거나 속이기 위해 @Check[nature|dc:22|name:Calm the Plants] (전문가) 식물을 진정시키기</p>",
+      "disable": "<p>@Check[survival|dc:25|name:Distract or Trick the Plants](훈련된) 식물을 혼란시키거나 속이기 위해 @Check[nature|dc:22|name:Calm the Plants](전문가) 식물을 진정시키기</p>",
       "stealth": "<p>(훈련된)</p>",
       "items": {
         "ljdhuwursvahjyio": {
@@ -1261,7 +1261,7 @@
     "Boulder Deadfall Trap": {
       "name": "바위 낙하 함정(Boulder Deadfall Trap)",
       "desc (hazard)": "<p>모래 아래 묻힌 무게 감지 판이 바위를 절벽 발판 너머로 끌어당겨, 입구 내부의 대상 위에 떨어지게 한다.</p>",
-      "disable": "<p>@Check[crafting|dc:27|name:Disable the Plate|traits:mechanical,trap] (전문가) 또는 @Check[thievery|dc:25|name:Disable the Plate|traits:mechanical,trap] (전문가)가 판을 찾아 기울기 장치에서 분리해야 함</p>",
+      "disable": "<p>@Check[crafting|dc:27|name:Disable the Plate|traits:mechanical,trap](전문가) 또는 @Check[thievery|dc:25|name:Disable the Plate|traits:mechanical,trap](전문가)가 판을 찾아 기울기 장치에서 분리해야 함</p>",
       "reset": "<p> 함정에 있는 바위를 재설정하는 작업은 노동 집약적이며 2시간이 소요됩니다.</p>",
       "stealth": "<p>(훈련된); 균형 잡힌 바위를 발견하기 위한 DC 0</p>",
       "items": {
@@ -1460,7 +1460,7 @@
           "name": "단검(Dagger)"
         },
         "zVKp3Jc5FD2YoGYt": {
-          "name": "기회의 공격(Attack of Opportunity)"
+          "name": "기회 공격(Attack of Opportunity)"
         },
         "hjsbx1be0lmoslp9": {
           "name": "구속(Restrain)",
@@ -1807,18 +1807,18 @@
         },
         "uxs81m99g4ichpaa": {
           "name": "숨결 무기(Breath Weapon)",
-          "description": "<p>익사메는 테르와 호수에서 방출되는 것과 같은 독 구름을 내뿜어 @Damage[11d6[poison]|피해:area-dam @Template[cone|distance:40] (@Check[reflex|dc:29|basic|options:area-effect] 내성).</p>\n<p>[[/gmr 1d4 #호흡 무기 재충전]]{1d4 라운드} 동안 호흡 무기를 다시 사용할 수 없다.</p>"
+          "description": "<p>익사메는 테르와 호수에서 방출되는 것과 같은 독 구름을 내뿜어 @Damage[11d6[poison]|피해:area-dam @Template[cone|distance:40](@Check[reflex|dc:29|basic|options:area-effect] 내성).</p>\n<p>[[/gmr 1d4 #호흡 무기 재충전]]{1d4 라운드} 동안 호흡 무기를 다시 사용할 수 없다.</p>"
         },
         "kkq35lzs9wigaqoe": {
           "name": "구름 걷기(Cloud Walk)",
           "description": "<p>익사메는 구름이나 안개 위를 단단한 땅처럼 걸을 수 있다.</p>"
         },
         "v0qz15a2mjb59cek": {
-          "name": "드래코닉 광란(Draconic Frenzy)",
+          "name": "드라코닉 광란(Draconic Frenzy)",
           "description": "<p>익사메는 두 번의 발톱 공격과 한 번의 뿔 공격을 순서대로 수행한다. </p>"
         },
         "1x3lh2qqctoita74": {
-          "name": "드래코닉 모멘텀(Draconic Momentum)",
+          "name": "드라코닉 모멘텀(Draconic Momentum)",
           "description": "<p>익사메는 공격을 가할 때 치명타를 기록할 때마다 자신의 숨결 무기를 재충전한다. </p>"
         }
       }
@@ -1826,7 +1826,7 @@
     "Spider Summoning Rune": {
       "name": "거미 소환 룬(Spider Summoning Rune)",
       "desc (hazard)": "<p>바닥에 있는 @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{투명} 룬은 노르고버의 종교적 상징을 착용하지 않은 자가 건드리면 @UUID[Compendium.pf2e.pathfinder-monster-core.Actor.eP4a0FAbus3tNTbc]{골리앗 거미}를 소환한다.</p>",
-      "disable": "<p>@Check[thievery|dc:34|name:Erase the Rune|traits:uncommon,magical,trap,complex] (마스터)로 룬을 지우거나 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(6급; 반격 DC 36)로 룬을 해제할 수 있다.</p>",
+      "disable": "<p>@Check[thievery|dc:34|name:Erase the Rune|traits:uncommon,magical,trap,complex](마스터)로 룬을 지우거나 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(6급; 반격 DC 36)로 룬을 해제할 수 있다.</p>",
       "reset": "<p>함정은 24시간 후에 재설정됩니다.</p>",
       "stealth": "<p>(마스터)</p>",
       "items": {
@@ -1912,7 +1912,7 @@
         },
         "eezf25m1slduyc4d": {
           "name": "카룸젝 맹독(Karumzek Venom)",
-          "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:19]</p>\n<p><strong> 최대 지속 시간</strong> 6 라운드</p>\n<p><strong>1단계</strong> @Damage[1d6[poison]] (1 라운드)</p>\n<p><strong>2단계</strong> 1d6 독 및 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 1}(1 라운드)</p>\n<p><strong>3단계</strong> @Damage[2d6[poison]], @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1}, 그리고 약화된 1 (1 라운드)</p>"
+          "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:19]</p>\n<p><strong> 최대 지속 시간</strong> 6 라운드</p>\n<p><strong>1단계</strong> @Damage[1d6[poison]](1 라운드)</p>\n<p><strong>2단계</strong> 1d6 독 및 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 1}(1 라운드)</p>\n<p><strong>3단계</strong> @Damage[2d6[poison]], @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1}, 그리고 약화된 1 (1 라운드)</p>"
         }
       }
     },
@@ -1929,7 +1929,7 @@
           "name": "맘벨레(Mambele)"
         },
         "lauiBzTIdWLmi69i": {
-          "name": "기회의 공격(Attack of Opportunity)"
+          "name": "기회 공격(Attack of Opportunity)"
         },
         "r2ezwnk7aqzsorz5": {
           "name": "태생적 행운(Born Lucky)",
@@ -2253,7 +2253,7 @@
         },
         "x19uypog4dal3phf": {
           "name": "불타는 희생(Burning Sacrifice)",
-          "description": "<p>태양 마법사가 파괴되면, @Damage[6d6[fire]|options:area-damage]의 화염 폭발을 일으키며 @Template[emanation|distance:10] (@Check[reflex|dc:27|basic|options:area-effect] 저항). 저항에 대실패한 생물은 몸의 보이는 부위에 월케나의 종교적 상징이 새겨지며, 이는 1일간 지속된다. 이 표시는 월케나가 @UUID[Compendium.pf2e.spells-srd.Item.r784cIz17eWujtQj]{점술}을 사용할 때 해당 생물의 신원을 알지만 만난 적은 없는 것으로 간주하게 하며, 이 표시는 발키나가 해당 생물의 신원을 알고 있지만 직접 만난 적은 없는 것으로 간주하여 @UUID[Compendium.pf2e.spells-srd.Item.r784cIz17eWujtQj]{투시술}의 주문을 시전할 때 주문의 난이도(DC)를 2 낮추는 효과를 줍니다. 태양 마법사의 장비와 보물은 폭발의 영향을 받지 않고 그들이 죽은 장소에 그대로 쌓여 있습니다.</p>"
+          "description": "<p>태양 마법사가 파괴되면, @Damage[6d6[fire]|options:area-damage]의 화염 폭발을 일으키며 @Template[emanation|distance:10](@Check[reflex|dc:27|basic|options:area-effect] 저항). 저항에 대실패한 생물은 몸의 보이는 부위에 월케나의 종교적 상징이 새겨지며, 이는 1일간 지속된다. 이 표시는 월케나가 @UUID[Compendium.pf2e.spells-srd.Item.r784cIz17eWujtQj]{점술}을 사용할 때 해당 생물의 신원을 알지만 만난 적은 없는 것으로 간주하게 하며, 이 표시는 발키나가 해당 생물의 신원을 알고 있지만 직접 만난 적은 없는 것으로 간주하여 @UUID[Compendium.pf2e.spells-srd.Item.r784cIz17eWujtQj]{투시술}의 주문을 시전할 때 주문의 난이도(DC)를 2 낮추는 효과를 줍니다. 태양 마법사의 장비와 보물은 폭발의 영향을 받지 않고 그들이 죽은 장소에 그대로 쌓여 있습니다.</p>"
         },
         "9x2cfSx3fVFlQW6K": {
           "name": "공허 치유(Void Healing)"
@@ -2381,7 +2381,7 @@
           "name": "복합 단궁(Composite Shortbow)"
         },
         "Q1P280oyR2nAYIuc": {
-          "name": "기회의 공격(Attack of Opportunity)"
+          "name": "기회 공격(Attack of Opportunity)"
         },
         "NIJZV9ABMCIiFD7a": {
           "name": "움켜잡는 갑옷(Clutching Armor)",
@@ -2574,7 +2574,7 @@
           "name": "창(Spear)"
         },
         "5WZeISlPNq3R2mXw": {
-          "name": "기회의 공격(Attack of Opportunity)"
+          "name": "기회 공격(Attack of Opportunity)"
         },
         "DiktVBXYKpLFlNah": {
           "name": "방패 막기(Shield Block)"
@@ -2609,7 +2609,7 @@
           "name": "창(Spear)"
         },
         "bNxplPE27bJF3Sph": {
-          "name": "기회의 공격(Attack of Opportunity)"
+          "name": "기회 공격(Attack of Opportunity)"
         },
         "5jcyj8fswkazu3tr": {
           "name": "영감의 잔치(Inspired Feast)",
@@ -2787,7 +2787,7 @@
           "name": "태양화염 광선(Sunfire Beam)"
         },
         "Dclgkrm4gUdHKKtf": {
-          "name": "기회의 공격(Attack of Opportunity)"
+          "name": "기회 공격(Attack of Opportunity)"
         },
         "cayZLGHrwDiRg60D": {
           "name": "구조물 방어력 (경도 14)(Construct Armor (Hardness 14))",
@@ -2901,7 +2901,7 @@
           "name": "지속 마법(Constant Spells)"
         },
         "SibodFBlujLWtUk4": {
-          "name": "기회의 공격(Attack of Opportunity)"
+          "name": "기회 공격(Attack of Opportunity)"
         },
         "s0v5optc2gsszyyc": {
           "name": "아바타의 저항(Avatar's Resistance)",
@@ -2988,7 +2988,7 @@
           "name": "주먹(Fist)"
         },
         "9vARP9LTpwoCfgeI": {
-          "name": "기회의 공격(Attack of Opportunity)"
+          "name": "기회 공격(Attack of Opportunity)"
         },
         "3US5FatueRfGAZ7c": {
           "name": "무덤 기사 방패(Graveknight's Shield)",
@@ -3054,7 +3054,7 @@
     },
     "Worknesh": {
       "name": "워크네쉬(Worknesh)",
-      "gm": "<p><strong> 발견</strong> @Check[mzali-lore|dc:32], @Check[perception|dc:37], @Check[society|dc:35]</p>\n<p><strong>영향력 기술</strong> @Check[intimidation|dc:35|name:Discuss Defensive Performative Aspects of Combat] (공격적 전투 기술 논의), @Check[acrobatics|dc:35|name:Discuss Defensive Combat Techniques] (방어적 전투 기술 논의), @Check[athletics|dc:35|name:Discuss Training Techniques] (훈련 기술 논의), @Check[intimidation|dc:35|name:Discuss Defensive Performative Aspects of Combat], @Check[mzali-lore|dc:35|name:Discuss Defensive Performative Aspects of Combat], @Check[deception|dc:37|name:Discuss Defensive Performative Aspects of Combat], @Check[diplomacy|dc:39|name:Discuss Defensive Performative Aspects of Combat], @Check[performance|dc:39|name:Discuss Defensive Performative Aspects of Combat] (전투의 수행적 측면 논의), @Check[society|dc:39]</p>\n<hr />\n<p><strong>영향력 2</strong> 워크네쉬는 대표단을 이번 주 후반에 있을 전투 공연에 초대한다. 이 공연은 자칼 가드 대원들이 스파링 시합을 벌이고, 흥미진진한 전투 장면이 곳곳에 삽입된 므잘리의 역사를 재현하는 내용이다. 영웅들은 참석할 의무는 없지만, 참석한다면 워크네쉬의 귀빈으로 대접받게 된다. 공연 중 그녀는 도시의 주요 지도자들인 템바, 웨케사, 주바리를 영웅들에게 소개하는 시간을 가진다. 이 만남은 영웅들이 다른 지도자들과 접촉할 수 있는 발판을 마련해 준다(비록 템바가 워크네쉬에게 뚜렷이 냉담하지만). . 만약 영웅들이 다음에 '므잘리 인물 접촉' 시도를 템바, 웨케사, 주바리에게 한다면, 그 시도는 성공보다 나쁘지 않은 결과를 얻는다.</p>\n<p><strong>영향력 4</strong> 워크네쉬는 대표단의 전투 능력을 확인하고 싶어하며 영웅들을 시범 격투에 초대한다. 자세한 내용은 워크네쉬의 도전 과제에서 자세한 내용을 확인하세요.</p>\n<p><strong>영향력 6</strong> 워크네쉬는 대표단이 도시에 위협이 될 가능성이 낮음을 인정하고, 닉루카에게 자신의 승인을 전합니다. 이로 인해 영웅들은 닉루카에게 영향력 1점을 얻습니다. 영웅들은 30 XP를 획득합니다.</p>\n<p><strong>영향력 8</strong> 워크네쉬는 사절단의 야망을 인정하며 일종의 동질감을 느낍니다. 그녀는 영웅들에게 무기 비축분을 선물이자 존중의 표시로 건넨다-혹은 그들이 정말로 형편없는 전사라고 생각한다면 동정의 표시로. 무기들은 매우 우아하지만, 워크네시는 무기를 장식용으로만 만들어 기능성을 떨어뜨리는 것을 반대한다-각각의 무기는 전투에서 사용 가능하다. 무기에는 <em>@UUID[Compendium.pf2e.equipment-srd.Item.RUEAV5LMUGFHcXcW]{전쟁 지도자의 방패}</em>, <em>@UUID[Compendium.pf2e.equipment-srd.Item.KrtZmC3qfZIGXu76]{철의 평형자}</em>, 그리고 +1 공격 증가의 공리적 @UUID[Compendium.pf2e.equipment-srd.Item.rXt4629QSg7KDTgJ]{전쟁망치}에 부착된 @UUID[Compendium.pf2e.equipment-srd.Item.ah9jxSBerznPowW7]{강력한 결속의 고리}가 부착된 상태.</p>",
+      "gm": "<p><strong> 발견</strong> @Check[mzali-lore|dc:32], @Check[perception|dc:37], @Check[society|dc:35]</p>\n<p><strong>영향력 기술</strong> @Check[intimidation|dc:35|name:Discuss Defensive Performative Aspects of Combat](공격적 전투 기술 논의), @Check[acrobatics|dc:35|name:Discuss Defensive Combat Techniques](방어적 전투 기술 논의), @Check[athletics|dc:35|name:Discuss Training Techniques](훈련 기술 논의), @Check[intimidation|dc:35|name:Discuss Defensive Performative Aspects of Combat], @Check[mzali-lore|dc:35|name:Discuss Defensive Performative Aspects of Combat], @Check[deception|dc:37|name:Discuss Defensive Performative Aspects of Combat], @Check[diplomacy|dc:39|name:Discuss Defensive Performative Aspects of Combat], @Check[performance|dc:39|name:Discuss Defensive Performative Aspects of Combat](전투의 수행적 측면 논의), @Check[society|dc:39]</p>\n<hr />\n<p><strong>영향력 2</strong> 워크네쉬는 대표단을 이번 주 후반에 있을 전투 공연에 초대한다. 이 공연은 자칼 가드 대원들이 스파링 시합을 벌이고, 흥미진진한 전투 장면이 곳곳에 삽입된 므잘리의 역사를 재현하는 내용이다. 영웅들은 참석할 의무는 없지만, 참석한다면 워크네쉬의 귀빈으로 대접받게 된다. 공연 중 그녀는 도시의 주요 지도자들인 템바, 웨케사, 주바리를 영웅들에게 소개하는 시간을 가진다. 이 만남은 영웅들이 다른 지도자들과 접촉할 수 있는 발판을 마련해 준다(비록 템바가 워크네쉬에게 뚜렷이 냉담하지만). . 만약 영웅들이 다음에 '므잘리 인물 접촉' 시도를 템바, 웨케사, 주바리에게 한다면, 그 시도는 성공보다 나쁘지 않은 결과를 얻는다.</p>\n<p><strong>영향력 4</strong> 워크네쉬는 대표단의 전투 능력을 확인하고 싶어하며 영웅들을 시범 격투에 초대한다. 자세한 내용은 워크네쉬의 도전 과제에서 자세한 내용을 확인하세요.</p>\n<p><strong>영향력 6</strong> 워크네쉬는 대표단이 도시에 위협이 될 가능성이 낮음을 인정하고, 닉루카에게 자신의 승인을 전합니다. 이로 인해 영웅들은 닉루카에게 영향력 1점을 얻습니다. 영웅들은 30 XP를 획득합니다.</p>\n<p><strong>영향력 8</strong> 워크네쉬는 사절단의 야망을 인정하며 일종의 동질감을 느낍니다. 그녀는 영웅들에게 무기 비축분을 선물이자 존중의 표시로 건넨다-혹은 그들이 정말로 형편없는 전사라고 생각한다면 동정의 표시로. 무기들은 매우 우아하지만, 워크네시는 무기를 장식용으로만 만들어 기능성을 떨어뜨리는 것을 반대한다-각각의 무기는 전투에서 사용 가능하다. 무기에는 <em>@UUID[Compendium.pf2e.equipment-srd.Item.RUEAV5LMUGFHcXcW]{전쟁 지도자의 방패}</em>, <em>@UUID[Compendium.pf2e.equipment-srd.Item.KrtZmC3qfZIGXu76]{철의 평형자}</em>, 그리고 +1 공격 증가의 공리적 @UUID[Compendium.pf2e.equipment-srd.Item.rXt4629QSg7KDTgJ]{전쟁망치}에 부착된 @UUID[Compendium.pf2e.equipment-srd.Item.ah9jxSBerznPowW7]{강력한 결속의 고리}가 부착된 상태.</p>",
       "items": {
         "1lzwfbo4etegxuat": {
           "name": "황금의 검(Golden Blade)"
@@ -3063,11 +3063,11 @@
           "name": "황금의 검(Golden Blade)"
         },
         "gD2uMMkZtgbvVoGp": {
-          "name": "기회의 공격(Attack of Opportunity)"
+          "name": "기회 공격(Attack of Opportunity)"
         },
         "piozygvswzbwhv9x": {
           "name": "마스터의 외침(Master's Cry)",
-          "description": "<p><strong>발동 조건</strong> 워크네쉬가 인니셔티브를 굴림 </p>\n<p><strong>요구 사항</strong> 워크네쉬는 60피트 내 적 최소 한 명을 감지할 수 있음 </p>\n<hr />\n<p><strong>효과</strong> 워크네쉬가 강력한 함성을 지른다. 워크네쉬는 60피트 내의 단일 적을 [[/act 사기 저하]]시키기 위해 위협 체크(Intimidation check)를 시도한다. 성공 시, 30피트 내의 아군 중 누구라도 전투 첫 턴 첫 행동으로 자신의 이동 속도의 두 배까지 스트라이드를 사용할 수 있다.</p>"
+          "description": "<p><strong>발동 조건</strong> 워크네쉬가 인니셔티브를 굴림 </p>\n<p><strong>요구 사항</strong> 워크네쉬는 60피트 내 적 최소 한 명을 감지할 수 있음 </p>\n<hr />\n<p><strong>효과</strong> 워크네쉬가 강력한 함성을 지른다. 워크네쉬는 60피트 내의 단일 적을 [[/act demoralize]]시키기 위해 위협 체크(Intimidation check)를 시도한다. 성공 시, 30피트 내의 아군 중 누구라도 전투 첫 턴 첫 행동으로 자신의 이동 속도의 두 배까지 스트라이드를 사용할 수 있다.</p>"
         },
         "0mYKRZeJZGadH2AM": {
           "name": "방패 막기(Shield Block)"
@@ -3168,7 +3168,7 @@
         },
         "i7n59jc26msmr3lb": {
           "name": "모래폭풍 분출(Spew Sandstorm)",
-          "description": "<p> 탐식충이 @Template[cone|distance:60] 범위 내로 소용돌이치는 모래를 내뿜는다. 해당 영역 내 생물은 @Check[reflex|dc:41|options:area-effect,damaging-effect,inflicts:blinded,inflicts:dazzled] 내성 굴림을 시도해야 한다.</p>\n<p>[[/gmr 1d4 #재충전 모래폭풍]]{1d4 라운드} 동안 모래폭풍을 다시 분출할 수 없습니다.</p>\n<hr />\n<p><strong>대성공</strong> 생물은 영향을 받지 않습니다.</p>\n<p><strong>성공 </strong> 생물은 @Damage[4d6[slashing],4d6[타격]|options:area-damage]{4d6 베기 피해와 4d6 타격 피해}를 씻어내는 모래로부터 받는다.</p>\n<p><strong> 실패 시</strong> 모래로부터 @Damage[8d6[slashing],8d6[타격]|options:area-damage]{8d6 베기 피해와 8d6 타격 피해}를 받고, 다음 차례가 끝날 때까지 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{눈부심} 상태가 됩니다. </p>\n<p><strong> 대실패</strong> 생물은 @Damage[12d6[slashing],12d6[타격]|options:area-damage]{12d6 베기 피해와 12d6 타격 피해}를 받고 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명} 상태가 1시간 동안 지속됩니다.</p>"
+          "description": "<p> 탐식충이 @Template[cone|distance:60] 범위 내로 소용돌이치는 모래를 내뿜는다. 해당 영역 내 생물은 @Check[reflex|dc:41|options:area-effect,damaging-effect,inflicts:blinded,inflicts:dazzled] 내성 굴림을 시도해야 한다.</p>\n<p>[[/gmr 1d4 #재충전 모래폭풍]]{1d4 라운드} 동안 모래폭풍을 다시 분출할 수 없습니다.</p>\n<hr />\n<p><strong>대성공</strong> 생물은 영향을 받지 않습니다.</p>\n<p><strong>성공 </strong> 생물은 @Damage[4d6[slashing],4d6[bludgeoning]|options:area-damage]{4d6 베기 피해와 4d6 타격 피해}를 씻어내는 모래로부터 받는다.</p>\n<p><strong> 실패 시</strong> 모래로부터 @Damage[8d6[slashing],8d6[bludgeoning]|options:area-damage]{8d6 베기 피해와 8d6 타격 피해}를 받고, 다음 차례가 끝날 때까지 @UUID[Compendium.pf2e.conditionitems.Item.TkIyaNPgTZFBCCuh]{눈부심} 상태가 됩니다. </p>\n<p><strong> 대실패</strong> 생물은 @Damage[12d6[slashing],12d6[bludgeoning]|options:area-damage]{12d6 베기 피해와 12d6 타격 피해}를 받고 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명} 상태가 1시간 동안 지속됩니다.</p>"
         },
         "eY8hCkReTT1xyWpC": {
           "name": "통째로 삼키기(Swallow Whole)",
@@ -3182,7 +3182,7 @@
     "Deathly Dream": {
       "name": "죽음의 꿈(Deathly Dream)",
       "desc (hazard)": "<p>사악한 룬 문양이 문에 새겨져 있어, 드완덱 외의 자가 문을 열면 악몽의 영역으로 통하는 포탈이 열린다.</p>",
-      "disable": "<p>@Check[thievery|dc:40|name:Seal the Rift|traits:magical,trap,hazard] (마스터) 물질계에 강력하게 뿌리내린 재료로 균열을 봉인하거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(7레벨, 저항 DC 33)로 포탈을 반격할 수 있다. </p>",
+      "disable": "<p>@Check[thievery|dc:40|name:Seal the Rift|traits:magical,trap,hazard](마스터) 물질계에 강력하게 뿌리내린 재료로 균열을 봉인하거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(7레벨, 저항 DC 33)로 포탈을 반격할 수 있다. </p>",
       "reset": "<p>사망의 꿈 함정은 해제되거나 파괴되지 않는 한 자동으로 재설정됩니다. 재설정될 때마다 희생자를 보내는 악몽의 미세 포켓 평면도 함께 재설정되므로, 두 희생자가 동일한 죽음의 꿈을 공유하는 일은 절대 없습니다.</p>",
       "stealth": "<p>(마스터)</p>",
       "items": {
@@ -3210,7 +3210,7 @@
           "description": "<p>쇼바드 집행자들은 네 개의 강력한 팔을 지녔다. 이들은 양손 무기를 휘두르거나 양손으로 물건을 들고 있는 중에도, 물체와 상호작용하거나 조작하거나, 붙잡기나 걸어 넘어뜨리기처럼 자유로운 손이 필요한 전투 동작을 수행할 수 있다.</p>"
         },
         "Cwe7Z8diKBCybrnF": {
-          "name": "기회의 공격(Attack of Opportunity)"
+          "name": "기회 공격(Attack of Opportunity)"
         },
         "pIIZKDeYFpkZXoJP": {
           "name": "사나움(Ferocity)"
@@ -3352,7 +3352,7 @@
     "Entropy Choir": {
       "name": "엔트로피 합창단(Entropy Choir)",
       "desc (hazard)": "<p>유령 같은 그림자들로 이루어진 합창단이 이 방의 의자를 가득 메우고, 소름 끼치고 초자연적인 선율을 노래한다.</p>",
-      "disable": "<p>@Check[religion|dc:40|name:Exorcise the Spirits|traits:haunt,hazard] (마스터) 영혼을 쫓아내고 그들을 단일체로 묶는 힘을 끊거나, @Check[performance|dc:35|name:Counter the Choir|traits:haunt,hazard] (전문가) 합창단을 저지하고 그 노래의 파괴적 요소를 무효화할 수 있다</p>",
+      "disable": "<p>@Check[religion|dc:40|name:Exorcise the Spirits|traits:haunt,hazard](마스터) 영혼을 쫓아내고 그들을 단일체로 묶는 힘을 끊거나, @Check[performance|dc:35|name:Counter the Choir|traits:haunt,hazard](전문가) 합창단을 저지하고 그 노래의 파괴적 요소를 무효화할 수 있다</p>",
       "reset": "<p>엔트로피 합창단은 비활성화되거나 파괴된 경우에도 24시간 후 자동으로 재설정됩니다. 단, 그 찬양을 받는 교단의 구성원인 드완덱과 다른 멤버들이 완전히 파괴되면 영원히 사라집니다. </p>",
       "routine": "<p>(3 행동; 청각, 신성, 소환, 음파) 합창단은 무력화되거나 파괴될 때까지 매 라운드마다 암울한 장송곡을 계속 부릅니다. 영역 내에 속도가 느려짐이 없는 생명체가 존재할 경우 <strong>A3</strong> 자신의 턴이 시작될 때, 먼저 단일 행동으로 '공허로의 부름'을 사용한다.</p>\n<p>남은 행동(또는 방에 이미 {느려짐} 생명체가 존재할 경우 세 행동 모두)을 사용하여 개별 대상에게 영혼을 산산조각내는 합창을 포커스한다. </p>\n<p>합창단은 영역 <strong>A3</strong> 내의 모든 생명체를 대상으로 행동을 취할 수 있으나, 한 라운드에 한 생명체당 한 번만 가능합니다. 다른 모든 대상보다 느려짐 상태가 된 생명체를 우선적으로 공격하지만, 유효한 대상이 느려짐 상태가 아닌 생명체뿐이라면 이를 대상으로 삼습니다. 표적 생물은 @Check[fortitude|dc:36|traits:auditory,divine,evocation,sonic] 내성 굴림을 시도해야 합니다.</p>\n<hr />\n<p><strong>대성공</strong> 표적은 영향을 받지 않습니다. </p>\n<p><strong>성공</strong> 대상은 @Damage[5d6[sonic]]의 피해를 입습니다. </p>\n<p><strong>실패</strong> 대상은 @Damage[10d6[sonic]]의 피해를 입습니다.</p>\n<p><strong>대실패</strong> 대상은 @Damage[15d6[sonic]]의 피해를 입으며, @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수} 상태가 1 증가합니다. 최대 흡수 4까지 적용됩니다.</p>",
       "stealth": "<p><strong>효과</strong> +33 (숙련); 해당 지역의 생물들은 섬뜩하게 흔들리는 그림자를 자동으로 인지한다</p>",
@@ -3580,7 +3580,7 @@
     "Flensing Chute": {
       "name": "플렌싱 슈트(Flensing Chute)",
       "desc (hazard)": "<p>계단이 아래로 나선형으로 붕괴된다.</p>",
-      "disable": "<p>@Check[thievery|dc:35|name:Decouple Mechanisms] (마스터) 이동하는 계단판 사이의 틈새로 간신히 접근 가능한 여러 장치를 분리하거나, @Check[perception|dc:38|name:Note Stairs Wear Patterns DC] 계단의 마모 패턴이 약간 다른 부분을 확인하여 밟아도 안전한 계단을 파악한다 </p>",
+      "disable": "<p>@Check[thievery|dc:35|name:Decouple Mechanisms](마스터) 이동하는 계단판 사이의 틈새로 간신히 접근 가능한 여러 장치를 분리하거나, @Check[perception|dc:38|name:Note Stairs Wear Patterns DC] 계단의 마모 패턴이 약간 다른 부분을 확인하여 밟아도 안전한 계단을 파악한다 </p>",
       "reset": "<p>플렌싱 슈트는 자동으로 재설정됩니다. </p>",
       "stealth": "<p>(마스터)</p>",
       "items": {
@@ -3593,7 +3593,7 @@
     "Auto-Turret": {
       "name": "자동 포탑(Auto-Turret)",
       "desc (hazard)": "<p>마법 표적 추적 시스템과 통합 탄약 공급 장치가 장착된 고정식 기관총. </p>",
-      "disable": "<p>@Check[thievery|dc:35|name:Disconnect the Turret|traits:magical,trap,hazard] (마스터)로 포탑을 탄약 공급 시스템에서 분리하거나, @Check[arcana|dc:35|name:Neutralize the Magical Targeting System|traits:magical,trap,hazard] (마스터)로 마법 조준 시스템을 무력화할 수 있다. </p>\n<p>탄-탁네는 특수 명령어를 통해 원격으로 자동 터렛 하나 또는 둘 모두를 비활성화할 수도 있습니다. </p>",
+      "disable": "<p>@Check[thievery|dc:35|name:Disconnect the Turret|traits:magical,trap,hazard](마스터)로 포탑을 탄약 공급 시스템에서 분리하거나, @Check[arcana|dc:35|name:Neutralize the Magical Targeting System|traits:magical,trap,hazard](마스터)로 마법 조준 시스템을 무력화할 수 있다. </p>\n<p>탄-탁네는 특수 명령어를 통해 원격으로 자동 터렛 하나 또는 둘 모두를 비활성화할 수도 있습니다. </p>",
       "routine": "<p>(3회 행동) 매 행동마다 자동 터렛은 탄-탁네의 야영지로부터 60피트 이내에 있는 생물(탄-탁네 제외)을 대상으로 장총 공격을 가합니다. 해당 생물이 없을 경우, 자동 터렛은 대신 행동을 사용하여 기계식 다리를 뻗어 마지막 표적 방향으로 20피트 비틀거리며 이동한 후 다시 땅에 고정됩니다. 사격을 분산하도록 프로그래밍된 자동 포탑은 해당 라운드에 이미 공격한 생물체는 공격하지 않습니다.</p>\n<p>15회의 공격을 수행한 후, 자동 포탑은 탄약이 소진되어 자동으로 작동이 중지됩니다.</p>",
       "stealth": "<p>(전문가); 암흑 시야</p>",
       "items": {
@@ -3678,7 +3678,7 @@
         },
         "tvryp3uv13n5u6rj": {
           "name": "천개미 자세(Thousand Ants Stance)",
-          "description": "<p> 사제는 천개미의 자세를 취한다. 이는 작고 사나운 생물 떼의 혼란스러운 공격을 모방한 스타일이다. 사제는 천개의 상처를 비무장 공격으로 공격할 수 있다. </p>\n<p>이 공격들은 @Damage[1d12[piercing]]의 피해를 입히며, 난투 그룹에 속하고, 백스태버, 포스풀, 맨손 특성을 지닌다. 이 자세를 취하는 동안, 보조자가 대상에게 @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{추락} 시키면, 대상은 다음 턴 시작까지 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 된다.</p>"
+          "description": "<p> 사제는 천개미의 자세를 취한다. 이는 작고 사나운 생물 떼의 혼란스러운 공격을 모방한 스타일이다. 사제는 천개의 상처를 비무장 공격으로 공격할 수 있다. </p>\n<p>이 공격들은 @Damage[1d12[piercing]]의 피해를 입히며, 난투 그룹에 속하고, 백스태버, 포스풀, 맨손 특성을 지닌다. 이 자세를 취하는 동안, 보조자가 대상에게 @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{넘어뜨리기} 시키면, 대상은 다음 턴 시작까지 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 된다.</p>"
         }
       }
     },
@@ -3828,7 +3828,7 @@
           "description": "<p><em>@UUID[Compendium.pf2e.equipment-srd.Item.LKIs3LJqrKNP2yrx]{주문절단기}</em> 생명체에게 피해를 줄 수 없음 </p>"
         },
         "BMgWntdwcCCXldMW": {
-          "name": "기회의 공격(Attack of Opportunity)"
+          "name": "기회 공격(Attack of Opportunity)"
         },
         "JxUugYE35wuDrL4P": {
           "name": "모그 스폰(Mohrg Spawn)",
@@ -3897,7 +3897,7 @@
     "Rigged Ramen Cart": {
       "name": "장치된 라멘 카트(Rigged Ramen Cart)",
       "desc (hazard)": "<p>겉보기엔 무해한 라멘 카트가 현재 위치에서 이동 시 폭발하도록 장치되어 있다.</p>",
-      "disable": "<p>@Check[thievery|dc:40|name:Disable the Detonation Trigger|traits:hazard,alchemical,mechanical,trap] (마스터) 폭발 트리거 해제</p>",
+      "disable": "<p>@Check[thievery|dc:40|name:Disable the Detonation Trigger|traits:hazard,alchemical,mechanical,trap](마스터) 폭발 트리거 해제</p>",
       "stealth": "<p>(전문가) </p>",
       "items": {
         "y9wgwxol8v9fx740": {
@@ -4020,7 +4020,7 @@
     "Stinger Ward Trap": {
       "name": "스팅거 워드 트랩(Stinger Ward Trap)",
       "desc (hazard)": "<p>공중에 유령 같은 가시가 나타나, 틈새를 통과하는 모든 이를 찌른다.</p>",
-      "disable": "<p>@Check[thievery|dc:36|name:Prevent Ghostly Stinger from Forming|traits:uncommon,magical,trap] (마스터)로 유령의 침이 형성되는 것을 막거나 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(6레벨; 반격 DC 34)를 사용합니다. </p>",
+      "disable": "<p>@Check[thievery|dc:36|name:Prevent Ghostly Stinger from Forming|traits:uncommon,magical,trap](마스터)로 유령의 침이 형성되는 것을 막거나 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(6레벨; 반격 DC 34)를 사용합니다. </p>",
       "reset": "<p>함정은 24시간 후 재설정됩니다.</p>",
       "stealth": "<p>(전문가)</p>",
       "items": {
@@ -4144,7 +4144,7 @@
           "name": "강화된 암흑 시야(Greater Darkvision)"
         },
         "131TjCXfzJb09ssm": {
-          "name": "기회의 공격(Attack of Opportunity)"
+          "name": "기회 공격(Attack of Opportunity)"
         },
         "zl9dx6km7pIVqu26": {
           "name": "공허 치유(Void Healing)"
@@ -5028,7 +5028,7 @@
           "name": "가시덤불(Briar)"
         },
         "vlWkMzxwVACi0RIY": {
-          "name": "기회의 공격(Attack of Opportunity)"
+          "name": "기회 공격(Attack of Opportunity)"
         },
         "xwlrc0y7m4gbb0aj": {
           "name": "추가 반응(Extra Reaction)",

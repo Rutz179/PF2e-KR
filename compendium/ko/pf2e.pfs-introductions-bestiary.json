@@ -4,7 +4,7 @@
     "Befuddled Thoughts": {
       "name": "혼란스러운 생각",
       "desc (hazard)": "<p>이빨이 난 두개골 룬이 달콤한 꿀 같은 목소리로 영원한 생명을 이야기하기 시작한다.</p>",
-      "disable": "<p>@Check[religion|dc:20|name:Exorcise Spirit|traits:complex,haunt] (훈련된) 영혼을 쫓아내기 위해, @Check[religion|dc:21|name:Sever Spiritual Connection|traits:complex,haunt] 또는 @Check[occultism|dc:21|name:Sever Spiritual Connection|traits:complex,haunt] (훈련된) <em>굶주림의 부름</em>과 사원, 또는 @Check[athletics|dc:21|name:Crack the Wall|traits:complex,haunt]로 벽을 여러 곳에서 깨뜨려야 합니다. 총 3번의 성공이 필요하며, 이를 통해 유령의 출현을 차단할 수 있습니다.</p>",
+      "disable": "<p>@Check[religion|dc:20|name:Exorcise Spirit|traits:complex,haunt](훈련된) 영혼을 쫓아내기 위해, @Check[religion|dc:21|name:Sever Spiritual Connection|traits:complex,haunt] 또는 @Check[occultism|dc:21|name:Sever Spiritual Connection|traits:complex,haunt](훈련된) <em>굶주림의 부름</em>과 사원, 또는 @Check[athletics|dc:21|name:Crack the Wall|traits:complex,haunt]로 벽을 여러 곳에서 깨뜨려야 합니다. 총 3번의 성공이 필요하며, 이를 통해 유령의 출현을 차단할 수 있습니다.</p>",
       "reset": "<p>모자이크는 모든 생물이 계단에서 보이지 않게 된 후 2 라운드 후에 루틴을 중단합니다. 6시간 후 유령 현상은 다시 발동 준비가 됩니다.</p>",
       "routine": "<p>(3 행동) 벽에서 붉은 에너지 공이 박동하며 날아와 방 안에서 음의 에너지로 폭발합니다. 방 안에 있는 모든 사람은 @Damage[(1d10+4)[void]]의 피해를 입습니다 (@Check[reflex|dc:20|basic|name:Avoid the Energy|traits:complex,haunt,void] 내성).</p>",
       "stealth": "<p>(훈련된)</p>",
@@ -50,7 +50,7 @@
     "Swampy Quicksand": {
       "name": "습지 모래톱",
       "desc (hazard)": "<p>15피트 너비의 물과 모래로 된 지역이 그 위에 발을 딛는 생물을 물에 잠기게 시도합니다.</p>",
-      "disable": "<p>@Check[survival|dc:16|name:Disturb Surface|traits:environmental] (훈련된) 표면을 교란시키기 위해</p>",
+      "disable": "<p>@Check[survival|dc:16|name:Disturb Surface|traits:environmental](훈련된) 표면을 교란시키기 위해</p>",
       "reset": "<p>위험은 여전히 들어서는 모든 생물을 잠기게 하지만, 표면은 24시간 동안 안정될 때까지 다시 숨겨지지 않습니다.</p>",
       "routine": "<p>(1 행동) 모래는 자신의 이니셔티브에 따라 그 안에 있는 모든 생물을 끌어내립니다. 허리까지 잠긴 생물은 목까지 잠기며, 목까지 잠긴 생물은 물속으로 끌려 들어가 숨을 참아야 질식하지 않습니다.</p>\n<p>모래사장에 있는 생물은 @Check[athletics|dc:18|name:Swim out of Quicksand|traits:action:swim,environmental] 수영 체크를 시도할 수 있습니다. 체크에 성공하면 목까지 잠긴 경우 한 단계 올라가고, 허리까지 잠긴 경우 5피트 이동할 수 있습니다. 목까지 잠긴 경우, 또는 허리까지 잠긴 경우 5피트 이동합니다. 대실패 시 생물은 한 단계 아래로 끌려갑니다. 퀵샌드에서 수영으로 탈출한 생물은 위험에서 벗어나 퀵샌드 패치에 인접한 공간에 엎드린 상태가 됩니다. 다른 생물은 로프나 유사한 도구를 사용하거나 자신의 @Check[athletics|dc:18|name:Aid Another Creature in Quicksand] 체크를 시도할 수 있으며, 결과는 생물이 직접 체크를 시도한 것과 동일합니다.</p>",
       "stealth": "<p>(훈련된), 또는 표면이 교란된 경우 DC 0 및 최소 숙련도 없음.</p>",
@@ -64,7 +64,7 @@
     "Spite of the Righteous": {
       "name": "의로운 자의 분노",
       "desc (hazard)": "<p>성스러운 상징에서 피가 흐르고 부정적인 에너지로 맥동하는 유령 같은 전사의 모습이 벽에서 걸어 나와 모든 살아있는 생물을 죽이려 합니다.</p>",
-      "disable": "<p>@Check[religion|dc:20|name:Exorcise Spirit|traits:complex,haunt] (훈련된) 영혼을 쫓아내기 위해, @Check[religion|dc:21|name:Sever Spiritual Connection|traits:complex,haunt] 또는 @Check[occultism|dc:21|name:Sever Spiritual Connection|traits:complex,haunt] (훈련된) 사원과 연결된 <em>굶주림의 부름</em>과 사원 사이의 연결을 끊기 위해, 또는 @Check[thievery|dc:21|name:Scratch Eyes out of the Mural|traits:complex,haunt] (훈련된) 벽화에 그려진 눈을 긁어내는 것; 유령을 무력화하려면 총 3번의 성공이 필요합니다.</p>",
+      "disable": "<p>@Check[religion|dc:20|name:Exorcise Spirit|traits:complex,haunt](훈련된) 영혼을 쫓아내기 위해, @Check[religion|dc:21|name:Sever Spiritual Connection|traits:complex,haunt] 또는 @Check[occultism|dc:21|name:Sever Spiritual Connection|traits:complex,haunt](훈련된) 사원과 연결된 <em>굶주림의 부름</em>과 사원 사이의 연결을 끊기 위해, 또는 @Check[thievery|dc:21|name:Scratch Eyes out of the Mural|traits:complex,haunt](훈련된) 벽화에 그려진 눈을 긁어내는 것; 유령을 무력화하려면 총 3번의 성공이 필요합니다.</p>",
       "reset": "<p>영적 전사가 벽으로 돌아가며, 계단에서 모든 살아있는 생물이 시야에서 사라진 후 2 라운드 후에 활동을 중단합니다. 6시간 후 유령 현상은 다시 발동 준비가 됩니다.</p>",
       "routine": "<p>(3 행동) 전사의 검이 출구 계단 시야 내의 모든 살아있는 생물의 몸을 스치며, 각각 @Damage[(1d10+4)[slashing]]의 피해를 입습니다 (@Check[fortitude|dc:20|basic|name:Avoid the Warrior's Blade|traits:complex,haunt,slashing] 내성). 해당 지역 내의 언데드 생물은 5의 임시 체력을 얻습니다.</p>",
       "stealth": "<p>(trained)</p>",
@@ -78,7 +78,7 @@
     "Cheerful Tune": {
       "name": "즐거운 멜로디",
       "desc (hazard)": "<p>즐거운 말 없는 멜로디가 방을 가득 채우며 모두를 일하게 합니다.</p>",
-      "disable": "<p>@Check[religion|dc:20|name:Exorcise Spirits|traits:complex,haunt] (훈련된) 영혼을 쫓아내기 위해, 또는 @Check[intimidation|dc:21|name:Take a Break|traits:complex,haunt] 영혼들에게 휴식 시간이 되었다고 설득하기 위해; 총 3번의 성공이 필요하며, 이를 통해 유령의 출현을 차단할 수 있습니다.</p>",
+      "disable": "<p>@Check[religion|dc:20|name:Exorcise Spirits|traits:complex,haunt](훈련된) 영혼을 쫓아내기 위해, 또는 @Check[intimidation|dc:21|name:Take a Break|traits:complex,haunt] 영혼들에게 휴식 시간이 되었다고 설득하기 위해; 총 3번의 성공이 필요하며, 이를 통해 유령의 출현을 차단할 수 있습니다.</p>",
       "reset": "<p>유령 노동자들은 모든 살아있는 존재가 방을 떠난 후 2 라운드 후에 작업을 중단하며, 6시간 후에 재설정됩니다.</p>",
       "routine": "<p>(3 행동) 유령 노동자들이 방에 나타나 주변의 모든 대상에게 긁고, 닦고, 청소 화학 물질을 뿌리기 시작합니다. 방 내의 모든 생물은 @Damage[(1d4+2)[slashing]]과 @Damage[(1d4+2)[acid]]의 피해를 입습니다 (@Check[reflex|dc:20|basic|name:Avoid Workers|traits:haunt,complex] 내성; 두 가지 모두에 대해 한 번만 굴립니다).</p>",
       "stealth": "<p>(trained)</p>",
@@ -127,7 +127,7 @@
     "Blood Hunger": {
       "name": "피의 갈망",
       "desc (hazard)": "<p>이빨이 난 두개골 룬에서 피가 열린 상처처럼 흘러나온다.</p>",
-      "disable": "<p>@Check[religion|dc:20|name:Exorcise Spirit|traits:complex,haunt] (훈련된) 영혼을 쫓아내기 위해, @Check[religion|dc:21|name:Sever Spiritual Connection|traits:complex,haunt] 또는 @Check[occultism|dc:21|name:Sever Spiritual Connection|traits:complex,haunt] (훈련된) <em>배고픔의 부름</em>과 사원 사이의 연결을 끊기 위해, 또는 @Check[crafting|dc:21|name:Break up the Mural|traits:complex,haunt] (훈련된) 벽화의 패턴을 깨기 위해; 총 3번의 성공이 필요하며, 이를 통해 유령의 저주를 해제할 수 있습니다.</p>",
+      "disable": "<p>@Check[religion|dc:20|name:Exorcise Spirit|traits:complex,haunt](훈련된) 영혼을 쫓아내기 위해, @Check[religion|dc:21|name:Sever Spiritual Connection|traits:complex,haunt] 또는 @Check[occultism|dc:21|name:Sever Spiritual Connection|traits:complex,haunt](훈련된) <em>배고픔의 부름</em>과 사원 사이의 연결을 끊기 위해, 또는 @Check[crafting|dc:21|name:Break up the Mural|traits:complex,haunt](훈련된) 벽화의 패턴을 깨기 위해; 총 3번의 성공이 필요하며, 이를 통해 유령의 저주를 해제할 수 있습니다.</p>",
       "reset": "<p>모자이크는 모든 생물이 계단에서 시야에서 사라진 후 2 라운드 후에 그 활동을 중단합니다. 6시간 후 유령의 저주는 다시 발동 준비가 됩니다.</p>",
       "routine": "<p>(3 행동) 피 묻은 모자이크는 동쪽 벽에서 10피트 이내에 있는 모든 대상에게 색상 유리 조각을 발사하며, 각 대상은 @Damage[1d10[slashing]] 피해와 @Damage[1[bleed]] 피해(@Check[reflex|dc:20|basic|name:Avoid the Glass Shards|traits:complex,haunt,slashing] 내성; 대성공 시 출혈 피해를 무효화합니다).</p>",
       "stealth": "<p>(훈련된)</p>",
@@ -185,7 +185,7 @@
     "Cleaning Agents": {
       "name": "세제",
       "desc (hazard)": "<p>\n{공학 로어}(숙련) 또는  (숙련)로 제어 패널을 비활성화하거나,  또는 로 화학 물질을 방출하는 노즐을 막아야 합니다. 함정을 무력화하려면 3번의 성공이 필요합니다.</p>",
-      "disable": "<p>@Check[engineering-lore|dc:20|name:Disable Control Panel|traits:mechanical,complex]{Engineering Lore}(trained) or @Check[thievery|dc:20|name:Disable Control Panel|traits:mechanical,complex] (trained) to deactivate the control panel, or @Check[athletics|dc:21|name:Plug the Spouts|traits:mechanical,complex] or @Check[acrobatics|dc:21|name:Plug the Spouts|traits:mechanical,complex] to plug the spouts that release the chemicals; three successes are required to disable the trap.</p>",
+      "disable": "<p>@Check[engineering-lore|dc:20|name:Disable Control Panel|traits:mechanical,complex]{Engineering Lore}(trained) or @Check[thievery|dc:20|name:Disable Control Panel|traits:mechanical,complex](trained) to deactivate the control panel, or @Check[athletics|dc:21|name:Plug the Spouts|traits:mechanical,complex] or @Check[acrobatics|dc:21|name:Plug the Spouts|traits:mechanical,complex] to plug the spouts that release the chemicals; three successes are required to disable the trap.</p>",
       "reset": "<p>트랩은 1분 후 비활성화되며 1시간 후에 재설정됩니다.</p>",
       "routine": "<p>(3 행동) 함정은 방을 부식성 증기로 가득 채우고 해당 지역(@Check[fortitude|dc:20|basic|name:Cleaning Agent|traits:acid]) 내 모든 생물에게 @Damage[(2d6+2)[acid]]의 피해를 입힙니다.</p>",
       "stealth": "<p>(훈련된)</p>",
@@ -221,7 +221,7 @@
     "Ancient Summoning Rune": {
       "name": "고대 소환 룬",
       "desc (hazard)": "<p>방의 중앙 기둥을 둘러싸는 10피트 반경의 투명 마법 센서 구름이 존재합니다.</p>",
-      "disable": "<p>@Check[acrobatics|dc:15|name:Approach the Rune|traits:magical,trap] 함정을 발동시키지 않고 접근하려면 @Check[thievery|dc:17|name:Erase the Rune|traits:action:disable-a-device,magical,trap] (훈련된)으로 룬을 지우거나, @Check[athletics|dc:19|name:Remove Stones|traits:magical,trap]으로 기둥에서 마법을 방해할 만큼의 돌을 제거하거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(1단계; 반격 DC 15)로 룬을 무효화해야 합니다.</p>",
+      "disable": "<p>@Check[acrobatics|dc:15|name:Approach the Rune|traits:magical,trap] 함정을 발동시키지 않고 접근하려면 @Check[thievery|dc:17|name:Erase the Rune|traits:action:disable-a-device,magical,trap](훈련된)으로 룬을 지우거나, @Check[athletics|dc:19|name:Remove Stones|traits:magical,trap]으로 기둥에서 마법을 방해할 만큼의 돌을 제거하거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(1단계; 반격 DC 15)로 룬을 무효화해야 합니다.</p>",
       "reset": "<p>함정은 매일 새벽에 재설정됩니다.</p>",
       "stealth": "<p>(훈련된)</p>",
       "items": {
@@ -234,7 +234,7 @@
     "Encouraging Supervision": {
       "name": "격려하는 감독",
       "desc (hazard)": "<p>벽에 있는 아즐란티 감독관의 얼굴이 움직이며 방 안에 있는 사람들에게 업무 태도가 나쁘다고 꾸짖기 시작합니다.</p>",
-      "disable": "<p>@Check[deception|dc:20|name:Fake a Smile|traits:complex,haunt] 즐거운 태도를 가장하거나, @Check[crafting|dc:21|name:Show Skill at a Task|traits:complex,haunt] (훈련된) 특정 작업에 능숙함을 보여야 합니다. 유령의 효과를 해제하려면 세 번의 성공적인 체크가 필요합니다.</p>",
+      "disable": "<p>@Check[deception|dc:20|name:Fake a Smile|traits:complex,haunt] 즐거운 태도를 가장하거나, @Check[crafting|dc:21|name:Show Skill at a Task|traits:complex,haunt](훈련된) 특정 작업에 능숙함을 보여야 합니다. 유령의 효과를 해제하려면 세 번의 성공적인 체크가 필요합니다.</p>",
       "reset": "<p>모든 생명체가 방을 떠난 후 2 라운드 후에 유령의 목소리가 멈추고 6시간 후에 재설정됩니다.</p>",
       "routine": "<p>(3 행동) 감독자의 목소리가 방을 가득 채우고 방 안에 있는 모든 이들이 미소를 짓도록 강요합니다. 방 안에 있는 각 생물은 @Damage[(1d8+4)[mental]] 피해를 입으며, @Check[will|dc:20|name:Try Not to Smile too Hard|traits:complex,haunt] 내성 굴림을 시도해야 합니다.</p>\n<hr />\n<p><strong>대성공</strong> 대상은 피해를 받지 않습니다.</p>\n<p><strong>성공</strong> 대상은 반의 피해를 입습니다.</p>\n<p><strong>실패</strong> 생물은 전체 피해를 입습니다.</p>\n<p><strong>대실패</strong> 생물은 전체 피해를 받고 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수 1} 상태가 됩니다.</p>",
       "stealth": "<p>(훈련됨)</p>",

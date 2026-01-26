@@ -86,7 +86,7 @@
         },
         "XxawNeDWtBYpANit": {
           "name": "티타닉의 힘(Titanic Might)",
-          "description": "<p>불사조 불꽃은 다음과 같은 행동을 수행할 때 크기 제한을 무시합니다. @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple} or @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{Trip}.</p>"
+          "description": "<p>불사조 불꽃은 다음과 같은 행동을 수행할 때 크기 제한을 무시합니다. @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{Grapple} or @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{넘어뜨리기}.</p>"
         },
         "gMe2u7iR0dJ1TtYi": {
           "name": "Flame Cloak",
@@ -169,7 +169,7 @@
     "Precarious Footing": {
       "name": "불안정한 발걸음(Precarious Footing)",
       "desc (hazard)": "<p>용암 구덩이 주변의 땅이 무너지고 불안정합니다.</p>",
-      "disable": "<p>@Check[survival|dc:18] (훈련된) 붕괴를 안전하게 견디기 위해; @Check[crafting|dc:20] (훈련된) 지면을 안정시키기 위해</p>",
+      "disable": "<p>@Check[survival|dc:18](훈련된) 붕괴를 안전하게 견디기 위해; @Check[crafting|dc:20](훈련된) 지면을 안정시키기 위해</p>",
       "stealth": "<p>(훈련된)</p>",
       "items": {
         "Cf3nIapXiIXyqkT6": {
@@ -247,7 +247,7 @@
     "Hero-God's Rage": {
       "name": "영웅-신의 분노(Hero-God's Rage)",
       "desc (hazard)": "<p>소프리스타의 유령이 붉은 빛을 내며 분노의 비명을 지르며 상대방에게 날아갑니다.</p>",
-      "disable": "<p>@Check[athletics|dc:18] (훈련된) 영혼을 제압하기 위해, @Check[religion|dc:18] 영혼을 진정시키기 위해, @Check[deception|dc:16] 또는 @Check[diplomacy|dc:16] 영혼을 설득하기 위해; 두 번의 성공이 필요하며, 이를 통해 유령의 효과를 무력화할 수 있다</p>",
+      "disable": "<p>@Check[athletics|dc:18](훈련된) 영혼을 제압하기 위해, @Check[religion|dc:18] 영혼을 진정시키기 위해, @Check[deception|dc:16] 또는 @Check[diplomacy|dc:16] 영혼을 설득하기 위해; 두 번의 성공이 필요하며, 이를 통해 유령의 효과를 무력화할 수 있다</p>",
       "routine": "<p>(1 행동) 소프리스타는 가장 가까운 살아있는 생물에게 공격을 가해 @Damage[(1d10+6)[bludgeoning]]의 피해를 입히고 (@Check[reflex|dc:20|basic] 내성) 그 생물의 운명을 자신의 운명과 연결시킵니다; 내성 굴림에서 대실패한 생물은 @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 1} 상태가 됩니다 (최대 @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 3}).</p>",
       "stealth": "<p>(trained)</p>",
       "items": {
@@ -369,7 +369,7 @@
         },
         "KhgTIBtP3uB7Ls0w": {
           "name": "Fireball Breath",
-          "description": "<p>불용 드레이크는 180피트 범위 내에 불의 공을 내뿜어 @Template[burst|distance:20] 모양으로 폭발합니다. 폭발 범위 내의 생물은 @Damage[6d6[fire]|options:area-damage]의 피해를 입습니다. (@Check[reflex|dc:22|basic|options:area-effect] 내성).</p>\n<p>불용룡은 [[/gmr 1d6 #재충전 불꽃 숨결]]{1d6 라운드} 동안 불꽃 숨결을 다시 사용할 수 없습니다.</p>"
+          "description": "<p>불용 드레이크는 180피트 범위 내에 불의 공을 내뿜어 @Template[burst|distance:20] 모양으로 폭발합니다. 폭발 범위 내의 생물은 @Damage[6d6[fire]|options:area-damage]의 피해를 입습니다. (@Check[reflex|dc:22|basic|options:area-effect] 내성).</p>\n<p>파이어 드래곤은 [[/gmr 1d6 #재충전 불꽃 숨결]]{1d6 라운드} 동안 불꽃 숨결을 다시 사용할 수 없습니다.</p>"
         },
         "YXiHAcR16OtpzApO": {
           "name": "속도 급증(Speed Surge)",
@@ -395,7 +395,7 @@
         },
         "f1WmtkZio5s3t4eI": {
           "name": "도리 스트라이크(Dory Strike)",
-          "description": "<p><strong>빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 스피로이코스(Speiroikos)는 자신의 공간에 있는 모든 적과 @Template[type:emanation|distance:10] (@Check[reflex|dc:17|basic|options:area-effect] 내성) 범위 내의 적에게 근접 공격을 가합니다. 피해량은 행동 횟수에 따라 결정됩니다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[1d6[piercing]|options:area-damage] 피해</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(1d6+6)[piercing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(2d6+6)[piercing]|options:area-damage] 피해</p>"
+          "description": "<p><strong>빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 스피로이코스(Speiroikos)는 자신의 공간에 있는 모든 적과 @Template[type:emanation|distance:10](@Check[reflex|dc:17|basic|options:area-effect] 내성) 범위 내의 적에게 근접 공격을 가합니다. 피해량은 행동 횟수에 따라 결정됩니다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[1d6[piercing]|options:area-damage] 피해</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(1d6+6)[piercing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(2d6+6)[piercing]|options:area-damage] 피해</p>"
         },
         "eoPLKoVC7MS5YQAU": {
           "name": "드래곤하이드(Dragonhide)",
@@ -617,7 +617,7 @@
         },
         "hwQkE2HCPbAu7yfM": {
           "name": "트립 쿼리(Trip Quarry)",
-          "description": "<p><strong>트리거</strong> 유메니드의 쿼리는 유메니드의 가시 사슬 범위 내의 이동 행동을 사용합니다.</p><hr /><p><strong>효과</strong> 유메니드는 @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{트립} 효과를 적용합니다.</p>"
+          "description": "<p><strong>트리거</strong> 유메니드의 쿼리는 유메니드의 가시 사슬 범위 내의 이동 행동을 사용합니다.</p><hr /><p><strong>효과</strong> 유메니드는 @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{넘어뜨리기} 효과를 적용합니다.</p>"
         },
         "u7rICLBufjAVcwmD": {
           "name": "사냥감 지정(Designate Quarry)",
@@ -813,7 +813,7 @@
         },
         "zHMLl3SaUzSJ0UaY": {
           "name": "Metal Mayhem",
-          "description": "<p>이 주문의 일반적인 효과 대신, 금속 스캠프는 자석 흡인력을 발동해 작업실 내부의 금속 도구, 잉곳, 기타 물체를 날려보낼 수 있습니다. 이 효과는 작업실 내부의 모든 생물에게 @Damage[1d4[bludgeoning]] (@Check[reflex|dc:16|basic])의 피해를 입히며, 더 큰 보호막을 가진 생물이나 금속 특성을 가진 생물은 제외됩니다. 스캠프는 라운드당 한 번 이 주문을 유지해 피해를 반복할 수 있습니다. 이 효과가 활성화되어 있는 동안, 스캠프는 빠른 치유를 위해 금속과 접촉한 상태로 간주됩니다.</p>"
+          "description": "<p>이 주문의 일반적인 효과 대신, 금속 스캠프는 자석 흡인력을 발동해 작업실 내부의 금속 도구, 잉곳, 기타 물체를 날려보낼 수 있습니다. 이 효과는 작업실 내부의 모든 생물에게 @Damage[1d4[bludgeoning]](@Check[reflex|dc:16|basic])의 피해를 입히며, 더 큰 보호막을 가진 생물이나 금속 특성을 가진 생물은 제외됩니다. 스캠프는 라운드당 한 번 이 주문을 유지해 피해를 반복할 수 있습니다. 이 효과가 활성화되어 있는 동안, 스캠프는 빠른 치유를 위해 금속과 접촉한 상태로 간주됩니다.</p>"
         }
       }
     },
@@ -1021,7 +1021,7 @@
     "Temptation of Glory": {
       "name": "영광의 유혹(Temptation of Glory)",
       "desc (hazard)": "<p>당신의 마음의 소망이 유령 같은 이미지로 나타나 당신을 유혹합니다.</p>",
-      "disable": "<p>@Check[arcana|dc:25] 또는 @Check[religion|dc:25] (전문가)로 이미지를 방해합니다; @Check[occultism|dc:26] (전문가)를 사용하여 반박하는 주문을 외치거나; @Check[intimidation|dc:27] (전문가)를 사용하여 이미지를 쫓아내거나; @Check[will|dc:28] (전문가)를 사용하여 듣지 않기로 내성</p>",
+      "disable": "<p>@Check[arcana|dc:25] 또는 @Check[religion|dc:25](전문가)로 이미지를 방해합니다; @Check[occultism|dc:26](전문가)를 사용하여 반박하는 주문을 외치거나; @Check[intimidation|dc:27](전문가)를 사용하여 이미지를 쫓아내거나; @Check[will|dc:28](전문가)를 사용하여 듣지 않기로 내성</p>",
       "routine": "<p>(PC당 1개) 위험은 PC를 표적으로 삼고 잔인한 유혹을 사용합니다</p><hr><p><strong>특수</strong> 위험은 패배할 때까지 매 라운드마다 계속되며, 위험이 중단될 때까지 복도의 끝까지 도달할 수 없습니다.</p>",
       "stealth": "<p>(전문가)</p>",
       "items": {

@@ -91,7 +91,7 @@
           "description": "<p>프레리 드레이크가 흙덩이를 뱉어내면 돌과 진흙이 쏟아지며 폭발한다. 공격 범위는 30피트이며 @Template[burst|distance:5] 범위 내에서 폭발한다. 폭발 범위 내 생물은 @Damage[3d6[bludgeoning]|options:area-damage]의 피해를 입는다 ( @Check[reflex|dc:16|basic|options:area-effect]). 해당 영역 내 식물 생물은 저항에 성공하면 피해를 받지 않는다. 또한 하루에 한 번, 식물 생물은 해당 영역에서 10분간 머물며 영양분을 흡수해 @Damage[1d8[healing]] 체력을 치유할 수 있다. 초원 드레이크는 [[/gmr 1d6 #재충전 Dirt Breath]]{1d6 라운드} 동안 Dirt Breath를 다시 사용할 수 없습니다.</p>"
         },
         "P8tWsUlHfmo6Jpm8": {
-          "name": "드래코닉 광란",
+          "name": "드라코닉 광란",
           "description": "<p>프레리 드레이크는 턱 공격 1회와 날개 공격 2회를 임의의 순서로 수행한다.</p>"
         },
         "pbptfhrxqy7r6y3p": {
@@ -158,7 +158,7 @@
           "description": "<p>24시간, [[/act disable-device dc=15]]{난이도 15 도둑질} 체크, 대기</p>\n<hr />\n<p> 시계 장치가 작동하려면 다른 생명체가 고유한 열쇠로 감아줘야 한다. 이 작업은 1분이 소요된다. 감긴 후에는 명시된 시간(보통 24시간) 동안 작동하며, 시간이 지나면 주변을 인식하지 못하고 다시 감기 전까지 작동할 수 없다. 일부 시계장치의 능력은 잔여 작동 시간을 소모해야 발동됩니다. 보유한 시간 이상을 소모할 수 없으며, 잔여 시간이 0이 되면 즉시 작동을 멈춥니다. 마지막 감은 시점이 불분명한 경우, 대부분의 시계장치 관리자는 정해진 시간(보통 오전 8시)에 모든 시계장치를 감습니다.</p>\n<p>태엽 장치 항목에 대기 모드가 명시된 시계 장치는 3회 행동으로 대기 모드에 진입할 수 있습니다. 대기 중에는 작동 시간이 감소하지 않으나, 주변을 감지할 수 있습니다(지각 능력에 -2 페널티 적용). 행동은 불가능하나 한 가지 예외가 있습니다: 생물을 감지했을 때, 반응으로 대기 모드를 종료할 수 있습니다 (필요한 경우 이니셔티브 굴림).</p>\n<p>생물은 장치 해제 시도를 통해 시계 장치를 감아 작동 시간을 줄일 수 있다(감기 항목에 명시된 DC 적용). 성공할 때마다 시계 장치는 1시간의 작동 시간을 잃습니다. 이는 시계 장치가 대기 모드에 있을 때도 가능합니다.</p>"
         },
         "UAnXJJ2NtSV24ftd": {
-          "name": "기회의 공격"
+          "name": "기회 공격"
         },
         "GArbF1RlXUNEq4TB": {
           "name": "장갑 벗기",
@@ -300,7 +300,7 @@
           "description": "<p>안젤리크가 원거리 공격을 가해 명중 시 추가로 @Damage[2d8[piercing]]의 피해를 입힌다. 대상이 공포 상태일 경우 명중 시 @Damage[2d6[bleed]]의 추가 피해를 입힌다.</p>"
         },
         "hc0vkvPPJWOYu8jZ": {
-          "name": "법적 로어"
+          "name": "법률 로어"
         }
       }
     },
@@ -414,7 +414,7 @@
         },
         "wKAjiKv43WQtPPz5": {
           "name": "화약통 던지기",
-          "description": "<p><strong>사용 빈도</strong> 한 번 (오그가 다른 화약통을 획득할 때까지)</p>\n<hr />\n<p><strong>효과 </strong> 오거는 화약통에 불을 붙여 40피트 이내 지점으로 던진다. 신관은 1라운드 동안 계속 타오르며, 이 시간 동안 인접한 생물은 상호작용 행동을 사용해 불이 붙은 신관을 제거할 수 있다. 이 경우 화약통은 무해해진다. 오그의 다음 턴 시작 시 신관이 여전히 불이 붙어 있다면 화약통이 폭발하여 @Damage[3d8[fire] ,3d8[타격]|options:area-damage]{3d8 화염 피해와 3d8 타격 피해}를 @Template[burst|distance:15] (@Check[reflex|dc:20|basic|options:area-effect]) 범위 내 생물에게 입힌다.</p>"
+          "description": "<p><strong>사용 빈도</strong> 한 번 (오그가 다른 화약통을 획득할 때까지)</p>\n<hr />\n<p><strong>효과 </strong> 오거는 화약통에 불을 붙여 40피트 이내 지점으로 던진다. 신관은 1라운드 동안 계속 타오르며, 이 시간 동안 인접한 생물은 상호작용 행동을 사용해 불이 붙은 신관을 제거할 수 있다. 이 경우 화약통은 무해해진다. 오그의 다음 턴 시작 시 신관이 여전히 불이 붙어 있다면 화약통이 폭발하여 @Damage[3d8[fire] ,3d8[bludgeoning]|options:area-damage]{3d8 화염 피해와 3d8 타격 피해}를 @Template[burst|distance:15](@Check[reflex|dc:20|basic|options:area-effect]) 범위 내 생물에게 입힌다.</p>"
         },
         "iw0W5WgXZN9Y21ul": {
           "name": "붙잡기"
@@ -424,7 +424,7 @@
     "Wooden Bullets Trap": {
       "name": "나무 탄환 함정",
       "desc (hazard)": "<p>창문을 덮고 있는 널빤지의 여러 구멍을 통해 고속으로 나무 슬링탄을 발사하는 여러 발사 장치에 나무 슬링탄으로 가득 찬 호퍼가 부착되어 있다. 독특한 \"딸깍\" 소리와 윙윙거리는 소리가 함정이 작동했음을 알린다.</p>",
-      "disable": "<p>@Check[thievery|dc:17|name:reinforce the porch sensor|traits:complex,hazard,trap,mechanical] (훈련된) 발사체 구멍을 막거나 @Check[crafting|dc:15|name:Cover the holes|traits:complex,hazard,trap,mechanical] (훈련된) 현관 압력 센서를 강화하기 위해 배치됨</p>",
+      "disable": "<p>@Check[thievery|dc:17|name:reinforce the porch sensor|traits:complex,hazard,trap,mechanical](훈련된) 발사체 구멍을 막거나 @Check[crafting|dc:15|name:Cover the holes|traits:complex,hazard,trap,mechanical](훈련된) 현관 압력 센서를 강화하기 위해 배치됨</p>",
       "reset": "<p>함정은 10발 발사 후 또는 현관 위의 무게가 제거된 시점 중 먼저 도래하는 경우 작동을 멈춘다. 함정은 탄약이 소진되기 전까지 총 10발을 발사할 수 있다.</p>",
       "routine": "<p>(2회 행동) 나무 탄환 트랩이 가장 가까운 두 생물을 공격한다. 탄환이 머리 위로 날아가므로 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드린} 상태의 생물은 무시한다.</p>",
       "stealth": "<p>(훈련됨)</p>",
@@ -623,7 +623,7 @@
         },
         "oc81uodftvepyl99": {
           "name": "채찍 회오리",
-          "description": "<p>브리스틀베인은 채찍을 사용하여 @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{무장 해제}, 강타, 또는 @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{추락}을 사용한다. 각 대상마다 다른 행동을 선택할 수 있다. 각 행동에 대한 체크에는 -2 상황 페널티가 적용되며, 각 행동은 다중 공격 페널티에 포함되지만, 모든 행동이 완료된 후에야 다중 공격 페널티가 증가한다.</p>"
+          "description": "<p>브리스틀베인은 채찍을 사용하여 @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{무장 해제}, 강타, 또는 @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{넘어뜨리기}을 사용한다. 각 대상마다 다른 행동을 선택할 수 있다. 각 행동에 대한 체크에는 -2 상황 페널티가 적용되며, 각 행동은 다중 공격 페널티에 포함되지만, 모든 행동이 완료된 후에야 다중 공격 페널티가 증가한다.</p>"
         },
         "ztgix9q9dnbtzube": {
           "name": "마나 황무지 로어"
@@ -775,7 +775,7 @@
     "Precarious Thunderstone Trap": {
       "name": "불안정한 천둥석 함정",
       "desc (hazard)": "<p>문 개방 시 문에 고정된 발삐줄이 끊어지며 중간 크기의 천둥석이 지면으로 떨어진다.</p>",
-      "disable": "<p>@Check[thievery|dc:15|name:Remove the thunderstone|traits:hazard,mechanical,trap] (훈련된) 천둥돌 제거 또는 @Check[reflex|dc:18|name:Catch the falling thunderstone|traits:hazard,mechanical,trap] 떨어지는 천둥돌을 잡기 위한 내성</p>",
+      "disable": "<p>@Check[thievery|dc:15|name:Remove the thunderstone|traits:hazard,mechanical,trap](훈련된) 천둥돌 제거 또는 @Check[reflex|dc:18|name:Catch the falling thunderstone|traits:hazard,mechanical,trap] 떨어지는 천둥돌을 잡기 위한 내성</p>",
       "stealth": "<p>(훈련된)</p>",
       "items": {
         "cAQyBjT2q2n4GYvk": {
@@ -808,7 +808,7 @@
           "description": "<p> 방패대장은 손이 닿는 범위 내의 상대에게 근접 공격을 가하며, 동시에 다른 손으로 화기를 재장전한다.</p>"
         },
         "XRdppgd0VL5tzrT7": {
-          "name": "법적 로어"
+          "name": "법률 로어"
         }
       }
     },
@@ -913,7 +913,7 @@
     "Iron Dart Launcher": {
       "name": "철제 다트 발사기",
       "desc (hazard)": "<p>정문 맞은편 책상 안에 가려진 스프링식 발사기에서 철제 다트 여섯 발이 발사된다.</p>",
-      "disable": "<p>@Check[thievery|dc:22|name:Disable the trigger|traits:action:disable-a-device] (훈련된) 상태로 트리거를 무력화하거나, @Check[acrobatics|dc:18|name:Squeeze through the door|traits:action:squeeze] 부분적으로 열린 문을 비집고 통과할 수 있다 (이것은 함정을 해제하지는 않지만 발동을 막습니다)</p>",
+      "disable": "<p>@Check[thievery|dc:22|name:Disable the trigger|traits:action:disable-a-device](훈련된) 상태로 트리거를 무력화하거나, @Check[acrobatics|dc:18|name:Squeeze through the door|traits:action:squeeze] 부분적으로 열린 문을 비집고 통과할 수 있다 (이것은 함정을 해제하지는 않지만 발동을 막습니다)</p>",
       "reset": "<p> 문이 닫히면 즉시 재설정됩니다. 다트 3회 발사 후 재장전(다트 20개)이 필요하며, 이후 다시 재설정됩니다.</p>",
       "stealth": "<p>(전문가)</p>",
       "items": {
@@ -950,7 +950,7 @@
         },
         "nkAAKcVO9AbkO8HH": {
           "name": "폭발",
-          "description": "<p>파르수스는 자신의 네크로메카닉 혁신 장치를 정상 한계를 넘어 작동시켜 @Template[emanation|distance:10] (@Check[reflex|dc:31|basic|options:area-effect])에 @Damage[10d6[void]|options:area-damage]의 피해를 입힙니다. 파르수스는 이 효과에 자신을 포함시킬 수 있습니다.</p>"
+          "description": "<p>파르수스는 자신의 네크로메카닉 혁신 장치를 정상 한계를 넘어 작동시켜 @Template[emanation|distance:10](@Check[reflex|dc:31|basic|options:area-effect])에 @Damage[10d6[void]|options:area-damage]의 피해를 입힙니다. 파르수스는 이 효과에 자신을 포함시킬 수 있습니다.</p>"
         },
         "nBfk71u0d9pJQJWr": {
           "name": "네크로맨틱 와인딩",
@@ -1026,7 +1026,7 @@
     "Stink-Sap Trap": {
       "name": "악취 수액 함정",
       "desc (hazard)": "<p>돌길 아래 압력 센서에 연결된 노즐이 진한 악취 수액을 뿜어낸다.</p>",
-      "disable": "<p>@Check[thievery|dc:15|name:Clog the nozzle|traits:hazard,mechanical,trap] (훈련된) 노즐을 막거나 @Check[athletics|dc:14|name:Redirect the stream|traits:hazard,mechanical,trap] (훈련된) 흐름을 길에서 멀리 돌릴 수 있음; 투척물로 거리에 있는 곳에서 운동 체크를 수행할 수 있으나, 대실패 시 함정의 갑작스러운 분사 발동.</p>",
+      "disable": "<p>@Check[thievery|dc:15|name:Clog the nozzle|traits:hazard,mechanical,trap](훈련된) 노즐을 막거나 @Check[athletics|dc:14|name:Redirect the stream|traits:hazard,mechanical,trap](훈련된) 흐름을 길에서 멀리 돌릴 수 있음; 투척물로 거리에 있는 곳에서 운동 체크를 수행할 수 있으나, 대실패 시 함정의 갑작스러운 분사 발동.</p>",
       "reset": "<p>1분. 악취 수액 공급이 고갈되기 전까지 함정은 자동으로 두 번 재설정됩니다.</p>",
       "stealth": "<p>(훈련된)</p>",
       "items": {
@@ -1210,7 +1210,7 @@
     "Subduing Gas Chamber": {
       "name": "제압 가스실",
       "desc (hazard)": "<p> 책상 서랍의 기계식 센서가 벽 속의 균형추를 작동시켜 문을 쾅 닫고 침대 아래의 수면 가스 탱크를 열어, 쉭쉭 소리와 함께 가스가 밀폐된 방을 가득 채우게 합니다.</p>",
-      "disable": "<p>@Check[thievery|dc:26|name:Disconnect the wire|traits:hazard,complex,mechanical,trap] (훈련된) 추의 연결선을 분리하여 추의 낙하를 막거나, @Check[crafting|dc:20|name:Create a counteragent|traits:hazard,complex,mechanical,trap,alchemical,action:craft] (연금술 제작) 수면 가스에 대한 해독제를 제작해야 합니다.</p>",
+      "disable": "<p>@Check[thievery|dc:26|name:Disconnect the wire|traits:hazard,complex,mechanical,trap](훈련된) 추의 연결선을 분리하여 추의 낙하를 막거나, @Check[crafting|dc:20|name:Create a counteragent|traits:hazard,complex,mechanical,trap,alchemical,action:craft](연금술 제작) 수면 가스에 대한 해독제를 제작해야 합니다.</p>",
       "reset": "<p>가스는 수동으로 재충전해야 합니다. </p>",
       "routine": "<p>(1 행동) 매 라운드 자신의 이니셔티브 순서에 따라, 함정은 방 안으로 더 많은 수면 가스를 주입합니다. 방 안에 있는 호흡하는 모든 생물은 독소에 노출됩니다. 첫 번째 라운드에 함정보다 먼저 행동하는 생물은 독을 들이마시는 것을 미루기 위해 숨을 참을 수 있습니다. 함정의 첫 번째 행동 이후에 숨을 참는 것은 효과가 없습니다. 이미 생물의 폐 속 공기가 오염되었기 때문입니다. 함정은 가스가 모두 소진되기 전까지 1분간 작동하며, 이후 1분 동안 가스는 급속히 분해된다. 인접 방의 문을 열면 가스 분해에 걸리는 잔여 시간이 절반으로 줄지만, 해당 방의 생물들도 노출된다.</p>",
       "stealth": "<p>(전문가)</p>",
@@ -1255,7 +1255,7 @@
           "description": "<p>프레리 드레이크가 흙덩이를 뱉어내면 돌과 진흙이 쏟아지며 폭발한다. 공격 범위는 30피트이며 @Template[burst|distance:5] 범위 내에서 폭발한다. 폭발 범위 내 생물은 @Damage[3d6[bludgeoning]|options: [area-damage] 피해 (@Check[reflex|dc:16|basic|options:area-effect]). 해당 영역 내 식물 생물은 성공적인 내성에 피해를 받지 않는다; 그러나 하루에 한 번, 식물 생물은 10분 동안 해당 영역에 머물며 영양분을 흡수해 @Damage[1d8[healing]] 체력을 치유할 수 있다. 초원 드레이크는 [ [/gmr 1d6 #재충전 흙 숨결]]{1d6 라운드} 동안 다시 사용할 수 없다.</p>"
         },
         "P8tWsUlHfmo6Jpm8": {
-          "name": "드래코닉 광란",
+          "name": "드라코닉 광란",
           "description": "<p>프레리 드레이크는 턱 공격 1회와 날개 공격 2회를 순서대로 수행한다.</p>"
         },
         "pbptfhrxqy7r6y3p": {
@@ -1472,8 +1472,8 @@
     "Falling Portcullis Trap": {
       "name": "낙하식 격자문 함정",
       "desc (hazard)": "<p>압력판이 작동하면 천장에서 철제 격자문이 내려온다.</p>",
-      "disable": "<p>@Check[thievery|dc:27|traits:action:disable-a-device] (전문가) 바닥 트리거 해제, 또는 @Check[athletics|dc:27] 또는 @Check[engineering-lore|dc:27] 천장에 포털리스 걸림</p>",
-      "stealth": "<p>(전문가) 지붕의 쇠문(portcullis)이 내려오는 바닥의 받침대 위치 파악; @Check[perception|dc:28|traits:action:seek] (전문가) 바닥 트리거 위치 파악</p>",
+      "disable": "<p>@Check[thievery|dc:27|traits:action:disable-a-device](전문가) 바닥 트리거 해제, 또는 @Check[athletics|dc:27] 또는 @Check[engineering-lore|dc:27] 천장에 포털리스 걸림</p>",
+      "stealth": "<p>(전문가) 지붕의 쇠문(portcullis)이 내려오는 바닥의 받침대 위치 파악; @Check[perception|dc:28|traits:action:seek](전문가) 바닥 트리거 위치 파악</p>",
       "items": {
         "yWMsFObtDKffQ0LV": {
           "name": "쾅 닫히다",
@@ -1839,7 +1839,7 @@
     "Lonely Machine Spirit": {
       "name": "외로운 기계 영혼",
       "desc (hazard)": "<p>연금술 엔진에서 유령 같은 연기가 뿜어져 나오며, 엔진이 삐걱거리며 작동하기 시작하자 기어가 갈리는 날카로운 소리가 울려 퍼진다.</p>",
-      "disable": "<p>@Check[religion|dc:22|name:Eject the animating spirit|traits:hazard,haunt,complex] (훈련된) 또는 @Check[engineering|dc:20|name:Eject the animating spirit|traits:hazard,haunt,complex] 로어(훈련된)으로 기계적 외피에서 생명을 불어넣는 영혼을 추방한다. 비행선의 이름인 '하피의 키스'를 기술 체크 시 언급하면 +2 상황 보너스를, '페라 윈드슬로'라는 이름을 외치면 +4 상황 보너스를 얻는다. \" 이 유령 현상은 영혼이 추방되거나, 유령 현상이 파괴되거나, 30피트 내 생물이 없을 때까지 지속됩니다.</p>",
+      "disable": "<p>@Check[religion|dc:22|name:Eject the animating spirit|traits:hazard,haunt,complex](훈련된) 또는 @Check[engineering|dc:20|name:Eject the animating spirit|traits:hazard,haunt,complex] 로어(훈련된)으로 기계적 외피에서 생명을 불어넣는 영혼을 추방한다. 비행선의 이름인 '하피의 키스'를 기술 체크 시 언급하면 +2 상황 보너스를, '페라 윈드슬로'라는 이름을 외치면 +4 상황 보너스를 얻는다. \" 이 유령 현상은 영혼이 추방되거나, 유령 현상이 파괴되거나, 30피트 내 생물이 없을 때까지 지속됩니다.</p>",
       "reset": "<p>1시간 후 유령 현상은 비활성화되고 초기화됩니다.</p>",
       "routine": "<p>(2 행동) 외로운 기계 영혼이 연기를 뿜거나 30피트 내의 두 생물에게 두 번의 달궈진 기어 공격을 가한다.</p>",
       "stealth": "<p>(훈련됨)</p>",
@@ -1904,7 +1904,7 @@
         },
         "AhhmRU9PP6HPWObc": {
           "name": "폭발 분열",
-          "description": "<p><strong>요구 사항</strong> 파이로나이트 우즈는 대형이다</p>\n<hr />\n<p><strong> 효과</strong> 파이로나이트 우즈는 격렬한 화염 속에서 폭발하여 @Damage[3d6[fire],3d6[타격]|options:area-damage]{3d6 화염 및 3d6 타격 피해}를 @Template[emanation|distance:30]{30피트 반경} 내 모든 생물에게 가합니다. (@Check[reflex|dc:29|basic|options:area-effect]). 이 폭발은 다른 파이로나이트 우즈가 분열되게 할 수 없다. 폭발 후, 우즈는 두 개의 중형 파이로나이트 우즈(위 참조)로 분열되지만, 이 분열은 추가 피해를 주지 않는다.</p>"
+          "description": "<p><strong>요구 사항</strong> 파이로나이트 우즈는 대형이다</p>\n<hr />\n<p><strong> 효과</strong> 파이로나이트 우즈는 격렬한 화염 속에서 폭발하여 @Damage[3d6[fire],3d6[bludgeoning]|options:area-damage]{3d6 화염 및 3d6 타격 피해}를 @Template[emanation|distance:30]{30피트 반경} 내 모든 생물에게 가합니다. (@Check[reflex|dc:29|basic|options:area-effect]). 이 폭발은 다른 파이로나이트 우즈가 분열되게 할 수 없다. 폭발 후, 우즈는 두 개의 중형 파이로나이트 우즈(위 참조)로 분열되지만, 이 분열은 추가 피해를 주지 않는다.</p>"
         }
       }
     },
@@ -1938,7 +1938,7 @@
           "description": "<p>방패장군은 손이 닿는 범위 내의 상대에게 근접 강타를 가하며, 동시에 다른 손으로 화기를 재장전한다.</p>"
         },
         "XRdppgd0VL5tzrT7": {
-          "name": "법적 로어"
+          "name": "법률 로어"
         }
       }
     },
@@ -1962,7 +1962,7 @@
           "description": "<p><strong>발동 조건 </strong> 사막 드레이크가 공격을 받는다.</p>\n<hr />\n<p><strong>효과</strong> 사막 드레이크는 날개를 들어올려, 발동 공격에 대해 AC에 +2 상황 보너스를 얻는다. 공격 당할 당시 비행 중이었다면, 공격이 끝난 후 10피트 하강한다.</p>"
         },
         "t12UxVTTYrWaEKoF": {
-          "name": "드래코닉 광란",
+          "name": "드라코닉 광란",
           "description": "<p>사막 드레이크는 이빨 공격 두 번과 꼬리 공격 한 번을 순서대로 수행한다.</p>"
         },
         "ayrFq5rbKak2j5fR": {
@@ -2063,7 +2063,7 @@
     "Color Spray Trap": {
       "name": "컬러 스프레이 트랩",
       "desc (hazard)": "<p>이 문을 열면 큰 팝 소리가 나고, 곧바로 문을 연 자를 덮치는 다채로운 빛의 폭발이 발생한다.</p>",
-      "disable": "<p>@Check[thievery|dc:25|traits:action:disable-a-device] (훈련된) 문설주 문양 해제, 또는 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(1레벨; 반격 DC 22)로 문양 무력화</p>",
+      "disable": "<p>@Check[thievery|dc:25|traits:action:disable-a-device](훈련된) 문설주 문양 해제, 또는 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(1레벨; 반격 DC 22)로 문양 무력화</p>",
       "stealth": "<p>(훈련된) 문설주에 새겨진 문양을 알아차리기</p>",
       "items": {
         "13Lj5qNdYDXjzEOT": {
@@ -2101,7 +2101,7 @@
     "Gremlin Horde": {
       "name": "그렘린 무리",
       "desc (hazard)": "<p> 나선형 센츄리온 내부에는 세 무리의 그렘린이 {숨기} 기쁨에 차서 삐걱거리며 저주 마법의 폭발을 내뿜는다. 이 위험 요소는 나선형 센츄리온과 동일한 공간을 차지하며 함께 이동한다.</p>",
-      "disable": "<p>@Check[arcana|dc:25|name:Devise counter-hex symbols] , @Check[occultism|dc:25|name:Devise counter-hex symbols], 또는 @Check[religion|dc:25|name:Devise counter-hex symbols] (훈련된)으로 그렘린 무리를 겁주어 흩어지게 하는 해독 부적을 고안하거나, @Check[acrobatics|dc:28|name:Scatter a gremlin gang] 또는 @Check[stealth|dc:28|name:Scatter a gremlin gang] (전문가)로 그렘린 무리를 포획하여 흩어지게 할 수 있다</p>",
+      "disable": "<p>@Check[arcana|dc:25|name:Devise counter-hex symbols] , @Check[occultism|dc:25|name:Devise counter-hex symbols], 또는 @Check[religion|dc:25|name:Devise counter-hex symbols](훈련된)으로 그렘린 무리를 겁주어 흩어지게 하는 해독 부적을 고안하거나, @Check[acrobatics|dc:28|name:Scatter a gremlin gang] 또는 @Check[stealth|dc:28|name:Scatter a gremlin gang](전문가)로 그렘린 무리를 포획하여 흩어지게 할 수 있다</p>",
       "reset": "<p>포획되거나 사살되지 않은 흩어진 그렘린 무리는 [[/gmr 1d4 #Hours]]{1d4시간} 후에 재집결한다. </p>",
       "routine": "<p>(3회 행동; 불운) 그렘린 무리는 매 행동마다 60피트 내의 생물이 휘두르거나 착용한 아이템을 대상으로 한 번의 '장난스러운 저주'를 던집니다. 해당 생물은 @Check[will|dc:27] 내성 굴림을 시도해야 합니다. 그렘린 무리는 흩어진 그렘린 갱마다 행동 1회를 잃는다.</p>\n<hr />\n<p><strong>대성공</strong> 저주가 되돌아와 그렘린 무리에게 영향을 미친다. 1라운드 동안 모든 생물은 이 위험을 무력화하는 체크에서 +1 상태 보너스를 얻습니다.</p>\n<p><strong>성공</strong> 아이템은 영향을 받지 않습니다.</p>\n<p><strong>실패</strong> 아이템이 1라운드 동안 신뢰할 수 없게 됩니다. 생물이 아이템을 활성화하거나 상호작용하려고 시도할 경우, @Check[flat|dc:5]에 성공해야 하며 실패 시 행동이 낭비됩니다. 아이템에 능동적 사용법이 없는 경우(예: 평범한 망토), 아이템을 착용한 생물은 즉시 @Check[flat|dc:5]에 성공해야 하며, 실패 시 아이템에 얽혀 넘어져 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드림} 상태가 된다.</p>\n<p><strong>대실패</strong> 실패 시와 동일하나, 아이템을 휘두르거나 착용한 생물 또한 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 2} 상태가 된다.</p>",
       "stealth": "<p>(전문가)</p>",
@@ -2137,7 +2137,7 @@
           "name": "빠른 치유 5"
         },
         "gYS1Pu6DMoqNba15": {
-          "name": "기회의 공격"
+          "name": "기회 공격"
         },
         "UHxzFiyQ9sL32HBv": {
           "name": "공포의 기운",
@@ -2196,13 +2196,13 @@
     "Explosive Steam Trap": {
       "name": "폭발성 증기 함정",
       "desc (hazard)": "<p>함정문(지도상 \"T\" 표시)에 부착된 흑색 화약이 증기 터널에 구멍을 내며, 방을 과열 증기로 가득 채운다.</p>",
-      "disable": "<p>@Check[thievery|dc:18|traits:action:disable-a-device] (숙련) 책상 스위치 무장 해제; @Check[thievery|dc:28|traits:action:disable-a-device] (전문가) 함정문 화약 무장 해제</p>",
+      "disable": "<p>@Check[thievery|dc:18|traits:action:disable-a-device](숙련) 책상 스위치 무장 해제; @Check[thievery|dc:28|traits:action:disable-a-device](전문가) 함정문 화약 무장 해제</p>",
       "routine": "<p>(1 행동) 함정문이 초고온 증기 분사를 발사한다. 방 내 모든 생물은 @Check[fortitude|dc:28] 내성을 시도해야 한다.</p>\n<hr />\n<p><strong>대성공</strong> 생물은 영향을 받지 않는다.</p>\n<p><strong>성공</strong> 생물은 @Damage[(1d10+3)[fire]]의 피해를 입습니다.</p>\n<p><strong> 실패</strong> 생물은 @Damage[(2d10+6)[fire]]의 피해를 입으며 @UUID[Compendium.pf2e.conditionitems.Item.XgEqL1kFApUbl5Z2]{실명} 상태가 1라운드 동안 지속됩니다.</p>\n<p><strong>대실패</strong> 생물은 @Damage[(2d10+6)[fire]]의 피해를 입으며, @UUID[Compendium.pf2e.conditionitems.Item.HL2l2VRSaQHu9lUw]{피로 상태}가 되고 1라운드 동안 실명 상태가 됩니다.</p>",
-      "stealth": "<p>(trained) 책상 스위치를 찾기 위해; @Check[perception|DC:28|traits:action:seek] (전문가) 함정문을 찾아 돌진하기 위해</p>",
+      "stealth": "<p>(trained) 책상 스위치를 찾기 위해; @Check[perception|DC:28|traits:action:seek](전문가) 함정문을 찾아 돌진하기 위해</p>",
       "items": {
         "WCnAJvdEq4GmtjBi": {
           "name": "폭발물 설치",
-          "description": "<p><strong>작동</strong> 책상 스위치 누름 또는 함정문 열림 </p>\n<hr />\n<p><strong>효과</strong> 문에 설치된 폭약이 폭발한다. 10피트 내 모든 생물은 @Damage[(2d10+6)[fire], (1d10+3)[관통]{2d10+6 화염 피해와 1d10+3 관통 피해}, 그리고 @Damage[1d6[bleed]] (@Check[reflex|dc:22|basic]). 방 안이 증기로 가득 차 방 안에 있는 모든 생물이 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진} 상태가 된다. 이후 함정이 이니셔티브를 굴림. </p>"
+          "description": "<p><strong>작동</strong> 책상 스위치 누름 또는 함정문 열림 </p>\n<hr />\n<p><strong>효과</strong> 문에 설치된 폭약이 폭발한다. 10피트 내 모든 생물은 @Damage[(2d10+6)[fire], (1d10+3)[관통]{2d10+6 화염 피해와 1d10+3 관통 피해}, 그리고 @Damage[1d6[bleed]](@Check[reflex|dc:22|basic]). 방 안이 증기로 가득 차 방 안에 있는 모든 생물이 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진} 상태가 된다. 이후 함정이 이니셔티브를 굴림. </p>"
         }
       }
     },
@@ -2332,7 +2332,7 @@
     "Purple Dye Trap": {
       "name": "보라색 염료 함정",
       "desc (hazard)": "<p>압력 센서가 작동하면 땅속에서 보라색 염료와 천둥돌이 든 스프링식 유리 항아리가 튀어나와 폭발한다.</p>",
-      "disable": "<p>@Check[thievery|dc:17|name:Remove the jar and thunderstone|traits:hazard,trap,mechanical] (훈련된) 병과 천둥석을 조심스럽게 제거하거나 @Check[athletics|dc:20|name:Reinforce the flagstone|traits:hazard,trap,mechanical] 임시 쐐기로 석판 압력 센서를 보강</p>",
+      "disable": "<p>@Check[thievery|dc:17|name:Remove the jar and thunderstone|traits:hazard,trap,mechanical](훈련된) 병과 천둥석을 조심스럽게 제거하거나 @Check[athletics|dc:20|name:Reinforce the flagstone|traits:hazard,trap,mechanical] 임시 쐐기로 석판 압력 센서를 보강</p>",
       "stealth": "<p>(훈련된)</p>",
       "items": {
         "bjX7l8YXzPqzi81E": {
@@ -2466,7 +2466,7 @@
     "Repeater Crossbow Trap": {
       "name": "반복식 석궁 함정",
       "desc (hazard)": "<p> 복도 바닥의 압력판이 걸쇠를 해제하여 천장 패널이 내려온다. 강철 상자 안에 담긴 <em>+1 강타 중형 석궁</em>이 복도에 있는 모든 생물에게 화살을 발사한다.</p>",
-      "disable": "<p>@Check[thievery|dc:20|name:Disengage the reloading mechanism|traits:hazard,complex,mechanical,trap] (전문가) 또는 @Check[crafting|dc:20|name:Disengage the reloading mechanism|traits:hazard,complex,mechanical,trap] (숙련)이 재장전 장치를 해제할 수 있습니다; 함정은 영역 <strong>F2의 스위치로도 해제 가능합니다. </strong></p>",
+      "disable": "<p>@Check[thievery|dc:20|name:Disengage the reloading mechanism|traits:hazard,complex,mechanical,trap](전문가) 또는 @Check[crafting|dc:20|name:Disengage the reloading mechanism|traits:hazard,complex,mechanical,trap](숙련)이 재장전 장치를 해제할 수 있습니다; 함정은 영역 <strong>F2의 스위치로도 해제 가능합니다. </strong></p>",
       "reset": "<p>이 함정은 5발의 화살을 발사한 후 탄약이 소진되며, 수동으로 재장전해야 합니다. </p>",
       "routine": "<p>(3 행동) 반복식 석궁 함정이 재장전(2 행동)한 후 복도에 있는 무작위 생물을 공격합니다.</p>",
       "stealth": "<p>(훈련됨)</p>",
@@ -2582,7 +2582,7 @@
     "Second Kiss Engine": {
       "name": "두 번째 키스 엔진",
       "desc (hazard)": "<p>노출된 시계 장치가 고속으로 회전한다. </p>",
-      "disable": "<p>@Check[thievery|dc:28|name:Disable the engine|traits:action:disable-a-device] (전문가)로 엔진을 무력화하거나, @Check[engineering-lore|dc:26|name:Disengage the drive shaft]로 구동축을 분리한다. 두 방법 모두 함정을 무력화하지만 엔진도 정지시켜 세컨드 키스의 추진력을 상실시킨다.</p>",
+      "disable": "<p>@Check[thievery|dc:28|name:Disable the engine|traits:action:disable-a-device](전문가)로 엔진을 무력화하거나, @Check[engineering-lore|dc:26|name:Disengage the drive shaft]로 구동축을 분리한다. 두 방법 모두 함정을 무력화하지만 엔진도 정지시켜 세컨드 키스의 추진력을 상실시킨다.</p>",
       "items": {
         "kXpBQyUqrKJNci5C": {
           "name": "회전 기어",

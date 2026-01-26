@@ -4,7 +4,7 @@
     "Mocking Puppets": {
       "name": "조롱하는 인형들",
       "desc (hazard)": "<p>이 방의 인형과 마리오네트가 갑자기 침입자를 향해 돌아서며 덜컹거리며 불안한 움직임을 보이기 시작한다. 동시에 비웃는 듯한 웃음소리가 메아리치며 공간을 가득 채운다.</p>",
-      "disable": "<p>@Check[performance|dc:32] (마스터) 유령 인형들의 주의를 분산시키고 즐겁게 하여 그들의 고통과 절망을 잊게 하거나, @Check[religion|dc:35] (전문가) 유령을 퇴치하기; 이를 무력화하려면 네 번의 성공이 필요하다</p>",
+      "disable": "<p>@Check[performance|dc:32](마스터) 유령 인형들의 주의를 분산시키고 즐겁게 하여 그들의 고통과 절망을 잊게 하거나, @Check[religion|dc:35](전문가) 유령을 퇴치하기; 이를 무력화하려면 네 번의 성공이 필요하다</p>",
       "reset": "<p>해당 구역에 생명체가 없을 경우 <strong>C2</strong> 유령 현상은 비활성화되며, 1분 후 재설정된다. </p>",
       "routine": "<p>(1 행동) 방 안의 인형과 마리오네트가 덜컹거리며 움직이기 시작하며 방 안을 맴돌며 살아있는 침입자에게 잔해를 던지고, 부서진 날카로운 금속 조각으로 발목을 찌르며, 길고 가느다란 마리오네트 줄로 채찍질하며 공격합니다. 동시에 다른 인형들은 비웃고 조롱하며 선택된 적을 향해 몸짓으로 희롱합니다. 이 유령은 자신의 행동을 사용하여 영역 <strong>C2</strong> 내의 살아있는 생물 한 마리를 표적으로 삼는다; 해당 생물은 @Check[will|dc:29] 내성 굴림을 시도해야 하며, 실패 시 조롱으로 인해 1라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1} 상태가 된다(대실패 시 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 2} 상태가 된다); 이 효과는 감정 및 정신적 특성을 지닌다. 동시에 인형들이 끊임없이 떼를 지어 몰려다니기 때문에, 인형들은 인형 공격 자유 행동(아래 참조)을 사용하여 대상의 턴 동안 공격할 수 있다.</p>",
       "stealth": "<p> (전문가)</p>",
@@ -412,7 +412,7 @@
         },
         "eezf25m1slduyc4d": {
           "name": "카룸젝의 맹독",
-          "description": "<p> <strong>내성 굴림</strong> @Check[fortitude|dc:36]</p>\n<p><strong>최대 지속 시간</strong> 6 라운드</p>\n<p> <strong>1단계</strong> @Damage[1d6[poison]] (1 라운드)</p>\n<p><strong>2단계</strong> @Damage[1d6[poison],1d6[영혼]], 그리고 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화 1}(1라운드)</p>\n<p><strong>3단계</strong> @Damage[2d6[poison],2d6[영혼]], @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1}, 그리고 약화 1 (1 라운드)</p>"
+          "description": "<p> <strong>내성 굴림</strong> @Check[fortitude|dc:36]</p>\n<p><strong>최대 지속 시간</strong> 6 라운드</p>\n<p> <strong>1단계</strong> @Damage[1d6[poison]](1 라운드)</p>\n<p><strong>2단계</strong> @Damage[1d6[poison],1d6[영혼]], 그리고 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화 1}(1라운드)</p>\n<p><strong>3단계</strong> @Damage[2d6[poison],2d6[영혼]], @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1}, 그리고 약화 1 (1 라운드)</p>"
         }
       }
     },
@@ -551,14 +551,14 @@
         },
         "eezf25m1slduyc4d": {
           "name": "카룸제크 맹독",
-          "description": "<p><strong>내성 굴림 </strong> @Check[fortitude|dc:36]</p>\n<p><strong>최대 지속 시간</strong> 6 라운드</p>\n<p><strong>1단계</strong> @Damage[1d6[poison]] (1 라운드)</p>\n<p><strong>2단계</strong> @Damage[1d6[poison],1d6[영혼]], 그리고 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화 1}(1라운드) </p>\n<p><strong>3단계</strong> @Damage[2d6[poison],2d6[영혼]], @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1}, 그리고 약화 1 (1 라운드)</p>"
+          "description": "<p><strong>내성 굴림 </strong> @Check[fortitude|dc:36]</p>\n<p><strong>최대 지속 시간</strong> 6 라운드</p>\n<p><strong>1단계</strong> @Damage[1d6[poison]](1 라운드)</p>\n<p><strong>2단계</strong> @Damage[1d6[poison],1d6[영혼]], 그리고 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화 1}(1라운드) </p>\n<p><strong>3단계</strong> @Damage[2d6[poison],2d6[영혼]], @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1}, 그리고 약화 1 (1 라운드)</p>"
         }
       }
     },
     "Archway Barrier": {
       "name": "아치형 장벽",
       "desc (hazard)": "<p>조각된 나무 아치문을 가득 채운 반짝이는 힘의 장 너머로 계단이 위로 이어져 있다.</p>",
-      "disable": "<p>@Check[performance|dc:30] (전문가) 네 개의 아리아 선율을 연주하기 위해 (성공 4회 필요), @Check[thievery|dc:41] (마스터) 네 개의 조각상 중 하나를 훼손하기(성공 4회 필요), 등급 무관 소멸 마법, 또는 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(7th, 반격 DC 31) 장벽 반격</p>",
+      "disable": "<p>@Check[performance|dc:30](전문가) 네 개의 아리아 선율을 연주하기 위해 (성공 4회 필요), @Check[thievery|dc:41](마스터) 네 개의 조각상 중 하나를 훼손하기(성공 4회 필요), 등급 무관 소멸 마법, 또는 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(7th, 반격 DC 31) 장벽 반격</p>",
       "reset": "<p> 조화 장벽은 발동된 직후 즉시 재설정된다.</p>",
       "items": {
         "qgN035eQ7j0xF9qd": {
@@ -580,7 +580,7 @@
         },
         "MYOFzFbpGCWFCD85": {
           "name": "조르기",
-          "description": "<p>@Damage[(2d10+13)[piercing]], @Check[fortitude|dc:33|basic] (@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{입으로만 붙잡기})</p><hr /> <p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p>"
+          "description": "<p>@Damage[(2d10+13)[piercing]], @Check[fortitude|dc:33|basic](@UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{입으로만 붙잡기})</p><hr /> <p>@Localize[PF2E.NPC.Abilities.Glossary.Constrict]</p>"
         },
         "igxHjmUJWlr6ULG7": {
           "name": "머리 회전",
@@ -664,7 +664,7 @@
         },
         "oMj0SiABPgORm6t3": {
           "name": "염수 호흡",
-          "description": "<p>이지카리알이 산성 염수를 분사하여 @Damage[17d6[acid]|options:area-damage] 피해를 @Template[type:line|distance:120] (@Check[reflex|dc:37|basic|options:area-effect] 내성) 범위 내에 입힙니다. [[/gmr 1d4 #소금물 숨결 재충전]]{1d4 라운드} 동안 다시 사용할 수 없습니다.</p>"
+          "description": "<p>이지카리알이 산성 염수를 분사하여 @Damage[17d6[acid]|options:area-damage] 피해를 @Template[type:line|distance:120](@Check[reflex|dc:37|basic|options:area-effect] 내성) 범위 내에 입힙니다. [[/gmr 1d4 #소금물 숨결 재충전]]{1d4 라운드} 동안 다시 사용할 수 없습니다.</p>"
         },
         "qV74gNViCaiEVUy2": {
           "name": "전복",
@@ -928,7 +928,7 @@
     "Spectral Opera": {
       "name": "유령 오페라",
       "desc (hazard)": "<p>벽에서 오페라 의상을 입은 유령 가수들이 나타나 슬프고도 소름 끼치는 합창을 울부짖는다.</p>",
-      "disable": "<p>@Check[performance|dc:46] (마스터) 다른 선율로 노래를 방해하거나, @Check[religion|dc:43] (전문가) 영혼을 진정시키기</p>",
+      "disable": "<p>@Check[performance|dc:46](마스터) 다른 선율로 노래를 방해하거나, @Check[religion|dc:43](전문가) 영혼을 진정시키기</p>",
       "stealth": "<p>(마스터)</p>",
       "items": {
         "lPwuDuKC7fV15S0u": {
@@ -1056,7 +1056,7 @@
     "Diva's Door": {
       "name": "디바의 문",
       "desc (hazard)": "<p>문에서 솟구치는 테너의 고음 아리아가 울려 퍼지며 음파를 방사한다.</p>",
-      "disable": "<p>@Check[performance|dc:38] (전설급) 아리아의 음파를 다른 음파로 상쇄하거나, @Check[thievery|dc:43] (마스터급) 아케인 에너지를 분해하거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(9th, 반격 DC 36)로 함정을 무력화</p>",
+      "disable": "<p>@Check[performance|dc:38](전설급) 아리아의 음파를 다른 음파로 상쇄하거나, @Check[thievery|dc:43](마스터급) 아케인 에너지를 분해하거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(9th, 반격 DC 36)로 함정을 무력화</p>",
       "stealth": "<p>(마스터)</p>",
       "items": {
         "4OBnnCUUtb7RWdTJ": {
@@ -1122,7 +1122,7 @@
     "Cruel Welcome": {
       "name": "잔혹한 환영",
       "desc (hazard)": "<p>두꺼운 밧줄로 기둥에 묶인 사랑하는 사람이, 플레이어 캐릭터 중 한 명이 20피트(약 6m) 이내로 다가오자마자 갑자기 생기를 되찾으며 고통에 찬 비명을 지르기 시작한다.</p>",
-      "disable": "<p>@Check[thievery|dc:31] (전문가) 마법을 포커스시키는 기둥에 새겨진 작은 룬을 제거하거나, @Check[occultism|dc:28] (숙련자) 함정에 엮인 오컬트 환상을 인식하고 근본적인 마법을 무력화 </p>",
+      "disable": "<p>@Check[thievery|dc:31](전문가) 마법을 포커스시키는 기둥에 새겨진 작은 룬을 제거하거나, @Check[occultism|dc:28](숙련자) 함정에 엮인 오컬트 환상을 인식하고 근본적인 마법을 무력화 </p>",
       "reset": "<p>잔혹한 환영 함정은 자정에 재설정됩니다.</p>",
       "routine": "<p>(1 행동; 환상, 정신, 오컬트, 시각) 잔혹한 환영의 머리가 들리며, 20피트 내 가장 가까운 플레이어 캐릭터를 응시한다; 범위 내에 플레이어 캐릭터가 없으면 함정은 아무런 행동도 취하지 않고, 그 턴이 끝나며 자정까지 비활성화된다. 대상은 @Check[will|dc:26|traits:illusion,mental,occult,visual] 내성을 시도하다.</p><hr><p><strong>대성공</strong> PC는 영향을 받지 않는다. 다음 24시간 동안 해당 플레이어 캐릭터는 잔혹한 환영 함정에 대한 모든 내성 굴림에 +4 상황 보너스를 얻습니다.</p><p><strong>성공 시</strong> PC는 말뚝에 꽂힌 고통받는 인물의 얼굴이 사랑하는 사람의 것임을 알아보고, 그 광경의 고통으로 인해 @Damage[4d10[mental]]의 피해를 입습니다. 이후 24시간 동안 PC는 잔혹한 환영 함정에 대한 모든 내성 굴림에서 +4 상황 보너스를 얻습니다.</p> <p><strong>실패</strong> 대성공 시와 동일하나 @Damage[(4d10+22)[mental]]의 피해를 입는다.</p><p><strong>대실패</strong> 실패 시와 동일하나 @Damage[(8d10+44)[mental]]의 피해를 입으며, PC는 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 상태 1}이 24시간 동안 지속됩니다.</p>",
       "stealth": "<p>(훈련된)</p>",
@@ -1187,7 +1187,7 @@
         },
         "eezf25m1slduyc4d": {
           "name": "카룸젝 맹독",
-          "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:36]</p>\n<p><strong> 최대 지속 시간</strong> 6 라운드</p>\n<p><strong>1단계</strong> @Damage[1d6[poison]] (1 라운드) </p>\n<p><strong>2단계</strong> @Damage[1d6[poison],1d6[영혼]], 그리고 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화 1}(1 라운드)</p>\n<p><strong>3단계</strong> @Damage[2d6[poison],2d6[영혼]], @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1}, 그리고 약화 1 (1 라운드)</p>"
+          "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:36]</p>\n<p><strong> 최대 지속 시간</strong> 6 라운드</p>\n<p><strong>1단계</strong> @Damage[1d6[poison]](1 라운드) </p>\n<p><strong>2단계</strong> @Damage[1d6[poison],1d6[영혼]], 그리고 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화 1}(1 라운드)</p>\n<p><strong>3단계</strong> @Damage[2d6[poison],2d6[영혼]], @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1}, 그리고 약화 1 (1 라운드)</p>"
         }
       }
     },
@@ -1611,7 +1611,7 @@
     "Thunderclap Rune": {
       "name": "천둥소리 룬",
       "desc (hazard)": "<p> 문 걸쇠에 새겨진 @UUID[Compendium.pf2e.conditionitems.Item.zJxUflt9np0q4yML]{투명} 룬은 강력한 음파 방출을 일으켜 근처 침입자를 자동으로 감지하여 <strong>D6</strong> 구역의 경비원들에게 경보를 발령한다.</p>",
-      "disable": "<p>@Check[thievery|dc:38] (마스터)로 룬을 긁어내어 발동하지 못하게 하거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(7th 레벨; 반격 DC 31)로 룬의 효과를 무효화할 수 있다 </p>",
+      "disable": "<p>@Check[thievery|dc:38](마스터)로 룬을 긁어내어 발동하지 못하게 하거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(7th 레벨; 반격 DC 31)로 룬의 효과를 무효화할 수 있다 </p>",
       "stealth": "<p>(마스터)</p>",
       "items": {
         "rr4J2IBvKUlTHkra": {
@@ -1906,7 +1906,7 @@
     "Clockwork Looms": {
       "name": "시계태엽 직기",
       "desc (hazard)": "<p>직기들이 움직이기 시작하며, 그 사이로 거미줄 실타래를 뿜어내 근처 생물들을 옭아매 기계 속으로 끌어당기려 시도한다.</p>",
-      "disable": "<p>@Check[thievery|dc:46] (마스터) 어느 한쪽 우회 잠금장치를 찾아 작동시키면 여덟 대의 직기를 동시에 정지시킬 수 있다(펜턴의 열쇠를 사용하면 이 체크는 자동으로 성공한다), @Check[thievery|dc:37] (마스터) 중요한 부품을 능숙하게 제거하여 단일 직기를 정지시키려면 두 번의 시도가 필요하다, 또는 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(7th) 반격 DC 33) 단일 직기를 반격</p>",
+      "disable": "<p>@Check[thievery|dc:46](마스터) 어느 한쪽 우회 잠금장치를 찾아 작동시키면 여덟 대의 직기를 동시에 정지시킬 수 있다(펜턴의 열쇠를 사용하면 이 체크는 자동으로 성공한다), @Check[thievery|dc:37](마스터) 중요한 부품을 능숙하게 제거하여 단일 직기를 정지시키려면 두 번의 시도가 필요하다, 또는 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(7th) 반격 DC 33) 단일 직기를 반격</p>",
       "reset": "<p>소형 이상 생물이 영역 <strong>C6</strong>에 없을 경우 직조기가 비활성화되며, 무력화되거나 모든 직조기가 파괴되지 않는 한 1분 후 재설정됩니다.</p>",
       "routine": "<p>(1 행동) 각 직기는 자신의 턴에 두 가지 가능한 행동 중 하나를 취합니다. 이는 현재 생물을 구속 중인지 여부에 따라 달라집니다. </p><p><strong>생물을 구속하지 않은 경우:</strong> 직조기가 생물을 구속하지 않으면, 현재 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{구속됨}. 해당 생물은 @Check[reflex|dc:37] 내성 굴림을 시도해야 합니다. 직조기가 얽히려고 시도할 수 있는 구속되지 않은 대상이 없다면, 이번 턴에 아무 행동도 취하지 않습니다.</p><hr><p> <strong>대성공</strong> 생물은 영향을 받지 않습니다.</p><p><strong>성공 </strong> 생물이 얽혀 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1} 상태가 되며, 직기의 다음 턴이 끝날 때까지 지속됩니다.</p><p><strong>실패</strong> 생물은 실에 얽혀 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 2} 상태가 되며, 직기의 다음 턴이 끝날 때까지 지속된다-혹은 이미 서투른 상태라면 구속 상태가 된다(대실패 참조).</p><p><strong>대실패 </strong> 생물이 구속 상태가 된다. 구속된 생물은 실타래를 @UUID[Compendium.pf2e.actionspf2e.Item.SjmKHgI7a5Z9JzBx]{강제로 풀기}하거나 DC 37 체크 성공 시 @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{탈출}할 수 있다.</p><p><strong>생물 구속: </strong> 직조기가 생물을 구속한 경우, 구속된 생물에게 추가 실줄을 발사한 후 해당 생물을 (중형 이하일 경우) 20피트(약 6m) 자신 쪽으로 끌어당긴다. (대형 이상 생물을 구속할 경우, 5피트(약 1.5m)만 끌어당길 수 있다). 이 끌림으로 인해 생물이 직조기와 인접하게 되면, 직조기는 생물을 갈아대는 기어 안으로 끌어당겨 @Damage[5d12[bludgeoning],5d12[베기] 피해를 입힌다(@Check[reflex|dc:37|basic] 내성). 이후 생물은 인접한 칸에 배치되며 여전히 해당 직조기에 구속된다. </p>",
       "stealth": "<p>(마스터)</p>",
@@ -2109,7 +2109,7 @@
     "Gorum's Epitaph": {
       "name": "고룸의 비문",
       "desc (hazard)": "<p> 땅의 한 부분이 솟아올라 마치 검이 박힌 산처럼 보이며, 그 검이 주변의 누군가를 찌르려고 휘둘러진다. 지식 회상 @Check[religion|dc:15] 검사 성공 시 이 위험이 고룸의 종교적 상징과 매우 유사하다는 것을 알아차릴 수 있다; 종교에 전문가 이상의 숙련도를 가진 캐릭터는 자동으로 이를 인지한다. </p>",
-      "disable": "<p>@Check[thievery|dc:40] (마스터) 검날을 작동시키지 않고 바닥에 새겨진 희미한 룬 문양을 지우거나, @Check[religion|dc:43] (마스터) 고룸에게 추모 기도를 올려 함정의 폭력적인 에너지를 빼앗는다</p>",
+      "disable": "<p>@Check[thievery|dc:40](마스터) 검날을 작동시키지 않고 바닥에 새겨진 희미한 룬 문양을 지우거나, @Check[religion|dc:43](마스터) 고룸에게 추모 기도를 올려 함정의 폭력적인 에너지를 빼앗는다</p>",
       "routine": "<p>(3 행동) 고룸의 비문이 생물과 인접해 있을 경우, 그 생물을 대상으로 대검 공격을 가한다(인접한 생물이 둘 이상일 경우 무작위로 표적을 결정). 그렇지 않으면, 가시거리 내 가장 가까운 목표물을 향해 이동한 후, 남은 행동으로 그 목표물을 공격한다. 그레이 마스터는 고룸의 비문과 함께 측면 공격을 할 수 있다.</p>",
       "stealth": "<p>(마스터)</p>",
       "items": {
@@ -2334,7 +2334,7 @@
     "Harmonic Barrier": {
       "name": "하모닉 배리어",
       "desc (hazard)": "<p>집으로 들어갈 수 있는 모든 창문이나 문은 소닉 에너지 장벽으로 막혀 있어 통과를 막으며, 희미하게 반짝이는 에너지 장으로 보인다.</p>",
-      "disable": "<p>@Check[thievery|dc:38] (전문가) 단일 창문 또는 외부 문에서 장벽을 제거하려면, @Check[occultism|dc:38] (마스터) 전체 장벽을 교란할 수 있도록 고조파를 조작하는 것 (무력화하려면 4회 성공 필요), 또는 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(7th 등급, 반격 DC 31)로 단일 창문이나 외부 문에서 장벽을 반격</p>",
+      "disable": "<p>@Check[thievery|dc:38](전문가) 단일 창문 또는 외부 문에서 장벽을 제거하려면, @Check[occultism|dc:38](마스터) 전체 장벽을 교란할 수 있도록 고조파를 조작하는 것 (무력화하려면 4회 성공 필요), 또는 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(7th 등급, 반격 DC 31)로 단일 창문이나 외부 문에서 장벽을 반격</p>",
       "reset": "<p>조화 장벽은 작동 직후 즉시 재설정된다.</p>",
       "stealth": "<p>(마스터)</p>",
       "items": {

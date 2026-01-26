@@ -38,7 +38,7 @@
     "Dream Pollen Pod": {
       "name": "드림 폴렌 포드(Dream Pollen Pod)",
       "desc (hazard)": "<p>마차 안의 네 가지 마법 식물은 방해받으면 환각성 꽃가루를 방출합니다. </p>",
-      "disable": "<p>@Check[thievery|dc:18|name:Remove Pollen Pod] (훈련된) 꽃가루 꼬투리를 조심스럽게 제거하거나 @Check[nature|dc:18|name:Prevent Pod Burst] (훈련된) 꼬투리가 터지는 것을 막을 수 있습니다.</p>",
+      "disable": "<p>@Check[thievery|dc:18|name:Remove Pollen Pod](훈련된) 꽃가루 꼬투리를 조심스럽게 제거하거나 @Check[nature|dc:18|name:Prevent Pod Burst](훈련된) 꼬투리가 터지는 것을 막을 수 있습니다.</p>",
       "reset": "<p>포자가 추가 꽃가루를 재생하는 1시간 후 함정은 재설정됩니다. 모든 포자가 제거되거나 무력화되면 함정은 재설정되지 않습니다.</p>",
       "routine": "<p>(4회 행동) 제거되거나 무력화된 꽃가루 꼬투리마다 매 턴마다 1회 행동을 잃습니다. 이 함정은 다중 공격 페널티를 받지 않습니다.</p>",
       "stealth": "<p>(훈련됨)</p>",
@@ -150,7 +150,7 @@
     "Mukradi Summoning Runes": {
       "name": "무크라디 소환 룬(Mukradi Summoning Runes)",
       "desc (hazard)": "<p>바닥 돌에 간신히 보이는 룬이 지름 20피트 원형으로 새겨져 있다.</p>",
-      "disable": "<p>@Check[acrobatics|dc:36|name:Approach Rune] 함정을 작동시키지 않고 접근하기, 이어서 @Check[occultism|dc:34|name:Erase the Rune] (전문가) 또는 @Check[thievery|dc:38|name:Erase the Rune|traits:action:disable-a-device] (마스터) 룬을 지우기, 혹은 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(8th; 반격 DC 34)로 룬의 효과를 무효화할 수 있다.</p>",
+      "disable": "<p>@Check[acrobatics|dc:36|name:Approach Rune] 함정을 작동시키지 않고 접근하기, 이어서 @Check[occultism|dc:34|name:Erase the Rune](전문가) 또는 @Check[thievery|dc:38|name:Erase the Rune|traits:action:disable-a-device](마스터) 룬을 지우기, 혹은 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(8th; 반격 DC 34)로 룬의 효과를 무효화할 수 있다.</p>",
       "reset": "<p>이 함정은 매일 첫 만조 때 재설정됩니다.</p>",
       "stealth": "<p>(마스터)는 바닥에 표시된 룬을 알아챌 수 있다.</p>",
       "items": {
@@ -163,7 +163,7 @@
     "Axiomatic Polymorph Trap": {
       "name": "공리적 변형 함정(Axiomatic Polymorph Trap)",
       "desc (hazard)": "<p>유토피아 문양이 침입자를 영원체로 변형시킨다.</p>",
-      "disable": "<p>@Check[thievery|dc:48|name:Drain the Glyph's Power|traits:magical,trap] (마스터)로 문양의 힘을 무해하게 흡수하거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(9th 등급; 반격 DC 42)로 문양을 무효화할 수 있다 </p>",
+      "disable": "<p>@Check[thievery|dc:48|name:Drain the Glyph's Power|traits:magical,trap](마스터)로 문양의 힘을 무해하게 흡수하거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(9th 등급; 반격 DC 42)로 문양을 무효화할 수 있다 </p>",
       "reset": "<p>1시간</p>",
       "stealth": "<p>(마스터)</p>",
       "items": {
@@ -176,7 +176,7 @@
     "Krooth Summoning Rune": {
       "name": "크루스 소환 룬(Krooth Summoning Rune)",
       "desc (hazard)": "<p>안개는 B10 구역 문 앞에 크루스를 소환하는 룬을 감춘다.</p>",
-      "disable": "<p>@Check[acrobatics|dc:24|name:Approach without triggering the trap|traits:hazard,complex,magical,trap] 함정을 작동시키지 않고 접근한 후 @Check[thievery|dc:26|name:Erase the rune|traits:hazard,complex,magical,trap] (전문가)로 룬을 지우거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(4th) DC 24로 룬의 효과를 반격할 수 있다.</p>",
+      "disable": "<p>@Check[acrobatics|dc:24|name:Approach without triggering the trap|traits:hazard,complex,magical,trap] 함정을 작동시키지 않고 접근한 후 @Check[thievery|dc:26|name:Erase the rune|traits:hazard,complex,magical,trap](전문가)로 룬을 지우거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(4th) DC 24로 룬의 효과를 반격할 수 있다.</p>",
       "reset": "<p>함정은 24시간 후 재설정됩니다.</p>",
       "stealth": "<p> (전문가)</p>",
       "items": {
@@ -232,7 +232,7 @@
     "Convergence Lattice": {
       "name": "수렴 격자(Convergence Lattice)",
       "desc (hazard)": "<p>밝은 금속과 정교하게 조각된 보석들로 이루어진 복잡한 시계 장치인 이 격자의 맞물린 기어들이 회전하기 시작하며, 표면 전체에 황금색 룬 문양이 빛을 발한다.</p>",
-      "disable": "<p>@Check[thievery|dc:40|name:Obliterate a Key Rune|traits:magical,trap] (마스터) 또는 @Check[religion|dc:35|name:Obliterate a Key Rune|traits:magical,trap] (마스터)를 네 번 사용해 네 개의 핵심 룬을 각각 소멸시킨다.</p>\n<p>@Check[thievery|dc:45|name:Stop the Clockwork's Movement|traits:magical,trap] (전설) 체크(또는 격자 파괴)는 시계장치의 움직임을 멈추고 재설정을 방지하지만, 현재 활성화 상태는 중단시키지 않는다.</p>",
+      "disable": "<p>@Check[thievery|dc:40|name:Obliterate a Key Rune|traits:magical,trap](마스터) 또는 @Check[religion|dc:35|name:Obliterate a Key Rune|traits:magical,trap](마스터)를 네 번 사용해 네 개의 핵심 룬을 각각 소멸시킨다.</p>\n<p>@Check[thievery|dc:45|name:Stop the Clockwork's Movement|traits:magical,trap](전설) 체크(또는 격자 파괴)는 시계장치의 움직임을 멈추고 재설정을 방지하지만, 현재 활성화 상태는 중단시키지 않는다.</p>",
       "reset": "<p><em>수렴 격자</em>는 시야 내에 통제되지 않은 대상이 1분 동안 존재하지 않으면 비활성화되고 재설정됩니다.</p>",
       "routine": "<p>(3 행동) <em>수렴 격자 </em>는 첫 번째 행동으로 지원을 요청한다. 격자에서 100피트 이내의 모든 수렴 생물은 반응으로 격자를 향해 이동한다. 이렇게 소환된 생물들은 매 턴 자신의 턴에 격자와 인접할 때까지 계속 이동하며, 인접하면 목숨을 걸고 격자를 방어한다. </p>\n<p>격자는 두 번째 행동으로 100피트 내의 비수렴 생물에게 @Damage[16d6[mental]] 피해(@Check[will|dc:42|basic] 내성)를 입힌다. 이 피해는 비살상이다. 이 피해로 기절한 생물은 죽어가는 상태를 얻지 않으며, 깨어날 때 자동으로 @UUID[Compendium.pf2e.conditionitems.Item.9qGBRpbX9NEwtAAr]{제어됨} 상태가 된다.</p>\n<p>격자는 세 번째 행동으로 100피트 내의 두 번째 비수렴 생물에게 동일한 공격을 가한다; 두 번째 생물이 존재하지 않으면 세 번째 행동을 취하지 않는다.</p>",
       "stealth": "<p>(마스터) 격자가 움직이기 전에 복잡한 시계 장치임을 깨닫기; 격자 자체를 알아차리는 것은 DC 0이다.</p>",
@@ -267,7 +267,7 @@
         },
         "PP6cWEeflOzf6dln": {
           "name": "카운트플로라 독소(Counteflora Toxin)",
-          "description": "<p><strong>내성 굴림 </strong> @Check[fortitude|dc:30|traits:inhaled,poison] (식물 및 균류 대상 시 @Check[fortitude|dc:32|name:Counteflora Toxin (Plant or Fungi)|traits:contact,poison])</p>\n<p><strong>최대 지속 시간</strong> 6 라운드 </p>\n<p><strong>1단계</strong> @Damage[4d6[poison]] 피해 및 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화 1}(1 라운드)</p>\n<p><strong>2단계</strong> @Damage[6d6[poison]] 피해, 약화 1, 그리고 @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{매혹된}(1라운드)</p>"
+          "description": "<p><strong>내성 굴림 </strong> @Check[fortitude|dc:30|traits:inhaled,poison](식물 및 균류 대상 시 @Check[fortitude|dc:32|name:Counteflora Toxin (Plant or Fungi)|traits:contact,poison])</p>\n<p><strong>최대 지속 시간</strong> 6 라운드 </p>\n<p><strong>1단계</strong> @Damage[4d6[poison]] 피해 및 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화 1}(1 라운드)</p>\n<p><strong>2단계</strong> @Damage[6d6[poison]] 피해, 약화 1, 그리고 @UUID[Compendium.pf2e.conditionitems.Item.AdPVz7rbaVSRxHFg]{매혹된}(1라운드)</p>"
         },
         "2tVmuiOOVxmIhIT4": {
           "name": "격노의 휘두름(Furious Swing)",
@@ -412,7 +412,7 @@
     "Hallowed Wheel": {
       "name": "신성한 바퀴(Hallowed Wheel)",
       "desc (hazard)": "<p>각각 룬 문양이 그려진 여덟 개의 세그먼트로 나뉜 화려한 바퀴가 기둥에 장착되어 있으며, 수동으로 작동하거나 정면 30피트 내의 생물을 감지하는 센서로 제어되는 레버로 조작된다.</p>",
-      "disable": "<p>@Check[thievery|dc:31|name:Flip the switch|traits:hazard,complex,magical,mechanical,trap] (마스터) 휠의 스위치를 조작해 무해한 카니발 게임으로 되돌리기, @Check[thievery|dc:26|name:Erase each rune|traits:hazard,complex,magical,mechanical,trap] (전문가) 각 룬을 지우기, 또는 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(5th; 반격 DC 28)로 각 룬을 반격할 수 있다.</p>",
+      "disable": "<p>@Check[thievery|dc:31|name:Flip the switch|traits:hazard,complex,magical,mechanical,trap](마스터) 휠의 스위치를 조작해 무해한 카니발 게임으로 되돌리기, @Check[thievery|dc:26|name:Erase each rune|traits:hazard,complex,magical,mechanical,trap](전문가) 각 룬을 지우기, 또는 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(5th; 반격 DC 28)로 각 룬을 반격할 수 있다.</p>",
       "reset": "<p>센서 범위 내에서 1분 동안 어떤 생물도 움직이지 않으면 함정은 비활성화되고 초기화된다. </p>",
       "routine": "<p>(2 행동) 이니셔티브에 따라 함정은 첫 번째 행동으로 회전한 후 정지한다. 휠이 회전을 멈출 때 최상단 세그먼트를 결정하기 위해 [[/r 1d8]]{1d8}을 굴린다. 두 번째 행동으로 해당 세그먼트에 기재된 주문을 재현한다(5레벨, DC 27, 주문 공격 굴림 +17). 이 주문의 대상은 주문 영역 내 가장 가까운 생물을 중심으로 하거나 포함한다. 필요한 경우 주문의 사거리가 30피트로 증가한다. 이 함정이 시전하는 모든 주문은 오컬트 계열이다. </p>\n<p>1 - @UUID[Compendium.pf2e.spells-srd.Item.2w4OpAGihn1JSHFD]{검은 촉수} @Template[burst|distance:20|name:Black Tentacles|traits:hazard,complex,magical,mechanical,trap,conjuration,occult]{20피트 폭발} [[/r 1d20+17]]{대상 대상의 인내 저항 DC에 대한 주문 공격}</p>\n<p>2 - @UUID[Compendium.pf2e.spells-srd.Item.VosLNn2M8S7JH67D]{실명} @Check[fortitude|dc:27|name:Blindness|traits:hazard,complex,magical,mechanical,trap,incapacitation,necromancy,occult]</p>\n<p>3 - @UUID[Compendium.pf2e.spells-srd.Item.LiGbewa9pO0yjbsY]{혼란} @Check[will|dc:27|name:Confusion|traits:hazard,complex,magical,mechanical,trap,emotion,enchantment,mental,occult] </p>\n<p>4 - @UUID[Compendium.pf2e.spells-srd.Item.YvXKGlHOt7mdW2jZ]{죽음의 수호부} 범위 30피트 </p>\n<p>5 - @UUID[Compendium.pf2e.spells-srd.Item.KSAEhNfZyXMO7Z7V]{추방자의 저주} @Check[will|dc:27|name:Outcast's Curse|traits:hazard,complex,magical,mechanical,trap,curse,enchantment,mental,misfortune,occult] 사거리 30피트</p>\n<p>6 - @UUID[Compendium.pf2e.spells-srd.Item.IqJ9URobmJ9L9UBG]{그림자 폭발} @Template[line|distance:30|traits:hazard,complex,magical,mechanical,trap,evocation,occult,shadow|width:5]{30피트 직선} @Check[reflex|dc:27|basic|name:Shadow Blast|traits:hazard,complex,magical,mechanical,trap,evocation,occult,shadow] 또는 @Check[will|dc:27|basic|name:Shadow Blast|traits:hazard,complex,magical,mechanical,trap,evocation,occult,shadow] @Damage[5d8[force]] 피해 </p>\n<p>7 - @UUID[Compendium.pf2e.spells-srd.Item.wzLkNU3AAqOSKFPR]{소음 폭발} @Template[burst|distance:10|traits:hazard,complex,magical,mechanical,trap,evocation,occult,sonic]{10피트 폭발} @Check[fortitude|dc:27|name:Sound Burst|traits:hazard,complex,magical,mechanical,trap,evocation,occult,sonic] @Damage[2d10[sonic]] 피해</p>\n<p>8 - @UUID[Compendium.pf2e.spells-srd.Item.5KobTMrZeZxuXMgl]{도마뱀 발톱} 사정거리 30피트</p>",
       "stealth": "<p>(전문가) 마법 센서 감지; 바퀴를 알아차리는 DC는 0 </p>",
@@ -427,7 +427,7 @@
       "name": "부식성 다트 함정(Caustic Dart Trap)",
       "hpdetails": "발사 장치당",
       "desc (hazard)": "<p> 진흙벽에 내장된 세 개의 발사 장치가 산성 화학 물질이 든 다트를 발사한다. 함정을 해제하려면 세 발사 장치를 모두 무력화하거나 파괴해야 한다.</p>",
-      "disable": "<p>@Check[thievery|dc:32|name:Jam the tube|traits:trap,mechanical,complex] (마스터) 방 내 단일 5피트 칸 영역의 생물을 공격할 수 없도록 관을 충분히 막거나, @Check[crafting|dc:34|name:Alter a launching mechanism|traits:trap,mechanical,complex] (마스터) 세 발사 장치 중 하나를 변경해야 한다. </p>",
+      "disable": "<p>@Check[thievery|dc:32|name:Jam the tube|traits:trap,mechanical,complex](마스터) 방 내 단일 5피트 칸 영역의 생물을 공격할 수 없도록 관을 충분히 막거나, @Check[crafting|dc:34|name:Alter a launching mechanism|traits:trap,mechanical,complex](마스터) 세 발사 장치 중 하나를 변경해야 한다. </p>",
       "reset": "<p>해당 구역에 생물이 존재하지 않은 지 1분 후 함정은 비활성화되고 재설정됩니다. <strong>C7</strong> </p>",
       "routine": "<p>(3회 행동) 함정은 각 행동마다 부식성 다트 공격 사용합니다. 발사 장치가 하나씩 파손되거나 파괴될 때마다 함정은 행동 1회를 잃습니다.</p>",
       "stealth": "<p>(전문가) 또는 @Check[perception|dc:30|traits:action:seek](전문가)로 벽에 내장된 세 개의 발사 장치를 알아차림</p>",
@@ -716,7 +716,7 @@
     "Ghost Crystal Cloud": {
       "name": "유령 결정 구름(Ghost Crystal Cloud)",
       "desc (hazard)": "<p>줄가스 시체가 갈라져 미세한 엑토플라즘 결정 구름을 방출한다. 이 구름을 흡입하면 생물이 방향 감각을 잃고 기력을 상실한다.</p>",
-      "disable": "<p>@Check[arcana|dc:26|name:Render the cloud inert|traits:hazard,environmental] 또는 @Check[occultism|dc:26|name:Render the cloud inert|traits:hazard,environmental] (전문가)의 마법으로 수정 구름을 무력화시킬 수 있다</p>",
+      "disable": "<p>@Check[arcana|dc:26|name:Render the cloud inert|traits:hazard,environmental] 또는 @Check[occultism|dc:26|name:Render the cloud inert|traits:hazard,environmental](전문가)의 마법으로 수정 구름을 무력화시킬 수 있다</p>",
       "reset": "<p>1주일 후, 위험한 구름을 다시 형성할 만큼 충분한 수의 결정체가 재생성된다.</p>",
       "stealth": "<p> (훈련된)</p>",
       "items": {
@@ -1059,7 +1059,7 @@
     "Host of Spirits": {
       "name": "영혼의 무리(Host of Spirits)",
       "desc (hazard)": "<p>폐허가 된 집에 깃든 분노한 영혼들의 무리가 살아있는 생물을 끌어당겨 짓누르며 죽이려고 시도한다. </p>",
-      "disable": "<p>@Check[religion|dc:43|name:Exorcise Spirits] (마스터)로 영혼을 쫓아내거나 @Check[deception|dc:45|name:Trick the Spirits] (마스터)로 영혼을 속여 떠나게 할 수 있다</p>",
+      "disable": "<p>@Check[religion|dc:43|name:Exorcise Spirits](마스터)로 영혼을 쫓아내거나 @Check[deception|dc:45|name:Trick the Spirits](마스터)로 영혼을 속여 떠나게 할 수 있다</p>",
       "reset": "<p>집에서 50피트 이내에 생물이 없으면 1라운드 후 유령 현상이 종료된다. 유령 현상은 1일 후 재설정된다.</p>",
       "routine": "<p><span class=\"action-glyph\">3</span> 함정은 자신의 행동마다 집 폐허로부터 50피트 이내에 있는 다른 생물에게 유령의 손 공격을 시도한다(생물이 3마리 미만일 경우, 유령은 남은 행동을 사용하지 않는다).</p>",
       "stealth": "<p>+35 (전문가)</p>",
@@ -1148,7 +1148,7 @@
           "description": "<p>이 능력을 가진 생물은 희미한 유토피아 룬의 기운을 창조하여 서로 소통할 수 있다.</p>\n<p>이 능력은 @UUID[Compendium.pf2e.bestiary-ability-glossary-srd.Item.kdhbPaBMK1d1fpbA]{텔레파시}의 효과를 가지며, 범위는 300피트이지만 시야가 확보되어야 합니다.</p>"
         },
         "vwr9j20rI5uA7Vs7": {
-          "name": "기회의 공격(Attack of Opportunity)"
+          "name": "기회 공격(Attack of Opportunity)"
         },
         "46lzlqxwhzjHJYhD": {
           "name": "연결 방해(Disrupted Link)",
@@ -1324,7 +1324,7 @@
     "Buzzing Latch Rune": {
       "name": "윙윙거리는 자물쇠 룬(Buzzing Latch Rune)",
       "desc (hazard)": "<p>문에 새겨진 보이지 않는 룬이 매우 큰 윙윙거리는 소리를 내기 시작하며, 침입자를 마비시킬 수 있다. </p>",
-      "disable": "<p>@Check[thievery|dc:34|name:Disrupt the Rune|traits:action:disable-a-device] (마스터) 룬을 작동시키지 않고 방해하거나 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(6th; 반격 DC 31)로 룬</p>",
+      "disable": "<p>@Check[thievery|dc:34|name:Disrupt the Rune|traits:action:disable-a-device](마스터) 룬을 작동시키지 않고 방해하거나 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(6th; 반격 DC 31)로 룬</p>",
       "reset": "<p>함정은 1시간 후 재설정됩니다.</p>",
       "stealth": "<p>(마스터)</p>",
       "items": {
@@ -1719,9 +1719,9 @@
     "Stabbing Sentinel": {
       "name": "찌르는 감시자(Stabbing Sentinel)",
       "desc (hazard)": "<p>석화된 생물이 잠시 움직여 인접한 생물을 공격한다.</p>",
-      "disable": "<p>@Check[thievery|dc:40|name:Remove Animating Magic|traits:action:disable-a-device] (마스터) 함정을 발동시키지 않고 생명을 불어넣는 마법을 제거하거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(8th 등급; 반격 DC 38)로 생명을 불어넣는 마법을 무효화 </p>",
+      "disable": "<p>@Check[thievery|dc:40|name:Remove Animating Magic|traits:action:disable-a-device](마스터) 함정을 발동시키지 않고 생명을 불어넣는 마법을 제거하거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(8th 등급; 반격 DC 38)로 생명을 불어넣는 마법을 무효화 </p>",
       "reset": "<p>조각상을 움직이게 하는 마법 에너지는 24시간 동안 다시 축적되며 함정은 재설정된다.</p>",
-      "stealth": "<p>@Check[perception|dc:45|traits:action:seek] (마스터)</p>",
+      "stealth": "<p>@Check[perception|dc:45|traits:action:seek](마스터)</p>",
       "items": {
         "VZsSOXRGbGwz6dqc": {
           "name": "움직이는 공격(Animated Attack)",
@@ -1817,7 +1817,7 @@
     "Raving Spirit": {
       "name": "광란의 영혼(Raving Spirit)",
       "desc (hazard)": "<p>누군가 그의 방에 들어설 때마다, 커루의 안식 없는 영혼은 자신을 괴롭히는 자들에게 광란의 분노를 쏟아낸다. </p>",
-      "disable": "<p>@Check[intimidation|dc:30|name:Quiet the spirit|traits:hazard,haunt,complex] (전문가)로 1라운드 동안 영혼을 진정시키거나, @Check[religion|dc:32|name:Exorcise spirit|traits:hazard,haunt,complex] (마스터)로 퇴마할 수 있다</p>",
+      "disable": "<p>@Check[intimidation|dc:30|name:Quiet the spirit|traits:hazard,haunt,complex](전문가)로 1라운드 동안 영혼을 진정시키거나, @Check[religion|dc:32|name:Exorcise spirit|traits:hazard,haunt,complex](마스터)로 퇴마할 수 있다</p>",
       "reset": "<p>해당 지역에 생물이 존재하지 않은 지 1분 후 유령은 잠잠해지고 초기화된다 <strong>B3</strong>.</p>",
       "routine": "<p>(2 행동) 유령은 @UUID[Compendium.pf2e.spells-srd.Item.tlcrVRqW1MSKJ5IC]{환상의 살인자}(@Check[will|dc:30|name:Phantasmal Killer|traits:hazard,haunt,complex,death,emotion,fear,mental] 내성 굴림 및 @Check[fortitude|dc:30|name:Phantasmal Killer|traits:hazard,haunt,complex,death,emotion,fear,mental,incapacitation] 대실패 시 내성 굴림)를 발동한다. 대상은 커루의 침대를 볼 수 있는 무작위 생물이며 (영역 <strong>B3</strong> 밖에 있는 생물도 대상이 될 수 있음, 대상 생물이 침대를 볼 수 있는 한). <em>환상적 살인자</em>의 영향을 받은 모든 이는 동일한 환영을 보게 된다: 병약한 노인이 침대에 누워 자신의 죄책감, 수치심, 그리고 결국 찾아올 죽음에 대해 비명 지르며 횡설수설하는 모습이다.</p>",
       "stealth": "<p>(전문가) 또는 @Check[perception|dc:30|traits:action:seek](마스터)의 영적 연결 감지</p>",
@@ -1860,7 +1860,7 @@
       "name": "구탈라스 암석 붕괴(Guthallath Rockslide)",
       "hpdetails": "구탈라스의 침식 오라 내 경도 10",
       "desc (hazard)": "<p>주변 암벽이 무너지기 시작한다.</p>",
-      "disable": "<p>@Check[crafting|dc:48|name:Buttress the Rocks|traits:environmental] (전설) 무너지는 암석을 세 곳에서 지탱한다. 크고 튼튼한 재료(또는 해당 주문)를 사용해 바위를 지지하면 체크 난이도가 @Check[crafting|dc:45|name:Buttress the Rocks|traits:environmental] (마스터)로 낮아진다.</p>",
+      "disable": "<p>@Check[crafting|dc:48|name:Buttress the Rocks|traits:environmental](전설) 무너지는 암석을 세 곳에서 지탱한다. 크고 튼튼한 재료(또는 해당 주문)를 사용해 바위를 지지하면 체크 난이도가 @Check[crafting|dc:45|name:Buttress the Rocks|traits:environmental](마스터)로 낮아진다.</p>",
       "reset": "<p>구탈라스는 무너진 바위를 쌓는 며칠간의 작업으로 위험을 재설정할 수 있다. </p>",
       "routine": "<p>(2 행동) 위험의 첫 번째 행동 시, 이전 라운드에 무너져 내린 바위 지역이 완전히 붕괴되며, 해당 지역에 있는 모든 생물에게 낙석 공격을 가한다.</p>\n<p> 두 번째 행동에서 위험 요소는 이전 붕괴 지점 반경 20피트(약 6m) 내 바위를 부숴 냅니다. 캐릭터는 @UUID[Compendium.pf2e.actionspf2e.Item.BlAOM2X92SI6HMtJ]{탐색}(DC 40)을 시도해 다음 라운드에 바위가 떨어질 위치를 파악할 수 있으나, 대실패 시 바위 낙하 위치를 잘못 식별합니다. </p>",
       "stealth": "<p>(마스터) 주변 바위들보다 훨씬 오래되고 풍화된 듯한 돌들의 이상한 노화 상태를 알아차리도록</p>",
@@ -1882,7 +1882,7 @@
       "name": "위엄의 어둠의 거울(Imperious Darkside Mirror)",
       "hpdetails": "거울 복제체가 살아있는 동안 거울은 피해될 수 없다",
       "desc (hazard)": "<p>이 마법의 거울은 캐릭터를 다른 차원의 사악한 복제체로 대체한다.</p>",
-      "disable": "<p>@Check[thievery|dc:42|name:Retrieve a Creture from the Mirror|traits:action:disable-a-device] (전설) 거울을 바꾼 지 10분 이내에 거울에서 생물을 되찾을 수 있다 (반사된 복제체가 사망한 경우에만 가능), @Check[thievery|dc:47|name:Permanently Disable the Mirror|traits:action:disable-a-device] (마스터) 모든 반사 복제체가 사망한 후 거울을 영구적으로 무력화하거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(9th) (DC 40) 거울의 효과를 1분간 반격하고 그 시간 동안 추가 대체체가 나타나지 않도록 방지한다. </p>",
+      "disable": "<p>@Check[thievery|dc:42|name:Retrieve a Creture from the Mirror|traits:action:disable-a-device](전설) 거울을 바꾼 지 10분 이내에 거울에서 생물을 되찾을 수 있다 (반사된 복제체가 사망한 경우에만 가능), @Check[thievery|dc:47|name:Permanently Disable the Mirror|traits:action:disable-a-device](마스터) 모든 반사 복제체가 사망한 후 거울을 영구적으로 무력화하거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(9th) (DC 40) 거울의 효과를 1분간 반격하고 그 시간 동안 추가 대체체가 나타나지 않도록 방지한다. </p>",
       "reset": "<p>거울은 항상 생물을 다른 차원으로 흡수할 준비가 되어 있습니다. 생물이 거울에 빨려 들어간 지 10분이 지나도, 동맹이 도둑질 기술로 구출하지 않으면 해당 생물은 거울 차원에 도달하게 되며, 그곳에서 포획되거나 죽을 수 있다. 거울 차원에서는 흡수된 생물이 거울 복제본으로 간주되므로, 다른 차원의 주민들은 흡수된 생물이 존재하는 동안 자신들의 쪽에 있는 거울을 파괴할 수 없다. 이 차원들은 평면이 아닌 대체 현실이므로, 따라서 @UUID[Compendium.pf2e.spells-srd.Item.5bTt2CvYHPvaR7QQ]{차원간 순간이동} 같은 의식조차도 그곳에 닿을 수 없다.</p>",
       "routine": "<p>(1 행동) 거울은 반사된 다른 생물을 거울 안으로 흡수(@Check[reflex|dc:42])하고 거울 복제체로 대체한다. 거울 복제체는 자체 이니셔티브로 행동하며, 원본 생물과 동일한 능력치를 사용하지만 사악한 성향을 가진다(성향 변화에 따라 변하는 능력만 변경됨). </p>\n<p>거울 복제체는 위압에 있어 전설적이며 영구적으로 @UUID[Compendium.pf2e.conditionitems.Item.nlCjDvLMf2EkV2dl]{가속} 상태이지만, 이 추가 행동은 사기 저하에만 사용할 수 있습니다.</p>\n<p>거울 복제체는 거울과 접촉한 상태에서 3번의 행동을 소모하여 원래 차원으로 돌아가 복제한 생물을 풀어줄 수 있지만, 대부분의 거울 복제체는 그렇게 하지 않으려 합니다.</p>",
       "stealth": "<p>(전설급)이 아니면 이 거울이 평범한 거울이 아님을 알아차리기 어렵다</p>",
@@ -2274,7 +2274,7 @@
           "description": "<p>헬그는 몸집이 크지만, 여러 개의 관절 덕분에 마치 중간 크기의 생물인 양 좁은 공간을 통과할 수 있다. @UUID[Compendium.pf2e.actionspf2e.Item.kMcV8e5EZUxa6evt]{비집고 들어갈} 때, 그녀는 최대 속도로 이동할 수 있다.</p>"
         },
         "H8wjoy6dgcpleGxb": {
-          "name": "기회의 공격(Attack of Opportunity)"
+          "name": "기회 공격(Attack of Opportunity)"
         },
         "MSrCpe3iS4MlI9Or": {
           "name": "기력을 앗아가는 잡아당김(Enervating Tug)",
@@ -2456,7 +2456,7 @@
     "Spiked Barricade Trap": {
       "name": "가시 바리케이드 함정(Spiked Barricade Trap)",
       "desc (hazard)": "<p>날카롭게 갈린 돌로 만든 스프링식 쐐기가 나무 바리케이드에서 튀어나온다.</p>",
-      "disable": "<p>@Check[thievery|dc:33|name:Supress Spring Mechanism|traits:action:disable-a-device] (전문가)가 바리케이드의 5피트 구간 하나에 대한 스프링 장치를 무력화해야 함</p>",
+      "disable": "<p>@Check[thievery|dc:33|name:Supress Spring Mechanism|traits:action:disable-a-device](전문가)가 바리케이드의 5피트 구간 하나에 대한 스프링 장치를 무력화해야 함</p>",
       "reset": "<p>함정은 쐐기를 제자리로 밀어넣어 수동으로 재설정해야 한다.</p>",
       "stealth": "<p>(전문가)</p>",
       "items": {
@@ -2533,10 +2533,10 @@
       "name": "분노한 식물(Angry Vegetation)",
       "hpdetails": "꽃마다",
       "desc (hazard)": "<p>잡초로 뒤덮인 들판에 다섯 개의 커다란 꽃이 피어나며, 각각 꽃가루를 덩굴에 뿌리자 덩굴이 움직여 @UUID[Compendium.pf2e.pathfinder-bestiary.Actor.NTXm3ee7WZJ92Sww]{웜무스}로 변한다.</p>",
-      "disable": "<p>@Check[nature|dc:48|name:Calm a Flower|traits:environmental] (마스터) 또는 @Check[performance|dc:48|name:Calm a Flower|traits:environmental] (전설) 꽃을 진정시켜 꽃잎을 닫게 한다</p>",
+      "disable": "<p>@Check[nature|dc:48|name:Calm a Flower|traits:environmental](마스터) 또는 @Check[performance|dc:48|name:Calm a Flower|traits:environmental](전설) 꽃을 진정시켜 꽃잎을 닫게 한다</p>",
       "reset": "<p>웨무스는 평범한 덩굴로 돌아가고, 해당 지역을 1분간 방치하면 함정이 재설정된다.</p>",
       "routine": "<p><span class=\"action-glyph\">2</span> 열린 꽃보다 웨무스가 적을 경우, 꽃들은 첫 번째 행동으로 더 많은 웨무스를 생성한다(열린 꽃 수만큼 웨무스가 존재하도록).</p>\n<p>두 번째 행동으로 꽃들은 정신을 혼란시키는 꽃가루를 생성한다. 꽃으로부터 30피트 이내의 모든 비식물 생물은 @Check[fortitude|dc:41|name:Mindaddling Pollen|traits:emotion,mental,olfactory] 저항에 성공하지 못하면 1라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1} 상태가 된다(대실패 시 1라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.yblD8fOR1J8rDwEQ]{혼란} 상태). . 꽃가루는 감정, 정신, 후각 효과입니다.</p>",
-      "stealth": "<p>@Check[perception|dc:42|traits:action:seek] (마스터) 다른 잎사귀 아래에 있는 거대한 꽃봉오리가 피기 전에 알아차리기 </p>",
+      "stealth": "<p>@Check[perception|dc:42|traits:action:seek](마스터) 다른 잎사귀 아래에 있는 거대한 꽃봉오리가 피기 전에 알아차리기 </p>",
       "items": {
         "xrgMIiBqzQXebseK": {
           "name": "개화(Bloom)",
@@ -2563,7 +2563,7 @@
           "name": "중급 서리 핸드 크로스보우(Greater Frost Hand Crossbow)"
         },
         "2LY21nrCeQ74PTkR": {
-          "name": "기회의 공격(Attack of Opportunity)"
+          "name": "기회 공격(Attack of Opportunity)"
         },
         "tdl0fojnWCseyME0": {
           "name": "재생(Rejuvenation)",
@@ -2811,7 +2811,7 @@
     "Maze of Mirrors": {
       "name": "거울의 미로(Maze of Mirrors)",
       "desc (hazard)": "<p>미로 내의 보이지 않는 룬이 안에 있는 자들을 혼란에 빠뜨리고 거울 벽들이 움직이게 합니다. </p>",
-      "disable": "<p>@Check[thievery|dc:26|name:Stop the mirrors|traits:hazard,complex,magical,mechanical,trap] (전문가) 또는 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(5th 등급; 반격 DC 28)로 거울의 움직임을 멈출 수 있다; @Check[occultism|dc:28|name:Dispel the minotaur|traits:hazard,complex,magical,mechanical,trap] 또는 @Check[religion|dc:28|name:Dispel the minotaur|traits:hazard,complex,magical,mechanical,trap] (전문가)로 미노타우르스를 해제할 수 있다</p>",
+      "disable": "<p>@Check[thievery|dc:26|name:Stop the mirrors|traits:hazard,complex,magical,mechanical,trap](전문가) 또는 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(5th 등급; 반격 DC 28)로 거울의 움직임을 멈출 수 있다; @Check[occultism|dc:28|name:Dispel the minotaur|traits:hazard,complex,magical,mechanical,trap] 또는 @Check[religion|dc:28|name:Dispel the minotaur|traits:hazard,complex,magical,mechanical,trap](전문가)로 미노타우르스를 해제할 수 있다</p>",
       "reset": "<p>미로에 생물이 1분간 존재하지 않으면 함정이 비활성화되고 초기화됩니다.</p>",
       "routine": "<p>(3 행동) 함정은 첫 번째 행동으로 마법으로 거울을 뒤섞어 미로의 표시나 지도를 무효화한다. 미로 내 생물이 @Check[will|dc:26|traits:hazard,complex,magical,mechanical,trap] 내성에 실패하면 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 1} 상태가 되어 미로를 떠날 때까지 지속됩니다. 대상이 이 능력에 대한 추가 내성에 실패할 때마다 상태 수치가 1씩 증가합니다(최대 @UUID[Compendium.pf2e.conditionitems.Item.e1XGnhKNSQIm5IXg]{혼미 4}까지 증가).</p>\n<p>두 번째 행동으로, 함정의 유령 미노타우르는 미로 내 무작위 생물을 대상으로 유령의 뿔로 공격한다.</p>\n<p>세 번째 행동으로, 함정은 또 다른 유령의 뿔 공격을 무작위 생물에게 가한다. </p>",
       "stealth": "<p>(훈련된) 미로 내 마법 룬 감지; 미로 자체 발견 DC 0</p>",
@@ -2832,8 +2832,8 @@
     "Crushing Gate Trap": {
       "name": "문 으깨기 함정(Crushing Gate Trap)",
       "desc (hazard)": "<p>숨겨진 돌 막대가 두 개의 거대한 돌문을 문틀에서 앞으로 떨어지게 하여 그 아래에 있는 모든 것을 으깨버립니다. 문은 접촉 시에도 앞으로 떨어진다.</p>",
-      "disable": "<p>@Check[thievery|dc:42|name:Secure Door in Place|traits:action:disable-a-device] (전문가) 함정을 작동시키지 않고 문을 고정시키기 위해 </p>",
-      "stealth": "<p>@Check[perception|dc:42|traits:action:seek] (마스터) 검은 모래 아래에 있는 작동 막대를 발견하기 위해.</p>",
+      "disable": "<p>@Check[thievery|dc:42|name:Secure Door in Place|traits:action:disable-a-device](전문가) 함정을 작동시키지 않고 문을 고정시키기 위해 </p>",
+      "stealth": "<p>@Check[perception|dc:42|traits:action:seek](마스터) 검은 모래 아래에 있는 작동 막대를 발견하기 위해.</p>",
       "items": {
         "RvNmrpkeCr0FxRBy": {
           "name": "문 붕괴(Gate Collapse)",
@@ -3154,7 +3154,7 @@
     "Explosive Furniture Trap": {
       "name": "폭발 가구 함정(Explosive Furniture Trap)",
       "desc (hazard)": "<p>가구를 고정하던 배선이 풀리면서, 스프링 장치된 가구 조각과 철사가 바깥쪽으로 쏜다. </p>",
-      "disable": "<p>@Check[thievery|dc:34|name:Identify and Cut Wiring|traits:action:disable-a-device] (전문가) 긴장된 배선을 식별하고 무해하게 절단하기</p>",
+      "disable": "<p>@Check[thievery|dc:34|name:Identify and Cut Wiring|traits:action:disable-a-device](전문가) 긴장된 배선을 식별하고 무해하게 절단하기</p>",
       "stealth": "<p>(전문가)</p>",
       "items": {
         "Eoo8nFMnqyYVA8S9": {
@@ -3166,7 +3166,7 @@
     "Echoes of Faith": {
       "name": "신앙의 메아리(Echoes of Faith)",
       "desc (hazard)": "<p>한때 이 아로덴 신전을 차지했던 성직자들의 안식하지 못한 영혼들이 성소와 강단 안에 남아 있다. </p>",
-      "disable": "<p>@Check[occultism|dc:26|name:Exorcise the spirits|traits:haunt,hazard] (전문가) 영혼을 추방하거나, @Check[deception|dc:28|name:Imitate the Arodenite faith|traits:haunt,hazard] 또는 @Check[religion|dc:28] (훈련된) 아로덴 신앙을 모방하여 유령 현상이 재설정될 때까지 무해하게 만들 수 있다</p>",
+      "disable": "<p>@Check[occultism|dc:26|name:Exorcise the spirits|traits:haunt,hazard](전문가) 영혼을 추방하거나, @Check[deception|dc:28|name:Imitate the Arodenite faith|traits:haunt,hazard] 또는 @Check[religion|dc:28](훈련된) 아로덴 신앙을 모방하여 유령 현상이 재설정될 때까지 무해하게 만들 수 있다</p>",
       "reset": "<p>문스톤 홀에 슐가스(xulgath)가 남아 있는 한, 영혼들은 [[/gmr 1d8 #Hours]]{1d8시간} 후에 돌아온다.</p>",
       "stealth": "<p>(전문가) </p>",
       "items": {
@@ -3360,7 +3360,7 @@
     "Poisoned Secret Door Trap": {
       "name": "독이 묻은 비밀문 함정(Poisoned Secret Door Trap)",
       "desc (hazard)": "<p>이 비밀문에는 독이 묻은 수많은 작은 바늘이 박혀 있으며, 스프링 장치로 작동되어 튀어나온다.</p>",
-      "disable": "<p>@Check[thievery|dc:34|name:Break the Mechanism|traits:action:disable-a-device] (전문가)가 장치를 해체하거나, @Check[perception|dc:39|traits:action:seek] (마스터)가 세 개의 돌을 식별해야 함. 이 돌들을 누르면 함정이 작동하지 않음 </p>",
+      "disable": "<p>@Check[thievery|dc:34|name:Break the Mechanism|traits:action:disable-a-device](전문가)가 장치를 해체하거나, @Check[perception|dc:39|traits:action:seek](마스터)가 세 개의 돌을 식별해야 함. 이 돌들을 누르면 함정이 작동하지 않음 </p>",
       "reset": "<p>함정이 해제되면 1분 후 재설정됩니다.</p>",
       "stealth": "<p>(마스터)</p>",
       "items": {
@@ -3470,7 +3470,7 @@
           "name": "지속 주문(Constant Spells)"
         },
         "FHc5gHaZ8ngFzhdy": {
-          "name": "기회의 공격(Attack of Opportunity)"
+          "name": "기회 공격(Attack of Opportunity)"
         },
         "Xg6Mx6eG3Oigbdmv": {
           "name": "부패의 썩음(Necrotic Decay)",
@@ -3528,7 +3528,7 @@
     "Thunderstone Cascade Trap": {
       "name": "천둥석 캐스케이드 함정(Thunderstone Cascade Trap)",
       "desc (hazard)": "<p>계단 중간에 설치된 발판에 걸리면 여섯 개의 구형 천둥석이 계단을 따라 튀어 내려와 폭발한다.</p>",
-      "disable": "<p>@Check[thievery|dc:27|name:Safely Cut the Trip Wire|traits:mechanical,hazard,trap] (전문가)가 안전하게 발판 줄을 자를 수 있음</p>",
+      "disable": "<p>@Check[thievery|dc:27|name:Safely Cut the Trip Wire|traits:mechanical,hazard,trap](전문가)가 안전하게 발판 줄을 자를 수 있음</p>",
       "stealth": "<p>(전문가) </p>",
       "items": {
         "JTK8CW0TwOok1X9Z": {
@@ -4158,7 +4158,7 @@
           "name": "이니셔티브에 지각 능력 사용 시 +26(+26 when using Perception for Initiative)"
         },
         "FBUfRtHdX6pDQqmM": {
-          "name": "기회의 공격 (특수)(Attack of Opportunity (Special))",
+          "name": "기회 공격 (특수)(Attack of Opportunity (Special))",
           "description": "<p>레도릭은 자신의 턴 시작 시마다 기습 공격에만 사용할 수 있는 추가 반응을 얻는다.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>"
         },
         "NZ4q9cv0qu2zI3NC": {
@@ -4198,7 +4198,7 @@
     "Mask of Aroden's Guises": {
       "name": "아로덴의 변신 가면(Mask of Aroden's Guises)",
       "desc (hazard)": "<p>열두 개의 석상에 열 개의 가면이 장식되어 있다. </p>",
-      "disable": "<p>@Check[religion|dc:29|name:Dismiss the magic|traits:hazard,complex,magical,trap] (전문가) 또는 @Check[occultism|dc:29|name:Dismiss the magic|traits:hazard,complex,magical,trap] 또는 @Check[thievery|dc:31|name:Dismiss the magic|traits:hazard,complex,magical,trap] (전문가)로 단일 석상의 마법을 해제할 수 있다. 누락된 두 개의 가면(상인 석상에 동전으로 만들어졌거나 동전이 박힌 가면, 재단사 석상에 값비싼 천으로 만들어진 가면)을 교체하고 @Check[religion|dc:27|name:Disarm the trap|traits:hazard,complex,magical,trap] 체크에서 성공하면 함정이 해제된다.</p>",
+      "disable": "<p>@Check[religion|dc:29|name:Dismiss the magic|traits:hazard,complex,magical,trap](전문가) 또는 @Check[occultism|dc:29|name:Dismiss the magic|traits:hazard,complex,magical,trap] 또는 @Check[thievery|dc:31|name:Dismiss the magic|traits:hazard,complex,magical,trap](전문가)로 단일 석상의 마법을 해제할 수 있다. 누락된 두 개의 가면(상인 석상에 동전으로 만들어졌거나 동전이 박힌 가면, 재단사 석상에 값비싼 천으로 만들어진 가면)을 교체하고 @Check[religion|dc:27|name:Disarm the trap|traits:hazard,complex,magical,trap] 체크에서 성공하면 함정이 해제된다.</p>",
       "reset": "<p>표적 생물이 없으면 1분 후 함정이 비활성화되고 재설정됩니다</p>",
       "routine": "<p>(3 행동) 가면이 벗겨진 동상이 @UUID[Compendium.pf2e.spells-srd.Item.tlcrVRqW1MSKJ5IC]{환상의 살인자}(@Check[will|dc:27|traits:hazard,complex,magical,trap,death,emotion,fear,illusion,mental] 및 @Check[fortitude|dc:27|traits:hazard,complex,magical,trap,death,emotion,fear,illusion,mental,incapacitation])를 방 안에 있는 표적을 대상으로 각 덫의 행동마다 발동하여, 돌상이 돌진하는 환영을 생성한다. 동일한 생물에게는 한 번만 영향을 미치며, 표적 수가 덫의 행동 수보다 적을 경우 남은 행동은 사용하지 않는다. 추가로 가면을 벗긴 조각상은 위험의 행동 횟수를 1 증가시키며, 가면을 다시 씌우면 행동 횟수를 1 감소시킨다.</p>",
       "stealth": "<p>(전문가)</p>",
@@ -4213,7 +4213,7 @@
       "name": "고통받는 슐가스(Suffering Xulgaths)",
       "hpdetails": "영혼마다",
       "desc (hazard)": "<p>네 마리 슐가스들의 그림자가 웬디고와 그 새끼들에게 살해당하는 순간을 끝없이 되풀이한다.</p>",
-      "disable": "<p>@Check[religion|dc:42|name:Calm a Spirit|traits:haunt] (마스터) 또는 @Check[occultism|dc:42|name:Calm a Spirit|traits:haunt] (마스터)를 사용하여 네 영혼 각각을 진정시킵니다. 캐릭터가 첫 번째 성공적인 체크를 수행하면, 슐가스 장례 의식이 일반적으로 화장을 포함한다는 사실을 알게 되며, 이는 불이 그들을 안식하게 하는 유효한 방법임을 암시합니다.</p>",
+      "disable": "<p>@Check[religion|dc:42|name:Calm a Spirit|traits:haunt](마스터) 또는 @Check[occultism|dc:42|name:Calm a Spirit|traits:haunt](마스터)를 사용하여 네 영혼 각각을 진정시킵니다. 캐릭터가 첫 번째 성공적인 체크를 수행하면, 슐가스 장례 의식이 일반적으로 화장을 포함한다는 사실을 알게 되며, 이는 불이 그들을 안식하게 하는 유효한 방법임을 암시합니다.</p>",
       "reset": "<p>모든 비웬디고 생물이 이 지역을 떠난 지 1분 후, 이 유령 현상은 비활성화되고 초기화됩니다.</p>",
       "routine": "<p>(4회 행동) 각 활성 영혼은 120피트 내의 살아있는 비웬디고 생물을 선택하여 삼키려 시도하며, 가능하다면 다른 생물을 표적으로 삼습니다. 진정된 영혼 하나당 위험 요소의 행동이 1회 감소합니다.</p>",
       "stealth": "<p>(전문가) 공포에 질린 슐가스들의 메아리치는 비명 소리를 듣는다</p>",
@@ -4271,9 +4271,9 @@
     "Witch-Priests' Curse": {
       "name": "마녀 사제의 저주(Witch-Priests' Curse)",
       "desc (hazard)": "<p> 비밀 공간을 여는 자는 강력한 저주에 걸린다.</p>",
-      "disable": "<p>@Check[thievery|dc:39|name:Remove Bone Fetish|traits:action:disable-a-device] (전설급) 저주를 지닌 뼈 부적을 조심스럽게 제거해야 한다.</p>",
+      "disable": "<p>@Check[thievery|dc:39|name:Remove Bone Fetish|traits:action:disable-a-device](전설급) 저주를 지닌 뼈 부적을 조심스럽게 제거해야 한다.</p>",
       "reset": "<p>두 비밀 수납공간이 모두 닫히면 함정은 재설정된다.</p>",
-      "stealth": "<p>@Check[perception|dc:42|traits:action:seek] (전문가)</p>",
+      "stealth": "<p>@Check[perception|dc:42|traits:action:seek](전문가)</p>",
       "items": {
         "OQX9XEhfUYIiPSNz": {
           "name": "피 묻은 도둑의 저주(Hex of the Bloody Thief)",
@@ -4499,7 +4499,7 @@
           "description": "<p>후크림브는 @UUID[Compendium.pf2e.actionspf2e.Item.3yoajuKjwHZ9ApUY]{가장자리 붙잡기} 체크에서 항상 대성공을 거둔다.</p>"
         },
         "gen8uxMPnuBegIbr": {
-          "name": "기회의 공격(Attack of Opportunity)"
+          "name": "기회 공격(Attack of Opportunity)"
         },
         "cmJ4It6KgqjEgmOi": {
           "name": "강력한 악취(Powerful Stench)",
@@ -4624,7 +4624,7 @@
         },
         "iEPnPUyNUxfYs63B": {
           "name": "기습 공격 (특수)(Attack of Opportunity (Special))",
-          "description": "<p>마릴리스는 라운드당 5회의 추가 반응을 얻으며, 이는 오직 기회의 공격을 수행하는 데만 사용할 수 있다. 데몬은 동일한 유발 행동에 대해 한 번 이상 사용할 수 없으며, 생물이 마릴리스의 도달 범위 내에 여러 칸을 남긴 경우에도 마찬가지이다. 또한 마릴리스는 각 기회의 공격마다 다른 무기를 사용해야 한다.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>"
+          "description": "<p>마릴리스는 라운드당 5회의 추가 반응을 얻으며, 이는 오직 기회 공격을 수행하는 데만 사용할 수 있다. 데몬은 동일한 유발 행동에 대해 한 번 이상 사용할 수 없으며, 생물이 마릴리스의 도달 범위 내에 여러 칸을 남긴 경우에도 마찬가지이다. 또한 마릴리스는 각 기회 공격마다 다른 무기를 사용해야 한다.</p>\n<hr />\n<p>@Localize[PF2E.NPC.Abilities.Glossary.AttackOfOpportunity]</p>"
         },
         "Fz4qoI14He66tmpf": {
           "name": "지휘관의 오라(Commander's Aura)",
@@ -4873,7 +4873,7 @@
     "Catacomb Cave-In": {
       "name": "지하묘지 붕괴(Catacomb Cave-In)",
       "desc (hazard)": "<p>천장이 불안정하여, 붕괴된 터널에서 5피트 이내로 접근하는 중간 크기 이상의 생물이 붕괴를 유발합니다.</p>",
-      "disable": "<p>@Check[thievery|dc:21|name:Prop Up Ceiling] (훈련된) 붕괴 전에 주요 지점의 천장을 받쳐 놓을 수 있다.</p>",
+      "disable": "<p>@Check[thievery|dc:21|name:Prop Up Ceiling](훈련된) 붕괴 전에 주요 지점의 천장을 받쳐 놓을 수 있다.</p>",
       "stealth": "<p>(훈련된)</p>",
       "items": {
         "GXC9PnE9TL5hNcx5": {
@@ -5020,7 +5020,7 @@
     "Envenomed Thorns Trap": {
       "name": "독침 가시 함정(Envenomed Thorns Trap)",
       "desc (hazard)": "<p>지상 4피트 높이에 설치된 발동줄이 독침이 박힌 가지를 떨어뜨린다.</p>",
-      "disable": "<p>@Check[thievery|dc:18|name:Remove Trip Wire] (훈련된) 사람이 걸림줄을 제거할 수 있다.</p>",
+      "disable": "<p>@Check[thievery|dc:18|name:Remove Trip Wire](훈련된) 사람이 걸림줄을 제거할 수 있다.</p>",
       "stealth": "<p>(훈련된) </p>",
       "items": {
         "OfDoBC89FG7NjSPu": {
@@ -5267,7 +5267,7 @@
     "Thief's Trap": {
       "name": "도둑의 함정(Thief's Trap)",
       "desc (hazard)": "<p>거의 감지할 수 없는 룬이 도둑이 가장 도움을 받을 수 없는 지점에서 폭발을 일으킵니다.</p>",
-      "disable": "<p>@Check[thievery|dc:45|name:Counteract the Runes|traits:magical,trap] (마스터) 또는 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(10th, 반격 DC 50)로 룬을 해제</p>",
+      "disable": "<p>@Check[thievery|dc:45|name:Counteract the Runes|traits:magical,trap](마스터) 또는 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(10th, 반격 DC 50)로 룬을 해제</p>",
       "reset": "<p>함정은 1분 후에 재설정됩니다.</p>",
       "stealth": "<p>(마스터) 통로 벽면의 미세한 균열이 실제로 룬을 형성하고 있음을 알아차린다.</p>",
       "items": {

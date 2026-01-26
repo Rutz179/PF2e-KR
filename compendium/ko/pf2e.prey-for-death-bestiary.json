@@ -4,7 +4,7 @@
     "Flensing Floor": {
       "name": "플렌싱 플로어",
       "desc (hazard)": "<p>긴톱니 모양의 칼날이 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{숨겨진} 바닥의 홈을 따라 위로 베어 올라가며, 칼날 가장자리에 피처럼 보이는 것이 있지만 실제로는 치명적인 독이다.</p>",
-      "disable": "<p>@Check[thievery|dc:45] (주인) 무기 걸이대당 한 번씩 트랩 메커니즘에서 트리거를 분리합니다.</p>",
+      "disable": "<p>@Check[thievery|dc:45](주인) 무기 걸이대당 한 번씩 트랩 메커니즘에서 트리거를 분리합니다.</p>",
       "reset": "<p>Manual.</p>",
       "routine": "<p>(10 actions) 트랩은 각 행동마다 톱니 모양의 검 공격을 굴림하며, 공격 대상은 트랩에 갇힌 지역 내의 생물체에 균등하게 분배됩니다. 지역 <strong>B7</strong>에 이 행동을 균등하게 분배할 만큼의 대상이 충분하지 않을 경우, 추가 대상이 무작위로 선택됩니다. 트랩은 파괴된 각 검마다 1개의 행동을 잃습니다. 트랩은 다중 공격 페널티를 무시합니다.</p>",
       "stealth": "<p>(master)</p>",
@@ -57,7 +57,7 @@
         },
         "vmM05v5KSua0QmAu": {
           "name": "Strike as One",
-          "description": "<p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 에인헤리야 호스트는 @Template[emanation|distance:5] (@Check[reflex|dc:36|basic|options:area-effect] 구역 내의 모든 적에게 근접 공격을 가합니다. 피해량은 행동 횟수에 따라 결정됩니다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(2d8+7)[slashing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(3d8+14)[slashing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(4d8+14)[slashing]|options:area-damage] damage</p>"
+          "description": "<p><strong>발동 빈도</strong> 라운드당 1회</p><hr /><p><strong>효과</strong> 에인헤리야 호스트는 @Template[emanation|distance:5](@Check[reflex|dc:36|basic|options:area-effect] 구역 내의 모든 적에게 근접 공격을 가합니다. 피해량은 행동 횟수에 따라 결정됩니다.</p>\n<p><span class=\"action-glyph\">1</span> @Damage[(2d8+7)[slashing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">2</span> @Damage[(3d8+14)[slashing]|options:area-damage] damage</p>\n<p><span class=\"action-glyph\">3</span> @Damage[(4d8+14)[slashing]|options:area-damage] damage</p>"
         },
         "886l2wL20Ghh4jQT": {
           "name": "부대 이동",
@@ -170,7 +170,7 @@
     "Trial of Tolerance": {
       "name": "관용의 시험",
       "desc (hazard)": "<p>번화한 시장 장면의 설득력 있는 환상이 빈 방을 채우며, 관찰자들에게 두려움을 일으킬 수 있는 다양성과 예상치 못한 만남을 직면하게 합니다.</p>",
-      "disable": "<p>@Check[thievery|dc:43] (마스터) 방 바닥에 잘 숨겨진 핵심 룬을 긁어내거나 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(9등급; 반격 DC 36)로 시험을 반격합니다</p>",
+      "disable": "<p>@Check[thievery|dc:43](마스터) 방 바닥에 잘 숨겨진 핵심 룬을 긁어내거나 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(9등급; 반격 DC 36)로 시험을 반격합니다</p>",
       "reset": "<p>방에 생물이 없으면 시험이 비활성화되며, 1분이 지나면 재설정됩니다.</p>",
       "routine": "<p>(1 행동; 감정, 공포, 환상, 정신) 예상치 못한 공격적인 또는 공포스러운 모습의 존재(예: 헬나이트, 악마, 해적, 가면 쓴 암살자)가 군중에서 갑자기 나타나 방 내의 임의로 결정된 캐릭터에게 빠르게 접근한 후, 그 캐릭터의 경로에 위협적으로 서서 라운드 종료까지 머무릅니다. 이후 흥미를 잃은 듯 군중으로 돌아갑니다. 대상이 특정 종류의 생물에 대한 공포나 증오를 가지고 있다면, 이 예상치 못한 인물은 그 두려움과 증오를 상징합니다. 대상은 @Check[will|dc:46|traits:emotion,fear,illusion,mental] 내성 굴림에 성공해야 하며, 실패 시 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 1} 상태가 됩니다(대실패 시 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 2} 상태). 방 내의 어떤 생물이 위협적인 인물에게 적대적인 행동을 취하면, 관용의 시험은 반사 폭력 반응을 사용합니다. 관용의 시험이 반사 폭력을 사용하지 않고 3 라운드가 지나면 위험이 비활성화됩니다.</p>",
       "stealth": "<p>(master)</p>",
@@ -309,8 +309,8 @@
           "description": "<p><strong>빈도</strong> 라운드당 1회</p>\n<p><strong>요건</strong> Rhysaphine는 현재 탈것으로 사용 가능한 동맹 생물 위에 타고 있거나 그 옆에 위치해 있어야 합니다.</p><hr /><p><strong>효과</strong> Rhysaphine이 탑승 중이라면 탑승을 해제하고, 탑승 중이 아니라면 인접한 생물체에 탑승합니다.</p>"
         },
         "77tPlIEwFc6nptCm": {
-          "name": "야생화 폭풍",
-          "description": "<p>Rhysaphine는 날개를 펼치고 회전하며 불의 회오리를 형성해 @Damage[19d6[fire]|options:area-damage] 피해를 @Template[emanation|distance:20] (@Check[reflex|dc:40|basic|options:area-effect] 내성) 범위 내에 입힙니다.. 그는 [[/gmr 1d4 #Recharge Wildfire Storm]]{1d4 라운드} 동안 야생화 폭풍을 다시 사용할 수 없습니다.</p>"
+          "name": "들불 폭풍",
+          "description": "<p>Rhysaphine는 날개를 펼치고 회전하며 불의 회오리를 형성해 @Damage[19d6[fire]|options:area-damage] 피해를 @Template[emanation|distance:20](@Check[reflex|dc:40|basic|options:area-effect] 내성) 범위 내에 입힙니다.. 그는 [[/gmr 1d4 #Recharge Wildfire Storm]]{1d4 라운드} 동안 들불 폭풍을 다시 사용할 수 없습니다.</p>"
         },
         "NcvIgZ94UgxzV5xy": {
           "name": "엘리시움 로어"
@@ -909,7 +909,7 @@
     "The Trial of Finality": {
       "name": "최종의 시험",
       "desc (hazard)": "<p>천장에서 바닥으로 빛의 기둥이 천천히 회전하는 연기의 고리 속에서 빛납니다.</p>",
-      "disable": "<p>@Check[thievery|dc:43] (마스터) 위에서 내려오는 빛을 주변 연기로 반사하고 포커스시켜 분산시키고 위험의 마법 에너지를 제거하기 위해 도구를 사용하거나 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(9단계; 저항 DC 36)를 사용하여 시험을 반격합니다</p>",
+      "disable": "<p>@Check[thievery|dc:43](마스터) 위에서 내려오는 빛을 주변 연기로 반사하고 포커스시켜 분산시키고 위험의 마법 에너지를 제거하기 위해 도구를 사용하거나 @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(9단계; 저항 DC 36)를 사용하여 시험을 반격합니다</p>",
       "reset": "<p>방에 살아있는 생물이 없으면 시험이 비활성화되며, 1분이 지나면 재설정됩니다.</p>",
       "routine": "<p>(1 또는 2 행동; 감정, 공포, 정신) 영역 <strong>B4</strong>에 있는 생물이 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비} 상태이거나 @UUID[Compendium.pf2e.conditionitems.Item.fBnFDH2MTzgFijKf]{의식 상실} 상태인 경우, 시험의 첫 번째 행동은 해당 마비 또는 의식 상실 효과를 유지합니다. 마비되거나 의식 상실 상태인 생물은 이 시점에 이 효과에 대해 새로운 @Check[will|dc:38|traits:emotion,fear,mental] 내성을 시도할 수 있으며, 결과는 위에서 A Quick Death에 대해 설명된 것과 동일합니다. 이 내성마다 DC는 1씩 누적되어 감소합니다. 최종 시험의 두 번째 행동은 연기 속에서 끔찍한 유령 모양을 창조하여 <strong>B4</strong> 영역 내 모든 존재에게 정신적으로 위협을 가하며 그들의 죽음이 임박했음을 약속합니다. 마비되거나 의식 잃은 생물 중 A Quick Death를 겪고 있는 생물을 제외한 모든 생물은 @Check[will|dc:38|traits:emotion,fear,mental] 내성을 시도해야 합니다.</p><hr><p><strong>대성공</strong> 생물은 영향을 받지 않습니다.</p><p><strong>성공</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 1} 상태가 됩니다.</p><p><strong>실패</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 2}가 됩니다.</p><p><strong>대실패</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 3} 상태가 되며, 공포 상태가 지속되는 동안 @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{도주 중} 상태가 됩니다.</p>",
       "stealth": "<p>(master)</p>",
@@ -1177,7 +1177,7 @@
     "Trial of the Gods": {
       "name": "신들의 시험",
       "desc (hazard)": "<p>천장 근처의 빛나는 구형체 안에 눈처럼 보이는 것이 열린다.</p>",
-      "disable": "<p>@Check[thievery|dc:43] (마스터) 빛나는 구체를 비활성화하고 방을 관찰하지 못하게 하려면, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(9등급; 반격 DC 36) 시험을 반격하기 위해, @Check[religion|dc:45] (마스터) 복잡한 5라운드 촛불 점화 의식을 수행하거나, 일반 오드울프의 종교적 상징을 벽의 빈 걸이에 상호작용 행동으로 배치하기</p>",
+      "disable": "<p>@Check[thievery|dc:43](마스터) 빛나는 구체를 비활성화하고 방을 관찰하지 못하게 하려면, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(9등급; 반격 DC 36) 시험을 반격하기 위해, @Check[religion|dc:45](마스터) 복잡한 5라운드 촛불 점화 의식을 수행하거나, 일반 오드울프의 종교적 상징을 벽의 빈 걸이에 상호작용 행동으로 배치하기</p>",
       "reset": "<p>방에 생물이 없으면 시험이 비활성화되며, 1분이 지나면 재설정됩니다.</p>",
       "routine": "<p>(1 행동; 죽음, 감정, 공포, 정신) 빨간 눈이 영역 <strong>B3</strong>에서 볼 수 있으며 촛불 점화 의식에 참여하지 않은 생물에게 9등급 @UUID[Compendium.pf2e.spells-srd.Item.Jmxru8zMdYMRuO5n]{죽음의 비전}을 시전합니다. 이 생물은 아차에케크가 땅에서 일어나 신들을 존중하지 않은 죄인들을 벌하기 위해 내려치는 모습을 목격합니다.</p>",
       "stealth": "<p>(master)</p>",

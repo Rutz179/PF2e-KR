@@ -36,7 +36,7 @@
       "name": "가학적인 지휘자",
       "hpdetails": "악기당",
       "desc (hazard)": "<p>화려한 제스처와 함께 유령 지휘자가 나타나자, 날카로운 현을 가진 유령 악기들이 주변 사람들의 손에 나타난다. 지휘자가 공연을 시작하라는 제스처를 취하자, 생물들은 강제로 악기를 연주하게 된다.</p>",
-      "disable": "<p>@Check[perfomance|dc:18] 악기를 훌륭히 연주하여 지휘자가 당신을 악기에서 해방시키고, 자발적으로 악기를 소멸시키게 하거나; @Check[occultism|dc:22] (훈련된) 또는 @Check[religion|dc:22] (훈련된)으로 악기 하나를 제거하거나; @Check[thievery|dc:25] (훈련된)으로 악기 하나를 고장 내십시오; 각 악기는 제거, 고장, 또는 파괴되어야 유령 현상이 해제됩니다</p>",
+      "disable": "<p>@Check[perfomance|dc:18] 악기를 훌륭히 연주하여 지휘자가 당신을 악기에서 해방시키고, 자발적으로 악기를 소멸시키게 하거나; @Check[occultism|dc:22](훈련된) 또는 @Check[religion|dc:22](훈련된)으로 악기 하나를 제거하거나; @Check[thievery|dc:25](훈련된)으로 악기 하나를 고장 내십시오; 각 악기는 제거, 고장, 또는 파괴되어야 유령 현상이 해제됩니다</p>",
       "reset": "<p>소환된 악기 전부가 파괴되거나 1분간 침묵이 지속되면 유령 현상은 비활성화됩니다. 1시간 후 재설정됩니다.</p>",
       "routine": "<p>(1 행동; 마법 부여, 정신, 오컬트) 지휘자는 30피트 내의 모든 생물에게 자신이 들고 있는 위험한 악기를 연주하도록 촉구한다. 강제로 악기를 연주하게 된 모든 생물은 그렇게 하며, 내성에 성공한 생물은 연주할지 선택할 수 있다. 악기 연주 시(유령의 일상적 연주 또는 유령 무력화 시도 중 생물의 자발적 연주 모두 해당) @Damage[(1d6+3)[slashing]] 피해(@Check[reflex|dc:21|basic|traits:enchantment,mental,occult] 내성), 해당 생물은 @Check[performance|dc:18|traits:enchantment,mental,occult,damaging-effect] 체크를 시도해야 한다. 성공 시 지휘자는 공연을 인정하고 해당 생물의 악기를 해제하며, 대실패 시 불협화음과 지휘자의 조롱이 추가로 @Damage[(1d6+3)[sonic]] 피해를 입힙니다.</p>",
       "stealth": "<p>(trained)</p>",
@@ -539,7 +539,7 @@
     "Ectoplasmic Grasp": {
       "name": "엑토플라즘 그립",
       "desc (hazard)": "<p>생물 주위에 거대한 엑토플라즘 손이 형성되어 조여든다.</p>",
-      "disable": "<p>@Check[occultism|dc:24|name:Send the ectoplasm back] (훈련된) 엑토플라즘을 에테리얼 평면으로 되돌리거나 @Check[acrobatics|dc:26|name:Move through the ectoplasm] 응집되는 엑토플라즘이 붙잡기 전에 통과하여 방해한다</p>",
+      "disable": "<p>@Check[occultism|dc:24|name:Send the ectoplasm back](훈련된) 엑토플라즘을 에테리얼 평면으로 되돌리거나 @Check[acrobatics|dc:26|name:Move through the ectoplasm] 응집되는 엑토플라즘이 붙잡기 전에 통과하여 방해한다</p>",
       "reset": "<p>1일</p>",
       "stealth": "<p>(훈련된) 엑토플라즘 응집 감지</p>",
       "items": {
@@ -685,7 +685,7 @@
     "Grasping Dead": {
       "name": "죽은 자를 움켜잡기",
       "desc (hazard)": "<p>땅속에서 묻힌 시체들의 손이 솟아올라, 주변의 생물들을 붙잡고 찢어내며 지하로 끌고 간다.</p>",
-      "disable": "<p>@Check[religion|dc:22] (훈련된) 죽은 자를 위한 의식적 기도를 하거나 @Check[occultism|dc:24] (훈련된) 영혼의 분노를 쫓아내는 것; 유령 현상을 무력화하려면 총 두 번의 성공이 필요합니다</p>",
+      "disable": "<p>@Check[religion|dc:22](훈련된) 죽은 자를 위한 의식적 기도를 하거나 @Check[occultism|dc:24](훈련된) 영혼의 분노를 쫓아내는 것; 유령 현상을 무력화하려면 총 두 번의 성공이 필요합니다</p>",
       "reset": "<p>모든 생명체가 해당 지역을 떠난 지 1분 후 유령 현상은 비활성화됩니다. 1시간 후 유령 현상은 재활성화됩니다.</p>",
       "routine": "<p>(1 행동) 움켜잡는 손이 영역 내 모든 생물을 강타하여 @Damage[(2d6+7)[bludgeoning]] 피해를 입힌다 (@Check[reflex|dc:26|basic] 내성). 대실패 시, 생물은 땅속으로 부분적으로 끌려 들어가 [[/act escape dc=26]]{탈출}할 때까지 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{고정된} 상태가 된다. 이미 고정된 상태라면 완전히 잠기게 되며, 질식하지 않으려면 숨을 참아야 한다.</p>",
       "stealth": "<p>(trained)</p>",
@@ -757,7 +757,7 @@
     "Blood-Soaked Soil": {
       "name": "피로 물든 땅",
       "desc (hazard)": "<p>이 지역에서 죽은 자들의 피가 땅속에서 솟아올라 흙을 적시고 피범벅 진창으로 변하게 한다.</p>",
-      "disable": "<p>@Check[diplomacy|dc:18|name:Settle the Spirits] 또는 @Check[occultism|dc:18|name:Settle the Spirits] (훈련된) 영혼을 달래거나 @Check[religion|dc:19|name:Bless the Area] (훈련된) 지역을 축복한다</p>",
+      "disable": "<p>@Check[diplomacy|dc:18|name:Settle the Spirits] 또는 @Check[occultism|dc:18|name:Settle the Spirits](훈련된) 영혼을 달래거나 @Check[religion|dc:19|name:Bless the Area](훈련된) 지역을 축복한다</p>",
       "reset": "<p>1일</p>",
       "stealth": "<p>(훈련된) 피 냄새를 맡도록</p>",
       "items": {
@@ -770,7 +770,7 @@
     "Siphoning Spirit": {
       "name": "생명력을 빨아들이는 영혼",
       "desc (hazard)": "<p>형체 없는 영혼이 살아있는 자의 생기를 흡수하여, 희생자가 약해질수록 점차 모습을 드러낸다.</p>",
-      "disable": "<p>@Check[occultism|dc:48] (전문가) 또는 @Check[religion|dc:48] (전문가)로 영혼을 약화시킵니다; 유령 현상을 무력화하려면 총 4회의 성공이 필요합니다.</p>",
+      "disable": "<p>@Check[occultism|dc:48](전문가) 또는 @Check[religion|dc:48](전문가)로 영혼을 약화시킵니다; 유령 현상을 무력화하려면 총 4회의 성공이 필요합니다.</p>",
       "reset": "<p>1분 후, 영혼은 포만감을 느끼고 휴식 상태로 돌아가며 유령 현상은 비활성화됩니다. 1시간 동안 영혼이 흡수한 생명 에너지는 분산되고 유령 현상은 재설정됩니다.</p>",
       "routine": "<p>(1 행동; 죽음, 신성, 네크로맨시, 공허) 영혼이 숨을 들이마시며 살아있는 자들의 영혼을 빨아들이고 더욱 선명해진다. @Template[burst|distance:60]{60피트} 범위 내 모든 생물은 @Damage[(4d10+20)[void]]의 피해를 입으며, @Check[fortitude|dc:41|traits:death,divine,necromancy,void,damaging-effect] 내성에 성공할 수 있다. 해당 영역에 생물이 없을 경우, 유령은 가장 많은 생물이 모인 곳으로 최대 120피트까지 이동한 후 숨을 들이쉰다.</p>\n<hr />\n<p><strong>대성공</strong> 생물은 영향을 받지 않습니다.</p>\n<p><strong>성공</strong> 생물은 절반의 피해를 입습니다.</p>\n<p><strong>실패</strong> 생물은 전체 피해를 입으며 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수} 값이 1 증가합니다. 최대 흡수 4까지 가능합니다.</p>\n<p><strong>대실패</strong> 생물은 두 배의 피해를 입으며, 흡수된 값을 2 증가시킵니다. 최대 흡수 4까지 가능합니다. 생물이 이미 흡수 4 상태였다면, 죽습니다.</p>",
       "stealth": "<p>(trained)</p>",
@@ -785,7 +785,7 @@
       "name": "유령의 돌진",
       "hpdetails": "오록스 두개골 당",
       "desc (hazard)": "<p>거대한 야생 소인 오록스의 네 개의 멧돼지 두개골이 공중으로 떠오르며, 각각 유령 같은 몸을 뒤로 끌고 있다.</p>",
-      "disable": "<p>@Check[nature|dc:36] (마스터) 네 마리 중 한 마리를 진정시키거나 @Check[religion|dc:40] (훈련된) 그들을 쫓아내는</p>",
+      "disable": "<p>@Check[nature|dc:36](마스터) 네 마리 중 한 마리를 진정시키거나 @Check[religion|dc:40](훈련된) 그들을 쫓아내는</p>",
       "reset": "<p>이 유령 현상은 모든 생명체가 해당 지역을 떠난 지 1분 후, 또는 네 마리 오록스 두개골이 모두 파괴된 후 비활성화된다. 1시간 후, 적어도 하나의 오록스 두개골이 남아 있다면 유령 현상은 재활성화된다.</p>",
       "routine": "<p>(4회 행동) 불도르스 두개골이 무력화되거나 파괴될 때마다, 이 유령의 행동 횟수는 1회씩 감소합니다. 각 행동마다 다른 오록스가 최대 60피트 이동하여 다른 생명체를 대상으로 뿔 공격을 시도한다. 뿔 공격에 치명타를 당한 생명체는 @Damage[2d6[bleed]] 피해를 추가로 입으며 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드림} 상태가 된다.</p>",
       "stealth": "<p>(master)</p>",
@@ -848,7 +848,7 @@
     "Toppling Furniture": {
       "name": "가구 전복",
       "desc (hazard)": "<p> 장난꾸러기 영혼이 책장을 밀어 생물 위로 넘어뜨린다.</p>",
-      "disable": "<p>@Check[athletics|dc:16|name:Hold the furniture upright] 가구를 똑바로 세우거나 @Check[occultism|dc:18|name:Foil the spirit's influence] (훈련된) 영혼이 물질을 조종하려는 시도를 좌절시키기</p>",
+      "disable": "<p>@Check[athletics|dc:16|name:Hold the furniture upright] 가구를 똑바로 세우거나 @Check[occultism|dc:18|name:Foil the spirit's influence](훈련된) 영혼이 물질을 조종하려는 시도를 좌절시키기</p>",
       "reset": "<p>영혼이 가구 넘어뜨리기로 생물에게 피해를 성공적으로 입히면, 영혼은 [[/gmr 1d4 #Laughing Duration]]{1d4 라운드} 동안 웃으며 영혼 능력이 재설정됩니다. 이후 영혼 능력이 활성화될 때마다, 반드시 다른 직립 가구를 넘어뜨려야 합니다. 유령이 생물에게 피해를 주지 못하면, 영혼은 좌절감에 울부짖으며 [[/gmr 1d4 #유령 재설정]]{1d4시간} 동안 삐진 후 재설정된다.</p>",
       "stealth": "<p>(훈련된) 귀로 가구를 쓰러뜨리려는 영혼의 힘겨운 신음소리를 듣는다</p>",
       "items": {
@@ -861,7 +861,7 @@
     "Glimpse Grave": {
       "name": "무덤을 훔쳐보기",
       "desc (hazard)": "<p>묘비에는 그것을 바라보는 자들의 이름이 새겨져 있어 그들의 심장이 멈추게 한다.</p>",
-      "disable": "<p>@Check[religion|dc:45|name:Bless the tombstone] (전설급) 묘비를 축복하거나 @Check[occultism|dc:50|name:Ward off the spirits] (숙련) 영혼을 수호부</p>",
+      "disable": "<p>@Check[religion|dc:45|name:Bless the tombstone](전설급) 묘비를 축복하거나 @Check[occultism|dc:50|name:Ward off the spirits](숙련) 영혼을 수호부</p>",
       "reset": "<p>1일</p>",
       "stealth": "<p>(전문가) 묘비에 새겨진 글자가 흔들리는 것을 알아차리다</p>",
       "items": {
@@ -927,7 +927,7 @@
         },
         "47dj3m4gnycp9ovy": {
           "name": "정맥 걷는 자",
-          "description": "<p>엑소리온은 수백 개의 맥동하는 혈관을 통해 움직인다. 이 혈관들은 수십 개의 빽빽하고 밧줄 같은 다발로 몸에서 뻗어 나와 지면에 고정된다. 엑스코리온은 마법으로 강제 이동시키지 않는 한 @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{넘어뜨림}, @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{밀쳐내기} 등으로 강제 이동시킬 수 없으며, 엑스코리온은 어려운 지형을 무시한다(하지만 매우 어려운 지형은 제외).</p>"
+          "description": "<p>엑소리온은 수백 개의 맥동하는 혈관을 통해 움직인다. 이 혈관들은 수십 개의 빽빽하고 밧줄 같은 다발로 몸에서 뻗어 나와 지면에 고정된다. 엑스코리온은 마법으로 강제 이동시키지 않는 한 @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{넘어뜨리기}, @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{밀쳐내기} 등으로 강제 이동시킬 수 없으며, 엑스코리온은 어려운 지형을 무시한다(하지만 매우 어려운 지형은 제외).</p>"
         },
         "ibAx8T7dlGLGUNfN": {
           "name": "공허 치유"
@@ -1007,7 +1007,7 @@
     "Shattered Window": {
       "name": "산산조각 난 창문",
       "desc (hazard)": "<p>구조물 안에 갇힌 분노가 창문을 산산조각 내며 인접 공간에 유리 조각을 쏟아붓는다.</p>",
-      "disable": "<p>@Check[occultism|dc:19|name:Suppress the Spiritual Energy] 또는 @Check[religion|dc:19|name:Suppress the Spiritual Energy] (훈련된) 영적 에너지를 억제하거나 @Check[diplomacy|dc:20|name:Soothe the Latent Anger] (훈련된) 잠재된 분노를 달래기</p>",
+      "disable": "<p>@Check[occultism|dc:19|name:Suppress the Spiritual Energy] 또는 @Check[religion|dc:19|name:Suppress the Spiritual Energy](훈련된) 영적 에너지를 억제하거나 @Check[diplomacy|dc:20|name:Soothe the Latent Anger](훈련된) 잠재된 분노를 달래기</p>",
       "stealth": "<p>(훈련된) 창문 전체에 거미줄처럼 퍼지는 균열을 알아차리다</p>",
       "items": {
         "JNoGBCYpptNAJ1M0": {
@@ -1222,7 +1222,7 @@
     "Phantom Jailer": {
       "name": "유령 간수",
       "desc (hazard)": "<p>영혼이 나타나 손목에 족쇄를 채워 생물을 체포한다.</p>",
-      "disable": "<p>@Check[athletics|dc:18|name:Seize the manacles] 영혼으로부터 수갑을 빼앗기, @Check[intimidation|dc:19|name:Order the spirit to stand down] (훈련된) 영혼에게 물러나라고 명령하기, 또는 @Check[occultism|dc:20|name:Exorcise the spirit] 영혼을 쫓아내기</p>",
+      "disable": "<p>@Check[athletics|dc:18|name:Seize the manacles] 영혼으로부터 수갑을 빼앗기, @Check[intimidation|dc:19|name:Order the spirit to stand down](훈련된) 영혼에게 물러나라고 명령하기, 또는 @Check[occultism|dc:20|name:Exorcise the spirit] 영혼을 쫓아내기</p>",
       "reset": "<p>1일</p>",
       "stealth": "<p>(훈련된) 수갑이 경련하는 것을 알아차리다</p>",
       "items": {
@@ -1235,7 +1235,7 @@
     "Entombed Spirit": {
       "name": "매장된 영혼",
       "desc (hazard)": "<p>울부짖는 인간형 얼굴 모양으로 벽이 부풀어 오르며 뒤틀리고, 근처 생물들을 향해 뻗어 나가는 촉수들을 형성한다. 이 유령은 살해 피해자가 생전이나 사후에 벽 속에 매장될 때 생성된다.</p>",
-      "disable": "<p>@Check[occultism|dc:17] (훈련된) 영혼을 약화시키기, @Check[athletics|dc:18] (훈련된) 영혼의 얼굴을 벽 안으로 밀어넣기, 또는 @Check[diplomacy|dc:19] (훈련된) 영혼을 달래기; 유령 현상을 무력화하려면 모든 기술에서 총 두 번의 성공이 필요하다</p>",
+      "disable": "<p>@Check[occultism|dc:17](훈련된) 영혼을 약화시키기, @Check[athletics|dc:18](훈련된) 영혼의 얼굴을 벽 안으로 밀어넣기, 또는 @Check[diplomacy|dc:19](훈련된) 영혼을 달래기; 유령 현상을 무력화하려면 모든 기술에서 총 두 번의 성공이 필요하다</p>",
       "reset": "<p>모든 생물이 해당 지역을 떠난 지 1분 후 유령 현상은 비활성화되며, 이후 즉시 재설정됩니다. 비활성화된 경우, 유령 현상은 1일 후 재설정됩니다. 사망자의 유해가 벽에서 제거되면 유령 현상은 영구적으로 파괴됩니다.</p>",
       "routine": "<p>(3 행동) 영혼은 @UUID[Compendium.pf2e.actionspf2e.Item.PMbdMWc2QroouFGD]{그랩}으로 10피트 내 최대 두 생물을 [[/r 1d20+14 #Athletics]]{+14 운동 수정자}로 붙잡으려 시도하다, 이후 붙잡은 각 생물을 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡은} 생물을 각각 @Damage[(1d10+4)[damage]]의 피해를 입히며 쥐어짜냅니다. 이 유령은 두 번째 잡기 시도에 다중 공격 페널티를 적용하지 않습니다.</p>",
       "stealth": "<p>(trained)</p>",
@@ -1341,7 +1341,7 @@
     "Cold Spot": {
       "name": "냉기 지대",
       "desc (hazard)": "<p>영적 힘이 이 지역에 모이면서 기온이 급격히 떨어진다.</p>",
-      "disable": "<p>@Check[religion|dc:19|name:Banish the Cold Spot] (훈련된) 의식으로 찬 기운을 몰아내거나 @Check[occultism|dc:20|name:Foil the Arrival of Outside Forces] (훈련된) 외부 세력의 침입을 저지할 수 있다</p>",
+      "disable": "<p>@Check[religion|dc:19|name:Banish the Cold Spot](훈련된) 의식으로 찬 기운을 몰아내거나 @Check[occultism|dc:20|name:Foil the Arrival of Outside Forces](훈련된) 외부 세력의 침입을 저지할 수 있다</p>",
       "reset": "<p>1시간</p>",
       "stealth": "<p><span class=\"fontstyle0\">(trained)</span></p>",
       "items": {
@@ -1476,7 +1476,7 @@
     "Phantom Footsteps": {
       "name": "유령의 발소리",
       "desc (hazard)": "<p>뒤에서 발소리가 들리지만, 그 출처는 알 수 없다.</p>",
-      "disable": "<p>@Check[religion|dc:17|name:Ward Off Lesser Spirits] (훈련된) 하급 정령을 의식으로 수호부하거나 @Check[occultism|dc:18|name:Excorcise the Spirit] 정령을 추방하기 위해</p>",
+      "disable": "<p>@Check[religion|dc:17|name:Ward Off Lesser Spirits](훈련된) 하급 정령을 의식으로 수호부하거나 @Check[occultism|dc:18|name:Excorcise the Spirit] 정령을 추방하기 위해</p>",
       "reset": "<p>1시간</p>",
       "items": {
         "UVtZ0kwBh5CQGxkT": {
@@ -1488,7 +1488,7 @@
     "Disembodied Voices": {
       "name": "육체가 없는 목소리",
       "desc (hazard)": "<p>분노한 영혼들이 침입자의 목덜미에 숨을 내쉬며 귀에 소름 끼치는 위협이나 메시지를 속삭인다.</p>",
-      "disable": "<p>@Check[religion|dc:15|name:Ward Yourself From Evil] (훈련된) 악으로부터 자신을 수호부하거나 @Check[performance|dc:16|name:Drown Out the Spirits' Voices] 영혼들의 목소리를 덮어버리기 위해</p>",
+      "disable": "<p>@Check[religion|dc:15|name:Ward Yourself From Evil](훈련된) 악으로부터 자신을 수호부하거나 @Check[performance|dc:16|name:Drown Out the Spirits' Voices] 영혼들의 목소리를 덮어버리기 위해</p>",
       "reset": "<p>1시간</p>",
       "stealth": "<p>(훈련된) 목에 느껴지는 숨결</p>",
       "items": {
@@ -1607,7 +1607,7 @@
     "Frenetic Musician": {
       "name": "광란의 음악가",
       "desc (hazard)": "<p>악기에서 영혼의 음악가가 떠오르며 광란적이고 뼈를 울리는 선율을 연주한다.</p>",
-      "disable": "<p>@Check[performance|dc:26|name:Bring the music to a close|traits:action:perform] (훈련된) 체크로 영혼의 음악을 끝내거나 @Check[occultism|dc:28|name:Banish the spirit] (전문가) 체크로 영혼을 쫓아낸다</p>",
+      "disable": "<p>@Check[performance|dc:26|name:Bring the music to a close|traits:action:perform](훈련된) 체크로 영혼의 음악을 끝내거나 @Check[occultism|dc:28|name:Banish the spirit](전문가) 체크로 영혼을 쫓아낸다</p>",
       "reset": "<p>1시간</p>",
       "stealth": "<p>(전문가) 유령의 음색을 듣기</p>",
       "items": {
@@ -1670,7 +1670,7 @@
           "name": "중형 석궁"
         },
         "mmLtzGT7Xi5ll4Cd": {
-          "name": "기회의 공격"
+          "name": "기회 공격"
         },
         "p5ohcfvydik0i2mz": {
           "name": "굶주린 갑옷",
@@ -1832,7 +1832,7 @@
     "Violent Shove": {
       "name": "격렬한 밀치기",
       "desc (hazard)": "<p>보이지 않는 힘이 생물을 옆으로 쳐내어 근처 벽으로 내던진다.</p>",
-      "disable": "<p>@Check[occultism|dc:19|name:Disperse the Force] (훈련된) 힘을 분산시킬 수 있거나 @Check[religion|dc:20|name:Ward yourself from harm] (훈련된) 자신을 해로부터 수호할 수 있다</p>",
+      "disable": "<p>@Check[occultism|dc:19|name:Disperse the Force](훈련된) 힘을 분산시킬 수 있거나 @Check[religion|dc:20|name:Ward yourself from harm](훈련된) 자신을 해로부터 수호할 수 있다</p>",
       "reset": "<p>1일</p>",
       "stealth": "<p>(훈련된) 방 안에 불길한 존재를 감지하다</p>",
       "items": {
@@ -1945,7 +1945,7 @@
     "Locking Door": {
       "name": "잠금 장치 문",
       "desc (hazard)": "<p>문(또는 다른 통로)이 쾅 닫히며 잠긴다.</p>",
-      "disable": "<p>@Check[athletics|dc:14|name:Push Back Against the Door] 문을 밀어내려 하고, @Check[crafting|dc:14|name:Wedge the Door Open] 문을 쐐기로 열어놓거나, @Check[thievery|dc:20|name:Jam the Lock] (훈련된) 자물쇠를 걸거나 나중에 자물쇠를 열기 위해</p>",
+      "disable": "<p>@Check[athletics|dc:14|name:Push Back Against the Door] 문을 밀어내려 하고, @Check[crafting|dc:14|name:Wedge the Door Open] 문을 쐐기로 열어놓거나, @Check[thievery|dc:20|name:Jam the Lock](훈련된) 자물쇠를 걸거나 나중에 자물쇠를 열기 위해</p>",
       "stealth": "<p>바람이 없는데도 문이 살짝 흔들리는 것을 알아차리다</p>",
       "items": {
         "RsT9PJggBJ9E7yXV": {
@@ -2125,7 +2125,7 @@
     "Weight of Guilt": {
       "name": "죄책감의 무게",
       "desc (hazard)": "<p>죽은 자의 죄책감과 후회에 영향을 받아, 생물들은 자신의 죄악을 구현한 무거운 사슬에 묶인다.</p>",
-      "disable": "<p>@Check[religion|dc:26|name:Disrupt the haunt] (전문가) 기도로 유령의 출몰을 방해하거나 @Check[deception|dc:27|name:Openly defy your regrets] (전문가) 후회를 공개적으로 거부하고 유령을 쫓아낼 수 있다. 죄를 짓지 않았거나 이미 자신의 잘못을 속죄한 생물들은 이 유령의 효과에 면역입니다.</p>",
+      "disable": "<p>@Check[religion|dc:26|name:Disrupt the haunt](전문가) 기도로 유령의 출몰을 방해하거나 @Check[deception|dc:27|name:Openly defy your regrets](전문가) 후회를 공개적으로 거부하고 유령을 쫓아낼 수 있다. 죄를 짓지 않았거나 이미 자신의 잘못을 속죄한 생물들은 이 유령의 효과에 면역입니다.</p>",
       "reset": "<p>1일</p>",
       "stealth": "<p>(전문가)가 억눌린 슬픔의 오라를 감지함</p>",
       "items": {
@@ -2234,7 +2234,7 @@
     "Cannibalistic Echoes": {
       "name": "식인종 에코",
       "desc (hazard)": "<p>식인 영혼 무리가 지역을 휩쓸며 살아있는 생물을 삼켜버린다.</p>",
-      "disable": "<p>@Check[intimidation|dc:40|name:Drive off the spirits] (마스터) 사나운 모습으로 영혼을 쫓아내거나 @Check[occultism|dc:42|name:Exorcise the spirits] (전문가) 영혼을 퇴치한다</p>",
+      "disable": "<p>@Check[intimidation|dc:40|name:Drive off the spirits](마스터) 사나운 모습으로 영혼을 쫓아내거나 @Check[occultism|dc:42|name:Exorcise the spirits](전문가) 영혼을 퇴치한다</p>",
       "reset": "<p>1일</p>",
       "stealth": "<p>(마스터)이 그 지역의 메아리 속에 숨어 있는 이상한 무언가를 감지하다</p>",
       "items": {
@@ -2467,7 +2467,7 @@
     "Desperate Hunger": {
       "name": "절망적인 굶주림",
       "desc (hazard)": "<p>뼈만 남은 영혼이 나타나, 배고픔을 달래려 흙과 돌을 목구멍으로 밀어넣으며 울부짖는다.</p>",
-      "disable": "<p>@Check[deception|dc:36|name:Convince the spirit it's not hungry] (마스터) 영혼에게 더 이상 배고프지 않다고 설득하거나 @Check[occultism|dc:38|name:Feed the spirit] (훈련된) 영혼에게 의식적으로 먹이를 주는 것</p>",
+      "disable": "<p>@Check[deception|dc:36|name:Convince the spirit it's not hungry](마스터) 영혼에게 더 이상 배고프지 않다고 설득하거나 @Check[occultism|dc:38|name:Feed the spirit](훈련된) 영혼에게 의식적으로 먹이를 주는 것</p>",
       "reset": "<p>1일</p>",
       "stealth": "<p>(마스터) 이상한 배고픔을 느끼기</p>",
       "items": {
@@ -2660,7 +2660,7 @@
           "name": "지속 마법"
         },
         "cIJp4XSjGySMlIFb": {
-          "name": "기회의 공격"
+          "name": "기회 공격"
         },
         "e68t84jixmehqnur": {
           "name": "최후의 악의",
@@ -2788,7 +2788,7 @@
     "Flood of Spirits": {
       "name": "영혼의 홍수",
       "desc (hazard)": "<p>영혼들의 물결이 그 지역을 가로질러 날아가며, 살아있는 자들을 그대로 통과한다.</p>",
-      "disable": "<p>@Check[occultism|dc:48|name:Divert the spirits] (전문가) 또는 @Check[religion|dc:48|name:Divert the spirits] (마스터) 등급의 능력으로 영혼들을 다른 곳으로 돌린다</p>",
+      "disable": "<p>@Check[occultism|dc:48|name:Divert the spirits](전문가) 또는 @Check[religion|dc:48|name:Divert the spirits](마스터) 등급의 능력으로 영혼들을 다른 곳으로 돌린다</p>",
       "reset": "<p>1일</p>",
       "stealth": "<p>(훈련된) 영혼들의 합쳐지는 홍수를 듣기</p>",
       "items": {
@@ -2828,8 +2828,8 @@
       }
     },
     "Zombie Owlbear": {
-      "name": "좀비 올빼미곰",
-      "description": "<p>좀비 올빼미곰은 올빼미곰의 사나움과 무분별한 언데드의 증오를 결합한 존재다. 가까이 다가오면 종종 일어서서 쉰 목소리로 젖은 포효를 내지른 뒤, 자기 보존 본능을 잊은 채 전투로 돌진한다.</p>\n<hr />\n<p>만들기 쉽고 용도가 다양한 이 비틀거리는 언데드는 지루하고 반복적인 작업을 수행하기 위해 그들의 힘과 끝없는 체력을 활용하는 데 자주 사용된다.</p>",
+      "name": "좀비 아울베어",
+      "description": "<p>좀비 아울베어은 아울베어의 사나움과 무분별한 언데드의 증오를 결합한 존재다. 가까이 다가오면 종종 일어서서 쉰 목소리로 젖은 포효를 내지른 뒤, 자기 보존 본능을 잊은 채 전투로 돌진한다.</p>\n<hr />\n<p>만들기 쉽고 용도가 다양한 이 비틀거리는 언데드는 지루하고 반복적인 작업을 수행하기 위해 그들의 힘과 끝없는 체력을 활용하는 데 자주 사용된다.</p>",
       "hpdetails": "공허 치유",
       "items": {
         "w6mjg4n86g59ym05": {
@@ -2844,18 +2844,18 @@
         },
         "zmsoavgcearhti47": {
           "name": "느림",
-          "description": "<p>좀비 올빼미곰은 영구적으로 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1} 상태이며 반응을 사용할 수 없습니다.</p>"
+          "description": "<p>좀비 아울베어은 영구적으로 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 1} 상태이며 반응을 사용할 수 없습니다.</p>"
         },
         "M5lSM9eRGm6vSvNd": {
           "name": "공허 치유"
         },
         "56vkqrstijfjdh6c": {
           "name": "지면 강타",
-          "description": "<p><strong>요구 사항</strong> 좀비 올빼미곰이 발톱으로 생물을 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡기} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{제압} 상태로 만든 경우</p>\n<hr />\n<p><strong>효과</strong> 좀비 올베어는 그 생물을 땅에 반복적으로 내리친다. 이는 @Damage[(1d10+7)[bludgeoning]]의 피해를 입힌다 (@Check[fortitude|dc:20|basic]). 대실패 시, 생물은 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{기절 1} 상태가 되며, 대성공 시 생물은 더 이상 붙잡기거나 제압되지 않는다.</p>"
+          "description": "<p><strong>요구 사항</strong> 좀비 아울베어이 발톱으로 생물을 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡기} 또는 @UUID[Compendium.pf2e.conditionitems.Item.VcDeM8A5oI6VqhbM]{제압} 상태로 만든 경우</p>\n<hr />\n<p><strong>효과</strong> 좀비 올베어는 그 생물을 땅에 반복적으로 내리친다. 이는 @Damage[(1d10+7)[bludgeoning]]의 피해를 입힌다 (@Check[fortitude|dc:20|basic]). 대실패 시, 생물은 @UUID[Compendium.pf2e.conditionitems.Item.dfCMdR4wnpbYNTix]{기절 1} 상태가 되며, 대성공 시 생물은 더 이상 붙잡기거나 제압되지 않는다.</p>"
         },
         "tabg0vo3elkeri2r": {
           "name": "소름 끼치는 비명",
-          "description": "<p>좀비 올빼미곰이 들리는 자들을 불안하게 만드는 갈라지고 으르렁거리는 비명을 지른다. @Template[emanation|distance:60] 내의 모든 생물은 @Check[will|dc:19] 내성을 시도해야 한다. 결과와 상관없이 생물들은 1분 동안 일시적으로 면역 상태가 된다.</p>\n<hr />\n<p><strong>대성공</strong> 생물은 영향을 받지 않는다.</p>\n<p><strong>성공</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 1}.</p>\n<p><strong>실패</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 2} 상태입니다.</p>\n<p><strong>대실패</strong> 생물은 1라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{도주} 상태가 되며 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 3} 상태가 됩니다.</p>"
+          "description": "<p>좀비 아울베어이 들리는 자들을 불안하게 만드는 갈라지고 으르렁거리는 비명을 지른다. @Template[emanation|distance:60] 내의 모든 생물은 @Check[will|dc:19] 내성을 시도해야 한다. 결과와 상관없이 생물들은 1분 동안 일시적으로 면역 상태가 된다.</p>\n<hr />\n<p><strong>대성공</strong> 생물은 영향을 받지 않는다.</p>\n<p><strong>성공</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 1}.</p>\n<p><strong>실패</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 2} 상태입니다.</p>\n<p><strong>대실패</strong> 생물은 1라운드 동안 @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{도주} 상태가 되며 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 3} 상태가 됩니다.</p>"
         },
         "GrurNCdRZ7stOOB7": {
           "name": "붙잡기"
@@ -2923,7 +2923,7 @@
     "Spirit Cyclone": {
       "name": "영혼 회오리",
       "desc (hazard)": "<p>분노한 영혼들의 회오리바람이 그 지역을 휘감고 있다.</p>",
-      "disable": "<p>@Check[occultism|dc:30] (훈련된) 또는 @Check[religion|dc:30] (훈련된) 능력으로 유령 현상을 약화시킬 수 있음; 유령 현상을 완전히 무력화하려면 총 3회의 성공이 필요하며, 성공 횟수는 조합에 관계없이 인정됨</p>",
+      "disable": "<p>@Check[occultism|dc:30](훈련된) 또는 @Check[religion|dc:30](훈련된) 능력으로 유령 현상을 약화시킬 수 있음; 유령 현상을 완전히 무력화하려면 총 3회의 성공이 필요하며, 성공 횟수는 조합에 관계없이 인정됨</p>",
       "reset": "<p>영혼 회오리는 1분 후 소멸되며, 1일 후 재발생합니다.</p>",
       "routine": "<p>(3 행동) 영혼 회오리는 3 행동을 사용해 이동하며, 각 행동마다 최대 30피트를 이동하고 경로상의 모든 생물에게 @Damage[(2d10+13)[void]] 피해를 입힌다(@Check[reflex|dc:32|basic] 내성). 생물은 사이클론이 자신의 공간을 여러 번 지나가더라도 이동 중 단 한 번만 저항 검사를 시도해야 합니다. 대실패 시 생물은 사이클론에 휘말려 @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡기} 상태가 됩니다([[/act escape dc=32]]). 사이클론에 붙잡힌 생물은 사이클론과 함께 이동하며, 자신의 턴 시작 시 @Damage[(1d10+6)[void]]의 피해를 입습니다. 또한 사이클론의 턴에는 사이클론이 어디로 이동하든 상관없이 사이클론에 대한 반사 내성 굴림을 시도해야 합니다. 사이클론에서 탈출에 성공한 생물은 [[/r {1d12*5} #Falling Distance]]{1d12 x 5피트} 높이에서 추락합니다.</p>",
       "stealth": "<p>(expert)</p>",
@@ -3063,7 +3063,7 @@
     "Final Words": {
       "name": "마지막 말",
       "desc (hazard)": "<p>생물이 손으로 쓴 편지를 만지면, 편지 작성자가 과거에 편지를 쓰는 모습을 목격하게 된다. 페이지 위를 가로지르는 각 펜 획은 편지의 문장을 생물의 살갗에 새겨 넣는다.</p>",
-      "disable": "<p>@Check[religion|dc:24|name:Ward off the haunt] (훈련된) 유령을 수호부하거나 @Check[thievery|dc:25|name:Dispose of the letter] (훈련된) 유령이 형성되기 전에 편지를 극도로 조심스럽게 처리하도록</p>",
+      "disable": "<p>@Check[religion|dc:24|name:Ward off the haunt](훈련된) 유령을 수호부하거나 @Check[thievery|dc:25|name:Dispose of the letter](훈련된) 유령이 형성되기 전에 편지를 극도로 조심스럽게 처리하도록</p>",
       "reset": "<p>1분</p>",
       "stealth": "<p>(훈련된) 깃펜이 종이를 긁는 소리를 듣기</p>",
       "items": {
@@ -3076,7 +3076,7 @@
     "Bloodthirsty Toy": {
       "name": "피에 굶주린 장난감",
       "desc (hazard)": "<p>지저분한 곰 인형이 움직이며, 방해하는 자를 물어뜯는다.</p>",
-      "disable": "<p>@Check[thievery|dc:20|name:Handle the Toy] (훈련된) 장난감을 건드리지 않고 다루거나 @Check[occultism|dc:21|name:Suppress the Memories] (훈련된) 장난감에 스며든 기억을 억제할 수 있다</p>",
+      "disable": "<p>@Check[thievery|dc:20|name:Handle the Toy](훈련된) 장난감을 건드리지 않고 다루거나 @Check[occultism|dc:21|name:Suppress the Memories](훈련된) 장난감에 스며든 기억을 억제할 수 있다</p>",
       "reset": "<p>1시간</p>",
       "stealth": "<p>(훈련된) 아이가 동물의 포효를 흉내내는 소리를 듣기</p>",
       "items": {
@@ -3405,7 +3405,7 @@
     "Blood Tears": {
       "name": "피눈물",
       "desc (hazard)": "<p>울부짖는 영혼이 나타나 자신의 눈을 파냅니다. 이 장면을 목격한 자들의 눈에서도 피가 스며나와 시야를 흐리게 합니다.</p>",
-      "disable": "<p>@Check[diplomacy|dc:30|name:Talk to the spirit] (마스터) 영혼이 눈을 파내는 것을 말리거나 @Check[religion|dc:32|name:Ease the spirit's sorrows] (훈련된) 영혼의 슬픔을 달래기</p>",
+      "disable": "<p>@Check[diplomacy|dc:30|name:Talk to the spirit](마스터) 영혼이 눈을 파내는 것을 말리거나 @Check[religion|dc:32|name:Ease the spirit's sorrows](훈련된) 영혼의 슬픔을 달래기</p>",
       "reset": "<p>1일</p>",
       "stealth": "<p>(마스터) 시야가 붉게 물드는 것을 알아차리다</p>",
       "items": {
