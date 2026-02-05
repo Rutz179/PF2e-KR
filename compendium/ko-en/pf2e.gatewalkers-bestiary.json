@@ -208,7 +208,7 @@
         },
         "HOEKikyuy4nwWSmn": {
           "name": "잉크 얼룩(Inkstain)",
-          "description": "<p>스케일스크라이버가 만년필로 생물에게 피해를 입힐 때, 해당 생물은 @Damage[1d4[persistent,poison]]의 피해를 받는다.</p>\n<p>이 피해를 입은 생물이 집중 특성이 있는 행동을 시도할 때, @Check[flat|DC:5] 체크에서 성공해야 하며, 실패하면 행동이 방해받는다.</p>"
+          "description": "<p>스케일스크라이버가 만년필로 생물에게 피해를 입힐 때, 해당 생물은 @Damage[1d4[persistent,poison]]의 피해를 받는다.</p>\n<p>이 피해를 입은 생물이 집중 특성이 있는 행동을 시도할 때, @Check[flat|dc:5] 체크에서 성공해야 하며, 실패하면 행동이 방해받는다.</p>"
         },
         "gjjjiArVeBThq31t": {
           "name": "도서관 로어(Library Lore)"
@@ -562,7 +562,7 @@
         },
         "BASfbdBYauj7dBCy": {
           "name": "흑서리 부패(Blackfrost Rot)",
-          "description": "<p>이 저주는 @UUID[Compendium.pf2e.spells-srd.Item.SUKaxVZW2TlM8lu0]{저주 정화} 또는 유사한 효과로 성공적으로 치료하기 전까지 1단계 이하로 감소시킬 수 없으며, 그로 인한 피해도 치유할 수 없습니다. 이후에는 일반적인 질병처럼 제거할 수 있습니다. 흑서리 저주 상태에서 냉기 피해로 사망한 생물은 24시간 후 흑서리 시체로 부활합니다. 흑서리의 반격 등급은 10입니다.</p>\n<p><strong>내성 굴림</strong> @Check[fortitude|DC:30 </p>\n<p><strong>1단계</strong> @Damage[4d6[cold]](1분)</p>\n<p><strong>2단계</strong> 냉기 약화 5 및 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수된 1}(1일)</p>\n<p><strong>3단계</strong> 냉기 약화 10 및 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수된 2}(1일)</p>"
+          "description": "<p>이 저주는 @UUID[Compendium.pf2e.spells-srd.Item.SUKaxVZW2TlM8lu0]{저주 정화} 또는 유사한 효과로 성공적으로 치료하기 전까지 1단계 이하로 감소시킬 수 없으며, 그로 인한 피해도 치유할 수 없습니다. 이후에는 일반적인 질병처럼 제거할 수 있습니다. 흑서리 저주 상태에서 냉기 피해로 사망한 생물은 24시간 후 흑서리 시체로 부활합니다. 흑서리의 반격 등급은 10입니다.</p>\n<p><strong>내성 굴림</strong> @Check[fortitude|dc:30 </p>\n<p><strong>1단계</strong> @Damage[4d6[cold]](1분)</p>\n<p><strong>2단계</strong> 냉기 약화 5 및 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수된 1}(1일)</p>\n<p><strong>3단계</strong> 냉기 약화 10 및 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수된 2}(1일)</p>"
         },
         "vvxq8pxshmt9yd29": {
           "name": "얼어붙은 숨결(Frozen Breath)",
@@ -833,7 +833,7 @@
         },
         "mUdgb2Cqijvvw65Y": {
           "name": "분해(Fall Apart)",
-          "description": "<p>손님 중 하나가 죽으면, 그 시체는 살점, 연골, 털, 뼈, 그리고 피범벅이 된 덩어리로 흩어진다. @Template[emanation|distance:10] 범위 내의 모든 생물(다른 손님 제외)은 @Check[will|DC:22] 내성 굴림을 성공해야 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18] 상태가 되지 않는다. {병약 2} 상태가 되며(대실패 시 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 4}), 이 끔찍한 광경과 악취에 질려 토하게 된다.</p>"
+          "description": "<p>손님 중 하나가 죽으면, 그 시체는 살점, 연골, 털, 뼈, 그리고 피범벅이 된 덩어리로 흩어진다. @Template[emanation|distance:10] 범위 내의 모든 생물(다른 손님 제외)은 @Check[will|dc:22] 내성 굴림을 성공해야 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18] 상태가 되지 않는다. {병약 2} 상태가 되며(대실패 시 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 4}), 이 끔찍한 광경과 악취에 질려 토하게 된다.</p>"
         },
         "YFKxEov4UIVw4Pto": {
           "name": "얼어붙은 바람(Frozen Wind)",
@@ -1058,7 +1058,7 @@
         },
         "YA74PPlktwhTomo2": {
           "name": "주입된 아이템(Infused Items)",
-          "description": "<p>에트워드는 다음 주입된 아이템을 소지하고 있으며, 이는 24시간 동안 또는 그가 다음 일일 준비를 할 때까지 지속됩니다:</p>\n<ul>\n<li>@UUID[Compendium.pf2e.equipment-srd.Item.gWr4q4HiyGhETA8H]{연금술사의 불 (중간)}(8)</li>\n<li>@UUID[Compendium.pf2e.equipment-srd.Item.qpzL9UnTi4cDhy6J]{인지 돌연변이 유발제 (중급)}</li>\n<li>@UUID[Compendium.pf2e.equipment-srd.Item.OcBPjVplvy2GbQ8P]{이해력 엘릭서 (중급)}(2) </li>\n<li>@UUID[Compendium.pf2e.equipment-srd.Item.c21stU5rhN4F2fZl]{생명의 비약 (중간)}(6)</li>\n<li>@UUID[Compendium.pf2e.equipment-srd.Item.KsAygNRyR2FdwuOm]{사이킥 색채 엘릭서}</li>\n<li>@UUID[Compendium.pf2e.equipment-srd.Item.IzniYBi8QYxHnffr]{배양 뇌} </li>\n<li>@UUID[Compendium.pf2e.equipment-srd.Item.n9VrmK9Us0viv20P]{겨울 늑대 엘릭서 (소형)}(2)</li>\n</ul>"
+          "description": "<p>에트워드는 다음 주입된 아이템을 소지하고 있으며, 이는 24시간 동안 또는 그가 다음 일일 준비를 할 때까지 지속됩니다:</p>\n<ul>\n<li>@UUID[Compendium.pf2e.equipment-srd.Item.gWr4q4HiyGhETA8H]{연금술사의 불 (중간)}(8)</li>\n<li>@UUID[Compendium.pf2e.equipment-srd.Item.qpzL9UnTi4cDhy6J]{인지 혈청 (중급)}</li>\n<li>@UUID[Compendium.pf2e.equipment-srd.Item.OcBPjVplvy2GbQ8P]{이해력 엘릭서 (중급)}(2) </li>\n<li>@UUID[Compendium.pf2e.equipment-srd.Item.c21stU5rhN4F2fZl]{생명의 비약 (중간)}(6)</li>\n<li>@UUID[Compendium.pf2e.equipment-srd.Item.KsAygNRyR2FdwuOm]{사이킥 색채 엘릭서}</li>\n<li>@UUID[Compendium.pf2e.equipment-srd.Item.IzniYBi8QYxHnffr]{배양 뇌} </li>\n<li>@UUID[Compendium.pf2e.equipment-srd.Item.n9VrmK9Us0viv20P]{겨울 늑대 엘릭서 (소형)}(2)</li>\n</ul>"
         },
         "aUe9bQ1Zp9c3xKp7": {
           "name": "꿈의 침공(Dream Invasion)",
@@ -2273,7 +2273,7 @@
     "Exploding Stove": {
       "name": "폭발하는 스토브(Exploding Stove)",
       "desc (hazard)": "<p>바닥 아래 압력 센서가 눌리면 스토브가 폭발하도록 조작되었습니다.</p>",
-      "disable": "<p>@Check[thievery|DC:20](훈련됨)으로 압력 센서를 비활성화하거나, @Check[survival|DC:20](훈련됨)으로 스토브 불을 안전하게 끄기</p>",
+      "disable": "<p>@Check[thievery|dc:20](훈련됨)으로 압력 센서를 비활성화하거나, @Check[survival|dc:20](훈련됨)으로 스토브 불을 안전하게 끄기</p>",
       "stealth": "<p>(전문가)</p>",
       "items": {
         "Jfzeyl6xxHUOt1Qa": {

@@ -492,7 +492,7 @@
         },
         "xfV7KvKayKVA2xs0": {
           "name": "폭발적인 숨결(Explosive Breath)",
-          "description": "<p>멘카레가 화염 방출을 사용할 때 원뿔 대신 폭발하는 불의 구체를 발사할 수 있다. 이 경우 60피트 내 칸의 모서리를 향해 구체가 발사된다. 구슬은 즉시 폭발하여 @Damage[24d6[fire]|options:area-damage] 피해를 줍니다(@Check[reflex|DC:48|basic|name:Explosive Orb|options:area-effect|traits:fire] 내성). 이 피해는 @Template[burst|distance:30] 범위 내의 모든 생물에게 적용됩니다. 내성에 대실패를 한 생물은 불에 타며 @Damage[4d6[persistent,fire]]의 추가 피해를 받습니다.</p>"
+          "description": "<p>멘카레가 화염 방출을 사용할 때 원뿔 대신 폭발하는 불의 구체를 발사할 수 있다. 이 경우 60피트 내 칸의 모서리를 향해 구체가 발사된다. 구슬은 즉시 폭발하여 @Damage[24d6[fire]|options:area-damage] 피해를 줍니다(@Check[reflex|dc:48|basic|name:Explosive Orb|options:area-effect|traits:fire] 내성). 이 피해는 @Template[burst|distance:30] 범위 내의 모든 생물에게 적용됩니다. 내성에 대실패를 한 생물은 불에 타며 @Damage[4d6[persistent,fire]]의 추가 피해를 받습니다.</p>"
         }
       }
     },
@@ -3110,11 +3110,11 @@
         },
         "obvyw8sjJyDFGLDy": {
           "name": "주입된 아이템(Infused Items)",
-          "description": "<p>잉노빔이 운반함</p>\n<p>4 @UUID[Compendium.pf2e.equipment-srd.Item.GttLYMT2welSpwCd]{산성 플라스크 (메이저)}</p>\n<p>4 @UUID[Compendium.pf2e.equipment-srd.Item.cLZrOihPht5M7eTw]{연금술사의 불 (메이저)} </p>\n<p>2 @UUID[Compendium.pf2e.equipment-srd.Item.nS75vsM3x5jxlUqn]{야수 변이제 (주요)}</p>\n<p>4 @UUID[Compendium.pf2e.equipment-srd.Item.rpbbfkexLhtadBDV]{병에 담긴 번개 (주요)} </p>\n<p>4 @UUID[Compendium.pf2e.equipment-srd.Item.4DJQID8GIlxQ7b9C]{서리 약병 (주요)}</p>\n<p>2 @UUID[Compendium.pf2e.equipment-srd.Item.1kNp6yOS0aZPBPzZ]{저거너트 돌연변이 유발제 (주요)}</p>\n<p>4 @UUID[Compendium.pf2e.equipment-srd.Item.qK964kZz1ALcysOa]{생명의 엘릭서 (진품)}</p>\n<p>이 효과는 24시간 동안 지속되거나, 그가 다음 일일 준비를 할 때까지 유지됩니다.</p>"
+          "description": "<p>잉노빔이 운반함</p>\n<p>4 @UUID[Compendium.pf2e.equipment-srd.Item.GttLYMT2welSpwCd]{산성 플라스크 (메이저)}</p>\n<p>4 @UUID[Compendium.pf2e.equipment-srd.Item.cLZrOihPht5M7eTw]{연금술사의 불 (메이저)} </p>\n<p>2 @UUID[Compendium.pf2e.equipment-srd.Item.nS75vsM3x5jxlUqn]{야수 혈청 (주요)}</p>\n<p>4 @UUID[Compendium.pf2e.equipment-srd.Item.rpbbfkexLhtadBDV]{병에 담긴 번개 (주요)} </p>\n<p>4 @UUID[Compendium.pf2e.equipment-srd.Item.4DJQID8GIlxQ7b9C]{서리 약병 (주요)}</p>\n<p>2 @UUID[Compendium.pf2e.equipment-srd.Item.1kNp6yOS0aZPBPzZ]{저거너트 혈청 (주요)}</p>\n<p>4 @UUID[Compendium.pf2e.equipment-srd.Item.qK964kZz1ALcysOa]{생명의 엘릭서 (진품)}</p>\n<p>이 효과는 24시간 동안 지속되거나, 그가 다음 일일 준비를 할 때까지 유지됩니다.</p>"
         },
         "fjgBPuKgD22yTRuQ": {
-          "name": "불안정한 돌연변이 유발제 주입(Inject Unstable Mutagen)",
-          "description": "<p><strong>발동</strong> 잉노빔이 주사기로 생물을 피해한다</p>\n<hr />\n<p><strong>효과</strong> 불안정한 돌연변이 유발제를 주사당한 생물은 주사를 저항하기 위해 @Check[fortitude|dc:41] 내성을 시도해야 한다.</p>\n<hr />\n<p> <strong>대성공</strong> 대상은 영향을 받지 않습니다.</p>\n<p><strong>성공</strong> 대상은 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 2} 상태가 됩니다.</p>\n<p><strong>실패</strong> 대상의 몸이 변형되며 통제하기 어려워집니다; 대상은 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 2} 상태가 되고 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 2} 상태가 24시간 지속됩니다.</p>\n<p><strong> 대실패</strong> 대상의 몸이 완전히 뒤틀려 떨리는 일그러진 살덩어리로 변해 행동이 불가능해지며, 대상은 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비} 상태가 된다. 24시간마다 대상은 이 효과에 대해 새로운 내성 굴림을 시도할 수 있으며, 대성공 시 마비가 해제된다.</p>"
+          "name": "불안정한 혈청 주입(Inject Unstable Mutagen)",
+          "description": "<p><strong>발동</strong> 잉노빔이 주사기로 생물을 피해한다</p>\n<hr />\n<p><strong>효과</strong> 불안정한 혈청을 주사당한 생물은 주사를 저항하기 위해 @Check[fortitude|dc:41] 내성을 시도해야 한다.</p>\n<hr />\n<p> <strong>대성공</strong> 대상은 영향을 받지 않습니다.</p>\n<p><strong>성공</strong> 대상은 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 2} 상태가 됩니다.</p>\n<p><strong>실패</strong> 대상의 몸이 변형되며 통제하기 어려워집니다; 대상은 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 2} 상태가 되고 @UUID[Compendium.pf2e.conditionitems.Item.MIRkyAjyBeXivMa7]{약화된 2} 상태가 24시간 지속됩니다.</p>\n<p><strong> 대실패</strong> 대상의 몸이 완전히 뒤틀려 떨리는 일그러진 살덩어리로 변해 행동이 불가능해지며, 대상은 @UUID[Compendium.pf2e.conditionitems.Item.6uEgoh53GbXuHpTF]{마비} 상태가 된다. 24시간마다 대상은 이 효과에 대해 새로운 내성 굴림을 시도할 수 있으며, 대성공 시 마비가 해제된다.</p>"
         },
         "Z28y4lP04fvgUiy2": {
           "name": "변이유도 적응(Mutagenic Adaptation)",

@@ -2042,7 +2042,7 @@
         },
         "sXjGsScjLQ7DuSAO": {
           "name": "떨리는 스키터(Shuddering Skitter)",
-          "description": "<p><strong>발동 빈도</strong> 하루에 한 번</p>\n<p><strong>발동 조건</strong> 스킨스키터의 체력이 0이 될 때</p>\n<hr />\n<p><strong>효과</strong> 죽음에 대한 공포가 스킨스키터를 격앙시켜 갑작스러운 존재적 의식의 각성을 촉발한다. 스킨스키터의 체력이 1로 감소하고, 향후 24시간 동안 무의식적 특성 및 정신 효과 면역을 상실하며, 하나의 언어(일반적으로 오시리아어 또는 부드라니어)를 구사할 수 있는 능력을 얻고, 다음 행동 중 두 가지를 임의의 순서로 수행한다: {숨기}, @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{은밀 이동}, 이동, 대걸음, 또는 @UUID[Compendium.pf2e.actionspf2e.Item.ust1jJSCZQUhBZIz]{엄폐} 중 두 가지. 또한, 스킨스키터가 '떨리는 스키터'를 사용하기 전 점유했던 칸은 어려운 지형이 된다. 스키터가 지나간 자리에 반쯤 소화된 굳은살, 씹힌 손톱, 엉킨 머리카락이 쏟아져 나오기 때문이다.</p>"
+          "description": "<p><strong>발동 빈도</strong> 하루에 한 번</p>\n<p><strong>발동 조건</strong> 스킨스키터의 체력이 0이 될 때</p>\n<hr />\n<p><strong>효과</strong> 죽음에 대한 공포가 스킨스키터를 격앙시켜 갑작스러운 존재적 의식의 각성을 촉발한다. 스킨스키터의 체력이 1로 감소하고, 향후 24시간 동안 무의식적 특성 및 정신 효과 면역을 상실하며, 하나의 언어(일반적으로 오시리아어 또는 부드라니어)를 구사할 수 있는 능력을 얻고, 다음 행동 중 두 가지를 임의의 순서로 수행한다: {숨기}, @UUID[Compendium.pf2e.actionspf2e.Item.VMozDqMMuK5kpoX4]{은밀 이동}, 이동, 일반 이동(Stride), 또는 @UUID[Compendium.pf2e.actionspf2e.Item.ust1jJSCZQUhBZIz]{엄폐} 중 두 가지. 또한, 스킨스키터가 '떨리는 스키터'를 사용하기 전 점유했던 칸은 어려운 지형이 된다. 스키터가 지나간 자리에 반쯤 소화된 굳은살, 씹힌 손톱, 엉킨 머리카락이 쏟아져 나오기 때문이다.</p>"
         },
         "YzH31yZdhxR2eUCh": {
           "name": "피부를 나누다(Share the Skin)",
@@ -2858,7 +2858,7 @@
         },
         "g54io4oqvawdyhgr": {
           "name": "끓어오르는 피(Boiling Blood)",
-          "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:48]</p>\n<p><strong>최대 지속 시간</strong> 10 라운드</p>\n<p><strong>1단계</strong> @Damage[6d8[fire]] 피해 및 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수된 1}(1라운드)</p>\n<p><strong>2단계</strong> @Damage[6d10[fire]] 피해 및 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{기력 소모 2}(1턴)</p>\n<p><strong>3단계</strong> @Damage[6d12[fire]] 피해 및 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수된 3}(1 라운드)</p>"
+          "description": "<p><strong>내성 굴림</strong> @Check[fortitude|dc:48]</p>\n<p><strong>최대 지속 시간</strong> 10 라운드</p>\n<p><strong>1단계</strong> @Damage[6d8[fire]] 피해 및 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수된 1}(1라운드)</p>\n<p><strong>2단계</strong> @Damage[6d10[fire]] 피해 및 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수됨 2}(1턴)</p>\n<p><strong>3단계</strong> @Damage[6d12[fire]] 피해 및 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흡수된 3}(1 라운드)</p>"
         },
         "llu71qnpigkzc3qg": {
           "name": "격노의 광란(Furious Frenzy)",
@@ -2994,7 +2994,7 @@
         },
         "tFpAHyH73IXBqT5F": {
           "name": "도약(Pounce)",
-          "description": "<p>크노나는 대걸음으로 이동한 후 그 이동의 끝에 공격을 가한다. 크노나가 이 행동을 은신 상태에서 시작했다면, 이 능력의 공격이 끝날 때까지 은신 상태를 유지한다.</p>"
+          "description": "<p>크노나는 일반 이동(Stride)으로 이동한 후 그 이동의 끝에 공격을 가한다. 크노나가 이 행동을 은신 상태에서 시작했다면, 이 능력의 공격이 끝날 때까지 은신 상태를 유지한다.</p>"
         },
         "boazYiEU4yxCfnQA": {
           "name": "붙잡기(Grab)"
@@ -4105,7 +4105,7 @@
     },
     "Gunpowder Ooze": {
       "name": "화약 우즈(Gunpowder Ooze)",
-      "description": "<p>화약 우즈는 생명력을 부여받은 폭발성 화약이다. 필연적으로 폭발물과 화기 제작자들은 신중한 사람들이지만, 아무리 철저한 안전 습관도 탐욕, 산만함, 부주의로 인해 무너질 수 있다 . 총기 제작 과정에서 발생하는 유독 부산물은 어디서나 환경 문제이지만, 휘발성 유출물이 마나 웨이스트로 스며들면 야생 마법과 상호작용하여 살아 움직이는 폭발적인 악몽을 만들어낸다.</p>\n<p>화약 우즈는 숯빛 회색의 울퉁불퉁한 덩어리로, 알켄스터와 마나 웨이스트 사이의 황폐한 경계선을 지글거리는 소리와 갑작스러운 펑 소리를 내며 기어다닌다. 모든 유기물을 추적해 삼키며, 총알 같은 투사체를 발사해 먹잇감을 쓰러뜨린다. 이 우즈는 본능적으로 불을 피므로, 화약 우즈 서식지에서 야영을 해야 하는 여행자들은 마나 웨이스트의 다른 주민들에게 자신의 존재를 알릴 위험에도 불구하고 종종 모닥불을 피운다. 현지의 우즈 개체군을 무기화하자는 제안은 어리석은 알켄스타인과 마나 웨이스트 전술가들에 의해 주기적으로 제기되지만, 냉철한 판단을 가진 자들에 의해 일관되게 기각된다. 그럼에도 불구하고 강행하려는 자들은 대개 폭발적인 결말을 맞이한다.</p>",
+      "description": "<p>화약 우즈는 생명력을 부여받은 폭발성 화약이다. 필연적으로 폭발물과 화기 제작자들은 신중한 사람들이지만, 아무리 철저한 안전 습관도 탐욕, 산만함, 부주의로 인해 무너질 수 있다 . 총기 제작 과정에서 발생하는 유독 부산물은 어디서나 환경 문제이지만, 휘발성 유출물이 마나 웨이스트로 스며들면 야생 마법과 상호작용하여 살아 움직이는 폭발적인 악몽을 만들어낸다.</p>\n<p>화약 우즈는 숯빛 회색의 울퉁불퉁한 덩어리로, 알켄스터와 마나 웨이스트 사이의 황폐한 경계선을 지글거리는 소리와 갑작스러운 펑 소리를 내며 기어다닌다. 모든 유기물을 추적해 삼키며, 총알 같은 투사체를 발사해 먹잇감을 쓰러뜨린다. 이 우즈는 본능적으로 불을 피므로, 화약 우즈 서식지에서 야영을 해야 하는 여행자들은 마나 웨이스트의 다른 주민들에게 자신의 존재를 알릴 위험에도 불구하고 종종 모닥불을 피운다. 현지의 우즈 개체군을 무기화하자는 제안은 어리석은 알켄스터인과 마나 웨이스트 전술가들에 의해 주기적으로 제기되지만, 냉철한 판단을 가진 자들에 의해 일관되게 기각된다. 그럼에도 불구하고 강행하려는 자들은 대개 폭발적인 결말을 맞이한다.</p>",
       "items": {
         "PtehHqk7jrGM6pXO": {
           "name": "가짜다리(Pseudopod)"

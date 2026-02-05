@@ -243,7 +243,7 @@
         },
         "9So0jWa96DacLK0a": {
           "name": "깃털 달린 돌진(Feathered Charge)",
-          "description": "<p>깃털 곰은 대걸음으로 이동한 후 그 이동의 끝에 공격을 가한다. 대걸음 이동 중 깃털 곰은 어려운 지형과 매우 어려운 지형을 무시하며, 공중을 단단한 땅처럼 쉽게 이동할 수 있다. 깃털 곰이 이동을 단단한 땅에서 끝내지 않으면, 공격이 완료되는 즉시 추락한다. </p>"
+          "description": "<p>깃털 곰은 일반 이동(Stride)으로 이동한 후 그 이동의 끝에 공격을 가한다. 일반 이동(Stride) 이동 중 깃털 곰은 어려운 지형과 매우 어려운 지형을 무시하며, 공중을 단단한 땅처럼 쉽게 이동할 수 있다. 깃털 곰이 이동을 단단한 땅에서 끝내지 않으면, 공격이 완료되는 즉시 추락한다. </p>"
         },
         "wJns5wQbhuUjoKkz": {
           "name": "마울러(Mauler)",
@@ -1189,7 +1189,7 @@
         },
         "XaV9EbmhjP3b8nYt": {
           "name": "비명 호흡(Shrieking Breath)",
-          "description": "<p>드래곤은 공포에 질린 적에게서 끌어낸 모든 비명 소리가 뒤섞인 불협화음을 내뿜으며, @Damage[17d6[sonic]|options:area-damage] 피해를 @Template[type:cone|distance:50] 범위(@Check[will|DC:40|basic|options:area-effect] 내성)에 입힌다. 의지 내성에 실패한 생물은 다음 턴의 첫 행동을 비명만 지르며 보내야 한다. 드래곤은 [[/gmr 1d4 #Recharge Shrieking Breath]]{1d4 라운드} 동안 다시 비명 호흡을 사용할 수 없다.</p>"
+          "description": "<p>드래곤은 공포에 질린 적에게서 끌어낸 모든 비명 소리가 뒤섞인 불협화음을 내뿜으며, @Damage[17d6[sonic]|options:area-damage] 피해를 @Template[type:cone|distance:50] 범위(@Check[will|dc:40|basic|options:area-effect] 내성)에 입힌다. 의지 내성에 실패한 생물은 다음 턴의 첫 행동을 비명만 지르며 보내야 한다. 드래곤은 [[/gmr 1d4 #Recharge Shrieking Breath]]{1d4 라운드} 동안 다시 비명 호흡을 사용할 수 없다.</p>"
         },
         "IgQebS6T9lTVTa9g": {
           "name": "혀의 미끼(Tongue Decoy)",
@@ -1813,7 +1813,7 @@
         },
         "j1ejW1HNjLpzBrmh": {
           "name": "번개 사슬(Lightning Chain)",
-          "description": "<p>비길리아는 60피트 내의 생물 주위에 순간적인 전기 에너지 사슬을 감아 @Damage[2d10[electricity]]의 피해를 입힙니다(@Check[Refex|DC:30|basic] 내성 굴림). 내성 굴림에 실패한 생물은 비길리아 쪽으로 10피트 끌려갑니다(대실패 시 20피트).</p>"
+          "description": "<p>비길리아는 60피트 내의 생물 주위에 순간적인 전기 에너지 사슬을 감아 @Damage[2d10[electricity]]의 피해를 입힙니다(@Check[Refex|dc:30|basic] 내성 굴림). 내성 굴림에 실패한 생물은 비길리아 쪽으로 10피트 끌려갑니다(대실패 시 20피트).</p>"
         },
         "mab3JZW2e16yWiEC": {
           "name": "포로로 잡기(Take Prisoner)",
@@ -3123,11 +3123,11 @@
         },
         "0X6EFCetuVxcbAhd": {
           "name": "파괴적인 폭발(Devastating Blast)",
-          "description": "<p>무덤 기사(Graveknight)가 @Template[cone|distance:30] 범위의 에너지를 발산한다. 해당 영역 내 생물은 @Damage[8d12[electricity]|options:범위 피해]의 피해를 입는다(@Check[reflex|DC:34|basic|options:범위 효과]). </p>\n<p>무덤 기사는 [[/gmr 1d4 #재충전 파괴적인 폭발]]{1d4 라운드}마다 이 능력을 한 번 사용할 수 있습니다.</p>"
+          "description": "<p>무덤 기사(Graveknight)가 @Template[cone|distance:30] 범위의 에너지를 발산한다. 해당 영역 내 생물은 @Damage[8d12[electricity]|options:범위 피해]의 피해를 입는다(@Check[reflex|dc:34|basic|options:범위 효과]). </p>\n<p>무덤 기사는 [[/gmr 1d4 #재충전 파괴적인 폭발]]{1d4 라운드}마다 이 능력을 한 번 사용할 수 있습니다.</p>"
         },
         "su6h0RMy6XM7g663": {
           "name": "이그젬플러(Exemplar of Violence)",
-          "description": "<p><strong>사용 빈도</strong> 라운드당 한 번</p><hr /> <p><strong>효과</strong> 무덤 기사가 공격을 시도할 때 갑옷이 사악한 힘으로 번쩍이며 아군을 폭력으로 부추긴다. 공격 후, 무덤 기사를 볼 수 있는 아군은 반응으로 이동하거나 대걸음을 사용할 수 있으나, 이 이동은 반드시 적과 인접한 공간에서 끝나야 한다. 대신 무덤 기사가 선택한 한 명의 아군이 반응으로 공격을 사용할 수 있다.</p>"
+          "description": "<p><strong>사용 빈도</strong> 라운드당 한 번</p><hr /> <p><strong>효과</strong> 무덤 기사가 공격을 시도할 때 갑옷이 사악한 힘으로 번쩍이며 아군을 폭력으로 부추긴다. 공격 후, 무덤 기사를 볼 수 있는 아군은 반응으로 이동하거나 일반 이동(Stride)을 사용할 수 있으나, 이 이동은 반드시 적과 인접한 공간에서 끝나야 한다. 대신 무덤 기사가 선택한 한 명의 아군이 반응으로 공격을 사용할 수 있다.</p>"
         },
         "RaCHriqntJh3F0HE": {
           "name": "무덤 기사의 저주(Graveknight's Curse)",
@@ -11061,7 +11061,7 @@
         },
         "BlTG6sQhDq0q8bKh": {
           "name": "회전하는 베기(Whilring Slice)",
-          "description": "<p>점술가는 비행하거나 대걸음으로 이동하며 회전한다. 점술가는 자신의 공간에 진입하는 모든 생물에게 검격의 피해를 입힌다( @Check[reflex|dc:16|basic] 내성 성공). 각 생물은 점술가가 여러 번 통과하더라도 한 번만 피해를 받는다.</p>"
+          "description": "<p>점술가는 비행하거나 일반 이동(Stride)으로 이동하며 회전한다. 점술가는 자신의 공간에 진입하는 모든 생물에게 검격의 피해를 입힌다( @Check[reflex|dc:16|basic] 내성 성공). 각 생물은 점술가가 여러 번 통과하더라도 한 번만 피해를 받는다.</p>"
         },
         "69UIocVQBeGkVbZh": {
           "name": "고문의 로어(Torture Lore)"
@@ -12574,7 +12574,7 @@
         },
         "pulStw1uzw2pS1Wf": {
           "name": "돌진(Pounce)",
-          "description": "<p>에소복은 대걸음으로 이동한 후 공격을 가한다. 이 행동을 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{은신} 상태에서 시작했다면, 공격이 끝날 때까지 은신 상태를 유지한다.</p>"
+          "description": "<p>에소복은 일반 이동(Stride)으로 이동한 후 공격을 가한다. 이 행동을 @UUID[Compendium.pf2e.conditionitems.Item.iU0fEDdBp3rXpTMC]{은신} 상태에서 시작했다면, 공격이 끝날 때까지 은신 상태를 유지한다.</p>"
         },
         "8mmJTTiFONZUJIX8": {
           "name": "목자의 손길(Shepherd's Touch)",
@@ -12658,7 +12658,7 @@
         },
         "HEeo8Cny4nmBNF1e": {
           "name": "끔찍한 접근(Awful Approach)",
-          "description": "<p><strong> 발동 빈도</strong> 10분마다 한 번</p><hr /><p><strong>효과</strong> 부활하지 않은 자는 기괴한 형태를 재구성하여 신속히 이동한다. 두 번의 대걸음을 내딛는다. 이 동작 동안 언라이즌을 목격한 모든 생명체는 @Check[fortitude|dc:28] 저항에 성공하지 못하면 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1} 상태가 된다(대실패 시 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 2} 상태). 이는 정신적·시각적 효과이다.</p>"
+          "description": "<p><strong> 발동 빈도</strong> 10분마다 한 번</p><hr /><p><strong>효과</strong> 부활하지 않은 자는 기괴한 형태를 재구성하여 신속히 이동한다. 두 번의 일반 이동(Stride)을 내딛는다. 이 동작 동안 언라이즌을 목격한 모든 생명체는 @Check[fortitude|dc:28] 저항에 성공하지 못하면 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1} 상태가 된다(대실패 시 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 2} 상태). 이는 정신적·시각적 효과이다.</p>"
         },
         "LHoHnZupawH74oRD": {
           "name": "죽음의 손아귀(Death Grip)",

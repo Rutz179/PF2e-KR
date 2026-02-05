@@ -368,7 +368,7 @@
         },
         "splf2Bg9krRw5Scf": {
           "name": "자연으로의 귀환(Return to Nature)",
-          "description": "<p>타이가 야이는 지하 식물 뿌리에게 60피트 내의 생물을 땅속으로 끌고 들어가도록 명령한다. 대상은 @Check[fortitude|dc:35] 내성에 성공하지 못하면 [[/gmr 1d4 #rounds]]{1d4 라운드} 동안 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{고정된} 상태가 된다. 이 시간이 지나면 생물은 땅에 묻히게 되며, @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 상태가 되고, 질식하기 시작하며, 땅에 묻힌 상태로 남아 있는 동안 매 라운드마다 @Damage[4d6[bludgeoning]]의 피해를 받습니다. 고정된 상태나 붙잡힌 상태에서 탈출하려면, 생물이 [[/act escape DC=35]] 체크에서 성공하거나 인접한 아군이 @Check[athletics|DC:33] 체크에서 성공하여 끌어내야 합니다.</p>"
+          "description": "<p>타이가 야이는 지하 식물 뿌리에게 60피트 내의 생물을 땅속으로 끌고 들어가도록 명령한다. 대상은 @Check[fortitude|dc:35] 내성에 성공하지 못하면 [[/gmr 1d4 #rounds]]{1d4 라운드} 동안 @UUID[Compendium.pf2e.conditionitems.Item.eIcWbB5o3pP6OIMe]{고정된} 상태가 된다. 이 시간이 지나면 생물은 땅에 묻히게 되며, @UUID[Compendium.pf2e.conditionitems.Item.kWc1fhmv9LBiTuei]{붙잡힌} 상태가 되고, 질식하기 시작하며, 땅에 묻힌 상태로 남아 있는 동안 매 라운드마다 @Damage[4d6[bludgeoning]]의 피해를 받습니다. 고정된 상태나 붙잡힌 상태에서 탈출하려면, 생물이 [[/act escape DC=35]] 체크에서 성공하거나 인접한 아군이 @Check[athletics|dc:33] 체크에서 성공하여 끌어내야 합니다.</p>"
         }
       }
     },
@@ -806,7 +806,7 @@
       "name": "공기의 균열(Air Rift)",
       "desc (hazard)": "<p>무대 위에 공기의 차원으로 통하는 포탈이 찢어져 열리며, 오페라 하우스를 찢어발기는 굉음의 바람이 휘몰아친다</p>",
       "disable": "<p> @Check[arcana|dc:38|name:Air Rift Arcana|traits:hazard,environmental,magical,air](마스터) 틈새의 마법적 실을 봉합하거나, @Check[nature|dc:40|name:Air Rift Nature|traits:hazard,environmental,magical,air] 또는 @Check[survival|dc:40|name:Air Rift Survival|traits:hazard,environmental,magical,air](전설) 강도를 줄일 만큼 창문과 문을 열거나, @UUID[Compendium.pf2e.spells-srd.Item.9HpwDN4MYQJnW0LG]{마법 해제}(7th 등급; 반격 DC 34)로 공기 균열을 반격</p>",
-      "routine": "<p>(1 행동) 바람이 무작위 방향으로 지역을 휩쓸며, 공기 균열로부터 50피트 이내의 생물과 물체가 위, 아래, 북, 남, 동, 서 방향으로 떠오르거나 내려가거나 이동합니다(d6 주사위를 굴려 방향을 결정). 해당 지역의 생물과 물체는 @Check[fortitude|DC:37|traits:damaging-effect,air,environmental,magical,hazard] 내성 굴림을 시도해야 합니다. 이 효과로 인해 생물이 단단한 물체나 다른 생물과 충돌할 경우, 양측 모두 충돌 시 @Damage[(3d8+15)[bludgeoning]] 피해를 받습니다.</p>\n<hr />\n<p><strong>대성공</strong> 생물은 영향을 받지 않습니다.</p>\n<p><strong>성공</strong> 생물은 10피트 밀려나지만, 충돌 시 받는 피해는 절반만 적용됩니다. </p>\n<p><strong>실패</strong> 생물은 20피트 밀려 넘어지고 충돌 시 전체 피해를 받습니다.</p>\n<p><strong>대실패</strong> 생물은 40피트 밀려 넘어지고 충돌 시 두 배의 피해를 받습니다.</p>",
+      "routine": "<p>(1 행동) 바람이 무작위 방향으로 지역을 휩쓸며, 공기 균열로부터 50피트 이내의 생물과 물체가 위, 아래, 북, 남, 동, 서 방향으로 떠오르거나 내려가거나 이동합니다(d6 주사위를 굴려 방향을 결정). 해당 지역의 생물과 물체는 @Check[fortitude|dc:37|traits:damaging-effect,air,environmental,magical,hazard] 내성 굴림을 시도해야 합니다. 이 효과로 인해 생물이 단단한 물체나 다른 생물과 충돌할 경우, 양측 모두 충돌 시 @Damage[(3d8+15)[bludgeoning]] 피해를 받습니다.</p>\n<hr />\n<p><strong>대성공</strong> 생물은 영향을 받지 않습니다.</p>\n<p><strong>성공</strong> 생물은 10피트 밀려나지만, 충돌 시 받는 피해는 절반만 적용됩니다. </p>\n<p><strong>실패</strong> 생물은 20피트 밀려 넘어지고 충돌 시 전체 피해를 받습니다.</p>\n<p><strong>대실패</strong> 생물은 40피트 밀려 넘어지고 충돌 시 두 배의 피해를 받습니다.</p>",
       "stealth": "<p>(마스터) 극장 내 갑작스러운 바람을 알아차리다</p>",
       "items": {
         "kk1MskNbJzxZTiUb": {
