@@ -431,7 +431,7 @@
       "items": {
         "klvdQszuOX36YOId": {
           "name": "자동 슬링",
-          "description": "<p><strong>발동 조건</strong> 최소 50파운드(약 22.7kg) 이상의 생물이나 물체가 현관(지도상 \"T\" 표시)에 놓여 있을 때</p>\n<hr />\n<p><strong>효과</strong> 발사기에서 나무 슬링 탄환이 연발로 발사된다. 함정은 가장 가까운 두 생물을 강타한 후 이니셔티브를 굴린다.</p>"
+          "description": "<p><strong>발동 조건</strong> 최소 50파운드 이상의 생물이나 물체가 현관(지도상 \"T\" 표시)에 놓여 있을 때</p>\n<hr />\n<p><strong>효과</strong> 발사기에서 나무 슬링 탄환이 연발로 발사된다. 함정은 가장 가까운 두 생물을 강타한 후 이니셔티브를 굴린다.</p>"
         },
         "uIH22aBxZefzX5nW": {
           "name": "나무 탄환"
@@ -512,7 +512,7 @@
       "items": {
         "uQqKbknFHkpW2tUg": {
           "name": "폭발물",
-          "description": "<p><strong>트리거</strong> 도어노브가 돌림 </p>\n<hr />\n<p><strong>효과</strong> 문 뒤의 폭발물이 터져, 문에서 바깥쪽으로 @Template[cone|distance:10](@Check[reflex|dc:27|basic]) 반경 내의 모든 생물에게 @Damage[(2d8+9)[fire],(2d8+9)[관통]]{2d8+9 화염 피해와 2d8+9 관통 피해}를 입힌다. 폭발 소리는 최대 50피트(약 15m) 거리까지 들릴 수 있다.</p>"
+          "description": "<p><strong>트리거</strong> 도어노브가 돌림 </p>\n<hr />\n<p><strong>효과</strong> 문 뒤의 폭발물이 터져, 문에서 바깥쪽으로 @Template[cone|distance:10](@Check[reflex|dc:27|basic]) 반경 내의 모든 생물에게 @Damage[(2d8+9)[fire],(2d8+9)[관통]]{2d8+9 화염 피해와 2d8+9 관통 피해}를 입힌다. 폭발 소리는 최대 50피트 거리까지 들릴 수 있다.</p>"
         }
       }
     },
@@ -1032,7 +1032,7 @@
       "items": {
         "vZUEiiG75S3BhFSQ": {
           "name": "갑작스러운 분출",
-          "description": "<p><strong>발동 조건</strong> 최소 50파운드(약 22.7kg) 이상의 생물이나 물체가 문 북쪽의 돌바닥(지도상 \"T\" 표시) 중 하나에 놓일 때</p>\n<hr />\n<p><strong>효과</strong> 노즐에서 고압 수액이 분사되어 @Template[cone|distance:15] 내 모든 것을 뒤덮는다. 해당 구역 내 생물이 @Check[reflex|dc:20|traits:hazard,mechanical,trap] 내성에 실패하면 악취 수액의 영향을 받는다.</p>"
+          "description": "<p><strong>발동 조건</strong> 최소 50파운드 이상의 생물이나 물체가 문 북쪽의 돌바닥(지도상 \"T\" 표시) 중 하나에 놓일 때</p>\n<hr />\n<p><strong>효과</strong> 노즐에서 고압 수액이 분사되어 @Template[cone|distance:15] 내 모든 것을 뒤덮는다. 해당 구역 내 생물이 @Check[reflex|dc:20|traits:hazard,mechanical,trap] 내성에 실패하면 악취 수액의 영향을 받는다.</p>"
         },
         "wAE2nk2fiXPfFJe1": {
           "name": "악취 수액",
@@ -1198,7 +1198,7 @@
         },
         "ryqcal3z9pfhabzx": {
           "name": "상자 들기",
-          "description": "<p><strong>요구 사항</strong> 클리어워터 클리너가 상자와 인접해 있음 </p>\n<hr />\n<p><strong>효과</strong> 클리어워터 클리너는 상자를 들어 올려 최대 15피트(약 4.5m) 높이까지 던집니다. 상자가 땅에 떨어지면 @Template[burst|distance:5]. 해당 영역 내 모든 생물은 @Damage[2d6[bludgeoning]|options:area-damage]의 피해를 입으며 (@Check[reflex|dc:13|basic|options:area-effect]), 영역은 정리될 때까지 어려운 지형이 된다.</p>"
+          "description": "<p><strong>요구 사항</strong> 클리어워터 클리너가 상자와 인접해 있음 </p>\n<hr />\n<p><strong>효과</strong> 클리어워터 클리너는 상자를 들어 올려 최대 15피트 높이까지 던집니다. 상자가 땅에 떨어지면 @Template[burst|distance:5]. 해당 영역 내 모든 생물은 @Damage[2d6[bludgeoning]|options:area-damage]의 피해를 입으며 (@Check[reflex|dc:13|basic|options:area-effect]), 영역은 정리될 때까지 어려운 지형이 된다.</p>"
         }
       },
       "PerformanceVariants": {
@@ -1569,7 +1569,7 @@
         },
         "Bri3kZ6Gc7j1IgCQ": {
           "name": "공중에 떠다니는 시체",
-          "description": "<p>스모그 레이스의 희생자들은 기이한 부력을 얻는다. 이 생물의 시체는 레이스의 유독한 스모그 오라 안에 있을 때 최대 30피트(약 9m) 높이까지 공중에 떠다닌다. 다만 레이스는 시체의 움직임을 제어할 수 없다.</p>"
+          "description": "<p>스모그 레이스의 희생자들은 기이한 부력을 얻는다. 이 생물의 시체는 레이스의 유독한 스모그 오라 안에 있을 때 최대 30피트 높이까지 공중에 떠다닌다. 다만 레이스는 시체의 움직임을 제어할 수 없다.</p>"
         },
         "lHEOBNX3i6AX7RVx": {
           "name": "생명 감지 60피트"
@@ -1984,7 +1984,7 @@
     },
     "Clockwork Puppeteer": {
       "name": "시계장치 인형사",
-      "description": "<p>시계장치 인형사는 시체를 인형처럼 조종할 수 있는 음산한 구조물이다. 보통 키는 12피트(약 3.6m)이며 가느다란 다리와 긴 팔을 지녔고, 팔 끝에는 메스 같은 발톱이 달려 있다. 손목에는 맞물린 시계 장치 고리로 이루어진 수십 개의 금속 줄이 매달려 있다.</p>\n<hr />\n<p>알켄스터의 산업 중심부 깊숙이 들어갈수록 마주하는 시계장치 적들은 점점 더 복잡하고 치명적으로 진화한다.</p>",
+      "description": "<p>시계장치 인형사는 시체를 인형처럼 조종할 수 있는 음산한 구조물이다. 보통 키는 12피트이며 가느다란 다리와 긴 팔을 지녔고, 팔 끝에는 메스 같은 발톱이 달려 있다. 손목에는 맞물린 시계 장치 고리로 이루어진 수십 개의 금속 줄이 매달려 있다.</p>\n<hr />\n<p>알켄스터의 산업 중심부 깊숙이 들어갈수록 마주하는 시계장치 적들은 점점 더 복잡하고 치명적으로 진화한다.</p>",
       "items": {
         "oWJDjx3Yv65lm2dA": {
           "name": "발톱"
@@ -2473,7 +2473,7 @@
       "items": {
         "BhwFjVsraJcLLbrF": {
           "name": "자동 볼터",
-          "description": "<p><strong>트리거</strong> 복도 남쪽 끝의 압력판에 최소 25파운드(약 11.3kg) 이상의 물체나 생물이 밟음</p>\n<hr />\n<p><strong>효과</strong> 강철 상자에 담긴 <em>+1 강타 공격력 중형 석궁</em>이 천장에서 떨어지며 발사된다. 이 반복 석궁 함정은 복도에 있는 무작위 생물을 공격한다. 함정은 이후 이니셔티브를 굴림.</p>"
+          "description": "<p><strong>트리거</strong> 복도 남쪽 끝의 압력판에 최소 25파운드 이상의 물체나 생물이 밟음</p>\n<hr />\n<p><strong>효과</strong> 강철 상자에 담긴 <em>+1 강타 공격력 중형 석궁</em>이 천장에서 떨어지며 발사된다. 이 반복 석궁 함정은 복도에 있는 무작위 생물을 공격한다. 함정은 이후 이니셔티브를 굴림.</p>"
         },
         "6fkjRxXSm5hFWjLC": {
           "name": "중형 석궁"
@@ -2525,7 +2525,7 @@
         },
         "RLyfMb5fTBOG3p9w": {
           "name": "물 점프",
-          "description": "<p><strong>요구 사항</strong> 시계장치 해적의 물탱크가 가득 차 있음</p>\n<hr />\n<p><strong>효과</strong> 시계장치 해적은 물줄기로 공중을 날아 60피트(약 18m)를 점프한다. 이로 인해 해적의 물탱크가 비워진다.</p>"
+          "description": "<p><strong>요구 사항</strong> 시계장치 해적의 물탱크가 가득 차 있음</p>\n<hr />\n<p><strong>효과</strong> 시계장치 해적은 물줄기로 공중을 날아 60피트를 점프한다. 이로 인해 해적의 물탱크가 비워진다.</p>"
         }
       },
       "DeceptionVariants": {
@@ -2570,7 +2570,7 @@
         },
         "RLyfMb5fTBOG3p9w": {
           "name": "물 점프",
-          "description": "<p><strong>요구 사항</strong> 시계장치 해적의 물탱크가 가득 차 있음</p>\n<hr />\n<p><strong>효과</strong> 시계장치 해적은 물줄기로 공중을 날아가며 60피트(약 18.3m)를 점프한다. 이로 인해 해적의 물탱크가 비워진다.</p>"
+          "description": "<p><strong>요구 사항</strong> 시계장치 해적의 물탱크가 가득 차 있음</p>\n<hr />\n<p><strong>효과</strong> 시계장치 해적은 물줄기로 공중을 날아가며 60피트를 점프한다. 이로 인해 해적의 물탱크가 비워진다.</p>"
         }
       },
       "DeceptionVariants": {

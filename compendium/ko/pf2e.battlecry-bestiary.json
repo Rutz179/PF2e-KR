@@ -63,7 +63,7 @@
         },
         "FUmBqO0V8PxJ39YL": {
           "name": "드레이크의 숨결",
-          "description": "<p>비행대 내 특정 드레이크들이 숨결 무기(또는 유사 능력)를 사용해 120피트(약 36.5m) 반경 @Template[type:burst|distance:15] 내에서 폭발하는 에너지를 내뿜는다. 이 폭발은 @Damage[5d6[untyped]|options:area-damage]의 피해(산성, 냉기, 화염, 또는 독 피해)를 입힌다; 해당 능력은 대응하는 특성을 얻는다. 드레이크 비행대는 다른 피해 유형으로 이 능력을 사용할 때까지 동일한 피해 유형을 선택할 수 없다. 드레이크가 2개 세그먼트로 줄어들면 이 범위는 @Template[type:burst|distance:10]로 감소한다.</p>"
+          "description": "<p>비행대 내 특정 드레이크들이 숨결 무기(또는 유사 능력)를 사용해 120피트 반경 @Template[type:burst|distance:15] 내에서 폭발하는 에너지를 내뿜는다. 이 폭발은 @Damage[5d6[untyped]|options:area-damage]의 피해(산성, 냉기, 화염, 또는 독 피해)를 입힌다; 해당 능력은 대응하는 특성을 얻는다. 드레이크 비행대는 다른 피해 유형으로 이 능력을 사용할 때까지 동일한 피해 유형을 선택할 수 없다. 드레이크가 2개 세그먼트로 줄어들면 이 범위는 @Template[type:burst|distance:10]로 감소한다.</p>"
         },
         "hL2HetxBFbq6nqu3": {
           "name": "속도 급증",
@@ -267,7 +267,7 @@
       "items": {
         "SPbz9zTjxVJ1NfTI": {
           "name": "후퇴 금지",
-          "description": "<p>이 병사들은 어떤 상황에서도 자리를 지키도록 철저히 훈련받았다. 일류 보병이 이동하도록 기세가 발생할 경우, 이동 거리를 10피트(약 3m) 감소시킨다. @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{도주} 상태에 영향을 받을 때마다, 일류 보병은 동일한 지속 시간 동안 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 2} 상태가 된다.</p>"
+          "description": "<p>이 병사들은 어떤 상황에서도 자리를 지키도록 철저히 훈련받았다. 일류 보병이 이동하도록 기세가 발생할 경우, 이동 거리를 10피트 감소시킨다. @UUID[Compendium.pf2e.conditionitems.Item.sDPxOjQ9kx2RZE8D]{도주} 상태에 영향을 받을 때마다, 일류 보병은 동일한 지속 시간 동안 @UUID[Compendium.pf2e.conditionitems.Item.xYTAsEpcJE1Ccni3]{느려짐 2} 상태가 된다.</p>"
         },
         "icFtpyk3vKrnSxKV": {
           "name": "부대 방어",
@@ -1320,7 +1320,7 @@
         },
         "yhqrLAWULs5GIiU6": {
           "name": "산성비",
-          "description": "<p>데줄론 덤불은 산성 소화액을 캐스케이드처럼 분출하여 원거리 공격을 가하며, 30피트(9m) 내의 @Template[type:burst|distance:10] 범위(@Check[reflex|dc:33|basic|options:area-effect] 내성)에 @Damage[6d6[acid]|options:area-damage,inflicts:amnesia-venom]의 피해를 주고, 강타당한 모든 생물에게 기억상실 맹독을 발동합니다. 덤불이 2개 세그먼트로 줄어들면 이 영역은 @Template[type:burst|distance:5]로 축소됩니다.</p>"
+          "description": "<p>데줄론 덤불은 산성 소화액을 폭포수처럼 분출하여 원거리 공격을 가하며, 30피트(9m) 내의 @Template[type:burst|distance:10] 범위(@Check[reflex|dc:33|basic|options:area-effect] 내성)에 @Damage[6d6[acid]|options:area-damage,inflicts:amnesia-venom]의 피해를 주고, 강타당한 모든 생물에게 기억상실 맹독을 발동합니다. 덤불이 2개 세그먼트로 줄어들면 이 영역은 @Template[type:burst|distance:5]로 축소됩니다.</p>"
         },
         "SGypy396AZEVRfyW": {
           "name": "기억상실 맹독",
@@ -1718,7 +1718,7 @@
     },
     "Dwarf Longshot Squad (Guns)": {
       "name": "드워프 원거리 사격대 (총기)",
-      "description": "<p>많은 드워프들이 망치와 방패를 다루는 법을 익히는 반면, 일부는 주로 튼튼한 드워프 제작 석궁 같은 원거리 무기의 마스터가 되려 한다. 드워프 군대는 특히 비좁은 터널과 지하 동굴 밖에서 장거리 사수 부대를 최전방 방어선으로 활용한다.</p><h2>총을 든 원거리 사수</h2><p>동군 거점(Dongun Hold)과 유사한 지역의 드워프들은 화기를 사용할 수 있으며, 드워프 원거리 사수 분대에게 소총을 지급하여 이를 반영할 수 있다. 통계 블록을 수정해 '흔하지 않은' 특성을 부여하고, '석궁' 언급을 '소총'으로, '화살'을 '탄환'으로 대체하세요. 또한 '푸른 하늘의 화살' 액션에 충격 특성을 부여하세요. 이는 각 대상에게 타격 또는 관통 피해 중 더 큰 피해를 주는 방식으로 적용됩니다(이 액션을 '푸른 하늘의 총알'로 명명할 수도 있습니다). 마지막으로 '방해 사격'을 다음 능력으로 대체하세요.</p>\n<p><strong>총알 연무</strong> <span class=\"action-glyph\">2</span> 드워프 저격수들은 소총을 연발하여 120피트(약 36.5m) 이내에 연무 구름을 생성한다. 이 연기는 @Template[type:burst|distance:20]이며, 1분 동안 지속되거나 강한 바람에 흩어질 때까지 지속된다(둘 중 먼저 발생하는 경우). 연기 안의 모든 생물은 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진} 상태가 되며, 연기 밖의 모든 생물은 연기 안의 생물에게 가려진 상태가 된다.</p>",
+      "description": "<p>많은 드워프들이 망치와 방패를 다루는 법을 익히는 반면, 일부는 주로 튼튼한 드워프 제작 석궁 같은 원거리 무기의 마스터가 되려 한다. 드워프 군대는 특히 비좁은 터널과 지하 동굴 밖에서 장거리 사수 부대를 최전방 방어선으로 활용한다.</p><h2>총을 든 원거리 사수</h2><p>동군 거점(Dongun Hold)과 유사한 지역의 드워프들은 화기를 사용할 수 있으며, 드워프 원거리 사수 분대에게 소총을 지급하여 이를 반영할 수 있다. 통계 블록을 수정해 '흔하지 않은' 특성을 부여하고, '석궁' 언급을 '소총'으로, '화살'을 '탄환'으로 대체하세요. 또한 '푸른 하늘의 화살' 액션에 충격 특성을 부여하세요. 이는 각 대상에게 타격 또는 관통 피해 중 더 큰 피해를 주는 방식으로 적용됩니다(이 액션을 '푸른 하늘의 총알'로 명명할 수도 있습니다). 마지막으로 '방해 사격'을 다음 능력으로 대체하세요.</p>\n<p><strong>총알 연무</strong> <span class=\"action-glyph\">2</span> 드워프 저격수들은 소총을 연발하여 120피트 이내에 연무 구름을 생성한다. 이 연기는 @Template[type:burst|distance:20]이며, 1분 동안 지속되거나 강한 바람에 흩어질 때까지 지속된다(둘 중 먼저 발생하는 경우). 연기 안의 모든 생물은 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진} 상태가 되며, 연기 밖의 모든 생물은 연기 안의 생물에게 가려진 상태가 된다.</p>",
       "hpdetails": "(4 구간); 임계값 120 (3 구간), 60 (2 구간)",
       "items": {
         "icFtpyk3vKrnSxKV": {
@@ -1734,7 +1734,7 @@
         },
         "vTdnKvhxzs5uAmUE": {
           "name": "총알 연무",
-          "description": "<p>드워프 저격수들이 소총을 연발하여 120피트(약 36.5m) 이내에 연기를 생성한다. 이 연기는 @Template[type:burst|distance:20]이며, 1분 동안 지속되거나 강한 바람에 흩어질 때까지 유지된다(둘 중 먼저 발생하는 경우). 연기 구름 안에 있는 모든 생물은 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진} 상태가 되며, 연기 구름 밖에 있는 모든 생물은 연기 구름 안에 있는 생물들에게 {가려진} 상태가 된다.</p>"
+          "description": "<p>드워프 저격수들이 소총을 연발하여 120피트 이내에 연기를 생성한다. 이 연기는 @Template[type:burst|distance:20]이며, 1분 동안 지속되거나 강한 바람에 흩어질 때까지 유지된다(둘 중 먼저 발생하는 경우). 연기 구름 안에 있는 모든 생물은 @UUID[Compendium.pf2e.conditionitems.Item.DmAIPqOBomZ7H95W]{가려진} 상태가 되며, 연기 구름 밖에 있는 모든 생물은 연기 구름 안에 있는 생물들에게 {가려진} 상태가 된다.</p>"
         },
         "EONX1OgwRhf35gSm": {
           "name": "푸른 하늘에서 날아온 총알",

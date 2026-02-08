@@ -2214,7 +2214,7 @@
         },
         "9uDPkhvDHQvs18xG": {
           "name": "생식 출산",
-          "description": "<p>죽을 때, 여왕 벌레는 몸속에 품은 새끼를 폭력적으로 배출합니다. 이 새끼들은 여왕 벌레의 공간에서 @UUID[Compendium.pf2e.pathfinder-bestiary-3.Actor.aQusm2Uh1tw00IVb]{Bore Worm Swarm}로 폭발적으로 튀어나옵니다.</p>\n<p>또한, @Template[emanation|distance:20]{20 피트} 내의 모든 생물은 부식성 내장의 튀김으로 @Damage[5d10[acid]]의 피해를 받습니다 (@Check[reflex|dc:25|basic] 내성).</p>"
+          "description": "<p>죽을 때, 여왕 벌레는 몸속에 품은 새끼를 폭력적으로 배출합니다. 이 새끼들은 여왕 벌레의 공간에서 @UUID[Compendium.pf2e.pathfinder-bestiary-3.Actor.aQusm2Uh1tw00IVb]{Bore Worm Swarm}로 폭발적으로 튀어나옵니다.</p>\n<p>또한, @Template[emanation|distance:20]{20 피트} 내의 모든 생물은 부식성 내장의 스플래시로 @Damage[5d10[acid]]의 피해를 받습니다 (@Check[reflex|dc:25|basic] 내성).</p>"
         },
         "GFFvPm7EbrqTqDNh": {
           "name": "보어",
@@ -3692,8 +3692,8 @@
       }
     },
     "Wyrmwraith": {
-      "name": "와임레이스",
-      "description": "<p>죽음을 받아들이지 않았지만, 와임레이스는 새로운 언데드 상태를 경멸합니다. 보물을 모을 동기가 전혀 없는 와임레이스는 대신 모든 생명체(특히 드래곤)에 대한 증오와 자기 혐오에 집착합니다. 와임레이스는 그 존재 자체로 땅을 황폐화시키고, 서서히 퍼져 나가서 그들의 소굴이 다른 언데드들이 출몰하는 생명이 없는 황무지가 될 때까지 계속합니다. </p>\n<hr />\n<p>와임레이스는 죽음을 받아들이지 않거나 내세를 비합리적으로 두려워하는 드래곤의 영혼에서 태어납니다. </p>",
+      "name": "웜레이스",
+      "description": "<p>죽음을 받아들이지 않았지만, 웜레이스는 새로운 언데드 상태를 경멸합니다. 보물을 모을 동기가 전혀 없는 웜레이스는 대신 모든 생명체(특히 드래곤)에 대한 증오와 자기 혐오에 집착합니다. 웜레이스는 그 존재 자체로 땅을 황폐화시키고, 서서히 퍼져 나가서 그들의 소굴이 다른 언데드들이 출몰하는 생명이 없는 황무지가 될 때까지 계속합니다. </p>\n<hr />\n<p>웜레이스는 죽음을 받아들이지 않거나 내세를 비합리적으로 두려워하는 드래곤의 영혼에서 태어납니다. </p>",
       "hpdetails": "공허 치유",
       "items": {
         "f6S96FxE504I9tBq": {
@@ -3722,15 +3722,15 @@
         },
         "Nc31MydJOBHcqpyb": {
           "name": "신성한 해제",
-          "description": "<p>와임레이스의 발톱은 신성한 마법을 찢어 버립니다. 와임레이스가 유령의 발톱 공격으로 생물에게 타격을 입힐 때마다, 와임레이스는 @Check[religion] 체크를 시도하여 그 생물에 적용된 신성한 주문 효과를 무효화할 수 있습니다."
+          "description": "<p>웜레이스의 발톱은 신성한 마법을 찢어 버립니다. 웜레이스가 유령의 발톱 공격으로 생물에게 타격을 입힐 때마다, 웜레이스는 @Check[religion] 체크를 시도하여 그 생물에 적용된 신성한 주문 효과를 무효화할 수 있습니다."
         },
         "gLK9FYslyozpAyWH": {
           "name": "드래곤의 광란",
-          "description": "<p>와임레이스는 두 번의 발톱 공격과 한 번의 턱 공격을 임의의 순서로 수행합니다."
+          "description": "<p>웜레이스는 두 번의 발톱 공격과 한 번의 턱 공격을 임의의 순서로 수행합니다."
         },
         "HHS4CPEzSJeRK2TJ": {
           "name": "생명력 흡수",
-          "description": "<p>와임레이스가 유령의 턱이나 유령의 발톱 공격으로 살아있는 생물에게 피해를 입힐 때마다, 와임레이스는 [[/r 18 #임시 체력]]{18 임시 체력}을 얻고, 그 생물은 @Check[fortitude|dc:38] 내성 체크에 성공하지 못하면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 2}가 됩니다. 와이머웨이트의 스펙트럴 턱이나 스펙트럴 클로 공격으로 추가 피해를 입으면, 내성 체크에 실패할 때마다 흡수된 상태의 값이 2씩 증가하며, 최대 흡수 4까지 증가합니다."
+          "description": "<p>웜레이스가 유령의 턱이나 유령의 발톱 공격으로 살아있는 생물에게 피해를 입힐 때마다, 웜레이스는 [[/r 18 #임시 체력]]{18 임시 체력}을 얻고, 그 생물은 @Check[fortitude|dc:38] 내성 체크에 성공하지 못하면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 2}가 됩니다. 와이머웨이트의 스펙트럴 턱이나 스펙트럴 클로 공격으로 추가 피해를 입으면, 내성 체크에 실패할 때마다 흡수된 상태의 값이 2씩 증가하며, 최대 흡수 4까지 증가합니다."
         },
         "S8A8KdLa7fpa3GXF": {
           "name": "엑토플라즘 형태",
@@ -3876,7 +3876,7 @@
         },
         "GOF0Ud2jC782jqa5": {
           "name": "지식 마스터",
-          "description": "<p>하쿠메는 바드적 지식 기술을 사용하여 어떤 주제에 대한 지식을 회상할 수 있으며, 하루 이상 머문 지역의 공용 언어를 모두 알고 있습니다.</p>"
+          "description": "<p>하쿠메는 바드적 로어를 사용하여 어떤 주제에 대한 지식을 회상할 수 있으며, 하루 이상 머문 지역의 공용 언어를 모두 알고 있습니다.</p>"
         },
         "Vu7yHDGMbHRCK2KR": {
           "name": "전방위 시야",
@@ -5675,7 +5675,7 @@
       "items": {
         "RVk9mcBqt1YRswGY": {
           "name": "사막에 적응한",
-          "description": "<p>낙타는 더위와 사막에 잘 적응합니다. 물과 먹이를 충분히 섭취할 수 있다면 (약 40갤런), 생존 체크를 시도할 필요 없이 2주 동안 @UUID[Compendium.pf2e.actionspf2e.Item.49y9Ec4bDii8pcD3]{Subsist} 할 수 있으며, 환경의 더위를 한 단계 덜 심한 것으로 취급합니다."
+          "description": "<p>낙타는 더위와 사막에 잘 적응합니다. 물과 먹이를 충분히 섭취할 수 있다면 , 생존 체크를 시도할 필요 없이 2주 동안 @UUID[Compendium.pf2e.actionspf2e.Item.49y9Ec4bDii8pcD3]{Subsist} 할 수 있으며, 환경의 더위를 한 단계 덜 심한 것으로 취급합니다."
         },
         "hcf7RGBrhHKjGcG4": {
           "name": "낙타의 침",
@@ -7680,7 +7680,7 @@
     },
     "Elder Wyrmwraith": {
       "name": "장로 웜레이스",
-      "description": "<p>이 몬스터 중 가장 강력한 엘더 와임레이스는 사후의 세계를 비이성적으로 두려워하는 전설적인 드래곤에서 자발적으로 생성되는 경우도 있지만, 대부분은 단순히 천 년 이상 존재하면서 계속 힘을 키운 존재들입니다.</p>\n<hr />\n<p>Wyrmwraith는 죽음을 받아들이지 않거나 사후 세계에 대한 이성적이지 않은 두려움을 가진 드래곤의 영혼에서 탄생합니다.</p>",
+      "description": "<p>이 몬스터 중 가장 강력한 엘더 웜레이스는 사후의 세계를 비이성적으로 두려워하는 전설적인 드래곤에서 자발적으로 생성되는 경우도 있지만, 대부분은 단순히 천 년 이상 존재하면서 계속 힘을 키운 존재들입니다.</p>\n<hr />\n<p>Wyrmwraith는 죽음을 받아들이지 않거나 사후 세계에 대한 이성적이지 않은 두려움을 가진 드래곤의 영혼에서 탄생합니다.</p>",
       "hpdetails": "공허 치유",
       "items": {
         "jqQAuZsUGFs0m1uI": {
@@ -7705,23 +7705,23 @@
         },
         "oVjrC7X48FBIjCug": {
           "name": "호흡 무기",
-          "description": "<p>장로 와임레이스는 @Template[cone|distance:90](@Check[reflex|dc:46|basic|options:area-effect] 내성)에 있는 모든 생물에게 @Damage[24d6[void]|options:area-damage]의 피해를 주는 공허의 에너지를 발산합니다.</p>\n<p>그들은 [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 라운드} 동안 Breath Weapon을 다시 사용할 수 없습니다. </p>"
+          "description": "<p>장로 웜레이스는 @Template[cone|distance:90](@Check[reflex|dc:46|basic|options:area-effect] 내성)에 있는 모든 생물에게 @Damage[24d6[void]|options:area-damage]의 피해를 주는 공허의 에너지를 발산합니다.</p>\n<p>그들은 [[/gmr 1d4 #Recharge Breath Weapon]]{1d4 라운드} 동안 Breath Weapon을 다시 사용할 수 없습니다. </p>"
         },
         "k3dgXH9CegWMvwQi": {
           "name": "Consume Souls",
-          "description": "<p>고위 와임레이스는 날카롭게 숨을 들이마시며 주변 생물들의 영혼을 빨아들입니다. @Template[cone|distance:60]에 있는 모든 생물은 @Check[will|dc:46|traits:damaging-effect] 내성 굴림을 시도해야 합니다.</p>\n<hr />\n<p><strong>대성공</strong> 생물은 영향을 받지 않습니다.</p>\n<p><strong>실패</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 2}가 되고 @Damage[100[void]]의 피해를 받습니다. wyrmwraith가 존재하는 한, 죽은 생물은 어떤 방법으로도 부활할 수 없습니다."
+          "description": "<p>고위 웜레이스는 날카롭게 숨을 들이마시며 주변 생물들의 영혼을 빨아들입니다. @Template[cone|distance:60]에 있는 모든 생물은 @Check[will|dc:46|traits:damaging-effect] 내성 굴림을 시도해야 합니다.</p>\n<hr />\n<p><strong>대성공</strong> 생물은 영향을 받지 않습니다.</p>\n<p><strong>실패</strong> 생물은 @UUID[Compendium.pf2e.conditionitems.Item.3uh1r86TzbQvosxv]{Doomed 2}가 되고 @Damage[100[void]]의 피해를 받습니다. wyrmwraith가 존재하는 한, 죽은 생물은 어떤 방법으로도 부활할 수 없습니다."
         },
         "IO9iVIVpEfBjrcmw": {
           "name": "신성한 해제",
-          "description": "<p>장로 와임레이스의 발톱이 신성한 마법을 찢어 버립니다. 장로 와임레이스가 유령의 발톱 공격으로 생물을 공격할 때마다, 장로 와임레이스는 @Check[religion] 체크를 시도하여 그 생물에 적용된 신성한 주문 효과를 무효화할 수 있습니다."
+          "description": "<p>장로 웜레이스의 발톱이 신성한 마법을 찢어 버립니다. 장로 웜레이스가 유령의 발톱 공격으로 생물을 공격할 때마다, 장로 웜레이스는 @Check[religion] 체크를 시도하여 그 생물에 적용된 신성한 주문 효과를 무효화할 수 있습니다."
         },
         "9bnT3kvF7tmt4OdX": {
           "name": "드래곤의 광란",
-          "description": "<p>장로 와임레이스는 두 번의 발톱 공격과 한 번의 턱 공격을 임의의 순서로 수행합니다."
+          "description": "<p>장로 웜레이스는 두 번의 발톱 공격과 한 번의 턱 공격을 임의의 순서로 수행합니다."
         },
         "sT9rrvUVQPaZDRMI": {
           "name": "생명력 흡수",
-          "description": "<p>장로 와임레이스가 유령의 턱이나 유령의 발톱 공격으로 살아있는 생물에게 피해를 입힐 때마다, 장로 와임레이스는 [[/r 24 #임시 체력]]{24 임시 체력}을 얻고, 그 생물은 @Check[fortitude|dc:46] 내성 체크에 성공하지 못하면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 2}가 됩니다. 엘더 웜레이스의 스펙트럼 턱이나 스펙트럼 발톱 공격으로 추가 피해를 입으면, 내성 체크에 실패하면 흡수된 상태의 값이 2씩 증가하며, 최대 흡수 4까지 증가합니다."
+          "description": "<p>장로 웜레이스가 유령의 턱이나 유령의 발톱 공격으로 살아있는 생물에게 피해를 입힐 때마다, 장로 웜레이스는 [[/r 24 #임시 체력]]{24 임시 체력}을 얻고, 그 생물은 @Check[fortitude|dc:46] 내성 체크에 성공하지 못하면 @UUID[Compendium.pf2e.conditionitems.Item.4D2KBtexWXa6oUMR]{흠수됨 2}가 됩니다. 엘더 웜레이스의 스펙트럼 턱이나 스펙트럼 발톱 공격으로 추가 피해를 입으면, 내성 체크에 실패하면 흡수된 상태의 값이 2씩 증가하며, 최대 흡수 4까지 증가합니다."
         },
         "7osAd2va2Xd7Jqmw": {
           "name": "엑토플라즘 형태",
