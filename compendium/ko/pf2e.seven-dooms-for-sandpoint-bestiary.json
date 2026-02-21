@@ -310,7 +310,7 @@
         },
         "o8cbkspx01eskehx": {
           "name": "공포의 웃음",
-          "description": "<p><strong>빈도</strong> 분당 1회</p>\n<hr />\n<p><strong>Effect</strong> 게이스트는 @Template[emanation|distance:20] 범위 내에서 영혼을 찌르는 웃음을 내뿜으며, 이는 다음 차례의 시작까지 지속됩니다. 범위 내 또는 범위 내에 들어오는 모든 생물은 @Check[will|dc:26] 내성 굴림에 성공하지 못하면 공포에 휩싸여 웃음을 참지 못하고 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 2} 상태가 됩니다 (비판적 실패 시 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 3} 상태가 됩니다). 생물은 각 Terrifying Laugh에 대해 한 번만 내성 굴림을 시도하며, 내성 굴림에 성공한 생물은 24시간 동안 일시적으로 면역됩니다.</p>"
+          "description": "<p><strong>빈도</strong> 분당 1회</p>\n<hr />\n<p><strong>Effect</strong> 게이스트는 @Template[emanation|distance:20] 범위 내에서 영혼을 찌르는 웃음을 내뿜으며, 이는 다음 차례의 시작까지 지속됩니다. 범위 내 또는 범위 내에 들어오는 모든 생물은 @Check[will|dc:26] 내성 굴림에 성공하지 못하면 공포에 휩싸여 웃음을 참지 못하고 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 2} 상태가 됩니다 (대실패 시 @UUID[Compendium.pf2e.conditionitems.Item.TBSHQspnbcqxsmjL]{공포 3} 상태가 됩니다). 생물은 각 Terrifying Laugh에 대해 한 번만 내성 굴림을 시도하며, 내성 굴림에 성공한 생물은 24시간 동안 일시적으로 면역됩니다.</p>"
         },
         "58ox9o6ljire079b": {
           "name": "유령의 분노",
@@ -989,7 +989,7 @@
       "items": {
         "aTL1rhGZBmPfUbXX": {
           "name": "메스꺼운 맥박",
-          "description": "<p><strong>트리거</strong> 녹색 결정체로부터 20피트 이내에 살아있는 생물이 접근합니다.</p>\n<hr />\n<p><strong>효과</strong> 결정체가 메스꺼운 빛으로 맥동합니다. 이 지역 내 모든 생물 <strong>E14</strong> 또는 이 지역에서 나가는 두 통로 중 어느 하나로부터 10피트 이내에 있는 모든 생물은 @Check[fortitude|dc:25] 내성 굴림에서 성공하지 못하면 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1} 상태가 됩니다 (비판적 실패 시 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 3}가 됩니다).</p>"
+          "description": "<p><strong>트리거</strong> 녹색 결정체로부터 20피트 이내에 살아있는 생물이 접근합니다.</p>\n<hr />\n<p><strong>효과</strong> 결정체가 메스꺼운 빛으로 맥동합니다. 이 지역 내 모든 생물 <strong>E14</strong> 또는 이 지역에서 나가는 두 통로 중 어느 하나로부터 10피트 이내에 있는 모든 생물은 @Check[fortitude|dc:25] 내성 굴림에서 성공하지 못하면 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{병약 1} 상태가 됩니다 (대실패 시 @UUID[Compendium.pf2e.conditionitems.Item.fesd1n5eVhpCSS18]{Sickened 3}가 됩니다).</p>"
         }
       }
     },
