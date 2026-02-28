@@ -172,7 +172,7 @@
         },
         "FhwufRLfw0dtrKFI": {
           "name": "무릎 절단기",
-          "description": "<p><strong>발동조건</strong> 우르벨의 도달 범위 내 중간 크기의 생물이 이동 행동으로 칸을 떠날 때</p>\n<hr />\n<p><strong>효과</strong> 어벨이 발동한 생물의 무릎을 강타하여 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드리기} 상태로 만들려 한다. 그는 대상의 반사력 DC에 대해 @Check[acrobatics|defense:reflex] 체크를 시도한다. 성공 시, 대상은 넘어져 엎드린 상태가 된다.</p>"
+          "description": "<p><strong>발동조건</strong> 우르벨의 도달 범위 내 중간 크기의 생물이 이동 행동으로 칸을 떠날 때</p>\n<hr />\n<p><strong>효과</strong> 어벨이 발동한 생물의 무릎을 강타하여 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드리기} 상태로 만들려 한다. 그는 대상의 반사 DC에 대해 @Check[acrobatics|defense:reflex] 체크를 시도한다. 성공 시, 대상은 넘어져 엎드린 상태가 된다.</p>"
         },
         "XMY6Ffvkss4xKcjw": {
           "name": "불리",
@@ -1616,7 +1616,7 @@
         },
         "c5u8stvcew53sws7": {
           "name": "예측 타격",
-          "description": "<p><strong> 트리거</strong> 할브룩스의 턴이 시작됨</p>\n<hr />\n<p><strong>효과</strong> 할브룩스는 시야 내 생물의 즉각적인 움직임을 파악하고 해당 생물의 반사력 DC에 대해 @Check[fortune-telling-lore|defense:reflex]{점술 로어} 체크를 시도한다.</p>\n<p>성공 시, 할브룩스의 근접 공격은 해당 생물에게 할브룩스의 턴이 끝날 때까지 추가로 4d6 정밀 피해를 입힌다(대성공 시 6d6 정밀 피해).</p>"
+          "description": "<p><strong> 트리거</strong> 할브룩스의 턴이 시작됨</p>\n<hr />\n<p><strong>효과</strong> 할브룩스는 시야 내 생물의 즉각적인 움직임을 파악하고 해당 생물의 반사 DC에 대해 @Check[fortune-telling-lore|defense:reflex]{점술 로어} 체크를 시도한다.</p>\n<p>성공 시, 할브룩스의 근접 공격은 해당 생물에게 할브룩스의 턴이 끝날 때까지 추가로 4d6 정밀 피해를 입힌다(대성공 시 6d6 정밀 피해).</p>"
         },
         "km24nwckr7mfjzhx": {
           "name": "가속 시전",

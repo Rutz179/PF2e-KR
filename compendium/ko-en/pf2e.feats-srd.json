@@ -2348,7 +2348,7 @@
     },
     "Vestigial Wings": {
       "name": "잔존 날개(Vestigial Wings)",
-      "description": "<p>당신은 균형을 잡는 데 도움을 주는 작고 약한 날개를 지녔습니다. 곡예술 숙련도가 없더라도 @UUID[Compendium.pf2e.feats-srd.Item.CnqMJR8e9jqJR7MM]{안정된 균형}과 @UUID[Compendium.pf2e.feats-srd.Item.LQw0yIMDUJJkq1nD]{고양이 낙하} 기술 피트를 보너스 피트로 획득합니다.</p>",
+      "description": "<p>당신은 균형을 잡는 데 도움을 주는 작고 약한 날개를 지녔습니다. 곡예 숙련도가 없더라도 @UUID[Compendium.pf2e.feats-srd.Item.CnqMJR8e9jqJR7MM]{안정된 균형}과 @UUID[Compendium.pf2e.feats-srd.Item.LQw0yIMDUJJkq1nD]{고양이 낙하} 기술 피트를 보너스 피트로 획득합니다.</p>",
       "rules": [
         {
           "key": "GrantItem",
@@ -9623,7 +9623,7 @@
     },
     "Slippery Prey": {
       "name": "미끄러운 먹이(Slippery Prey)",
-      "description": "<p>당신은 다른 사람들보다 속박에서 더 쉽게 벗어날 수 있습니다. 곡예술이나 운동을 사용해 @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{탈출}을 시도할 때, 해당 기술에 숙련된 경우 반복 시도 시 발생하는 다중 공격 페널티를 -4와 -8로 줄입니다. 해당 기술에 마스터인 경우 페널티는 -3과 -6으로 감소합니다. 전설적인 숙련도를 가진 경우, 같은 턴에 여러 번 탈출을 시도해도 페널티를 받지 않습니다. 훈련 수준과 무관하게, 탈출 시도는 여전히 공격 특성을 가지며 다른 행동과 함께 다중 공격 페널티를 받습니다.</p>",
+      "description": "<p>당신은 다른 사람들보다 속박에서 더 쉽게 벗어날 수 있습니다. 곡예이나 운동을 사용해 @UUID[Compendium.pf2e.actionspf2e.Item.SkZAQRkLLkmBQNB9]{탈출}을 시도할 때, 해당 기술에 숙련된 경우 반복 시도 시 발생하는 다중 공격 페널티를 -4와 -8로 줄입니다. 해당 기술에 마스터인 경우 페널티는 -3과 -6으로 감소합니다. 전설적인 숙련도를 가진 경우, 같은 턴에 여러 번 탈출을 시도해도 페널티를 받지 않습니다. 훈련 수준과 무관하게, 탈출 시도는 여전히 공격 특성을 가지며 다른 행동과 함께 다중 공격 페널티를 받습니다.</p>",
       "traits": [
         "general",
         "skill"
@@ -9825,7 +9825,7 @@
     },
     "Dirty Trick": {
       "name": "더러운 속임수(Dirty Trick)",
-      "description": "<p><strong>요구 사항</strong> 빈 손이 자유롭고 상대방의 근접 공격 범위 내에 있어야 합니다.</p><hr /><p>상대의 신발끈을 묶거나, 모자를 눈 위로 당겨 내리거나, 허리띠를 풀거나, 그 밖의 비열한 수법으로 상대의 움직임을 방해한다. 대상의 반사력 DC에 대해 @Check[thievery|defense:reflex] 체크를 시도한다.</p><hr /><p><strong>대성공</strong> 대상은 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1} 상태가 되며, 상호작용 행동을 사용해 방해 효과를 해제할 때까지 지속됩니다.</p>\n<p><strong>성공</strong> 대성공과 동일하나, 1라운드 후 자동으로 종료됨.</p>\n<p><strong>대실패</strong> 시도가 역효과를 내며 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드린 상태}가 된다.</p>",
+      "description": "<p><strong>요구 사항</strong> 빈 손이 자유롭고 상대방의 근접 공격 범위 내에 있어야 합니다.</p><hr /><p>상대의 신발끈을 묶거나, 모자를 눈 위로 당겨 내리거나, 허리띠를 풀거나, 그 밖의 비열한 수법으로 상대의 움직임을 방해한다. 대상의 반사 DC에 대해 @Check[thievery|defense:reflex] 체크를 시도한다.</p><hr /><p><strong>대성공</strong> 대상은 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1} 상태가 되며, 상호작용 행동을 사용해 방해 효과를 해제할 때까지 지속됩니다.</p>\n<p><strong>성공</strong> 대성공과 동일하나, 1라운드 후 자동으로 종료됨.</p>\n<p><strong>대실패</strong> 시도가 역효과를 내며 @UUID[Compendium.pf2e.conditionitems.Item.j91X7x0XSomq8d60]{엎드린 상태}가 된다.</p>",
       "traits": [
         "attack",
         "general",
@@ -10640,7 +10640,7 @@
     },
     "Graceful Leaper": {
       "name": "우아한 도약자(Graceful Leaper)",
-      "description": "<p>공중을 가르는 순간, 체중과 근육은 무의미해집니다. 오직 우아함과 균형만이 중요할 뿐입니다.</p>\n<p>[[/act 높이뛰기 skill=곡예술]] 또는 [[/act 멀리뛰기 skill=곡예술]]을 수행할 때 운동 검사 대신 곡예술 검사를 굴릴 수 있다.</p>",
+      "description": "<p>공중을 가르는 순간, 체중과 근육은 무의미해집니다. 오직 우아함과 균형만이 중요할 뿐입니다.</p>\n<p>[[/act 높이뛰기 skill=곡예]] 또는 [[/act 멀리뛰기 skill=곡예]]을 수행할 때 운동 검사 대신 곡예 검사를 굴릴 수 있다.</p>",
       "traits": [
         "archetype",
         "skill"
@@ -14913,7 +14913,7 @@
     },
     "Physical Training": {
       "name": "신체 훈련(Physical Training)",
-      "description": "<p>당신은 신체적 체력에 포커스를 두는 데 많은 시간을 보냅니다. 곡예술과 운동 숙련도 등급이 전문가에서 마스터로 상승합니다.</p>",
+      "description": "<p>당신은 신체적 체력에 포커스를 두는 데 많은 시간을 보냅니다. 곡예과 운동 숙련도 등급이 전문가에서 마스터로 상승합니다.</p>",
       "rules": [
         {
           "key": "ActiveEffectLike",
@@ -15828,7 +15828,7 @@
     },
     "Tough Tumbler": {
       "name": "강인한 낙하술(Tough Tumbler)",
-      "description": "<p>전장을 누비며 수많은 타격을 견뎌온 당신은 기회주의적 공격자들로부터 자신을 방어하는 법을 알고 있습니다. 적의 공간을 회피 돌파하기 위한 곡예술 체크에 대실패를 하거나(또는 그 공간을 완전히 통과할 만큼의 속도가 부족할 때)만 당신의 이동이 종료됩니다. 회피 돌파를 실패해도 여전히 반응을 유발하지만, 이 방식으로 유발한 공격에 대해 AC에 +1 상황 보너스를 얻습니다.</p>",
+      "description": "<p>전장을 누비며 수많은 타격을 견뎌온 당신은 기회주의적 공격자들로부터 자신을 방어하는 법을 알고 있습니다. 적의 공간을 회피 돌파하기 위한 곡예 체크에 대실패를 하거나(또는 그 공간을 완전히 통과할 만큼의 속도가 부족할 때)만 당신의 이동이 종료됩니다. 회피 돌파를 실패해도 여전히 반응을 유발하지만, 이 방식으로 유발한 공격에 대해 AC에 +1 상황 보너스를 얻습니다.</p>",
       "traits": [
         "shoony"
       ]
@@ -20558,7 +20558,7 @@
     },
     "Twirl Through": {
       "name": "회전 돌파(Twirl Through)",
-      "description": "<p>수년간 동료 무용수들과 완벽한 간격으로 움직임을 조율하며 연마한 날렵한 동작으로 전장을 가로지른다. 적의 공간을 @UUID[Compendium.pf2e.actionspf2e.Item.21WIfSu7Xd7uKqV8]{회피 돌파} 시도할 때, 곡예술 대신 [[/act tumble-through skill=performance]]{공연}를 사용할 수 있다.</p>",
+      "description": "<p>수년간 동료 무용수들과 완벽한 간격으로 움직임을 조율하며 연마한 날렵한 동작으로 전장을 가로지른다. 적의 공간을 @UUID[Compendium.pf2e.actionspf2e.Item.21WIfSu7Xd7uKqV8]{회피 돌파} 시도할 때, 곡예 대신 [[/act tumble-through skill=performance]]{공연}를 사용할 수 있다.</p>",
       "traits": [
         "archetype",
         "skill"
@@ -30447,7 +30447,7 @@
     },
     "Additional Circus Trick": {
       "name": "추가 서커스 기술(Additional Circus Trick)",
-      "description": "<p>당신의 시그니처 트릭은 일반적인 수를 초과하여 하나의 추가 특성을 가질 수 있습니다. 해당 트릭 특성에 연관된 스킬(예: 불 특성과 협박)이 있고, 그 스킬이 당신의 트릭 체크 중 하나라면, 다른 스킬을 사용하여 트릭을 수행할 때 해당 스킬로 트릭 체크를 할 때 페널티를 받지 않습니다. 예를 들어, 시그니처 트릭의 트릭 체크로 곡예술과 협박술을 사용하며 이 피트를 선택해 불 속성을 추가한 경우, 곡예술 을 사용해 트릭을 수행할 때 페널티 없이, 다시 곡예술을 사용하면 -5 페널티를 받고, 마지막으로 협박술을 사용하면 페널티 없이 트릭을 수행할 수 있습니다.</p>",
+      "description": "<p>당신의 시그니처 트릭은 일반적인 수를 초과하여 하나의 추가 특성을 가질 수 있습니다. 해당 트릭 특성에 연관된 스킬(예: 불 특성과 협박)이 있고, 그 스킬이 당신의 트릭 체크 중 하나라면, 다른 스킬을 사용하여 트릭을 수행할 때 해당 스킬로 트릭 체크를 할 때 페널티를 받지 않습니다. 예를 들어, 시그니처 트릭의 트릭 체크로 곡예과 협박술을 사용하며 이 피트를 선택해 불 속성을 추가한 경우, 곡예 을 사용해 트릭을 수행할 때 페널티 없이, 다시 곡예을 사용하면 -5 페널티를 받고, 마지막으로 협박술을 사용하면 페널티 없이 트릭을 수행할 수 있습니다.</p>",
       "traits": [
         "circus",
         "general"
@@ -30884,7 +30884,7 @@
     },
     "Strix Lore": {
       "name": "스트릭스 로어(Strix Lore)",
-      "description": "<p>당신은 자신의 부족은 물론 다른 스트릭스 공동체와도 긴밀히 연결되어 있으며, 그곳에서 땅에 대한 지식과 우아한 움직임의 기술을 배웠습니다. 당신은 곡예술과 자연에 숙련된 숙련도 등급을 얻습니다. 만약 배경이나 직업 등으로 인해 해당 기술 중 하나에 자동으로 숙련이 부여된다면, 대신 선택한 기술 하나에 숙련이 부여됩니다. 또한 스트릭스 로어에 숙련이 부여됩니다.</p>",
+      "description": "<p>당신은 자신의 부족은 물론 다른 스트릭스 공동체와도 긴밀히 연결되어 있으며, 그곳에서 땅에 대한 지식과 우아한 움직임의 기술을 배웠습니다. 당신은 곡예과 자연에 숙련된 숙련도 등급을 얻습니다. 만약 배경이나 직업 등으로 인해 해당 기술 중 하나에 자동으로 숙련이 부여된다면, 대신 선택한 기술 하나에 숙련이 부여됩니다. 또한 스트릭스 로어에 숙련이 부여됩니다.</p>",
       "rules": [
         {
           "key": "ActiveEffectLike",
@@ -44478,7 +44478,7 @@
     },
     "Legs of Stone": {
       "name": "돌다리(Legs of Stone)",
-      "description": "<p>당신은 자신을 @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{밀치기}하거나 @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{넘어뜨리기}하려는 시도에 대해 인내 및 반사력 DC에 +2 상태 보너스를 얻습니다. 손이 자유롭지 않아도 생물을 밀어낼 수 있습니다. 적을 성공적으로 밀어낸 경우, 상대방 쪽이 아닌 반대 방향으로 일반 이동(Stride)으로 이동할 수 있지만, 밀어낸 거리만큼 반대 방향으로 이동해야 합니다.</p>",
+      "description": "<p>당신은 자신을 @UUID[Compendium.pf2e.actionspf2e.Item.7blmbDrQFNfdT731]{밀치기}하거나 @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{넘어뜨리기}하려는 시도에 대해 인내 및 반사 DC에 +2 상태 보너스를 얻습니다. 손이 자유롭지 않아도 생물을 밀어낼 수 있습니다. 적을 성공적으로 밀어낸 경우, 상대방 쪽이 아닌 반대 방향으로 일반 이동(Stride)으로 이동할 수 있지만, 밀어낸 거리만큼 반대 방향으로 이동해야 합니다.</p>",
       "rules": [
         {
           "key": "FlatModifier",
@@ -45382,7 +45382,7 @@
     },
     "Steadying Stone": {
       "name": "안정의 돌(Steadying Stone)",
-      "description": "<p>대지는 당신에게 굽히지 않고 굳건히 버티는 법을 가르쳤습니다. 흙이나 바위로 이루어진 고르지 않은 지면에서 @UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]{균형 잡기}를 위한 곡예 체크에서 성공을 굴리면, 대신 대성공을 얻습니다.</p>\n<p>지상에 머무르는 동안, 밀치기나 걸려 넘어뜨리기에 대한 인내 또는 반사력 DC에 +2 상황 보너스를 얻습니다. 이 보너스는 당신을 쓰러뜨리려고 시도하는 주문이나 효과에 대한 내성 굴림에도 적용됩니다. 바위 드워프라면 이 보너스가 +3으로 증가합니다.</p>",
+      "description": "<p>대지는 당신에게 굽히지 않고 굳건히 버티는 법을 가르쳤습니다. 흙이나 바위로 이루어진 고르지 않은 지면에서 @UUID[Compendium.pf2e.actionspf2e.Item.M76ycLAqHoAgbcej]{균형 잡기}를 위한 곡예 체크에서 성공을 굴리면, 대신 대성공을 얻습니다.</p>\n<p>지상에 머무르는 동안, 밀치기나 걸려 넘어뜨리기에 대한 인내 또는 반사 DC에 +2 상황 보너스를 얻습니다. 이 보너스는 당신을 쓰러뜨리려고 시도하는 주문이나 효과에 대한 내성 굴림에도 적용됩니다. 바위 드워프라면 이 보너스가 +3으로 증가합니다.</p>",
       "traits": [
         "druid"
       ]
@@ -48571,7 +48571,7 @@
     },
     "Fierce Competitor": {
       "name": "맹렬한 경쟁자(Fierce Competitor)",
-      "description": "<p><strong>발동 빈도</strong> 하루에 한 번</p>\n<hr />\n<p>당신은 한 명의 아군에게 육체적 경쟁을 제안합니다. 이 경쟁은 곡예술 또는 운동 스킬의 특정 사용을 위한 특정 목표 달성을 포함해야 합니다. 예를 들어 @UUID[Compendium.pf2e.actionspf2e.Item.pprgrYQ1QnIDGZiy]{등반}으로 벽 꼭대기에 오르기, @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{넘어뜨리기} 특정 적을 넘어뜨리기, @UUID[Compendium.pf2e.actionspf2e.Item.JUvAvruz7yRQXfz2]{멀리뛰기} 협곡 건너뛰기 등. 당신과 선택한 아군은 1분 동안 또는 도전 중 한 쪽이 승리할 때까지, 먼저 도달하는 시점까지 해당 기술 체크에서 +2 상황 보너스를 얻습니다. 이 경쟁에서 승리하면 1시간 동안 협박 체크에서 +2 상태 보너스를 얻습니다.</p>",
+      "description": "<p><strong>발동 빈도</strong> 하루에 한 번</p>\n<hr />\n<p>당신은 한 명의 아군에게 육체적 경쟁을 제안합니다. 이 경쟁은 곡예 또는 운동 스킬의 특정 사용을 위한 특정 목표 달성을 포함해야 합니다. 예를 들어 @UUID[Compendium.pf2e.actionspf2e.Item.pprgrYQ1QnIDGZiy]{등반}으로 벽 꼭대기에 오르기, @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{넘어뜨리기} 특정 적을 넘어뜨리기, @UUID[Compendium.pf2e.actionspf2e.Item.JUvAvruz7yRQXfz2]{멀리뛰기} 협곡 건너뛰기 등. 당신과 선택한 아군은 1분 동안 또는 도전 중 한 쪽이 승리할 때까지, 먼저 도달하는 시점까지 해당 기술 체크에서 +2 상황 보너스를 얻습니다. 이 경쟁에서 승리하면 1시간 동안 협박 체크에서 +2 상태 보너스를 얻습니다.</p>",
       "traits": [
         "centaur",
         "mental"
@@ -49073,7 +49073,7 @@
     },
     "Tamper": {
       "name": "조작(Tamper)",
-      "description": "<p>빈 손으로 적의 무기나 갑옷을 조작합니다. 자신의 도달 범위 내에 있는 적이 들고 있는 무기나 입고 있는 갑옷 중 하나를 선택하세요. 적의 반사력 DC에 대해 @Check[crafting|against:reflex] 체크를 시도합니다.</p>\n<hr />\n<p><strong>대성공</strong> 당신의 방해는 놀라울 정도로 효과적이다. 무기를 조작한 경우, 적의 해당 무기 공격 굴림과 피해 굴림에 -2 상황 페널티가 적용됩니다. 갑옷을 조작한 경우, 갑옷이 적의 이동을 방해하여 적을 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드}로 만들고 이동 속도에 -10피트 페널티를 가합니다. 효과 지속 시간은 적군이 이를 제거하기 위해 상호작용할 때까지이며, 사용한 유형에 관계없이 동일합니다. @UUID[Compendium.pf2e.feat-effects.Item.rzcpTJU9MvW1x1gz]{효과: 방어구 조작 (대성공)} @UUID[Compendium.pf2e.feat-effects.Item.o7qm13OmaYOMwgib]{효과: 무기 조작 (대성공)}</p>\n<p><strong>대성공</strong> 당신의 조작은 일시적으로 유효합니다. 대성공과 동일하지만, 적의 상호작용 없이도 다음 턴 시작 시 효과가 종료됩니다. @UUID[Compendium.pf2e.feat-effects.Item.IfRkgjyh0JzGalIy]{효과: 방어구 조작 (성공)} @UUID[Compendium.pf2e.feat-effects.Item.4QWayYR3JSL9bk2T]{효과: 무기 조작 (성공)}</p>\n<p><strong>대실패</strong> 당신의 조작이 역효과를 내며, 자신의 도구나 장비에서 작은 폭발이 발생합니다. 당신은 @Damage[(@actor.level)[fire]]{레벨에 해당하는 화염 피해를 입습니다}.</p>",
+      "description": "<p>빈 손으로 적의 무기나 갑옷을 조작합니다. 자신의 도달 범위 내에 있는 적이 들고 있는 무기나 입고 있는 갑옷 중 하나를 선택하세요. 적의 반사 DC에 대해 @Check[crafting|against:reflex] 체크를 시도합니다.</p>\n<hr />\n<p><strong>대성공</strong> 당신의 방해는 놀라울 정도로 효과적이다. 무기를 조작한 경우, 적의 해당 무기 공격 굴림과 피해 굴림에 -2 상황 페널티가 적용됩니다. 갑옷을 조작한 경우, 갑옷이 적의 이동을 방해하여 적을 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드}로 만들고 이동 속도에 -10피트 페널티를 가합니다. 효과 지속 시간은 적군이 이를 제거하기 위해 상호작용할 때까지이며, 사용한 유형에 관계없이 동일합니다. @UUID[Compendium.pf2e.feat-effects.Item.rzcpTJU9MvW1x1gz]{효과: 방어구 조작 (대성공)} @UUID[Compendium.pf2e.feat-effects.Item.o7qm13OmaYOMwgib]{효과: 무기 조작 (대성공)}</p>\n<p><strong>대성공</strong> 당신의 조작은 일시적으로 유효합니다. 대성공과 동일하지만, 적의 상호작용 없이도 다음 턴 시작 시 효과가 종료됩니다. @UUID[Compendium.pf2e.feat-effects.Item.IfRkgjyh0JzGalIy]{효과: 방어구 조작 (성공)} @UUID[Compendium.pf2e.feat-effects.Item.4QWayYR3JSL9bk2T]{효과: 무기 조작 (성공)}</p>\n<p><strong>대실패</strong> 당신의 조작이 역효과를 내며, 자신의 도구나 장비에서 작은 폭발이 발생합니다. 당신은 @Damage[(@actor.level)[fire]]{레벨에 해당하는 화염 피해를 입습니다}.</p>",
       "traits": [
         "inventor",
         "manipulate"
@@ -53842,7 +53842,7 @@
     },
     "Provocator Dedication": {
       "name": "도발자 헌신(Provocator Dedication)",
-      "description": "<p><strong>접근</strong> 이로리움의 에버아크를 성공적으로 격파하라.</p><hr /><p>당신에게 싸움은 기술만큼이나 스타일이 중요합니다. 당신은 단순 무기, 무술 무기, 그리고 선택한 고급 무기 하나를 숙달하게 됩니다. 선택한 고급 무기로 공격 굴림에 대성공을 거둘 경우, 해당 무기의 치명타 특화 효과도 적용됩니다. 당신은 공연술과 곡예술 또는 운동술 중 하나를 선택해 전문가가 됩니다. 만약 이 세 가지 기술 모두에 전문가가 되었다면, 대신 선택한 기술 하나에 전문가가 됩니다.</p>\n<p>@UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.XLug8rxIe1KPX6Nf]{Provocator}</p>",
+      "description": "<p><strong>접근</strong> 이로리움의 에버아크를 성공적으로 격파하라.</p><hr /><p>당신에게 싸움은 기술만큼이나 스타일이 중요합니다. 당신은 단순 무기, 무술 무기, 그리고 선택한 고급 무기 하나를 숙달하게 됩니다. 선택한 고급 무기로 공격 굴림에 대성공을 거둘 경우, 해당 무기의 치명타 특화 효과도 적용됩니다. 당신은 공연술과 곡예 또는 운동술 중 하나를 선택해 전문가가 됩니다. 만약 이 세 가지 기술 모두에 전문가가 되었다면, 대신 선택한 기술 하나에 전문가가 됩니다.</p>\n<p>@UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.XLug8rxIe1KPX6Nf]{Provocator}</p>",
       "rules": [
         {
           "key": "ActiveEffectLike",
@@ -61279,7 +61279,7 @@
     },
     "Jalmeri Heavenseeker Dedication": {
       "name": "잘메리 천상추구자 헌신(Jalmeri Heavenseeker Dedication)",
-      "description": "<p> 곡예술 또는 오컬트 중 하나에 숙련됩니다. 이미 두 기술 모두 숙련된 경우, 그 중 하나에 전문가 등급을 얻습니다. @UUID[Compendium.pf2e.feats-srd.Item.yA9tsWT9uzL2REnw]{기(氣) 주문} 몽크 피트를 획득합니다. 이 피트는 기 주문을 부여하며, 몽크가 @UUID[Compendium.pf2e.actionspf2e.Item.OSefkMgojBLqmRDh]{재집중} 행동을 통해 회복할 수 있는 1점의 포커스 풀을 제공합니다. 기 주술 피트를 이미 보유하고 있다면, 대신 1레벨 몽크 피트 하나를 선택할 수 있습니다.</p><hr /><p><strong>특수</strong> 다른 헌신 피트를 선택하려면 @UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.NaG4fy33coUdSFtH]{잘메리 천상추구자} 또는 @UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.EwlYs1OzaMj9BB5I]{완벽의 수련자} 아키타입에서 다른 두 피트를 획득해야 합니다.</p>",
+      "description": "<p> 곡예 또는 오컬트 중 하나에 숙련됩니다. 이미 두 기술 모두 숙련된 경우, 그 중 하나에 전문가 등급을 얻습니다. @UUID[Compendium.pf2e.feats-srd.Item.yA9tsWT9uzL2REnw]{기(氣) 주문} 몽크 피트를 획득합니다. 이 피트는 기 주문을 부여하며, 몽크가 @UUID[Compendium.pf2e.actionspf2e.Item.OSefkMgojBLqmRDh]{재집중} 행동을 통해 회복할 수 있는 1점의 포커스 풀을 제공합니다. 기 주술 피트를 이미 보유하고 있다면, 대신 1레벨 몽크 피트 하나를 선택할 수 있습니다.</p><hr /><p><strong>특수</strong> 다른 헌신 피트를 선택하려면 @UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.NaG4fy33coUdSFtH]{잘메리 천상추구자} 또는 @UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.EwlYs1OzaMj9BB5I]{완벽의 수련자} 아키타입에서 다른 두 피트를 획득해야 합니다.</p>",
       "rules": [
         {
           "adjustName": false,
@@ -62166,7 +62166,7 @@
     },
     "Acrobat Dedication": {
       "name": "곡예사 헌신(Acrobat Dedication)",
-      "description": "<p>당신은 곡예술의 전문가가 됩니다. 7레벨에 도약술의 마스터가 되고, 15레벨에 도약술의 전설이 됩니다. 적의 공간을 @UUID[Compendium.pf2e.actionspf2e.Item.21WIfSu7Xd7uKqV8]{회피 돌파}하기 위한 도약술 체크에서 대성공을 거둘 때마다, 적의 공간을 어려운 지형으로 간주하지 않습니다.</p>\n<p>@UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.rhDvoOHAhAlABiae]{곡예사}</p>",
+      "description": "<p>당신은 곡예의 전문가가 됩니다. 7레벨에 도약술의 마스터가 되고, 15레벨에 도약술의 전설이 됩니다. 적의 공간을 @UUID[Compendium.pf2e.actionspf2e.Item.21WIfSu7Xd7uKqV8]{회피 돌파}하기 위한 도약술 체크에서 대성공을 거둘 때마다, 적의 공간을 어려운 지형으로 간주하지 않습니다.</p>\n<p>@UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.rhDvoOHAhAlABiae]{곡예사}</p>",
       "rules": [
         {
           "key": "ActiveEffectLike",
@@ -66522,7 +66522,7 @@
     },
     "Daring Act": {
       "name": "대담한 행동(Daring Act)",
-      "description": "<p> 당신은 적의 주의를 분산시키기 위해 목숨을 건 기동을 시도합니다. 손이 닿는 범위 내의 적 하나를 선택하고, 대상의 반사력 DC에 대해 @Check[acrobatics|defense:reflex] 또는 @Check[athletics|defense:reflex] 중 하나를 시도합니다. 성공 시, 대상의 반응을 유발하지 않고 이동 속도의 절반까지(대성공 시 전체 속도까지) 이동할 수 있으며, 대상은 당신의 턴 종료 전까지 당신이 시도하는 다음 근접 공격에 대해 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 된다.</p>",
+      "description": "<p> 당신은 적의 주의를 분산시키기 위해 목숨을 건 기동을 시도합니다. 손이 닿는 범위 내의 적 하나를 선택하고, 대상의 반사 DC에 대해 @Check[acrobatics|defense:reflex] 또는 @Check[athletics|defense:reflex] 중 하나를 시도합니다. 성공 시, 대상의 반응을 유발하지 않고 이동 속도의 절반까지(대성공 시 전체 속도까지) 이동할 수 있으며, 대상은 당신의 턴 종료 전까지 당신이 시도하는 다음 근접 공격에 대해 @UUID[Compendium.pf2e.conditionitems.Item.AJh5ex99aV6VTggg]{오프 가드} 상태가 된다.</p>",
       "traits": [
         "archetype"
       ]
@@ -68914,7 +68914,7 @@
     },
     "Swashbuckler Dedication": {
       "name": "스워시버클러 헌신(Swashbuckler Dedication)",
-      "description": "<p>스워시버클러의 스타일을 선택합니다. 당신은 @UUID[Compendium.pf2e.classfeatures.Item.LzYi0OuOoypNb6jd]{파나슈} 클래스 특성을 얻으며, @UUID[Compendium.pf2e.actionspf2e.Item.21WIfSu7Xd7uKqV8]{회피 돌파} 및 선택한 스워시버클러 스타일에 명시된 모든 행동에 파나슈를 적용하여 파나슈를 획득할 수 있게 된다. 곡예술 또는 해당 스타일과 연관된 기술에 숙련된다. 두 기술 모두에 이미 숙련된 경우, 대신 선택한 기술 하나에 숙련된다. 또한 스워시버클러 클래스 DC에 숙련된다. 선택한 스타일의 다른 효과는 획득하지 않는다.</p>\n<p>@UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.k9Ebp52kt0ZLHtMl]{Swashbuckler}</p>",
+      "description": "<p>스워시버클러의 스타일을 선택합니다. 당신은 @UUID[Compendium.pf2e.classfeatures.Item.LzYi0OuOoypNb6jd]{파나슈} 클래스 특성을 얻으며, @UUID[Compendium.pf2e.actionspf2e.Item.21WIfSu7Xd7uKqV8]{회피 돌파} 및 선택한 스워시버클러 스타일에 명시된 모든 행동에 파나슈를 적용하여 파나슈를 획득할 수 있게 된다. 곡예 또는 해당 스타일과 연관된 기술에 숙련된다. 두 기술 모두에 이미 숙련된 경우, 대신 선택한 기술 하나에 숙련된다. 또한 스워시버클러 클래스 DC에 숙련된다. 선택한 스타일의 다른 효과는 획득하지 않는다.</p>\n<p>@UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.k9Ebp52kt0ZLHtMl]{Swashbuckler}</p>",
       "rules": [
         {
           "adjustName": false,
@@ -69146,7 +69146,7 @@
     },
     "Student of Perfection Dedication": {
       "name": "완벽의 제자 헌신(Student of Perfection Dedication)",
-      "description": "<p><strong>접근</strong> 당신은 잘메레이 출신입니다.</p><hr /><p>당신은 완벽의 가문에서 무술 기술을 익혔습니다. 곡예술 또는 운동과 전쟁 로어 중 하나를 선택하여 숙련됩니다. 이미 숙련된 경우, 대신 전문가가 됩니다. @UUID[Compendium.pf2e.feats-srd.Item.yA9tsWT9uzL2REnw]{기(氣) 주문} 몽크 클래스 피트를 획득합니다. 이 피트는 기(氣) 강타 기(氣) 주문을 부여하며, 몽크처럼 재집중 활동을 통해 회복할 수 있는 1점의 포커스 풀을 제공합니다. 완전함의 제자에서 얻은 기(氣) 주문은 오컬트 주문입니다.</p>\n<p>@UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.EwlYs1OzaMj9BB5I]{완벽의 수련자}</p>",
+      "description": "<p><strong>접근</strong> 당신은 잘메레이 출신입니다.</p><hr /><p>당신은 완벽의 가문에서 무술 기술을 익혔습니다. 곡예 또는 운동과 전쟁 로어 중 하나를 선택하여 숙련됩니다. 이미 숙련된 경우, 대신 전문가가 됩니다. @UUID[Compendium.pf2e.feats-srd.Item.yA9tsWT9uzL2REnw]{기(氣) 주문} 몽크 클래스 피트를 획득합니다. 이 피트는 기(氣) 강타 기(氣) 주문을 부여하며, 몽크처럼 재집중 활동을 통해 회복할 수 있는 1점의 포커스 풀을 제공합니다. 완전함의 제자에서 얻은 기(氣) 주문은 오컬트 주문입니다.</p>\n<p>@UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.EwlYs1OzaMj9BB5I]{완벽의 수련자}</p>",
       "rules": [
         {
           "key": "GrantItem",
@@ -80885,7 +80885,7 @@
     },
     "Reflective Ripple Stance": {
       "name": "반사 파동 자세(Reflective Ripple Stance)",
-      "description": "<p><strong>요구 사항</strong> 갑옷을 착용하지 않은 상태여야 합니다.</p><hr /><p>당신은 움직임과 공격에 따라 소량의 물이 흐르는 유연한 우아함의 자세를 취합니다. 흐르는 파도 공격을 가해 1d6 타격 피해를 입힐 수 있습니다. 이 공격은 난투 그룹에 속하며 기민한, 무장 해제, 기교, 비살상, 걸어 넘어뜨리기, 비무장, 물 속성 특성을 지닙니다. 반사적 물결 자세 상태에서는 다음 운동 체크 시 +1 상황 보너스를 얻습니다: @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{무장 해제}, @UUID[Compendium.pf2e.actionspf2e.Item.c8TGiZ48ygoSPofx]{수영}, 또는 @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{넘어뜨리기}에 대한 운동 능력 검사에서 +1 상황 보너스를 얻으며, {무장 해제}와 넘어뜨리기를 피하기 위한 반사력 DC에 +2 상황 보너스를 얻습니다.</p><hr /><p><strong>특수</strong> 이 피트는 신성 또는 오컬트 특성 중 하나를 선택하여 획득하며, 가능하다면 기(氣) 주문 전통과 일치시켜야 합니다.</p>",
+      "description": "<p><strong>요구 사항</strong> 갑옷을 착용하지 않은 상태여야 합니다.</p><hr /><p>당신은 움직임과 공격에 따라 소량의 물이 흐르는 유연한 우아함의 자세를 취합니다. 흐르는 파도 공격을 가해 1d6 타격 피해를 입힐 수 있습니다. 이 공격은 난투 그룹에 속하며 기민한, 무장 해제, 기교, 비살상, 걸어 넘어뜨리기, 비무장, 물 속성 특성을 지닙니다. 반사적 물결 자세 상태에서는 다음 운동 체크 시 +1 상황 보너스를 얻습니다: @UUID[Compendium.pf2e.actionspf2e.Item.Dt6B1slsBy8ipJu9]{무장 해제}, @UUID[Compendium.pf2e.actionspf2e.Item.c8TGiZ48ygoSPofx]{수영}, 또는 @UUID[Compendium.pf2e.actionspf2e.Item.ge56Lu1xXVFYUnLP]{넘어뜨리기}에 대한 운동 능력 검사에서 +1 상황 보너스를 얻으며, {무장 해제}와 넘어뜨리기를 피하기 위한 반사 DC에 +2 상황 보너스를 얻습니다.</p><hr /><p><strong>특수</strong> 이 피트는 신성 또는 오컬트 특성 중 하나를 선택하여 획득하며, 가능하다면 기(氣) 주문 전통과 일치시켜야 합니다.</p>",
       "traits": [
         "monk",
         "stance",
@@ -84313,7 +84313,7 @@
     },
     "Fighter Dedication": {
       "name": "파이터 헌신(Fighter Dedication)",
-      "description": "<p>무술 무기 숙련을 획득합니다. 곡예술 또는 운동술 중 하나를 선택하여 숙련을 획득합니다. 이미 두 기술 모두 숙련 상태라면, 대신 선택한 기술 하나를 숙련합니다. 파이터 직업 DC 숙련을 획득합니다.</p>\n<p>@UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.inxtk4rYj2UZaytg]{Fighter}</p>",
+      "description": "<p>무술 무기 숙련을 획득합니다. 곡예 또는 운동술 중 하나를 선택하여 숙련을 획득합니다. 이미 두 기술 모두 숙련 상태라면, 대신 선택한 기술 하나를 숙련합니다. 파이터 직업 DC 숙련을 획득합니다.</p>\n<p>@UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.inxtk4rYj2UZaytg]{Fighter}</p>",
       "rules": [
         {
           "key": "ActiveEffectLike",
@@ -88733,7 +88733,7 @@
     },
     "Aldori Duelist Dedication": {
       "name": "알도리 결투사 헌신(Aldori Duelist Dedication)",
-      "description": "<p><strong>Access</strong> 당신은 부서진 땅 지역 출신입니다. </p> <hr /> <p> 알도리 결투사 훈련을 통해 무술 기술을 익히고 알도리 결투검에 대한 헌신도가 높아집니다. 곡예술 또는 운동 중 하나를 선택하여 숙련됩니다. 해당 기술에 이미 숙련된 경우, 대신 전문가가 됩니다. @UUID[Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x]{추가 로어} 피트를 결투 로어에 대해 획득합니다. 이미 결투 로어에 숙련된 경우, 선택한 로어 로어 하나에 숙련됩니다.</p>\n<p>알도리 결투용 쌍검에 대한 숙련이 있으며, 숙련도 목적상 이를 무술 무기로 취급합니다. @UUID[Compendium.pf2e.equipment-srd.Item.iSceAVMkVv1uKK7t]{알도리 결투용 쌍검}을 사용할 수 있게 됩니다.</p>",
+      "description": "<p><strong>Access</strong> 당신은 부서진 땅 지역 출신입니다. </p> <hr /> <p> 알도리 결투사 훈련을 통해 무술 기술을 익히고 알도리 결투검에 대한 헌신도가 높아집니다. 곡예 또는 운동 중 하나를 선택하여 숙련됩니다. 해당 기술에 이미 숙련된 경우, 대신 전문가가 됩니다. @UUID[Compendium.pf2e.feats-srd.Item.BocFD2KV0qgUC76x]{추가 로어} 피트를 결투 로어에 대해 획득합니다. 이미 결투 로어에 숙련된 경우, 선택한 로어 로어 하나에 숙련됩니다.</p>\n<p>알도리 결투용 쌍검에 대한 숙련이 있으며, 숙련도 목적상 이를 무술 무기로 취급합니다. @UUID[Compendium.pf2e.equipment-srd.Item.iSceAVMkVv1uKK7t]{알도리 결투용 쌍검}을 사용할 수 있게 됩니다.</p>",
       "rules": [
         {
           "adjustName": false,
@@ -92272,7 +92272,7 @@
     },
     "Monk Dedication": {
       "name": "몽크 헌신(Monk Dedication)",
-      "description": "<p>비무장 공격에 훈련을 받게 되며, @UUID[Compendium.pf2e.classfeatures.Item.SB8UJ8rZmvbcBweJ]{강력한 주먹} 클래스 특성을 얻습니다. 곡예술 또는 운동 중 하나를 선택하여 훈련을 받게 됩니다. 이미 두 기술 모두 훈련을 받은 경우, 원하는 기술 하나를 선택하여 훈련을 받게 됩니다. </p> 몽크 클래스 DC에 숙련됩니다.\n<p>@UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.5v7k1XWQxaP0DoGX]{Monk}</p>",
+      "description": "<p>비무장 공격에 훈련을 받게 되며, @UUID[Compendium.pf2e.classfeatures.Item.SB8UJ8rZmvbcBweJ]{강력한 주먹} 클래스 특성을 얻습니다. 곡예 또는 운동 중 하나를 선택하여 훈련을 받게 됩니다. 이미 두 기술 모두 훈련을 받은 경우, 원하는 기술 하나를 선택하여 훈련을 받게 됩니다. </p> 몽크 클래스 DC에 숙련됩니다.\n<p>@UUID[Compendium.pf2e.journals.JournalEntry.vx5FGEG34AxI2dow.JournalEntryPage.5v7k1XWQxaP0DoGX]{Monk}</p>",
       "rules": [
         {
           "key": "ActiveEffectLike",
@@ -104463,7 +104463,7 @@
     },
     "Upset Balance": {
       "name": "균형 무너짐(Upset Balance)",
-      "description": "<p><strong>발동 조건</strong> 근접 공격으로 피해를 입었을 때.</p>\n<p><strong>요구 사항</strong> 당신은 끈질긴 자세를 취하고 있습니다.</p>\n<hr />\n<p> 당신은 적의 공격을 받아내며, 몸과 갑옷의 무게를 이용해 상대를 휘청거리게 합니다. 대상의 반사력 DC에 대해 @Check[athletics|defense:reflex] 체크를 시도하십시오. 성공 시, 대상은 다음 턴이 끝날 때까지 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1} 상태가 됩니다(대성공 시 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 2}). 고정된 상태라면 이 체크에서 +2 상황 보너스를 얻습니다.</p>",
+      "description": "<p><strong>발동 조건</strong> 근접 공격으로 피해를 입었을 때.</p>\n<p><strong>요구 사항</strong> 당신은 끈질긴 자세를 취하고 있습니다.</p>\n<hr />\n<p> 당신은 적의 공격을 받아내며, 몸과 갑옷의 무게를 이용해 상대를 휘청거리게 합니다. 대상의 반사 DC에 대해 @Check[athletics|defense:reflex] 체크를 시도하십시오. 성공 시, 대상은 다음 턴이 끝날 때까지 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 1} 상태가 됩니다(대성공 시 @UUID[Compendium.pf2e.conditionitems.Item.i3OJZU2nk64Df3xm]{서투른 2}). 고정된 상태라면 이 체크에서 +2 상황 보너스를 얻습니다.</p>",
       "rules": [
         {
           "key": "FlatModifier",
