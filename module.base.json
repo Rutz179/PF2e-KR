@@ -1,0 +1,58 @@
+{
+  "id": "PF2e-KR",
+  "title": "Rutz's PF2e 한국어 번역 (Native Packs v2)",
+  "description": "PF2e 한국어 번역의 Native Compendium 빌드 버전. Babele 없이 한국어 mirror packs를 사용합니다.",
+  "version": "2.0.0-poc.2",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "styles": [
+    "styles/pf2e-kr.css"
+  ],
+  "authors": [
+    {
+      "name": "Rutz (rutz179)"
+    }
+  ],
+  "esmodules": [
+    "src/main.mjs"
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system"
+      }
+    ]
+  },
+  "languages": [
+    {
+      "lang": "ko",
+      "name": "ko",
+      "path": "lang/ko.json",
+      "flags": {}
+    },
+    {
+      "lang": "ko",
+      "name": "re-ko",
+      "path": "lang/re-ko.json",
+      "flags": {}
+    },
+    {
+      "lang": "ko",
+      "name": "actions-ko",
+      "path": "lang/action-ko.json",
+      "flags": {}
+    },
+    {
+      "lang": "ko",
+      "name": "kingmaker-ko",
+      "path": "lang/kingmaker-ko.json",
+      "flags": {}
+    }
+  ],
+  "packs": [],
+  "packFolders": [],
+  "url": "https://github.com/Rutz179/PF2e-KR"
+}

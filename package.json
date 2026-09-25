@@ -1,0 +1,23 @@
+{
+  "name": "pf2e-kr",
+  "version": "2.0.0-poc.2",
+  "private": true,
+  "type": "module",
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build:core": "node tools/build-all.mjs --core",
+    "build:all": "node tools/build-all.mjs --all",
+    "build:pack": "node tools/build-pack.mjs",
+    "manifest": "node tools/generate-manifest.mjs",
+    "check": "node tools/check-build.mjs",
+    "clean": "node tools/clean.mjs",
+    "deploy": "node tools/deploy.mjs",
+    "release": "node tools/release.mjs",
+    "studio": "node tools/studio/server.mjs"
+  },
+  "dependencies": {
+    "@foundryvtt/foundryvtt-cli": "^1.0.3"
+  }
+}

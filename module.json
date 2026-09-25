@@ -1,0 +1,1259 @@
+{
+  "id": "PF2e-KR",
+  "title": "Rutz's PF2e 한국어 번역 (Native Packs v2)",
+  "description": "PF2e 한국어 번역의 Native Compendium 빌드 버전. Babele 없이 한국어 mirror packs를 사용합니다.",
+  "version": "2.0.0-poc.2",
+  "compatibility": {
+    "minimum": "14",
+    "verified": "14"
+  },
+  "styles": [
+    "styles/pf2e-kr.css"
+  ],
+  "authors": [
+    {
+      "name": "Rutz (rutz179)"
+    }
+  ],
+  "esmodules": [
+    "src/main.mjs"
+  ],
+  "relationships": {
+    "systems": [
+      {
+        "id": "pf2e",
+        "type": "system"
+      }
+    ]
+  },
+  "languages": [
+    {
+      "lang": "ko",
+      "name": "ko",
+      "path": "lang/ko.json",
+      "flags": {}
+    },
+    {
+      "lang": "ko",
+      "name": "re-ko",
+      "path": "lang/re-ko.json",
+      "flags": {}
+    },
+    {
+      "lang": "ko",
+      "name": "actions-ko",
+      "path": "lang/action-ko.json",
+      "flags": {}
+    },
+    {
+      "lang": "ko",
+      "name": "kingmaker-ko",
+      "path": "lang/kingmaker-ko.json",
+      "flags": {}
+    }
+  ],
+  "packs": [
+    {
+      "name": "abomination-vaults-bestiary",
+      "label": "PF2e-KR | 어보미네이션 볼트",
+      "path": "packs/abomination-vaults-bestiary",
+      "type": "Actor",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "action-macros",
+      "label": "PF2e-KR | 액션 매크로",
+      "path": "packs/action-macros",
+      "type": "Macro",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/orange.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "actionspf2e",
+      "label": "PF2e-KR | 액션",
+      "path": "packs/actionspf2e",
+      "type": "Item",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/green.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "adventure-specific-actions",
+      "label": "PF2e-KR | 특정 어드벤처 전용 액션",
+      "path": "packs/adventure-specific-actions",
+      "type": "Item",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/green.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "age-of-ashes-bestiary",
+      "label": "PF2e-KR | 재의 시대",
+      "path": "packs/age-of-ashes-bestiary",
+      "type": "Actor",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "agents-of-edgewatch-bestiary",
+      "label": "PF2e-KR | 에지워치의 요원들",
+      "path": "packs/agents-of-edgewatch-bestiary",
+      "type": "Actor",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "ancestries",
+      "label": "PF2e-KR | 조상",
+      "path": "packs/ancestries",
+      "type": "Item",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/green.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "ancestryfeatures",
+      "label": "PF2e-KR | 조상 피트",
+      "path": "packs/ancestryfeatures",
+      "type": "Item",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/green.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "backgrounds",
+      "label": "PF2e-KR | 배경",
+      "path": "packs/backgrounds",
+      "type": "Item",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/green.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "battlecry-bestiary",
+      "label": "PF2e-KR | 배틀크라이",
+      "path": "packs/battlecry-bestiary",
+      "type": "Actor",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "bestiary-ability-glossary-srd",
+      "label": "PF2e-KR | Bestiary Ability Glossary",
+      "path": "packs/bestiary-ability-glossary-srd",
+      "type": "Item",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/green.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "bestiary-effects",
+      "label": "PF2e-KR | Bestiary Effects",
+      "path": "packs/bestiary-effects",
+      "type": "Item",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/blue.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "bestiary-family-ability-glossary",
+      "label": "PF2e-KR | Creature Family Ability Glossary",
+      "path": "packs/bestiary-family-ability-glossary",
+      "type": "Item",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/green.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "blog-bestiary",
+      "label": "PF2e-KR | 괴물 도감",
+      "path": "packs/blog-bestiary",
+      "type": "Actor",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "blood-lords-bestiary",
+      "label": "PF2e-KR | 블러드 로드",
+      "path": "packs/blood-lords-bestiary",
+      "type": "Actor",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "book-of-the-dead-bestiary",
+      "label": "PF2e-KR | 죽은 자의 서",
+      "path": "packs/book-of-the-dead-bestiary",
+      "type": "Actor",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "boons-and-curses",
+      "label": "PF2e-KR | Divine Intercessions",
+      "path": "packs/boons-and-curses",
+      "type": "Item",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/blue.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "campaign-effects",
+      "label": "PF2e-KR | Campaign Effects",
+      "path": "packs/campaign-effects",
+      "type": "Item",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/blue.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "classes",
+      "label": "PF2e-KR | 클래스",
+      "path": "packs/classes",
+      "type": "Item",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/green.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "classfeatures",
+      "label": "PF2e-KR | 클래스 피트",
+      "path": "packs/classfeatures",
+      "type": "Item",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/green.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "claws-of-the-tyrant-bestiary",
+      "label": "PF2e-KR | 폭군의 발톱",
+      "path": "packs/claws-of-the-tyrant-bestiary",
+      "type": "Actor",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "conditionitems",
+      "label": "PF2e-KR | 상태효과",
+      "path": "packs/conditionitems",
+      "type": "Item",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/blue.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "criticaldeck",
+      "label": "PF2e-KR | 크리티컬 덱",
+      "path": "packs/criticaldeck",
+      "type": "JournalEntry",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/orange.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "crown-of-the-kobold-king-bestiary",
+      "label": "PF2e-KR | 코볼트 왕의 왕관",
+      "path": "packs/crown-of-the-kobold-king-bestiary",
+      "type": "Actor",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "curtain-call-bestiary",
+      "label": "PF2e-KR | 커튼 콜",
+      "path": "packs/curtain-call-bestiary",
+      "type": "Actor",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "deities",
+      "label": "PF2e-KR | 신성",
+      "path": "packs/deities",
+      "type": "Item",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/green.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "equipment-srd",
+      "label": "PF2e-KR | 장비",
+      "path": "packs/equipment-srd",
+      "type": "Item",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/green.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "extinction-curse-bestiary",
+      "label": "PF2e-KR | 멸종 저주",
+      "path": "packs/extinction-curse-bestiary",
+      "type": "Actor",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "fall-of-plaguestone-bestiary",
+      "label": "PF2e-KR | 플래그스톤의 몰락",
+      "path": "packs/fall-of-plaguestone-bestiary",
+      "type": "Actor",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "familiar-abilities",
+      "label": "PF2e-KR | 패밀리어 능력",
+      "path": "packs/familiar-abilities",
+      "type": "Item",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/green.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "feat-effects",
+      "label": "PF2e-KR | 피트 효과",
+      "path": "packs/feat-effects",
+      "type": "Item",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/blue.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "feats-srd",
+      "label": "PF2e-KR | 피트(재주)",
+      "path": "packs/feats-srd",
+      "type": "Item",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/green.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "fists-of-the-ruby-phoenix-bestiary",
+      "label": "PF2e-KR | 루비 피닉스의 주먹",
+      "path": "packs/fists-of-the-ruby-phoenix-bestiary",
+      "type": "Actor",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "gatewalkers-bestiary",
+      "label": "PF2e-KR | 게이트워커",
+      "path": "packs/gatewalkers-bestiary",
+      "type": "Actor",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "hazards",
+      "label": "PF2e-KR | 함정",
+      "path": "packs/hazards",
+      "type": "Actor",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "heritages",
+      "label": "PF2e-KR | 유산",
+      "path": "packs/heritages",
+      "type": "Item",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/green.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "howl-of-the-wild-bestiary",
+      "label": "PF2e-KR | 야생의 포효",
+      "path": "packs/howl-of-the-wild-bestiary",
+      "type": "Actor",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "journals",
+      "label": "PF2e-KR | 저널",
+      "path": "packs/journals",
+      "type": "JournalEntry",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/orange.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "lost-omens-bestiary",
+      "label": "PF2e-KR | 로스트 오멘",
+      "path": "packs/lost-omens-bestiary",
+      "type": "Actor",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "malevolence-bestiary",
+      "label": "PF2e-KR | 말레보렌스",
+      "path": "packs/malevolence-bestiary",
+      "type": "Actor",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "menace-under-otari-bestiary",
+      "label": "PF2e-KR | 오타리의 위협",
+      "path": "packs/menace-under-otari-bestiary",
+      "type": "Actor",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "myth-speaker-bestiary",
+      "label": "PF2e-KR | 미스 스피커",
+      "path": "packs/myth-speaker-bestiary",
+      "type": "Actor",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "night-of-the-gray-death-bestiary",
+      "label": "PF2e-KR | 회색 죽음의 밤 (Night of the gray Death)",
+      "path": "packs/night-of-the-gray-death-bestiary",
+      "type": "Actor",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "npc-gallery",
+      "label": "PF2e-KR | NPC 갤러리",
+      "path": "packs/npc-gallery",
+      "type": "Actor",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "one-shot-bestiary",
+      "label": "PF2e-KR | 단편 (One-Shot)",
+      "path": "packs/one-shot-bestiary",
+      "type": "Actor",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "other-effects",
+      "label": "PF2e-KR | Other Effects",
+      "path": "packs/other-effects",
+      "type": "Item",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/blue.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "outlaws-of-alkenstar-bestiary",
+      "label": "PF2e-KR | 알켄스터의 무법자들",
+      "path": "packs/outlaws-of-alkenstar-bestiary",
+      "type": "Actor",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "pathfinder-bestiary",
+      "label": "PF2e-KR | 괴물 도감 1",
+      "path": "packs/pathfinder-bestiary",
+      "type": "Actor",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "pathfinder-bestiary-2",
+      "label": "PF2e-KR | 괴물 도감 2",
+      "path": "packs/pathfinder-bestiary-2",
+      "type": "Actor",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "pathfinder-bestiary-3",
+      "label": "PF2e-KR | 괴물 도감 3",
+      "path": "packs/pathfinder-bestiary-3",
+      "type": "Actor",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "pathfinder-dark-archive",
+      "label": "PF2e-KR | 다크 아카이브",
+      "path": "packs/pathfinder-dark-archive",
+      "type": "Actor",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "pathfinder-monster-core",
+      "label": "PF2e-KR | 몬스터 코어",
+      "path": "packs/pathfinder-monster-core",
+      "type": "Actor",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "pathfinder-monster-core-2",
+      "label": "PF2e-KR | 몬스터 코어 2",
+      "path": "packs/pathfinder-monster-core-2",
+      "type": "Actor",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "pathfinder-npc-core",
+      "label": "PF2e-KR | NPC 코어",
+      "path": "packs/pathfinder-npc-core",
+      "type": "Actor",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "pathfinder-society-boons",
+      "label": "PF2e-KR | Pathfinder Society Boons",
+      "path": "packs/pathfinder-society-boons",
+      "type": "Item",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/blue.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "pf2e-macros",
+      "label": "PF2e-KR | PF2e Macros",
+      "path": "packs/pf2e-macros",
+      "type": "Macro",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/orange.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "pfs-introductions-bestiary",
+      "label": "PF2e-KR | Introduction",
+      "path": "packs/pfs-introductions-bestiary",
+      "type": "Actor",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "pfs-season-1-bestiary",
+      "label": "PF2e-KR | Season 1",
+      "path": "packs/pfs-season-1-bestiary",
+      "type": "Actor",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "pfs-season-2-bestiary",
+      "label": "PF2e-KR | Season 2",
+      "path": "packs/pfs-season-2-bestiary",
+      "type": "Actor",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "pfs-season-3-bestiary",
+      "label": "PF2e-KR | Season 3",
+      "path": "packs/pfs-season-3-bestiary",
+      "type": "Actor",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "pfs-season-4-bestiary",
+      "label": "PF2e-KR | Season 4",
+      "path": "packs/pfs-season-4-bestiary",
+      "type": "Actor",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "pfs-season-5-bestiary",
+      "label": "PF2e-KR | Season 5",
+      "path": "packs/pfs-season-5-bestiary",
+      "type": "Actor",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "pfs-season-6-bestiary",
+      "label": "PF2e-KR | Season 6",
+      "path": "packs/pfs-season-6-bestiary",
+      "type": "Actor",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "prey-for-death-bestiary",
+      "label": "PF2e-KR | 죽음의 먹이 (Prey for Death)",
+      "path": "packs/prey-for-death-bestiary",
+      "type": "Actor",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "quest-for-the-frozen-flame-bestiary",
+      "label": "PF2e-KR | Quest-for-the-Fozen-Flame",
+      "path": "packs/quest-for-the-frozen-flame-bestiary",
+      "type": "Actor",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "rage-of-elements-bestiary",
+      "label": "PF2e-KR | 원소의 분노",
+      "path": "packs/rage-of-elements-bestiary",
+      "type": "Actor",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "rusthenge-bestiary",
+      "label": "PF2e-KR | 러스트헨지",
+      "path": "packs/rusthenge-bestiary",
+      "type": "Actor",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "seven-dooms-for-sandpoint-bestiary",
+      "label": "PF2e-KR | 샌드포인트",
+      "path": "packs/seven-dooms-for-sandpoint-bestiary",
+      "type": "Actor",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "shadows-at-sundown-bestiary",
+      "label": "PF2e-KR | 해질녘의 그림자들 (Shadows at Sundown)",
+      "path": "packs/shadows-at-sundown-bestiary",
+      "type": "Actor",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "spell-effects",
+      "label": "PF2e-KR | Spell Effects",
+      "path": "packs/spell-effects",
+      "type": "Item",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/blue.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "spells-srd",
+      "label": "PF2e-KR | 주문",
+      "path": "packs/spells-srd",
+      "type": "Item",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/green.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "spore-war-bestiary",
+      "label": "PF2e-KR | 포자 전쟁",
+      "path": "packs/spore-war-bestiary",
+      "type": "Actor",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "strength-of-thousands-bestiary",
+      "label": "PF2e-KR | 천의 힘",
+      "path": "packs/strength-of-thousands-bestiary",
+      "type": "Actor",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "the-enmity-cycle-bestiary",
+      "label": "PF2e-KR | 적대감의 순환 (The enmity Cycle)",
+      "path": "packs/the-enmity-cycle-bestiary",
+      "type": "Actor",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "the-slithering-bestiary",
+      "label": "PF2e-KR | 슬리터링 (The Slithering)",
+      "path": "packs/the-slithering-bestiary",
+      "type": "Actor",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "triumph-of-the-tusk-bestiary",
+      "label": "PF2e-KR | Triumph-of-the-Tusk",
+      "path": "packs/triumph-of-the-tusk-bestiary",
+      "type": "Actor",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "troubles-in-otari-bestiary",
+      "label": "PF2e-KR | 오타리의 문제",
+      "path": "packs/troubles-in-otari-bestiary",
+      "type": "Actor",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "vehicles",
+      "label": "PF2e-KR | 차량",
+      "path": "packs/vehicles",
+      "type": "Actor",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "war-of-immortals-bestiary",
+      "label": "PF2e-KR | 불멸자들의 전쟁",
+      "path": "packs/war-of-immortals-bestiary",
+      "type": "Actor",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "wardens-of-wildwood-bestiary",
+      "label": "PF2e-KR | Wardens-of-Wildwood",
+      "path": "packs/wardens-of-wildwood-bestiary",
+      "type": "Actor",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "KR • Bestiaries",
+      "sorting": "m",
+      "packs": [
+        "pathfinder-bestiary",
+        "pathfinder-bestiary-2",
+        "pathfinder-bestiary-3",
+        "pathfinder-monster-core",
+        "pathfinder-monster-core-2",
+        "pathfinder-npc-core"
+      ],
+      "color": "#3b2524",
+      "folders": [
+        {
+          "name": "KR • Adventure Paths",
+          "sorting": "m",
+          "packs": [
+            "abomination-vaults-bestiary",
+            "age-of-ashes-bestiary",
+            "agents-of-edgewatch-bestiary",
+            "blood-lords-bestiary",
+            "curtain-call-bestiary",
+            "extinction-curse-bestiary",
+            "fists-of-the-ruby-phoenix-bestiary",
+            "gatewalkers-bestiary",
+            "outlaws-of-alkenstar-bestiary",
+            "myth-speaker-bestiary",
+            "quest-for-the-frozen-flame-bestiary",
+            "seven-dooms-for-sandpoint-bestiary",
+            "spore-war-bestiary",
+            "strength-of-thousands-bestiary",
+            "triumph-of-the-tusk-bestiary",
+            "wardens-of-wildwood-bestiary"
+          ],
+          "color": "#573938"
+        },
+        {
+          "name": "KR • Rulebooks",
+          "sorting": "m",
+          "packs": [
+            "battlecry-bestiary",
+            "pathfinder-dark-archive",
+            "book-of-the-dead-bestiary",
+            "rage-of-elements-bestiary",
+            "hazards",
+            "howl-of-the-wild-bestiary",
+            "lost-omens-bestiary",
+            "war-of-immortals-bestiary",
+            "npc-gallery",
+            "vehicles",
+            "blog-bestiary"
+          ],
+          "color": "#573938"
+        },
+        {
+          "name": "KR • Standalone Adventures",
+          "sorting": "m",
+          "packs": [
+            "claws-of-the-tyrant-bestiary",
+            "crown-of-the-kobold-king-bestiary",
+            "fall-of-plaguestone-bestiary",
+            "malevolence-bestiary",
+            "menace-under-otari-bestiary",
+            "night-of-the-gray-death-bestiary",
+            "one-shot-bestiary",
+            "prey-for-death-bestiary",
+            "rusthenge-bestiary",
+            "shadows-at-sundown-bestiary",
+            "the-enmity-cycle-bestiary",
+            "the-slithering-bestiary",
+            "troubles-in-otari-bestiary"
+          ],
+          "color": "#573938"
+        },
+        {
+          "name": "KR • Pathfinder Society",
+          "sorting": "m",
+          "packs": [
+            "pfs-introductions-bestiary",
+            "pfs-season-1-bestiary",
+            "pfs-season-2-bestiary",
+            "pfs-season-3-bestiary",
+            "pfs-season-4-bestiary",
+            "pfs-season-5-bestiary",
+            "pfs-season-6-bestiary"
+          ],
+          "color": "#573938"
+        }
+      ]
+    },
+    {
+      "name": "KR • Effects",
+      "sorting": "m",
+      "packs": [
+        "bestiary-effects",
+        "conditionitems",
+        "campaign-effects",
+        "feat-effects",
+        "other-effects",
+        "spell-effects"
+      ],
+      "color": "#2f3339"
+    },
+    {
+      "name": "KR • Character Building",
+      "sorting": "m",
+      "packs": [
+        "actionspf2e",
+        "ancestries",
+        "ancestryfeatures",
+        "backgrounds",
+        "classes",
+        "classfeatures",
+        "deities",
+        "equipment-srd",
+        "familiar-abilities",
+        "feats-srd",
+        "heritages",
+        "spells-srd"
+      ],
+      "color": "#343c33"
+    },
+    {
+      "name": "KR • GM Tools",
+      "sorting": "m",
+      "packs": [
+        "adventure-specific-actions",
+        "boons-and-curses",
+        "pathfinder-society-boons",
+        "bestiary-ability-glossary-srd",
+        "bestiary-family-ability-glossary"
+      ],
+      "color": "#181818"
+    },
+    {
+      "name": "KR • Macros",
+      "sorting": "m",
+      "packs": [
+        "action-macros",
+        "pf2e-macros"
+      ],
+      "color": "#181818"
+    },
+    {
+      "name": "KR • Journals",
+      "sorting": "m",
+      "packs": [
+        "criticaldeck",
+        "journals"
+      ],
+      "color": "#181818"
+    }
+  ],
+  "url": "https://github.com/Rutz179/PF2e-KR",
+  "flags": {
+    "PF2e-KR": {
+      "buildMode": "ko-en",
+      "packCount": 80,
+      "upstreamSystemVersion": "8.5.1"
+    }
+  }
+}

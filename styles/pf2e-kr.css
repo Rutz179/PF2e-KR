@@ -1,0 +1,101 @@
+/* ------------------------------------------------------------------------ */
+/* 0. 폰트 불러오기                                                           */
+/* ------------------------------------------------------------------------ */
+@import url('https://fonts.googleapis.com/css2?family=Gowun+Batang:wght@400;700&display=swap');
+
+/* ------------------------------------------------------------------------ */
+/* 1. 시스템 전체 폰트 교체                                                    */
+/* ------------------------------------------------------------------------ */
+/* :where() keeps this rule as weak as a plain "div" rule — the #hud exclusions
+   inside :not() would otherwise give it ID-level weight and override PF2e's
+   own font-weight/text-shadow (e.g. on chat cards). */
+body, p, select, option, textarea, .window-app,
+:where(input):where(:not(#hud *, #scene-controls *)),
+:where(div, span, button, label, header, a, li):where(:not([class*="fa-"], .fa, .fas, .far, .fab, .fad, .fal, .action-glyph, .pf2-icon, #hud, #hud *, #scene-controls, #scene-controls *)) {
+    font-family: 'Gowun Batang', serif !important;
+    font-weight: 700; 
+    text-shadow: 0 0 0.3px rgba(0,0,0,0.2); 
+    
+    word-break: keep-all;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* ------------------------------------------------------------------------ */
+/* 1-1.  볼드체 구분                                                          */
+/* ------------------------------------------------------------------------ */
+strong, b, h1, h2, h3, h4, h5, h6, th, .header {
+    font-family: 'Gowun Batang', serif !important;
+    font-weight: 700 !important; 
+    text-shadow: 0 0 0.5px rgb(0, 0, 0); 
+}
+
+/* ------------------------------------------------------------------------ */
+/* 1-2. 투명 태그(Transparent Tag) 색상 변경                                  */
+/* ------------------------------------------------------------------------ */
+span.tag.tag_transparent {
+    color: #1d4e89 !important;     
+    font-weight: 700 !important;
+    text-shadow: 0 0 0.3px #061220; 
+    font-size: 1.01em; /* 살짝 키움 */
+      background: rgba(252, 252, 252, 0.39) !important; 
+      border: 1px solid rgba(0,0,0,0.1) !important; 
+      border-radius: 3px; 
+}
+
+/* ------------------------------------------------------------------------ */
+/* 1-3. 아이템 이름                                                           */
+/* ------------------------------------------------------------------------ */
+span.tag.tag_transparent {
+    color: #1d4e89 !important;     
+    font-weight: 700 !important;
+    text-shadow: 0 0 0.3px #061220; 
+    font-size: 1.01em; /* 살짝 키움 */
+      background: rgba(252, 252, 252, 0.39) !important; 
+      border: 1px solid rgba(0,0,0,0.1) !important; 
+      border-radius: 3px; 
+}
+
+/* ------------------------------------------------------------------------ */
+/* 1-4. 트레잇 설명                                                           */
+/* ------------------------------------------------------------------------ */
+aside {
+    font-family: 'Gowun Batang', serif !important;
+    font-weight: 400; 
+    text-shadow: 0 0 0.3px rgba(0,0,0,0.2); 
+}
+
+/* ------------------------------------------------------------------------ */
+/* 2. 아이콘 폰트: 위 1번 규칙에서 아이콘을 제외했으므로 따로 지정하지 않음    */
+/*    (Foundry 기본 Font Awesome 규칙이 그대로 적용됨)                          */
+/* ------------------------------------------------------------------------ */
+
+/* ------------------------------------------------------------------------ */
+/* 3. PF2e 시스템 전용 아이콘 보호                                           */
+/* ------------------------------------------------------------------------ */
+.window-app .action-glyph, span.action-glyph,
+.window-app .pf2-icon {
+    font-family: "Pathfinder2eActions" !important;
+    text-shadow: none !important;
+}
+
+/* ------------------------------------------------------------------------ */
+/* 4. Foundry 결과 텍스트 색상 (성공/실패)                                    */
+/* ------------------------------------------------------------------------ */
+span.success, span.failure, span.adjusted, span.unadjusted, span[data-tooltip]:where(:not([class*="fa-"], .fa, .fas, .far, .fab, .fad, .fal, .action-glyph, .pf2-icon)) {
+  font-family: 'Gowun Batang', serif !important;
+  font-weight: 700 !important;
+}
+span.unadjusted, span.failure.unadjusted { text-decoration: line-through; color: #d00; }
+span.adjusted.success { color: #080; }
+span.adjusted.criticalSuccess { color: #006400; }
+span.adjusted.failure { color: #b22222; }
+span.adjusted.criticalFailure { color: #8b0000; }
+
+/* ------------------------------------------------------------------------ */
+/* 5. Foundry 채팅창 조정                                                    */
+/* ------------------------------------------------------------------------ */
+
+/* 채팅 메시지 내용의 줄 간격 조정 */
+.chat-message .message-content {
+    line-height: 1.6;  /* 숫자가 클수록 간격이 넓어집니다 (기본값은 보통 1.2~1.4) */
+}
