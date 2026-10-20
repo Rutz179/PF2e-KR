@@ -2,7 +2,7 @@
   "id": "PF2e-KR",
   "title": "Rutz's PF2e Korean Translation - 패파 한국어 번역",
   "description": "PF2e 한국어 번역의 Native Compendium 빌드 버전. Babele 없이 한국어 mirror packs를 사용합니다.",
-  "version": "2.0.1",
+  "version": "2.0.9",
   "compatibility": {
     "minimum": "14",
     "verified": "14"
@@ -166,6 +166,19 @@
       "banner": "systems/pf2e/assets/compendium-banner/green.webp",
       "ownership": {
         "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "bastion-of-blasphemies-bestiary",
+      "label": "PF2e-KR | Bastion of Blasphemies",
+      "path": "packs/bastion-of-blasphemies-bestiary",
+      "type": "Actor",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
         "ASSISTANT": "OWNER"
       },
       "flags": {}
@@ -379,12 +392,38 @@
       "flags": {}
     },
     {
+      "name": "dawn-of-the-frogs",
+      "label": "PF2e-KR | Pathfinder Game Night",
+      "path": "packs/dawn-of-the-frogs",
+      "type": "Actor",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
       "name": "deities",
       "label": "PF2e-KR | 신성",
       "path": "packs/deities",
       "type": "Item",
       "system": "pf2e",
       "banner": "systems/pf2e/assets/compendium-banner/green.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "equipment-effects",
+      "label": "PF2e-KR | Equipment Effects",
+      "path": "packs/equipment-effects",
+      "type": "Item",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/blue.webp",
       "ownership": {
         "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
@@ -509,6 +548,32 @@
       "flags": {}
     },
     {
+      "name": "hellbreakers-bestiary",
+      "label": "PF2e-KR | Hellbreakers",
+      "path": "packs/hellbreakers-bestiary",
+      "type": "Actor",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "hells-destiny-bestiary",
+      "label": "PF2e-KR | Hell's Destiny",
+      "path": "packs/hells-destiny-bestiary",
+      "type": "Actor",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
       "name": "heritages",
       "label": "PF2e-KR | 유산",
       "path": "packs/heritages",
@@ -535,10 +600,49 @@
       "flags": {}
     },
     {
+      "name": "iconics",
+      "label": "PF2e-KR | Iconics",
+      "path": "packs/iconics",
+      "type": "Actor",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
       "name": "journals",
       "label": "PF2e-KR | 저널",
       "path": "packs/journals",
       "type": "JournalEntry",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/orange.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "kingmaker-bestiary",
+      "label": "PF2e-KR | Kingmaker",
+      "path": "packs/kingmaker-bestiary",
+      "type": "Actor",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "kingmaker-features",
+      "label": "PF2e-KR | Kingmaker Features",
+      "path": "packs/kingmaker-features",
+      "type": "Item",
       "system": "pf2e",
       "banner": "systems/pf2e/assets/compendium-banner/orange.webp",
       "ownership": {
@@ -660,6 +764,19 @@
       "banner": "systems/pf2e/assets/compendium-banner/red.webp",
       "ownership": {
         "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "paizo-pregens",
+      "label": "PF2e-KR | Adventure Pregens",
+      "path": "packs/paizo-pregens",
+      "type": "Actor",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
         "ASSISTANT": "OWNER"
       },
       "flags": {}
@@ -873,6 +990,19 @@
       "flags": {}
     },
     {
+      "name": "pfs-season-7-bestiary",
+      "label": "PF2e-KR | Season 7",
+      "path": "packs/pfs-season-7-bestiary",
+      "type": "Actor",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
       "name": "prey-for-death-bestiary",
       "label": "PF2e-KR | 죽음의 먹이 (Prey for Death)",
       "path": "packs/prey-for-death-bestiary",
@@ -912,9 +1042,48 @@
       "flags": {}
     },
     {
+      "name": "revenge-of-the-runelords-bestiary",
+      "label": "PF2e-KR | Revenge of the Runelords",
+      "path": "packs/revenge-of-the-runelords-bestiary",
+      "type": "Actor",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "rollable-tables",
+      "label": "PF2e-KR | Rollable Tables",
+      "path": "packs/rollable-tables",
+      "type": "RollTable",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/orange.webp",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
       "name": "rusthenge-bestiary",
       "label": "PF2e-KR | 러스트헨지",
       "path": "packs/rusthenge-bestiary",
+      "type": "Actor",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "season-of-ghosts-bestiary",
+      "label": "PF2e-KR | Season of Ghosts",
+      "path": "packs/season-of-ghosts-bestiary",
       "type": "Actor",
       "system": "pf2e",
       "banner": "systems/pf2e/assets/compendium-banner/red.webp",
@@ -938,9 +1107,35 @@
       "flags": {}
     },
     {
+      "name": "shades-of-blood-bestiary",
+      "label": "PF2e-KR | Shades of Blood",
+      "path": "packs/shades-of-blood-bestiary",
+      "type": "Actor",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
       "name": "shadows-at-sundown-bestiary",
       "label": "PF2e-KR | 해질녘의 그림자들 (Shadows at Sundown)",
       "path": "packs/shadows-at-sundown-bestiary",
+      "type": "Actor",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "sky-kings-tomb-bestiary",
+      "label": "PF2e-KR | Sky King's Tomb",
+      "path": "packs/sky-kings-tomb-bestiary",
       "type": "Actor",
       "system": "pf2e",
       "banner": "systems/pf2e/assets/compendium-banner/red.webp",
@@ -990,9 +1185,35 @@
       "flags": {}
     },
     {
+      "name": "stolen-fate-bestiary",
+      "label": "PF2e-KR | Stolen Fate",
+      "path": "packs/stolen-fate-bestiary",
+      "type": "Actor",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
       "name": "strength-of-thousands-bestiary",
       "label": "PF2e-KR | 천의 힘",
       "path": "packs/strength-of-thousands-bestiary",
+      "type": "Actor",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "the-dead-gods-hand-bestiary",
+      "label": "PF2e-KR | The Dead God's Hand",
+      "path": "packs/the-dead-gods-hand-bestiary",
       "type": "Actor",
       "system": "pf2e",
       "banner": "systems/pf2e/assets/compendium-banner/red.webp",
@@ -1032,6 +1253,19 @@
       "name": "triumph-of-the-tusk-bestiary",
       "label": "PF2e-KR | Triumph-of-the-Tusk",
       "path": "packs/triumph-of-the-tusk-bestiary",
+      "type": "Actor",
+      "system": "pf2e",
+      "banner": "systems/pf2e/assets/compendium-banner/red.webp",
+      "ownership": {
+        "PLAYER": "LIMITED",
+        "ASSISTANT": "OWNER"
+      },
+      "flags": {}
+    },
+    {
+      "name": "troubles-in-grayce-bestiary",
+      "label": "PF2e-KR | Troubles in Grayce",
+      "path": "packs/troubles-in-grayce-bestiary",
       "type": "Actor",
       "system": "pf2e",
       "banner": "systems/pf2e/assets/compendium-banner/red.webp",
@@ -1115,17 +1349,26 @@
             "abomination-vaults-bestiary",
             "age-of-ashes-bestiary",
             "agents-of-edgewatch-bestiary",
+            "bastion-of-blasphemies-bestiary",
             "blood-lords-bestiary",
             "curtain-call-bestiary",
             "extinction-curse-bestiary",
             "fists-of-the-ruby-phoenix-bestiary",
             "gatewalkers-bestiary",
+            "hellbreakers-bestiary",
+            "hells-destiny-bestiary",
             "outlaws-of-alkenstar-bestiary",
+            "kingmaker-bestiary",
             "myth-speaker-bestiary",
             "quest-for-the-frozen-flame-bestiary",
+            "revenge-of-the-runelords-bestiary",
+            "season-of-ghosts-bestiary",
             "seven-dooms-for-sandpoint-bestiary",
+            "shades-of-blood-bestiary",
+            "sky-kings-tomb-bestiary",
             "spore-war-bestiary",
             "strength-of-thousands-bestiary",
+            "stolen-fate-bestiary",
             "triumph-of-the-tusk-bestiary",
             "wardens-of-wildwood-bestiary"
           ],
@@ -1155,6 +1398,7 @@
           "packs": [
             "claws-of-the-tyrant-bestiary",
             "crown-of-the-kobold-king-bestiary",
+            "dawn-of-the-frogs",
             "fall-of-plaguestone-bestiary",
             "malevolence-bestiary",
             "menace-under-otari-bestiary",
@@ -1163,8 +1407,10 @@
             "prey-for-death-bestiary",
             "rusthenge-bestiary",
             "shadows-at-sundown-bestiary",
+            "the-dead-gods-hand-bestiary",
             "the-enmity-cycle-bestiary",
             "the-slithering-bestiary",
+            "troubles-in-grayce-bestiary",
             "troubles-in-otari-bestiary"
           ],
           "color": "#573938"
@@ -1179,11 +1425,21 @@
             "pfs-season-3-bestiary",
             "pfs-season-4-bestiary",
             "pfs-season-5-bestiary",
-            "pfs-season-6-bestiary"
+            "pfs-season-6-bestiary",
+            "pfs-season-7-bestiary"
           ],
           "color": "#573938"
         }
       ]
+    },
+    {
+      "name": "KR • Pregenerated PCs",
+      "sorting": "m",
+      "packs": [
+        "iconics",
+        "paizo-pregens"
+      ],
+      "color": "#3b2524"
     },
     {
       "name": "KR • Effects",
@@ -1192,6 +1448,7 @@
         "bestiary-effects",
         "conditionitems",
         "campaign-effects",
+        "equipment-effects",
         "feat-effects",
         "other-effects",
         "spell-effects"
@@ -1213,7 +1470,8 @@
         "familiar-abilities",
         "feats-srd",
         "heritages",
-        "spells-srd"
+        "spells-srd",
+        "kingmaker-features"
       ],
       "color": "#343c33"
     },
@@ -1225,7 +1483,8 @@
         "boons-and-curses",
         "pathfinder-society-boons",
         "bestiary-ability-glossary-srd",
-        "bestiary-family-ability-glossary"
+        "bestiary-family-ability-glossary",
+        "rollable-tables"
       ],
       "color": "#181818"
     },
@@ -1250,12 +1509,12 @@
   ],
   "url": "https://github.com/Rutz179/PF2e-KR",
   "manifest": "https://github.com/Rutz179/PF2e-KR/releases/latest/download/module.json",
-  "download": "https://github.com/Rutz179/PF2e-KR/releases/download/v2.0.1/module.zip",
+  "download": "https://github.com/Rutz179/PF2e-KR/releases/download/v2.0.9/module.zip",
   "flags": {
     "PF2e-KR": {
       "buildMode": "ko-en",
-      "packCount": 80,
-      "upstreamSystemVersion": "8.5.1"
+      "packCount": 98,
+      "upstreamSystemVersion": "8.6.1"
     }
   }
 }
