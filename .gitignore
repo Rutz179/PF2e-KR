@@ -1,3 +1,12 @@
+# ── GitHub 저장소에는 소개 페이지만 올립니다 ───────────────
+# 모듈은 릴리스의 module.zip / module.json 으로 배포되므로, 저장소 첫 화면에는
+# README · LICENSE 만 보이게 합니다. 나머지(src, tools, lang, packs …)는 이 PC에만.
+/*
+!/.gitignore
+!/README.md
+!/LICENSE.md
+
+# ── 아래는 예전 목록 (위 규칙이 다 막지만, 혹시 몰라 남겨 둠) ──
 # ── 설치하면 다시 생기는 것 ─────────────────────────────
 node_modules/
 
@@ -17,13 +26,18 @@ deepl-tool/
 
 # ── 이 PC에서만 쓰는 설정 ───────────────────────────────
 tools/local.config.json
+tools/last-release.json
 .env
 *.env
 
-# 스튜디오 자동 백업
+# 스튜디오 자동 백업 · PF2e 원문 기록
 .studio-backup/
+.studio-state/
 
 # ── 기타 ────────────────────────────────────────────────
 .DS_Store
 Thumbs.db
 *.log
+
+# 개인 기록 (작업 안내·업데이트 로그) — 저장소에 올리지 않음
+.private/
